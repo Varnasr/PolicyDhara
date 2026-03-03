@@ -5,11 +5,23 @@ import ActivityHeatmap from '../components/ActivityHeatmap.astro';
 import Insights from '../components/Insights.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
-import { getAllPolicies, getMeta } from '../lib/data';
+import { getAllPolicies, getMeta, getSectorInsight, getSectorSlug } from '../lib/data';
 
 const policies = getAllPolicies();
 const meta = getMeta();
 const INITIAL_SHOW = 20;
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Sector summaries for the Sectors tab
+const sectorEntries = Object.entries(meta.sector_counts)
+  .sort(([, a], [, b]) => b - a);
+const sectorInsights = sectorEntries.map(([name]) => getSectorInsight(name));
+
+const TYPE_COLORS: Record<string, string> = {
+  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
+  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+};
 ---
 <Base title="Dashboard">
   <StatsBar
@@ -19,185 +31,477 @@ const INITIAL_SHOW = 20;
     lastUpdated={meta.last_updated}
   />
 
-  <ActivityHeatmap />
-  <Insights />
-
-  <div class="page-grid">
-    <Sidebar
-      sectorCounts={meta.sector_counts}
-      sourceCounts={meta.source_counts}
-    />
-
-    <section>
-      <div id="feed-status" class="visually-hidden" aria-live="polite"></div>
-
-      <div class="policy-feed" id="policy-feed">
-        {policies.length === 0 ? (
-          <div class="empty-state">
-            <h3>No policies fetched yet</h3>
-            <p>Run the pipeline or wait for the next GitHub Actions run.</p>
-          </div>
-        ) : (
-          policies.map((p, i) => (
-            <div class={`policy-card-wrap ${i >= INITIAL_SHOW ? 'hidden-card' : ''}`}>
-              <PolicyCard
-                id={p.id}
-                title={p.title}
-                description={p.description}
-                link={p.link}
-                date={p.date}
-                source_short={p.source_short}
-                sectors={p.sectors}
-                type={p.type}
-              />
-            </div>
-          ))
-        )}
-
-        {policies.length > INITIAL_SHOW && (
-          <div class="show-more-wrap" id="show-more-wrap">
-            <button class="btn btn-primary" id="show-more-btn">
-              Show More
-              <span id="remaining-count">({policies.length - INITIAL_SHOW} more)</span>
-            </button>
-          </div>
-        )}
-      </div>
-
-      <div id="no-results" class="empty-state" style="display:none;">
-        <h3>No matching policies</h3>
-        <p>Try adjusting your search or filters.</p>
-      </div>
-    </section>
+  {/* ── Tab Navigation ─────────────────────────────────── */}
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="overview">Overview</button>
+    <button class="tab-btn" data-tab="browse">Browse Policies</button>
+    <button class="tab-btn" data-tab="sectors">Sector Insights</button>
+    <a href={`${base}landscape/`} class="tab-btn tab-link">Policy Landscape</a>
   </div>
 
-  <style>
-    .policy-card-wrap { display: contents; }
-    .hidden-card > .policy-card { display: none; }
-  </style>
+  {/* ── Tab: Overview ──────────────────────────────────── */}
+  <div class="tab-panel active" id="tab-overview">
+    <ActivityHeatmap />
+    <Insights />
 
-  <script define:vars={{ INITIAL_SHOW }}>
-    document.addEventListener('DOMContentLoaded', () => {
-      const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
-      const cards = wraps.map(w => w.querySelector('.policy-card'));
-      const searchInput = document.getElementById('policy-search');
-      const noResults = document.getElementById('no-results');
-      const feedStatus = document.getElementById('feed-status');
-      const showMoreBtn = document.getElementById('show-more-btn');
-      const showMoreWrap = document.getElementById('show-more-wrap');
-      const remainingCount = document.getElementById('remaining-count');
+    {/* Recent highlights */}
+    <div class="section-header">
+      <h3>Recent Highlights</h3>
+      <p>Latest policy actions across all sectors</p>
+    </div>
+    <div class="policy-feed">
+      {policies.slice(0, 6).map(p => (
+        <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
+          date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
+      ))}
+    </div>
+    <div style="text-align:center; padding: var(--space-lg) 0;">
+      <button class="btn btn-secondary" id="goto-browse">View All Policies &rarr;</button>
+    </div>
+  </div>
 
-      let showCount = INITIAL_SHOW;
-      let activeSector = 'all';
-      let activeType = 'all';
-      let activeSource = 'all';
-      let searchQuery = '';
-      let isFiltering = false;
+  {/* ── Tab: Browse ────────────────────────────────────── */}
+  <div class="tab-panel" id="tab-browse">
+    <div class="page-grid">
+      <Sidebar
+        sectorCounts={meta.sector_counts}
+        sourceCounts={meta.source_counts}
+      />
+      <section>
+        <div id="feed-status" class="visually-hidden" aria-live="polite"></div>
+        <div class="policy-feed" id="policy-feed">
+          {policies.length === 0 ? (
+            <div class="empty-state">
+              <h3>No policies fetched yet</h3>
+              <p>Run the pipeline or wait for the next GitHub Actions run.</p>
+            </div>
+          ) : (
+            policies.map((p, i) => (
+              <div class={`policy-card-wrap ${i >= INITIAL_SHOW ? 'hidden-card' : ''}`}>
+                <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
+                  date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
+              </div>
+            ))
+          )}
+          {policies.length > INITIAL_SHOW && (
+            <div class="show-more-wrap" id="show-more-wrap">
+              <button class="btn btn-primary" id="show-more-btn">
+                Show More <span id="remaining-count">({policies.length - INITIAL_SHOW} more)</span>
+              </button>
+            </div>
+          )}
+        </div>
+        <div id="no-results" class="empty-state" style="display:none;">
+          <h3>No matching policies</h3>
+          <p>Try adjusting your search or filters.</p>
+        </div>
+      </section>
+    </div>
+  </div>
 
-      function applyFilters() {
-        let visibleCount = 0;
-        let totalMatching = 0;
+  {/* ── Tab: Sector Insights ───────────────────────────── */}
+  <div class="tab-panel" id="tab-sectors">
+    <div class="section-header">
+      <h3>Sector Insights</h3>
+      <p>Auto-generated analysis for each development sector based on tracked policy data</p>
+    </div>
 
-        isFiltering = activeSector !== 'all' || activeType !== 'all' || activeSource !== 'all' || searchQuery !== '';
+    <div class="sector-insights-grid">
+      {sectorInsights.map(si => (
+        <div class="si-card">
+          <div class="si-header">
+            <a href={`${base}sectors/${si.slug}/`} class="si-name">{si.name}</a>
+            <span class="si-total">{si.total}</span>
+          </div>
 
-        for (let i = 0; i < cards.length; i++) {
-          const card = cards[i];
-          if (!card) continue;
-          const sectors = JSON.parse(card.dataset.sectors || '[]');
-          const type = card.dataset.type || '';
-          const source = card.dataset.source || '';
-          const text = card.textContent?.toLowerCase() || '';
+          {/* Recent activity */}
+          <div class="si-recent">
+            <span class="si-recent-num">{si.recentCount}</span> new in last 30 days
+          </div>
 
-          const matchSector = activeSector === 'all' || sectors.includes(activeSector);
-          const matchType = activeType === 'all' || type === activeType;
-          const matchSource = activeSource === 'all' || source === activeSource;
-          const matchSearch = !searchQuery || text.includes(searchQuery.toLowerCase());
+          {/* Type breakdown mini-bars */}
+          <div class="si-types">
+            {si.typeBreakdown.slice(0, 4).map(t => (
+              <div class="si-type-row">
+                <span class="si-type-dot" style={`background: ${TYPE_COLORS[t.type] || '#888'};`}></span>
+                <span class="si-type-label">{t.type}</span>
+                <span class="si-type-count">{t.count}</span>
+              </div>
+            ))}
+          </div>
 
-          const matches = matchSector && matchType && matchSource && matchSearch;
+          {/* Top sources */}
+          <div class="si-sources">
+            {si.topSources.map(s => (
+              <span class="si-source-tag">{s.source}</span>
+            ))}
+          </div>
 
-          if (matches) {
-            totalMatching++;
-            if (isFiltering || totalMatching <= showCount) {
-              card.style.display = '';
-              visibleCount++;
-            } else {
-              card.style.display = 'none';
-            }
+          {/* Related sectors */}
+          {si.relatedSectors.length > 0 && (
+            <div class="si-related">
+              <span class="si-related-label">Overlaps with:</span>
+              {si.relatedSectors.slice(0, 3).map(r => (
+                <a href={`${base}sectors/${getSectorSlug(r)}/`} class="si-related-link">{r}</a>
+              ))}
+            </div>
+          )}
+
+          {/* Latest policy */}
+          {si.latestPolicy && (
+            <div class="si-latest">
+              <span class="si-latest-label">Latest:</span>
+              <a href={`${base}policies/${si.latestPolicy.id}/`} class="si-latest-title">{si.latestPolicy.title}</a>
+            </div>
+          )}
+
+          <a href={`${base}sectors/${si.slug}/`} class="si-view-all">View all {si.name} policies &rarr;</a>
+        </div>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  /* ── Tabs ───────────────────────────────────── */
+  .tab-bar {
+    display: flex;
+    gap: 2px;
+    border-bottom: 2px solid var(--color-border);
+    margin-bottom: var(--space-xl);
+    overflow-x: auto;
+  }
+  .tab-btn {
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.15s;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .tab-btn:hover { color: var(--color-text); }
+  .tab-btn.active {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+  .tab-link { display: inline-flex; align-items: center; }
+
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  .section-header {
+    margin-bottom: var(--space-lg);
+  }
+  .section-header h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 4px;
+  }
+  .section-header p {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+
+  /* ── Sector Insight Cards ──────────────────── */
+  .sector-insights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .si-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 20px;
+    box-shadow: var(--shadow-card);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.2s;
+  }
+  .si-card:hover {
+    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-1px);
+  }
+
+  .si-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .si-name {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .si-name:hover { color: var(--color-accent); }
+  .si-total {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    background: var(--color-bg-alt);
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
+    color: var(--color-text-muted);
+  }
+
+  .si-recent {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+  .si-recent-num {
+    font-weight: 700;
+    color: var(--color-accent);
+    font-size: 1rem;
+  }
+
+  .si-types {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .si-type-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+  }
+  .si-type-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .si-type-label {
+    text-transform: capitalize;
+    flex: 1;
+  }
+  .si-type-count {
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+
+  .si-sources {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .si-source-tag {
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 2px 8px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-pill);
+    color: var(--color-text-muted);
+  }
+
+  .si-related {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+  }
+  .si-related-label {
+    color: var(--color-text-dim);
+    font-weight: 500;
+  }
+  .si-related-link {
+    color: var(--color-text-muted);
+    padding: 1px 6px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-sm);
+    font-size: 0.6875rem;
+  }
+  .si-related-link:hover {
+    color: var(--color-accent);
+    background: var(--color-accent-bg);
+  }
+
+  .si-latest {
+    border-top: 1px solid var(--color-border-light);
+    padding-top: 10px;
+    font-size: 0.8125rem;
+  }
+  .si-latest-label {
+    font-weight: 600;
+    color: var(--color-text-dim);
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .si-latest-title {
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .si-latest-title:hover { color: var(--color-accent); }
+
+  .si-view-all {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-top: auto;
+  }
+  .si-view-all:hover { color: var(--color-accent-hover); }
+
+  .policy-card-wrap { display: contents; }
+  .hidden-card > .policy-card { display: none; }
+
+  @media (max-width: 768px) {
+    .sector-insights-grid { grid-template-columns: 1fr; }
+    .tab-btn { padding: 10px 14px; font-size: 0.8125rem; }
+  }
+</style>
+
+<script define:vars={{ INITIAL_SHOW }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    // ── Tab switching ──
+    const tabBtns = document.querySelectorAll('.tab-btn:not(.tab-link)');
+    const tabPanels = document.querySelectorAll('.tab-panel');
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabPanels.forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        const panel = document.getElementById('tab-' + btn.dataset.tab);
+        if (panel) panel.classList.add('active');
+      });
+    });
+
+    // "View All Policies" button on Overview tab
+    const gotoBrowse = document.getElementById('goto-browse');
+    if (gotoBrowse) {
+      gotoBrowse.addEventListener('click', () => {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabPanels.forEach(p => p.classList.remove('active'));
+        const browseBtn = document.querySelector('[data-tab="browse"]');
+        const browsePanel = document.getElementById('tab-browse');
+        if (browseBtn) browseBtn.classList.add('active');
+        if (browsePanel) browsePanel.classList.add('active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    // ── Feed filtering (Browse tab) ──
+    const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
+    const cards = wraps.map(w => w.querySelector('.policy-card'));
+    const searchInput = document.getElementById('policy-search');
+    const noResults = document.getElementById('no-results');
+    const feedStatus = document.getElementById('feed-status');
+    const showMoreBtn = document.getElementById('show-more-btn');
+    const showMoreWrap = document.getElementById('show-more-wrap');
+    const remainingCount = document.getElementById('remaining-count');
+
+    let showCount = INITIAL_SHOW;
+    let activeSector = 'all';
+    let activeType = 'all';
+    let activeSource = 'all';
+    let searchQuery = '';
+    let isFiltering = false;
+
+    function applyFilters() {
+      let visibleCount = 0;
+      let totalMatching = 0;
+      isFiltering = activeSector !== 'all' || activeType !== 'all' || activeSource !== 'all' || searchQuery !== '';
+
+      for (let i = 0; i < cards.length; i++) {
+        const card = cards[i];
+        if (!card) continue;
+        const sectors = JSON.parse(card.dataset.sectors || '[]');
+        const type = card.dataset.type || '';
+        const source = card.dataset.source || '';
+        const text = card.textContent?.toLowerCase() || '';
+
+        const matches = (activeSector === 'all' || sectors.includes(activeSector))
+          && (activeType === 'all' || type === activeType)
+          && (activeSource === 'all' || source === activeSource)
+          && (!searchQuery || text.includes(searchQuery.toLowerCase()));
+
+        if (matches) {
+          totalMatching++;
+          if (isFiltering || totalMatching <= showCount) {
+            card.style.display = '';
+            visibleCount++;
           } else {
             card.style.display = 'none';
           }
-        }
-
-        noResults.style.display = visibleCount === 0 ? '' : 'none';
-        feedStatus.textContent = `Showing ${visibleCount} of ${cards.length} policies`;
-
-        if (showMoreWrap) {
-          if (isFiltering || showCount >= cards.length) {
-            showMoreWrap.style.display = 'none';
-          } else {
-            const remaining = totalMatching - showCount;
-            if (remaining > 0) {
-              showMoreWrap.style.display = '';
-              remainingCount.textContent = `(${remaining} more)`;
-            } else {
-              showMoreWrap.style.display = 'none';
-            }
-          }
+        } else {
+          card.style.display = 'none';
         }
       }
 
-      // Show more
-      if (showMoreBtn) {
-        showMoreBtn.addEventListener('click', () => {
-          showCount += 20;
-          applyFilters();
-        });
+      if (noResults) noResults.style.display = visibleCount === 0 ? '' : 'none';
+      if (feedStatus) feedStatus.textContent = `Showing ${visibleCount} of ${cards.length} policies`;
+
+      if (showMoreWrap) {
+        if (isFiltering || showCount >= cards.length) {
+          showMoreWrap.style.display = 'none';
+        } else {
+          const remaining = totalMatching - showCount;
+          showMoreWrap.style.display = remaining > 0 ? '' : 'none';
+          if (remainingCount && remaining > 0) remainingCount.textContent = `(${remaining} more)`;
+        }
       }
+    }
 
-      // Sector filters
-      document.querySelectorAll('.sector-filter').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.sector-filter').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          activeSector = btn.dataset.sector || 'all';
-          applyFilters();
-        });
+    if (showMoreBtn) showMoreBtn.addEventListener('click', () => { showCount += 20; applyFilters(); });
+
+    document.querySelectorAll('.sector-filter').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.sector-filter').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeSector = btn.dataset.sector || 'all';
+        applyFilters();
       });
-
-      // Type filters (pill style)
-      document.querySelectorAll('.type-filter').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.type-filter').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          activeType = btn.dataset.type || 'all';
-          applyFilters();
-        });
-      });
-
-      // Source filters
-      document.querySelectorAll('.source-filter').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.source-filter').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          activeSource = btn.dataset.source || 'all';
-          applyFilters();
-        });
-      });
-
-      // Search
-      if (searchInput) {
-        let debounceTimer;
-        searchInput.addEventListener('input', () => {
-          clearTimeout(debounceTimer);
-          debounceTimer = setTimeout(() => {
-            searchQuery = searchInput.value;
-            applyFilters();
-          }, 200);
-        });
-      }
-
-      // Initial apply
-      applyFilters();
     });
-  </script>
-</Base>
+
+    document.querySelectorAll('.type-filter').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.type-filter').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeType = btn.dataset.type || 'all';
+        applyFilters();
+      });
+    });
+
+    document.querySelectorAll('.source-filter').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.source-filter').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeSource = btn.dataset.source || 'all';
+        applyFilters();
+      });
+    });
+
+    if (searchInput) {
+      let timer;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => { searchQuery = searchInput.value; applyFilters(); }, 200);
+      });
+    }
+
+    applyFilters();
+  });
+</script>

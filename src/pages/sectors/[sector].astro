@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
-import { getAllPolicies, getMeta, getSectorSlug } from '../../lib/data';
+import { getAllPolicies, getMeta, getSectorSlug, getSectorInsight } from '../../lib/data';
 
 export function getStaticPaths() {
   const meta = getMeta();
@@ -13,18 +13,98 @@ export function getStaticPaths() {
 
 const { sector } = Astro.params;
 const { sectorName } = Astro.props;
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
 const policies = getAllPolicies().filter(p => p.sector_slugs.includes(sector!));
-const base = import.meta.env.BASE_URL;
+const insight = getSectorInsight(sectorName);
+
+const TYPE_COLORS: Record<string, string> = {
+  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
+  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+};
+
+const maxType = Math.max(...insight.typeBreakdown.map(t => t.count), 1);
 ---
 <Base title={sectorName} description={`Tracking Indian government policies in ${sectorName} — ${policies.length} policies from open sources.`}>
   <div style="padding: var(--space-xl) 0;">
-    <div style="margin-bottom: var(--space-xl);">
+    <div style="margin-bottom: var(--space-lg);">
       <a href={`${base}sectors/`} class="btn btn-secondary" style="margin-bottom: var(--space-md); display: inline-flex;">&larr; All Sectors</a>
       <h2 class="page-title">{sectorName}</h2>
       <p class="page-subtitle">
         {policies.length} {policies.length === 1 ? 'policy' : 'policies'} tracked in this sector
       </p>
+    </div>
+
+    {/* ── Sector Insight Panel ─────────────────────────── */}
+    <div class="sector-insight-panel">
+      <div class="sip-grid">
+        {/* Quick stats */}
+        <div class="sip-stats">
+          <div class="sip-stat">
+            <span class="sip-stat-num">{insight.total}</span>
+            <span class="sip-stat-label">Total Policies</span>
+          </div>
+          <div class="sip-stat">
+            <span class="sip-stat-num" style="color: var(--color-accent);">{insight.recentCount}</span>
+            <span class="sip-stat-label">Last 30 Days</span>
+          </div>
+          <div class="sip-stat">
+            <span class="sip-stat-num">{insight.typeBreakdown.length}</span>
+            <span class="sip-stat-label">Policy Types</span>
+          </div>
+          <div class="sip-stat">
+            <span class="sip-stat-num">{insight.topSources.length}</span>
+            <span class="sip-stat-label">Sources</span>
+          </div>
+        </div>
+
+        {/* Type breakdown bars */}
+        <div class="sip-section">
+          <h4>Policy Type Breakdown</h4>
+          <div class="sip-bars">
+            {insight.typeBreakdown.map(t => (
+              <div class="sip-bar-row">
+                <span class="sip-bar-dot" style={`background: ${TYPE_COLORS[t.type] || '#888'};`}></span>
+                <span class="sip-bar-label">{t.type}</span>
+                <div class="sip-bar-track">
+                  <div class="sip-bar-fill" style={`width: ${(t.count / maxType) * 100}%; background: ${TYPE_COLORS[t.type] || '#888'};`}></div>
+                </div>
+                <span class="sip-bar-count">{t.count}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Sources + Related */}
+        <div class="sip-section">
+          <h4>Top Sources</h4>
+          <div class="sip-source-list">
+            {insight.topSources.map(s => (
+              <div class="sip-source-row">
+                <span class="sip-source-name">{s.source}</span>
+                <span class="sip-source-count">{s.count}</span>
+              </div>
+            ))}
+          </div>
+
+          {insight.relatedSectors.length > 0 && (
+            <div style="margin-top: var(--space-md);">
+              <h4>Related Sectors</h4>
+              <div class="sip-related-chips">
+                {insight.relatedSectors.map(r => (
+                  <a href={`${base}sectors/${getSectorSlug(r)}/`} class="sector-badge">{r}</a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+
+    {/* ── Policy Feed ──────────────────────────────────── */}
+    <div class="section-header" style="margin-top: var(--space-xl);">
+      <h3>All Policies</h3>
     </div>
 
     <div class="policy-feed">
@@ -36,17 +116,107 @@ const base = import.meta.env.BASE_URL;
       ) : (
         policies.map(p => (
           <PolicyCard
-            id={p.id}
-            title={p.title}
-            description={p.description}
-            link={p.link}
-            date={p.date}
-            source_short={p.source_short}
-            sectors={p.sectors}
-            type={p.type}
+            id={p.id} title={p.title} description={p.description} link={p.link}
+            date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type}
           />
         ))
       )}
     </div>
   </div>
 </Base>
+
+<style>
+  .sector-insight-panel {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-lg);
+  }
+
+  .sip-grid {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: var(--space-xl);
+  }
+
+  .sip-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+  .sip-stat { text-align: center; }
+  .sip-stat-num {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+    display: block;
+    line-height: 1.1;
+  }
+  .sip-stat-label {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-dim);
+    font-weight: 600;
+  }
+
+  .sip-section h4 {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+  }
+
+  .sip-bars { display: flex; flex-direction: column; gap: 5px; }
+  .sip-bar-row { display: flex; align-items: center; gap: 6px; }
+  .sip-bar-dot { width: 6px; height: 6px; border-radius: 2px; flex-shrink: 0; }
+  .sip-bar-label {
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    color: var(--color-text-secondary);
+    width: 85px;
+    flex-shrink: 0;
+  }
+  .sip-bar-track {
+    flex: 1;
+    height: 6px;
+    background: var(--color-bg-alt);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .sip-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+  }
+  .sip-bar-count {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    width: 22px;
+    text-align: right;
+  }
+
+  .sip-source-list { display: flex; flex-direction: column; gap: 4px; }
+  .sip-source-row { display: flex; justify-content: space-between; font-size: 0.8125rem; }
+  .sip-source-name { color: var(--color-text-secondary); }
+  .sip-source-count { font-weight: 600; color: var(--color-text-muted); }
+
+  .sip-related-chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+
+  .section-header h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+  }
+
+  @media (max-width: 768px) {
+    .sip-grid { grid-template-columns: 1fr; }
+  }
+</style>

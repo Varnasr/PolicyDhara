@@ -147,6 +147,94 @@ export function getTopSectors(n = 6): { sector: string; slug: string; count: num
     .map(([sector, count]) => ({ sector, slug: getSectorSlug(sector), count }));
 }
 
+/** Returns a structured insight for a given sector */
+export interface SectorInsight {
+  name: string;
+  slug: string;
+  total: number;
+  recentCount: number; // last 30 days
+  typeBreakdown: { type: string; count: number }[];
+  topSources: { source: string; count: number }[];
+  latestPolicy: PolicyItem | null;
+  relatedSectors: string[]; // sectors that co-occur most
+}
+
+export function getSectorInsight(sectorName: string): SectorInsight {
+  const slug = getSectorSlug(sectorName);
+  const policies = getPoliciesBySector(slug);
+  const now = Date.now();
+  const DAY = 86400000;
+
+  // Type breakdown
+  const types: Record<string, number> = {};
+  for (const p of policies) types[p.type] = (types[p.type] || 0) + 1;
+  const typeBreakdown = Object.entries(types)
+    .sort(([, a], [, b]) => b - a)
+    .map(([type, count]) => ({ type, count }));
+
+  // Top sources
+  const sources: Record<string, number> = {};
+  for (const p of policies) sources[p.source_short] = (sources[p.source_short] || 0) + 1;
+  const topSources = Object.entries(sources)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 3)
+    .map(([source, count]) => ({ source, count }));
+
+  // Related sectors (co-occurrence)
+  const coSectors: Record<string, number> = {};
+  for (const p of policies) {
+    for (const s of p.sectors) {
+      if (s !== sectorName) coSectors[s] = (coSectors[s] || 0) + 1;
+    }
+  }
+  const relatedSectors = Object.entries(coSectors)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 4)
+    .map(([s]) => s);
+
+  return {
+    name: sectorName,
+    slug,
+    total: policies.length,
+    recentCount: policies.filter(p => now - new Date(p.date).getTime() < 30 * DAY).length,
+    typeBreakdown,
+    topSources,
+    latestPolicy: policies[0] || null,
+    relatedSectors,
+  };
+}
+
+/** Returns sectors x types matrix for landscape view */
+export function getSectorTypeMatrix(): {
+  sectors: string[];
+  types: string[];
+  matrix: Record<string, Record<string, number>>;
+} {
+  const all = getAllPolicies();
+  const sectorSet = new Set<string>();
+  const typeSet = new Set<string>();
+  const matrix: Record<string, Record<string, number>> = {};
+
+  for (const p of all) {
+    typeSet.add(p.type);
+    for (const s of p.sectors) {
+      sectorSet.add(s);
+      if (!matrix[s]) matrix[s] = {};
+      matrix[s][p.type] = (matrix[s][p.type] || 0) + 1;
+    }
+  }
+
+  const meta = getMeta();
+  const sectors = Object.entries(meta.sector_counts)
+    .sort(([, a], [, b]) => b - a)
+    .map(([s]) => s);
+
+  const types = ['legislation', 'notification', 'scheme', 'budget', 'research', 'announcement', 'policy']
+    .filter(t => typeSet.has(t));
+
+  return { sectors, types, matrix };
+}
+
 /**
  * Sample/seed data so the site builds even before first fetch
  */

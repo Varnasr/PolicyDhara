@@ -1,0 +1,458 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getSectorTypeMatrix, getMeta, getSectorSlug, getAllPolicies } from '../../lib/data';
+
+const { sectors, types, matrix } = getSectorTypeMatrix();
+const meta = getMeta();
+const policies = getAllPolicies();
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const TYPE_COLORS: Record<string, string> = {
+  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
+  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+};
+
+// Compute column totals
+const colTotals: Record<string, number> = {};
+for (const t of types) {
+  colTotals[t] = sectors.reduce((sum, s) => sum + (matrix[s]?.[t] || 0), 0);
+}
+
+// Source × Type matrix
+const sourceTypes: Record<string, Record<string, number>> = {};
+for (const p of policies) {
+  if (!sourceTypes[p.source_short]) sourceTypes[p.source_short] = {};
+  sourceTypes[p.source_short][p.type] = (sourceTypes[p.source_short][p.type] || 0) + 1;
+}
+const sourcesSorted = Object.entries(meta.source_counts).sort(([, a], [, b]) => b - a);
+
+// Max cell value for intensity coloring
+const allCells = sectors.flatMap(s => types.map(t => matrix[s]?.[t] || 0));
+const maxCell = Math.max(...allCells, 1);
+---
+<Base title="Policy Landscape" description="A structured taxonomy of Indian policy activity across 21 sectors and 7 policy types — understand the landscape at a glance.">
+  <div class="landscape">
+    <div class="section-header" style="margin-top: var(--space-xl);">
+      <h2 class="page-title">Policy Landscape</h2>
+      <p class="page-subtitle">
+        A structured view of {meta.total_policies} policies across {meta.total_sectors} development sectors and {types.length} policy types.
+        Cell intensity shows relative concentration — darker cells indicate higher policy activity.
+      </p>
+    </div>
+
+    {/* ── Tab bar ────────────────────────────────────────── */}
+    <div class="ls-tabs">
+      <button class="ls-tab active" data-tab="matrix">Sectors &times; Types</button>
+      <button class="ls-tab" data-tab="sources">Sources &times; Types</button>
+      <button class="ls-tab" data-tab="coverage">Coverage Analysis</button>
+    </div>
+
+    {/* ── Matrix: Sectors × Types ────────────────────────── */}
+    <div class="ls-panel active" id="ls-matrix">
+      <div class="matrix-scroll">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th class="matrix-corner">Sector</th>
+              {types.map(t => (
+                <th class="matrix-type-header">
+                  <span class="matrix-type-dot" style={`background: ${TYPE_COLORS[t]};`}></span>
+                  {t}
+                </th>
+              ))}
+              <th class="matrix-total-header">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sectors.map(s => {
+              const rowTotal = types.reduce((sum, t) => sum + (matrix[s]?.[t] || 0), 0);
+              return (
+                <tr>
+                  <td class="matrix-sector">
+                    <a href={`${base}sectors/${getSectorSlug(s)}/`}>{s}</a>
+                  </td>
+                  {types.map(t => {
+                    const count = matrix[s]?.[t] || 0;
+                    const intensity = count > 0 ? Math.max(0.1, count / maxCell) : 0;
+                    const color = TYPE_COLORS[t] || '#888';
+                    return (
+                      <td class={`matrix-cell ${count === 0 ? 'matrix-empty' : ''}`}
+                        style={count > 0 ? `background: ${color}${Math.round(intensity * 30).toString(16).padStart(2, '0')}; color: ${color};` : ''}>
+                        {count > 0 ? count : '\u2014'}
+                      </td>
+                    );
+                  })}
+                  <td class="matrix-row-total">{rowTotal}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="matrix-sector" style="font-weight: 700;">Total</td>
+              {types.map(t => (
+                <td class="matrix-col-total">{colTotals[t]}</td>
+              ))}
+              <td class="matrix-grand-total">{meta.total_policies}</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+    {/* ── Matrix: Sources × Types ────────────────────────── */}
+    <div class="ls-panel" id="ls-sources">
+      <div class="matrix-scroll">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th class="matrix-corner">Source</th>
+              {types.map(t => (
+                <th class="matrix-type-header">
+                  <span class="matrix-type-dot" style={`background: ${TYPE_COLORS[t]};`}></span>
+                  {t}
+                </th>
+              ))}
+              <th class="matrix-total-header">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sourcesSorted.map(([source, total]) => (
+              <tr>
+                <td class="matrix-sector">{source}</td>
+                {types.map(t => {
+                  const count = sourceTypes[source]?.[t] || 0;
+                  const color = TYPE_COLORS[t] || '#888';
+                  return (
+                    <td class={`matrix-cell ${count === 0 ? 'matrix-empty' : ''}`}
+                      style={count > 0 ? `color: ${color};` : ''}>
+                      {count > 0 ? count : '\u2014'}
+                    </td>
+                  );
+                })}
+                <td class="matrix-row-total">{total}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {/* ── Coverage Analysis ──────────────────────────────── */}
+    <div class="ls-panel" id="ls-coverage">
+      <div class="coverage-grid">
+        {/* Sector coverage */}
+        <div class="coverage-card">
+          <h4>Sector Coverage Depth</h4>
+          <p class="coverage-desc">How many policy types are active in each sector (out of {types.length})</p>
+          <div class="coverage-bars">
+            {sectors.map(s => {
+              const activeTypes = types.filter(t => (matrix[s]?.[t] || 0) > 0).length;
+              const pct = Math.round((activeTypes / types.length) * 100);
+              return (
+                <div class="cov-row">
+                  <a href={`${base}sectors/${getSectorSlug(s)}/`} class="cov-label">{s}</a>
+                  <div class="cov-track">
+                    <div class="cov-fill" style={`width: ${pct}%;`}></div>
+                  </div>
+                  <span class="cov-score">{activeTypes}/{types.length}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Type coverage */}
+        <div class="coverage-card">
+          <h4>Type Coverage Across Sectors</h4>
+          <p class="coverage-desc">How many sectors each policy type reaches (out of {sectors.length})</p>
+          <div class="coverage-bars">
+            {types.map(t => {
+              const activeSectors = sectors.filter(s => (matrix[s]?.[t] || 0) > 0).length;
+              const pct = Math.round((activeSectors / sectors.length) * 100);
+              return (
+                <div class="cov-row">
+                  <span class="cov-label" style={`color: ${TYPE_COLORS[t]};`}>{t}</span>
+                  <div class="cov-track">
+                    <div class="cov-fill" style={`width: ${pct}%; background: ${TYPE_COLORS[t]};`}></div>
+                  </div>
+                  <span class="cov-score">{activeSectors}/{sectors.length}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Gaps */}
+        <div class="coverage-card" style="grid-column: 1 / -1;">
+          <h4>Policy Gaps</h4>
+          <p class="coverage-desc">Sector-type combinations with zero tracked policies — potential blind spots in the policy landscape</p>
+          <div class="gaps-grid">
+            {sectors.flatMap(s =>
+              types
+                .filter(t => !(matrix[s]?.[t]))
+                .map(t => ({sector: s, type: t}))
+            ).slice(0, 24).map(gap => (
+              <div class="gap-chip">
+                <span class="gap-sector">{gap.sector}</span>
+                <span class="gap-type" style={`color: ${TYPE_COLORS[gap.type]};`}>{gap.type}</span>
+              </div>
+            ))}
+            {sectors.flatMap(s => types.filter(t => !(matrix[s]?.[t]))).length > 24 && (
+              <div class="gap-chip gap-more">
+                +{sectors.flatMap(s => types.filter(t => !(matrix[s]?.[t]))).length - 24} more gaps
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .landscape {
+    padding-bottom: var(--space-2xl);
+  }
+
+  /* Tabs */
+  .ls-tabs {
+    display: flex;
+    gap: 2px;
+    border-bottom: 2px solid var(--color-border);
+    margin-bottom: var(--space-xl);
+  }
+  .ls-tab {
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .ls-tab:hover { color: var(--color-text); }
+  .ls-tab.active {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+  .ls-panel { display: none; }
+  .ls-panel.active { display: block; }
+
+  /* Matrix */
+  .matrix-scroll {
+    overflow-x: auto;
+    margin-bottom: var(--space-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-card);
+  }
+  .matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+    background: var(--color-bg-white);
+  }
+  .matrix-table th,
+  .matrix-table td {
+    padding: 10px 12px;
+    text-align: center;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .matrix-table thead th {
+    background: var(--color-bg-alt);
+    font-size: 0.6875rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: var(--color-text-secondary);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .matrix-corner {
+    text-align: left !important;
+    min-width: 160px;
+  }
+  .matrix-type-header {
+    white-space: nowrap;
+  }
+  .matrix-type-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 2px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .matrix-sector {
+    text-align: left !important;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+  }
+  .matrix-sector a { color: inherit; }
+  .matrix-sector a:hover { color: var(--color-accent); }
+
+  .matrix-cell {
+    font-weight: 600;
+    font-size: 0.8125rem;
+    min-width: 54px;
+  }
+  .matrix-empty {
+    color: var(--color-text-dim) !important;
+    font-weight: 400;
+  }
+
+  .matrix-row-total,
+  .matrix-col-total,
+  .matrix-grand-total {
+    font-weight: 700;
+    color: var(--color-text);
+    background: var(--color-bg-alt);
+  }
+  .matrix-total-header {
+    background: var(--color-bg-alt);
+  }
+  .matrix-grand-total {
+    font-size: 0.9375rem;
+  }
+
+  .matrix-table tfoot td {
+    border-top: 2px solid var(--color-border);
+    border-bottom: none;
+  }
+
+  .matrix-table tbody tr:hover td {
+    background: var(--color-accent-bg);
+  }
+
+  /* Coverage */
+  .coverage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .coverage-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+  }
+  .coverage-card h4 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 4px;
+  }
+  .coverage-desc {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+
+  .coverage-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .cov-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .cov-label {
+    width: 140px;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .cov-label:hover { color: var(--color-accent); }
+  .cov-track {
+    flex: 1;
+    height: 8px;
+    background: var(--color-bg-alt);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .cov-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: var(--color-accent);
+    transition: width 0.3s;
+  }
+  .cov-score {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    min-width: 30px;
+    text-align: right;
+  }
+
+  /* Gaps */
+  .gaps-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .gap-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-pill);
+    font-size: 0.6875rem;
+  }
+  .gap-sector {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+  }
+  .gap-type {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 0.625rem;
+  }
+  .gap-more {
+    color: var(--color-text-dim);
+    font-style: italic;
+    border-style: dashed;
+  }
+
+  @media (max-width: 768px) {
+    .coverage-grid { grid-template-columns: 1fr; }
+    .coverage-card[style*="grid-column"] { grid-column: auto !important; }
+    .cov-label { width: 100px; }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.ls-tab');
+    const panels = document.querySelectorAll('.ls-panel');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        panels.forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        const panel = document.getElementById('ls-' + (tab as HTMLElement).dataset.tab);
+        if (panel) panel.classList.add('active');
+      });
+    });
+  });
+</script>
