@@ -400,6 +400,7 @@ a:hover { color: var(--color-accent-hover); }
   box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 .policy-card::before {
   content: '';
@@ -437,6 +438,12 @@ a:hover { color: var(--color-accent-hover); }
   color: var(--color-text);
 }
 .policy-title a { color: inherit; }
+.policy-title a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
 .policy-title a:hover { color: var(--color-accent); }
 
 .policy-meta {
@@ -494,6 +501,8 @@ a:hover { color: var(--color-accent-hover); }
   gap: 5px;
   flex-wrap: wrap;
   margin-top: auto;
+  position: relative;
+  z-index: 1;
 }
 
 /* ── Type Badges (with borders like JanVayu) ─────────────────── */

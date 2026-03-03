@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
-import { getAllPolicies, getRelatedPolicies, getSectorSlug } from '../../lib/data';
+import { getAllPolicies, getRelatedPolicies, getSectorSlug, getMeta, getPoliciesBySector } from '../../lib/data';
 
 export function getStaticPaths() {
   return getAllPolicies().map(p => ({
@@ -13,6 +13,7 @@ export function getStaticPaths() {
 const { policy } = Astro.props;
 const related = getRelatedPolicies(policy);
 const base = (import.meta.env.BASE_URL).replace(/\/?$/, '/');
+const meta = getMeta();
 
 function formatDate(dateStr: string): string {
   try {
@@ -29,19 +30,40 @@ const TYPE_COLORS: Record<string, string> = {
   budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
 };
 const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
+
+// Contextual framing based on type
+const TYPE_CONTEXT: Record<string, string> = {
+  legislation: 'This is a legislative action — a bill, act, or amendment that creates or modifies the legal framework governing this area. Legislative changes have binding force and shape the rules under which citizens, institutions, and markets operate.',
+  notification: 'This is an official government notification — a formal executive order that operationalises policy decisions. Notifications carry legal weight and typically specify rules, dates, exemptions, or procedural requirements for implementation.',
+  scheme: 'This is a government scheme — a structured programme with defined beneficiaries, budget allocation, and delivery mechanisms. Schemes are the primary instrument through which the Indian government delivers welfare and development outcomes.',
+  budget: 'This is a budgetary action — an allocation, fiscal policy change, or expenditure decision that shapes how public resources flow to this sector. Budget decisions reveal government priorities and directly affect programme implementation capacity.',
+  research: 'This is a research or analytical publication — an evidence-based assessment from a credible institution that informs policy design and evaluation. Research outputs shape the intellectual framework within which policy debates occur.',
+  announcement: 'This is an official announcement — a public communication of a policy decision, milestone, or initiative. Announcements signal government intent and often precede formal notification or legislative action.',
+  policy: 'This is a policy framework or directive — a strategic document that sets direction, principles, and objectives for governance in this area. Policy frameworks guide the design of specific schemes, legislation, and implementation strategies.',
+};
+
+// Sector context
+const sectorContexts: string[] = policy.sectors.map((s: string) => {
+  const count = meta.sector_counts[s] || 0;
+  return `<strong>${s}</strong> (${count} policies tracked)`;
+});
+
+// Significance framing
+const recentInSector = policy.sector_slugs.flatMap((slug: string) =>
+  getPoliciesBySector(slug).filter(p => daysSince(p.date) <= 30)
+).length;
 ---
-<Base title={policy.title} description={policy.description || `${policy.type} tracked from ${policy.source_short} across ${policy.sectors.join(', ')}.`}>
+<Base title={policy.title} description={policy.description || `${policy.type.charAt(0).toUpperCase() + policy.type.slice(1)} from ${policy.source_short} — relevant to ${policy.sectors.join(', ')}.`}>
   <div class="policy-detail">
     <nav class="breadcrumb">
       <a href={base}>Home</a>
       <span class="bc-sep">/</span>
       <a href={`${base}sectors/${policy.sector_slugs[0]}/`}>{policy.sectors[0]}</a>
       <span class="bc-sep">/</span>
-      <span>Policy Detail</span>
+      <span>Detail</span>
     </nav>
 
     <article class="detail-main">
-      <!-- Type + Source bar -->
       <div class="detail-topbar">
         <span class="detail-type" style={`background: ${typeColor}15; color: ${typeColor}; border: 1px solid ${typeColor}30;`}>
           {policy.type}
@@ -53,9 +75,22 @@ const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
 
       <h1 class="detail-title">{policy.title}</h1>
 
-      {/* Key Information Card */}
+      {/* ── What This Is ──────────────────────────────────── */}
+      <div class="detail-context-card">
+        <p>{TYPE_CONTEXT[policy.type] || TYPE_CONTEXT['policy']}</p>
+      </div>
+
+      {/* ── Summary ───────────────────────────────────────── */}
+      {policy.description && (
+        <div class="detail-summary">
+          <h3>Summary</h3>
+          <p>{policy.description}</p>
+        </div>
+      )}
+
+      {/* ── Key Facts ─────────────────────────────────────── */}
       <div class="detail-keyinfo">
-        <h3>Key Information</h3>
+        <h3>Key Facts</h3>
         <div class="keyinfo-grid">
           <div class="keyinfo-item">
             <span class="keyinfo-label">Type</span>
@@ -71,33 +106,61 @@ const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
           </div>
           <div class="keyinfo-item">
             <span class="keyinfo-label">Sectors</span>
-            <span class="keyinfo-value">{policy.sectors.length} sector{policy.sectors.length > 1 ? 's' : ''}</span>
+            <span class="keyinfo-value">{policy.sectors.join(', ')}</span>
           </div>
         </div>
       </div>
 
-      {/* Description / Summary */}
-      {policy.description ? (
-        <div class="detail-summary">
-          <h3>Summary</h3>
-          <p>{policy.description}</p>
-        </div>
-      ) : (
-        <div class="detail-summary">
-          <h3>About This Policy</h3>
+      {/* ── Why It Matters ────────────────────────────────── */}
+      <div class="detail-significance">
+        <h3>Why It Matters</h3>
+        <div class="sig-content">
           <p>
-            This {policy.type} was published by <strong>{policy.source_name}</strong> on {formatDate(policy.date)}.
-            It is relevant to {policy.sectors.length === 1
-              ? `the ${policy.sectors[0]} sector`
-              : `${policy.sectors.length} development sectors: ${policy.sectors.join(', ')}`
-            }.
+            This {policy.type} sits at the intersection of
+            {policy.sectors.length === 1
+              ? ` the ${policy.sectors[0]} sector`
+              : ` ${policy.sectors.length} development sectors`
+            }, making it relevant to a wide range of stakeholders — from policymakers and
+            civil society organisations to researchers and affected communities.
           </p>
-        </div>
-      )}
 
-      {/* Sectors */}
+          {policy.sectors.length > 1 && (
+            <div class="sig-cross">
+              <h4>Cross-Sector Relevance</h4>
+              <p>
+                Policies that span multiple sectors often signal systemic or structural interventions
+                rather than narrow programme changes. This item touches:
+              </p>
+              <ul>
+                {policy.sectors.map((s: string, i: number) => (
+                  <li>
+                    <a href={`${base}sectors/${policy.sector_slugs[i]}/`}>{s}</a>
+                    <span class="sig-count">({meta.sector_counts[s] || 0} tracked)</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <div class="sig-activity">
+            <h4>Sector Activity</h4>
+            <p>
+              There {recentInSector === 1 ? 'has been' : 'have been'}
+              <strong> {recentInSector} {recentInSector === 1 ? 'policy action' : 'policy actions'}</strong> across
+              the related sectors in the last 30 days — {recentInSector > 10
+                ? 'indicating a period of high policy activity in this space.'
+                : recentInSector > 3
+                  ? 'suggesting moderate ongoing attention from policymakers.'
+                  : 'a relatively quiet period for this area.'
+              }
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* ── Sectors ───────────────────────────────────────── */}
       <div class="detail-sectors">
-        <h3>Related Sectors</h3>
+        <h3>Explore Related Sectors</h3>
         <div class="detail-sector-grid">
           {policy.sectors.map((sector: string, i: number) => (
             <a href={`${base}sectors/${policy.sector_slugs[i]}/`} class="detail-sector-card">
@@ -108,32 +171,26 @@ const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
         </div>
       </div>
 
-      {/* Original source link */}
+      {/* ── Read Source ────────────────────────────────────── */}
       <div class="detail-source-link">
         {policy.link && (
           <a href={policy.link} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-            Read Original Source
+            Read Full Text at Source
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         )}
       </div>
     </article>
 
-    {/* Related Policies */}
+    {/* ── Related Policies ────────────────────────────────── */}
     {related.length > 0 && (
       <section class="detail-related">
         <h3>Related Policies</h3>
         <div class="policy-feed" style="margin-top: 12px;">
           {related.map(r => (
             <PolicyCard
-              id={r.id}
-              title={r.title}
-              description={r.description}
-              link={r.link}
-              date={r.date}
-              source_short={r.source_short}
-              sectors={r.sectors}
-              type={r.type}
+              id={r.id} title={r.title} description={r.description} link={r.link}
+              date={r.date} source_short={r.source_short} sectors={r.sectors} type={r.type}
             />
           ))}
         </div>
@@ -204,7 +261,37 @@ const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
     line-height: 1.35;
     color: var(--color-text);
     letter-spacing: -0.02em;
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-lg);
+  }
+
+  /* Context card — the type explainer */
+  .detail-context-card {
+    background: var(--color-bg-alt);
+    border-left: 3px solid var(--color-accent);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: 14px 18px;
+    margin-bottom: var(--space-lg);
+  }
+  .detail-context-card p {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .detail-summary {
+    margin-bottom: var(--space-lg);
+  }
+  .detail-summary h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.0625rem;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+  }
+  .detail-summary p {
+    font-size: 0.9375rem;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
   }
 
   .detail-keyinfo {
@@ -242,19 +329,66 @@ const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
     font-weight: 500;
   }
 
-  .detail-summary {
-    margin-bottom: var(--space-lg);
+  /* Significance / Why It Matters */
+  .detail-significance {
+    margin-bottom: var(--space-xl);
   }
-  .detail-summary h3 {
+  .detail-significance h3 {
     font-family: 'Newsreader', Georgia, serif;
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
     color: var(--color-text);
-    margin-bottom: var(--space-sm);
+    margin-bottom: var(--space-md);
   }
-  .detail-summary p {
+  .sig-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  .sig-content p {
     font-size: 0.9375rem;
     color: var(--color-text-secondary);
     line-height: 1.8;
+  }
+  .sig-cross, .sig-activity {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md) var(--space-lg);
+    box-shadow: var(--shadow-sm);
+  }
+  .sig-cross h4, .sig-activity h4 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+  }
+  .sig-cross p, .sig-activity p {
+    font-size: 0.875rem;
+    margin-bottom: var(--space-sm);
+  }
+  .sig-cross ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .sig-cross li {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    padding: 4px 0;
+    border-bottom: 1px solid var(--color-border-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sig-cross li:last-child { border-bottom: none; }
+  .sig-cross li a { font-weight: 600; }
+  .sig-count {
+    font-size: 0.75rem;
+    color: var(--color-text-dim);
   }
 
   .detail-sectors { margin-bottom: var(--space-xl); }
