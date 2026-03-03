@@ -1,0 +1,247 @@
+---
+import { getDailyActivity, getAllPolicies } from '../lib/data';
+
+const dailyCounts = getDailyActivity();
+const policies = getAllPolicies();
+
+// Build 26-week (≈6 months) calendar ending today
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+const WEEKS = 26;
+const DAY_MS = 86400000;
+
+// Start from the beginning of the week (Sunday) 26 weeks ago
+const startDate = new Date(today.getTime() - (WEEKS * 7 - 1) * DAY_MS);
+const dayOfWeek = startDate.getDay();
+startDate.setTime(startDate.getTime() - dayOfWeek * DAY_MS);
+
+// Build grid data
+interface DayCell { date: string; count: number; level: number; }
+const weeks: DayCell[][] = [];
+let current = new Date(startDate);
+
+while (current <= today) {
+  const week: DayCell[] = [];
+  for (let d = 0; d < 7; d++) {
+    const iso = current.toISOString().slice(0, 10);
+    const count = dailyCounts[iso] || 0;
+    week.push({ date: iso, count, level: 0 });
+    current = new Date(current.getTime() + DAY_MS);
+  }
+  weeks.push(week);
+}
+
+// Calculate levels (0-4) based on percentiles
+const allCounts = weeks.flat().map(d => d.count).filter(c => c > 0);
+if (allCounts.length > 0) {
+  allCounts.sort((a, b) => a - b);
+  const p25 = allCounts[Math.floor(allCounts.length * 0.25)] || 1;
+  const p50 = allCounts[Math.floor(allCounts.length * 0.50)] || 2;
+  const p75 = allCounts[Math.floor(allCounts.length * 0.75)] || 3;
+
+  for (const week of weeks) {
+    for (const day of week) {
+      if (day.count === 0) day.level = 0;
+      else if (day.count <= p25) day.level = 1;
+      else if (day.count <= p50) day.level = 2;
+      else if (day.count <= p75) day.level = 3;
+      else day.level = 4;
+    }
+  }
+}
+
+// Month labels
+const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+interface MonthLabel { label: string; col: number; }
+const monthLabels: MonthLabel[] = [];
+let lastMonth = -1;
+for (let i = 0; i < weeks.length; i++) {
+  const firstDay = weeks[i][0];
+  const m = new Date(firstDay.date).getMonth();
+  if (m !== lastMonth) {
+    monthLabels.push({ label: monthNames[m], col: i });
+    lastMonth = m;
+  }
+}
+
+// Total this month / last 30 days
+const thirtyDaysAgo = new Date(today.getTime() - 30 * DAY_MS);
+const last30 = policies.filter(p => new Date(p.date) >= thirtyDaysAgo).length;
+const totalDays = weeks.flat().filter(d => d.count > 0).length;
+const maxDay = Math.max(...weeks.flat().map(d => d.count), 0);
+
+// Streak: consecutive days with policies ending today
+let streak = 0;
+let checkDate = new Date(today);
+while (true) {
+  const iso = checkDate.toISOString().slice(0, 10);
+  if (dailyCounts[iso] && dailyCounts[iso] > 0) {
+    streak++;
+    checkDate = new Date(checkDate.getTime() - DAY_MS);
+  } else {
+    break;
+  }
+}
+---
+<div class="heatmap-container">
+  <div class="heatmap-header">
+    <h3>Policy Activity</h3>
+    <div class="heatmap-stats">
+      <span class="hm-stat"><strong>{last30}</strong> last 30 days</span>
+      <span class="hm-stat-sep"></span>
+      <span class="hm-stat"><strong>{totalDays}</strong> active days</span>
+      <span class="hm-stat-sep"></span>
+      <span class="hm-stat"><strong>{streak}</strong> day streak</span>
+    </div>
+  </div>
+
+  <div class="heatmap-scroll">
+    <div class="heatmap-grid">
+      {/* Month labels */}
+      <div class="heatmap-months">
+        <div class="hm-day-label"></div>
+        {weeks.map((_, i) => {
+          const ml = monthLabels.find(m => m.col === i);
+          return <div class="hm-month-cell">{ml ? ml.label : ''}</div>;
+        })}
+      </div>
+
+      {/* Day rows */}
+      {['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map((dayName, dayIdx) => (
+        <div class="heatmap-row">
+          <div class="hm-day-label">{dayIdx % 2 === 1 ? dayName : ''}</div>
+          {weeks.map(week => {
+            const cell = week[dayIdx];
+            if (!cell) return <div class="hm-cell hm-empty"></div>;
+            const isFuture = new Date(cell.date) > today;
+            return (
+              <div
+                class={`hm-cell ${isFuture ? 'hm-future' : `hm-level-${cell.level}`}`}
+                title={isFuture ? '' : `${cell.count} ${cell.count === 1 ? 'policy' : 'policies'} on ${cell.date}`}
+              ></div>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div class="heatmap-legend">
+    <span class="hm-legend-label">Less</span>
+    <div class="hm-cell hm-level-0"></div>
+    <div class="hm-cell hm-level-1"></div>
+    <div class="hm-cell hm-level-2"></div>
+    <div class="hm-cell hm-level-3"></div>
+    <div class="hm-cell hm-level-4"></div>
+    <span class="hm-legend-label">More</span>
+  </div>
+</div>
+
+<style>
+  .heatmap-container {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-xl);
+  }
+  .heatmap-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-md);
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .heatmap-header h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+  }
+  .heatmap-stats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+  .hm-stat strong {
+    color: var(--color-text);
+    font-weight: 700;
+  }
+  .hm-stat-sep {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--color-text-dim);
+  }
+
+  .heatmap-scroll {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+  .heatmap-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: max-content;
+  }
+  .heatmap-months {
+    display: flex;
+    gap: 2px;
+  }
+  .hm-month-cell {
+    width: 13px;
+    font-size: 0.5625rem;
+    color: var(--color-text-muted);
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .heatmap-row {
+    display: flex;
+    gap: 2px;
+  }
+  .hm-day-label {
+    width: 26px;
+    font-size: 0.5625rem;
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .hm-cell {
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .hm-empty { background: transparent; }
+  .hm-future { background: transparent; }
+  .hm-level-0 { background: var(--color-bg-alt); }
+  .hm-level-1 { background: #bbf7d0; }
+  .hm-level-2 { background: #4ade80; }
+  .hm-level-3 { background: #16a34a; }
+  .hm-level-4 { background: #166534; }
+
+  .heatmap-legend {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3px;
+    margin-top: var(--space-sm);
+  }
+  .hm-legend-label {
+    font-size: 0.5625rem;
+    color: var(--color-text-dim);
+    padding: 0 4px;
+  }
+
+  @media (max-width: 600px) {
+    .heatmap-container { padding: 12px; }
+    .heatmap-header { flex-direction: column; align-items: flex-start; }
+  }
+</style>

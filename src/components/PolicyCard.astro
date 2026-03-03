@@ -11,7 +11,9 @@ interface Props {
 }
 
 const { id, title, description, link, date, source_short, sectors, type } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+const detailHref = `${base}policies/${id}/`;
 
 function getSectorSlug(sector: string): string {
   return sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
@@ -19,11 +21,8 @@ function getSectorSlug(sector: string): string {
 
 function formatDate(dateStr: string): string {
   try {
-    const d = new Date(dateStr);
-    return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
-  } catch {
-    return dateStr;
-  }
+    return new Date(dateStr).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+  } catch { return dateStr; }
 }
 
 function getRelativeTime(dateStr: string): string {
@@ -36,15 +35,13 @@ function getRelativeTime(dateStr: string): string {
     if (diffDays < 7) return `${diffDays}d ago`;
     if (diffDays < 30) return `${Math.floor(diffDays / 7)}w ago`;
     return formatDate(dateStr);
-  } catch {
-    return dateStr;
-  }
+  } catch { return dateStr; }
 }
 ---
 <article class="policy-card" data-sectors={JSON.stringify(sectors.map(getSectorSlug))} data-type={type} data-source={source_short} data-date={date} data-id={id}>
   <div class="policy-card-header">
     <h3 class="policy-title">
-      {link ? <a href={link} target="_blank" rel="noopener noreferrer">{title}</a> : title}
+      <a href={detailHref}>{title}</a>
     </h3>
   </div>
 

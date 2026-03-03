@@ -1,0 +1,268 @@
+---
+import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getAllPolicies, getSectorSlug } from '../lib/data';
+
+const typeDist = getTypeDistribution();
+const topSectors = getTopSectors(8);
+const weeklyTrends = getWeeklyTrends();
+const meta = getMeta();
+const policies = getAllPolicies();
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Weekly trend sparkline data (last 12 weeks)
+const recentWeeks = weeklyTrends.slice(-12);
+const maxWeekly = Math.max(...recentWeeks.map(w => w.count), 1);
+
+// Type colors for the bar chart
+const TYPE_COLORS: Record<string, string> = {
+  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
+  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+};
+
+// Top sector max for bar widths
+const maxSectorCount = Math.max(...topSectors.map(s => s.count), 1);
+
+// Recency: policies in last 7 days vs 7 days before
+const now = Date.now();
+const DAY = 86400000;
+const last7 = policies.filter(p => now - new Date(p.date).getTime() < 7 * DAY).length;
+const prev7 = policies.filter(p => {
+  const age = now - new Date(p.date).getTime();
+  return age >= 7 * DAY && age < 14 * DAY;
+}).length;
+const trendPct = prev7 > 0 ? Math.round(((last7 - prev7) / prev7) * 100) : (last7 > 0 ? 100 : 0);
+const trendUp = trendPct >= 0;
+---
+<div class="insights-grid">
+  {/* Quick stats row */}
+  <div class="insight-card insight-quickstats">
+    <h4>This Week</h4>
+    <div class="qs-row">
+      <div class="qs-item">
+        <span class="qs-number">{last7}</span>
+        <span class="qs-label">New Policies</span>
+      </div>
+      <div class="qs-item">
+        <span class={`qs-trend ${trendUp ? 'trend-up' : 'trend-down'}`}>
+          {trendUp ? '\u25B2' : '\u25BC'} {Math.abs(trendPct)}%
+        </span>
+        <span class="qs-label">vs previous week</span>
+      </div>
+    </div>
+  </div>
+
+  {/* Weekly trend sparkline */}
+  <div class="insight-card insight-trend">
+    <h4>Weekly Trend</h4>
+    <div class="sparkline">
+      {recentWeeks.map(w => (
+        <div class="spark-bar-wrap" title={`${w.week}: ${w.count} policies`}>
+          <div class="spark-bar" style={`height: ${Math.max((w.count / maxWeekly) * 100, 4)}%;`}></div>
+          <span class="spark-label">{w.count}</span>
+        </div>
+      ))}
+    </div>
+    <div class="spark-weeks">
+      {recentWeeks.map((w, i) => (
+        <span class="spark-week-label">{i === 0 || i === recentWeeks.length - 1 ? w.week.split('-')[1] : ''}</span>
+      ))}
+    </div>
+  </div>
+
+  {/* Type distribution */}
+  <div class="insight-card insight-types">
+    <h4>Policy Types</h4>
+    <div class="type-bars">
+      {typeDist.map(t => (
+        <div class="type-bar-row">
+          <span class="type-bar-label">{t.type}</span>
+          <div class="type-bar-track">
+            <div class="type-bar-fill" style={`width: ${t.pct}%; background: ${TYPE_COLORS[t.type] || '#888'};`}></div>
+          </div>
+          <span class="type-bar-count">{t.count}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Top sectors */}
+  <div class="insight-card insight-sectors">
+    <h4>Top Sectors</h4>
+    <div class="sector-bars">
+      {topSectors.map(s => (
+        <a href={`${base}sectors/${s.slug}/`} class="sector-bar-row">
+          <span class="sector-bar-label">{s.sector}</span>
+          <div class="sector-bar-track">
+            <div class="sector-bar-fill" style={`width: ${(s.count / maxSectorCount) * 100}%;`}></div>
+          </div>
+          <span class="sector-bar-count">{s.count}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .insights-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: var(--space-xl);
+  }
+
+  .insight-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+  }
+  .insight-card h4 {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+  }
+
+  /* Quick stats */
+  .qs-row { display: flex; gap: var(--space-xl); align-items: center; }
+  .qs-item { display: flex; flex-direction: column; gap: 2px; }
+  .qs-number {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1;
+  }
+  .qs-label { font-size: 0.6875rem; color: var(--color-text-muted); }
+  .qs-trend {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .trend-up { color: var(--color-accent); }
+  .trend-down { color: #dc2626; }
+
+  /* Sparkline */
+  .sparkline {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 80px;
+  }
+  .spark-bar-wrap {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+  }
+  .spark-bar {
+    width: 100%;
+    background: var(--color-accent);
+    border-radius: 2px 2px 0 0;
+    min-height: 3px;
+    transition: height 0.3s;
+  }
+  .spark-label {
+    font-size: 0.5625rem;
+    color: var(--color-text-dim);
+    font-weight: 600;
+  }
+  .spark-weeks {
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+    padding-left: 0;
+  }
+  .spark-week-label {
+    flex: 1;
+    font-size: 0.5625rem;
+    color: var(--color-text-dim);
+    text-align: center;
+  }
+
+  /* Type distribution bars */
+  .type-bars { display: flex; flex-direction: column; gap: 8px; }
+  .type-bar-row { display: flex; align-items: center; gap: 8px; }
+  .type-bar-label {
+    width: 90px;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    text-transform: capitalize;
+    flex-shrink: 0;
+  }
+  .type-bar-track {
+    flex: 1;
+    height: 8px;
+    background: var(--color-bg-alt);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .type-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s;
+  }
+  .type-bar-count {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    width: 28px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  /* Sector bars */
+  .sector-bars { display: flex; flex-direction: column; gap: 8px; }
+  .sector-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .sector-bar-row:hover .sector-bar-label { color: var(--color-accent); }
+  .sector-bar-row:hover .sector-bar-fill { background: var(--color-accent) !important; }
+  .sector-bar-label {
+    width: 140px;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+    transition: color 0.15s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sector-bar-track {
+    flex: 1;
+    height: 8px;
+    background: var(--color-bg-alt);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .sector-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: #2563eb;
+    transition: width 0.3s, background 0.15s;
+  }
+  .sector-bar-count {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    width: 28px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .insights-grid { grid-template-columns: 1fr; }
+    .sector-bar-label { width: 100px; }
+    .type-bar-label { width: 70px; }
+  }
+</style>

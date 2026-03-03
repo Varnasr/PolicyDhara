@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import StatsBar from '../components/StatsBar.astro';
+import ActivityHeatmap from '../components/ActivityHeatmap.astro';
+import Insights from '../components/Insights.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
 import { getAllPolicies, getMeta } from '../lib/data';
@@ -16,6 +18,9 @@ const INITIAL_SHOW = 20;
     totalSectors={meta.total_sectors}
     lastUpdated={meta.last_updated}
   />
+
+  <ActivityHeatmap />
+  <Insights />
 
   <div class="page-grid">
     <Sidebar

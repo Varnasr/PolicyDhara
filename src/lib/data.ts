@@ -90,6 +90,63 @@ export function getAllSourceShorts(): string[] {
   return Object.keys(meta.source_counts);
 }
 
+export function getPolicyById(id: string): PolicyItem | undefined {
+  return getAllPolicies().find(p => p.id === id);
+}
+
+export function getRelatedPolicies(policy: PolicyItem, limit = 5): PolicyItem[] {
+  const all = getAllPolicies();
+  return all
+    .filter(p => p.id !== policy.id && p.sector_slugs.some(s => policy.sector_slugs.includes(s)))
+    .slice(0, limit);
+}
+
+/** Returns { 'YYYY-MM-DD': count } for the heatmap */
+export function getDailyActivity(): Record<string, number> {
+  const counts: Record<string, number> = {};
+  for (const p of getAllPolicies()) {
+    counts[p.date] = (counts[p.date] || 0) + 1;
+  }
+  return counts;
+}
+
+/** Returns { 'YYYY-WW': count } for weekly trends */
+export function getWeeklyTrends(): { week: string; count: number }[] {
+  const weekly: Record<string, number> = {};
+  for (const p of getAllPolicies()) {
+    const d = new Date(p.date);
+    const year = d.getFullYear();
+    const jan1 = new Date(year, 0, 1);
+    const weekNum = Math.ceil(((d.getTime() - jan1.getTime()) / 86400000 + jan1.getDay() + 1) / 7);
+    const key = `${year}-W${String(weekNum).padStart(2, '0')}`;
+    weekly[key] = (weekly[key] || 0) + 1;
+  }
+  return Object.entries(weekly)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([week, count]) => ({ week, count }));
+}
+
+/** Returns type distribution */
+export function getTypeDistribution(): { type: string; count: number; pct: number }[] {
+  const types: Record<string, number> = {};
+  const all = getAllPolicies();
+  for (const p of all) {
+    types[p.type] = (types[p.type] || 0) + 1;
+  }
+  return Object.entries(types)
+    .sort(([, a], [, b]) => b - a)
+    .map(([type, count]) => ({ type, count, pct: Math.round((count / all.length) * 100) }));
+}
+
+/** Returns top N most active sectors */
+export function getTopSectors(n = 6): { sector: string; slug: string; count: number }[] {
+  const meta = getMeta();
+  return Object.entries(meta.sector_counts)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, n)
+    .map(([sector, count]) => ({ sector, slug: getSectorSlug(sector), count }));
+}
+
 /**
  * Sample/seed data so the site builds even before first fetch
  */

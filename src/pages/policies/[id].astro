@@ -1,0 +1,306 @@
+---
+import Base from '../../layouts/Base.astro';
+import PolicyCard from '../../components/PolicyCard.astro';
+import { getAllPolicies, getRelatedPolicies, getSectorSlug } from '../../lib/data';
+
+export function getStaticPaths() {
+  return getAllPolicies().map(p => ({
+    params: { id: p.id },
+    props: { policy: p }
+  }));
+}
+
+const { policy } = Astro.props;
+const related = getRelatedPolicies(policy);
+const base = (import.meta.env.BASE_URL).replace(/\/?$/, '/');
+
+function formatDate(dateStr: string): string {
+  try {
+    return new Date(dateStr).toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  } catch { return dateStr; }
+}
+
+function daysSince(dateStr: string): number {
+  return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86400000);
+}
+
+const TYPE_COLORS: Record<string, string> = {
+  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
+  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+};
+const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
+---
+<Base title={policy.title} description={policy.description || `${policy.type} tracked from ${policy.source_short} across ${policy.sectors.join(', ')}.`}>
+  <div class="policy-detail">
+    <nav class="breadcrumb">
+      <a href={base}>Home</a>
+      <span class="bc-sep">/</span>
+      <a href={`${base}sectors/${policy.sector_slugs[0]}/`}>{policy.sectors[0]}</a>
+      <span class="bc-sep">/</span>
+      <span>Policy Detail</span>
+    </nav>
+
+    <article class="detail-main">
+      <!-- Type + Source bar -->
+      <div class="detail-topbar">
+        <span class="detail-type" style={`background: ${typeColor}15; color: ${typeColor}; border: 1px solid ${typeColor}30;`}>
+          {policy.type}
+        </span>
+        <span class="detail-source">{policy.source_short}</span>
+        <span class="detail-date">{formatDate(policy.date)}</span>
+        {daysSince(policy.date) <= 3 && <span class="detail-new">NEW</span>}
+      </div>
+
+      <h1 class="detail-title">{policy.title}</h1>
+
+      {/* Key Information Card */}
+      <div class="detail-keyinfo">
+        <h3>Key Information</h3>
+        <div class="keyinfo-grid">
+          <div class="keyinfo-item">
+            <span class="keyinfo-label">Type</span>
+            <span class="keyinfo-value" style={`color: ${typeColor};`}>{policy.type.charAt(0).toUpperCase() + policy.type.slice(1)}</span>
+          </div>
+          <div class="keyinfo-item">
+            <span class="keyinfo-label">Source</span>
+            <span class="keyinfo-value">{policy.source_name}</span>
+          </div>
+          <div class="keyinfo-item">
+            <span class="keyinfo-label">Published</span>
+            <span class="keyinfo-value">{formatDate(policy.date)}</span>
+          </div>
+          <div class="keyinfo-item">
+            <span class="keyinfo-label">Sectors</span>
+            <span class="keyinfo-value">{policy.sectors.length} sector{policy.sectors.length > 1 ? 's' : ''}</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Description / Summary */}
+      {policy.description ? (
+        <div class="detail-summary">
+          <h3>Summary</h3>
+          <p>{policy.description}</p>
+        </div>
+      ) : (
+        <div class="detail-summary">
+          <h3>About This Policy</h3>
+          <p>
+            This {policy.type} was published by <strong>{policy.source_name}</strong> on {formatDate(policy.date)}.
+            It is relevant to {policy.sectors.length === 1
+              ? `the ${policy.sectors[0]} sector`
+              : `${policy.sectors.length} development sectors: ${policy.sectors.join(', ')}`
+            }.
+          </p>
+        </div>
+      )}
+
+      {/* Sectors */}
+      <div class="detail-sectors">
+        <h3>Related Sectors</h3>
+        <div class="detail-sector-grid">
+          {policy.sectors.map((sector: string, i: number) => (
+            <a href={`${base}sectors/${policy.sector_slugs[i]}/`} class="detail-sector-card">
+              <span class="detail-sector-name">{sector}</span>
+              <span class="detail-sector-arrow">&rarr;</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      {/* Original source link */}
+      <div class="detail-source-link">
+        {policy.link && (
+          <a href={policy.link} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Read Original Source
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        )}
+      </div>
+    </article>
+
+    {/* Related Policies */}
+    {related.length > 0 && (
+      <section class="detail-related">
+        <h3>Related Policies</h3>
+        <div class="policy-feed" style="margin-top: 12px;">
+          {related.map(r => (
+            <PolicyCard
+              id={r.id}
+              title={r.title}
+              description={r.description}
+              link={r.link}
+              date={r.date}
+              source_short={r.source_short}
+              sectors={r.sectors}
+              type={r.type}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .policy-detail {
+    max-width: 800px;
+    padding: var(--space-xl) 0 var(--space-2xl);
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-lg);
+  }
+  .breadcrumb a { color: var(--color-text-muted); }
+  .breadcrumb a:hover { color: var(--color-accent); }
+  .bc-sep { color: var(--color-text-dim); }
+
+  .detail-topbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-md);
+  }
+  .detail-type {
+    display: inline-flex;
+    padding: 3px 10px;
+    border-radius: var(--radius-sm);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .detail-source {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .detail-date {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+  .detail-new {
+    font-size: 0.5625rem;
+    font-weight: 800;
+    background: #dc2626;
+    color: white;
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    letter-spacing: 0.05em;
+  }
+
+  .detail-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--color-text);
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-xl);
+  }
+
+  .detail-keyinfo {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    box-shadow: var(--shadow-card);
+  }
+  .detail-keyinfo h3 {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+  }
+  .keyinfo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+  .keyinfo-item { display: flex; flex-direction: column; gap: 2px; }
+  .keyinfo-label {
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+  }
+  .keyinfo-value {
+    font-size: 0.875rem;
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .detail-summary {
+    margin-bottom: var(--space-lg);
+  }
+  .detail-summary h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.0625rem;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+  }
+  .detail-summary p {
+    font-size: 0.9375rem;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+  }
+
+  .detail-sectors { margin-bottom: var(--space-xl); }
+  .detail-sectors h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.0625rem;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+  }
+  .detail-sector-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .detail-sector-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    transition: all 0.15s;
+    box-shadow: var(--shadow-sm);
+  }
+  .detail-sector-card:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    background: var(--color-accent-bg);
+  }
+  .detail-sector-arrow { font-size: 0.75rem; opacity: 0.5; }
+
+  .detail-source-link { margin-bottom: var(--space-2xl); }
+
+  .detail-related { margin-top: var(--space-xl); }
+  .detail-related h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.25rem;
+    color: var(--color-text);
+  }
+
+  @media (max-width: 600px) {
+    .detail-title { font-size: 1.375rem; }
+    .keyinfo-grid { grid-template-columns: 1fr; }
+  }
+</style>
