@@ -11,6 +11,7 @@ interface Props {
 }
 
 const { id, title, description, link, date, source_short, sectors, type } = Astro.props;
+const base = import.meta.env.BASE_URL;
 
 function getSectorSlug(sector: string): string {
   return sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
@@ -61,7 +62,7 @@ function getRelativeTime(dateStr: string): string {
 
   <div class="policy-sectors">
     {sectors.map(sector => (
-      <a href={`/policy-tracker/sectors/${getSectorSlug(sector)}/`} class="sector-badge" style={`border-color: var(--sector-${getSectorSlug(sector).split('-')[0]}, var(--color-accent)); color: var(--sector-${getSectorSlug(sector).split('-')[0]}, var(--color-accent));`}>
+      <a href={`${base}sectors/${getSectorSlug(sector)}/`} class="sector-badge">
         {sector}
       </a>
     ))}

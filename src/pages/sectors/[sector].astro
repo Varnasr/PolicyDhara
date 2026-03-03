@@ -15,11 +15,12 @@ const { sector } = Astro.params;
 const { sectorName } = Astro.props;
 
 const policies = getAllPolicies().filter(p => p.sector_slugs.includes(sector!));
+const base = import.meta.env.BASE_URL;
 ---
 <Base title={sectorName} description={`Tracking Indian government policies in ${sectorName} — ${policies.length} policies from open sources.`}>
   <div style="padding: var(--space-xl) 0;">
     <div style="margin-bottom: var(--space-xl);">
-      <a href="/policy-tracker/sectors/" style="font-size: 0.8125rem; color: var(--color-text-muted);">&larr; All Sectors</a>
+      <a href={`${base}sectors/`} style="font-size: 0.8125rem; color: var(--color-text-muted);">&larr; All Sectors</a>
       <h2 style="font-size: 1.5rem; margin-top: var(--space-sm);">{sectorName}</h2>
       <p style="color: var(--color-text-muted);">
         {policies.length} {policies.length === 1 ? 'policy' : 'policies'} tracked in this sector

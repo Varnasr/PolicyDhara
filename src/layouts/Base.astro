@@ -6,6 +6,7 @@ interface Props {
 
 const { title, description = "Auto-updating tracker of Indian development policies across 20+ sectors. Open data, open source." } = Astro.props;
 const siteTitle = `${title} | India Policy Tracker`;
+const base = import.meta.env.BASE_URL;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -24,10 +25,10 @@ const siteTitle = `${title} | India Policy Tracker`;
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- RSS Feed -->
-  <link rel="alternate" type="application/rss+xml" title="India Policy Tracker RSS" href="/policy-tracker/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="India Policy Tracker RSS" href={`${base}rss.xml`} />
 
   <style>
     @import '../styles/global.css';
@@ -36,18 +37,28 @@ const siteTitle = `${title} | India Policy Tracker`;
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="/policy-tracker/" class="site-logo">
+      <a href={base} class="site-logo">
+        <div class="logo-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect width="28" height="28" rx="7" fill="url(#logo-grad)"/>
+            <path d="M8 14l4 4 8-8" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs><linearGradient id="logo-grad" x1="0" y1="0" x2="28" y2="28"><stop stop-color="#06b6d4"/><stop offset="1" stop-color="#6366f1"/></linearGradient></defs>
+          </svg>
+        </div>
         <div>
           <h1>India Policy Tracker</h1>
-          <span class="subtitle">by ImpactMojo &mdash; auto-updated from open sources</span>
+          <span class="subtitle">Open-source &middot; Auto-updated every 6 hours</span>
         </div>
       </a>
       <nav class="header-nav">
-        <a href="/policy-tracker/">Dashboard</a>
-        <a href="/policy-tracker/sectors/">Sectors</a>
-        <a href="/policy-tracker/sources/">Sources</a>
-        <a href="/policy-tracker/about/">About</a>
-        <a href="/policy-tracker/rss.xml" title="RSS Feed">RSS</a>
+        <a href={base}>Dashboard</a>
+        <a href={`${base}sectors/`}>Sectors</a>
+        <a href={`${base}sources/`}>Sources</a>
+        <a href={`${base}about/`}>About</a>
+        <a href={`${base}rss.xml`} class="nav-rss" title="RSS Feed">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+          RSS
+        </a>
       </nav>
     </div>
   </header>
@@ -58,19 +69,22 @@ const siteTitle = `${title} | India Policy Tracker`;
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-links">
-        <a href="https://www.impactmojo.in">ImpactMojo</a>
-        <a href="/policy-tracker/about/">About This Tracker</a>
-        <a href="/policy-tracker/rss.xml">RSS Feed</a>
-        <a href="https://github.com/impactmojo/india-policy-tracker">GitHub</a>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <strong>India Policy Tracker</strong>
+          <span>Open-source policy intelligence for Indian development</span>
+        </div>
+        <div class="footer-links">
+          <a href={`${base}about/`}>About</a>
+          <a href={`${base}sectors/`}>Sectors</a>
+          <a href={`${base}rss.xml`}>RSS Feed</a>
+          <a href="https://github.com/Varnasr/india-policy-tracker">GitHub</a>
+        </div>
       </div>
-      <p>
-        Open-source policy tracker. Data sourced from PIB, PRS Legislative Research, India Code,
-        eGazette, NITI Aayog, data.gov.in, World Bank, UNDP, ORF, CPR, and more.
-      </p>
-      <p style="margin-top: 0.5rem;">
-        Built with Astro. Auto-updated via GitHub Actions every 6 hours.
-      </p>
+      <div class="footer-bottom">
+        Data from PIB, PRS, India Code, eGazette, NITI Aayog, data.gov.in, RBI, World Bank, ORF, CPR, and more.
+        Built with Astro. Auto-updated via GitHub Actions.
+      </div>
     </div>
   </footer>
 </body>

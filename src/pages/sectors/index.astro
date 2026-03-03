@@ -30,6 +30,7 @@ const SECTOR_ICONS: Record<string, string> = {
 };
 
 const sectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
+const base = import.meta.env.BASE_URL;
 ---
 <Base title="Sectors" description="Browse Indian development policies by sector — 22 themes covering education, health, agriculture, climate, digital, finance, and more.">
   <div style="padding: var(--space-xl) 0;">
@@ -40,7 +41,8 @@ const sectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
 
     <div class="sector-grid">
       {sectors.map(([name, count]) => (
-        <a href={`/policy-tracker/sectors/${getSectorSlug(name)}/`} class="sector-card">
+        <a href={`${base}sectors/${getSectorSlug(name)}/`} class="sector-card">
+
           <span class="sector-card-icon">{SECTOR_ICONS[name] || '📋'}</span>
           <span class="sector-card-name">{name}</span>
           <span class="sector-card-count">{count} {count === 1 ? 'policy' : 'policies'} tracked</span>
