@@ -18,19 +18,19 @@ function formatUpdated(isoStr: string): string {
 }
 ---
 <div class="stats-bar">
-  <div class="stat-item">
+  <div class="stat-card">
     <div class="stat-number">{totalPolicies}</div>
-    <div class="stat-label">Policies</div>
+    <div class="stat-label">Policies Tracked</div>
   </div>
-  <div class="stat-item">
+  <div class="stat-card">
     <div class="stat-number">{totalSources}</div>
-    <div class="stat-label">Sources</div>
+    <div class="stat-label">Open Sources</div>
   </div>
-  <div class="stat-item">
+  <div class="stat-card">
     <div class="stat-number">{totalSectors}</div>
     <div class="stat-label">Sectors</div>
   </div>
-  <div class="stat-item">
+  <div class="stat-card">
     <div class="stat-number" style="font-size: 1.125rem;">{formatUpdated(lastUpdated)}</div>
     <div class="stat-label">Last Updated</div>
   </div>

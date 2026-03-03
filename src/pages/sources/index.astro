@@ -29,14 +29,14 @@ const sourceEntries = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
 
         return (
           <div class="sector-card" style="cursor: default;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
               <span class="sector-card-name">{shortName}</span>
-              <span class={`policy-type type-${type === 'rss' ? 'announcement' : type === 'api' ? 'research' : 'policy'}`} style="font-size: 0.5625rem;">
+              <span class={`policy-type type-${type === 'rss' ? 'announcement' : type === 'api' ? 'research' : 'policy'}`} style="font-size: 0.5625rem; flex-shrink: 0;">
                 {type.toUpperCase()}
               </span>
             </div>
-            <span style="font-size: 0.8125rem; color: var(--color-text-muted);">{description}</span>
-            <span style="font-size: 0.75rem; color: var(--color-text-dim);">{count} {count === 1 ? 'item' : 'items'}</span>
+            {description && <span style="font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.5;">{description}</span>}
+            <span style="font-size: 0.8125rem; font-weight: 600; color: var(--color-accent);">{count} {count === 1 ? 'item' : 'items'}</span>
           </div>
         );
       })}

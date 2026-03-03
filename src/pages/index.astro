@@ -7,6 +7,7 @@ import { getAllPolicies, getMeta } from '../lib/data';
 
 const policies = getAllPolicies();
 const meta = getMeta();
+const INITIAL_SHOW = 20;
 ---
 <Base title="Dashboard">
   <StatsBar
@@ -22,28 +23,41 @@ const meta = getMeta();
       sourceCounts={meta.source_counts}
     />
 
-    <section class="policy-feed" id="policy-feed">
+    <section>
       <div id="feed-status" class="visually-hidden" aria-live="polite"></div>
 
-      {policies.length === 0 ? (
-        <div class="empty-state">
-          <h3>No policies fetched yet</h3>
-          <p>Run <code>python3 scripts/fetch_all.py</code> to fetch the latest policies, or wait for the next GitHub Actions run.</p>
-        </div>
-      ) : (
-        policies.map(p => (
-          <PolicyCard
-            id={p.id}
-            title={p.title}
-            description={p.description}
-            link={p.link}
-            date={p.date}
-            source_short={p.source_short}
-            sectors={p.sectors}
-            type={p.type}
-          />
-        ))
-      )}
+      <div class="policy-feed" id="policy-feed">
+        {policies.length === 0 ? (
+          <div class="empty-state">
+            <h3>No policies fetched yet</h3>
+            <p>Run the pipeline or wait for the next GitHub Actions run.</p>
+          </div>
+        ) : (
+          policies.map((p, i) => (
+            <div class={`policy-card-wrap ${i >= INITIAL_SHOW ? 'hidden-card' : ''}`}>
+              <PolicyCard
+                id={p.id}
+                title={p.title}
+                description={p.description}
+                link={p.link}
+                date={p.date}
+                source_short={p.source_short}
+                sectors={p.sectors}
+                type={p.type}
+              />
+            </div>
+          ))
+        )}
+
+        {policies.length > INITIAL_SHOW && (
+          <div class="show-more-wrap" id="show-more-wrap">
+            <button class="btn btn-primary" id="show-more-btn">
+              Show More
+              <span id="remaining-count">({policies.length - INITIAL_SHOW} more)</span>
+            </button>
+          </div>
+        )}
+      </div>
 
       <div id="no-results" class="empty-state" style="display:none;">
         <h3>No matching policies</h3>
@@ -52,24 +66,39 @@ const meta = getMeta();
     </section>
   </div>
 
-  <script>
-    // ── Client-side filtering & search ──────────────────────────
-    document.addEventListener('DOMContentLoaded', () => {
-      const cards = Array.from(document.querySelectorAll('.policy-card')) as HTMLElement[];
-      const searchInput = document.getElementById('policy-search') as HTMLInputElement;
-      const noResults = document.getElementById('no-results') as HTMLElement;
-      const feedStatus = document.getElementById('feed-status') as HTMLElement;
+  <style>
+    .policy-card-wrap { display: contents; }
+    .hidden-card > .policy-card { display: none; }
+  </style>
 
+  <script define:vars={{ INITIAL_SHOW }}>
+    document.addEventListener('DOMContentLoaded', () => {
+      const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
+      const cards = wraps.map(w => w.querySelector('.policy-card'));
+      const searchInput = document.getElementById('policy-search');
+      const noResults = document.getElementById('no-results');
+      const feedStatus = document.getElementById('feed-status');
+      const showMoreBtn = document.getElementById('show-more-btn');
+      const showMoreWrap = document.getElementById('show-more-wrap');
+      const remainingCount = document.getElementById('remaining-count');
+
+      let showCount = INITIAL_SHOW;
       let activeSector = 'all';
       let activeType = 'all';
       let activeSource = 'all';
       let searchQuery = '';
+      let isFiltering = false;
 
       function applyFilters() {
         let visibleCount = 0;
+        let totalMatching = 0;
 
-        for (const card of cards) {
-          const sectors = JSON.parse(card.dataset.sectors || '[]') as string[];
+        isFiltering = activeSector !== 'all' || activeType !== 'all' || activeSource !== 'all' || searchQuery !== '';
+
+        for (let i = 0; i < cards.length; i++) {
+          const card = cards[i];
+          if (!card) continue;
+          const sectors = JSON.parse(card.dataset.sectors || '[]');
           const type = card.dataset.type || '';
           const source = card.dataset.source || '';
           const text = card.textContent?.toLowerCase() || '';
@@ -79,9 +108,16 @@ const meta = getMeta();
           const matchSource = activeSource === 'all' || source === activeSource;
           const matchSearch = !searchQuery || text.includes(searchQuery.toLowerCase());
 
-          if (matchSector && matchType && matchSource && matchSearch) {
-            card.style.display = '';
-            visibleCount++;
+          const matches = matchSector && matchType && matchSource && matchSearch;
+
+          if (matches) {
+            totalMatching++;
+            if (isFiltering || totalMatching <= showCount) {
+              card.style.display = '';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
           } else {
             card.style.display = 'none';
           }
@@ -89,6 +125,28 @@ const meta = getMeta();
 
         noResults.style.display = visibleCount === 0 ? '' : 'none';
         feedStatus.textContent = `Showing ${visibleCount} of ${cards.length} policies`;
+
+        if (showMoreWrap) {
+          if (isFiltering || showCount >= cards.length) {
+            showMoreWrap.style.display = 'none';
+          } else {
+            const remaining = totalMatching - showCount;
+            if (remaining > 0) {
+              showMoreWrap.style.display = '';
+              remainingCount.textContent = `(${remaining} more)`;
+            } else {
+              showMoreWrap.style.display = 'none';
+            }
+          }
+        }
+      }
+
+      // Show more
+      if (showMoreBtn) {
+        showMoreBtn.addEventListener('click', () => {
+          showCount += 20;
+          applyFilters();
+        });
       }
 
       // Sector filters
@@ -96,17 +154,17 @@ const meta = getMeta();
         btn.addEventListener('click', () => {
           document.querySelectorAll('.sector-filter').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
-          activeSector = (btn as HTMLElement).dataset.sector || 'all';
+          activeSector = btn.dataset.sector || 'all';
           applyFilters();
         });
       });
 
-      // Type filters
+      // Type filters (pill style)
       document.querySelectorAll('.type-filter').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('.type-filter').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
-          activeType = (btn as HTMLElement).dataset.type || 'all';
+          activeType = btn.dataset.type || 'all';
           applyFilters();
         });
       });
@@ -116,14 +174,14 @@ const meta = getMeta();
         btn.addEventListener('click', () => {
           document.querySelectorAll('.source-filter').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
-          activeSource = (btn as HTMLElement).dataset.source || 'all';
+          activeSource = btn.dataset.source || 'all';
           applyFilters();
         });
       });
 
       // Search
       if (searchInput) {
-        let debounceTimer: ReturnType<typeof setTimeout>;
+        let debounceTimer;
         searchInput.addEventListener('input', () => {
           clearTimeout(debounceTimer);
           debounceTimer = setTimeout(() => {
@@ -132,6 +190,9 @@ const meta = getMeta();
           }, 200);
         });
       }
+
+      // Initial apply
+      applyFilters();
     });
   </script>
 </Base>

@@ -16,18 +16,15 @@ const base = import.meta.env.BASE_URL;
   <title>{siteTitle}</title>
   <meta name="description" content={description} />
 
-  <!-- Open Graph -->
   <meta property="og:title" content={siteTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="India Policy Tracker" />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:wght@400;600;700&display=swap" rel="stylesheet" />
 
-  <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="India Policy Tracker RSS" href={`${base}rss.xml`} />
 
   <style>
@@ -44,7 +41,6 @@ const base = import.meta.env.BASE_URL;
             <polyline points="14 2 14 8 20 8"/>
             <line x1="16" y1="13" x2="8" y2="13"/>
             <line x1="16" y1="17" x2="8" y2="17"/>
-            <polyline points="10 9 9 9 8 9"/>
           </svg>
         </div>
         <div>
@@ -85,7 +81,7 @@ const base = import.meta.env.BASE_URL;
       </div>
       <div class="footer-bottom">
         Data from PIB, PRS Legislative Research, India Code, eGazette, NITI Aayog, data.gov.in, RBI, World Bank, ORF, and more.
-        Auto-updated every 6 hours via GitHub Actions.
+        Auto-updated every 6 hours.
       </div>
     </div>
   </footer>

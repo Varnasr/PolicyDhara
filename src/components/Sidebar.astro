@@ -13,33 +13,38 @@ function getSectorSlug(sector: string): string {
 }
 
 const TYPE_OPTIONS = [
-  { key: 'all', label: 'All Types' },
+  { key: 'all', label: 'All' },
   { key: 'legislation', label: 'Legislation' },
-  { key: 'notification', label: 'Notifications' },
-  { key: 'scheme', label: 'Schemes' },
+  { key: 'notification', label: 'Notification' },
+  { key: 'scheme', label: 'Scheme' },
   { key: 'budget', label: 'Budget' },
   { key: 'research', label: 'Research' },
-  { key: 'announcement', label: 'Announcements' },
+  { key: 'announcement', label: 'Announcement' },
   { key: 'policy', label: 'Policy' },
 ];
 
 const sortedSectors = Object.entries(sectorCounts).sort((a, b) => b[1] - a[1]);
 ---
 <aside class="sidebar">
+  <!-- Search -->
   <div class="search-box">
     <span class="search-icon">&#128269;</span>
     <input type="search" class="search-input" id="policy-search" placeholder="Search policies..." />
   </div>
 
+  <!-- Type Filter — pill style -->
   <div class="filter-section">
-    <h3>Type</h3>
-    {TYPE_OPTIONS.map(t => (
-      <button class={`filter-btn type-filter ${t.key === 'all' ? 'active' : ''}`} data-type={t.key}>
-        {t.label}
-      </button>
-    ))}
+    <h3>Filter by Type</h3>
+    <div class="filter-pills">
+      {TYPE_OPTIONS.map(t => (
+        <button class={`filter-pill type-filter ${t.key === 'all' ? 'active' : ''}`} data-type={t.key}>
+          {t.label}
+        </button>
+      ))}
+    </div>
   </div>
 
+  <!-- Sector Filter -->
   <div class="filter-section">
     <h3>Sectors</h3>
     <button class={`filter-btn sector-filter ${!activeSector ? 'active' : ''}`} data-sector="all">
@@ -54,6 +59,7 @@ const sortedSectors = Object.entries(sectorCounts).sort((a, b) => b[1] - a[1]);
     ))}
   </div>
 
+  <!-- Source Filter -->
   <div class="filter-section">
     <h3>Sources</h3>
     <button class="filter-btn source-filter active" data-source="all">

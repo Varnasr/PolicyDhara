@@ -3,7 +3,6 @@ import Base from '../../layouts/Base.astro';
 import { getMeta, getSectorSlug } from '../../lib/data';
 
 const meta = getMeta();
-
 const sectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
 const base = import.meta.env.BASE_URL;
 ---
@@ -11,7 +10,7 @@ const base = import.meta.env.BASE_URL;
   <div style="padding: var(--space-xl) 0;">
     <h2 class="page-title">Development Sectors</h2>
     <p class="page-subtitle">
-      Browse policies across {sectors.length} development themes.
+      Browse policies across {sectors.length} development themes. Click any sector to see all tracked policies.
     </p>
 
     <div class="sector-grid">

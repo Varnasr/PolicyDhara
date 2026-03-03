@@ -20,8 +20,8 @@ const base = import.meta.env.BASE_URL;
         to researchers, students, practitioners, and citizens.
       </p>
 
-      <div style="background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-lg);">
-        <h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 1rem; color: var(--color-text); margin-bottom: var(--space-md);">How It Works</h3>
+      <div style="background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-lg); box-shadow: var(--shadow-card);">
+        <h3 style="font-family: 'Newsreader', Georgia, serif; font-size: 1.125rem; color: var(--color-text); margin-bottom: var(--space-md);">How It Works</h3>
         <ol style="padding-left: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-sm);">
           <li><strong style="color: var(--color-text);">Automated Fetching:</strong> Every 6 hours, GitHub Actions runs Python scripts that pull data from RSS feeds, APIs, and web scraping.</li>
           <li><strong style="color: var(--color-text);">Smart Classification:</strong> Each policy item is classified into relevant development sectors using keyword-based NLP.</li>
@@ -30,12 +30,12 @@ const base = import.meta.env.BASE_URL;
         </ol>
       </div>
 
-      <div style="background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-lg);">
-        <h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 1rem; color: var(--color-text); margin-bottom: var(--space-md);">Data Sources</h3>
+      <div style="background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-lg); box-shadow: var(--shadow-card);">
+        <h3 style="font-family: 'Newsreader', Georgia, serif; font-size: 1.125rem; color: var(--color-text); margin-bottom: var(--space-md);">Data Sources</h3>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); font-size: 0.8125rem;">
           <div>
-            <h4 style="color: var(--color-text); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-xs);">Official Government</h4>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: 2px;">
+            <h4 style="color: var(--color-text); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-xs); font-weight: 700;">Official Government</h4>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 3px; color: var(--color-text-muted);">
               <li>Press Information Bureau</li>
               <li>India Code</li>
               <li>eGazette of India</li>
@@ -46,8 +46,8 @@ const base = import.meta.env.BASE_URL;
             </ul>
           </div>
           <div>
-            <h4 style="color: var(--color-text); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-xs);">Research & International</h4>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: 2px;">
+            <h4 style="color: var(--color-text); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-xs); font-weight: 700;">Research & International</h4>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 3px; color: var(--color-text-muted);">
               <li>PRS Legislative Research</li>
               <li>World Bank India</li>
               <li>Observer Research Foundation</li>
@@ -57,15 +57,15 @@ const base = import.meta.env.BASE_URL;
         </div>
       </div>
 
-      <div style="background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-lg);">
-        <h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 1rem; color: var(--color-text); margin-bottom: var(--space-sm);">Subscribe</h3>
+      <div style="background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-lg); box-shadow: var(--shadow-card);">
+        <h3 style="font-family: 'Newsreader', Georgia, serif; font-size: 1.125rem; color: var(--color-text); margin-bottom: var(--space-sm);">Subscribe</h3>
         <p>Get updates via our <a href={`${base}rss.xml`}>RSS feed</a> in your favourite reader.</p>
       </div>
 
       <div>
-        <h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 1rem; color: var(--color-text); margin-bottom: var(--space-sm);">Open Source</h3>
+        <h3 style="font-family: 'Newsreader', Georgia, serif; font-size: 1.125rem; color: var(--color-text); margin-bottom: var(--space-sm);">Open Source</h3>
         <p>
-          This project is fully open source. Contributions and bug reports are welcome
+          Contributions and bug reports are welcome
           on <a href="https://github.com/Varnasr/india-policy-tracker">GitHub</a>.
         </p>
         <p style="margin-top: var(--space-sm);">
