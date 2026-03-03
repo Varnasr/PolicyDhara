@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://impactmojo.in',
-  base: '/policy-tracker',
+  site: 'https://varnasr.github.io',
+  base: '/india-policy-tracker',
   build: {
     format: 'directory'
   },
