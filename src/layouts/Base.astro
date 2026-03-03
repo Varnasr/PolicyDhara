@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 interface Props {
   title: string;
   description?: string;
@@ -6,7 +8,8 @@ interface Props {
 
 const { title, description = "Auto-updating tracker of Indian development policies across 20+ sectors. Open data, open source." } = Astro.props;
 const siteTitle = `${title} | India Policy Tracker`;
-const base = import.meta.env.BASE_URL;
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -27,9 +30,7 @@ const base = import.meta.env.BASE_URL;
 
   <link rel="alternate" type="application/rss+xml" title="India Policy Tracker RSS" href={`${base}rss.xml`} />
 
-  <style>
-    @import '../styles/global.css';
-  </style>
+
 </head>
 <body>
   <header class="site-header">
