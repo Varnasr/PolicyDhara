@@ -537,6 +537,20 @@ SOURCE_SCRAPERS = {
     "world_bank_india": scrape_world_bank_api,
     "idfc_institute": scrape_ministry,
     "nipfp": scrape_ministry,
+    # State PIB regional offices — same HTML structure as central PIB
+    "state_pib_maharashtra": scrape_pib,
+    "state_pib_tamil_nadu": scrape_pib,
+    "state_pib_karnataka": scrape_pib,
+    "state_pib_west_bengal": scrape_pib,
+    "state_pib_uttar_pradesh": scrape_pib,
+    "state_pib_gujarat": scrape_pib,
+    "state_pib_kerala": scrape_pib,
+    "state_pib_madhya_pradesh": scrape_pib,
+    "state_pib_rajasthan": scrape_pib,
+    "state_pib_telangana": scrape_pib,
+    "state_pib_punjab": scrape_pib,
+    "state_pib_assam": scrape_pib,
+    "state_pib_bihar": scrape_pib,
 }
 
 

@@ -262,8 +262,8 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
                 "sectors": sectors,
                 "sector_slugs": [get_sector_slug(s) for s in sectors],
                 "type": categorize_item_type(title, description),
-                "level": "central",
-                "state": "",
+                "level": source_config.get("level", "central"),
+                "state": source_config.get("state", ""),
             })
 
         print(f"  Fetched {len(items)} items")
