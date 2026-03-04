@@ -1,0 +1,467 @@
+---
+import Base from '../layouts/Base.astro';
+import { getAllPolicies, getMeta, getEraDistribution } from '../lib/data';
+
+const policies = getAllPolicies();
+const meta = getMeta();
+const eras = getEraDistribution();
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a);
+const sourceList = Object.entries(meta.source_counts).sort(([,a], [,b]) => b - a);
+
+// Sample policy for docs
+const samplePolicy = policies[0] || {
+  id: "example001",
+  title: "Example Policy Title",
+  description: "Description of the policy.",
+  link: "https://source.gov.in/",
+  date: "2026-01-01",
+  source_id: "pib",
+  source_name: "Press Information Bureau",
+  source_short: "PIB",
+  sectors: ["Education", "Health"],
+  sector_slugs: ["education", "health"],
+  type: "legislation",
+};
+---
+<Base title="API & Data Export" description="Download PolicyDhara data as JSON or CSV. Open data for researchers, journalists, and developers.">
+  <div style="padding: var(--space-xl) 0;">
+    <h2 class="page-title">API & Data Export</h2>
+    <p class="page-subtitle">All PolicyDhara data is open and downloadable. Use it for research, journalism, or build your own tools.</p>
+
+    {/* Quick stats */}
+    <div class="api-stats">
+      <div class="api-stat">
+        <span class="api-stat-num">{meta.total_policies}</span>
+        <span class="api-stat-label">Total Policies</span>
+      </div>
+      <div class="api-stat">
+        <span class="api-stat-num">{sectorList.length}</span>
+        <span class="api-stat-label">Sectors</span>
+      </div>
+      <div class="api-stat">
+        <span class="api-stat-num">{sourceList.length}</span>
+        <span class="api-stat-label">Sources</span>
+      </div>
+      <div class="api-stat">
+        <span class="api-stat-num">{new Date(meta.last_updated).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}</span>
+        <span class="api-stat-label">Last Updated</span>
+      </div>
+    </div>
+
+    {/* Download buttons */}
+    <div class="api-section">
+      <h3>Download Data</h3>
+      <p class="api-desc">Download the full dataset in your preferred format. Data updates every 6 hours via automated pipeline.</p>
+      <div class="download-grid">
+        <button class="download-btn" id="dl-json">
+          <span class="dl-icon">{ }</span>
+          <div>
+            <strong>JSON</strong>
+            <span>Full dataset with all fields</span>
+          </div>
+        </button>
+        <button class="download-btn" id="dl-csv">
+          <span class="dl-icon">,</span>
+          <div>
+            <strong>CSV</strong>
+            <span>Spreadsheet-friendly format</span>
+          </div>
+        </button>
+        <button class="download-btn" id="dl-json-filtered">
+          <span class="dl-icon">&#9998;</span>
+          <div>
+            <strong>Filtered JSON</strong>
+            <span>Apply filters below first</span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    {/* Filter before export */}
+    <div class="api-section">
+      <h3>Filter Before Export</h3>
+      <div class="export-filters">
+        <select id="exp-sector" class="exp-select">
+          <option value="">All Sectors</option>
+          {sectorList.map(([s]) => <option value={s}>{s}</option>)}
+        </select>
+        <select id="exp-source" class="exp-select">
+          <option value="">All Sources</option>
+          {sourceList.map(([s]) => <option value={s}>{s}</option>)}
+        </select>
+        <select id="exp-type" class="exp-select">
+          <option value="">All Types</option>
+          <option value="legislation">Legislation</option>
+          <option value="notification">Notification</option>
+          <option value="scheme">Scheme</option>
+          <option value="budget">Budget</option>
+          <option value="research">Research</option>
+          <option value="announcement">Announcement</option>
+          <option value="policy">Policy</option>
+        </select>
+        <input type="date" id="exp-from" class="exp-select" title="From" />
+        <input type="date" id="exp-to" class="exp-select" title="To" />
+        <span class="exp-count" id="exp-count">{policies.length} policies selected</span>
+      </div>
+    </div>
+
+    {/* Data schema */}
+    <div class="api-section">
+      <h3>Data Schema</h3>
+      <p class="api-desc">Each policy record has the following fields:</p>
+      <div class="schema-card">
+        <pre class="schema-pre"><code>{JSON.stringify({
+  id: samplePolicy.id,
+  title: samplePolicy.title,
+  description: samplePolicy.description.slice(0, 80) + '...',
+  link: samplePolicy.link,
+  date: samplePolicy.date,
+  source_id: samplePolicy.source_id,
+  source_name: samplePolicy.source_name,
+  source_short: samplePolicy.source_short,
+  sectors: samplePolicy.sectors,
+  sector_slugs: samplePolicy.sector_slugs,
+  type: samplePolicy.type,
+}, null, 2)}</code></pre>
+      </div>
+
+      <div class="field-table">
+        <div class="field-row field-header">
+          <span class="field-name">Field</span>
+          <span class="field-type">Type</span>
+          <span class="field-desc">Description</span>
+        </div>
+        <div class="field-row"><span class="field-name">id</span><span class="field-type">string</span><span class="field-desc">Unique identifier (URL-safe slug)</span></div>
+        <div class="field-row"><span class="field-name">title</span><span class="field-type">string</span><span class="field-desc">Policy title or headline</span></div>
+        <div class="field-row"><span class="field-name">description</span><span class="field-type">string</span><span class="field-desc">Summary description</span></div>
+        <div class="field-row"><span class="field-name">link</span><span class="field-type">string</span><span class="field-desc">URL to original source</span></div>
+        <div class="field-row"><span class="field-name">date</span><span class="field-type">string</span><span class="field-desc">ISO date (YYYY-MM-DD)</span></div>
+        <div class="field-row"><span class="field-name">source_id</span><span class="field-type">string</span><span class="field-desc">Source identifier (e.g. pib, rbi)</span></div>
+        <div class="field-row"><span class="field-name">source_short</span><span class="field-type">string</span><span class="field-desc">Display abbreviation (e.g. PIB, RBI)</span></div>
+        <div class="field-row"><span class="field-name">sectors</span><span class="field-type">string[]</span><span class="field-desc">Sector classifications</span></div>
+        <div class="field-row"><span class="field-name">type</span><span class="field-type">string</span><span class="field-desc">legislation | notification | scheme | budget | research | announcement | policy</span></div>
+      </div>
+    </div>
+
+    {/* Available datasets */}
+    <div class="api-section">
+      <h3>Other Datasets</h3>
+      <p class="api-desc">Additional structured data available through the repository.</p>
+      <div class="dataset-grid">
+        <div class="dataset-card">
+          <strong>Parliament Sessions</strong>
+          <span>Lok Sabha sessions, bills tracker, and historical productivity data</span>
+        </div>
+        <div class="dataset-card">
+          <strong>Budget Allocations</strong>
+          <span>Ministry-wise and scheme-wise budget allocations across fiscal years</span>
+        </div>
+        <div class="dataset-card">
+          <strong>State Profiles</strong>
+          <span>State-level GSDP, HDI, flagship schemes, and key policy actions</span>
+        </div>
+        <div class="dataset-card">
+          <strong>Policy Impacts</strong>
+          <span>Impact scores, beneficiary reach, SDG alignment, and implementation status</span>
+        </div>
+        <div class="dataset-card">
+          <strong>Policy Continuity</strong>
+          <span>How policies evolved across government eras (UPA to NDA)</span>
+        </div>
+        <div class="dataset-card">
+          <strong>State Governments</strong>
+          <span>Current ruling parties, CMs, political alignment for all states and UTs</span>
+        </div>
+      </div>
+    </div>
+
+    {/* License */}
+    <div class="api-section">
+      <h3>License & Attribution</h3>
+      <p class="api-desc">
+        PolicyDhara data is sourced from official Indian government portals and public domain sources.
+        The aggregated dataset is available under <strong>CC BY 4.0</strong>. If you use this data, please credit
+        "PolicyDhara by ImpactMojo" with a link back to this site.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .api-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: var(--space-xl);
+  }
+  .api-stat {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    text-align: center;
+    box-shadow: var(--shadow-card);
+  }
+  .api-stat-num {
+    display: block;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .api-stat-label {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+
+  .api-section {
+    margin-bottom: var(--space-xl);
+  }
+  .api-section h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 4px;
+  }
+  .api-desc {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+    line-height: 1.6;
+  }
+
+  /* Downloads */
+  .download-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .download-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: var(--space-md) var(--space-lg);
+    background: var(--color-bg-white);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    font-family: inherit;
+    text-align: left;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    box-shadow: var(--shadow-card);
+  }
+  .download-btn:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+  }
+  .download-btn strong {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-text);
+  }
+  .download-btn span {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+  }
+  .dl-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-md);
+    background: var(--color-accent);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  /* Export filters */
+  .export-filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .exp-select {
+    padding: 8px 12px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-family: inherit;
+    font-size: 0.75rem;
+    color: var(--color-text);
+    background: var(--color-bg-white);
+  }
+  .exp-count {
+    font-size: 0.75rem;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-left: 8px;
+  }
+
+  /* Schema */
+  .schema-card {
+    background: #1e293b;
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    overflow-x: auto;
+  }
+  .schema-pre {
+    margin: 0;
+    font-family: 'DM Mono', monospace, monospace;
+    font-size: 0.75rem;
+    color: #e2e8f0;
+    line-height: 1.6;
+    white-space: pre;
+  }
+
+  .field-table {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+  }
+  .field-row {
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    border-top: 1px solid var(--color-border-light);
+    align-items: baseline;
+  }
+  .field-row:first-child { border-top: none; }
+  .field-header {
+    background: var(--color-bg-alt);
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+  }
+  .field-name {
+    flex: 0 0 120px;
+    font-family: monospace;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-accent);
+  }
+  .field-header .field-name { color: var(--color-text-muted); font-family: inherit; }
+  .field-type {
+    flex: 0 0 80px;
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+  }
+  .field-desc {
+    flex: 1;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  /* Dataset grid */
+  .dataset-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .dataset-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-card);
+  }
+  .dataset-card strong {
+    display: block;
+    font-size: 0.8125rem;
+    color: var(--color-text);
+    margin-bottom: 4px;
+  }
+  .dataset-card span {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+  }
+
+  @media (max-width: 768px) {
+    .api-stats { grid-template-columns: repeat(2, 1fr); }
+    .download-grid { grid-template-columns: 1fr; }
+    .export-filters { flex-direction: column; }
+    .dataset-grid { grid-template-columns: 1fr; }
+    .field-name { flex: 0 0 80px; }
+    .field-type { flex: 0 0 60px; }
+  }
+</style>
+
+<script define:vars={{ policies: policies.map(p => ({ id: p.id, title: p.title, description: p.description, link: p.link, date: p.date, source_id: p.source_id, source_name: p.source_name, source_short: p.source_short, sectors: p.sectors, sector_slugs: p.sector_slugs, type: p.type })) }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    const sectorEl = document.getElementById('exp-sector');
+    const sourceEl = document.getElementById('exp-source');
+    const typeEl = document.getElementById('exp-type');
+    const fromEl = document.getElementById('exp-from');
+    const toEl = document.getElementById('exp-to');
+    const countEl = document.getElementById('exp-count');
+
+    function getFiltered() {
+      return policies.filter(p => {
+        if (sectorEl.value && !p.sectors.includes(sectorEl.value)) return false;
+        if (sourceEl.value && p.source_short !== sourceEl.value) return false;
+        if (typeEl.value && p.type !== typeEl.value) return false;
+        if (fromEl.value && p.date < fromEl.value) return false;
+        if (toEl.value && p.date > toEl.value) return false;
+        return true;
+      });
+    }
+
+    function updateCount() {
+      const filtered = getFiltered();
+      countEl.textContent = `${filtered.length} policies selected`;
+    }
+
+    [sectorEl, sourceEl, typeEl, fromEl, toEl].forEach(el => el.addEventListener('change', updateCount));
+
+    function downloadFile(content, filename, mime) {
+      const blob = new Blob([content], { type: mime });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function toCSV(data) {
+      if (data.length === 0) return '';
+      const headers = ['id', 'title', 'description', 'link', 'date', 'source_id', 'source_name', 'source_short', 'sectors', 'type'];
+      const escape = (v) => '"' + String(v).replace(/"/g, '""') + '"';
+      const rows = data.map(p => headers.map(h => {
+        const val = p[h];
+        return escape(Array.isArray(val) ? val.join('; ') : val);
+      }).join(','));
+      return headers.join(',') + '\n' + rows.join('\n');
+    }
+
+    document.getElementById('dl-json').addEventListener('click', () => {
+      downloadFile(JSON.stringify(policies, null, 2), 'policydhara-data.json', 'application/json');
+    });
+
+    document.getElementById('dl-csv').addEventListener('click', () => {
+      downloadFile(toCSV(policies), 'policydhara-data.csv', 'text/csv');
+    });
+
+    document.getElementById('dl-json-filtered').addEventListener('click', () => {
+      const filtered = getFiltered();
+      downloadFile(JSON.stringify(filtered, null, 2), 'policydhara-filtered.json', 'application/json');
+    });
+  });
+</script>

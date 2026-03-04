@@ -15,6 +15,50 @@ const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---
 <Base title="Dashboard">
+  {/* ── Hero / About ─────────────────────────────────── */}
+  <div class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">PolicyDhara</h1>
+      <p class="hero-tagline">An open-source tracker for Indian development policy — from gazette notifications to ground impact.</p>
+      <p class="hero-desc">
+        India's policy landscape is vast and fragmented across ministries, state governments, and regulatory bodies.
+        PolicyDhara aggregates legislation, schemes, budget announcements, and policy notifications from official sources
+        like the Press Information Bureau, gazette notifications, and ministry portals — making it possible to track
+        what the government is doing, across sectors and over time.
+      </p>
+      <div class="hero-features">
+        <div class="hero-feature">
+          <span class="hero-feature-icon">&#9670;</span>
+          <div>
+            <strong>Automated Collection</strong>
+            <span>Pipeline fetches from 10+ official sources every 6 hours via GitHub Actions</span>
+          </div>
+        </div>
+        <div class="hero-feature">
+          <span class="hero-feature-icon">&#9670;</span>
+          <div>
+            <strong>Historical Depth</strong>
+            <span>Coverage from 1990s liberalisation through UPA and NDA governments to present</span>
+          </div>
+        </div>
+        <div class="hero-feature">
+          <span class="hero-feature-icon">&#9670;</span>
+          <div>
+            <strong>Impact Tracking</strong>
+            <span>Policies annotated with beneficiary reach, budgets, SDG alignment, and implementation status</span>
+          </div>
+        </div>
+        <div class="hero-feature">
+          <span class="hero-feature-icon">&#9670;</span>
+          <div>
+            <strong>Fully Open</strong>
+            <span>All data and code on GitHub — built for researchers, journalists, and citizens</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <StatsBar
     totalPolicies={meta.total_policies}
     totalSources={meta.total_sources}
@@ -92,6 +136,70 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 </Base>
 
 <style>
+  /* ── Hero ───────────────────────────────────── */
+  .hero {
+    margin-bottom: var(--space-xl);
+    background: linear-gradient(135deg, var(--color-bg-white) 0%, #f0f4ff 100%);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl) var(--space-xl);
+    box-shadow: var(--shadow-card);
+  }
+  .hero-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-text);
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+  .hero-tagline {
+    font-size: 1rem;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+    line-height: 1.4;
+  }
+  .hero-desc {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    max-width: 720px;
+    margin-bottom: var(--space-lg);
+  }
+  .hero-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .hero-feature {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+  }
+  .hero-feature strong {
+    display: block;
+    font-size: 0.8125rem;
+    color: var(--color-text);
+    font-weight: 700;
+    margin-bottom: 1px;
+  }
+  .hero-feature-icon {
+    color: var(--color-accent);
+    font-size: 0.5rem;
+    margin-top: 5px;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .hero { padding: var(--space-lg); }
+    .hero-title { font-size: 1.5rem; }
+    .hero-features { grid-template-columns: 1fr; }
+  }
+
   /* ── Tabs ───────────────────────────────────── */
   .tab-bar {
     display: flex;

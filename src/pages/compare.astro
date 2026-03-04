@@ -1,0 +1,339 @@
+---
+import Base from '../layouts/Base.astro';
+import { getAllPolicies, getMeta, getEraDistribution, getSectorSlug } from '../lib/data';
+
+const policies = getAllPolicies();
+const meta = getMeta();
+const eras = getEraDistribution();
+
+// Sector-era matrix
+const sectorNames = Object.entries(meta.sector_counts)
+  .sort(([,a], [,b]) => b - a)
+  .slice(0, 15)
+  .map(([s]) => s);
+
+const ERA_RANGES = [
+  { name: 'UPA I',   start: '2004-05-22', end: '2009-05-21' },
+  { name: 'UPA II',  start: '2009-05-22', end: '2014-05-25' },
+  { name: 'NDA I',   start: '2014-05-26', end: '2019-05-29' },
+  { name: 'NDA II',  start: '2019-05-30', end: '2024-06-08' },
+  { name: 'NDA III', start: '2024-06-09', end: '9999-12-31' },
+];
+
+// Build sector-era matrix
+const sectorEraMatrix: Record<string, Record<string, number>> = {};
+for (const s of sectorNames) {
+  sectorEraMatrix[s] = {};
+  const sectorPolicies = policies.filter(p => p.sectors.includes(s));
+  for (const era of ERA_RANGES) {
+    sectorEraMatrix[s][era.name] = sectorPolicies.filter(p => p.date >= era.start && p.date <= era.end).length;
+  }
+}
+
+const maxCell = Math.max(...Object.values(sectorEraMatrix).flatMap(row => Object.values(row)), 1);
+
+// Type distribution by era
+const typeNames = ['legislation', 'notification', 'scheme', 'budget', 'research', 'announcement', 'policy'];
+const typeEraMatrix: Record<string, Record<string, number>> = {};
+for (const t of typeNames) {
+  typeEraMatrix[t] = {};
+  const typePolicies = policies.filter(p => p.type === t);
+  for (const era of ERA_RANGES) {
+    typeEraMatrix[t][era.name] = typePolicies.filter(p => p.date >= era.start && p.date <= era.end).length;
+  }
+}
+const maxTypeCell = Math.max(...Object.values(typeEraMatrix).flatMap(row => Object.values(row)), 1);
+
+// Source activity by era
+const sourceNames = Object.entries(meta.source_counts)
+  .sort(([,a], [,b]) => b - a)
+  .slice(0, 10)
+  .map(([s]) => s);
+const sourceEraMatrix: Record<string, Record<string, number>> = {};
+for (const s of sourceNames) {
+  sourceEraMatrix[s] = {};
+  const srcPolicies = policies.filter(p => p.source_short === s);
+  for (const era of ERA_RANGES) {
+    sourceEraMatrix[s][era.name] = srcPolicies.filter(p => p.date >= era.start && p.date <= era.end).length;
+  }
+}
+const maxSrcCell = Math.max(...Object.values(sourceEraMatrix).flatMap(row => Object.values(row)), 1);
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+function cellColor(val: number, max: number): string {
+  if (val === 0) return 'var(--color-bg-alt)';
+  const intensity = Math.max(0.15, val / max);
+  return `rgba(37, 99, 235, ${intensity})`;
+}
+
+function cellText(val: number, max: number): string {
+  return val / max > 0.5 ? '#fff' : 'var(--color-text)';
+}
+---
+<Base title="Compare" description="Compare Indian policy activity across government eras, sectors, and sources.">
+  <div style="padding: var(--space-xl) 0;">
+    <h2 class="page-title">Policy Comparisons</h2>
+    <p class="page-subtitle">Cross-tabulate policy activity across government eras, sectors, types, and sources</p>
+
+    {/* Era overview */}
+    <div class="cmp-section">
+      <h3>Government Era Overview</h3>
+      <div class="era-cards">
+        {eras.map(e => (
+          <div class="era-card">
+            <span class="era-name">{e.era}</span>
+            <span class="era-party">{e.party}</span>
+            <span class="era-count">{e.count}</span>
+            <span class="era-label">policies tracked</span>
+            <span class="era-range">{e.dateRange}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    {/* Sector × Era heatmap */}
+    <div class="cmp-section">
+      <h3>Sectors Across Eras</h3>
+      <p class="cmp-desc">Policy activity heatmap — darker cells indicate more policies tracked in that sector during that government era.</p>
+      <div class="heatmap-wrap">
+        <table class="heatmap">
+          <thead>
+            <tr>
+              <th class="hm-row-label">Sector</th>
+              {ERA_RANGES.map(e => <th class="hm-col-label">{e.name}</th>)}
+              <th class="hm-col-label">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sectorNames.map(s => {
+              const total = Object.values(sectorEraMatrix[s]).reduce((a, b) => a + b, 0);
+              return (
+                <tr>
+                  <td class="hm-row-label">
+                    <a href={`${base}sectors/${getSectorSlug(s)}/`}>{s}</a>
+                  </td>
+                  {ERA_RANGES.map(e => (
+                    <td class="hm-cell" style={`background: ${cellColor(sectorEraMatrix[s][e.name], maxCell)}; color: ${cellText(sectorEraMatrix[s][e.name], maxCell)};`}>
+                      {sectorEraMatrix[s][e.name] || ''}
+                    </td>
+                  ))}
+                  <td class="hm-cell hm-total">{total}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {/* Type × Era heatmap */}
+    <div class="cmp-section">
+      <h3>Policy Types Across Eras</h3>
+      <p class="cmp-desc">Distribution of legislation, schemes, notifications, and other policy types across government terms.</p>
+      <div class="heatmap-wrap">
+        <table class="heatmap">
+          <thead>
+            <tr>
+              <th class="hm-row-label">Type</th>
+              {ERA_RANGES.map(e => <th class="hm-col-label">{e.name}</th>)}
+              <th class="hm-col-label">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {typeNames.map(t => {
+              const total = Object.values(typeEraMatrix[t]).reduce((a, b) => a + b, 0);
+              if (total === 0) return null;
+              return (
+                <tr>
+                  <td class="hm-row-label hm-type-label">{t}</td>
+                  {ERA_RANGES.map(e => (
+                    <td class="hm-cell" style={`background: ${cellColor(typeEraMatrix[t][e.name], maxTypeCell)}; color: ${cellText(typeEraMatrix[t][e.name], maxTypeCell)};`}>
+                      {typeEraMatrix[t][e.name] || ''}
+                    </td>
+                  ))}
+                  <td class="hm-cell hm-total">{total}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {/* Source × Era heatmap */}
+    <div class="cmp-section">
+      <h3>Sources Across Eras</h3>
+      <p class="cmp-desc">Which official sources contributed data in each government era.</p>
+      <div class="heatmap-wrap">
+        <table class="heatmap">
+          <thead>
+            <tr>
+              <th class="hm-row-label">Source</th>
+              {ERA_RANGES.map(e => <th class="hm-col-label">{e.name}</th>)}
+              <th class="hm-col-label">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sourceNames.map(s => {
+              const total = Object.values(sourceEraMatrix[s]).reduce((a, b) => a + b, 0);
+              return (
+                <tr>
+                  <td class="hm-row-label">{s}</td>
+                  {ERA_RANGES.map(e => (
+                    <td class="hm-cell" style={`background: ${cellColor(sourceEraMatrix[s][e.name], maxSrcCell)}; color: ${cellText(sourceEraMatrix[s][e.name], maxSrcCell)};`}>
+                      {sourceEraMatrix[s][e.name] || ''}
+                    </td>
+                  ))}
+                  <td class="hm-cell hm-total">{total}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cmp-section {
+    margin-bottom: var(--space-xl);
+  }
+  .cmp-section h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 4px;
+  }
+  .cmp-desc {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+
+  /* Era cards */
+  .era-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: var(--space-lg);
+  }
+  .era-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    text-align: center;
+    box-shadow: var(--shadow-card);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .era-name {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .era-party {
+    font-size: 0.625rem;
+    color: var(--color-text-dim);
+    margin-bottom: 6px;
+  }
+  .era-count {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    line-height: 1;
+  }
+  .era-label {
+    font-size: 0.5625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+  .era-range {
+    font-size: 0.625rem;
+    color: var(--color-text-dim);
+    margin-top: 4px;
+  }
+
+  /* Heatmap */
+  .heatmap-wrap {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+  .heatmap {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+  }
+  .heatmap th, .heatmap td {
+    padding: 8px 12px;
+    text-align: center;
+  }
+  .heatmap thead {
+    background: var(--color-bg-alt);
+  }
+  .hm-row-label {
+    text-align: left !important;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text);
+    white-space: nowrap;
+    min-width: 140px;
+  }
+  .hm-row-label a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .hm-row-label a:hover {
+    color: var(--color-accent);
+  }
+  .hm-type-label {
+    text-transform: capitalize;
+  }
+  .hm-col-label {
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+  }
+  .hm-cell {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    border: 1px solid var(--color-bg);
+    border-radius: 4px;
+    min-width: 50px;
+    transition: transform 0.1s;
+  }
+  .hm-cell:hover {
+    transform: scale(1.05);
+  }
+  .hm-total {
+    background: var(--color-bg-alt) !important;
+    color: var(--color-text) !important;
+    font-weight: 800;
+  }
+  tbody tr {
+    border-top: 1px solid var(--color-border-light);
+  }
+
+  @media (max-width: 768px) {
+    .era-cards { grid-template-columns: repeat(2, 1fr); }
+    .hm-row-label { min-width: 100px; font-size: 0.625rem; }
+    .hm-cell { min-width: 40px; font-size: 0.6875rem; }
+  }
+</style>
