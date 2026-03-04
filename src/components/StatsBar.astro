@@ -1,4 +1,6 @@
 ---
+import { getAllPolicies } from '../lib/data';
+
 interface Props {
   totalPolicies: number;
   totalSources: number;
@@ -7,6 +9,10 @@ interface Props {
 }
 
 const { totalPolicies, totalSources, totalSectors, lastUpdated } = Astro.props;
+const policies = getAllPolicies();
+const dates = policies.map(p => p.date).sort();
+const earliestYear = dates[0]?.slice(0, 4) || '—';
+const latestYear = dates[dates.length - 1]?.slice(0, 4) || '—';
 
 function formatUpdated(isoStr: string): string {
   try {
@@ -21,6 +27,10 @@ function formatUpdated(isoStr: string): string {
   <div class="stat-card">
     <div class="stat-number">{totalPolicies}</div>
     <div class="stat-label">Policies Tracked</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">{earliestYear}–{latestYear}</div>
+    <div class="stat-label">Coverage Span</div>
   </div>
   <div class="stat-card">
     <div class="stat-number">{totalSources}</div>

@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import StatsBar from '../components/StatsBar.astro';
+import PolicyTimeline from '../components/PolicyTimeline.astro';
 import ActivityHeatmap from '../components/ActivityHeatmap.astro';
 import Insights from '../components/Insights.astro';
 import Sidebar from '../components/Sidebar.astro';
@@ -29,8 +30,9 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
   {/* ── Tab: Overview ──────────────────────────────────── */}
   <div class="tab-panel active" id="tab-overview">
-    <ActivityHeatmap />
+    <PolicyTimeline />
     <Insights />
+    <ActivityHeatmap />
 
     {/* Recent highlights */}
     <div class="section-header">

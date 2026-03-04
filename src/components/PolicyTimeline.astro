@@ -1,0 +1,289 @@
+---
+import { getAllPolicies, getEraDistribution } from '../lib/data';
+
+const policies = getAllPolicies();
+
+// Build year-by-year counts
+const yearCounts: Record<number, { total: number; types: Record<string, number> }> = {};
+for (const p of policies) {
+  const year = parseInt(p.date.slice(0, 4));
+  if (!yearCounts[year]) yearCounts[year] = { total: 0, types: {} };
+  yearCounts[year].total++;
+  yearCounts[year].types[p.type] = (yearCounts[year].types[p.type] || 0) + 1;
+}
+
+const years = Object.keys(yearCounts).map(Number).sort();
+const minYear = Math.min(...years);
+const maxYear = Math.max(...years);
+const maxCount = Math.max(...Object.values(yearCounts).map(y => y.total), 1);
+
+// Fill in gaps
+const allYears: { year: number; total: number; types: Record<string, number> }[] = [];
+for (let y = minYear; y <= maxYear; y++) {
+  allYears.push({
+    year: y,
+    total: yearCounts[y]?.total || 0,
+    types: yearCounts[y]?.types || {},
+  });
+}
+
+// Government eras for background shading
+const ERAS = [
+  { name: 'Pre-UPA', start: 1990, end: 2004, color: '#f3f4f6' },
+  { name: 'UPA I', start: 2004, end: 2009, color: '#fff7ed' },
+  { name: 'UPA II', start: 2009, end: 2014, color: '#fef3c7' },
+  { name: 'NDA I', start: 2014, end: 2019, color: '#eff6ff' },
+  { name: 'NDA II', start: 2019, end: 2024, color: '#dbeafe' },
+  { name: 'NDA III', start: 2024, end: 2027, color: '#e0e7ff' },
+];
+
+const TYPE_COLORS: Record<string, string> = {
+  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
+  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+};
+
+// Decade markers
+const decadeYears = allYears.filter(y => y.year % 5 === 0).map(y => y.year);
+
+// Summary stats
+const totalPolicies = policies.length;
+const yearsSpanned = maxYear - minYear + 1;
+const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end)).length;
+---
+
+<div class="timeline-container">
+  <div class="timeline-header">
+    <div>
+      <h3>Policy Timeline</h3>
+      <p class="timeline-subtitle">{totalPolicies} policies across {yearsSpanned} years and {erasCovered} government eras</p>
+    </div>
+    <div class="timeline-era-legend">
+      {ERAS.filter(e => years.some(y => y >= e.start && y < e.end)).map(e => (
+        <span class="era-legend-chip">
+          <span class="era-legend-swatch" style={`background: ${e.color}; border: 1px solid ${e.color === '#f3f4f6' ? '#d1d5db' : e.color};`}></span>
+          {e.name}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  <div class="timeline-chart-wrap">
+    <div class="timeline-chart">
+      {/* Era background bands */}
+      {ERAS.map(era => {
+        const startIdx = allYears.findIndex(y => y.year >= era.start);
+        const endIdx = allYears.findIndex(y => y.year >= era.end);
+        const effectiveEnd = endIdx === -1 ? allYears.length : endIdx;
+        if (startIdx === -1 || startIdx >= allYears.length) return null;
+        const leftPct = (startIdx / allYears.length) * 100;
+        const widthPct = ((effectiveEnd - startIdx) / allYears.length) * 100;
+        return (
+          <div class="era-band" style={`left: ${leftPct}%; width: ${widthPct}%; background: ${era.color};`}>
+            <span class="era-band-label">{era.name}</span>
+          </div>
+        );
+      })}
+
+      {/* Bars */}
+      <div class="timeline-bars">
+        {allYears.map(y => (
+          <div class="tl-bar-col" title={`${y.year}: ${y.total} policies`}>
+            <div class="tl-bar-stack" style={`height: ${y.total > 0 ? Math.max((y.total / maxCount) * 100, 3) : 0}%;`}>
+              {Object.entries(y.types).sort(([,a], [,b]) => b - a).map(([type, count]) => (
+                <div class="tl-bar-segment" style={`flex-grow: ${count}; background: ${TYPE_COLORS[type] || '#888'};`} title={`${type}: ${count}`}></div>
+              ))}
+            </div>
+            {y.total > 0 && <span class="tl-bar-count">{y.total}</span>}
+          </div>
+        ))}
+      </div>
+
+      {/* Year labels */}
+      <div class="timeline-years">
+        {allYears.map(y => (
+          <span class={`tl-year-label ${decadeYears.includes(y.year) || y.year === minYear || y.year === maxYear ? 'tl-year-major' : ''}`}>
+            {decadeYears.includes(y.year) || y.year === minYear || y.year === maxYear ? y.year : (allYears.length <= 20 ? y.year : '')}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-type-legend">
+    {Object.entries(TYPE_COLORS).map(([type, color]) => (
+      <span class="type-legend-chip">
+        <span class="type-legend-dot" style={`background: ${color};`}></span>
+        {type}
+      </span>
+    ))}
+  </div>
+</div>
+
+<style>
+  .timeline-container {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-xl);
+  }
+  .timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--space-lg);
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .timeline-header h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0;
+  }
+  .timeline-subtitle {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-top: 2px;
+  }
+  .timeline-era-legend {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .era-legend-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.625rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+  .era-legend-swatch {
+    width: 12px;
+    height: 8px;
+    border-radius: 2px;
+  }
+
+  .timeline-chart-wrap {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+  .timeline-chart {
+    position: relative;
+    min-height: 180px;
+    min-width: max-content;
+  }
+
+  /* Era background bands */
+  .era-band {
+    position: absolute;
+    top: 0;
+    bottom: 24px;
+    border-radius: 4px;
+    z-index: 0;
+  }
+  .era-band-label {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    font-size: 0.5rem;
+    color: var(--color-text-dim);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+  }
+
+  /* Bars */
+  .timeline-bars {
+    display: flex;
+    align-items: flex-end;
+    height: 150px;
+    gap: 2px;
+    position: relative;
+    z-index: 1;
+    padding: 0 2px;
+  }
+  .tl-bar-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    min-width: 16px;
+    gap: 2px;
+  }
+  .tl-bar-stack {
+    width: 100%;
+    max-width: 28px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+    min-height: 0;
+  }
+  .tl-bar-segment {
+    min-height: 2px;
+  }
+  .tl-bar-count {
+    font-size: 0.5rem;
+    font-weight: 700;
+    color: var(--color-text-dim);
+    line-height: 1;
+  }
+
+  /* Year labels */
+  .timeline-years {
+    display: flex;
+    gap: 2px;
+    padding: 0 2px;
+    margin-top: 4px;
+    position: relative;
+    z-index: 1;
+  }
+  .tl-year-label {
+    flex: 1;
+    text-align: center;
+    font-size: 0.5rem;
+    color: var(--color-text-dim);
+    min-width: 16px;
+  }
+  .tl-year-major {
+    font-weight: 700;
+    color: var(--color-text-muted);
+  }
+
+  /* Type legend */
+  .timeline-type-legend {
+    display: flex;
+    gap: 12px;
+    margin-top: var(--space-md);
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--color-border-light);
+    flex-wrap: wrap;
+  }
+  .type-legend-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.5625rem;
+    color: var(--color-text-muted);
+    text-transform: capitalize;
+  }
+  .type-legend-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 2px;
+  }
+
+  @media (max-width: 768px) {
+    .timeline-header { flex-direction: column; }
+    .timeline-bars { height: 120px; }
+    .tl-bar-col { min-width: 12px; }
+  }
+</style>

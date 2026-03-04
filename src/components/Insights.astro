@@ -72,21 +72,30 @@ const GOV_PARTY_COLORS: Record<string, string> = {
     </div>
   </div>
 
-  {/* Weekly trend sparkline */}
+  {/* Data depth / historical coverage */}
   <div class="insight-card insight-trend">
-    <h4>Weekly Trend</h4>
-    <div class="sparkline">
-      {recentWeeks.map(w => (
-        <div class="spark-bar-wrap" title={`${w.week}: ${w.count} policies`}>
-          <div class="spark-bar" style={`height: ${Math.max((w.count / maxWeekly) * 100, 4)}%;`}></div>
-          <span class="spark-label">{w.count}</span>
+    <h4>Data Coverage</h4>
+    <div class="coverage-stats">
+      <div class="coverage-item">
+        <span class="coverage-num">{(() => { const dates = policies.map(p => p.date).sort(); return dates[0]?.slice(0, 4) || '—'; })()}</span>
+        <span class="coverage-label">Earliest Policy</span>
+      </div>
+      <div class="coverage-arrow">&rarr;</div>
+      <div class="coverage-item">
+        <span class="coverage-num">{(() => { const dates = policies.map(p => p.date).sort(); return dates[dates.length - 1]?.slice(0, 4) || '—'; })()}</span>
+        <span class="coverage-label">Latest Policy</span>
+      </div>
+    </div>
+    <div class="coverage-eras">
+      {eraDist.filter(e => e.count > 0).map(e => (
+        <div class="coverage-era-row">
+          <span class="coverage-era-name" style={`color: ${ERA_COLORS[e.era] || '#888'};`}>{e.era}</span>
+          <span class="coverage-era-count">{e.count}</span>
         </div>
       ))}
     </div>
-    <div class="spark-weeks">
-      {recentWeeks.map((w, i) => (
-        <span class="spark-week-label">{i === 0 || i === recentWeeks.length - 1 ? w.week.split('-')[1] : ''}</span>
-      ))}
+    <div class="coverage-note">
+      Covers UPA and NDA governments from 2004 onwards
     </div>
   </div>
 
@@ -211,45 +220,52 @@ const GOV_PARTY_COLORS: Record<string, string> = {
   .trend-up { color: var(--color-accent); }
   .trend-down { color: #dc2626; }
 
-  /* Sparkline */
-  .sparkline {
+  /* Data Coverage */
+  .coverage-stats {
     display: flex;
-    align-items: flex-end;
-    gap: 4px;
-    height: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: var(--space-md);
   }
-  .spark-bar-wrap {
-    flex: 1;
-    height: 100%;
+  .coverage-item { text-align: center; }
+  .coverage-num {
+    display: block;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1;
+  }
+  .coverage-label {
+    font-size: 0.5625rem;
+    color: var(--color-text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .coverage-arrow {
+    font-size: 1.25rem;
+    color: var(--color-text-dim);
+  }
+  .coverage-eras {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 3px;
-  }
-  .spark-bar {
-    width: 100%;
-    background: var(--color-accent);
-    border-radius: 2px 2px 0 0;
-    min-height: 3px;
-    transition: height 0.3s;
-  }
-  .spark-label {
-    font-size: 0.5625rem;
-    color: var(--color-text-dim);
-    font-weight: 600;
-  }
-  .spark-weeks {
-    display: flex;
     gap: 4px;
-    margin-top: 4px;
-    padding-left: 0;
+    margin-bottom: var(--space-sm);
   }
-  .spark-week-label {
-    flex: 1;
-    font-size: 0.5625rem;
+  .coverage-era-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+  }
+  .coverage-era-name { font-weight: 600; }
+  .coverage-era-count { font-weight: 700; color: var(--color-text-muted); }
+  .coverage-note {
+    font-size: 0.625rem;
     color: var(--color-text-dim);
     text-align: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--color-border-light);
   }
 
   /* Type distribution bars */
