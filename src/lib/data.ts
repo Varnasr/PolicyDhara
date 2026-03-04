@@ -389,6 +389,38 @@ export function getAllStateProfiles(): Record<string, StateProfileData> {
   return data.states || {};
 }
 
+/** Policy impact annotations */
+export interface PolicyImpact {
+  match_keywords: string[];
+  impact_score: number;
+  beneficiaries: string;
+  budget_crore: number;
+  implementation: 'announced' | 'early' | 'partial' | 'operational';
+  implementation_pct: number;
+  outcomes: string[];
+  challenges: string[];
+  sdg_goals: number[];
+  states_covered: string;
+}
+
+export function getImpactForPolicy(title: string): PolicyImpact | null {
+  const data = readJson<any>('policy_impacts.json', { impacts: {} });
+  const impacts = data.impacts || {};
+  const titleLower = title.toLowerCase();
+  for (const [, impact] of Object.entries(impacts)) {
+    const imp = impact as PolicyImpact;
+    if (imp.match_keywords?.some((kw: string) => titleLower.includes(kw.toLowerCase()))) {
+      return imp;
+    }
+  }
+  return null;
+}
+
+export function getAllImpacts(): Record<string, PolicyImpact> {
+  const data = readJson<any>('policy_impacts.json', { impacts: {} });
+  return data.impacts || {};
+}
+
 /** Returns sectors x types matrix for landscape view */
 export function getSectorTypeMatrix(): {
   sectors: string[];

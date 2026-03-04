@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
-import { getAllPolicies, getRelatedPolicies, getMeta } from '../../lib/data';
+import { getAllPolicies, getRelatedPolicies, getMeta, getImpactForPolicy } from '../../lib/data';
 import { enrichPolicy } from '../../lib/enrich';
 
 export function getStaticPaths() {
@@ -16,6 +16,22 @@ const related = getRelatedPolicies(policy, 4);
 const base = (import.meta.env.BASE_URL).replace(/\/?$/, '/');
 const meta = getMeta();
 const enrichment = enrichPolicy(policy.sectors, policy.type, policy.date);
+const impact = getImpactForPolicy(policy.title);
+
+const SDG_NAMES: Record<number, string> = {
+  1: 'No Poverty', 2: 'Zero Hunger', 3: 'Good Health', 4: 'Quality Education',
+  5: 'Gender Equality', 6: 'Clean Water', 7: 'Clean Energy', 8: 'Decent Work',
+  9: 'Industry & Innovation', 10: 'Reduced Inequalities', 11: 'Sustainable Cities',
+  12: 'Responsible Consumption', 13: 'Climate Action', 14: 'Life Below Water',
+  15: 'Life on Land', 16: 'Peace & Justice', 17: 'Partnerships',
+};
+
+const IMPL_COLORS: Record<string, { bg: string; text: string; label: string }> = {
+  announced: { bg: '#f3f4f6', text: '#6b7280', label: 'Announced' },
+  early: { bg: '#fefce8', text: '#854d0e', label: 'Early Stage' },
+  partial: { bg: '#fff7ed', text: '#c2410c', label: 'Partially Implemented' },
+  operational: { bg: '#dcfce7', text: '#166534', label: 'Operational' },
+};
 
 function formatDate(dateStr: string): string {
   try {
@@ -165,6 +181,84 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
         </div>
       </div>
 
+
+      {/* ── Impact Assessment ─────────────────────────────── */}
+      {impact && (
+        <div class="impact-section">
+          <h3>Impact Assessment</h3>
+
+          <div class="impact-top-row">
+            <div class="impact-score-card">
+              <div class="impact-score-ring" style={`--score: ${impact.impact_score * 10}; --score-color: ${impact.impact_score >= 8 ? '#16a34a' : impact.impact_score >= 6 ? '#d97706' : '#dc2626'};`}>
+                <span class="impact-score-num">{impact.impact_score}</span>
+                <span class="impact-score-of">/10</span>
+              </div>
+              <span class="impact-score-label">Impact Score</span>
+            </div>
+
+            <div class="impact-stats">
+              <div class="impact-stat">
+                <span class="impact-stat-label">Beneficiaries</span>
+                <span class="impact-stat-value">{impact.beneficiaries}</span>
+              </div>
+              {impact.budget_crore > 0 && (
+                <div class="impact-stat">
+                  <span class="impact-stat-label">Budget Allocation</span>
+                  <span class="impact-stat-value">Rs {impact.budget_crore >= 1000 ? (impact.budget_crore / 1000).toFixed(0) + 'K' : impact.budget_crore} Crore</span>
+                </div>
+              )}
+              <div class="impact-stat">
+                <span class="impact-stat-label">Coverage</span>
+                <span class="impact-stat-value">{impact.states_covered}</span>
+              </div>
+            </div>
+
+            <div class="impact-impl">
+              <span class="impact-stat-label">Implementation Status</span>
+              <span class="impact-impl-badge" style={`background: ${(IMPL_COLORS[impact.implementation] || IMPL_COLORS.announced).bg}; color: ${(IMPL_COLORS[impact.implementation] || IMPL_COLORS.announced).text};`}>
+                {(IMPL_COLORS[impact.implementation] || IMPL_COLORS.announced).label}
+              </span>
+              <div class="impact-progress-track">
+                <div class="impact-progress-fill" style={`width: ${impact.implementation_pct}%; background: ${impact.implementation_pct >= 75 ? '#16a34a' : impact.implementation_pct >= 50 ? '#d97706' : '#dc2626'};`}></div>
+              </div>
+              <span class="impact-progress-label">{impact.implementation_pct}% implemented</span>
+            </div>
+          </div>
+
+          <div class="impact-details-grid">
+            <div class="impact-detail-card">
+              <h4>Key Outcomes</h4>
+              <ul class="impact-list impact-outcomes">
+                {impact.outcomes.map(o => (
+                  <li>{o}</li>
+                ))}
+              </ul>
+            </div>
+            <div class="impact-detail-card">
+              <h4>Challenges</h4>
+              <ul class="impact-list impact-challenges">
+                {impact.challenges.map(c => (
+                  <li>{c}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {impact.sdg_goals.length > 0 && (
+            <div class="impact-sdg">
+              <h4>SDG Alignment</h4>
+              <div class="sdg-tags">
+                {impact.sdg_goals.map(g => (
+                  <span class="sdg-tag" title={SDG_NAMES[g] || `SDG ${g}`}>
+                    <span class="sdg-num">{g}</span>
+                    {SDG_NAMES[g]}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* ── Sectors ───────────────────────────────────────── */}
       <div class="detail-sectors">
@@ -365,10 +459,226 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
   .detail-related { margin-top: var(--space-xl); }
   .detail-related h3 { font-family: 'Newsreader', Georgia, serif; font-size: 1.25rem; color: var(--color-text); }
 
+  /* ── Impact Assessment ────────────────────────── */
+  .impact-section {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-xl);
+  }
+  .impact-section > h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--color-border-light);
+  }
+
+  .impact-top-row {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: var(--space-xl);
+    align-items: start;
+    margin-bottom: var(--space-lg);
+  }
+
+  .impact-score-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .impact-score-ring {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: conic-gradient(var(--score-color) calc(var(--score) * 1%), var(--color-bg-alt) 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .impact-score-ring::before {
+    content: '';
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--color-bg-white);
+  }
+  .impact-score-num {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+    z-index: 1;
+    line-height: 1;
+  }
+  .impact-score-of {
+    font-size: 0.625rem;
+    color: var(--color-text-dim);
+    z-index: 1;
+    margin-top: -2px;
+  }
+  .impact-score-label {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-dim);
+    font-weight: 600;
+  }
+
+  .impact-stats {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .impact-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .impact-stat-label {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-dim);
+    font-weight: 600;
+  }
+  .impact-stat-value {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .impact-impl {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 160px;
+  }
+  .impact-impl-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: var(--radius-pill);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .impact-progress-track {
+    height: 6px;
+    background: var(--color-bg-alt);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .impact-progress-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+  .impact-progress-label {
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    text-align: center;
+  }
+
+  .impact-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: var(--space-md);
+  }
+  .impact-detail-card {
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-md);
+    padding: 14px;
+  }
+  .impact-detail-card h4 {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .impact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .impact-list li {
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    padding-left: 16px;
+    position: relative;
+  }
+  .impact-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .impact-outcomes li::before {
+    background: #16a34a;
+  }
+  .impact-challenges li::before {
+    background: #d97706;
+  }
+
+  .impact-sdg {
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--color-border-light);
+  }
+  .impact-sdg h4 {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .sdg-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .sdg-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: var(--radius-pill);
+    font-size: 0.6875rem;
+    color: #1d4ed8;
+    font-weight: 500;
+  }
+  .sdg-num {
+    font-weight: 700;
+    min-width: 16px;
+    text-align: center;
+  }
+
   @media (max-width: 768px) {
     .detail-panels { grid-template-columns: 1fr; }
     .detail-three-col { grid-template-columns: 1fr; }
     .detail-title { font-size: 1.375rem; }
     .fact-grid { grid-template-columns: 1fr; }
+    .impact-top-row { grid-template-columns: 1fr; }
+    .impact-details-grid { grid-template-columns: 1fr; }
   }
 </style>

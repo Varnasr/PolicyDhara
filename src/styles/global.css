@@ -535,6 +535,33 @@ a:hover { color: var(--color-accent-hover); }
   color: var(--color-accent);
 }
 
+/* ── Impact Bar (PolicyCard) ─────────────────────────────────── */
+.policy-impact-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.impact-badge {
+  font-size: 0.625rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.02em;
+}
+.impact-beneficiaries {
+  font-size: 0.6875rem;
+  color: var(--color-text-dim);
+  flex: 1;
+}
+.impact-impl-tag {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 /* ── Show More Button ────────────────────────────────────────── */
 
 .show-more-wrap {

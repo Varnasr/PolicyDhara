@@ -1,4 +1,6 @@
 ---
+import { getImpactForPolicy } from '../lib/data';
+
 interface Props {
   id: string;
   title: string;
@@ -11,6 +13,7 @@ interface Props {
 }
 
 const { id, title, description, link, date, source_short, sectors, type } = Astro.props;
+const impact = getImpactForPolicy(title);
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 const detailHref = `${base}policies/${id}/`;
@@ -54,6 +57,18 @@ function getRelativeTime(dateStr: string): string {
 
   {description && (
     <p class="policy-description">{description}</p>
+  )}
+
+  {impact && (
+    <div class="policy-impact-bar">
+      <span class="impact-badge" style={`background: ${impact.impact_score >= 8 ? '#dcfce7' : impact.impact_score >= 6 ? '#fefce8' : '#f3f4f6'}; color: ${impact.impact_score >= 8 ? '#166534' : impact.impact_score >= 6 ? '#854d0e' : '#6b7280'};`}>
+        Impact {impact.impact_score}/10
+      </span>
+      <span class="impact-beneficiaries">{impact.beneficiaries}</span>
+      <span class="impact-impl-tag" style={`color: ${impact.implementation === 'operational' ? '#166534' : impact.implementation === 'partial' ? '#c2410c' : '#854d0e'};`}>
+        {impact.implementation === 'operational' ? 'Operational' : impact.implementation === 'partial' ? 'Partial' : impact.implementation === 'early' ? 'Early Stage' : 'Announced'}
+      </span>
+    </div>
   )}
 
   <div class="policy-sectors">

@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "description": "Curated impact annotations for major Indian policies — beneficiaries, implementation status, outcomes",
+    "last_updated": "2026-03-04"
+  },
+  "impacts": {
+    "PM-KISAN": {
+      "match_keywords": ["PM-KISAN", "Kisan Samman Nidhi"],
+      "impact_score": 9,
+      "beneficiaries": "9.5 crore farmer families",
+      "budget_crore": 60000,
+      "implementation": "operational",
+      "implementation_pct": 95,
+      "outcomes": [
+        "Rs 6,000/year direct transfer to farmer families in 3 instalments",
+        "18 instalments disbursed as of 2026",
+        "Total disbursement exceeds Rs 3 lakh crore since launch"
+      ],
+      "challenges": ["Exclusion errors in land records", "Delayed KYC verification in some states"],
+      "sdg_goals": [1, 2],
+      "states_covered": "All states and UTs"
+    },
+    "Ayushman Bharat": {
+      "match_keywords": ["Ayushman Bharat", "PMJAY", "PM-JAY"],
+      "impact_score": 9,
+      "beneficiaries": "12 crore families (55 crore individuals)",
+      "budget_crore": 7200,
+      "implementation": "operational",
+      "implementation_pct": 85,
+      "outcomes": [
+        "Rs 5 lakh health cover per family per year",
+        "7.5+ crore hospital admissions authorised",
+        "30,000+ hospitals empanelled across India"
+      ],
+      "challenges": ["Low awareness in rural areas", "Empanelment gaps in private hospitals", "Claims processing delays"],
+      "sdg_goals": [3],
+      "states_covered": "33 states/UTs (except Delhi, Odisha, West Bengal)"
+    },
+    "Jal Jeevan Mission": {
+      "match_keywords": ["Jal Jeevan", "JJM", "tap water"],
+      "impact_score": 9,
+      "beneficiaries": "19.4 crore rural households",
+      "budget_crore": 60000,
+      "implementation": "operational",
+      "implementation_pct": 90,
+      "outcomes": [
+        "90% rural households with tap water connections (up from 17% in 2019)",
+        "Goa, Telangana, Haryana, Gujarat, Punjab achieved 100% coverage",
+        "Functionally linked with gram panchayat-level water committees"
+      ],
+      "challenges": ["Water quality testing gaps", "O&M sustainability in remote areas"],
+      "sdg_goals": [6],
+      "states_covered": "All states and UTs"
+    },
+    "Digital India": {
+      "match_keywords": ["Digital India", "DigiLocker", "UMANG", "digital governance"],
+      "impact_score": 8,
+      "beneficiaries": "All citizens (140 crore)",
+      "budget_crore": 14903,
+      "implementation": "operational",
+      "implementation_pct": 75,
+      "outcomes": [
+        "6.7 lakh common service centres operational",
+        "180+ crore Aadhaar-linked digital identities",
+        "UPI transactions exceed Rs 20 lakh crore/month"
+      ],
+      "challenges": ["Digital divide in rural India", "Cybersecurity concerns", "Digital literacy gaps"],
+      "sdg_goals": [9, 16],
+      "states_covered": "All states and UTs"
+    },
+    "Swachh Bharat": {
+      "match_keywords": ["Swachh Bharat", "SBM", "Open Defecation Free"],
+      "impact_score": 8,
+      "beneficiaries": "All citizens (140 crore)",
+      "budget_crore": 52000,
+      "implementation": "operational",
+      "implementation_pct": 80,
+      "outcomes": [
+        "12 crore+ household toilets constructed",
+        "All districts declared ODF (Open Defecation Free)",
+        "Solid waste processing capacity increased to 75%"
+      ],
+      "challenges": ["Sustainability of ODF status", "Urban waste management gaps", "Behavioural change in some regions"],
+      "sdg_goals": [6, 11],
+      "states_covered": "All states and UTs"
+    },
+    "Make in India": {
+      "match_keywords": ["Make in India", "manufacturing policy", "PLI scheme", "Production Linked Incentive"],
+      "impact_score": 7,
+      "beneficiaries": "Manufacturing sector — MSMEs and large enterprises",
+      "budget_crore": 197000,
+      "implementation": "operational",
+      "implementation_pct": 60,
+      "outcomes": [
+        "PLI schemes across 14 sectors with Rs 1.97 lakh crore outlay",
+        "India's manufacturing share in GDP: 17.4% (target 25%)",
+        "FDI inflows crossed $100 billion in 2024-25"
+      ],
+      "challenges": ["Land acquisition delays", "Infrastructure gaps in hinterland", "Skill shortages"],
+      "sdg_goals": [8, 9],
+      "states_covered": "All states and UTs"
+    },
+    "National Education Policy": {
+      "match_keywords": ["NEP 2020", "National Education Policy", "education reform"],
+      "impact_score": 8,
+      "beneficiaries": "26 crore students, 1 crore teachers",
+      "budget_crore": 112899,
+      "implementation": "partial",
+      "implementation_pct": 45,
+      "outcomes": [
+        "4-year undergraduate degree structure rolled out in 150+ universities",
+        "Academic Bank of Credits operational",
+        "Mother tongue instruction policy in 22 states"
+      ],
+      "challenges": ["Slow state-level adoption", "Teacher retraining capacity", "Funding gaps in public universities"],
+      "sdg_goals": [4],
+      "states_covered": "All states and UTs (varying adoption)"
+    },
+    "PM Awas Yojana": {
+      "match_keywords": ["PM Awas", "PMAY", "Housing for All"],
+      "impact_score": 8,
+      "beneficiaries": "4.5 crore families (rural + urban)",
+      "budget_crore": 79000,
+      "implementation": "operational",
+      "implementation_pct": 82,
+      "outcomes": [
+        "3.5 crore houses completed (rural + urban)",
+        "Women ownership/co-ownership in 70%+ homes",
+        "Interest subsidy of Rs 2.67 lakh per CLSS beneficiary"
+      ],
+      "challenges": ["Urban land cost escalation", "Completion delays in some states", "Quality concerns in rapid construction"],
+      "sdg_goals": [11],
+      "states_covered": "All states and UTs"
+    },
+    "Startup India": {
+      "match_keywords": ["Startup India", "startup ecosystem", "DPIIT recognised startups"],
+      "impact_score": 7,
+      "beneficiaries": "1.5 lakh+ DPIIT-recognised startups",
+      "budget_crore": 10000,
+      "implementation": "operational",
+      "implementation_pct": 70,
+      "outcomes": [
+        "India is 3rd largest startup ecosystem globally",
+        "115+ unicorns as of 2026",
+        "Fund of Funds deployed Rs 7,385 crore across 120+ AIFs"
+      ],
+      "challenges": ["Funding winter impact on late-stage startups", "Regulatory compliance burden", "Tier 2/3 city adoption"],
+      "sdg_goals": [8, 9],
+      "states_covered": "All states and UTs"
+    },
+    "Ujjwala Yojana": {
+      "match_keywords": ["Ujjwala", "PMUY", "free LPG", "cooking gas"],
+      "impact_score": 8,
+      "beneficiaries": "10.35 crore BPL families",
+      "budget_crore": 12800,
+      "implementation": "operational",
+      "implementation_pct": 88,
+      "outcomes": [
+        "10.35 crore LPG connections to BPL households",
+        "LPG coverage increased from 62% to 99.8%",
+        "Significant reduction in indoor air pollution-related diseases"
+      ],
+      "challenges": ["Refill affordability — many revert to solid fuels", "Supply chain gaps in remote areas"],
+      "sdg_goals": [3, 7],
+      "states_covered": "All states and UTs"
+    },
+    "MGNREGA": {
+      "match_keywords": ["MGNREGA", "NREGA", "rural employment guarantee"],
+      "impact_score": 9,
+      "beneficiaries": "7.8 crore households (2025-26)",
+      "budget_crore": 86000,
+      "implementation": "operational",
+      "implementation_pct": 92,
+      "outcomes": [
+        "World's largest employment guarantee programme",
+        "290+ crore person-days of work generated annually",
+        "Critical safety net during economic shocks and pandemics"
+      ],
+      "challenges": ["Wage payment delays", "Muster roll fraud", "Declining real wage rates"],
+      "sdg_goals": [1, 8],
+      "states_covered": "All states and UTs"
+    },
+    "National Hydrogen Mission": {
+      "match_keywords": ["Green Hydrogen", "Hydrogen Mission", "SIGHT programme"],
+      "impact_score": 6,
+      "beneficiaries": "Energy sector, heavy industry",
+      "budget_crore": 19744,
+      "implementation": "early",
+      "implementation_pct": 25,
+      "outcomes": [
+        "Target: 5 MMTPA green hydrogen by 2030",
+        "SIGHT programme for electrolyser manufacturing",
+        "Pilot projects in steel, refining, and fertiliser sectors"
+      ],
+      "challenges": ["High production costs", "Electrolyser supply chain nascent", "Storage and transport infrastructure"],
+      "sdg_goals": [7, 13],
+      "states_covered": "Select industrial states"
+    },
+    "Semiconductor Mission": {
+      "match_keywords": ["semiconductor", "chip fabrication", "ISMC", "India Semiconductor"],
+      "impact_score": 7,
+      "beneficiaries": "Electronics manufacturing ecosystem",
+      "budget_crore": 76000,
+      "implementation": "early",
+      "implementation_pct": 20,
+      "outcomes": [
+        "5 fab/OSAT/ATMP units approved",
+        "Micron ATMP facility in Gujarat operational",
+        "Tata-PSMC fab in Dholera under construction"
+      ],
+      "challenges": ["Massive capital requirements", "Water and power supply at scale", "Talent pipeline gaps"],
+      "sdg_goals": [9],
+      "states_covered": "Gujarat, Assam, Karnataka"
+    },
+    "Data Protection": {
+      "match_keywords": ["Digital Personal Data Protection", "DPDP", "data privacy"],
+      "impact_score": 7,
+      "beneficiaries": "All internet users in India (~85 crore)",
+      "budget_crore": 0,
+      "implementation": "early",
+      "implementation_pct": 30,
+      "outcomes": [
+        "DPDP Act 2023 enacted — India's first comprehensive data law",
+        "Data Protection Board constituted",
+        "Rules for consent management and cross-border data flow notified"
+      ],
+      "challenges": ["Government exemptions criticized", "Compliance readiness of SMEs", "Board independence concerns"],
+      "sdg_goals": [16],
+      "states_covered": "All states and UTs"
+    },
+    "Smart Cities Mission": {
+      "match_keywords": ["Smart Cities", "SCM", "smart city"],
+      "impact_score": 7,
+      "beneficiaries": "100 selected cities — ~20 crore urban residents",
+      "budget_crore": 48000,
+      "implementation": "operational",
+      "implementation_pct": 85,
+      "outcomes": [
+        "8,000+ projects worth Rs 1.64 lakh crore",
+        "Integrated Command & Control Centres in 100 cities",
+        "5,000+ km roads, 200+ smart water systems"
+      ],
+      "challenges": ["Delays in project completion", "Revenue sustainability post-mission", "Limited citizen engagement"],
+      "sdg_goals": [11],
+      "states_covered": "100 cities across 30+ states"
+    }
+  }
+}
