@@ -2,12 +2,10 @@
 import Base from '../layouts/Base.astro';
 import StatsBar from '../components/StatsBar.astro';
 import PolicyTimeline from '../components/PolicyTimeline.astro';
-import ActivityHeatmap from '../components/ActivityHeatmap.astro';
 import Insights from '../components/Insights.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
 import TrendingStrip from '../components/TrendingStrip.astro';
-import StoryClusters from '../components/StoryClusters.astro';
 import NewsletterBar from '../components/NewsletterBar.astro';
 import { getAllPolicies, getMeta } from '../lib/data';
 
@@ -18,51 +16,16 @@ const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---
 <Base title="Dashboard">
-  {/* ── Hero / About ─────────────────────────────────── */}
+  {/* ── Hero ─────────────────────────────────── */}
   <div class="hero">
     <div class="hero-content">
       <h1 class="hero-title">PolicyDhara</h1>
-      <p class="hero-tagline">An open-source tracker for Indian development policy — from gazette notifications to ground impact.</p>
+      <p class="hero-tagline">Tracking Indian development policy — from gazette to ground.</p>
       <p class="hero-desc">
-        India's policy landscape is vast and fragmented across ministries, state governments, and regulatory bodies.
-        PolicyDhara aggregates legislation, schemes, budget announcements, and policy notifications from official sources
-        like the Press Information Bureau, gazette notifications, and ministry portals — making it possible to track
-        what the government is doing, across sectors and over time.
+        Aggregating legislation, schemes, budgets, and notifications from 300+ official sources
+        across 22 sectors. Updated every 6 hours.
+        <a href={`${base}about/`} class="hero-methodology">Methodology &rarr;</a>
       </p>
-      <p class="hero-caveat">
-        Coverage note: Digital government archives are more complete for recent years. Earlier eras (UPA and before) are underrepresented
-        in this dataset due to limited online archival, not due to less policymaking. <a href={`${base}about/`}>Read methodology</a>
-      </p>
-      <div class="hero-features">
-        <div class="hero-feature">
-          <span class="hero-feature-icon">&#9670;</span>
-          <div>
-            <strong>Automated Collection</strong>
-            <span>Pipeline fetches from 300+ official sources every 6 hours via GitHub Actions</span>
-          </div>
-        </div>
-        <div class="hero-feature">
-          <span class="hero-feature-icon">&#9670;</span>
-          <div>
-            <strong>Historical Depth</strong>
-            <span>Coverage from 1990s liberalisation through UPA and NDA governments to present</span>
-          </div>
-        </div>
-        <div class="hero-feature">
-          <span class="hero-feature-icon">&#9670;</span>
-          <div>
-            <strong>Impact Tracking</strong>
-            <span>Policies annotated with beneficiary reach, budgets, SDG alignment, and implementation status</span>
-          </div>
-        </div>
-        <div class="hero-feature">
-          <span class="hero-feature-icon">&#9670;</span>
-          <div>
-            <strong>Fully Open</strong>
-            <span>All data and code on GitHub — built for researchers, journalists, and citizens</span>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -81,68 +44,64 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
   {/* ── Tab: Overview ──────────────────────────────────── */}
   <div class="tab-panel active" id="tab-overview">
-    <TrendingStrip />
-    <PolicyTimeline />
-    <Insights />
-    <StoryClusters />
-    <ActivityHeatmap />
 
-    {/* Recent highlights */}
+    <TrendingStrip />
+
+    {/* ── Recent Policies — the main content ── */}
     <div class="section-header">
-      <h3>Recent Highlights</h3>
+      <h3>Recent Policies</h3>
       <p>Latest policy actions across all sectors</p>
     </div>
 
-    {/* Featured hero card */}
     {policies.length > 0 && (
-      <div class="hero-card-wrap">
-        <article class="hero-policy-card" data-type={policies[0].type}>
-          <div class="hero-card-accent"></div>
-          <div class="hero-card-body">
-            <div class="hero-card-top">
-              <span class={`policy-type type-${policies[0].type}`}>{policies[0].type}</span>
-              <span class="policy-date">{new Date(policies[0].date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-              <span class="policy-source">{policies[0].source_short}</span>
-            </div>
-            <h3 class="hero-card-title">
-              <a href={`${base}policies/${policies[0].id}/`}>{policies[0].title}</a>
-            </h3>
-            {policies[0].description && (
-              <p class="hero-card-desc">{policies[0].description}</p>
+      <div class="policy-grid">
+        {policies.slice(0, 6).map((p, i) => (
+          <div class={`policy-grid-item ${i === 0 ? 'featured' : ''}`}>
+            {i === 0 ? (
+              <article class="hero-policy-card" data-type={p.type}>
+                <div class="hero-card-accent"></div>
+                <div class="hero-card-body">
+                  <div class="hero-card-top">
+                    <span class={`policy-type type-${p.type}`}>{p.type}</span>
+                    <span class="policy-date">{new Date(p.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                    <span class="policy-source">{p.source_short}</span>
+                  </div>
+                  <h3 class="hero-card-title">
+                    <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+                  </h3>
+                  {p.description && (
+                    <p class="hero-card-desc">{p.description}</p>
+                  )}
+                  <div class="policy-sectors">
+                    {p.sectors.map(s => (
+                      <a href={`${base}sectors/${s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sector-badge">{s}</a>
+                    ))}
+                  </div>
+                </div>
+              </article>
+            ) : (
+              <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
+                date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
             )}
-            <div class="policy-sectors">
-              {policies[0].sectors.map(s => (
-                <a href={`${base}sectors/${s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sector-badge">{s}</a>
-              ))}
-            </div>
           </div>
-        </article>
-      </div>
-    )}
-
-    {/* Secondary cards — 2 medium */}
-    {policies.length > 2 && (
-      <div class="highlight-duo">
-        {policies.slice(1, 3).map(p => (
-          <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
-            date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
         ))}
       </div>
     )}
 
-    {/* Remaining cards — 3 column compact grid */}
-    {policies.length > 5 && (
-      <div class="highlight-trio">
-        {policies.slice(3, 6).map(p => (
-          <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
-            date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
-        ))}
-      </div>
-    )}
-    <NewsletterBar />
-    <div style="text-align:center; padding: var(--space-lg) 0;">
+    <div style="text-align:center; padding: var(--space-md) 0 var(--space-xl);">
       <button class="btn btn-secondary" id="goto-browse">View All Policies &rarr;</button>
     </div>
+
+    {/* ── Analytics section ── */}
+    <div class="section-header">
+      <h3>Trends & Insights</h3>
+      <p>How policy activity breaks down across sectors, types, and time</p>
+    </div>
+
+    <PolicyTimeline />
+    <Insights />
+
+    <NewsletterBar />
   </div>
 
   {/* ── Tab: Browse ────────────────────────────────────── */}
@@ -205,7 +164,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     background: linear-gradient(135deg, var(--color-bg-white) 0%, var(--color-bg-alt) 100%);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
-    padding: var(--space-xl) var(--space-xl);
+    padding: var(--space-lg) var(--space-xl);
     box-shadow: var(--shadow-card);
   }
   .hero-title {
@@ -220,61 +179,28 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     font-size: 1rem;
     color: var(--color-accent);
     font-weight: 600;
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
     line-height: 1.4;
   }
   .hero-desc {
     font-size: 0.8125rem;
     color: var(--color-text-muted);
     line-height: 1.7;
-    max-width: 720px;
-    margin-bottom: var(--space-lg);
+    max-width: 640px;
   }
-  .hero-caveat {
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
-    background: var(--color-bg-alt);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-sm);
-    padding: 8px 12px;
-    margin-bottom: var(--space-md);
-    line-height: 1.5;
-  }
-  .hero-caveat a {
+  .hero-methodology {
     color: var(--color-accent);
     font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
   }
-  .hero-features {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
-  .hero-feature {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    font-size: 0.75rem;
-    color: var(--color-text-muted);
-    line-height: 1.5;
-  }
-  .hero-feature strong {
-    display: block;
-    font-size: 0.8125rem;
-    color: var(--color-text);
-    font-weight: 700;
-    margin-bottom: 1px;
-  }
-  .hero-feature-icon {
-    color: var(--color-accent);
-    font-size: 0.5rem;
-    margin-top: 5px;
-    flex-shrink: 0;
+  .hero-methodology:hover {
+    text-decoration: underline;
   }
 
   @media (max-width: 768px) {
-    .hero { padding: var(--space-lg); }
+    .hero { padding: var(--space-md); }
     .hero-title { font-size: 1.5rem; }
-    .hero-features { grid-template-columns: 1fr; }
   }
 
   /* ── Tabs ───────────────────────────────────── */
@@ -323,10 +249,18 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     color: var(--color-text-muted);
   }
 
-  /* ── Hero Card (featured first policy) ── */
-  .hero-card-wrap {
-    margin-bottom: 16px;
+  /* ── Policy Grid (unified layout for recent policies) ── */
+  .policy-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: var(--space-md);
   }
+  .policy-grid-item.featured {
+    grid-column: 1 / -1;
+  }
+
+  /* ── Hero Card (featured first policy) ── */
   .hero-policy-card {
     background: var(--color-bg-white);
     border: 1px solid var(--color-border);
@@ -345,22 +279,22 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     background: linear-gradient(90deg, var(--color-accent) 0%, var(--type-legislation) 50%, var(--type-scheme) 100%);
   }
   .hero-card-body {
-    padding: 28px 32px;
+    padding: 24px 28px;
   }
   .hero-card-top {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-size: 0.75rem;
   }
   .hero-card-title {
     font-family: 'Newsreader', Georgia, serif;
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.35;
     color: var(--color-text);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .hero-card-title a {
     color: inherit;
@@ -370,49 +304,20 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     color: var(--color-accent);
   }
   .hero-card-desc {
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     color: var(--color-text-secondary);
-    line-height: 1.65;
-    margin-bottom: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
     max-width: 800px;
   }
 
-  /* ── Highlight duo (2-col medium cards) ── */
-  .highlight-duo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    margin-bottom: 16px;
+  @media (max-width: 960px) {
+    .policy-grid { grid-template-columns: repeat(2, 1fr); }
   }
-  .highlight-duo .policy-card {
-    padding: 20px;
-  }
-  .highlight-duo .policy-title {
-    font-size: 1rem;
-  }
-
-  /* ── Highlight trio (3-col compact cards) ── */
-  .highlight-trio {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-    margin-bottom: var(--space-xl);
-  }
-  .highlight-trio .policy-card {
-    padding: 16px;
-  }
-  .highlight-trio .policy-title {
-    font-size: 0.8125rem;
-  }
-  .highlight-trio .policy-description {
-    display: none;
-  }
-
-  @media (max-width: 768px) {
-    .highlight-duo { grid-template-columns: 1fr; }
-    .highlight-trio { grid-template-columns: 1fr; }
-    .hero-card-body { padding: 20px; }
-    .hero-card-title { font-size: 1.125rem; }
+  @media (max-width: 600px) {
+    .policy-grid { grid-template-columns: 1fr; }
+    .hero-card-body { padding: 16px; }
+    .hero-card-title { font-size: 1.0625rem; }
   }
 
   .feed-toolbar {
