@@ -5,23 +5,13 @@ import ActivityHeatmap from '../components/ActivityHeatmap.astro';
 import Insights from '../components/Insights.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
-import { getAllPolicies, getMeta, getSectorInsight, getSectorSlug } from '../lib/data';
+import { getAllPolicies, getMeta } from '../lib/data';
 
 const policies = getAllPolicies();
 const meta = getMeta();
 const INITIAL_SHOW = 20;
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
-
-// Sector summaries for the Sectors tab
-const sectorEntries = Object.entries(meta.sector_counts)
-  .sort(([, a], [, b]) => b - a);
-const sectorInsights = sectorEntries.map(([name]) => getSectorInsight(name));
-
-const TYPE_COLORS: Record<string, string> = {
-  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
-  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
-};
 ---
 <Base title="Dashboard">
   <StatsBar
@@ -35,8 +25,6 @@ const TYPE_COLORS: Record<string, string> = {
   <div class="tab-bar">
     <button class="tab-btn active" data-tab="overview">Overview</button>
     <button class="tab-btn" data-tab="browse">Browse Policies</button>
-    <button class="tab-btn" data-tab="sectors">Sector Insights</button>
-    <a href={`${base}landscape/`} class="tab-btn tab-link">Policy Landscape</a>
   </div>
 
   {/* ── Tab: Overview ──────────────────────────────────── */}
@@ -99,68 +87,6 @@ const TYPE_COLORS: Record<string, string> = {
     </div>
   </div>
 
-  {/* ── Tab: Sector Insights ───────────────────────────── */}
-  <div class="tab-panel" id="tab-sectors">
-    <div class="section-header">
-      <h3>Sector Insights</h3>
-      <p>Analysis of policy activity across each development sector</p>
-    </div>
-
-    <div class="sector-insights-grid">
-      {sectorInsights.map(si => (
-        <div class="si-card">
-          <div class="si-header">
-            <a href={`${base}sectors/${si.slug}/`} class="si-name">{si.name}</a>
-            <span class="si-total">{si.total}</span>
-          </div>
-
-          {/* Recent activity */}
-          <div class="si-recent">
-            <span class="si-recent-num">{si.recentCount}</span> new in last 30 days
-          </div>
-
-          {/* Type breakdown mini-bars */}
-          <div class="si-types">
-            {si.typeBreakdown.slice(0, 4).map(t => (
-              <div class="si-type-row">
-                <span class="si-type-dot" style={`background: ${TYPE_COLORS[t.type] || '#888'};`}></span>
-                <span class="si-type-label">{t.type}</span>
-                <span class="si-type-count">{t.count}</span>
-              </div>
-            ))}
-          </div>
-
-          {/* Top sources */}
-          <div class="si-sources">
-            {si.topSources.map(s => (
-              <span class="si-source-tag">{s.source}</span>
-            ))}
-          </div>
-
-          {/* Related sectors */}
-          {si.relatedSectors.length > 0 && (
-            <div class="si-related">
-              <span class="si-related-label">Overlaps with:</span>
-              {si.relatedSectors.slice(0, 3).map(r => (
-                <a href={`${base}sectors/${getSectorSlug(r)}/`} class="si-related-link">{r}</a>
-              ))}
-            </div>
-          )}
-
-          {/* Latest policy */}
-          {si.latestPolicy && (
-            <div class="si-latest">
-              <span class="si-latest-label">Latest:</span>
-              <a href={`${base}policies/${si.latestPolicy.id}/`} class="si-latest-title">{si.latestPolicy.title}</a>
-            </div>
-          )}
-
-          <a href={`${base}sectors/${si.slug}/`} class="si-view-all">View all {si.name} policies &rarr;</a>
-        </div>
-      ))}
-    </div>
-  </div>
-
 </Base>
 
 <style>
@@ -192,8 +118,6 @@ const TYPE_COLORS: Record<string, string> = {
     color: var(--color-accent);
     border-bottom-color: var(--color-accent);
   }
-  .tab-link { display: inline-flex; align-items: center; }
-
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
 
@@ -212,164 +136,10 @@ const TYPE_COLORS: Record<string, string> = {
     color: var(--color-text-muted);
   }
 
-  /* ── Sector Insight Cards ──────────────────── */
-  .sector-insights-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 16px;
-    margin-bottom: var(--space-2xl);
-  }
-
-  .si-card {
-    background: var(--color-bg-white);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    padding: 20px;
-    box-shadow: var(--shadow-card);
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    transition: all 0.2s;
-  }
-  .si-card:hover {
-    box-shadow: var(--shadow-card-hover);
-    transform: translateY(-1px);
-  }
-
-  .si-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .si-name {
-    font-family: 'Newsreader', Georgia, serif;
-    font-size: 1.0625rem;
-    font-weight: 700;
-    color: var(--color-text);
-  }
-  .si-name:hover { color: var(--color-accent); }
-  .si-total {
-    font-size: 0.6875rem;
-    font-weight: 700;
-    background: var(--color-bg-alt);
-    padding: 2px 8px;
-    border-radius: var(--radius-pill);
-    color: var(--color-text-muted);
-  }
-
-  .si-recent {
-    font-size: 0.8125rem;
-    color: var(--color-text-muted);
-  }
-  .si-recent-num {
-    font-weight: 700;
-    color: var(--color-accent);
-    font-size: 1rem;
-  }
-
-  .si-types {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-  .si-type-row {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
-  }
-  .si-type-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 2px;
-    flex-shrink: 0;
-  }
-  .si-type-label {
-    text-transform: capitalize;
-    flex: 1;
-  }
-  .si-type-count {
-    font-weight: 600;
-    color: var(--color-text-muted);
-  }
-
-  .si-sources {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-  }
-  .si-source-tag {
-    font-size: 0.625rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    padding: 2px 8px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius-pill);
-    color: var(--color-text-muted);
-  }
-
-  .si-related {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-wrap: wrap;
-    font-size: 0.75rem;
-  }
-  .si-related-label {
-    color: var(--color-text-dim);
-    font-weight: 500;
-  }
-  .si-related-link {
-    color: var(--color-text-muted);
-    padding: 1px 6px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius-sm);
-    font-size: 0.6875rem;
-  }
-  .si-related-link:hover {
-    color: var(--color-accent);
-    background: var(--color-accent-bg);
-  }
-
-  .si-latest {
-    border-top: 1px solid var(--color-border-light);
-    padding-top: 10px;
-    font-size: 0.8125rem;
-  }
-  .si-latest-label {
-    font-weight: 600;
-    color: var(--color-text-dim);
-    font-size: 0.625rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    display: block;
-    margin-bottom: 2px;
-  }
-  .si-latest-title {
-    color: var(--color-text-secondary);
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .si-latest-title:hover { color: var(--color-accent); }
-
-  .si-view-all {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--color-accent);
-    margin-top: auto;
-  }
-  .si-view-all:hover { color: var(--color-accent-hover); }
-
   .policy-card-wrap { display: contents; }
   .hidden-card > .policy-card { display: none; }
 
   @media (max-width: 768px) {
-    .sector-insights-grid { grid-template-columns: 1fr; }
     .tab-btn { padding: 10px 14px; font-size: 0.8125rem; }
   }
 </style>
