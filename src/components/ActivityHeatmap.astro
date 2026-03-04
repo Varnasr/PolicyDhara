@@ -185,7 +185,7 @@ while (true) {
     scrollbar-color: var(--color-border) transparent;
   }
   .heatmap-grid {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     gap: 2px;
     min-width: max-content;
@@ -221,18 +221,26 @@ while (true) {
   }
   .hm-empty { background: transparent; }
   .hm-future { background: transparent; }
-  .hm-level-0 { background: var(--color-bg-alt); }
+  .hm-level-0 { background: var(--color-bg-alt); border: 1px solid var(--color-border-light); }
   .hm-level-1 { background: #bbf7d0; }
   .hm-level-2 { background: #4ade80; }
   .hm-level-3 { background: #16a34a; }
   .hm-level-4 { background: #166534; }
+  :global([data-theme="dark"]) .hm-level-0 { background: #1a1a1f; border-color: #2a2a30; }
+  :global([data-theme="dark"]) .hm-level-1 { background: #0a3d1e; }
+  :global([data-theme="dark"]) .hm-level-2 { background: #15803d; }
+  :global([data-theme="dark"]) .hm-level-3 { background: #16a34a; }
+  :global([data-theme="dark"]) .hm-level-4 { background: #22c55e; }
 
   .heatmap-legend {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 3px;
     margin-top: var(--space-sm);
+    float: right;
+  }
+  .heatmap-legend .hm-cell {
+    border: none;
   }
   .hm-legend-label {
     font-size: 0.5625rem;

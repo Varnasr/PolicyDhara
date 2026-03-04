@@ -29,12 +29,12 @@ for (let y = minYear; y <= maxYear; y++) {
 
 // Government eras for background shading
 const ERAS = [
-  { name: 'Pre-UPA', start: 1990, end: 2004, color: '#f3f4f6' },
-  { name: 'UPA I', start: 2004, end: 2009, color: '#fff7ed' },
-  { name: 'UPA II', start: 2009, end: 2014, color: '#fef3c7' },
-  { name: 'NDA I', start: 2014, end: 2019, color: '#eff6ff' },
-  { name: 'NDA II', start: 2019, end: 2024, color: '#dbeafe' },
-  { name: 'NDA III', start: 2024, end: 2027, color: '#e0e7ff' },
+  { name: 'Pre-UPA', start: 1990, end: 2004, light: '#f3f4f6', dark: '#1e1e24' },
+  { name: 'UPA I', start: 2004, end: 2009, light: '#fff7ed', dark: '#262018' },
+  { name: 'UPA II', start: 2009, end: 2014, light: '#fef3c7', dark: '#2a2414' },
+  { name: 'NDA I', start: 2014, end: 2019, light: '#eff6ff', dark: '#181e2a' },
+  { name: 'NDA II', start: 2019, end: 2024, light: '#dbeafe', dark: '#161c2e' },
+  { name: 'NDA III', start: 2024, end: 2027, light: '#e0e7ff', dark: '#1a1a30' },
 ];
 
 const TYPE_COLORS: Record<string, string> = {
@@ -60,7 +60,7 @@ const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end))
     <div class="timeline-era-legend">
       {ERAS.filter(e => years.some(y => y >= e.start && y < e.end)).map(e => (
         <span class="era-legend-chip">
-          <span class="era-legend-swatch" style={`background: ${e.color}; border: 1px solid ${e.color === '#f3f4f6' ? '#d1d5db' : e.color};`}></span>
+          <span class="era-legend-swatch" style={`--era-light: ${e.light}; --era-dark: ${e.dark};`}></span>
           {e.name}
         </span>
       ))}
@@ -78,7 +78,7 @@ const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end))
         const leftPct = (startIdx / allYears.length) * 100;
         const widthPct = ((effectiveEnd - startIdx) / allYears.length) * 100;
         return (
-          <div class="era-band" style={`left: ${leftPct}%; width: ${widthPct}%; background: ${era.color};`}>
+          <div class="era-band" style={`left: ${leftPct}%; width: ${widthPct}%; --era-light: ${era.light}; --era-dark: ${era.dark};`}>
             <span class="era-band-label">{era.name}</span>
           </div>
         );
@@ -168,6 +168,12 @@ const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end))
     width: 12px;
     height: 8px;
     border-radius: 2px;
+    background: var(--era-light);
+    border: 1px solid color-mix(in srgb, var(--era-light) 80%, #888);
+  }
+  :global([data-theme="dark"]) .era-legend-swatch {
+    background: var(--era-dark);
+    border-color: color-mix(in srgb, var(--era-dark) 60%, #888);
   }
 
   .timeline-chart-wrap {
@@ -188,6 +194,10 @@ const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end))
     bottom: 24px;
     border-radius: 4px;
     z-index: 0;
+    background: var(--era-light);
+  }
+  :global([data-theme="dark"]) .era-band {
+    background: var(--era-dark);
   }
   .era-band-label {
     position: absolute;
@@ -199,6 +209,10 @@ const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end))
     text-transform: uppercase;
     letter-spacing: 0.05em;
     opacity: 0.6;
+  }
+  :global([data-theme="dark"]) .era-band-label {
+    opacity: 0.8;
+    color: var(--color-text-muted);
   }
 
   /* Bars */
