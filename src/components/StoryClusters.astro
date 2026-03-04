@@ -1,0 +1,41 @@
+---
+import { getStoryClusters } from '../lib/data';
+
+const clusters = getStoryClusters(4);
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+{clusters.length > 0 && (
+  <div class="clusters-section">
+    <div class="section-header">
+      <h3>Story Clusters</h3>
+      <p>Related policies grouped across sources</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: var(--space-xl);">
+      {clusters.map(cluster => (
+        <div class="cluster-card">
+          <div class="cluster-header">
+            <span class="cluster-title">{cluster.title}</span>
+            <span class="cluster-count">{cluster.policies.length} stories</span>
+          </div>
+          <div class="cluster-items">
+            {cluster.policies.slice(0, 4).map(p => (
+              <div class="cluster-item">
+                <span class="cluster-item-source">{p.source_short}</span>
+                <a href={`${base}policies/${p.id}/`}>{p.title.length > 70 ? p.title.slice(0, 67) + '...' : p.title}</a>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+<style>
+  @media (max-width: 768px) {
+    div[style*="grid-template-columns"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>

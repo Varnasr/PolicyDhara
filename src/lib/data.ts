@@ -642,3 +642,210 @@ function getSamplePolicies(): PolicyItem[] {
     }
   ];
 }
+
+/* ── Source Type Classification ─────────────────────────────── */
+
+const SOURCE_TYPE_MAP: Record<string, string> = {
+  'PIB': 'government',
+  'India Code': 'legal',
+  'eGazette': 'legal',
+  'PRS Bills': 'think_tank',
+  'PRS': 'think_tank',
+  'NITI': 'government',
+  'RBI': 'government',
+  'Data.gov': 'government',
+  'World Bank': 'international',
+  'ORF': 'think_tank',
+  'Historical': 'government',
+};
+
+export function getSourceType(sourceShort: string): string {
+  return SOURCE_TYPE_MAP[sourceShort] || 'government';
+}
+
+export function getSourceTypeCounts(): Record<string, number> {
+  const policies = getAllPolicies();
+  const counts: Record<string, number> = { government: 0, legal: 0, think_tank: 0, international: 0 };
+  for (const p of policies) {
+    const t = getSourceType(p.source_short);
+    counts[t] = (counts[t] || 0) + 1;
+  }
+  return counts;
+}
+
+/* ── Priority Scoring ──────────────────────────────────────── */
+
+export function getPriority(policy: PolicyItem): 'critical' | 'high' | 'medium' | 'normal' {
+  const t = policy.title.toLowerCase();
+  const d = policy.description?.toLowerCase() || '';
+  const combined = t + ' ' + d;
+
+  // Critical: constitutional amendments, major acts, budget
+  if (/constitutional amendment|finance bill|union budget|national security|emergency/i.test(combined)) return 'critical';
+  if (policy.type === 'legislation' && /\bact\b|\bbill\b/i.test(t)) return 'critical';
+
+  // High: major schemes, notifications with large scope
+  if (/crore|lakh crore|billion|nationwide|all states|pan-india/i.test(combined)) return 'high';
+  if (policy.type === 'scheme' && policy.sectors.length >= 2) return 'high';
+  if (policy.type === 'notification' && /gazette|notification/i.test(t)) return 'high';
+
+  // Medium: research, policy frameworks
+  if (policy.type === 'research' || policy.type === 'policy') return 'medium';
+  if (policy.sectors.length >= 3) return 'medium';
+
+  return 'normal';
+}
+
+/* ── Trending Topics / Velocity ────────────────────────────── */
+
+export interface TrendingTopic {
+  sector: string;
+  slug: string;
+  count7d: number;
+  count30d: number;
+  velocity: number; // ratio of 7d to 30d normalized
+}
+
+export function getTrendingTopics(limit = 8): TrendingTopic[] {
+  const policies = getAllPolicies();
+  const now = new Date();
+  const d7 = new Date(now.getTime() - 7 * 86400000);
+  const d30 = new Date(now.getTime() - 30 * 86400000);
+
+  const sectorMap: Record<string, { count7d: number; count30d: number; slug: string }> = {};
+
+  for (const p of policies) {
+    const pd = new Date(p.date);
+    for (let i = 0; i < p.sectors.length; i++) {
+      const sector = p.sectors[i];
+      const slug = p.sector_slugs[i] || sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
+      if (!sectorMap[sector]) sectorMap[sector] = { count7d: 0, count30d: 0, slug };
+      if (pd >= d30) sectorMap[sector].count30d++;
+      if (pd >= d7) sectorMap[sector].count7d++;
+    }
+  }
+
+  return Object.entries(sectorMap)
+    .map(([sector, data]) => ({
+      sector,
+      slug: data.slug,
+      count7d: data.count7d,
+      count30d: data.count30d,
+      velocity: data.count30d > 0 ? (data.count7d / (data.count30d / 4.3)) : 0, // normalize to weekly
+    }))
+    .filter(t => t.count7d > 0)
+    .sort((a, b) => b.velocity - a.velocity || b.count7d - a.count7d)
+    .slice(0, limit);
+}
+
+/* ── Story Clustering ──────────────────────────────────────── */
+
+export interface PolicyCluster {
+  title: string;
+  slug: string;
+  policies: PolicyItem[];
+  sectors: string[];
+  latestDate: string;
+}
+
+function normalizeTitle(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/\b(the|a|an|of|for|and|in|on|to|with|by|from)\b/g, '')
+    .replace(/[^a-z0-9 ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function titleSimilarity(a: string, b: string): number {
+  const wordsA = new Set(normalizeTitle(a).split(' ').filter(w => w.length > 3));
+  const wordsB = new Set(normalizeTitle(b).split(' ').filter(w => w.length > 3));
+  if (wordsA.size === 0 || wordsB.size === 0) return 0;
+  let overlap = 0;
+  for (const w of wordsA) if (wordsB.has(w)) overlap++;
+  return overlap / Math.min(wordsA.size, wordsB.size);
+}
+
+export function getStoryClusters(limit = 6): PolicyCluster[] {
+  const policies = getAllPolicies().slice(0, 200); // recent policies
+  const clusters: PolicyCluster[] = [];
+  const used = new Set<string>();
+
+  for (let i = 0; i < policies.length; i++) {
+    if (used.has(policies[i].id)) continue;
+
+    const group = [policies[i]];
+    for (let j = i + 1; j < policies.length; j++) {
+      if (used.has(policies[j].id)) continue;
+      // Same sector overlap + title similarity
+      const sectorOverlap = policies[i].sectors.some(s => policies[j].sectors.includes(s));
+      const sim = titleSimilarity(policies[i].title, policies[j].title);
+      if (sectorOverlap && sim >= 0.4) {
+        group.push(policies[j]);
+      }
+    }
+
+    if (group.length >= 2) {
+      for (const p of group) used.add(p.id);
+      const allSectors = [...new Set(group.flatMap(p => p.sectors))];
+      clusters.push({
+        title: group[0].title.length > 80 ? group[0].title.slice(0, 77) + '...' : group[0].title,
+        slug: group[0].id,
+        policies: group.slice(0, 5),
+        sectors: allSectors,
+        latestDate: group[0].date,
+      });
+    }
+  }
+
+  return clusters.sort((a, b) => b.policies.length - a.policies.length).slice(0, limit);
+}
+
+/* ── Daily Digest ──────────────────────────────────────────── */
+
+export interface DailyDigest {
+  date: string;
+  totalPolicies: number;
+  bySector: { sector: string; count: number }[];
+  byType: { type: string; count: number }[];
+  topPolicies: PolicyItem[];
+  criticalCount: number;
+}
+
+export function getDailyDigest(dateStr?: string): DailyDigest {
+  const policies = getAllPolicies();
+  const targetDate = dateStr || policies[0]?.date || new Date().toISOString().slice(0, 10);
+
+  const dayPolicies = policies.filter(p => p.date === targetDate);
+
+  const sectorCounts: Record<string, number> = {};
+  const typeCounts: Record<string, number> = {};
+  let criticalCount = 0;
+
+  for (const p of dayPolicies) {
+    for (const s of p.sectors) sectorCounts[s] = (sectorCounts[s] || 0) + 1;
+    typeCounts[p.type] = (typeCounts[p.type] || 0) + 1;
+    if (getPriority(p) === 'critical') criticalCount++;
+  }
+
+  return {
+    date: targetDate,
+    totalPolicies: dayPolicies.length,
+    bySector: Object.entries(sectorCounts)
+      .map(([sector, count]) => ({ sector, count }))
+      .sort((a, b) => b.count - a.count),
+    byType: Object.entries(typeCounts)
+      .map(([type, count]) => ({ type, count }))
+      .sort((a, b) => b.count - a.count),
+    topPolicies: dayPolicies.slice(0, 10),
+    criticalCount,
+  };
+}
+
+/* ── Recent Dates with Activity ────────────────────────────── */
+
+export function getRecentActiveDates(limit = 7): string[] {
+  const policies = getAllPolicies();
+  const dates = [...new Set(policies.map(p => p.date))];
+  return dates.sort((a, b) => b.localeCompare(a)).slice(0, limit);
+}

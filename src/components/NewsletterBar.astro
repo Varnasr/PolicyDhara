@@ -1,0 +1,53 @@
+---
+---
+<div class="newsletter-bar">
+  <div class="newsletter-text">
+    <h4>PolicyDhara Daily Brief</h4>
+    <p>Get the day's policy actions delivered to your inbox every morning.</p>
+  </div>
+  <form class="newsletter-form" id="newsletter-form" action="#" method="post">
+    <input type="email" class="newsletter-input" placeholder="your@email.com" required id="newsletter-email" />
+    <button type="submit" class="newsletter-submit" id="newsletter-btn">Subscribe</button>
+  </form>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('newsletter-form') as HTMLFormElement;
+    const btn = document.getElementById('newsletter-btn') as HTMLButtonElement;
+    const input = document.getElementById('newsletter-email') as HTMLInputElement;
+
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const email = input?.value;
+        if (!email) return;
+
+        // Store locally (replace with real API integration)
+        const subs = JSON.parse(localStorage.getItem('pd-newsletter-subs') || '[]');
+        if (!subs.includes(email)) {
+          subs.push(email);
+          localStorage.setItem('pd-newsletter-subs', JSON.stringify(subs));
+        }
+
+        if (btn) {
+          btn.textContent = 'Subscribed!';
+          btn.style.background = '#16a34a';
+          input.value = '';
+          input.disabled = true;
+          btn.disabled = true;
+        }
+      });
+
+      // Check if already subscribed
+      const subs = JSON.parse(localStorage.getItem('pd-newsletter-subs') || '[]');
+      if (subs.length > 0 && btn && input) {
+        btn.textContent = 'Subscribed';
+        btn.style.background = '#16a34a';
+        input.value = subs[subs.length - 1];
+        input.disabled = true;
+        btn.disabled = true;
+      }
+    }
+  });
+</script>

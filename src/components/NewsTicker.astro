@@ -1,0 +1,19 @@
+---
+import { getAllPolicies } from '../lib/data';
+
+const policies = getAllPolicies();
+const recent = policies.slice(0, 12);
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+<div class="ticker-bar">
+  <div class="ticker-label">Latest</div>
+  <div class="ticker-track">
+    {[...recent, ...recent].map(p => (
+      <span class="ticker-item">
+        <span class="ticker-dot"></span>
+        <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+      </span>
+    ))}
+  </div>
+</div>

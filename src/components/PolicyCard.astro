@@ -1,5 +1,5 @@
 ---
-import { getImpactForPolicy } from '../lib/data';
+import { getImpactForPolicy, getPriority } from '../lib/data';
 
 interface Props {
   id: string;
@@ -14,6 +14,7 @@ interface Props {
 
 const { id, title, description, link, date, source_short, sectors, type } = Astro.props;
 const impact = getImpactForPolicy(title);
+const priority = getPriority({ id, title, description: description || '', link: link || '', date, source_id: '', source_name: '', source_short, sectors, sector_slugs: [], type });
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 const detailHref = `${base}policies/${id}/`;
@@ -42,6 +43,9 @@ function getRelativeTime(dateStr: string): string {
 }
 ---
 <article class="policy-card" data-sectors={JSON.stringify(sectors.map(getSectorSlug))} data-type={type} data-source={source_short} data-date={date} data-id={id}>
+  <button class="bookmark-btn" data-policy-id={id} title="Bookmark this policy (B)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+  </button>
   <div class="policy-card-header">
     <h3 class="policy-title">
       <a href={detailHref}>{title}</a>
@@ -49,6 +53,11 @@ function getRelativeTime(dateStr: string): string {
   </div>
 
   <div class="policy-meta">
+    {priority !== 'normal' && (
+      <span class={`priority-badge priority-${priority}`}>
+        {priority === 'critical' ? '●' : priority === 'high' ? '▲' : '◆'} {priority}
+      </span>
+    )}
     <span class="policy-date" title={formatDate(date)}>{getRelativeTime(date)}</span>
     <span class="meta-dot"></span>
     <span class="policy-source">{source_short}</span>

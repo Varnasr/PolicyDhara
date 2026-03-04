@@ -1,0 +1,239 @@
+---
+import Base from '../../layouts/Base.astro';
+import PolicyCard from '../../components/PolicyCard.astro';
+import { getDailyDigest, getRecentActiveDates, getPriority } from '../../lib/data';
+
+const dates = getRecentActiveDates(7);
+const digests = dates.map(d => getDailyDigest(d));
+const latest = digests[0];
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+<Base title="Daily Digest — The Big Picture" description="Daily summary of India's policy activity — what happened, which sectors, and what matters most.">
+  <div class="digest-page">
+    <div class="section-header" style="margin-top: var(--space-xl);">
+      <h2 class="page-title">The Big Picture</h2>
+      <p class="page-subtitle">Daily digest of India's policy landscape — auto-generated from all tracked sources.</p>
+    </div>
+
+    {/* ── Day selector ── */}
+    <div class="day-tabs">
+      {dates.map((d, i) => {
+        const dt = new Date(d);
+        const label = dt.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' });
+        return (
+          <button class={`day-tab ${i === 0 ? 'active' : ''}`} data-day={i}>
+            {label}
+          </button>
+        );
+      })}
+    </div>
+
+    {/* ── Digest panels ── */}
+    {digests.map((digest, i) => (
+      <div class={`digest-panel ${i === 0 ? 'active' : ''}`} data-day-panel={i}>
+        {/* Summary strip */}
+        <div class="digest-summary-strip">
+          <div class="digest-stat">
+            <span class="digest-stat-num">{digest.totalPolicies}</span>
+            <span class="digest-stat-label">Policy Actions</span>
+          </div>
+          <div class="digest-stat">
+            <span class="digest-stat-num">{digest.criticalCount}</span>
+            <span class="digest-stat-label">Critical</span>
+          </div>
+          <div class="digest-stat">
+            <span class="digest-stat-num">{digest.bySector.length}</span>
+            <span class="digest-stat-label">Sectors Active</span>
+          </div>
+          <div class="digest-stat">
+            <span class="digest-stat-num">{digest.byType.length}</span>
+            <span class="digest-stat-label">Types</span>
+          </div>
+        </div>
+
+        {/* Sector breakdown */}
+        <div class="digest-grid">
+          <div class="digest-section">
+            <h4>Sectors</h4>
+            <div class="digest-bar-list">
+              {digest.bySector.slice(0, 8).map(s => (
+                <div class="digest-bar-row">
+                  <span class="digest-bar-label">{s.sector}</span>
+                  <div class="digest-bar-track">
+                    <div class="digest-bar-fill" style={`width: ${Math.max(8, (s.count / (digest.bySector[0]?.count || 1)) * 100)}%`}></div>
+                  </div>
+                  <span class="digest-bar-count">{s.count}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="digest-section">
+            <h4>Types</h4>
+            <div class="digest-bar-list">
+              {digest.byType.map(t => (
+                <div class="digest-bar-row">
+                  <span class="digest-bar-label">{t.type}</span>
+                  <div class="digest-bar-track">
+                    <div class="digest-bar-fill" style={`width: ${Math.max(8, (t.count / (digest.byType[0]?.count || 1)) * 100)}%`}></div>
+                  </div>
+                  <span class="digest-bar-count">{t.count}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Top policies */}
+        {digest.topPolicies.length > 0 && (
+          <div>
+            <h4 style="font-family: 'Newsreader', Georgia, serif; font-size: 1rem; margin-bottom: var(--space-md); color: var(--color-text);">
+              Top Policy Actions
+            </h4>
+            <div class="policy-feed">
+              {digest.topPolicies.map(p => (
+                <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
+                  date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {digest.totalPolicies === 0 && (
+          <div class="empty-state" style="margin-top: var(--space-xl);">
+            <h3>No policy actions recorded</h3>
+            <p>No data was collected for this date.</p>
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .day-tabs {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    margin-bottom: var(--space-xl);
+    padding-bottom: 4px;
+  }
+  .day-tab {
+    padding: 8px 16px;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    font-family: inherit;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.15s;
+  }
+  .day-tab:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+  .day-tab.active {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: white;
+  }
+
+  .digest-panel { display: none; }
+  .digest-panel.active { display: block; }
+
+  .digest-summary-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: var(--space-xl);
+  }
+  .digest-stat {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    text-align: center;
+    box-shadow: var(--shadow-card);
+  }
+  .digest-stat-num {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-text);
+    display: block;
+  }
+  .digest-stat-label {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+  }
+
+  .digest-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-xl);
+  }
+  .digest-section h4 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: var(--space-md);
+  }
+  .digest-bar-list { display: flex; flex-direction: column; gap: 6px; }
+  .digest-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+  }
+  .digest-bar-label {
+    min-width: 100px;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+  }
+  .digest-bar-track {
+    flex: 1;
+    height: 6px;
+    background: var(--color-bg-alt);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .digest-bar-fill {
+    height: 100%;
+    background: var(--color-accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+  .digest-bar-count {
+    font-weight: 700;
+    color: var(--color-text-muted);
+    min-width: 20px;
+    text-align: right;
+  }
+
+  @media (max-width: 768px) {
+    .digest-summary-strip { grid-template-columns: repeat(2, 1fr); }
+    .digest-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.day-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.day-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.digest-panel').forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        const idx = (tab as HTMLElement).dataset.day;
+        document.querySelector(`[data-day-panel="${idx}"]`)?.classList.add('active');
+      });
+    });
+  });
+</script>

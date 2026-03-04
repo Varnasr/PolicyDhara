@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import PolicyCard from '../../components/PolicyCard.astro';
+import { getAllPolicies } from '../../lib/data';
+
+const allPolicies = getAllPolicies();
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+<Base title="Reading List" description="Your bookmarked policies for later reading.">
+  <div style="margin-top: var(--space-xl);">
+    <div class="section-header">
+      <h2 class="page-title">Reading List</h2>
+      <p class="page-subtitle">Policies you've bookmarked for later. Stored locally in your browser.</p>
+    </div>
+
+    <div id="bookmarks-empty" class="empty-state" style="display:none;">
+      <h3>No bookmarks yet</h3>
+      <p>Click the bookmark icon on any policy card, or press <kbd>B</kbd> while a card is focused.</p>
+      <div style="margin-top: var(--space-lg);">
+        <a href={base} class="btn btn-primary">Browse Policies</a>
+      </div>
+    </div>
+
+    <div class="policy-feed" id="bookmarks-feed">
+      {allPolicies.map(p => (
+        <div class="bookmark-card-wrap" data-bookmark-id={p.id} style="display:none;">
+          <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
+            date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
+        </div>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const bookmarks: string[] = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
+    const empty = document.getElementById('bookmarks-empty');
+    const wraps = document.querySelectorAll('.bookmark-card-wrap');
+
+    let shown = 0;
+    wraps.forEach(wrap => {
+      const id = (wrap as HTMLElement).dataset.bookmarkId || '';
+      if (bookmarks.includes(id)) {
+        (wrap as HTMLElement).style.display = 'contents';
+        shown++;
+      }
+    });
+
+    if (shown === 0 && empty) {
+      empty.style.display = '';
+    }
+  });
+</script>

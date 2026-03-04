@@ -1,4 +1,6 @@
 ---
+import { getSourceTypeCounts } from '../lib/data';
+
 interface Props {
   sectorCounts: Record<string, number>;
   sourceCounts: Record<string, number>;
@@ -7,6 +9,7 @@ interface Props {
 }
 
 const { sectorCounts, sourceCounts, activeSector, activeSource } = Astro.props;
+const sourceTypeCounts = getSourceTypeCounts();
 
 function getSectorSlug(sector: string): string {
   return sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
@@ -21,6 +24,14 @@ const TYPE_OPTIONS = [
   { key: 'research', label: 'Research' },
   { key: 'announcement', label: 'Announcement' },
   { key: 'policy', label: 'Policy' },
+];
+
+const SOURCE_TYPE_OPTIONS = [
+  { key: 'all', label: 'All Types', icon: '◈' },
+  { key: 'government', label: 'Government', icon: '🏛' },
+  { key: 'legal', label: 'Legal', icon: '⚖' },
+  { key: 'think_tank', label: 'Think Tank', icon: '🔬' },
+  { key: 'international', label: 'International', icon: '🌐' },
 ];
 
 const sortedSectors = Object.entries(sectorCounts).sort((a, b) => b[1] - a[1]);
@@ -57,6 +68,19 @@ const sortedSectors = Object.entries(sectorCounts).sort((a, b) => b[1] - a[1]);
         <span class="filter-count">{count}</span>
       </button>
     ))}
+  </div>
+
+  <!-- Source Type Filter -->
+  <div class="filter-section">
+    <h3>Source Type</h3>
+    <div class="filter-pills">
+      {SOURCE_TYPE_OPTIONS.map(t => (
+        <button class={`filter-pill source-type-filter ${t.key === 'all' ? 'active' : ''}`} data-source-type={t.key}>
+          {t.icon} {t.label}
+          {t.key !== 'all' && sourceTypeCounts[t.key] ? <span class="pill-count">{sourceTypeCounts[t.key]}</span> : null}
+        </button>
+      ))}
+    </div>
   </div>
 
   <!-- Source Filter -->

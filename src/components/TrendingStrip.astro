@@ -1,0 +1,23 @@
+---
+import { getTrendingTopics } from '../lib/data';
+
+const trending = getTrendingTopics(10);
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+{trending.length > 0 && (
+  <div class="trending-section">
+    <div class="section-header" style="margin-bottom: var(--space-sm);">
+      <h3>Trending This Week</h3>
+    </div>
+    <div class="trending-strip">
+      {trending.map(t => (
+        <a href={`${base}sectors/${t.slug}/`} class="trending-chip">
+          <span class="trend-arrow">{t.velocity > 1.2 ? '▲' : t.velocity > 0.8 ? '►' : '▼'}</span>
+          {t.sector}
+          <span class="trend-count">{t.count7d} this week</span>
+        </a>
+      ))}
+    </div>
+  </div>
+)}

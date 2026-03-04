@@ -6,6 +6,9 @@ import ActivityHeatmap from '../components/ActivityHeatmap.astro';
 import Insights from '../components/Insights.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
+import TrendingStrip from '../components/TrendingStrip.astro';
+import StoryClusters from '../components/StoryClusters.astro';
+import NewsletterBar from '../components/NewsletterBar.astro';
 import { getAllPolicies, getMeta } from '../lib/data';
 
 const policies = getAllPolicies();
@@ -78,8 +81,10 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
   {/* ── Tab: Overview ──────────────────────────────────── */}
   <div class="tab-panel active" id="tab-overview">
+    <TrendingStrip />
     <PolicyTimeline />
     <Insights />
+    <StoryClusters />
     <ActivityHeatmap />
 
     {/* Recent highlights */}
@@ -93,6 +98,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
           date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
       ))}
     </div>
+    <NewsletterBar />
     <div style="text-align:center; padding: var(--space-lg) 0;">
       <button class="btn btn-secondary" id="goto-browse">View All Policies &rarr;</button>
     </div>

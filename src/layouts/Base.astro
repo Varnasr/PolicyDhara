@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import NewsTicker from '../components/NewsTicker.astro';
 
 interface Props {
   title: string;
@@ -91,7 +92,11 @@ const canonicalUrl = Astro.url.href;
         <a href={`${base}continuity/`}>Continuity</a>
         <a href={`${base}sectors/`}>Sectors</a>
         <a href={`${base}states/`}>States</a>
+        <a href={`${base}digest/`}>Digest</a>
         <a href={`${base}compare/`}>Compare</a>
+        <a href={`${base}bookmarks/`} title="Reading List">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+        </a>
         <a href={`${base}sources/`}>Sources</a>
         <a href={`${base}api/`}>API</a>
         <a href={`${base}about/`}>About</a>
@@ -99,9 +104,14 @@ const canonicalUrl = Astro.url.href;
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
           RSS
         </a>
+        <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode (D)">
+          <svg id="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg id="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
       </nav>
     </div>
   </header>
+  <NewsTicker />
 
   <main class="container">
     <slot />
@@ -130,5 +140,213 @@ const canonicalUrl = Astro.url.href;
       </div>
     </div>
   </footer>
+
+  {/* ── Keyboard Shortcut Help Overlay ─── */}
+  <div class="kbd-help-overlay" id="kbd-help">
+    <div class="kbd-help-panel">
+      <h3>Keyboard Shortcuts</h3>
+      <div class="kbd-row"><span>Navigate between policies</span><span><kbd>J</kbd> / <kbd>K</kbd></span></div>
+      <div class="kbd-row"><span>Open focused policy</span><kbd>Enter</kbd></div>
+      <div class="kbd-row"><span>Focus search</span><kbd>/</kbd></div>
+      <div class="kbd-row"><span>Toggle dark mode</span><kbd>D</kbd></div>
+      <div class="kbd-row"><span>Bookmark focused policy</span><kbd>B</kbd></div>
+      <div class="kbd-row"><span>Go home</span><kbd>H</kbd></div>
+      <div class="kbd-row"><span>Show this help</span><kbd>?</kbd></div>
+      <div class="kbd-row"><span>Close overlay</span><kbd>Esc</kbd></div>
+    </div>
+  </div>
+
+  {/* ── Global Scripts: Dark Mode + Keyboard Shortcuts + Bookmarks + New-Since-Visit ─── */}
+  <script>
+    // ── Dark Mode ──
+    (function() {
+      const saved = localStorage.getItem('pd-theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const base = document.querySelector('meta[name="base-url"]')?.getAttribute('content') || '/';
+
+      // ── Dark mode toggle ──
+      const toggle = document.getElementById('theme-toggle');
+      const iconLight = document.getElementById('theme-icon-light');
+      const iconDark = document.getElementById('theme-icon-dark');
+
+      function updateThemeIcons() {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (iconLight) iconLight.style.display = isDark ? 'none' : '';
+        if (iconDark) iconDark.style.display = isDark ? '' : 'none';
+      }
+
+      function toggleTheme() {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('pd-theme', 'light');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('pd-theme', 'dark');
+        }
+        updateThemeIcons();
+      }
+
+      if (toggle) toggle.addEventListener('click', toggleTheme);
+      updateThemeIcons();
+
+      // ── Keyboard Shortcuts ──
+      const kbdHelp = document.getElementById('kbd-help');
+      let focusedCardIndex = -1;
+
+      function getVisibleCards(): HTMLElement[] {
+        return Array.from(document.querySelectorAll('.policy-card'))
+          .filter(c => (c as HTMLElement).offsetParent !== null) as HTMLElement[];
+      }
+
+      function focusCard(idx: number) {
+        const cards = getVisibleCards();
+        if (cards.length === 0) return;
+        // Remove previous focus
+        document.querySelectorAll('.policy-card.kbd-focused').forEach(c => c.classList.remove('kbd-focused'));
+        focusedCardIndex = Math.max(0, Math.min(idx, cards.length - 1));
+        const card = cards[focusedCardIndex];
+        card.classList.add('kbd-focused');
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.style.outline = '2px solid var(--color-accent)';
+        card.style.outlineOffset = '2px';
+      }
+
+      function clearFocus() {
+        document.querySelectorAll('.policy-card.kbd-focused').forEach(c => {
+          (c as HTMLElement).style.outline = '';
+          (c as HTMLElement).style.outlineOffset = '';
+          c.classList.remove('kbd-focused');
+        });
+        focusedCardIndex = -1;
+      }
+
+      document.addEventListener('keydown', (e) => {
+        const target = e.target as HTMLElement;
+        const isInput = target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable;
+
+        // Esc always closes overlays
+        if (e.key === 'Escape') {
+          if (kbdHelp?.classList.contains('visible')) {
+            kbdHelp.classList.remove('visible');
+            return;
+          }
+          clearFocus();
+          return;
+        }
+
+        if (isInput) return;
+
+        switch (e.key) {
+          case '?':
+            e.preventDefault();
+            kbdHelp?.classList.toggle('visible');
+            break;
+          case 'd':
+          case 'D':
+            e.preventDefault();
+            toggleTheme();
+            break;
+          case '/':
+            e.preventDefault();
+            const searchInput = document.getElementById('policy-search') as HTMLInputElement;
+            if (searchInput) {
+              searchInput.focus();
+              searchInput.select();
+            } else {
+              window.location.href = (window as any).__base ? (window as any).__base + 'search/' : '/search/';
+            }
+            break;
+          case 'j':
+          case 'J':
+            e.preventDefault();
+            focusCard(focusedCardIndex + 1);
+            break;
+          case 'k':
+          case 'K':
+            e.preventDefault();
+            focusCard(focusedCardIndex - 1);
+            break;
+          case 'Enter':
+            if (focusedCardIndex >= 0) {
+              const cards = getVisibleCards();
+              const link = cards[focusedCardIndex]?.querySelector('.policy-title a') as HTMLAnchorElement;
+              if (link) link.click();
+            }
+            break;
+          case 'b':
+          case 'B':
+            if (focusedCardIndex >= 0) {
+              const cards = getVisibleCards();
+              const bookBtn = cards[focusedCardIndex]?.querySelector('.bookmark-btn') as HTMLButtonElement;
+              if (bookBtn) bookBtn.click();
+            }
+            break;
+          case 'h':
+          case 'H':
+            window.location.href = '/';
+            break;
+        }
+      });
+
+      // Close kbd help on overlay click
+      kbdHelp?.addEventListener('click', (e) => {
+        if (e.target === kbdHelp) kbdHelp.classList.remove('visible');
+      });
+
+      // ── Bookmarks ──
+      function getBookmarks(): string[] {
+        return JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
+      }
+
+      function toggleBookmark(id: string) {
+        const bm = getBookmarks();
+        const idx = bm.indexOf(id);
+        if (idx >= 0) bm.splice(idx, 1);
+        else bm.push(id);
+        localStorage.setItem('pd-bookmarks', JSON.stringify(bm));
+        return idx < 0; // true if added
+      }
+
+      // Initialize bookmark buttons
+      const bookmarks = getBookmarks();
+      document.querySelectorAll('.bookmark-btn').forEach(btn => {
+        const id = (btn as HTMLElement).dataset.policyId || '';
+        if (bookmarks.includes(id)) btn.classList.add('bookmarked');
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          e.preventDefault();
+          const added = toggleBookmark(id);
+          btn.classList.toggle('bookmarked', added);
+        });
+      });
+
+      // ── New Since Last Visit ──
+      const lastVisit = localStorage.getItem('pd-last-visit');
+      const now = new Date().toISOString();
+
+      if (lastVisit) {
+        document.querySelectorAll('.policy-card[data-date]').forEach(card => {
+          const date = (card as HTMLElement).dataset.date || '';
+          if (date > lastVisit.slice(0, 10)) {
+            const meta = card.querySelector('.policy-meta');
+            if (meta) {
+              const badge = document.createElement('span');
+              badge.className = 'new-badge';
+              badge.textContent = 'NEW';
+              meta.insertBefore(badge, meta.firstChild);
+            }
+          }
+        });
+      }
+      localStorage.setItem('pd-last-visit', now);
+    });
+  </script>
 </body>
 </html>
