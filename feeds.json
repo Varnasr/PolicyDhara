@@ -155,7 +155,9 @@
       "format": "HTML + PDF",
       "reliability": "high",
       "description": "Union Budget documents, economic survey, finance bills",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "rbi": {
       "name": "Reserve Bank of India",
@@ -169,7 +171,9 @@
       "format": "RSS/XML",
       "reliability": "high",
       "description": "Monetary policy, banking regulations, financial circulars, press releases",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "moefcc": {
       "name": "Ministry of Environment, Forest and Climate Change",
@@ -180,7 +184,9 @@
       "format": "HTML + PDF",
       "reliability": "medium",
       "description": "Environmental regulations, notifications, climate policies",
-      "covers_sectors": ["Climate & Environment"]
+      "covers_sectors": [
+        "Climate & Environment"
+      ]
     },
     "meity": {
       "name": "Ministry of Electronics and IT",
@@ -191,7 +197,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Digital India policies, IT regulations, data governance frameworks",
-      "covers_sectors": ["Digital & Technology"]
+      "covers_sectors": [
+        "Digital & Technology"
+      ]
     },
     "world_bank_india": {
       "name": "World Bank - India",
@@ -257,7 +265,11 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Research on governance, urbanisation, political economy, and public finance",
-      "covers_sectors": ["Governance & Reform", "Urban Development", "Finance & Economy"]
+      "covers_sectors": [
+        "Governance & Reform",
+        "Urban Development",
+        "Finance & Economy"
+      ]
     },
     "nipfp": {
       "name": "National Institute of Public Finance and Policy",
@@ -268,9 +280,11 @@
       "format": "HTML + PDF",
       "reliability": "medium",
       "description": "Public finance research, tax policy, fiscal federalism",
-      "covers_sectors": ["Finance & Economy", "Governance & Reform"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Governance & Reform"
+      ]
     },
-
     "state_pib_maharashtra": {
       "name": "PIB Mumbai (Maharashtra)",
       "short_name": "PIB MH",
@@ -440,9 +454,6 @@
       "level": "state",
       "state": "Bihar"
     },
-
-    "__comment_media": "── MEDIA OUTLETS ──────────────────────────────────────",
-
     "the_hindu_policy": {
       "name": "The Hindu - National",
       "short_name": "The Hindu",
@@ -463,7 +474,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Business and economic policy coverage from The Hindu",
-      "covers_sectors": ["Finance & Economy", "Trade & Commerce"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Trade & Commerce"
+      ]
     },
     "indian_express_policy": {
       "name": "Indian Express - India",
@@ -485,7 +499,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Business policy news from The Indian Express",
-      "covers_sectors": ["Finance & Economy", "Trade & Commerce"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Trade & Commerce"
+      ]
     },
     "economic_times_policy": {
       "name": "Economic Times - Policy",
@@ -496,7 +513,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Economic and policy news from Economic Times",
-      "covers_sectors": ["Finance & Economy", "Governance & Reform"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Governance & Reform"
+      ]
     },
     "economic_times_infrastructure": {
       "name": "Economic Times - Infrastructure",
@@ -507,7 +527,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Infrastructure policy from Economic Times",
-      "covers_sectors": ["Transport & Infrastructure", "Urban Development"]
+      "covers_sectors": [
+        "Transport & Infrastructure",
+        "Urban Development"
+      ]
     },
     "ndtv_india": {
       "name": "NDTV - India",
@@ -573,7 +596,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Economy and policy coverage from Business Standard",
-      "covers_sectors": ["Finance & Economy", "Governance & Reform"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Governance & Reform"
+      ]
     },
     "business_line": {
       "name": "BusinessLine - Economy",
@@ -584,7 +610,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Economic policy from The Hindu BusinessLine",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "firstpost_india": {
       "name": "Firstpost - India",
@@ -639,7 +667,12 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Environment, science, health, and development policy from Down To Earth",
-      "covers_sectors": ["Climate & Environment", "Health", "Agriculture", "Water & Sanitation"]
+      "covers_sectors": [
+        "Climate & Environment",
+        "Health",
+        "Agriculture",
+        "Water & Sanitation"
+      ]
     },
     "india_spend": {
       "name": "IndiaSpend",
@@ -663,9 +696,6 @@
       "description": "Policy opinion and analysis from Livemint",
       "covers_sectors": "all"
     },
-
-    "__comment_think_tanks": "── THINK TANKS & RESEARCH ──────────────────────────────",
-
     "icrier": {
       "name": "ICRIER",
       "short_name": "ICRIER",
@@ -675,7 +705,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Indian Council for Research on International Economic Relations — trade, economy, and globalization research",
-      "covers_sectors": ["Finance & Economy", "Trade & Commerce"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Trade & Commerce"
+      ]
     },
     "brookings_india": {
       "name": "Brookings India",
@@ -697,7 +730,11 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Carnegie Endowment for International Peace India Center — technology, geopolitics, energy",
-      "covers_sectors": ["Governance & Reform", "Defence & Security", "Digital & Technology"]
+      "covers_sectors": [
+        "Governance & Reform",
+        "Defence & Security",
+        "Digital & Technology"
+      ]
     },
     "csds_lokniti": {
       "name": "CSDS Lokniti",
@@ -708,7 +745,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Centre for the Study of Developing Societies — democracy, elections, social research",
-      "covers_sectors": ["Governance & Reform", "Social Protection"]
+      "covers_sectors": [
+        "Governance & Reform",
+        "Social Protection"
+      ]
     },
     "epw": {
       "name": "Economic and Political Weekly",
@@ -730,7 +770,11 @@
       "format": "RSS",
       "reliability": "high",
       "description": "India's leading think tank on energy, environment, and water — climate policy research",
-      "covers_sectors": ["Energy", "Climate & Environment", "Water & Sanitation"]
+      "covers_sectors": [
+        "Energy",
+        "Climate & Environment",
+        "Water & Sanitation"
+      ]
     },
     "teri": {
       "name": "The Energy and Resources Institute",
@@ -741,7 +785,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Energy, environment, and sustainable development research",
-      "covers_sectors": ["Energy", "Climate & Environment"]
+      "covers_sectors": [
+        "Energy",
+        "Climate & Environment"
+      ]
     },
     "vidhi_legal": {
       "name": "Vidhi Centre for Legal Policy",
@@ -752,7 +799,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Legal policy research — legislative drafting, judicial reform, regulatory governance",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
     "cppr": {
       "name": "Centre for Public Policy Research",
@@ -763,7 +812,10 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "Public policy research from Kochi — governance, economy, and social policy",
-      "covers_sectors": ["Governance & Reform", "Finance & Economy"]
+      "covers_sectors": [
+        "Governance & Reform",
+        "Finance & Economy"
+      ]
     },
     "cuts_international": {
       "name": "CUTS International",
@@ -774,7 +826,10 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "Consumer Unity and Trust Society — trade, competition, and consumer policy",
-      "covers_sectors": ["Trade & Commerce", "Governance & Reform"]
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Governance & Reform"
+      ]
     },
     "iim_bangalore": {
       "name": "IIMB Research",
@@ -785,7 +840,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Research publications from IIM Bangalore",
-      "covers_sectors": ["Finance & Economy", "Trade & Commerce"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Trade & Commerce"
+      ]
     },
     "takshashila": {
       "name": "Takshashila Institution",
@@ -796,7 +854,11 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "Public policy research and education — geopolitics, tech policy, economics",
-      "covers_sectors": ["Governance & Reform", "Digital & Technology", "Defence & Security"]
+      "covers_sectors": [
+        "Governance & Reform",
+        "Digital & Technology",
+        "Defence & Security"
+      ]
     },
     "cse_india": {
       "name": "Centre for Science and Environment",
@@ -807,7 +869,11 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Environmental policy, pollution, and sustainable development research",
-      "covers_sectors": ["Climate & Environment", "Water & Sanitation", "Energy"]
+      "covers_sectors": [
+        "Climate & Environment",
+        "Water & Sanitation",
+        "Energy"
+      ]
     },
     "cbga": {
       "name": "Centre for Budget and Governance Accountability",
@@ -818,7 +884,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Budget analysis and public finance research — fiscal accountability",
-      "covers_sectors": ["Finance & Economy", "Governance & Reform"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Governance & Reform"
+      ]
     },
     "iwwage": {
       "name": "Initiative for What Works to Advance Women and Girls in the Economy",
@@ -829,7 +898,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Women's economic empowerment research — gender policy",
-      "covers_sectors": ["Gender & Women", "Labour & Employment"]
+      "covers_sectors": [
+        "Gender & Women",
+        "Labour & Employment"
+      ]
     },
     "jpal_south_asia": {
       "name": "J-PAL South Asia",
@@ -840,7 +912,11 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Randomized evaluation research on poverty, education, health, and governance",
-      "covers_sectors": ["Social Protection", "Education", "Health"]
+      "covers_sectors": [
+        "Social Protection",
+        "Education",
+        "Health"
+      ]
     },
     "ncaer": {
       "name": "National Council of Applied Economic Research",
@@ -851,11 +927,11 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Applied economic research — macro policy, agriculture, industry",
-      "covers_sectors": ["Finance & Economy", "Agriculture"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Agriculture"
+      ]
     },
-
-    "__comment_regulatory": "── REGULATORY BODIES ──────────────────────────────────",
-
     "sebi": {
       "name": "Securities and Exchange Board of India",
       "short_name": "SEBI",
@@ -865,7 +941,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Securities market regulations, circulars, and press releases",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "trai": {
       "name": "Telecom Regulatory Authority of India",
@@ -876,7 +954,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Telecom regulation, tariff orders, spectrum policy, net neutrality",
-      "covers_sectors": ["Digital & Technology"]
+      "covers_sectors": [
+        "Digital & Technology"
+      ]
     },
     "irdai": {
       "name": "Insurance Regulatory and Development Authority of India",
@@ -887,7 +967,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Insurance sector regulations, guidelines, and circulars",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "cci": {
       "name": "Competition Commission of India",
@@ -898,7 +980,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Antitrust and competition law orders, investigations, and advocacy",
-      "covers_sectors": ["Trade & Commerce", "Governance & Reform"]
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Governance & Reform"
+      ]
     },
     "cerc": {
       "name": "Central Electricity Regulatory Commission",
@@ -909,7 +994,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Electricity tariff and regulatory orders — power sector governance",
-      "covers_sectors": ["Energy"]
+      "covers_sectors": [
+        "Energy"
+      ]
     },
     "cpcb": {
       "name": "Central Pollution Control Board",
@@ -920,7 +1007,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Pollution monitoring data, environmental standards, and notifications",
-      "covers_sectors": ["Climate & Environment"]
+      "covers_sectors": [
+        "Climate & Environment"
+      ]
     },
     "fssai": {
       "name": "Food Safety and Standards Authority of India",
@@ -931,7 +1020,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Food safety regulations, licensing, and standards",
-      "covers_sectors": ["Health", "Agriculture"]
+      "covers_sectors": [
+        "Health",
+        "Agriculture"
+      ]
     },
     "dgft": {
       "name": "Directorate General of Foreign Trade",
@@ -942,7 +1034,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Foreign trade policy notifications, export-import regulations",
-      "covers_sectors": ["Trade & Commerce"]
+      "covers_sectors": [
+        "Trade & Commerce"
+      ]
     },
     "cbic": {
       "name": "Central Board of Indirect Taxes and Customs",
@@ -953,7 +1047,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "GST and customs notifications, circulars, and tariff changes",
-      "covers_sectors": ["Finance & Economy", "Trade & Commerce"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Trade & Commerce"
+      ]
     },
     "cbdt": {
       "name": "Central Board of Direct Taxes",
@@ -964,7 +1061,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Income tax notifications, circulars, and direct tax policy",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "dpiit": {
       "name": "Department for Promotion of Industry and Internal Trade",
@@ -975,7 +1074,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "FDI policy, industrial policy, startup India, ease of doing business",
-      "covers_sectors": ["Trade & Commerce", "Finance & Economy"]
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Finance & Economy"
+      ]
     },
     "ibbi": {
       "name": "Insolvency and Bankruptcy Board of India",
@@ -986,11 +1088,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Insolvency and bankruptcy regulations, CIRP processes",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
-
-    "__comment_ministries": "── ADDITIONAL MINISTRIES ──────────────────────────────",
-
     "mohfw": {
       "name": "Ministry of Health and Family Welfare",
       "short_name": "MoHFW",
@@ -1000,7 +1101,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Health policy, disease surveillance, healthcare infrastructure",
-      "covers_sectors": ["Health"]
+      "covers_sectors": [
+        "Health"
+      ]
     },
     "moe": {
       "name": "Ministry of Education",
@@ -1011,7 +1114,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Education policy — NEP implementation, UGC, AICTE, school education",
-      "covers_sectors": ["Education"]
+      "covers_sectors": [
+        "Education"
+      ]
     },
     "mord": {
       "name": "Ministry of Rural Development",
@@ -1022,7 +1127,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Rural development — MGNREGA, PMAY-G, PMGSY, DAY-NRLM",
-      "covers_sectors": ["Rural Development"]
+      "covers_sectors": [
+        "Rural Development"
+      ]
     },
     "mohua": {
       "name": "Ministry of Housing and Urban Affairs",
@@ -1033,7 +1140,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Urban development — Smart Cities, AMRUT, PMAY-U, Metro",
-      "covers_sectors": ["Urban Development", "Housing"]
+      "covers_sectors": [
+        "Urban Development",
+        "Housing"
+      ]
     },
     "mole": {
       "name": "Ministry of Labour and Employment",
@@ -1044,7 +1154,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Labour codes, wages, EPFO, ESIC, gig workers, social security",
-      "covers_sectors": ["Labour & Employment"]
+      "covers_sectors": [
+        "Labour & Employment"
+      ]
     },
     "mowr": {
       "name": "Ministry of Jal Shakti",
@@ -1055,7 +1167,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Water resources — Jal Jeevan Mission, Namami Gange, irrigation, dams",
-      "covers_sectors": ["Water & Sanitation"]
+      "covers_sectors": [
+        "Water & Sanitation"
+      ]
     },
     "mnre": {
       "name": "Ministry of New and Renewable Energy",
@@ -1066,7 +1180,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Renewable energy — solar, wind, green hydrogen, PM Surya Ghar",
-      "covers_sectors": ["Energy", "Climate & Environment"]
+      "covers_sectors": [
+        "Energy",
+        "Climate & Environment"
+      ]
     },
     "mca": {
       "name": "Ministry of Corporate Affairs",
@@ -1077,7 +1194,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Company law, CSR regulations, insolvency, corporate governance",
-      "covers_sectors": ["Finance & Economy", "Governance & Reform"]
+      "covers_sectors": [
+        "Finance & Economy",
+        "Governance & Reform"
+      ]
     },
     "mota": {
       "name": "Ministry of Tribal Affairs",
@@ -1088,7 +1208,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Tribal welfare — Eklavya schools, Van Dhan, FRA, PESA, tribal health",
-      "covers_sectors": ["Tribal & Indigenous"]
+      "covers_sectors": [
+        "Tribal & Indigenous"
+      ]
     },
     "mwcd": {
       "name": "Ministry of Women and Child Development",
@@ -1099,7 +1221,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Women empowerment — Beti Bachao, one-stop centres, ICDS, POCSO",
-      "covers_sectors": ["Gender & Women", "Child Rights & Youth"]
+      "covers_sectors": [
+        "Gender & Women",
+        "Child Rights & Youth"
+      ]
     },
     "msje": {
       "name": "Ministry of Social Justice and Empowerment",
@@ -1110,7 +1235,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Social justice — SC/ST welfare, DEPwD, senior citizens, anti-drug",
-      "covers_sectors": ["Social Protection", "Disability & Inclusion"]
+      "covers_sectors": [
+        "Social Protection",
+        "Disability & Inclusion"
+      ]
     },
     "mofa": {
       "name": "Ministry of External Affairs",
@@ -1121,7 +1249,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Foreign policy, international agreements, bilateral relations",
-      "covers_sectors": ["Governance & Reform", "Trade & Commerce"]
+      "covers_sectors": [
+        "Governance & Reform",
+        "Trade & Commerce"
+      ]
     },
     "doj": {
       "name": "Department of Justice",
@@ -1132,7 +1263,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Judicial reforms, access to justice, e-courts, legal aid",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
     "mospi": {
       "name": "Ministry of Statistics and Programme Implementation",
@@ -1143,7 +1276,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Economic statistics — GDP, CPI, IIP, employment surveys",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "moagri": {
       "name": "Ministry of Agriculture and Farmers Welfare",
@@ -1154,7 +1289,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Agriculture policy — MSP, PM-KISAN, crop insurance, eNAM",
-      "covers_sectors": ["Agriculture"]
+      "covers_sectors": [
+        "Agriculture"
+      ]
     },
     "dot": {
       "name": "Department of Telecommunications",
@@ -1165,7 +1302,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Telecom policy — 5G, spectrum, BharatNet, satellite communication",
-      "covers_sectors": ["Digital & Technology"]
+      "covers_sectors": [
+        "Digital & Technology"
+      ]
     },
     "morail": {
       "name": "Ministry of Railways",
@@ -1176,11 +1315,10 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Railway policy — Vande Bharat, freight corridors, station redevelopment",
-      "covers_sectors": ["Transport & Infrastructure"]
+      "covers_sectors": [
+        "Transport & Infrastructure"
+      ]
     },
-
-    "__comment_international": "── INTERNATIONAL ORGANIZATIONS ──────────────────────────",
-
     "imf_india": {
       "name": "IMF - India",
       "short_name": "IMF",
@@ -1190,7 +1328,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "IMF Article IV consultations, country reports, and policy advice for India",
-      "covers_sectors": ["Finance & Economy"]
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
     },
     "adb_india": {
       "name": "Asian Development Bank - India",
@@ -1212,7 +1352,11 @@
       "format": "RSS",
       "reliability": "high",
       "description": "UNICEF India child rights, education, health, nutrition, and protection",
-      "covers_sectors": ["Child Rights & Youth", "Education", "Health"]
+      "covers_sectors": [
+        "Child Rights & Youth",
+        "Education",
+        "Health"
+      ]
     },
     "who_india": {
       "name": "WHO India",
@@ -1223,7 +1367,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "WHO India public health policy, disease surveillance, and health systems",
-      "covers_sectors": ["Health"]
+      "covers_sectors": [
+        "Health"
+      ]
     },
     "ilo_india": {
       "name": "ILO India",
@@ -1234,7 +1380,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "International Labour Organization India — labour standards, employment, social security",
-      "covers_sectors": ["Labour & Employment"]
+      "covers_sectors": [
+        "Labour & Employment"
+      ]
     },
     "fao_india": {
       "name": "FAO India",
@@ -1245,11 +1393,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Food and Agriculture Organization — food security, agricultural development",
-      "covers_sectors": ["Agriculture"]
+      "covers_sectors": [
+        "Agriculture"
+      ]
     },
-
-    "__comment_legal": "── LEGAL & JUDICIAL ──────────────────────────────────────",
-
     "sci_judgments": {
       "name": "Supreme Court of India",
       "short_name": "SCI",
@@ -1259,7 +1406,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Supreme Court judgments, orders, and cause lists — constitutional law",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
     "law_commission": {
       "name": "Law Commission of India",
@@ -1270,7 +1419,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Law reform recommendations, reports, and working papers",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
     "livelaw": {
       "name": "LiveLaw",
@@ -1281,7 +1432,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Legal news — court judgments, legislation, law and policy analysis",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
     "barandbench": {
       "name": "Bar and Bench",
@@ -1292,7 +1445,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Legal journalism — Supreme Court, High Courts, tribunals, law firms",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
     "scobserver": {
       "name": "Supreme Court Observer",
@@ -1303,7 +1458,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "In-depth analysis of Supreme Court cases and constitutional law",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
     "nlsiu_blog": {
       "name": "NLSIU Blog",
@@ -1314,11 +1471,10 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "National Law School research — legal policy, constitutional law, IP",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
     },
-
-    "__comment_state_portals": "── STATE GOVERNMENT PORTALS ──────────────────────────",
-
     "mh_govt": {
       "name": "Maharashtra Government - GR",
       "short_name": "MH Govt",
@@ -1384,9 +1540,6 @@
       "level": "state",
       "state": "Delhi"
     },
-
-    "__comment_sector_specific": "── SECTOR-SPECIFIC SOURCES ──────────────────────────",
-
     "nabard": {
       "name": "NABARD",
       "short_name": "NABARD",
@@ -1396,7 +1549,11 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Rural finance, agricultural credit, cooperative banking",
-      "covers_sectors": ["Agriculture", "Rural Development", "Finance & Economy"]
+      "covers_sectors": [
+        "Agriculture",
+        "Rural Development",
+        "Finance & Economy"
+      ]
     },
     "sidbi": {
       "name": "SIDBI",
@@ -1407,7 +1564,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "MSME finance, startup support, Make in India financial schemes",
-      "covers_sectors": ["Trade & Commerce", "Finance & Economy"]
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Finance & Economy"
+      ]
     },
     "nha": {
       "name": "National Health Authority",
@@ -1418,7 +1578,9 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Ayushman Bharat PM-JAY, ABDM, health insurance coverage",
-      "covers_sectors": ["Health"]
+      "covers_sectors": [
+        "Health"
+      ]
     },
     "nasscom": {
       "name": "NASSCOM",
@@ -1429,7 +1591,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "IT/BPM industry policy, AI governance, tech regulation, digital skilling",
-      "covers_sectors": ["Digital & Technology", "Trade & Commerce"]
+      "covers_sectors": [
+        "Digital & Technology",
+        "Trade & Commerce"
+      ]
     },
     "ficci": {
       "name": "Federation of Indian Chambers of Commerce and Industry",
@@ -1440,7 +1605,10 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Industry body policy positions — budget, trade, manufacturing, services",
-      "covers_sectors": ["Trade & Commerce", "Finance & Economy"]
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Finance & Economy"
+      ]
     },
     "cii": {
       "name": "Confederation of Indian Industry",
@@ -1451,7 +1619,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Industry body policy advocacy — manufacturing, exports, sustainability",
-      "covers_sectors": ["Trade & Commerce", "Finance & Economy"]
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Finance & Economy"
+      ]
     },
     "isro": {
       "name": "Indian Space Research Organisation",
@@ -1462,7 +1633,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Space policy — satellite launches, space reforms, IN-SPACe",
-      "covers_sectors": ["Science & Innovation", "Defence & Security"]
+      "covers_sectors": [
+        "Science & Innovation",
+        "Defence & Security"
+      ]
     },
     "dst": {
       "name": "Department of Science and Technology",
@@ -1473,7 +1647,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Science and technology policy — NRF, innovation, research funding",
-      "covers_sectors": ["Science & Innovation"]
+      "covers_sectors": [
+        "Science & Innovation"
+      ]
     },
     "startup_india": {
       "name": "Startup India",
@@ -1484,7 +1660,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Startup ecosystem — DPIIT recognition, FUND of Funds, tax exemptions",
-      "covers_sectors": ["Trade & Commerce", "Digital & Technology"]
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Digital & Technology"
+      ]
     },
     "dge_employment": {
       "name": "Directorate General of Employment",
@@ -1495,7 +1674,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Employment data, apprenticeship, National Career Service",
-      "covers_sectors": ["Labour & Employment"]
+      "covers_sectors": [
+        "Labour & Employment"
+      ]
     },
     "nhb": {
       "name": "National Housing Bank",
@@ -1506,7 +1687,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Housing finance regulation, affordable housing credit",
-      "covers_sectors": ["Housing", "Finance & Economy"]
+      "covers_sectors": [
+        "Housing",
+        "Finance & Economy"
+      ]
     },
     "cag": {
       "name": "Comptroller and Auditor General",
@@ -1517,7 +1701,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Government audit reports — financial accountability, performance audits",
-      "covers_sectors": ["Governance & Reform", "Finance & Economy"]
+      "covers_sectors": [
+        "Governance & Reform",
+        "Finance & Economy"
+      ]
     },
     "nfhs": {
       "name": "National Family Health Survey",
@@ -1528,7 +1715,10 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Demographic and health survey data — maternal, child, nutrition indicators",
-      "covers_sectors": ["Health", "Gender & Women"]
+      "covers_sectors": [
+        "Health",
+        "Gender & Women"
+      ]
     },
     "niti_sdg": {
       "name": "NITI Aayog SDG India Index",
@@ -1550,7 +1740,2193 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Election notifications, model code, voter rights, delimitation",
-      "covers_sectors": ["Governance & Reform"]
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "mocommerce": {
+      "name": "Ministry of Commerce & Industry",
+      "short_name": "MoCommerce",
+      "type": "scrape",
+      "url": "https://commerce.gov.in/press-releases/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Trade policy, FDI, export promotion, SEZs",
+      "covers_sectors": [
+        "Trade & Commerce"
+      ]
+    },
+    "moinfo": {
+      "name": "Ministry of Information & Broadcasting",
+      "short_name": "MoI&B",
+      "type": "scrape",
+      "url": "https://mib.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Media regulation, digital content policy, broadcasting",
+      "covers_sectors": [
+        "Digital & Technology",
+        "Governance & Reform"
+      ]
+    },
+    "mopower": {
+      "name": "Ministry of Power",
+      "short_name": "MoPower",
+      "type": "scrape",
+      "url": "https://powermin.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Electricity policy, distribution reforms, renewable targets",
+      "covers_sectors": [
+        "Energy"
+      ]
+    },
+    "mocoal": {
+      "name": "Ministry of Coal",
+      "short_name": "MoCoal",
+      "type": "scrape",
+      "url": "https://coal.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Coal policy, mine auctions, energy transition",
+      "covers_sectors": [
+        "Energy"
+      ]
+    },
+    "mopng": {
+      "name": "Ministry of Petroleum & Natural Gas",
+      "short_name": "MoPNG",
+      "type": "scrape",
+      "url": "https://mopng.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Oil & gas policy, LPG schemes, refinery policy",
+      "covers_sectors": [
+        "Energy"
+      ]
+    },
+    "mofood": {
+      "name": "Ministry of Food Processing",
+      "short_name": "MoFPI",
+      "type": "scrape",
+      "url": "https://mofpi.nic.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Food processing policy, PLI schemes, cold chain",
+      "covers_sectors": [
+        "Agriculture",
+        "Trade & Commerce"
+      ]
+    },
+    "moconsumer": {
+      "name": "Ministry of Consumer Affairs",
+      "short_name": "MoCA",
+      "type": "scrape",
+      "url": "https://consumeraffairs.nic.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Consumer protection, price monitoring, essential commodities",
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Social Protection"
+      ]
+    },
+    "momsme": {
+      "name": "Ministry of MSME",
+      "short_name": "MoMSME",
+      "type": "scrape",
+      "url": "https://msme.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "MSME policy, Udyam registration, credit schemes",
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Finance & Economy"
+      ]
+    },
+    "moship": {
+      "name": "Ministry of Ports, Shipping & Waterways",
+      "short_name": "MoShip",
+      "type": "scrape",
+      "url": "https://shipmin.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Port modernization, sagarmala, inland waterways",
+      "covers_sectors": [
+        "Transport & Infrastructure"
+      ]
+    },
+    "mocivil": {
+      "name": "Ministry of Civil Aviation",
+      "short_name": "MoCA-Av",
+      "type": "scrape",
+      "url": "https://www.civilaviation.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Aviation policy, UDAN, drone regulations, airport development",
+      "covers_sectors": [
+        "Transport & Infrastructure"
+      ]
+    },
+    "motextile": {
+      "name": "Ministry of Textiles",
+      "short_name": "MoTextile",
+      "type": "scrape",
+      "url": "https://texmin.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Textile PLI, weaver schemes, technical textiles",
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Labour & Employment"
+      ]
+    },
+    "mosteel": {
+      "name": "Ministry of Steel",
+      "short_name": "MoSteel",
+      "type": "scrape",
+      "url": "https://steel.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Steel policy, production targets, green steel",
+      "covers_sectors": [
+        "Trade & Commerce"
+      ]
+    },
+    "momine": {
+      "name": "Ministry of Mines",
+      "short_name": "MoMines",
+      "type": "scrape",
+      "url": "https://mines.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Mining policy, MMDR Act, critical minerals",
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Climate & Environment"
+      ]
+    },
+    "mopanchayat": {
+      "name": "Ministry of Panchayati Raj",
+      "short_name": "MoPR",
+      "type": "scrape",
+      "url": "https://panchayat.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Local governance, gram panchayat, decentralization",
+      "covers_sectors": [
+        "Rural Development",
+        "Governance & Reform"
+      ]
+    },
+    "moculture": {
+      "name": "Ministry of Culture",
+      "short_name": "MoCulture",
+      "type": "scrape",
+      "url": "https://indiaculture.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Cultural heritage preservation, museums, archaeological policy",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "moyouth": {
+      "name": "Ministry of Youth Affairs & Sports",
+      "short_name": "MoYAS",
+      "type": "scrape",
+      "url": "https://yas.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Youth policy, Khelo India, sports governance",
+      "covers_sectors": [
+        "Child Rights & Youth"
+      ]
+    },
+    "doner": {
+      "name": "Ministry of DoNER",
+      "short_name": "DoNER",
+      "type": "scrape",
+      "url": "https://mdoner.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Northeast region development, special packages, infrastructure",
+      "covers_sectors": [
+        "Rural Development",
+        "Transport & Infrastructure"
+      ]
+    },
+    "mocooperation": {
+      "name": "Ministry of Cooperation",
+      "short_name": "MoCoop",
+      "type": "scrape",
+      "url": "https://cooperation.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Cooperative sector policy, PACS digitization",
+      "covers_sectors": [
+        "Agriculture",
+        "Finance & Economy"
+      ]
+    },
+    "moearth": {
+      "name": "Ministry of Earth Sciences",
+      "short_name": "MoES",
+      "type": "scrape",
+      "url": "https://moes.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Weather, ocean sciences, seismology policy",
+      "covers_sectors": [
+        "Science & Innovation",
+        "Climate & Environment"
+      ]
+    },
+    "moayush": {
+      "name": "Ministry of AYUSH",
+      "short_name": "MoAYUSH",
+      "type": "scrape",
+      "url": "https://ayush.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Traditional medicine policy, yoga, naturopathy regulation",
+      "covers_sectors": [
+        "Health"
+      ]
+    },
+    "mofertilizer": {
+      "name": "Department of Fertilizers",
+      "short_name": "DoF",
+      "type": "scrape",
+      "url": "https://fert.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Fertilizer subsidy, urea policy, nano fertilizers",
+      "covers_sectors": [
+        "Agriculture"
+      ]
+    },
+    "dfs": {
+      "name": "Department of Financial Services",
+      "short_name": "DFS",
+      "type": "scrape",
+      "url": "https://financialservices.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Banking reform, insurance policy, pension schemes, Jan Dhan",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Social Protection"
+      ]
+    },
+    "dea": {
+      "name": "Department of Economic Affairs",
+      "short_name": "DEA",
+      "type": "scrape",
+      "url": "https://dea.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Economic policy, multilateral engagement, capital markets",
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
+    },
+    "disinvestment": {
+      "name": "DIPAM",
+      "short_name": "DIPAM",
+      "type": "scrape",
+      "url": "https://dipam.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Disinvestment, asset monetization, strategic sales",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Governance & Reform"
+      ]
+    },
+    "moroad": {
+      "name": "Ministry of Road Transport & Highways",
+      "short_name": "MoRTH",
+      "type": "scrape",
+      "url": "https://morth.nic.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Highway construction, vehicle standards, road safety",
+      "covers_sectors": [
+        "Transport & Infrastructure"
+      ]
+    },
+    "mohousing": {
+      "name": "Ministry of Housing (PMAY)",
+      "short_name": "PMAY",
+      "type": "scrape",
+      "url": "https://pmay-urban.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Pradhan Mantri Awas Yojana, affordable housing",
+      "covers_sectors": [
+        "Housing",
+        "Urban Development"
+      ]
+    },
+    "dopt": {
+      "name": "Dept of Personnel & Training",
+      "short_name": "DoPT",
+      "type": "scrape",
+      "url": "https://dopt.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Civil service reform, recruitment policy, lateral entry",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "npci": {
+      "name": "NPCI",
+      "short_name": "NPCI",
+      "type": "scrape",
+      "url": "https://www.npci.org.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Digital payments, UPI policy, RuPay, NACH",
+      "covers_sectors": [
+        "Digital & Technology",
+        "Finance & Economy"
+      ]
+    },
+    "rera": {
+      "name": "RERA (Central)",
+      "short_name": "RERA",
+      "type": "scrape",
+      "url": "https://rera.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Real estate regulation, builder compliance, homebuyer protection",
+      "covers_sectors": [
+        "Housing"
+      ]
+    },
+    "epfo": {
+      "name": "EPFO",
+      "short_name": "EPFO",
+      "type": "scrape",
+      "url": "https://www.epfindia.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Provident fund, pension, social security for workers",
+      "covers_sectors": [
+        "Labour & Employment",
+        "Social Protection"
+      ]
+    },
+    "esic": {
+      "name": "ESIC",
+      "short_name": "ESIC",
+      "type": "scrape",
+      "url": "https://www.esic.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Employee state insurance, health coverage for workers",
+      "covers_sectors": [
+        "Health",
+        "Labour & Employment"
+      ]
+    },
+    "nmc": {
+      "name": "National Medical Commission",
+      "short_name": "NMC",
+      "type": "scrape",
+      "url": "https://www.nmc.org.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Medical education regulation, licensing, NEXT exam",
+      "covers_sectors": [
+        "Health",
+        "Education"
+      ]
+    },
+    "ugc": {
+      "name": "University Grants Commission",
+      "short_name": "UGC",
+      "type": "scrape",
+      "url": "https://www.ugc.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Higher education regulation, NEP implementation, university standards",
+      "covers_sectors": [
+        "Education"
+      ]
+    },
+    "aicte": {
+      "name": "AICTE",
+      "short_name": "AICTE",
+      "type": "scrape",
+      "url": "https://www.aicte-india.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Technical education regulation, engineering colleges, skill development",
+      "covers_sectors": [
+        "Education"
+      ]
+    },
+    "ncte": {
+      "name": "NCTE",
+      "short_name": "NCTE",
+      "type": "scrape",
+      "url": "https://ncte.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Teacher education regulation, B.Ed standards",
+      "covers_sectors": [
+        "Education"
+      ]
+    },
+    "ncert": {
+      "name": "NCERT",
+      "short_name": "NCERT",
+      "type": "scrape",
+      "url": "https://ncert.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Curriculum development, textbook policy, NEP curriculum framework",
+      "covers_sectors": [
+        "Education"
+      ]
+    },
+    "cbse": {
+      "name": "CBSE",
+      "short_name": "CBSE",
+      "type": "scrape",
+      "url": "https://www.cbse.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "School education board, exam policy, curriculum changes",
+      "covers_sectors": [
+        "Education"
+      ]
+    },
+    "dgca": {
+      "name": "DGCA",
+      "short_name": "DGCA",
+      "type": "scrape",
+      "url": "https://dgca.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Aviation safety, drone regulation, airline policy",
+      "covers_sectors": [
+        "Transport & Infrastructure"
+      ]
+    },
+    "nhrc": {
+      "name": "NHRC",
+      "short_name": "NHRC",
+      "type": "scrape",
+      "url": "https://nhrc.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Human rights commission, custodial deaths, civil liberties",
+      "covers_sectors": [
+        "Governance & Reform",
+        "Civil Liberties"
+      ]
+    },
+    "ncw": {
+      "name": "NCW",
+      "short_name": "NCW",
+      "type": "scrape",
+      "url": "https://ncw.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Women's commission, gender-based violence, workplace safety",
+      "covers_sectors": [
+        "Gender & Women"
+      ]
+    },
+    "ncpcr": {
+      "name": "NCPCR",
+      "short_name": "NCPCR",
+      "type": "scrape",
+      "url": "https://ncpcr.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Child rights protection, child labour, juvenile justice",
+      "covers_sectors": [
+        "Child Rights & Youth"
+      ]
+    },
+    "ncsc": {
+      "name": "NCSC",
+      "short_name": "NCSC",
+      "type": "scrape",
+      "url": "https://ncsc.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Scheduled castes commission, atrocities, reservation policy",
+      "covers_sectors": [
+        "Social Protection",
+        "Governance & Reform"
+      ]
+    },
+    "ncst": {
+      "name": "NCST",
+      "short_name": "NCST",
+      "type": "scrape",
+      "url": "https://ncst.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Scheduled tribes commission, forest rights, tribal welfare",
+      "covers_sectors": [
+        "Tribal & Indigenous"
+      ]
+    },
+    "ngt": {
+      "name": "National Green Tribunal",
+      "short_name": "NGT",
+      "type": "scrape",
+      "url": "https://greentribunal.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Environmental justice, pollution cases, conservation orders",
+      "covers_sectors": [
+        "Climate & Environment"
+      ]
+    },
+    "cic": {
+      "name": "Central Information Commission",
+      "short_name": "CIC",
+      "type": "scrape",
+      "url": "https://cic.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "RTI appeals, transparency, information disclosure",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "nic": {
+      "name": "National Informatics Centre",
+      "short_name": "NIC",
+      "type": "scrape",
+      "url": "https://www.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "e-Governance infrastructure, digital India backbone",
+      "covers_sectors": [
+        "Digital & Technology",
+        "Governance & Reform"
+      ]
+    },
+    "cert_in": {
+      "name": "CERT-In",
+      "short_name": "CERT-In",
+      "type": "scrape",
+      "url": "https://www.cert-in.org.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Cybersecurity advisories, incident response, digital safety",
+      "covers_sectors": [
+        "Digital & Technology",
+        "Defence & Security"
+      ]
+    },
+    "pfrda": {
+      "name": "PFRDA",
+      "short_name": "PFRDA",
+      "type": "scrape",
+      "url": "https://www.pfrda.org.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "National Pension System, Atal Pension Yojana",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Social Protection"
+      ]
+    },
+    "uidai": {
+      "name": "UIDAI (Aadhaar)",
+      "short_name": "UIDAI",
+      "type": "scrape",
+      "url": "https://uidai.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Aadhaar policy, biometric ID, digital identity",
+      "covers_sectors": [
+        "Digital & Technology",
+        "Governance & Reform"
+      ]
+    },
+    "ap_govt": {
+      "name": "Andhra Pradesh Government",
+      "short_name": "AP Govt",
+      "type": "scrape",
+      "url": "https://www.ap.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "AP government orders, policies, welfare schemes",
+      "covers_sectors": "all"
+    },
+    "ts_govt": {
+      "name": "Telangana Government",
+      "short_name": "TS Govt",
+      "type": "scrape",
+      "url": "https://www.telangana.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Telangana GOs, welfare schemes, IT policy",
+      "covers_sectors": "all"
+    },
+    "guj_govt": {
+      "name": "Gujarat Government",
+      "short_name": "GJ Govt",
+      "type": "scrape",
+      "url": "https://www.gujaratindia.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Gujarat industrial policy, vibrant gujarat, welfare",
+      "covers_sectors": "all"
+    },
+    "raj_govt": {
+      "name": "Rajasthan Government",
+      "short_name": "RJ Govt",
+      "type": "scrape",
+      "url": "https://www.rajasthan.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Rajasthan government orders, schemes, social welfare",
+      "covers_sectors": "all"
+    },
+    "mp_govt": {
+      "name": "Madhya Pradesh Government",
+      "short_name": "MP Govt",
+      "type": "scrape",
+      "url": "https://www.mp.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "MP government policies, Ladli Bahna, tribal welfare",
+      "covers_sectors": "all"
+    },
+    "wb_gazette": {
+      "name": "West Bengal Gazette",
+      "short_name": "WB Gaz",
+      "type": "scrape",
+      "url": "https://wb.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "WB government notifications, Lakshmir Bhandar, Kanyashree",
+      "covers_sectors": "all"
+    },
+    "up_govt": {
+      "name": "Uttar Pradesh Government",
+      "short_name": "UP Govt",
+      "type": "scrape",
+      "url": "https://up.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "UP government orders, industrial policy, welfare schemes",
+      "covers_sectors": "all"
+    },
+    "bihar_govt": {
+      "name": "Bihar Government",
+      "short_name": "BR Govt",
+      "type": "scrape",
+      "url": "https://state.bihar.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Bihar development schemes, special category state demands",
+      "covers_sectors": "all"
+    },
+    "jharkhand_govt": {
+      "name": "Jharkhand Government",
+      "short_name": "JH Govt",
+      "type": "scrape",
+      "url": "https://www.jharkhand.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Jharkhand tribal welfare, mining policy, forest rights",
+      "covers_sectors": "all"
+    },
+    "odisha_govt": {
+      "name": "Odisha Government",
+      "short_name": "OD Govt",
+      "type": "scrape",
+      "url": "https://www.odisha.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Odisha KALIA, disaster resilience, industrial policy",
+      "covers_sectors": "all"
+    },
+    "chhattisgarh_govt": {
+      "name": "Chhattisgarh Government",
+      "short_name": "CG Govt",
+      "type": "scrape",
+      "url": "https://www.cgstate.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Chhattisgarh tribal welfare, forest rights, PDS reform",
+      "covers_sectors": "all"
+    },
+    "punjab_govt": {
+      "name": "Punjab Government",
+      "short_name": "PB Govt",
+      "type": "scrape",
+      "url": "https://punjab.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Punjab agriculture policy, MSP, stubble burning, welfare",
+      "covers_sectors": "all"
+    },
+    "haryana_govt": {
+      "name": "Haryana Government",
+      "short_name": "HR Govt",
+      "type": "scrape",
+      "url": "https://haryana.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Haryana industrial policy, Parivar Pehchan Patra",
+      "covers_sectors": "all"
+    },
+    "hp_govt": {
+      "name": "Himachal Pradesh Government",
+      "short_name": "HP Govt",
+      "type": "scrape",
+      "url": "https://himachal.nic.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "HP green energy, tourism policy, apple economy",
+      "covers_sectors": "all"
+    },
+    "uttarakhand_govt": {
+      "name": "Uttarakhand Government",
+      "short_name": "UK Govt",
+      "type": "scrape",
+      "url": "https://uk.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Uttarakhand disaster policy, UCC, hill development",
+      "covers_sectors": "all"
+    },
+    "goa_govt": {
+      "name": "Goa Government",
+      "short_name": "GA Govt",
+      "type": "scrape",
+      "url": "https://www.goa.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Goa tourism policy, mining, coastal regulation",
+      "covers_sectors": "all"
+    },
+    "assam_govt": {
+      "name": "Assam Government",
+      "short_name": "AS Govt",
+      "type": "scrape",
+      "url": "https://assam.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Assam NRC, flood management, tea industry policy",
+      "covers_sectors": "all"
+    },
+    "meghalaya_govt": {
+      "name": "Meghalaya Government",
+      "short_name": "ML Govt",
+      "type": "scrape",
+      "url": "https://meghalaya.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Meghalaya community forest, mining regulation, tribal autonomy",
+      "covers_sectors": "all"
+    },
+    "manipur_govt": {
+      "name": "Manipur Government",
+      "short_name": "MN Govt",
+      "type": "scrape",
+      "url": "https://manipur.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Manipur development, northeast connectivity",
+      "covers_sectors": "all"
+    },
+    "tripura_govt": {
+      "name": "Tripura Government",
+      "short_name": "TR Govt",
+      "type": "scrape",
+      "url": "https://tripura.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Tripura bamboo policy, border trade, tribal welfare",
+      "covers_sectors": "all"
+    },
+    "nagaland_govt": {
+      "name": "Nagaland Government",
+      "short_name": "NL Govt",
+      "type": "scrape",
+      "url": "https://www.nagaland.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Nagaland peace process, tribal governance",
+      "covers_sectors": "all"
+    },
+    "mizoram_govt": {
+      "name": "Mizoram Government",
+      "short_name": "MZ Govt",
+      "type": "scrape",
+      "url": "https://mizoram.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Mizoram community governance, young council system",
+      "covers_sectors": "all"
+    },
+    "arunachal_govt": {
+      "name": "Arunachal Pradesh Government",
+      "short_name": "AR Govt",
+      "type": "scrape",
+      "url": "https://www.arunachalpradesh.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Arunachal border development, hydropower, tribal welfare",
+      "covers_sectors": "all"
+    },
+    "sikkim_govt": {
+      "name": "Sikkim Government",
+      "short_name": "SK Govt",
+      "type": "scrape",
+      "url": "https://www.sikkim.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Sikkim organic farming, tourism policy, green state",
+      "covers_sectors": "all"
+    },
+    "jk_govt": {
+      "name": "J&K Government",
+      "short_name": "JK Govt",
+      "type": "scrape",
+      "url": "https://jk.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "J&K reorganisation, land laws, domicile policy, development",
+      "covers_sectors": "all"
+    },
+    "ladakh_govt": {
+      "name": "Ladakh UT Administration",
+      "short_name": "LA Govt",
+      "type": "scrape",
+      "url": "https://ladakh.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "low",
+      "description": "Ladakh UT governance, border infrastructure, green energy",
+      "covers_sectors": "all"
+    },
+    "ris": {
+      "name": "RIS (Research & Information System)",
+      "short_name": "RIS",
+      "type": "scrape",
+      "url": "https://ris.org.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "South-South cooperation, SDG research, trade policy analysis",
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Science & Innovation"
+      ]
+    },
+    "igidr": {
+      "name": "IGIDR",
+      "short_name": "IGIDR",
+      "type": "scrape",
+      "url": "http://www.igidr.ac.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Development economics research, fiscal policy, financial markets",
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
+    },
+    "icssr": {
+      "name": "ICSSR",
+      "short_name": "ICSSR",
+      "type": "scrape",
+      "url": "https://icssr.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Social science research council, grants, publications",
+      "covers_sectors": [
+        "Education",
+        "Social Protection"
+      ]
+    },
+    "iihs": {
+      "name": "Indian Institute for Human Settlements",
+      "short_name": "IIHS",
+      "type": "scrape",
+      "url": "https://iihs.co.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Urbanisation research, smart cities, climate resilience",
+      "covers_sectors": [
+        "Urban Development",
+        "Climate & Environment"
+      ]
+    },
+    "oxfam_india": {
+      "name": "Oxfam India",
+      "short_name": "Oxfam",
+      "type": "scrape",
+      "url": "https://www.oxfamindia.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Inequality reports, social protection, gender justice",
+      "covers_sectors": [
+        "Social Protection",
+        "Gender & Women"
+      ]
+    },
+    "cbhi": {
+      "name": "Central Bureau of Health Intelligence",
+      "short_name": "CBHI",
+      "type": "scrape",
+      "url": "https://cbhidghs.nic.in/",
+      "frequency": "Quarterly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "National health profile, health statistics, disease burden",
+      "covers_sectors": [
+        "Health"
+      ]
+    },
+    "ipc": {
+      "name": "International Population Centre (IIPS)",
+      "short_name": "IIPS",
+      "type": "scrape",
+      "url": "https://www.iipsindia.ac.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Demographic research, NFHS analysis, population policy",
+      "covers_sectors": [
+        "Health",
+        "Social Protection"
+      ]
+    },
+    "icmr": {
+      "name": "ICMR",
+      "short_name": "ICMR",
+      "type": "scrape",
+      "url": "https://www.icmr.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Medical research, clinical trials regulation, health policy evidence",
+      "covers_sectors": [
+        "Health",
+        "Science & Innovation"
+      ]
+    },
+    "csir": {
+      "name": "CSIR",
+      "short_name": "CSIR",
+      "type": "scrape",
+      "url": "https://www.csir.res.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Scientific research, technology transfer, patent policy",
+      "covers_sectors": [
+        "Science & Innovation"
+      ]
+    },
+    "icar": {
+      "name": "ICAR",
+      "short_name": "ICAR",
+      "type": "scrape",
+      "url": "https://icar.org.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Agricultural research, crop varieties, farmer innovation",
+      "covers_sectors": [
+        "Agriculture",
+        "Science & Innovation"
+      ]
+    },
+    "drishti_ias": {
+      "name": "Drishti IAS",
+      "short_name": "Drishti",
+      "type": "rss",
+      "url": "https://www.drishtiias.com/",
+      "rss_url": "https://www.drishtiias.com/rss/current-affairs-news-analysis-editorials",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Daily policy analysis, governance summaries, current affairs",
+      "covers_sectors": "all"
+    },
+    "insights_ias": {
+      "name": "Insights IAS",
+      "short_name": "InsightsIAS",
+      "type": "rss",
+      "url": "https://www.insightsonindia.com/",
+      "frequency": "Daily",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Policy editorials, governance analysis, scheme summaries",
+      "covers_sectors": "all"
+    },
+    "praja": {
+      "name": "Praja Foundation",
+      "short_name": "Praja",
+      "type": "scrape",
+      "url": "https://www.praja.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Mumbai governance, civic data, elected rep accountability",
+      "covers_sectors": [
+        "Urban Development",
+        "Governance & Reform"
+      ]
+    },
+    "janaagraha": {
+      "name": "Janaagraha",
+      "short_name": "Janaagraha",
+      "type": "scrape",
+      "url": "https://www.janaagraha.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Urban governance, ASICS survey, city systems improvement",
+      "covers_sectors": [
+        "Urban Development",
+        "Governance & Reform"
+      ]
+    },
+    "accountability_india": {
+      "name": "Accountability Initiative (AI)",
+      "short_name": "AI-CPRG",
+      "type": "scrape",
+      "url": "https://accountabilityindia.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Public expenditure tracking, scheme implementation audits",
+      "covers_sectors": [
+        "Governance & Reform",
+        "Social Protection"
+      ]
+    },
+    "centre_science_env": {
+      "name": "Centre for Science & Environment",
+      "short_name": "CSE",
+      "type": "scrape",
+      "url": "https://www.cseindia.org/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Pollution monitoring, climate policy, waste management",
+      "covers_sectors": [
+        "Climate & Environment"
+      ]
+    },
+    "wipro_sustainability": {
+      "name": "Wipro Foundation",
+      "short_name": "WiproF",
+      "type": "scrape",
+      "url": "https://www.wipro.com/sustainability/",
+      "frequency": "Quarterly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Corporate sustainability, education grants, ecological programs",
+      "covers_sectors": [
+        "Climate & Environment",
+        "Education"
+      ]
+    },
+    "azim_premji": {
+      "name": "Azim Premji University",
+      "short_name": "APU",
+      "type": "scrape",
+      "url": "https://azimpremjiuniversity.edu.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Education policy research, state of working India, development studies",
+      "covers_sectors": [
+        "Education",
+        "Labour & Employment"
+      ]
+    },
+    "oecd_india": {
+      "name": "OECD India",
+      "short_name": "OECD",
+      "type": "scrape",
+      "url": "https://www.oecd.org/india/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Economic surveys, governance reviews, tax policy recommendations",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Governance & Reform"
+      ]
+    },
+    "wto_india": {
+      "name": "WTO India Profile",
+      "short_name": "WTO",
+      "type": "scrape",
+      "url": "https://www.wto.org/english/thewto_e/countries_e/india_e.htm",
+      "frequency": "Quarterly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Trade policy reviews, dispute settlements, tariff analysis",
+      "covers_sectors": [
+        "Trade & Commerce"
+      ]
+    },
+    "unhcr_india": {
+      "name": "UNHCR India",
+      "short_name": "UNHCR",
+      "type": "scrape",
+      "url": "https://www.unhcr.org/in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Refugee protection, statelessness, asylum policy",
+      "covers_sectors": [
+        "Social Protection",
+        "Civil Liberties"
+      ]
+    },
+    "unfpa_india": {
+      "name": "UNFPA India",
+      "short_name": "UNFPA",
+      "type": "scrape",
+      "url": "https://india.unfpa.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Population, reproductive health, gender equality",
+      "covers_sectors": [
+        "Health",
+        "Gender & Women"
+      ]
+    },
+    "unep_india": {
+      "name": "UNEP India",
+      "short_name": "UNEP",
+      "type": "scrape",
+      "url": "https://www.unep.org/regions/asia-and-pacific/regional-initiatives/supporting-resource-efficiency/india",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Environmental programme, climate finance, pollution policy",
+      "covers_sectors": [
+        "Climate & Environment"
+      ]
+    },
+    "ifc_india": {
+      "name": "IFC India",
+      "short_name": "IFC",
+      "type": "scrape",
+      "url": "https://www.ifc.org/en/where-we-work/south-asia/india",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Private sector development, green bonds, infrastructure finance",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Climate & Environment"
+      ]
+    },
+    "undesa": {
+      "name": "UN DESA SDG India",
+      "short_name": "UNDESA",
+      "type": "scrape",
+      "url": "https://sdgs.un.org/",
+      "frequency": "Quarterly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "SDG progress tracking, voluntary national reviews, development goals",
+      "covers_sectors": "all"
+    },
+    "reuters_india": {
+      "name": "Reuters India",
+      "short_name": "Reuters",
+      "type": "rss",
+      "url": "https://www.reuters.com/world/india/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "high",
+      "description": "International wire service coverage of India policy",
+      "covers_sectors": "all"
+    },
+    "bbc_india": {
+      "name": "BBC India",
+      "short_name": "BBC",
+      "type": "rss",
+      "url": "https://www.bbc.com/news/topics/cx1m7zg01xyt/india",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "high",
+      "description": "BBC coverage of Indian politics and policy",
+      "covers_sectors": "all"
+    },
+    "al_jazeera_india": {
+      "name": "Al Jazeera South Asia",
+      "short_name": "AlJazeera",
+      "type": "rss",
+      "url": "https://www.aljazeera.com/where/india/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "International perspective on Indian policy and governance",
+      "covers_sectors": "all"
+    },
+    "outlook_india": {
+      "name": "Outlook India",
+      "short_name": "Outlook",
+      "type": "rss",
+      "url": "https://www.outlookindia.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Indian newsmagazine covering policy, politics, society",
+      "covers_sectors": "all"
+    },
+    "frontline_mag": {
+      "name": "Frontline Magazine",
+      "short_name": "Frontline",
+      "type": "scrape",
+      "url": "https://frontline.thehindu.com/",
+      "frequency": "Fortnightly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "In-depth policy journalism from The Hindu group",
+      "covers_sectors": "all"
+    },
+    "telegraph_india": {
+      "name": "The Telegraph India",
+      "short_name": "Telegraph",
+      "type": "rss",
+      "url": "https://www.telegraphindia.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Eastern India focused news, policy, politics",
+      "covers_sectors": "all"
+    },
+    "deccan_chronicle": {
+      "name": "Deccan Chronicle",
+      "short_name": "DC",
+      "type": "rss",
+      "url": "https://www.deccanchronicle.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "South India focused news and policy coverage",
+      "covers_sectors": "all"
+    },
+    "asian_age": {
+      "name": "The Asian Age",
+      "short_name": "AsianAge",
+      "type": "rss",
+      "url": "https://www.asianage.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Indian broadsheet covering policy and governance",
+      "covers_sectors": "all"
+    },
+    "tribune_india": {
+      "name": "The Tribune",
+      "short_name": "Tribune",
+      "type": "rss",
+      "url": "https://www.tribuneindia.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "North India broadsheet, Punjab/Haryana/Chandigarh policy focus",
+      "covers_sectors": "all"
+    },
+    "newslaundry": {
+      "name": "Newslaundry",
+      "short_name": "NL",
+      "type": "scrape",
+      "url": "https://www.newslaundry.com/",
+      "frequency": "Daily",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Independent media criticism, investigative policy journalism",
+      "covers_sectors": "all"
+    },
+    "article14": {
+      "name": "Article 14",
+      "short_name": "Art14",
+      "type": "scrape",
+      "url": "https://article-14.com/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Constitutional law, civil liberties, judicial reporting",
+      "covers_sectors": [
+        "Governance & Reform",
+        "Civil Liberties"
+      ]
+    },
+    "caravanmag": {
+      "name": "The Caravan",
+      "short_name": "Caravan",
+      "type": "scrape",
+      "url": "https://caravanmagazine.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Long-form investigative journalism, policy deep-dives",
+      "covers_sectors": "all"
+    },
+    "moneycontrol": {
+      "name": "Moneycontrol",
+      "short_name": "MC",
+      "type": "rss",
+      "url": "https://www.moneycontrol.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Financial news, budget analysis, market policy impact",
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
+    },
+    "et_energyworld": {
+      "name": "ET EnergyWorld",
+      "short_name": "ET Energy",
+      "type": "rss",
+      "url": "https://energy.economictimes.indiatimes.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Energy sector policy, renewables, oil & gas regulation",
+      "covers_sectors": [
+        "Energy"
+      ]
+    },
+    "et_healthworld": {
+      "name": "ET HealthWorld",
+      "short_name": "ET Health",
+      "type": "rss",
+      "url": "https://health.economictimes.indiatimes.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Healthcare policy, pharma regulation, digital health",
+      "covers_sectors": [
+        "Health"
+      ]
+    },
+    "et_government": {
+      "name": "ET Government",
+      "short_name": "ET Govt",
+      "type": "rss",
+      "url": "https://government.economictimes.indiatimes.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Government technology, smart governance, e-services",
+      "covers_sectors": [
+        "Digital & Technology",
+        "Governance & Reform"
+      ]
+    },
+    "pmjdy": {
+      "name": "PM Jan Dhan Yojana",
+      "short_name": "PMJDY",
+      "type": "scrape",
+      "url": "https://pmjdy.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Financial inclusion, bank accounts, direct benefit transfer",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Social Protection"
+      ]
+    },
+    "pmfby": {
+      "name": "PM Fasal Bima Yojana",
+      "short_name": "PMFBY",
+      "type": "scrape",
+      "url": "https://pmfby.gov.in/",
+      "frequency": "Seasonal",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Crop insurance scheme, farmer protection, claim data",
+      "covers_sectors": [
+        "Agriculture",
+        "Social Protection"
+      ]
+    },
+    "swachh_bharat": {
+      "name": "Swachh Bharat Mission",
+      "short_name": "SBM",
+      "type": "scrape",
+      "url": "https://swachhbharatmission.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Sanitation mission, ODF status, waste management",
+      "covers_sectors": [
+        "Water & Sanitation",
+        "Urban Development"
+      ]
+    },
+    "jjm": {
+      "name": "Jal Jeevan Mission",
+      "short_name": "JJM",
+      "type": "scrape",
+      "url": "https://jaljeevanmission.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Tap water connections, rural water supply, FHTC progress",
+      "covers_sectors": [
+        "Water & Sanitation",
+        "Rural Development"
+      ]
+    },
+    "digilocker": {
+      "name": "DigiLocker",
+      "short_name": "DigiLocker",
+      "type": "scrape",
+      "url": "https://www.digilocker.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Digital document storage, e-governance, paperless administration",
+      "covers_sectors": [
+        "Digital & Technology"
+      ]
+    },
+    "gem_portal": {
+      "name": "GeM Portal",
+      "short_name": "GeM",
+      "type": "scrape",
+      "url": "https://gem.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Government e-Marketplace, public procurement reform",
+      "covers_sectors": [
+        "Governance & Reform",
+        "Trade & Commerce"
+      ]
+    },
+    "ayushman_bharat": {
+      "name": "Ayushman Bharat",
+      "short_name": "PMJAY",
+      "type": "scrape",
+      "url": "https://pmjay.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "National health protection, free treatment, hospital empanelment",
+      "covers_sectors": [
+        "Health",
+        "Social Protection"
+      ]
+    },
+    "mgnrega": {
+      "name": "MGNREGA",
+      "short_name": "MGNREGA",
+      "type": "scrape",
+      "url": "https://nrega.nic.in/",
+      "frequency": "Daily",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Rural employment guarantee, job cards, wage data",
+      "covers_sectors": [
+        "Rural Development",
+        "Labour & Employment"
+      ]
+    },
+    "skill_india": {
+      "name": "Skill India",
+      "short_name": "SkillIndia",
+      "type": "scrape",
+      "url": "https://www.skillindia.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Skilling ecosystem, PMKVY, apprenticeship, sector skill councils",
+      "covers_sectors": [
+        "Labour & Employment",
+        "Education"
+      ]
+    },
+    "smart_cities": {
+      "name": "Smart Cities Mission",
+      "short_name": "SCM",
+      "type": "scrape",
+      "url": "https://smartcities.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Urban innovation, smart city projects, city data",
+      "covers_sectors": [
+        "Urban Development",
+        "Digital & Technology"
+      ]
+    },
+    "amrut": {
+      "name": "AMRUT",
+      "short_name": "AMRUT",
+      "type": "scrape",
+      "url": "https://amrut.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Urban infrastructure, water supply, sewerage, parks",
+      "covers_sectors": [
+        "Urban Development",
+        "Water & Sanitation"
+      ]
+    },
+    "uday_portal": {
+      "name": "UJALA/UDAY",
+      "short_name": "UJALA",
+      "type": "scrape",
+      "url": "https://www.ujala.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "LED distribution, energy efficiency, DISCOM reform",
+      "covers_sectors": [
+        "Energy"
+      ]
+    },
+    "samagra_shiksha": {
+      "name": "Samagra Shiksha",
+      "short_name": "SamagraS",
+      "type": "scrape",
+      "url": "https://samagra.education.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Integrated school education, NEP implementation, teacher training",
+      "covers_sectors": [
+        "Education"
+      ]
+    },
+    "pmkisan": {
+      "name": "PM-KISAN",
+      "short_name": "PM-KISAN",
+      "type": "scrape",
+      "url": "https://pmkisan.gov.in/",
+      "frequency": "Quarterly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Direct income support to farmers, beneficiary data",
+      "covers_sectors": [
+        "Agriculture",
+        "Social Protection"
+      ]
+    },
+    "digital_india": {
+      "name": "Digital India",
+      "short_name": "DigitalIndia",
+      "type": "scrape",
+      "url": "https://www.digitalindia.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Digital infrastructure, e-governance, digital literacy",
+      "covers_sectors": [
+        "Digital & Technology"
+      ]
+    },
+    "make_in_india": {
+      "name": "Make in India",
+      "short_name": "MakeInIndia",
+      "type": "scrape",
+      "url": "https://www.makeinindia.com/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Manufacturing policy, FDI, PLI schemes, ease of business",
+      "covers_sectors": [
+        "Trade & Commerce"
+      ]
+    },
+    "india_energy_dashboard": {
+      "name": "India Energy Dashboard",
+      "short_name": "NITI Energy",
+      "type": "scrape",
+      "url": "https://www.niti.gov.in/edm/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Energy data, renewable capacity, emissions tracking",
+      "covers_sectors": [
+        "Energy",
+        "Climate & Environment"
+      ]
+    },
+    "one_nation_one_ration": {
+      "name": "One Nation One Ration Card",
+      "short_name": "ONORC",
+      "type": "scrape",
+      "url": "https://nfsa.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Food security portability, ration card interoperability",
+      "covers_sectors": [
+        "Social Protection"
+      ]
+    },
+    "poshan_abhiyaan": {
+      "name": "POSHAN Abhiyaan",
+      "short_name": "POSHAN",
+      "type": "scrape",
+      "url": "https://poshanabhiyaan.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Nutrition mission, stunting reduction, ICDS reform",
+      "covers_sectors": [
+        "Health",
+        "Child Rights & Youth"
+      ]
+    },
+    "mudra_yojana": {
+      "name": "MUDRA Yojana",
+      "short_name": "MUDRA",
+      "type": "scrape",
+      "url": "https://www.mudra.org.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Micro-enterprise loans, financial inclusion, self-employment",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Labour & Employment"
+      ]
+    },
+    "stand_up_india": {
+      "name": "Stand Up India",
+      "short_name": "StandUp",
+      "type": "scrape",
+      "url": "https://www.standupmitra.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "SC/ST/women entrepreneurship, bank loans, inclusion",
+      "covers_sectors": [
+        "Social Protection",
+        "Gender & Women"
+      ]
+    },
+    "e_shram": {
+      "name": "e-Shram Portal",
+      "short_name": "eShram",
+      "type": "scrape",
+      "url": "https://eshram.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Unorganized worker database, social security, gig workers",
+      "covers_sectors": [
+        "Labour & Employment",
+        "Social Protection"
+      ]
+    },
+    "cowin": {
+      "name": "CoWIN/ABDM",
+      "short_name": "ABDM",
+      "type": "scrape",
+      "url": "https://abdm.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Ayushman Bharat Digital Mission, health IDs, digital health records",
+      "covers_sectors": [
+        "Health",
+        "Digital & Technology"
+      ]
+    },
+    "national_scholarship": {
+      "name": "National Scholarship Portal",
+      "short_name": "NSP",
+      "type": "scrape",
+      "url": "https://scholarships.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Central & state scholarships, SC/ST/OBC/minority education support",
+      "covers_sectors": [
+        "Education",
+        "Social Protection"
+      ]
+    },
+    "soil_health": {
+      "name": "Soil Health Card",
+      "short_name": "SHC",
+      "type": "scrape",
+      "url": "https://soilhealth.dac.gov.in/",
+      "frequency": "Seasonal",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Soil testing, fertilizer recommendations, sustainable farming",
+      "covers_sectors": [
+        "Agriculture"
+      ]
+    },
+    "national_horticulture": {
+      "name": "National Horticulture Mission",
+      "short_name": "NHM",
+      "type": "scrape",
+      "url": "https://nhm.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Horticulture development, micro-irrigation, cold chain",
+      "covers_sectors": [
+        "Agriculture"
+      ]
+    },
+    "dbt_bharat": {
+      "name": "DBT Bharat",
+      "short_name": "DBT",
+      "type": "scrape",
+      "url": "https://dbtbharat.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Direct benefit transfer tracking, subsidy reform, leakage reduction",
+      "covers_sectors": [
+        "Governance & Reform",
+        "Social Protection"
+      ]
+    },
+    "nabh": {
+      "name": "NABH",
+      "short_name": "NABH",
+      "type": "scrape",
+      "url": "https://nabh.co/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Hospital accreditation, healthcare quality standards",
+      "covers_sectors": [
+        "Health"
+      ]
+    },
+    "naac": {
+      "name": "NAAC",
+      "short_name": "NAAC",
+      "type": "scrape",
+      "url": "https://naac.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Higher education accreditation, quality assurance",
+      "covers_sectors": [
+        "Education"
+      ]
+    },
+    "bar_council": {
+      "name": "Bar Council of India",
+      "short_name": "BCI",
+      "type": "scrape",
+      "url": "https://www.barcouncilofindia.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Legal profession regulation, law education, advocate enrollment",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "cvc": {
+      "name": "Central Vigilance Commission",
+      "short_name": "CVC",
+      "type": "scrape",
+      "url": "https://cvc.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Anti-corruption, vigilance, integrity in governance",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "lokpal": {
+      "name": "Lokpal of India",
+      "short_name": "Lokpal",
+      "type": "scrape",
+      "url": "https://lokpal.gov.in/",
+      "frequency": "Quarterly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Anti-corruption ombudsman, complaints against public officials",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "nclat": {
+      "name": "NCLAT",
+      "short_name": "NCLAT",
+      "type": "scrape",
+      "url": "https://nclat.nic.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Company law appellate tribunal, insolvency appeals, competition appeals",
+      "covers_sectors": [
+        "Finance & Economy",
+        "Trade & Commerce"
+      ]
+    },
+    "nclt": {
+      "name": "NCLT",
+      "short_name": "NCLT",
+      "type": "scrape",
+      "url": "https://nclt.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Company law tribunal, IBC cases, corporate restructuring",
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
+    },
+    "itat": {
+      "name": "ITAT",
+      "short_name": "ITAT",
+      "type": "scrape",
+      "url": "https://itat.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Income tax appellate tribunal, tax jurisprudence",
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
+    },
+    "telecom_disputes": {
+      "name": "TDSAT",
+      "short_name": "TDSAT",
+      "type": "scrape",
+      "url": "https://tdsat.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Telecom disputes, spectrum allocation, broadcasting disputes",
+      "covers_sectors": [
+        "Digital & Technology"
+      ]
+    },
+    "atomic_energy": {
+      "name": "Dept of Atomic Energy",
+      "short_name": "DAE",
+      "type": "scrape",
+      "url": "https://dae.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Nuclear energy policy, atomic research, radiation safety",
+      "covers_sectors": [
+        "Energy",
+        "Science & Innovation"
+      ]
+    },
+    "drdo": {
+      "name": "DRDO",
+      "short_name": "DRDO",
+      "type": "scrape",
+      "url": "https://www.drdo.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Defence research, military technology, strategic programs",
+      "covers_sectors": [
+        "Defence & Security",
+        "Science & Innovation"
+      ]
+    },
+    "swarajya_mag": {
+      "name": "Swarajya Magazine",
+      "short_name": "Swarajya",
+      "type": "rss",
+      "url": "https://swarajyamag.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Policy commentary, economics, infrastructure analysis",
+      "covers_sectors": "all"
+    },
+    "print_diplomacy": {
+      "name": "ThePrint Diplomacy",
+      "short_name": "Print Dip",
+      "type": "rss",
+      "url": "https://theprint.in/diplomacy/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Foreign policy, international relations, diplomatic analysis",
+      "covers_sectors": [
+        "Defence & Security"
+      ]
+    },
+    "india_today": {
+      "name": "India Today",
+      "short_name": "IndiaToday",
+      "type": "rss",
+      "url": "https://www.indiatoday.in/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "India's largest newsmagazine, policy and political coverage",
+      "covers_sectors": "all"
+    },
+    "financial_express": {
+      "name": "Financial Express",
+      "short_name": "FE",
+      "type": "rss",
+      "url": "https://www.financialexpress.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "Financial policy, economy, banking, markets",
+      "covers_sectors": [
+        "Finance & Economy"
+      ]
+    },
+    "zee_news": {
+      "name": "Zee News",
+      "short_name": "Zee",
+      "type": "rss",
+      "url": "https://zeenews.india.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "TV news network with policy and political coverage",
+      "covers_sectors": "all"
+    },
+    "republic_world": {
+      "name": "Republic World",
+      "short_name": "Republic",
+      "type": "rss",
+      "url": "https://www.republicworld.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "News network covering policy, governance, politics",
+      "covers_sectors": "all"
+    },
+    "ani_news": {
+      "name": "ANI News",
+      "short_name": "ANI",
+      "type": "rss",
+      "url": "https://aninews.in/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "medium",
+      "description": "India's premier news wire agency, official press briefings",
+      "covers_sectors": "all"
+    },
+    "pti_news": {
+      "name": "PTI News",
+      "short_name": "PTI",
+      "type": "rss",
+      "url": "https://www.ptinews.com/",
+      "frequency": "Daily",
+      "format": "RSS",
+      "reliability": "high",
+      "description": "Press Trust of India, official news wire, government announcements",
+      "covers_sectors": "all"
+    },
+    "idsa": {
+      "name": "MP-IDSA",
+      "short_name": "MP-IDSA",
+      "type": "scrape",
+      "url": "https://www.idsa.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Defence and strategic affairs think tank, security policy",
+      "covers_sectors": [
+        "Defence & Security"
+      ]
+    },
+    "gateway_house": {
+      "name": "Gateway House",
+      "short_name": "GatewayH",
+      "type": "scrape",
+      "url": "https://www.gatewayhouse.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Foreign policy, geoeconomics, technology geopolitics",
+      "covers_sectors": [
+        "Trade & Commerce",
+        "Defence & Security"
+      ]
+    },
+    "observer_research": {
+      "name": "ORF Health",
+      "short_name": "ORF Health",
+      "type": "scrape",
+      "url": "https://www.orfonline.org/programmes/health-initiative",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Health policy initiative, pandemic preparedness, global health",
+      "covers_sectors": [
+        "Health"
+      ]
+    },
+    "csis_india": {
+      "name": "CSIS India Chair",
+      "short_name": "CSIS",
+      "type": "scrape",
+      "url": "https://www.csis.org/programs/india-chair",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "US-India relations, strategic policy, defence cooperation",
+      "covers_sectors": [
+        "Defence & Security"
+      ]
+    },
+    "chatham_house_india": {
+      "name": "Chatham House India",
+      "short_name": "ChathamH",
+      "type": "scrape",
+      "url": "https://www.chathamhouse.org/regions/asia-pacific/india",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "UK think tank, India foreign policy, governance analysis",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "south_asian_voices": {
+      "name": "South Asian Voices",
+      "short_name": "SAV",
+      "type": "scrape",
+      "url": "https://southasianvoices.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Regional security, nuclear policy, cross-border analysis",
+      "covers_sectors": [
+        "Defence & Security"
+      ]
+    },
+    "india_foundation": {
+      "name": "India Foundation",
+      "short_name": "IndiaFound",
+      "type": "scrape",
+      "url": "https://indiafoundation.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Policy research, governance, cultural heritage",
+      "covers_sectors": [
+        "Governance & Reform"
+      ]
+    },
+    "sprf": {
+      "name": "Social & Political Research Foundation",
+      "short_name": "SPRF",
+      "type": "scrape",
+      "url": "https://sprf.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Youth-led policy research, data analysis, governance",
+      "covers_sectors": [
+        "Governance & Reform",
+        "Social Protection"
+      ]
     }
   }
 }
