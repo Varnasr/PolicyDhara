@@ -9,8 +9,10 @@ Requires BUTTONDOWN_API_KEY env var.
 Pass --draft to create a draft instead of sending immediately.
 """
 
+import html as html_mod
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -77,18 +79,24 @@ def format_email(policies: list[dict]) -> tuple[str, str]:
     rows = ""
     for sector in sorted(by_sector.keys()):
         items = by_sector[sector]
+        sector_safe = html_mod.escape(sector)
         rows += f'<tr><td colspan="2" style="padding:12px 0 4px;font-weight:bold;'
-        rows += f'color:#1e40af;border-bottom:1px solid #e5e7eb;">{sector}</td></tr>\n'
+        rows += f'color:#1e40af;border-bottom:1px solid #e5e7eb;">{sector_safe}</td></tr>\n'
         for p in items:
-            title = p.get("title", "Untitled")
+            title = html_mod.escape(p.get("title", "Untitled"))
             link = p.get("link", "")
-            source = p.get("source_short", p.get("source_name", ""))
-            date = p.get("date", "")
-            desc = p.get("description", "")[:150]
+            source = html_mod.escape(p.get("source_short", p.get("source_name", "")))
+            date = html_mod.escape(p.get("date", ""))
+            desc = html_mod.escape(p.get("description", "")[:150])
             if desc:
                 desc = f'<br><span style="color:#6b7280;font-size:13px;">{desc}...</span>'
 
-            title_html = f'<a href="{link}" style="color:#111827;text-decoration:none;">{title}</a>' if link else title
+            # Only allow http/https links — reject javascript:, data:, etc.
+            if link and re.match(r'^https?://', link):
+                link_safe = html_mod.escape(link)
+                title_html = f'<a href="{link_safe}" style="color:#111827;text-decoration:none;">{title}</a>'
+            else:
+                title_html = title
             rows += f'<tr><td style="padding:6px 0;line-height:1.4;">{title_html}{desc}</td>'
             rows += f'<td style="padding:6px 0;color:#6b7280;font-size:13px;white-space:nowrap;vertical-align:top;">{source}<br>{date}</td></tr>\n'
 
