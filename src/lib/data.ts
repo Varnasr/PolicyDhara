@@ -85,10 +85,22 @@ export function getMeta(): MetaData {
   }
 
   const stored = readJson<Partial<MetaData>>('meta.json', {});
+
+  // Read total configured sources from feeds.json (not just ones that returned data)
+  let totalConfiguredSources = Object.keys(sourceCounts).length;
+  try {
+    const feedsPath = path.join(process.cwd(), 'feeds.json');
+    const feedsRaw = fs.readFileSync(feedsPath, 'utf-8');
+    const feeds = JSON.parse(feedsRaw);
+    if (feeds?.sources) {
+      totalConfiguredSources = Object.keys(feeds.sources).length;
+    }
+  } catch { /* fall back to source_counts */ }
+
   return {
     last_updated: stored.last_updated || new Date().toISOString(),
     total_policies: policies.length,
-    total_sources: Object.keys(sourceCounts).length,
+    total_sources: totalConfiguredSources,
     total_sectors: Object.keys(sectorCounts).length,
     sector_counts: sectorCounts,
     source_counts: sourceCounts,

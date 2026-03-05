@@ -1318,6 +1318,7 @@ body.mobile-nav-open { overflow: hidden; }
   font-weight: 500;
   color: var(--color-text-secondary);
   white-space: nowrap;
+  flex-shrink: 0;
   transition: all 0.15s;
   text-decoration: none;
   cursor: pointer;

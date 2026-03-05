@@ -14,98 +14,143 @@ const meta = getMeta();
 const INITIAL_SHOW = 20;
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Compute live stats
+const now = Date.now();
+const DAY = 86400000;
+const last24h = policies.filter(p => now - new Date(p.date).getTime() < DAY).length;
+const last7d = policies.filter(p => now - new Date(p.date).getTime() < 7 * DAY).length;
 ---
 <Base title="Dashboard">
-  {/* ── Hero ─────────────────────────────────── */}
-  <div class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">PolicyDhara</h1>
-      <p class="hero-tagline">Tracking Indian development policy — from gazette to ground.</p>
-      <p class="hero-desc">
-        Aggregating legislation, schemes, budgets, and notifications from 300+ official sources
-        across 22 sectors. Updated every 6 hours.
-        <a href={`${base}about/`} class="hero-methodology">Methodology &rarr;</a>
-      </p>
+
+  {/* ── Compact Hero ─────────────────────────────────── */}
+  <div class="dash-hero">
+    <div class="dash-hero-left">
+      <h1 class="dash-title">PolicyDhara</h1>
+      <p class="dash-subtitle">Tracking Indian development policy — from gazette to ground</p>
+    </div>
+    <div class="dash-hero-stats">
+      <div class="dash-stat">
+        <span class="dash-stat-num">{meta.total_policies.toLocaleString()}</span>
+        <span class="dash-stat-label">policies</span>
+      </div>
+      <div class="dash-stat-divider"></div>
+      <div class="dash-stat">
+        <span class="dash-stat-num">{meta.total_sources}</span>
+        <span class="dash-stat-label">sources</span>
+      </div>
+      <div class="dash-stat-divider"></div>
+      <div class="dash-stat">
+        <span class="dash-stat-num">{meta.total_sectors}</span>
+        <span class="dash-stat-label">sectors</span>
+      </div>
+      <div class="dash-stat-divider"></div>
+      <div class="dash-stat">
+        <span class="dash-stat-num">{last7d}</span>
+        <span class="dash-stat-label">this week</span>
+      </div>
     </div>
   </div>
 
-  <StatsBar
-    totalPolicies={meta.total_policies}
-    totalSources={meta.total_sources}
-    totalSectors={meta.total_sectors}
-    lastUpdated={meta.last_updated}
-  />
+  {/* ── Trending ── */}
+  <TrendingStrip />
 
-  {/* ── Tab Navigation ─────────────────────────────────── */}
-  <div class="tab-bar">
-    <button class="tab-btn active" data-tab="overview">Overview</button>
-    <button class="tab-btn" data-tab="browse">Browse Policies</button>
-  </div>
+  {/* ── Main Content: Two Column ── */}
+  <div class="dash-grid">
 
-  {/* ── Tab: Overview ──────────────────────────────────── */}
-  <div class="tab-panel active" id="tab-overview">
+    {/* ── Left: Lead Story + Recent ── */}
+    <div class="dash-main">
+      {policies.length > 0 && (
+        <>
+          {/* Lead story */}
+          <article class="lead-card" data-type={policies[0].type}>
+            <div class="lead-accent"></div>
+            <div class="lead-body">
+              <div class="lead-meta">
+                <span class={`policy-type type-${policies[0].type}`}>{policies[0].type}</span>
+                <span class="lead-source">{policies[0].source_short}</span>
+                <span class="lead-date">{new Date(policies[0].date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+              </div>
+              <h2 class="lead-title">
+                <a href={`${base}policies/${policies[0].id}/`}>{policies[0].title}</a>
+              </h2>
+              {policies[0].description && (
+                <p class="lead-desc">{policies[0].description}</p>
+              )}
+              <div class="policy-sectors">
+                {policies[0].sectors.map(s => (
+                  <a href={`${base}sectors/${s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sector-badge">{s}</a>
+                ))}
+              </div>
+            </div>
+          </article>
 
-    <TrendingStrip />
-
-    {/* ── Recent Policies — the main content ── */}
-    <div class="section-header">
-      <h3>Recent Policies</h3>
-      <p>Latest policy actions across all sectors</p>
-    </div>
-
-    {policies.length > 0 && (
-      <div class="policy-grid">
-        {policies.slice(0, 6).map((p, i) => (
-          <div class={`policy-grid-item ${i === 0 ? 'featured' : ''}`}>
-            {i === 0 ? (
-              <article class="hero-policy-card" data-type={p.type}>
-                <div class="hero-card-accent"></div>
-                <div class="hero-card-body">
-                  <div class="hero-card-top">
-                    <span class={`policy-type type-${p.type}`}>{p.type}</span>
-                    <span class="policy-date">{new Date(p.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-                    <span class="policy-source">{p.source_short}</span>
-                  </div>
-                  <h3 class="hero-card-title">
-                    <a href={`${base}policies/${p.id}/`}>{p.title}</a>
-                  </h3>
-                  {p.description && (
-                    <p class="hero-card-desc">{p.description}</p>
-                  )}
-                  <div class="policy-sectors">
-                    {p.sectors.map(s => (
-                      <a href={`${base}sectors/${s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sector-badge">{s}</a>
-                    ))}
-                  </div>
-                </div>
-              </article>
-            ) : (
+          {/* Next 5 as compact cards */}
+          <div class="recent-grid">
+            {policies.slice(1, 7).map(p => (
               <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
                 date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
-            )}
+            ))}
           </div>
-        ))}
+
+          <div style="text-align:center; padding: var(--space-sm) 0 var(--space-lg);">
+            <button class="btn btn-secondary" id="goto-browse">View All {meta.total_policies} Policies &rarr;</button>
+          </div>
+        </>
+      )}
+
+      {/* Analytics */}
+      <div class="section-header">
+        <h3>Activity</h3>
       </div>
-    )}
-
-    <div style="text-align:center; padding: var(--space-md) 0 var(--space-xl);">
-      <button class="btn btn-secondary" id="goto-browse">View All Policies &rarr;</button>
+      <PolicyTimeline />
+      <Insights />
+      <NewsletterBar />
     </div>
 
-    {/* ── Analytics section ── */}
-    <div class="section-header">
-      <h3>Trends & Insights</h3>
-      <p>How policy activity breaks down across sectors, types, and time</p>
-    </div>
+    {/* ── Right: Sidebar summary ── */}
+    <aside class="dash-sidebar">
+      <div class="sidebar-card">
+        <h4 class="sidebar-card-title">By Sector</h4>
+        <div class="sidebar-sector-list">
+          {Object.entries(meta.sector_counts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 12)
+            .map(([sector, count]) => (
+              <a href={`${base}sectors/${sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sidebar-sector-row">
+                <span class="sidebar-sector-name">{sector}</span>
+                <span class="sidebar-sector-count">{count}</span>
+              </a>
+            ))
+          }
+          <a href={`${base}sectors/`} class="sidebar-more">All sectors &rarr;</a>
+        </div>
+      </div>
 
-    <PolicyTimeline />
-    <Insights />
+      <div class="sidebar-card">
+        <h4 class="sidebar-card-title">Quick Links</h4>
+        <div class="sidebar-links">
+          <a href={`${base}digest/`}>Today's Digest</a>
+          <a href={`${base}parliament/`}>Parliament Tracker</a>
+          <a href={`${base}budget/`}>Budget Analysis</a>
+          <a href={`${base}landscape/`}>Policy Landscape</a>
+          <a href={`${base}compare/`}>State Comparison</a>
+          <a href={`${base}graph/`}>Policy Graph</a>
+          <a href={`${base}api/`}>API Access</a>
+        </div>
+      </div>
 
-    <NewsletterBar />
+      <div class="sidebar-card sidebar-card-muted">
+        <p class="sidebar-meta">
+          Data from <strong>{meta.total_sources}</strong> government, media &amp; research sources.
+          Updated every 6 hours. <a href={`${base}about/`}>Methodology</a>
+        </p>
+      </div>
+    </aside>
   </div>
 
-  {/* ── Tab: Browse ────────────────────────────────────── */}
-  <div class="tab-panel" id="tab-browse">
+  {/* ── Browse Tab (hidden by default, shown on click) ── */}
+  <div id="browse-panel" style="display:none;">
     <div class="page-grid">
       <Sidebar
         sectorCounts={meta.sector_counts}
@@ -158,81 +203,242 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 </Base>
 
 <style>
-  /* ── Hero ───────────────────────────────────── */
-  .hero {
-    margin-bottom: var(--space-xl);
-    background: linear-gradient(135deg, var(--color-bg-white) 0%, var(--color-bg-alt) 100%);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    padding: var(--space-lg) var(--space-xl);
-    box-shadow: var(--shadow-card);
+  /* ── Dashboard Hero ───────────────────────────────── */
+  .dash-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-lg);
+    padding: var(--space-lg) 0;
+    border-bottom: 2px solid var(--color-border);
+    margin-bottom: var(--space-lg);
   }
-  .hero-title {
+  .dash-title {
     font-family: 'Newsreader', Georgia, serif;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 800;
     color: var(--color-text);
-    margin-bottom: 6px;
     line-height: 1.1;
+    letter-spacing: -0.02em;
   }
-  .hero-tagline {
-    font-size: 1rem;
-    color: var(--color-accent);
-    font-weight: 600;
-    margin-bottom: var(--space-sm);
-    line-height: 1.4;
-  }
-  .hero-desc {
+  .dash-subtitle {
     font-size: 0.8125rem;
     color: var(--color-text-muted);
-    line-height: 1.7;
-    max-width: 640px;
+    margin-top: 4px;
   }
-  .hero-methodology {
-    color: var(--color-accent);
+  .dash-hero-stats {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-shrink: 0;
+  }
+  .dash-stat {
+    text-align: center;
+  }
+  .dash-stat-num {
+    display: block;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.2;
+  }
+  .dash-stat-label {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
     font-weight: 600;
-    text-decoration: none;
-    white-space: nowrap;
   }
-  .hero-methodology:hover {
-    text-decoration: underline;
+  .dash-stat-divider {
+    width: 1px;
+    height: 32px;
+    background: var(--color-border);
   }
 
   @media (max-width: 768px) {
-    .hero { padding: var(--space-md); }
-    .hero-title { font-size: 1.5rem; }
+    .dash-hero { flex-direction: column; align-items: flex-start; }
+    .dash-hero-stats { gap: var(--space-lg); }
+    .dash-title { font-size: 1.5rem; }
+  }
+  @media (max-width: 480px) {
+    .dash-hero-stats { gap: var(--space-sm); }
+    .dash-stat-num { font-size: 1.25rem; }
   }
 
-  /* ── Tabs ───────────────────────────────────── */
-  .tab-bar {
-    display: flex;
-    gap: 2px;
-    border-bottom: 2px solid var(--color-border);
-    margin-bottom: var(--space-xl);
-    overflow-x: auto;
+  /* ── Two-column dashboard grid ─────────────────────── */
+  .dash-grid {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
   }
-  .tab-btn {
-    padding: 12px 20px;
-    background: none;
-    border: none;
-    font-family: inherit;
-    font-size: 0.875rem;
-    font-weight: 600;
+  @media (max-width: 960px) {
+    .dash-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ── Lead Card ─────────────────────────────────────── */
+  .lead-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-lg);
+    transition: box-shadow 0.2s;
+  }
+  .lead-card:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+  .lead-accent {
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-accent) 0%, var(--type-legislation) 50%, var(--type-announcement) 100%);
+  }
+  .lead-body {
+    padding: 20px 24px;
+  }
+  .lead-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+  }
+  .lead-source {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secondary);
+    font-size: 0.6875rem;
+  }
+  .lead-date {
     color: var(--color-text-muted);
-    cursor: pointer;
-    border-bottom: 2px solid transparent;
-    margin-bottom: -2px;
-    transition: all 0.15s;
-    white-space: nowrap;
+  }
+  .lead-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-text);
+    margin-bottom: 8px;
+  }
+  .lead-title a { color: inherit; text-decoration: none; }
+  .lead-title a:hover { color: var(--color-accent); }
+  .lead-desc {
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: 12px;
+    max-width: 700px;
+  }
+
+  @media (max-width: 600px) {
+    .lead-body { padding: 16px; }
+    .lead-title { font-size: 1.125rem; }
+  }
+
+  /* ── Recent Grid ───────────────────────────────────── */
+  .recent-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: var(--space-md);
+  }
+  @media (max-width: 768px) {
+    .recent-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ── Sidebar ───────────────────────────────────────── */
+  .dash-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  .sidebar-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .sidebar-card-muted {
+    background: var(--color-bg-alt);
+    border-color: var(--color-border-light);
+  }
+  .sidebar-card-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .sidebar-sector-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-sector-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 4px;
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    border-radius: var(--radius-sm);
+    transition: all 0.1s;
     text-decoration: none;
   }
-  .tab-btn:hover { color: var(--color-text); }
-  .tab-btn.active {
+  .sidebar-sector-row:hover {
+    background: var(--color-accent-bg);
     color: var(--color-accent);
-    border-bottom-color: var(--color-accent);
   }
-  .tab-panel { display: none; }
-  .tab-panel.active { display: block; }
+  .sidebar-sector-name {
+    font-weight: 500;
+  }
+  .sidebar-sector-count {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: var(--color-text-dim);
+    background: var(--color-bg-alt);
+    padding: 1px 7px;
+    border-radius: var(--radius-pill);
+  }
+  .sidebar-more {
+    display: block;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 6px 0 2px;
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .sidebar-links a {
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    padding: 5px 4px;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.1s;
+  }
+  .sidebar-links a:hover {
+    background: var(--color-accent-bg);
+    color: var(--color-accent);
+  }
+  .sidebar-meta {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+  .sidebar-meta strong {
+    color: var(--color-text-secondary);
+  }
 
   .section-header {
     margin-bottom: var(--space-lg);
@@ -247,77 +453,6 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
   .section-header p {
     font-size: 0.8125rem;
     color: var(--color-text-muted);
-  }
-
-  /* ── Policy Grid (unified layout for recent policies) ── */
-  .policy-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    margin-bottom: var(--space-md);
-  }
-  .policy-grid-item.featured {
-    grid-column: 1 / -1;
-  }
-
-  /* ── Hero Card (featured first policy) ── */
-  .hero-policy-card {
-    background: var(--color-bg-white);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-card);
-    transition: all 0.2s ease;
-    position: relative;
-  }
-  .hero-policy-card:hover {
-    box-shadow: var(--shadow-card-hover);
-    transform: translateY(-2px);
-  }
-  .hero-card-accent {
-    height: 4px;
-    background: linear-gradient(90deg, var(--color-accent) 0%, var(--type-legislation) 50%, var(--type-scheme) 100%);
-  }
-  .hero-card-body {
-    padding: 24px 28px;
-  }
-  .hero-card-top {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
-    font-size: 0.75rem;
-  }
-  .hero-card-title {
-    font-family: 'Newsreader', Georgia, serif;
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.35;
-    color: var(--color-text);
-    margin-bottom: 8px;
-  }
-  .hero-card-title a {
-    color: inherit;
-    text-decoration: none;
-  }
-  .hero-card-title a:hover {
-    color: var(--color-accent);
-  }
-  .hero-card-desc {
-    font-size: 0.8125rem;
-    color: var(--color-text-secondary);
-    line-height: 1.6;
-    margin-bottom: 12px;
-    max-width: 800px;
-  }
-
-  @media (max-width: 960px) {
-    .policy-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (max-width: 600px) {
-    .policy-grid { grid-template-columns: 1fr; }
-    .hero-card-body { padding: 16px; }
-    .hero-card-title { font-size: 1.0625rem; }
   }
 
   .feed-toolbar {
@@ -342,43 +477,22 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
   .policy-card-wrap { display: contents; }
   .hidden-card > .policy-card { display: none; }
-
-  @media (max-width: 768px) {
-    .tab-btn { padding: 10px 14px; font-size: 0.8125rem; }
-  }
 </style>
 
 <script define:vars={{ INITIAL_SHOW }}>
   document.addEventListener('DOMContentLoaded', () => {
-    // ── Tab switching ──
-    const tabBtns = document.querySelectorAll('.tab-btn:not(.tab-link)');
-    const tabPanels = document.querySelectorAll('.tab-panel');
-
-    tabBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        tabBtns.forEach(b => b.classList.remove('active'));
-        tabPanels.forEach(p => p.classList.remove('active'));
-        btn.classList.add('active');
-        const panel = document.getElementById('tab-' + btn.dataset.tab);
-        if (panel) panel.classList.add('active');
-      });
-    });
-
-    // "View All Policies" button on Overview tab
+    // "View All Policies" button — show browse panel
     const gotoBrowse = document.getElementById('goto-browse');
-    if (gotoBrowse) {
+    const browsePanel = document.getElementById('browse-panel');
+    if (gotoBrowse && browsePanel) {
       gotoBrowse.addEventListener('click', () => {
-        tabBtns.forEach(b => b.classList.remove('active'));
-        tabPanels.forEach(p => p.classList.remove('active'));
-        const browseBtn = document.querySelector('[data-tab="browse"]');
-        const browsePanel = document.getElementById('tab-browse');
-        if (browseBtn) browseBtn.classList.add('active');
-        if (browsePanel) browsePanel.classList.add('active');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        browsePanel.style.display = '';
+        gotoBrowse.style.display = 'none';
+        browsePanel.scrollIntoView({ behavior: 'smooth' });
       });
     }
 
-    // ── Feed filtering (Browse tab) ──
+    // ── Feed filtering (Browse panel) ──
     const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
     const cards = wraps.map(w => w.querySelector('.policy-card'));
     const searchInput = document.getElementById('policy-search');
