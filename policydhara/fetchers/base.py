@@ -4,6 +4,7 @@ Base fetch orchestration — routes source configs to the right fetcher.
 
 from __future__ import annotations
 
+import html
 import re
 from datetime import datetime, timezone
 
@@ -24,6 +25,8 @@ _JUNK_TITLE_PATTERNS = [
     r'^(Discussion Papers|About the .+ Fellowship|Careers|Press Releases?)$',
     r'^(Home|Login|Register|Contact Us|Sitemap|Disclaimer|FAQ)$',
     r'^(Skip to |Jump to )',
+    r'^Money Market Operations',
+    r'^Statement\s*\n',
 ]
 _JUNK_RE = re.compile('|'.join(_JUNK_TITLE_PATTERNS), re.IGNORECASE)
 
@@ -135,11 +138,12 @@ def fetch_source(
 
     policies: list[Policy] = []
     for raw in raw_items[:MAX_ITEMS_PER_SOURCE]:
-        title = raw.get("title", "").strip()
+        title = html.unescape(raw.get("title", "")).strip()
+        title = re.sub(r'\s+', ' ', title)  # collapse whitespace
         if not _is_valid_title(title):
             continue
 
-        description = raw.get("description", "").strip()
+        description = html.unescape(raw.get("description", "")).strip()
         link = raw.get("link", "")
         date = raw.get("date", "").strip()
 
