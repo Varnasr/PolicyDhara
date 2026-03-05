@@ -289,6 +289,14 @@ class TestExtractDate:
     def test_budget_year(self):
         assert _extract_date_from_title("Union Budget 2025-26") == "2025-02-01"
 
+    def test_budget_document(self):
+        result = _extract_date_from_title("Key to Budget Document, 2026")
+        assert result.endswith("-02-01")
+
+    def test_outcome_framework(self):
+        result = _extract_date_from_title("Outcome Framework 2025-26")
+        assert result.endswith("-02-01")
+
     def test_act_year(self):
         assert _extract_date_from_title("The Securities Markets Code, 2025") == "2025-06-01"
 
@@ -298,11 +306,36 @@ class TestExtractDate:
     def test_no_future_dates(self):
         result = _extract_date_from_title("World Wildlife Day 2026")
         assert result != ""
-        assert result <= "2026-03-05"
+        from datetime import datetime, timezone
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        assert result <= today
 
     def test_past_year_ok(self):
-        result = _extract_date_from_title("Some Act, 2020")
-        assert result == "2020-06-01"
+        assert _extract_date_from_title("Some Act, 2020") == "2020-06-01"
+
+    def test_wildlife_day(self):
+        assert _extract_date_from_title("World Wildlife Day 2025") == "2025-03-03"
+
+    def test_republic_day(self):
+        assert _extract_date_from_title("Republic Day Celebrations 2025") == "2025-01-26"
+
+    def test_independence_day(self):
+        assert _extract_date_from_title("Independence Day Address 2024") == "2024-08-15"
+
+    def test_yoga_day(self):
+        assert _extract_date_from_title("International Yoga Day 2024") == "2024-06-21"
+
+    def test_gandhi_jayanti(self):
+        assert _extract_date_from_title("Gandhi Jayanti Celebrations 2024") == "2024-10-02"
+
+    def test_constitution_day(self):
+        assert _extract_date_from_title("Constitution Day 2024") == "2024-11-26"
+
+    def test_explicit_date_month_first(self):
+        assert _extract_date_from_title("Notification dated March 3, 2025") == "2025-03-03"
+
+    def test_explicit_date_day_first(self):
+        assert _extract_date_from_title("Notification dated 15 January 2025") == "2025-01-15"
 
 
 class TestTitleValidation:
