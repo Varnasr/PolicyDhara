@@ -1,0 +1,19 @@
+{
+  "id": "8f48aa9306ab",
+  "title": "{{cd.SERIES_NAME}}",
+  "description": "",
+  "link": "https://www.bseindia.com/stock-share-price/currency/{{cd.SCRIPCODE}}/{{cd.EXPIRYDATE}}/",
+  "date": "2026-03-05",
+  "source_id": "bseindia",
+  "source_name": "Bombay Stock Exchange",
+  "source_short": "BSE",
+  "sectors": [
+    "Finance & Economy"
+  ],
+  "sector_slugs": [
+    "finance-economy"
+  ],
+  "type": "policy",
+  "level": "central",
+  "state": ""
+}

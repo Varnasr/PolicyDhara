@@ -3,7 +3,7 @@
   "title": "Ministry of Railways",
   "description": "Gazette notification: Ministry of Railways",
   "link": "",
-  "date": "2026-03-03",
+  "date": "2026-03-05",
   "source_id": "egazette",
   "source_name": "eGazette of India",
   "source_short": "eGazette",
@@ -17,5 +17,7 @@
     "social-protection",
     "transport-infrastructure"
   ],
-  "type": "notification"
+  "type": "notification",
+  "level": "central",
+  "state": ""
 }

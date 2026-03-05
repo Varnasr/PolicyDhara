@@ -1,0 +1,19 @@
+{
+  "id": "6cb8493b3d28",
+  "title": "{{l.indexName}}",
+  "description": "",
+  "link": "https://www.bseindia.com/sensex/code/{{l.code}}/",
+  "date": "2026-03-05",
+  "source_id": "bseindia",
+  "source_name": "Bombay Stock Exchange",
+  "source_short": "BSE",
+  "sectors": [
+    "Finance & Economy"
+  ],
+  "sector_slugs": [
+    "finance-economy"
+  ],
+  "type": "policy",
+  "level": "central",
+  "state": ""
+}

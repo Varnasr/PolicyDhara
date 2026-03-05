@@ -1,0 +1,19 @@
+{
+  "id": "ae03d6595568",
+  "title": "{{cd.ScripName}}",
+  "description": "",
+  "link": "https://www.bseindia.com/stock-share-price/debt-other/scripcode/{{cd.scrip_cd}}/{{cd.scrip_cd}}/",
+  "date": "2026-03-05",
+  "source_id": "bseindia",
+  "source_name": "Bombay Stock Exchange",
+  "source_short": "BSE",
+  "sectors": [
+    "Social Protection"
+  ],
+  "sector_slugs": [
+    "social-protection"
+  ],
+  "type": "policy",
+  "level": "central",
+  "state": ""
+}

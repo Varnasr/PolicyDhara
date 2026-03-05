@@ -1,0 +1,19 @@
+{
+  "id": "9c4a4d351952",
+  "title": "{{(bd.Security_Name==null||bd.Security_Name=='')?'-':bd.Security_Name}}",
+  "description": "",
+  "link": "https://www.bseindia.com{{bd.IMAGE|formatURL}}",
+  "date": "2026-03-05",
+  "source_id": "bseindia",
+  "source_name": "Bombay Stock Exchange",
+  "source_short": "BSE",
+  "sectors": [
+    "Digital & Technology"
+  ],
+  "sector_slugs": [
+    "digital-technology"
+  ],
+  "type": "policy",
+  "level": "central",
+  "state": ""
+}

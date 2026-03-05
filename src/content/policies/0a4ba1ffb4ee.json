@@ -1,0 +1,19 @@
+{
+  "id": "0a4ba1ffb4ee",
+  "title": "{{l.ScripName}}",
+  "description": "",
+  "link": "https://www.bseindia.com{{l.NSURL|formatURL}}",
+  "date": "2026-03-05",
+  "source_id": "bseindia",
+  "source_name": "Bombay Stock Exchange",
+  "source_short": "BSE",
+  "sectors": [
+    "Social Protection"
+  ],
+  "sector_slugs": [
+    "social-protection"
+  ],
+  "type": "policy",
+  "level": "central",
+  "state": ""
+}
