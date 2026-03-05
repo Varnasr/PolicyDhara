@@ -358,6 +358,49 @@ def write_data_json(policies: list[dict]):
     print(f"  Wrote data files to {DATA_DIR}")
 
 
+def fetch_api_source(source_id: str, source_config: dict) -> list[dict]:
+    """Fetch items from a JSON API source."""
+    import requests
+    url = source_config.get("url", "")
+    if not url:
+        return []
+
+    try:
+        resp = requests.get(url, timeout=10, headers={
+            "User-Agent": "PolicyDhara/1.0 (+https://github.com/Varnasr/PolicyDhara)"
+        })
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as e:
+        print(f"  API error for {url}: {e}")
+        return []
+
+    items = []
+    # PolicyRadar format
+    if "top_articles" in data:
+        for article in data["top_articles"]:
+            date_str = article.get("publication_date", "")
+            if date_str:
+                date_str = date_str[:10]  # "2026-03-03T09:28:10+00:00" → "2026-03-03"
+            items.append({
+                "title": article.get("title", ""),
+                "description": article.get("summary", ""),
+                "link": article.get("url", ""),
+                "date": date_str,
+            })
+    # Generic list format
+    elif isinstance(data, list):
+        for item in data:
+            items.append({
+                "title": item.get("title", ""),
+                "description": item.get("description", item.get("summary", "")),
+                "link": item.get("url", item.get("link", "")),
+                "date": item.get("date", item.get("published", ""))[:10] if item.get("date") or item.get("published") else "",
+            })
+
+    return items
+
+
 def fetch_source(source_id: str, source_config: dict) -> list[dict]:
     """Fetch items from a single source and classify them."""
     source_type = source_config.get("type", "")
@@ -373,9 +416,7 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
         elif source_type == "scrape":
             raw_items = fetch_scrape_source(source_id, source_config)
         elif source_type == "api":
-            # API sources require specific handling per source
-            # For now, treat like scrape with URL fetch
-            raw_items = fetch_scrape_source(source_id, source_config)
+            raw_items = fetch_api_source(source_id, source_config)
         else:
             print(f"  Unknown source type: {source_type}")
             return []
