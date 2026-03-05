@@ -192,17 +192,6 @@
         "Digital & Technology"
       ]
     },
-    "world_bank_india": {
-      "name": "World Bank - India",
-      "short_name": "World Bank",
-      "type": "api",
-      "url": "https://search.worldbank.org/api/v3/wds?format=json&qterm=india&docty=Policy+Research+Working+Paper&rows=30",
-      "frequency": "Weekly",
-      "format": "JSON API",
-      "reliability": "high",
-      "description": "World Bank research papers, project documents, and data on India",
-      "covers_sectors": "all"
-    },
     "orf": {
       "name": "Observer Research Foundation",
       "short_name": "ORF",
@@ -695,20 +684,6 @@
         "Finance & Economy"
       ]
     },
-    "cci": {
-      "name": "Competition Commission of India",
-      "short_name": "CCI",
-      "type": "scrape",
-      "url": "https://www.cci.gov.in/orders/recent-orders",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Antitrust and competition law orders, investigations, and advocacy",
-      "covers_sectors": [
-        "Trade & Commerce",
-        "Governance & Reform"
-      ]
-    },
     "cerc": {
       "name": "Central Electricity Regulatory Commission",
       "short_name": "CERC",
@@ -734,19 +709,6 @@
       "covers_sectors": [
         "Health",
         "Agriculture"
-      ]
-    },
-    "dgft": {
-      "name": "Directorate General of Foreign Trade",
-      "short_name": "DGFT",
-      "type": "scrape",
-      "url": "https://www.dgft.gov.in/CP/?opt=notification",
-      "frequency": "Multiple times weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Foreign trade policy notifications, export-import regulations",
-      "covers_sectors": [
-        "Trade & Commerce"
       ]
     },
     "cbic": {
@@ -1094,19 +1056,6 @@
       "description": "Sustainable Development Goals progress — state-level tracking across all 17 SDGs",
       "covers_sectors": "all"
     },
-    "election_commission": {
-      "name": "Election Commission of India",
-      "short_name": "ECI",
-      "type": "scrape",
-      "url": "https://www.eci.gov.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Election notifications, model code, voter rights, delimitation",
-      "covers_sectors": [
-        "Governance & Reform"
-      ]
-    },
     "mocommerce": {
       "name": "Ministry of Commerce & Industry",
       "short_name": "MoCommerce",
@@ -1402,19 +1351,6 @@
       "covers_sectors": [
         "Labour & Employment",
         "Social Protection"
-      ]
-    },
-    "ugc": {
-      "name": "University Grants Commission",
-      "short_name": "UGC",
-      "type": "scrape",
-      "url": "https://www.ugc.gov.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Higher education regulation, NEP implementation, university standards",
-      "covers_sectors": [
-        "Education"
       ]
     },
     "ncte": {
@@ -2246,19 +2182,6 @@
         "Trade & Commerce"
       ]
     },
-    "nclt": {
-      "name": "NCLT",
-      "short_name": "NCLT",
-      "type": "scrape",
-      "url": "https://nclt.gov.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Company law tribunal, IBC cases, corporate restructuring",
-      "covers_sectors": [
-        "Finance & Economy"
-      ]
-    },
     "itat": {
       "name": "ITAT",
       "short_name": "ITAT",
@@ -2460,21 +2383,6 @@
         "Governance & Reform",
         "Social Protection"
       ]
-    },
-    "moha": {
-      "name": "Ministry of Home Affairs",
-      "short_name": "MHA",
-      "type": "scrape",
-      "url": "https://www.mha.gov.in/en/commoncontent/press-release",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Press releases and notifications from the Ministry of Home Affairs",
-      "covers_sectors": [
-        "Defence & Security",
-        "Governance & Reform"
-      ],
-      "level": "central"
     },
     "molaw": {
       "name": "Ministry of Law and Justice - Legislative Department",
@@ -2803,21 +2711,6 @@
       "description": "Tourism policy, Swadesh Darshan, and PRASHAD scheme updates",
       "covers_sectors": [
         "Trade & Commerce"
-      ],
-      "level": "central"
-    },
-    "moib_new": {
-      "name": "Ministry of Information & Broadcasting",
-      "short_name": "MoI&B",
-      "type": "scrape",
-      "url": "https://mib.gov.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "medium",
-      "description": "Media regulation, broadcasting, and digital media policies",
-      "covers_sectors": [
-        "Digital & Technology",
-        "Governance & Reform"
       ],
       "level": "central"
     },
@@ -3607,20 +3500,6 @@
       ],
       "level": "central"
     },
-    "transparency_india": {
-      "name": "Transparency International India",
-      "short_name": "TI India",
-      "type": "scrape",
-      "url": "https://www.transparencyindia.org/",
-      "frequency": "Monthly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Anti-corruption research, RTI analysis, and governance accountability reports",
-      "covers_sectors": [
-        "Governance & Reform"
-      ],
-      "level": "central"
-    },
     "pratham": {
       "name": "Pratham Education Foundation",
       "short_name": "Pratham",
@@ -4028,6 +3907,135 @@
       "description": "Legal research, policy papers, and law reform recommendations",
       "covers_sectors": [
         "Governance & Reform"
+      ],
+      "level": "central"
+    },
+    "world_bank_india": {
+      "name": "World Bank - India Overview",
+      "short_name": "WB India",
+      "type": "scrape",
+      "url": "https://www.worldbank.org/en/country/india/overview",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "World Bank India country overview and development updates",
+      "covers_sectors": "all",
+      "level": "central"
+    },
+    "mib": {
+      "name": "Ministry of Information & Broadcasting",
+      "short_name": "MoI&B",
+      "type": "scrape",
+      "url": "https://mib.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Media regulation, broadcasting, and digital media policies",
+      "covers_sectors": [
+        "Digital & Technology",
+        "Governance & Reform"
+      ],
+      "level": "central"
+    },
+    "transparency_india": {
+      "name": "Transparency International India",
+      "short_name": "TI India",
+      "type": "scrape",
+      "url": "https://transparencyindia.org/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Anti-corruption research, CPI rankings, and governance accountability",
+      "covers_sectors": [
+        "Governance & Reform"
+      ],
+      "level": "central"
+    },
+    "nclt": {
+      "name": "National Company Law Tribunal",
+      "short_name": "NCLT",
+      "type": "scrape",
+      "url": "https://nclt.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Corporate insolvency orders and company law tribunal decisions",
+      "covers_sectors": [
+        "Finance & Economy"
+      ],
+      "level": "central"
+    },
+    "livelaw": {
+      "name": "LiveLaw",
+      "short_name": "LiveLaw",
+      "type": "scrape",
+      "url": "https://www.livelaw.in/",
+      "frequency": "Daily",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Legal news, Supreme Court and High Court judgments, and law reform updates",
+      "covers_sectors": [
+        "Governance & Reform"
+      ],
+      "level": "central"
+    },
+    "idronline": {
+      "name": "IDR Online",
+      "short_name": "IDR",
+      "type": "scrape",
+      "url": "https://idronline.org/",
+      "frequency": "Daily",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "India Development Review - nonprofit sector, social impact, and development policy",
+      "covers_sectors": [
+        "Social Protection",
+        "Education",
+        "Health"
+      ],
+      "level": "central"
+    },
+    "nfra": {
+      "name": "National Financial Reporting Authority",
+      "short_name": "NFRA",
+      "type": "scrape",
+      "url": "https://nfra.gov.in/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Audit quality, financial reporting standards, and accounting regulation",
+      "covers_sectors": [
+        "Finance & Economy"
+      ],
+      "level": "central"
+    },
+    "sfac": {
+      "name": "Small Farmers' Agribusiness Consortium",
+      "short_name": "SFAC",
+      "type": "scrape",
+      "url": "https://sfacindia.com/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "FPO promotion, agribusiness value chains, and farmer enterprise development",
+      "covers_sectors": [
+        "Agriculture",
+        "Rural Development"
+      ],
+      "level": "central"
+    },
+    "nddb": {
+      "name": "National Dairy Development Board",
+      "short_name": "NDDB",
+      "type": "scrape",
+      "url": "https://www.nddb.coop/",
+      "frequency": "Monthly",
+      "format": "HTML",
+      "reliability": "medium",
+      "description": "Dairy sector development, cooperative movement, and milk production policy",
+      "covers_sectors": [
+        "Agriculture",
+        "Rural Development"
       ],
       "level": "central"
     }
