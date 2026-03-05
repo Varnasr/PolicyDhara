@@ -67,9 +67,24 @@ def _extract_date_from_title(title: str) -> str:
     def _cap(candidate: str) -> str:
         return candidate if candidate <= today else today
 
-    m = re.search(r'[Bb]udget\s+(\d{4})', text)
+    # Budget-related documents → Feb 1
+    m = re.search(r'[Bb]udget\s+(?:Document[s]?\s*[,.]?\s*)?(\d{4})', text)
+    if not m:
+        m = re.search(r'(\d{4})\s*[-–]\s*\d{2,4}\s*$', text) if 'budget' in text.lower() or 'fiscal' in text.lower() or 'outcome framework' in text.lower() else None
     if m:
         return _cap(f"{m.group(1)}-02-01")
+
+    # Known annual events with fixed dates
+    text_lower = text.lower()
+    year_match = re.search(r'(20\d{2})', text)
+    if year_match:
+        year = year_match.group(1)
+        if 'world wildlife day' in text_lower:
+            return _cap(f"{year}-03-03")
+        if 'republic day' in text_lower:
+            return _cap(f"{year}-01-26")
+        if 'independence day' in text_lower:
+            return _cap(f"{year}-08-15")
 
     m = re.search(r'[\s,(\[]\s*((?:19|20)\d{2})\s*[-)\].,]?\s*$', text)
     if not m:

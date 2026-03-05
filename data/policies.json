@@ -42,46 +42,6 @@
     "type": "announcement"
   },
   {
-    "id": "b3c2949f67e9",
-    "title": "Key to Budget Document, 2026",
-    "description": "",
-    "link": "https://www.indiabudget.gov.indoc/Key_to_Budget_Document_2026.pdf",
-    "date": "2026-03-05",
-    "source_id": "mof_budget",
-    "source_name": "Ministry of Finance - Union Budget",
-    "source_short": "MoF Budget",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "budget",
-    "level": "central",
-    "state": ""
-  },
-  {
-    "id": "e19b8c805394",
-    "title": "Output Outcome Framework for Schemes 2026-2027",
-    "description": "",
-    "link": "https://www.indiabudget.gov.indoc/OutcomeBudgetE2026_2027.pdf",
-    "date": "2026-03-05",
-    "source_id": "mof_budget",
-    "source_name": "Ministry of Finance - Union Budget",
-    "source_short": "MoF Budget",
-    "sectors": [
-      "Social Protection",
-      "Tribal & Indigenous"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "tribal-indigenous"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "state": ""
-  },
-  {
     "id": "53dec964a8a6",
     "title": "Nepal Elections 2026: Domestic Agendas and Foreign Policy Stakes",
     "description": "ORF Expert Speak: Nepal Elections 2026: Domestic Agendas and Foreign Policy Stakes",
@@ -99,84 +59,6 @@
       "social-protection"
     ],
     "type": "policy",
-    "level": "central",
-    "state": ""
-  },
-  {
-    "id": "aff7d694ddd9",
-    "title": "World Wildlife Day 2026",
-    "description": "Government of India press release: World Wildlife Day 2026",
-    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2234951",
-    "date": "2026-03-05",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Climate & Environment"
-    ],
-    "sector_slugs": [
-      "climate-environment"
-    ],
-    "type": "announcement"
-  },
-  {
-    "id": "67d99d3493b7",
-    "title": "On World Wildlife Day 2026, Prime Minister reaffirms Commitment to Wildlife Conservat...",
-    "description": "Government of India press release: On World Wildlife Day 2026, Prime Minister reaffirms Commitment to Wildlife Conservat...",
-    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2234894",
-    "date": "2026-03-05",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Climate & Environment",
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "climate-environment",
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "announcement"
-  },
-  {
-    "id": "4c6083121697",
-    "title": "Day 3 of Janaushadhi Saptah 2026 Witnesses Surge in Health Camps and Public Participa...",
-    "description": "Government of India press release: Day 3 of Janaushadhi Saptah 2026 Witnesses Surge in Health Camps and Public Participa...",
-    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2235074",
-    "date": "2026-03-05",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Health",
-      "Digital & Technology",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "health",
-      "digital-technology",
-      "governance-reform"
-    ],
-    "type": "announcement"
-  },
-  {
-    "id": "d767f5dbba2f",
-    "title": "National Zoological Park, New Delhi celebrates World Wildlife Day 2026",
-    "description": "Government of India press release: National Zoological Park, New Delhi celebrates World Wildlife Day 2026",
-    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2235131",
-    "date": "2026-03-05",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Climate & Environment"
-    ],
-    "sector_slugs": [
-      "climate-environment"
-    ],
-    "type": "announcement",
     "level": "central",
     "state": ""
   },
@@ -2240,6 +2122,84 @@
     "state": "Assam"
   },
   {
+    "id": "aff7d694ddd9",
+    "title": "World Wildlife Day 2026",
+    "description": "Government of India press release: World Wildlife Day 2026",
+    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2234951",
+    "date": "2026-03-03",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "climate-environment"
+    ],
+    "type": "announcement"
+  },
+  {
+    "id": "67d99d3493b7",
+    "title": "On World Wildlife Day 2026, Prime Minister reaffirms Commitment to Wildlife Conservat...",
+    "description": "Government of India press release: On World Wildlife Day 2026, Prime Minister reaffirms Commitment to Wildlife Conservat...",
+    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2234894",
+    "date": "2026-03-03",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Climate & Environment",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "announcement"
+  },
+  {
+    "id": "4c6083121697",
+    "title": "Day 3 of Janaushadhi Saptah 2026 Witnesses Surge in Health Camps and Public Participa...",
+    "description": "Government of India press release: Day 3 of Janaushadhi Saptah 2026 Witnesses Surge in Health Camps and Public Participa...",
+    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2235074",
+    "date": "2026-03-03",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Health",
+      "Digital & Technology",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "health",
+      "digital-technology",
+      "governance-reform"
+    ],
+    "type": "announcement"
+  },
+  {
+    "id": "d767f5dbba2f",
+    "title": "National Zoological Park, New Delhi celebrates World Wildlife Day 2026",
+    "description": "Government of India press release: National Zoological Park, New Delhi celebrates World Wildlife Day 2026",
+    "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=2235131",
+    "date": "2026-03-03",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "climate-environment"
+    ],
+    "type": "announcement",
+    "level": "central",
+    "state": ""
+  },
+  {
     "id": "b9708b2bd044",
     "title": "Ministry of Railways",
     "description": "Gazette notification: Ministry of Railways",
@@ -4268,6 +4228,46 @@
       "digital-technology"
     ],
     "type": "legislation",
+    "level": "central",
+    "state": ""
+  },
+  {
+    "id": "b3c2949f67e9",
+    "title": "Key to Budget Document, 2026",
+    "description": "",
+    "link": "https://www.indiabudget.gov.indoc/Key_to_Budget_Document_2026.pdf",
+    "date": "2026-02-01",
+    "source_id": "mof_budget",
+    "source_name": "Ministry of Finance - Union Budget",
+    "source_short": "MoF Budget",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "budget",
+    "level": "central",
+    "state": ""
+  },
+  {
+    "id": "e19b8c805394",
+    "title": "Output Outcome Framework for Schemes 2026-2027",
+    "description": "",
+    "link": "https://www.indiabudget.gov.indoc/OutcomeBudgetE2026_2027.pdf",
+    "date": "2026-02-01",
+    "source_id": "mof_budget",
+    "source_name": "Ministry of Finance - Union Budget",
+    "source_short": "MoF Budget",
+    "sectors": [
+      "Social Protection",
+      "Tribal & Indigenous"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "tribal-indigenous"
+    ],
+    "type": "scheme",
     "level": "central",
     "state": ""
   },
