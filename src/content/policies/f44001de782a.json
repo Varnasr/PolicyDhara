@@ -3,7 +3,7 @@
   "title": "{{cd.Series_Name}}",
   "description": "",
   "link": "https://www.bseindia.com/stock-share-price/currency/{{cd.ScripCode}}/{{cd.End_TimeStamp|date:'yyyyMMdd'}}",
-  "date": "2026-03-06",
+  "date": "2026-03-07",
   "source_id": "bseindia",
   "source_name": "Bombay Stock Exchange",
   "source_short": "BSE",
