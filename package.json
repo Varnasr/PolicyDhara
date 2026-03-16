@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "fetch": "python3 scripts/fetch_all.py",
-    "update": "python3 scripts/fetch_all.py && astro build"
+    "update": "python3 scripts/fetch_all.py && astro build",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "dependencies": {
     "astro": "^6.0.0",

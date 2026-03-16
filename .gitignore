@@ -22,3 +22,12 @@ policydhara.egg-info/
 build/
 dist/*.whl
 dist/*.tar.gz
+
+# Added by git standards propagation
+# Environment files
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+*.swp
