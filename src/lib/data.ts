@@ -510,6 +510,81 @@ export function getParliamentData(): ParliamentData {
   });
 }
 
+/** Committee report data from sansad.in (via ParliamentWatch integration) */
+export interface CommitteeReport {
+  committee_key: string;
+  committee_name: string;
+  sector: string;
+  report_number: number;
+  title: string;
+  presented_in_ls: string | null;
+  laid_in_rs: string | null;
+  presented_to_speaker: string | null;
+  pdf_url: string | null;
+  pdf_url_hindi: string | null;
+  lok_sabha: number;
+  house: string;
+}
+
+export interface CommitteeSummary {
+  key: string;
+  name: string;
+  sector: string;
+  report_count: number;
+}
+
+export interface CommitteeReportsData {
+  metadata: {
+    last_updated: string;
+    total_reports: number;
+    total_committees: number;
+    lok_sabha: number;
+    source: string;
+    attribution: string;
+  };
+  committee_summary: CommitteeSummary[];
+  committees: Record<string, CommitteeReport[]>;
+}
+
+export function getCommitteeReports(): CommitteeReportsData {
+  return readJson<CommitteeReportsData>('committee_reports.json', {
+    metadata: { last_updated: '', total_reports: 0, total_committees: 0, lok_sabha: 18, source: '', attribution: '' },
+    committee_summary: [],
+    committees: {},
+  });
+}
+
+export function getRecentCommitteeReports(limit = 20): CommitteeReport[] {
+  const data = getCommitteeReports();
+  const all: CommitteeReport[] = [];
+  for (const reports of Object.values(data.committees)) {
+    all.push(...reports);
+  }
+  // Sort by presentation date (most recent first)
+  return all
+    .filter(r => r.presented_in_ls || r.laid_in_rs)
+    .sort((a, b) => {
+      const dateA = a.presented_in_ls || a.laid_in_rs || '';
+      const dateB = b.presented_in_ls || b.laid_in_rs || '';
+      return dateB.localeCompare(dateA);
+    })
+    .slice(0, limit);
+}
+
+export function searchCommitteeReports(query: string): CommitteeReport[] {
+  const data = getCommitteeReports();
+  const q = query.toLowerCase();
+  const results: CommitteeReport[] = [];
+  for (const reports of Object.values(data.committees)) {
+    for (const r of reports) {
+      if (r.title.toLowerCase().includes(q) || r.committee_name.toLowerCase().includes(q)) {
+        results.push(r);
+      }
+    }
+  }
+  return results;
+}
+
 /** Returns sectors x types matrix for landscape view */
 export function getSectorTypeMatrix(): {
   sectors: string[];

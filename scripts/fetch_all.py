@@ -687,6 +687,17 @@ def main():
     write_data_json(merged)
     write_astro_content(merged)
 
+    # Fetch parliamentary committee reports (ParliamentWatch integration)
+    try:
+        from fetch_committee_reports import scrape_all_committees, write_reports
+        print(f"\n{'=' * 60}")
+        print("ParliamentWatch: Fetching committee reports...")
+        committees, total = scrape_all_committees()
+        write_reports(committees, total)
+    except Exception as e:
+        print(f"  Committee reports fetch failed: {e}")
+        errors.append(f"committee_reports: {e}")
+
     if errors:
         print(f"\nErrors ({len(errors)}):")
         for e in errors:
