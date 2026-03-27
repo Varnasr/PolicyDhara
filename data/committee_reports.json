@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-03-27",
-    "total_reports": 938,
+    "total_reports": 949,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -49,13 +49,13 @@
       "key": "agriculture",
       "name": "Agriculture, Animal Husbandry and Food Processing",
       "sector": "Agriculture",
-      "report_count": 32
+      "report_count": 35
     },
     {
       "key": "rural_development",
       "name": "Rural Development and Panchayati Raj",
       "sector": "Rural Development",
-      "report_count": 27
+      "report_count": 30
     },
     {
       "key": "chemicals",
@@ -67,6 +67,12 @@
       "key": "coal",
       "name": "Coal, Mines and Steel",
       "sector": "Energy",
+      "report_count": 22
+    },
+    {
+      "key": "labour",
+      "name": "Labour, Textiles and Skill Development",
+      "sector": "Labour & Employment",
       "report_count": 20
     },
     {
@@ -74,12 +80,6 @@
       "name": "Social Justice & Empowerment",
       "sector": "Social Protection",
       "report_count": 20
-    },
-    {
-      "key": "labour",
-      "name": "Labour, Textiles and Skill Development",
-      "sector": "Labour & Employment",
-      "report_count": 17
     },
     {
       "key": "water_resources",
@@ -108,6 +108,48 @@
   ],
   "committees": {
     "agriculture": [
+      {
+        "committee_key": "agriculture",
+        "committee_name": "Agriculture, Animal Husbandry and Food Processing",
+        "sector": "Agriculture",
+        "report_number": 35,
+        "title": "Thirty-Fifth Report on Action taken by the Government on the Observations/Recommendations contained in the Seventh Report (Eighteenth Lok Sabha) of the Standing Committee on Agriculture, Animal Husbandry and Food Processing (2024-25) on 'Demands for Grants (2025-26)' pertaining to the Ministry of Agriculture & Farmers Welfare (Department of Agriculture and Farmers Welfare). ",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": "27-Mar-2026",
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Agriculture, Animal Husbandry and Food Processing/18_Agriculture_Animal_Husbandry_and_Food_Processing_35.pdf?source=app",
+        "pdf_url_hindi": null,
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "agriculture",
+        "committee_name": "Agriculture, Animal Husbandry and Food Processing",
+        "sector": "Agriculture",
+        "report_number": 34,
+        "title": "Thirty-Fourth Report on the Subject ‘Research for Developing Water Efficient Variety of Seeds to Save Ground Water’ pertaining to the Ministry of Agriculture and Farmers Welfare (Department of Agricultural Research and Education).",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": "27-Mar-2026",
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Agriculture, Animal Husbandry and Food Processing/18_Agriculture_Animal_Husbandry_and_Food_Processing_34.pdf?source=app",
+        "pdf_url_hindi": null,
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "agriculture",
+        "committee_name": "Agriculture, Animal Husbandry and Food Processing",
+        "sector": "Agriculture",
+        "report_number": 33,
+        "title": "Thirty-Third Report on the subject “Production and Availability of Oilseeds and Pulses in the Country” pertaining to the Ministry of Agriculture and Farmers Welfare (Department of Agriculture and Farmers Welfare)",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": "27-Mar-2026",
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Agriculture, Animal Husbandry and Food Processing/18_Agriculture_Animal_Husbandry_and_Food_Processing_33.pdf?source=app",
+        "pdf_url_hindi": null,
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "agriculture",
         "committee_name": "Agriculture, Animal Husbandry and Food Processing",
@@ -882,6 +924,34 @@
       }
     ],
     "coal": [
+      {
+        "committee_key": "coal",
+        "committee_name": "Coal, Mines and Steel",
+        "sector": "Energy",
+        "report_number": 22,
+        "title": "Action Taken by the Government on the Observations/Recommendations contained in the Eighth Report (Eighteenth Lok Sabha) of the Standing Committee on Coal, Mines and Steel on the subject  Steel Scrap Recycling Policy of the Ministry of Steel",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Coal, Mines and Steel/18_Coal_Mines_and_Steel_22.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Coal, Mines and Steel/18_Coal_Mines_and_Steel_22(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "coal",
+        "committee_name": "Coal, Mines and Steel",
+        "sector": "Energy",
+        "report_number": 21,
+        "title": "Twenty-first Report on ‘Organisational Structure and Performance of Steel Authority of India Limited (SAIL)- A Review’  pertaining to Ministry of Steel",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Coal, Mines and Steel/18_Coal_Mines_and_Steel_21.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Coal, Mines and Steel/18_Coal_Mines_and_Steel_21(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "coal",
         "committee_name": "Coal, Mines and Steel",
@@ -11876,6 +11946,48 @@
         "committee_key": "labour",
         "committee_name": "Labour, Textiles and Skill Development",
         "sector": "Labour & Employment",
+        "report_number": 20,
+        "title": "Action taken by the Government on the Observations/Recommendations of the Committee contained in their Sixth Report (Eighteenth Lok Sabha) on ‘Demands for Grants (2025-26)’ of the Ministry of Skill Development and Entrepreneurship.",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Labour, Textiles and Skill Development/18_Labour_Textiles_and_Skill_Development_20.pdf?source=app",
+        "pdf_url_hindi": null,
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "labour",
+        "committee_name": "Labour, Textiles and Skill Development",
+        "sector": "Labour & Employment",
+        "report_number": 19,
+        "title": "Action Taken by the Government on the observations/recommendations of the Committee contained in their Fifth Report (Eighteenth Lok Sabha) on ‘Demand for Grants (2025-26)’ of the Ministry of Textiles.",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Labour, Textiles and Skill Development/18_Labour_Textiles_and_Skill_Development_19.pdf?source=app",
+        "pdf_url_hindi": null,
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "labour",
+        "committee_name": "Labour, Textiles and Skill Development",
+        "sector": "Labour & Employment",
+        "report_number": 18,
+        "title": "Action Taken by the Government on the Observations/ Recommendations of the Committee contained in their Fourth Report (Eighteenth Lok Sabha) on ‘Demands for Grants (2025-26)’ of the Ministry of Labour & Employment.",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Labour, Textiles and Skill Development/18_Labour_Textiles_and_Skill_Development_18.pdf?source=app",
+        "pdf_url_hindi": null,
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "labour",
+        "committee_name": "Labour, Textiles and Skill Development",
+        "sector": "Labour & Employment",
         "report_number": 17,
         "title": "Seventeenth Report on ‘Demands for Grants (2026-27)’ of the Ministry of Skill Development and Entrepreneurship.",
         "presented_in_ls": "17-Mar-2026",
@@ -12326,6 +12438,48 @@
       }
     ],
     "rural_development": [
+      {
+        "committee_key": "rural_development",
+        "committee_name": "Rural Development and Panchayati Raj",
+        "sector": "Rural Development",
+        "report_number": 30,
+        "title": "Action taken on the recommendations contained in the Fifteenth Report (Eighteenth Lok Sabha) on 'Devolution of Funds under Panchayati Raj System’ (2024-25) of the Ministry of Panchayati Raj'",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Rural Development and Panchayati Raj/18_Rural_Development_and_Panchayati_Raj_30.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Rural Development and Panchayati Raj/18_Rural_Development_and_Panchayati_Raj_30(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "rural_development",
+        "committee_name": "Rural Development and Panchayati Raj",
+        "sector": "Rural Development",
+        "report_number": 29,
+        "title": "Action taken on the recommendations contained in the Twenty-First Report (Eighteenth Lok Sabha) on 'Gram Urja Swaraj: Promoting Renewable Energy in Rural Areas’ (2024-25) of the Ministry of Panchayati Raj'",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Rural Development and Panchayati Raj/18_Rural_Development_and_Panchayati_Raj_29.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Rural Development and Panchayati Raj/18_Rural_Development_and_Panchayati_Raj_29(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "rural_development",
+        "committee_name": "Rural Development and Panchayati Raj",
+        "sector": "Rural Development",
+        "report_number": 28,
+        "title": "Action taken on the recommendations contained in the Eighth Report (Eighteenth Lok Sabha) on “Rural Employment through Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)” (2024-25) of the Ministry of Rural Development (Department of Rural Development)",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Rural Development and Panchayati Raj/18_Rural_Development_and_Panchayati_Raj_28.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Rural Development and Panchayati Raj/18_Rural_Development_and_Panchayati_Raj_28(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "rural_development",
         "committee_name": "Rural Development and Panchayati Raj",
