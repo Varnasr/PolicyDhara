@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-03-30",
-    "total_reports": 952,
+    "total_reports": 953,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -31,7 +31,7 @@
       "key": "communications",
       "name": "Communications and Information Technology",
       "sector": "Digital & Technology",
-      "report_count": 112
+      "report_count": 113
     },
     {
       "key": "defence",
@@ -10414,6 +10414,20 @@
       }
     ],
     "communications": [
+      {
+        "committee_key": "communications",
+        "committee_name": "Communications and Information Technology",
+        "sector": "Digital & Technology",
+        "report_number": 27,
+        "title": "Twenty-seventh Report on the Subject ‘Impact of emergence of Artificial Intelligence and related issues’ relating to the Ministry of Electronics and Information Technology.",
+        "presented_in_ls": "30-Mar-2026",
+        "laid_in_rs": "30-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Communications and Information Technology/18_Communications_and_Information_Technology_27.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Communications and Information Technology/18_Communications_and_Information_Technology_27(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "communications",
         "committee_name": "Communications and Information Technology",
