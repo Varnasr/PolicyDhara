@@ -1,17 +1,19 @@
 {
   "id": "86bde4139c1b",
   "title": "Monthly Data on India’s International Trade in Services for the Month of February 2026",
-  "description": "",
+  "description": "The value of exports and imports of services during February 2026 are presented in the following table. International Trade in Services (US$ million) Month Receipts (Exports) Payments (Imports) October – 2025 35,174 (2.2) 17,734 (2.9) November – 2025 34,269 (6.7) 16,882 (-2.1) December – 2025 41,784 (13.0) 19,110 (7.4) January – 2026 38,165 (9.8) 16,631 (-0.5) February – 2026 34,708 (9.7) 16,865 (16.2) Note: (i) Data for January-February are provisional while those",
   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=62470",
   "date": "2026-03-30",
   "source_id": "rbi",
   "source_name": "Reserve Bank of India",
   "source_short": "RBI",
   "sectors": [
-    "Trade & Commerce"
+    "Trade & Commerce",
+    "Transport & Infrastructure"
   ],
   "sector_slugs": [
-    "trade-commerce"
+    "trade-commerce",
+    "transport-infrastructure"
   ],
   "type": "policy",
   "level": "central",
