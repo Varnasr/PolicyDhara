@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-04-17",
-    "total_reports": 955,
+    "total_reports": 956,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -67,7 +67,7 @@
       "key": "coal",
       "name": "Coal, Mines and Steel",
       "sector": "Energy",
-      "report_count": 22
+      "report_count": 23
     },
     {
       "key": "labour",
@@ -966,6 +966,20 @@
       }
     ],
     "coal": [
+      {
+        "committee_key": "coal",
+        "committee_name": "Coal, Mines and Steel",
+        "sector": "Energy",
+        "report_number": 23,
+        "title": "Twenty-third Report on ‘National Mineral Exploration and Development Trust (NMEDT) – Performance and Review’ pertaining to the Ministry of Mines",
+        "presented_in_ls": "17-Apr-2026",
+        "laid_in_rs": "17-Apr-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Coal, Mines and Steel/18_Coal_Mines_and_Steel_23.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Coal, Mines and Steel/18_Coal_Mines_and_Steel_23(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "coal",
         "committee_name": "Coal, Mines and Steel",
