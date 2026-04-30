@@ -235,8 +235,12 @@ def fetch_source(
 
         if not date:
             date = _extract_date_from_title(title)
-        if not date:
-            date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        # If we still don't have a real publication date, leave it empty.
+        # `first_seen` (set below) records when PolicyDhara ingested the item;
+        # they are kept distinct so analytics can show "issued this week" vs
+        # "added this week" honestly.
+
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
         policy_id = Policy.generate_id(title, source_id)
         sectors = cls.classify(title, description, source_sectors)
@@ -247,6 +251,7 @@ def fetch_source(
             description=description[:500] if description else "",
             link=link,
             date=date,
+            first_seen=today,
             source_id=source_id,
             source_name=source_name,
             source_short=source_config.get("short_name", source_name),

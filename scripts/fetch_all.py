@@ -383,8 +383,13 @@ def merge_policies(existing: dict, new_items: list[dict]) -> list[dict]:
             # or a later date — original publication dates are more accurate
             old_date = old.get("date", "")
             new_date = item.get("date", "")
-            if old_date and old_date < new_date:
+            if old_date and (not new_date or old_date < new_date):
                 item["date"] = old_date
+            # Preserve the original first_seen so we know when PolicyDhara
+            # actually first ingested this item — never reset to today.
+            old_first_seen = old.get("first_seen", "")
+            if old_first_seen:
+                item["first_seen"] = old_first_seen
         existing[pid] = item
 
     # First pass: deduplicate by source+title (keep the one with the best date)

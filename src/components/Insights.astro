@@ -1,5 +1,6 @@
 ---
 import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getAllPolicies, getSectorSlug, getEraDistribution, getStateGovernments } from '../lib/data';
+import type { PolicyItem } from '../lib/data';
 
 const typeDist = getTypeDistribution();
 const topSectors = getTopSectors(8);
@@ -30,16 +31,36 @@ const TYPE_COLORS: Record<string, string> = {
 // Top sector max for bar widths
 const maxSectorCount = Math.max(...topSectors.map(s => s.count), 1);
 
-// Recency: policies in last 7 days vs 7 days before
+// Recency uses `first_seen` (when PolicyDhara ingested) for "added this week"
+// stats — `date` is the policy's issuance date and is empty for ~half the
+// dataset where the source didn't expose a publication date. Mixing them
+// would make every fetch cycle look like a flood of new policies.
 const now = Date.now();
 const DAY = 86400000;
-const last7 = policies.filter(p => now - new Date(p.date).getTime() < 7 * DAY).length;
-const prev7 = policies.filter(p => {
-  const age = now - new Date(p.date).getTime();
-  return age >= 7 * DAY && age < 14 * DAY;
+function ageDays(p: PolicyItem): number | null {
+  const ref = p.first_seen || p.date;
+  if (!ref) return null;
+  const t = new Date(ref).getTime();
+  if (Number.isNaN(t)) return null;
+  return (now - t) / DAY;
+}
+const last7 = policies.filter(p => {
+  const a = ageDays(p);
+  return a !== null && a < 7;
 }).length;
-const trendPct = prev7 > 0 ? Math.round(((last7 - prev7) / prev7) * 100) : (last7 > 0 ? 100 : 0);
+const prev7 = policies.filter(p => {
+  const a = ageDays(p);
+  return a !== null && a >= 7 && a < 14;
+}).length;
+// Honest comparison: only show a percentage when both periods have data.
+// Otherwise show '—' (no comparable baseline).
+const hasComparison = prev7 > 0;
+const trendPct = hasComparison ? Math.round(((last7 - prev7) / prev7) * 100) : 0;
 const trendUp = trendPct >= 0;
+
+// Count policies with a real (non-empty) issuance date — useful caveat for users
+const policiesWithIssuanceDate = policies.filter(p => !!p.date).length;
+const issuanceDateCoveragePct = Math.round((policiesWithIssuanceDate / policies.length) * 100);
 
 // State governance summary
 const stateGovs = getStateGovernments().filter(g => g.type === 'state');
@@ -57,19 +78,33 @@ const GOV_PARTY_COLORS: Record<string, string> = {
 <div class="insights-grid">
   {/* Quick stats row */}
   <div class="insight-card insight-quickstats">
-    <h4>This Week</h4>
+    <h4>Added This Week</h4>
     <div class="qs-row">
       <div class="qs-item">
         <span class="qs-number">{last7}</span>
-        <span class="qs-label">New Policies</span>
+        <span class="qs-label">Policies ingested<br/>(last 7 days)</span>
       </div>
       <div class="qs-item">
-        <span class={`qs-trend ${trendUp ? 'trend-up' : 'trend-down'}`}>
-          {trendUp ? '\u25B2' : '\u25BC'} {Math.abs(trendPct)}%
-        </span>
-        <span class="qs-label">vs previous week</span>
+        {hasComparison ? (
+          <>
+            <span class={`qs-trend ${trendUp ? 'trend-up' : 'trend-down'}`}>
+              {trendUp ? '\u25B2' : '\u25BC'} {Math.abs(trendPct)}%
+            </span>
+            <span class="qs-label">vs previous week</span>
+          </>
+        ) : (
+          <>
+            <span class="qs-trend trend-neutral">\u2014</span>
+            <span class="qs-label">no prior week<br/>to compare</span>
+          </>
+        )}
       </div>
     </div>
+    <p class="qs-note">
+      Counts when items were <em>added</em> to PolicyDhara, not when they were
+      <em>issued</em>. Only {issuanceDateCoveragePct}% of items expose a
+      publication date.
+    </p>
   </div>
 
   {/* Data depth / historical coverage */}
@@ -222,6 +257,16 @@ const GOV_PARTY_COLORS: Record<string, string> = {
   }
   .trend-up { color: var(--color-accent); }
   .trend-down { color: #dc2626; }
+  .trend-neutral { color: var(--color-text-muted); }
+  .qs-note {
+    margin: var(--space-xs) 0 0 0;
+    padding-top: var(--space-xs);
+    border-top: 1px dashed var(--color-border);
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+  }
+  .qs-note em { font-style: normal; color: var(--color-text); font-weight: 500; }
 
   /* Data Coverage */
   .coverage-stats {

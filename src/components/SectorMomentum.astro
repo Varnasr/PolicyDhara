@@ -1,0 +1,274 @@
+---
+/**
+ * Sector momentum: shows whether each sector's policy activity is growing,
+ * shrinking, or flat over time. Mini-sparkline per sector + last-90d vs
+ * prior-90d delta.
+ */
+import { getSectorMomentum } from '../lib/data';
+
+interface Props {
+  windowDays?: number;
+  monthsHistory?: number;
+  limit?: number;
+}
+
+const { windowDays = 90, monthsHistory = 12, limit = 12 } = Astro.props;
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const all = getSectorMomentum(windowDays, monthsHistory);
+const sectors = all.slice(0, limit);
+
+// Track totals across the visible set so we know if the dataset has any
+// time signal at all. If almost no items have first_seen older than the
+// window, the comparison is meaningless and we render an explainer instead.
+const totalRecent = sectors.reduce((s, x) => s + x.recent, 0);
+const totalPrior = sectors.reduce((s, x) => s + x.prior, 0);
+const hasComparableHistory = totalPrior > 5; // arbitrary "enough signal" floor
+
+// Sparkline geometry
+const SPARK_W = 80;
+const SPARK_H = 24;
+
+function sparkPath(monthly: { month: string; count: number }[]): string {
+  if (monthly.length === 0) return '';
+  const max = Math.max(...monthly.map(m => m.count), 1);
+  const step = monthly.length > 1 ? SPARK_W / (monthly.length - 1) : SPARK_W;
+  return monthly.map((m, i) => {
+    const x = i * step;
+    const y = SPARK_H - (m.count / max) * (SPARK_H - 2) - 1;
+    return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(' ');
+}
+
+function sparkArea(monthly: { month: string; count: number }[]): string {
+  const line = sparkPath(monthly);
+  if (!line) return '';
+  return `${line} L${SPARK_W},${SPARK_H} L0,${SPARK_H} Z`;
+}
+
+const DIR_META: Record<string, { label: string; color: string; symbol: string }> = {
+  up: { label: 'Growing', color: '#16a34a', symbol: '▲' },
+  down: { label: 'Shrinking', color: '#dc2626', symbol: '▼' },
+  flat: { label: 'Steady', color: '#737373', symbol: '◆' },
+  new: { label: 'New activity', color: '#2563eb', symbol: '✦' },
+};
+---
+<section class="sector-momentum">
+  <header class="sm-head">
+    <div>
+      <h3>Sector Momentum</h3>
+      <p class="sm-sub">
+        Last {windowDays} days vs the {windowDays} days before, by sector.
+        Sparkline shows monthly activity across the last {monthsHistory} months.
+      </p>
+    </div>
+    <div class="sm-legend">
+      {Object.entries(DIR_META).map(([k, v]) => (
+        <span class="sm-legend-item">
+          <span class="sm-legend-mark" style={`color: ${v.color};`}>{v.symbol}</span>
+          {v.label}
+        </span>
+      ))}
+    </div>
+  </header>
+
+  {!hasComparableHistory ? (
+    <div class="sm-empty">
+      <strong>Not enough history yet.</strong>
+      Most policies in the dataset were ingested very recently, so a
+      "growing vs shrinking" comparison isn't meaningful. Come back after
+      a few weeks of fetch cycles — momentum data will populate
+      automatically as the <code>first_seen</code> spread widens.
+    </div>
+  ) : (
+    <div class="sm-grid">
+      {sectors.map(s => {
+        const meta = DIR_META[s.direction];
+        const pctText = Number.isFinite(s.changePct)
+          ? `${s.changePct > 0 ? '+' : ''}${Math.round(s.changePct)}%`
+          : 'New';
+        return (
+          <a class="sm-row" href={`${base}sectors/${s.slug}/`}>
+            <div class="sm-row-main">
+              <span class="sm-name">{s.sector}</span>
+              <span class="sm-counts">
+                <span class="sm-counts-recent">{s.recent}</span>
+                <span class="sm-counts-sep">/</span>
+                <span class="sm-counts-prior">{s.prior}</span>
+                <span class="sm-counts-label">recent / prior</span>
+              </span>
+            </div>
+            <svg class="sm-spark" viewBox={`0 0 ${SPARK_W} ${SPARK_H}`} preserveAspectRatio="none" aria-hidden="true">
+              <path d={sparkArea(s.monthly)} fill={meta.color} fill-opacity="0.15"/>
+              <path d={sparkPath(s.monthly)} fill="none" stroke={meta.color} stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="sm-row-tail">
+              <span class="sm-pct" style={`color: ${meta.color};`}>
+                <span class="sm-symbol" aria-hidden="true">{meta.symbol}</span>
+                {pctText}
+              </span>
+              <span class="sm-direction" style={`color: ${meta.color};`}>{meta.label}</span>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  )}
+</section>
+
+<style>
+  .sector-momentum {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-xl);
+  }
+  .sm-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+  }
+  .sm-head h3 {
+    margin: 0 0 4px 0;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .sm-sub {
+    margin: 0;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+    max-width: 460px;
+  }
+  .sm-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+  }
+  .sm-legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .sm-legend-mark {
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .sm-empty {
+    padding: var(--space-md);
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-md);
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+  .sm-empty strong {
+    display: block;
+    color: var(--color-text);
+    margin-bottom: 4px;
+  }
+  .sm-empty code {
+    background: var(--color-bg-white);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-family: ui-monospace, monospace;
+    font-size: 0.75rem;
+  }
+
+  .sm-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .sm-row {
+    display: grid;
+    grid-template-columns: 1fr 90px 110px;
+    gap: var(--space-sm);
+    align-items: center;
+    padding: 10px 8px;
+    border-bottom: 1px solid var(--color-border-light, var(--color-border));
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.12s;
+  }
+  .sm-row:last-child { border-bottom: none; }
+  .sm-row:hover {
+    background: var(--color-bg-alt);
+  }
+  .sm-row-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+  .sm-name {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .sm-counts {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+  }
+  .sm-counts-recent { font-weight: 700; color: var(--color-text); }
+  .sm-counts-sep { color: var(--color-text-dim); }
+  .sm-counts-prior { color: var(--color-text-muted); }
+  .sm-counts-label { margin-left: 4px; font-size: 0.625rem; }
+
+  .sm-spark {
+    width: 100%;
+    height: 24px;
+    overflow: visible;
+  }
+
+  .sm-row-tail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    text-align: right;
+  }
+  .sm-pct {
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .sm-symbol { font-size: 0.6875rem; }
+  .sm-direction {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+  }
+
+  @media (max-width: 640px) {
+    .sm-row {
+      grid-template-columns: 1fr 70px 80px;
+      gap: 8px;
+    }
+    .sm-name { font-size: 0.75rem; }
+    .sm-counts-label { display: none; }
+    .sm-pct { font-size: 0.75rem; }
+    .sm-direction { font-size: 0.5625rem; }
+  }
+</style>

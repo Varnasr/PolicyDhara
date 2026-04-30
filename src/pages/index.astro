@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import StatsBar from '../components/StatsBar.astro';
 import PolicyTimeline from '../components/PolicyTimeline.astro';
 import Insights from '../components/Insights.astro';
+import SectorMomentum from '../components/SectorMomentum.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
 import TrendingStrip from '../components/TrendingStrip.astro';
@@ -27,27 +28,20 @@ if (leadIdx > 0 && leadIdx < policies.length) {
   policies.unshift(featured);
 }
 
-// Compute live stats
+// Compute live stats. Use `first_seen` (ingestion date) for "added this week"
+// rather than `date` (issuance date), because most sources don't expose a
+// real publication date so `date` is empty for ~half the dataset.
 const now = Date.now();
 const DAY = 86400000;
-const last7d = policies.filter(p => now - new Date(p.date).getTime() < 7 * DAY).length;
+const last7d = policies.filter(p => {
+  const ref = p.first_seen || p.date;
+  if (!ref) return false;
+  const t = new Date(ref).getTime();
+  return !Number.isNaN(t) && now - t < 7 * DAY;
+}).length;
 
-// Count distinct dates to check if data spans multiple periods
-const distinctDates = new Set(policies.map(p => p.date)).size;
-const dataSpansHistory = distinctDates > 14 && last7d < meta.total_policies * 0.8;
-
-let weekStatNum: number;
-let weekStatLabel: string;
-if (dataSpansHistory) {
-  weekStatNum = last7d;
-  weekStatLabel = 'this week';
-} else {
-  // Data is mostly recent — show latest update date count instead
-  const latestDate = policies[0]?.date || '';
-  const latestCount = policies.filter(p => p.date === latestDate).length;
-  weekStatNum = latestCount;
-  weekStatLabel = 'latest';
-}
+const weekStatNum: number = last7d;
+const weekStatLabel: string = 'added this week';
 ---
 <Base title="Dashboard">
 
@@ -134,6 +128,7 @@ if (dataSpansHistory) {
       </div>
       <PolicyTimeline />
       <TrendChart />
+      <SectorMomentum />
       <Insights />
       <NewsletterBar />
     </div>

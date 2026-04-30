@@ -13,7 +13,8 @@ export interface PolicyItem {
   title: string;
   description: string;
   link: string;
-  date: string;
+  date: string;          // Policy issuance/publication date — may be "" if unknown
+  first_seen?: string;   // Date PolicyDhara first ingested this item — always populated for new items
   source_id: string;
   source_name: string;
   source_short: string;
@@ -157,11 +158,18 @@ export function getDailyActivity(): Record<string, number> {
   return counts;
 }
 
-/** Returns { 'YYYY-WW': count } for weekly trends */
+/** Returns { 'YYYY-WW': count } for weekly trends.
+ * Uses `first_seen` (ingestion date) when available so this reflects
+ * when items entered PolicyDhara. Falls back to `date` (issuance date)
+ * for legacy items missing first_seen.
+ */
 export function getWeeklyTrends(): { week: string; count: number }[] {
   const weekly: Record<string, number> = {};
   for (const p of getAllPolicies()) {
-    const d = new Date(p.date);
+    const ref = p.first_seen || p.date;
+    if (!ref) continue;
+    const d = new Date(ref);
+    if (Number.isNaN(d.getTime())) continue;
     const year = d.getFullYear();
     const jan1 = new Date(year, 0, 1);
     const weekNum = Math.ceil(((d.getTime() - jan1.getTime()) / 86400000 + jan1.getDay() + 1) / 7);
@@ -192,6 +200,100 @@ export function getTopSectors(n = 6): { sector: string; slug: string; count: num
     .sort(([, a], [, b]) => b - a)
     .slice(0, n)
     .map(([sector, count]) => ({ sector, slug: getSectorSlug(sector), count }));
+}
+
+/* ── Sector momentum (growing/shrinking over time) ────────────────────── */
+
+export interface SectorMomentum {
+  sector: string;
+  slug: string;
+  total: number;
+  recent: number;       // last N days (default 90)
+  prior: number;        // the N days before that
+  changePct: number;    // (recent - prior) / prior * 100, or NaN if prior=0
+  direction: 'up' | 'down' | 'flat' | 'new';
+  monthly: { month: string; count: number }[]; // per-month sparkline data, last 12 months
+}
+
+/**
+ * Returns per-sector momentum: how much each sector has grown or shrunk
+ * recently. Uses `first_seen` (ingestion date) when available because
+ * `date` (issuance) is empty for many items.
+ *
+ * windowDays: size of each comparison window (default 90 days).
+ *   recent = last `windowDays`
+ *   prior  = the `windowDays` before that
+ */
+export function getSectorMomentum(windowDays = 90, monthsHistory = 12): SectorMomentum[] {
+  const policies = getAllPolicies();
+  const now = Date.now();
+  const DAY = 86400000;
+  const recentCutoff = now - windowDays * DAY;
+  const priorCutoff = now - 2 * windowDays * DAY;
+  const monthsCutoff = now - monthsHistory * 31 * DAY;
+
+  type Bucket = {
+    total: number;
+    recent: number;
+    prior: number;
+    monthly: Record<string, number>;
+  };
+  const bySector: Record<string, Bucket> = {};
+
+  for (const p of policies) {
+    const ref = p.first_seen || p.date;
+    if (!ref) continue;
+    const t = new Date(ref).getTime();
+    if (Number.isNaN(t)) continue;
+
+    const monthKey = ref.slice(0, 7); // 'YYYY-MM'
+    for (const sector of p.sectors) {
+      if (!bySector[sector]) {
+        bySector[sector] = { total: 0, recent: 0, prior: 0, monthly: {} };
+      }
+      const b = bySector[sector];
+      b.total++;
+      if (t >= recentCutoff) b.recent++;
+      else if (t >= priorCutoff) b.prior++;
+      if (t >= monthsCutoff) b.monthly[monthKey] = (b.monthly[monthKey] || 0) + 1;
+    }
+  }
+
+  const result: SectorMomentum[] = [];
+  for (const [sector, b] of Object.entries(bySector)) {
+    let changePct: number;
+    let direction: SectorMomentum['direction'];
+    if (b.prior === 0 && b.recent > 0) {
+      changePct = NaN;
+      direction = 'new';
+    } else if (b.prior === 0 && b.recent === 0) {
+      changePct = 0;
+      direction = 'flat';
+    } else {
+      changePct = ((b.recent - b.prior) / b.prior) * 100;
+      if (changePct >= 15) direction = 'up';
+      else if (changePct <= -15) direction = 'down';
+      else direction = 'flat';
+    }
+
+    // Build monthly sparkline data sorted chronologically
+    const monthly = Object.entries(b.monthly)
+      .sort(([a], [c]) => a.localeCompare(c))
+      .map(([month, count]) => ({ month, count }));
+
+    result.push({
+      sector,
+      slug: getSectorSlug(sector),
+      total: b.total,
+      recent: b.recent,
+      prior: b.prior,
+      changePct,
+      direction,
+      monthly,
+    });
+  }
+
+  return result.sort((a, b) => b.total - a.total);
 }
 
 /** Returns a structured insight for a given sector */

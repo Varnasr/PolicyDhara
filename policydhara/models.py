@@ -16,7 +16,8 @@ class Policy:
     title: str
     description: str = ""
     link: str = ""
-    date: str = ""
+    date: str = ""              # Policy issuance/publication date (may be empty if unknown)
+    first_seen: str = ""        # Date PolicyDhara first ingested this item (always populated)
     source_id: str = ""
     source_name: str = ""
     source_short: str = ""
