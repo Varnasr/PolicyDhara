@@ -845,6 +845,48 @@
       "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
       "new_value": "Transport & Infrastructure",
       "source_id": "mocivil"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
     }
   ],
   "96304ab9ecdd": [
@@ -1921,6 +1963,13 @@
     },
     {
       "date": "2026-05-04",
+      "field": "description",
+      "old_value": "23 October 2025",
+      "new_value": "31 October 2025",
+      "source_id": "nic"
+    },
+    {
+      "date": "2026-05-05",
       "field": "description",
       "old_value": "23 October 2025",
       "new_value": "31 October 2025",
@@ -5376,6 +5425,27 @@
       "field": "description",
       "old_value": "Gazette notification: Ministry",
       "new_value": "Government of India press release: Union Ministry of Health and Family Welfare Inaugurates 2-Day National Conference on ...",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Gazette notification: Ministry",
+      "new_value": "Government of India press release: Ministry of Panchayati Raj to organize outreach workshop on Atmanirbhar Panchayat Ini...",
+      "source_id": "state_pib_assam"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Gazette notification: Ministry",
+      "new_value": "Government of India press release: Ministry of Education Organises Bharat Innovates 2026 Pre-Event Roadshow in Paris to ...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Gazette notification: Ministry",
+      "new_value": "Government of India press release: Ministry of Education Organises Bharat Innovates 2026 Pre-Event Roadshow in Paris to ...",
       "source_id": "state_pib_karnataka"
     },
     {
@@ -72518,6 +72588,461 @@
       "old_value": "Digital & Technology, Finance & Economy, Social Protection",
       "new_value": "Digital & Technology, Energy, Finance & Economy",
       "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Accounts Finalization of Accounts within two months of end of financial year. Bank Reconciliation: on quarterly basis and when needed. Correspondence with Ministry and other outside agenciesKnow More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "The following are main functions and responsibilities of Actuarial Department:  Formulation and amendment of regulations/legislations pertaining to Actuarial matters. To coordinate with Institute of Actuaries of India in bringing out Guidance Notes to be issued in concurrence with the Authority to enable suitable and necessary practices to evolve.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "legislation",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Energy, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Procurement of office supplies a.\tArranging procurement of office supplies like Stationery, consumables for different machines like Xerox etc. b.\tArranging purchase of office furniture, assets etc. c.\tArranging interior works like Cubicles, new work stations etc.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "The following are the functions and responsibilities of Agency distribution department:Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "1.\tMaintenance of Consumer Education Website: IRDAI’s Consumer Education Website (www.policyholder.gov.in) explains in a simple language the benefits of various types of insurance products, do’s and don’ts and grievance redressal mechanism etc. for spreading awareness amongst the general public.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Education, Finance & Economy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "The Department looks into the complaints from policyholders against life, non-life and health insurance companies.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Finance & Economy, Health",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Finance & Economy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "The following are the jobs listed as under:  Conducting meetings of the Authority, Insurance Advisory Committee (IAC) and meetings of Chairman with Heads of Departments (HoDs) by coordinating various activities;Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Enforcement department processes the inspection reports of various regulated entities and takes the same to logical conclusion by taking appropriate action on each of the observations forming part of the inspection report.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "research",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Transport & Infrastructure",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Process the requests of Insurers for: Transfer of shares/ change in Shareholding . Amalgamation and mergers and Arrangements of Life InsurersKnow More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Social Protection, Trade & Commerce",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Health Department is responsible for attending to all the functions involving regulation and supervision of health insurance business.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Finance & Economy, Health",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "The role of Human Resource Department is to meet the requirement of human resources and plan, develop, process and administer policies and programs designed to create an environment that develops, encourage and sustains the well-being of employees. The main aim is to strengthen the employer-employee relationship through measuring job satisfaction, employee engagement and resolving workplace conflict. It is that part of management which is concerned with the people at work and with their relation",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Climate & Environment, Digital & Technology, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "The Authority derives the following powers from Sec.14(2)(h) of the IRDAI Act, 1999:  o\tCalling for information  o\tUndertaking inspection o\tConducting enquiries and investigations including audit of the insurers, intermediaries, insurance intermediaries and other organizations connected with the insurance business.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "IRDAI (Registration of Insurance Marketing Firm) Regulations, 2015 (IMF Regulations) were notified in the Gazette on 21.01.2015. The Authority launched an online portal on 26th May, 2015 for facilitating the applicants to submit their applications through portal. The basic functions of the department are as follows.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Brokers & Distribution DevelopmentKnow More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Energy, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "IRDAI (Investment) Regulations, 2016 read along with Master Circular and guidelines amended from time to time regulate Insurers’ Investments.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Information Technology Department has been providing day-to-day assistance in planning, organizing, and implementing IT Projects designed to support IRDA in all aspects of information technology.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Energy, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "Legal Issues.\tCourt matters. Scrutinize of petitions received, entry in database, forward to the respective departments. Process for decision to file vakalat after due analysis. \tPrepare para-wise comments and draft counter affidavit with respect to the petition filed in coordination with the operating department and process for internal administrative approvals.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "research",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Energy, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "It is primarily responsible for work related to regulatory approvals, new regulation making, supervision related to Life Insurance companies and MIS/Inputs for policy making to Authority, Chairperson, Members.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Finance & Economy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "The following are functions and responsibilities of Non-Life Department :  1. Registration of Insurers. 2. Approval of Liaison offices.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "OLIKnow More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Finance & Economy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "IRDAI established the Re-insurance Department to take care of the following portfolios:-  All reinsurance related matters will be handled by the department including the following:Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "policy",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "To enhance and intensify regulatory cooperation, coordination and information exchange between IRDA and Government, domestic financial regulators and International Insurance regulators/association and also to focus on policy making through research and data driven analysis and improve the participation of IRDA in public policy debate, it has been decided by the Authority to form Sectoral Development Department.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "research",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Energy, Health, Social Protection",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "new_value": "In exercise of the powers conferred by sections 42D, 64 UM and 114A of the Insurance Act, 1938, as amended by The Insurance Laws (Amendment) Act, 2015 and section 26 of the Insurance Regulatory and Development Authority Act, 1999, the Authority framed IRDAI Insurance Surveyors and Loss Assessors Regulations, 2015.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "legislation",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Energy, Finance & Economy",
+      "source_id": "irdai"
     }
   ],
   "e383619f3aea": [
@@ -75245,6 +75770,13 @@
       "old_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "new_value": "The point of a wealth tax, it now seems, is to rein in the power of the rich. But all such a levy might effectively do is empower bureaucrats who decide how much wealth is worth taxing. This merely shifts power from the market to the government.",
       "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "new_value": "India’s rangelands store carbon, support millions, and have been ignored by climate policy for decades. Now that markets have noticed them, the question is whether rights or revenues will arrive first.",
+      "source_id": "frontline_mag"
     }
   ],
   "d7a775b0545d": [
@@ -102358,6 +102890,13 @@
       "old_value": "Two FIRs have been lodged against Sandeep Pathak under non-bailable sections, but no details have been disclosed yet; he was among the seven Rajya Sabha MPs who had quit the AAP and joined the BJP recently",
       "new_value": "This comes days after Sandeep Pathak switched from AAP to the BJP, as seven MPs merged with the ruling camp in the Upper House of Parliament.",
       "source_id": "republic_world"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Two FIRs have been lodged against Sandeep Pathak under non-bailable sections, but no details have been disclosed yet; he was among the seven Rajya Sabha MPs who had quit the AAP and joined the BJP recently",
+      "new_value": "The BJP and Shiromani Akali Dal (SAD) have termed the FIRs as ‘political vendetta’ against Sandeep Pathak as they questioned the timing of the cases.",
+      "source_id": "livemint_policy"
     }
   ],
   "71a2e7bf60a6": [
@@ -103437,6 +103976,13 @@
       "old_value": "Consumer Education Workshop Organized at Surat (Gujarat) by Bharti Airtel Ltd. ypjaipur Mon, 05/04/2026 - 09:52 Date Wed, 05/27/2026 - 12:00 District Surat Division Consumer Affairs Date & Time Wed, 05/27/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Event Category COP By TRAI Venue Details Hotel Kansar, A - President Plaza, Near. R T O, Ring Rd, Nanpura, Surat, Gujarat 395001 Event From Consumer Awareness( TSPs ) Conducted by RO-Jaipur Hide Register Button Show State",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Consumer Education Workshop Organized at Surat (Gujarat) by Bharti Airtel Ltd. ypjaipur Mon, 05/04/2026 - 09:52 Date Wed, 05/27/2026 - 12:00 District Surat Division Consumer Affairs Date & Time Wed, 05/27/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Event Category COP By TRAI Venue Details Hotel Kansar, A - President Plaza, Near. R T O, Ring Rd, Nanpura, Surat, Gujarat 395001 Event From Consumer Awareness( TSPs ) Conducted by RO-Jaipur Hide Register Button Show State",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "deb8097f9fb2": [
@@ -103627,6 +104173,132 @@
       "old_value": "Bharatiya Janata Party (BJP) MLA DN Jeevaraj has approached the Karnataka High Court challenging the registration of an FIR over allegations that he tampered with voter ballot papers to secure an election victory from the Sringeri constituency after a recent vote recount. The plea is likely to be listed before the vacation Bench comprising Justice V Srishananda tomorrow (May 5). The matter concerns the 2023 Karnataka Assembly elections. Earlier, Congress leader TD Rajegowda had been declared the",
       "new_value": "The Karnataka High Court on Tuesday stayed proceedings against BJP MLA DN Jeevaraj in the voter ballot tampering case registered against him. [DN Jeevaraja v. State of Karnataka & Ors]Justice V Srishananda noted that the first information report (FIR) was lodged after a recount and revision of the election result.\"Raje Gowda lost, State filed an FIR. This is a motivated FIR. Government has other work to do, not to do this. The case happened in 13.5.2023, now State has registered case. If the",
       "source_id": "barandbench"
+    }
+  ],
+  "68f19602ecd9": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Alleged to be a middleman in defence deals, he is accused of routing large sums through overseas shell companies and investing in properties in the UAE and the UK between 2009 and 2016.",
+      "new_value": "Bhandari is accused of routing large sums through overseas shell companies and investing in properties in the UAE and the UK between 2009 and 2016.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "df904b823947": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "In the financial year ending March 2026, a total of about 21.2 lakh households were benefited fromrooftop solar installations under the scheme",
+      "new_value": "In the financial year ending March 2026, a total of about 21.2 lakh households were benefited from rooftop solar installations under the scheme",
+      "source_id": "business_line"
+    }
+  ],
+  "b9c6a52d9f31": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "FADA says demand expected to continue with marriage season in next 2 months",
+      "new_value": "With 2Ws at 13%, 3Ws at 7.19%, PVs at 12.21%, CVs at 15% and tractors at 23.22%, the categories registered all-time April records",
+      "source_id": "business_line"
+    }
+  ],
+  "ddaa9f8403b5": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Government of India press release: Union Minister Shri Dharmendra Pradhan Inaugurates IIT Madras’ First-Ever Technology ...",
+      "new_value": "Government of India press release: Union Minister Shri Dharmendra Pradhan Inaugurates IIT Madras’ First-Ever Technology Summit in Delhi",
+      "source_id": "state_pib_punjab"
+    }
+  ],
+  "bac8c95da8a9": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "CIC recommends DoPT include sub-caste data in UPSC results to broaden reach of affirmative action",
+      "new_value": "The DoPT official added that the list of candidates allocated to services (along with their category) on the basis of CSE-2017 onwards is available on the department's portal",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "86f18634829a": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Government of India press release: MoD inks Rs 1,476 crore contract with BEL for five Ground-Based Mobile Electronic Sys...",
+      "new_value": "According to Defence Ministry, the systems, with a minimum indigenous content of 72%, are expected to significantly enhance the operational capabilities of Army units while advancing India’s self-reliance in defence manufacturing.",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "ed4bea1b5f00": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "The Supreme Court on Monday held that medical negligence cases for compensation can be pursued against legal heirs of the doctor after the doctor's death in order to deal with damages that may have to be paid to the complainant from the doctor’s estate [Kumud Lall v. Suresh Chandra Roy & Ors.]. A Bench of Justices JK Maheshwari and AS Chandurkar clarified that while claims relating to personal injury or suffering may not continue after a person’s death, claims involving f",
+      "new_value": "The Bench says heirs are not personally liable, but compensation can be paid from the deceased doctor’s estate",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "00db0e9f25be": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "BJP Leader Rahul Sinha, however, rejected the charge that any of his party's workers were involved in vandalism, saying it might be the handiwork of rival factions within the TMC",
+      "new_value": "CM Mamata Banerjee accuses BJP of targeting TMC workers; PM Narendra Modi calls for an end to the cycle of violence; reports emerge of arson, stone-pelting, along with videos of bloodied workers",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "778f6c766f47": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "The 30-share BSE Sensex declined 361.62 points to 76,907.78 in early trade. The 50-share NSE Nifty dropped 134.90 points to 23,980.60",
+      "new_value": "From the Sensex firms, ICICI Bank, Eternal, Tech Mahindra, Axis Bank, Bharti Airtel and Larsen & Toubro were among the major laggards",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "4bc6ee9a3848": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Forex traders said Brent oil, hovering near $110 per barrel, is maintaining pressure on oil-importing economies like India; moreover, factors such as unabated foreign capital outflows amid rising geopolitical uncertainties dented investor sentiments further.",
+      "new_value": "At the interbank foreign exchange market, the rupee touched 94.95 against the U.S. dollar in initial trade, registering a fall of 11 paise over its previous close",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "719f6ac6a9ee": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "“We have not received any request so far. If he approaches us, we will consider it, as in a democracy we must respect every political party,” party State secretary M. Veerapandian said",
+      "new_value": "TVK chief Vijay has requested Congress support to form government in Tamil Nadu: KC Venugopal",
+      "source_id": "ndtv_india"
+    }
+  ],
+  "ea74ba2be369": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Passengers further stated that due to the fire, the cabin of the flight filled with smoke.",
+      "new_value": "IndiGo Flight Evacuated As Power Bank Catches Fire After Landing In Chandigarh",
+      "source_id": "ndtv_india"
+    }
+  ],
+  "79c7d383f5ed": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "School Assembly News Headlines (May 3): Stay updated and be ready to share your thoughts in the morning with these School Assembly News Headlines.",
+      "new_value": "School Assembly News Headlines (May 6): Stay updated and be ready to share your thoughts in the morning with these School Assembly News Headlines.",
+      "source_id": "ndtv_india"
+    }
+  ],
+  "dfc95c3f775f": [
+    {
+      "date": "2026-05-05",
+      "field": "description",
+      "old_value": "Raghu Rai’s story is intricately linked with that of India. Without either, the story would be incomplete",
+      "new_value": "The legendary photojournalist who saw with a hawk’s eye and a velvet hand, and taught us that true seeing is darshan.",
+      "source_id": "frontline_mag"
     }
   ]
 }
