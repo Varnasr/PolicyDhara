@@ -31,25 +31,24 @@ const TYPE_COLORS: Record<string, string> = {
 // Top sector max for bar widths
 const maxSectorCount = Math.max(...topSectors.map(s => s.count), 1);
 
-// Recency uses `first_seen` (when PolicyDhara ingested) for "added this week"
-// stats — `date` is the policy's issuance date and is empty for ~half the
-// dataset where the source didn't expose a publication date. Mixing them
-// would make every fetch cycle look like a flood of new policies.
+// "Added this week" reflects ENACTMENT date (`p.date`), not when PolicyDhara
+// ingested the item. Items without a real publication date are excluded —
+// they'd otherwise need a fallback that silently misreports ingestion as
+// enactment, the bug this widget had previously.
 const now = Date.now();
 const DAY = 86400000;
-function ageDays(p: PolicyItem): number | null {
-  const ref = p.first_seen || p.date;
-  if (!ref) return null;
-  const t = new Date(ref).getTime();
+function enactedDaysAgo(p: PolicyItem): number | null {
+  if (!p.date) return null;
+  const t = new Date(p.date).getTime();
   if (Number.isNaN(t)) return null;
   return (now - t) / DAY;
 }
 const last7 = policies.filter(p => {
-  const a = ageDays(p);
-  return a !== null && a < 7;
+  const a = enactedDaysAgo(p);
+  return a !== null && a >= 0 && a < 7;
 }).length;
 const prev7 = policies.filter(p => {
-  const a = ageDays(p);
+  const a = enactedDaysAgo(p);
   return a !== null && a >= 7 && a < 14;
 }).length;
 // Honest comparison: only show a percentage when both periods have data.
@@ -78,11 +77,11 @@ const GOV_PARTY_COLORS: Record<string, string> = {
 <div class="insights-grid">
   {/* Quick stats row */}
   <div class="insight-card insight-quickstats">
-    <h4>Added This Week</h4>
+    <h4>Enacted This Week</h4>
     <div class="qs-row">
       <div class="qs-item">
         <span class="qs-number">{last7}</span>
-        <span class="qs-label">Policies ingested<br/>(last 7 days)</span>
+        <span class="qs-label">Policies enacted<br/>(last 7 days)</span>
       </div>
       <div class="qs-item">
         {hasComparison ? (
@@ -101,9 +100,9 @@ const GOV_PARTY_COLORS: Record<string, string> = {
       </div>
     </div>
     <p class="qs-note">
-      Counts when items were <em>added</em> to PolicyDhara, not when they were
-      <em>issued</em>. Only {issuanceDateCoveragePct}% of items expose a
-      publication date.
+      Counts items issued in the last 7 days by their official publication date.
+      Only {issuanceDateCoveragePct}% of items in the dataset expose a publication
+      date — the rest are excluded from this metric.
     </p>
   </div>
 

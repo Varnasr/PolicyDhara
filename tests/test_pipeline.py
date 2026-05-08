@@ -195,6 +195,48 @@ class TestFirstSeenStamping:
         )
 
 
+class TestNoTodayFallback:
+    """fetch_source must NOT stamp today's date on items where the source
+    didn't expose a publication date. Doing so contaminates `p.date` with
+    fake "issued today" timestamps, which is what made the homepage
+    "enacted this week" widget report ingestion cadence for years.
+    """
+
+    @pytest.fixture
+    def fetch_all(self, tmp_path, monkeypatch):
+        mod = _load_module("fetch_all")
+        monkeypatch.setattr(mod, "DATA_DIR", tmp_path)
+        monkeypatch.setattr(mod, "AMENDMENTS_FILE", tmp_path / "amendments.json")
+        return mod
+
+    def test_undated_source_item_keeps_empty_date(self, fetch_all, monkeypatch):
+        from datetime import datetime, timezone
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+        # Stub the dispatch layer so fetch_source returns one undated item
+        monkeypatch.setattr(
+            fetch_all,
+            "fetch_scrape_source",
+            lambda sid, cfg: [{
+                "title": "A long enough policy title to pass validation",
+                "description": "desc",
+                "link": "https://example.gov.in/x",
+                "date": "",
+            }],
+        )
+        monkeypatch.setattr(fetch_all, "extract_date_from_title", lambda t: "")
+        monkeypatch.setattr(fetch_all, "is_valid_title", lambda t: True)
+        monkeypatch.setattr(fetch_all, "classify_policy", lambda *a, **k: ["governance"])
+
+        items = fetch_all.fetch_source("test", {"type": "scrape", "name": "Test", "short_name": "T"})
+        assert items, "fetcher returned nothing"
+        assert items[0]["date"] == "", (
+            f"date must stay empty when source provides none — got {items[0]['date']!r}. "
+            f"If this is today ({today}), the today-fallback regressed and "
+            f"'enacted this week' will silently report ingestion cadence."
+        )
+
+
 class TestSourcesWired:
     """Lock the wiring for PIB ministry-filtered sources. Each source must
     point at a unique MinId on the PIB Allrel.aspx listing, and the scraper

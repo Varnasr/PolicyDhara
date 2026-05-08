@@ -593,9 +593,13 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             if not date:
                 date = extract_date_from_title(title)
 
-            # Last resort: use today's date
-            if not date:
-                date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            # Leave date empty if the source didn't expose one and we couldn't
+            # parse it from the title. Stamping today's date here pollutes the
+            # dataset with fake "issued today" timestamps and makes every
+            # enactment-based analytic (homepage "added this week", trend
+            # charts, sector momentum) silently report ingestion cadence
+            # instead. Items without a date still get first_seen (set in
+            # merge_policies) so they don't disappear from the dataset.
 
             policy_id = generate_id(title, source_id)
             sectors = classify_policy(title, description, source_sectors)
