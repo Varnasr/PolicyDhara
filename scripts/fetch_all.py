@@ -367,6 +367,8 @@ def merge_policies(existing: dict, new_items: list[dict]) -> list[dict]:
     """Merge new items with existing, deduplicating by ID, source+title, and title across sources.
     Also detects amendments when a policy reappears with changed text."""
 
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
     # --- Amendment detection (before overwriting) ---
     amendments = load_amendments()
     amendments = detect_amendments(existing, new_items, amendments)
@@ -390,7 +392,20 @@ def merge_policies(existing: dict, new_items: list[dict]) -> list[dict]:
             old_first_seen = old.get("first_seen", "")
             if old_first_seen:
                 item["first_seen"] = old_first_seen
+        # Stamp first_seen on every item that doesn't have one (newly-ingested
+        # items, or legacy records from before this field existed). This drives
+        # the "Added This Week" / sector-momentum analytics — without it those
+        # widgets fall back to p.date and silently misreport ingestion cadence.
+        if not item.get("first_seen"):
+            item["first_seen"] = today
         existing[pid] = item
+
+    # Defensive backfill: any record already in `existing` but never seen in
+    # this fetch cycle (e.g. dropped from the source feed) also needs
+    # first_seen so analytics don't break for it.
+    for pid, item in existing.items():
+        if not item.get("first_seen"):
+            item["first_seen"] = today
 
     # First pass: deduplicate by source+title (keep the one with the best date)
     seen: dict[tuple, dict] = {}

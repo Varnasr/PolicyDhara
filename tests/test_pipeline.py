@@ -144,6 +144,57 @@ class TestPriorityFilter:
 # ── Telegram message formatting ──────────────────────────────────────
 
 
+class TestFirstSeenStamping:
+    """merge_policies must stamp first_seen on every record. Without it,
+    the homepage 'Added This Week' widget and sector-momentum analytics
+    fall back to p.date (issuance date) and silently misreport ingestion
+    cadence — a bug that re-regressed once already.
+    """
+
+    @pytest.fixture
+    def fetch_all(self, tmp_path, monkeypatch):
+        mod = _load_module("fetch_all")
+        # Redirect file-writing helpers away from the repo
+        monkeypatch.setattr(mod, "DATA_DIR", tmp_path)
+        monkeypatch.setattr(mod, "AMENDMENTS_FILE", tmp_path / "amendments.json")
+        monkeypatch.setattr(mod, "load_amendments", lambda: {})
+        monkeypatch.setattr(mod, "save_amendments", lambda *_: None)
+        monkeypatch.setattr(mod, "detect_amendments", lambda existing, new, amendments: amendments)
+        return mod
+
+    def test_new_item_gets_first_seen(self, fetch_all):
+        existing: dict = {}
+        new_items = [{"id": "x", "title": "T", "source_id": "s", "date": "2026-05-01"}]
+        fetch_all.merge_policies(existing, new_items)
+        assert existing["x"].get("first_seen"), "first_seen must be set on new items"
+
+    def test_existing_first_seen_preserved(self, fetch_all):
+        existing = {
+            "x": {
+                "id": "x",
+                "title": "T",
+                "source_id": "s",
+                "first_seen": "2024-01-15",
+            }
+        }
+        new_items = [{"id": "x", "title": "T", "source_id": "s", "date": "2026-05-01"}]
+        fetch_all.merge_policies(existing, new_items)
+        assert existing["x"]["first_seen"] == "2024-01-15"
+
+    def test_legacy_record_backfilled(self, fetch_all):
+        """Records already in `existing` but absent from this fetch cycle
+        must still get first_seen — they're the 2000 legacy items the
+        previous fix forgot about."""
+        existing = {
+            "legacy": {"id": "legacy", "title": "Old", "source_id": "s"}
+        }
+        fetch_all.merge_policies(existing, new_items=[])
+        assert existing["legacy"].get("first_seen"), (
+            "legacy records missing first_seen must be backfilled, otherwise "
+            "the 'Added This Week' widget reverts to issuance-date fallback"
+        )
+
+
 class TestMessageFormatting:
     def test_html_escapes_special_chars(self, pipeline):
         msg = pipeline["telegram"].format_message(
