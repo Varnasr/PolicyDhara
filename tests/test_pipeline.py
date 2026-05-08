@@ -195,6 +195,41 @@ class TestFirstSeenStamping:
         )
 
 
+class TestSourcesWired:
+    """Lock the wiring for ministry-filtered PIB sources (Election
+    Commission first). Without these, items from the source can land
+    silently mis-attributed via the scrape_ministry fallback, or worse,
+    fail to fetch because the feeds.json entry is malformed.
+    """
+
+    @pytest.fixture(scope="class")
+    def feeds(self):
+        feeds_path = Path(__file__).resolve().parent.parent / "feeds.json"
+        return json.loads(feeds_path.read_text())
+
+    def test_pib_eci_source_defined(self, feeds):
+        src = feeds["sources"].get("pib_eci")
+        assert src is not None, "pib_eci must exist in feeds.json"
+        assert src["type"] == "scrape"
+        assert "MinId=35" in src["url"], (
+            "pib_eci must filter by ECI's PIB MinId; without MinId=35 the "
+            "scraper hits the firehose and ECI items get drowned out"
+        )
+
+    def test_pib_eci_uses_pib_scraper(self):
+        from importlib.util import spec_from_file_location, module_from_spec
+
+        scrape_path = SCRIPTS_DIR / "fetch_scrape.py"
+        spec = spec_from_file_location("fetch_scrape", scrape_path)
+        mod = module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        assert "pib_eci" in mod.SOURCE_SCRAPERS
+        assert mod.SOURCE_SCRAPERS["pib_eci"] is mod.scrape_pib, (
+            "pib_eci must route through scrape_pib — scrape_ministry uses "
+            "different selectors and won't pick up PIB's PRID-based links"
+        )
+
+
 class TestMessageFormatting:
     def test_html_escapes_special_chars(self, pipeline):
         msg = pipeline["telegram"].format_message(

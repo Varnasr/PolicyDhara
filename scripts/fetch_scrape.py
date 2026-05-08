@@ -637,6 +637,7 @@ def scrape_orf(config: dict) -> list[dict]:
 
 SOURCE_SCRAPERS = {
     "pib": scrape_pib,
+    "pib_eci": scrape_pib,
     "india_code": scrape_india_code,
     "egazette": scrape_egazette,
     "niti_aayog": scrape_niti_aayog,

@@ -43,6 +43,17 @@
       "description": "Official press releases from all ministries and departments of the Government of India",
       "covers_sectors": "all"
     },
+    "pib_eci": {
+      "name": "Election Commission of India (via PIB)",
+      "short_name": "ECI",
+      "type": "scrape",
+      "url": "https://pib.gov.in/Allrel.aspx?MinId=35&reg=3&lang=1",
+      "frequency": "Daily",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "First-party Election Commission of India press releases, syndicated through PIB's ministry-filtered listing (MinId=35)",
+      "covers_sectors": "governance"
+    },
     "prs_legislative": {
       "name": "PRS Legislative Research",
       "short_name": "PRS",
