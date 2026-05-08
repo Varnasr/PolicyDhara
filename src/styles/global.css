@@ -1503,3 +1503,36 @@ kbd {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* ── Mobile polish ─────────────────────────────────────────────
+   Targeted fixes for narrow viewports: tap target minimums,
+   word-break for long titles/URLs, footer-row wrapping, and a
+   tighter container at the smallest sizes. */
+
+@media (max-width: 600px) {
+  /* Long titles and source URLs in policy cards must wrap, not
+     push the card out and trigger horizontal page scroll. */
+  .policy-title,
+  .policy-meta,
+  .policy-summary,
+  .policy-card a { overflow-wrap: anywhere; word-break: break-word; }
+  .policy-card { min-width: 0; }
+
+  /* Tap target minimums (Apple HIG / Material guidance ~44px) */
+  .nav-hamburger { padding: 12px; min-width: 44px; min-height: 44px; }
+  .theme-toggle .theme-opt { min-width: 36px; min-height: 36px; }
+  .nav-rss { min-width: 44px; min-height: 44px; display: inline-flex;
+             align-items: center; justify-content: center; }
+  .bookmark-btn { min-width: 36px; min-height: 36px; }
+
+  /* Footer legal items: stack the inline list cleanly instead of
+     showing orphan separators after a wrap. */
+  .footer-legal-row { flex-wrap: wrap; gap: 4px 8px; }
+  .footer-legal-sep { display: none; }
+}
+
+@media (max-width: 380px) {
+  .container { padding: 0 12px; }
+  /* Header logo subtitle just adds noise on phones */
+  .site-logo .subtitle { display: none; }
+}

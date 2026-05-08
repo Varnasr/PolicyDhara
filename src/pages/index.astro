@@ -297,12 +297,22 @@ const weekStatLabel: string = 'enacted this week';
 
   @media (max-width: 768px) {
     .dash-hero { flex-direction: column; align-items: flex-start; }
-    .dash-hero-stats { gap: var(--space-lg); }
+    .dash-hero-stats { gap: var(--space-lg); flex-wrap: wrap; }
     .dash-title { font-size: 1.5rem; }
   }
   @media (max-width: 480px) {
-    .dash-hero-stats { gap: var(--space-sm); }
+    /* 4 stats + 3 dividers don't fit on a phone — wrap, drop the dividers,
+       and let each stat take its natural width with a sensible row gap. */
+    .dash-hero-stats {
+      flex-wrap: wrap;
+      gap: var(--space-md) var(--space-lg);
+      justify-content: flex-start;
+      width: 100%;
+    }
+    .dash-stat-divider { display: none; }
+    .dash-stat { text-align: left; flex: 0 0 auto; }
     .dash-stat-num { font-size: 1.25rem; }
+    .dash-intro { font-size: 0.75rem; }
   }
 
   /* ── Two-column dashboard grid ─────────────────────── */
