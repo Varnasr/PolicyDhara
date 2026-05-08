@@ -51,11 +51,15 @@ def save_snapshot():
 
 
 def find_new_policies() -> list[dict]:
-    """Compare current policies against snapshot to find new ones."""
+    """Compare current policies against snapshot to find new ones.
+
+    Returns [] if no snapshot exists. The CI workflow always writes a
+    pre-fetch snapshot via --snapshot-only before any consumer runs;
+    a missing snapshot means there's nothing to diff against.
+    """
     old_ids = load_snapshot()
     if not old_ids:
-        print("  No previous snapshot found — saving current state (no email this run)")
-        save_snapshot()
+        print("  No previous snapshot found — nothing to diff this run")
         return []
 
     with open(POLICIES_FILE) as f:
