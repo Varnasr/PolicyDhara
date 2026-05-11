@@ -7288,6 +7288,13 @@
       "old_value": "Gazette notification: Ministry",
       "new_value": "Gazette notification: Ministry of Petroleum and Natural Gas",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "Gazette notification: Ministry",
+      "new_value": "Gazette notification: Ministry of Agriculture and Farmers Welfare",
+      "source_id": "egazette"
     }
   ],
   "603bae5e44d2": [
@@ -114565,6 +114572,20 @@
       "old_value": "The Telegraph, Guwahati, May 16, 2012",
       "new_value": "Consumer Education Workshop at Baloda Bazar (Chhattisgarh) by Reliance Jio Infocomm Ltd assistantbhopal Fri, 05/08/2026 - 22:24 Date Wed, 05/20/2026 - 12:00 District Baloda Bazar Division Consumer Affairs Date & Time Wed, 05/20/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Event Category COP By TRAI Venue Details Plot No 33/11 and 38/12 Ward No 14 Mahatma,Gandhi Road Baloda Bazar,Baloda Bazar,District Raipur,Chhatisgarh , Pincode - 493332 Event From Consumer Awareness",
       "source_id": "trai"
+    },
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "The Telegraph, Guwahati, May 16, 2012",
+      "new_value": "Government of India press release: National Consultative Workshop and Review Meeting on “Developing Tourist Destinations...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "The Telegraph, Guwahati, May 16, 2012",
+      "new_value": "Government of India press release: National Consultative Workshop and Review Meeting on “Developing Tourist Destinations...",
+      "source_id": "state_pib_karnataka"
     }
   ],
   "76da9ef48417": [
@@ -126192,6 +126213,13 @@
       "old_value": "As he commenced uttering “C. Joseph Vijay ennum naan…”, the crowd erupted in celebration, with whistle sounds filling the stadium with excitement and a sense of political arrival",
       "new_value": "Vijay Meets Ex Tamil Nadu Chief Minister MK Stalin, Days After Big Election Win",
       "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "As he commenced uttering “C. Joseph Vijay ennum naan…”, the crowd erupted in celebration, with whistle sounds filling the stadium with excitement and a sense of political arrival",
+      "new_value": "Vijay's oath ceremony, which took place on Sunday, came after four days of protracted political negotiations after his party received an unprecedented mandate that split open the binary politics that Tamil Nadu",
+      "source_id": "ndtv_india"
     }
   ],
   "9d0fde39baa2": [
@@ -126384,6 +126412,13 @@
     }
   ],
   "3c22e25b5bf5": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "According to Airport Director Girishchandra Verma, IndiGo and Star Air have stopped operating services from Gondia due to “technical and operational” reasons",
+      "new_value": "Sources said the carriers’ decision to suspend operations at the airport could be linked to the ongoing West Asia crisis, which has affected global energy supplies",
+      "source_id": "business_line"
+    },
     {
       "date": "2026-05-11",
       "field": "description",
@@ -127096,6 +127131,119 @@
       "field": "description",
       "old_value": "From soil and thread to immersive myth and monumental sculpture, India’s Venice Biennale 2026 presence expands beyond the pavilion into a layered meditation on home and identity",
       "new_value": "Curated by Amin Jaffer, the India pavilion at the 61st International Art exhibition of Venice Biennale features the works of 5 artists — unusual for a national pavilion that typically features only 1 or 2 artists",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "ae927e016517": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "A strengthening U.S. dollar and steep FPI outflows further pressured the local unit, according to forex traders",
+      "new_value": "A strengthening U.S. dollar and steep foreign capital outflows further pressured the local unit, according to forex traders",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "428a5547b251": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "The entire controversy relating to the appointment has arisen following the trial court’s February 27 order discharging Kejriwal, Sisodia, holding that CBI’s material did not even disclose prima facie case",
+      "new_value": "The entire controversy relating to the appointment has arisen following the trial court’s February 27 order discharging Kejriwal, Sisodia",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-05-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Social Protection",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "b88d977f3317": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "HSBC also lowered India’s FY27 GDP growth forecast to 6 per cent, warning that higher food prices, industrial cost pressures and climate-related disruptions could create a difficult policy environment for the RBI",
+      "new_value": "HSBC also lowered India’s FY27 GDP growth forecast to 6%, warning that higher food prices, industrial cost pressures and climate-related disruptions could create a difficult policy environment for the RBI",
+      "source_id": "business_line"
+    }
+  ],
+  "498c9ebdb347": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "Meity Minister Ashwini Vaishnaw says new factories and component units will accelerate shipments",
+      "new_value": "Says as major improvements in railways infrastructure, people will prefer trains to air travel",
+      "source_id": "business_line"
+    }
+  ],
+  "89cf3972c081": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "7 April 2026",
+      "new_value": "Gazette notification: Ministry of Health and Family Welfare",
+      "source_id": "egazette"
+    }
+  ],
+  "efed432ef5d9": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "Government of India press release: ICMR transfers three Indigenous Medical Technologies to Industry at National Technology Day 2026",
+      "new_value": "Government of India press release: ICMR transfers three Indigenous Medical Technologies to Industry at National Technolo...",
+      "source_id": "state_pib_karnataka"
+    }
+  ],
+  "c58861351dbd": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "Mr. Bose reached the Enforcement Directorate (ED) office at the CGO Complex in Salt Lake around 10:30 a.m., accompanied by his son Samudra Bose",
+      "new_value": "The investigation agency said the Trinamool Congress leader had illegally recommended 150 candidates for different posts under the South Dum Dum Municipality in lieu of pecuniary benefits",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "Mr. Bose reached the Enforcement Directorate (ED) office at the CGO Complex in Salt Lake around 10:30 a.m., accompanied by his son Samudra Bose",
+      "new_value": "This is the first major arrest of a TMC leader after the Suvendu Adhikari-led Bharatiya Janata Party government assumed office in the state on Saturday.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "336ff6db37d5": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "It comes days after the J&K lodged a FIR against unidentified individuals “promoting separatist ideology and propagating false information, with an intent to incite unlawful activities prejudicial to the peace, sovereignty and integrity of India”",
+      "new_value": "X withheld Mufti’s social media handle with the message: ‘In response to a legal demand’; PDP’s spokesperson says silencing voices will not silence the issues",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "3921bec9a10c": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "Himanta Biswa Sarma, who is retaining his CM seat after the poll win, will be sworn in at 11.40 am on May 12 at the Veterinary College Field at Khanapara.",
+      "new_value": "Himanta Biswa Sarma says the meeting to elect the BJP Legislature Party leader will be held in the presence of Union Minister J.P. Nadda, and Haryana Chief Minister Nayab Singh Saini",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "a37e71a3150a": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "The accident occurred when a sports bike, a Suzuki Hayabusa (HR 26 BP 1491) rammed into a car trying to take turn at the X-road between 12.30 a.m. and 1 a.m.",
+      "new_value": "The accident occurred when a sports bike, a Suzuki Hayabusa (HR 26 BP 1491), rammed into a car trying to take a turn at the X-road",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "98e8ca0a928f": [
+    {
+      "date": "2026-05-11",
+      "field": "description",
+      "old_value": "Mamata Banerjee’s former trusted lieutenant has unseated her from power and become West Bengal’s first BJP Chief Minister",
+      "new_value": "Dilip Ghosh gets panchayats and rural development; Agnimitra Paul gets women and child development",
       "source_id": "hindustan_times"
     }
   ]
