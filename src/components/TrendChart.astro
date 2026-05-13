@@ -2,6 +2,8 @@
 import { getWeeklyTrends } from '../lib/data';
 
 const allTrends = getWeeklyTrends();
+// Show 12 weeks of history but reduce density on phones via CSS-controlled
+// data attribute so the bars don't end up as thin slivers below 480px.
 const trends = allTrends.slice(-12);
 
 // Compute stats
@@ -10,13 +12,15 @@ const maxCount = Math.max(...counts, 1);
 const minCount = Math.min(...counts);
 const avgCount = counts.reduce((a, b) => a + b, 0) / (counts.length || 1);
 
-// SVG dimensions
+// SVG dimensions — viewBox is the coordinate system the SVG draws into and
+// is independent of rendered pixels. Sizing labels in viewBox units means
+// they keep readable proportions when the SVG scales down on phones.
 const svgWidth = 600;
-const svgHeight = 260;
-const padTop = 30;
-const padBottom = 50;
-const padLeft = 40;
-const padRight = 20;
+const svgHeight = 280;
+const padTop = 32;
+const padBottom = 56;
+const padLeft = 44;
+const padRight = 22;
 
 const chartW = svgWidth - padLeft - padRight;
 const chartH = svgHeight - padTop - padBottom;
@@ -198,15 +202,14 @@ function weekLabel(w: string): string {
   }
 
   .trend-svg-wrap {
-    overflow-x: auto;
-    scrollbar-width: thin;
-    scrollbar-color: var(--color-border) transparent;
+    /* Let the SVG scale fluidly to the wrapper width instead of locking it
+       to a 400px floor that forced horizontal scroll on phones. */
+    width: 100%;
   }
   .trend-svg {
     width: 100%;
     height: auto;
     display: block;
-    min-width: 400px;
   }
 
   /* Gridlines */
@@ -219,9 +222,13 @@ function weekLabel(w: string): string {
     stroke: var(--color-border, #333);
   }
 
+  /* All SVG text below uses viewBox-unit font-sizes so they scale with the
+     SVG. At 360px rendered width the SVG scales to ~60% of native, so 16
+     viewBox units land at roughly 10px on screen — readable. */
+
   /* Y-axis labels */
   .trend-y-label {
-    font-size: 10px;
+    font-size: 16px;
     fill: var(--color-text-dim, #9ca3af);
     text-anchor: end;
     font-family: system-ui, -apple-system, sans-serif;
@@ -229,7 +236,7 @@ function weekLabel(w: string): string {
 
   /* X-axis labels */
   .trend-x-label {
-    font-size: 10px;
+    font-size: 16px;
     fill: var(--color-text-muted, #6b7280);
     text-anchor: middle;
     font-family: system-ui, -apple-system, sans-serif;
@@ -238,7 +245,7 @@ function weekLabel(w: string): string {
 
   /* Value labels on bars */
   .trend-val-label {
-    font-size: 10px;
+    font-size: 15px;
     fill: var(--color-text-secondary, #4b5563);
     text-anchor: middle;
     font-family: system-ui, -apple-system, sans-serif;
@@ -255,7 +262,7 @@ function weekLabel(w: string): string {
     opacity: 0.5;
   }
   .trend-ref-label {
-    font-size: 9px;
+    font-size: 14px;
     fill: var(--color-text-dim, #9ca3af);
     font-family: system-ui, -apple-system, sans-serif;
     font-weight: 500;
@@ -280,11 +287,7 @@ function weekLabel(w: string): string {
   }
 
   @media (max-width: 768px) {
-    .trend-header {
-      flex-direction: column;
-    }
-    .trend-svg {
-      min-width: 360px;
-    }
+    .trend-header { flex-direction: column; }
+    .trend-container { padding: var(--space-md); }
   }
 </style>

@@ -49,6 +49,20 @@ const decadeYears = allYears.filter(y => y.year % 5 === 0).map(y => y.year);
 const totalPolicies = policies.length;
 const yearsSpanned = maxYear - minYear + 1;
 const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end)).length;
+
+// Aggregate by era for the mobile view. 36 thin year-bars are unreadable
+// below ~600px viewport even after horizontal scroll; 6 era bars give the
+// same shape of the story (when did activity ramp up?) at touchable size.
+const eraAgg = ERAS.map(era => {
+  const yearsInEra = allYears.filter(y => y.year >= era.start && y.year < era.end);
+  const total = yearsInEra.reduce((sum, y) => sum + y.total, 0);
+  const types: Record<string, number> = {};
+  for (const y of yearsInEra) {
+    for (const [t, n] of Object.entries(y.types)) types[t] = (types[t] || 0) + n;
+  }
+  return { era, total, types };
+}).filter(e => e.total > 0);
+const maxEraTotal = Math.max(...eraAgg.map(e => e.total), 1);
 ---
 
 <div class="timeline-container">
@@ -65,6 +79,29 @@ const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end))
         </span>
       ))}
     </div>
+  </div>
+
+  {/* Mobile-only: aggregated era view (shown below 640px) */}
+  <div class="timeline-eras-mobile">
+    {eraAgg.map(({ era, total, types }) => {
+      const heightPct = Math.max((total / maxEraTotal) * 100, 6);
+      return (
+        <div class="tle-row" style={`--era-light: ${era.light}; --era-dark: ${era.dark};`}>
+          <div class="tle-meta">
+            <span class="tle-era-name">{era.name}</span>
+            <span class="tle-era-range">{era.start}{era.end - 1}</span>
+          </div>
+          <div class="tle-bar-track">
+            <div class="tle-bar" style={`width: ${heightPct}%;`}>
+              {Object.entries(types).sort(([, a], [, b]) => b - a).map(([type, count]) => (
+                <span class="tle-bar-segment" style={`flex-grow: ${count}; background: ${TYPE_COLORS[type] || '#888'};`} title={`${type}: ${count}`}></span>
+              ))}
+            </div>
+          </div>
+          <span class="tle-count">{total}</span>
+        </div>
+      );
+    })}
   </div>
 
   <div class="timeline-chart-wrap">
@@ -313,9 +350,64 @@ const erasCovered = ERAS.filter(e => years.some(y => y >= e.start && y < e.end))
     font-weight: 600;
   }
 
+  /* Mobile era-aggregated view — hidden by default. */
+  .timeline-eras-mobile { display: none; }
+  .tle-row {
+    display: grid;
+    grid-template-columns: 96px 1fr 36px;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .tle-row:last-child { border-bottom: none; }
+  .tle-meta { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+  .tle-era-name {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.2;
+  }
+  .tle-era-range {
+    font-size: 0.625rem;
+    color: var(--color-text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .tle-bar-track {
+    height: 14px;
+    background: var(--era-light);
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 0;
+  }
+  :global([data-theme="dark"]) .tle-bar-track { background: var(--era-dark); }
+  .tle-bar {
+    display: flex;
+    height: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 4px;
+  }
+  .tle-bar-segment { height: 100%; }
+  .tle-count {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
   @media (max-width: 768px) {
     .timeline-header { flex-direction: column; }
-    .timeline-bars { height: 120px; }
-    .tl-bar-col { min-width: 12px; }
+    .timeline-era-legend { display: none; }
+    .timeline-container { padding: var(--space-md); }
+  }
+  /* Below 640px, swap the year-by-year chart for the era-aggregated bars.
+     36 yearly columns at ~12px each are unreadable on phones; 6 era bars
+     keep the narrative (when activity ramped up across UPA/NDA eras)
+     in a touch-friendly form. */
+  @media (max-width: 640px) {
+    .timeline-chart-wrap { display: none; }
+    .timeline-eras-mobile { display: block; }
   }
 </style>

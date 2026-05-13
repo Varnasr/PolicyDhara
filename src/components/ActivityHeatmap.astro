@@ -183,6 +183,9 @@ while (true) {
     overflow-x: auto;
     scrollbar-width: thin;
     scrollbar-color: var(--color-border) transparent;
+    /* Bleed slightly outside the card padding on phones so the heatmap can
+       use the full card width before any scroll is needed. The container's
+       padding is restored on the scrollable area itself. */
   }
   .heatmap-grid {
     display: inline-flex;
@@ -196,7 +199,7 @@ while (true) {
   }
   .hm-month-cell {
     width: 13px;
-    font-size: 0.5625rem;
+    font-size: 0.625rem;
     color: var(--color-text-muted);
     text-align: center;
     flex-shrink: 0;
@@ -206,8 +209,8 @@ while (true) {
     gap: 2px;
   }
   .hm-day-label {
-    width: 26px;
-    font-size: 0.5625rem;
+    width: 28px;
+    font-size: 0.625rem;
     color: var(--color-text-muted);
     display: flex;
     align-items: center;
@@ -251,5 +254,13 @@ while (true) {
   @media (max-width: 600px) {
     .heatmap-container { padding: 12px; }
     .heatmap-header { flex-direction: column; align-items: flex-start; }
+    /* Bigger cells on phones so the touch target is closer to the 24-px
+       guideline for inline UI (heatmap cells aren't expected to be 44-px
+       tap targets, but 13px is too small to even tooltip on touch). */
+    .hm-cell { width: 16px; height: 16px; border-radius: 3px; }
+    .hm-month-cell { width: 16px; font-size: 0.6875rem; }
+    .hm-day-label { width: 32px; font-size: 0.6875rem; }
+    .heatmap-stats { gap: 8px; flex-wrap: wrap; font-size: 0.6875rem; }
+    .heatmap-legend { float: none; justify-content: flex-end; display: flex; }
   }
 </style>

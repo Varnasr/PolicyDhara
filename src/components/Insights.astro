@@ -490,4 +490,73 @@ const GOV_PARTY_COLORS: Record<string, string> = {
     .type-bar-label { width: 70px; }
     .era-bar-meta { width: 90px; }
   }
+
+  /* Below 480px the fixed label widths consumed up to 40% of the card,
+     squeezing bars to a stub. Stack the bar below the label and place
+     the count inline with the label so the bar uses the full row width. */
+  @media (max-width: 480px) {
+    .insight-card { padding: var(--space-md); }
+    .insight-card h4 { margin-bottom: var(--space-sm); }
+
+    .type-bar-row,
+    .sector-bar-row,
+    .gov-bar-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "label count"
+        "track track";
+      gap: 4px 8px;
+      padding: 6px 0;
+    }
+    .type-bar-label,
+    .sector-bar-label,
+    .gov-bar-label {
+      grid-area: label;
+      width: auto;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--color-text);
+      white-space: normal;
+      overflow: visible;
+      text-overflow: clip;
+    }
+    .type-bar-count,
+    .sector-bar-count,
+    .gov-bar-count {
+      grid-area: count;
+      width: auto;
+      font-size: 0.75rem;
+      color: var(--color-text-secondary);
+    }
+    .type-bar-track,
+    .sector-bar-track,
+    .gov-bar-track {
+      grid-area: track;
+      height: 10px;
+    }
+
+    /* Era bars are slightly different (have a stacked meta block) — give them
+       the same horizontal-stack treatment for consistency. */
+    .era-bar-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "meta count"
+        "track track";
+      gap: 4px 8px;
+    }
+    .era-bar-meta { grid-area: meta; width: auto; }
+    .era-bar-count { grid-area: count; width: auto; }
+    .era-bar-track { grid-area: track; height: 12px; }
+
+    /* Quick stats: stack the trend below the count on narrow phones. */
+    .qs-row { gap: var(--space-md); }
+    .qs-number { font-size: 1.75rem; }
+
+    /* Coverage card */
+    .coverage-stats { gap: 12px; }
+    .coverage-num { font-size: 1.5rem; }
+    .coverage-label { font-size: 0.5rem; }
+  }
 </style>

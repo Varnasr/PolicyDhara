@@ -154,12 +154,12 @@ const H = (MAX_ROW + 1) * (TILE + GAP) + GAP;
             />
             <text
               x={x + TILE / 2}
-              y={y + TILE / 2 - 4}
+              y={y + TILE / 2 - 2}
               class="tm-cell-abbr"
             >{cell.abbr}</text>
             <text
               x={x + TILE / 2}
-              y={y + TILE / 2 + 14}
+              y={y + TILE / 2 + 18}
               class="tm-cell-count"
             >{count > 0 ? count : ''}</text>
           </a>
@@ -239,11 +239,15 @@ const H = (MAX_ROW + 1) * (TILE + GAP) + GAP;
     stroke: var(--color-accent);
     stroke-width: 2;
   }
+  /* SVG text inside a viewBox-scaled SVG renders in viewBox units, not
+     screen px. At a 360px-wide render the SVG scales to ~45% of native,
+     so a 13px label becomes ~6px and is unreadable. Use larger sizes
+     here so the labels stay legible after scaling. */
   .tm-cell-abbr {
     text-anchor: middle;
     font-family: 'DM Sans', system-ui, sans-serif;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 20px;
     fill: white;
     pointer-events: none;
     user-select: none;
@@ -251,9 +255,9 @@ const H = (MAX_ROW + 1) * (TILE + GAP) + GAP;
   .tm-cell-count {
     text-anchor: middle;
     font-family: 'DM Sans', system-ui, sans-serif;
-    font-weight: 500;
-    font-size: 10px;
-    fill: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+    font-size: 16px;
+    fill: rgba(255, 255, 255, 0.95);
     pointer-events: none;
     user-select: none;
   }

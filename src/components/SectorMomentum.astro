@@ -262,13 +262,30 @@ const DIR_META: Record<string, { label: string; color: string; symbol: string }>
   }
 
   @media (max-width: 640px) {
+    .sector-momentum { padding: var(--space-md); }
     .sm-row {
-      grid-template-columns: 1fr 70px 80px;
-      gap: 8px;
+      /* Stack the sector row in two visual lines on narrow screens:
+         top line = sector name + delta pct, second line = sparkline +
+         counts spanning the full width. Three skinny columns at <400px
+         meant the sparkline collapsed to a 40px stub. */
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "main tail"
+        "spark spark";
+      gap: 4px 8px;
+      padding: 10px 4px;
     }
-    .sm-name { font-size: 0.75rem; }
+    .sm-row-main { grid-area: main; }
+    .sm-row-tail { grid-area: tail; flex-direction: row; align-items: center; gap: 6px; }
+    .sm-spark { grid-area: spark; height: 28px; }
+    .sm-name { font-size: 0.8125rem; }
     .sm-counts-label { display: none; }
-    .sm-pct { font-size: 0.75rem; }
-    .sm-direction { font-size: 0.5625rem; }
+    .sm-pct { font-size: 0.875rem; }
+    .sm-direction {
+      font-size: 0.5625rem;
+      letter-spacing: 0.04em;
+    }
+    .sm-sub { font-size: 0.6875rem; }
+    .sm-legend { gap: 8px; font-size: 0.625rem; }
   }
 </style>
