@@ -6,11 +6,16 @@ on:
     paths:
       - 'src/**'
       - 'public/**'
+      - 'data/**'
       - 'astro.config.mjs'
       - 'package.json'
       - 'tsconfig.json'
       - 'feeds.json'
       - '.github/workflows/deploy.yml'
+  # Allow manual re-deploys from the Actions tab (handy when a previous
+  # change touched only a watched path but the deploy got skipped, or when
+  # rerunning after fixing a non-watched file like data/policies.json).
+  workflow_dispatch:
 
 permissions:
   contents: read
