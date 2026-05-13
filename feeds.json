@@ -1230,7 +1230,9 @@
       "reliability": "high",
       "description": "Policy and politics news coverage from Livemint — budget, governance, legislation",
       "covers_sectors": "all",
-      "rss_url": "https://www.livemint.com/rss/politics"
+      "rss_url": "https://www.livemint.com/rss/politics",
+      "india_only": false,
+      "level": "media"
     },
     "state_pib_maharashtra": {
       "name": "PIB Mumbai (Maharashtra)",
@@ -1421,7 +1423,9 @@
       "reliability": "high",
       "description": "National news and policy coverage from The Hindu",
       "covers_sectors": "all",
-      "rss_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+      "rss_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+      "india_only": false,
+      "level": "media"
     },
     "the_hindu_business": {
       "name": "The Hindu - Business",
@@ -1436,7 +1440,9 @@
         "Finance & Economy",
         "Trade & Commerce"
       ],
-      "rss_url": "https://www.thehindu.com/business/feeder/default.rss"
+      "rss_url": "https://www.thehindu.com/business/feeder/default.rss",
+      "india_only": false,
+      "level": "media"
     },
     "indian_express_policy": {
       "name": "Indian Express - India",
@@ -1448,7 +1454,9 @@
       "reliability": "high",
       "description": "National policy news from The Indian Express",
       "covers_sectors": "all",
-      "rss_url": "https://indianexpress.com/section/india/feed/"
+      "rss_url": "https://indianexpress.com/section/india/feed/",
+      "india_only": false,
+      "level": "media"
     },
     "indian_express_business": {
       "name": "Indian Express - Business",
@@ -1463,7 +1471,9 @@
         "Finance & Economy",
         "Trade & Commerce"
       ],
-      "rss_url": "https://indianexpress.com/section/business/feed/"
+      "rss_url": "https://indianexpress.com/section/business/feed/",
+      "india_only": false,
+      "level": "media"
     },
     "ndtv_india": {
       "name": "NDTV - India",
@@ -1475,7 +1485,9 @@
       "reliability": "high",
       "description": "India policy and politics coverage from NDTV",
       "covers_sectors": "all",
-      "rss_url": "https://feeds.feedburner.com/ndtvnews-india-news"
+      "rss_url": "https://feeds.feedburner.com/ndtvnews-india-news",
+      "india_only": false,
+      "level": "media"
     },
     "the_wire": {
       "name": "The Wire",
@@ -1486,7 +1498,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Independent investigative journalism on policy, politics, and rights",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "hindustan_times": {
       "name": "Hindustan Times - India",
@@ -1498,7 +1512,9 @@
       "reliability": "high",
       "description": "India news and policy coverage from Hindustan Times",
       "covers_sectors": "all",
-      "rss_url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"
+      "rss_url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
+      "india_only": false,
+      "level": "media"
     },
     "business_line": {
       "name": "BusinessLine - Economy",
@@ -1523,7 +1539,9 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "India news and policy coverage from Firstpost",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "news18_india": {
       "name": "News18 - India",
@@ -1535,7 +1553,9 @@
       "reliability": "medium",
       "description": "India news and policy from News18",
       "covers_sectors": "all",
-      "rss_url": "https://www.news18.com/commonfeeds/v1/eng/rss/india.xml"
+      "rss_url": "https://www.news18.com/commonfeeds/v1/eng/rss/india.xml",
+      "india_only": false,
+      "level": "media"
     },
     "the_print": {
       "name": "ThePrint",
@@ -1546,7 +1566,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Policy and politics analysis from ThePrint",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "mint_opinion": {
       "name": "Livemint - Opinion",
@@ -1558,7 +1580,9 @@
       "reliability": "high",
       "description": "Policy opinion and analysis from Livemint",
       "covers_sectors": "all",
-      "rss_url": "https://www.livemint.com/rss/opinion"
+      "rss_url": "https://www.livemint.com/rss/opinion",
+      "india_only": false,
+      "level": "media"
     },
     "icrier": {
       "name": "ICRIER",
@@ -3314,7 +3338,9 @@
       "description": "Foreign policy, international relations, diplomatic analysis",
       "covers_sectors": [
         "Defence & Security"
-      ]
+      ],
+      "india_only": false,
+      "level": "media"
     },
     "india_today": {
       "name": "India Today",
@@ -3326,7 +3352,9 @@
       "reliability": "medium",
       "description": "India's largest newsmagazine, policy and political coverage",
       "covers_sectors": "all",
-      "rss_url": "https://www.indiatoday.in/rss/home"
+      "rss_url": "https://www.indiatoday.in/rss/home",
+      "india_only": false,
+      "level": "media"
     },
     "republic_world": {
       "name": "Republic World",
@@ -4338,7 +4366,8 @@
       "reliability": "high",
       "description": "India news feed from Hindustan Times",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "ndtv_rss": {
       "name": "NDTV India News (RSS)",
@@ -4350,7 +4379,8 @@
       "reliability": "high",
       "description": "India news feed from NDTV",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "thehindu_rss": {
       "name": "The Hindu National (RSS)",
@@ -4362,7 +4392,8 @@
       "reliability": "high",
       "description": "National news from The Hindu",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "livemint_rss": {
       "name": "Livemint Politics (RSS)",
@@ -4374,7 +4405,8 @@
       "reliability": "high",
       "description": "Policy and politics feed from Livemint",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "indiatoday_rss": {
       "name": "India Today (RSS)",
@@ -4399,7 +4431,8 @@
       "reliability": "medium",
       "description": "India news from News18",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "firstpost_rss": {
       "name": "Firstpost India (RSS)",
@@ -4411,7 +4444,8 @@
       "reliability": "medium",
       "description": "India news from Firstpost",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "wire_rss": {
       "name": "The Wire (RSS)",
@@ -4423,7 +4457,8 @@
       "reliability": "high",
       "description": "Independent policy journalism from The Wire",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "print_rss": {
       "name": "ThePrint (RSS)",
@@ -4435,7 +4470,8 @@
       "reliability": "high",
       "description": "Policy and politics reporting from ThePrint",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "moneycontrol_rss": {
       "name": "Moneycontrol Economy (RSS)",
@@ -4464,7 +4500,8 @@
         "Finance & Economy",
         "Trade & Commerce"
       ],
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "dc_rss": {
       "name": "Deccan Chronicle (RSS)",
@@ -4929,7 +4966,8 @@
       "reliability": "high",
       "description": "Independent journalism covering India's policies and governance",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "central",
+      "india_only": false
     },
     "downtoearth": {
       "name": "Down To Earth",

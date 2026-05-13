@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_rss import fetch_rss_source
 from fetch_scrape import fetch_scrape_source
-from classifier import classify_policy, get_sector_slug
+from classifier import classify_policy, get_sector_slug, is_india_relevant
 
 PROJECT_ROOT = Path(__file__).parent.parent
 FEEDS_CONFIG = PROJECT_ROOT / "feeds.json"
@@ -554,7 +554,14 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
     source_type = source_config.get("type", "")
     source_name = source_config.get("name", source_id)
     source_sectors = source_config.get("covers_sectors", "all")
+    # Generalist media feeds (Livemint Politics, NDTV India, The Hindu
+    # National, etc.) carry both Indian policy news and foreign news in the
+    # same RSS. `india_only: false` in feeds.json marks these so the fetch
+    # loop can apply a relevance filter; everything else (PIB, eGazette,
+    # NITI, RBI, state PIBs, research institutes) is trusted unconditionally.
+    is_india_only_source = source_config.get("india_only", True)
     items = []
+    filtered_count = 0
 
     print(f"\n--- Fetching: {source_name} ({source_type}) ---")
 
@@ -589,6 +596,14 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             link = raw.get("link", "")
             date = raw.get("date", "").strip()
 
+            # India-relevance gate. Mixed-content media feeds get filtered;
+            # official Indian-government sources are trusted unconditionally.
+            # This is what stops NYC-mayor and US-trade stories from showing
+            # up on a tracker that's supposed to be about Indian policy.
+            if not is_india_only_source and not is_india_relevant(title, description):
+                filtered_count += 1
+                continue
+
             # If no date from source, try to extract from title
             if not date:
                 date = extract_date_from_title(title)
@@ -604,6 +619,14 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             policy_id = generate_id(title, source_id)
             sectors = classify_policy(title, description, source_sectors)
 
+            # Default level: "central" for government sources that don't
+            # specify (most PIB ministries), "media" for journalism feeds,
+            # "state" / "research" where the config makes it explicit.
+            # Previously every source defaulted to "central" — that
+            # mis-stamped media coverage as central-government enactment.
+            default_level = "media" if not is_india_only_source else "central"
+            level = source_config.get("level", default_level)
+
             items.append({
                 "id": policy_id,
                 "title": title,
@@ -616,11 +639,14 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
                 "sectors": sectors,
                 "sector_slugs": [get_sector_slug(s) for s in sectors],
                 "type": categorize_item_type(title, description),
-                "level": source_config.get("level", "central"),
+                "level": level,
                 "state": source_config.get("state", ""),
             })
 
-        print(f"  Fetched {len(items)} items")
+        if filtered_count:
+            print(f"  Fetched {len(items)} items (filtered {filtered_count} as not India-relevant)")
+        else:
+            print(f"  Fetched {len(items)} items")
 
     except Exception as e:
         print(f"  ERROR fetching {source_name}: {e}")

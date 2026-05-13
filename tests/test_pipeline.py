@@ -301,6 +301,106 @@ class TestSourcesWired:
             )
 
 
+class TestIndiaRelevance:
+    """The India-relevance filter is the gate between generalist-media RSS
+    feeds (Livemint, NDTV, Hindu, etc., which carry both Indian and foreign
+    news) and the policy dataset. Lock down a representative set of cases
+    so future marker-list edits can't silently regress accuracy."""
+
+    @pytest.fixture(scope="class")
+    def classifier(self):
+        return _load_module("classifier")
+
+    # ── Should be kept (India-relevant) ──────────────────────────
+
+    def test_keeps_state_name(self, classifier):
+        assert classifier.is_india_relevant(
+            "Maharashtra CM announces new water policy", ""
+        )
+
+    def test_keeps_state_abbreviation(self, classifier):
+        assert classifier.is_india_relevant(
+            "U.P. CM pushes to prioritise work-from-home", ""
+        )
+
+    def test_keeps_party_acronym(self, classifier):
+        assert classifier.is_india_relevant(
+            "AIADMK leaders under C Ve Shanmugham faction decide to support Vijay-led TVK",
+            "",
+        )
+
+    def test_keeps_bjp(self, classifier):
+        assert classifier.is_india_relevant(
+            "BJP leader's massive convoy sparks row after PM's appeal", ""
+        )
+
+    def test_keeps_mla(self, classifier):
+        assert classifier.is_india_relevant(
+            "Gajuwaka MLA pushes for IT-Tourism zone on Yarada hills", ""
+        )
+
+    def test_keeps_indian_city(self, classifier):
+        assert classifier.is_india_relevant(
+            "Chennai summer turns monsoon-like as rains cool city", ""
+        )
+
+    def test_keeps_modi(self, classifier):
+        assert classifier.is_india_relevant(
+            "PM Modi appeals for fuel conservation amid global oil crisis", ""
+        )
+
+    def test_keeps_india_word(self, classifier):
+        assert classifier.is_india_relevant(
+            "Government of India notifies new rules for digital lending", ""
+        )
+
+    def test_keeps_neutral_text(self, classifier):
+        # No India marker, no foreign marker — default is keep (permissive).
+        assert classifier.is_india_relevant(
+            "Government targets homegrown AI systems for defence", ""
+        )
+
+    # ── Should be dropped (foreign news) ─────────────────────────
+
+    def test_drops_nyc_mayor_news(self, classifier):
+        # The exact item that prompted this filter to exist.
+        assert not classifier.is_india_relevant(
+            "Mamdani Scraps Property Tax Hike, Counts on Second-Home Revenue",
+            "New York City Mayor Zohran Mamdani has ditched his plan to raise New Yorkers’ property taxes.",
+        )
+
+    def test_drops_white_house(self, classifier):
+        assert not classifier.is_india_relevant(
+            "Elon Musk, Apple's Tim Cook to head to China with Trump, per White House",
+            "",
+        )
+
+    def test_drops_us_border_wall(self, classifier):
+        assert not classifier.is_india_relevant(
+            "Catholic Diocese Fights US Effort to Seize Land for Border Wall", ""
+        )
+
+    def test_drops_putin_ukraine(self, classifier):
+        assert not classifier.is_india_relevant(
+            "Putin Says Ukraine Ceasefire Prompted By Kyiv Security Warnings", ""
+        )
+
+    # ── False-positive guards ────────────────────────────────────
+
+    def test_indianapolis_does_not_match_india(self, classifier):
+        # The substring "india" appears in "Indianapolis" — must be stripped
+        # before the India-marker check, or every Indy-500 story would pass.
+        assert not classifier.is_india_relevant(
+            "Indianapolis 500 race results", "Held in Indianapolis, Indiana, USA"
+        )
+
+    def test_india_us_meeting_keeps(self, classifier):
+        # Has a foreign marker AND an India marker — India wins.
+        assert classifier.is_india_relevant(
+            "PM Modi meets US President at White House for trade talks", ""
+        )
+
+
 class TestMessageFormatting:
     def test_html_escapes_special_chars(self, pipeline):
         msg = pipeline["telegram"].format_message(
