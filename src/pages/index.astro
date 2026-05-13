@@ -54,6 +54,13 @@ const weekStatLabel: string = 'enacted this week';
       <h1 class="dash-title">PolicyDhara</h1>
       <p class="dash-subtitle">Tracking Indian development policy — from gazette to ground</p>
       <p class="dash-intro">An open-source platform by <a href="https://www.impactmojo.in">ImpactMojo</a> that aggregates legislation, government schemes, budget announcements, and policy research from official sources into a single searchable database.</p>
+      <a href="https://t.me/policydhara" class="hero-telegram-cta" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+          <path d="M22.05 2.79 2.34 10.4c-1.34.54-1.33 1.29-.24 1.62l5.06 1.58 11.71-7.39c.55-.34 1.06-.16.64.21l-9.48 8.56h-.01l.01.01-.35 5.22c.5 0 .72-.23.99-.5l2.39-2.33 4.97 3.67c.92.5 1.58.24 1.81-.85l3.27-15.42c.34-1.33-.51-1.94-1.36-1.6Z"/>
+        </svg>
+        <span>Follow <strong>@policydhara</strong> on Telegram for live alerts</span>
+        <span class="hero-telegram-arrow" aria-hidden="true">→</span>
+      </a>
     </div>
     <div class="dash-hero-stats">
       <div class="dash-stat">
@@ -138,6 +145,19 @@ const weekStatLabel: string = 'enacted this week';
 
     {/* ── Right: Sidebar summary ── */}
     <aside class="dash-sidebar">
+      <a href="https://t.me/policydhara" class="sidebar-telegram-card" target="_blank" rel="noopener noreferrer">
+        <div class="sidebar-telegram-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+            <path d="M22.05 2.79 2.34 10.4c-1.34.54-1.33 1.29-.24 1.62l5.06 1.58 11.71-7.39c.55-.34 1.06-.16.64.21l-9.48 8.56h-.01l.01.01-.35 5.22c.5 0 .72-.23.99-.5l2.39-2.33 4.97 3.67c.92.5 1.58.24 1.81-.85l3.27-15.42c.34-1.33-.51-1.94-1.36-1.6Z"/>
+          </svg>
+        </div>
+        <div class="sidebar-telegram-body">
+          <span class="sidebar-telegram-eyebrow">Live alerts on Telegram</span>
+          <span class="sidebar-telegram-title">Follow @policydhara</span>
+          <span class="sidebar-telegram-desc">High-priority policy moves pushed the moment they break.</span>
+        </div>
+      </a>
+
       <div class="sidebar-card">
         <h4 class="sidebar-card-title">By Sector</h4>
         <div class="sidebar-sector-list">
@@ -264,6 +284,37 @@ const weekStatLabel: string = 'enacted this week';
   .dash-intro a {
     color: var(--color-accent);
     font-weight: 600;
+  }
+  .hero-telegram-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 8px 14px;
+    background: linear-gradient(135deg, #229ED9 0%, #2AABEE 100%);
+    color: #fff;
+    border-radius: var(--radius-pill);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(34, 158, 217, 0.25);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .hero-telegram-cta:hover {
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(34, 158, 217, 0.35);
+  }
+  .hero-telegram-cta strong { font-weight: 700; }
+  .hero-telegram-arrow {
+    font-weight: 700;
+    transition: transform 0.15s;
+  }
+  .hero-telegram-cta:hover .hero-telegram-arrow {
+    transform: translateX(3px);
+  }
+  @media (max-width: 480px) {
+    .hero-telegram-cta { font-size: 0.75rem; padding: 7px 12px; }
   }
   .dash-hero-stats {
     display: flex;
@@ -413,6 +464,59 @@ const weekStatLabel: string = 'enacted this week';
   .sidebar-card-muted {
     background: var(--color-bg-alt);
     border-color: var(--color-border-light);
+  }
+  .sidebar-telegram-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: var(--space-md);
+    background: linear-gradient(135deg, #229ED9 0%, #2AABEE 100%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 14px rgba(34, 158, 217, 0.25);
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .sidebar-telegram-card:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(34, 158, 217, 0.35);
+  }
+  .sidebar-telegram-icon {
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sidebar-telegram-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+  .sidebar-telegram-eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .sidebar-telegram-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .sidebar-telegram-desc {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 2px;
   }
   .sidebar-card-title {
     font-family: 'Newsreader', Georgia, serif;
