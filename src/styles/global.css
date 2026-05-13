@@ -130,7 +130,28 @@ html {
   font-size: 15px;
 }
 
-body { min-height: 100vh; }
+body {
+  min-height: 100vh;
+  /* Defensive: any descendant that exceeds viewport width is clipped rather
+     than triggering a horizontal page scroll. `clip` is preferred over
+     `hidden` here because it doesn't create a new scroll container, so it
+     preserves `position: sticky` on `.site-header` and the sidebar. */
+  overflow-x: clip;
+}
+
+/* Grid/flex containers default `min-width: auto` to `min-content`, which lets
+   wide children (charts with `min-width: max-content`, long unbreakable
+   words, etc.) push the parent column past the viewport. Forcing 0 lets the
+   inner `overflow-x: auto` wrappers actually contain their content. */
+.dash-grid > *,
+.dash-main,
+.dash-sidebar,
+.recent-grid > *,
+.policy-card-wrap,
+.insights-grid > *,
+.policy-feed > * {
+  min-width: 0;
+}
 
 a {
   color: var(--color-accent);
@@ -1320,7 +1341,7 @@ body.mobile-nav-open { overflow: hidden; }
 .newsletter-submit:hover { background: var(--color-accent-hover); }
 
 @media (max-width: 768px) {
-  .newsletter-bar { flex-direction: column; align-items: stretch; }
+  .newsletter-bar { flex-direction: column; align-items: stretch; padding: var(--space-md); }
   .newsletter-form { flex-direction: column; }
   .newsletter-input { min-width: 0; }
 }

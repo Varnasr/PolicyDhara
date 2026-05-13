@@ -31,14 +31,19 @@ const TYPE_COLORS: Record<string, string> = {
 // Top sector max for bar widths
 const maxSectorCount = Math.max(...topSectors.map(s => s.count), 1);
 
-// "Added this week" reflects ENACTMENT date (`p.date`), not when PolicyDhara
-// ingested the item. Items without a real publication date are excluded —
-// they'd otherwise need a fallback that silently misreports ingestion as
-// enactment, the bug this widget had previously.
+// "Enacted this week" should count actual government enactments, not every
+// news item the pipeline ingested. The data layer assigns `p.date` to the
+// article publication date for media items too, so without a type filter
+// the count is dominated by daily news (currently ~92% of items). Only count
+// types that represent a real enactment: legislation, scheme, notification,
+// budget. Research, announcements, and the broad "policy" bucket (mostly
+// news classified as policy-adjacent) are excluded.
+const ENACTMENT_TYPES = new Set(['legislation', 'scheme', 'notification', 'budget']);
 const now = Date.now();
 const DAY = 86400000;
 function enactedDaysAgo(p: PolicyItem): number | null {
   if (!p.date) return null;
+  if (!ENACTMENT_TYPES.has(p.type)) return null;
   const t = new Date(p.date).getTime();
   if (Number.isNaN(t)) return null;
   return (now - t) / DAY;
@@ -93,16 +98,17 @@ const GOV_PARTY_COLORS: Record<string, string> = {
           </>
         ) : (
           <>
-            <span class="qs-trend trend-neutral">\u2014</span>
+            <span class="qs-trend trend-neutral">{'\u2014'}</span>
             <span class="qs-label">no prior week<br/>to compare</span>
           </>
         )}
       </div>
     </div>
     <p class="qs-note">
-      Counts items issued in the last 7 days by their official publication date.
-      Only {issuanceDateCoveragePct}% of items in the dataset expose a publication
-      date — the rest are excluded from this metric.
+      Counts legislation, schemes, notifications, and budget items issued in the
+      last 7 days by their official publication date. News, research, and broader
+      policy commentary are excluded so the number reflects genuine enactments
+      rather than daily ingestion volume.
     </p>
   </div>
 
