@@ -107171,6 +107171,20 @@
       "old_value": "Government of India announces the conversion/switch of its securities through auction for an aggregate amount of ₹30,000 crore (face value). The security-wise details of the conversion/switch are given as under: Date of Auction Source Securities Amount (FV) of Source Securities (in ₹ crore) Destination Securities April 20, 2026 (Monday) 5.74% GS 2026 (Maturing on Nov 15, 2026) 3,000 6.33% GS 2035 (Maturing on May 05, 2035) 8.24% GS 2027 (Maturing on Feb 15, 2027) 1,000 6.92% GS 2039",
       "new_value": "Government of India (GoI) has announced the sale (re-issue) of two dated securities for a notified amount of ₹32,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.36% GS 2031 Feb 16, 2031 21,000 F.No.4(1)-B(W&M)/2026 dated April 13, 2026 April 17, 2026 (Friday) April 20, 2026 (Monday) 2 6.90% GS 2065 Apr 15, 2065 11,000   Total   32,000       2. GoI",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "announcement",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "sectors",
+      "old_value": "Digital & Technology",
+      "new_value": "Digital & Technology, Social Protection",
+      "source_id": "rbi"
     }
   ],
   "eaaf1152c615": [
@@ -128158,6 +128172,20 @@
       "old_value": "Digital & Technology",
       "new_value": "Energy",
       "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Mumbai",
+      "new_value": "Nifty 50 and Sensex fell 1.5% and 1.7% closing at 23,815.5 and 76,015.28-points respectively, responding to the return of tensions between the U.S. and Iran which led to India’s caution",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "sectors",
+      "old_value": "Digital & Technology",
+      "new_value": "Energy",
+      "source_id": "the_hindu_business"
     }
   ],
   "d9a694116e60": [
@@ -128553,6 +128581,13 @@
       "old_value": "Launched in September 2022, this five-year initiative aims to transform over 14,500 schools into “exemplar institutions” that lead the way in implementing the National Education Policy (NEP) 2020; only a limited time is left for the scheme to complete its five-year duration, the Ministry stated in a letter issued to the States",
       "new_value": "Gazette notification: Ministry",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Launched in September 2022, this five-year initiative aims to transform over 14,500 schools into “exemplar institutions” that lead the way in implementing the National Education Policy (NEP) 2020; only a limited time is left for the scheme to complete its five-year duration, the Ministry stated in a letter issued to the States",
+      "new_value": "Gazette notification: Ministry",
+      "source_id": "egazette"
     }
   ],
   "eb00fca2f73f": [
@@ -128589,6 +128624,13 @@
       "old_value": "Group led by Edappadi K. Palaniswamy not to support confidence motion",
       "new_value": "TVK formally proved its majority in the assembly on Wednesday with the support of 144 MLAs, including backing from 25 AIADMK legislators aligned with CV Shanmugam and SP Velumani.",
       "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Group led by Edappadi K. Palaniswamy not to support confidence motion",
+      "new_value": "Among those removed were AIADMK leaders SP Velumani and C V Shanmugam.",
+      "source_id": "hindustan_times"
     }
   ],
   "12dcd097b184": [
@@ -128607,6 +128649,101 @@
       "old_value": "No broadcaster has acquired the broadcasting rights this year for the FIFA World Cup, one of the most viewed sporting events in the world, the petition says",
       "new_value": "The Delhi High Court on Tuesday issued notice to the Union Ministry of Information and Broadcasting (MIB) and Prasar Bharti on a plea seeking the broadcast of the FIFA World Cup 2026 in India. Justice Purushaindra Kumar Kaurav said that the case will be heard next week. However, the Court said that the relief sought in the plea are in the nature of a public interest litigation (PIL). Senior Advocate Vaibhav Gaggar, appearing for the petitioner, said,\"They are already endeavouring, and the Court'",
       "source_id": "barandbench"
+    }
+  ],
+  "1d62d77d4d7c": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "According to the NIA, Shera was a key conspirator and handler of an India-based narco-terror module engaged in smuggling heroin from Pakistan",
+      "new_value": "According to the NIA, Iqbal Singh alia Shera was a key conspirator and handler of an India-based narco-terror module engaged in smuggling heroin from Pakistan",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "022dc26ea464": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Identified as Iqbal Singh alias Shera, the accused is a key conspirator and handler of an India-based narco-terror module engaged in smuggling heroin from Pakistan",
+      "new_value": "Identified as Iqbal Singh alias Shera, the accused is a key conspirator and handler of an India-based narco-terror module engaged in smuggling heroin from Pak",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Identified as Iqbal Singh alias Shera, the accused is a key conspirator and handler of an India-based narco-terror module engaged in smuggling heroin from Pakistan",
+      "new_value": "NIA arrested the alleged narco-terror operative in Delhi in connection with a Pakistan-backed heroin smuggling network",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "8306ab938d55": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "With the extension of the lease period, the Civil Aviation Ministry said it would now become co-terminus with the 30-year concession period of GMR Nagpur International Airport Ltd",
+      "new_value": "Government of India press release: Cabinet approves Upgradation and Modernisation of Nagpur International Airport throug...",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "With the extension of the lease period, the Civil Aviation Ministry said it would now become co-terminus with the 30-year concession period of GMR Nagpur International Airport Ltd",
+      "new_value": "Government of India press release: Cabinet approves Upgradation and Modernisation of Nagpur International Airport throug...",
+      "source_id": "state_pib_karnataka"
+    }
+  ],
+  "41f2690f0a2e": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "As many as 46,901 boys and 41,245 girls from Tamil Nadu wrote the CBSE Class 12 exams, wherein girls outperformed boys (94%), with a pass rate of 96.68%",
+      "new_value": "The national pass percentage stands at 85.20%, a drop of 3.19% from last year’s 88.39%; Trivandrum leads the charts with a staggering 95.62% pass rate, followed closely by Chennai and Bengaluru",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "e97a44b9d92d": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Parteek Yadav was rushed to Civil Hospital in Lucknow, where doctors declared him brought dead; the cause of death is yet to be ascertained",
+      "new_value": "The provisional cause of death is cardiorespiratory collapse due to massive pulmonary embolism",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "419b5459d76b": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Supreme Court directs states and UTs to enforce speed governors, VLTDs and panic buttons in transport vehicles to improve road safety.",
+      "new_value": "Fitness certificates or permits should not be issued to public service vehicles found in violation of these safety measures, apex court directs",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "8fc2435173a4": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Government of India press release: Cabinet approves Minimum Support Prices (MSP) for Kharif Crops for Marketing Season 2026-27",
+      "new_value": "According to the Cabinet presentation, the government expects annual procurement of 824.41 lakh metric tonnes (LMT) under the MSP regime",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "b30a63cae3db": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Air India said the latest announced rationalisation of services will be in place during the June-August period",
+      "new_value": "businessline was the first to report on the airline’s plans to temporarily suspend all flights to certain destinations such as Chicago",
+      "source_id": "business_line"
+    }
+  ],
+  "a2a109777218": [
+    {
+      "date": "2026-05-13",
+      "field": "description",
+      "old_value": "Consumer Education Workshop Organized at Jamtara (Jharkhand) by Vodafone Idea Limited (VIL) srokolkata Wed, 05/13/2026 - 10:33 Date Tue, 05/19/2026 - 12:00 District Jamtara Division Consumer Affairs Date & Time Tue, 05/19/2026 - 13:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Chandra Vijay Kumar Contact person Email chandra.kumar1@vodafoneidea.com Event Category COP By TRAI Venue Details Hotel Prabhat Inn, Near Gandhi Maidan, Court Rd, Newtown, Jamtara, Jha",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ]
 }
