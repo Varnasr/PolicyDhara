@@ -105390,6 +105390,13 @@
       "old_value": "Government of India (GoI) has announced the sale (re-issue) of two dated securities for a notified amount of ₹29,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.68% GS 2040 Jul 07, 2040 17,000 F.No.4(1)-B(W&M)/2026 dated April 27, 2026 April 30, 2026 (Thursday) May 04, 2026 (Monday) 2 7.43% GS 2076 Jan 19, 2076 12,000   Total   29,000       2. GoI",
       "new_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹14,500 Crore (Face Value). Sr. No. State Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Assam 1000 20 Yield 2. Bihar 1200 09 Yield 1200 Re-issue of 7.72% Bihar SGS 2041, issued on February 25, 2026 Price 3. Chhattisgarh 500 10 Yield 500 22 Yield 4. Kerala 1800 23 Yield 5. Madhya Pradesh 1600 08 Yield 1200 22 Yield 6. Uttar Pradesh 2000 10 Yield 2500 Re-issue of 7.6",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-05-19",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "notification",
+      "source_id": "rbi"
     }
   ],
   "ca641178ec94": [
@@ -132055,6 +132062,13 @@
       "old_value": "Education Ministry says ‘On Screen Marking’ (OSM) evaluation system is an internationally accepted norm; CBSE reduces revaluation and answer sheet verification charges to ₹100",
       "new_value": "Gazette notification: Ministry",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "Education Ministry says ‘On Screen Marking’ (OSM) evaluation system is an internationally accepted norm; CBSE reduces revaluation and answer sheet verification charges to ₹100",
+      "new_value": "Gazette notification: Ministry",
+      "source_id": "egazette"
     }
   ],
   "2ef2ae9b0814": [
@@ -132081,6 +132095,13 @@
     },
     {
       "date": "2026-05-18",
+      "field": "description",
+      "old_value": "Exports to East Africa increased 13.7% to $12.6 billion, accounting for 2.9% of India's exports, while North Africa rose 14.8% to $8 billion with a 1.8% share",
+      "new_value": "Exports to East Africa increased 13.7% to $12.6 billion, accounting for 2.9% of India's exports",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-05-19",
       "field": "description",
       "old_value": "Exports to East Africa increased 13.7% to $12.6 billion, accounting for 2.9% of India's exports, while North Africa rose 14.8% to $8 billion with a 1.8% share",
       "new_value": "Exports to East Africa increased 13.7% to $12.6 billion, accounting for 2.9% of India's exports",
@@ -132917,6 +132938,13 @@
       "old_value": "The ceremony is attended by top Congress leaders and Chief Ministers, as well as the outgoing Kerala CM Pinarayi Vijayan",
       "new_value": "Born in 1964 in Nettoor near Kochi, Satheesan comes from a Congress is known as grassroots Congress leader. Trained as a lawyer and social worker, he entered politics through the Kerala Students Union (KSU) before steadily climbing the Congress ladder.",
       "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "The ceremony is attended by top Congress leaders and Chief Ministers, as well as the outgoing Kerala CM Pinarayi Vijayan",
+      "new_value": "Born in 1964 in Nettoor near Kochi, Satheesan comes from a Congress is known as grassroots Congress leader. Trained as a lawyer and social worker, he entered politics through the Kerala Students Union (KSU) before steadily climbing the Congress ladder.",
+      "source_id": "livemint_policy"
     }
   ],
   "a49717c41b09": [
@@ -132935,6 +132963,58 @@
       "old_value": "The \"guess paper\" had an amazing strike rate -- 135 questions had matched originals. The hostel owner and the chemistry teacher then decided to approach the local police.",
       "new_value": "The NEET-UG 2026 examination was cancelled earlier this month following paper leaks and reports of malpractice.",
       "source_id": "hindustan_times"
+    }
+  ],
+  "86db30e37b4e": [
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "Government of India press release: UPSC To Release Provisional Answer Key for Civil Services (Preliminary) Examination – 2026, soon after the Conduct of Examination",
+      "new_value": "Government of India press release: UPSC To Release Provisional Answer Key for Civil Services (Preliminary) Examination – 2026, soon after the Conduct of Ex...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "Government of India press release: UPSC To Release Provisional Answer Key for Civil Services (Preliminary) Examination – 2026, soon after the Conduct of Examination",
+      "new_value": "Government of India press release: UPSC To Release Provisional Answer Key for Civil Services (Preliminary) Examination – 2026, soon after the Conduct of Ex...",
+      "source_id": "state_pib_punjab"
+    }
+  ],
+  "041fe87b32cd": [
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "Tenders submitted in this regard will be opened on May 22; Total borrowings under the tender will not exceed ₹75,000 crore",
+      "new_value": "The funds are being raised to bridge cash flow mismatches arising from procurement and distribution of foodgrains",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "6cd5197905eb": [
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "India and Sweden on Sunday upgraded their relations to a strategic partnership to drive cooperation in areas ranging from defence to technology as Prime Minister Narendra Modi and his Swedish counterpart Ulf Kristersson joined European Commission President Ursula von der Leyden to discuss ways to deepen collaboration to ensure stability in an unpredictable global environment.",
+      "new_value": "Modi said he partnership will help companies on both sides to develop global solutions in clean energy",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "42755c90d345": [
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "The Delhi High Court on Monday denied any immediate relief to wrestler Vinesh Phogat against her exclusion by the Wrestling Federation of India (WFI) from the Asian Games selection trials. Senior Advocate Rajshekhar Rao appeared for Phogat and told the Court that \"there was something more than meets the eye\" in this case and that the Court may allow her to participate in the trials, subject to the outcome of her challenge to the new selection policy and circular issued by the WFI. The trials are",
+      "new_value": "The bench said that while it appreciated Phogat was on maternity leave, on the other hand, the national interest needs to be looked at as well",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "2f807f5fa6ee": [
+    {
+      "date": "2026-05-19",
+      "field": "description",
+      "old_value": "Consumer Education Workshop Organized at Rohtas (Bihar) by Bharti Airtel Ltd. srokolkata Fri, 05/15/2026 - 17:59 Date Fri, 06/05/2026 - 12:00 District Rohtas Division Consumer Affairs Date & Time Fri, 06/05/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Prerna Ranjan Contact person Email prerna.ranjan@airtel.com Event Category COP By TRAI Venue Details National Senior Citizen Association, Kushwaha Sabha Bhawan, GT Road, Sasaram, Rohtas, Bihar Event",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ]
 }
