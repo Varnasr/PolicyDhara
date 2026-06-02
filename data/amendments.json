@@ -103395,6 +103395,13 @@
       "old_value": "Gazette notification: Ministry of Environment,  Forest  and Climate Change",
       "new_value": "Gazette notification: Ministry",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-06-02",
+      "field": "description",
+      "old_value": "Gazette notification: Ministry of Environment,  Forest  and Climate Change",
+      "new_value": "Gazette notification: Ministry",
+      "source_id": "egazette"
     }
   ],
   "2c1327aa8c07": [
@@ -141437,6 +141444,13 @@
       "old_value": "The Finance Ministry said India's macroeconomic position in May 2026 reflects cautious resilience, adding that strong services exports, adequate foreign exchange reserves and a stable labour market provide a firm foundation",
       "new_value": "Gazette notification: Ministry of Finance",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-06-02",
+      "field": "description",
+      "old_value": "The Finance Ministry said India's macroeconomic position in May 2026 reflects cautious resilience, adding that strong services exports, adequate foreign exchange reserves and a stable labour market provide a firm foundation",
+      "new_value": "Gazette notification: Ministry of Finance",
+      "source_id": "egazette"
     }
   ],
   "0e1ca38d9eca": [
@@ -141960,6 +141974,15 @@
       "old_value": "Independent Drive Test Report Punjab LSA March 2026 nitinkumar Mon, 06/01/2026 - 14:53 File Download (8.31 MB) QoS Quarter March Qos Report Type IDT Report Date of Release Mon, 06/01/2026 - 12:00 Service area Punjab Months March Year 2026",
       "new_value": "Independent Drive Test Report Himachal Pradesh LSA March 2026 nitinkumar Tue, 06/02/2026 - 11:54 File Download (9.26 MB) QoS Quarter March Qos Report Type IDT Report Date of Release Tue, 06/02/2026 - 12:00 Service area Himachal Pradesh Months March Year 2026",
       "source_id": "trai"
+    }
+  ],
+  "04ad0aee1c20": [
+    {
+      "date": "2026-06-02",
+      "field": "description",
+      "old_value": "The new provision, notified on Monday, will replace the previous rule that required the registration \"within fourteen days after the expiry of one hundred and eighty days of arrival in India”",
+      "new_value": "Central Act (2025): The Immigration and Foreigners Act, 2025",
+      "source_id": "india_code"
     }
   ]
 }

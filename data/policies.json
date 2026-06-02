@@ -4616,6 +4616,28 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": "63cc2c821c0e",
+    "title": "Ministry of Road Transport and Highways",
+    "description": "Gazette notification: Ministry of Road Transport and Highways",
+    "link": "",
+    "date": "2026-06-02",
+    "source_id": "egazette",
+    "source_name": "eGazette of India",
+    "source_short": "eGazette",
+    "sectors": [
+      "Transport & Infrastructure",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "transport-infrastructure",
+      "social-protection"
+    ],
+    "type": "notification",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-06-02"
+  },
+  {
     "id": "580ccf03f492",
     "title": "Monthly review of accounts of Government of India for April 2026 (FY2026-27)",
     "description": "Government of India press release: Monthly review of accounts of Government of India for April 2026 (FY2026-27)",
@@ -10069,6 +10091,72 @@
       "tribal-indigenous"
     ],
     "type": "scheme",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-06-02"
+  },
+  {
+    "id": "1a2366855683",
+    "title": "Ministry of Finance",
+    "description": "Gazette notification: Ministry of Finance",
+    "link": "",
+    "date": "2026-06-01",
+    "source_id": "egazette",
+    "source_name": "eGazette of India",
+    "source_short": "eGazette",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "notification",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-06-02"
+  },
+  {
+    "id": "4f240a41cfa1",
+    "title": "Ministry of Commerce and Industry",
+    "description": "Gazette notification: Ministry of Commerce and Industry",
+    "link": "",
+    "date": "2026-06-01",
+    "source_id": "egazette",
+    "source_name": "eGazette of India",
+    "source_short": "eGazette",
+    "sectors": [
+      "Social Protection",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "trade-commerce"
+    ],
+    "type": "notification",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-06-02"
+  },
+  {
+    "id": "502c7316d9dc",
+    "title": "Food Safety and Standards Authority of India",
+    "description": "Gazette notification: Food Safety and Standards Authority of India",
+    "link": "",
+    "date": "2026-06-01",
+    "source_id": "egazette",
+    "source_name": "eGazette of India",
+    "source_short": "eGazette",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "notification",
     "level": "central",
     "state": "",
     "first_seen": "2026-06-02"
@@ -43548,98 +43636,6 @@
     "title": "Vijay meets PM Modi in first official visit to Delhi as Tamil Nadu CM",
     "description": "After Tamil Nadu CM Vijay met PM Modi in Delhi, he also visited the Tamil Nadu House in Delhi, where he was accorded a guard of honour.",
     "link": "https://www.hindustantimes.com/india-news/vijay-meets-pm-narendra-modi-in-first-official-visit-to-delhi-as-tamil-nadu-cm-tvk-tamil-nadu-101779882543482.html",
-    "date": "2026-05-27",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "policy",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-05-27"
-  },
-  {
-    "id": "8e7791c8ea52",
-    "title": "Delhi Metro plans elevated corridor project to ease South Delhi traffic: Check routes targeted, estimated cost",
-    "description": "The proposed overhaul is expected to improve travel between South Delhi and the Badarpur border while integrating with existing Metro lines in the region.",
-    "link": "https://www.hindustantimes.com/india-news/delhi-metro-plans-elevated-corridor-project-to-ease-south-delhi-badarpur-traffic-check-routes-targeted-estimated-cost-101779870304461.html",
-    "date": "2026-05-27",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Urban Development"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "urban-development"
-    ],
-    "type": "notification",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-05-27"
-  },
-  {
-    "id": "4eef46426e34",
-    "title": "Woman, 30, beaten to death by her in-laws over family dispute in Bihar: Police",
-    "description": "Police have registered a murder case against eight people, including the deceased’s uncle-in-law Shambhu Vishwakarma and his two sons.",
-    "link": "https://www.hindustantimes.com/india-news/woman-30-beaten-to-death-by-her-in-laws-over-family-dispute-in-bihar-police-101779882291825.html",
-    "date": "2026-05-27",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "policy",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-05-27"
-  },
-  {
-    "id": "3d1c473f81ac",
-    "title": "AIADMK factions by Velumani, EPS patch up; withdraw pleas to disqualify MLAs",
-    "description": "MLAs led by Velumani called on Edappadi K Palaniswami at his residence in Chennai and expressed their support to him",
-    "link": "https://www.hindustantimes.com/india-news/aiadmk-factions-by-velumani-eps-patch-up-withdraw-pleas-to-disqualify-mlas-101779881991995.html",
-    "date": "2026-05-27",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Digital & Technology",
-      "Energy",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "energy",
-      "labour-employment"
-    ],
-    "type": "policy",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-05-27"
-  },
-  {
-    "id": "4a03c4c4b19f",
-    "title": "India opens ₹15,000 crore race to build AMCA stealth fighter",
-    "description": "The shortlisted bidders are: Tata Advanced Systems Limited; Larsen and Toubro plus Bharat Electronics Limited, and Bharat Forge plus Bharat Earth Movers Limited",
-    "link": "https://www.hindustantimes.com/india-news/india-opens-15-000-crore-race-to-build-amca-stealth-fighter-101779880453228.html",
     "date": "2026-05-27",
     "source_id": "hindustan_times",
     "source_name": "Hindustan Times - India",
