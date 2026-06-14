@@ -146127,6 +146127,13 @@
       "old_value": "Government of India has announced the sale (re-issue) of Government Securities, as detailed below, through auction to be held on June 12, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Minimu",
       "new_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹18,600 Crore (Face Value). Sr. No. State Amount to be raised (₹ Crore) Tenor(Year) Type of Auction 1. Andhra Pradesh 2200 Re-issue of 7.96% Andhra Pradesh SGS 2038 issued on April 08, 2026 Price 2200 Re-issue of 8.07% Andhra Pradesh SGS 2051 issued on April 08, 2026 Price 2. Maharashtra 800 Re-issue of 7.35% Maharashtra SGS 2031 issued on April 08, 2026 Price 1600 Re-issue of 7.9",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-06-14",
+      "field": "description",
+      "old_value": "Government of India has announced the sale (re-issue) of Government Securities, as detailed below, through auction to be held on June 12, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Minimu",
+      "new_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹21,600 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 1000 06 Yield 1800 Re-issue of 7.79% Andhra Pradesh SGS 2042, issued on April 22, 2026 Price 1800 Re-issue of 7.81% Andhra Pradesh SGS 2056, issued on April 22, 2026 Price 2. Assam 1000 10 Yield 3. Gujarat 1000 08 Yield 1000 12 Yield 4. Jammu and Kashmir 500 Re",
+      "source_id": "rbi"
     }
   ],
   "01686935eeee": [
@@ -146223,6 +146230,27 @@
     }
   ],
   "630773022186": [
+    {
+      "date": "2026-06-14",
+      "field": "description",
+      "old_value": "From packed post-Budget speeches at Brabourne to landmark constitutional battles, Nani Palkhivala became the voice of economic freedom and constitutional liberty in modern India.",
+      "new_value": "Nani Palkhivala's career touched many of the constitutional crises that mattered in post-independence India.",
+      "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-06-14",
+      "field": "type",
+      "old_value": "budget",
+      "new_value": "policy",
+      "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-06-14",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Health",
+      "new_value": "Digital & Technology, Health, Social Protection",
+      "source_id": "mint_opinion"
+    },
     {
       "date": "2026-06-14",
       "field": "description",
@@ -146927,6 +146955,40 @@
       "old_value": "Consumer Education Workshop at Kollam - Karunagappally, Kerala by Vodafone India Limited sudershangn Fri, 06/12/2026 - 10:53 Date Thu, 06/25/2026 - 12:00 District Kollam - Karunagappally Division Consumer Affairs Date & Time Thu, 06/25/2026 - 17:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Thaha Mohamed Contact person Email thahasayed.mohamed@vodafoneidea.com Event Category COP By TRAI Venue Details Vyapara Bhavan, Karunagappally, Kollam Event From Consumer",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-06-14",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Kollam - Karunagappally, Kerala by Vodafone India Limited sudershangn Fri, 06/12/2026 - 10:53 Date Thu, 06/25/2026 - 12:00 District Kollam - Karunagappally Division Consumer Affairs Date & Time Thu, 06/25/2026 - 17:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Thaha Mohamed Contact person Email thahasayed.mohamed@vodafoneidea.com Event Category COP By TRAI Venue Details Vyapara Bhavan, Karunagappally, Kollam Event From Consumer",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
+    }
+  ],
+  "ba4408c859ae": [
+    {
+      "date": "2026-06-14",
+      "field": "description",
+      "old_value": "Experts feel the move may not enough to bring in foreign investment because the reason for their receding interest in India is a factor of structural macroeconomic issues and not regulatory alignment",
+      "new_value": "Gazette notification: Ministry",
+      "source_id": "egazette"
+    }
+  ],
+  "21730ccc4f4e": [
+    {
+      "date": "2026-06-14",
+      "field": "description",
+      "old_value": "Unloaded volumes at the Vadinar refinery in Gujarat rose 36 per cent from April levels, while deliveries to the Jamnagar refining complex in the state increased 14 per cent",
+      "new_value": "\"India's total crude import volumes recorded an 8% month-on-month increase in May. This is partially explained by a 21% month-on-month increase in Russian imports,\" says CREA",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "a22360a3bd76": [
+    {
+      "date": "2026-06-14",
+      "field": "description",
+      "old_value": "The Minister had to address reporters in the dark for around 10 minutes after electricity supply was disrupted thrice",
+      "new_value": "The action followed an inquiry into the June 11 incident, when a power failure at the state BJP headquarters interrupted Vaishnaw's media interaction.",
+      "source_id": "hindustan_times"
     }
   ]
 }
