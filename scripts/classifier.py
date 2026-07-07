@@ -223,6 +223,94 @@ _FOREIGN_MARKERS_SUBSTR = (
 )
 
 
+# Policy-relevance markers. Applied to items from generalist news RSS feeds
+# (Hindu, NDTV, HT, IE, Livemint, etc.) — the outlets publish everything
+# from cricket to celebrity divorce in the same RSS as real policy coverage,
+# and the current filter (length + junk regex) lets it all through. An item
+# is "policy-relevant" if it hits at least one of these markers; otherwise
+# it's dropped as noise before ingestion.
+#
+# The list intentionally casts a wide net around policy signalling
+# vocabulary — institutional actors, policy artefacts, governance topics.
+# False positives (letting some borderline items through) are preferable
+# to false negatives (dropping real policy coverage), since the dataset
+# is meant to be comprehensive on Indian policy. Common English words
+# ("policy", "government") are included because they're extremely
+# predictive of policy coverage in news headlines.
+_POLICY_MARKERS = (
+    # Legislative actors and artefacts
+    "bill", "act,", " act ", " act.", "ordinance", "law", "legislation",
+    "gazette", "notification", "circular", "rules", "regulation",
+    "amendment", "policy", "scheme", "guidelines", "directive",
+    "constitutional", "constitution",
+    # Executive
+    "cabinet", "ministry", "minister", "government", "administration",
+    "secretariat", "president", "vice president", "governor", "chief minister",
+    "prime minister", "cm ", "pm ", "govt", "centre notif", "centre issu",
+    "centre form", "centre asks", "centre approv", "centre orders",
+    "centre decid", "central government", "state government",
+    # Approvals & inquiries
+    "nod ", "panel ", "clearance", "public hearing", "consultation paper",
+    # Divestment & PSU
+    "divest", "psu ", "ofs ", "stake sale", "disinvestment",
+    # Legislative bodies
+    "parliament", "lok sabha", "rajya sabha", "vidhan sabha", "assembly",
+    "legislative", "parliamentary", "session",
+    # Judiciary
+    "supreme court", "high court", "tribunal", "bench", "judgment",
+    "judgement", "verdict", "ruling", "petition", "plea", "case",
+    "writ", "order", "stay", "injunction",
+    # Regulators & commissions
+    "rbi", "sebi", "trai", "irdai", "cci", "ncw", "nclt", "nclat", "nhrc",
+    "cvc", "cag", "cbi", "ed ", "election commission", "eci",
+    "commission ", "regulator", "authority",
+    # Budget/finance
+    "budget", "allocation", "subsidy", "grant", "fund", "expenditure",
+    "revenue", "deficit", "tax", "gst", "excise", "customs", "tariff",
+    "duty", "cess",
+    # Governance topics
+    "welfare", "reservation", "quota", "affirmative", "mnrega", "mgnrega",
+    "pmay", "nrega", "ujjwala", "ayushman", "digital india", "make in india",
+    "modi", "manmohan", "vajpayee",
+    # Rights & citizens
+    "rti", "aadhaar", "citizenship", "human rights", "labour law", "labor law",
+    "consumer protection", "posh", "domestic violence",
+    # Policy verbs (they usually indicate action-taking)
+    "notified", "issued", "announced", "launched", "approved", "cleared",
+    "gazetted", "promulgated", "empanelled", "empanelled",
+    "sanctioned", "abolished", "repealed", "amended", "notified",
+    # Sectors framed as policy
+    "public health", "public policy", "public sector", "public interest",
+    "environmental clearance", "forest clearance", "environmental impact",
+    "climate policy", "energy policy", "trade policy", "foreign policy",
+    "tax policy", "monetary policy", "fiscal policy",
+    # Elections & political process
+    "election", "electoral", "voter", "polling", "constituency",
+    "mcc", "poll code", "vvpat", "evm",
+    # Reports / documents that shape policy
+    "report", "review", "audit", "study", "survey", "committee",
+    "consultation", "white paper", "green paper", "draft",
+    # Investigations / enforcement
+    "raid", "arrest", "chargesheet", "fir", "probe", "inquiry", "investigation",
+)
+
+
+def is_policy_relevant(title: str, description: str = "") -> bool:
+    """Return True if a news-source item looks policy-relevant.
+
+    Applied ONLY to items from generalist news RSS feeds (see NEWS_SOURCE_IDS
+    in scripts/fetch_all.py). Official-government sources bypass this check.
+
+    An item passes if any of the curated markers in _POLICY_MARKERS appears
+    in the combined title+description. This is intentionally lenient:
+    the goal is to drop pure celebrity / sports / crime spectacle noise
+    ("bikers wheelie", "cricket match then murder", "condom ad"), not to
+    gatekeep on strict policy purity.
+    """
+    text = f"{title} {description}".lower()
+    return any(marker in text for marker in _POLICY_MARKERS)
+
+
 def is_india_relevant(title: str, description: str = "") -> bool:
     """Return True if the item should be kept in the India-policy dataset.
 

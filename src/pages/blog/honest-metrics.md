@@ -1,3 +1,10 @@
+---
+layout: ../../layouts/Base.astro
+title: "When your dashboard is lying back at you"
+description: "How PolicyDhara found — and fixed — three silent bugs in its own metrics."
+pubDate: 2026-07-07
+---
+
 # When your dashboard is lying back at you
 
 *July 2026 — a note on how PolicyDhara found (and fixed) three silent bugs in its own metrics, and what we did about it.*
@@ -59,7 +66,8 @@ Concretely, PolicyDhara now:
 - **Never today-stamps.** Undated items keep an empty date. The count of "enacted this week" is what it actually is.
 - **Separates ingestion from enactment.** `first_seen` (when we saw it) and `date` (when it was issued) are populated by different logic and never fall back to each other in analytics.
 - **Caps amendment history.** Per-field, per-policy — no more page-rotator explosions.
-- **Watches its own sources.** A weekly probe of every URL in `feeds.json` opens an auto-issue when a source has gone three weeks silent, so dead sources become visible rather than invisible.
+- **Filters news noise.** Generalist RSS feeds bring in celebrity, sports, and crime spectacle alongside real policy; a policy-relevance gate now drops the former before ingestion.
+- **Watches its own sources.** A weekly probe of every URL opens an auto-issue when a source has gone three weeks silent, so dead sources become visible rather than invisible.
 - **Runs the test suite before auto-merging.** A pytest gate now blocks the data auto-merge if anything in the pipeline is red.
 
 None of these are ambitious. All of them are what the platform should have been doing already. Sometimes the most valuable work is the un-showable kind: the number on the dashboard goes down, and the meaning behind it goes up.

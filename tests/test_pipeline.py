@@ -195,6 +195,53 @@ class TestFirstSeenStamping:
         )
 
 
+class TestPolicyRelevanceFilter:
+    """News RSS feeds carry everything the outlet publishes (celebrity news,
+    sports, crime spectacle). The is_policy_relevant() gate filters those out
+    so items like "Bikers wheelie" don't land in the tracker while real
+    policy news ("Centre forms panel", "Govt sells stake") passes through.
+
+    Lock the current keep/drop bindings so a future keyword prune doesn't
+    silently re-open the noise firehose.
+    """
+
+    @pytest.fixture(scope="class")
+    def is_policy_relevant(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "classifier", SCRIPTS_DIR / "classifier.py"
+        )
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod.is_policy_relevant
+
+    @pytest.mark.parametrize("title", [
+        "Bikers perform wheelies in front of ambulance, endanger patient's life in Bengaluru",
+        "Rupee rises 15 paise to 95.28 against U.S. dollar in early trade",
+        "Teenager Wins Football Match, Then A Murder In Tense Kolkata Suburb",
+        "Condom Ad During Cricket Match Is 'Adult Entertainment': Trinamool MP",
+        "Man held on charge of sexually abusing minor",
+    ])
+    def test_noise_dropped(self, is_policy_relevant, title):
+        assert not is_policy_relevant(title), (
+            f"noise item slipped through the filter: {title!r}"
+        )
+
+    @pytest.mark.parametrize("title", [
+        "Supreme Court dismisses PIL on electoral bonds",
+        "Centre Forms Panel To Examine Content Of Diljit Dosanjh's Satluj After Takedown",
+        "Govt to sell 5% stake in Cochin Shipyard at ₹1,400/share via OFS",
+        "Fisherfolk, environmentalists demand cancellation of public hearing on Cuddalore port expansion",
+        "Convention centre, museum: Nod sought for work at Indira Point",
+        "Cabinet approves ₹10,000 crore scheme for rural electrification",
+        "MeitY issues draft rules for AI safety consultation",
+    ])
+    def test_real_policy_kept(self, is_policy_relevant, title):
+        assert is_policy_relevant(title), (
+            f"legitimate policy story dropped by the filter: {title!r}"
+        )
+
+
 class TestAmendmentLogCap:
     """detect_amendments must bound its output. IRDAI-style page rotators
     (where the same "policy" page shows different content on each fetch)

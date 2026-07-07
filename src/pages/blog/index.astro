@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+
+// Glob all markdown files in this directory. Astro pre-processes the
+// frontmatter so we can build a real index instead of hand-maintaining one.
+const posts = await Astro.glob<{ title: string; description: string; pubDate: string }>('./*.md');
+posts.sort((a, b) => (b.frontmatter.pubDate || '').localeCompare(a.frontmatter.pubDate || ''));
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+<Base title="Blog" description="Notes from PolicyDhara on Indian policy tracking, methodology, and the honest failures behind the numbers.">
+  <div style="padding: var(--space-xl) 0;">
+    <h2 class="page-title">Blog</h2>
+    <p class="page-subtitle">
+      Notes on how PolicyDhara is built, what it gets wrong, and what we're doing about it.
+    </p>
+
+    {posts.length === 0 ? (
+      <p style="color: var(--color-text-muted);">No posts yet.</p>
+    ) : (
+      <ul style="list-style: none; padding: 0; margin: var(--space-lg) 0; display: grid; gap: var(--space-md);">
+        {posts.map(post => {
+          const slug = post.url?.split('/').filter(Boolean).pop() || '';
+          return (
+            <li style="border-left: 3px solid var(--color-accent); padding-left: var(--space-md);">
+              <a href={`${base}blog/${slug}/`} style="text-decoration: none;">
+                <h3 style="margin: 0 0 0.25rem 0; font-size: 1.15rem;">{post.frontmatter.title}</h3>
+              </a>
+              {post.frontmatter.pubDate && (
+                <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 0.25rem;">
+                  {new Date(post.frontmatter.pubDate).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}
+                </div>
+              )}
+              {post.frontmatter.description && (
+                <p style="margin: 0; color: var(--color-text-muted); font-size: 0.9rem;">
+                  {post.frontmatter.description}
+                </p>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    )}
+  </div>
+</Base>
