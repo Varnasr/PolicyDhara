@@ -260,10 +260,19 @@ _POLICY_MARKERS = (
     "supreme court", "high court", "tribunal", "bench", "judgment",
     "judgement", "verdict", "ruling", "petition", "plea", "case",
     "writ", "order", "stay", "injunction",
-    # Regulators & commissions
+    # Regulators, commissions, and public bodies
     "rbi", "sebi", "trai", "irdai", "cci", "ncw", "nclt", "nclat", "nhrc",
-    "cvc", "cag", "cbi", "ed ", "election commission", "eci",
-    "commission ", "regulator", "authority",
+    "cvc", "cag", "cbi", "ed", "election commission", "eci", "upsc",
+    "commission ", "regulator", "authority", "bureau", "council ",
+    # Institutional roles (usually appear in appointment / decision headlines)
+    "chief", "director", "secretary", "commissioner",
+    "dg ", "cbdt", "ncrb",
+    # Government departments & agencies (space, defence, tech, energy)
+    "isro", "drdo", "hal ", "ntpc", "bhel", "coal india", "psb ",
+    "barc",
+    # Bilateral / international agreements
+    "pact", "treaty", "mou ", "bilateral", "trade deal", "defence deal",
+    "arms deal", "arms sale", "signed with", "agreement with",
     # Budget/finance
     "budget", "allocation", "subsidy", "grant", "fund", "expenditure",
     "revenue", "deficit", "tax", "gst", "excise", "customs", "tariff",
@@ -302,13 +311,31 @@ def is_policy_relevant(title: str, description: str = "") -> bool:
     in scripts/fetch_all.py). Official-government sources bypass this check.
 
     An item passes if any of the curated markers in _POLICY_MARKERS appears
-    in the combined title+description. This is intentionally lenient:
-    the goal is to drop pure celebrity / sports / crime spectacle noise
-    ("bikers wheelie", "cricket match then murder", "condom ad"), not to
-    gatekeep on strict policy purity.
+    in the combined title+description. Short markers (<= 3 chars ignoring
+    the trailing space, like "ED", "CM", "PM", "PSU", "OFS") are matched
+    on whole-word boundaries — otherwise "ED " matches every past-tense
+    verb ending "recorded", "circulated", etc. (real regression, 300+
+    noise items slipped through).
+
+    This is intentionally lenient overall: the goal is to drop pure
+    celebrity / sports / crime spectacle noise ("bikers wheelie", "cricket
+    match then murder", "condom ad"), not to gatekeep on strict policy
+    purity. False negatives (dropping a real policy story) are worse
+    than false positives (keeping a borderline news item).
     """
+    import re
+
     text = f"{title} {description}".lower()
-    return any(marker in text for marker in _POLICY_MARKERS)
+    for marker in _POLICY_MARKERS:
+        stripped = marker.strip()
+        # Short markers get word-boundary matching so "ed " doesn't
+        # match "record[ed] " and "cm " doesn't match "10cm".
+        if len(stripped) <= 3:
+            if re.search(rf"\b{re.escape(stripped)}\b", text):
+                return True
+        elif marker in text:
+            return True
+    return False
 
 
 def is_india_relevant(title: str, description: str = "") -> bool:
