@@ -195,6 +195,55 @@ class TestFirstSeenStamping:
         )
 
 
+class TestAmendmentLogCap:
+    """detect_amendments must bound its output. IRDAI-style page rotators
+    (where the same "policy" page shows different content on each fetch)
+    were producing 10 000+ events for a single policy — 48% of the whole
+    amendments log — and stale IDs never got GC'd, growing the file
+    unboundedly.
+    """
+
+    @pytest.fixture
+    def fetch_all(self, tmp_path, monkeypatch):
+        mod = _load_module("fetch_all")
+        monkeypatch.setattr(mod, "DATA_DIR", tmp_path)
+        return mod
+
+    def test_per_field_history_capped(self, fetch_all):
+        existing = {"a": {"id": "a", "title": "T", "description": "v0", "source_id": "s"}}
+        amendments: dict = {}
+        for i in range(1, 40):
+            new_desc = f"rotation-content-{i}"
+            new_items = [{"id": "a", "title": "T", "description": new_desc, "source_id": "s"}]
+            fetch_all.detect_amendments(existing, new_items, amendments)
+            # Simulate the merge that would normally happen so the *next*
+            # cycle sees the fresh description as "old"
+            existing["a"]["description"] = new_desc
+
+        history = amendments.get("a", [])
+        description_events = [e for e in history if e.get("field") == "description"]
+        assert len(description_events) <= 20, (
+            f"per-field history uncapped ({len(description_events)} events) — "
+            f"rotating page content will bloat amendments.json without bound"
+        )
+
+    def test_stale_policy_ids_gc_ed(self, fetch_all):
+        """Policies that were once amended but no longer exist in `existing`
+        (dropped off the per-source cap, merged into a fuzzy-match, etc.)
+        must not stay in the log forever."""
+        existing = {"live": {"id": "live", "title": "Alive"}}
+        amendments = {
+            "live": [{"date": "2026-01-01", "field": "description", "old_value": "a", "new_value": "b"}],
+            "zombie": [{"date": "2024-06-15", "field": "description", "old_value": "x", "new_value": "y"}],
+        }
+        fetch_all.detect_amendments(existing, new_items=[], amendments=amendments)
+        assert "live" in amendments
+        assert "zombie" not in amendments, (
+            "amendments for dropped policy IDs must be GC'd; otherwise the "
+            "log accumulates zombies forever"
+        )
+
+
 class TestNoTodayFallback:
     """fetch_source must NOT stamp today's date on items where the source
     didn't expose a publication date. Doing so contaminates `p.date` with

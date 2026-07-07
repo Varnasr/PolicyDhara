@@ -1,0 +1,42 @@
+name: Source Health Check
+
+on:
+  schedule:
+    # Weekly, Mondays 04:30 UTC
+    - cron: '30 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Probe every source
+        run: python3 scripts/check_source_health.py --open-issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+
+      - name: Commit updated health data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain data/source_health.json)" ]]; then
+            git add data/source_health.json
+            git commit -m "Chore: update source_health.json"
+            git push
+          else
+            echo "No changes to source_health.json"
+          fi

@@ -12,31 +12,125 @@ try {
   feedsConfig = JSON.parse(raw);
 } catch {}
 
-const sourceEntries = Object.entries(meta.source_counts).sort((a, b) => b[1] - a[1]);
+// Load source health if the weekly probe has run
+let health: Record<string, { last_healthy?: string; last_status?: number; streak?: number }> = {};
+try {
+  const raw = fs.readFileSync(path.join(process.cwd(), 'data/source_health.json'), 'utf-8');
+  health = JSON.parse(raw);
+} catch {}
+
+type SourceRow = {
+  id: string;
+  name: string;
+  short: string;
+  type: string;
+  url: string;
+  description: string;
+  covers: string;
+  count: number;
+  lastHealthy: string;
+  streak: number;
+};
+
+// Build a row per configured source. source_counts is keyed by source_id
+// (e.g. "the_hindu_policy"), matching feeds.json keys — the previous
+// version of this page compared it against short_name and never matched.
+const configured = feedsConfig.sources || {};
+const counts = meta.source_counts || {};
+const rows: SourceRow[] = Object.entries(configured).map(([id, cfg]: [string, any]) => ({
+  id,
+  name: cfg.name || id,
+  short: cfg.short_name || id,
+  type: cfg.type || 'unknown',
+  url: cfg.url || '',
+  description: cfg.description || '',
+  covers: cfg.covers_sectors || '',
+  count: counts[id] || 0,
+  lastHealthy: health[id]?.last_healthy || '',
+  streak: health[id]?.streak || 0,
+}));
+
+// Also surface source_ids that appear in policies.json but have no config
+// entry — they should be added to feeds.json or renamed for consistency.
+const configuredIds = new Set(Object.keys(configured));
+const orphanIds = Object.keys(counts).filter(k => !configuredIds.has(k));
+const orphanRows: SourceRow[] = orphanIds.map(id => ({
+  id, name: id, short: id, type: 'legacy', url: '',
+  description: 'Legacy source_id in policies.json without a config entry.',
+  covers: '', count: counts[id] || 0, lastHealthy: '', streak: 0,
+}));
+
+const allRows = [...rows, ...orphanRows];
+
+// Sort: contributing sources first (by count desc), then never-contributed
+allRows.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+const totalConfigured = rows.length;
+const contributing = rows.filter(r => r.count > 0).length;
+const stale = rows.filter(r => r.streak >= 3).length;
 ---
-<Base title="Sources" description="Open data sources powering the PolicyDhara — PIB, PRS, India Code, eGazette, NITI Aayog, data.gov.in, and more.">
+<Base title="Sources" description="Every open data source powering PolicyDhara — PIB (per ministry), PRS, India Code, eGazette, RBI, Parliament, state governments, and more.">
   <div style="padding: var(--space-xl) 0;">
     <h2 class="page-title">Data Sources</h2>
     <p class="page-subtitle">
-      Aggregating open data from {sourceEntries.length} sources, fetched automatically every 6 hours.
+      {totalConfigured} configured sources · {contributing} currently contributing items · {stale} flagged stale · refetched every 6 hours
     </p>
 
-    <div class="sector-grid">
-      {sourceEntries.map(([shortName, count]) => {
-        const sourceConfig = Object.values(feedsConfig.sources || {}).find((s: any) => s.short_name === shortName) as any;
-        const description = sourceConfig?.description || '';
-        const type = sourceConfig?.type || 'unknown';
+    {orphanRows.length > 0 && (
+      <p class="page-subtitle" style="color: var(--color-text-muted); font-size: 0.85rem;">
+        {orphanRows.length} legacy source_id{orphanRows.length === 1 ? '' : 's'} present in the dataset but not in <code>feeds.json</code> — shown below with a "LEGACY" tag.
+      </p>
+    )}
 
+    <div class="sector-grid">
+      {allRows.map(r => {
+        const typeClass = r.type === 'rss' ? 'announcement'
+          : r.type === 'api' ? 'research'
+          : r.type === 'legacy' ? 'notification'
+          : 'policy';
         return (
-          <div class="sector-card" style="cursor: default;">
-            <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
-              <span class="sector-card-name">{shortName}</span>
-              <span class={`policy-type type-${type === 'rss' ? 'announcement' : type === 'api' ? 'research' : 'policy'}`} style="font-size: 0.5625rem; flex-shrink: 0;">
-                {type.toUpperCase()}
+          <div class="sector-card" style="cursor: default; align-items: flex-start;">
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%;">
+              <span class="sector-card-name" title={r.name}>{r.short}</span>
+              <span class={`policy-type type-${typeClass}`} style="font-size: 0.5625rem; flex-shrink: 0;">
+                {r.type.toUpperCase()}
               </span>
             </div>
-            {description && <span style="font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.5;">{description}</span>}
-            <span style="font-size: 0.8125rem; font-weight: 600; color: var(--color-accent);">{count} {count === 1 ? 'item' : 'items'}</span>
+
+            {r.description && (
+              <span style="font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.5;">
+                {r.description}
+              </span>
+            )}
+
+            {r.covers && (
+              <span style="font-size: 0.75rem; color: var(--color-text-muted);">
+                <strong>Covers:</strong> {r.covers}
+              </span>
+            )}
+
+            {r.url && (
+              <a href={r.url} target="_blank" rel="noopener noreferrer"
+                 style="font-size: 0.75rem; word-break: break-all; color: var(--color-accent);">
+                {r.url}
+              </a>
+            )}
+
+            <div style="display: flex; gap: var(--space-sm); align-items: center; flex-wrap: wrap; margin-top: auto;">
+              <span style="font-size: 0.8125rem; font-weight: 600; color: var(--color-accent);">
+                {r.count} {r.count === 1 ? 'item' : 'items'}
+              </span>
+              {r.lastHealthy && (
+                <span style="font-size: 0.7rem; color: var(--color-text-muted);">
+                  · last healthy {r.lastHealthy}
+                </span>
+              )}
+              {r.streak >= 3 && (
+                <span style="font-size: 0.7rem; color: #dc2626;">
+                  · {r.streak} failed probes
+                </span>
+              )}
+            </div>
           </div>
         );
       })}

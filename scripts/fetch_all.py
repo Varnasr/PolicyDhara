@@ -305,8 +305,31 @@ def detect_amendments(existing: dict, new_items: list[dict], amendments: dict) -
 
     Also uses fuzzy title matching to find near-duplicate policies that
     represent amendments to each other (different IDs, similar titles).
+
+    Two safeguards against unbounded growth (see the IRDAI-page-rotator
+    regression that produced 10 495 events on one policy):
+      1. Per-(policy, field) history is capped at MAX_AMENDMENTS_PER_FIELD.
+      2. GC pass at the end drops amendments for policy IDs no longer in
+         `existing` — otherwise dropped policies accumulate zombie history
+         forever.
     """
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    MAX_AMENDMENTS_PER_FIELD = 20
+
+    def append_event(pid: str, event: dict) -> None:
+        history = amendments.setdefault(pid, [])
+        history.append(event)
+        # Trim per-field history so a single noisy field (rotating page
+        # content, unstable classifier) can't dominate the log.
+        by_field: dict[str, list] = {}
+        for e in history:
+            by_field.setdefault(e.get("field", ""), []).append(e)
+        for field_events in by_field.values():
+            while len(field_events) > MAX_AMENDMENTS_PER_FIELD:
+                # Drop the oldest event for this field, in-place in `history`
+                oldest = field_events.pop(0)
+                history.remove(oldest)
+        amendments[pid] = history
 
     # --- Exact ID match: same policy updated ---
     for item in new_items:
@@ -318,7 +341,7 @@ def detect_amendments(existing: dict, new_items: list[dict], amendments: dict) -
             old_val = old.get(field, "")
             new_val = item.get(field, "")
             if _normalize_for_compare(old_val) != _normalize_for_compare(new_val) and old_val and new_val:
-                amendments.setdefault(pid, []).append({
+                append_event(pid, {
                     "date": today,
                     "field": field,
                     "old_value": old_val,
@@ -329,7 +352,7 @@ def detect_amendments(existing: dict, new_items: list[dict], amendments: dict) -
         old_sectors = sorted(old.get("sectors", []))
         new_sectors = sorted(item.get("sectors", []))
         if old_sectors != new_sectors and old_sectors and new_sectors:
-            amendments.setdefault(pid, []).append({
+            append_event(pid, {
                 "date": today,
                 "field": "sectors",
                 "old_value": ", ".join(old_sectors),
@@ -351,7 +374,7 @@ def detect_amendments(existing: dict, new_items: list[dict], amendments: dict) -
                 old_desc = old.get("description", "")
                 new_desc = item.get("description", "")
                 if old_desc and new_desc and _normalize_for_compare(old_desc) != _normalize_for_compare(new_desc):
-                    amendments.setdefault(old["id"], []).append({
+                    append_event(old["id"], {
                         "date": today,
                         "field": "description",
                         "old_value": old_desc,
@@ -359,6 +382,14 @@ def detect_amendments(existing: dict, new_items: list[dict], amendments: dict) -
                         "source_id": item.get("source_id", ""),
                     })
                 break  # one match per new item
+
+    # --- GC: drop amendments for policies no longer in existing ---
+    # A policy can leave `existing` when it drops off the per-source cap
+    # or when its ID changes after a dedup pass. Without this, the log
+    # grows forever.
+    stale_ids = [pid for pid in amendments if pid not in existing]
+    for pid in stale_ids:
+        del amendments[pid]
 
     return amendments
 
