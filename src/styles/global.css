@@ -1557,3 +1557,47 @@ kbd {
   /* Header logo subtitle just adds noise on phones */
   .site-logo .subtitle { display: none; }
 }
+
+/* ── Mobile polish, round 2 ─────────────────────────────────
+   The base layout was designed desktop-first with 24px container
+   padding and generous font sizes. On phones this leaves secondary
+   elements (trending chips, ticker headlines, stat labels) either
+   too small or cramped. These rules bring the vertical rhythm
+   under control at ≤600px without changing the desktop layout. */
+
+@media (max-width: 600px) {
+  /* Container: 24px padding wastes ~13% of a 360-CSS-px viewport.
+     Drop to 16px so cards can breathe. */
+  .container { padding: 0 16px; }
+
+  /* News ticker: shrink height and clip long headlines with a
+     max-width per item — otherwise a single wire-service headline
+     ("Two members of a Kerala family killed in Saudi road crash")
+     dominates the entire top of the mobile viewport. */
+  .ticker-bar { height: 28px; font-size: 0.6875rem; }
+  .ticker-label { font-size: 0.5625rem; padding: 0 10px; }
+  .ticker-item { padding: 0 16px; }
+  .ticker-item a {
+    max-width: 60vw;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  /* Trending strip: bump the tiny count text so "1507 this week"
+     doesn't require zoom to read. */
+  .trending-chip { padding: 7px 14px; font-size: 0.8125rem; }
+  .trending-chip .trend-count { font-size: 0.6875rem; }
+  .trending-chip .trend-arrow { font-size: 0.6875rem; }
+
+  /* Section headings: reduce top margin so sections stack tighter. */
+  .section-header h3 { font-size: 1rem; }
+}
+
+@media (max-width: 480px) {
+  /* Below 480px, dial the ticker headline max-width tighter so
+     the ticker doesn't overflow. */
+  .ticker-item a { max-width: 55vw; }
+}
