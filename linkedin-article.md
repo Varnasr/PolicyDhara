@@ -1,16 +1,16 @@
 # PolicyDhara: Building an Open-Source Policy Intelligence Engine for India
 
-*How we automated the tracking of 2,000+ development policies across 23 sectors and 310 sources — and why it matters.*
+*How we automated the tracking of 2,000+ development policies across 22 sectors and 420+ sources — and what we learned from six months of running it.*
 
 ---
 
-India generates an extraordinary volume of policy actions every single day. Notifications from the Gazette of India, scheme announcements via the Press Information Bureau, RBI circulars, Parliament bills, state government orders, budget allocations, think-tank analyses — the sheer breadth of India's policy landscape is staggering. And yet, for researchers, journalists, civil society organizations, and even policymakers themselves, keeping up with this flow has been a manual, fragmented, and often incomplete exercise.
+India generates an extraordinary volume of policy actions every day. Gazette notifications, PIB press releases from every ministry, RBI circulars, bills introduced and passed in Parliament, state government orders, budget allocations, think-tank analyses, court judgments — the sheer breadth is difficult to overstate. For researchers, journalists, civil-society organisations, and even policymakers, keeping up has been a manual, fragmented, and often incomplete exercise.
 
-This is the problem **PolicyDhara** was built to solve.
+This is the problem **PolicyDhara** was built to solve — and this year we learned as much from getting it wrong as from getting it right.
 
 ## What Is PolicyDhara?
 
-PolicyDhara (from the Hindi/Sanskrit "Dhara," meaning flow or stream) is an open-source, auto-updating tracker of Indian development policies. Built as an [ImpactMojo](https://impactmojo.com) initiative, it continuously aggregates policy actions from over 310 configured sources, classifies them across 23 sectors, and publishes everything on a searchable, free-to-use platform — updated every six hours, automatically.
+PolicyDhara (from the Hindi/Sanskrit *dhara* — "flow" or "stream") is an open-source, auto-updating tracker of Indian development policies. Built as an [ImpactMojo](https://impactmojo.com) initiative, it continuously aggregates policy actions from **400+ configured sources**, classifies them across **22 sectors**, and publishes everything on a searchable, free-to-use platform — refreshed every six hours, automatically.
 
 Think of it as a living, breathing dashboard for Indian policy — one that never sleeps.
 
@@ -20,143 +20,148 @@ Think of it as a living, breathing dashboard for Indian policy — one that neve
 
 Consider what a policy researcher faces today:
 
-- **20+ government portals** with different formats, update frequencies, and navigation structures
-- **Multiple Parliament trackers** that may or may not be current
-- **State-level policies** scattered across 28 state government websites
-- **Think-tank analyses** published across dozens of institutional sites
-- **Budget documents** buried in PDF repositories
-- **No single, unified search** across all of these
+- **50+ central-ministry press portals**, one per body, with different formats and update cadences
+- **Multiple constitutional bodies** (Election Commission, NHRC, CAG, Law Commission, NGT, IBBI, PNGRB, AERB) publishing primary output on their own websites
+- **28 state governments** and Union Territories with their own DIPR portals
+- **Parliament and Budget** data buried in PDF repositories
+- **Judiciary** — Supreme Court and every High Court — publishing judgments separately
+- **Think tanks** (PRS, CPR, NIPFP, Takshashila, CSEP, Vidhi) with their own publication feeds
+- **No single, unified search** across any of this
 
-PolicyDhara brings all of this into one place.
+PolicyDhara brings all of it into one place.
 
-## What PolicyDhara Offers
+## Coverage Highlights (Mid-2026)
 
-### 1. Sector Intelligence Across 23 Domains
+### 400+ configured sources across three tiers
 
-Every policy is automatically classified into one or more of 23 sectors — from **Education**, **Health**, and **Agriculture** to **Digital & Technology**, **Climate & Environment**, **Defence & Security**, and even emerging categories like **Civil Liberties**. Each sector gets its own dedicated page with trend analysis, source breakdown, and chronological policy feeds.
+- **Central government** — every English-language Press Information Bureau ministry filter (92 dedicated feeds, one per ministry / constitutional body), plus India Code, eGazette, Parliament, RBI, NITI Aayog, data.gov.in.
+- **Constitutional bodies & regulators** — Election Commission, NHRC, Lokpal, UPSC, EAC-PM, Law Commission, IBBI, PNGRB, AERB, MCA notifications, NGT, CVC, NCW, NCBC.
+- **State & judiciary** — 14 state PIB regional offices, direct DIPR portals for Tamil Nadu, Karnataka, and other high-volume states, plus eCourts judgment aggregator and Delhi High Court's live feed.
+- **Research & multilateral** — PRS Legislative Research, CPR, NIPFP, Takshashila, CSEP, Vidhi, IDFC Institute, ICMR, ICAR, and India-country pages for World Bank, IMF, and UNICEF.
 
-The top sectors by volume tell their own story: Social Protection leads with 1,300+ tracked policies, followed by Digital & Technology at 1,200+ — reflecting India's twin priorities of welfare expansion and digital transformation.
+### Every source is monitored
 
-### 2. Parliament & Budget Trackers
+A weekly source-health job probes every URL, tracks streak of failing probes, and files a GitHub issue when a source has gone three weeks silent. Dead sources become **visible**, not invisible — a big change from year one.
 
-PolicyDhara includes a dedicated **Parliament Tracker** covering the 18th Lok Sabha — bill introductions, session productivity metrics, and legislative trends. The **Budget Tracker** breaks down Union Budget allocations by ministry and scheme, with all figures in Rs crore for easy reference.
+### Sector intelligence across 22 domains
 
-### 3. State-Level Coverage
+Every policy is auto-classified into one or more sectors — Education, Health, Agriculture, Digital & Technology, Climate & Environment, Defence & Security, Governance, Social Justice, Urbanisation, Labour & Employment, and more. Each sector has its own page with trend analysis, source breakdown, and chronological feed.
 
-Through PIB regional offices and state government feeds, PolicyDhara tracks policy actions across **13 major states**, giving users a federal view of India's policy landscape — not just the central government perspective.
+### Parliament, Budget & State Trackers
 
-### 4. Policy Continuity & Era Comparison
+Dedicated modules for the 18th Lok Sabha (bill introductions, session productivity, legislative trends), Union Budget breakdown by ministry and scheme, and a federal view spanning 13+ major states.
 
-One of the most unique features: PolicyDhara maps policies across **five government eras** — UPA I (2004–2009), UPA II (2009–2014), NDA I (2014–2019), NDA II (2019–2024), and NDA III (2024–present). This enables longitudinal analysis of how sectors have evolved across political cycles — a capability that simply doesn't exist elsewhere in a structured, searchable format.
+### Policy Continuity Across Government Eras
 
-### 5. Amendment Tracking
+One of the most-used features: PolicyDhara maps policies across **five government eras** — UPA I (2004–2009), UPA II (2009–2014), NDA I (2014–2019), NDA II (2019–2024), and NDA III (2024–present) — enabling longitudinal analysis of how sectors have evolved across political cycles.
 
-When a policy reappears with changed text — a revised notification, an updated scheme guideline, a modified circular — PolicyDhara detects the change and logs it. Users can see field-level diffs: what changed in the title, description, or sector classification, and when.
+### Amendment Tracking, Now Bounded
 
-### 6. Alerts, Watchlists & Email Digests
+When a policy reappears with changed text, PolicyDhara logs a field-level diff. This year we discovered the log had grown to 9.5 MB with 21,000+ events — largely from one rotating-content page on the IRDAI website spuriously producing 10,495 "amendments," plus 2,578 zombie entries for policy IDs that had been dropped by the dedup step but never garbage-collected. The log is now capped and GC'd; it holds real amendment history at 0.2 MB.
 
-Users can set up **sector-based watchlists** that trigger alerts when new policies appear in their areas of interest. A daily **email digest** (powered by Buttondown) summarizes the latest additions, grouped by sector.
+### Alerts, Watchlists & Feeds
 
-### 7. Bookmarks & Reading Lists
+- Sector-based watchlists trigger email alerts on new policies (powered by Buttondown).
+- A daily digest summarises additions, grouped by sector.
+- Per-sector RSS feeds and now per-ministry RSS (one feed per PIB-tracked ministry).
+- Telegram alerts for high-priority items (constitutional amendments, Union Budget, major bills).
 
-A browser-based reading list lets users bookmark policies for later review — no login required, no data sent to any server. Everything stays local.
+### Full-Text Search
 
-### 8. Full-Text Search
+Search across the entire dataset with filters for sector, source, document type, and date range. Runs entirely in the browser — fast, private, serverless.
 
-Search across all 2,000+ policies with filters for sector, source, document type, and date range. The search runs entirely in the browser — fast, private, and serverless.
+## What We Got Wrong (And Fixed)
+
+The hardest lesson of 2026 was that a dashboard can quietly lie to you. Three examples we caught and fixed this year:
+
+**"Added this week: 1,888."** The fetcher fell back to today's date when a source didn't expose a publication date — and about half don't. Ninety-four percent of the dataset ended up clustered on three consecutive days: the days CI happened to run most recently. We removed the fallback; undated items now stay undated. The homepage widget was renamed "Enacted This Week" and reports a small, honest number instead of a large, spurious one.
+
+**Ingestion masquerading as enactment.** Once dates were clean, the widget briefly used `first_seen` (when we ingested the item) as a fallback for `date` (when it was enacted) — with the label "added this week." That reads as enactment to any reader. We now count only the enactment date, exclude undated items, and label the caveat prominently.
+
+**Runaway amendment log.** Detailed above — 48% of the log was a single rotating-content page, and 96% of the policy IDs it tracked had been dropped from the main dataset months earlier.
+
+Each fix took a few lines. What mattered was noticing.
+
+We wrote it up as a transparency-flavoured blog post — the honest kind of change-log that civic tech should be publishing more of.
 
 ## The Tech Behind PolicyDhara
 
-This is where it gets interesting for the builders in the audience.
-
 ### Architecture: Serverless by Design
 
-PolicyDhara has **zero running servers**. The entire platform is a static site generated by [Astro](https://astro.build), hosted on GitHub Pages, with data updates driven by GitHub Actions cron jobs. This means:
-
-- **Zero hosting cost** (GitHub Pages free tier)
-- **Zero maintenance overhead** (no servers to patch, no databases to manage)
-- **Full version history** (every data update is a Git commit)
-- **Resilient by default** (static files served via CDN)
+Zero running servers. The whole platform is a static site generated by [Astro](https://astro.build), hosted on GitHub Pages, with data updates driven by GitHub Actions cron jobs. Result: **zero hosting cost, zero maintenance overhead, full version history** (every data update is a Git commit), and CDN-backed resilience.
 
 ### The Data Pipeline
 
-Every six hours, a GitHub Actions workflow triggers the following:
+Every six hours, a GitHub Actions workflow runs the following:
 
 ```
-310 Source Configs (feeds.json)
+420+ Source Configs (feeds.json)
     ↓
 Python Pipeline (fetch_all.py)
     ├→ RSS Fetcher (robust XML parsing, namespace handling)
-    ├→ HTML Scraper (BeautifulSoup, CSS selectors)
-    ├→ Sector Classifier (keyword-based, multi-label)
-    └→ Deduplication + Amendment Detection
+    ├→ HTML Scraper (BeautifulSoup + CSS selectors, per-source scraper map)
+    ├→ Sector Classifier (curated keyword-based, multi-label)
+    ├→ Deduplication (by ID, source+title, title-across-sources)
+    ├→ Amendment Detection (bounded per-field history + GC)
+    └→ first_seen stamping + honest date handling
     ↓
-Structured JSON (policies.json, amendments.json, meta.json)
+Structured JSON (policies.json, amendments.json, source_health.json, meta.json)
     ↓
-Astro Build (2,100+ static pages in ~2 minutes)
+pytest (gates the auto-merge — bad data can't land)
+    ↓
+Astro Build (~2,100 static pages in ~2 minutes)
     ↓
 GitHub Pages Deployment
     ↓
-Email Digest (if new policies detected)
+Email + Telegram alerts (if high-priority items detected)
 ```
-
-The pipeline is designed for resilience: each source gets a **30-second timeout**, junk pages are filtered, dates are extracted from titles when metadata is missing, and the entire run completes within a **12-minute window**.
 
 ### The Classifier
 
-Rather than using ML (which would be overkill for this domain), PolicyDhara uses a **curated keyword-based classifier** tuned specifically for Indian policy language. Terms like "MGNREGA" map to Social Protection, "5G spectrum" to Digital & Technology, "carbon credit" to Climate & Environment. Each policy can belong to multiple sectors, and the classifier handles Hindi transliterations, acronyms, and ministry-specific terminology.
-
-It's simple, fast, transparent, and — crucially — auditable. Anyone can read the keyword lists and understand why a policy was classified the way it was.
+Rather than ML, PolicyDhara uses a **curated keyword-based classifier** tuned for Indian policy language. "MGNREGA" maps to Social Protection, "5G spectrum" to Digital & Technology, "carbon credit" to Climate & Environment. Each policy can belong to multiple sectors; the classifier handles transliterations, acronyms, and ministry-specific terminology. It's fast, transparent, and auditable — anyone can read the keyword lists and see why a policy landed where it did.
 
 ### The API & Embeddable Widgets
 
-PolicyDhara exposes its data through:
-
 - A **JSON API** at `/api/` for programmatic access with filtering
-- An **RSS feed** at `/rss.xml` with the 100 latest policies
-- **CSV/JSON data export** for bulk download
-- **Three embeddable widgets** for third-party websites:
-  - A stats badge (total policies & sources)
-  - A sector feed (filterable recent policies)
-  - A lightweight JavaScript widget (~1KB) with `data-*` configuration for theme, sector, and count
+- **RSS feeds** at `/rss.xml` (all policies), `/rss/[sector].xml`, and `/rss/ministry/[ministry].xml`
+- **CSV/JSON export** for bulk download
+- **Embeddable widgets** — stats badge, sector feed, and a ~1 KB JavaScript widget with `data-*` configuration for theme, sector, and count
 
-If you run a policy research blog, an NGO website, or a news portal, you can embed a live PolicyDhara feed in under 30 seconds — no API key required.
+If you run a policy research blog, an NGO website, or a news portal, you can embed a live feed in under 30 seconds — no API key required.
 
 ## Why Open Source?
 
-PolicyDhara is fully open source under a permissive license. This is deliberate.
+PolicyDhara is fully open source under a permissive licence. This is deliberate.
 
-Policy transparency shouldn't be a premium product. The data comes from public sources. The classification logic should be auditable. And the platform should be extensible — if someone wants to add a new source, a new sector, or a new language, they should be able to fork the repo and do it.
+Policy transparency shouldn't be a premium product. The data comes from public sources. The classification logic should be auditable. The bugs should be findable, and — as this year proved — findable by anyone who reads the code.
 
-We've seen contributors add state government sources, improve the classifier's keyword lists, and suggest new features — all through GitHub pull requests. That's exactly how civic tech should work.
+We've had contributors add sources, tighten classifier keyword lists, and file issues on stats that felt off. That's exactly how civic tech should work.
 
 ## Who Is This For?
 
 - **Policy researchers** tracking sectoral trends across government eras
-- **Journalists** looking for a searchable archive of government policy actions
+- **Journalists** searching a full archive of government policy actions
 - **NGOs and civil society** monitoring policies that affect their constituents
-- **Students and academics** studying Indian governance and public policy
-- **Government officials** wanting a cross-ministry view of policy activity
-- **International organizations** tracking India's development trajectory
+- **Students and academics** studying Indian governance
+- **Government officials** wanting a cross-ministry view
+- **International organisations** tracking India's development trajectory
 
 ## What's Next
 
-PolicyDhara is actively evolving. On the roadmap:
-
-- Expanding state-level coverage beyond the current 13 states
-- Adding vernacular language support for regional policy sources
-- Deeper integration with Parliament and budget data
+- Deeper judicial coverage (High Court judgments per state, via eCourts)
+- Vernacular-language sources (regional press portals in Hindi, Tamil, Telugu, Kannada, Bengali)
+- Better first-party date extraction (parsing PDF metadata where the DOM doesn't expose dates)
 - Community-contributed source configs for niche policy domains
-- Improved classification using lightweight NLP
+- Continued source-health hygiene — as this year's audit showed, a stale source is a silent lie
 
 ## Try It
 
 - **Browse:** [varnasr.github.io/PolicyDhara](https://varnasr.github.io/PolicyDhara)
 - **Contribute:** [github.com/Varnasr/PolicyDhara](https://github.com/Varnasr/PolicyDhara)
-- **Embed:** Add a live policy feed to your website in one line of code
-- **Subscribe:** Get daily policy digests in your inbox
+- **Embed:** Add a live policy feed to your site in one line of code
+- **Subscribe:** Email digest, per-sector RSS, per-ministry RSS, or Telegram alerts
 
-Policy is the single most powerful lever for development outcomes. Making it trackable, searchable, and accessible isn't just a technical exercise — it's a civic imperative.
+Policy is one of the most powerful levers for development outcomes. Making it trackable, searchable, and — as this year taught us — *honestly measurable* isn't just a technical exercise. It's a civic imperative.
 
 ---
 

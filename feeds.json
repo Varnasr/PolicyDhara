@@ -5275,6 +5275,237 @@
       "level": "state",
       "state": "Uttar Pradesh",
       "covers_sectors": "all"
+    },
+    "law_commission": {
+      "name": "Law Commission of India",
+      "short_name": "LawComm",
+      "type": "scrape",
+      "url": "https://lawcommissionofindia.nic.in/documents/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Statutory law reform reports (277+ series) that shape legislative amendments — primary source, not covered.",
+      "covers_sectors": "governance"
+    },
+    "cvc": {
+      "name": "Central Vigilance Commission",
+      "short_name": "CVC",
+      "type": "scrape",
+      "url": "https://cvc.gov.in/whatsnew",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Anti-corruption circulars, CVO clearances, and vigilance guidelines; bot-blocked, needs custom UA header.",
+      "covers_sectors": "governance"
+    },
+    "ncw": {
+      "name": "National Commission for Women",
+      "short_name": "NCW",
+      "type": "scrape",
+      "url": "https://www.ncw.gov.in/media/press-releases/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "POSH advisories, women's rights investigations, and complaint-panel decisions; may bot-block.",
+      "covers_sectors": "social-justice, governance"
+    },
+    "ncbc": {
+      "name": "National Commission for Backward Classes",
+      "short_name": "NCBC",
+      "type": "scrape",
+      "url": "https://ncbc.nic.in/User_Panel/NewsView.aspx",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "OBC-list additions, sub-categorisation opinions, and central-list revisions — no other primary feed.",
+      "covers_sectors": "social-justice"
+    },
+    "ibbi": {
+      "name": "Insolvency and Bankruptcy Board of India",
+      "short_name": "IBBI",
+      "type": "scrape",
+      "url": "https://ibbi.gov.in/legal-framework/notifications",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Insolvency circulars, NCLT/NCLAT orders, and IBC amendments — updated multiple times weekly.",
+      "covers_sectors": "economy, governance"
+    },
+    "mca_notifications": {
+      "name": "Ministry of Corporate Affairs — Notifications",
+      "short_name": "MCA",
+      "type": "scrape",
+      "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/notifications-circulars.html",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Companies Act notifications and MCA circulars; bot-blocked, needs custom UA.",
+      "covers_sectors": "economy, governance"
+    },
+    "pngrb": {
+      "name": "Petroleum & Natural Gas Regulatory Board",
+      "short_name": "PNGRB",
+      "type": "scrape",
+      "url": "https://www.pngrb.gov.in/whats-new.html",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Downstream gas tariff, pipeline capacity, and CGD authorisation orders — no equivalent in PIB.",
+      "covers_sectors": "energy, infrastructure"
+    },
+    "aerb": {
+      "name": "Atomic Energy Regulatory Board",
+      "short_name": "AERB",
+      "type": "scrape",
+      "url": "https://www.aerb.gov.in/english/news1",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Nuclear-plant clearance, radiation-safety codes, and reactor-restart approvals; may bot-block.",
+      "covers_sectors": "energy, security"
+    },
+    "takshashila": {
+      "name": "Takshashila Institution",
+      "short_name": "Takshashila",
+      "type": "rss",
+      "url": "https://takshashila.org.in/pages/publications/index.xml",
+      "frequency": "Weekly",
+      "format": "RSS",
+      "reliability": "high",
+      "description": "Working RSS feed covering geopolitics, tech policy, defence — currently missing from the list.",
+      "covers_sectors": "security, digital-technology, governance"
+    },
+    "csep": {
+      "name": "Centre for Social and Economic Progress",
+      "short_name": "CSEP",
+      "type": "scrape",
+      "url": "https://csep.org/publication/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Successor to Brookings India; publishes working papers, key insights, and blogs weekly.",
+      "covers_sectors": "economy, governance"
+    },
+    "vidhi": {
+      "name": "Vidhi Centre for Legal Policy",
+      "short_name": "Vidhi",
+      "type": "scrape",
+      "url": "https://vidhilegalpolicy.in/research/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Legislative drafting shop with model laws and rights briefs; may bot-block.",
+      "covers_sectors": "governance, social-justice"
+    },
+    "nipfp": {
+      "name": "National Institute of Public Finance and Policy",
+      "short_name": "NIPFP",
+      "type": "scrape",
+      "url": "https://www.nipfp.org.in/publication-index-page/working-paper-index-page/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Finance Commission adjacent think tank; fiscal-federalism, tax, and Union Budget working papers.",
+      "covers_sectors": "economy"
+    },
+    "idfc_institute_new": {
+      "name": "IDFC Institute",
+      "short_name": "IDFC-I",
+      "type": "scrape",
+      "url": "https://www.idfcinstitute.org/knowledge/publications/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "State capacity and urbanisation research.",
+      "covers_sectors": "governance, urbanization"
+    },
+    "unicef_india": {
+      "name": "UNICEF India Press Releases",
+      "short_name": "UNICEF-IN",
+      "type": "scrape",
+      "url": "https://www.unicef.org/india/press-releases",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "India-office statements on child health, nutrition, and education aligned with government schemes.",
+      "covers_sectors": "health, education, social-justice"
+    },
+    "ecourts_judgments": {
+      "name": "eCourts Judgments Portal",
+      "short_name": "eCourts",
+      "type": "scrape",
+      "url": "https://judgments.ecourts.gov.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Single aggregator for Supreme Court and every High Court judgment — no primary judicial source in feed.",
+      "covers_sectors": "governance"
+    },
+    "delhi_hc": {
+      "name": "Delhi High Court — Latest Judgments",
+      "short_name": "DelhiHC",
+      "type": "scrape",
+      "url": "https://delhihighcourt.nic.in/web/judgement/fetch-data",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Highest-volume constitutional-writ High Court; updates same-day.",
+      "covers_sectors": "governance"
+    },
+    "eci_direct": {
+      "name": "Election Commission of India — Press Releases",
+      "short_name": "ECI-PR",
+      "type": "scrape",
+      "url": "https://www.eci.gov.in/964-press-releases",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "MCC advisories and VVPAT/EVM decisions not mirrored on PIB; complements pib_eci.",
+      "covers_sectors": "governance"
+    },
+    "imd_press": {
+      "name": "India Meteorological Department",
+      "short_name": "IMD",
+      "type": "scrape",
+      "url": "https://internal.imd.gov.in/press_release/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Monsoon bulletins, heat-wave advisories, and cyclone alerts — feed for climate policy tracking.",
+      "covers_sectors": "climate-environment, agriculture"
+    },
+    "digital_india_prog": {
+      "name": "Digital India Programme",
+      "short_name": "DigiIndia",
+      "type": "scrape",
+      "url": "https://www.digitalindia.gov.in/press-release/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "AI Governance Group (AIGEG), IndiaAI, DPDP rules updates — distinct from MeitY main page.",
+      "covers_sectors": "digital-technology"
+    },
+    "dipr_tn": {
+      "name": "DIPR Tamil Nadu",
+      "short_name": "DIPR-TN",
+      "type": "scrape",
+      "url": "https://dipr.tn.gov.in/ords/r/dipr/info-prdept103/press-release-section",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "TN CM/minister press releases — higher volume than PIB TN regional office.",
+      "covers_sectors": "governance"
+    },
+    "dipr_ka": {
+      "name": "DIPR Karnataka",
+      "short_name": "DIPR Karnataka",
+      "type": "scrape",
+      "url": "https://dipr.karnataka.gov.in/page/Department+Downloads/Press+and+News/en",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Karnataka state press-and-news releases across 30 district offices.",
+      "covers_sectors": "governance"
     }
   }
 }
