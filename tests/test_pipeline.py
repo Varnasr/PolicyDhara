@@ -215,15 +215,23 @@ class TestPolicyRelevanceFilter:
         spec.loader.exec_module(mod)
         return mod.is_policy_relevant
 
-    @pytest.mark.parametrize("title", [
-        "Bikers perform wheelies in front of ambulance, endanger patient's life in Bengaluru",
-        "Rupee rises 15 paise to 95.28 against U.S. dollar in early trade",
-        "Teenager Wins Football Match, Then A Murder In Tense Kolkata Suburb",
-        "Condom Ad During Cricket Match Is 'Adult Entertainment': Trinamool MP",
-        "Man held on charge of sexually abusing minor",
+    @pytest.mark.parametrize("title,desc", [
+        # Bare titles — no policy signal anywhere
+        ("Bikers perform wheelies in front of ambulance, endanger patient's life in Bengaluru", ""),
+        ("Rupee rises 15 paise to 95.28 against U.S. dollar in early trade", ""),
+        ("Teenager Wins Football Match, Then A Murder In Tense Kolkata Suburb", ""),
+        ("Condom Ad During Cricket Match Is 'Adult Entertainment': Trinamool MP", ""),
+        ("Man held on charge of sexually abusing minor", ""),
+        ("Two members of a Kerala family killed in Saudi road crash", ""),
+        ("Man Strangles Wife During Argument, Dies By Suicide In Rajasthan: Cops", ""),
+        # Regression: `ed ` was matching past-tense verbs ("recorded",
+        # "circulated") and dragging in ~400 noise items. Word-boundary
+        # matching for short markers is what stops it.
+        ("Bikers performing wheelie stunt block ambulance in Bengaluru, one held | Video",
+         "The video, recorded from inside the ambulance, circulated widely on social media."),
     ])
-    def test_noise_dropped(self, is_policy_relevant, title):
-        assert not is_policy_relevant(title), (
+    def test_noise_dropped(self, is_policy_relevant, title, desc):
+        assert not is_policy_relevant(title, desc), (
             f"noise item slipped through the filter: {title!r}"
         )
 
@@ -235,6 +243,11 @@ class TestPolicyRelevanceFilter:
         "Convention centre, museum: Nod sought for work at Indira Point",
         "Cabinet approves ₹10,000 crore scheme for rural electrification",
         "MeitY issues draft rules for AI safety consultation",
+        # Recent policy items dropped in the over-strict pass — pin them so
+        # a future keyword prune can't remove the markers that let them through.
+        "Bureau of Police Research and Development, National Crime Records Bureau get new chiefs",
+        "Vietnam BrahMos deal already signed, Indonesia pact in final stages: Defence Secretary R.K",
+        "Fresh bomb threat email to ISRO headquarters declared hoax",
     ])
     def test_real_policy_kept(self, is_policy_relevant, title):
         assert is_policy_relevant(title), (
