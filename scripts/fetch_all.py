@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_rss import fetch_rss_source
 from fetch_scrape import fetch_scrape_source
-from classifier import classify_policy, get_sector_slug, is_india_relevant
+from classifier import classify_policy, get_sector_slug, is_india_relevant, is_policy_relevant
 
 PROJECT_ROOT = Path(__file__).parent.parent
 FEEDS_CONFIG = PROJECT_ROOT / "feeds.json"
@@ -632,6 +632,17 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             # This is what stops NYC-mayor and US-trade stories from showing
             # up on a tracker that's supposed to be about Indian policy.
             if not is_india_only_source and not is_india_relevant(title, description):
+                filtered_count += 1
+                continue
+
+            # Policy-relevance gate. Same idea, one level narrower: news
+            # RSS feeds carry everything the outlet publishes (celebrity
+            # divorces, cricket wickets, bike stunts). Items pass this
+            # gate only if they hit at least one policy marker. Official
+            # sources bypass this check (they're already policy by
+            # definition — a PIB press release is policy work regardless
+            # of whether the title contains "notified").
+            if not is_india_only_source and not is_policy_relevant(title, description):
                 filtered_count += 1
                 continue
 
