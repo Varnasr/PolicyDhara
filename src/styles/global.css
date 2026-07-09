@@ -16,11 +16,11 @@
   --color-text-muted: #7a7a78;
   --color-text-dim: #a0a09e;
 
-  /* Accent — policy green */
-  --color-accent: #16a34a;
-  --color-accent-hover: #15803d;
-  --color-accent-bg: #f0fdf4;
-  --color-accent-border: #bbf7d0;
+  /* Accent — ImpactMojo Kit deep blue (shared library brand) */
+  --color-accent: #235789;
+  --color-accent-hover: #16416b;
+  --color-accent-bg: #e9f1f9;
+  --color-accent-border: #c3d7e6;
 
   /* Type accent colors */
   --type-legislation: #dc2626;
@@ -80,10 +80,10 @@
   --color-text-muted: #9898a0;
   --color-text-dim: #686870;
 
-  --color-accent: #22c55e;
-  --color-accent-hover: #16a34a;
-  --color-accent-bg: #052e16;
-  --color-accent-border: #14532d;
+  --color-accent: #6cb2ff;
+  --color-accent-hover: #93c6ff;
+  --color-accent-bg: #16283c;
+  --color-accent-border: #24435f;
 
   --type-legislation: #f87171;
   --type-legislation-bg: #2a1215;
@@ -1601,3 +1601,10 @@ kbd {
      the ticker doesn't overflow. */
   .ticker-item a { max-width: 55vw; }
 }
+
+/* ── Ecosystem cross-links (shared ImpactMojo library nav) ── */
+.eco-nav { display: inline-flex; align-items: center; gap: 12px; margin-left: 4px; }
+.eco-link { font-size: 0.82rem; font-weight: 600; color: var(--color-text-secondary); text-decoration: none; border-bottom: 2px solid transparent; padding-bottom: 1px; white-space: nowrap; }
+.eco-link:hover { color: var(--color-accent); }
+.eco-link.current { color: var(--color-accent); border-bottom-color: var(--color-accent); }
+@media (max-width: 960px) { .eco-nav { display: none; } }

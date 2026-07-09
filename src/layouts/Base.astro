@@ -46,7 +46,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
 
   {/* Additional SEO */}
   <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#2563eb" />
+  <meta name="theme-color" content="#235789" />
   <meta name="author" content="ImpactMojo" />
   <meta name="keywords" content="India policy tracker, Indian government policies, development policy, PIB, legislation, schemes, budget, parliament, open data, policy analysis" />
 
@@ -113,6 +113,12 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
         <div class="nav-primary">
           <a href={base}>Home</a>
           <a href={`${base}search/`}>Search</a>
+          <span class="eco-nav" aria-label="ImpactMojo libraries">
+            <a href="https://varnasr.github.io/dev-case-studies/" class="eco-link">Case Studies</a>
+            <a href="https://www.impactmojo.in/devdiscourses" class="eco-link">Discourses</a>
+            <a href="https://impactlex.netlify.app/" class="eco-link">ImpactLex</a>
+            <a href={base} class="eco-link current" aria-current="page">PolicyDhara</a>
+          </span>
           <a href={`${base}sectors/`}>Sectors</a>
           <a href={`${base}alerts/`}>Alerts</a>
           <div class="nav-dropdown" id="nav-explore">
