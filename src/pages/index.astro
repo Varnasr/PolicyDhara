@@ -25,18 +25,30 @@ const LEAD_POOL = 10;
 const buildDay = Math.floor(Date.now() / 86400000); // changes daily
 const LEAD_TYPES = new Set(['legislation', 'scheme', 'notification', 'budget', 'announcement']);
 // Official / primary government sources — a lead from PIB, the gazette, PRS,
-// the finance ministry, RBI, etc. is a real action, not a media outlet's take.
+// a ministry, a regulator, or a constitutional body is a real action, not a
+// media outlet's take. Any source_id under `pib_*` or `state_pib_*` is by
+// construction an official channel (they're PIB ministry-filtered listings
+// and regional office feeds), so we accept them by prefix. The explicit
+// set covers non-prefixed official sources.
+const OFFICIAL_PREFIXES = ['pib_', 'state_pib_'];
 const OFFICIAL_SOURCES = new Set([
-  'pib', 'pib_eci', 'egazette', 'india_code', 'prs_bills', 'prs_legislative',
-  'mof_budget', 'dfs', 'dst', 'mocivil', 'moship', 'niti_aayog', 'rbi', 'sebi',
-  'trai', 'nhrc', 'state_pib_assam', 'state_pib_karnataka', 'state_pib_punjab',
+  'pib', 'egazette', 'india_code', 'prs_bills', 'prs_legislative',
+  'mof_budget', 'dfs', 'dst', 'mocivil', 'moship', 'niti_aayog',
+  'rbi', 'sebi', 'trai', 'irdai',
+  'nhrc', 'cci', 'cvc', 'cag', 'ncw', 'ncbc', 'law_commission', 'upsc',
+  'ibbi', 'mca_notifications', 'pngrb', 'aerb',
+  'ngt', 'ecourts_judgments', 'delhi_hc',
+  'eci_direct', 'imd_press', 'digital_india_prog', 'icmr',
+  'dipr_tn', 'dipr_ka',
 ]);
+const isOfficial = (sid: string) =>
+  OFFICIAL_SOURCES.has(sid) || OFFICIAL_PREFIXES.some(p => sid.startsWith(p));
 const byDateDesc = (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime();
 // Keep operational/event-listing noise (workshops, auctions, awareness drives,
 // recruitment, tenders) out of the headline even when it's official.
 const LEAD_NOISE = /\b(workshop|webinar|auction|vrr|walk[- ]?in|recruitment|vacanc|result of the|tender|corrigendum|quiz)\b|consumer (education|awareness)|awareness program|invites application/i;
 const substantive = allPolicies.filter(p => p.date && LEAD_TYPES.has(p.type) && !LEAD_NOISE.test(p.title));
-const officialActions = substantive.filter(p => OFFICIAL_SOURCES.has(p.source_id)).sort(byDateDesc);
+const officialActions = substantive.filter(p => isOfficial(p.source_id)).sort(byDateDesc);
 // Prefer an official action; fall back to any substantive type; then anything.
 const leadPool = (officialActions.length ? officialActions : substantive.sort(byDateDesc)).slice(0, LEAD_POOL);
 const lead = leadPool.length ? leadPool[buildDay % leadPool.length] : allPolicies[0];
