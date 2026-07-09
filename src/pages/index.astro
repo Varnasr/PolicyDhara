@@ -32,7 +32,10 @@ const OFFICIAL_SOURCES = new Set([
   'trai', 'nhrc', 'state_pib_assam', 'state_pib_karnataka', 'state_pib_punjab',
 ]);
 const byDateDesc = (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime();
-const substantive = allPolicies.filter(p => p.date && LEAD_TYPES.has(p.type));
+// Keep operational/event-listing noise (workshops, auctions, awareness drives,
+// recruitment, tenders) out of the headline even when it's official.
+const LEAD_NOISE = /\b(workshop|webinar|auction|vrr|walk[- ]?in|recruitment|vacanc|result of the|tender|corrigendum|quiz)\b|consumer (education|awareness)|awareness program|invites application/i;
+const substantive = allPolicies.filter(p => p.date && LEAD_TYPES.has(p.type) && !LEAD_NOISE.test(p.title));
 const officialActions = substantive.filter(p => OFFICIAL_SOURCES.has(p.source_id)).sort(byDateDesc);
 // Prefer an official action; fall back to any substantive type; then anything.
 const leadPool = (officialActions.length ? officialActions : substantive.sort(byDateDesc)).slice(0, LEAD_POOL);

@@ -8,8 +8,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Trade & Commerce", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "trade-commerce", "governance-reform"],
+    "sectors": [
+      "Finance & Economy",
+      "Trade & Commerce",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "trade-commerce",
+      "governance-reform"
+    ],
     "type": "policy",
     "level": "central",
     "curated": true
@@ -23,8 +31,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Governance & Reform", "Rural Development"],
-    "sector_slugs": ["governance-reform", "rural-development"],
+    "sectors": [
+      "Governance & Reform",
+      "Rural Development"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "rural-development"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -38,8 +52,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Governance & Reform", "Urban Development"],
-    "sector_slugs": ["governance-reform", "urban-development"],
+    "sectors": [
+      "Governance & Reform",
+      "Urban Development"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "urban-development"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -53,8 +73,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "governance-reform"],
+    "sectors": [
+      "Finance & Economy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -68,9 +94,13 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Education"],
-    "sector_slugs": ["education"],
-    "type": "policy",
+    "sectors": [
+      "Education"
+    ],
+    "sector_slugs": [
+      "education"
+    ],
+    "type": "scheme",
     "level": "central",
     "curated": true
   },
@@ -83,8 +113,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Education", "Social Protection", "Health"],
-    "sector_slugs": ["education", "social-protection", "health"],
+    "sectors": [
+      "Education",
+      "Social Protection",
+      "Health"
+    ],
+    "sector_slugs": [
+      "education",
+      "social-protection",
+      "health"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -98,8 +136,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Social Protection", "Agriculture"],
-    "sector_slugs": ["social-protection", "agriculture"],
+    "sectors": [
+      "Social Protection",
+      "Agriculture"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "agriculture"
+    ],
     "type": "policy",
     "level": "central",
     "curated": true
@@ -113,8 +157,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Digital & Technology", "Governance & Reform"],
-    "sector_slugs": ["digital-technology", "governance-reform"],
+    "sectors": [
+      "Digital & Technology",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -128,9 +178,13 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Education"],
-    "sector_slugs": ["education"],
-    "type": "scheme",
+    "sectors": [
+      "Education"
+    ],
+    "sector_slugs": [
+      "education"
+    ],
+    "type": "legislation",
     "level": "central",
     "curated": true
   },
@@ -143,8 +197,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "governance-reform"],
+    "sectors": [
+      "Finance & Economy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -158,8 +218,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Energy", "Governance & Reform"],
-    "sector_slugs": ["energy", "governance-reform"],
+    "sectors": [
+      "Energy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "energy",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -173,8 +239,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Health", "Rural Development"],
-    "sector_slugs": ["health", "rural-development"],
+    "sectors": [
+      "Health",
+      "Rural Development"
+    ],
+    "sector_slugs": [
+      "health",
+      "rural-development"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -188,8 +260,12 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Governance & Reform"],
-    "sector_slugs": ["governance-reform"],
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -203,8 +279,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Rural Development", "Labour & Employment", "Social Protection"],
-    "sector_slugs": ["rural-development", "labour-employment", "social-protection"],
+    "sectors": [
+      "Rural Development",
+      "Labour & Employment",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "rural-development",
+      "labour-employment",
+      "social-protection"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -218,8 +302,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Tribal Affairs", "Climate & Environment"],
-    "sector_slugs": ["tribal-affairs", "climate-environment"],
+    "sectors": [
+      "Tribal Affairs",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "tribal-affairs",
+      "climate-environment"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -233,8 +323,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Urban Development", "Infrastructure"],
-    "sector_slugs": ["urban-development", "infrastructure"],
+    "sectors": [
+      "Urban Development",
+      "Infrastructure"
+    ],
+    "sector_slugs": [
+      "urban-development",
+      "infrastructure"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -248,8 +344,12 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Agriculture"],
-    "sector_slugs": ["agriculture"],
+    "sectors": [
+      "Agriculture"
+    ],
+    "sector_slugs": [
+      "agriculture"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -263,8 +363,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Health", "Social Protection"],
-    "sector_slugs": ["health", "social-protection"],
+    "sectors": [
+      "Health",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "health",
+      "social-protection"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -278,9 +384,15 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Digital & Technology", "Governance & Reform"],
-    "sector_slugs": ["digital-technology", "governance-reform"],
-    "type": "scheme",
+    "sectors": [
+      "Digital & Technology",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "governance-reform"
+    ],
+    "type": "policy",
     "level": "central",
     "curated": true
   },
@@ -293,8 +405,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Education", "Social Protection"],
-    "sector_slugs": ["education", "social-protection"],
+    "sectors": [
+      "Education",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "education",
+      "social-protection"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -308,8 +426,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Climate & Environment", "Governance & Reform"],
-    "sector_slugs": ["climate-environment", "governance-reform"],
+    "sectors": [
+      "Climate & Environment",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -323,8 +447,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Energy", "Climate & Environment"],
-    "sector_slugs": ["energy", "climate-environment"],
+    "sectors": [
+      "Energy",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "energy",
+      "climate-environment"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -338,9 +468,17 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Governance & Reform", "Finance & Economy", "Digital & Technology"],
-    "sector_slugs": ["governance-reform", "finance-economy", "digital-technology"],
-    "type": "scheme",
+    "sectors": [
+      "Governance & Reform",
+      "Finance & Economy",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "finance-economy",
+      "digital-technology"
+    ],
+    "type": "policy",
     "level": "central",
     "curated": true
   },
@@ -353,8 +491,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Social Protection", "Agriculture"],
-    "sector_slugs": ["social-protection", "agriculture"],
+    "sectors": [
+      "Social Protection",
+      "Agriculture"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "agriculture"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -368,8 +512,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Rural Development", "Governance & Reform", "Infrastructure"],
-    "sector_slugs": ["rural-development", "governance-reform", "infrastructure"],
+    "sectors": [
+      "Rural Development",
+      "Governance & Reform",
+      "Infrastructure"
+    ],
+    "sector_slugs": [
+      "rural-development",
+      "governance-reform",
+      "infrastructure"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -383,8 +535,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "governance-reform"],
+    "sectors": [
+      "Finance & Economy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -398,8 +556,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Gender & Women", "Labour & Employment", "Governance & Reform"],
-    "sector_slugs": ["gender-women", "labour-employment", "governance-reform"],
+    "sectors": [
+      "Gender & Women",
+      "Labour & Employment",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "gender-women",
+      "labour-employment",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -413,8 +579,12 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Governance & Reform"],
-    "sector_slugs": ["governance-reform"],
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -428,8 +598,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Infrastructure", "Rural Development"],
-    "sector_slugs": ["infrastructure", "rural-development"],
+    "sectors": [
+      "Infrastructure",
+      "Rural Development"
+    ],
+    "sector_slugs": [
+      "infrastructure",
+      "rural-development"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -443,8 +619,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Trade & Commerce", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "trade-commerce", "governance-reform"],
+    "sectors": [
+      "Finance & Economy",
+      "Trade & Commerce",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "trade-commerce",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -458,8 +642,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Gender & Women", "Social Protection", "Governance & Reform"],
-    "sector_slugs": ["gender-women", "social-protection", "governance-reform"],
+    "sectors": [
+      "Gender & Women",
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "gender-women",
+      "social-protection",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -473,8 +665,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Digital & Technology", "Trade & Commerce"],
-    "sector_slugs": ["digital-technology", "trade-commerce"],
+    "sectors": [
+      "Digital & Technology",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "trade-commerce"
+    ],
     "type": "policy",
     "level": "central",
     "curated": true
@@ -488,9 +686,15 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Education", "Science & Innovation"],
-    "sector_slugs": ["education", "science-innovation"],
-    "type": "research",
+    "sectors": [
+      "Education",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "education",
+      "science-innovation"
+    ],
+    "type": "policy",
     "level": "central",
     "curated": true
   },
@@ -503,8 +707,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Rural Development", "Social Protection"],
-    "sector_slugs": ["rural-development", "social-protection"],
+    "sectors": [
+      "Rural Development",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "rural-development",
+      "social-protection"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -518,9 +728,17 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Health", "Social Protection", "Gender & Women"],
-    "sector_slugs": ["health", "social-protection", "gender-women"],
-    "type": "scheme",
+    "sectors": [
+      "Health",
+      "Social Protection",
+      "Gender & Women"
+    ],
+    "sector_slugs": [
+      "health",
+      "social-protection",
+      "gender-women"
+    ],
+    "type": "policy",
     "level": "central",
     "curated": true
   },
@@ -533,8 +751,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Water & Sanitation", "Rural Development", "Health"],
-    "sector_slugs": ["water-sanitation", "rural-development", "health"],
+    "sectors": [
+      "Water & Sanitation",
+      "Rural Development",
+      "Health"
+    ],
+    "sector_slugs": [
+      "water-sanitation",
+      "rural-development",
+      "health"
+    ],
     "type": "scheme",
     "level": "central",
     "curated": true
@@ -548,9 +774,15 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Infrastructure", "Transport"],
-    "sector_slugs": ["infrastructure", "transport"],
-    "type": "scheme",
+    "sectors": [
+      "Infrastructure",
+      "Transport"
+    ],
+    "sector_slugs": [
+      "infrastructure",
+      "transport"
+    ],
+    "type": "policy",
     "level": "central",
     "curated": true
   },
@@ -563,8 +795,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "governance-reform"],
+    "sectors": [
+      "Finance & Economy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -578,8 +816,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Social Protection", "Governance & Reform"],
-    "sector_slugs": ["social-protection", "governance-reform"],
+    "sectors": [
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -593,8 +837,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Climate & Environment", "Energy"],
-    "sector_slugs": ["climate-environment", "energy"],
+    "sectors": [
+      "Climate & Environment",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "energy"
+    ],
     "type": "policy",
     "level": "central",
     "curated": true
@@ -608,8 +858,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Digital & Technology", "Governance & Reform"],
-    "sector_slugs": ["digital-technology", "governance-reform"],
+    "sectors": [
+      "Digital & Technology",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -623,8 +879,16 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Trade & Commerce", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "trade-commerce", "governance-reform"],
+    "sectors": [
+      "Finance & Economy",
+      "Trade & Commerce",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "trade-commerce",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
@@ -638,9 +902,15 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy", "Governance & Reform"],
-    "sector_slugs": ["finance-economy", "governance-reform"],
-    "type": "legislation",
+    "sectors": [
+      "Finance & Economy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "governance-reform"
+    ],
+    "type": "policy",
     "level": "central",
     "curated": true
   },
@@ -653,8 +923,12 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Finance & Economy"],
-    "sector_slugs": ["finance-economy"],
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
     "type": "policy",
     "level": "central",
     "curated": true
@@ -668,8 +942,14 @@
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
-    "sectors": ["Urban Development", "Governance & Reform"],
-    "sector_slugs": ["urban-development", "governance-reform"],
+    "sectors": [
+      "Urban Development",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "urban-development",
+      "governance-reform"
+    ],
     "type": "legislation",
     "level": "central",
     "curated": true
