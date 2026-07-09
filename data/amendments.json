@@ -413,13 +413,6 @@
       "source_id": "rbi"
     },
     {
-      "date": "2026-05-30",
-      "field": "description",
-      "old_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹24,100 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 2200 12 Yield 2200 Re-issue of 8.07% Andhra Pradesh SGS 2051, issued on April 08, 2026 Price 2. Gujarat 1000 10 Yield 1500 15 Yield 3. Jammu and Kashmir 500 20 Yield 4. Maharashtra 800 Re-issue of 7.35% Maharashtra SGS 2031, issued on April 08, 2026 Price 1600",
-      "new_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹18,600 Crore (Face Value). Sr. No. State Amount to be raised (₹ Crore) Tenor(Year) Type of Auction 1. Andhra Pradesh 2200 Re-issue of 7.96% Andhra Pradesh SGS 2038 issued on April 08, 2026 Price 2200 Re-issue of 8.07% Andhra Pradesh SGS 2051 issued on April 08, 2026 Price 2. Maharashtra 800 Re-issue of 7.35% Maharashtra SGS 2031 issued on April 08, 2026 Price 1600 Re-issue of 7.9",
-      "source_id": "rbi"
-    },
-    {
       "date": "2026-05-31",
       "field": "description",
       "old_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹24,100 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 2200 12 Yield 2200 Re-issue of 8.07% Andhra Pradesh SGS 2051, issued on April 08, 2026 Price 2. Gujarat 1000 10 Yield 1500 15 Yield 3. Jammu and Kashmir 500 20 Yield 4. Maharashtra 800 Re-issue of 7.35% Maharashtra SGS 2031, issued on April 08, 2026 Price 1600",
@@ -557,6 +550,13 @@
       "field": "description",
       "old_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹21,350 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Bihar 800 09 Yield 1200 Re-issue of 7.92% Bihar SGS 2051, issued on April 15, 2026 Price 2. Chhattisgarh 250 09 Yield 250 16 Yield 3. Himachal Pradesh 700 13 Yield 4. Jammu and Kashmir 500 12 Yield 500 Re-issue of 7.91% Jammu and Kashmir SGS 2046, issued on June 03, 2026 Pric",
       "new_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Bihar 800 800 7.42 09 1200 1200 103.20/7.6289 Re-issue of 7.92% Bihar SGS 2051, issued on April 15, 2026 2. Chhattisgarh 250 250 7.40 09 250 250 7.64 16 3. Himachal Pradesh 700 700 7.56 13 4. Jammu and Kashmir 500 500 7.60 12 500 500 102.41/7.6708 Re-issue of 7.91% Jammu and Kashmir SGS 2046, issued on June 03, 2026 5. Jharkhand 300 300 7.30 07 6. Kerala 800 800",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹21,350 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Bihar 800 09 Yield 1200 Re-issue of 7.92% Bihar SGS 2051, issued on April 15, 2026 Price 2. Chhattisgarh 250 09 Yield 250 16 Yield 3. Himachal Pradesh 700 13 Yield 4. Jammu and Kashmir 500 12 Yield 500 Re-issue of 7.91% Jammu and Kashmir SGS 2046, issued on June 03, 2026 Pric",
+      "new_value": "Government of India has announced the sale (re-issue) of Government Securities, as detailed below, through auction to be held on July 10, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Minimu",
       "source_id": "rbi"
     }
   ],
@@ -925,6 +925,13 @@
       "old_value": "Unified insolvency resolution framework replacing multiple overlapping laws. Established NCLT as adjudicating authority with time-bound resolution (180+90 days) for corporate insolvency, improving India's ease of doing business.",
       "new_value": "Before the IBC, creditors had no choice but to chase resolution through a web of laws and frameworks while asset value deteriorated to nil. Ten years on, the situation has changed dramatically.&nbsp;",
       "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "historical"
     }
   ],
   "d5d85bedba11": [
@@ -1534,143 +1541,143 @@
   ],
   "8249579858d2": [
     {
-      "date": "2026-07-03",
+      "date": "2026-07-09",
       "field": "description",
       "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Bharuch city and nearby areas (in Gujarat LSA)",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_textiles"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
       "source_id": "pib_competition_commission_of_india"
     },
     {
-      "date": "2026-07-03",
+      "date": "2026-07-09",
       "field": "description",
       "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Dibrugarh and Tinsukia Districts in the State of Assam under Assam LSA",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Gangtok and Pakyong Districts and from Deorali Bazar, Gangtok to Nathu La Pass along NH 310 in the State of Sikkim under West Bengal LSA",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
       "source_id": "pib_ifsc_authority"
     },
     {
-      "date": "2026-07-03",
+      "date": "2026-07-09",
       "field": "description",
       "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Bharuch city and nearby areas (in Gujarat LSA)",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Dibrugarh and Tinsukia Districts in the State of Assam under Assam LSA",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Gangtok and Pakyong Districts and from Deorali Bazar, Gangtok to Nathu La Pass along NH 310 in the State of Sikkim under West Bengal LSA",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
       "source_id": "pib_national_security_council_secretariat"
     },
     {
-      "date": "2026-07-03",
+      "date": "2026-07-09",
       "field": "description",
       "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Bharuch city and nearby areas (in Gujarat LSA)",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Dibrugarh and Tinsukia Districts in the State of Assam under Assam LSA",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Gangtok and Pakyong Districts and from Deorali Bazar, Gangtok to Nathu La Pass along NH 310 in the State of Sikkim under West Bengal LSA",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
       "source_id": "pib_national_human_rights_commission"
     },
     {
-      "date": "2026-07-03",
+      "date": "2026-07-09",
       "field": "description",
       "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Bharuch city and nearby areas (in Gujarat LSA)",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Dibrugarh and Tinsukia Districts in the State of Assam under Assam LSA",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Gangtok and Pakyong Districts and from Deorali Bazar, Gangtok to Nathu La Pass along NH 310 in the State of Sikkim under West Bengal LSA",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA)",
       "source_id": "pib_lokpal_of_india"
     },
     {
-      "date": "2026-07-03",
+      "date": "2026-07-09",
       "field": "description",
       "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Bharuch city and nearby areas (in Gujarat LSA)",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Dibrugarh and Tinsukia Districts in the State of Assam under Assam LSA",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Karimnagar City and Highway under AP LSA",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across, city drive in Ganjam, Gajapati and Rayag...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hindupur to Hyderabad Highway Route and H...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across Hyderabad City under AP LSA",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "TRAI Assesses Mobile Network Quality Across Gangtok and Pakyong Districts and from Deorali Bazar, Gangtok to Nathu La Pass along NH 310 in the State of Sikkim under West Bengal LSA. nitinkumar Fri, 07/03/2026 - 12:15 File Press Release No. 88 (3.57 MB) Date Fri, 07/03/2026 - 12:00",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across in Hyderabad city. nitinkumar Thu, 07/02/2026 - 18:15 File Press Release No. 86 (2.51 MB) Date Thu, 07/02/2026 - 12:00",
-      "new_value": "TRAI Assesses Mobile Network Quality across Dibrugarh and Tinsukia Districts in the State of Assam under Assam LSA. nitinkumar Fri, 07/03/2026 - 12:08 File Press Release No. 87 (1.74 MB) Date Fri, 07/03/2026 - 12:00",
+      "new_value": "TRAI Assesses Mobile Network Quality across Barmer, Balotra, Pachpadra city and adjoining areas (in Rajasthan LSA) nitinkumar Thu, 07/09/2026 - 12:24 File Press Release No. 90 (1.33 MB) Date Thu, 07/09/2026 - 12:00",
       "source_id": "trai"
     }
   ],
@@ -1901,6 +1908,13 @@
       "old_value": "Consumer Education Workshop at Rajkot (Gujarat) by Bharti Airtel Limited ypjaipur Fri, 07/03/2026 - 11:14 Date Fri, 07/24/2026 - 12:00 District Rajkot Division Consumer Affairs Date & Time Fri, 07/24/2026 - 10:30 Programme Category CEW By TSP's Event Status In progress Event Category COP By TRAI Venue Details Government Circuit House, Near Phoolchhab Chowk, Sarda Baug, Rajkot, Gujarat – 360001 Event From Consumer Awareness( TSPs ) Conducted by RO-Jaipur Hide Register Button Show State Gujara",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Rajkot (Gujarat) by Bharti Airtel Limited ypjaipur Fri, 07/03/2026 - 11:14 Date Fri, 07/24/2026 - 12:00 District Rajkot Division Consumer Affairs Date & Time Fri, 07/24/2026 - 10:30 Programme Category CEW By TSP's Event Status In progress Event Category COP By TRAI Venue Details Government Circuit House, Near Phoolchhab Chowk, Sarda Baug, Rajkot, Gujarat – 360001 Event From Consumer Awareness( TSPs ) Conducted by RO-Jaipur Hide Register Button Show State Gujara",
+      "new_value": "Consumer Education Workshop at Thiruvananthapuram, Kerala by Bharti Airtel Ltd sudershangn Thu, 07/09/2026 - 10:18 Date Thu, 07/23/2026 - 12:00 District Thiruvananthapuram Division Consumer Affairs Date & Time Thu, 07/23/2026 - 03:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sheena Samuel Contact person Email sheena.samuel@airtel.com Event Category COP By TRAI Venue Details S.P Granddays, Panavila Road Near New Flyover Thycaud, Panavila, Junction, Thiruvana",
+      "source_id": "trai"
     }
   ],
   "c0a821ad84ae": [
@@ -2324,6 +2338,27 @@
       "old_value": "Consumer Awareness Program at Yavatmal (Maharashtra) by Indian Institute of Technology and Entrepreneur Development (IITED) sudershangn Mon, 07/06/2026 - 14:29 Date Sat, 07/25/2026 - 12:00 District YAVATMAL Division Consumer Affairs Date & Time Sat, 07/25/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Jawaharlal Darda Institute of Engineering and",
       "new_value": "Consumer Awareness Program at Yavatmal (Maharashtra) by Indian Institute of Technology and Entrepreneur Development (IITED) sudershangn Mon, 07/06/2026 - 14:36 Date Sat, 07/25/2026 - 12:00 District YAVATMAL Division Consumer Affairs Date & Time Sat, 07/25/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Event Category COP By TRAI Venue Details Jawaharlal Darda Institute of Engineering and Technology Event From Consumer Awareness ( In H",
       "source_id": "trai"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Consumer Awareness Program at Yavatmal (Maharashtra) by Indian Institute of Technology and Entrepreneur Development (IITED) sudershangn Mon, 07/06/2026 - 14:29 Date Sat, 07/25/2026 - 12:00 District YAVATMAL Division Consumer Affairs Date & Time Sat, 07/25/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Jawaharlal Darda Institute of Engineering and",
+      "new_value": "Consumer Awareness Program at Yavatmal (Maharashtra) by Indian Institute of Technology and Entrepreneur Development (IITED) sudershangn Mon, 07/06/2026 - 14:36 Date Sat, 07/25/2026 - 12:00 District YAVATMAL Division Consumer Affairs Date & Time Sat, 07/25/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Event Category COP By TRAI Venue Details Jawaharlal Darda Institute of Engineering and Technology Event From Consumer Awareness ( In H",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "legislation",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "legislation",
+      "source_id": "trai"
     }
   ],
   "9516ff4548a8": [
@@ -2593,6 +2628,20 @@
       "old_value": "Consumer Education Workshop at Bilaspur (Himachal Pradesh) by Reliance Jio Infocomm Ltd srodelhi Tue, 07/07/2026 - 13:37 Date Fri, 07/17/2026 - 12:00 District Bilaspur Division Consumer Affairs Date & Time Fri, 07/17/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Amit Bhardwaj Contact person Email Amit1.Bhardwaj@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocom Limited, Opposite Tripta Hotel, Nr. I.T.I Chowk Bamta Bilaspur H.P Ev",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "legislation",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Bilaspur (Himachal Pradesh) by Reliance Jio Infocomm Ltd srodelhi Tue, 07/07/2026 - 13:37 Date Fri, 07/17/2026 - 12:00 District Bilaspur Division Consumer Affairs Date & Time Fri, 07/17/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Amit Bhardwaj Contact person Email Amit1.Bhardwaj@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocom Limited, Opposite Tripta Hotel, Nr. I.T.I Chowk Bamta Bilaspur H.P Ev",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "449e1e322938": [
@@ -2654,6 +2703,27 @@
     },
     {
       "date": "2026-07-08",
+      "field": "sectors",
+      "old_value": "Health, Social Protection, Transport & Infrastructure",
+      "new_value": "Digital & Technology, Health, Social Protection",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Strategic Roadmap for Making Ayurveda Global niti_admin Tue, 07/07/2026 - 11:09 Choose Report Type Publications Publication Date Fri, 07/03/2026 - 11:09 Report Upload Download (2.99 MB) vertical Health & Family Welfare PDF Text Strategic Roadmap for MAKING AYURVEDA GLOBAL Strategic Roadmap for Making Ayurveda Global Publisher NITI Aayog, Government of India, Sansad Marg, New Delhi–110001, India Year of Publication: 2026 Language: English ISBN: 978-81-991080-4-2 Authors: NITI Aayog Shri Rajib",
+      "new_value": "Strategic Roadmap for Making Ayurveda Global niti_admin Tue, 07/07/2026 - 11:25 Weight 0 Links /sites/default/files/2026-07/Strategic-Roadmap-for-Globalization-of-Ayurveda.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "research",
+      "new_value": "policy",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-09",
       "field": "sectors",
       "old_value": "Health, Social Protection, Transport & Infrastructure",
       "new_value": "Digital & Technology, Health, Social Protection",
@@ -2765,6 +2835,27 @@
       "old_value": "Digital & Technology, Energy, Health",
       "new_value": "Digital & Technology, Health",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Unlocking Growth in Tourism and Hospitality Sector niti_admin Wed, 07/01/2026 - 12:29 Choose Report Type Publications Publication Date Tue, 06/30/2026 - 12:29 Report Upload Download (6.17 MB) vertical Tourism & Culture PDF Text UNLOCKING GROWTH IN TOURISM AND HOSPITALITY SECTOR Disclaimer: copyright@ NITI Aayog, 2026 Every care has been taken to provide correct and up to date information with references. However, NITI Aayog shall not be liable for any loss or damage whatsoever, including inc",
+      "new_value": "Unlocking Growth in Tourism and Hospitality Sector niti_admin Wed, 07/01/2026 - 12:37 Weight 0 Links /sites/default/files/2026-07/Unlocking-Growth-in-Tourism-and-Hospitality-Sector…",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "research",
+      "new_value": "policy",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Energy, Health",
+      "new_value": "Digital & Technology, Health",
+      "source_id": "niti_aayog"
     }
   ],
   "4c3369af7a7c": [
@@ -2804,6 +2895,13 @@
       "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
       "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
       "source_id": "cprindia"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
+      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
+      "source_id": "cprindia"
     }
   ],
   "503b5cb5049a": [
@@ -2822,29 +2920,6 @@
       "source_id": "barandbench"
     }
   ],
-  "9eac49eb00c3": [
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam highlighting the strength of courage and resilience",
-      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam highlighting the strength of courage and r...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam highlighting the strength of courage and resilience",
-      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam highlighting the strength of courage and r...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-07-09",
-      "field": "description",
-      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam highlighting the strength of courage and resilience",
-      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam highlighting the power of determination an...",
-      "source_id": "pib"
-    }
-  ],
   "3af6754aa710": [
     {
       "date": "2026-07-08",
@@ -2852,15 +2927,6 @@
       "old_value": "The Reserve Bank of India (RBI) has, by an order dated June 30, 2026, imposed a monetary penalty of ₹63.60 lakh (Rupees Sixty three lakh sixty thousand only) on Bank of Baroda (the bank) for non-compliance with certain provisions of directions issued by RBI on ‘Fair Practices Code for Lenders’ and ‘Know Your Customer (KYC)’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) and",
       "new_value": "Gazette notification: Reserve Bank of India",
       "source_id": "egazette"
-    }
-  ],
-  "13974e7cb0d9": [
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "Government of India press release: Prime Minister's address at the community event in Indonesia",
-      "new_value": "Government of India press release: English Translation of Prime Minister’s Address at the Community Event in Indonesia",
-      "source_id": "state_pib_karnataka"
     }
   ],
   "cd237198a328": [
@@ -2923,6 +2989,13 @@
       "field": "description",
       "old_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 76 81 79 (ii) Amount 21,821.500 13,951.500 11,610.000 III. Cut-off price (₹) / Yield 98.7075 97.3448 94.6542 (YTM: 5.2521%) (YTM: 5.4702%) (YTM: 5.6632%) IV. Competitive Bids Accepted       (i) Number 29 52 64 (ii) Amount 8,842.676 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 19.1176 60.",
       "new_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 69 104 96 (ii) Amount 16,018.810 18,621.100 23,683.100 III. Cut-off price (₹) / Yield 98.6966 97.3378 94.6575 (YTM: 5.2970%) (YTM: 5.4851%) (YTM: 5.6595%) IV. Competitive Bids Accepted       (i) Number 41 61 8 (ii) Amount 8,979.981 7,990.259 6,740.291 V. Partial Allotment Percentage of Competitive Bids 58.8228 89.",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
       "source_id": "rbi"
     }
   ],
@@ -3088,148 +3161,6 @@
       "field": "description",
       "old_value": "Government of India press release: India to Host BRICS Women Ministerial Meeting in Kochi from 8-9 July 2026",
       "new_value": "Government of India press release: BRICS Women Ministerial Meeting Begins in Kochi",
-      "source_id": "pib"
-    }
-  ],
-  "13bf7c60706c": [
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_tourism"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Bhubaneswar Declaration adopted as National Workshop on Strengthening Tribal Research Institutes concludes",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: National Workshop on Compartmentalization and Zoning for Foot & Mouth Disease (FMD) i...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-07-09",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: National Workshop on Compartmentalization and Zoning for Foot & Mouth Disease (FMD) i...",
       "source_id": "pib"
     }
   ],
@@ -3472,6 +3403,540 @@
       "old_value": "Under the ongoing PLI scheme, beneficiary companies have surpassed initial commitments by 20 per cent, with investments exceeding ₹9,207 crore",
       "new_value": "Gazette notification: Ministry",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Under the ongoing PLI scheme, beneficiary companies have surpassed initial commitments by 20 per cent, with investments exceeding ₹9,207 crore",
+      "new_value": "Gazette notification: Ministry",
+      "source_id": "egazette"
+    }
+  ],
+  "9079db3524af": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "historical"
+    }
+  ],
+  "83fe59f6985d": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "historical"
+    }
+  ],
+  "c1bcb51ac9ef": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "historical"
+    }
+  ],
+  "bff0ba71dc4b": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "announcement",
+      "source_id": "historical"
+    }
+  ],
+  "6878750fb14e": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "historical"
+    }
+  ],
+  "48335e76a169": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "historical"
+    }
+  ],
+  "7af26eb93a6a": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "historical"
+    }
+  ],
+  "975cff56d498": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "historical"
+    }
+  ],
+  "e41d800440a3": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "announcement",
+      "source_id": "historical"
+    }
+  ],
+  "304238acff41": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "notification",
+      "source_id": "historical"
+    }
+  ],
+  "f3b7e7decb33": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "historical"
+    }
+  ],
+  "073ae7ee4887": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "prs_legislative"
+    }
+  ],
+  "e0e3e1aef399": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "prs_legislative"
+    }
+  ],
+  "876c9be646db": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "prs_legislative"
+    }
+  ],
+  "e19b8c805394": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "mof_budget"
+    }
+  ],
+  "52fb6f448624": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "cprindia"
+    }
+  ],
+  "2dd6f0da1a9b": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "research",
+      "source_id": "livemint_policy"
+    }
+  ],
+  "ea40e14967d1": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "research",
+      "source_id": "livemint_policy"
+    }
+  ],
+  "ee885c1fe91f": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "notification",
+      "source_id": "livemint_policy"
+    }
+  ],
+  "4fef1eb12c81": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "livemint_policy"
+    }
+  ],
+  "dc91eabd1cdc": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "research",
+      "source_id": "livemint_policy"
+    }
+  ],
+  "2c1a08546f4b": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "060901e72161": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "research",
+      "new_value": "policy",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "669611c4ffee": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "4d34ba8bd0f2": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "research",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "f37228955b93": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "notification",
+      "source_id": "indian_express_policy"
+    }
+  ],
+  "f021186e59d6": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "indian_express_policy"
+    }
+  ],
+  "3b06cfc84a46": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "indian_express_policy"
+    }
+  ],
+  "f08119a5320f": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "indian_express_business"
+    }
+  ],
+  "df62ef4e517f": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "announcement",
+      "new_value": "notification",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "ef3771301b19": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "research",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "ac1b548a5764": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "research",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "268667e5b211": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "research",
+      "new_value": "scheme",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "2a6d3470d1b2": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "business_line"
+    }
+  ],
+  "4ed73ed8f9d0": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "business_line"
+    }
+  ],
+  "87c0aa57986e": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "business_line"
+    }
+  ],
+  "47802d333d9e": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "notification",
+      "source_id": "mint_opinion"
+    }
+  ],
+  "d9a024901693": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "research",
+      "new_value": "scheme",
+      "source_id": "cppr"
+    }
+  ],
+  "20ef1d542df2": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "sebi"
+    }
+  ],
+  "d56d05113a73": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "sebi"
+    }
+  ],
+  "c72acc6c91a5": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "legislation",
+      "source_id": "trai"
+    }
+  ],
+  "6dd95fe2ce6f": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "research",
+      "source_id": "trai"
+    }
+  ],
+  "2f28bb413489": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "notification",
+      "source_id": "barandbench"
+    }
+  ],
+  "38ba28631a6c": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "notification",
+      "new_value": "policy",
+      "source_id": "barandbench"
+    }
+  ],
+  "e3fd5440c150": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "barandbench"
+    }
+  ],
+  "9cb16bae5890": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "notification",
+      "source_id": "barandbench"
+    }
+  ],
+  "abf3d74170e3": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "barandbench"
+    }
+  ],
+  "0d74bb2f68f5": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "research",
+      "new_value": "notification",
+      "source_id": "barandbench"
+    }
+  ],
+  "68efecbf0cb3": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "notification",
+      "source_id": "barandbench"
+    }
+  ],
+  "9aad15e89615": [
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "ASM Law Chambers has announced the opening of its new office in Mumbai, marking a significant milestone in the firm's continued expansion across India's key legal and commercial centres.Snapshot from the new officeLocated at 3rd Floor, Friends Union Premises Co-operative Society, Plot No. 225, P. D'Mello Road, Indira Docks, Mumbai Port Trust, Fort, Mumbai – 400001, the new office has been established to strengthen the Firm's ability to serve clients across litigation, dispute resolution, co",
+      "new_value": "ASM Law Chambers has announced the opening of its new office in Mumbai, marking a significant milestone in the firm's continued expansion across India's key legal and commercial centres.Located at 3rd Floor, Friends Union Premises Co-operative Society, Plot No. 225, P. D'Mello Road, Indira Docks, Mumbai Port Trust, Fort, Mumbai – 400001, the new office has been established to strengthen the Firm's ability to serve clients across litigation, dispute resolution, corporate advisory and commerc",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "announcement",
+      "new_value": "policy",
+      "source_id": "barandbench"
+    }
+  ],
+  "a1472366b824": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "scheme",
+      "new_value": "notification",
+      "source_id": "barandbench"
+    }
+  ],
+  "c63bdfa59dd2": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "barandbench"
+    }
+  ],
+  "9bcb08fba5b5": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "scheme",
+      "source_id": "barandbench"
+    }
+  ],
+  "4dd0179dc5a9": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "legislation",
+      "new_value": "policy",
+      "source_id": "barandbench"
+    }
+  ],
+  "184a7dec1f82": [
+    {
+      "date": "2026-07-09",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "dst"
+    }
+  ],
+  "c83e85b4c878": [
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 25,000 Total amount of bids received (in ₹ crore) 665 Amount allotted (in ₹ crore) 665 Cut off Rate (%) 5.26 Weighted Average Rate (%) 5.26 Partial Allotment Percentage of bids received at cut off rate (%) NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/627",
+      "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 50,000 Total amount of bids received (in ₹ crore) 46,729 Amount allotted (in ₹ crore) 46,729 Cut off Rate (%) 5.26 Weighted Average Rate (%) 5.26 Partial Allotment Percentage of bids received at cut off rate (%) NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/633",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 25,000 Total amount of bids received (in ₹ crore) 665 Amount allotted (in ₹ crore) 665 Cut off Rate (%) 5.26 Weighted Average Rate (%) 5.26 Partial Allotment Percentage of bids received at cut off rate (%) NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/627",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Repo (VRR) auction on Thursday, July 09, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 12:15 PM to 12:45 PM July 10, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022. Ajit Prasad       &n",
+      "source_id": "rbi"
+    }
+  ],
+  "a0e4bb3de327": [
+    {
+      "date": "2026-07-09",
+      "field": "description",
+      "old_value": "Independent Drive Test Report West Bengal LSA May 2026 nitinkumar Fri, 07/03/2026 - 12:12 File Download (7.85 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Fri, 07/03/2026 - 12:00 Service area West Bengal Months May Year 2026",
+      "new_value": "Independent Drive Test Report Rajasthan LSA June 2026 nitinkumar Thu, 07/09/2026 - 12:40 File Download (3.3 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/09/2026 - 12:00 Service area Rajasthan Months June Year 2026",
+      "source_id": "trai"
     }
   ]
 }
