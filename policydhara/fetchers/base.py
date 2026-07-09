@@ -104,21 +104,29 @@ def _is_valid_title(title: str) -> bool:
     return True
 
 
+# Ordered (type, keywords) rules. Keywords are matched on WORD BOUNDARIES so
+# that, e.g., "act" does not fire on "impact"/"contact" (a bug that mislabelled
+# a large share of items as "legislation"), "order" not on "border", etc.
+_TYPE_RULES: list[tuple[str, list[str]]] = [
+    ("legislation", ["bill", "legislation", "act", "amendment", "ordinance"]),
+    ("notification", ["notification", "gazette", "circular", "memorandum"]),
+    ("scheme", ["scheme", "yojana", "mission", "programme", "program", "abhiyan"]),
+    ("budget", ["budget", "fiscal", "economic survey", "appropriation"]),
+    ("research", ["report", "working paper", "study", "research", "survey"]),
+    ("announcement", ["press release", "statement", "announces", "announced"]),
+]
+_TYPE_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
+    (t, re.compile(r"\b(?:" + "|".join(re.escape(w) for w in kws) + r")\b"))
+    for t, kws in _TYPE_RULES
+]
+
+
 def _categorize_type(title: str, description: str) -> str:
-    """Categorize the type of policy item from its text."""
+    """Categorize the type of policy item from its text (word-boundary matched)."""
     text = f"{title} {description}".lower()
-    if any(w in text for w in ["bill", "legislation", "act ", "amendment"]):
-        return "legislation"
-    if any(w in text for w in ["notification", "gazette", "order", "circular"]):
-        return "notification"
-    if any(w in text for w in ["scheme", "yojana", "mission", "programme", "program"]):
-        return "scheme"
-    if any(w in text for w in ["budget", "fiscal", "economic survey"]):
-        return "budget"
-    if any(w in text for w in ["report", "paper", "study", "research", "analysis"]):
-        return "research"
-    if any(w in text for w in ["press release", "statement", "announces"]):
-        return "announcement"
+    for type_name, pattern in _TYPE_PATTERNS:
+        if pattern.search(text):
+            return type_name
     return "policy"
 
 
