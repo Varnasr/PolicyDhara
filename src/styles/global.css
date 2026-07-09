@@ -1608,3 +1608,20 @@ kbd {
 .eco-link:hover { color: var(--color-accent); }
 .eco-link.current { color: var(--color-accent); border-bottom-color: var(--color-accent); }
 @media (max-width: 960px) { .eco-nav { display: none; } }
+
+/* ── Footer ecosystem cross-links (shared ImpactMojo library nav) ── */
+.footer-eco {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 16px;
+  padding: 14px 0; margin-top: 4px;
+  border-top: 1px solid var(--color-border-light);
+}
+.footer-eco-label {
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--color-text-muted);
+}
+.footer-eco a {
+  font-size: 0.85rem; font-weight: 600; color: var(--color-text-secondary);
+  text-decoration: none; border-bottom: 2px solid transparent; padding-bottom: 1px;
+}
+.footer-eco a:hover { color: var(--color-accent); }
+.footer-eco a.current { color: var(--color-accent); border-bottom-color: var(--color-accent); }
