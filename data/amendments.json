@@ -1,13 +1,6 @@
 {
   "8d7c4eca70a0": [
     {
-      "date": "2026-04-30",
-      "field": "description",
-      "old_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 12,000 April 29, 2026 (Wednesday) April 30, 2026 (Thursday) 2 182-Day 6,000 3 364-Day 6,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India,",
-      "new_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 12,000 May 06, 2026 (Wednesday) May 07, 2026 (Thursday) 2 182-Day 6,000 3 364-Day 6,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India, as a",
-      "source_id": "rbi"
-    },
-    {
       "date": "2026-05-01",
       "field": "description",
       "old_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 12,000 May 06, 2026 (Wednesday) May 07, 2026 (Thursday) 2 182-Day 6,000 3 364-Day 6,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India, as a",
@@ -139,6 +132,13 @@
       "old_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 12,000 June 24, 2026 (Wednesday) June 25, 2026 (Thursday) 2 182-Day 6,000 3 364-Day 6,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India, as",
       "new_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 July 01, 2026 (Wednesday) July 02, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India, as",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 July 08, 2026 (Wednesday) July 09, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India, as",
+      "new_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 July 15, 2026 (Wednesday) July 16, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India, as",
+      "source_id": "rbi"
     }
   ],
   "8ceaff4ecad3": [
@@ -246,6 +246,20 @@
       "old_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Jun. 06 May 29 Jun. 05 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 30444 10063 28330 18267 -2114 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Jun. 05, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. &",
       "new_value": "Gazette notification: Reserve Bank of India",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Jun. 27 Jun. 19 Jun. 26 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 20066 9211 8790 -421 -11276 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Jun. 26, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. &#",
+      "new_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Jul. 04 Jun. 26 Jul. 03 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 30956 8790 40761 31971 9805 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Jul. 03, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. &#",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "type",
+      "old_value": "policy",
+      "new_value": "legislation",
+      "source_id": "rbi"
     }
   ],
   "2007185e9d1a": [
@@ -1123,6 +1137,13 @@
       "old_value": "(Amount in ₹ Crore) Auction Results 6.03% GS 2029 6.68% GS 2033 7.24% GS 2055 New GOI SGrB 2056 I. Notified Amount 11,000 11,000 5,000 5,000 II. Competitive Bids Received         (i)  Number 70 206 171 85 (ii) Amount 17,597.150 34,543.115 19,710.000 12,530.000 III. Cut-off price / Yield 99.30 98.55 96.20 100.00 (YTM: 6.3065%) (YTM: 6.9501%) (YTM: 7.5628%) (YTM: 7.5000%) IV. Competitive Bids Accepted         (i)  Number 48 81 12 22 (ii) Amou",
       "new_value": "6.36% GS 2031 6.90% GS 2065 I. Notified Amount ₹21,000 crore ₹11,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.98/6.6075% 91.44/7.5870% III. Amount accepted in the auction ₹21,000 crore ₹11,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad           Deputy General Manager (Communications)    Press Release: 2026-2027/97",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "(Amount in ₹ Crore) Auction Results 6.94% GS 2036 I. Notified Amount 34,000 II. Competitive Bids Received   (i) Number 430 (ii) Amount 83,440.041 III. Cut-off price / Yield 101.50 (YTM: 6.7275%) IV. Competitive Bids Accepted   (i) Number 171 (ii) Amount 33,962.384 V. Partial Allotment Percentage of Competitive Bids 95.4860% (43 bids) VI. Weighted Average Price/Yield 101.51 (WAY: 6.7261%) VII. Non-Competitive Bids Received   (i) Number 5 (ii) Amount 37.616 VIII. Non-Competiti",
+      "new_value": "(Amount in ₹ Crore) Auction Results 6.36% GS 2031 7.71% GS 2066 I. Notified Amount 21,000 11,000 II. Competitive Bids Received     (i) Number 235 262 (ii) Amount 59,818.230 33,104.141 III. Cut-off price / Yield 99.75 103.23 (YTM: 6.4218%) (YTM: 7.4543%) IV. Competitive Bids Accepted     (i) Number 44 63 (ii) Amount 20,995.654 10,965.370 V. Partial Allotment Percentage of Competitive Bids 30.8052% 60.3495% (19 bids) (12 bids) VI. Weighted Average Price/Yield 99.78 103.29",
+      "source_id": "rbi"
     }
   ],
   "0e1c14d935e6": [
@@ -1498,15 +1519,6 @@
       "source_id": "pib"
     }
   ],
-  "192ea79d873d": [
-    {
-      "date": "2026-07-02",
-      "field": "description",
-      "old_value": "Gasoline consumption in Russia is at least 110,000 tons per day in summer, when demand for fuel is high.",
-      "new_value": "Fuel shortages are being felt across Russia's 11 time zones, resulting in rationing and long queues at gas stations",
-      "source_id": "hindustan_times"
-    }
-  ],
   "0b2a886ed30a": [
     {
       "date": "2026-07-03",
@@ -1538,15 +1550,6 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "scheme",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "9b0e93dc49c0": [
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "Japanese PM Sanae Takaichi , on her first visit to India since becoming PM, arrived with a high-powered business delegation and joined Modi for the 16th annual India-Japan Summit.",
-      "new_value": "Japanese PM Sanae Takaichi , on her first visit to India since becoming PM, joined Modi for the 16th annual India-Japan Summit.",
       "source_id": "hindustan_times"
     }
   ],
@@ -1594,22 +1597,6 @@
       "old_value": "Anmol, the younger brother of jailed gangster Lawrence Bishnoi, was deported from the US in November last year and was subsequently arrested by the National Investigation Agency.",
       "new_value": "Anmol Bishnoi said he wished to voluntarily surrender before the Mumbai court “to face the ongoing trial\".",
       "source_id": "hindustan_times"
-    }
-  ],
-  "aac2c17c79bf": [
-    {
-      "date": "2026-07-03",
-      "field": "description",
-      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Ramgarhia Co-operative Bank Limited, New Delhi vide Directive No. DEL.DOS.EXG_SSM.No.S515/12-10-013/2022-2023 dated July 07, 2022 for a period of 06 months from close of business on July 08, 2022 up to close of business on January 08, 2023, which was last extended vide Directive No. DOR.MON.D-03/12.28.115/2026-27 dated April 01, 2026. The Reserve Bank of India is satisfied th",
-      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Industrial Co-operative Bank Ltd., Guwahati vide Directive No.GWH.DOS.ADM.No.S103/01-10-101/2025-26 dated July 03, 2025 for a period of six months up to close of business on January 04, 2026, which was last extended up to close of business on July 04, 2026, vide Directive No.DOR.MON./D-63/12-29-104/2025-26 dated March 24, 2026. The Reserve Bank of India is satisfied that",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-07-06",
-      "field": "description",
-      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Ramgarhia Co-operative Bank Limited, New Delhi vide Directive No. DEL.DOS.EXG_SSM.No.S515/12-10-013/2022-2023 dated July 07, 2022 for a period of 06 months from close of business on July 08, 2022 up to close of business on January 08, 2023, which was last extended vide Directive No. DOR.MON.D-03/12.28.115/2026-27 dated April 01, 2026. The Reserve Bank of India is satisfied th",
-      "new_value": "The Reserve Bank of India had issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Sadbhav Nagrik Sahakari Bank Maryadit, Chhatarpur, Madhya Pradesh, vide Directive No. BPL.DOS. SED. No. S1638/ 12.07.054/2025-26 dated October 06, 2025, for a period of six months up to the close of business on April 07, 2026, which were last extended up to the close of business on July 07, 2026 vide DOR.RG/D-04/12.07.054/2026-2027 dated April 02, 2026. 2. The Reserve Ban",
-      "source_id": "rbi"
     }
   ],
   "670b6b6518f8": [
@@ -2632,6 +2619,27 @@
       "old_value": "Health, Social Protection, Transport & Infrastructure",
       "new_value": "Digital & Technology, Health, Social Protection",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Strategic Roadmap for Making Ayurveda Global niti_admin Tue, 07/07/2026 - 11:09 Choose Report Type Publications Publication Date Fri, 07/03/2026 - 11:09 Report Upload Download (2.99 MB) vertical Health & Family Welfare PDF Text Strategic Roadmap for MAKING AYURVEDA GLOBAL Strategic Roadmap for Making Ayurveda Global Publisher NITI Aayog, Government of India, Sansad Marg, New Delhi–110001, India Year of Publication: 2026 Language: English ISBN: 978-81-991080-4-2 Authors: NITI Aayog Shri Rajib",
+      "new_value": "Strategic Roadmap for Making Ayurveda Global niti_admin Tue, 07/07/2026 - 11:25 Weight 0 Links /sites/default/files/2026-07/Strategic-Roadmap-for-Globalization-of-Ayurveda.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "type",
+      "old_value": "research",
+      "new_value": "policy",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "sectors",
+      "old_value": "Health, Social Protection, Transport & Infrastructure",
+      "new_value": "Digital & Technology, Health, Social Protection",
+      "source_id": "niti_aayog"
     }
   ],
   "503b5cb5049a": [
@@ -3546,6 +3554,13 @@
       "old_value": "Independent Drive Test Report Rajasthan LSA June 2026 nitinkumar Thu, 07/09/2026 - 12:40 File Download (3.3 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/09/2026 - 12:00 Service area Rajasthan Months June Year 2026",
       "new_value": "TOC June 2026 niti_admin Sun, 06/28/2026 - 12:56 Upload Supported Document TOC-June-2026.pdf (327.09 KB) Choose Document Type Table of Content Supported File Link June 2026",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Independent Drive Test Report Rajasthan LSA June 2026 nitinkumar Thu, 07/09/2026 - 12:40 File Download (3.3 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/09/2026 - 12:00 Service area Rajasthan Months June Year 2026",
+      "new_value": "TOC June 2026 niti_admin Sun, 06/28/2026 - 12:56 Upload Supported Document TOC-June-2026.pdf (327.09 KB) Choose Document Type Table of Content Supported File Link June 2026",
+      "source_id": "niti_aayog"
     }
   ],
   "5af23c13e444": [
@@ -3742,6 +3757,230 @@
       "old_value": "Ratnadeep Retail Limited has filed a draft red herring prospectus to raise an amount aggregating up to ₹400 crore via fresh issue and an Offer for Sale of up to 14,860,000 Equity Shares bearing face value of ₹1 each.Cyril Amarchand Mangaldas is advising Ratnadeep Retail on this IPO, according to the DRHP.Economic Laws Practice is advising the book running lead managers, Motilal Oswal Investment Advisors Limited, Axis Capital Limited and DAM Capital Advisors Limited, on this IPO.The transaction w",
       "new_value": "Ratnadeep Retail Limited has filed a draft red herring prospectus to raise an amount aggregating up to ₹400 crore via fresh issue and an Offer for Sale of up to 14,860,000 Equity Shares bearing face value of ₹1 each.Cyril Amarchand Mangaldas is advising Ratnadeep Retail, the promoter and the selling shareholders on this IPO.The transaction was led by Ravi Dubey (Partner, Regional Co-Head - Capital Markets - West) and Gayathri Ramachandran (Partner), with support from Vartika Bhatnagar (Senior As",
       "source_id": "barandbench"
+    }
+  ],
+  "1ed36a1dbe37": [
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Panel of Auditors (Updated List) to carry out audit of Digital Addressable Systems (DAS) nitinkumar Fri, 07/10/2026 - 12:23 Measure Sector Broadcasting Broadcasting Tariff Orders Document Type Miscellaneous Division Broadcasting and Cable Services Group Field Title Panel of Auditors (Updated list 90) File Auditor_list_10072026.pdf (420.3 KB) Release Date Fri, 07/10/2026 - 12:00 Closing Date Fri, 07/10/2026 - 12:00 Counter Comments Date Fri, 07/10/2026 - 12:00 Status Closed",
+      "new_value": "Panel of Auditors (Updated List) to carry out audit of Digital Addressable Systems (DAS) nitinkumar Fri, 07/10/2026 - 12:27 Date Fri, 07/10/2026 - 12:00",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "type",
+      "old_value": "notification",
+      "new_value": "policy",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Energy, Social Protection",
+      "new_value": "Digital & Technology, Social Protection",
+      "source_id": "trai"
+    }
+  ],
+  "15038fe3a52c": [
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Consumer Outreach Programme at Leh (Ladakh) by TRAI Regional Office, Delhi srodelhi Fri, 07/10/2026 - 11:04 Date Wed, 07/15/2026 - 12:00 District Leh Division Consumer Affairs Date & Time Wed, 07/15/2026 - 10:30 Programme Category COP By TRAI Event Status In progress Contact Person Name Suresh KV Event Category COP By TRAI Venue Details HQ CE PROJECT HIMANK, CHOGLAMSAR, LEH, PIN: 194104 Event From Consumer Awareness ( In House ) Conducted by RO-Delhi Hide Register Button Show State Ladakh Pr",
+      "new_value": "Consumer Outreach Programme at Leh (Ladakh) by TRAI Regional Office, Delhi srodelhi Fri, 07/10/2026 - 11:06 Date Thu, 07/16/2026 - 12:00 District Leh Division Consumer Affairs Date & Time Thu, 07/16/2026 - 10:00 Programme Category COP By TRAI Event Status In progress Contact Person Name SUSHIL KUMAR BANSAL Contact person Email sro-rodelhi@trai.gov.in Event Category COP By TRAI Venue Details Mountain Vibes Hotel, Leh, UT Ladakh Event From Consumer Awareness ( In House ) Conducted by RO-Delhi",
+      "source_id": "trai"
+    }
+  ],
+  "9fd31ae77b5a": [
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "A litigant had to be forcibly removed from the Supreme Court on Friday after he hurled abuses in court and documents during the hearing of his petition challenging a decision of the Allahabad High Court.The development took place before a Bench of Justice KV Viswanathan and Justice Alok Aradhe.The courtroom atmosphere turned dramatic when the petitioner, who appeared in person, displayed an unusually aggressive stance in his submissions.\"Mr judicial servant. I order you to order the registration",
+      "new_value": "A litigant had to be forcibly removed from the Supreme Court on Friday after he hurled abuses in court and flung documents during the hearing of his petition challenging a decision of the Allahabad High Court [Prabal Pratap vs. State of Uttar Pradesh].The development took place before a Bench of Justice KV Viswanathan and Justice Alok Aradhe.The courtroom atmosphere turned dramatic when the petitioner, one Prabal Pratap, who appeared in person, displayed an unusually aggressive stance in his sub",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "type",
+      "old_value": "notification",
+      "new_value": "policy",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "sectors",
+      "old_value": "Energy, Governance & Reform, Social Protection",
+      "new_value": "Energy, Governance & Reform, Health",
+      "source_id": "barandbench"
+    }
+  ],
+  "f7b70004c189": [
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_surface_transport"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_textiles"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Mahendragiri’s commissioning is a step towards boosting presence in the Indian Ocean region and the larger Indo-Pacific amid China’s push in the maritime expanse",
+      "new_value": "Government of India press release: INDIAN NAVY TO INDUCT INDIGENOUS STEALTH FRIGATE MAHENDRAGIRI INTO THE EASTERN FLEET",
+      "source_id": "pib_lokpal_of_india"
+    }
+  ],
+  "e20ed7fb72da": [
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "The Ministry rejected concerns that the programme had been implemented too quickly, saying India's ethanol blending initiative dates back to pilot projects launched in 2001, with 5% blending introduced in parts of the country by 2006",
+      "new_value": "Gazette notification: Ministry",
+      "source_id": "egazette"
+    }
+  ],
+  "cf6fb8854d6a": [
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "A Public Interest Litigation (PIL) petition has been filed before the Punjab and Haryana High Court seeking the restoration of the Punjabi singer-actor Diljit Dosanjh-starrer film Satluj on the Zee5 OTT platform.The film, based on the life and death of human rights activist Jaswant Singh, Khalra was taken down from the OTT platform just two days after its release. Earlier, the film had remained stalled for three years after the Central Board of Film Certification (CBFC) refused to approve it for",
+      "new_value": "The PIL said the sudden withdrawal of the film based upon documented historical events and the life of a human rights defender whose case has already been adjudicated upon by constitutional courts has given rise to serious concerns regarding transparency, freedom of artistic expression, and the possible existence of undisclosed executive interference",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "69a4625798db": [
+    {
+      "date": "2026-07-10",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Udhampur (Jammu & Kashmir) by Bharti Airtel Ltd. srodelhi Fri, 07/10/2026 - 10:58 Date Fri, 08/14/2026 - 12:00 District Udhampur Division Consumer Affairs Date & Time Fri, 08/14/2026 - 12:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name U RAJ RAINA Contact person Email uraj.raina@airtel.com Event Category COP By TRAI Venue Details Hotel SINGH AXIS UDHAMPUR NEAR MH CHOWK Event From Consumer Awareness( TSPs ) Contact person phon",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ]
 }
