@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-07-14",
-    "total_reports": 956,
+    "total_reports": 957,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -19,7 +19,7 @@
       "key": "external_affairs",
       "name": "External Affairs",
       "sector": "Governance & Reform",
-      "report_count": 164
+      "report_count": 165
     },
     {
       "key": "consumer_affairs",
@@ -3755,6 +3755,20 @@
         "presented_to_speaker": null,
         "pdf_url": "https://sansad.in/getFile/app/lsscommittee/External Affairs/18_External_Affairs_3.pdf?source=app",
         "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/External Affairs/18_External_Affairs_3(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "external_affairs",
+        "committee_name": "External Affairs",
+        "sector": "Governance & Reform",
+        "report_number": 2,
+        "title": "Action Taken by the Government on the observations/recommendations contained in the Twenty Seventh Report on the subject ‘India’s Engagement with G20 Countries’",
+        "presented_in_ls": "03-Dec-2024",
+        "laid_in_rs": "03-Dec-2024",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/External Affairs/18_External_Affairs_2.pdf?source=app",
+        "pdf_url_hindi": null,
         "lok_sabha": 18,
         "house": "L"
       },
