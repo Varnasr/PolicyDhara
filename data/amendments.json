@@ -1068,15 +1068,6 @@
       "source_id": "historical"
     }
   ],
-  "f37228955b93": [
-    {
-      "date": "2026-07-09",
-      "field": "type",
-      "old_value": "policy",
-      "new_value": "notification",
-      "source_id": "indian_express_policy"
-    }
-  ],
   "df62ef4e517f": [
     {
       "date": "2026-07-09",
@@ -1102,51 +1093,6 @@
       "old_value": "policy",
       "new_value": "legislation",
       "source_id": "business_line"
-    }
-  ],
-  "47802d333d9e": [
-    {
-      "date": "2026-07-09",
-      "field": "type",
-      "old_value": "policy",
-      "new_value": "notification",
-      "source_id": "mint_opinion"
-    }
-  ],
-  "e3fd5440c150": [
-    {
-      "date": "2026-07-09",
-      "field": "type",
-      "old_value": "policy",
-      "new_value": "scheme",
-      "source_id": "barandbench"
-    }
-  ],
-  "9cb16bae5890": [
-    {
-      "date": "2026-07-09",
-      "field": "type",
-      "old_value": "policy",
-      "new_value": "notification",
-      "source_id": "barandbench"
-    }
-  ],
-  "abf3d74170e3": [
-    {
-      "date": "2026-07-09",
-      "field": "type",
-      "old_value": "legislation",
-      "new_value": "policy",
-      "source_id": "barandbench"
-    }
-  ],
-  "0d74bb2f68f5": [
-    {
-      "date": "2026-07-09",
-      "field": "type",
-      "old_value": "research",
-      "new_value": "notification",
-      "source_id": "barandbench"
     }
   ],
   "68efecbf0cb3": [
@@ -3093,6 +3039,13 @@
       "old_value": "Six Indian nationals were also injured when two oil tankers were targeted by Iranian missiles in the Strait of Hormuz, the UAE defence ministry said",
       "new_value": "Gazette notification: Ministry",
       "source_id": "egazette"
+    },
+    {
+      "date": "2026-07-15",
+      "field": "description",
+      "old_value": "Six Indian nationals were also injured when two oil tankers were targeted by Iranian missiles in the Strait of Hormuz, the UAE defence ministry said",
+      "new_value": "Gazette notification: Ministry",
+      "source_id": "egazette"
     }
   ],
   "4cc8a087909b": [
@@ -3172,6 +3125,13 @@
       "old_value": "As a panacea to the inherent limitations of the present structure, which is dependent mainly on quarterly GDP estimates and indirect indicators, the MoSPI finalised the services index, compiled using outward supply of enterprises registered under goods and services tax (GST); but can potentially leverage digital data in the future",
       "new_value": "Government of India press release: Index of Services Production:",
       "source_id": "pib"
+    },
+    {
+      "date": "2026-07-15",
+      "field": "description",
+      "old_value": "As a panacea to the inherent limitations of the present structure, which is dependent mainly on quarterly GDP estimates and indirect indicators, the MoSPI finalised the services index, compiled using outward supply of enterprises registered under goods and services tax (GST); but can potentially leverage digital data in the future",
+      "new_value": "Government of India press release: Index of Services Production:",
+      "source_id": "pib"
     }
   ],
   "feff68468557": [
@@ -3193,6 +3153,13 @@
     },
     {
       "date": "2026-07-14",
+      "field": "description",
+      "old_value": "MEA condemned the attacks on the commercial vessels MT Al Bahiyah and MT Mombasa, which had a total of 30 Indian seafarers onboard, and reiterated its call for an immediate cessation of violence and a return to dialogue and diplomacy to bring stability to West Asia",
+      "new_value": "External Affairs Ministry spokesperson Randhir Jaiswal said the Indian side conveyed “deepest concerns” about the incident in the Strait of Hormuz and urged for “de-escalation”",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-07-15",
       "field": "description",
       "old_value": "MEA condemned the attacks on the commercial vessels MT Al Bahiyah and MT Mombasa, which had a total of 30 Indian seafarers onboard, and reiterated its call for an immediate cessation of violence and a return to dialogue and diplomacy to bring stability to West Asia",
       "new_value": "External Affairs Ministry spokesperson Randhir Jaiswal said the Indian side conveyed “deepest concerns” about the incident in the Strait of Hormuz and urged for “de-escalation”",
@@ -3229,6 +3196,24 @@
       "old_value": "Consumer Education Workshop at Gaya (Bihar) by Vodafone Idea Limited (VIL) srokolkata Thu, 07/09/2026 - 13:27 Date Wed, 07/15/2026 - 12:00 District Gaya Division Consumer Affairs Date & Time Wed, 07/15/2026 - 13:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Chandra Vijay Kumar Contact person Email chandra.kumar1@vodafoneidea.com Event Category COP By TRAI Venue Details Mahabodhi Hotel Resort & Convention Centre, Tekunafarm, Hariharpur, Bodh Gaya, Bihar-",
       "new_value": "Consumer Education Workshop at Guntur (Andhra Pradesh) by Vodafone Idea Limited (VIL) akulakishtaiah Tue, 07/14/2026 - 13:54 Date Tue, 07/21/2026 - 12:00 District Guntur Division Consumer Affairs Date & Time Tue, 07/21/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Event Category COP By TRAI Venue Details Guntur Event From Consumer Awareness( TSPs ) Conducted by RO-Hyderabad Hide Register Button Show State Andhra Pradesh Programme Theme Tariff & Billing in Telecom",
       "source_id": "trai"
+    }
+  ],
+  "4d1ec8c20543": [
+    {
+      "date": "2026-07-15",
+      "field": "description",
+      "old_value": "A Delhi court on Monday convicted former Aam Aadmi Party (AAP) councillor Tahir Hussain and four others for the murder of Intelligence Bureau (IB) officer Ankit Sharma during the 2020 Delhi riots.Session Judge Praveen Singh of Karkardooma court pronounced the verdict.Hussain was convicted for offences under Sections 188 (disobedience to an order promulgated by a public servant), 153A (promoting enmity between groups), 147 (rioting), 148 (rioting armed with a deadly weapon), 149 (unlawful assembl",
+      "new_value": "The Delhi court held Tahir Hussain and four others guilty in the murder of Ankit Sharma. Six others were acquitted of all charges in the case.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "627b8f1c2a0a": [
+    {
+      "date": "2026-07-15",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Khammam ( Telangana) by Vodafone Idea Limited (VIL) akulakishtaiah Tue, 07/14/2026 - 14:16 Date Tue, 07/28/2026 - 12:00 District Khammam Division Consumer Affairs Date & Time Tue, 07/28/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Event Category COP By TRAI Venue Details Khammam Event From Consumer Awareness( TSPs ) Conducted by RO-Hyderabad Hide Register Button Show State Telangana Programme Theme Tariff & Billing in Telecom and Br",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ]
 }
