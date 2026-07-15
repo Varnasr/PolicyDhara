@@ -1,17 +1,21 @@
 {
   "id": "e701ac4812fb",
   "title": "Treasury Bills: Full Auction Result",
-  "description": "",
+  "description": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 99 89 116 (ii) Amount 24,158.450 21,309.500 23,935.000 III. Cut-off price(₹)/ Yield 98.6880 97.2980 94.6038 (YTM: 5.3324%) (YTM: 5.5693%) (YTM: 5.7197%) IV. Competitive Bids Accepted       (i) Number 43 71 33 (ii) Amount 8,982.958 7,990.915 6,936.200 V. Partial Allotment Percentage of Competitive Bids 42.8770 29.1",
   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63150",
   "date": "2026-07-15",
   "source_id": "rbi",
   "source_name": "Reserve Bank of India",
   "source_short": "RBI",
   "sectors": [
-    "Finance & Economy"
+    "Digital & Technology",
+    "Finance & Economy",
+    "Governance & Reform"
   ],
   "sector_slugs": [
-    "finance-economy"
+    "digital-technology",
+    "finance-economy",
+    "governance-reform"
   ],
   "type": "legislation",
   "level": "central",
