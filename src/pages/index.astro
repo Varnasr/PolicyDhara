@@ -136,7 +136,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     <div class="home-graph-head">
       <div>
         <h3>Policy Knowledge Graph</h3>
-        <p>How sectors, sources and themes connect. Node size = volume, edge thickness = how often they co-occur. Drag a node to explore.</p>
+        <p>Which sources feed which sectors. Bigger circle = more documents; thicker line = stronger connection. Hover for counts, drag to explore.</p>
       </div>
       <a class="btn btn-secondary btn-sm" href={`${base}graph/`}>Full graph &amp; matrix &rarr;</a>
     </div>
@@ -183,7 +183,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
           </div>
 
           <div style="text-align:center; padding: var(--space-sm) 0 var(--space-lg);">
-            <a class="btn btn-secondary" href={`${base}policies/`}>Browse all {instruments.length + processItems.length} policy documents &rarr;</a>
+            <a class="btn btn-secondary" href={`${base}policies/`}>Browse all {allPolicies.filter(p => ['instrument', 'process'].includes(getKind(p))).length} policy documents &rarr;</a>
           </div>
         </>
       )}
