@@ -71,17 +71,21 @@ def _fetch_items(sid: str, cfg: dict) -> int:
 
 def classify_bucket(status, body_len: int, items: int, covered_by: str = "") -> str:
     """Bucket a probe result: WORKS / REDUNDANT / SELECTOR_BROKEN / SHELL / DEAD."""
+    # If the real fetcher extracted content, the source WORKS — full stop.
+    # This must come first: the lightweight probe() uses urllib and is often
+    # blocked (403) by sites that the requests-based fetcher reaches fine
+    # (e.g. ADB's RSS), and we must not mislabel a working feed as DEAD.
+    if items > 0:
+        return "WORKS"
     # A source whose releases already flow through a working feed (a direct
     # ministry site duplicated by its PIB per-ministry feed) is not a bug to
-    # fix — mark it REDUNDANT unless it is actually pulling its own items.
-    if covered_by and items == 0:
+    # fix — mark it REDUNDANT (it legitimately pulls no items of its own).
+    if covered_by:
         return "REDUNDANT"
     # probe() returns status 0 on any network/TLS error; anything outside
     # 200–399 (or non-int) is unreachable.
     if not isinstance(status, int) or status < 200 or status >= 400:
         return "DEAD"
-    if items > 0:
-        return "WORKS"
     if body_len < 8000:
         return "SHELL"          # tiny body, no items → JS-rendered / empty
     return "SELECTOR_BROKEN"    # real HTML, but the parser extracted nothing
