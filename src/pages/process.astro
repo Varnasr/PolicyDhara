@@ -1,0 +1,329 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  getAllPolicies, getKind, getOpenDrafts, getBillItems, getQuestionReplies,
+  getRecentCommitteeReports, getCommitteeReports, getParliamentData,
+} from '../lib/data';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const all = getAllPolicies();
+const byType = (t: string) => all.filter(p => p.type === t);
+const byDateDesc = (a, b) => (b.date || '').localeCompare(a.date || '');
+
+const drafts = getOpenDrafts(5);
+const cabinet = all
+  .filter(p => getKind(p) !== 'news' && /^(union )?cabinet (approves|clears|okays)/i.test(p.title))
+  .sort(byDateDesc).slice(0, 5);
+const bills = getBillItems(5);
+const committeeReports = getRecentCommitteeReports(5);
+const committeeTotal = getCommitteeReports().metadata.total_reports;
+const acts = byType('act').sort(byDateDesc).slice(0, 5);
+const rules = [...byType('rules'), ...byType('notification')].sort(byDateDesc).slice(0, 5);
+const schemes = byType('scheme').sort(byDateDesc).slice(0, 5);
+const questions = getQuestionReplies(5);
+const parl = getParliamentData();
+
+const fmtD = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+
+interface Stage {
+  num: number;
+  title: string;
+  who: string;
+  explain: string;
+  items: { id?: string; title: string; meta: string; href: string }[];
+  count: number;
+  countLabel: string;
+  browse: string;
+  browseLabel: string;
+}
+
+const item = (p) => ({
+  id: p.id,
+  title: p.title,
+  meta: `${p.source_short}${p.date ? ` · ${fmtD(p.date)}` : ''}${p.comment_deadline ? ` · comments close ${fmtD(p.comment_deadline)}` : ''}`,
+  href: `${base}policies/${p.id}/`,
+});
+
+const stages: Stage[] = [
+  {
+    num: 1,
+    title: 'Consultation — the draft',
+    who: 'Ministries and regulators',
+    explain: 'Most policy begins life as a draft: a ministry publishes draft rules or a regulator floats a consultation paper, and the public gets a window — often 30 days — to object, suggest, and push back. This is the single best moment for citizens and researchers to influence policy, and the least watched.',
+    items: drafts.map(item),
+    count: byType('draft').length,
+    countLabel: 'drafts on the tracker',
+    browse: `${base}policies/?type=draft`,
+    browseLabel: 'All drafts open for comment',
+  },
+  {
+    num: 2,
+    title: 'Cabinet approval',
+    who: 'Union Cabinet',
+    explain: 'Before a bill reaches Parliament or a scheme gets funded, the Cabinet clears it. Cabinet approvals are announced through PIB releases — they are the earliest reliable signal that a proposal has become government policy.',
+    items: cabinet.map(item),
+    count: cabinet.length,
+    countLabel: 'recent cabinet clearances',
+    browse: `${base}policies/?kind=announcement&q=cabinet`,
+    browseLabel: 'Search cabinet decisions',
+  },
+  {
+    num: 3,
+    title: 'The bill in Parliament',
+    who: 'Lok Sabha & Rajya Sabha',
+    explain: 'Legislation is introduced as a bill, debated, and voted on in both Houses. A bill can be passed in days or languish for years — and what changes between introduction and passage is where the real politics lives.',
+    items: bills.map(item),
+    count: byType('bill').length,
+    countLabel: 'bills tracked',
+    browse: `${base}parliament/`,
+    browseLabel: 'Parliament tracker',
+  },
+  {
+    num: 4,
+    title: 'Committee scrutiny',
+    who: 'Standing & select committees',
+    explain: 'Bills and departmental performance are examined line-by-line in committees — the least visible, most substantive part of Parliament\'s work. Committee reports often force amendments that floor debate never would.',
+    items: committeeReports.map(r => ({
+      title: r.title,
+      meta: `${r.committee_name}${r.presented_in_ls ? ` · ${fmtD(r.presented_in_ls)}` : ''}`,
+      href: r.pdf_url || `${base}parliament/`,
+    })),
+    count: committeeTotal,
+    countLabel: 'committee reports',
+    browse: `${base}parliament/`,
+    browseLabel: 'All committee reports',
+  },
+  {
+    num: 5,
+    title: 'Assent — the Act',
+    who: 'President of India',
+    explain: 'Once both Houses pass a bill and the President assents, it becomes an Act — the law of the land. But an Act on paper often does nothing yet: most need rules and notifications to actually operate.',
+    items: acts.map(item),
+    count: byType('act').length,
+    countLabel: 'acts on the tracker',
+    browse: `${base}policies/?type=act`,
+    browseLabel: 'All acts',
+  },
+  {
+    num: 6,
+    title: 'Rules & notifications',
+    who: 'Ministries, regulators, the Gazette',
+    explain: 'Subordinate legislation is where an Act becomes real: rules fix the how, notifications bring sections into force, circulars instruct the machinery. Most of the policy that touches daily life is made here — without a vote.',
+    items: rules.map(item),
+    count: byType('rules').length + byType('notification').length,
+    countLabel: 'rules & notifications',
+    browse: `${base}policies/?type=notification`,
+    browseLabel: 'All notifications',
+  },
+  {
+    num: 7,
+    title: 'Schemes & implementation',
+    who: 'Ministries, states, districts',
+    explain: 'Policy meets people as schemes — missions, yojanas, transfers. Implementation runs through states and districts, which is why the same scheme can look completely different across the country.',
+    items: schemes.map(item),
+    count: byType('scheme').length,
+    countLabel: 'schemes tracked',
+    browse: `${base}policies/?type=scheme`,
+    browseLabel: 'All schemes',
+  },
+  {
+    num: 8,
+    title: 'Oversight — Question Hour & audit',
+    who: 'MPs, CAG, committees',
+    explain: 'The loop closes with scrutiny: starred and unstarred questions force ministers to put implementation numbers on the record, and audit reports test claims against reality. Question-hour replies are some of the best public data on how policy is actually going.',
+    items: questions.map(item),
+    count: byType('question').length,
+    countLabel: 'question-hour replies',
+    browse: `${base}policies/?type=question`,
+    browseLabel: 'All Q&A replies',
+  },
+];
+---
+<Base title="How Policy Is Made" description="The Indian policy lifecycle — from consultation draft to act, rules, schemes and parliamentary oversight — with live documents at every stage.">
+  <div style="padding: var(--space-xl) 0;">
+    <h1 class="page-title">How a policy is made</h1>
+    <p class="page-subtitle">
+      Policy is not an announcement — it is a process with stages, and each stage
+      leaves documents. This page walks the full lifecycle with the live documents
+      currently sitting at every stage. For where the whole system comes from,
+      start at the <a href={`${base}history/`}>Constituent Assembly debates</a>.
+    </p>
+
+    <div class="stage-list">
+      {stages.map(s => (
+        <section class="stage">
+          <div class="stage-rail">
+            <span class="stage-num">{s.num}</span>
+            {s.num < stages.length && <span class="stage-line"></span>}
+          </div>
+          <div class="stage-body">
+            <div class="stage-head">
+              <h2 class="stage-title">{s.title}</h2>
+              <span class="stage-who">{s.who}</span>
+            </div>
+            <p class="stage-explain">{s.explain}</p>
+            <div class="stage-live">
+              <div class="stage-live-head">
+                <span class="stage-count">{s.count.toLocaleString()} {s.countLabel}</span>
+                <a href={s.browse} class="stage-browse">{s.browseLabel} &rarr;</a>
+              </div>
+              {s.items.length === 0 ? (
+                <p class="stage-empty">Nothing at this stage in the current fetch window.</p>
+              ) : (
+                <ul class="stage-items">
+                  {s.items.map(it => (
+                    <li>
+                      <a href={it.href}>{it.title}</a>
+                      <span class="stage-item-meta">{it.meta}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        </section>
+      ))}
+    </div>
+
+    <div class="process-foot">
+      <p>
+        <strong>{parl.lok_sabha.current}th Lok Sabha</strong> — session dates,
+        productivity, and pending bills live on the
+        <a href={`${base}parliament/`}>Parliament tracker</a>. Fiscal choices
+        behind every stage are on the <a href={`${base}budget/`}>Budget page</a>.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .stage-list { margin-top: var(--space-xl); }
+  .stage {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: var(--space-md);
+  }
+  .stage-rail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stage-num {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--color-text);
+    color: var(--color-bg-white);
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .stage-line {
+    flex: 1;
+    width: 2px;
+    background: var(--color-border);
+    margin: 6px 0;
+  }
+  .stage-body { padding-bottom: var(--space-xl); min-width: 0; }
+  .stage-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .stage-title {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 4px 0 0;
+  }
+  .stage-who {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+  }
+  .stage-explain {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    max-width: 68ch;
+    margin: 6px 0 var(--space-sm);
+  }
+  .stage-live {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 12px 16px;
+    box-shadow: var(--shadow-sm);
+  }
+  .stage-live-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .stage-count {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .stage-browse {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .stage-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .stage-items li {
+    padding: 7px 0;
+    border-top: 1px solid var(--color-border-light);
+  }
+  .stage-items a {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    line-height: 1.45;
+  }
+  .stage-items a:hover { color: var(--color-accent); }
+  .stage-item-meta {
+    display: block;
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    margin-top: 1px;
+  }
+  .stage-empty {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 4px 0;
+  }
+  .process-foot {
+    margin-top: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+  @media (max-width: 600px) {
+    .stage { grid-template-columns: 34px 1fr; }
+    .stage-num { width: 28px; height: 28px; font-size: 0.875rem; }
+  }
+</style>

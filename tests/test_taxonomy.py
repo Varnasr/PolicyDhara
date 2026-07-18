@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 from classifier import (  # noqa: E402
     categorize_item,
+    extract_comment_deadline,
     get_source_authority,
     normalize_sector_names,
     KIND_INSTRUMENT,
@@ -137,6 +138,16 @@ class TestOfficialTyping:
         )
         assert (kind, doc_type) == (KIND_ANNOUNCEMENT, "release")
 
+    def test_awareness_camp_naming_a_scheme_is_still_an_event(self):
+        # A TRAI camp whose body text mentions a scheme by name must stay an
+        # announcement — the event isn't the scheme.
+        kind, doc_type = cat(
+            "Consumer Awareness Program at Madhubani (Bihar) by Mithila Sewa Samiti",
+            "Session on the PM-WANI scheme and telecom consumer rights",
+            source_id="trai",
+        )
+        assert (kind, doc_type) == (KIND_ANNOUNCEMENT, "release")
+
     def test_named_policy_in_title(self):
         kind, doc_type = cat("Foreign Trade Policy 2023 amended")
         assert (kind, doc_type) == (KIND_INSTRUMENT, "policy")
@@ -200,6 +211,35 @@ class TestProcessDocuments:
     def test_constituent_assembly_debate(self):
         kind, doc_type = cat("Constituent Assembly Debates: Volume VII")
         assert (kind, doc_type) == (KIND_PROCESS, "debate")
+
+
+# ── Consultation deadlines ───────────────────────────────────────────────
+
+
+class TestCommentDeadline:
+    def test_by_ordinal_month_year(self):
+        assert extract_comment_deadline(
+            "Comments are invited on the draft rules by 15th August 2026"
+        ) == "2026-08-15"
+
+    def test_on_or_before_numeric(self):
+        assert extract_comment_deadline(
+            "Stakeholder comments may be submitted on or before 05.08.2026"
+        ) == "2026-08-05"
+
+    def test_last_date_is(self):
+        assert extract_comment_deadline(
+            "The last date for submission of comments is 1 September 2026"
+        ) == "2026-09-01"
+
+    def test_unrelated_date_does_not_fire(self):
+        # A date with no comment cue nearby must not become a deadline.
+        assert extract_comment_deadline(
+            "Draft notification issued under the Act of 15 June 2005"
+        ) == ""
+
+    def test_no_date_returns_empty(self):
+        assert extract_comment_deadline("Comments are invited on the draft") == ""
 
 
 # ── Sector hygiene ───────────────────────────────────────────────────────

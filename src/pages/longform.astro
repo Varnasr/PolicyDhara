@@ -1,14 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getAllPolicies, getAnalysisItems } from '../lib/data';
+import { getAnalysisItems, getLongReads } from '../lib/data';
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
 // Long reads proper (essay sources: EPW, The India Forum, Ideas for India,
-// IDR), then the rest of the analysis stream (reports, briefs) below.
+// IDR; journal mastheads filtered), then reports & briefs below.
 const analysis = getAnalysisItems();
-const longReads = analysis.filter(p => p.type === 'longform');
+const longReads = getLongReads(100);
 const reportsAndBriefs = analysis.filter(p => p.type !== 'longform').slice(0, 40);
 
 // Group long reads by source for the masthead row.

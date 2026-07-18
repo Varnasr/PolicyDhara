@@ -1,12 +1,17 @@
 ---
-// A policy ticker, not a news ticker: show the most recent *policy* items
-// (government / research), never the generalist-news feed.
-import { getPolicyItems } from '../lib/data';
+// A policy ticker, not a news ticker: only actual policy documents and
+// process items (kind instrument/process) — never analysis, announcements,
+// journal mastheads, or the generalist-news feed. "Latest policy" must
+// mean policy.
+import { getAllPolicies, getKind } from '../lib/data';
+
+const TICKER_NOISE = /\bvol\.?\s*\d+|\bissue no\b|\b(workshop|webinar|auction|recruitment|vacanc|tender|corrigendum|seniority list)\b/i;
 
 // Diversify by source so the ticker doesn't show, say, five consecutive RBI
 // auction results — cap each source to 2 items, then take the newest 12.
 const seen: Record<string, number> = {};
-const recent = getPolicyItems()
+const recent = getAllPolicies()
+  .filter(p => ['instrument', 'process'].includes(getKind(p)) && !TICKER_NOISE.test(p.title))
   .filter(p => {
     const n = (seen[p.source_short] = (seen[p.source_short] || 0) + 1);
     return n <= 2;
