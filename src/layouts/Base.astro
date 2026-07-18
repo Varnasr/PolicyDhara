@@ -227,29 +227,31 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
         </button>
       </nav>
     </div>
-    {/* Mobile navigation overlay */}
-    <div class="mobile-nav" id="mobile-nav">
-      <a href={base}>Home</a>
-      <a href={`${base}search/`}>Search</a>
-      <a href={`${base}sectors/`}>Sectors</a>
-      <a href={`${base}alerts/`}>Alerts</a>
-      <a href={`${base}budget/`}>Budget</a>
-      <a href={`${base}parliament/`}>Parliament</a>
-      <a href={`${base}intelligence/`}>Intelligence</a>
-      <a href={`${base}graph/`}>Knowledge Graph</a>
-      <a href={`${base}continuity/`}>Continuity</a>
-      <a href={`${base}compare/`}>Compare</a>
-      <a href={`${base}amendments/`}>Amendments</a>
-      <a href={`${base}digest/`}>Digest</a>
-      <a href={`${base}states/`}>States</a>
-      <a href={`${base}bookmarks/`}>Reading List</a>
-      <a href={`${base}sources/`}>Sources</a>
-      <a href={`${base}blog/`}>Blog</a>
-      <a href={`${base}api/`}>API</a>
-      <a href={`${base}about/`}>About</a>
-      <a href={`${base}rss.xml`}>RSS Feed</a>
-    </div>
   </header>
+  {/* Mobile navigation overlay — a direct child of <body>, NOT the header:
+      the header has overflow-x: clip on mobile, which would clip this
+      position:fixed overlay to the ~56px header box and hide it. */}
+  <div class="mobile-nav" id="mobile-nav">
+    <a href={base}>Home</a>
+    <a href={`${base}search/`}>Search</a>
+    <a href={`${base}sectors/`}>Sectors</a>
+    <a href={`${base}alerts/`}>Alerts</a>
+    <a href={`${base}budget/`}>Budget</a>
+    <a href={`${base}parliament/`}>Parliament</a>
+    <a href={`${base}intelligence/`}>Intelligence</a>
+    <a href={`${base}graph/`}>Knowledge Graph</a>
+    <a href={`${base}continuity/`}>Continuity</a>
+    <a href={`${base}compare/`}>Compare</a>
+    <a href={`${base}amendments/`}>Amendments</a>
+    <a href={`${base}digest/`}>Digest</a>
+    <a href={`${base}states/`}>States</a>
+    <a href={`${base}bookmarks/`}>Reading List</a>
+    <a href={`${base}sources/`}>Sources</a>
+    <a href={`${base}blog/`}>Blog</a>
+    <a href={`${base}api/`}>API</a>
+    <a href={`${base}about/`}>About</a>
+    <a href={`${base}rss.xml`}>RSS Feed</a>
+  </div>
   <NewsTicker />
 
   <main class="container">
