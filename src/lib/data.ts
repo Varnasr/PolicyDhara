@@ -941,8 +941,14 @@ export function getSectorTypeMatrix(): {
     .sort(([, a], [, b]) => b - a)
     .map(([s]) => s);
 
-  const types = ['legislation', 'notification', 'scheme', 'budget', 'research', 'announcement', 'policy']
-    .filter(t => typeSet.has(t));
+  const types = [
+    // Taxonomy types (see scripts/classifier.py), instruments first
+    'act', 'rules', 'notification', 'scheme', 'budget', 'policy', 'judgment',
+    'bill', 'draft', 'question', 'committee_report', 'debate',
+    'report', 'analysis', 'longform', 'release', 'news', 'opinion',
+    // Legacy values still present in older records
+    'legislation', 'research', 'announcement',
+  ].filter(t => typeSet.has(t));
 
   return { sectors, types, matrix };
 }
@@ -1219,15 +1225,16 @@ export function getPriority(policy: PolicyItem): 'critical' | 'high' | 'medium' 
 
   // Critical: constitutional amendments, major acts, budget
   if (/constitutional amendment|finance bill|union budget|national security|emergency/i.test(combined)) return 'critical';
-  if (policy.type === 'legislation' && /\bact\b|\bbill\b/i.test(t)) return 'critical';
+  if (['act', 'bill', 'legislation'].includes(policy.type) && /\bact\b|\bbill\b/i.test(t)) return 'critical';
 
-  // High: major schemes, notifications with large scope
+  // High: major schemes, notifications with large scope, open consultations
   if (/crore|lakh crore|billion|nationwide|all states|pan-india/i.test(combined)) return 'high';
   if (policy.type === 'scheme' && policy.sectors.length >= 2) return 'high';
-  if (policy.type === 'notification' && /gazette|notification/i.test(t)) return 'high';
+  if (['notification', 'rules'].includes(policy.type) && /gazette|notification|rules/i.test(t)) return 'high';
+  if (policy.type === 'draft') return 'high';
 
   // Medium: research, policy frameworks
-  if (policy.type === 'research' || policy.type === 'policy') return 'medium';
+  if (['research', 'report', 'analysis', 'longform', 'policy'].includes(policy.type)) return 'medium';
   if (policy.sectors.length >= 3) return 'medium';
 
   return 'normal';

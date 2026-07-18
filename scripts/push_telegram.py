@@ -98,13 +98,15 @@ def is_high_priority(policy: dict) -> bool:
         combined,
     ):
         return True
-    if type_ == "legislation" and re.search(r"\bact\b|\bbill\b", title):
+    if type_ in ("legislation", "act", "bill") and re.search(r"\bact\b|\bbill\b", title):
         return True
     if re.search(r"crore|lakh crore|billion|nationwide|all states|pan-india", combined):
         return True
     if type_ == "scheme" and len(sectors) >= 2:
         return True
-    if type_ == "notification" and re.search(r"gazette|notification", title):
+    if type_ in ("notification", "rules") and re.search(r"gazette|notification|rules", title):
+        return True
+    if type_ == "draft":  # consultations are time-bound — always worth alerting
         return True
     return False
 
@@ -129,11 +131,22 @@ def format_message(policy: dict) -> str:
 
     type_emoji = {
         "legislation": "⚖️",
+        "act": "⚖️",
+        "bill": "🏛",
+        "rules": "📜",
         "notification": "📜",
+        "draft": "✍️",
+        "question": "❓",
+        "committee_report": "🗂",
+        "judgment": "⚖️",
         "scheme": "🎯",
         "budget": "💰",
         "research": "📊",
+        "report": "📊",
+        "analysis": "📊",
+        "longform": "📖",
         "announcement": "📢",
+        "release": "📢",
         "policy": "📋",
     }.get(policy.get("type", "policy"), "📋")
 

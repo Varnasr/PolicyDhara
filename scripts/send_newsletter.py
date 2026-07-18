@@ -113,11 +113,22 @@ def _policy_type_color(policy_type: str) -> str:
     """Return an inline color for a policy type badge."""
     colors = {
         "legislation": "#dc2626",
+        "act": "#dc2626",
+        "judgment": "#dc2626",
         "notification": "#d97706",
+        "rules": "#d97706",
+        "draft": "#d97706",
+        "question": "#d97706",
         "scheme": "#16a34a",
         "budget": "#ea580c",
         "research": "#7c3aed",
+        "report": "#7c3aed",
+        "analysis": "#7c3aed",
+        "longform": "#7c3aed",
+        "bill": "#7c3aed",
+        "committee_report": "#7c3aed",
         "announcement": "#2563eb",
+        "release": "#2563eb",
         "policy": "#9333ea",
     }
     return colors.get(policy_type.lower(), "#4a4a48")
@@ -127,11 +138,22 @@ def _policy_type_bg(policy_type: str) -> str:
     """Return a background color for a policy type badge."""
     bgs = {
         "legislation": "#fef2f2",
+        "act": "#fef2f2",
+        "judgment": "#fef2f2",
         "notification": "#fffbeb",
+        "rules": "#fffbeb",
+        "draft": "#fffbeb",
+        "question": "#fffbeb",
         "scheme": "#f0fdf4",
         "budget": "#fff7ed",
         "research": "#f5f3ff",
+        "report": "#f5f3ff",
+        "analysis": "#f5f3ff",
+        "longform": "#f5f3ff",
+        "bill": "#f5f3ff",
+        "committee_report": "#f5f3ff",
         "announcement": "#eff6ff",
+        "release": "#eff6ff",
         "policy": "#faf5ff",
     }
     return bgs.get(policy_type.lower(), "#f7f6f3")
