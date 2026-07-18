@@ -337,7 +337,12 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
     })();
   </script>
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    // astro:page-load fires on the initial load AND after every ClientRouter
+    // (View Transitions) navigation — unlike DOMContentLoaded, which fires only
+    // once. Binding here re-attaches the hamburger, theme toggle, dropdown and
+    // bookmark handlers to each freshly-swapped page. Listeners on the
+    // persistent window/document objects are guarded so they attach only once.
+    document.addEventListener('astro:page-load', () => {
       const base = document.querySelector('meta[name="base-url"]')?.getAttribute('content') || '/';
 
       // ── Three-mode theme toggle ──
@@ -378,10 +383,13 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
       // Initialize active state
       applyTheme(getActiveThemeMode());
 
-      // Listen for system preference changes
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-        if (!localStorage.getItem('pd-theme')) applyTheme('system');
-      });
+      // Listen for system preference changes (bind once — window persists).
+      if (!(window as any).__pdThemeMQ) {
+        (window as any).__pdThemeMQ = true;
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          if (!localStorage.getItem('pd-theme')) applyTheme('system');
+        });
+      }
 
       // Bind click handlers
       Object.entries(themeBtns).forEach(([mode, btn]) => {
@@ -406,9 +414,14 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
         navDropdown?.classList.toggle('open');
       });
 
-      document.addEventListener('click', () => {
-        navDropdown?.classList.remove('open');
-      });
+      // Bind once — document persists across navigations; query the dropdown
+      // live so it targets the current page's element, not a detached one.
+      if (!(window as any).__pdDocClick) {
+        (window as any).__pdDocClick = true;
+        document.addEventListener('click', () => {
+          document.getElementById('nav-explore')?.classList.remove('open');
+        });
+      }
 
       navDropdown?.querySelector('.nav-dropdown-menu')?.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -454,7 +467,12 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
         focusedCardIndex = -1;
       }
 
-      document.addEventListener('keydown', (e) => {
+      // Bind once — document persists across navigations. The handler queries
+      // the help overlay live so it targets the current page's element.
+      if (!(window as any).__pdKeydown) {
+        (window as any).__pdKeydown = true;
+        document.addEventListener('keydown', (e) => {
+        const kbdHelp = document.getElementById('kbd-help');
         const target = e.target as HTMLElement;
         const isInput = target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable;
 
@@ -520,7 +538,8 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
             window.location.href = '/';
             break;
         }
-      });
+        });
+      }
 
       // Close kbd help on overlay click
       kbdHelp?.addEventListener('click', (e) => {
