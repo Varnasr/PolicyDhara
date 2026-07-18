@@ -1735,3 +1735,55 @@ html { font-feature-settings: "kern" 1, "liga" 1; letter-spacing: -0.003em; }
   .hero-telegram-cta { max-width: 100%; white-space: normal; }
 }
 html { overflow-x: hidden; }
+
+/* ═══════════════════════════════════════════════════════════════
+   BULLETPROOF MOBILE — stop the page rendering wider than the phone
+   (which makes the browser zoom out → "tiny and squashed"). Defensive
+   and !important on purpose: nothing may exceed the viewport width.
+   ═══════════════════════════════════════════════════════════════ */
+html, body { overflow-x: hidden !important; max-width: 100%; }
+
+@media (max-width: 960px) {
+  /* The desktop inline nav and the (closed) off-canvas menu must be gone —
+     they hold the wide links that were forcing the page width. */
+  .header-nav .nav-primary,
+  .nav-primary { display: none !important; }
+  .mobile-nav:not(.open) { display: none !important; }
+  .nav-hamburger { display: inline-flex !important; }
+}
+
+@media (max-width: 760px) {
+  /* Hard-cap every top-level wrapper to the screen. */
+  main, .container, .site-header, .header-inner, .header-nav,
+  .dash-hero, .dash-hero-left, .dash-grid, .dash-main, .lead-card,
+  .policy-feed, .insights-grid, .insight-card, .sector-grid, .sector-card,
+  .timeline-container, .recent-grid, .stats-bar, .site-footer, footer,
+  .trending-strip, section {
+    max-width: 100vw !important;
+    min-width: 0 !important;
+  }
+  /* Media & wide blocks never overflow. */
+  img, svg, video, iframe, table, pre, .timeline-chart-wrap {
+    max-width: 100% !important;
+    height: auto;
+  }
+  /* Long words/links/titles wrap instead of forcing width. */
+  h1, h2, h3, h4, p, li, a, .policy-title, .lead-card h2, .card-title,
+  .sector-card-name, .dash-intro {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  /* Multi-column grids collapse to one column. */
+  .dash-grid, .policy-feed, .recent-grid, .insights-grid, .sector-grid,
+  .stats-bar { grid-template-columns: 1fr !important; }
+
+  /* Readability: the desktop 15px base reads small on a phone. */
+  html { font-size: 16px; }
+  .dash-title { font-size: 1.6rem; }
+  .lead-card h2 { font-size: 1.15rem; }
+  .policy-title { font-size: 1.02rem; }
+  /* Comfortable tap targets. */
+  .header-nav a, .mobile-nav a, .nav-hamburger, .theme-toggle .theme-opt {
+    min-height: 40px;
+  }
+}
