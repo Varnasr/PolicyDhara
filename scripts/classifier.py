@@ -341,7 +341,13 @@ def categorize_item(title: str, description: str, source_id: str,
 
     # Schemes and missions. "programme"/"program" is deliberately excluded —
     # it matched every workshop and training-camp announcement (TRAI consumer
-    # education camps were the whole "scheme" tail of the old dataset).
+    # education camps were the whole "scheme" tail of the old dataset). The
+    # awareness-event guard catches those camps even when their body text
+    # happens to name a scheme.
+    if re.search(r"consumer (awareness|education|outreach) "
+                 r"(program|programme|workshop|camp)", text) \
+            or re.search(r"\b(workshop|webinar|training camp)\b", title_l):
+        return KIND_ANNOUNCEMENT, "release"
     if re.search(r"\b(scheme|yojana|mission|abhiyan)\b", text):
         return KIND_INSTRUMENT, "scheme"
 
@@ -359,6 +365,49 @@ def categorize_item(title: str, description: str, source_id: str,
     # Everything else from an official source is an announcement — a press
     # release, an inauguration, a statement. Honest label; NOT "policy".
     return KIND_ANNOUNCEMENT, "release"
+
+
+_MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
+    "december": 12, "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+
+def extract_comment_deadline(text: str) -> str:
+    """Extract the last date for public comments from a draft/consultation
+    text. Returns ISO 'YYYY-MM-DD' or '' if no confident date is found.
+
+    Handles the phrasings ministries and regulators actually use:
+      "comments ... by 15th August 2026"  /  "... by August 15, 2026"
+      "on or before 15.08.2026"           /  "till/until 15-08-2026"
+      "last date for submission of comments is 15 August 2026"
+    Only fires when a comment/consultation cue appears near the date, so an
+    unrelated date in the same text doesn't become a fake deadline.
+    """
+    import re
+
+    t = text.lower()
+    cue = re.search(
+        r"(comments?|suggestions?|objections?|feedback|consultation)[^.]{0,120}?"
+        r"(?:by|before|till|until|latest by|no later than|on or before|is)\s+"
+        r"(?:the\s+)?([0-9]{1,2})(?:st|nd|rd|th)?[\s.\-/]+"
+        r"([a-z]+|[0-9]{1,2})[\s.\-/,]+((?:19|20)[0-9]{2})",
+        t,
+    )
+    if not cue:
+        return ""
+    day_s, month_s, year_s = cue.group(2), cue.group(3), cue.group(4)
+    try:
+        day = int(day_s)
+        month = _MONTHS.get(month_s) if not month_s.isdigit() else int(month_s)
+        year = int(year_s)
+        if not month or not (1 <= day <= 31) or not (1 <= month <= 12):
+            return ""
+        return f"{year:04d}-{month:02d}-{day:02d}"
+    except (ValueError, TypeError):
+        return ""
 
 
 # Legacy type → (kind, type) mapping for curated data (historical seed) whose

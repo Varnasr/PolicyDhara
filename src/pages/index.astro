@@ -4,7 +4,6 @@ import Insights from '../components/Insights.astro';
 import PolicyCard from '../components/PolicyCard.astro';
 import TrendingStrip from '../components/TrendingStrip.astro';
 import NewsletterBar from '../components/NewsletterBar.astro';
-import KnowledgeGraph from '../components/KnowledgeGraph.astro';
 import {
   getAllPolicies, getMeta, getKind, getOpenDrafts, getBillItems,
   getQuestionReplies, getLongReads, TYPE_LABELS,
@@ -75,6 +74,17 @@ const longReads = getLongReads(4);
 // News — its own section, clearly labeled, headlines only.
 const newsHeadlines = diversifyBySource(newsItems).slice(0, 8);
 
+// Pipeline stage counts for the "how policy is made" strip.
+const typeCount = (t: string) => allPolicies.filter(p => p.type === t).length;
+const pipelineStages = [
+  { label: 'Drafts', count: typeCount('draft'), href: `${base}policies/?type=draft` },
+  { label: 'Bills', count: typeCount('bill'), href: `${base}policies/?type=bill` },
+  { label: 'Acts', count: typeCount('act'), href: `${base}policies/?type=act` },
+  { label: 'Rules & notifications', count: typeCount('rules') + typeCount('notification'), href: `${base}policies/?type=notification` },
+  { label: 'Schemes', count: typeCount('scheme'), href: `${base}policies/?type=scheme` },
+  { label: 'Question Hour', count: typeCount('question'), href: `${base}policies/?type=question` },
+];
+
 // Stats: count what actually matters, honestly.
 const now = Date.now();
 const DAY = 86400000;
@@ -131,18 +141,6 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
   {/* ── Trending ── */}
   <TrendingStrip />
 
-  {/* ── Knowledge Graph feature (up top, full-width) ── */}
-  <section class="home-graph-section">
-    <div class="home-graph-head">
-      <div>
-        <h3>Policy Knowledge Graph</h3>
-        <p>Which sources feed which sectors. Bigger circle = more documents; thicker line = stronger connection. Hover for counts, drag to explore.</p>
-      </div>
-      <a class="btn btn-secondary btn-sm" href={`${base}graph/`}>Full graph &amp; matrix &rarr;</a>
-    </div>
-    <KnowledgeGraph />
-  </section>
-
   {/* ── Main Content: Two Column ── */}
   <div class="dash-grid">
 
@@ -190,9 +188,23 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
 
       {/* ── How policy is made: drafts / bills / question hour ── */}
       <section class="making-section">
-        <div class="section-header">
-          <h3>Policy in the making</h3>
-          <p>Before a policy is a policy it is a draft, a bill, a question on the floor of the House. Track it there.</p>
+        <div class="section-header section-header-row">
+          <div>
+            <h3>Policy in the making</h3>
+            <p>Before a policy is a policy it is a draft, a bill, a question on the floor of the House. Track it there.</p>
+          </div>
+          <a class="btn btn-secondary btn-sm" href={`${base}process/`}>How a policy is made &rarr;</a>
+        </div>
+        <div class="pipeline-strip" aria-label="Policy lifecycle stages">
+          {pipelineStages.map((s, i) => (
+            <>
+              <a class="pipeline-stage" href={s.href}>
+                <span class="pipeline-count">{s.count.toLocaleString()}</span>
+                <span class="pipeline-label">{s.label}</span>
+              </a>
+              {i < pipelineStages.length - 1 && <span class="pipeline-arrow" aria-hidden="true">→</span>}
+            </>
+          ))}
         </div>
         <div class="making-grid">
           <div class="making-col">
@@ -201,7 +213,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
             {drafts.map(p => (
               <a class="making-item" href={`${base}policies/${p.id}/`}>
                 <span class="making-item-title">{p.title}</span>
-                <span class="making-item-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}</span>
+                <span class="making-item-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}{p.comment_deadline ? ` · comments close ${fmtDate(p.comment_deadline)}` : ''}</span>
               </a>
             ))}
           </div>
@@ -272,6 +284,25 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
         </section>
       )}
 
+      {/* ── Explore: graph, history, landscape ── */}
+      <section class="explore-band">
+        <a class="explore-card" href={`${base}graph/`}>
+          <span class="explore-icon" aria-hidden="true">◉</span>
+          <span class="explore-title">Knowledge graph</span>
+          <span class="explore-desc">Which sources feed which sectors — an interactive map of the whole tracker.</span>
+        </a>
+        <a class="explore-card" href={`${base}history/`}>
+          <span class="explore-icon" aria-hidden="true">⌛</span>
+          <span class="explore-title">Policy history</span>
+          <span class="explore-desc">Today's debates began in the Constituent Assembly, 1946–49. Trace the threads.</span>
+        </a>
+        <a class="explore-card" href={`${base}landscape/`}>
+          <span class="explore-icon" aria-hidden="true">▦</span>
+          <span class="explore-title">Sector × type matrix</span>
+          <span class="explore-desc">What kind of documents each sector produces, in one grid.</span>
+        </a>
+      </section>
+
       {/* Analytics */}
       <div class="section-header">
         <h3>Activity</h3>
@@ -303,6 +334,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
         <h4 class="sidebar-card-title">Quick Links</h4>
         <div class="sidebar-links">
           <a href={`${base}policies/`}>Browse Everything</a>
+          <a href={`${base}process/`}>How Policy Is Made</a>
           <a href={`${base}parliament/`}>Parliament Tracker</a>
           <a href={`${base}budget/`}>Budget Analysis</a>
           <a href={`${base}longform/`}>Long Reads</a>
@@ -325,31 +357,6 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
 </Base>
 
 <style>
-  /* ── Home knowledge-graph feature ─────────────────── */
-  .home-graph-section { margin: var(--space-2xl) 0; }
-  .home-graph-head {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: var(--space-md);
-    margin-bottom: var(--space-md);
-    flex-wrap: wrap;
-  }
-  .home-graph-head h3 {
-    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
-    font-size: 1.4rem;
-    margin: 0 0 4px;
-  }
-  .home-graph-head p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    max-width: 46ch;
-  }
-  @media (max-width: 600px) {
-    .home-graph-head { flex-direction: column; align-items: stretch; }
-  }
-
   /* ── Dashboard Hero ───────────────────────────────── */
   .dash-hero {
     display: flex;
@@ -622,6 +629,89 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     font-weight: 600;
     color: var(--color-accent);
     text-decoration: none;
+  }
+
+  /* ── Pipeline strip ────────────────────────────────── */
+  .pipeline-strip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 10px 12px;
+    margin-bottom: var(--space-lg);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-md);
+  }
+  .pipeline-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: background 0.1s;
+  }
+  .pipeline-stage:hover { background: var(--color-accent-bg); }
+  .pipeline-count {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.2;
+  }
+  .pipeline-label {
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+  }
+  .pipeline-arrow {
+    color: var(--color-text-dim);
+    font-size: 0.875rem;
+  }
+  @media (max-width: 600px) {
+    .pipeline-arrow { display: none; }
+    .pipeline-strip { justify-content: space-between; }
+  }
+
+  /* ── Explore band ──────────────────────────────────── */
+  .explore-band {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: var(--space-2xl);
+  }
+  @media (max-width: 768px) {
+    .explore-band { grid-template-columns: 1fr; }
+  }
+  .explore-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 16px 18px;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+  }
+  .explore-card:hover { box-shadow: var(--shadow-card); transform: translateY(-1px); }
+  .explore-icon { font-size: 1.125rem; color: var(--color-accent); line-height: 1; }
+  .explore-title {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .explore-desc {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    line-height: 1.55;
   }
 
   /* ── Long reads ────────────────────────────────────── */

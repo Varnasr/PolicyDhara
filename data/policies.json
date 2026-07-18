@@ -10578,11 +10578,11 @@
       "climate-environment",
       "social-protection"
     ],
-    "type": "scheme",
+    "type": "release",
     "level": "central",
     "state": "",
     "first_seen": "2026-07-16",
-    "kind": "instrument",
+    "kind": "announcement",
     "authority": "regulator"
   },
   {
@@ -13509,7 +13509,8 @@
     "state": "",
     "first_seen": "2026-07-15",
     "kind": "process",
-    "authority": "government"
+    "authority": "government",
+    "comment_deadline": ""
   },
   {
     "id": "7c716c45520b",
@@ -13585,7 +13586,8 @@
     "state": "",
     "first_seen": "2026-07-15",
     "kind": "process",
-    "authority": "regulator"
+    "authority": "regulator",
+    "comment_deadline": ""
   },
   {
     "id": "a9eb36200696",
@@ -15025,7 +15027,8 @@
     "state": "",
     "first_seen": "2026-07-14",
     "kind": "process",
-    "authority": "regulator"
+    "authority": "regulator",
+    "comment_deadline": ""
   },
   {
     "id": "84a1ea46a3b6",
@@ -15103,7 +15106,8 @@
     "state": "",
     "first_seen": "2026-07-14",
     "kind": "process",
-    "authority": "regulator"
+    "authority": "regulator",
+    "comment_deadline": ""
   },
   {
     "id": "f2a5148855b0",
@@ -21679,7 +21683,8 @@
     "state": "",
     "first_seen": "2026-07-18",
     "kind": "process",
-    "authority": "government"
+    "authority": "government",
+    "comment_deadline": "2026-07-03"
   },
   {
     "id": "558326b8d2dc",
@@ -23683,7 +23688,8 @@
     "state": "",
     "first_seen": "2026-07-18",
     "kind": "process",
-    "authority": "parliament"
+    "authority": "parliament",
+    "comment_deadline": ""
   },
   {
     "id": "0f27491ee07f",
@@ -25633,7 +25639,8 @@
     "state": "",
     "first_seen": "2026-07-18",
     "kind": "process",
-    "authority": "parliament"
+    "authority": "parliament",
+    "comment_deadline": ""
   },
   {
     "id": "42b450f52230",
@@ -31395,7 +31402,8 @@
     "state": "",
     "first_seen": "2026-07-18",
     "kind": "process",
-    "authority": "government"
+    "authority": "government",
+    "comment_deadline": ""
   },
   {
     "id": "f0d2c326ae8a",

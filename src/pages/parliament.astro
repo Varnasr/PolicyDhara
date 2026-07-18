@@ -175,7 +175,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
           {liveDrafts.map(p => (
             <li class="live-row">
               <a href={`${base}policies/${p.id}/`} class="live-link">{p.title}</a>
-              <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+              <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}{p.comment_deadline ? ` · comments close ${fmtD(p.comment_deadline)}` : ''}</span>
             </li>
           ))}
         </ul>

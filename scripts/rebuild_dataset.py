@@ -29,6 +29,7 @@ from classifier import (  # noqa: E402
     is_india_relevant, is_policy_relevant, categorize_item,
     get_source_authority, normalize_sector_names, get_sector_slug,
     LEGACY_TYPE_MAP, KIND_INSTRUMENT, SECTOR_KEYWORDS,
+    extract_comment_deadline,
 )
 import fetch_all  # noqa: E402
 
@@ -64,6 +65,9 @@ def _retype(item: dict, cfg: dict | None) -> None:
         item["kind"] = kind
         item["type"] = doc_type
         item["authority"] = get_source_authority(sid, cfg)
+        if doc_type == "draft" and not item.get("comment_deadline"):
+            item["comment_deadline"] = extract_comment_deadline(
+                f"{item.get('title', '')} {item.get('description', '')}")
 
     # Sector hygiene: keep canonical names, translate known aliases, drop
     # junk. Never leave an item with zero sectors.

@@ -26,7 +26,7 @@ from fetch_scrape import fetch_scrape_source
 from classifier import (
     classify_policy, get_sector_slug, is_india_relevant, is_policy_relevant,
     is_media_source, categorize_item, get_source_authority, LEGACY_TYPE_MAP,
-    KIND_INSTRUMENT,
+    KIND_INSTRUMENT, extract_comment_deadline,
 )
 
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -726,6 +726,12 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             kind, doc_type = categorize_item(
                 title, description, source_id, source_config)
 
+            # Drafts open for comment: extract when the consultation closes
+            # so the UI can show (and eventually expire) the window.
+            deadline = ""
+            if doc_type == "draft":
+                deadline = extract_comment_deadline(f"{title} {description}")
+
             items.append({
                 "id": policy_id,
                 "title": title,
@@ -740,6 +746,7 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
                 "type": doc_type,
                 "kind": kind,
                 "authority": get_source_authority(source_id, source_config),
+                "comment_deadline": deadline,
                 "level": level,
                 "state": source_config.get("state", ""),
             })

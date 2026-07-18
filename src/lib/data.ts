@@ -23,6 +23,7 @@ export interface PolicyItem {
   type: string;
   kind?: Kind;         // document role in the policy process (see Kind)
   authority?: string;  // publisher tier: government/regulator/legal/parliament/think_tank/international/media
+  comment_deadline?: string;  // drafts only: last date for public comments (ISO), '' if unknown
   level?: string;  // 'central' or 'state'
   state?: string;  // state name if level === 'state'
 }
@@ -207,11 +208,15 @@ export function getNewsItems(): PolicyItem[] {
   return getAllPolicies().filter(p => getKind(p) === 'news');
 }
 
+/** Journal mastheads ("Vol. 61, Issue No. 29") scraped from EPW-style
+ * archive pages — table-of-contents links, not essays. */
+const JOURNAL_MASTHEAD = /\bvol\.?\s*\d+|\bissue no\b|\btable of contents\b/i;
+
 /** In-depth long-form essays from journal/essay sources (EPW, The India
- * Forum, Ideas for India, IDR). */
+ * Forum, Ideas for India, IDR). Mastheads are excluded. */
 export function getLongReads(limit = 30): PolicyItem[] {
   return getAllPolicies()
-    .filter(p => p.type === 'longform')
+    .filter(p => p.type === 'longform' && !JOURNAL_MASTHEAD.test(p.title))
     .slice(0, limit);
 }
 
