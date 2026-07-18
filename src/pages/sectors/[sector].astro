@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
 import { getAllPolicies, getMeta, getSectorSlug, getSectorInsight, getKind } from '../../lib/data';
 import type { Kind } from '../../lib/data';
+import { getDebatesForSector } from '../../lib/history';
 
 export function getStaticPaths() {
   const meta = getMeta();
@@ -47,6 +48,17 @@ for (const p of policies) {
 const instrumentCount = groups[0].items.length + groups[1].items.length;
 const ANNOUNCEMENT_LIMIT = 20;
 const NEWS_LIMIT = 15;
+
+// Constitutional foundations: Constituent Assembly debates that seeded this
+// sector's policy terrain (see data/constitutional_debates.json).
+const foundations = getDebatesForSector(sectorName);
+const fmtDebateDate = (d: string) => {
+  const [y, m, day] = d.split('-');
+  const dt = new Date(Number(y), Number(m || 1) - 1, Number(day || 1));
+  return day
+    ? dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })
+    : dt.toLocaleDateString('en-IN', { month: 'long', year: 'numeric' });
+};
 ---
 <Base title={sectorName} description={`Tracking Indian government policies in ${sectorName} — ${policies.length} policies from open sources.`}>
   <div style="padding: var(--space-xl) 0;">
@@ -124,6 +136,27 @@ const NEWS_LIMIT = 15;
         </div>
       </div>
     </div>
+
+    {/* ── Constitutional foundations ───────────────────── */}
+    {foundations.length > 0 && (
+      <div class="foundations-box">
+        <div class="foundations-head">
+          <h3>Constitutional foundations</h3>
+          <a href={`${base}history/`} class="foundations-link">Full policy history &rarr;</a>
+        </div>
+        <p class="foundations-sub">Where this sector's policy story begins — in the Constituent Assembly, 1946–1949.</p>
+        {foundations.map(d => (
+          <div class="foundation-item">
+            <div class="foundation-meta">
+              <span class="foundation-date">{fmtDebateDate(d.date)}</span>
+              {d.articles.map(a => <span class="foundation-article">{a}</span>)}
+            </div>
+            <p class="foundation-topic">{d.topic}</p>
+            <p class="foundation-legacy">{d.legacy} <a href={d.link} target="_blank" rel="noopener">Read the debate &rarr;</a></p>
+          </div>
+        ))}
+      </div>
+    )}
 
     {/* ── Kind-grouped feed: documents first, news clearly last ── */}
     {policies.length === 0 ? (
@@ -271,6 +304,86 @@ const NEWS_LIMIT = 15;
     font-size: 0.8125rem;
   }
   .group-more a { color: var(--color-accent); font-weight: 600; text-decoration: none; }
+
+  /* Constitutional foundations */
+  .foundations-box {
+    margin-top: var(--space-lg);
+    padding: var(--space-lg);
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-left: 3px solid var(--type-policy);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+  .foundations-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+  .foundations-head h3 {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .foundations-link {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .foundations-sub {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 2px 0 var(--space-sm);
+  }
+  .foundation-item {
+    padding: 10px 0;
+    border-top: 1px solid var(--color-border-light);
+  }
+  .foundation-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+  }
+  .foundation-date {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .foundation-article {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: var(--type-policy);
+    background: var(--type-policy-bg);
+    border: 1px solid var(--type-policy-border);
+    border-radius: var(--radius-pill);
+    padding: 1px 8px;
+  }
+  .foundation-topic {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0 0 3px;
+  }
+  .foundation-legacy {
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+  .foundation-legacy a {
+    color: var(--color-accent);
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
 
   @media (max-width: 768px) {
     .sip-grid { grid-template-columns: 1fr; }
