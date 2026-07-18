@@ -6,21 +6,87 @@ const meta = getMeta();
 const sectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Size each tag by policy volume — map count -> font-size on a sqrt scale so a
+// 10x busier sector doesn't render 10x bigger. Range ~0.8rem … 1.9rem.
+const counts = sectors.map(([, c]) => c);
+const maxC = Math.max(...counts, 1);
+const minC = Math.min(...counts, 0);
+function sizeRem(c: number): number {
+  const t = maxC === minC ? 1 : (Math.sqrt(c) - Math.sqrt(minC)) / (Math.sqrt(maxC) - Math.sqrt(minC));
+  return +(0.85 + t * 1.05).toFixed(3);
+}
+// A calm, distinct hue per tag, cycled.
+const HUES = [211, 145, 265, 32, 350, 190, 95, 20, 245, 168, 300, 55];
 ---
 <Base title="Sectors" description="Browse Indian development policies by sector — 22 themes covering education, health, agriculture, climate, digital, finance, and more.">
   <div style="padding: var(--space-xl) 0;">
     <h2 class="page-title">Development Sectors</h2>
     <p class="page-subtitle">
-      Browse policies across {sectors.length} development themes. Click any sector to see all tracked policies.
+      {sectors.length} themes, sized by how many policies we track in each. Tap any sector to open it.
     </p>
 
-    <div class="sector-grid">
-      {sectors.map(([name, count]) => (
-        <a href={`${base}sectors/${getSectorSlug(name)}/`} class="sector-card">
-          <span class="sector-card-name">{name}</span>
-          <span class="sector-card-count">{count} {count === 1 ? 'policy' : 'policies'}</span>
-        </a>
-      ))}
+    <div class="tag-cloud">
+      {sectors.map(([name, count], i) => {
+        const hue = HUES[i % HUES.length];
+        return (
+          <a href={`${base}sectors/${getSectorSlug(name)}/`}
+             class="tag-chip"
+             style={`font-size:${sizeRem(count)}rem; --tag-hue:${hue};`}
+             title={`${count} ${count === 1 ? 'policy' : 'policies'}`}>
+            {name}<span class="tag-count">{count}</span>
+          </a>
+        );
+      })}
     </div>
   </div>
 </Base>
+
+<style>
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px 12px;
+    margin-top: var(--space-lg);
+    line-height: 1.6;
+  }
+  .tag-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: var(--radius-pill);
+    font-weight: 600;
+    text-decoration: none;
+    color: hsl(var(--tag-hue) 55% 32%);
+    background: hsl(var(--tag-hue) 70% 96%);
+    border: 1px solid hsl(var(--tag-hue) 55% 88%);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  }
+  .tag-chip:hover {
+    background: hsl(var(--tag-hue) 70% 92%);
+    box-shadow: 0 3px 10px hsl(var(--tag-hue) 40% 70% / 0.35);
+    transform: translateY(-2px);
+    color: hsl(var(--tag-hue) 60% 26%);
+  }
+  .tag-count {
+    font-size: 0.68em;
+    font-weight: 700;
+    opacity: 0.72;
+    font-variant-numeric: tabular-nums;
+  }
+  :root[data-theme="dark"] .tag-chip {
+    color: hsl(var(--tag-hue) 70% 78%);
+    background: hsl(var(--tag-hue) 40% 18%);
+    border-color: hsl(var(--tag-hue) 40% 30%);
+  }
+  :root[data-theme="dark"] .tag-chip:hover {
+    background: hsl(var(--tag-hue) 40% 24%);
+    color: hsl(var(--tag-hue) 75% 85%);
+  }
+  @media (max-width: 600px) {
+    .tag-cloud { gap: 8px 8px; }
+    .tag-chip { padding: 6px 12px; }
+  }
+</style>
