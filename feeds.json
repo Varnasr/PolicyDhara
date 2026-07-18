@@ -1108,7 +1108,8 @@
       "description": "Policy papers, reports, and research from India's apex policy think tank",
       "covers_sectors": "all",
       "url": "https://www.niti.gov.in/documents/reports",
-      "rss_url": "https://www.niti.gov.in/rss.xml"
+      "rss_url": "https://www.niti.gov.in/rss.xml",
+      "covered_by": "pib_niti_aayog"
     },
     "parliament_lok_sabha": {
       "name": "Lok Sabha - Digital Sansad",
@@ -1181,7 +1182,8 @@
       "description": "Environmental regulations, notifications, climate policies",
       "covers_sectors": [
         "Climate & Environment"
-      ]
+      ],
+      "covered_by": "pib_environment_forest_and_climate_change"
     },
     "meity": {
       "name": "Ministry of Electronics and IT",
@@ -1194,7 +1196,8 @@
       "description": "Digital India policies, IT regulations, data governance frameworks",
       "covers_sectors": [
         "Digital & Technology"
-      ]
+      ],
+      "covered_by": "pib_electronics_it"
     },
     "orf": {
       "name": "Observer Research Foundation",
@@ -1532,33 +1535,6 @@
       "india_only": false,
       "level": "media"
     },
-    "firstpost_india": {
-      "name": "Firstpost - India",
-      "short_name": "Firstpost",
-      "type": "rss",
-      "url": "https://www.firstpost.com/rss/india.xml",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "India news and policy coverage from Firstpost",
-      "covers_sectors": "all",
-      "india_only": false,
-      "level": "media"
-    },
-    "news18_india": {
-      "name": "News18 - India",
-      "short_name": "News18",
-      "type": "rss",
-      "url": "https://www.news18.com/rss/india.xml",
-      "frequency": "Daily (multiple)",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "India news and policy from News18",
-      "covers_sectors": "all",
-      "rss_url": "https://www.news18.com/commonfeeds/v1/eng/rss/india.xml",
-      "india_only": false,
-      "level": "media"
-    },
     "the_print": {
       "name": "ThePrint",
       "short_name": "ThePrint",
@@ -1703,8 +1679,8 @@
     "sebi": {
       "name": "Securities and Exchange Board of India",
       "short_name": "SEBI",
-      "type": "scrape",
-      "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=1",
+      "type": "rss",
+      "url": "https://www.sebi.gov.in/sebirss.xml",
       "frequency": "Multiple times weekly",
       "format": "RSS",
       "reliability": "high",
@@ -1754,23 +1730,6 @@
         "Energy"
       ]
     },
-    "fssai": {
-      "name": "Food Safety and Standards Authority of India",
-      "short_name": "FSSAI",
-      "type": "rss",
-      "url": "https://www.fssai.gov.in/rss/orders-and-regulations.xml",
-      "backup_urls": [
-        "https://www.fssai.gov.in/cms/orders-and-regulations.php"
-      ],
-      "frequency": "Weekly",
-      "format": "RSS",
-      "reliability": "high",
-      "covers_sectors": [
-        "Health",
-        "Agriculture"
-      ],
-      "rss_url": "https://www.fssai.gov.in/rss/orders-and-regulations.xml"
-    },
     "cbic": {
       "name": "Central Board of Indirect Taxes and Customs",
       "short_name": "CBIC",
@@ -1783,7 +1742,8 @@
       "covers_sectors": [
         "Finance & Economy",
         "Trade & Commerce"
-      ]
+      ],
+      "covered_by": "pib_finance"
     },
     "dpiit": {
       "name": "Department for Promotion of Industry and Internal Trade",
@@ -1800,7 +1760,8 @@
         "Trade & Commerce",
         "Digital & Technology",
         "Finance & Economy"
-      ]
+      ],
+      "covered_by": "pib_commerce_industry"
     },
     "mohfw": {
       "name": "Ministry of Health and Family Welfare",
@@ -1814,7 +1775,8 @@
       "covers_sectors": [
         "Health"
       ],
-      "rss_url": "https://mohfw.gov.in/rss-feed"
+      "rss_url": "https://mohfw.gov.in/rss-feed",
+      "covered_by": "pib_health_and_family_welfare"
     },
     "moe": {
       "name": "Ministry of Education",
@@ -1828,7 +1790,8 @@
       "covers_sectors": [
         "Education"
       ],
-      "rss_url": "https://www.education.gov.in/rss-feed"
+      "rss_url": "https://www.education.gov.in/rss-feed",
+      "covered_by": "pib_education"
     },
     "mord": {
       "name": "Ministry of Rural Development",
@@ -1841,7 +1804,8 @@
       "description": "Rural development — MGNREGA, PMAY-G, PMGSY, DAY-NRLM",
       "covers_sectors": [
         "Rural Development"
-      ]
+      ],
+      "covered_by": "pib_rural_development"
     },
     "mole": {
       "name": "Ministry of Labour and Employment",
@@ -1854,7 +1818,8 @@
       "description": "Labour codes, wages, EPFO, ESIC, gig workers, social security",
       "covers_sectors": [
         "Labour & Employment"
-      ]
+      ],
+      "covered_by": "pib_labour_employment"
     },
     "mowr": {
       "name": "Ministry of Jal Shakti",
@@ -1867,7 +1832,8 @@
       "description": "Water resources — Jal Jeevan Mission, Namami Gange, irrigation, dams",
       "covers_sectors": [
         "Water & Sanitation"
-      ]
+      ],
+      "covered_by": "pib_jal_shakti"
     },
     "mnre": {
       "name": "Ministry of New and Renewable Energy",
@@ -1881,34 +1847,8 @@
       "covers_sectors": [
         "Energy",
         "Climate & Environment"
-      ]
-    },
-    "mota": {
-      "name": "Ministry of Tribal Affairs",
-      "short_name": "MoTA",
-      "type": "scrape",
-      "url": "https://tribal.nic.in/whatsnew.aspx",
-      "frequency": "Monthly",
-      "format": "HTML",
-      "reliability": "medium",
-      "description": "Tribal welfare — Eklavya schools, Van Dhan, FRA, PESA, tribal health",
-      "covers_sectors": [
-        "Tribal & Indigenous"
-      ]
-    },
-    "msje": {
-      "name": "Ministry of Social Justice and Empowerment",
-      "short_name": "MSJE",
-      "type": "scrape",
-      "url": "https://socialjustice.gov.in/whatsnew",
-      "frequency": "Monthly",
-      "format": "HTML",
-      "reliability": "medium",
-      "description": "Social justice — SC/ST welfare, DEPwD, senior citizens, anti-drug",
-      "covers_sectors": [
-        "Social Protection",
-        "Disability & Inclusion"
-      ]
+      ],
+      "covered_by": "pib_new_and_renewable_energy"
     },
     "mofa": {
       "name": "Ministry of External Affairs",
@@ -1925,7 +1865,8 @@
       "covers_sectors": [
         "Governance & Reform",
         "Trade & Commerce"
-      ]
+      ],
+      "covered_by": "pib_external_affairs"
     },
     "doj": {
       "name": "Department of Justice",
@@ -1954,7 +1895,8 @@
       "covers_sectors": [
         "Governance & Reform",
         "Finance & Economy"
-      ]
+      ],
+      "covered_by": "pib_statistics_programme_implementation"
     },
     "dot": {
       "name": "Department of Telecommunications",
@@ -1967,7 +1909,8 @@
       "description": "Telecom policy — 5G, spectrum, BharatNet, satellite communication",
       "covers_sectors": [
         "Digital & Technology"
-      ]
+      ],
+      "covered_by": "pib_communications"
     },
     "fao_india": {
       "name": "FAO India",
@@ -2131,20 +2074,8 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Sustainable Development Goals progress — state-level tracking across all 17 SDGs",
-      "covers_sectors": "all"
-    },
-    "mocommerce": {
-      "name": "Ministry of Commerce & Industry",
-      "short_name": "MoCommerce",
-      "type": "scrape",
-      "url": "https://commerce.gov.in/press-releases/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Trade policy, FDI, export promotion, SEZs",
-      "covers_sectors": [
-        "Trade & Commerce"
-      ]
+      "covers_sectors": "all",
+      "covered_by": "pib_niti_aayog"
     },
     "moinfo": {
       "name": "Ministry of Information & Broadcasting",
@@ -2158,7 +2089,8 @@
       "covers_sectors": [
         "Digital & Technology",
         "Governance & Reform"
-      ]
+      ],
+      "covered_by": "pib_information_broadcasting"
     },
     "mopower": {
       "name": "Ministry of Power",
@@ -2171,7 +2103,8 @@
       "description": "Electricity policy, distribution reforms, renewable targets",
       "covers_sectors": [
         "Energy"
-      ]
+      ],
+      "covered_by": "pib_power"
     },
     "mocoal": {
       "name": "Ministry of Coal",
@@ -2184,20 +2117,8 @@
       "description": "Coal policy, mine auctions, energy transition",
       "covers_sectors": [
         "Energy"
-      ]
-    },
-    "mopng": {
-      "name": "Ministry of Petroleum & Natural Gas",
-      "short_name": "MoPNG",
-      "type": "scrape",
-      "url": "https://mopng.gov.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Oil & gas policy, LPG schemes, refinery policy",
-      "covers_sectors": [
-        "Energy"
-      ]
+      ],
+      "covered_by": "pib_coal"
     },
     "momsme": {
       "name": "Ministry of MSME",
@@ -2211,7 +2132,8 @@
       "covers_sectors": [
         "Trade & Commerce",
         "Finance & Economy"
-      ]
+      ],
+      "covered_by": "pib_micro_small_medium_enterprises"
     },
     "moship": {
       "name": "Ministry of Ports, Shipping & Waterways",
@@ -2250,7 +2172,8 @@
       "description": "Steel policy, production targets, green steel",
       "covers_sectors": [
         "Trade & Commerce"
-      ]
+      ],
+      "covered_by": "pib_steel"
     },
     "momine": {
       "name": "Ministry of Mines",
@@ -2264,7 +2187,8 @@
       "covers_sectors": [
         "Trade & Commerce",
         "Climate & Environment"
-      ]
+      ],
+      "covered_by": "pib_mines"
     },
     "mopanchayat": {
       "name": "Ministry of Panchayati Raj",
@@ -2278,20 +2202,8 @@
       "covers_sectors": [
         "Rural Development",
         "Governance & Reform"
-      ]
-    },
-    "moculture": {
-      "name": "Ministry of Culture",
-      "short_name": "MoCulture",
-      "type": "scrape",
-      "url": "https://indiaculture.gov.in/",
-      "frequency": "Monthly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Cultural heritage preservation, museums, archaeological policy",
-      "covers_sectors": [
-        "Governance & Reform"
-      ]
+      ],
+      "covered_by": "pib_panchayati_raj"
     },
     "doner": {
       "name": "Ministry of DoNER",
@@ -2305,7 +2217,8 @@
       "covers_sectors": [
         "Rural Development",
         "Transport & Infrastructure"
-      ]
+      ],
+      "covered_by": "pib_development_of_north_east_region"
     },
     "moearth": {
       "name": "Ministry of Earth Sciences",
@@ -2319,7 +2232,8 @@
       "covers_sectors": [
         "Science & Innovation",
         "Climate & Environment"
-      ]
+      ],
+      "covered_by": "pib_earth_sciences"
     },
     "moayush": {
       "name": "Ministry of AYUSH",
@@ -2332,7 +2246,8 @@
       "description": "Traditional medicine policy, yoga, naturopathy regulation",
       "covers_sectors": [
         "Health"
-      ]
+      ],
+      "covered_by": "pib_ayush"
     },
     "dfs": {
       "name": "Department of Financial Services",
@@ -2346,19 +2261,6 @@
       "covers_sectors": [
         "Finance & Economy",
         "Social Protection"
-      ]
-    },
-    "dea": {
-      "name": "Department of Economic Affairs",
-      "short_name": "DEA",
-      "type": "scrape",
-      "url": "https://dea.gov.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Economic policy, multilateral engagement, capital markets",
-      "covers_sectors": [
-        "Finance & Economy"
       ]
     },
     "disinvestment": {
@@ -2386,7 +2288,8 @@
       "description": "Highway construction, vehicle standards, road safety",
       "covers_sectors": [
         "Transport & Infrastructure"
-      ]
+      ],
+      "covered_by": "pib_road_transport_highways"
     },
     "mohousing": {
       "name": "Ministry of Housing (PMAY)",
@@ -2400,7 +2303,8 @@
       "covers_sectors": [
         "Housing",
         "Urban Development"
-      ]
+      ],
+      "covered_by": "pib_housing_urban_affairs"
     },
     "npci": {
       "name": "National Payments Corporation of India",
@@ -2891,20 +2795,6 @@
       ],
       "rss_url": "https://azimpremjiuniversity.edu.in/feed"
     },
-    "oecd_india": {
-      "name": "OECD India",
-      "short_name": "OECD",
-      "type": "scrape",
-      "url": "https://www.oecd.org/india/",
-      "frequency": "Monthly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Economic surveys, governance reviews, tax policy recommendations",
-      "covers_sectors": [
-        "Finance & Economy",
-        "Governance & Reform"
-      ]
-    },
     "wto_india": {
       "name": "WTO India Profile",
       "short_name": "WTO",
@@ -2916,20 +2806,6 @@
       "description": "Trade policy reviews, dispute settlements, tariff analysis",
       "covers_sectors": [
         "Trade & Commerce"
-      ]
-    },
-    "unhcr_india": {
-      "name": "UNHCR India",
-      "short_name": "UNHCR",
-      "type": "scrape",
-      "url": "https://www.unhcr.org/in/",
-      "frequency": "Monthly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Refugee protection, statelessness, asylum policy",
-      "covers_sectors": [
-        "Social Protection",
-        "Civil Liberties"
       ]
     },
     "unfpa_india": {
@@ -2957,31 +2833,6 @@
       "description": "SDG progress tracking, voluntary national reviews, development goals",
       "covers_sectors": "all"
     },
-    "al_jazeera_india": {
-      "name": "Al Jazeera South Asia",
-      "short_name": "AlJazeera",
-      "type": "rss",
-      "url": "https://www.aljazeera.com/where/india/rss.xml",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "International perspective on Indian policy and governance",
-      "covers_sectors": "all"
-    },
-    "outlook_india": {
-      "name": "Outlook India",
-      "short_name": "Outlook",
-      "type": "rss",
-      "url": "https://www.outlookindia.com/feed",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "Indian newsmagazine covering policy, politics, society",
-      "covers_sectors": "all",
-      "rss_url": "https://www.outlookindia.com/rss",
-      "india_only": false,
-      "level": "media"
-    },
     "frontline_mag": {
       "name": "Frontline Magazine",
       "short_name": "Frontline",
@@ -3008,28 +2859,6 @@
       "covers_sectors": "all",
       "india_only": false,
       "level": "media"
-    },
-    "asian_age": {
-      "name": "The Asian Age",
-      "short_name": "AsianAge",
-      "type": "rss",
-      "url": "https://www.asianage.com/rss_feed/",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "Indian broadsheet covering policy and governance",
-      "covers_sectors": "all"
-    },
-    "tribune_india": {
-      "name": "The Tribune",
-      "short_name": "Tribune",
-      "type": "rss",
-      "url": "https://www.tribuneindia.com/rss/feed",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "North India broadsheet, Punjab/Haryana/Chandigarh policy focus",
-      "covers_sectors": "all"
     },
     "newslaundry": {
       "name": "Newslaundry",
@@ -3374,19 +3203,6 @@
       "india_only": false,
       "level": "media"
     },
-    "ani_news": {
-      "name": "ANI News",
-      "short_name": "ANI",
-      "type": "rss",
-      "url": "https://aninews.in/feed/",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "India's premier news wire agency, official press briefings",
-      "covers_sectors": "all",
-      "india_only": false,
-      "level": "media"
-    },
     "pti_news": {
       "name": "PTI News",
       "short_name": "PTI",
@@ -3427,19 +3243,6 @@
         "Defence & Security"
       ],
       "rss_url": "https://www.gatewayhouse.in/feed/"
-    },
-    "chatham_house_india": {
-      "name": "Chatham House India",
-      "short_name": "ChathamH",
-      "type": "scrape",
-      "url": "https://www.chathamhouse.org/regions/asia-pacific/india",
-      "frequency": "Monthly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "UK think tank, India foreign policy, governance analysis",
-      "covers_sectors": [
-        "Governance & Reform"
-      ]
     },
     "south_asian_voices": {
       "name": "South Asian Voices",
@@ -3701,21 +3504,6 @@
       "covers_sectors": [
         "Trade & Commerce",
         "Governance & Reform"
-      ],
-      "level": "central"
-    },
-    "mosta_new": {
-      "name": "Ministry of Tribal Affairs",
-      "short_name": "MoTA",
-      "type": "scrape",
-      "url": "https://tribal.nic.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "medium",
-      "description": "Tribal welfare schemes, forest rights, and tribal development policies",
-      "covers_sectors": [
-        "Tribal & Indigenous",
-        "Social Protection"
       ],
       "level": "central"
     },
@@ -4060,19 +3848,6 @@
       "covers_sectors": "all",
       "level": "media",
       "rss_url": "https://www.indiatoday.in/rss/home",
-      "india_only": false
-    },
-    "news18_rss": {
-      "name": "News18 India (RSS)",
-      "short_name": "News18 RSS",
-      "type": "rss",
-      "url": "https://www.news18.com/commonfeeds/v1/eng/rss/india.xml",
-      "frequency": "Continuous",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "India news from News18",
-      "covers_sectors": "all",
-      "level": "central",
       "india_only": false
     },
     "up_rera": {
@@ -4562,25 +4337,11 @@
         "Governance & Reform"
       ]
     },
-    "ngt": {
-      "name": "National Green Tribunal",
-      "short_name": "NGT",
-      "type": "scrape",
-      "url": "https://greentribunal.gov.in/orders",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "covers_sectors": [
-        "Climate & Environment",
-        "Water & Sanitation",
-        "Governance & Reform"
-      ]
-    },
     "adb_india": {
       "name": "Asian Development Bank - India",
       "short_name": "ADB",
       "type": "rss",
-      "url": "https://www.adb.org/news/india/feed",
+      "url": "https://www.adb.org/rss/news",
       "frequency": "Weekly",
       "format": "RSS",
       "reliability": "high",
@@ -4591,35 +4352,6 @@
         "Climate & Environment"
       ],
       "rss_url": "https://www.adb.org/news/india/feed"
-    },
-    "ilo_india": {
-      "name": "International Labour Organization - India",
-      "short_name": "ILO",
-      "type": "rss",
-      "url": "https://www.ilo.org/resource/news/rss/country/india",
-      "frequency": "Monthly",
-      "format": "RSS",
-      "reliability": "high",
-      "covers_sectors": [
-        "Labour & Employment",
-        "Social Protection",
-        "Gender & Women"
-      ],
-      "rss_url": "https://www.ilo.org/resource/news/rss/country/india"
-    },
-    "imf_india": {
-      "name": "International Monetary Fund - India",
-      "short_name": "IMF",
-      "type": "scrape",
-      "url": "https://www.imf.org/en/Countries/IND",
-      "frequency": "Quarterly",
-      "format": "HTML",
-      "reliability": "high",
-      "covers_sectors": [
-        "Finance & Economy",
-        "Trade & Commerce"
-      ],
-      "rss_url": "https://www.imf.org/en/Countries/IND/rss"
     },
     "ka_gazette": {
       "name": "Karnataka Gazette",
@@ -4736,28 +4468,6 @@
       "description": "Insolvency circulars, NCLT/NCLAT orders, and IBC amendments — updated multiple times weekly.",
       "covers_sectors": "economy, governance"
     },
-    "mca_notifications": {
-      "name": "Ministry of Corporate Affairs — Notifications",
-      "short_name": "MCA",
-      "type": "scrape",
-      "url": "https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/notifications-circulars.html",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Companies Act notifications and MCA circulars; bot-blocked, needs custom UA.",
-      "covers_sectors": "economy, governance"
-    },
-    "pngrb": {
-      "name": "Petroleum & Natural Gas Regulatory Board",
-      "short_name": "PNGRB",
-      "type": "scrape",
-      "url": "https://www.pngrb.gov.in/whats-new.html",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Downstream gas tariff, pipeline capacity, and CGD authorisation orders — no equivalent in PIB.",
-      "covers_sectors": "energy, infrastructure"
-    },
     "aerb": {
       "name": "Atomic Energy Regulatory Board",
       "short_name": "AERB",
@@ -4813,17 +4523,6 @@
       "description": "Finance Commission adjacent think tank; fiscal-federalism, tax, and Union Budget working papers.",
       "covers_sectors": "economy"
     },
-    "idfc_institute_new": {
-      "name": "IDFC Institute",
-      "short_name": "IDFC-I",
-      "type": "scrape",
-      "url": "https://www.idfcinstitute.org/knowledge/publications/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "State capacity and urbanisation research.",
-      "covers_sectors": "governance, urbanization"
-    },
     "unicef_india": {
       "name": "UNICEF India Press Releases",
       "short_name": "UNICEF-IN",
@@ -4855,17 +4554,6 @@
       "format": "HTML",
       "reliability": "high",
       "description": "Highest-volume constitutional-writ High Court; updates same-day.",
-      "covers_sectors": "governance"
-    },
-    "eci_direct": {
-      "name": "Election Commission of India — Press Releases",
-      "short_name": "ECI-PR",
-      "type": "scrape",
-      "url": "https://www.eci.gov.in/964-press-releases",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "MCC advisories and VVPAT/EVM decisions not mirrored on PIB; complements pib_eci.",
       "covers_sectors": "governance"
     },
     "imd_press": {
