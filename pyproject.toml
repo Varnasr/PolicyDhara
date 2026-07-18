@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "policydhara"
 version = "0.1.0"
-description = "Python library and CLI for tracking Indian development policies across 21 sectors and 300+ sources"
+description = "Python library and CLI for tracking Indian development policies across 22 sectors and 380+ sources"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"

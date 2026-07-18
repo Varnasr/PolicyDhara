@@ -118,6 +118,7 @@ const ENACTMENT_TYPES = new Set(['legislation', 'scheme', 'notification', 'budge
 const now = Date.now();
 const DAY = 86400000;
 const last7d = policies.filter(p => {
+  if (p.level === 'media') return false;   // enactments only, never news
   if (!p.date) return false;
   if (!ENACTMENT_TYPES.has(p.type)) return false;
   const t = new Date(p.date).getTime();

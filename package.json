@@ -14,9 +14,9 @@
     "prepare": "git config core.hooksPath .githooks"
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.17",
-    "@astrojs/sitemap": "^3.7.2",
-    "astro": "^6.0.0"
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.1.1"
   },
   "devDependencies": {
     "pagefind": "^1.5.2"

@@ -29,6 +29,8 @@ if not date:
 
 When a source didn't expose a publication date — and roughly half of Indian government sources don't — the fetcher stamped today's date and moved on. Every six hours, another cycle of undated items got labeled with the current day. Over months, ninety-four percent of the dataset ended up clustered on the three days CI happened to run most recently.
 
+![94% of the dataset was stamped with today's date onto just three dates — the days CI happened to run; only 6% carried a real publication date.](/PolicyDhara/blog/date-clustering.svg)
+
 A commit in April *had* tried to fix this. It removed the fallback in the Python package's fetcher (`policydhara/fetchers/base.py`) and migrated the data. But CI ran a *different* fetcher — `scripts/fetch_all.py` — that still had the fallback. Within a few cycles the fake dates were back.
 
 The same regression pattern hit the `first_seen` field, which was added specifically so analytics could distinguish *when we ingested a policy* from *when it was enacted*. The package populated it. The script never did. Zero of 2,000 records had it.

@@ -11,7 +11,6 @@ import hashlib
 import html
 import os
 import re
-import signal
 import sys
 import time
 import traceback
@@ -37,17 +36,8 @@ MAX_TOTAL_ITEMS = 2000
 # (level == "media") items may fill at most this share of the final
 # dataset; government / research / historical items are prioritized.
 MEDIA_CAP_FRACTION = 0.4
-MAX_SOURCE_SECONDS = 30  # Per-source time limit (kills stuck fetches)
 MAX_PIPELINE_SECONDS = 720  # 12 minutes total (leave 3 min for build/deploy)
 HISTORICAL_SEED = PROJECT_ROOT / "data" / "historical_seed.json"
-
-
-class SourceTimeout(Exception):
-    pass
-
-
-def _source_timeout_handler(signum, frame):
-    raise SourceTimeout("Source fetch exceeded time limit")
 
 
 def generate_id(title: str, source: str) -> str:
@@ -779,7 +769,6 @@ def main():
     # Fetch from all sources
     all_new = list(seed)
     errors = []
-    skipped = 0
     pipeline_start = time.monotonic()
 
     # Fetch sources concurrently. The pipeline was previously sequential with

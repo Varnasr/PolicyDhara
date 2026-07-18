@@ -1,8 +1,8 @@
 ---
-import { getDailyActivity, getAllPolicies } from '../lib/data';
+import { getDailyActivity, getPolicyItems } from '../lib/data';
 
 const dailyCounts = getDailyActivity();
-const policies = getAllPolicies();
+const policies = getPolicyItems();
 
 // Build 26-week (≈6 months) calendar ending today
 const today = new Date();

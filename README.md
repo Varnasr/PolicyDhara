@@ -6,7 +6,9 @@
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Varnasr/PolicyDhara)](https://github.com/Varnasr/PolicyDhara/commits/master)
 [![Part of ImpactMojo](https://img.shields.io/badge/Part%20of-ImpactMojo-orange)](https://www.impactmojo.in)
 
-**Auto-updating tracker of Indian development policies across 22 sectors — fetching from 20+ official sources every 6 hours via GitHub Actions.**
+**Auto-updating tracker of Indian development policy across 22 sectors — fetching from ~380 official sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
+
+📋 [Roadmap](ROADMAP.md) · 📝 [Blog](https://varnasr.github.io/PolicyDhara/blog)
 
 A complement to [impactmojo.in](https://impactmojo.in) and the [OpenStacks for Change](https://github.com/Varnasr/OpenStacks-for-Change) ecosystem.
 
@@ -44,7 +46,9 @@ It is designed for researchers, journalists, advocates, and practitioners who ne
 
 ---
 
-## Data Sources (20+)
+## Data Sources (~380 configured)
+
+The pipeline fetches from ~380 sources concurrently. A few high-value ones:
 
 | Source | Type |
 |--------|------|
@@ -70,9 +74,10 @@ It is designed for researchers, journalists, advocates, and practitioners who ne
 │              GitHub Actions (every 6 hours)           │
 │                                                        │
 │  update-policies.yml                                   │
-│  ├── Fetch from 20+ sources (RSS, APIs, scrape)       │
+│  ├── Fetch ~380 sources concurrently (RSS/API/scrape) │
+│  ├── Filter news noise + cap media at 40%             │
 │  ├── Classify by sector (22 categories)               │
-│  ├── Deduplicate and score relevance                  │
+│  ├── Deduplicate and detect amendments                │
 │  ├── Commit updated data to repository                │
 │  └── Trigger GitHub Pages rebuild                     │
 └──────────────────────────────────────────────────────┘
@@ -121,14 +126,18 @@ Add the bot as an administrator on the channel with "Post Messages" permission. 
 git clone https://github.com/Varnasr/PolicyDhara.git
 cd PolicyDhara
 
-# Install dependencies (Python)
-pip install -r requirements.txt
+# Python pipeline
+pip install -r scripts/requirements.txt
+python3 scripts/fetch_all.py            # fetch + filter + classify
+python3 scripts/check_source_health.py  # bucket every source (WORKS/BROKEN/SHELL/DEAD)
 
-# Run a manual policy fetch
-python fetch_policies.py
+# Astro site
+npm install
+npm run dev      # local dev server
+npm run build    # production build (Astro + Pagefind)
 
-# Serve the static site locally
-python3 -m http.server 8000
+# Run the test suite
+python3 -m pytest tests/
 ```
 
 ---
@@ -137,11 +146,11 @@ python3 -m http.server 8000
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| Data Pipeline | Python | Fetching, classifying, and deduplicating policy data |
+| Data Pipeline | Python | Concurrent fetching, news filter, classification, dedup |
 | Automation | GitHub Actions | Scheduled data refresh (6-hourly) and deploy |
-| Frontend | Vanilla HTML / CSS / JS | Static searchable site |
+| Frontend | Astro 7 | Static searchable site (+ Pagefind search) |
 | Hosting | GitHub Pages | Auto-deploy from repository |
-| Package | PyPI | Python package for the policy data pipeline |
+| Package | PyPI (`policydhara`) | Python library for the policy data pipeline |
 
 ---
 

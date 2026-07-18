@@ -1,7 +1,7 @@
 ---
-import { getAllPolicies, getEraDistribution } from '../lib/data';
+import { getPolicyItems, getEraDistribution } from '../lib/data';
 
-const policies = getAllPolicies();
+const policies = getPolicyItems();
 
 // Build year-by-year counts
 const yearCounts: Record<number, { total: number; types: Record<string, number> }> = {};
