@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_rss import fetch_rss_source
 from fetch_scrape import fetch_scrape_source
-from classifier import classify_policy, get_sector_slug, is_india_relevant, is_policy_relevant
+from classifier import classify_policy, get_sector_slug, is_india_relevant, is_policy_relevant, is_media_source
 
 PROJECT_ROOT = Path(__file__).parent.parent
 FEEDS_CONFIG = PROJECT_ROOT / "feeds.json"
@@ -464,6 +464,13 @@ def merge_policies(existing: dict, new_items: list[dict]) -> list[dict]:
         else:
             by_title[title] = item
 
+    # Normalize level for known media outlets before the cap and the write —
+    # this catches items preserved from an older dataset that were stored with
+    # the wrong level (e.g. legacy The Hindu / HT / NDTV RSS stamped "central").
+    for item in by_title.values():
+        if is_media_source(item.get("source_id", "")):
+            item["level"] = "media"
+
     # Separate historical seed items (source_id == "historical") to ensure they survive the cap
     seed_items = [i for i in by_title.values() if i.get("source_id") == "historical"]
     live_items = [i for i in by_title.values() if i.get("source_id") != "historical"]
@@ -699,6 +706,12 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             # mis-stamped media coverage as central-government enactment.
             default_level = "media" if not is_india_only_source else "central"
             level = source_config.get("level", default_level)
+            # Authoritative override: known news/media outlets are always
+            # "media", regardless of feed config or the india_only default.
+            # This is what keeps The Hindu / HT / NDTV / Mint RSS out of the
+            # policy-only ticker and charts (they were leaking in as "central").
+            if is_media_source(source_id):
+                level = "media"
 
             items.append({
                 "id": policy_id,

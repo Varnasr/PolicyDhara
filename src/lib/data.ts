@@ -81,8 +81,32 @@ export function getAllPolicies(): PolicyItem[] {
   return tagCivilLiberties(merged);
 }
 
+// News/media source_ids — MIRRORS scripts/classifier.py MEDIA_SOURCE_IDS.
+// Belt-and-suspenders: the pipeline already stamps these level === 'media',
+// but matching on source_id here guarantees the policy-only views stay clean
+// even if an item slips through with a stale/wrong level (the exact bug that
+// let The Hindu / HT / NDTV / Mint RSS leak into the ticker and charts).
+const MEDIA_SOURCE_IDS = new Set<string>([
+  'the_hindu_policy', 'the_hindu_business', 'thehindu_rss', 'bl_rss', 'frontline_mag',
+  'ht_rss', 'hindustan_times', 'livemint_rss', 'mint_opinion',
+  'ndtv_rss', 'ndtv_india',
+  'indian_express_business', 'indian_express_policy',
+  'deccan_chronicle', 'republic_world', 'scroll', 'india_today', 'indiatoday_rss',
+  'the_wire', 'firstpost_india', 'news18_india', 'news18_rss', 'the_print',
+  'al_jazeera_india', 'outlook_india', 'asian_age', 'tribune_india', 'moneycontrol',
+  'ani_news', 'pti_news', 'print_diplomacy',
+  'livelaw', 'barandbench',
+  'factchecker', 'villagesquare', 'govinsider', 'ecgov',
+  'drishti_ias', 'drishtiias_rss', 'insights_ias',
+  'article14', 'caravanmag', 'swarajya_mag',
+]);
+
+export function isMediaItem(p: PolicyItem): boolean {
+  return p.level === 'media' || MEDIA_SOURCE_IDS.has(p.source_id);
+}
+
 /**
- * Policy-only view — excludes generalist-media (news) items (`level === 'media'`).
+ * Policy-only view — excludes generalist-media (news) items.
  * Analytics, counts, and every time/sector chart use this so they reflect
  * actual government/research policy. News carries fresh publication dates and
  * gets sector-classified, which otherwise skews trends, momentum, the activity
@@ -91,7 +115,7 @@ export function getAllPolicies(): PolicyItem[] {
  * as timely context, just not in the aggregate numbers.
  */
 export function getPolicyItems(): PolicyItem[] {
-  return getAllPolicies().filter(p => p.level !== 'media');
+  return getAllPolicies().filter(p => !isMediaItem(p));
 }
 
 export function getMeta(): MetaData {
