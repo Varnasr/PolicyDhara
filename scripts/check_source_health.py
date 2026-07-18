@@ -23,10 +23,13 @@ import json
 import os
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+
+sys.path.insert(0, str(Path(__file__).parent))
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
@@ -35,6 +38,48 @@ HEALTH_FILE = DATA_DIR / "source_health.json"
 
 STALE_STREAK_THRESHOLD = 3  # weeks of zero-item probes before we flag
 TIMEOUT = 12
+PROBE_WORKERS = 16
+
+
+def _fetch_items(sid: str, cfg: dict) -> int:
+    """Run the source's real fetcher and return the item count (0 on failure).
+
+    A URL can be reachable (HTTP 200) yet extract nothing — stale scraper
+    selectors, or a JS-rendered shell that static scraping can't read. Plain
+    reachability misses those; running the fetcher is what catches them."""
+    try:
+        from fetch_rss import fetch_rss_source
+        from fetch_scrape import fetch_scrape_source, SOURCE_SCRAPERS, scrape_pib, scrape_ministry
+    except Exception:
+        return 0
+    # NB: don't redirect stdout here — this runs in worker threads and
+    # contextlib.redirect_stdout mutates the *global* sys.stdout, so
+    # concurrent redirects race and corrupt it. The fetchers' progress prints
+    # are acceptable noise for a weekly maintenance job.
+    t = cfg.get("type")
+    try:
+        if t == "rss":
+            items = fetch_rss_source(cfg)
+        elif t == "scrape":
+            items = fetch_scrape_source(sid, cfg)
+        else:
+            return 0
+        return len(items) if items else 0
+    except Exception:
+        return 0
+
+
+def classify_bucket(status, body_len: int, items: int) -> str:
+    """Bucket a probe result: WORKS / SELECTOR_BROKEN / SHELL / DEAD."""
+    # probe() returns status 0 on any network/TLS error; anything outside
+    # 200–399 (or non-int) is unreachable.
+    if not isinstance(status, int) or status < 200 or status >= 400:
+        return "DEAD"
+    if items > 0:
+        return "WORKS"
+    if body_len < 8000:
+        return "SHELL"          # tiny body, no items → JS-rendered / empty
+    return "SELECTOR_BROKEN"    # real HTML, but the parser extracted nothing
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -83,29 +128,49 @@ def main() -> int:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     if not args.report_only:
-        print(f"Probing {len(sources)} sources...")
-        for i, (sid, cfg) in enumerate(sources.items(), 1):
+        print(f"Probing {len(sources)} sources ({PROBE_WORKERS} workers)...")
+
+        def _probe_one(item):
+            sid, cfg = item
             url = cfg.get("url", "")
             if not url:
-                continue
+                return sid, None
             status, body_len = probe(url)
+            items = _fetch_items(sid, cfg)
+            return sid, (status, body_len, items)
+
+        with ThreadPoolExecutor(max_workers=PROBE_WORKERS) as ex:
+            results = list(ex.map(_probe_one, sources.items()))
+
+        for sid, res in results:
+            if res is None:
+                continue
+            status, body_len, items = res
+            cfg = sources[sid]
             entry = health.setdefault(sid, {"first_probed": today, "streak": 0})
             entry["last_probed"] = today
             entry["last_status"] = status
             entry["last_body_len"] = body_len
-            # A source is "healthy" this probe if we got 2xx AND a non-trivial body
-            healthy = 200 <= status < 300 and body_len > 200
+            entry["last_items"] = items
+            entry["bucket"] = classify_bucket(status, body_len, items)
+            # "Healthy" now means the fetcher actually extracted content —
+            # reachability alone is not enough (a JS shell returns 200 with 0
+            # items and used to be counted healthy, hiding the real breakage).
+            healthy = entry["bucket"] == "WORKS"
             if healthy:
                 entry["streak"] = 0
                 entry["last_healthy"] = today
             else:
                 entry["streak"] = entry.get("streak", 0) + 1
-            if i % 25 == 0:
-                print(f"  {i}/{len(sources)}...")
-            time.sleep(0.15)  # be polite
 
         save_health(health)
         print(f"Health data written to {HEALTH_FILE}")
+
+        from collections import Counter
+        buckets = Counter(
+            health[sid].get("bucket", "?") for sid in sources if sid in health
+        )
+        print(f"Buckets: {dict(buckets)}")
 
     # Report stale sources
     stale = []
@@ -113,12 +178,14 @@ def main() -> int:
         if entry.get("streak", 0) >= STALE_STREAK_THRESHOLD and sid in sources:
             stale.append(
                 (sid, sources[sid].get("name", sid), entry.get("streak", 0),
-                 entry.get("last_status", 0), entry.get("last_healthy", "never"))
+                 entry.get("last_status", 0), entry.get("last_healthy", "never"),
+                 entry.get("bucket", "?"))
             )
 
     print(f"\nStale sources (>= {STALE_STREAK_THRESHOLD} consecutive failing probes): {len(stale)}")
-    for sid, name, streak, status, last_healthy in stale[:30]:
-        print(f"  {sid:35} streak={streak:2} last_status={status:3} last_healthy={last_healthy} | {name}")
+    for sid, name, streak, status, last_healthy, bucket in stale[:30]:
+        print(f"  {sid:33} {bucket:16} streak={streak:2} last_status={status!s:3} "
+              f"last_healthy={last_healthy} | {name}")
 
     if args.open_issue and stale:
         _open_issue(stale)
@@ -140,11 +207,16 @@ def _open_issue(stale: list) -> None:
         f"for {STALE_STREAK_THRESHOLD}+ consecutive weekly probes. Consider "
         "updating the URL, replacing the source, or removing the entry.",
         "",
-        "| Source ID | Streak | Last HTTP | Last healthy | Name |",
-        "|---|---|---|---|---|",
+        "Bucket legend: **SELECTOR_BROKEN** = page loads but the parser "
+        "extracts nothing (fix selectors); **SHELL** = JS-rendered/empty page "
+        "(needs an RSS/API source); **DEAD** = unreachable / HTTP error "
+        "(fix URL or remove).",
+        "",
+        "| Source ID | Bucket | Streak | Last HTTP | Last healthy | Name |",
+        "|---|---|---|---|---|---|",
     ]
-    for sid, name, streak, status, last_healthy in stale:
-        body_lines.append(f"| `{sid}` | {streak} | {status} | {last_healthy} | {name} |")
+    for sid, name, streak, status, last_healthy, bucket in stale:
+        body_lines.append(f"| `{sid}` | {bucket} | {streak} | {status} | {last_healthy} | {name} |")
 
     payload = json.dumps({
         "title": f"[source-health] {len(stale)} sources have gone stale",

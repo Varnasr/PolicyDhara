@@ -46,7 +46,11 @@ const isOfficial = (sid: string) =>
 const byDateDesc = (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime();
 // Keep operational/event-listing noise (workshops, auctions, awareness drives,
 // recruitment, tenders) out of the headline even when it's official.
-const LEAD_NOISE = /\b(workshop|webinar|auction|vrr|walk[- ]?in|recruitment|vacanc|result of the|tender|corrigendum|quiz)\b|consumer (education|awareness)|awareness program|invites application/i;
+// Operational / non-policy chaff that shouldn't lead the feed even though it
+// comes from official or research sources: auctions & tenders, HR notices,
+// and — surfaced once the full source set came online — exam results, UPSC
+// coaching material, course/admission listings, and journal mastheads.
+const LEAD_NOISE = /\b(workshop|webinar|auction|vrr|walk[- ]?in|recruitment|vacanc|result of the|tender|corrigendum|quiz|seniority list)\b|consumer (education|awareness|outreach)|(awareness|outreach) program|invites application|answer writing|\b(prelims|mains)\b|certificate (programme|program|course)|current affairs|admit card|\bresult\b\s*20\d\d|\bissue no\b|\bvol\.?\s*\d+/i;
 const substantive = allPolicies.filter(p => p.date && LEAD_TYPES.has(p.type) && !LEAD_NOISE.test(p.title));
 const officialActions = substantive.filter(p => isOfficial(p.source_id)).sort(byDateDesc);
 // Prefer an official action; fall back to any substantive type; then anything.
@@ -67,10 +71,31 @@ const notLead = (p) => !lead || p.id !== lead.id;
 // recruitment) that LEAD_NOISE already flags. The chaff is genuine
 // government activity but not what the front page should feature, so it
 // sinks below the interleaved feed instead of flooding the top.
+// Diversify by source so a single high-volume source (RBI publishes ~50
+// penalty orders, one outlet dominates the news) can't fill a run of
+// consecutive slots. Round-robin: each pass emits one item per source,
+// newest head first — keeps the feed roughly recency-ordered while
+// spreading sources out.
+const diversifyBySource = (items: typeof allPolicies) => {
+  const bySource = new Map<string, typeof allPolicies>();
+  for (const p of items) {
+    const q = bySource.get(p.source_id);
+    if (q) q.push(p); else bySource.set(p.source_id, [p]);
+  }
+  for (const q of bySource.values()) q.sort(byDateDesc);
+  const queues = [...bySource.values()];
+  const result: typeof allPolicies = [];
+  while (queues.some(q => q.length)) {
+    queues.filter(q => q.length)
+      .sort((a, b) => byDateDesc(a[0], b[0]))
+      .forEach(q => result.push(q.shift()!));
+  }
+  return result;
+};
 const nonMedia = allPolicies.filter(p => notLead(p) && p.level !== 'media');
-const policyStream = nonMedia.filter(p => !LEAD_NOISE.test(p.title)).sort(byDateDesc);
+const policyStream = diversifyBySource(nonMedia.filter(p => !LEAD_NOISE.test(p.title)));
 const chaffStream = nonMedia.filter(p => LEAD_NOISE.test(p.title)).sort(byDateDesc);
-const newsStream = allPolicies.filter(p => notLead(p) && p.level === 'media').sort(byDateDesc);
+const newsStream = diversifyBySource(allPolicies.filter(p => notLead(p) && p.level === 'media'));
 // Interleave POLICY_PER_NEWS policy items to every 1 news item.
 const interleaved: typeof allPolicies = [];
 let pIdx = 0, nIdx = 0;

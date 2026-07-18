@@ -406,3 +406,54 @@ class TestRssParser:
         items = parse_rss_xml(xml)
         assert len(items) == 1
         assert items[0]["title"] == "BOM Test"
+
+
+class TestRelevance:
+    """The published package must filter generalist-media noise the same way
+    the live pipeline does. policydhara/relevance.py is a port of
+    scripts/classifier.py — these cases mirror tests/test_pipeline.py so the
+    two copies can't drift silently."""
+
+    def test_spectacle_dropped(self):
+        from policydhara.relevance import is_policy_relevant
+        for noise in [
+            "Teenager Wins Football Match, Then A Murder In Tense Kolkata Suburb",
+            "IPL 2026 final: Mumbai Indians beat Chennai as govt boxes fill up",
+            "Man Strangles Wife During Argument, Dies By Suicide In Rajasthan: Cops",
+        ]:
+            assert not is_policy_relevant(noise), noise
+
+    def test_real_policy_kept(self):
+        from policydhara.relevance import is_policy_relevant
+        for good in [
+            "Cabinet approves ₹10,000 crore scheme for rural electrification",
+            "Supreme Court dismisses PIL on electoral bonds",
+            "Health Ministry launches suicide prevention helpline under mental health policy",
+        ]:
+            assert is_policy_relevant(good), good
+
+    def test_foreign_dropped(self):
+        from policydhara.relevance import is_india_relevant
+        assert not is_india_relevant(
+            "Putin Says Ukraine Ceasefire Prompted By Kyiv Security Warnings", ""
+        )
+        assert is_india_relevant("Maharashtra CM announces new water policy", "")
+
+    def test_broadcast_gate(self):
+        from policydhara.relevance import is_broadcast_relevant
+        assert not is_broadcast_relevant("officer hacked to death with axe", "", "central")
+        assert is_broadcast_relevant("RBI notifies new lending norms", "", "central")
+
+    def test_media_feed_gets_gated_in_fetch(self, monkeypatch):
+        """A media source (india_only=False) must drop non-policy items."""
+        from policydhara.fetchers import base
+        monkeypatch.setattr(base, "fetch_rss", lambda cfg: [
+            {"title": "IPL 2026 final: Mumbai beat Chennai", "description": "", "link": "x", "date": "2026-01-01"},
+            {"title": "Cabinet approves new farm subsidy scheme", "description": "", "link": "y", "date": "2026-01-02"},
+        ])
+        out = base.fetch_source("hindu", {"type": "rss", "name": "Hindu", "india_only": False})
+        titles = [p.title for p in out]
+        assert "Cabinet approves new farm subsidy scheme" in titles
+        assert not any("IPL" in t for t in titles)
+        # gated media source should be labeled media, not central
+        assert all(p.level == "media" for p in out)
