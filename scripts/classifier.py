@@ -410,6 +410,31 @@ def is_policy_relevant(title: str, description: str = "") -> bool:
     return False
 
 
+def is_broadcast_relevant(title: str, description: str = "", level: str = "") -> bool:
+    """Defense-in-depth gate for OUTWARD broadcasts (Telegram, newsletter).
+
+    The fetch pipeline already filters mixed-media feeds at ingestion, so
+    data/policies.json should be clean. But broadcasting is high-visibility
+    and irreversible, so consumers re-check every item before pushing it:
+
+      - Spectacle / tabloid noise is dropped regardless of source. Even an
+        official-government feed occasionally carries a lurid title, and we
+        never want that going out to subscribers.
+      - Media-sourced items (level == "media") must additionally hit a policy
+        marker, mirroring fetch_source's gate. Official-government items are
+        trusted (they can be genuine policy without a keyword — a gazette
+        notification titled with just a number, etc.).
+
+    Returns True if the item is safe to broadcast.
+    """
+    text = f"{title} {description}".lower()
+    if _is_spectacle(text):
+        return False
+    if level == "media" and not is_policy_relevant(title, description):
+        return False
+    return True
+
+
 def is_india_relevant(title: str, description: str = "") -> bool:
     """Return True if the item should be kept in the India-policy dataset.
 

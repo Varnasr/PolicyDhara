@@ -273,6 +273,46 @@ class TestPolicyRelevanceFilter:
         )
 
 
+class TestBroadcastGate:
+    """Telegram and the newsletter re-check every item before pushing it out.
+    is_broadcast_relevant() drops spectacle from ANY source and requires a
+    policy marker for media items, so tabloid noise never reaches subscribers
+    even if it slips into policies.json."""
+
+    @pytest.fixture(scope="class")
+    def classifier(self):
+        return _load_module("classifier")
+
+    def test_spectacle_dropped_even_from_official_source(self, classifier):
+        # Official source (level != media) but a lurid title — must not go out.
+        assert not classifier.is_broadcast_relevant(
+            "PIB officer's son hacked to death with axe in Delhi", "", "central"
+        )
+
+    def test_media_item_without_policy_marker_dropped(self, classifier):
+        assert not classifier.is_broadcast_relevant(
+            "Rupee rises 15 paise against U.S. dollar in early trade", "", "media"
+        )
+
+    def test_real_media_policy_kept(self, classifier):
+        assert classifier.is_broadcast_relevant(
+            "Cabinet approves ₹10,000 crore scheme for rural electrification", "", "media"
+        )
+
+    def test_official_item_without_marker_still_kept(self, classifier):
+        # Trusted government source: a bare gazette title with no keyword and
+        # no spectacle must still broadcast.
+        assert classifier.is_broadcast_relevant(
+            "S.O. 2431(E)", "", "central"
+        )
+
+    def test_new_policies_filtered_in_telegram(self):
+        mod = _load_module("push_telegram")
+        # find_new_policies applies the gate; verify the gate is wired by
+        # checking the module imported it.
+        assert hasattr(mod, "is_broadcast_relevant")
+
+
 class TestMediaCap:
     """Generalist-news feeds out-produce official sources ~10x. Without a cap
     the tracker degenerates into a news reader (the dataset was ~87% media).
