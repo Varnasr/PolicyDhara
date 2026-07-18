@@ -25,7 +25,11 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from classifier import is_india_relevant, is_policy_relevant  # noqa: E402
+from classifier import (  # noqa: E402
+    is_india_relevant, is_policy_relevant, categorize_item,
+    get_source_authority, normalize_sector_names, get_sector_slug,
+    LEGACY_TYPE_MAP, KIND_INSTRUMENT, SECTOR_KEYWORDS,
+)
 import fetch_all  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -38,6 +42,45 @@ def load_sources() -> dict:
         return json.load(f)["sources"]
 
 
+_CANONICAL_SECTORS = set(SECTOR_KEYWORDS) | {"Civil Liberties"}
+
+
+def _retype(item: dict, cfg: dict | None) -> None:
+    """Stamp kind / type / authority under the source-aware taxonomy, and
+    scrub non-canonical sector names (junk like "economy, governance")."""
+    sid = item.get("source_id", "")
+
+    if sid == "historical":
+        # Curated seed: preserve the hand-assigned type, mapped onto the
+        # taxonomy rather than re-derived from text.
+        kind, doc_type = LEGACY_TYPE_MAP.get(
+            item.get("type", "policy"), (KIND_INSTRUMENT, "policy"))
+        item["kind"] = kind
+        item["type"] = doc_type
+        item["authority"] = "government"
+    else:
+        kind, doc_type = categorize_item(
+            item.get("title", ""), item.get("description", ""), sid, cfg)
+        item["kind"] = kind
+        item["type"] = doc_type
+        item["authority"] = get_source_authority(sid, cfg)
+
+    # Sector hygiene: keep canonical names, translate known aliases, drop
+    # junk. Never leave an item with zero sectors.
+    sectors = item.get("sectors", [])
+    clean = [s for s in sectors if s in _CANONICAL_SECTORS]
+    junk = [s for s in sectors if s not in _CANONICAL_SECTORS]
+    if junk:
+        for name in normalize_sector_names(junk):
+            if name not in clean:
+                clean.append(name)
+    if not clean:
+        clean = ["Governance & Reform"]
+    if clean != sectors:
+        item["sectors"] = clean
+        item["sector_slugs"] = [get_sector_slug(s) for s in clean]
+
+
 def reclassify(items: list[dict], sources: dict) -> tuple[list[dict], int, int]:
     """Return (kept, relabeled, dropped) after re-gating and re-filtering."""
     kept: list[dict] = []
@@ -47,13 +90,16 @@ def reclassify(items: list[dict], sources: dict) -> tuple[list[dict], int, int]:
     for item in items:
         sid = item.get("source_id", "")
 
-        # Historical seed and items from sources no longer in the config are
-        # left as-is (the seed is curated; unknown sources were trusted).
+        # Historical seed and items from sources no longer in the config
+        # skip the relevance gates (the seed is curated; unknown sources
+        # were trusted) but still get retyped under the taxonomy.
         if sid == "historical":
+            _retype(item, None)
             kept.append(item)
             continue
         cfg = sources.get(sid)
         if cfg is None:
+            _retype(item, None)
             kept.append(item)
             continue
 
@@ -76,6 +122,7 @@ def reclassify(items: list[dict], sources: dict) -> tuple[list[dict], int, int]:
                 dropped += 1
                 continue
 
+        _retype(item, cfg)
         kept.append(item)
 
     return kept, relabeled, dropped
@@ -115,6 +162,21 @@ def main() -> int:
 
     fetch_all.write_data_json(final)
     fetch_all.write_astro_content(final)
+
+    # Retype the India Code historical archive too (merged into the site by
+    # data.ts) — every entry there is an enacted Central Act.
+    hist_path = PROJECT_ROOT / "data" / "historical_policies.json"
+    if hist_path.exists():
+        with open(hist_path) as f:
+            hist = json.load(f)
+        for item in hist:
+            item["kind"] = KIND_INSTRUMENT
+            item["type"] = "act"
+            item["authority"] = "legal"
+        with open(hist_path, "w") as f:
+            json.dump(hist, f, indent=2, ensure_ascii=False)
+        print(f"Retyped {len(hist)} historical acts in {hist_path.name}")
+
     print("Rebuilt data/policies.json, summaries, and per-item content files.")
     return 0
 

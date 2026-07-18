@@ -13,8 +13,10 @@
   "sector_slugs": [
     "transport-infrastructure"
   ],
-  "type": "legislation",
+  "type": "act",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "instrument",
+  "authority": "legal"
 }

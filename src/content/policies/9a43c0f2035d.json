@@ -15,8 +15,10 @@
     "social-protection",
     "trade-commerce"
   ],
-  "type": "notification",
+  "type": "release",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "announcement",
+  "authority": "government"
 }

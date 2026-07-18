@@ -8,13 +8,17 @@
   "source_name": "National Commission for Women",
   "source_short": "NCW",
   "sectors": [
-    "social-justice, governance"
+    "Social Protection",
+    "Governance & Reform"
   ],
   "sector_slugs": [
-    "social-justice,-governance"
+    "social-protection",
+    "governance-reform"
   ],
-  "type": "policy",
+  "type": "release",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "announcement",
+  "authority": "government"
 }

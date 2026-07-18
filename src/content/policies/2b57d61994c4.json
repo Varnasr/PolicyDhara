@@ -17,8 +17,10 @@
     "social-protection",
     "transport-infrastructure"
   ],
-  "type": "policy",
+  "type": "release",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-14"
+  "first_seen": "2026-07-14",
+  "kind": "announcement",
+  "authority": "government"
 }

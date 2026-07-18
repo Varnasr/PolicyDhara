@@ -17,8 +17,10 @@
     "finance-economy",
     "social-protection"
   ],
-  "type": "policy",
+  "type": "notification",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-17"
+  "first_seen": "2026-07-17",
+  "kind": "instrument",
+  "authority": "regulator"
 }

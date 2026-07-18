@@ -15,8 +15,10 @@
     "transport-infrastructure",
     "trade-commerce"
   ],
-  "type": "announcement",
+  "type": "act",
   "level": "state",
   "state": "Assam",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "instrument",
+  "authority": "government"
 }

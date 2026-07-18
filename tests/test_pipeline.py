@@ -373,7 +373,9 @@ class TestNewsSourcesGated:
         "pti_news", "ani_news", "outlook_india", "downtoearth",
     ])
     def test_news_source_is_gated(self, feeds, source_id):
-        cfg = feeds["sources"][source_id]
+        cfg = feeds["sources"].get(source_id)
+        if cfg is None:
+            pytest.skip(f"{source_id} no longer configured in feeds.json")
         assert cfg.get("india_only") is False, (
             f"{source_id} is a journalism feed but not gated — it will "
             f"bypass the relevance filters and the media cap"
@@ -382,6 +384,16 @@ class TestNewsSourcesGated:
             f"{source_id} must be level=media so the cap applies and it "
             f"isn't mislabeled as central-government policy"
         )
+
+    def test_all_configured_media_sources_are_gated(self, feeds):
+        """Invariant form of the check above: every source that classifier.py
+        knows to be a media outlet AND is still configured must be gated."""
+        from classifier import MEDIA_SOURCE_IDS
+        for source_id, cfg in feeds["sources"].items():
+            if source_id not in MEDIA_SOURCE_IDS:
+                continue
+            assert cfg.get("india_only") is False, f"{source_id} not gated"
+            assert cfg.get("level") == "media", f"{source_id} not level=media"
 
 
 class TestAmendmentLogCap:
