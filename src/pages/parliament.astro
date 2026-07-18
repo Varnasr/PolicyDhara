@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import {
   getParliamentData, getCommitteeReports, getRecentCommitteeReports,
-  getOpenDrafts, getQuestionReplies, getBillItems,
+  getOpenDrafts, getQuestionReplies, getBillItems, getSansadQuestions,
+  getClosingSoonDrafts,
 } from '../lib/data';
 
 const rawBase = import.meta.env.BASE_URL;
@@ -19,6 +20,8 @@ const hasCommitteeData = committeeData.metadata.total_reports > 0;
 const liveDrafts = getOpenDrafts(8);
 const liveQuestions = getQuestionReplies(10);
 const liveBills = getBillItems(10);
+const sansadQuestions = getSansadQuestions(15);
+const closingSoonIds = new Set(getClosingSoonDrafts(7).map(p => p.id));
 const fmtD = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
 const sessions = parl.sessions;
 const bills = parl.bills_tracker;
@@ -175,7 +178,14 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
           {liveDrafts.map(p => (
             <li class="live-row">
               <a href={`${base}policies/${p.id}/`} class="live-link">{p.title}</a>
-              <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}{p.comment_deadline ? ` · comments close ${fmtD(p.comment_deadline)}` : ''}</span>
+              <span class="live-meta">
+                {p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}
+                {p.comment_deadline && (
+                  closingSoonIds.has(p.id)
+                    ? <strong class="closing-soon"> · closes {fmtD(p.comment_deadline)}!</strong>
+                    : ` · comments close ${fmtD(p.comment_deadline)}`
+                )}
+              </span>
             </li>
           ))}
         </ul>
@@ -185,18 +195,34 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Question Hour */}
     <div class="parl-section">
       <h3>Question Hour</h3>
-      <p class="section-attribution">Ministers' replies to starred and unstarred questions, detected in official releases. <a href={`${base}policies/?type=question`}>See all Q&amp;A</a></p>
-      {liveQuestions.length === 0 ? (
-        <p class="live-empty">Replies appear here while Parliament is in session — the pipeline flags "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases.</p>
-      ) : (
-        <ul class="live-list">
-          {liveQuestions.map(p => (
+      <p class="section-attribution">Starred and unstarred questions — from sansad.in when available, plus ministers' replies detected in official releases. <a href={`${base}policies/?type=question`}>See all Q&amp;A</a></p>
+      {sansadQuestions.length > 0 && (
+        <ul class="live-list" style="margin-bottom: var(--space-sm);">
+          {sansadQuestions.map(q => (
             <li class="live-row">
-              <a href={`${base}policies/${p.id}/`} class="live-link">{p.title}</a>
-              <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+              {q.pdf_url ? (
+                <a href={q.pdf_url} target="_blank" rel="noopener" class="live-link">{q.title}</a>
+              ) : (
+                <span class="live-link">{q.title}</span>
+              )}
+              <span class="live-meta">{q.type ? `${q.type.toLowerCase()} · ` : ''}{q.ministry}{q.member ? ` · ${q.member}` : ''}{q.date ? ` · ${q.date}` : ''}</span>
             </li>
           ))}
         </ul>
+      )}
+      {sansadQuestions.length === 0 && liveQuestions.length === 0 ? (
+        <p class="live-empty">Replies appear here while Parliament is in session — the pipeline flags "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases, and fetches the sansad.in question corpus when its API responds.</p>
+      ) : (
+        liveQuestions.length > 0 && (
+          <ul class="live-list">
+            {liveQuestions.map(p => (
+              <li class="live-row">
+                <a href={`${base}policies/${p.id}/`} class="live-link">{p.title}</a>
+                <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+              </li>
+            ))}
+          </ul>
+        )
       )}
     </div>
 
@@ -741,6 +767,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     color: var(--color-text-muted);
     padding: var(--space-sm) 0;
   }
+  .closing-soon { color: var(--type-legislation); font-weight: 800; }
 
   @media (max-width: 768px) {
     .parl-stats { grid-template-columns: repeat(2, 1fr); }

@@ -1,0 +1,192 @@
+---
+import Base from '../layouts/Base.astro';
+import { getWeeklyWrap, getClosingSoonDrafts, TYPE_LABELS } from '../lib/data';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const wrap = getWeeklyWrap();
+const closingSoon = getClosingSoonDrafts(7);
+
+const fmtD = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) : '';
+const fmtLong = (d: string) => new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+const totalTracked = wrap.instruments.length + wrap.newDrafts.length + wrap.billsMoved.length + wrap.questions.length;
+---
+<Base title="Weekly Policy Wrap" description={`The week in Indian policy, ${fmtLong(wrap.from)} – ${fmtLong(wrap.to)}: new instruments, drafts open for comment, bills, and long reads.`}>
+  <div style="padding: var(--space-xl) 0;">
+    <p class="wrap-eyebrow">Weekly Policy Wrap</p>
+    <h1 class="page-title">The week in policy</h1>
+    <p class="page-subtitle">
+      {fmtLong(wrap.from)} — {fmtLong(wrap.to)} · regenerated automatically with
+      every data refresh. Share this page to catch someone up in five minutes.
+    </p>
+
+    {totalTracked === 0 ? (
+      <div class="empty-state" style="margin-top: var(--space-xl);">
+        <h3>A quiet week so far</h3>
+        <p>No new policy documents arrived in the last 7 days' fetches. Check the <a href={`${base}policies/`}>full tracker</a>.</p>
+      </div>
+    ) : (
+      <>
+        {closingSoon.length > 0 && (
+          <section class="wrap-section wrap-urgent">
+            <h2 class="wrap-heading">⏳ Consultations closing within a week</h2>
+            <p class="wrap-sub">Comment windows about to shut — act on these first.</p>
+            <ul class="wrap-list">
+              {closingSoon.map(p => (
+                <li>
+                  <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+                  <span class="wrap-meta urgent-meta">closes {fmtD(p.comment_deadline!)} · {p.source_short}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {wrap.instruments.length > 0 && (
+          <section class="wrap-section">
+            <h2 class="wrap-heading">Policy documents issued</h2>
+            <p class="wrap-sub">Acts, rules, notifications, schemes and budgets that entered force or the record this week.</p>
+            <ul class="wrap-list">
+              {wrap.instruments.map(p => (
+                <li>
+                  <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+                  <span class="wrap-meta">{TYPE_LABELS[p.type] ?? p.type} · {p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {wrap.newDrafts.length > 0 && (
+          <section class="wrap-section">
+            <h2 class="wrap-heading">New drafts open for comment</h2>
+            <ul class="wrap-list">
+              {wrap.newDrafts.map(p => (
+                <li>
+                  <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+                  <span class="wrap-meta">{p.source_short}{p.comment_deadline ? ` · comments close ${fmtD(p.comment_deadline)}` : ''}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {wrap.billsMoved.length > 0 && (
+          <section class="wrap-section">
+            <h2 class="wrap-heading">In Parliament</h2>
+            <ul class="wrap-list">
+              {wrap.billsMoved.map(p => (
+                <li>
+                  <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+                  <span class="wrap-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+                </li>
+              ))}
+              {wrap.questions.map(p => (
+                <li>
+                  <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+                  <span class="wrap-meta">Question Hour · {p.source_short}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {wrap.longReads.length > 0 && (
+          <section class="wrap-section">
+            <h2 class="wrap-heading">Worth reading slowly</h2>
+            <ul class="wrap-list">
+              {wrap.longReads.map(p => (
+                <li>
+                  <a href={`${base}policies/${p.id}/`}>{p.title}</a>
+                  <span class="wrap-meta">{p.source_short}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {wrap.topSectors.length > 0 && (
+          <section class="wrap-section">
+            <h2 class="wrap-heading">Where the action was</h2>
+            <div class="wrap-sectors">
+              {wrap.topSectors.map(s => (
+                <a class="sector-badge" href={`${base}sectors/${s.slug}/`}>{s.sector} · {s.count}</a>
+              ))}
+            </div>
+          </section>
+        )}
+      </>
+    )}
+
+    <div class="wrap-foot">
+      <p>Every item above links to its source document. Follow <a href="https://t.me/policydhara">@policydhara on Telegram</a> for the same in real time, or the <a href={`${base}digest/`}>daily digest</a> for day-by-day detail.</p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .wrap-eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: 4px;
+  }
+  .wrap-section { margin-top: var(--space-xl); }
+  .wrap-urgent {
+    padding: var(--space-md) var(--space-lg);
+    background: var(--type-notification-bg);
+    border: 1px solid var(--type-notification-border);
+    border-radius: var(--radius-lg);
+  }
+  .wrap-heading {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 2px;
+  }
+  .wrap-sub {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-sm);
+  }
+  .wrap-list {
+    list-style: none;
+    margin: var(--space-sm) 0 0;
+    padding: 0;
+  }
+  .wrap-list li {
+    padding: 9px 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .wrap-list li:last-child { border-bottom: none; }
+  .wrap-list a {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    line-height: 1.5;
+  }
+  .wrap-list a:hover { color: var(--color-accent); }
+  .wrap-meta {
+    display: block;
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    margin-top: 2px;
+  }
+  .urgent-meta { color: var(--type-notification); font-weight: 700; }
+  .wrap-sectors { display: flex; gap: 6px; flex-wrap: wrap; margin-top: var(--space-sm); }
+  .wrap-foot {
+    margin-top: var(--space-2xl);
+    padding: var(--space-md);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+</style>

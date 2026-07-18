@@ -852,6 +852,16 @@ def main():
         print(f"  Committee reports fetch failed: {e}")
         errors.append(f"committee_reports: {e}")
 
+    # Fetch starred/unstarred questions from sansad.in (best-effort; the
+    # script exits 0 and leaves data/questions.json untouched on failure).
+    try:
+        import fetch_sansad_questions
+        print(f"\n{'=' * 60}")
+        fetch_sansad_questions.main()
+    except Exception as e:
+        print(f"  Sansad questions fetch failed: {e}")
+        errors.append(f"sansad_questions: {e}")
+
     if errors:
         print(f"\nErrors ({len(errors)}):")
         for e in errors:
