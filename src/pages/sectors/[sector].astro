@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
-import { getAllPolicies, getMeta, getSectorSlug, getSectorInsight } from '../../lib/data';
+import { getAllPolicies, getMeta, getSectorSlug, getSectorInsight, getKind } from '../../lib/data';
+import type { Kind } from '../../lib/data';
 
 export function getStaticPaths() {
   const meta = getMeta();
@@ -22,9 +23,30 @@ const insight = getSectorInsight(sectorName);
 const TYPE_COLORS: Record<string, string> = {
   legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
   budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+  act: '#dc2626', rules: '#d97706', bill: '#7c3aed', draft: '#d97706',
+  question: '#d97706', committee_report: '#7c3aed', debate: '#7c3aed',
+  judgment: '#dc2626', release: '#64748b', report: '#7c3aed',
+  analysis: '#7c3aed', longform: '#7c3aed', news: '#64748b', opinion: '#64748b',
 };
 
 const maxType = Math.max(...insight.typeBreakdown.map(t => t.count), 1);
+
+// Kind-grouped feed: policy documents first, then process, analysis,
+// announcements — with news clearly separated at the end instead of mixed in.
+const groups: { kind: Kind; title: string; sub: string; items: typeof policies }[] = [
+  { kind: 'instrument', title: 'Policy documents', sub: 'Acts, rules, notifications, schemes and budgets in force', items: [] },
+  { kind: 'process', title: 'In the making', sub: 'Bills, drafts open for comment, Parliament Q&A', items: [] },
+  { kind: 'analysis', title: 'Analysis & research', sub: 'Reports, briefs and long reads', items: [] },
+  { kind: 'announcement', title: 'Announcements', sub: 'Official press releases', items: [] },
+  { kind: 'news', title: 'News coverage', sub: 'Journalism about this sector — not policy documents', items: [] },
+];
+for (const p of policies) {
+  const g = groups.find(g => g.kind === getKind(p));
+  if (g) g.items.push(p);
+}
+const instrumentCount = groups[0].items.length + groups[1].items.length;
+const ANNOUNCEMENT_LIMIT = 20;
+const NEWS_LIMIT = 15;
 ---
 <Base title={sectorName} description={`Tracking Indian government policies in ${sectorName} — ${policies.length} policies from open sources.`}>
   <div style="padding: var(--space-xl) 0;">
@@ -32,7 +54,8 @@ const maxType = Math.max(...insight.typeBreakdown.map(t => t.count), 1);
       <a href={`${base}sectors/`} class="btn btn-secondary" style="margin-bottom: var(--space-md); display: inline-flex;">&larr; All Sectors</a>
       <h2 class="page-title">{sectorName}</h2>
       <p class="page-subtitle">
-        {policies.length} {policies.length === 1 ? 'policy' : 'policies'} tracked in this sector
+        {instrumentCount} policy {instrumentCount === 1 ? 'document' : 'documents'} tracked in this sector,
+        plus {policies.length - instrumentCount} related analysis, announcements and news items
       </p>
     </div>
 
@@ -102,26 +125,39 @@ const maxType = Math.max(...insight.typeBreakdown.map(t => t.count), 1);
       </div>
     </div>
 
-    {/* ── Policy Feed ──────────────────────────────────── */}
-    <div class="section-header" style="margin-top: var(--space-xl);">
-      <h3>All Policies</h3>
-    </div>
-
-    <div class="policy-feed">
-      {policies.length === 0 ? (
-        <div class="empty-state">
-          <h3>No policies in this sector yet</h3>
-          <p>Policies will appear here after the next data fetch.</p>
-        </div>
-      ) : (
-        policies.map(p => (
-          <PolicyCard
-            id={p.id} title={p.title} description={p.description} link={p.link}
-            date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type}
-          />
-        ))
-      )}
-    </div>
+    {/* ── Kind-grouped feed: documents first, news clearly last ── */}
+    {policies.length === 0 ? (
+      <div class="empty-state" style="margin-top: var(--space-xl);">
+        <h3>No policies in this sector yet</h3>
+        <p>Policies will appear here after the next data fetch.</p>
+      </div>
+    ) : (
+      groups.filter(g => g.items.length > 0).map(g => (
+        <section>
+          <div class="section-header" style="margin-top: var(--space-xl);">
+            <h3>{g.title} <span class="group-count">{g.items.length}</span></h3>
+            <p class="group-sub">{g.sub}</p>
+          </div>
+          <div class="policy-feed">
+            {(g.kind === 'news' ? g.items.slice(0, NEWS_LIMIT)
+              : g.kind === 'announcement' ? g.items.slice(0, ANNOUNCEMENT_LIMIT)
+              : g.items).map(p => (
+              <PolicyCard
+                id={p.id} title={p.title} description={p.description} link={p.link}
+                date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type}
+                kind={getKind(p)} source_id={p.source_id} authority={p.authority}
+              />
+            ))}
+          </div>
+          {g.kind === 'news' && g.items.length > NEWS_LIMIT && (
+            <p class="group-more"><a href={`${base}policies/?kind=news&sector=${sector}`}>All {g.items.length} news items &rarr;</a></p>
+          )}
+          {g.kind === 'announcement' && g.items.length > ANNOUNCEMENT_LIMIT && (
+            <p class="group-more"><a href={`${base}policies/?kind=announcement&sector=${sector}`}>All {g.items.length} announcements &rarr;</a></p>
+          )}
+        </section>
+      ))
+    )}
   </div>
 </Base>
 
@@ -215,6 +251,26 @@ const maxType = Math.max(...insight.typeBreakdown.map(t => t.count), 1);
     color: var(--color-text);
     margin-bottom: var(--space-sm);
   }
+  .group-count {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-pill);
+    padding: 2px 9px;
+    vertical-align: middle;
+  }
+  .group-sub {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-top: -6px;
+    margin-bottom: var(--space-sm);
+  }
+  .group-more {
+    margin: var(--space-sm) 0 0;
+    font-size: 0.8125rem;
+  }
+  .group-more a { color: var(--color-accent); font-weight: 600; text-decoration: none; }
 
   @media (max-width: 768px) {
     .sip-grid { grid-template-columns: 1fr; }

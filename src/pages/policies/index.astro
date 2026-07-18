@@ -1,0 +1,412 @@
+---
+import Base from '../../layouts/Base.astro';
+import PolicyCard from '../../components/PolicyCard.astro';
+import {
+  getAllPolicies, getKind, getMeta, KIND_LABELS, TYPE_LABELS,
+} from '../../lib/data';
+import type { Kind } from '../../lib/data';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const all = getAllPolicies();
+const meta = getMeta();
+const INITIAL_SHOW = 30;
+
+// Order the feed for browsing: instruments and process first (the reason the
+// tracker exists), then analysis, announcements, and news. Within each kind,
+// newest first. The kind tabs re-filter client-side, so this order only
+// matters for the default "All" view.
+const KIND_ORDER: Kind[] = ['instrument', 'process', 'analysis', 'announcement', 'news'];
+const kindRank = (p) => KIND_ORDER.indexOf(getKind(p));
+const items = [...all].sort((a, b) =>
+  kindRank(a) - kindRank(b) || (b.date || '').localeCompare(a.date || ''));
+
+// Counts per kind (for the tab labels).
+const kindCounts: Record<string, number> = {};
+for (const p of all) kindCounts[getKind(p)] = (kindCounts[getKind(p)] || 0) + 1;
+
+// Which document types occur under each kind (for the type chip row).
+const typesByKind: Record<string, Record<string, number>> = {};
+for (const p of all) {
+  const k = getKind(p);
+  (typesByKind[k] ??= {})[p.type] = (typesByKind[k][p.type] || 0) + 1;
+}
+const allTypes: Record<string, number> = {};
+for (const p of all) allTypes[p.type] = (allTypes[p.type] || 0) + 1;
+
+const TABS: { key: string; label: string; hint: string }[] = [
+  { key: 'all', label: 'Everything', hint: 'All documents the tracker follows' },
+  { key: 'instrument', label: 'Policy documents', hint: 'Acts, rules, notifications, schemes, budgets — instruments in force' },
+  { key: 'process', label: 'In the making', hint: 'Bills, drafts open for comment, Parliament Q&A, committee reports' },
+  { key: 'analysis', label: 'Analysis', hint: 'Research, reports, and long reads from think tanks and institutions' },
+  { key: 'announcement', label: 'Announcements', hint: 'Official press releases that are not themselves policy' },
+  { key: 'news', label: 'News', hint: 'Journalism about policy — clearly labeled, never counted as policy' },
+];
+
+const sortedSectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
+const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a[1]).slice(0, 60);
+---
+<Base title="Browse Policies">
+  <div class="page-header">
+    <h1 class="page-title">Browse the tracker</h1>
+    <p class="page-subtitle">
+      Every document, honestly labeled: {kindCounts['instrument'] || 0} policy
+      instruments, {kindCounts['process'] || 0} in the making,
+      {kindCounts['analysis'] || 0} analysis pieces,
+      {kindCounts['announcement'] || 0} announcements and
+      {kindCounts['news'] || 0} news items. Filters are shareable — the URL
+      updates as you refine.
+    </p>
+  </div>
+
+  {/* Kind tabs */}
+  <div class="kind-tabs" role="tablist">
+    {TABS.map(t => (
+      <button class={`kind-tab ${t.key === 'all' ? 'active' : ''}`} data-kind-tab={t.key} role="tab" title={t.hint}>
+        {t.label}
+        <span class="kind-tab-count">{t.key === 'all' ? all.length : (kindCounts[t.key] || 0)}</span>
+      </button>
+    ))}
+  </div>
+  <p class="kind-hint" id="kind-hint">{TABS[0].hint}</p>
+
+  {/* Toolbar: search + selects + type chips */}
+  <div class="browse-toolbar">
+    <input type="search" id="browse-search" class="browse-search" placeholder="Search titles and summaries…" />
+    <select id="browse-sector" class="browse-select">
+      <option value="all">All sectors</option>
+      {sortedSectors.map(([sector, count]) => (
+        <option value={sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}>{sector} ({count})</option>
+      ))}
+    </select>
+    <select id="browse-source" class="browse-select">
+      <option value="all">All sources</option>
+      {sortedSources.map(([source, count]) => (
+        <option value={source}>{source} ({count})</option>
+      ))}
+    </select>
+  </div>
+
+  <div class="type-chips" id="type-chips">
+    <button class="type-chip active" data-type-chip="all">All types</button>
+    {Object.entries(allTypes).sort((a, b) => b[1] - a[1]).map(([t, count]) => (
+      <button class="type-chip" data-type-chip={t} data-chip-kinds={JSON.stringify(Object.keys(typesByKind).filter(k => typesByKind[k][t]))}>
+        {TYPE_LABELS[t] ?? t} <span class="chip-count">{count}</span>
+      </button>
+    ))}
+  </div>
+
+  <div class="feed-toolbar">
+    <div id="feed-status" aria-live="polite" style="font-size:0.75rem; color:var(--color-text-muted);"></div>
+    <div class="feed-toolbar-actions">
+      <button class="btn btn-secondary btn-sm" id="export-csv" title="Export visible items as CSV">CSV</button>
+      <button class="btn btn-secondary btn-sm" id="export-json" title="Export visible items as JSON">JSON</button>
+    </div>
+  </div>
+
+  <div class="policy-feed" id="policy-feed">
+    {items.map((p, i) => (
+      <div class={`policy-card-wrap ${i >= INITIAL_SHOW ? 'hidden-card' : ''}`}>
+        <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
+          date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type}
+          kind={getKind(p)} source_id={p.source_id} authority={p.authority} />
+      </div>
+    ))}
+    <div class="show-more-wrap" id="show-more-wrap">
+      <button class="btn btn-primary" id="show-more-btn">
+        Show more <span id="remaining-count"></span>
+      </button>
+    </div>
+  </div>
+  <div id="no-results" class="empty-state" style="display:none;">
+    <h3>No matching documents</h3>
+    <p>Try a different tab, or clear the search and filters.</p>
+  </div>
+</Base>
+
+<style>
+  .kind-tabs {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .kind-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 14px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    background: var(--color-bg-white);
+    color: var(--color-text-secondary);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .kind-tab:hover { border-color: var(--color-accent); color: var(--color-accent); }
+  .kind-tab.active {
+    background: var(--color-text);
+    border-color: var(--color-text);
+    color: var(--color-bg-white);
+  }
+  .kind-tab-count {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    background: var(--color-bg-alt);
+    color: var(--color-text-muted);
+    border-radius: var(--radius-pill);
+    padding: 1px 7px;
+  }
+  .kind-tab.active .kind-tab-count { background: rgba(255,255,255,0.18); color: inherit; }
+  .kind-hint {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-md);
+  }
+
+  .browse-toolbar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-sm);
+  }
+  .browse-search {
+    flex: 1 1 260px;
+    padding: 9px 14px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-white);
+    color: var(--color-text);
+    font-size: 0.8125rem;
+  }
+  .browse-search:focus { outline: 2px solid var(--color-accent); outline-offset: -1px; }
+  .browse-select {
+    flex: 0 1 auto;
+    max-width: 240px;
+    padding: 9px 10px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-white);
+    color: var(--color-text-secondary);
+    font-size: 0.8125rem;
+    font-weight: 500;
+  }
+
+  .type-chips {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-md);
+  }
+  .type-chip {
+    padding: 4px 10px;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-pill);
+    background: var(--color-bg-alt);
+    color: var(--color-text-secondary);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  .type-chip:hover { border-color: var(--color-accent); color: var(--color-accent); }
+  .type-chip.active {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+  }
+  .type-chip[hidden] { display: none; }
+  .chip-count { opacity: 0.65; margin-left: 2px; }
+
+  .feed-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-md);
+    padding: 8px 12px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-light);
+  }
+  .feed-toolbar-actions { display: flex; gap: 6px; }
+  .btn-sm { padding: 6px 12px !important; font-size: 0.6875rem !important; }
+
+  .policy-card-wrap { display: contents; }
+  .hidden-card > :global(.policy-card) { display: none; }
+</style>
+
+<script define:vars={{ INITIAL_SHOW }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
+    const cards = wraps.map(w => w.querySelector('.policy-card')).filter(Boolean);
+    const searchInput = document.getElementById('browse-search');
+    const sectorSelect = document.getElementById('browse-sector');
+    const sourceSelect = document.getElementById('browse-source');
+    const noResults = document.getElementById('no-results');
+    const feedStatus = document.getElementById('feed-status');
+    const showMoreBtn = document.getElementById('show-more-btn');
+    const showMoreWrap = document.getElementById('show-more-wrap');
+    const remainingCount = document.getElementById('remaining-count');
+    const kindHint = document.getElementById('kind-hint');
+    const tabs = Array.from(document.querySelectorAll('[data-kind-tab]'));
+    const chips = Array.from(document.querySelectorAll('[data-type-chip]'));
+
+    let showCount = INITIAL_SHOW;
+    const state = { kind: 'all', type: 'all', sector: 'all', source: 'all', q: '' };
+
+    // ── Deep linking: read state from URL, write it back on change ──
+    const params = new URLSearchParams(location.search);
+    for (const key of ['kind', 'type', 'sector', 'source', 'q']) {
+      if (params.get(key)) state[key] = params.get(key);
+    }
+
+    function syncUrl() {
+      const p = new URLSearchParams();
+      for (const [k, v] of Object.entries(state)) {
+        if (v && v !== 'all') p.set(k, v);
+      }
+      const qs = p.toString();
+      history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+    }
+
+    function syncControls() {
+      tabs.forEach(t => t.classList.toggle('active', t.dataset.kindTab === state.kind));
+      const activeTab = tabs.find(t => t.dataset.kindTab === state.kind);
+      if (kindHint && activeTab) kindHint.textContent = activeTab.title;
+      chips.forEach(c => {
+        c.classList.toggle('active', c.dataset.typeChip === state.type);
+        // Hide type chips that can't occur under the active kind tab.
+        if (c.dataset.typeChip === 'all' || state.kind === 'all') {
+          c.hidden = false;
+        } else {
+          const kinds = JSON.parse(c.dataset.chipKinds || '[]');
+          c.hidden = !kinds.includes(state.kind);
+        }
+      });
+      if (sectorSelect) sectorSelect.value = state.sector;
+      if (sourceSelect) sourceSelect.value = state.source;
+      if (searchInput) searchInput.value = state.q;
+    }
+
+    function applyFilters() {
+      let visibleCount = 0;
+      let totalMatching = 0;
+      const filtering = state.kind !== 'all' || state.type !== 'all'
+        || state.sector !== 'all' || state.source !== 'all' || state.q !== '';
+
+      for (const card of cards) {
+        const sectors = JSON.parse(card.dataset.sectors || '[]');
+        const matches = (state.kind === 'all' || card.dataset.kind === state.kind)
+          && (state.type === 'all' || card.dataset.type === state.type)
+          && (state.sector === 'all' || sectors.includes(state.sector))
+          && (state.source === 'all' || card.dataset.source === state.source)
+          && (!state.q || (card.textContent || '').toLowerCase().includes(state.q.toLowerCase()));
+
+        if (matches) {
+          totalMatching++;
+          if (totalMatching <= showCount) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        } else {
+          card.style.display = 'none';
+        }
+      }
+
+      if (noResults) noResults.style.display = totalMatching === 0 ? '' : 'none';
+      if (feedStatus) {
+        feedStatus.textContent = filtering
+          ? `${totalMatching} matching documents`
+          : `${cards.length} documents`;
+      }
+      if (showMoreWrap) {
+        const remaining = totalMatching - showCount;
+        showMoreWrap.style.display = remaining > 0 ? '' : 'none';
+        if (remainingCount && remaining > 0) remainingCount.textContent = `(${remaining} more)`;
+      }
+    }
+
+    function update(partial) {
+      Object.assign(state, partial);
+      showCount = INITIAL_SHOW;
+      syncControls();
+      syncUrl();
+      applyFilters();
+    }
+
+    tabs.forEach(t => t.addEventListener('click', () => {
+      // Changing kind resets the type filter if it can't occur there.
+      const next = { kind: t.dataset.kindTab };
+      const activeChip = chips.find(c => c.dataset.typeChip === state.type);
+      if (activeChip && next.kind !== 'all' && state.type !== 'all') {
+        const kinds = JSON.parse(activeChip.dataset.chipKinds || '[]');
+        if (!kinds.includes(next.kind)) next.type = 'all';
+      }
+      update(next);
+    }));
+    chips.forEach(c => c.addEventListener('click', () => update({ type: c.dataset.typeChip })));
+    sectorSelect?.addEventListener('change', () => update({ sector: sectorSelect.value }));
+    sourceSelect?.addEventListener('change', () => update({ source: sourceSelect.value }));
+    if (searchInput) {
+      let timer;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => update({ q: searchInput.value }), 200);
+      });
+    }
+    showMoreBtn?.addEventListener('click', () => { showCount += 30; applyFilters(); });
+
+    // ── Export what's filtered (all matches, not just rendered page) ──
+    function getMatching() {
+      const rows = [];
+      for (const card of cards) {
+        const sectors = JSON.parse(card.dataset.sectors || '[]');
+        const matches = (state.kind === 'all' || card.dataset.kind === state.kind)
+          && (state.type === 'all' || card.dataset.type === state.type)
+          && (state.sector === 'all' || sectors.includes(state.sector))
+          && (state.source === 'all' || card.dataset.source === state.source)
+          && (!state.q || (card.textContent || '').toLowerCase().includes(state.q.toLowerCase()));
+        if (!matches) continue;
+        rows.push({
+          id: card.dataset.id || '',
+          title: card.querySelector('.policy-title')?.textContent?.trim() || '',
+          kind: card.dataset.kind || '',
+          type: card.dataset.type || '',
+          source: card.dataset.source || '',
+          date: card.dataset.date || '',
+          sectors,
+          description: card.querySelector('.policy-description')?.textContent?.trim() || '',
+        });
+      }
+      return rows;
+    }
+    function download(content, filename, mime) {
+      const blob = new Blob([content], { type: mime });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = filename; a.click();
+      URL.revokeObjectURL(url);
+    }
+    document.getElementById('export-csv')?.addEventListener('click', () => {
+      const rows = getMatching();
+      if (!rows.length) return;
+      const headers = ['id', 'title', 'kind', 'type', 'source', 'date', 'sectors', 'description'];
+      const csv = [headers.join(',')].concat(rows.map(r =>
+        headers.map(h => '"' + String(h === 'sectors' ? r[h].join('; ') : r[h]).replace(/"/g, '""') + '"').join(','))).join('\n');
+      download(csv, `policydhara-export-${new Date().toISOString().slice(0, 10)}.csv`, 'text/csv');
+    });
+    document.getElementById('export-json')?.addEventListener('click', () => {
+      const rows = getMatching();
+      if (!rows.length) return;
+      download(JSON.stringify(rows, null, 2), `policydhara-export-${new Date().toISOString().slice(0, 10)}.json`, 'application/json');
+    });
+
+    syncControls();
+    applyFilters();
+  });
+</script>

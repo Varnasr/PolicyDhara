@@ -1,0 +1,174 @@
+---
+import Base from '../layouts/Base.astro';
+import { getAllPolicies, getAnalysisItems } from '../lib/data';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+// Long reads proper (essay sources: EPW, The India Forum, Ideas for India,
+// IDR), then the rest of the analysis stream (reports, briefs) below.
+const analysis = getAnalysisItems();
+const longReads = analysis.filter(p => p.type === 'longform');
+const reportsAndBriefs = analysis.filter(p => p.type !== 'longform').slice(0, 40);
+
+// Group long reads by source for the masthead row.
+const sources = [...new Set(longReads.map(p => p.source_short))];
+
+const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+---
+<Base title="Long Reads">
+  <div class="page-header">
+    <h1 class="page-title">Long reads</h1>
+    <p class="page-subtitle">
+      In-depth, long-form writing on Indian policy — essays and analysis from
+      {sources.length ? sources.join(', ') : 'journal and essay sources'} —
+      kept separate from press releases and news so depth doesn't drown in
+      the daily stream.
+    </p>
+  </div>
+
+  {longReads.length === 0 ? (
+    <div class="empty-state">
+      <h3>No long reads yet</h3>
+      <p>The pipeline ingests essay sources (EPW, The India Forum, Ideas for India, IDR) on its 6-hour cycle. Check back after the next run.</p>
+    </div>
+  ) : (
+    <div class="lr-grid">
+      {longReads.map(p => (
+        <article class="lr-card">
+          <div class="lr-meta">
+            <span class="lr-source">{p.source_short}</span>
+            {p.date && <span class="lr-date">{fmtDate(p.date)}</span>}
+          </div>
+          <h2 class="lr-title"><a href={`${base}policies/${p.id}/`}>{p.title}</a></h2>
+          {p.description && <p class="lr-desc">{p.description}</p>}
+          <div class="lr-sectors">
+            {p.sectors.slice(0, 3).map(s => (
+              <a href={`${base}sectors/${s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sector-badge">{s}</a>
+            ))}
+          </div>
+        </article>
+      ))}
+    </div>
+  )}
+
+  {reportsAndBriefs.length > 0 && (
+    <section class="lr-reports">
+      <h2 class="lr-section-title">Reports &amp; policy briefs</h2>
+      <p class="lr-section-sub">Working papers, evaluations, and briefs from research institutions.</p>
+      <ul class="lr-report-list">
+        {reportsAndBriefs.map(p => (
+          <li class="lr-report-row">
+            <a href={`${base}policies/${p.id}/`} class="lr-report-link">{p.title}</a>
+            <span class="lr-report-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<style>
+  .lr-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+    margin-bottom: var(--space-2xl);
+  }
+  @media (max-width: 768px) {
+    .lr-grid { grid-template-columns: 1fr; }
+  }
+  .lr-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 22px;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-left: 3px solid var(--type-research);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.15s;
+  }
+  .lr-card:hover { box-shadow: var(--shadow-card); }
+  .lr-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .lr-source {
+    font-size: 0.625rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--type-research);
+  }
+  .lr-date { font-size: 0.6875rem; color: var(--color-text-muted); }
+  .lr-title {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0;
+  }
+  .lr-title a { color: var(--color-text); text-decoration: none; }
+  .lr-title a:hover { color: var(--color-accent); }
+  .lr-desc {
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    line-height: 1.65;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .lr-sectors { display: flex; gap: 5px; flex-wrap: wrap; margin-top: auto; }
+
+  .lr-section-title {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .lr-section-sub {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+  .lr-report-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-white);
+    overflow: hidden;
+  }
+  .lr-report-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-md);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .lr-report-row:last-child { border-bottom: none; }
+  .lr-report-link {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    line-height: 1.45;
+  }
+  .lr-report-link:hover { color: var(--color-accent); }
+  .lr-report-meta {
+    flex-shrink: 0;
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    white-space: nowrap;
+  }
+  @media (max-width: 600px) {
+    .lr-report-row { flex-direction: column; gap: 2px; }
+  }
+</style>

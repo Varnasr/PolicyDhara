@@ -1,11 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getParliamentData, getCommitteeReports, getRecentCommitteeReports } from '../lib/data';
+import {
+  getParliamentData, getCommitteeReports, getRecentCommitteeReports,
+  getOpenDrafts, getQuestionReplies, getBillItems,
+} from '../lib/data';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
 const parl = getParliamentData();
 const committeeData = getCommitteeReports();
 const recentReports = getRecentCommitteeReports(15);
 const hasCommitteeData = committeeData.metadata.total_reports > 0;
+
+// Live process documents from the tracker's own pipeline: drafts open for
+// public comment, bills as tracked by PRS / Sansad sources, and ministers'
+// replies to starred/unstarred questions detected in official releases.
+const liveDrafts = getOpenDrafts(8);
+const liveQuestions = getQuestionReplies(10);
+const liveBills = getBillItems(10);
+const fmtD = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
 const sessions = parl.sessions;
 const bills = parl.bills_tracker;
 const history = parl.historical_productivity;
@@ -132,6 +146,58 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
           </div>
         ))}
       </div>
+    </div>
+
+    {/* Live bills from the pipeline (PRS Bill Track / Sansad sources) */}
+    {liveBills.length > 0 && (
+      <div class="parl-section">
+        <h3>Bills on the Tracker</h3>
+        <p class="section-attribution">Live from PRS Bill Track and Digital Sansad via the 6-hourly pipeline — <a href={`${base}policies/?type=bill`}>see all</a></p>
+        <ul class="live-list">
+          {liveBills.map(p => (
+            <li class="live-row">
+              <a href={`${base}policies/${p.id}/`} class="live-link">{p.title}</a>
+              <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {/* Drafts open for public comment */}
+    <div class="parl-section">
+      <h3>Open for Public Comment</h3>
+      <p class="section-attribution">Draft rules, policies and consultation papers currently inviting comments — pre-legislative scrutiny in the wild. <a href={`${base}policies/?type=draft`}>See all drafts</a></p>
+      {liveDrafts.length === 0 ? (
+        <p class="live-empty">No open consultations detected in the current fetch window.</p>
+      ) : (
+        <ul class="live-list">
+          {liveDrafts.map(p => (
+            <li class="live-row">
+              <a href={`${base}policies/${p.id}/`} class="live-link">{p.title}</a>
+              <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+
+    {/* Question Hour */}
+    <div class="parl-section">
+      <h3>Question Hour</h3>
+      <p class="section-attribution">Ministers' replies to starred and unstarred questions, detected in official releases. <a href={`${base}policies/?type=question`}>See all Q&amp;A</a></p>
+      {liveQuestions.length === 0 ? (
+        <p class="live-empty">Replies appear here while Parliament is in session — the pipeline flags "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases.</p>
+      ) : (
+        <ul class="live-list">
+          {liveQuestions.map(p => (
+            <li class="live-row">
+              <a href={`${base}policies/${p.id}/`} class="live-link">{p.title}</a>
+              <span class="live-meta">{p.source_short}{p.date ? ` · ${fmtD(p.date)}` : ''}</span>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
 
     {/* Committee Reports — powered by ParliamentWatch */}
@@ -637,6 +703,45 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     text-align: right;
   }
 
+  /* Live pipeline lists: bills / drafts / question hour */
+  .live-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-white);
+    overflow: hidden;
+  }
+  .live-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-md);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .live-row:last-child { border-bottom: none; }
+  .live-link {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    line-height: 1.45;
+  }
+  .live-link:hover { color: var(--color-accent); }
+  .live-meta {
+    flex-shrink: 0;
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    white-space: nowrap;
+  }
+  .live-empty {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    padding: var(--space-sm) 0;
+  }
+
   @media (max-width: 768px) {
     .parl-stats { grid-template-columns: repeat(2, 1fr); }
     .session-grid { grid-template-columns: 1fr; }
@@ -647,5 +752,6 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     .committee-grid { grid-template-columns: repeat(2, 1fr); }
     .reports-col-committee, .reports-col-date { display: none; }
     .reports-col-title { flex: 4; }
+    .live-row { flex-direction: column; gap: 2px; }
   }
 </style>
