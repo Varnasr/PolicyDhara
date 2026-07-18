@@ -434,6 +434,51 @@ export function getEraDistribution(): {
   });
 }
 
+/**
+ * FAIR government-era comparison — Central Acts enacted per year, from a single
+ * uniformly-collected source (India Code, browsed by enactment year). Unlike
+ * getEraDistribution (which counts the whole scraped dataset and is biased
+ * toward the present), this asks one apples-to-apples question of every era:
+ * how many Central Acts did Parliament enact? India Code records this
+ * consistently back to 1991, so UPA and NDA are measured the same way.
+ *
+ * Years are capped at the last complete year with reliable India Code coverage
+ * (the current/most-recent year lags as acts are still being catalogued), so
+ * the series is not distorted by a partial, under-recorded tail.
+ */
+const LEGIS_LAST_COMPLETE_YEAR = 2024;
+
+export function getLegislativeEraDistribution(): {
+  era: string; party: string; acts: number; years: number; perYear: number;
+  dateRange: string;
+}[] {
+  const acts = getAllPolicies().filter(
+    p => p.source_id === 'india_code_history' && p.date &&
+         Number(p.date.slice(0, 4)) <= LEGIS_LAST_COMPLETE_YEAR
+  );
+  const eras = [
+    { era: 'Congress',  party: 'Congress',         from: 1991, to: 1996 },
+    { era: 'NDA / UF',  party: 'Coalition (NDA/UF)', from: 1996, to: 2004 },
+    { era: 'UPA',       party: 'Congress-led UPA',  from: 2004, to: 2014 },
+    { era: 'NDA',       party: 'BJP-led NDA',       from: 2014, to: 2025 },
+  ];
+  return eras.map(e => {
+    const n = acts.filter(p => {
+      const y = Number(p.date.slice(0, 4));
+      return y >= e.from && y < e.to;
+    }).length;
+    const years = Math.min(e.to, LEGIS_LAST_COMPLETE_YEAR + 1) - e.from;
+    return {
+      era: e.era,
+      party: e.party,
+      acts: n,
+      years,
+      perYear: Math.round((n / years) * 10) / 10,
+      dateRange: `${e.from}–${Math.min(e.to, LEGIS_LAST_COMPLETE_YEAR + 1) - 1}`,
+    };
+  });
+}
+
 /** State government data */
 export interface StateGovInfo {
   name: string;
