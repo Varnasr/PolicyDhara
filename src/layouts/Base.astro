@@ -317,9 +317,34 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
       <div class="footer-bottom">
         Data sourced from 300+ official sources including PIB, PRS Legislative Research, India Code, eGazette, NITI Aayog, data.gov.in, RBI, and more.
         Auto-updated every 6 hours via <a href="https://github.com/Varnasr/PolicyDhara">open-source pipeline</a>.
+        <span class="build-stamp" title="When this copy of the site was built — if this date looks old, your browser is showing a cached version">Site build: {new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC</span>
       </div>
     </div>
   </footer>
+
+  {/* Stale-cache killswitch. All of varnasr.github.io's project sites share
+      one origin, so a service worker registered by ANY of them (now or in
+      the past) can pin a browser to a cached copy of this site through every
+      refresh. If one controls this page, unregister it, clear CacheStorage,
+      and reload once. No-op on browsers with no service worker. */}
+  <script is:inline>
+    if ('serviceWorker' in navigator && !sessionStorage.getItem('pd-sw-purged')) {
+      navigator.serviceWorker.getRegistrations().then(function (regs) {
+        if (!regs.length) return;
+        Promise.all(regs.map(function (r) { return r.unregister(); })).then(function () {
+          var clear = (typeof caches !== 'undefined' && caches.keys)
+            ? caches.keys().then(function (keys) {
+                return Promise.all(keys.map(function (k) { return caches.delete(k); }));
+              })
+            : Promise.resolve();
+          clear.finally(function () {
+            sessionStorage.setItem('pd-sw-purged', '1');
+            location.reload();
+          });
+        });
+      }).catch(function () { /* never break the page over cleanup */ });
+    }
+  </script>
 
   {/* ── Keyboard Shortcut Help Overlay ─── */}
   <div class="kbd-help-overlay" id="kbd-help">
