@@ -229,6 +229,15 @@ class TestPolicyRelevanceFilter:
         # matching for short markers is what stops it.
         ("Bikers performing wheelie stunt block ambulance in Bengaluru, one held | Video",
          "The video, recorded from inside the ambulance, circulated widely on social media."),
+        # Spectacle hard-drop: these brush a policy keyword ("minister",
+        # "govt", "court") but are tabloid/crime/sport/celebrity noise and
+        # must be dropped by _is_spectacle before the marker check.
+        ("Bengaluru woman hacks husband to death with axe over affair suspicion", ""),
+        ("BJP minister's son arrested in murder case, sent to judicial custody", ""),
+        ("IPL 2026 final: Mumbai Indians beat Chennai as govt boxes fill up", ""),
+        ("Bollywood actor's PIL in High Court seeks ban on paparazzi", ""),
+        ("Man commits suicide outside Delhi Secretariat over pending scheme dues", ""),
+        ("Woman molested near Parliament Street, one held: police", ""),
     ])
     def test_noise_dropped(self, is_policy_relevant, title, desc):
         assert not is_policy_relevant(title, desc), (
@@ -248,10 +257,90 @@ class TestPolicyRelevanceFilter:
         "Bureau of Police Research and Development, National Crime Records Bureau get new chiefs",
         "Vietnam BrahMos deal already signed, Indonesia pact in final stages: Defence Secretary R.K",
         "Fresh bomb threat email to ISRO headquarters declared hoax",
+        # Guard the spectacle blocklist against over-reach: these contain a
+        # near-miss of a blocked token but are genuine policy and must stay.
+        # - "stunting" must not trip the \bstunt\b token
+        # - "suicide prevention" must not trip (only "commits/dies by suicide")
+        # - "skill" must not trip the \bkilled\b/\bkills\b tokens
+        # - "Crime Records Bureau" must not trip (no bare "crime" marker)
+        "Government scheme sets new target to cut child stunting in tribal districts",
+        "Health Ministry launches suicide prevention helpline under mental health policy",
+        "Skill India scheme expands apprenticeship guidelines for gig workers",
     ])
     def test_real_policy_kept(self, is_policy_relevant, title):
         assert is_policy_relevant(title), (
             f"legitimate policy story dropped by the filter: {title!r}"
+        )
+
+
+class TestMediaCap:
+    """Generalist-news feeds out-produce official sources ~10x. Without a cap
+    the tracker degenerates into a news reader (the dataset was ~87% media).
+    enforce_media_cap() holds news to at most MEDIA_CAP_FRACTION of the total
+    while prioritizing government/research items."""
+
+    @pytest.fixture(scope="class")
+    def fetch_all(self):
+        return _load_module("fetch_all")
+
+    def _make(self, level, n, start_day=1):
+        return [
+            {"id": f"{level}{i}", "title": f"{level} {i}", "level": level,
+             "date": f"2026-01-{(start_day + i) % 28 + 1:02d}"}
+            for i in range(n)
+        ]
+
+    def test_media_never_exceeds_fraction(self, fetch_all):
+        # 100 official + 900 media, no seed.
+        live = self._make("central", 100) + self._make("media", 900)
+        out = fetch_all.enforce_media_cap(live, reserved=0)
+        media = sum(1 for i in out if i["level"] == "media")
+        frac = media / len(out)
+        assert frac <= fetch_all.MEDIA_CAP_FRACTION + 1e-9, (
+            f"media share {frac:.2%} exceeds cap {fetch_all.MEDIA_CAP_FRACTION:.0%}"
+        )
+
+    def test_official_items_are_prioritized(self, fetch_all):
+        # All 100 official items must survive; media is what gets trimmed.
+        live = self._make("central", 100) + self._make("media", 900)
+        out = fetch_all.enforce_media_cap(live, reserved=0)
+        assert sum(1 for i in out if i["level"] == "central") == 100
+
+    def test_seed_counts_toward_non_media_base(self, fetch_all):
+        # With a large historical (non-media) seed reserved, more news is
+        # admitted than when the base is thin.
+        live_small_base = self._make("central", 10) + self._make("media", 900)
+        thin = fetch_all.enforce_media_cap(live_small_base, reserved=0)
+        fat = fetch_all.enforce_media_cap(live_small_base, reserved=990)
+        thin_media = sum(1 for i in thin if i["level"] == "media")
+        fat_media = sum(1 for i in fat if i["level"] == "media")
+        assert fat_media > thin_media
+
+
+class TestNewsSourcesGated:
+    """The India/policy relevance filters and the media cap only apply to
+    sources flagged `india_only: false`. Journalism feeds that lacked the
+    flag were bypassing both — and being mislabeled as central-government
+    policy. Lock the flag on the known offenders."""
+
+    @pytest.fixture(scope="class")
+    def feeds(self):
+        feeds_path = Path(__file__).resolve().parent.parent / "feeds.json"
+        return json.loads(feeds_path.read_text())
+
+    @pytest.mark.parametrize("source_id", [
+        "barandbench", "business_line", "livelaw", "moneycontrol",
+        "pti_news", "ani_news", "outlook_india", "downtoearth",
+    ])
+    def test_news_source_is_gated(self, feeds, source_id):
+        cfg = feeds["sources"][source_id]
+        assert cfg.get("india_only") is False, (
+            f"{source_id} is a journalism feed but not gated — it will "
+            f"bypass the relevance filters and the media cap"
+        )
+        assert cfg.get("level") == "media", (
+            f"{source_id} must be level=media so the cap applies and it "
+            f"isn't mislabeled as central-government policy"
         )
 
 

@@ -256,10 +256,12 @@ _POLICY_MARKERS = (
     # Legislative bodies
     "parliament", "lok sabha", "rajya sabha", "vidhan sabha", "assembly",
     "legislative", "parliamentary", "session",
-    # Judiciary
-    "supreme court", "high court", "tribunal", "bench", "judgment",
-    "judgement", "verdict", "ruling", "petition", "plea", "case",
-    "writ", "order", "stay", "injunction",
+    # Judiciary — institutions only. Bare litigation-process words ("case",
+    # "plea", "petition", "verdict", "ruling", "order", "bench", "stay") were
+    # removed: they match crime-blotter and routine civil-suit coverage far
+    # more often than policy, and were a major source of the news flood.
+    "supreme court", "high court", "constitution bench",
+    "constitutional bench", "tribunal",
     # Regulators, commissions, and public bodies
     "rbi", "sebi", "trai", "irdai", "cci", "ncw", "nclt", "nclat", "nhrc",
     "cvc", "cag", "cbi", "ed", "election commission", "eci", "upsc",
@@ -296,12 +298,70 @@ _POLICY_MARKERS = (
     # Elections & political process
     "election", "electoral", "voter", "polling", "constituency",
     "mcc", "poll code", "vvpat", "evm",
-    # Reports / documents that shape policy
-    "report", "review", "audit", "study", "survey", "committee",
-    "consultation", "white paper", "green paper", "draft",
-    # Investigations / enforcement
-    "raid", "arrest", "chargesheet", "fir", "probe", "inquiry", "investigation",
+    # Reports / documents that shape policy. Bare "report" / "review" /
+    # "study" / "survey" were removed (they match routine news of every
+    # kind); the specific policy artefacts are kept.
+    "audit", "committee", "consultation", "consultation paper",
+    "white paper", "green paper", "draft", "economic survey",
+    # NOTE: standalone crime-action verbs ("raid", "arrest", "chargesheet",
+    # "fir", "probe", "inquiry", "investigation") were deliberately removed.
+    # They were the single biggest source of crime-blotter noise — a bare
+    # "Man arrested" / "police probe" headline is not policy. Genuine
+    # enforcement-of-policy stories still pass via institutional markers
+    # (cbi, ed, cvc, cag, election commission, etc.) that remain above.
 )
+
+
+# Spectacle / tabloid-noise markers. Generalist news RSS carries a firehose
+# of violent-crime blotter, road accidents, celebrity, and sports coverage
+# that has nothing to do with policy but occasionally brushes a policy
+# keyword ("minister's son held", "actor's PIL"). If any of these appears,
+# the item is dropped outright — this hard-drop runs BEFORE the policy-marker
+# check in is_policy_relevant(). Kept deliberately high-precision so it never
+# swallows real policy (e.g. "crime" is excluded because "National Crime
+# Records Bureau" is a live institution; "suicide" is only matched as
+# "commits/dies by suicide" so suicide-prevention policy survives).
+_SPECTACLE_SUBSTR = (
+    # Violent crime blotter
+    "murder", "stabbed", "stabbing", "strangl", "hacked to death",
+    "beaten to death", "burnt alive", "burnt to death", "lynch", "molest",
+    "sexually abus", "sexual assault", "gang-rape", "gangrape", "dowry death",
+    "honour killing", "honor killing", "acid attack", "kidnap", "abduct",
+    "beheaded", "dismember", "dead body", "body found", "found dead",
+    "commits suicide", "dies by suicide", "died by suicide", "suicide bid",
+    "self-immolat", "elopes", "eloped",
+    # Accidents (personal, not disaster policy)
+    "road crash", "car crash", "hit-and-run", "hit and run", "electrocuted",
+    # Celebrity / entertainment
+    "bollywood", "tollywood", "kollywood", "box office", "actress",
+    "co-star", "web series", "web-series", "goes viral", "viral video",
+    "caught on camera", "wheelie", "bike stunt",
+    # Sports
+    "cricket", "world cup", "batsman", "bowler", "wicket", "football",
+    "fifa", "wimbledon", "grand slam", "hockey", "kabaddi",
+    # Astrology / lifestyle
+    "horoscope", "astrology", "rashifal", "zodiac",
+)
+
+# Short / substring-ambiguous spectacle markers matched on word boundaries,
+# so "killed" doesn't fire on "skilled", "axe" on "relaxed"/"taxes", "stunt"
+# on "stunted growth", "ipl" on "multiple", "odi" on "custodial".
+_SPECTACLE_TOKEN = (
+    "killed", "kills", "kill", "rape", "raped", "axe", "stunt",
+    "ipl", "odi", "t20",
+)
+
+
+def _is_spectacle(text: str) -> bool:
+    """True if the (lowercased) text reads as tabloid/crime/sport/celebrity
+    noise rather than policy. See _SPECTACLE_SUBSTR / _SPECTACLE_TOKEN."""
+    for m in _SPECTACLE_SUBSTR:
+        if m in text:
+            return True
+    for tok in _SPECTACLE_TOKEN:
+        if _has_token(text, tok):
+            return True
+    return False
 
 
 def is_policy_relevant(title: str, description: str = "") -> bool:
@@ -317,15 +377,27 @@ def is_policy_relevant(title: str, description: str = "") -> bool:
     verb ending "recorded", "circulated", etc. (real regression, 300+
     noise items slipped through).
 
-    This is intentionally lenient overall: the goal is to drop pure
-    celebrity / sports / crime spectacle noise ("bikers wheelie", "cricket
-    match then murder", "condom ad"), not to gatekeep on strict policy
-    purity. False negatives (dropping a real policy story) are worse
-    than false positives (keeping a borderline news item).
+    Two-stage gate:
+      1. Spectacle hard-drop — if the item reads as crime blotter, road
+         accident, celebrity, sports, or astrology noise (_is_spectacle),
+         it's dropped regardless of any policy keyword it happens to brush.
+      2. Policy-marker requirement — the item is kept only if it hits at
+         least one curated marker in _POLICY_MARKERS; otherwise dropped.
+
+    This is stricter than the original lenient design: the tracker is a
+    policy archive, not a news reader, so an item with no policy signal is
+    dropped rather than kept. The marker list was pruned of the generic /
+    crime-action keywords that were letting the news firehose through.
     """
     import re
 
     text = f"{title} {description}".lower()
+
+    # Stage 1: spectacle / tabloid noise — drop outright.
+    if _is_spectacle(text):
+        return False
+
+    # Stage 2: require at least one policy marker.
     for marker in _POLICY_MARKERS:
         stripped = marker.strip()
         # Short markers get word-boundary matching so "ed " doesn't

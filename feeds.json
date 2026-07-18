@@ -1528,7 +1528,9 @@
       "covers_sectors": [
         "Finance & Economy"
       ],
-      "rss_url": "https://www.thehindubusinessline.com/economy/feeder/default.rss"
+      "rss_url": "https://www.thehindubusinessline.com/economy/feeder/default.rss",
+      "india_only": false,
+      "level": "media"
     },
     "firstpost_india": {
       "name": "Firstpost - India",
@@ -2005,7 +2007,9 @@
       "covers_sectors": [
         "Governance & Reform"
       ],
-      "rss_url": "https://www.barandbench.com/feed"
+      "rss_url": "https://www.barandbench.com/feed",
+      "india_only": false,
+      "level": "media"
     },
     "scobserver": {
       "name": "Supreme Court Observer",
@@ -2974,7 +2978,9 @@
       "reliability": "medium",
       "description": "Indian newsmagazine covering policy, politics, society",
       "covers_sectors": "all",
-      "rss_url": "https://www.outlookindia.com/rss"
+      "rss_url": "https://www.outlookindia.com/rss",
+      "india_only": false,
+      "level": "media"
     },
     "frontline_mag": {
       "name": "Frontline Magazine",
@@ -2986,7 +2992,9 @@
       "reliability": "high",
       "description": "In-depth policy journalism from The Hindu group",
       "covers_sectors": "all",
-      "rss_url": "https://frontline.thehindu.com/feeder/default.rss"
+      "rss_url": "https://frontline.thehindu.com/feeder/default.rss",
+      "india_only": false,
+      "level": "media"
     },
     "deccan_chronicle": {
       "name": "Deccan Chronicle",
@@ -2997,7 +3005,9 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "South India focused news and policy coverage",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "asian_age": {
       "name": "The Asian Age",
@@ -3031,7 +3041,9 @@
       "reliability": "medium",
       "description": "Independent media criticism, investigative policy journalism",
       "covers_sectors": "all",
-      "rss_url": "https://www.newslaundry.com/feed"
+      "rss_url": "https://www.newslaundry.com/feed",
+      "india_only": false,
+      "level": "media"
     },
     "article14": {
       "name": "Article 14",
@@ -3057,7 +3069,9 @@
       "reliability": "high",
       "description": "Long-form investigative journalism, policy deep-dives",
       "covers_sectors": "all",
-      "rss_url": "https://caravanmagazine.in/feed"
+      "rss_url": "https://caravanmagazine.in/feed",
+      "india_only": false,
+      "level": "media"
     },
     "moneycontrol": {
       "name": "Moneycontrol",
@@ -3070,7 +3084,9 @@
       "description": "Financial news, budget analysis, market policy impact",
       "covers_sectors": [
         "Finance & Economy"
-      ]
+      ],
+      "india_only": false,
+      "level": "media"
     },
     "pmfby": {
       "name": "PM Fasal Bima Yojana",
@@ -3325,7 +3341,9 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "Policy commentary, economics, infrastructure analysis",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "print_diplomacy": {
       "name": "ThePrint Diplomacy",
@@ -3366,7 +3384,9 @@
       "reliability": "medium",
       "description": "News network covering policy, governance, politics",
       "covers_sectors": "all",
-      "rss_url": "https://www.republicworld.com/rss/india.xml"
+      "rss_url": "https://www.republicworld.com/rss/india.xml",
+      "india_only": false,
+      "level": "media"
     },
     "ani_news": {
       "name": "ANI News",
@@ -3377,7 +3397,9 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "India's premier news wire agency, official press briefings",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "pti_news": {
       "name": "PTI News",
@@ -3388,7 +3410,9 @@
       "format": "RSS",
       "reliability": "high",
       "description": "Press Trust of India, official news wire, government announcements",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "idsa": {
       "name": "MP-IDSA",
@@ -4308,7 +4332,8 @@
         "Digital & Technology",
         "Governance & Reform"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "govinsider": {
       "name": "GovInsider Asia",
@@ -4323,8 +4348,9 @@
         "Digital & Technology",
         "Governance & Reform"
       ],
-      "level": "central",
-      "rss_url": "https://govinsider.asia/feed/"
+      "level": "media",
+      "rss_url": "https://govinsider.asia/feed/",
+      "india_only": false
     },
     "indiawaterportal": {
       "name": "India Water Portal",
@@ -4338,7 +4364,8 @@
       "covers_sectors": [
         "Water & Sanitation"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "villagesquare": {
       "name": "VillageSquare",
@@ -4418,8 +4445,9 @@
       "reliability": "high",
       "description": "India news from India Today",
       "covers_sectors": "all",
-      "level": "central",
-      "rss_url": "https://www.indiatoday.in/rss/home"
+      "level": "media",
+      "rss_url": "https://www.indiatoday.in/rss/home",
+      "india_only": false
     },
     "news18_rss": {
       "name": "News18 India (RSS)",
@@ -4485,7 +4513,8 @@
       "covers_sectors": [
         "Finance & Economy"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "bl_rss": {
       "name": "The Hindu BusinessLine Economy (RSS)",
@@ -4513,7 +4542,8 @@
       "reliability": "medium",
       "description": "National and policy news from Deccan Chronicle",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "up_rera": {
       "name": "UP RERA",
@@ -4839,7 +4869,8 @@
         "Digital & Technology",
         "Urban Development"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "govinsider_new": {
       "name": "GovInsider",
@@ -4854,7 +4885,8 @@
         "Digital & Technology",
         "Governance & Reform"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "indiawaterportal_new": {
       "name": "India Water Portal",
@@ -4868,7 +4900,8 @@
       "covers_sectors": [
         "Water & Sanitation"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "villagesquare_new": {
       "name": "VillageSquare",
@@ -4942,7 +4975,8 @@
         "Gender & Women",
         "Governance & Reform"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "factchecker": {
       "name": "FactChecker.in",
@@ -4984,7 +5018,8 @@
         "Agriculture",
         "Water & Sanitation"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "epw": {
       "name": "Economic and Political Weekly",
@@ -5080,8 +5115,9 @@
       "covers_sectors": [
         "Governance & Reform"
       ],
-      "level": "central",
-      "rss_url": "https://www.livelaw.in/feed"
+      "level": "media",
+      "rss_url": "https://www.livelaw.in/feed",
+      "india_only": false
     },
     "idronline": {
       "name": "IDR Online",

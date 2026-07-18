@@ -31,6 +31,11 @@ DATA_DIR = PROJECT_ROOT / "data"
 POLICIES_DIR = PROJECT_ROOT / "src" / "content" / "policies"
 MAX_ITEMS_PER_SOURCE = 50
 MAX_TOTAL_ITEMS = 2000
+# Generalist-news feeds out-produce official sources by an order of
+# magnitude, so without a cap the tracker becomes a news reader. Media
+# (level == "media") items may fill at most this share of the final
+# dataset; government / research / historical items are prioritized.
+MEDIA_CAP_FRACTION = 0.4
 MAX_SOURCE_SECONDS = 30  # Per-source time limit (kills stuck fetches)
 MAX_PIPELINE_SECONDS = 720  # 12 minutes total (leave 3 min for build/deploy)
 HISTORICAL_SEED = PROJECT_ROOT / "data" / "historical_seed.json"
@@ -472,14 +477,49 @@ def merge_policies(existing: dict, new_items: list[dict]) -> list[dict]:
     seed_items = [i for i in by_title.values() if i.get("source_id") == "historical"]
     live_items = [i for i in by_title.values() if i.get("source_id") != "historical"]
 
-    # Sort live items by date (newest first) and cap
-    live_items.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
-    live_items = live_items[:MAX_TOTAL_ITEMS - len(seed_items)]
+    # Cap live items to the total budget while holding news to its share.
+    # Seed items are official/historical, so they count toward the non-media
+    # base that news is allowed a fraction of.
+    live_items = enforce_media_cap(live_items, reserved=len(seed_items))
 
     # Combine and sort all by date
     all_items = live_items + seed_items
     all_items.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
     return all_items
+
+
+def enforce_media_cap(live_items: list[dict], reserved: int = 0) -> list[dict]:
+    """Trim `live_items` to the item budget while keeping news (level ==
+    "media") to at most MEDIA_CAP_FRACTION of the final dataset.
+
+    Government / research items (level != "media") are prioritized: they fill
+    slots first, and media items are admitted newest-first only up to the
+    cap. `reserved` is the count of non-media items handled elsewhere
+    (the historical seed) — they enlarge the base that news is a fraction of,
+    but don't consume the returned budget.
+
+    With f = MEDIA_CAP_FRACTION, requiring media / total <= f is equivalent
+    to media <= f/(1-f) * non_media, where non_media = reserved + kept
+    official items. So a dataset that is mostly official content admits
+    proportionally more news, and a thin one admits very little.
+    """
+    budget = MAX_TOTAL_ITEMS - reserved
+    media = [i for i in live_items if i.get("level") == "media"]
+    official = [i for i in live_items if i.get("level") != "media"]
+    media.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
+    official.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
+
+    # Non-media takes priority for the raw slot budget.
+    official = official[:budget]
+    remaining = budget - len(official)
+
+    non_media_total = reserved + len(official)
+    # Floor (not round) so the resulting share never rounds *above* the cap.
+    ratio_cap = int(
+        (MEDIA_CAP_FRACTION / (1 - MEDIA_CAP_FRACTION)) * non_media_total
+    )
+    media_slots = max(0, min(remaining, ratio_cap))
+    return official + media[:media_slots]
 
 
 def write_astro_content(policies: list[dict]):
