@@ -1,11 +1,16 @@
 ---
-import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getPolicyItems, getSectorSlug, getEraDistribution, getStateGovernments } from '../lib/data';
+import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getPolicyItems, getSectorSlug, getEraDistribution, getLegislativeEraDistribution, getStateGovernments } from '../lib/data';
 import type { PolicyItem } from '../lib/data';
 
 const typeDist = getTypeDistribution();
 const topSectors = getTopSectors(8);
 const weeklyTrends = getWeeklyTrends();
 const eraDist = getEraDistribution();
+// Fair, apples-to-apples era comparison: Central Acts enacted per year from a
+// single uniformly-collected source (India Code), so UPA and NDA are measured
+// the same way instead of by how much we happen to have scraped for each.
+const legisEra = getLegislativeEraDistribution().filter(e => e.acts > 0);
+const maxPerYear = Math.max(...legisEra.map(e => e.perYear), 1);
 const meta = getMeta();
 const policies = getPolicyItems();
 const rawBase = import.meta.env.BASE_URL;
@@ -16,6 +21,7 @@ const maxEraCount = Math.max(...eraDist.map(e => e.count), 1);
 const ERA_COLORS: Record<string, string> = {
   'UPA I': '#f97316', 'UPA II': '#ea580c',
   'NDA I': '#3b82f6', 'NDA II': '#1d4ed8', 'NDA III': '#2563eb',
+  'Congress': '#f97316', 'UPA': '#ea580c', 'NDA': '#1d4ed8', 'NDA / UF': '#64748b',
 };
 
 // Weekly trend sparkline data (last 12 weeks)
@@ -126,23 +132,29 @@ const GOV_PARTY_COLORS: Record<string, string> = {
         <span class="coverage-label">Latest Policy</span>
       </div>
     </div>
-    <div class="coverage-eras">
-      {eraDist.filter(e => e.count > 0).map(e => (
-        <div class="coverage-era-row">
-          <span class="coverage-era-name" style={`color: ${ERA_COLORS[e.era] || '#888'};`}>
-            {e.era}{e.partial ? ' ·partial' : ''}
+    <h4 style="margin-top: var(--space-lg);">Central Acts enacted, per year by government</h4>
+    <div class="legis-era-chart">
+      {legisEra.map(e => (
+        <div class="legis-era-row">
+          <span class="legis-era-name" style={`color: ${ERA_COLORS[e.era] || '#888'};`}>
+            {e.era}
+            <span class="legis-era-range">{e.dateRange}</span>
           </span>
-          <span class="coverage-era-count">
-            {e.perMonth}<span style="font-weight:400; opacity:0.6;">/mo</span>
-            <span style="font-weight:400; opacity:0.45; margin-left:4px;">({e.count})</span>
+          <div class="legis-era-track">
+            <div class="legis-era-fill"
+                 style={`width: ${Math.round((e.perYear / maxPerYear) * 100)}%; background: ${ERA_COLORS[e.era] || '#888'};`}></div>
+          </div>
+          <span class="legis-era-val">
+            {e.perYear}<span style="font-weight:400; opacity:0.6;">/yr</span>
           </span>
         </div>
       ))}
     </div>
     <div class="coverage-note">
-      Per-month rate of <em>digitally-available</em> policy — <strong>not a volume or productivity
-      comparison</strong>. The pipeline captures each source's recent window, so recent eras dominate
-      regardless of actual output; the current era is partial and inflated by the latest fetch.
+      A <strong>fair, like-for-like comparison</strong>: Central Acts enacted per year, counted from
+      <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener">India Code</a> by enactment
+      year — one consistent source measured the same way for every era (through {2024}). This removes
+      the collection bias that makes recent years look larger elsewhere on the site.
     </div>
   </div>
 
@@ -320,6 +332,40 @@ const GOV_PARTY_COLORS: Record<string, string> = {
   }
   .coverage-era-name { font-weight: 600; }
   .coverage-era-count { font-weight: 700; color: var(--color-text-muted); }
+
+  /* Fair legislative era comparison — Central Acts per year */
+  .legis-era-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: var(--space-sm);
+  }
+  .legis-era-row {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr auto;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.78rem;
+  }
+  .legis-era-name {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+  .legis-era-range { font-weight: 400; font-size: 0.62rem; opacity: 0.55; }
+  .legis-era-track {
+    height: 12px;
+    background: var(--color-bg-alt);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .legis-era-fill {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.4s ease;
+  }
+  .legis-era-val { font-weight: 700; color: var(--color-text); white-space: nowrap; }
   .coverage-note {
     font-size: 0.625rem;
     color: var(--color-text-dim);

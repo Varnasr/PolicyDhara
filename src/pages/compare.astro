@@ -1,10 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getAllPolicies, getMeta, getEraDistribution, getSectorSlug } from '../lib/data';
+import { getAllPolicies, getMeta, getEraDistribution, getLegislativeEraDistribution, getSectorSlug } from '../lib/data';
 
 const policies = getAllPolicies();
 const meta = getMeta();
 const eras = getEraDistribution();
+const legisEra = getLegislativeEraDistribution().filter(e => e.acts > 0);
 
 // Sector-era matrix
 const sectorNames = Object.entries(meta.sector_counts)
@@ -84,16 +85,40 @@ function cellText(val: number, max: number): string {
       <a href={`${base}about/`}>Read full methodology</a>
     </div>
 
-    {/* Era overview */}
+    {/* Fair comparison — the headline number, on a uniform basis */}
     <div class="cmp-section">
-      <h3>Government Era Overview</h3>
+      <h3>Legislative output — a fair comparison</h3>
+      <p class="cmp-desc">
+        Central Acts enacted per year, counted from <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener">India Code</a>
+        by enactment year (through 2024). One consistent source, measured the same way for every era — so this
+        <strong> is</strong> comparable, unlike the archive-coverage counts below.
+      </p>
+      <div class="fair-era-cards">
+        {legisEra.map(e => (
+          <div class="fair-era-card">
+            <span class="era-name">{e.era}</span>
+            <span class="fair-era-peryear">{e.perYear}<span class="fair-era-unit">/yr</span></span>
+            <span class="era-label">{e.acts} Acts · {e.dateRange}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    {/* Era overview — archive coverage (collection-biased, not output) */}
+    <div class="cmp-section">
+      <h3>Archive coverage by era</h3>
+      <p class="cmp-desc">
+        How many items we <em>hold</em> per era — <strong>not</strong> policy output. Recent eras dominate because
+        live sources are scraped comprehensively while older years rely on a historical seed. Use the fair
+        comparison above for output.
+      </p>
       <div class="era-cards">
         {eras.map(e => (
           <div class="era-card">
             <span class="era-name">{e.era}</span>
             <span class="era-party">{e.party}</span>
             <span class="era-count">{e.count}</span>
-            <span class="era-label">policies tracked</span>
+            <span class="era-label">items held</span>
             <span class="era-range">{e.dateRange}</span>
           </div>
         ))}
@@ -242,6 +267,32 @@ function cellText(val: number, max: number): string {
     gap: 10px;
     margin-bottom: var(--space-lg);
   }
+  /* Fair legislative comparison cards — the headline */
+  .fair-era-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 12px;
+    margin-bottom: var(--space-md);
+  }
+  .fair-era-card {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-accent);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    text-align: center;
+    box-shadow: var(--shadow-card);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .fair-era-peryear {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    line-height: 1;
+  }
+  .fair-era-unit { font-size: 0.9rem; font-weight: 400; opacity: 0.65; }
   .era-card {
     background: var(--color-bg-white);
     border: 1px solid var(--color-border);
