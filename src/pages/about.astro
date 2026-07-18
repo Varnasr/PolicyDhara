@@ -1,8 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getAllPolicies, getEraDistribution } from '../lib/data';
+import { getPolicyItems, getEraDistribution } from '../lib/data';
 
-const policies = getAllPolicies();
+// Coverage stats are about policy, so they exclude news (level === 'media').
+const policies = getPolicyItems();
 const eras = getEraDistribution();
 
 // Compute coverage stats
@@ -176,13 +177,26 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     <div class="about-section">
       <h3>Collection Methodology</h3>
       <p>
-        A Python-based pipeline runs every 6 hours via GitHub Actions. It scrapes and parses content from
-        official government websites, classifies policies by sector and type using keyword matching,
-        deduplicates entries, and stores results as JSON files. The Astro static site then builds pages from this data.
+        A Python pipeline runs every 6 hours via GitHub Actions. It fetches from ~380 configured sources
+        <strong>concurrently</strong> (RSS, JSON APIs, and HTML scrapers), so the whole set is reached inside
+        the time budget rather than only the first few dozen. Each item is classified by sector and type using
+        keyword matching, deduplicated across sources, and stored as JSON. The Astro static site builds pages
+        from that data.
       </p>
       <p>
-        The pipeline is fully open-source and auditable. Anyone can inspect the scraping logic, classification rules,
-        and raw data on the <a href="https://github.com/Varnasr/PolicyDhara">GitHub repository</a>.
+        A handful of general-news feeds (The Hindu, NDTV, and similar) are included for timely coverage, but
+        they carry crime, sport, and celebrity items alongside policy. Two gates run at ingestion: a
+        <strong>relevance filter</strong> drops spectacle and non-policy noise, and a <strong>news cap</strong>
+        holds media items to at most 40% of the dataset. On top of that, the counts and charts on this site are
+        computed over policy items only — news is shown in the feed as context but excluded from the aggregate
+        numbers, so "policies tracked", sector trends, and the activity timeline reflect actual policy, not
+        news velocity.
+      </p>
+      <p>
+        The pipeline is fully open-source and auditable. Anyone can inspect the fetch logic, the filter rules,
+        and the raw data on the <a href="https://github.com/Varnasr/PolicyDhara">GitHub repository</a>. Coverage
+        is tracked with an automated source-health check that flags sources which stop returning content — see
+        the <a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a> for what's next.
       </p>
     </div>
 

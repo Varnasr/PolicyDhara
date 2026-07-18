@@ -1,5 +1,5 @@
 ---
-import { getAllPolicies } from '../lib/data';
+import { getPolicyItems } from '../lib/data';
 
 interface Props {
   totalPolicies: number;
@@ -9,7 +9,7 @@ interface Props {
 }
 
 const { totalPolicies, totalSources, totalSectors, lastUpdated } = Astro.props;
-const policies = getAllPolicies();
+const policies = getPolicyItems();
 const dates = policies.map(p => p.date).sort();
 const earliestYear = dates[0]?.slice(0, 4) || '—';
 const latestYear = dates[dates.length - 1]?.slice(0, 4) || '—';

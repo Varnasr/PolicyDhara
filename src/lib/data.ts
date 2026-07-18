@@ -81,8 +81,21 @@ export function getAllPolicies(): PolicyItem[] {
   return tagCivilLiberties(merged);
 }
 
+/**
+ * Policy-only view — excludes generalist-media (news) items (`level === 'media'`).
+ * Analytics, counts, and every time/sector chart use this so they reflect
+ * actual government/research policy. News carries fresh publication dates and
+ * gets sector-classified, which otherwise skews trends, momentum, the activity
+ * heatmap, sector distribution, and the era timeline. The homepage feed,
+ * search, and per-item pages still use getAllPolicies() — news belongs there
+ * as timely context, just not in the aggregate numbers.
+ */
+export function getPolicyItems(): PolicyItem[] {
+  return getAllPolicies().filter(p => p.level !== 'media');
+}
+
 export function getMeta(): MetaData {
-  const policies = getAllPolicies();
+  const policies = getPolicyItems();
   const sectorCounts: Record<string, number> = {};
   const sourceCounts: Record<string, number> = {};
 
@@ -152,7 +165,7 @@ export function getRelatedPolicies(policy: PolicyItem, limit = 5): PolicyItem[] 
 /** Returns { 'YYYY-MM-DD': count } for the heatmap */
 export function getDailyActivity(): Record<string, number> {
   const counts: Record<string, number> = {};
-  for (const p of getAllPolicies()) {
+  for (const p of getPolicyItems()) {
     counts[p.date] = (counts[p.date] || 0) + 1;
   }
   return counts;
@@ -165,7 +178,7 @@ export function getDailyActivity(): Record<string, number> {
  */
 export function getWeeklyTrends(): { week: string; count: number }[] {
   const weekly: Record<string, number> = {};
-  for (const p of getAllPolicies()) {
+  for (const p of getPolicyItems()) {
     const ref = p.first_seen || p.date;
     if (!ref) continue;
     const d = new Date(ref);
@@ -184,7 +197,7 @@ export function getWeeklyTrends(): { week: string; count: number }[] {
 /** Returns type distribution */
 export function getTypeDistribution(): { type: string; count: number; pct: number }[] {
   const types: Record<string, number> = {};
-  const all = getAllPolicies();
+  const all = getPolicyItems();
   for (const p of all) {
     types[p.type] = (types[p.type] || 0) + 1;
   }
@@ -225,7 +238,7 @@ export interface SectorMomentum {
  *   prior  = the `windowDays` before that
  */
 export function getSectorMomentum(windowDays = 90, monthsHistory = 12): SectorMomentum[] {
-  const policies = getAllPolicies();
+  const policies = getPolicyItems();
   const now = Date.now();
   const DAY = 86400000;
   const recentCutoff = now - windowDays * DAY;
@@ -362,7 +375,7 @@ export function getEraDistribution(): { era: string; party: string; count: numbe
     { name: 'NDA II',  party: 'BJP-led NDA',       start: '2019-05-30', end: '2024-06-08' },
     { name: 'NDA III', party: 'BJP-led NDA',       start: '2024-06-09', end: '9999-12-31' },
   ];
-  const all = getAllPolicies();
+  const all = getPolicyItems();
   return eras.map(era => ({
     era: era.name,
     party: era.party,
@@ -408,7 +421,7 @@ export function getPoliciesByState(stateName: string): PolicyItem[] {
 
 export function getStatePolicySummary(): { name: string; slug: string; count: number; party: string; label: string; abbr: string; type: 'state' | 'ut' }[] {
   const govs = getStateGovernments();
-  const policies = getAllPolicies();
+  const policies = getPolicyItems();
 
   // Count policies by state
   const stateCounts: Record<string, number> = {};
@@ -693,7 +706,7 @@ export function getSectorTypeMatrix(): {
   types: string[];
   matrix: Record<string, Record<string, number>>;
 } {
-  const all = getAllPolicies();
+  const all = getPolicyItems();
   const sectorSet = new Set<string>();
   const typeSet = new Set<string>();
   const matrix: Record<string, Record<string, number>> = {};

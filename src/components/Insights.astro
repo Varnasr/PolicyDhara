@@ -1,5 +1,5 @@
 ---
-import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getAllPolicies, getSectorSlug, getEraDistribution, getStateGovernments } from '../lib/data';
+import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getPolicyItems, getSectorSlug, getEraDistribution, getStateGovernments } from '../lib/data';
 import type { PolicyItem } from '../lib/data';
 
 const typeDist = getTypeDistribution();
@@ -7,7 +7,7 @@ const topSectors = getTopSectors(8);
 const weeklyTrends = getWeeklyTrends();
 const eraDist = getEraDistribution();
 const meta = getMeta();
-const policies = getAllPolicies();
+const policies = getPolicyItems();
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 

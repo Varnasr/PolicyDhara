@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="94 percent of the dataset was stamped with today's date onto just three dates — the days CI happened to run. Only 6 percent carried a real publication date.">
+  <defs>
+    <filter id="roughd" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.013" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <style>
+      .t{font-family:'Trebuchet MS','Segoe UI',system-ui,sans-serif;fill:#2a2a26}
+      .m{font-family:'Trebuchet MS','Segoe UI',system-ui,sans-serif;fill:#6a6a66}
+      .w{font-family:'Trebuchet MS','Segoe UI',system-ui,sans-serif;fill:#fff;font-weight:700}
+    </style>
+  </defs>
+
+  <text class="t" x="80" y="66" font-size="18" font-weight="700">Where the publication dates landed</text>
+  <text class="m" x="80" y="90" font-size="14">before the fix, undated items were stamped with "today"</text>
+
+  <g filter="url(#roughd)">
+    <rect x="80" y="120" width="695" height="60" fill="#e8776a"/>
+    <rect x="775" y="120" width="45"  height="60" fill="#3f9d6b"/>
+  </g>
+
+  <text class="w" x="98"  y="157" font-size="17">94%</text>
+  <text class="m" x="80"  y="208" font-size="14">stamped onto the 3 dates CI happened to run</text>
+  <text class="m" x="820" y="157" font-size="14" text-anchor="end" fill="#2a2a26">6%</text>
+  <text class="m" x="820" y="208" font-size="13" text-anchor="end">carried a real date</text>
+
+  <text class="m" x="80" y="256" font-size="13">The "added this week" stat was really measuring how often the pipeline ran.</text>
+</svg>

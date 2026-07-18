@@ -17,7 +17,7 @@
  * for the rationale.
  */
 
-import { getAllPolicies, type PolicyItem } from './data';
+import { getPolicyItems, type PolicyItem } from './data';
 
 const DAY_MS = 86_400_000;
 
@@ -65,7 +65,7 @@ export interface SectorMomentum {
 }
 
 export function getSectorMomentum(): SectorMomentum[] {
-  const all = getAllPolicies();
+  const all = getPolicyItems();
   const now = new Date();
   const d7 = daysAgo(7);
   const d30 = daysAgo(30);
@@ -115,7 +115,7 @@ export interface WeeklyAnomaly {
 }
 
 export function getWeeklyAnomalies(): WeeklyAnomaly[] {
-  const all = getAllPolicies();
+  const all = getPolicyItems();
 
   // Bucket by ISO week using first_seen (or date as fallback)
   const weekly: Record<string, number> = {};
@@ -154,7 +154,7 @@ export interface SectorCorrelation {
 }
 
 export function getCrossSectorCorrelations(minStrength = 0.15): SectorCorrelation[] {
-  const all = getAllPolicies();
+  const all = getPolicyItems();
   const sectorPolicies: Record<string, Set<string>> = {};
 
   for (const p of all) {
@@ -202,7 +202,7 @@ export interface ConcentrationAnalysis {
 }
 
 export function getPolicyConcentration(): ConcentrationAnalysis {
-  const all = getAllPolicies();
+  const all = getPolicyItems();
   const sectorCounts: Record<string, number> = {};
   let totalTags = 0;
 
@@ -252,7 +252,7 @@ export interface SourceDiversity {
 }
 
 export function getSourceDiversity(): SourceDiversity {
-  const all = getAllPolicies();
+  const all = getPolicyItems();
   const d30 = daysAgo(30);
   const now = new Date();
 
@@ -306,7 +306,7 @@ export interface LegislativePipeline {
 export function getLegislativePipeline(): LegislativePipeline {
   const d90 = daysAgo(90);
   const now = new Date();
-  const recent = getAllPolicies().filter(p => inRange(p, d90, now));
+  const recent = getPolicyItems().filter(p => inRange(p, d90, now));
 
   const recentBills = recent.filter(p => p.type === 'legislation').length;
   const recentNotifications = recent.filter(p => p.type === 'notification').length;

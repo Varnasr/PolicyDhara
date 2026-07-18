@@ -1,13 +1,14 @@
 ---
-import { getAllPolicies } from '../lib/data';
+// A policy ticker, not a news ticker: show the most recent *policy* items
+// (government / research), never the generalist-news feed.
+import { getPolicyItems } from '../lib/data';
 
-const policies = getAllPolicies();
-const recent = policies.slice(0, 12);
+const recent = getPolicyItems().slice(0, 12);
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---
 <div class="ticker-bar">
-  <div class="ticker-label">Latest</div>
+  <div class="ticker-label">Latest policy</div>
   <div class="ticker-track">
     {[...recent, ...recent].map(p => (
       <span class="ticker-item">

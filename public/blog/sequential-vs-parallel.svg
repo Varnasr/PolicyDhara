@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Sequential fetch reached only about 40 of 422 sources before the 12-minute timeout, so most government sources were never tried and news dominated. Parallel fetch reaches all 422.">
+  <defs>
+    <filter id="rough2" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.014" numOctaves="2" seed="4" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <style>
+      .t{font-family:'Trebuchet MS','Segoe UI',system-ui,sans-serif;fill:#2a2a26}
+      .m{font-family:'Trebuchet MS','Segoe UI',system-ui,sans-serif;fill:#6a6a66}
+    </style>
+  </defs>
+
+  <!-- SEQUENTIAL -->
+  <text class="t" x="80" y="52" font-size="16" font-weight="700">SEQUENTIAL fetch (before)</text>
+  <text class="m" x="820" y="52" font-size="13" text-anchor="end">each block = sources fetched</text>
+  <g filter="url(#rough2)">
+    <rect x="80" y="72" width="740" height="42" fill="#efece3"/>
+    <rect x="80" y="72" width="70"  height="42" fill="#e8776a"/>
+    <line x1="150" y1="66" x2="150" y2="120" stroke="#1a1a18" stroke-width="2.5" stroke-dasharray="5 4"/>
+  </g>
+  <text class="m" x="160" y="88" font-size="13">← 12-minute timeout</text>
+  <text class="m" x="80" y="140" font-size="14">~40 of 422 sources reached — the rest never tried. News RSS sorted early, so it dominated.</text>
+
+  <!-- PARALLEL -->
+  <text class="t" x="80" y="222" font-size="16" font-weight="700">PARALLEL fetch (after)</text>
+  <g filter="url(#rough2)">
+    <rect x="80" y="242" width="740" height="42" fill="#3f9d6b"/>
+  </g>
+  <text class="m" x="80" y="310" font-size="14">all 422 sources reached concurrently — government &amp; research finally show up</text>
+</svg>
