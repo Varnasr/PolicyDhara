@@ -40,6 +40,7 @@ type SourceRow = {
   lastHealthy: string;
   streak: number;
   bucket: string;
+  coveredBy: string;
 };
 
 // Health buckets from the weekly probe (see scripts/check_source_health.py):
@@ -48,6 +49,7 @@ type SourceRow = {
 // DEAD = unreachable / HTTP error.
 const BUCKET_META: Record<string, { label: string; color: string; bg: string }> = {
   WORKS:           { label: 'Working',       color: '#15803d', bg: '#f0fdf4' },
+  REDUNDANT:       { label: 'Covered by PIB', color: '#0e7490', bg: '#ecfeff' },
   SELECTOR_BROKEN: { label: 'Selectors broken', color: '#b45309', bg: '#fffbeb' },
   SHELL:           { label: 'JS shell',      color: '#7c3aed', bg: '#f5f3ff' },
   DEAD:            { label: 'Dead',          color: '#dc2626', bg: '#fef2f2' },
@@ -70,6 +72,7 @@ const rows: SourceRow[] = Object.entries(configured).map(([id, cfg]: [string, an
   lastHealthy: health[id]?.last_healthy || '',
   streak: health[id]?.streak || 0,
   bucket: health[id]?.bucket || '',
+  coveredBy: cfg.covered_by || '',
 }));
 
 // Also surface source_ids that appear in policies.json but have no config
@@ -79,7 +82,7 @@ const orphanIds = Object.keys(counts).filter(k => !configuredIds.has(k));
 const orphanRows: SourceRow[] = orphanIds.map(id => ({
   id, name: id, short: id, type: 'legacy', url: '',
   description: 'Legacy source_id in policies.json without a config entry.',
-  covers: '', count: counts[id] || 0, lastHealthy: '', streak: 0, bucket: '',
+  covers: '', count: counts[id] || 0, lastHealthy: '', streak: 0, bucket: '', coveredBy: '',
 }));
 
 const allRows = [...rows, ...orphanRows];
@@ -111,13 +114,13 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
 
     {hasBuckets && (
       <div style="display: flex; gap: 8px; flex-wrap: wrap; margin: var(--space-md) 0;">
-        {['WORKS', 'SELECTOR_BROKEN', 'SHELL', 'DEAD'].filter(b => bucketCounts[b]).map(b => (
+        {['WORKS', 'REDUNDANT', 'SELECTOR_BROKEN', 'SHELL', 'DEAD'].filter(b => bucketCounts[b]).map(b => (
           <span style={`display:inline-flex; align-items:center; gap:6px; font-size:0.8rem; font-weight:600; padding:4px 10px; border-radius:6px; color:${BUCKET_META[b].color}; background:${BUCKET_META[b].bg};`}>
             {bucketCounts[b]} {BUCKET_META[b].label}
           </span>
         ))}
         <span style="font-size: 0.75rem; color: var(--color-text-muted); align-self: center;">
-          — health from the weekly probe; "selectors broken" and "JS shell" are the fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>)
+          — health from the weekly probe. "Covered by PIB" = a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the genuine fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
         </span>
       </div>
     )}
@@ -146,6 +149,12 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
             {r.covers && (
               <span style="font-size: 0.75rem; color: var(--color-text-muted);">
                 <strong>Covers:</strong> {r.covers}
+              </span>
+            )}
+
+            {r.coveredBy && (
+              <span style="font-size: 0.75rem; color: #0e7490;">
+                Releases collected via <code>{r.coveredBy}</code> (PIB) — no policy lost.
               </span>
             )}
 

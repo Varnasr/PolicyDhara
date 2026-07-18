@@ -73,17 +73,41 @@ def sanitize_xml(raw: bytes) -> bytes:
     return text.encode('utf-8')
 
 
+def _lxml_root(cleaned: bytes):
+    """Parse with lxml in recover mode — tolerates undefined entities,
+    invalid tokens, and other malformedness that stdlib ElementTree rejects.
+    Returns a root whose API (iter/find/findtext/get/.text) matches ET, or
+    None if even recovery fails. lxml ships with BeautifulSoup, already a dep.
+    """
+    try:
+        import lxml.etree as LET
+    except ImportError:
+        return None
+    try:
+        parser = LET.XMLParser(recover=True, resolve_entities=False, huge_tree=True)
+        root = LET.fromstring(cleaned, parser=parser)
+        return root if root is not None and len(root) else root
+    except Exception:
+        return None
+
+
 def parse_rss_xml(xml_bytes: bytes) -> list[dict]:
     """Parse RSS/Atom XML into a list of items."""
     items = []
 
     cleaned = sanitize_xml(xml_bytes)
 
+    root = None
     try:
         root = ET.fromstring(cleaned)
     except ET.ParseError as e:
-        print(f"  XML parse error: {e}")
-        return []
+        # Strict stdlib parse failed (undefined entity, invalid token, stray
+        # markup). Retry with lxml's recover mode before giving up — this
+        # revives WordPress/journal feeds that emit slightly broken XML.
+        root = _lxml_root(cleaned)
+        if root is None:
+            print(f"  XML parse error: {e}")
+            return []
 
     # Handle RSS 2.0
     for item in root.iter("item"):

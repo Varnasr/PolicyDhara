@@ -69,8 +69,13 @@ def _fetch_items(sid: str, cfg: dict) -> int:
         return 0
 
 
-def classify_bucket(status, body_len: int, items: int) -> str:
-    """Bucket a probe result: WORKS / SELECTOR_BROKEN / SHELL / DEAD."""
+def classify_bucket(status, body_len: int, items: int, covered_by: str = "") -> str:
+    """Bucket a probe result: WORKS / REDUNDANT / SELECTOR_BROKEN / SHELL / DEAD."""
+    # A source whose releases already flow through a working feed (a direct
+    # ministry site duplicated by its PIB per-ministry feed) is not a bug to
+    # fix — mark it REDUNDANT unless it is actually pulling its own items.
+    if covered_by and items == 0:
+        return "REDUNDANT"
     # probe() returns status 0 on any network/TLS error; anything outside
     # 200–399 (or non-int) is unreachable.
     if not isinstance(status, int) or status < 200 or status >= 400:
@@ -152,11 +157,13 @@ def main() -> int:
             entry["last_status"] = status
             entry["last_body_len"] = body_len
             entry["last_items"] = items
-            entry["bucket"] = classify_bucket(status, body_len, items)
+            entry["bucket"] = classify_bucket(status, body_len, items, cfg.get("covered_by", ""))
             # "Healthy" now means the fetcher actually extracted content —
             # reachability alone is not enough (a JS shell returns 200 with 0
             # items and used to be counted healthy, hiding the real breakage).
-            healthy = entry["bucket"] == "WORKS"
+            # REDUNDANT is a healthy state — the ministry's releases still
+            # reach us through its PIB feed, so it must not accrue a stale streak.
+            healthy = entry["bucket"] in ("WORKS", "REDUNDANT")
             if healthy:
                 entry["streak"] = 0
                 entry["last_healthy"] = today
@@ -207,10 +214,11 @@ def _open_issue(stale: list) -> None:
         f"for {STALE_STREAK_THRESHOLD}+ consecutive weekly probes. Consider "
         "updating the URL, replacing the source, or removing the entry.",
         "",
-        "Bucket legend: **SELECTOR_BROKEN** = page loads but the parser "
-        "extracts nothing (fix selectors); **SHELL** = JS-rendered/empty page "
-        "(needs an RSS/API source); **DEAD** = unreachable / HTTP error "
-        "(fix URL or remove).",
+        "Bucket legend: **REDUNDANT** = a direct ministry site whose releases "
+        "already arrive via its PIB feed (no action needed); **SELECTOR_BROKEN** "
+        "= page loads but the parser extracts nothing (fix selectors); **SHELL** "
+        "= JS-rendered/empty page (needs an RSS/API source); **DEAD** = "
+        "unreachable / HTTP error (fix URL or remove).",
         "",
         "| Source ID | Bucket | Streak | Last HTTP | Last healthy | Name |",
         "|---|---|---|---|---|---|",

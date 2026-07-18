@@ -965,7 +965,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "parliament_lok_sabha": {
     "first_probed": "2026-07-18",
@@ -1012,7 +1012,7 @@
     "last_status": 200,
     "last_body_len": 1723,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "meity": {
     "first_probed": "2026-07-18",
@@ -1021,7 +1021,7 @@
     "last_status": 200,
     "last_body_len": 3267,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "orf": {
     "first_probed": "2026-07-18",
@@ -1252,24 +1252,6 @@
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
   },
-  "firstpost_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "news18_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "the_print": {
     "first_probed": "2026-07-18",
     "streak": 1,
@@ -1372,7 +1354,7 @@
     "last_probed": "2026-07-18",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 6,
+    "last_items": 30,
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
   },
@@ -1404,15 +1386,6 @@
     "last_items": 0,
     "bucket": "DEAD"
   },
-  "fssai": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "cbic": {
     "first_probed": "2026-07-18",
     "streak": 1,
@@ -1420,7 +1393,7 @@
     "last_status": 200,
     "last_body_len": 3372,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "dpiit": {
     "first_probed": "2026-07-18",
@@ -1429,7 +1402,7 @@
     "last_status": 200,
     "last_body_len": 3033,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mohfw": {
     "first_probed": "2026-07-18",
@@ -1438,7 +1411,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "moe": {
     "first_probed": "2026-07-18",
@@ -1447,7 +1420,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mord": {
     "first_probed": "2026-07-18",
@@ -1456,7 +1429,7 @@
     "last_status": 200,
     "last_body_len": 2965,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mole": {
     "first_probed": "2026-07-18",
@@ -1465,7 +1438,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mowr": {
     "first_probed": "2026-07-18",
@@ -1474,7 +1447,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mnre": {
     "first_probed": "2026-07-18",
@@ -1483,25 +1456,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "mota": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "msje": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "REDUNDANT"
   },
   "mofa": {
     "first_probed": "2026-07-18",
@@ -1510,7 +1465,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "doj": {
     "first_probed": "2026-07-18",
@@ -1528,7 +1483,7 @@
     "last_status": 200,
     "last_body_len": 2657,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "dot": {
     "first_probed": "2026-07-18",
@@ -1537,7 +1492,7 @@
     "last_status": 200,
     "last_body_len": 3033,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "fao_india": {
     "first_probed": "2026-07-18",
@@ -1649,16 +1604,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "mocommerce": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "REDUNDANT"
   },
   "moinfo": {
     "first_probed": "2026-07-18",
@@ -1667,7 +1613,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mopower": {
     "first_probed": "2026-07-18",
@@ -1676,7 +1622,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mocoal": {
     "first_probed": "2026-07-18",
@@ -1685,16 +1631,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "mopng": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "REDUNDANT"
   },
   "momsme": {
     "first_probed": "2026-07-18",
@@ -1703,7 +1640,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "moship": {
     "first_probed": "2026-07-18",
@@ -1732,7 +1669,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "momine": {
     "first_probed": "2026-07-18",
@@ -1741,7 +1678,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mopanchayat": {
     "first_probed": "2026-07-18",
@@ -1750,16 +1687,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "moculture": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "REDUNDANT"
   },
   "doner": {
     "first_probed": "2026-07-18",
@@ -1768,7 +1696,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "moearth": {
     "first_probed": "2026-07-18",
@@ -1777,7 +1705,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "moayush": {
     "first_probed": "2026-07-18",
@@ -1786,7 +1714,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "dfs": {
     "first_probed": "2026-07-18",
@@ -1797,15 +1725,6 @@
     "last_items": 20,
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
-  },
-  "dea": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
   },
   "disinvestment": {
     "first_probed": "2026-07-18",
@@ -1824,7 +1743,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "mohousing": {
     "first_probed": "2026-07-18",
@@ -1833,7 +1752,7 @@
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "REDUNDANT"
   },
   "npci": {
     "first_probed": "2026-07-18",
@@ -2194,15 +2113,6 @@
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
   },
-  "oecd_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "wto_india": {
     "first_probed": "2026-07-18",
     "streak": 1,
@@ -2211,15 +2121,6 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "SHELL"
-  },
-  "unhcr_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
   },
   "unfpa_india": {
     "first_probed": "2026-07-18",
@@ -2240,24 +2141,6 @@
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
   },
-  "al_jazeera_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "outlook_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "frontline_mag": {
     "first_probed": "2026-07-18",
     "streak": 0,
@@ -2277,24 +2160,6 @@
     "last_items": 569,
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
-  },
-  "asian_age": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "tribune_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
   },
   "newslaundry": {
     "first_probed": "2026-07-18",
@@ -2529,15 +2394,6 @@
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
   },
-  "ani_news": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "pti_news": {
     "first_probed": "2026-07-18",
     "streak": 1,
@@ -2565,15 +2421,6 @@
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "SHELL"
-  },
-  "chatham_house_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
   },
   "south_asian_voices": {
     "first_probed": "2026-07-18",
@@ -2750,15 +2597,6 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "SHELL"
-  },
-  "mosta_new": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
   },
   "mord_new": {
     "first_probed": "2026-07-18",
@@ -2975,15 +2813,6 @@
     "last_items": 20,
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
-  },
-  "news18_rss": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
   },
   "up_rera": {
     "first_probed": "2026-07-18",
@@ -3309,41 +3138,14 @@
     "last_items": 0,
     "bucket": "DEAD"
   },
-  "ngt": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "adb_india": {
     "first_probed": "2026-07-18",
     "streak": 1,
     "last_probed": "2026-07-18",
     "last_status": 404,
     "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "ilo_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "imf_india": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
+    "last_items": 20,
+    "bucket": "WORKS"
   },
   "ka_gazette": {
     "first_probed": "2026-07-18",
@@ -3438,24 +3240,6 @@
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
   },
-  "mca_notifications": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "pngrb": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 404,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "aerb": {
     "first_probed": "2026-07-18",
     "streak": 1,
@@ -3502,15 +3286,6 @@
     "last_items": 0,
     "bucket": "SHELL"
   },
-  "idfc_institute_new": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
   "unicef_india": {
     "first_probed": "2026-07-18",
     "streak": 0,
@@ -3539,15 +3314,6 @@
     "last_items": 179,
     "bucket": "WORKS",
     "last_healthy": "2026-07-18"
-  },
-  "eci_direct": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
-    "last_probed": "2026-07-18",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
   },
   "imd_press": {
     "first_probed": "2026-07-18",
