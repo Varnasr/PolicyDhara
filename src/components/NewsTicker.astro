@@ -3,7 +3,15 @@
 // (government / research), never the generalist-news feed.
 import { getPolicyItems } from '../lib/data';
 
-const recent = getPolicyItems().slice(0, 12);
+// Diversify by source so the ticker doesn't show, say, five consecutive RBI
+// auction results — cap each source to 2 items, then take the newest 12.
+const seen: Record<string, number> = {};
+const recent = getPolicyItems()
+  .filter(p => {
+    const n = (seen[p.source_short] = (seen[p.source_short] || 0) + 1);
+    return n <= 2;
+  })
+  .slice(0, 12);
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---

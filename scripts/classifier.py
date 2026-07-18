@@ -4,6 +4,46 @@ Maps policy text (title + description) to one or more development sectors.
 No ML dependencies — runs fast in GitHub Actions.
 """
 
+# ─────────────────────────────────────────────────────────────────────────
+# Media / news sources. These are newspapers, TV, wires and opinion outlets:
+# they carry *coverage* of policy, not primary policy. Every item from one of
+# these sources is level == "media" regardless of what its feed config says,
+# so the policy-only views (ticker, charts, era comparison) exclude them and
+# the media cap governs how much news reaches the homepage. Keyed by
+# source_id. This is the single source of truth — the site (data.ts) mirrors
+# it. Government press wires (pib_rss) are NOT here; they are primary sources.
+# ─────────────────────────────────────────────────────────────────────────
+MEDIA_SOURCE_IDS = frozenset({
+    # The Hindu group
+    "the_hindu_policy", "the_hindu_business", "thehindu_rss", "bl_rss",
+    "frontline_mag",
+    # Hindustan Times / Mint
+    "ht_rss", "hindustan_times", "livemint_rss", "mint_opinion",
+    # NDTV
+    "ndtv_rss", "ndtv_india",
+    # Indian Express
+    "indian_express_business", "indian_express_policy",
+    # Other papers / TV / wires
+    "deccan_chronicle", "republic_world", "scroll", "india_today",
+    "indiatoday_rss", "the_wire", "firstpost_india", "news18_india",
+    "news18_rss", "the_print", "al_jazeera_india", "outlook_india",
+    "asian_age", "tribune_india", "moneycontrol", "ani_news", "pti_news",
+    "print_diplomacy",
+    # Legal news (report on cases; primary judgments come from the courts)
+    "livelaw", "barandbench",
+    # Features / govtech / fact-check journalism
+    "factchecker", "villagesquare", "govinsider", "ecgov",
+    # Exam-prep / current-affairs digests
+    "drishti_ias", "drishtiias_rss", "insights_ias",
+    # Opinion magazines
+    "article14", "caravanmag", "swarajya_mag",
+})
+
+
+def is_media_source(source_id: str) -> bool:
+    """True if source_id is a news/media outlet (level should be 'media')."""
+    return source_id in MEDIA_SOURCE_IDS
+
 # India-relevance markers. Used to filter items from generalist media RSS
 # feeds (Livemint Politics, Hindustan Times, The Hindu National, NDTV India,
 # etc.) which routinely include foreign news (NYC mayoral politics, US trade
