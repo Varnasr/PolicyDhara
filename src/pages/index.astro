@@ -52,8 +52,38 @@ const officialActions = substantive.filter(p => isOfficial(p.source_id)).sort(by
 // Prefer an official action; fall back to any substantive type; then anything.
 const leadPool = (officialActions.length ? officialActions : substantive.sort(byDateDesc)).slice(0, LEAD_POOL);
 const lead = leadPool.length ? leadPool[buildDay % leadPool.length] : allPolicies[0];
-// Feature the lead at position 0; keep the rest of the feed in its normal order.
-const policies = lead ? [lead, ...allPolicies.filter(p => p.id !== lead.id)] : [...allPolicies];
+// ── Feed ranking: feature policy over news ──────────────────────────
+// The corpus is ~36% media news, but news carries fresh publication dates
+// while gazette / PIB / regulator actions are older, so a plain date-sort
+// floats news to the top and the front page reads as a news reader. Rank
+// instead so official policy leads and dominates, interleaving recent news
+// periodically (one news item after every POLICY_PER_NEWS policy items) so
+// timely coverage still surfaces without burying the tracker's core
+// content. Display-only — the dataset itself is unchanged.
+const POLICY_PER_NEWS = 3;
+const notLead = (p) => !lead || p.id !== lead.id;
+// Non-media items split into substantive policy/research vs routine
+// operational output (RBI auctions, TRAI consumer workshops, tenders,
+// recruitment) that LEAD_NOISE already flags. The chaff is genuine
+// government activity but not what the front page should feature, so it
+// sinks below the interleaved feed instead of flooding the top.
+const nonMedia = allPolicies.filter(p => notLead(p) && p.level !== 'media');
+const policyStream = nonMedia.filter(p => !LEAD_NOISE.test(p.title)).sort(byDateDesc);
+const chaffStream = nonMedia.filter(p => LEAD_NOISE.test(p.title)).sort(byDateDesc);
+const newsStream = allPolicies.filter(p => notLead(p) && p.level === 'media').sort(byDateDesc);
+// Interleave POLICY_PER_NEWS policy items to every 1 news item.
+const interleaved: typeof allPolicies = [];
+let pIdx = 0, nIdx = 0;
+while (pIdx < policyStream.length || nIdx < newsStream.length) {
+  for (let k = 0; k < POLICY_PER_NEWS && pIdx < policyStream.length; k++) {
+    interleaved.push(policyStream[pIdx++]);
+  }
+  if (nIdx < newsStream.length) interleaved.push(newsStream[nIdx++]);
+}
+// Feature the lead, then the policy-forward interleaved feed, then chaff.
+const policies = lead
+  ? [lead, ...interleaved, ...chaffStream]
+  : [...interleaved, ...chaffStream];
 
 // "Enacted this week" should count actual enactments, not every news item
 // the pipeline ingests. The data layer assigns `p.date` = article publication
