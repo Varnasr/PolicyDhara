@@ -51,12 +51,7 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
   <div class="page-header">
     <h1 class="page-title">Browse the tracker</h1>
     <p class="page-subtitle">
-      Every document, honestly labeled: {kindCounts['instrument'] || 0} policy
-      instruments, {kindCounts['process'] || 0} in the making,
-      {kindCounts['analysis'] || 0} analysis pieces,
-      {kindCounts['announcement'] || 0} announcements and
-      {kindCounts['news'] || 0} news items. Filters are shareable — the URL
-      updates as you refine.
+      {`Every document, honestly labeled: ${kindCounts['instrument'] || 0} policy documents, ${kindCounts['process'] || 0} in the making, ${kindCounts['analysis'] || 0} analysis pieces, ${kindCounts['announcement'] || 0} announcements and ${kindCounts['news'] || 0} news items. Filters are shareable — the URL updates as you refine.`}
     </p>
   </div>
 

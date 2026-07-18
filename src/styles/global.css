@@ -522,7 +522,7 @@ a:hover { color: var(--color-accent-hover); }
 .policy-meta {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 5px 8px; /* tighter row gap so wrapped badge rows read as one block */
   font-size: 0.75rem;
   color: var(--color-text-muted);
   margin-bottom: 10px;
@@ -623,13 +623,10 @@ a:hover { color: var(--color-accent-hover); }
 .kind-analysis { background: transparent; color: var(--type-research); border: 1px solid var(--type-research-border); }
 .kind-news { background: transparent; color: var(--color-text-muted); border: 1px solid var(--color-border); }
 
-/* Card-level cue: news and announcements are visually quieter than
-   instruments/process so the feed reads at a glance. */
-.kind-card-news { border-left: 3px solid var(--color-border); }
-.kind-card-announcement { border-left: 3px solid var(--color-border); }
-.kind-card-instrument { border-left: 3px solid var(--type-scheme); }
-.kind-card-process { border-left: 3px solid var(--type-notification); }
-.kind-card-analysis { border-left: 3px solid var(--type-research-border); }
+/* The kind badge is the card-level cue. (An earlier revision also added a
+   colored border-left, but combined with the existing ::before top accent
+   bar it produced a broken-looking corner where the two met — one accent
+   per card is enough.) */
 
 /* ── Sector Badges ───────────────────────────────────────────── */
 
@@ -1838,12 +1835,14 @@ html, body { overflow-x: hidden !important; max-width: 100%; }
   .sector-card { padding: 14px !important; }
   .sector-card-name { font-size: 0.9rem !important; }
 
-  /* Trending chips wrap instead of scrolling off the right edge. */
+  /* Trending chips wrap instead of scrolling off the right edge — but cap
+     how many render, or ten full-width chips eat the whole first screen. */
   .trending-strip {
     flex-wrap: wrap !important;
     overflow-x: visible !important;
   }
   .trending-strip::after { display: none; }
+  .trending-strip .trending-chip:nth-child(n + 7) { display: none; }
 
   /* Readability: the desktop 15px base reads small on a phone. Bump the base
      and lift the tiniest text off the floor so labels/counts stay legible. */

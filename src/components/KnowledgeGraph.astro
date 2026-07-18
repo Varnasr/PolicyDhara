@@ -1,19 +1,24 @@
 ---
-// Interactive force-directed knowledge graph of sectors ↔ sources ↔ types.
+// Interactive force-directed knowledge graph of sectors ↔ sources.
 // Self-contained so it can live on both the homepage and the /graph page.
+//
+// Only CONNECTED nodes are drawn. The earlier version plotted every source
+// (250+) and the document types as nodes, but types had no edges at all and
+// most sources lost theirs to the edge-weight cutoff — every disconnected
+// node was then shoved by repulsion until it pinned against the canvas
+// walls and corners as a halo of clipped dots. Document-type breakdowns
+// live in the /landscape sector × type matrix instead.
 import { getAllPolicies } from '../lib/data';
 
 const policies = getAllPolicies();
 
 const sectorMap = new Map<string, number>();
 const sourceMap = new Map<string, number>();
-const typeMap = new Map<string, number>();
 const edges = new Map<string, number>();
 
 for (const p of policies) {
   for (const s of p.sectors) sectorMap.set(s, (sectorMap.get(s) || 0) + 1);
   sourceMap.set(p.source_short, (sourceMap.get(p.source_short) || 0) + 1);
-  typeMap.set(p.type, (typeMap.get(p.type) || 0) + 1);
   for (let i = 0; i < p.sectors.length; i++) {
     for (let j = i + 1; j < p.sectors.length; j++) {
       const key = [p.sectors[i], p.sectors[j]].sort().join('|||');
@@ -24,32 +29,32 @@ for (const p of policies) {
   }
 }
 
-const allNodes = [
-  ...[...sectorMap].map(([name, count]) => ({ id: `s:${name}`, label: name, count, type: 'sector' })),
-  ...[...sourceMap].map(([name, count]) => ({ id: `src:${name}`, label: name, count, type: 'source' })),
-  ...[...typeMap].map(([name, count]) => ({ id: `t:${name}`, label: name, count, type: 'ptype' })),
-];
-
 const edgeList: { from: string; to: string; weight: number }[] = [];
 for (const [key, weight] of edges) {
   if (weight < 3) continue;
   const [a, b] = key.split('|||');
-  const fromId = sectorMap.has(a) ? `s:${a}` : sourceMap.has(a) ? `src:${a}` : `t:${a}`;
-  const toId = sectorMap.has(b) ? `s:${b}` : sourceMap.has(b) ? `src:${b}` : `t:${b}`;
+  const fromId = sectorMap.has(a) ? `s:${a}` : `src:${a}`;
+  const toId = sectorMap.has(b) ? `s:${b}` : `src:${b}`;
   edgeList.push({ from: fromId, to: toId, weight });
 }
+const keptEdges = edgeList.sort((a, b) => b.weight - a.weight).slice(0, 120);
 
-const graphData = JSON.stringify({
-  nodes: allNodes,
-  edges: edgeList.sort((a, b) => b.weight - a.weight).slice(0, 120),
-});
+// Nodes: only what survives in a kept edge — an unconnected node (tiny
+// sector, low-volume source) just drifts to the canvas edge as noise.
+const connected = new Set<string>();
+for (const e of keptEdges) { connected.add(e.from); connected.add(e.to); }
+const allNodes = [
+  ...[...sectorMap].map(([name, count]) => ({ id: `s:${name}`, label: name, count, type: 'sector' })),
+  ...[...sourceMap].map(([name, count]) => ({ id: `src:${name}`, label: name, count, type: 'source' })),
+].filter(n => connected.has(n.id));
+
+const graphData = JSON.stringify({ nodes: allNodes, edges: keptEdges });
 ---
 <div class="graph-container" id="graph-container">
   <canvas id="graph-canvas"></canvas>
   <div class="graph-legend">
     <span class="legend-item"><span class="legend-dot" style="background:#16a34a;"></span>Sector</span>
     <span class="legend-item"><span class="legend-dot" style="background:#2563eb;"></span>Source</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#9333ea;"></span>Type</span>
   </div>
   <div class="graph-controls">
     <button class="btn btn-secondary btn-sm" id="graph-reset">Reset View</button>
@@ -57,6 +62,13 @@ const graphData = JSON.stringify({
       <input type="checkbox" id="graph-labels" checked /> Labels
     </label>
   </div>
+  <p class="graph-caption">
+    <strong>How to read this:</strong> green circles are the tracker's sectors,
+    blue circles the sources that publish into them. A line means a source's
+    documents land in that sector — thicker line, more documents; bigger
+    circle, more documents overall. Hover any circle for its name and count;
+    drag to rearrange. Sources with too few documents to link are not drawn.
+  </p>
 </div>
 
 <style>
@@ -88,6 +100,16 @@ const graphData = JSON.stringify({
     position: absolute; top: 12px; right: 12px;
     display: flex; gap: 8px; align-items: center;
   }
+  .graph-caption {
+    margin: 0;
+    padding: 10px 14px;
+    border-top: 1px solid var(--color-border-light);
+    background: var(--color-bg-alt);
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+  }
+  .graph-caption strong { color: var(--color-text-secondary); }
   @media (max-width: 768px) { #graph-canvas { height: 400px; } }
   @media (max-width: 480px) {
     #graph-canvas { height: 340px; }
@@ -121,7 +143,9 @@ const graphData = JSON.stringify({
     const W = rect.width;
     const H = rect.height;
 
-    const NODE_COLORS = { sector: '#16a34a', source: '#2563eb', ptype: '#9333ea' };
+    const NODE_COLORS = { sector: '#16a34a', source: '#2563eb' };
+    // Keep nodes clear of the container's rounded corners.
+    const PAD = 18;
 
     // A phone canvas can't hold 90+ labelled nodes — it turns into overlapping
     // mush. On small screens keep only the busiest nodes and label just the top
@@ -153,6 +177,15 @@ const graphData = JSON.stringify({
     let showLabels = true;
     let animFrame;
     let dragNode = null;
+    let hoverNode = null;
+
+    function nodeAt(mx, my, slack = 5) {
+      for (const n of nodes) {
+        const dx = mx - n.x, dy = my - n.y;
+        if (dx * dx + dy * dy < (n.r + slack) * (n.r + slack)) return n;
+      }
+      return null;
+    }
 
     function simulate() {
       for (let iter = 0; iter < 3; iter++) {
@@ -183,8 +216,8 @@ const graphData = JSON.stringify({
         for (const n of nodes) {
           n.vx *= 0.85; n.vy *= 0.85;
           n.x += n.vx; n.y += n.vy;
-          n.x = Math.max(n.r + 10, Math.min(W - n.r - 10, n.x));
-          n.y = Math.max(n.r + 10, Math.min(H - n.r - 10, n.y));
+          n.x = Math.max(n.r + PAD, Math.min(W - n.r - PAD, n.x));
+          n.y = Math.max(n.r + PAD, Math.min(H - n.r - PAD, n.y));
         }
       }
       // Keep the cloud centred (skip while dragging).
@@ -229,6 +262,28 @@ const graphData = JSON.stringify({
           ctx.fillText(n.label, lx, n.y + n.r + 12);
         }
       }
+
+      // Hover tooltip: node name + document count, in a small pill that
+      // stays inside the canvas.
+      if (hoverNode && !dragNode) {
+        const text = `${hoverNode.label} — ${hoverNode.count.toLocaleString()} documents`;
+        ctx.font = `600 12px 'Libre Franklin', sans-serif`;
+        const tw = ctx.measureText(text).width;
+        const th = 24;
+        let tx = Math.max(8, Math.min(W - tw - 24, hoverNode.x - tw / 2 - 8));
+        let ty = hoverNode.y - hoverNode.r - th - 10;
+        if (ty < 8) ty = hoverNode.y + hoverNode.r + 10;
+        const bg = getComputedStyle(document.documentElement).getPropertyValue('--color-text') || '#1a1a18';
+        const fg = getComputedStyle(document.documentElement).getPropertyValue('--color-bg-white') || '#fff';
+        ctx.beginPath();
+        if (ctx.roundRect) ctx.roundRect(tx, ty, tw + 16, th, 6);
+        else ctx.rect(tx, ty, tw + 16, th);
+        ctx.fillStyle = bg;
+        ctx.globalAlpha = 0.92; ctx.fill(); ctx.globalAlpha = 1;
+        ctx.fillStyle = fg;
+        ctx.textAlign = 'left';
+        ctx.fillText(text, tx + 8, ty + 16);
+      }
     }
 
     let frame = 0;
@@ -254,17 +309,20 @@ const graphData = JSON.stringify({
     });
 
     canvas.addEventListener('mousedown', (e) => {
-      const mx = e.offsetX, my = e.offsetY;
-      for (const n of nodes) {
-        const dx = mx - n.x, dy = my - n.y;
-        if (dx * dx + dy * dy < (n.r + 5) * (n.r + 5)) { dragNode = n; break; }
-      }
+      dragNode = nodeAt(e.offsetX, e.offsetY);
     });
     canvas.addEventListener('mousemove', (e) => {
-      if (dragNode) { dragNode.x = e.offsetX; dragNode.y = e.offsetY; dragNode.vx = 0; dragNode.vy = 0; draw(); }
+      if (dragNode) {
+        dragNode.x = e.offsetX; dragNode.y = e.offsetY;
+        dragNode.vx = 0; dragNode.vy = 0; draw();
+        return;
+      }
+      const over = nodeAt(e.offsetX, e.offsetY);
+      canvas.style.cursor = over ? 'pointer' : 'grab';
+      if (over !== hoverNode) { hoverNode = over; draw(); }
     });
     canvas.addEventListener('mouseup', () => { dragNode = null; });
-    canvas.addEventListener('mouseleave', () => { dragNode = null; });
+    canvas.addEventListener('mouseleave', () => { dragNode = null; hoverNode = null; draw(); });
 
     canvas.addEventListener('touchstart', (e) => {
       const touch = e.touches[0];
