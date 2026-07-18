@@ -244,6 +244,85 @@ export function getBillItems(limit = 30): PolicyItem[] {
     .slice(0, limit);
 }
 
+/** Drafts whose comment window closes within `days` days (deadline known).
+ * Sorted soonest-first. Already-closed drafts are excluded. */
+export function getClosingSoonDrafts(days = 7): PolicyItem[] {
+  const today = new Date().toISOString().slice(0, 10);
+  const horizon = new Date(Date.now() + days * 86400000).toISOString().slice(0, 10);
+  return getAllPolicies()
+    .filter(p => p.type === 'draft' && p.comment_deadline
+      && p.comment_deadline >= today && p.comment_deadline <= horizon)
+    .sort((a, b) => a.comment_deadline!.localeCompare(b.comment_deadline!));
+}
+
+/** Starred/unstarred questions from the sansad.in fetcher (empty until the
+ * best-effort API fetch succeeds in CI). */
+export interface SansadQuestion {
+  question_no: string;
+  title: string;
+  type: string;      // STARRED / UNSTARRED
+  ministry: string;
+  member: string;
+  date: string;
+  session: string;
+  pdf_url: string;
+}
+
+export function getSansadQuestions(limit = 50): SansadQuestion[] {
+  const data = readJson<any>('questions.json', { questions: [] });
+  return (data.questions || []).slice(0, limit);
+}
+
+/* ── Weekly wrap ──────────────────────────────────────────────────────
+ * One honest summary of the last 7 days, computed from ingestion dates
+ * (first_seen) so it reflects what actually arrived this week. */
+export interface WeeklyWrap {
+  from: string;
+  to: string;
+  instruments: PolicyItem[];
+  newDrafts: PolicyItem[];
+  billsMoved: PolicyItem[];
+  questions: PolicyItem[];
+  longReads: PolicyItem[];
+  topSectors: { sector: string; slug: string; count: number }[];
+}
+
+// Routine operational output that is genuine government activity but not a
+// policy event worth a weekly summary slot: auctions, tenders, HR notices.
+const WRAP_OPERATIONAL = /\b(auction|tender|corrigendum|recruitment|vacanc|seniority list|walk[- ]?in|treasury bills?)\b/i;
+
+export function getWeeklyWrap(): WeeklyWrap {
+  const now = Date.now();
+  const from = new Date(now - 7 * 86400000).toISOString().slice(0, 10);
+  const to = new Date(now).toISOString().slice(0, 10);
+  const inWeek = (p: PolicyItem) => {
+    const ref = p.first_seen || p.date;
+    return !!ref && ref >= from && ref <= to && !WRAP_OPERATIONAL.test(p.title);
+  };
+  const all = getAllPolicies().filter(inWeek);
+  const byDate = (a: PolicyItem, b: PolicyItem) => (b.date || '').localeCompare(a.date || '');
+
+  const sectorCounts: Record<string, number> = {};
+  for (const p of all) {
+    if (getKind(p) === 'news') continue;
+    for (const s of p.sectors) sectorCounts[s] = (sectorCounts[s] || 0) + 1;
+  }
+
+  return {
+    from,
+    to,
+    instruments: all.filter(p => getKind(p) === 'instrument').sort(byDate).slice(0, 12),
+    newDrafts: all.filter(p => p.type === 'draft').sort(byDate),
+    billsMoved: all.filter(p => p.type === 'bill').sort(byDate).slice(0, 8),
+    questions: all.filter(p => p.type === 'question').sort(byDate).slice(0, 8),
+    longReads: all.filter(p => p.type === 'longform' && !JOURNAL_MASTHEAD.test(p.title)).slice(0, 6),
+    topSectors: Object.entries(sectorCounts)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 6)
+      .map(([sector, count]) => ({ sector, slug: getSectorSlug(sector), count })),
+  };
+}
+
 export function getMeta(): MetaData {
   const policies = getPolicyItems();
   const sectorCounts: Record<string, number> = {};

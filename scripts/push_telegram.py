@@ -155,6 +155,9 @@ def format_message(policy: dict) -> str:
         '',
         f'<i>{type_.title()}</i> · {source} · {date}',
     ]
+    deadline = policy.get("comment_deadline", "")
+    if deadline:
+        parts.append(f'⏳ <b>Comments close {telegram_escape(deadline)}</b>')
     if desc:
         parts.append('')
         parts.append(desc)

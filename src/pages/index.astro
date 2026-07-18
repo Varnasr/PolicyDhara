@@ -6,7 +6,7 @@ import TrendingStrip from '../components/TrendingStrip.astro';
 import NewsletterBar from '../components/NewsletterBar.astro';
 import {
   getAllPolicies, getMeta, getKind, getOpenDrafts, getBillItems,
-  getQuestionReplies, getLongReads, TYPE_LABELS,
+  getQuestionReplies, getLongReads, getClosingSoonDrafts, TYPE_LABELS,
 } from '../lib/data';
 
 const allPolicies = getAllPolicies();
@@ -67,6 +67,7 @@ const recentDocs = diversifyBySource(
 const drafts = getOpenDrafts(4);
 const bills = getBillItems(4);
 const questions = getQuestionReplies(4);
+const closingSoonIds = new Set(getClosingSoonDrafts(7).map(p => p.id));
 
 // Long reads and analysis.
 const longReads = getLongReads(4);
@@ -215,6 +216,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
           <a href={`${base}budget/`}>Budget Analysis</a>
           <a href={`${base}longform/`}>Long Reads</a>
           <a href={`${base}history/`}>Policy History</a>
+          <a href={`${base}wrap/`}>Weekly Wrap</a>
           <a href={`${base}digest/`}>Today's Digest</a>
           <a href={`${base}compare/`}>State Comparison</a>
           <a href={`${base}api/`}>API Access</a>
@@ -261,7 +263,14 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
             {drafts.map(p => (
               <a class="making-item" href={`${base}policies/${p.id}/`}>
                 <span class="making-item-title">{p.title}</span>
-                <span class="making-item-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}{p.comment_deadline ? ` · comments close ${fmtDate(p.comment_deadline)}` : ''}</span>
+                <span class="making-item-meta">
+                  {p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}
+                  {p.comment_deadline && (
+                    closingSoonIds.has(p.id)
+                      ? <strong class="closing-soon"> · closes {fmtDate(p.comment_deadline)}!</strong>
+                      : ` · comments close ${fmtDate(p.comment_deadline)}`
+                  )}
+                </span>
               </a>
             ))}
           </div>
@@ -626,6 +635,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     line-height: 1.6;
     padding: 8px 0;
   }
+  .closing-soon { color: var(--type-legislation); font-weight: 800; }
   .making-more {
     display: inline-block;
     margin-top: 8px;

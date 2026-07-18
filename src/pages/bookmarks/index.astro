@@ -1,55 +1,190 @@
 ---
 import Base from '../../layouts/Base.astro';
-import PolicyCard from '../../components/PolicyCard.astro';
-import { getAllPolicies } from '../../lib/data';
 
-const allPolicies = getAllPolicies();
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---
-<Base title="Reading List" description="Your bookmarked policies for later reading.">
+<Base title="My Tracker" description="Policies you follow, and what changed since your last visit.">
   <div style="margin-top: var(--space-xl);">
     <div class="section-header">
-      <h2 class="page-title">Reading List</h2>
-      <p class="page-subtitle">Policies you've bookmarked for later. Stored locally in your browser.</p>
+      <h2 class="page-title">My Tracker</h2>
+      <p class="page-subtitle">Policies you follow, and what changed since your last visit. Stored locally in your browser — nothing leaves your device.</p>
     </div>
 
     <div id="bookmarks-empty" class="empty-state" style="display:none;">
-      <h3>No bookmarks yet</h3>
-      <p>Click the bookmark icon on any policy card, or press <kbd>B</kbd> while a card is focused.</p>
+      <h3>Nothing followed yet</h3>
+      <p>Click the bookmark icon on any policy card (or press <kbd>B</kbd> with a card focused) to start tracking it here.</p>
       <div style="margin-top: var(--space-lg);">
-        <a href={base} class="btn btn-primary">Browse Policies</a>
+        <a href={`${base}policies/`} class="btn btn-primary">Browse Policies</a>
       </div>
     </div>
 
-    <div class="policy-feed" id="bookmarks-feed">
-      {allPolicies.map(p => (
-        <div class="bookmark-card-wrap" data-bookmark-id={p.id} style="display:none;">
-          <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
-            date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
-        </div>
-      ))}
+    <div id="tracker-loading" class="empty-state">
+      <p>Loading your tracker…</p>
     </div>
+
+    <section id="changes-section" style="display:none;">
+      <h3 class="tracker-heading">Changed since your last visit <span id="last-visit-note" class="tracker-note"></span></h3>
+      <ul class="tracker-changes" id="changes-list"></ul>
+    </section>
+
+    <section id="followed-section" style="display:none;">
+      <h3 class="tracker-heading">Following <span id="followed-count" class="tracker-note"></span></h3>
+      <ul class="tracker-list" id="followed-list"></ul>
+    </section>
   </div>
 </Base>
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const bookmarks: string[] = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
+<style>
+  .tracker-heading {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: var(--space-xl) 0 var(--space-sm);
+  }
+  .tracker-note {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    margin-left: 6px;
+  }
+  .tracker-changes, .tracker-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-white);
+    overflow: hidden;
+  }
+  .tracker-changes { border-left: 3px solid var(--type-notification); }
+  .tracker-changes li, .tracker-list li {
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .tracker-changes li:last-child, .tracker-list li:last-child { border-bottom: none; }
+  .tracker-changes a, .tracker-list a {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    line-height: 1.5;
+  }
+  .tracker-changes a:hover, .tracker-list a:hover { color: var(--color-accent); }
+  .t-meta {
+    display: block;
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    margin-top: 2px;
+  }
+  .t-change {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--type-notification);
+    font-weight: 600;
+    margin-top: 3px;
+  }
+  .t-unfollow {
+    float: right;
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px 6px;
+  }
+  .t-unfollow:hover { color: var(--type-legislation); }
+  .t-nochange {
+    padding: 11px 14px;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+</style>
+
+<script define:vars={{ base }}>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const followed = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
+    const loading = document.getElementById('tracker-loading');
     const empty = document.getElementById('bookmarks-empty');
-    const wraps = document.querySelectorAll('.bookmark-card-wrap');
-
-    let shown = 0;
-    wraps.forEach(wrap => {
-      const id = (wrap as HTMLElement).dataset.bookmarkId || '';
-      if (bookmarks.includes(id)) {
-        (wrap as HTMLElement).style.display = 'contents';
-        shown++;
-      }
-    });
-
-    if (shown === 0 && empty) {
+    if (!followed.length) {
+      loading.style.display = 'none';
       empty.style.display = '';
+      return;
+    }
+
+    const lastVisit = localStorage.getItem('pd-tracker-last-visit') || '';
+    try {
+      const [polResp, amdResp] = await Promise.all([
+        fetch(`${base}api/policies.json`),
+        fetch(`${base}api/amendments.json`),
+      ]);
+      const { policies } = await polResp.json();
+      const { amendments } = await amdResp.json();
+      const byId = new Map(policies.map(p => [p.id, p]));
+
+      const esc = (s) => { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };
+      const fmt = (d) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+
+      // Changes among followed items since last visit.
+      const changes = [];
+      for (const id of followed) {
+        const p = byId.get(id);
+        if (!p) continue;
+        for (const a of (amendments[id] || [])) {
+          if (!lastVisit || a.date > lastVisit) {
+            changes.push({ p, a });
+          }
+        }
+      }
+      changes.sort((x, y) => y.a.date.localeCompare(x.a.date));
+
+      const changesSection = document.getElementById('changes-section');
+      const changesList = document.getElementById('changes-list');
+      const note = document.getElementById('last-visit-note');
+      note.textContent = lastVisit ? `since ${fmt(lastVisit)}` : '(first visit — future changes will appear here)';
+      changesSection.style.display = '';
+      if (changes.length) {
+        changesList.innerHTML = changes.slice(0, 30).map(({ p, a }) => `
+          <li>
+            <a href="${base}policies/${esc(p.id)}/">${esc(p.title)}</a>
+            <span class="t-change">${esc(a.field)} updated on ${fmt(a.date)}</span>
+            <span class="t-meta">${esc(p.source_short)}</span>
+          </li>`).join('');
+      } else {
+        changesList.outerHTML = '<p class="t-nochange">No changes to your followed policies' + (lastVisit ? ` since ${fmt(lastVisit)}` : '') + '.</p>';
+      }
+
+      // Followed list.
+      const followedSection = document.getElementById('followed-section');
+      const followedList = document.getElementById('followed-list');
+      const items = followed.map(id => byId.get(id)).filter(Boolean);
+      document.getElementById('followed-count').textContent = `${items.length} ${items.length === 1 ? 'policy' : 'policies'}`;
+      followedSection.style.display = '';
+      followedList.innerHTML = items.map(p => `
+        <li data-id="${esc(p.id)}">
+          <button class="t-unfollow" data-unfollow="${esc(p.id)}" title="Stop following">✕ unfollow</button>
+          <a href="${base}policies/${esc(p.id)}/">${esc(p.title)}</a>
+          <span class="t-meta">${esc(p.source_short)}${p.date ? ' · ' + fmt(p.date) : ''} · ${esc(p.type)}</span>
+        </li>`).join('');
+
+      followedList.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-unfollow]');
+        if (!btn) return;
+        const id = btn.getAttribute('data-unfollow');
+        const next = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]').filter(x => x !== id);
+        localStorage.setItem('pd-bookmarks', JSON.stringify(next));
+        btn.closest('li')?.remove();
+        document.getElementById('followed-count').textContent = `${next.length} ${next.length === 1 ? 'policy' : 'policies'}`;
+        if (!next.length) { location.reload(); }
+      });
+
+      loading.style.display = 'none';
+      // Stamp the visit AFTER rendering, so this visit's view is the baseline
+      // for next time.
+      localStorage.setItem('pd-tracker-last-visit', new Date().toISOString().slice(0, 10));
+    } catch (e) {
+      loading.innerHTML = '<p>Could not load tracker data — try refreshing.</p>';
     }
   });
 </script>
