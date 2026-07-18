@@ -185,8 +185,56 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
           </div>
         </>
       )}
+    </div>
 
-      {/* ── How policy is made: drafts / bills / question hour ── */}
+    {/* ── Right: Sidebar summary (spans only the lead zone) ── */}
+    <aside class="dash-sidebar">
+      <div class="sidebar-card">
+        <h4 class="sidebar-card-title">By Sector</h4>
+        <div class="sidebar-sector-list">
+          {Object.entries(meta.sector_counts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 12)
+            .map(([sector, count]) => (
+              <a href={`${base}sectors/${sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sidebar-sector-row">
+                <span class="sidebar-sector-name">{sector}</span>
+                <span class="sidebar-sector-count">{count}</span>
+              </a>
+            ))
+          }
+          <a href={`${base}sectors/`} class="sidebar-more">All sectors &rarr;</a>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <h4 class="sidebar-card-title">Quick Links</h4>
+        <div class="sidebar-links">
+          <a href={`${base}policies/`}>Browse Everything</a>
+          <a href={`${base}process/`}>How Policy Is Made</a>
+          <a href={`${base}parliament/`}>Parliament Tracker</a>
+          <a href={`${base}budget/`}>Budget Analysis</a>
+          <a href={`${base}longform/`}>Long Reads</a>
+          <a href={`${base}history/`}>Policy History</a>
+          <a href={`${base}digest/`}>Today's Digest</a>
+          <a href={`${base}compare/`}>State Comparison</a>
+          <a href={`${base}api/`}>API Access</a>
+        </div>
+      </div>
+
+      <div class="sidebar-card sidebar-card-muted">
+        <p class="sidebar-meta">
+          Data from <strong>{meta.total_sources}</strong> government, media &amp; research sources.
+          Updated every 6 hours. <a href={`${base}about/`}>Methodology</a>
+        </p>
+      </div>
+    </aside>
+  </div>
+
+  {/* ── Full-width sections: everything below the lead zone spans the
+       whole container — the sidebar column ends above, and pinning these
+       to the narrow left column left a dead right gutter. ── */}
+
+  {/* ── How policy is made: drafts / bills / question hour ── */}
       <section class="making-section">
         <div class="section-header section-header-row">
           <div>
@@ -303,56 +351,12 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
         </a>
       </section>
 
-      {/* Analytics */}
-      <div class="section-header">
-        <h3>Activity</h3>
-      </div>
-      <Insights />
-      <NewsletterBar />
-    </div>
-
-    {/* ── Right: Sidebar summary ── */}
-    <aside class="dash-sidebar">
-      <div class="sidebar-card">
-        <h4 class="sidebar-card-title">By Sector</h4>
-        <div class="sidebar-sector-list">
-          {Object.entries(meta.sector_counts)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 12)
-            .map(([sector, count]) => (
-              <a href={`${base}sectors/${sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sidebar-sector-row">
-                <span class="sidebar-sector-name">{sector}</span>
-                <span class="sidebar-sector-count">{count}</span>
-              </a>
-            ))
-          }
-          <a href={`${base}sectors/`} class="sidebar-more">All sectors &rarr;</a>
-        </div>
-      </div>
-
-      <div class="sidebar-card">
-        <h4 class="sidebar-card-title">Quick Links</h4>
-        <div class="sidebar-links">
-          <a href={`${base}policies/`}>Browse Everything</a>
-          <a href={`${base}process/`}>How Policy Is Made</a>
-          <a href={`${base}parliament/`}>Parliament Tracker</a>
-          <a href={`${base}budget/`}>Budget Analysis</a>
-          <a href={`${base}longform/`}>Long Reads</a>
-          <a href={`${base}history/`}>Policy History</a>
-          <a href={`${base}digest/`}>Today's Digest</a>
-          <a href={`${base}compare/`}>State Comparison</a>
-          <a href={`${base}api/`}>API Access</a>
-        </div>
-      </div>
-
-      <div class="sidebar-card sidebar-card-muted">
-        <p class="sidebar-meta">
-          Data from <strong>{meta.total_sources}</strong> government, media &amp; research sources.
-          Updated every 6 hours. <a href={`${base}about/`}>Methodology</a>
-        </p>
-      </div>
-    </aside>
+  {/* Analytics */}
+  <div class="section-header">
+    <h3>Activity</h3>
   </div>
+  <Insights />
+  <NewsletterBar />
 
 </Base>
 
@@ -725,8 +729,11 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
   }
   .longread-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 12px;
+  }
+  @media (max-width: 1000px) {
+    .longread-grid { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 768px) {
     .longread-grid { grid-template-columns: 1fr; }
