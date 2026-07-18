@@ -123,15 +123,26 @@ const graphData = JSON.stringify({
 
     const NODE_COLORS = { sector: '#16a34a', source: '#2563eb', ptype: '#9333ea' };
 
-    const nodes = data.nodes.map((n, i) => {
-      const angle = (i / data.nodes.length) * Math.PI * 2;
+    // A phone canvas can't hold 90+ labelled nodes — it turns into overlapping
+    // mush. On small screens keep only the busiest nodes and label just the top
+    // handful; on desktop show them all.
+    const mobile = W < 560;
+    const MAX_NODES = mobile ? 34 : 999;
+    const LABEL_TOP = mobile ? 10 : 26;
+    const rMax = mobile ? 18 : 24;
+
+    const picked = [...data.nodes].sort((a, b) => b.count - a.count).slice(0, MAX_NODES);
+    const labelSet = new Set(picked.slice(0, LABEL_TOP).map(n => n.id));
+
+    const nodes = picked.map((n, i) => {
+      const angle = (i / picked.length) * Math.PI * 2;
       const radius = n.type === 'sector' ? W * 0.16 : n.type === 'source' ? W * 0.25 : W * 0.11;
       return {
         ...n,
         x: W / 2 + Math.cos(angle) * radius + (Math.random() - 0.5) * 40,
         y: H / 2 + Math.sin(angle) * radius + (Math.random() - 0.5) * 40,
         vx: 0, vy: 0,
-        r: Math.max(4, Math.min(24, Math.sqrt(n.count) * 2.5)),
+        r: Math.max(4, Math.min(rMax, Math.sqrt(n.count) * (mobile ? 2.0 : 2.5))),
       };
     });
 
@@ -204,11 +215,18 @@ const graphData = JSON.stringify({
         ctx.globalAlpha = 0.85; ctx.fill(); ctx.globalAlpha = 1;
         ctx.strokeStyle = 'rgba(255,255,255,0.8)';
         ctx.lineWidth = 1.5; ctx.stroke();
-        if (showLabels && n.r > 5) {
-          ctx.font = `${Math.max(9, Math.min(13, n.r * 0.7))}px sans-serif`;
-          ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--color-text') || '#1a1a18';
+        if (showLabels && labelSet.has(n.id)) {
+          const fs = mobile ? 10 : Math.max(10, Math.min(13, n.r * 0.7));
+          ctx.font = `600 ${fs}px 'Libre Franklin', sans-serif`;
           ctx.textAlign = 'center';
-          ctx.fillText(n.label, n.x, n.y + n.r + 12);
+          const lx = Math.max(4 + ctx.measureText(n.label).width / 2,
+                              Math.min(W - 4 - ctx.measureText(n.label).width / 2, n.x));
+          // subtle halo so labels stay readable over nodes/edges
+          ctx.lineWidth = 3;
+          ctx.strokeStyle = getComputedStyle(document.documentElement).getPropertyValue('--color-bg-white') || '#fff';
+          ctx.strokeText(n.label, lx, n.y + n.r + 12);
+          ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--color-text') || '#1a1a18';
+          ctx.fillText(n.label, lx, n.y + n.r + 12);
         }
       }
     }
