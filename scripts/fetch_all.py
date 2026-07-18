@@ -15,6 +15,7 @@ import signal
 import sys
 import time
 import traceback
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -781,32 +782,41 @@ def main():
     skipped = 0
     pipeline_start = time.monotonic()
 
-    for source_id, source_config in sources.items():
-        # Check pipeline-level time limit
-        elapsed = time.monotonic() - pipeline_start
-        if elapsed > MAX_PIPELINE_SECONDS:
-            remaining = len(sources) - (skipped + len(all_new) - len(seed) + len(errors))
-            print(f"\n  Pipeline time limit reached ({int(elapsed)}s). Skipping remaining sources.")
-            break
-
-        try:
-            # Set per-source timeout via SIGALRM
-            old_handler = signal.signal(signal.SIGALRM, _source_timeout_handler)
-            signal.alarm(MAX_SOURCE_SECONDS)
+    # Fetch sources concurrently. The pipeline was previously sequential with
+    # a per-source SIGALRM timeout, so with 400+ sources it hit the overall
+    # time limit after reaching only ~40 of them — most working sources were
+    # never tried (that, not broken scrapers, is why the dataset was tiny and
+    # news-dominated: the news RSS feeds happened to sort early). A thread
+    # pool reaches every source well inside the budget. Per-source timeouts
+    # are enforced by the underlying requests/urllib calls (SIGALRM only works
+    # on the main thread, so it can't gate worker threads). FETCH_WORKERS is
+    # env-tunable so the CI workflow can throttle if a host rate-limits.
+    fetch_workers = int(os.environ.get("FETCH_WORKERS", "12"))
+    executor = ThreadPoolExecutor(max_workers=fetch_workers)
+    future_to_sid = {
+        executor.submit(fetch_source, sid, cfg): sid
+        for sid, cfg in sources.items()
+    }
+    print(f"Fetching {len(future_to_sid)} sources with {fetch_workers} workers...")
+    completed = 0
+    try:
+        for future in as_completed(future_to_sid):
+            source_id = future_to_sid[future]
             try:
-                items = fetch_source(source_id, source_config)
-                all_new.extend(items)
-            finally:
-                signal.alarm(0)  # Cancel alarm
-                signal.signal(signal.SIGALRM, old_handler)
-            # Rate limit between sources
-            time.sleep(0.5)
-        except SourceTimeout:
-            errors.append(f"{source_id}: timed out after {MAX_SOURCE_SECONDS}s")
-            print(f"  TIMED OUT: {source_id} (>{MAX_SOURCE_SECONDS}s)")
-        except Exception as e:
-            errors.append(f"{source_id}: {e}")
-            print(f"  FAILED: {source_id} — {e}")
+                all_new.extend(future.result())
+            except Exception as e:
+                errors.append(f"{source_id}: {e}")
+                print(f"  FAILED: {source_id} — {e}")
+            completed += 1
+            # Overall budget guard: stop collecting and abandon stragglers.
+            if time.monotonic() - pipeline_start > MAX_PIPELINE_SECONDS:
+                pending = len(future_to_sid) - completed
+                print(f"\n  Pipeline time limit reached ({int(time.monotonic() - pipeline_start)}s). "
+                      f"Collected {completed}/{len(future_to_sid)} sources; abandoning {pending}.")
+                break
+    finally:
+        # Don't block on stragglers past the deadline; cancel what hasn't started.
+        executor.shutdown(wait=False, cancel_futures=True)
 
     print(f"\n{'=' * 60}")
     print(f"Total new items fetched: {len(all_new)} ({len(seed)} seed + {len(all_new) - len(seed)} live)")

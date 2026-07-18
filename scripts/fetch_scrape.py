@@ -324,6 +324,60 @@ def scrape_rbi(config: dict) -> list[dict]:
     return items
 
 
+_RBI_DATE_RE = re.compile(r'([A-Z][a-z]{2}\s+\d{1,2},\s+20\d\d)')
+
+
+def scrape_rbi_notifications(config: dict) -> list[dict]:
+    """Scrape the RBI master notifications/circulars list (NotificationUser.aspx).
+
+    Titles are <a class="link2">; the list is grouped under date header cells
+    ("Jul 17, 2026"). We walk the table cells in document order, tracking the
+    current date group, so each notification gets its real publication date.
+    The generic scrape_ministry parser can't read this layout — it returned 0
+    items, which is why RBI notifications/reports were missing entirely.
+    """
+    url = config.get("url", "https://www.rbi.org.in/Scripts/NotificationUser.aspx")
+    resp = safe_get(url)
+    if not resp:
+        return []
+
+    soup = BeautifulSoup(resp.text, "lxml")
+    items: list[dict] = []
+    seen: set[str] = set()
+    current_date = ""
+
+    for cell in soup.select("td"):
+        text = cell.get_text(" ", strip=True)
+        # A short cell that is just a date updates the current group.
+        m = _RBI_DATE_RE.search(text)
+        if m and len(text) <= 20:
+            current_date = parse_date_text(m.group(1))
+            continue
+
+        for a in cell.select("a.link2"):
+            title = a.get_text(strip=True)
+            href = a.get("href", "")
+            if not title or len(title) < 6 or not href:
+                continue
+            if href.startswith("http"):
+                link = href
+            elif href.startswith("/"):
+                link = f"https://www.rbi.org.in{href}"
+            else:
+                link = f"https://www.rbi.org.in/Scripts/{href}"
+            if link in seen:
+                continue
+            seen.add(link)
+            items.append({
+                "title": title[:200],
+                "description": f"RBI notification: {title[:300]}",
+                "link": link,
+                "date": current_date,
+            })
+
+    return items
+
+
 def scrape_data_gov_api(config: dict) -> list[dict]:
     """Fetch recent datasets from data.gov.in OGD 2.0 API."""
     base_url = config.get("base_url", "https://data.gov.in/backend/dmspublic/v1/resources")
@@ -648,6 +702,8 @@ SOURCE_SCRAPERS = {
     "data_gov_in": scrape_data_gov_api,
     "mof_budget": scrape_ministry,
     "rbi": scrape_rbi,
+    "rbi_notifications": scrape_rbi_notifications,
+    "rbi_notifications_new": scrape_rbi_notifications,
     "moefcc": scrape_ministry,
     "meity": scrape_ministry,
     "orf": scrape_orf,

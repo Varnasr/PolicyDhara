@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 
 from policydhara.models import Policy
 from policydhara.classifier import PolicyClassifier
+from policydhara.relevance import is_india_relevant, is_policy_relevant
 from policydhara.fetchers.rss import fetch_rss
 from policydhara.fetchers.scraper import fetch_scrape
 
@@ -220,6 +221,10 @@ def fetch_source(
     source_type = source_config.get("type", "")
     source_name = source_config.get("name", source_id)
     source_sectors = source_config.get("covers_sectors", "all")
+    # Generalist-media feeds (india_only == False) carry foreign news and
+    # non-policy spectacle in the same feed as Indian policy; gate them.
+    # Official-government sources (the default) are trusted unconditionally.
+    is_india_only_source = source_config.get("india_only", True)
 
     raw_items: list[dict] = []
 
@@ -240,6 +245,15 @@ def fetch_source(
         description = html.unescape(raw.get("description", "")).strip()
         link = raw.get("link", "")
         date = raw.get("date", "").strip()
+
+        # Relevance gates for mixed-content media feeds (mirrors
+        # scripts/fetch_all.py). Drop foreign news and non-policy spectacle;
+        # official-government sources bypass these checks.
+        if not is_india_only_source:
+            if not is_india_relevant(title, description):
+                continue
+            if not is_policy_relevant(title, description):
+                continue
 
         if not date:
             date = _extract_date_from_title(title)
@@ -266,7 +280,7 @@ def fetch_source(
             sectors=sectors,
             sector_slugs=[Policy.sector_slug(s) for s in sectors],
             type=_categorize_type(title, description),
-            level=source_config.get("level", "central"),
+            level=source_config.get("level", "media" if not is_india_only_source else "central"),
             state=source_config.get("state", ""),
         ))
 
