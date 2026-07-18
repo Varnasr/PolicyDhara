@@ -36,6 +36,9 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+sys.path.insert(0, str(Path(__file__).parent))
+from classifier import is_broadcast_relevant  # noqa: E402
+
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 SNAPSHOT_FILE = DATA_DIR / ".policy_ids_snapshot.json"
@@ -65,7 +68,20 @@ def find_new_policies() -> list[dict]:
         policies = json.load(f)
     new = [p for p in policies if p["id"] not in old_ids]
     print(f"  Found {len(new)} new policies since last snapshot")
-    return new
+
+    # Defense-in-depth: never broadcast spectacle/tabloid noise or unfiltered
+    # media items, even if one reached policies.json (stale snapshot, a
+    # mislabeled source, an official feed with a lurid title).
+    relevant = [
+        p for p in new
+        if is_broadcast_relevant(
+            p.get("title", ""), p.get("description", "") or "", p.get("level", "")
+        )
+    ]
+    if len(relevant) != len(new):
+        print(f"  Dropped {len(new) - len(relevant)} as non-broadcastable "
+              f"(spectacle / non-policy); {len(relevant)} remain")
+    return relevant
 
 
 def is_high_priority(policy: dict) -> bool:
