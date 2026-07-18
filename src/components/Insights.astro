@@ -129,13 +129,20 @@ const GOV_PARTY_COLORS: Record<string, string> = {
     <div class="coverage-eras">
       {eraDist.filter(e => e.count > 0).map(e => (
         <div class="coverage-era-row">
-          <span class="coverage-era-name" style={`color: ${ERA_COLORS[e.era] || '#888'};`}>{e.era}</span>
-          <span class="coverage-era-count">{e.count}</span>
+          <span class="coverage-era-name" style={`color: ${ERA_COLORS[e.era] || '#888'};`}>
+            {e.era}{e.partial ? ' ·partial' : ''}
+          </span>
+          <span class="coverage-era-count">
+            {e.perMonth}<span style="font-weight:400; opacity:0.6;">/mo</span>
+            <span style="font-weight:400; opacity:0.45; margin-left:4px;">({e.count})</span>
+          </span>
         </div>
       ))}
     </div>
     <div class="coverage-note">
-      Coverage is uneven — recent eras have better digital archival than earlier eras
+      Per-month rate of <em>digitally-available</em> policy — <strong>not a volume or productivity
+      comparison</strong>. The pipeline captures each source's recent window, so recent eras dominate
+      regardless of actual output; the current era is partial and inflated by the latest fetch.
     </div>
   </div>
 

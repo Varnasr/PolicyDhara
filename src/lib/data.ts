@@ -366,8 +366,21 @@ export function getSectorInsight(sectorName: string): SectorInsight {
   };
 }
 
-/** Returns policy count by government era */
-export function getEraDistribution(): { era: string; party: string; count: number; dateRange: string }[] {
+/**
+ * Policy count by government era — with per-month normalization.
+ *
+ * IMPORTANT: these counts measure *digitally-available, recently-fetched*
+ * policy, NOT policy volume. The pipeline captures the recent window each
+ * live source exposes plus a thin historical seed, so recent eras look
+ * enormous and older ones look empty regardless of actual output. `perMonth`
+ * removes the era-length effect but cannot fix that collection bias; the
+ * current era is also `partial` (still in progress + inflated by the latest
+ * fetch). Present it as archive coverage, not productivity.
+ */
+export function getEraDistribution(): {
+  era: string; party: string; count: number; perMonth: number;
+  months: number; dateRange: string; partial: boolean;
+}[] {
   const eras = [
     { name: 'UPA I',   party: 'Congress-led UPA',  start: '2004-05-22', end: '2009-05-21' },
     { name: 'UPA II',  party: 'Congress-led UPA',  start: '2009-05-22', end: '2014-05-25' },
@@ -376,12 +389,25 @@ export function getEraDistribution(): { era: string; party: string; count: numbe
     { name: 'NDA III', party: 'BJP-led NDA',       start: '2024-06-09', end: '9999-12-31' },
   ];
   const all = getPolicyItems();
-  return eras.map(era => ({
-    era: era.name,
-    party: era.party,
-    count: all.filter(p => p.date >= era.start && p.date <= era.end).length,
-    dateRange: `${era.start.slice(0,4)}–${era.end === '9999-12-31' ? 'Present' : era.end.slice(0,4)}`,
-  }));
+  const todayStr = new Date().toISOString().slice(0, 10);
+  return eras.map(era => {
+    const partial = era.end === '9999-12-31';
+    const endReal = partial ? todayStr : era.end;
+    const count = all.filter(p => p.date >= era.start && p.date <= endReal).length;
+    const months = Math.max(
+      1,
+      Math.round((new Date(endReal).getTime() - new Date(era.start).getTime()) / (30.44 * 86400000))
+    );
+    return {
+      era: era.name,
+      party: era.party,
+      count,
+      months,
+      perMonth: Math.round((count / months) * 10) / 10,
+      dateRange: `${era.start.slice(0, 4)}–${partial ? 'Present' : era.end.slice(0, 4)}`,
+      partial,
+    };
+  });
 }
 
 /** State government data */
