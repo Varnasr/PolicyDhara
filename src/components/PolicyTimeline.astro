@@ -155,7 +155,12 @@ const maxEraTotal = Math.max(...eraAgg.map(e => e.total), 1);
     ))}
   </div>
   <div class="timeline-caveat">
-    Note: Bar heights reflect data available in digital archives, not actual policy volume. Pre-2014 policies are significantly underrepresented due to limited online archival. <a href={`${Astro.url.pathname.includes('/PolicyDhara') ? '/PolicyDhara' : ''}/about/`}>Read methodology</a>
+    <strong>This is archive coverage, not policy volume.</strong> Bar heights track how much policy is
+    <em>digitally available and recently fetched</em> — the pipeline captures the recent window each live
+    source exposes plus a thin historical seed, so recent years look large and older years look empty
+    regardless of how much policy each government actually made. The latest weeks are further inflated by the
+    most recent fetch. Do not read across eras as a productivity comparison.
+    <a href={`${Astro.url.pathname.includes('/PolicyDhara') ? '/PolicyDhara' : ''}/about/`}>Read methodology</a>
   </div>
 </div>
 

@@ -13,7 +13,7 @@ try {
 } catch {}
 
 // Load source health if the weekly probe has run
-let health: Record<string, { last_healthy?: string; last_status?: number; streak?: number }> = {};
+let health: Record<string, { last_healthy?: string; last_status?: number; streak?: number; bucket?: string; last_items?: number }> = {};
 try {
   const raw = fs.readFileSync(path.join(process.cwd(), 'data/source_health.json'), 'utf-8');
   health = JSON.parse(raw);
@@ -30,6 +30,18 @@ type SourceRow = {
   count: number;
   lastHealthy: string;
   streak: number;
+  bucket: string;
+};
+
+// Health buckets from the weekly probe (see scripts/check_source_health.py):
+// WORKS = returns content; SELECTOR_BROKEN = page loads but parser gets
+// nothing (fixable selectors); SHELL = JS-rendered/empty (needs RSS/API);
+// DEAD = unreachable / HTTP error.
+const BUCKET_META: Record<string, { label: string; color: string; bg: string }> = {
+  WORKS:           { label: 'Working',       color: '#15803d', bg: '#f0fdf4' },
+  SELECTOR_BROKEN: { label: 'Selectors broken', color: '#b45309', bg: '#fffbeb' },
+  SHELL:           { label: 'JS shell',      color: '#7c3aed', bg: '#f5f3ff' },
+  DEAD:            { label: 'Dead',          color: '#dc2626', bg: '#fef2f2' },
 };
 
 // Build a row per configured source. source_counts is keyed by source_id
@@ -48,6 +60,7 @@ const rows: SourceRow[] = Object.entries(configured).map(([id, cfg]: [string, an
   count: counts[id] || 0,
   lastHealthy: health[id]?.last_healthy || '',
   streak: health[id]?.streak || 0,
+  bucket: health[id]?.bucket || '',
 }));
 
 // Also surface source_ids that appear in policies.json but have no config
@@ -57,7 +70,7 @@ const orphanIds = Object.keys(counts).filter(k => !configuredIds.has(k));
 const orphanRows: SourceRow[] = orphanIds.map(id => ({
   id, name: id, short: id, type: 'legacy', url: '',
   description: 'Legacy source_id in policies.json without a config entry.',
-  covers: '', count: counts[id] || 0, lastHealthy: '', streak: 0,
+  covers: '', count: counts[id] || 0, lastHealthy: '', streak: 0, bucket: '',
 }));
 
 const allRows = [...rows, ...orphanRows];
@@ -68,6 +81,11 @@ allRows.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 const totalConfigured = rows.length;
 const contributing = rows.filter(r => r.count > 0).length;
 const stale = rows.filter(r => r.streak >= 3).length;
+
+// Bucket breakdown (only if the health probe has populated buckets).
+const bucketCounts: Record<string, number> = {};
+for (const r of rows) if (r.bucket) bucketCounts[r.bucket] = (bucketCounts[r.bucket] || 0) + 1;
+const hasBuckets = Object.keys(bucketCounts).length > 0;
 ---
 <Base title="Sources" description="Every open data source powering PolicyDhara — PIB (per ministry), PRS, India Code, eGazette, RBI, Parliament, state governments, and more.">
   <div style="padding: var(--space-xl) 0;">
@@ -80,6 +98,19 @@ const stale = rows.filter(r => r.streak >= 3).length;
       <p class="page-subtitle" style="color: var(--color-text-muted); font-size: 0.85rem;">
         {orphanRows.length} legacy source_id{orphanRows.length === 1 ? '' : 's'} present in the dataset but not in <code>feeds.json</code> — shown below with a "LEGACY" tag.
       </p>
+    )}
+
+    {hasBuckets && (
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; margin: var(--space-md) 0;">
+        {['WORKS', 'SELECTOR_BROKEN', 'SHELL', 'DEAD'].filter(b => bucketCounts[b]).map(b => (
+          <span style={`display:inline-flex; align-items:center; gap:6px; font-size:0.8rem; font-weight:600; padding:4px 10px; border-radius:6px; color:${BUCKET_META[b].color}; background:${BUCKET_META[b].bg};`}>
+            {bucketCounts[b]} {BUCKET_META[b].label}
+          </span>
+        ))}
+        <span style="font-size: 0.75rem; color: var(--color-text-muted); align-self: center;">
+          — health from the weekly probe; "selectors broken" and "JS shell" are the fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>)
+        </span>
+      </div>
     )}
 
     <div class="sector-grid">
@@ -120,14 +151,14 @@ const stale = rows.filter(r => r.streak >= 3).length;
               <span style="font-size: 0.8125rem; font-weight: 600; color: var(--color-accent);">
                 {r.count} {r.count === 1 ? 'item' : 'items'}
               </span>
-              {r.lastHealthy && (
-                <span style="font-size: 0.7rem; color: var(--color-text-muted);">
-                  · last healthy {r.lastHealthy}
+              {r.bucket && BUCKET_META[r.bucket] && (
+                <span style={`font-size:0.65rem; font-weight:700; padding:2px 7px; border-radius:4px; color:${BUCKET_META[r.bucket].color}; background:${BUCKET_META[r.bucket].bg};`}>
+                  {BUCKET_META[r.bucket].label}
                 </span>
               )}
-              {r.streak >= 3 && (
-                <span style="font-size: 0.7rem; color: #dc2626;">
-                  · {r.streak} failed probes
+              {r.lastHealthy && (
+                <span style="font-size: 0.7rem; color: var(--color-text-muted);">
+                  · last ok {r.lastHealthy}
                 </span>
               )}
             </div>
