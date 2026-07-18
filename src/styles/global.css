@@ -1402,20 +1402,16 @@ body.mobile-nav-open { overflow: hidden; }
 
 /* ── Trending Section ──────────────────────────────────────── */
 
+/* Chips wrap on every viewport. The old overflow-x scroller hid its
+   scrollbar, so on desktop the last chip just looked cut off at the right
+   edge with no hint that more existed. */
 .trending-strip {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-  overflow-x: auto;
   padding: 4px 0;
   margin-bottom: var(--space-lg);
-  scrollbar-width: none;
 }
-.trending-strip::after {
-  content: '';
-  flex-shrink: 0;
-  width: 1px;
-}
-.trending-strip::-webkit-scrollbar { display: none; }
 
 .trending-chip {
   display: inline-flex;
@@ -1854,9 +1850,47 @@ html, body { overflow-x: hidden !important; max-width: 100%; }
   .trend-count, .era-label, .legis-era-range { font-size: 0.8rem !important; }
   .coverage-note, .cmp-desc { font-size: 0.75rem !important; }
   /* Comfortable tap targets. */
-  .header-nav a, .mobile-nav a, .nav-hamburger, .theme-toggle .theme-opt {
+  .header-nav a, .mobile-nav a, .nav-hamburger {
     min-height: 40px;
   }
+}
+
+/* ── Mobile header integrity ─────────────────────────────────
+   The blanket `h1/a { overflow-wrap: anywhere; word-break: break-word }`
+   rules above exist so long policy titles can't force the page wide — but
+   they also broke the masthead ("PolicyDha / ra") and split numbers inside
+   sector chips ("68 / 0"). Brand and chips are short, controlled strings:
+   they must never fragment. */
+@media (max-width: 960px) {
+  .header-inner { gap: 8px; }
+  .site-logo { min-width: 0; }
+  .site-logo h1 {
+    white-space: nowrap;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    font-size: 1.05rem;
+  }
+  .site-logo .subtitle { display: none; }
+  .header-nav { flex-shrink: 0; }
+  .theme-toggle .theme-opt {
+    width: 24px;
+    height: 24px;
+    min-height: 0;
+  }
+  .tag-chip {
+    font-size: 1.05rem !important;
+    overflow-wrap: normal !important;
+    word-break: keep-all !important;
+  }
+  .tag-count { white-space: nowrap; }
+}
+
+/* Long feeds: let the browser skip layout/paint of offscreen cards. The
+   /policies browse page renders hundreds of cards — without this, phones
+   spend seconds rendering DOM nobody has scrolled to. */
+.policy-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 230px;
 }
 
 /* ═══════════════════════════════════════════════════════════════════
