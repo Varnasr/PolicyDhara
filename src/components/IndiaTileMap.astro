@@ -93,7 +93,7 @@ function findData(name: string) {
   const aliases: Record<string, string> = {
     'Jammu & Kashmir': 'Jammu and Kashmir',
     'Andaman & Nicobar Islands': 'Andaman and Nicobar Islands',
-    'Dadra & Nagar Haveli and Daman & Diu': 'Dadra and Nagar Haveli and Daman and Diu',
+    'Dadra & Nagar Haveli and Daman & Diu': 'Dadra Nagar Haveli & Daman Diu',
   };
   const aliased = aliases[name];
   if (aliased && dataByName[aliased]) return dataByName[aliased];

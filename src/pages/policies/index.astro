@@ -19,8 +19,21 @@ const INITIAL_SHOW = 30;
 // matters for the default "All" view.
 const KIND_ORDER: Kind[] = ['instrument', 'process', 'analysis', 'announcement', 'news'];
 const kindRank = (p) => KIND_ORDER.indexOf(getKind(p));
-const items = [...all].sort((a, b) =>
+const sorted = [...all].sort((a, b) =>
   kindRank(a) - kindRank(b) || (b.date || '').localeCompare(a.date || ''));
+
+// Cap the DOM per kind (newest first). Rendering all ~2000 cards produced a
+// 3.2 MB page that phones choked on; the tabs still show TRUE totals, and
+// the full dataset stays available via the API page and data/policies.json.
+const KIND_CAP: Record<string, number> = {
+  instrument: 300, process: 150, analysis: 200, announcement: 200, news: 200,
+};
+const perKindSeen: Record<string, number> = {};
+const items = sorted.filter(p => {
+  const k = getKind(p);
+  perKindSeen[k] = (perKindSeen[k] || 0) + 1;
+  return perKindSeen[k] <= (KIND_CAP[k] ?? 200);
+});
 
 // Counts per kind (for the tab labels).
 const kindCounts: Record<string, number> = {};
@@ -95,10 +108,13 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
   <div class="feed-toolbar">
     <div id="feed-status" aria-live="polite" style="font-size:0.75rem; color:var(--color-text-muted);"></div>
     <div class="feed-toolbar-actions">
-      <button class="btn btn-secondary btn-sm" id="export-csv" title="Export visible items as CSV">CSV</button>
-      <button class="btn btn-secondary btn-sm" id="export-json" title="Export visible items as JSON">JSON</button>
+      <button class="btn btn-secondary btn-sm" id="export-csv" title="Export the filtered items as CSV">CSV</button>
+      <button class="btn btn-secondary btn-sm" id="export-json" title="Export the filtered items as JSON">JSON</button>
     </div>
   </div>
+  {items.length < all.length && (
+    <p class="cap-note">This page holds the newest {items.length.toLocaleString()} documents for speed; tab counts reflect the full archive of {all.length.toLocaleString()}. The complete dataset is downloadable from the <a href={`${base}api/`}>API page</a>.</p>
+  )}
 
   <div class="policy-feed" id="policy-feed">
     {items.map((p, i) => (
@@ -231,6 +247,12 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
 
   .policy-card-wrap { display: contents; }
   .hidden-card > :global(.policy-card) { display: none; }
+  .cap-note {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    margin: -6px 0 var(--space-md);
+  }
+  .cap-note a { color: var(--color-accent); }
 </style>
 
 <script define:vars={{ INITIAL_SHOW }}>

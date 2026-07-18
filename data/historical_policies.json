@@ -2206,12 +2206,12 @@
     "sectors": [
       "Rural Development",
       "Governance & Reform",
-      "Infrastructure"
+      "Transport & Infrastructure"
     ],
     "sector_slugs": [
       "rural-development",
       "governance-reform",
-      "infrastructure"
+      "transport-infrastructure"
     ],
     "type": "act",
     "level": "central",
@@ -3716,11 +3716,9 @@
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
-      "Tribal Affairs",
       "Climate & Environment"
     ],
     "sector_slugs": [
-      "tribal-affairs",
       "climate-environment"
     ],
     "type": "act",
@@ -4161,11 +4159,11 @@
     "source_short": "Historical",
     "sectors": [
       "Urban Development",
-      "Infrastructure"
+      "Transport & Infrastructure"
     ],
     "sector_slugs": [
       "urban-development",
-      "infrastructure"
+      "transport-infrastructure"
     ],
     "type": "act",
     "level": "central",
@@ -5177,12 +5175,10 @@
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
-      "Infrastructure",
-      "Transport"
+      "Transport & Infrastructure"
     ],
     "sector_slugs": [
-      "infrastructure",
-      "transport"
+      "transport-infrastructure"
     ],
     "type": "act",
     "level": "central",
@@ -5246,12 +5242,12 @@
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
-      "Infrastructure",
-      "Rural Development"
+      "Rural Development",
+      "Transport & Infrastructure"
     ],
     "sector_slugs": [
-      "infrastructure",
-      "rural-development"
+      "rural-development",
+      "transport-infrastructure"
     ],
     "type": "act",
     "level": "central",

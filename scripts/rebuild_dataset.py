@@ -46,6 +46,23 @@ def load_sources() -> dict:
 _CANONICAL_SECTORS = set(SECTOR_KEYWORDS) | {"Civil Liberties"}
 
 
+def _clean_sectors(item: dict) -> None:
+    """Keep canonical sector names, translate known aliases, drop junk.
+    Never leave an item with zero sectors."""
+    sectors = item.get("sectors", [])
+    clean = [s for s in sectors if s in _CANONICAL_SECTORS]
+    junk = [s for s in sectors if s not in _CANONICAL_SECTORS]
+    if junk:
+        for name in normalize_sector_names(junk):
+            if name not in clean:
+                clean.append(name)
+    if not clean:
+        clean = ["Governance & Reform"]
+    if clean != sectors:
+        item["sectors"] = clean
+        item["sector_slugs"] = [get_sector_slug(s) for s in clean]
+
+
 def _retype(item: dict, cfg: dict | None) -> None:
     """Stamp kind / type / authority under the source-aware taxonomy, and
     scrub non-canonical sector names (junk like "economy, governance")."""
@@ -69,20 +86,7 @@ def _retype(item: dict, cfg: dict | None) -> None:
             item["comment_deadline"] = extract_comment_deadline(
                 f"{item.get('title', '')} {item.get('description', '')}")
 
-    # Sector hygiene: keep canonical names, translate known aliases, drop
-    # junk. Never leave an item with zero sectors.
-    sectors = item.get("sectors", [])
-    clean = [s for s in sectors if s in _CANONICAL_SECTORS]
-    junk = [s for s in sectors if s not in _CANONICAL_SECTORS]
-    if junk:
-        for name in normalize_sector_names(junk):
-            if name not in clean:
-                clean.append(name)
-    if not clean:
-        clean = ["Governance & Reform"]
-    if clean != sectors:
-        item["sectors"] = clean
-        item["sector_slugs"] = [get_sector_slug(s) for s in clean]
+    _clean_sectors(item)
 
 
 def reclassify(items: list[dict], sources: dict) -> tuple[list[dict], int, int]:
@@ -177,6 +181,7 @@ def main() -> int:
             item["kind"] = KIND_INSTRUMENT
             item["type"] = "act"
             item["authority"] = "legal"
+            _clean_sectors(item)
         with open(hist_path, "w") as f:
             json.dump(hist, f, indent=2, ensure_ascii=False)
         print(f"Retyped {len(hist)} historical acts in {hist_path.name}")
