@@ -220,7 +220,7 @@ a:hover { color: var(--color-accent-hover); }
 .logo-mark svg { width: 18px; height: 18px; }
 
 .site-logo h1 {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--color-text);
@@ -282,7 +282,7 @@ a:hover { color: var(--color-accent-hover); }
 .stat-card:nth-child(4)::before { background: #d97706; }
 
 .stat-number {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 2rem;
   font-weight: 700;
   color: var(--color-text);
@@ -490,7 +490,7 @@ a:hover { color: var(--color-accent-hover); }
 }
 
 .policy-title {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.4;
@@ -722,7 +722,7 @@ a:hover { color: var(--color-accent-hover); }
 .sector-card:nth-child(n+13)::before { background: var(--color-accent); }
 
 .sector-card-name {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 0.9375rem;
   font-weight: 600;
   color: var(--color-text);
@@ -756,7 +756,7 @@ a:hover { color: var(--color-accent-hover); }
   gap: 4px;
 }
 .footer-brand strong {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 0.9375rem;
   color: var(--color-text);
 }
@@ -819,7 +819,7 @@ a:hover { color: var(--color-accent-hover); }
 /* ── Page headings ───────────────────────────────────────────── */
 
 .page-title {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--color-text);
@@ -853,7 +853,7 @@ a:hover { color: var(--color-accent-hover); }
   border: 1px dashed var(--color-border);
 }
 .empty-state h3 {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 1.125rem;
   margin-bottom: var(--space-sm);
   color: var(--color-text-secondary);
@@ -1298,7 +1298,7 @@ body.mobile-nav-open { overflow: hidden; }
   margin: var(--space-xl) 0;
 }
 .newsletter-text h4 {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 1rem;
   font-weight: 700;
   color: var(--color-text);
@@ -1418,7 +1418,7 @@ body.mobile-nav-open { overflow: hidden; }
   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
 .kbd-help-panel h3 {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 1.125rem;
   font-weight: 700;
   margin-bottom: var(--space-md);
@@ -1467,7 +1467,7 @@ kbd {
   margin-bottom: 8px;
 }
 .cluster-title {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
   font-size: 0.9375rem;
   font-weight: 700;
   color: var(--color-text);
@@ -1801,4 +1801,70 @@ html, body { overflow-x: hidden !important; max-width: 100%; }
   .header-nav a, .mobile-nav a, .nav-hamburger, .theme-toggle .theme-opt {
     min-height: 40px;
   }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   POLICY JOURNAL — editorial redesign layer
+   Keeps the brand palette (ink + #235789 blue on warm ivory); leans the
+   type into Fraunces as a display face with optical sizing, sharpens the
+   masthead, and gives labels the small-caps "publication of record" voice.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Fraunces carries an optical-size axis — let large display cuts kick in. */
+h1, h2, h3, h4,
+.page-title, .dash-title, .lead-card h2, .sec-title, .timeline-header h3,
+.site-logo h1, .fair-era-peryear, .fig-num, .legis-era-name,
+.home-graph-head h3 {
+  font-optical-sizing: auto;
+  font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+}
+
+/* Masthead nameplate — a proper serif wordmark. */
+.site-logo h1 {
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+.logo-mark { border-radius: 3px; }
+
+/* Display scale: bigger, more confident page/dashboard headings. */
+.page-title { font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.08; }
+.dash-title { letter-spacing: -0.025em; }
+
+/* Section headings across the site read as editorial rules. */
+.page-subtitle { font-size: 0.98rem; color: var(--color-text-secondary); }
+
+/* Source labels: small-caps in the brand accent — the "byline" of each item. */
+.policy-source,
+.entry-src,
+.sidebar-card-title {
+  color: var(--color-accent);
+  letter-spacing: 0.08em;
+}
+
+/* Policy card titles: a hair larger, serif, for the contents-page feel. */
+.policy-title { font-size: 1.06rem; font-weight: 600; letter-spacing: -0.006em; }
+
+/* Warmer, quieter cards — trade the drop shadow for a hairline rule so the
+   page reads like a printed journal rather than a SaaS dashboard. */
+.policy-card, .sector-card, .insight-card, .timeline-container,
+.stat-card, .sidebar-card, .lead-card {
+  box-shadow: none;
+  border-color: var(--color-border);
+}
+.policy-card:hover, .sector-card:hover, .insight-card:hover, .lead-card:hover {
+  box-shadow: 0 2px 14px rgba(35, 87, 137, 0.10);
+  border-color: var(--color-accent-border);
+}
+
+/* Small-caps eyebrow utility, in case components adopt it. */
+.eyebrow {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--color-accent);
+}
+
+/* Links inside prose get the editorial underline. */
+.page-subtitle a, .coverage-note a, .timeline-caveat a, .cmp-desc a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
