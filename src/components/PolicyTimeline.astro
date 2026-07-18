@@ -84,7 +84,7 @@ const maxEraTotal = Math.max(...eraAgg.map(e => e.total), 1);
   {/* Mobile-only: aggregated era view (shown below 640px) */}
   <div class="timeline-eras-mobile">
     {eraAgg.map(({ era, total, types }) => {
-      const heightPct = Math.max((total / maxEraTotal) * 100, 6);
+      const heightPct = Math.max((Math.sqrt(total) / Math.sqrt(maxEraTotal)) * 100, 8);
       return (
         <div class="tle-row" style={`--era-light: ${era.light}; --era-dark: ${era.dark};`}>
           <div class="tle-meta">
@@ -125,7 +125,7 @@ const maxEraTotal = Math.max(...eraAgg.map(e => e.total), 1);
       <div class="timeline-bars">
         {allYears.map(y => (
           <div class="tl-bar-col" title={`${y.year}: ${y.total} policies`}>
-            <div class="tl-bar-stack" style={`height: ${y.total > 0 ? Math.max((y.total / maxCount) * 100, 3) : 0}%;`}>
+            <div class="tl-bar-stack" style={`height: ${y.total > 0 ? Math.max((Math.sqrt(y.total) / Math.sqrt(maxCount)) * 100, 4) : 0}%;`}>
               {Object.entries(y.types).sort(([,a], [,b]) => b - a).map(([type, count]) => (
                 <div class="tl-bar-segment" style={`flex-grow: ${count}; background: ${TYPE_COLORS[type] || '#888'};`} title={`${type}: ${count}`}></div>
               ))}
@@ -155,11 +155,11 @@ const maxEraTotal = Math.max(...eraAgg.map(e => e.total), 1);
     ))}
   </div>
   <div class="timeline-caveat">
-    <strong>This is archive coverage, not policy volume.</strong> Bar heights track how much policy is
-    <em>digitally available and recently fetched</em> — the pipeline captures the recent window each live
-    source exposes plus a thin historical seed, so recent years look large and older years look empty
-    regardless of how much policy each government actually made. The latest weeks are further inflated by the
-    most recent fetch. Do not read across eras as a productivity comparison.
+    <strong>Archive coverage over time — not a productivity comparison.</strong> Bars show how many items we
+    <em>hold</em> per year, on a square-root scale so older years stay visible next to the heavily-scraped
+    recent ones. Coverage is biased toward the present (live sources expose only a recent window), so read
+    this as "what's in the archive," not "how much each government did." For a fair like-for-like comparison,
+    see <strong>Central Acts enacted per year</strong> below.
     <a href={`${Astro.url.pathname.includes('/PolicyDhara') ? '/PolicyDhara' : ''}/about/`}>Read methodology</a>
   </div>
 </div>
