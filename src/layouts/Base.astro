@@ -22,6 +22,11 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {/* Always fetch the freshest HTML — stop browsers/CDN serving stale pages
+      after a deploy. Astro already fingerprints CSS/JS filenames. */}
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>{siteTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />

@@ -1,10 +1,10 @@
 [
   {
-    "id": "hist-liberalisation-1991",
-    "title": "New Economic Policy — Liberalisation, Privatisation, Globalisation",
-    "description": "Finance Minister Manmohan Singh introduced sweeping economic reforms dismantling the License Raj, opening India to foreign investment, reducing import tariffs, and initiating privatisation of state-owned enterprises. This fundamentally transformed India's economy from a closed, state-controlled model to a market-oriented one.",
-    "link": "https://en.wikipedia.org/wiki/Economic_liberalisation_in_India",
-    "date": "1991-07-24",
+    "id": "hist-gst-act-2017",
+    "title": "Goods and Services Tax (GST) — 101st Constitutional Amendment and Implementation",
+    "description": "India's most significant indirect tax reform, replacing 17 central and state taxes with a unified GST. Required constitutional amendment. Implemented through Central GST, State GST, and Integrated GST with a GST Council for cooperative federalism.",
+    "link": "https://www.gst.gov.in/",
+    "date": "2017-07-01",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
@@ -18,58 +18,35 @@
       "trade-commerce",
       "governance-reform"
     ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-demonetisation-2016",
+    "title": "Demonetisation of Rs 500 and Rs 1000 Banknotes",
+    "description": "Government demonetised 86% of currency in circulation overnight, invalidating Rs 500 and Rs 1000 notes. Aimed at curbing black money, counterfeiting, and terror financing. Highly debated — accelerated digital payments adoption but caused significant economic disruption.",
+    "link": "https://rbi.org.in/",
+    "date": "2016-11-08",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
     "type": "policy",
     "level": "central",
     "curated": true
   },
   {
-    "id": "hist-73rd-amendment-1992",
-    "title": "73rd Constitutional Amendment — Panchayati Raj Institutions",
-    "description": "Constitutional amendment that gave constitutional status to Panchayati Raj institutions, mandating regular elections, reservation for SC/ST and women (one-third), and devolution of powers to local self-government bodies across rural India.",
-    "link": "https://legislative.gov.in/constitution-seventy-third-amendment-act-1992",
-    "date": "1992-12-24",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Governance & Reform",
-      "Rural Development"
-    ],
-    "sector_slugs": [
-      "governance-reform",
-      "rural-development"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-74th-amendment-1992",
-    "title": "74th Constitutional Amendment — Urban Local Bodies (Municipalities)",
-    "description": "Constitutional amendment providing constitutional status to urban local bodies (municipalities), mandating regular elections, reservation for SC/ST and women, and decentralisation of urban governance.",
-    "link": "https://legislative.gov.in/constitution-seventy-fourth-amendment-act-1992",
-    "date": "1992-12-24",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Governance & Reform",
-      "Urban Development"
-    ],
-    "sector_slugs": [
-      "governance-reform",
-      "urban-development"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-sebi-act-1992",
-    "title": "Securities and Exchange Board of India (SEBI) Act, 1992",
-    "description": "Established SEBI as a statutory regulatory body to protect investor interests, regulate the securities market, and promote the development of the stock exchange. Key institution for India's capital market development.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/1891",
-    "date": "1992-01-30",
+    "id": "hist-insolvency-bankruptcy-code-2016",
+    "title": "Insolvency and Bankruptcy Code (IBC), 2016",
+    "description": "Comprehensive insolvency resolution framework consolidating existing laws. Created NCLT/NCLAT for resolution, IBBI as regulator, and Insolvency Professionals. Set strict 180-day timeline for resolution. Transformed India's credit culture.",
+    "link": "https://www.ibbi.gov.in/",
+    "date": "2016-05-28",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
@@ -81,79 +58,37 @@
       "finance-economy",
       "governance-reform"
     ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-npe-1986-revised-1992",
-    "title": "National Policy on Education (1986, Revised 1992) — Programme of Action",
-    "description": "Revised programme of action for the National Policy on Education with emphasis on Operation Blackboard, minimum levels of learning, Navodaya Vidyalayas, restructuring of higher education, and strengthening of UGC and AICTE.",
-    "link": "https://www.education.gov.in/sites/upload_files/mhrd/files/document-reports/NPE86-mod92.pdf",
-    "date": "1992-05-07",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Education"
-    ],
-    "sector_slugs": [
-      "education"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-mid-day-meal-1995",
-    "title": "National Programme of Nutritional Support to Primary Education (Mid-Day Meal Scheme)",
-    "description": "Launched to boost primary school enrollment and attendance by providing free cooked meals to children in government schools. Eventually became the world's largest school feeding programme, covering over 12 crore children.",
-    "link": "https://mdm.gov.in/",
-    "date": "1995-08-15",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Education",
-      "Social Protection",
-      "Health"
-    ],
-    "sector_slugs": [
-      "education",
-      "social-protection",
-      "health"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-nrega-1991-pds-reform",
-    "title": "Targeted Public Distribution System (TPDS) Reform",
-    "description": "Restructuring of the Public Distribution System to target Below Poverty Line (BPL) families with subsidised food grains, replacing the earlier universal PDS with a targeted approach.",
-    "link": "https://dfpd.gov.in/",
-    "date": "1997-06-01",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Social Protection",
-      "Agriculture"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "agriculture"
-    ],
     "type": "policy",
     "level": "central",
     "curated": true
   },
   {
-    "id": "hist-it-act-2000",
-    "title": "Information Technology Act, 2000",
-    "description": "India's first comprehensive cyber law providing legal recognition for electronic commerce, digital signatures, and establishing cybercrime penalties. Created the legal framework for India's digital economy.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/1999",
-    "date": "2000-06-09",
+    "id": "hist-rera-2016",
+    "title": "Real Estate (Regulation and Development) Act (RERA), 2016",
+    "description": "Established state-level Real Estate Regulatory Authorities to protect homebuyers, promote transparency, and ensure timely delivery of real estate projects. Required registration of all projects and agents, escrow for buyer funds.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2187",
+    "date": "2016-05-01",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Urban Development",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "urban-development",
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-aadhar-act-2016",
+    "title": "Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
+    "description": "Provided legislative backing for the Aadhaar project, defining it as proof of identity for receiving subsidies, benefits, and services. Passed as a money bill. Established data protection and authentication framework.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2193",
+    "date": "2016-03-26",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
@@ -170,21 +105,2299 @@
     "curated": true
   },
   {
-    "id": "hist-sarva-shiksha-abhiyan-2001",
-    "title": "Sarva Shiksha Abhiyan (SSA) — Universal Elementary Education",
-    "description": "Flagship programme for universalisation of elementary education for children aged 6-14 years. Focused on opening new schools, hiring teachers, and providing infrastructure in underserved areas. Preceded the Right to Education Act.",
-    "link": "https://samagra.education.gov.in/",
-    "date": "2001-01-01",
+    "id": "indiacode-2014-the-national-judicial-appointments-commission-ac",
+    "title": "The National Judicial Appointments Commission Act, 2014",
+    "description": "Central Act enacted 2014-12-31. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2142?view_type=browse",
+    "date": "2014-12-31",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2014-the-school-of-planning-and-architecture-act-2014",
+    "title": "The School of Planning and Architecture Act, 2014",
+    "description": "Central Act enacted 2014-12-18. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2138?view_type=browse",
+    "date": "2014-12-18",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2014-the-indian-institutes-of-information-technology-",
+    "title": "The Indian Institutes of Information Technology Act, 2014",
+    "description": "Central Act enacted 2014-12-08. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2135?view_type=browse",
+    "date": "2014-12-08",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2014-the-national-institutes-of-design-act-2014",
+    "title": "The National Institutes of Design Act, 2014",
+    "description": "Central Act enacted 2014-07-17. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2132?view_type=browse",
+    "date": "2014-07-17",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Labour & Employment"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "labour-employment"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2014-the-street-vendors-protection-of-livelihood-and-",
+    "title": "The Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014",
+    "description": "Central Act enacted 2014-03-04. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2124?view_type=browse",
+    "date": "2014-03-04",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2014-the-andhra-pradesh-reorganisation-act-2014",
+    "title": "The Andhra Pradesh Reorganisation Act, 2014",
+    "description": "Central Act enacted 2014-03-01. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2123?view_type=browse",
+    "date": "2014-03-01",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-lokpal-act-2013",
+    "title": "Lokpal and Lokayuktas Act, 2013",
+    "description": "Established the institution of Lokpal at the central level and Lokayuktas at the state level to inquire into allegations of corruption against public functionaries including the Prime Minister (with safeguards).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2103",
+    "date": "2014-01-01",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2014-the-lokpal-and-lokayuktas-act-2013",
+    "title": "The Lokpal and Lokayuktas Act, 2013",
+    "description": "Central Act enacted 2014-01-01. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2122?view_type=browse",
+    "date": "2014-01-01",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-land-acquisition-act-2013",
+    "title": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013",
+    "description": "Replaced the colonial-era Land Acquisition Act of 1894. Required consent of 80% of landowners for private projects and 70% for PPP projects, social impact assessment, enhanced compensation (2-4x market value), and mandatory rehabilitation.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2116",
+    "date": "2013-09-27",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Rural Development",
+      "Governance & Reform",
+      "Infrastructure"
+    ],
+    "sector_slugs": [
+      "rural-development",
+      "governance-reform",
+      "infrastructure"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2013-the-right-to-fair-compensation-and-transparency-",
+    "title": "The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013",
+    "description": "Central Act enacted 2013-09-26. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2121?view_type=browse",
+    "date": "2013-09-26",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2013-the-prohibition-of-employment-as-manual-scavenge",
+    "title": "The Prohibition of Employment as Manual Scavengers and their Rehabilitation Act, 2013",
+    "description": "Central Act enacted 2013-09-18. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2119?view_type=browse",
+    "date": "2013-09-18",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Labour & Employment"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "labour-employment"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2013-the-rajiv-gandhi-national-aviation-university-ac",
+    "title": "The Rajiv Gandhi National Aviation University Act, 2013",
+    "description": "Central Act enacted 2013-09-18. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2120?view_type=browse",
+    "date": "2013-09-18",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology",
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology",
+      "transport-infrastructure"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2013-the-pension-fund-regulatory-and-development-auth",
+    "title": "The Pension Fund Regulatory and Development Authority Act, 2013",
+    "description": "Central Act enacted 2013-09-18. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2117?view_type=browse",
+    "date": "2013-09-18",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-food-security-act-2013",
+    "title": "National Food Security Act (NFSA), 2013",
+    "description": "Legally entitled up to 75% of rural and 50% of urban population to receive subsidised food grains under the Targeted Public Distribution System. Made food security a legal right, covering approximately 82 crore people.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2113",
+    "date": "2013-09-12",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Social Protection",
+      "Agriculture"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "agriculture"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2013-the-national-food-security-act-2013",
+    "title": "The National Food Security Act, 2013",
+    "description": "Central Act enacted 2013-09-10. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2113?view_type=browse",
+    "date": "2013-09-10",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-companies-act-2013",
+    "title": "Companies Act, 2013",
+    "description": "Comprehensive overhaul of corporate law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profits for qualifying companies), class action suits, one-person companies, and enhanced corporate governance norms.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2114",
+    "date": "2013-08-29",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Finance & Economy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2013-the-companies-act-2013",
+    "title": "The Companies Act, 2013",
+    "description": "Central Act enacted 2013-08-29. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2114?view_type=browse",
+    "date": "2013-08-29",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-sexual-harassment-act-2013",
+    "title": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+    "description": "Legislation to protect women from sexual harassment at workplace, mandating Internal Complaints Committees in organisations with 10+ employees, defining sexual harassment, and establishing complaint and redressal mechanisms.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2104",
+    "date": "2013-04-23",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Gender & Women",
+      "Labour & Employment",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "gender-women",
+      "labour-employment",
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2013-the-sexual-harassment-of-women-at-workplace-prev",
+    "title": "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+    "description": "Central Act enacted 2013-04-22. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2104?view_type=browse",
+    "date": "2013-04-22",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Gender & Women",
+      "Digital & Technology",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "gender-women",
+      "digital-technology",
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-dbt-2013",
+    "title": "Direct Benefit Transfer (DBT) — Pilot Launch",
+    "description": "Launched to transfer subsidies directly to beneficiary bank accounts linked to Aadhaar, reducing leakages and middlemen. Initially covered LPG subsidy (PAHAL), scholarships, and MGNREGA wages. Later expanded massively under NDA government.",
+    "link": "https://dbtbharat.gov.in/",
+    "date": "2013-01-01",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Governance & Reform",
+      "Finance & Economy",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "finance-economy",
+      "digital-technology"
+    ],
+    "type": "policy",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2012-the-national-institute-of-mental-health-and-neur",
+    "title": "The National Institute of Mental Health and Neuro-Sciences, Bangalore Act, 2012",
+    "description": "Central Act enacted 2012-09-13. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2103?view_type=browse",
+    "date": "2012-09-13",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Health",
+      "Social Protection",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "health",
+      "social-protection",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2012-the-rajiv-gandhi-national-institute-of-youth-dev",
+    "title": "The Rajiv Gandhi National Institute of Youth Development Act, 2012",
+    "description": "Central Act enacted 2012-08-30. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2111?view_type=browse",
+    "date": "2012-08-30",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2012-the-protection-of-children-from-sexual-offences-",
+    "title": "The Protection of Children from Sexual Offences Act, 2012",
+    "description": "Central Act enacted 2012-06-19. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2079?view_type=browse",
+    "date": "2012-06-19",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Child Rights & Youth"
+    ],
+    "sector_slugs": [
+      "child-rights-youth"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2012-the-academy-of-scientific-and-innovative-researc",
+    "title": "The Academy of Scientific and Innovative Research Act, 2011",
+    "description": "Central Act enacted 2012-02-06. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2110?view_type=browse",
+    "date": "2012-02-06",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Science & Innovation",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "science-innovation",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2012-the-factoring-regulation-act-2011",
+    "title": "The Factoring Regulation Act, 2011",
+    "description": "Central Act enacted 2012-01-22. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2116?view_type=browse",
+    "date": "2012-01-22",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2011-the-national-capital-territory-of-delhi-laws-spe",
+    "title": "The National Capital Territory of Delhi Laws (Special Provisions) Second Act, 2011",
+    "description": "Central Act enacted 2011-12-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2115?view_type=browse",
+    "date": "2011-12-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2011-the-orissa-alteration-of-name-act-2011",
+    "title": "The Orissa (Alteration of Name) Act, 2011",
+    "description": "Central Act enacted 2011-09-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2108?view_type=browse",
+    "date": "2011-09-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2011-the-coinage-act-2011",
+    "title": "The Coinage Act, 2011",
+    "description": "Central Act enacted 2011-09-01. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2112?view_type=browse",
+    "date": "2011-09-01",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-foreign-contribution-regulation-act-2010",
+    "title": "The Foreign Contribution (Regulation) Act, 2010",
+    "description": "Central Act enacted 2010-09-26. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2098?view_type=browse",
+    "date": "2010-09-26",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-civil-liability-for-nuclear-damage-act-2010",
+    "title": "The Civil Liability for Nuclear Damage Act, 2010",
+    "description": "Central Act enacted 2010-09-21. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2084?view_type=browse",
+    "date": "2010-09-21",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Water & Sanitation",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "water-sanitation",
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-nalanda-university-act-2010",
+    "title": "The Nalanda University Act, 2010",
+    "description": "Central Act enacted 2010-09-21. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2109?view_type=browse",
+    "date": "2010-09-21",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-land-ports-authority-of-india-act-2010",
+    "title": "The Land Ports Authority of India Act, 2010",
+    "description": "Central Act enacted 2010-08-31. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2105?view_type=browse",
+    "date": "2010-08-31",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "transport-infrastructure"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-clinical-establishments-registration-and-reg",
+    "title": "The Clinical Establishments (Registration and Regulation) Act, 2010",
+    "description": "Central Act enacted 2010-08-18. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2048?view_type=browse",
+    "date": "2010-08-18",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-national-green-tribunal-2010",
+    "title": "National Green Tribunal (NGT) Act, 2010",
+    "description": "Established the National Green Tribunal for effective and expeditious disposal of cases relating to environmental protection, conservation of forests, and enforcement of environmental legal rights. One of few dedicated environmental courts globally.",
+    "link": "https://greentribunal.gov.in/",
+    "date": "2010-06-02",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Climate & Environment",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-national-green-tribunal-act-2010",
+    "title": "The National Green Tribunal Act, 2010",
+    "description": "Central Act enacted 2010-06-02. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2025?view_type=browse",
+    "date": "2010-06-02",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "climate-environment"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-tamil-nadu-legislative-council-act-2010",
+    "title": "The Tamil Nadu Legislative Council Act, 2010",
+    "description": "Central Act enacted 2010-05-18. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2015?view_type=browse",
+    "date": "2010-05-18",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2010-the-legal-metrology-act-2009",
+    "title": "The Legal Metrology Act, 2009",
+    "description": "Central Act enacted 2010-01-13. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2102?view_type=browse",
+    "date": "2010-01-13",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Urban Development"
+    ],
+    "sector_slugs": [
+      "urban-development"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-national-solar-mission-2010",
+    "title": "Jawaharlal Nehru National Solar Mission",
+    "description": "Launched under the National Action Plan on Climate Change with a target of 20 GW solar power by 2022 (later revised upward to 100 GW). Catalysed India's solar energy revolution through VGF subsidies, RPOs, and competitive bidding.",
+    "link": "https://mnre.gov.in/solar/solar-mission/",
+    "date": "2010-01-11",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Energy",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "energy",
+      "climate-environment"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-rte-act-2009",
+    "title": "Right of Children to Free and Compulsory Education (RTE) Act, 2009",
+    "description": "Made education a fundamental right for children aged 6-14 years, mandating free and compulsory education in neighbourhood schools. Required 25% reservation in private schools for economically weaker sections. Set norms for pupil-teacher ratios and infrastructure.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2086",
+    "date": "2009-08-26",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Education",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "education",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-right-of-children-to-free-and-compulsory-edu",
+    "title": "The Right of Children to Free and Compulsory Education Act, 2009",
+    "description": "Central Act enacted 2009-08-26. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2086?view_type=browse",
+    "date": "2009-08-26",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Child Rights & Youth",
       "Education"
     ],
     "sector_slugs": [
+      "child-rights-youth",
       "education"
     ],
     "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-aadhaar-uid-2009",
+    "title": "Unique Identification Authority of India (UIDAI) — Aadhaar Project Launch",
+    "description": "Establishment of UIDAI under Nandan Nilekani to issue unique 12-digit identification numbers (Aadhaar) to all residents of India. Became the world's largest biometric ID system, later underpinning Direct Benefit Transfer and digital governance.",
+    "link": "https://uidai.gov.in/",
+    "date": "2009-06-28",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Digital & Technology",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "governance-reform"
+    ],
+    "type": "policy",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-central-universities-act-2009",
+    "title": "The Central Universities Act, 2009",
+    "description": "Central Act enacted 2009-03-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2080?view_type=browse",
+    "date": "2009-03-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-prevention-and-control-of-infectious-and-con",
+    "title": "The Prevention and Control of Infectious and Contagious Diseases in Animals Act, 2009",
+    "description": "Central Act enacted 2009-03-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2101?view_type=browse",
+    "date": "2009-03-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Health",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "health",
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-national-jute-board-act-2008",
+    "title": "The National Jute Board Act, 2008",
+    "description": "Central Act enacted 2009-02-12. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2092?view_type=browse",
+    "date": "2009-02-12",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-south-asian-university-act-2008",
+    "title": "The South Asian University Act, 2008",
+    "description": "Central Act enacted 2009-01-11. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2095?view_type=browse",
+    "date": "2009-01-11",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-gram-nyayalayas-act-2008",
+    "title": "The Gram Nyayalayas Act, 2008",
+    "description": "Central Act enacted 2009-01-07. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2060?view_type=browse",
+    "date": "2009-01-07",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Rural Development"
+    ],
+    "sector_slugs": [
+      "rural-development"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-limited-liability-partnership-act-2008",
+    "title": "The Limited Liability Partnership Act, 2008",
+    "description": "Central Act enacted 2009-01-07. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2023?view_type=browse",
+    "date": "2009-01-07",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2009-the-collection-of-statistics-act-2008",
+    "title": "The Collection of Statistics Act, 2008",
+    "description": "Central Act enacted 2009-01-07. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2081?view_type=browse",
+    "date": "2009-01-07",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2008-the-national-investigation-agency-act-2008",
+    "title": "The National Investigation Agency Act, 2008",
+    "description": "Central Act enacted 2008-12-31. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2054?view_type=browse",
+    "date": "2008-12-31",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2008-the-airports-economic-regulatory-authority-of-in",
+    "title": "The Airports Economic Regulatory Authority of India Act, 2008",
+    "description": "Central Act enacted 2008-12-05. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2090?view_type=browse",
+    "date": "2008-12-05",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "transport-infrastructure"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2008-the-indian-maritime-university-act-2008",
+    "title": "The Indian Maritime University Act, 2008",
+    "description": "Central Act enacted 2008-11-11. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2093?view_type=browse",
+    "date": "2008-11-11",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-national-action-plan-climate-2008",
+    "title": "National Action Plan on Climate Change (NAPCC)",
+    "description": "India's comprehensive climate change strategy with eight National Missions: Solar, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining Himalayan Ecosystem, Green India, Sustainable Agriculture, and Strategic Knowledge.",
+    "link": "https://moef.gov.in/",
+    "date": "2008-06-30",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Climate & Environment",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "energy"
+    ],
+    "type": "policy",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2008-the-jawaharlal-institute-of-post-graduate-medica",
+    "title": "The Jawaharlal Institute of Post-Graduate Medical Education and Research, Puducherry, Act, 2008",
+    "description": "Central Act enacted 2008-05-16. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2089?view_type=browse",
+    "date": "2008-05-16",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Health",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "health",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-rsby-2008",
+    "title": "Rashtriya Swasthya Bima Yojana (RSBY) — Health Insurance for BPL Families",
+    "description": "Government-funded health insurance scheme providing hospitalisation coverage of Rs 30,000 per year to Below Poverty Line families. Covered over 3.6 crore families. Predecessor to Ayushman Bharat PM-JAY.",
+    "link": "https://www.india.gov.in/spotlight/rashtriya-swasthya-bima-yojana",
+    "date": "2008-04-01",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Health",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "health",
+      "social-protection"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-maintenance-and-welfare-of-parents-and-senio",
+    "title": "The Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+    "description": "Central Act enacted 2007-12-29. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2033?view_type=browse",
+    "date": "2007-12-29",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Housing"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "housing"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-armed-forces-tribunal-act-2007",
+    "title": "The Armed Forces Tribunal Act, 2007",
+    "description": "Central Act enacted 2007-12-25. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2077?view_type=browse",
+    "date": "2007-12-25",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-rajiv-gandhi-institute-of-petroleum-technolo",
+    "title": "The Rajiv Gandhi Institute of Petroleum Technology Act, 2007",
+    "description": "Central Act enacted 2007-12-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2062?view_type=browse",
+    "date": "2007-12-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-indira-gandhi-national-tribal-university-act",
+    "title": "The Indira Gandhi National Tribal University Act, 2007",
+    "description": "Central Act enacted 2007-12-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2016?view_type=browse",
+    "date": "2007-12-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology",
+      "Tribal & Indigenous"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology",
+      "tribal-indigenous"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-sashastra-seema-bal-act-2007",
+    "title": "The Sashastra Seema Bal Act, 2007",
+    "description": "Central Act enacted 2007-12-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2039?view_type=browse",
+    "date": "2007-12-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-payment-and-settlement-systems-act-2007",
+    "title": "The Payment and Settlement Systems Act, 2007",
+    "description": "Central Act enacted 2007-12-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2082?view_type=browse",
+    "date": "2007-12-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-tyre-corporation-of-india-limited-disinvestm",
+    "title": "The Tyre Corporation of India Limited (Disinvestment of Ownership) Act, 2007",
+    "description": "Central Act enacted 2007-12-12. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2072?view_type=browse",
+    "date": "2007-12-12",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-carriage-by-road-act-2007",
+    "title": "The Carriage by Road Act, 2007",
+    "description": "Central Act enacted 2007-09-29. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2043?view_type=browse",
+    "date": "2007-09-29",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "transport-infrastructure"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-warehousing-development-and-regulation-act-2",
+    "title": "The Warehousing (Development and Regulation) Act, 2007",
+    "description": "Central Act enacted 2007-09-19. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2020?view_type=browse",
+    "date": "2007-09-19",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Energy",
+      "Housing"
+    ],
+    "sector_slugs": [
+      "energy",
+      "housing"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-national-food-security-mission-2007",
+    "title": "National Food Security Mission (NFSM)",
+    "description": "Centrally sponsored scheme to increase production of rice, wheat, and pulses through area expansion, productivity enhancement, and technology dissemination. Targeted an additional 10 million tonnes of rice, 8 million tonnes of wheat, and 2 million tonnes of pulses.",
+    "link": "https://nfsm.gov.in/",
+    "date": "2007-08-01",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Agriculture"
+    ],
+    "sector_slugs": [
+      "agriculture"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-national-institutes-of-technology-science-ed",
+    "title": "The National Institutes of Technology, Science Education and Research Act, 2007",
+    "description": "Central Act enacted 2007-06-05. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2083?view_type=browse",
+    "date": "2007-06-05",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "science-innovation"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-national-rural-employment-guarantee-extensio",
+    "title": "The National Rural Employment Guarantee (Extension to Jammu and Kashmir) Act, 2007",
+    "description": "Central Act enacted 2007-05-11. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2088?view_type=browse",
+    "date": "2007-05-11",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Rural Development",
+      "Social Protection",
+      "Labour & Employment"
+    ],
+    "sector_slugs": [
+      "rural-development",
+      "social-protection",
+      "labour-employment"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-sports-broadcasting-signals-mandatory-sharin",
+    "title": "The Sports Broadcasting Signals (Mandatory Sharing with PrasarBharati) Act, 2007",
+    "description": "Central Act enacted 2007-03-19. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2076?view_type=browse",
+    "date": "2007-03-19",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Transport & Infrastructure",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "transport-infrastructure",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-nkm-semiconductor-2007",
+    "title": "National Knowledge Commission — Recommendations on Higher Education Reform",
+    "description": "Sam Pitroda-led commission recommended establishing 1,500 new universities, independent regulatory authority replacing UGC, reform of professional education, and Open Educational Resources. Influenced subsequent education policy.",
+    "link": "https://knowledgecommission.gov.in/",
+    "date": "2007-01-12",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Education",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "education",
+      "science-innovation"
+    ],
+    "type": "policy",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-english-and-foreign-languages-university-act",
+    "title": "The English and Foreign Languages University Act, 2006",
+    "description": "Central Act enacted 2007-01-10. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2078?view_type=browse",
+    "date": "2007-01-10",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-tripura-university-act-2006",
+    "title": "The Tripura University Act, 2006",
+    "description": "Central Act enacted 2007-01-10. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2094?view_type=browse",
+    "date": "2007-01-10",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-sikkim-university-act-2006",
+    "title": "The Sikkim University Act, 2006",
+    "description": "Central Act enacted 2007-01-10. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2049?view_type=browse",
+    "date": "2007-01-10",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-rajiv-gandhi-university-act-2006",
+    "title": "The Rajiv Gandhi University Act, 2006",
+    "description": "Central Act enacted 2007-01-10. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2087?view_type=browse",
+    "date": "2007-01-10",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-prohibition-of-child-marriage-act-2006",
+    "title": "The Prohibition of Child Marriage Act, 2006",
+    "description": "Central Act enacted 2007-01-10. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2055?view_type=browse",
+    "date": "2007-01-10",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Child Rights & Youth",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "child-rights-youth",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2007-the-central-educational-institutions-reservation",
+    "title": "The Central Educational Institutions (Reservation in Admission) Act, 2006",
+    "description": "Central Act enacted 2007-01-03. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2091?view_type=browse",
+    "date": "2007-01-03",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection",
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-scheduled-tribes-forest-rights-2006",
+    "title": "Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006",
+    "description": "Recognised the rights of forest-dwelling tribal communities and other traditional forest dwellers to forest resources on which they have been dependent for centuries. Addresses historical injustice in forest governance.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1750",
+    "date": "2006-12-29",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Tribal Affairs",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "tribal-affairs",
+      "climate-environment"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-scheduled-tribes-and-other-traditional-fores",
+    "title": "The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006",
+    "description": "Central Act enacted 2006-12-29. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2070?view_type=browse",
+    "date": "2006-12-29",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection",
+      "Tribal & Indigenous",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "tribal-indigenous",
+      "climate-environment"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-uttaranchal-alteration-of-name-act-2006",
+    "title": "The Uttaranchal (Alteration of Name) Act, 2006",
+    "description": "Central Act enacted 2006-12-21. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2047?view_type=browse",
+    "date": "2006-12-21",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection",
+      "Defence & Security"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "defence-security"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-assam-rifles-act-2006",
+    "title": "The Assam Rifles Act, 2006",
+    "description": "Central Act enacted 2006-11-03. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2037?view_type=browse",
+    "date": "2006-11-03",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-pondicherry-alteration-of-name-act-2006",
+    "title": "The Pondicherry (Alteration of Name) Act, 2006",
+    "description": "Central Act enacted 2006-09-13. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2075?view_type=browse",
+    "date": "2006-09-13",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-cantonments-act-2006",
+    "title": "The Cantonments Act, 2006",
+    "description": "Central Act enacted 2006-09-13. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2066?view_type=browse",
+    "date": "2006-09-13",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-government-securities-act-2006",
+    "title": "The Government Securities Act, 2006",
+    "description": "Central Act enacted 2006-08-30. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2059?view_type=browse",
+    "date": "2006-08-30",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-actuaries-act-2006",
+    "title": "The Actuaries Act, 2006",
+    "description": "Central Act enacted 2006-08-27. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2069?view_type=browse",
+    "date": "2006-08-27",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-food-safety-and-standards-act-2006",
+    "title": "The Food Safety and Standards Act, 2006",
+    "description": "Central Act enacted 2006-08-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2027?view_type=browse",
+    "date": "2006-08-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-icds-restructured-2006",
+    "title": "Integrated Child Development Services (ICDS) Restructuring",
+    "description": "Major restructuring and expansion of ICDS to universalise early childhood care, nutrition, and pre-school education through Anganwadi centres. India's primary response to child malnutrition covering over 8 crore beneficiaries.",
+    "link": "https://wcd.nic.in/",
+    "date": "2006-08-01",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Health",
+      "Social Protection",
+      "Gender & Women"
+    ],
+    "sector_slugs": [
+      "health",
+      "social-protection",
+      "gender-women"
+    ],
+    "type": "policy",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-national-institute-of-fashion-technology-act",
+    "title": "The National Institute of Fashion Technology Act, 2006",
+    "description": "Central Act enacted 2006-07-13. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2031?view_type=browse",
+    "date": "2006-07-13",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-micro-small-and-medium-enterprises-developme",
+    "title": "The Micro, Small and Medium Enterprises Development Act, 2006",
+    "description": "Central Act enacted 2006-06-16. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2013?view_type=browse",
+    "date": "2006-06-16",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-petroleum-and-natural-gas-regulatory-board-a",
+    "title": "The Petroleum and Natural Gas Regulatory Board Act, 2006",
+    "description": "Central Act enacted 2006-03-31. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2012?view_type=browse",
+    "date": "2006-03-31",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-commissions-for-protection-of-child-rights-a",
+    "title": "The Commissions for Protection of Child Rights Act, 2005",
+    "description": "Central Act enacted 2006-01-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2056?view_type=browse",
+    "date": "2006-01-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Child Rights & Youth"
+    ],
+    "sector_slugs": [
+      "child-rights-youth"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2006-the-andhra-pradesh-legislative-council-act-2005",
+    "title": "The Andhra Pradesh Legislative Council Act, 2005",
+    "description": "Central Act enacted 2006-01-11. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1732?view_type=browse",
+    "date": "2006-01-11",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-poc-sc-st-amendment-2005",
+    "title": "Protection of Civil Rights and SC/ST (Prevention of Atrocities) Amendment",
+    "description": "Strengthened protections for Scheduled Castes and Scheduled Tribes against caste-based atrocities. Enhanced penalties, established special courts, and provided for rights of victims during investigation and trial.",
+    "link": "https://www.indiacode.nic.in/",
+    "date": "2005-12-30",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-manipur-university-act-2005",
+    "title": "The Manipur University Act, 2005",
+    "description": "Central Act enacted 2005-12-28. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2051?view_type=browse",
+    "date": "2005-12-28",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology",
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology",
+      "transport-infrastructure"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-disaster-management-act-2005",
+    "title": "The Disaster Management Act, 2005",
+    "description": "Central Act enacted 2005-12-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2045?view_type=browse",
+    "date": "2005-12-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "trade-commerce"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-national-tax-tribunal-act-2005",
+    "title": "The National Tax Tribunal Act, 2005",
+    "description": "Central Act enacted 2005-12-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2032?view_type=browse",
+    "date": "2005-12-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-state-emblem-of-india-prohibition-of-imprope",
+    "title": "The State Emblem of India (Prohibition of Improper Use) Act, 2005",
+    "description": "Central Act enacted 2005-12-20. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2038?view_type=browse",
+    "date": "2005-12-20",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-jawaharlal-nehru-urban-renewal-2005",
+    "title": "Jawaharlal Nehru National Urban Renewal Mission (JNNURM)",
+    "description": "India's first major urban reform programme aimed at infrastructure development, urban governance reform, and provision of basic services to the urban poor in 65 mission cities. Required urban local body reforms as conditionality.",
+    "link": "https://mohua.gov.in/",
+    "date": "2005-12-03",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Urban Development",
+      "Infrastructure"
+    ],
+    "sector_slugs": [
+      "urban-development",
+      "infrastructure"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-domestic-violence-act-2005",
+    "title": "Protection of Women from Domestic Violence Act, 2005",
+    "description": "Civil law to protect women from domestic violence including physical, sexual, verbal, emotional, and economic abuse. Provided for protection orders, residence orders, and monetary relief. Extended protection to all women in domestic relationships.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2021",
+    "date": "2005-09-13",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Gender & Women",
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "gender-women",
+      "social-protection",
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-protection-of-women-from-domestic-violence-a",
+    "title": "The Protection of Women from Domestic Violence Act, 2005",
+    "description": "Central Act enacted 2005-09-13. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2021?view_type=browse",
+    "date": "2005-09-13",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Gender & Women",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "gender-women",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-nrega-2005",
+    "title": "National Rural Employment Guarantee Act (NREGA/MGNREGA), 2005",
+    "description": "Guaranteed 100 days of wage employment per year to every rural household whose adult members volunteer to do unskilled manual work. The world's largest public works programme, providing a social safety net to millions. Later renamed MGNREGA.",
+    "link": "https://nrega.nic.in/",
+    "date": "2005-08-25",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Rural Development",
+      "Labour & Employment",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "rural-development",
+      "labour-employment",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-coastal-aquaculture-authority-act-2005",
+    "title": "The Coastal Aquaculture Authority Act, 2005",
+    "description": "Central Act enacted 2005-06-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2068?view_type=browse",
+    "date": "2005-06-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-bihar-value-added-tax-act-2005",
+    "title": "The Bihar Value Added Tax Act, 2005",
+    "description": "Central Act enacted 2005-06-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/18937?view_type=browse",
+    "date": "2005-06-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-credit-information-companies-regulation-act-",
+    "title": "The Credit Information Companies (Regulation) Act, 2005.",
+    "description": "Central Act enacted 2005-06-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2057?view_type=browse",
+    "date": "2005-06-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-university-of-allahabad-act-2005",
+    "title": "The University of Allahabad Act, 2005",
+    "description": "Central Act enacted 2005-06-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2019?view_type=browse",
+    "date": "2005-06-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-special-economic-zones-act-2005",
+    "title": "The Special Economic Zones Act, 2005",
+    "description": "Central Act enacted 2005-06-23. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2042?view_type=browse",
+    "date": "2005-06-23",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "trade-commerce"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-rti-act-2005",
+    "title": "Right to Information (RTI) Act, 2005",
+    "description": "Landmark transparency legislation giving citizens the right to access information from public authorities. Established Information Commissions at central and state levels. Widely regarded as one of the most significant governance reforms in Indian democracy.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1993",
+    "date": "2005-06-15",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-right-to-information-act-2005",
+    "title": "The Right to Information Act, 2005",
+    "description": "Central Act enacted 2005-06-15. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2065?view_type=browse",
+    "date": "2005-06-15",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-weapons-of-mass-destruction-and-their-delive",
+    "title": "The Weapons of Mass Destruction and their Delivery Systems (Prohibition of Unlawful Activities) Act, 2005",
+    "description": "Central Act enacted 2005-06-06. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2017?view_type=browse",
+    "date": "2005-06-06",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-nrhm-2005",
+    "title": "National Rural Health Mission (NRHM)",
+    "description": "Major health sector initiative to provide accessible, affordable, and quality healthcare to rural populations. Introduced ASHA workers, strengthened sub-centres and PHCs, and focused on maternal and child health. Later subsumed into National Health Mission.",
+    "link": "https://nhm.gov.in/",
+    "date": "2005-04-12",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Health",
+      "Rural Development"
+    ],
+    "sector_slugs": [
+      "health",
+      "rural-development"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2005-the-national-commission-for-minority-educational",
+    "title": "The National Commission for Minority Educational Institutes Act, 2004",
+    "description": "Central Act enacted 2005-01-06. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1897?view_type=browse",
+    "date": "2005-01-06",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Education",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "education",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2004-the-prevention-of-terrorism-repeal-act-2004",
+    "title": "The Prevention of Terrorism (Repeal) Act, 2004",
+    "description": "Central Act enacted 2004-12-21. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1672?view_type=browse",
+    "date": "2004-12-21",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "indiacode-2004-the-sick-industrial-companies-special-provisions",
+    "title": "The Sick Industrial Companies (Special Provisions) Repeal Act, 2003",
+    "description": "Central Act enacted 2004-01-01. Full text on India Code (indiacode.nic.in).",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1414?view_type=browse",
+    "date": "2004-01-01",
+    "source_id": "india_code_history",
+    "source_name": "India Code (Historical)",
+    "source_short": "India Code",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-mnp-2003",
+    "title": "Mobile Number Portability and Unified Access Licensing — Telecom Reform",
+    "description": "TRAI introduced unified access licensing and later mobile number portability, transforming India's telecom sector. Combined with NTP 1999, these reforms enabled the mobile revolution that connected over a billion Indians.",
+    "link": "https://trai.gov.in/",
+    "date": "2003-11-11",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Digital & Technology",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "trade-commerce"
+    ],
+    "type": "policy",
     "level": "central",
     "curated": true
   },
@@ -231,307 +2444,11 @@
     "curated": true
   },
   {
-    "id": "hist-nrhm-2005",
-    "title": "National Rural Health Mission (NRHM)",
-    "description": "Major health sector initiative to provide accessible, affordable, and quality healthcare to rural populations. Introduced ASHA workers, strengthened sub-centres and PHCs, and focused on maternal and child health. Later subsumed into National Health Mission.",
-    "link": "https://nhm.gov.in/",
-    "date": "2005-04-12",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Health",
-      "Rural Development"
-    ],
-    "sector_slugs": [
-      "health",
-      "rural-development"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-rti-act-2005",
-    "title": "Right to Information (RTI) Act, 2005",
-    "description": "Landmark transparency legislation giving citizens the right to access information from public authorities. Established Information Commissions at central and state levels. Widely regarded as one of the most significant governance reforms in Indian democracy.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/1993",
-    "date": "2005-06-15",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-nrega-2005",
-    "title": "National Rural Employment Guarantee Act (NREGA/MGNREGA), 2005",
-    "description": "Guaranteed 100 days of wage employment per year to every rural household whose adult members volunteer to do unskilled manual work. The world's largest public works programme, providing a social safety net to millions. Later renamed MGNREGA.",
-    "link": "https://nrega.nic.in/",
-    "date": "2005-08-25",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Rural Development",
-      "Labour & Employment",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "rural-development",
-      "labour-employment",
-      "social-protection"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-scheduled-tribes-forest-rights-2006",
-    "title": "Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006",
-    "description": "Recognised the rights of forest-dwelling tribal communities and other traditional forest dwellers to forest resources on which they have been dependent for centuries. Addresses historical injustice in forest governance.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/1750",
-    "date": "2006-12-29",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Tribal Affairs",
-      "Climate & Environment"
-    ],
-    "sector_slugs": [
-      "tribal-affairs",
-      "climate-environment"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-jawaharlal-nehru-urban-renewal-2005",
-    "title": "Jawaharlal Nehru National Urban Renewal Mission (JNNURM)",
-    "description": "India's first major urban reform programme aimed at infrastructure development, urban governance reform, and provision of basic services to the urban poor in 65 mission cities. Required urban local body reforms as conditionality.",
-    "link": "https://mohua.gov.in/",
-    "date": "2005-12-03",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Urban Development",
-      "Infrastructure"
-    ],
-    "sector_slugs": [
-      "urban-development",
-      "infrastructure"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-national-food-security-mission-2007",
-    "title": "National Food Security Mission (NFSM)",
-    "description": "Centrally sponsored scheme to increase production of rice, wheat, and pulses through area expansion, productivity enhancement, and technology dissemination. Targeted an additional 10 million tonnes of rice, 8 million tonnes of wheat, and 2 million tonnes of pulses.",
-    "link": "https://nfsm.gov.in/",
-    "date": "2007-08-01",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Agriculture"
-    ],
-    "sector_slugs": [
-      "agriculture"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-rsby-2008",
-    "title": "Rashtriya Swasthya Bima Yojana (RSBY) — Health Insurance for BPL Families",
-    "description": "Government-funded health insurance scheme providing hospitalisation coverage of Rs 30,000 per year to Below Poverty Line families. Covered over 3.6 crore families. Predecessor to Ayushman Bharat PM-JAY.",
-    "link": "https://www.india.gov.in/spotlight/rashtriya-swasthya-bima-yojana",
-    "date": "2008-04-01",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Health",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "health",
-      "social-protection"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-aadhaar-uid-2009",
-    "title": "Unique Identification Authority of India (UIDAI) — Aadhaar Project Launch",
-    "description": "Establishment of UIDAI under Nandan Nilekani to issue unique 12-digit identification numbers (Aadhaar) to all residents of India. Became the world's largest biometric ID system, later underpinning Direct Benefit Transfer and digital governance.",
-    "link": "https://uidai.gov.in/",
-    "date": "2009-06-28",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Digital & Technology",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "governance-reform"
-    ],
-    "type": "policy",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-rte-act-2009",
-    "title": "Right of Children to Free and Compulsory Education (RTE) Act, 2009",
-    "description": "Made education a fundamental right for children aged 6-14 years, mandating free and compulsory education in neighbourhood schools. Required 25% reservation in private schools for economically weaker sections. Set norms for pupil-teacher ratios and infrastructure.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2086",
-    "date": "2009-08-26",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Education",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "education",
-      "social-protection"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-national-green-tribunal-2010",
-    "title": "National Green Tribunal (NGT) Act, 2010",
-    "description": "Established the National Green Tribunal for effective and expeditious disposal of cases relating to environmental protection, conservation of forests, and enforcement of environmental legal rights. One of few dedicated environmental courts globally.",
-    "link": "https://greentribunal.gov.in/",
-    "date": "2010-06-02",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Climate & Environment",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "climate-environment",
-      "governance-reform"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-national-solar-mission-2010",
-    "title": "Jawaharlal Nehru National Solar Mission",
-    "description": "Launched under the National Action Plan on Climate Change with a target of 20 GW solar power by 2022 (later revised upward to 100 GW). Catalysed India's solar energy revolution through VGF subsidies, RPOs, and competitive bidding.",
-    "link": "https://mnre.gov.in/solar/solar-mission/",
-    "date": "2010-01-11",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Energy",
-      "Climate & Environment"
-    ],
-    "sector_slugs": [
-      "energy",
-      "climate-environment"
-    ],
-    "type": "scheme",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-dbt-2013",
-    "title": "Direct Benefit Transfer (DBT) — Pilot Launch",
-    "description": "Launched to transfer subsidies directly to beneficiary bank accounts linked to Aadhaar, reducing leakages and middlemen. Initially covered LPG subsidy (PAHAL), scholarships, and MGNREGA wages. Later expanded massively under NDA government.",
-    "link": "https://dbtbharat.gov.in/",
-    "date": "2013-01-01",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Governance & Reform",
-      "Finance & Economy",
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "governance-reform",
-      "finance-economy",
-      "digital-technology"
-    ],
-    "type": "policy",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-food-security-act-2013",
-    "title": "National Food Security Act (NFSA), 2013",
-    "description": "Legally entitled up to 75% of rural and 50% of urban population to receive subsidised food grains under the Targeted Public Distribution System. Made food security a legal right, covering approximately 82 crore people.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2113",
-    "date": "2013-09-12",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Social Protection",
-      "Agriculture"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "agriculture"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-land-acquisition-act-2013",
-    "title": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013",
-    "description": "Replaced the colonial-era Land Acquisition Act of 1894. Required consent of 80% of landowners for private projects and 70% for PPP projects, social impact assessment, enhanced compensation (2-4x market value), and mandatory rehabilitation.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2116",
-    "date": "2013-09-27",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Rural Development",
-      "Governance & Reform",
-      "Infrastructure"
-    ],
-    "sector_slugs": [
-      "rural-development",
-      "governance-reform",
-      "infrastructure"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-companies-act-2013",
-    "title": "Companies Act, 2013",
-    "description": "Comprehensive overhaul of corporate law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profits for qualifying companies), class action suits, one-person companies, and enhanced corporate governance norms.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2114",
-    "date": "2013-08-29",
+    "id": "hist-prevention-of-money-laundering-2002",
+    "title": "Prevention of Money Laundering Act (PMLA), 2002",
+    "description": "Established legal framework to prevent money laundering and provide for confiscation of property derived from laundered money. Created Financial Intelligence Unit (FIU-IND) and empowered Enforcement Directorate.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/2015",
+    "date": "2003-01-17",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
@@ -544,69 +2461,6 @@
       "governance-reform"
     ],
     "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-sexual-harassment-act-2013",
-    "title": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
-    "description": "Legislation to protect women from sexual harassment at workplace, mandating Internal Complaints Committees in organisations with 10+ employees, defining sexual harassment, and establishing complaint and redressal mechanisms.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2104",
-    "date": "2013-04-23",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Gender & Women",
-      "Labour & Employment",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "gender-women",
-      "labour-employment",
-      "governance-reform"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-lokpal-act-2013",
-    "title": "Lokpal and Lokayuktas Act, 2013",
-    "description": "Established the institution of Lokpal at the central level and Lokayuktas at the state level to inquire into allegations of corruption against public functionaries including the Prime Minister (with safeguards).",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2103",
-    "date": "2014-01-01",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-pmgsy-2000",
-    "title": "Pradhan Mantri Gram Sadak Yojana (PMGSY) — Rural Roads Programme",
-    "description": "Launched to provide all-weather road connectivity to unconnected habitations with population of 500+ (250+ in hilly/tribal areas). Connected over 1.7 lakh habitations, transforming rural access to markets, healthcare, and education.",
-    "link": "https://pmgsy.nic.in/",
-    "date": "2000-12-25",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Infrastructure",
-      "Rural Development"
-    ],
-    "sector_slugs": [
-      "infrastructure",
-      "rural-development"
-    ],
-    "type": "scheme",
     "level": "central",
     "curated": true
   },
@@ -634,111 +2488,84 @@
     "curated": true
   },
   {
-    "id": "hist-domestic-violence-act-2005",
-    "title": "Protection of Women from Domestic Violence Act, 2005",
-    "description": "Civil law to protect women from domestic violence including physical, sexual, verbal, emotional, and economic abuse. Provided for protection orders, residence orders, and monetary relief. Extended protection to all women in domestic relationships.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2021",
-    "date": "2005-09-13",
+    "id": "hist-national-highways-act-amendment-1995",
+    "title": "National Highways Authority of India (NHAI) — Golden Quadrilateral Launch",
+    "description": "NHAI's flagship project connecting Delhi-Mumbai-Chennai-Kolkata with 5,846 km of 4/6 lane highways. The largest highway project in India's history at the time, transforming intercity connectivity and logistics.",
+    "link": "https://nhai.gov.in/",
+    "date": "2001-01-06",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
-      "Gender & Women",
-      "Social Protection",
-      "Governance & Reform"
+      "Infrastructure",
+      "Transport"
     ],
     "sector_slugs": [
-      "gender-women",
-      "social-protection",
-      "governance-reform"
+      "infrastructure",
+      "transport"
+    ],
+    "type": "policy",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-sarva-shiksha-abhiyan-2001",
+    "title": "Sarva Shiksha Abhiyan (SSA) — Universal Elementary Education",
+    "description": "Flagship programme for universalisation of elementary education for children aged 6-14 years. Focused on opening new schools, hiring teachers, and providing infrastructure in underserved areas. Preceded the Right to Education Act.",
+    "link": "https://samagra.education.gov.in/",
+    "date": "2001-01-01",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Education"
+    ],
+    "sector_slugs": [
+      "education"
     ],
     "type": "legislation",
     "level": "central",
     "curated": true
   },
   {
-    "id": "hist-mnp-2003",
-    "title": "Mobile Number Portability and Unified Access Licensing — Telecom Reform",
-    "description": "TRAI introduced unified access licensing and later mobile number portability, transforming India's telecom sector. Combined with NTP 1999, these reforms enabled the mobile revolution that connected over a billion Indians.",
-    "link": "https://trai.gov.in/",
-    "date": "2003-11-11",
+    "id": "hist-pmgsy-2000",
+    "title": "Pradhan Mantri Gram Sadak Yojana (PMGSY) — Rural Roads Programme",
+    "description": "Launched to provide all-weather road connectivity to unconnected habitations with population of 500+ (250+ in hilly/tribal areas). Connected over 1.7 lakh habitations, transforming rural access to markets, healthcare, and education.",
+    "link": "https://pmgsy.nic.in/",
+    "date": "2000-12-25",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
-      "Digital & Technology",
-      "Trade & Commerce"
+      "Infrastructure",
+      "Rural Development"
     ],
     "sector_slugs": [
-      "digital-technology",
-      "trade-commerce"
-    ],
-    "type": "policy",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-nkm-semiconductor-2007",
-    "title": "National Knowledge Commission — Recommendations on Higher Education Reform",
-    "description": "Sam Pitroda-led commission recommended establishing 1,500 new universities, independent regulatory authority replacing UGC, reform of professional education, and Open Educational Resources. Influenced subsequent education policy.",
-    "link": "https://knowledgecommission.gov.in/",
-    "date": "2007-01-12",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Education",
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "education",
-      "science-innovation"
-    ],
-    "type": "policy",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-indira-awas-yojana-1996",
-    "title": "Indira Awaas Yojana (IAY) — Rural Housing Scheme",
-    "description": "Flagship rural housing programme providing financial assistance for construction of houses to BPL families in rural areas. Predecessor to PM Awas Yojana (Gramin). Provided pucca houses to millions of rural families.",
-    "link": "https://pmayg.nic.in/",
-    "date": "1996-01-01",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Rural Development",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "rural-development",
-      "social-protection"
+      "infrastructure",
+      "rural-development"
     ],
     "type": "scheme",
     "level": "central",
     "curated": true
   },
   {
-    "id": "hist-icds-restructured-2006",
-    "title": "Integrated Child Development Services (ICDS) Restructuring",
-    "description": "Major restructuring and expansion of ICDS to universalise early childhood care, nutrition, and pre-school education through Anganwadi centres. India's primary response to child malnutrition covering over 8 crore beneficiaries.",
-    "link": "https://wcd.nic.in/",
-    "date": "2006-08-01",
+    "id": "hist-it-act-2000",
+    "title": "Information Technology Act, 2000",
+    "description": "India's first comprehensive cyber law providing legal recognition for electronic commerce, digital signatures, and establishing cybercrime penalties. Created the legal framework for India's digital economy.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "date": "2000-06-09",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
-      "Health",
-      "Social Protection",
-      "Gender & Women"
+      "Digital & Technology",
+      "Governance & Reform"
     ],
     "sector_slugs": [
-      "health",
-      "social-protection",
-      "gender-women"
+      "digital-technology",
+      "governance-reform"
     ],
-    "type": "policy",
+    "type": "legislation",
     "level": "central",
     "curated": true
   },
@@ -766,32 +2593,137 @@
     "curated": true
   },
   {
-    "id": "hist-national-highways-act-amendment-1995",
-    "title": "National Highways Authority of India (NHAI) — Golden Quadrilateral Launch",
-    "description": "NHAI's flagship project connecting Delhi-Mumbai-Chennai-Kolkata with 5,846 km of 4/6 lane highways. The largest highway project in India's history at the time, transforming intercity connectivity and logistics.",
-    "link": "https://nhai.gov.in/",
-    "date": "2001-01-06",
+    "id": "hist-nrega-1991-pds-reform",
+    "title": "Targeted Public Distribution System (TPDS) Reform",
+    "description": "Restructuring of the Public Distribution System to target Below Poverty Line (BPL) families with subsidised food grains, replacing the earlier universal PDS with a targeted approach.",
+    "link": "https://dfpd.gov.in/",
+    "date": "1997-06-01",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
     "sectors": [
-      "Infrastructure",
-      "Transport"
+      "Social Protection",
+      "Agriculture"
     ],
     "sector_slugs": [
-      "infrastructure",
-      "transport"
+      "social-protection",
+      "agriculture"
     ],
     "type": "policy",
     "level": "central",
     "curated": true
   },
   {
-    "id": "hist-prevention-of-money-laundering-2002",
-    "title": "Prevention of Money Laundering Act (PMLA), 2002",
-    "description": "Established legal framework to prevent money laundering and provide for confiscation of property derived from laundered money. Created Financial Intelligence Unit (FIU-IND) and empowered Enforcement Directorate.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2015",
-    "date": "2003-01-17",
+    "id": "hist-indira-awas-yojana-1996",
+    "title": "Indira Awaas Yojana (IAY) — Rural Housing Scheme",
+    "description": "Flagship rural housing programme providing financial assistance for construction of houses to BPL families in rural areas. Predecessor to PM Awas Yojana (Gramin). Provided pucca houses to millions of rural families.",
+    "link": "https://pmayg.nic.in/",
+    "date": "1996-01-01",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Rural Development",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "rural-development",
+      "social-protection"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-mid-day-meal-1995",
+    "title": "National Programme of Nutritional Support to Primary Education (Mid-Day Meal Scheme)",
+    "description": "Launched to boost primary school enrollment and attendance by providing free cooked meals to children in government schools. Eventually became the world's largest school feeding programme, covering over 12 crore children.",
+    "link": "https://mdm.gov.in/",
+    "date": "1995-08-15",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Education",
+      "Social Protection",
+      "Health"
+    ],
+    "sector_slugs": [
+      "education",
+      "social-protection",
+      "health"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-73rd-amendment-1992",
+    "title": "73rd Constitutional Amendment — Panchayati Raj Institutions",
+    "description": "Constitutional amendment that gave constitutional status to Panchayati Raj institutions, mandating regular elections, reservation for SC/ST and women (one-third), and devolution of powers to local self-government bodies across rural India.",
+    "link": "https://legislative.gov.in/constitution-seventy-third-amendment-act-1992",
+    "date": "1992-12-24",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Governance & Reform",
+      "Rural Development"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "rural-development"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-74th-amendment-1992",
+    "title": "74th Constitutional Amendment — Urban Local Bodies (Municipalities)",
+    "description": "Constitutional amendment providing constitutional status to urban local bodies (municipalities), mandating regular elections, reservation for SC/ST and women, and decentralisation of urban governance.",
+    "link": "https://legislative.gov.in/constitution-seventy-fourth-amendment-act-1992",
+    "date": "1992-12-24",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Governance & Reform",
+      "Urban Development"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "urban-development"
+    ],
+    "type": "legislation",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-npe-1986-revised-1992",
+    "title": "National Policy on Education (1986, Revised 1992) — Programme of Action",
+    "description": "Revised programme of action for the National Policy on Education with emphasis on Operation Blackboard, minimum levels of learning, Navodaya Vidyalayas, restructuring of higher education, and strengthening of UGC and AICTE.",
+    "link": "https://www.education.gov.in/sites/upload_files/mhrd/files/document-reports/NPE86-mod92.pdf",
+    "date": "1992-05-07",
+    "source_id": "historical_curated",
+    "source_name": "Historical Record (Curated)",
+    "source_short": "Historical",
+    "sectors": [
+      "Education"
+    ],
+    "sector_slugs": [
+      "education"
+    ],
+    "type": "scheme",
+    "level": "central",
+    "curated": true
+  },
+  {
+    "id": "hist-sebi-act-1992",
+    "title": "Securities and Exchange Board of India (SEBI) Act, 1992",
+    "description": "Established SEBI as a statutory regulatory body to protect investor interests, regulate the securities market, and promote the development of the stock exchange. Key institution for India's capital market development.",
+    "link": "https://www.indiacode.nic.in/handle/123456789/1891",
+    "date": "1992-01-30",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
@@ -808,74 +2740,11 @@
     "curated": true
   },
   {
-    "id": "hist-poc-sc-st-amendment-2005",
-    "title": "Protection of Civil Rights and SC/ST (Prevention of Atrocities) Amendment",
-    "description": "Strengthened protections for Scheduled Castes and Scheduled Tribes against caste-based atrocities. Enhanced penalties, established special courts, and provided for rights of victims during investigation and trial.",
-    "link": "https://www.indiacode.nic.in/",
-    "date": "2005-12-30",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Social Protection",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "governance-reform"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-national-action-plan-climate-2008",
-    "title": "National Action Plan on Climate Change (NAPCC)",
-    "description": "India's comprehensive climate change strategy with eight National Missions: Solar, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining Himalayan Ecosystem, Green India, Sustainable Agriculture, and Strategic Knowledge.",
-    "link": "https://moef.gov.in/",
-    "date": "2008-06-30",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Climate & Environment",
-      "Energy"
-    ],
-    "sector_slugs": [
-      "climate-environment",
-      "energy"
-    ],
-    "type": "policy",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-aadhar-act-2016",
-    "title": "Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
-    "description": "Provided legislative backing for the Aadhaar project, defining it as proof of identity for receiving subsidies, benefits, and services. Passed as a money bill. Established data protection and authentication framework.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2193",
-    "date": "2016-03-26",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Digital & Technology",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "governance-reform"
-    ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-gst-act-2017",
-    "title": "Goods and Services Tax (GST) — 101st Constitutional Amendment and Implementation",
-    "description": "India's most significant indirect tax reform, replacing 17 central and state taxes with a unified GST. Required constitutional amendment. Implemented through Central GST, State GST, and Integrated GST with a GST Council for cooperative federalism.",
-    "link": "https://www.gst.gov.in/",
-    "date": "2017-07-01",
+    "id": "hist-liberalisation-1991",
+    "title": "New Economic Policy — Liberalisation, Privatisation, Globalisation",
+    "description": "Finance Minister Manmohan Singh introduced sweeping economic reforms dismantling the License Raj, opening India to foreign investment, reducing import tariffs, and initiating privatisation of state-owned enterprises. This fundamentally transformed India's economy from a closed, state-controlled model to a market-oriented one.",
+    "link": "https://en.wikipedia.org/wiki/Economic_liberalisation_in_India",
+    "date": "1991-07-24",
     "source_id": "historical_curated",
     "source_name": "Historical Record (Curated)",
     "source_short": "Historical",
@@ -889,68 +2758,7 @@
       "trade-commerce",
       "governance-reform"
     ],
-    "type": "legislation",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-insolvency-bankruptcy-code-2016",
-    "title": "Insolvency and Bankruptcy Code (IBC), 2016",
-    "description": "Comprehensive insolvency resolution framework consolidating existing laws. Created NCLT/NCLAT for resolution, IBBI as regulator, and Insolvency Professionals. Set strict 180-day timeline for resolution. Transformed India's credit culture.",
-    "link": "https://www.ibbi.gov.in/",
-    "date": "2016-05-28",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Finance & Economy",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "finance-economy",
-      "governance-reform"
-    ],
     "type": "policy",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-demonetisation-2016",
-    "title": "Demonetisation of Rs 500 and Rs 1000 Banknotes",
-    "description": "Government demonetised 86% of currency in circulation overnight, invalidating Rs 500 and Rs 1000 notes. Aimed at curbing black money, counterfeiting, and terror financing. Highly debated — accelerated digital payments adoption but caused significant economic disruption.",
-    "link": "https://rbi.org.in/",
-    "date": "2016-11-08",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "policy",
-    "level": "central",
-    "curated": true
-  },
-  {
-    "id": "hist-rera-2016",
-    "title": "Real Estate (Regulation and Development) Act (RERA), 2016",
-    "description": "Established state-level Real Estate Regulatory Authorities to protect homebuyers, promote transparency, and ensure timely delivery of real estate projects. Required registration of all projects and agents, escrow for buyer funds.",
-    "link": "https://www.indiacode.nic.in/handle/123456789/2187",
-    "date": "2016-05-01",
-    "source_id": "historical_curated",
-    "source_name": "Historical Record (Curated)",
-    "source_short": "Historical",
-    "sectors": [
-      "Urban Development",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "urban-development",
-      "governance-reform"
-    ],
-    "type": "legislation",
     "level": "central",
     "curated": true
   }
