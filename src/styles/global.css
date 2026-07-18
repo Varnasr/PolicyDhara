@@ -1773,15 +1773,30 @@ html, body { overflow-x: hidden !important; max-width: 100%; }
     overflow-wrap: anywhere;
     word-break: break-word;
   }
-  /* Multi-column grids collapse to one column. */
-  .dash-grid, .policy-feed, .recent-grid, .insights-grid, .sector-grid,
+  /* Multi-column grids collapse to one column — EXCEPT the sector grid,
+     which becomes a tidy two-up so 22 sectors aren't a single tall wall. */
+  .dash-grid, .policy-feed, .recent-grid, .insights-grid,
   .stats-bar { grid-template-columns: 1fr !important; }
+  .sector-grid { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }
+  .sector-card { padding: 14px !important; }
+  .sector-card-name { font-size: 0.9rem !important; }
 
-  /* Readability: the desktop 15px base reads small on a phone. */
-  html { font-size: 16px; }
-  .dash-title { font-size: 1.6rem; }
-  .lead-card h2 { font-size: 1.15rem; }
+  /* Trending chips wrap instead of scrolling off the right edge. */
+  .trending-strip {
+    flex-wrap: wrap !important;
+    overflow-x: visible !important;
+  }
+  .trending-strip::after { display: none; }
+
+  /* Readability: the desktop 15px base reads small on a phone. Bump the base
+     and lift the tiniest text off the floor so labels/counts stay legible. */
+  html { font-size: 17px; }
+  .dash-title { font-size: 1.65rem; }
+  .lead-card h2 { font-size: 1.18rem; }
   .policy-title { font-size: 1.02rem; }
+  .page-subtitle, .sector-card-count, .type-bar-label, .coverage-label,
+  .trend-count, .era-label, .legis-era-range { font-size: 0.8rem !important; }
+  .coverage-note, .cmp-desc { font-size: 0.75rem !important; }
   /* Comfortable tap targets. */
   .header-nav a, .mobile-nav a, .nav-hamburger, .theme-toggle .theme-opt {
     min-height: 40px;
