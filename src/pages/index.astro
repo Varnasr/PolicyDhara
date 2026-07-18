@@ -7,7 +7,6 @@ import SectorMomentum from '../components/SectorMomentum.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
 import TrendingStrip from '../components/TrendingStrip.astro';
-import TrendChart from '../components/TrendChart.astro';
 import NewsletterBar from '../components/NewsletterBar.astro';
 import KnowledgeGraph from '../components/KnowledgeGraph.astro';
 import { getAllPolicies, getMeta } from '../lib/data';
@@ -223,7 +222,6 @@ const weekStatLabel: string = 'enacted this week';
         <h3>Activity</h3>
       </div>
       <PolicyTimeline />
-      <TrendChart />
       <SectorMomentum />
       <Insights />
       <NewsletterBar />
