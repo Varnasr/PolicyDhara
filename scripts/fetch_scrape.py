@@ -703,7 +703,6 @@ SOURCE_SCRAPERS = {
     "mof_budget": scrape_ministry,
     "rbi": scrape_rbi,
     "rbi_notifications": scrape_rbi_notifications,
-    "rbi_notifications_new": scrape_rbi_notifications,
     "moefcc": scrape_ministry,
     "meity": scrape_ministry,
     "orf": scrape_orf,
