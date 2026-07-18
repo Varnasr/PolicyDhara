@@ -1,9 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import StatsBar from '../components/StatsBar.astro';
-import PolicyTimeline from '../components/PolicyTimeline.astro';
 import Insights from '../components/Insights.astro';
-import SectorMomentum from '../components/SectorMomentum.astro';
 import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
 import TrendingStrip from '../components/TrendingStrip.astro';
@@ -173,6 +171,18 @@ const weekStatLabel: string = 'enacted this week';
   {/* ── Trending ── */}
   <TrendingStrip />
 
+  {/* ── Knowledge Graph feature (up top, full-width) ── */}
+  <section class="home-graph-section">
+    <div class="home-graph-head">
+      <div>
+        <h3>Policy Knowledge Graph</h3>
+        <p>How sectors, sources and themes connect. Node size = volume, edge thickness = how often they co-occur. Drag a node to explore.</p>
+      </div>
+      <a class="btn btn-secondary btn-sm" href={`${base}graph/`}>Full graph &amp; matrix &rarr;</a>
+    </div>
+    <KnowledgeGraph />
+  </section>
+
   {/* ── Main Content: Two Column ── */}
   <div class="dash-grid">
 
@@ -221,8 +231,6 @@ const weekStatLabel: string = 'enacted this week';
       <div class="section-header">
         <h3>Activity</h3>
       </div>
-      <PolicyTimeline />
-      <SectorMomentum />
       <Insights />
       <NewsletterBar />
     </div>
@@ -267,18 +275,6 @@ const weekStatLabel: string = 'enacted this week';
       </div>
     </aside>
   </div>
-
-  {/* ── Knowledge Graph feature (full-width) ── */}
-  <section class="home-graph-section">
-    <div class="home-graph-head">
-      <div>
-        <h3>Policy Knowledge Graph</h3>
-        <p>How sectors, sources and themes connect. Node size = volume, edge thickness = how often they co-occur. Drag a node to explore.</p>
-      </div>
-      <a class="btn btn-secondary btn-sm" href={`${base}graph/`}>Full graph &amp; matrix &rarr;</a>
-    </div>
-    <KnowledgeGraph />
-  </section>
 
   {/* ── Browse Tab (hidden by default, shown on click) ── */}
   <div id="browse-panel" style="display:none;">
