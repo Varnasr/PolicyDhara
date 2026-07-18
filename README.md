@@ -6,7 +6,7 @@
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Varnasr/PolicyDhara)](https://github.com/Varnasr/PolicyDhara/commits/master)
 [![Part of ImpactMojo](https://img.shields.io/badge/Part%20of-ImpactMojo-orange)](https://www.impactmojo.in)
 
-**Auto-updating tracker of Indian development policy across 22 sectors — fetching from ~380 official sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
+**Auto-updating tracker of Indian development policy across 22 sectors — fetching from ~350 official sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
 
 📋 [Roadmap](ROADMAP.md) · 📝 [Blog](https://varnasr.github.io/PolicyDhara/blog)
 
@@ -48,7 +48,7 @@ It is designed for researchers, journalists, advocates, and practitioners who ne
 
 ## Data Sources (~380 configured)
 
-The pipeline fetches from ~380 sources concurrently. A few high-value ones:
+The pipeline fetches from ~350 sources concurrently. A few high-value ones:
 
 | Source | Type |
 |--------|------|
@@ -74,7 +74,7 @@ The pipeline fetches from ~380 sources concurrently. A few high-value ones:
 │              GitHub Actions (every 6 hours)           │
 │                                                        │
 │  update-policies.yml                                   │
-│  ├── Fetch ~380 sources concurrently (RSS/API/scrape) │
+│  ├── Fetch ~350 sources concurrently (RSS/API/scrape) │
 │  ├── Filter news noise + cap media at 40%             │
 │  ├── Classify by sector (22 categories)               │
 │  ├── Deduplicate and detect amendments                │
@@ -129,7 +129,7 @@ cd PolicyDhara
 # Python pipeline
 pip install -r scripts/requirements.txt
 python3 scripts/fetch_all.py            # fetch + filter + classify
-python3 scripts/check_source_health.py  # bucket every source (WORKS/BROKEN/SHELL/DEAD)
+python3 scripts/check_source_health.py  # bucket every source (WORKS/REDUNDANT/SHELL/DEAD)
 
 # Astro site
 npm install
