@@ -9,6 +9,7 @@ import PolicyCard from '../components/PolicyCard.astro';
 import TrendingStrip from '../components/TrendingStrip.astro';
 import TrendChart from '../components/TrendChart.astro';
 import NewsletterBar from '../components/NewsletterBar.astro';
+import KnowledgeGraph from '../components/KnowledgeGraph.astro';
 import { getAllPolicies, getMeta } from '../lib/data';
 
 const allPolicies = getAllPolicies();
@@ -269,6 +270,18 @@ const weekStatLabel: string = 'enacted this week';
     </aside>
   </div>
 
+  {/* ── Knowledge Graph feature (full-width) ── */}
+  <section class="home-graph-section">
+    <div class="home-graph-head">
+      <div>
+        <h3>Policy Knowledge Graph</h3>
+        <p>How sectors, sources and themes connect. Node size = volume, edge thickness = how often they co-occur. Drag a node to explore.</p>
+      </div>
+      <a class="btn btn-secondary btn-sm" href={`${base}graph/`}>Full graph &amp; matrix &rarr;</a>
+    </div>
+    <KnowledgeGraph />
+  </section>
+
   {/* ── Browse Tab (hidden by default, shown on click) ── */}
   <div id="browse-panel" style="display:none;">
     <div class="page-grid">
@@ -323,6 +336,31 @@ const weekStatLabel: string = 'enacted this week';
 </Base>
 
 <style>
+  /* ── Home knowledge-graph feature ─────────────────── */
+  .home-graph-section { margin: var(--space-2xl) 0; }
+  .home-graph-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+    flex-wrap: wrap;
+  }
+  .home-graph-head h3 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.4rem;
+    margin: 0 0 4px;
+  }
+  .home-graph-head p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    max-width: 46ch;
+  }
+  @media (max-width: 600px) {
+    .home-graph-head { flex-direction: column; align-items: stretch; }
+  }
+
   /* ── Dashboard Hero ───────────────────────────────── */
   .dash-hero {
     display: flex;
