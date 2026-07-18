@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
 jobs:
   probe:
@@ -29,14 +30,25 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
 
-      - name: Commit updated health data
+      - name: Open PR with updated health data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          if [[ -z "$(git status --porcelain data/source_health.json)" ]]; then
+            echo "No changes to source_health.json"
+            exit 0
+          fi
+          # master is a protected branch — a direct push is rejected, so the
+          # weekly probe lands its results through a PR on a rolling branch.
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain data/source_health.json)" ]]; then
-            git add data/source_health.json
-            git commit -m "Chore: update source_health.json"
-            git push
-          else
-            echo "No changes to source_health.json"
+          BRANCH="chore/source-health-update"
+          git checkout -B "$BRANCH"
+          git add data/source_health.json
+          git commit -m "Chore: update source_health.json"
+          git push -f origin "$BRANCH"
+          if ! gh pr view "$BRANCH" --json state --jq .state 2>/dev/null | grep -q OPEN; then
+            gh pr create --base master --head "$BRANCH" \
+              --title "Chore: weekly source-health update" \
+              --body "Automated source-health probe results from the weekly run. Review the bucket changes and merge to update the live health board."
           fi

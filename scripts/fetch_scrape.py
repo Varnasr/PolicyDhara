@@ -493,6 +493,49 @@ _TITLE_SELECTORS = [
 ]
 
 
+def _abs_url(href: str, base_url: str) -> str:
+    if not href:
+        return ""
+    if href.startswith("http"):
+        return href
+    p = urlparse(base_url)
+    if href.startswith("/"):
+        return f"{p.scheme}://{p.netloc}{href}"
+    return f"{p.scheme}://{p.netloc}/{href}"
+
+
+def _extract_with_overrides(row, base_url: str, title_sel, link_sel) -> tuple[str, str]:
+    """Extract (title, link) using explicit per-source selectors.
+
+    Either selector may be omitted: the link defaults to the title element's
+    own/ancestor <a>, and the title defaults to the link's text.
+    """
+    link_el = row.select_one(link_sel) if link_sel else None
+    title_el = row.select_one(title_sel) if title_sel else None
+
+    if title_el is None and link_el is None:
+        return "", ""
+
+    # Link: explicit selector, else the title's <a> (self/ancestor/descendant).
+    link = ""
+    if link_el is not None:
+        link = link_el.get("href", "")
+    elif title_el is not None:
+        a = (title_el if title_el.name == "a" else
+             title_el.find_parent("a") or title_el.select_one("a"))
+        if a is not None:
+            link = a.get("href", "")
+
+    # Title: explicit selector text, else the link's text.
+    title = ""
+    if title_el is not None:
+        title = title_el.get_text(" ", strip=True)
+    elif link_el is not None:
+        title = link_el.get_text(" ", strip=True)
+
+    return re.sub(r"\s+", " ", title).strip(), _abs_url(link, base_url)
+
+
 def _extract_title_and_link(row, base_url: str) -> tuple[str, str]:
     """Extract the best (title, link) pair from a content row element."""
     parsed_base = urlparse(base_url)
@@ -549,6 +592,15 @@ def scrape_ministry(config: dict) -> list[dict]:
 
     Covers Drupal, WordPress, news sites, think-tank portals,
     government scheme pages, and generic HTML list layouts.
+
+    Per-source overrides (optional, set in feeds.json) let one config revive a
+    site whose markup the default selectors miss — no new code per source:
+      row_selector    CSS for each listing row (falls back to the shared set)
+      title_selector  CSS for the title element inside a row
+      link_selector   CSS for the <a> whose href is the item link
+      date_selector   CSS for the date element inside a row
+      link_contains   keep only rows whose link href contains this substring
+                      (e.g. ".pdf", "judgment") — filters nav/chrome links out
     """
     url = config.get("url", "")
     if not url:
@@ -562,9 +614,20 @@ def scrape_ministry(config: dict) -> list[dict]:
     items = []
     seen_links: set[str] = set()
 
-    for row in soup.select(_MINISTRY_ROW_SELECTORS):
-        title, link = _extract_title_and_link(row, url)
+    row_selector = config.get("row_selector") or _MINISTRY_ROW_SELECTORS
+    title_sel = config.get("title_selector")
+    link_sel = config.get("link_selector")
+    date_sel_override = config.get("date_selector")
+    link_contains = (config.get("link_contains") or "").lower()
+
+    for row in soup.select(row_selector):
+        if title_sel or link_sel:
+            title, link = _extract_with_overrides(row, url, title_sel, link_sel)
+        else:
+            title, link = _extract_title_and_link(row, url)
         if not title or len(title) <= 5:
+            continue
+        if link_contains and link_contains not in (link or "").lower():
             continue
 
         # Deduplicate by link
@@ -573,12 +636,15 @@ def scrape_ministry(config: dict) -> list[dict]:
         if link:
             seen_links.add(link)
 
-        # Date extraction — try several common selectors
+        # Date extraction — a per-source override is tried first, then the
+        # common selectors.
         date = ""
-        for date_sel in (".date", "time", ".created", ".field-date",
+        date_selectors = (date_sel_override,) if date_sel_override else (
+                         ".date", "time", ".created", ".field-date",
                          ".datetime", ".published-date", ".meta-date",
                          ".post-date", ".entry-date", "[datetime]",
-                         ".timestamp", ".article-date"):
+                         ".timestamp", ".article-date")
+        for date_sel in date_selectors:
             date_el = row.select_one(date_sel)
             if date_el:
                 date = parse_date_text(
