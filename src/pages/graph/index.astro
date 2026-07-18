@@ -413,6 +413,17 @@ for (let i = 0; i < topSectors.length; i++) {
           n.y = Math.max(n.r + 10, Math.min(H - n.r - 10, n.y));
         }
       }
+
+      // Recenter: translate the whole cloud so its centroid sits at the canvas
+      // centre, so the layout never settles drifted into a corner or edge.
+      // Skipped while a node is being dragged so it stays under the pointer.
+      if (!dragNode) {
+        let cx = 0, cy = 0;
+        for (const n of nodes) { cx += n.x; cy += n.y; }
+        cx = cx / nodes.length - W / 2;
+        cy = cy / nodes.length - H / 2;
+        for (const n of nodes) { n.x -= cx; n.y -= cy; }
+      }
     }
 
     function draw() {
