@@ -41,7 +41,7 @@ export function renderPolicyHtml(p: PolicyItem): string {
     `<a href="${SITE_URL}/sectors/${getSectorSlug(s)}" style="color:#16a34a;text-decoration:none;font-size:12px;">${escapeHtml(s)}</a>`
   ).join(' &middot; ');
 
-  return `<div style="font-family:-apple-system,'DM Sans','Segoe UI',system-ui,sans-serif;max-width:600px;margin:0 auto;color:#1a1a18;">
+  return `<div style="font-family:-apple-system,'Libre Franklin','Segoe UI',system-ui,sans-serif;max-width:600px;margin:0 auto;color:#1a1a18;">
   <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;background:#fffef9;border-radius:10px;overflow:hidden;">
     <tr><td style="padding:24px 28px 20px;border-bottom:2px solid #16a34a;">
       <div style="margin-bottom:10px;">

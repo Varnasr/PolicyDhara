@@ -1,10 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getMeta } from '../../lib/data';
+import { getMeta, getAllPolicies } from '../../lib/data';
 import fs from 'node:fs';
 import path from 'node:path';
 
 const meta = getMeta();
+
+// Per-source contribution, keyed by source_id (matches feeds.json keys) and
+// counting ALL items — news sources legitimately contribute here, so this
+// must use getAllPolicies, not the policy-only meta counts (which are keyed
+// by source_short and exclude media).
+const sourceIdCounts: Record<string, number> = {};
+for (const p of getAllPolicies()) {
+  sourceIdCounts[p.source_id] = (sourceIdCounts[p.source_id] || 0) + 1;
+}
 
 let feedsConfig: any = { sources: {} };
 try {
@@ -48,7 +57,7 @@ const BUCKET_META: Record<string, { label: string; color: string; bg: string }> 
 // (e.g. "the_hindu_policy"), matching feeds.json keys — the previous
 // version of this page compared it against short_name and never matched.
 const configured = feedsConfig.sources || {};
-const counts = meta.source_counts || {};
+const counts = sourceIdCounts;
 const rows: SourceRow[] = Object.entries(configured).map(([id, cfg]: [string, any]) => ({
   id,
   name: cfg.name || id,
