@@ -2697,7 +2697,9 @@
       "format": "RSS",
       "reliability": "medium",
       "description": "Daily policy analysis, governance summaries, current affairs",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "insights_ias": {
       "name": "Insights IAS",
@@ -2708,7 +2710,9 @@
       "format": "HTML",
       "reliability": "medium",
       "description": "Policy editorials, governance analysis, scheme summaries",
-      "covers_sectors": "all"
+      "covers_sectors": "all",
+      "india_only": false,
+      "level": "media"
     },
     "praja": {
       "name": "Praja Foundation",
@@ -2886,7 +2890,9 @@
       "covers_sectors": [
         "Governance & Reform",
         "Civil Liberties"
-      ]
+      ],
+      "india_only": false,
+      "level": "media"
     },
     "caravanmag": {
       "name": "The Caravan",
@@ -3834,7 +3840,8 @@
         "Agriculture",
         "Health"
       ],
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "indiatoday_rss": {
       "name": "India Today (RSS)",
@@ -4075,7 +4082,8 @@
       "reliability": "high",
       "description": "Daily current affairs analysis focused on government policy and governance",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "pib_rss": {
       "name": "PIB RSS Feed",
@@ -4147,7 +4155,8 @@
       "reliability": "high",
       "description": "Data-driven fact checks on Indian government claims and policy impacts",
       "covers_sectors": "all",
-      "level": "central"
+      "level": "media",
+      "india_only": false
     },
     "scroll": {
       "name": "Scroll.in",
@@ -4159,7 +4168,7 @@
       "reliability": "high",
       "description": "Independent journalism covering India's policies and governance",
       "covers_sectors": "all",
-      "level": "central",
+      "level": "media",
       "india_only": false
     },
     "downtoearth": {
@@ -4277,7 +4286,8 @@
         "Education",
         "Health"
       ],
-      "level": "central"
+      "level": "central",
+      "rss_url": "https://idronline.org/feed/"
     },
     "nfra": {
       "name": "National Financial Reporting Authority",
@@ -4599,6 +4609,32 @@
       "reliability": "high",
       "description": "Karnataka state press-and-news releases across 30 district offices.",
       "covers_sectors": "governance"
+    },
+    "india_forum": {
+      "name": "The India Forum",
+      "short_name": "India Forum",
+      "type": "scrape",
+      "url": "https://www.theindiaforum.in/",
+      "frequency": "Weekly",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Long-form essays and analysis on Indian economy, polity, and society",
+      "covers_sectors": "all",
+      "level": "central",
+      "authority": "think_tank"
+    },
+    "ideas_for_india": {
+      "name": "Ideas for India",
+      "short_name": "I4I",
+      "type": "scrape",
+      "url": "https://www.ideasforindia.in/",
+      "frequency": "Daily",
+      "format": "HTML",
+      "reliability": "high",
+      "description": "Evidence-based long-form columns on Indian economic policy by IGC researchers",
+      "covers_sectors": "all",
+      "level": "central",
+      "authority": "think_tank"
     }
   }
 }

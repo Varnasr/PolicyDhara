@@ -102,7 +102,9 @@ def to_item(act: dict) -> dict:
         "source_short": "India Code",
         "sectors": sectors,
         "sector_slugs": [get_sector_slug(s) for s in sectors],
-        "type": "legislation",
+        "type": "act",
+        "kind": "instrument",
+        "authority": "legal",
         "level": "central",
         "curated": True,
     }

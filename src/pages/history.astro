@@ -1,0 +1,330 @@
+---
+import Base from '../layouts/Base.astro';
+import { getConstitutionalDebates } from '../lib/history';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const { metadata, debates } = getConstitutionalDebates();
+
+function sectorSlug(sector: string): string {
+  return sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
+}
+
+/** Format 'YYYY-MM-DD' or month-precision 'YYYY-MM' dates. */
+function formatDebateDate(date: string): string {
+  const full = /^\d{4}-\d{2}-\d{2}$/.test(date);
+  const d = new Date(full ? date : `${date}-01`);
+  if (Number.isNaN(d.getTime())) return date;
+  return full
+    ? d.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })
+    : d.toLocaleDateString('en-IN', { month: 'long', year: 'numeric' });
+}
+
+// Group debates by year for timeline markers
+const byYear = new Map<string, typeof debates>();
+for (const d of debates) {
+  const year = d.date.slice(0, 4);
+  if (!byYear.has(year)) byYear.set(year, []);
+  byYear.get(year)!.push(d);
+}
+const years = [...byYear.entries()];
+---
+<Base
+  title="Policy History"
+  description="Where Indian policy debates began — Constituent Assembly debates (1946–1949) mapped to today's policy sectors."
+>
+  <div style="padding: var(--space-xl) 0;">
+    <h2 class="page-title">Policy History</h2>
+    <p class="page-subtitle">
+      Most policy arguments in India today were had first in the Constituent Assembly.
+      Between December 1946 and January 1950, 299 members debated reservation, land reform,
+      education, language, village government and emergency powers — and the compromises they
+      struck still set the terms for modern acts and schemes. This timeline maps those founding
+      debates to the sectors PolicyDhara tracks.
+    </p>
+
+    <p class="history-source-note">
+      Curated from the <em>Constituent Assembly Debates</em> (12 volumes), via
+      <a href="https://www.constitutionofindia.net/" target="_blank" rel="noopener">constitutionofindia.net</a>
+      (Centre for Law and Policy Research). Dates given to the month where the exact sitting day is uncertain.
+    </p>
+
+    <div class="history-timeline">
+      {years.map(([year, yearDebates]) => (
+        <section class="timeline-year-group">
+          <div class="timeline-year-marker">
+            <span class="timeline-year">{year}</span>
+          </div>
+          {yearDebates.map(d => (
+            <article class="debate-card" id={d.id}>
+              <div class="debate-card-head">
+                <time class="debate-date" datetime={d.date}>{formatDebateDate(d.date)}</time>
+                <span class="debate-volume">Vol. {d.volume}</span>
+              </div>
+              <h3 class="debate-topic">{d.topic}</h3>
+              <div class="debate-articles">
+                {d.articles.map(a => (
+                  <span class="article-chip">{a}</span>
+                ))}
+              </div>
+              <p class="debate-summary">{d.summary}</p>
+              <p class="debate-voices">
+                <span class="debate-label">Key voices</span>
+                {d.key_voices.join(' · ')}
+              </p>
+              <p class="debate-legacy">
+                <span class="debate-label">Legacy</span>
+                {d.legacy}
+              </p>
+              <div class="debate-foot">
+                <div class="debate-sectors">
+                  {d.sectors.map(s => (
+                    <a class="sector-chip" href={`${base}sectors/${sectorSlug(s)}/`}>{s}</a>
+                  ))}
+                </div>
+                <a class="debate-source" href={d.link} target="_blank" rel="noopener">Read the debate →</a>
+              </div>
+            </article>
+          ))}
+        </section>
+      ))}
+    </div>
+
+    <div class="history-continue">
+      <h3>Where these threads continue</h3>
+      <p>
+        The bargains struck in these debates keep resurfacing as policy.
+        Follow how founding commitments became schemes and acts across governments in
+        <a href={`${base}continuity/`}>Policy Continuity</a>, and watch the same questions
+        being legislated today in the <a href={`${base}parliament/`}>Parliament Tracker</a>.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .history-source-note {
+    font-size: 0.75rem;
+    color: var(--color-text-dim);
+    margin: calc(-1 * var(--space-md)) 0 var(--space-xl);
+  }
+  .history-source-note a {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .history-source-note a:hover {
+    text-decoration: underline;
+  }
+
+  /* Timeline spine */
+  .history-timeline {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: var(--space-xl);
+  }
+  .history-timeline::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: var(--color-border);
+  }
+  .timeline-year-group {
+    position: relative;
+    margin-bottom: var(--space-lg);
+  }
+  .timeline-year-marker {
+    position: relative;
+    margin: 0 0 var(--space-md);
+  }
+  .timeline-year-marker::before {
+    content: '';
+    position: absolute;
+    left: -26px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    border: 2px solid var(--color-bg-white);
+    box-shadow: 0 0 0 2px var(--color-accent);
+  }
+  .timeline-year {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--color-text);
+    letter-spacing: -0.02em;
+  }
+
+  /* Debate cards */
+  .debate-card {
+    position: relative;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-md);
+  }
+  .debate-card::before {
+    content: '';
+    position: absolute;
+    left: -24px;
+    top: 26px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-text-dim);
+  }
+  .debate-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .debate-date {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-accent);
+  }
+  .debate-volume {
+    font-size: 0.625rem;
+    color: var(--color-text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .debate-topic {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+  .debate-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: var(--space-sm);
+  }
+  .article-chip {
+    font-size: 0.625rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border-light);
+    color: var(--color-text-muted);
+  }
+  .debate-summary {
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-sm);
+  }
+  .debate-label {
+    display: inline-block;
+    font-size: 0.5625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-dim);
+    margin-right: 6px;
+  }
+  .debate-voices {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-sm);
+  }
+  .debate-legacy {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+    background: var(--color-bg-alt);
+    border-left: 3px solid var(--color-accent);
+    border-radius: var(--radius-sm);
+    padding: 8px 12px;
+    margin-bottom: var(--space-md);
+  }
+  .debate-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .debate-sectors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .sector-chip {
+    font-size: 0.625rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: var(--radius-pill);
+    background: var(--color-bg-alt);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .sector-chip:hover {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  .debate-source {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .debate-source:hover {
+    text-decoration: underline;
+  }
+
+  /* Closing note */
+  .history-continue {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+  }
+  .history-continue h3 {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+  }
+  .history-continue p {
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    color: var(--color-text-secondary);
+  }
+  .history-continue a {
+    color: var(--color-accent);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .history-continue a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .history-timeline { padding-left: 20px; }
+    .history-timeline::before { left: 5px; }
+    .timeline-year-marker::before { left: -19px; width: 10px; height: 10px; }
+    .debate-card::before { display: none; }
+    .debate-foot { flex-direction: column; align-items: flex-start; }
+  }
+</style>

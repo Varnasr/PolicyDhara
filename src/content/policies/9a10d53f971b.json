@@ -17,8 +17,10 @@
     "urban-development",
     "housing"
   ],
-  "type": "policy",
+  "type": "release",
   "level": "state",
   "state": "Uttar Pradesh",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "announcement",
+  "authority": "regulator"
 }

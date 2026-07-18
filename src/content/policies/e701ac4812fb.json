@@ -17,8 +17,10 @@
     "finance-economy",
     "governance-reform"
   ],
-  "type": "legislation",
+  "type": "release",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-15"
+  "first_seen": "2026-07-15",
+  "kind": "announcement",
+  "authority": "regulator"
 }

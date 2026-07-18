@@ -308,8 +308,8 @@ export function getLegislativePipeline(): LegislativePipeline {
   const now = new Date();
   const recent = getPolicyItems().filter(p => inRange(p, d90, now));
 
-  const recentBills = recent.filter(p => p.type === 'legislation').length;
-  const recentNotifications = recent.filter(p => p.type === 'notification').length;
+  const recentBills = recent.filter(p => ['legislation', 'act', 'bill'].includes(p.type)).length;
+  const recentNotifications = recent.filter(p => ['notification', 'rules'].includes(p.type)).length;
   const recentSchemes = recent.filter(p => p.type === 'scheme').length;
 
   const billToNotificationRatio = recentBills > 0

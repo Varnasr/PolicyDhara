@@ -8,13 +8,17 @@
   "source_name": "Insolvency and Bankruptcy Board of India",
   "source_short": "IBBI",
   "sectors": [
-    "economy, governance"
+    "Finance & Economy",
+    "Governance & Reform"
   ],
   "sector_slugs": [
-    "economy,-governance"
+    "finance-economy",
+    "governance-reform"
   ],
-  "type": "legislation",
+  "type": "notification",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "instrument",
+  "authority": "regulator"
 }

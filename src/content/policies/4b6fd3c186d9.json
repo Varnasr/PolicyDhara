@@ -15,8 +15,10 @@
     "social-protection",
     "finance-economy"
   ],
-  "type": "budget",
+  "type": "act",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "instrument",
+  "authority": "government"
 }

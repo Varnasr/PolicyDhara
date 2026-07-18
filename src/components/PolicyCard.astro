@@ -1,5 +1,6 @@
 ---
-import { getImpactForPolicy, getPriority } from '../lib/data';
+import { getImpactForPolicy, getPriority, getKind, KIND_LABELS, TYPE_LABELS } from '../lib/data';
+import type { Kind } from '../lib/data';
 
 interface Props {
   id: string;
@@ -10,11 +11,17 @@ interface Props {
   source_short: string;
   sectors: string[];
   type: string;
+  kind?: Kind;
+  source_id?: string;
+  authority?: string;
 }
 
-const { id, title, description, link, date, source_short, sectors, type } = Astro.props;
+const { id, title, description, link, date, source_short, sectors, type, kind: kindProp, source_id = '', authority = '' } = Astro.props;
 const impact = getImpactForPolicy(title);
-const priority = getPriority({ id, title, description: description || '', link: link || '', date, source_id: '', source_name: '', source_short, sectors, sector_slugs: [], type });
+const priority = getPriority({ id, title, description: description || '', link: link || '', date, source_id, source_name: '', source_short, sectors, sector_slugs: [], type });
+const kind = kindProp ?? getKind({ id, title, description: description || '', link: link || '', date, source_id, source_name: '', source_short, sectors, sector_slugs: [], type });
+const typeLabel = TYPE_LABELS[type] ?? type;
+const kindLabel = KIND_LABELS[kind];
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 const detailHref = `${base}policies/${id}/`;
@@ -42,7 +49,7 @@ function getRelativeTime(dateStr: string): string {
   } catch { return dateStr; }
 }
 ---
-<article class="policy-card" data-sectors={JSON.stringify(sectors.map(getSectorSlug))} data-type={type} data-source={source_short} data-date={date} data-id={id}>
+<article class={`policy-card kind-card-${kind}`} data-sectors={JSON.stringify(sectors.map(getSectorSlug))} data-type={type} data-kind={kind} data-authority={authority} data-source={source_short} data-date={date} data-id={id}>
   <button class="bookmark-btn" data-policy-id={id} title="Bookmark this policy (B)">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
   </button>
@@ -61,7 +68,14 @@ function getRelativeTime(dateStr: string): string {
     <span class="policy-date" title={formatDate(date)}>{getRelativeTime(date)}</span>
     <span class="meta-dot"></span>
     <span class="policy-source">{source_short}</span>
-    <span class={`policy-type type-${type}`}>{type}</span>
+    <span class={`policy-kind kind-${kind}`} title={
+      kind === 'instrument' ? 'A policy instrument issued by a government, regulator, or court'
+      : kind === 'process' ? 'Policy in the making: bill, draft, question, or committee report'
+      : kind === 'announcement' ? 'An official press release — not itself a policy'
+      : kind === 'analysis' ? 'Research or think-tank analysis of policy'
+      : 'Journalism about policy — not a policy document'
+    }>{kindLabel}</span>
+    <span class={`policy-type type-${type}`}>{typeLabel}</span>
   </div>
 
   {description && (

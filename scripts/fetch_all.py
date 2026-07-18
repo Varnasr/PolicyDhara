@@ -23,7 +23,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_rss import fetch_rss_source
 from fetch_scrape import fetch_scrape_source
-from classifier import classify_policy, get_sector_slug, is_india_relevant, is_policy_relevant, is_media_source
+from classifier import (
+    classify_policy, get_sector_slug, is_india_relevant, is_policy_relevant,
+    is_media_source, categorize_item, get_source_authority, LEGACY_TYPE_MAP,
+    KIND_INSTRUMENT,
+)
 
 PROJECT_ROOT = Path(__file__).parent.parent
 FEEDS_CONFIG = PROJECT_ROOT / "feeds.json"
@@ -218,6 +222,10 @@ def load_historical_seed() -> list[dict]:
             source_id = raw.get("source_id", "historical")
             policy_id = generate_id(title, source_id)
             sectors = raw.get("sectors", [])
+            # Seed types are hand-curated — map them onto the taxonomy
+            # instead of re-deriving from text.
+            kind, doc_type = LEGACY_TYPE_MAP.get(
+                raw.get("type", "policy"), (KIND_INSTRUMENT, "policy"))
             items.append({
                 "id": policy_id,
                 "title": title,
@@ -229,7 +237,9 @@ def load_historical_seed() -> list[dict]:
                 "source_short": raw.get("source_short", "Archive"),
                 "sectors": sectors,
                 "sector_slugs": [get_sector_slug(s) for s in sectors],
-                "type": raw.get("type", "policy"),
+                "type": doc_type,
+                "kind": kind,
+                "authority": "government",
                 "level": raw.get("level", "central"),
                 "state": raw.get("state", ""),
             })
@@ -713,6 +723,9 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             if is_media_source(source_id):
                 level = "media"
 
+            kind, doc_type = categorize_item(
+                title, description, source_id, source_config)
+
             items.append({
                 "id": policy_id,
                 "title": title,
@@ -724,7 +737,9 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
                 "source_short": source_config.get("short_name", source_name),
                 "sectors": sectors,
                 "sector_slugs": [get_sector_slug(s) for s in sectors],
-                "type": categorize_item_type(title, description),
+                "type": doc_type,
+                "kind": kind,
+                "authority": get_source_authority(source_id, source_config),
                 "level": level,
                 "state": source_config.get("state", ""),
             })
@@ -741,22 +756,10 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
     return items
 
 
-def categorize_item_type(title: str, description: str) -> str:
-    """Categorize the type of policy item."""
-    text = f"{title} {description}".lower()
-    if any(w in text for w in ["bill", "legislation", "act ", "amendment"]):
-        return "legislation"
-    if any(w in text for w in ["notification", "gazette", "order", "circular"]):
-        return "notification"
-    if any(w in text for w in ["scheme", "yojana", "mission", "programme", "program"]):
-        return "scheme"
-    if any(w in text for w in ["budget", "fiscal", "economic survey"]):
-        return "budget"
-    if any(w in text for w in ["report", "paper", "study", "research", "analysis"]):
-        return "research"
-    if any(w in text for w in ["press release", "statement", "announces"]):
-        return "announcement"
-    return "policy"
+# categorize_item_type() lived here until the taxonomy rework: it typed items
+# by keyword alone and defaulted everything unmatched to "policy", which is
+# how news features and course adverts ended up labeled as policies. Typing
+# is now source-authority-aware — see categorize_item() in classifier.py.
 
 
 def main():

@@ -124,8 +124,9 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
             <a href="https://impactlex.netlify.app/" class="eco-link">ImpactLex</a>
             <a href={base} class="eco-link current" aria-current="page">PolicyDhara</a>
           </span>
+          <a href={`${base}policies/`}>Browse</a>
           <a href={`${base}sectors/`}>Sectors</a>
-          <a href={`${base}alerts/`}>Alerts</a>
+          <a href={`${base}parliament/`}>Parliament</a>
           <div class="nav-dropdown" id="nav-explore">
             <button class="nav-dropdown-trigger">
               Explore
@@ -139,9 +140,13 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
                     <span class="nav-menu-icon">$</span>
                     <span class="nav-menu-label">Budget</span>
                   </a>
-                  <a href={`${base}parliament/`}>
-                    <span class="nav-menu-icon">P</span>
-                    <span class="nav-menu-label">Parliament</span>
+                  <a href={`${base}longform/`}>
+                    <span class="nav-menu-icon">L</span>
+                    <span class="nav-menu-label">Long Reads</span>
+                  </a>
+                  <a href={`${base}history/`}>
+                    <span class="nav-menu-icon">H</span>
+                    <span class="nav-menu-label">Policy History</span>
                   </a>
                   <a href={`${base}intelligence/`}>
                     <span class="nav-menu-icon">I</span>
@@ -153,6 +158,10 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
                   </a>
 
                   <span class="nav-group-heading">Track</span>
+                  <a href={`${base}alerts/`}>
+                    <span class="nav-menu-icon">!</span>
+                    <span class="nav-menu-label">Alerts</span>
+                  </a>
                   <a href={`${base}continuity/`}>
                     <span class="nav-menu-icon">C</span>
                     <span class="nav-menu-label">Continuity</span>
@@ -234,10 +243,13 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
   <div class="mobile-nav" id="mobile-nav">
     <a href={base}>Home</a>
     <a href={`${base}search/`}>Search</a>
+    <a href={`${base}policies/`}>Browse</a>
     <a href={`${base}sectors/`}>Sectors</a>
     <a href={`${base}alerts/`}>Alerts</a>
     <a href={`${base}budget/`}>Budget</a>
     <a href={`${base}parliament/`}>Parliament</a>
+    <a href={`${base}longform/`}>Long Reads</a>
+    <a href={`${base}history/`}>Policy History</a>
     <a href={`${base}intelligence/`}>Intelligence</a>
     <a href={`${base}graph/`}>Knowledge Graph</a>
     <a href={`${base}continuity/`}>Continuity</a>

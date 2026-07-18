@@ -34,7 +34,7 @@ for (const s of sectorNames) {
 const maxCell = Math.max(...Object.values(sectorEraMatrix).flatMap(row => Object.values(row)), 1);
 
 // Type distribution by era
-const typeNames = ['legislation', 'notification', 'scheme', 'budget', 'research', 'announcement', 'policy'];
+const typeNames = ['act', 'rules', 'bill', 'notification', 'scheme', 'budget', 'policy', 'report', 'release', 'legislation', 'research', 'announcement'];
 const typeEraMatrix: Record<string, Record<string, number>> = {};
 for (const t of typeNames) {
   typeEraMatrix[t] = {};

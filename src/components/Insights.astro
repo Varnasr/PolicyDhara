@@ -44,7 +44,11 @@ const maxSectorCount = Math.max(...topSectors.map(s => s.count), 1);
 // types that represent a real enactment: legislation, scheme, notification,
 // budget. Research, announcements, and the broad "policy" bucket (mostly
 // news classified as policy-adjacent) are excluded.
-const ENACTMENT_TYPES = new Set(['legislation', 'scheme', 'notification', 'budget']);
+const ENACTMENT_TYPES = new Set([
+  'act', 'rules', 'notification', 'scheme', 'budget', 'policy', 'judgment',
+  // Legacy values from records ingested before the taxonomy
+  'legislation',
+]);
 const now = Date.now();
 const DAY = 86400000;
 function enactedDaysAgo(p: PolicyItem): number | null {

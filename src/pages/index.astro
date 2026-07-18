@@ -1,79 +1,40 @@
 ---
 import Base from '../layouts/Base.astro';
-import StatsBar from '../components/StatsBar.astro';
 import Insights from '../components/Insights.astro';
-import Sidebar from '../components/Sidebar.astro';
 import PolicyCard from '../components/PolicyCard.astro';
 import TrendingStrip from '../components/TrendingStrip.astro';
 import NewsletterBar from '../components/NewsletterBar.astro';
 import KnowledgeGraph from '../components/KnowledgeGraph.astro';
-import { getAllPolicies, getMeta } from '../lib/data';
+import {
+  getAllPolicies, getMeta, getKind, getOpenDrafts, getBillItems,
+  getQuestionReplies, getLongReads, TYPE_LABELS,
+} from '../lib/data';
 
 const allPolicies = getAllPolicies();
 const meta = getMeta();
-const INITIAL_SHOW = 20;
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
-// Lead story: feature a genuine government action, not the general news the
-// aggregator ingests from media RSS (which lands as the catch-all `policy`
-// type). Restrict the lead to substantive types — same discipline the
-// "enacted this week" stat uses — and rotate daily among the most recent.
-const LEAD_POOL = 10;
-const buildDay = Math.floor(Date.now() / 86400000); // changes daily
-const LEAD_TYPES = new Set(['legislation', 'scheme', 'notification', 'budget', 'announcement']);
-// Official / primary government sources — a lead from PIB, the gazette, PRS,
-// a ministry, a regulator, or a constitutional body is a real action, not a
-// media outlet's take. Any source_id under `pib_*` or `state_pib_*` is by
-// construction an official channel (they're PIB ministry-filtered listings
-// and regional office feeds), so we accept them by prefix. The explicit
-// set covers non-prefixed official sources.
-const OFFICIAL_PREFIXES = ['pib_', 'state_pib_'];
-const OFFICIAL_SOURCES = new Set([
-  'pib', 'egazette', 'india_code', 'prs_bills', 'prs_legislative',
-  'mof_budget', 'dfs', 'dst', 'mocivil', 'moship', 'niti_aayog',
-  'rbi', 'sebi', 'trai', 'irdai',
-  'nhrc', 'cci', 'cvc', 'cag', 'ncw', 'ncbc', 'law_commission', 'upsc',
-  'ibbi', 'mca_notifications', 'pngrb', 'aerb',
-  'ngt', 'ecourts_judgments', 'delhi_hc',
-  'eci_direct', 'imd_press', 'digital_india_prog', 'icmr',
-  'dipr_tn', 'dipr_ka',
-]);
-const isOfficial = (sid: string) =>
-  OFFICIAL_SOURCES.has(sid) || OFFICIAL_PREFIXES.some(p => sid.startsWith(p));
 const byDateDesc = (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime();
-// Keep operational/event-listing noise (workshops, auctions, awareness drives,
-// recruitment, tenders) out of the headline even when it's official.
+
 // Operational / non-policy chaff that shouldn't lead the feed even though it
-// comes from official or research sources: auctions & tenders, HR notices,
-// and — surfaced once the full source set came online — exam results, UPSC
-// coaching material, course/admission listings, and journal mastheads.
+// comes from official sources: auctions & tenders, HR notices, exam results,
+// course/admission listings, and journal mastheads.
 const LEAD_NOISE = /\b(workshop|webinar|auction|vrr|walk[- ]?in|recruitment|vacanc|result of the|tender|corrigendum|quiz|seniority list)\b|consumer (education|awareness|outreach)|(awareness|outreach) program|invites application|answer writing|\b(prelims|mains)\b|certificate (programme|program|course)|current affairs|admit card|\bresult\b\s*20\d\d|\bissue no\b|\bvol\.?\s*\d+/i;
-const substantive = allPolicies.filter(p => p.date && LEAD_TYPES.has(p.type) && !LEAD_NOISE.test(p.title));
-const officialActions = substantive.filter(p => isOfficial(p.source_id)).sort(byDateDesc);
-// Prefer an official action; fall back to any substantive type; then anything.
-const leadPool = (officialActions.length ? officialActions : substantive.sort(byDateDesc)).slice(0, LEAD_POOL);
-const lead = leadPool.length ? leadPool[buildDay % leadPool.length] : allPolicies[0];
-// ── Feed ranking: feature policy over news ──────────────────────────
-// The corpus is ~36% media news, but news carries fresh publication dates
-// while gazette / PIB / regulator actions are older, so a plain date-sort
-// floats news to the top and the front page reads as a news reader. Rank
-// instead so official policy leads and dominates, interleaving recent news
-// periodically (one news item after every POLICY_PER_NEWS policy items) so
-// timely coverage still surfaces without burying the tracker's core
-// content. Display-only — the dataset itself is unchanged.
-const POLICY_PER_NEWS = 3;
-const notLead = (p) => !lead || p.id !== lead.id;
-// Non-media items split into substantive policy/research vs routine
-// operational output (RBI auctions, TRAI consumer workshops, tenders,
-// recruitment) that LEAD_NOISE already flags. The chaff is genuine
-// government activity but not what the front page should feature, so it
-// sinks below the interleaved feed instead of flooding the top.
-// Diversify by source so a single high-volume source (RBI publishes ~50
-// penalty orders, one outlet dominates the news) can't fill a run of
-// consecutive slots. Round-robin: each pass emits one item per source,
-// newest head first — keeps the feed roughly recency-ordered while
-// spreading sources out.
+
+// ── Kind-based streams ──────────────────────────────────────────────
+// The taxonomy (see scripts/classifier.py) stamps every item with a kind:
+// instrument (acts, rules, notifications, schemes…), process (bills, drafts,
+// Parliament Q&A), announcement (press releases), analysis, news. The
+// homepage leads with instruments and process — the reason the tracker
+// exists — and presents news in its own clearly-labeled section instead of
+// silently interleaving it with policy.
+const instruments = allPolicies.filter(p => getKind(p) === 'instrument' && !LEAD_NOISE.test(p.title));
+const processItems = allPolicies.filter(p => getKind(p) === 'process' && !LEAD_NOISE.test(p.title));
+const newsItems = allPolicies.filter(p => getKind(p) === 'news');
+
+// Diversify by source so one high-volume publisher can't fill a run of
+// consecutive slots. Round-robin: each pass emits one item per source.
 const diversifyBySource = (items: typeof allPolicies) => {
   const bySource = new Map<string, typeof allPolicies>();
   for (const p of items) {
@@ -90,43 +51,42 @@ const diversifyBySource = (items: typeof allPolicies) => {
   }
   return result;
 };
-const nonMedia = allPolicies.filter(p => notLead(p) && p.level !== 'media');
-const policyStream = diversifyBySource(nonMedia.filter(p => !LEAD_NOISE.test(p.title)));
-const chaffStream = nonMedia.filter(p => LEAD_NOISE.test(p.title)).sort(byDateDesc);
-const newsStream = diversifyBySource(allPolicies.filter(p => notLead(p) && p.level === 'media'));
-// Interleave POLICY_PER_NEWS policy items to every 1 news item.
-const interleaved: typeof allPolicies = [];
-let pIdx = 0, nIdx = 0;
-while (pIdx < policyStream.length || nIdx < newsStream.length) {
-  for (let k = 0; k < POLICY_PER_NEWS && pIdx < policyStream.length; k++) {
-    interleaved.push(policyStream[pIdx++]);
-  }
-  if (nIdx < newsStream.length) interleaved.push(newsStream[nIdx++]);
-}
-// Feature the lead, then the policy-forward interleaved feed, then chaff.
-const policies = lead
-  ? [lead, ...interleaved, ...chaffStream]
-  : [...interleaved, ...chaffStream];
 
-// "Enacted this week" should count actual enactments, not every news item
-// the pipeline ingests. The data layer assigns `p.date` = article publication
-// date for media as well, so without a type filter ~92% of items qualify.
-// Restrict to types that represent a real government enactment.
-const ENACTMENT_TYPES = new Set(['legislation', 'scheme', 'notification', 'budget']);
+// Lead story: a real policy instrument, rotating daily among the most recent.
+const LEAD_POOL = 10;
+const buildDay = Math.floor(Date.now() / 86400000);
+const leadPool = [...instruments].filter(p => p.date).sort(byDateDesc).slice(0, LEAD_POOL);
+const lead = leadPool.length ? leadPool[buildDay % leadPool.length] : allPolicies[0];
+const notLead = (p) => !lead || p.id !== lead.id;
+
+const recentDocs = diversifyBySource(
+  [...instruments, ...processItems].filter(notLead)
+).slice(0, 6);
+
+// Policy in the making: drafts open for comment, bills before Parliament,
+// and ministers' replies to starred/unstarred questions.
+const drafts = getOpenDrafts(4);
+const bills = getBillItems(4);
+const questions = getQuestionReplies(4);
+
+// Long reads and analysis.
+const longReads = getLongReads(4);
+
+// News — its own section, clearly labeled, headlines only.
+const newsHeadlines = diversifyBySource(newsItems).slice(0, 8);
+
+// Stats: count what actually matters, honestly.
 const now = Date.now();
 const DAY = 86400000;
-const last7d = policies.filter(p => {
-  if (p.level === 'media') return false;   // enactments only, never news
+const enactedThisWeek = instruments.filter(p => {
   if (!p.date) return false;
-  if (!ENACTMENT_TYPES.has(p.type)) return false;
   const t = new Date(p.date).getTime();
   if (Number.isNaN(t)) return false;
   const age = now - t;
   return age >= 0 && age < 7 * DAY;
 }).length;
 
-const weekStatNum: number = last7d;
-const weekStatLabel: string = 'enacted this week';
+const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) : '';
 ---
 <Base title="Dashboard">
 
@@ -134,8 +94,8 @@ const weekStatLabel: string = 'enacted this week';
   <div class="dash-hero">
     <div class="dash-hero-left">
       <h1 class="dash-title">PolicyDhara</h1>
-      <p class="dash-subtitle">Tracking Indian development policy — from gazette to ground</p>
-      <p class="dash-intro">An open-source platform by <a href="https://www.impactmojo.in">ImpactMojo</a> that aggregates legislation, government schemes, budget announcements, and policy research from official sources into a single searchable database.</p>
+      <p class="dash-subtitle">Tracking Indian development policy — from draft to gazette to ground</p>
+      <p class="dash-intro">An open-source platform by <a href="https://www.impactmojo.in">ImpactMojo</a> that follows policy the way it is actually made: consultation drafts, bills in Parliament, question-hour replies, enacted instruments — with research and news kept clearly apart.</p>
       <a href="https://t.me/policydhara" class="hero-telegram-cta" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
           <path d="M22.05 2.79 2.34 10.4c-1.34.54-1.33 1.29-.24 1.62l5.06 1.58 11.71-7.39c.55-.34 1.06-.16.64.21l-9.48 8.56h-.01l.01.01-.35 5.22c.5 0 .72-.23.99-.5l2.39-2.33 4.97 3.67c.92.5 1.58.24 1.81-.85l3.27-15.42c.34-1.33-.51-1.94-1.36-1.6Z"/>
@@ -147,8 +107,13 @@ const weekStatLabel: string = 'enacted this week';
     </div>
     <div class="dash-hero-stats">
       <div class="dash-stat">
-        <span class="dash-stat-num">{meta.total_policies.toLocaleString()}</span>
-        <span class="dash-stat-label">policies</span>
+        <span class="dash-stat-num">{instruments.length.toLocaleString()}</span>
+        <span class="dash-stat-label">policy documents</span>
+      </div>
+      <div class="dash-stat-divider"></div>
+      <div class="dash-stat">
+        <span class="dash-stat-num">{processItems.length}</span>
+        <span class="dash-stat-label">in the making</span>
       </div>
       <div class="dash-stat-divider"></div>
       <div class="dash-stat">
@@ -157,13 +122,8 @@ const weekStatLabel: string = 'enacted this week';
       </div>
       <div class="dash-stat-divider"></div>
       <div class="dash-stat">
-        <span class="dash-stat-num">{meta.total_sectors}</span>
-        <span class="dash-stat-label">sectors</span>
-      </div>
-      <div class="dash-stat-divider"></div>
-      <div class="dash-stat">
-        <span class="dash-stat-num">{weekStatNum}</span>
-        <span class="dash-stat-label">{weekStatLabel}</span>
+        <span class="dash-stat-num">{enactedThisWeek}</span>
+        <span class="dash-stat-label">enacted this week</span>
       </div>
     </div>
   </div>
@@ -188,43 +148,128 @@ const weekStatLabel: string = 'enacted this week';
 
     {/* ── Left: Lead Story + Recent ── */}
     <div class="dash-main">
-      {policies.length > 0 && (
+      {lead && (
         <>
-          {/* Lead story */}
-          <article class="lead-card" data-type={policies[0].type}>
+          {/* Lead story — always a genuine policy instrument */}
+          <article class="lead-card" data-type={lead.type}>
             <div class="lead-accent"></div>
             <div class="lead-body">
               <div class="lead-meta">
-                <span class={`policy-type type-${policies[0].type}`}>{policies[0].type}</span>
-                <span class="lead-source">{policies[0].source_short}</span>
-                <span class="lead-date">{new Date(policies[0].date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                <span class={`policy-type type-${lead.type}`}>{TYPE_LABELS[lead.type] ?? lead.type}</span>
+                <span class="lead-source">{lead.source_short}</span>
+                <span class="lead-date">{new Date(lead.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
               </div>
               <h2 class="lead-title">
-                <a href={`${base}policies/${policies[0].id}/`}>{policies[0].title}</a>
+                <a href={`${base}policies/${lead.id}/`}>{lead.title}</a>
               </h2>
-              {policies[0].description && (
-                <p class="lead-desc">{policies[0].description}</p>
+              {lead.description && (
+                <p class="lead-desc">{lead.description}</p>
               )}
               <div class="policy-sectors">
-                {policies[0].sectors.map(s => (
+                {lead.sectors.map(s => (
                   <a href={`${base}sectors/${s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/`} class="sector-badge">{s}</a>
                 ))}
               </div>
             </div>
           </article>
 
-          {/* Next 5 as compact cards */}
+          {/* Latest instruments & process documents */}
           <div class="recent-grid">
-            {policies.slice(1, 7).map(p => (
+            {recentDocs.map(p => (
               <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
-                date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
+                date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type}
+                kind={getKind(p)} source_id={p.source_id} authority={p.authority} />
             ))}
           </div>
 
           <div style="text-align:center; padding: var(--space-sm) 0 var(--space-lg);">
-            <button class="btn btn-secondary" id="goto-browse">View All {meta.total_policies} Policies &rarr;</button>
+            <a class="btn btn-secondary" href={`${base}policies/`}>Browse all {instruments.length + processItems.length} policy documents &rarr;</a>
           </div>
         </>
+      )}
+
+      {/* ── How policy is made: drafts / bills / question hour ── */}
+      <section class="making-section">
+        <div class="section-header">
+          <h3>Policy in the making</h3>
+          <p>Before a policy is a policy it is a draft, a bill, a question on the floor of the House. Track it there.</p>
+        </div>
+        <div class="making-grid">
+          <div class="making-col">
+            <h4 class="making-col-title">Open for comment</h4>
+            {drafts.length === 0 && <p class="making-empty">No open consultations detected right now.</p>}
+            {drafts.map(p => (
+              <a class="making-item" href={`${base}policies/${p.id}/`}>
+                <span class="making-item-title">{p.title}</span>
+                <span class="making-item-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}</span>
+              </a>
+            ))}
+          </div>
+          <div class="making-col">
+            <h4 class="making-col-title">Bills before Parliament</h4>
+            {bills.length === 0 && <p class="making-empty">No tracked bills right now.</p>}
+            {bills.map(p => (
+              <a class="making-item" href={`${base}policies/${p.id}/`}>
+                <span class="making-item-title">{p.title}</span>
+                <span class="making-item-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}</span>
+              </a>
+            ))}
+            <a class="making-more" href={`${base}parliament/`}>Parliament tracker: sessions, bills, committees &rarr;</a>
+          </div>
+          <div class="making-col">
+            <h4 class="making-col-title">Question Hour</h4>
+            {questions.length === 0 && <p class="making-empty">Ministers' replies to starred and unstarred questions appear here as Parliament sits.</p>}
+            {questions.map(p => (
+              <a class="making-item" href={`${base}policies/${p.id}/`}>
+                <span class="making-item-title">{p.title}</span>
+                <span class="making-item-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Long reads ── */}
+      {longReads.length > 0 && (
+        <section class="longread-section">
+          <div class="section-header section-header-row">
+            <div>
+              <h3>Long reads</h3>
+              <p>In-depth essays and analysis from EPW, The India Forum, Ideas for India, IDR and others.</p>
+            </div>
+            <a class="btn btn-secondary btn-sm" href={`${base}longform/`}>All long reads &rarr;</a>
+          </div>
+          <div class="longread-grid">
+            {longReads.map(p => (
+              <a class="longread-card" href={`${base}policies/${p.id}/`}>
+                <span class="longread-source">{p.source_short}</span>
+                <span class="longread-title">{p.title}</span>
+                {p.description && <span class="longread-desc">{p.description.slice(0, 140)}{p.description.length > 140 ? '…' : ''}</span>}
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* ── News — clearly labeled, headlines only ── */}
+      {newsHeadlines.length > 0 && (
+        <section class="news-section">
+          <div class="section-header section-header-row">
+            <div>
+              <h3>Policy in the news</h3>
+              <p>Journalism about policy — context, not policy documents. Never counted in the tracker's policy numbers.</p>
+            </div>
+            <a class="btn btn-secondary btn-sm" href={`${base}policies/?kind=news`}>All coverage &rarr;</a>
+          </div>
+          <ul class="news-list">
+            {newsHeadlines.map(p => (
+              <li class="news-row">
+                <a href={`${base}policies/${p.id}/`} class="news-link">{p.title}</a>
+                <span class="news-meta">{p.source_short}{p.date ? ` · ${fmtDate(p.date)}` : ''}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       {/* Analytics */}
@@ -257,12 +302,13 @@ const weekStatLabel: string = 'enacted this week';
       <div class="sidebar-card">
         <h4 class="sidebar-card-title">Quick Links</h4>
         <div class="sidebar-links">
-          <a href={`${base}digest/`}>Today's Digest</a>
+          <a href={`${base}policies/`}>Browse Everything</a>
           <a href={`${base}parliament/`}>Parliament Tracker</a>
           <a href={`${base}budget/`}>Budget Analysis</a>
-          <a href={`${base}landscape/`}>Policy Landscape</a>
+          <a href={`${base}longform/`}>Long Reads</a>
+          <a href={`${base}history/`}>Policy History</a>
+          <a href={`${base}digest/`}>Today's Digest</a>
           <a href={`${base}compare/`}>State Comparison</a>
-          <a href={`${base}graph/`}>Policy Graph</a>
           <a href={`${base}api/`}>API Access</a>
         </div>
       </div>
@@ -274,57 +320,6 @@ const weekStatLabel: string = 'enacted this week';
         </p>
       </div>
     </aside>
-  </div>
-
-  {/* ── Browse Tab (hidden by default, shown on click) ── */}
-  <div id="browse-panel" style="display:none;">
-    <div class="page-grid">
-      <Sidebar
-        sectorCounts={meta.sector_counts}
-        sourceCounts={meta.source_counts}
-      />
-      <section>
-        <div class="feed-toolbar">
-          <div id="feed-status" aria-live="polite" style="font-size:0.75rem; color:var(--color-text-muted);"></div>
-          <div class="feed-toolbar-actions">
-            <button class="btn btn-secondary btn-sm" id="export-csv" title="Export visible policies as CSV">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-              CSV
-            </button>
-            <button class="btn btn-secondary btn-sm" id="export-json" title="Export visible policies as JSON">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-              JSON
-            </button>
-          </div>
-        </div>
-        <div class="policy-feed" id="policy-feed">
-          {policies.length === 0 ? (
-            <div class="empty-state">
-              <h3>No policies fetched yet</h3>
-              <p>Run the pipeline or wait for the next GitHub Actions run.</p>
-            </div>
-          ) : (
-            policies.map((p, i) => (
-              <div class={`policy-card-wrap ${i >= INITIAL_SHOW ? 'hidden-card' : ''}`}>
-                <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
-                  date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type} />
-              </div>
-            ))
-          )}
-          {policies.length > INITIAL_SHOW && (
-            <div class="show-more-wrap" id="show-more-wrap">
-              <button class="btn btn-primary" id="show-more-btn">
-                Show More <span id="remaining-count">({policies.length - INITIAL_SHOW} more)</span>
-              </button>
-            </div>
-          )}
-        </div>
-        <div id="no-results" class="empty-state" style="display:none;">
-          <h3>No matching policies</h3>
-          <p>Try adjusting your search or filters.</p>
-        </div>
-      </section>
-    </div>
   </div>
 
 </Base>
@@ -566,6 +561,156 @@ const weekStatLabel: string = 'enacted this week';
     .recent-grid { grid-template-columns: 1fr; }
   }
 
+  /* ── Policy in the making ──────────────────────────── */
+  .making-section {
+    margin: var(--space-lg) 0 var(--space-2xl);
+    padding: var(--space-lg);
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+  .making-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+  }
+  @media (max-width: 768px) {
+    .making-grid { grid-template-columns: 1fr; }
+  }
+  .making-col-title {
+    font-size: 0.6875rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--type-notification);
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--type-notification-border);
+  }
+  .making-item {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--color-border-light);
+    text-decoration: none;
+  }
+  .making-item:last-of-type { border-bottom: none; }
+  .making-item-title {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-text);
+    line-height: 1.45;
+  }
+  .making-item:hover .making-item-title { color: var(--color-accent); }
+  .making-item-meta {
+    display: block;
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    margin-top: 2px;
+  }
+  .making-empty {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    padding: 8px 0;
+  }
+  .making-more {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  /* ── Long reads ────────────────────────────────────── */
+  .longread-section { margin-bottom: var(--space-2xl); }
+  .section-header-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+  .longread-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  @media (max-width: 768px) {
+    .longread-grid { grid-template-columns: 1fr; }
+  }
+  .longread-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 16px 18px;
+    background: var(--type-research-bg);
+    border: 1px solid var(--type-research-border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+  }
+  .longread-card:hover { box-shadow: var(--shadow-card); transform: translateY(-1px); }
+  .longread-source {
+    font-size: 0.625rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--type-research);
+  }
+  .longread-title {
+    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.4;
+  }
+  .longread-desc {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    line-height: 1.55;
+  }
+
+  /* ── News section ──────────────────────────────────── */
+  .news-section { margin-bottom: var(--space-2xl); }
+  .news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-alt);
+    overflow: hidden;
+  }
+  .news-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-md);
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .news-row:last-child { border-bottom: none; }
+  .news-link {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    line-height: 1.45;
+  }
+  .news-link:hover { color: var(--color-accent); }
+  .news-meta {
+    flex-shrink: 0;
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    white-space: nowrap;
+  }
+  @media (max-width: 600px) {
+    .news-row { flex-direction: column; gap: 2px; }
+  }
+
   /* ── Sidebar ───────────────────────────────────────── */
   .dash-sidebar {
     display: flex;
@@ -582,59 +727,6 @@ const weekStatLabel: string = 'enacted this week';
   .sidebar-card-muted {
     background: var(--color-bg-alt);
     border-color: var(--color-border-light);
-  }
-  .sidebar-telegram-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    padding: var(--space-md);
-    background: linear-gradient(135deg, #229ED9 0%, #2AABEE 100%);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: var(--radius-lg);
-    box-shadow: 0 4px 14px rgba(34, 158, 217, 0.25);
-    color: #fff;
-    text-decoration: none;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .sidebar-telegram-card:hover {
-    color: #fff;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(34, 158, 217, 0.35);
-  }
-  .sidebar-telegram-icon {
-    flex-shrink: 0;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.18);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sidebar-telegram-body {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    min-width: 0;
-  }
-  .sidebar-telegram-eyebrow {
-    font-size: 0.6875rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: rgba(255, 255, 255, 0.85);
-  }
-  .sidebar-telegram-title {
-    font-family: 'Fraunces', 'Newsreader', Georgia, serif;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-  .sidebar-telegram-desc {
-    font-size: 0.75rem;
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 0.9);
-    margin-top: 2px;
   }
   .sidebar-card-title {
     font-family: 'Fraunces', 'Newsreader', Georgia, serif;
@@ -725,191 +817,9 @@ const weekStatLabel: string = 'enacted this week';
     font-size: 0.8125rem;
     color: var(--color-text-muted);
   }
-
-  .feed-toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: var(--space-md);
-    padding: 8px 12px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--color-border-light);
-  }
-  .feed-toolbar-actions {
-    display: flex;
-    gap: 6px;
-  }
   .btn-sm {
     padding: 6px 12px !important;
     font-size: 0.6875rem !important;
     gap: 4px !important;
   }
-
-  .policy-card-wrap { display: contents; }
-  .hidden-card > .policy-card { display: none; }
 </style>
-
-<script define:vars={{ INITIAL_SHOW }}>
-  document.addEventListener('DOMContentLoaded', () => {
-    // "View All Policies" button — show browse panel
-    const gotoBrowse = document.getElementById('goto-browse');
-    const browsePanel = document.getElementById('browse-panel');
-    if (gotoBrowse && browsePanel) {
-      gotoBrowse.addEventListener('click', () => {
-        browsePanel.style.display = '';
-        gotoBrowse.style.display = 'none';
-        browsePanel.scrollIntoView({ behavior: 'smooth' });
-      });
-    }
-
-    // ── Feed filtering (Browse panel) ──
-    const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
-    const cards = wraps.map(w => w.querySelector('.policy-card'));
-    const searchInput = document.getElementById('policy-search');
-    const noResults = document.getElementById('no-results');
-    const feedStatus = document.getElementById('feed-status');
-    const showMoreBtn = document.getElementById('show-more-btn');
-    const showMoreWrap = document.getElementById('show-more-wrap');
-    const remainingCount = document.getElementById('remaining-count');
-
-    let showCount = INITIAL_SHOW;
-    let activeSector = 'all';
-    let activeType = 'all';
-    let activeSource = 'all';
-    let searchQuery = '';
-    let isFiltering = false;
-
-    function applyFilters() {
-      let visibleCount = 0;
-      let totalMatching = 0;
-      isFiltering = activeSector !== 'all' || activeType !== 'all' || activeSource !== 'all' || searchQuery !== '';
-
-      for (let i = 0; i < cards.length; i++) {
-        const card = cards[i];
-        if (!card) continue;
-        const sectors = JSON.parse(card.dataset.sectors || '[]');
-        const type = card.dataset.type || '';
-        const source = card.dataset.source || '';
-        const text = card.textContent?.toLowerCase() || '';
-
-        const matches = (activeSector === 'all' || sectors.includes(activeSector))
-          && (activeType === 'all' || type === activeType)
-          && (activeSource === 'all' || source === activeSource)
-          && (!searchQuery || text.includes(searchQuery.toLowerCase()));
-
-        if (matches) {
-          totalMatching++;
-          if (isFiltering || totalMatching <= showCount) {
-            card.style.display = '';
-            visibleCount++;
-          } else {
-            card.style.display = 'none';
-          }
-        } else {
-          card.style.display = 'none';
-        }
-      }
-
-      if (noResults) noResults.style.display = visibleCount === 0 ? '' : 'none';
-      if (feedStatus) feedStatus.textContent = `Showing ${visibleCount} of ${cards.length} policies`;
-
-      if (showMoreWrap) {
-        if (isFiltering || showCount >= cards.length) {
-          showMoreWrap.style.display = 'none';
-        } else {
-          const remaining = totalMatching - showCount;
-          showMoreWrap.style.display = remaining > 0 ? '' : 'none';
-          if (remainingCount && remaining > 0) remainingCount.textContent = `(${remaining} more)`;
-        }
-      }
-    }
-
-    if (showMoreBtn) showMoreBtn.addEventListener('click', () => { showCount += 20; applyFilters(); });
-
-    document.querySelectorAll('.sector-filter').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.sector-filter').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeSector = btn.dataset.sector || 'all';
-        applyFilters();
-      });
-    });
-
-    document.querySelectorAll('.type-filter').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.type-filter').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeType = btn.dataset.type || 'all';
-        applyFilters();
-      });
-    });
-
-    document.querySelectorAll('.source-filter').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.source-filter').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeSource = btn.dataset.source || 'all';
-        applyFilters();
-      });
-    });
-
-    if (searchInput) {
-      let timer;
-      searchInput.addEventListener('input', () => {
-        clearTimeout(timer);
-        timer = setTimeout(() => { searchQuery = searchInput.value; applyFilters(); }, 200);
-      });
-    }
-
-    applyFilters();
-
-    // ── Export ──
-    function getVisiblePolicies() {
-      const visible = [];
-      for (let i = 0; i < cards.length; i++) {
-        const card = cards[i];
-        if (!card || card.style.display === 'none') continue;
-        visible.push({
-          id: card.dataset.id || '',
-          title: card.querySelector('.policy-title')?.textContent?.trim() || '',
-          type: card.dataset.type || '',
-          source: card.dataset.source || '',
-          date: card.dataset.date || '',
-          sectors: JSON.parse(card.dataset.sectors || '[]'),
-          description: card.querySelector('.policy-description')?.textContent?.trim() || '',
-        });
-      }
-      return visible;
-    }
-
-    function downloadFile(content, filename, mimeType) {
-      const blob = new Blob([content], { type: mimeType });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(url);
-    }
-
-    document.getElementById('export-csv')?.addEventListener('click', () => {
-      const rows = getVisiblePolicies();
-      if (rows.length === 0) return;
-      const headers = ['id', 'title', 'type', 'source', 'date', 'sectors', 'description'];
-      const csv = [headers.join(',')].concat(
-        rows.map(r => headers.map(h => {
-          let v = h === 'sectors' ? r[h].join('; ') : r[h];
-          return '"' + String(v).replace(/"/g, '""') + '"';
-        }).join(','))
-      ).join('\n');
-      downloadFile(csv, `policydhara-export-${new Date().toISOString().slice(0,10)}.csv`, 'text/csv');
-    });
-
-    document.getElementById('export-json')?.addEventListener('click', () => {
-      const rows = getVisiblePolicies();
-      if (rows.length === 0) return;
-      downloadFile(JSON.stringify(rows, null, 2), `policydhara-export-${new Date().toISOString().slice(0,10)}.json`, 'application/json');
-    });
-  });
-</script>

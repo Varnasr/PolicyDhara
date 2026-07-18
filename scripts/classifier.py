@@ -44,6 +44,335 @@ def is_media_source(source_id: str) -> bool:
     """True if source_id is a news/media outlet (level should be 'media')."""
     return source_id in MEDIA_SOURCE_IDS
 
+
+# ─────────────────────────────────────────────────────────────────────────
+# Source authority. Who published an item bounds what it can BE: a newspaper
+# can never produce a "policy" — only coverage of one; a think tank produces
+# analysis, not notifications. The old categorize_item_type() ignored this
+# and typed a tattoo-art feature as "policy" because no keyword matched.
+#
+# Authority is resolved per source_id: explicit `authority` in feeds.json
+# wins, then the media list, then the short_name map below (mirrors
+# SOURCE_TYPE_MAP in src/lib/data.ts), then default "government" (feeds.json
+# is overwhelmingly official sources).
+# ─────────────────────────────────────────────────────────────────────────
+
+AUTHORITY_GOVERNMENT = "government"      # ministries, PIB, departments, state govts
+AUTHORITY_REGULATOR = "regulator"        # RBI, SEBI, TRAI, IRDAI, ...
+AUTHORITY_LEGAL = "legal"                # courts, tribunals, gazettes, India Code
+AUTHORITY_PARLIAMENT = "parliament"      # Lok/Rajya Sabha, PRS bill track
+AUTHORITY_THINK_TANK = "think_tank"      # research institutes, universities
+AUTHORITY_INTERNATIONAL = "international"  # World Bank, UN agencies
+AUTHORITY_MEDIA = "media"                # journalism
+
+# Official authorities — these can issue policy instruments.
+OFFICIAL_AUTHORITIES = frozenset({
+    AUTHORITY_GOVERNMENT, AUTHORITY_REGULATOR, AUTHORITY_LEGAL,
+    AUTHORITY_PARLIAMENT,
+})
+
+# short_name → authority (only the non-government cases; government is the
+# default). Kept in sync with SOURCE_TYPE_MAP in src/lib/data.ts.
+_AUTHORITY_BY_SHORT = {
+    # Regulators
+    'RBI': AUTHORITY_REGULATOR, 'SEBI': AUTHORITY_REGULATOR, 'TRAI': AUTHORITY_REGULATOR,
+    'IRDAI': AUTHORITY_REGULATOR, 'CCI': AUTHORITY_REGULATOR, 'CERC': AUTHORITY_REGULATOR,
+    'CPCB': AUTHORITY_REGULATOR, 'FSSAI': AUTHORITY_REGULATOR, 'DGFT': AUTHORITY_REGULATOR,
+    'CBIC': AUTHORITY_REGULATOR, 'CBDT': AUTHORITY_REGULATOR, 'IBBI': AUTHORITY_REGULATOR,
+    'NABARD': AUTHORITY_REGULATOR, 'SIDBI': AUTHORITY_REGULATOR, 'NHB': AUTHORITY_REGULATOR,
+    'UGC': AUTHORITY_REGULATOR, 'AICTE': AUTHORITY_REGULATOR, 'NMC': AUTHORITY_REGULATOR,
+    'DGCA': AUTHORITY_REGULATOR, 'EPFO': AUTHORITY_REGULATOR, 'ESIC': AUTHORITY_REGULATOR,
+    'NPCI': AUTHORITY_REGULATOR, 'PFRDA': AUTHORITY_REGULATOR, 'RERA': AUTHORITY_REGULATOR,
+    # Legal
+    'India Code': AUTHORITY_LEGAL, 'eGazette': AUTHORITY_LEGAL, 'SCI': AUTHORITY_LEGAL,
+    'Law Comm': AUTHORITY_LEGAL, 'SCO': AUTHORITY_LEGAL, 'NLSIU': AUTHORITY_THINK_TANK,
+    'Vidhi': AUTHORITY_THINK_TANK,
+    'NCLAT': AUTHORITY_LEGAL, 'NCLT': AUTHORITY_LEGAL, 'ITAT': AUTHORITY_LEGAL,
+    'TDSAT': AUTHORITY_LEGAL, 'NGT': AUTHORITY_LEGAL, 'Lokpal': AUTHORITY_LEGAL,
+    'CVC': AUTHORITY_LEGAL, 'BCI': AUTHORITY_LEGAL, 'WB Gaz': AUTHORITY_LEGAL,
+    # Parliament
+    'Lok Sabha': AUTHORITY_PARLIAMENT, 'Rajya Sabha': AUTHORITY_PARLIAMENT,
+    'PRS Bills': AUTHORITY_PARLIAMENT, 'PRS': AUTHORITY_PARLIAMENT,
+    # Think tanks / research
+    'ORF': AUTHORITY_THINK_TANK, 'ORF Health': AUTHORITY_THINK_TANK,
+    'CPR': AUTHORITY_THINK_TANK, 'ICRIER': AUTHORITY_THINK_TANK,
+    'Brookings': AUTHORITY_THINK_TANK, 'Carnegie': AUTHORITY_THINK_TANK,
+    'CSDS': AUTHORITY_THINK_TANK, 'EPW': AUTHORITY_THINK_TANK,
+    'CEEW': AUTHORITY_THINK_TANK, 'TERI': AUTHORITY_THINK_TANK,
+    'CPPR': AUTHORITY_THINK_TANK, 'CUTS': AUTHORITY_THINK_TANK,
+    'IIMB': AUTHORITY_THINK_TANK, 'Takshashila': AUTHORITY_THINK_TANK,
+    'CSE': AUTHORITY_THINK_TANK, 'CBGA': AUTHORITY_THINK_TANK,
+    'IWWAGE': AUTHORITY_THINK_TANK, 'J-PAL': AUTHORITY_THINK_TANK,
+    'NCAER': AUTHORITY_THINK_TANK, 'IDFC': AUTHORITY_THINK_TANK,
+    'NIPFP': AUTHORITY_THINK_TANK, 'IndiaSpend': AUTHORITY_THINK_TANK,
+    'NASSCOM': AUTHORITY_THINK_TANK, 'FICCI': AUTHORITY_THINK_TANK,
+    'CII': AUTHORITY_THINK_TANK, 'APU': AUTHORITY_THINK_TANK,
+    'RIS': AUTHORITY_THINK_TANK, 'IIHS': AUTHORITY_THINK_TANK,
+    'IGIDR': AUTHORITY_THINK_TANK, 'SPRF': AUTHORITY_THINK_TANK,
+    'IIPS': AUTHORITY_THINK_TANK, 'GatewayH': AUTHORITY_THINK_TANK,
+    'ChathamH': AUTHORITY_THINK_TANK, 'CSIS': AUTHORITY_THINK_TANK,
+    'IndiaFound': AUTHORITY_THINK_TANK, 'MP-IDSA': AUTHORITY_THINK_TANK,
+    'AI-CPRG': AUTHORITY_THINK_TANK, 'Janaagraha': AUTHORITY_THINK_TANK,
+    'Praja': AUTHORITY_THINK_TANK, 'Oxfam': AUTHORITY_THINK_TANK,
+    'WiproF': AUTHORITY_THINK_TANK, 'SAV': AUTHORITY_THINK_TANK,
+    'India Forum': AUTHORITY_THINK_TANK, 'I4I': AUTHORITY_THINK_TANK,
+    # International
+    'World Bank': AUTHORITY_INTERNATIONAL, 'UNDP': AUTHORITY_INTERNATIONAL,
+    'IMF': AUTHORITY_INTERNATIONAL, 'ADB': AUTHORITY_INTERNATIONAL,
+    'UNICEF': AUTHORITY_INTERNATIONAL, 'WHO': AUTHORITY_INTERNATIONAL,
+    'ILO': AUTHORITY_INTERNATIONAL, 'FAO': AUTHORITY_INTERNATIONAL,
+    'OECD': AUTHORITY_INTERNATIONAL, 'WTO': AUTHORITY_INTERNATIONAL,
+    'IFC': AUTHORITY_INTERNATIONAL, 'UNEP': AUTHORITY_INTERNATIONAL,
+    'UNDESA': AUTHORITY_INTERNATIONAL, 'UNFPA': AUTHORITY_INTERNATIONAL,
+    'UNHCR': AUTHORITY_INTERNATIONAL,
+}
+
+# source_id → authority for sources whose short_name is ambiguous.
+_AUTHORITY_BY_ID = {
+    'prs_legislative': AUTHORITY_PARLIAMENT,
+    'prs_bills': AUTHORITY_PARLIAMENT,
+    'parliament_lok_sabha': AUTHORITY_PARLIAMENT,
+    'parliament_rajya_sabha': AUTHORITY_PARLIAMENT,
+    'pib_lok_sabha_secretariat': AUTHORITY_PARLIAMENT,
+    'pib_rajya_sabha_secretariat': AUTHORITY_PARLIAMENT,
+    'pib_parliamentary_affairs': AUTHORITY_PARLIAMENT,
+    'india_code': AUTHORITY_LEGAL,
+    'india_code_history': AUTHORITY_LEGAL,
+    'egazette': AUTHORITY_LEGAL,
+    'delhi_hc': AUTHORITY_LEGAL,
+    'azim_premji': AUTHORITY_THINK_TANK,
+    'actionaid': AUTHORITY_THINK_TANK,
+    'aser': AUTHORITY_THINK_TANK,
+    'epod_harvard': AUTHORITY_THINK_TANK,
+    'ibef': AUTHORITY_THINK_TANK,
+    'idronline': AUTHORITY_THINK_TANK,
+    'lse_southasia': AUTHORITY_THINK_TANK,
+    'pratham': AUTHORITY_THINK_TANK,
+    'savechildren': AUTHORITY_THINK_TANK,
+    'india_forum': AUTHORITY_THINK_TANK,
+    'ideas_for_india': AUTHORITY_THINK_TANK,
+    'adb_india_new': AUTHORITY_INTERNATIONAL,
+    'unicef_india': AUTHORITY_INTERNATIONAL,
+    'who_india_new': AUTHORITY_INTERNATIONAL,
+    'rbi_notifications': AUTHORITY_REGULATOR,
+    'up_rera': AUTHORITY_REGULATOR,
+    'cdsl': AUTHORITY_REGULATOR,
+    'policyradar': AUTHORITY_MEDIA,
+}
+
+
+def get_source_authority(source_id: str, source_config: dict | None = None) -> str:
+    """Resolve the authority tier for a source. Order: explicit config
+    `authority` → media list → source_id map → short_name map → government."""
+    cfg = source_config or {}
+    explicit = cfg.get("authority", "")
+    if explicit:
+        return explicit
+    if source_id in MEDIA_SOURCE_IDS:
+        return AUTHORITY_MEDIA
+    if source_id in _AUTHORITY_BY_ID:
+        return _AUTHORITY_BY_ID[source_id]
+    short = cfg.get("short_name", "")
+    if short in _AUTHORITY_BY_SHORT:
+        return _AUTHORITY_BY_SHORT[short]
+    if cfg.get("level") == "media" or not cfg.get("india_only", True):
+        return AUTHORITY_MEDIA
+    return AUTHORITY_GOVERNMENT
+
+
+# ─────────────────────────────────────────────────────────────────────────
+# Document taxonomy. Two dimensions per item:
+#
+#   kind — what role the document plays in the policy process:
+#     instrument   : an enacted/in-force policy artefact (act, rules,
+#                    notification, scheme, budget, judgment, named policy)
+#     process      : policy in the making (draft for consultation, bill,
+#                    parliamentary question reply, committee report, debate)
+#     announcement : official communication that is not itself an instrument
+#                    (PIB "PM inaugurates…" releases, event coverage)
+#     analysis     : research / think-tank / international-body output
+#     news         : journalism coverage
+#
+#   type — the specific document genre (act, bill, draft, question, …).
+#
+# The kind is bounded by source authority: media can only produce `news`,
+# research bodies only `analysis`. Only official sources (government,
+# regulator, legal, parliament) can produce instruments and process items.
+# ─────────────────────────────────────────────────────────────────────────
+
+KIND_INSTRUMENT = "instrument"
+KIND_PROCESS = "process"
+KIND_ANNOUNCEMENT = "announcement"
+KIND_ANALYSIS = "analysis"
+KIND_NEWS = "news"
+
+# Sources whose output is long-form policy writing (essays, journal issues)
+# rather than briefs or working papers.
+LONGFORM_SOURCE_IDS = frozenset({
+    "epw", "india_forum", "ideas_for_india", "seminar_mag", "idronline",
+})
+
+_RE_QUESTION = None
+_RE_BILL = None
+
+
+def _tax_regexes():
+    """Compile taxonomy regexes lazily (module import stays cheap)."""
+    global _RE_QUESTION, _RE_BILL
+    if _RE_QUESTION is None:
+        import re as _re
+        _RE_QUESTION = _re.compile(
+            r"(starred question|unstarred question"
+            r"|(?:written |a )reply to (?:a )?question"
+            r"|in (?:a )?written reply (?:to|in) (?:the )?(?:lok|rajya) sabha"
+            r"|question (?:no\.?|number)\s*\d"
+            r"|(?:lok|rajya) sabha (?:starred|unstarred|question))"
+        )
+        _RE_BILL = _re.compile(r"\bbills?\b")
+    return _RE_QUESTION, _RE_BILL
+
+
+def categorize_item(title: str, description: str, source_id: str,
+                    source_config: dict | None = None) -> tuple[str, str]:
+    """Return (kind, type) for an item, bounded by its source's authority.
+
+    This replaces the old keyword-only categorize_item_type(), whose default
+    branch stamped everything without a keyword — including news features and
+    university course adverts — as type "policy". Here the publisher decides
+    the ceiling: journalism is `news`, research is `analysis`, and only
+    official sources can produce instruments or process documents.
+    """
+    import re
+
+    authority = get_source_authority(source_id, source_config)
+    text = f"{title} {description}".lower()
+    title_l = title.lower()
+
+    # ── Media → news (with an opinion sub-genre) ──────────────────────────
+    if authority == AUTHORITY_MEDIA:
+        if re.search(r"\b(opinion|editorial|op-ed|comment(?:ary)?):|\bopinion\b.*\|", title_l):
+            return KIND_NEWS, "opinion"
+        return KIND_NEWS, "news"
+
+    # ── Research / international → analysis ───────────────────────────────
+    if authority in (AUTHORITY_THINK_TANK, AUTHORITY_INTERNATIONAL):
+        if source_id in LONGFORM_SOURCE_IDS:
+            return KIND_ANALYSIS, "longform"
+        if re.search(r"\b(working paper|policy brief|discussion paper|report|"
+                     r"survey|study|index|assessment|evaluation)\b", text):
+            return KIND_ANALYSIS, "report"
+        if re.search(r"\b(essay|long read|longread|perspective)\b", text):
+            return KIND_ANALYSIS, "longform"
+        return KIND_ANALYSIS, "analysis"
+
+    # ── Official sources: government / regulator / legal / parliament ─────
+    # Order matters: process artefacts (draft, bill, question) are checked
+    # before instruments so "Draft Rules" lands as draft, not rules.
+
+    # Parliamentary question replies (PIB ministry releases routinely carry
+    # "…in a written reply to a question in Lok Sabha").
+    re_question, re_bill = _tax_regexes()
+    if re_question.search(text):
+        return KIND_PROCESS, "question"
+
+    # Drafts and consultations — policy open for public comment.
+    if (re.search(r"\bdraft\b", title_l)
+            and re.search(r"\b(rules?|policy|notification|regulations?|"
+                          r"guidelines?|bill|amendment|code|norms|scheme|"
+                          r"framework|standards?)\b", title_l)) \
+            or re.search(r"(comments? (?:are )?invited|public comments|"
+                         r"consultation paper|pre-legislative|"
+                         r"stakeholder (?:comments|consultation)|"
+                         r"(?:seeks?|seeking|inviting) (?:public )?comments|"
+                         r"last date for (?:submission of )?comments)", text):
+        return KIND_PROCESS, "draft"
+
+    # Committee reports and debates.
+    if re.search(r"\b(standing committee|parliamentary committee|"
+                 r"select committee|joint committee)\b", text) \
+            and re.search(r"\breport\b", text):
+        return KIND_PROCESS, "committee_report"
+    if re.search(r"\bconstituent assembly\b", text):
+        return KIND_PROCESS, "debate"
+
+    # Bills before Parliament. Treasury bills are money-market operations,
+    # not legislation — they fall through to announcement.
+    if re_bill.search(title_l) \
+            and not re.search(r"\b(finance bill|treasury bills?|t-bills?|"
+                              r"(?:91|182|364)[ -]day)\b", title_l):
+        return KIND_PROCESS, "bill"
+
+    # Subordinate legislation: rules / regulations.
+    if re.search(r"\b(rules|regulations),?\s*(?:19|20)\d{2}\b", title_l) \
+            or re.search(r"\bamendment (rules|regulations)\b", title_l):
+        return KIND_INSTRUMENT, "rules"
+
+    # Acts — enacted legislation. "The X (Amendment) Act, 2025", assent,
+    # commencement; India Code items are acts by definition. Regulatory
+    # directions "under Section N of the X Act" cite an act without being
+    # one — the direction guard sends those to `notification` below.
+    if source_id in ("india_code", "india_code_history"):
+        return KIND_INSTRUMENT, "act"
+    if not re.search(r"\b(directions?|circular|notification|order|"
+                     r"exclusion|inclusion|under section)\b", title_l) \
+            and (re.search(r"\bact,?\s*(?:19|20)\d{2}\b", title_l)
+                 or re.search(r"\b(amendment act|receives? (?:the )?president'?s assent|"
+                              r"comes? into force|promulgat\w+|ordinance)\b", text)):
+        return KIND_INSTRUMENT, "act"
+
+    # Notifications, gazette entries, circulars, directions, orders,
+    # schedule inclusions/exclusions (RBI's bank-licensing housekeeping).
+    if re.search(r"\b(notification|gazette|circular|office memorandum|"
+                 r"master direction|directions?)\b", text) \
+            or re.search(r"\border\b", title_l) \
+            or re.search(r"\b(exclusion|inclusion) of\b.*\bschedule\b", text):
+        return KIND_INSTRUMENT, "notification"
+
+    # Court output from legal sources.
+    if authority == AUTHORITY_LEGAL and re.search(
+            r"\b(judgment|judgement|verdict|decree|writ petition)\b", text):
+        return KIND_INSTRUMENT, "judgment"
+
+    # Budget documents.
+    if re.search(r"\b(union budget|budget \d{4}|interim budget|"
+                 r"economic survey|finance bill|appropriation|"
+                 r"demands? for grants|supplementary demands)\b", text):
+        return KIND_INSTRUMENT, "budget"
+
+    # Schemes and missions. "programme"/"program" is deliberately excluded —
+    # it matched every workshop and training-camp announcement (TRAI consumer
+    # education camps were the whole "scheme" tail of the old dataset).
+    if re.search(r"\b(scheme|yojana|mission|abhiyan)\b", text):
+        return KIND_INSTRUMENT, "scheme"
+
+    # Explicit named policies ("National Education Policy", "Foreign Trade
+    # Policy") — the word must appear in the TITLE from an official source.
+    if re.search(r"\bpolicy\b", title_l):
+        return KIND_INSTRUMENT, "policy"
+
+    # Official reports / surveys → analysis (a NITI report is analysis, not
+    # an instrument, even though the publisher is government).
+    if re.search(r"\b(report|survey|study|index|white paper|green paper)\b",
+                 title_l):
+        return KIND_ANALYSIS, "report"
+
+    # Everything else from an official source is an announcement — a press
+    # release, an inauguration, a statement. Honest label; NOT "policy".
+    return KIND_ANNOUNCEMENT, "release"
+
+
+# Legacy type → (kind, type) mapping for curated data (historical seed) whose
+# hand-assigned types should be preserved rather than re-derived from text.
+LEGACY_TYPE_MAP = {
+    "legislation": (KIND_INSTRUMENT, "act"),
+    "notification": (KIND_INSTRUMENT, "notification"),
+    "scheme": (KIND_INSTRUMENT, "scheme"),
+    "budget": (KIND_INSTRUMENT, "budget"),
+    "policy": (KIND_INSTRUMENT, "policy"),
+    "research": (KIND_ANALYSIS, "report"),
+    "announcement": (KIND_ANNOUNCEMENT, "release"),
+}
+
 # India-relevance markers. Used to filter items from generalist media RSS
 # feeds (Livemint Politics, Hindustan Times, The Hindu National, NDTV India,
 # etc.) which routinely include foreign news (NYC mayoral politics, US trade
@@ -724,6 +1053,84 @@ SECTOR_KEYWORDS = {
 }
 
 
+# Aliases for sector names that appear in feeds.json `covers_sectors` hints
+# or legacy data but are not canonical SECTOR_KEYWORDS keys. Without this,
+# fallback classification leaks raw hint strings ("economy, governance")
+# into the dataset, producing junk sector chips and near-empty sector pages.
+_SECTOR_ALIASES = {
+    "economy": "Finance & Economy",
+    "finance": "Finance & Economy",
+    "governance": "Governance & Reform",
+    "reform": "Governance & Reform",
+    "legal": "Governance & Reform",
+    "democracy": "Governance & Reform",
+    "social-justice": "Social Protection",
+    "social justice": "Social Protection",
+    "social protection": "Social Protection",
+    "digital-technology": "Digital & Technology",
+    "digital": "Digital & Technology",
+    "technology": "Digital & Technology",
+    "climate": "Climate & Environment",
+    "environment": "Climate & Environment",
+    "health": "Health",
+    "education": "Education",
+    "agriculture": "Agriculture",
+    "gender": "Gender & Women",
+    "women": "Gender & Women",
+    "labour": "Labour & Employment",
+    "employment": "Labour & Employment",
+    "energy": "Energy",
+    "water": "Water & Sanitation",
+    "urban": "Urban Development",
+    "rural": "Rural Development",
+    "housing": "Housing",
+    "trade": "Trade & Commerce",
+    "commerce": "Trade & Commerce",
+    "defence": "Defence & Security",
+    "defense": "Defence & Security",
+    "security": "Defence & Security",
+    "science": "Science & Innovation",
+    "innovation": "Science & Innovation",
+    "tribal": "Tribal & Indigenous",
+    "disability": "Disability & Inclusion",
+    "child": "Child Rights & Youth",
+    "children": "Child Rights & Youth",
+    "youth": "Child Rights & Youth",
+    "transport": "Transport & Infrastructure",
+    "infrastructure": "Transport & Infrastructure",
+    "nutrition": "Health",
+    "foreign policy": "Trade & Commerce",
+}
+
+
+def normalize_sector_names(raw_sectors) -> list[str]:
+    """Map free-form sector hints to canonical sector names.
+
+    Accepts a list or a comma-separated string. Unknown values are dropped
+    rather than passed through, so junk like "economy, governance" can never
+    become a sector chip. Returns a de-duplicated, order-preserving list.
+    """
+    if not raw_sectors:
+        return []
+    if isinstance(raw_sectors, str):
+        raw_list = [s.strip() for s in raw_sectors.split(",")]
+    else:
+        raw_list = []
+        for entry in raw_sectors:
+            raw_list.extend(s.strip() for s in str(entry).split(","))
+
+    canonical_keys = {k.lower(): k for k in SECTOR_KEYWORDS}
+    result: list[str] = []
+    for raw in raw_list:
+        if not raw:
+            continue
+        key = raw.lower()
+        name = canonical_keys.get(key) or _SECTOR_ALIASES.get(key)
+        if name and name not in result:
+            result.append(name)
+    return result
+
+
 def classify_policy(title: str, description: str = "", source_sectors=None) -> list[str]:
     """
     Classify a policy item into one or more sectors based on keyword matching.
@@ -738,11 +1145,12 @@ def classify_policy(title: str, description: str = "", source_sectors=None) -> l
             scores[sector] = score
 
     if not scores:
-        # If source has known sectors, use those as fallback
+        # If source has known sectors, use those as fallback — normalized so
+        # raw hint strings never leak into the dataset as sector names.
         if source_sectors and source_sectors != "all":
-            if isinstance(source_sectors, list):
-                return source_sectors[:3]
-            return [source_sectors]
+            normalized = normalize_sector_names(source_sectors)
+            if normalized:
+                return normalized[:3]
         return ["Governance & Reform"]  # default fallback
 
     # Return top sectors (up to 3), sorted by match count

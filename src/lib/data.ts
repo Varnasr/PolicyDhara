@@ -21,8 +21,69 @@ export interface PolicyItem {
   sectors: string[];
   sector_slugs: string[];
   type: string;
+  kind?: Kind;         // document role in the policy process (see Kind)
+  authority?: string;  // publisher tier: government/regulator/legal/parliament/think_tank/international/media
   level?: string;  // 'central' or 'state'
   state?: string;  // state name if level === 'state'
+}
+
+/**
+ * Document kind — what role an item plays in the policy process. Stamped by
+ * the pipeline (scripts/classifier.py categorize_item); bounded by source
+ * authority so journalism can only ever be `news` and research `analysis`.
+ */
+export type Kind = 'instrument' | 'process' | 'announcement' | 'analysis' | 'news';
+
+export const KIND_LABELS: Record<Kind, string> = {
+  instrument: 'Policy document',
+  process: 'In the making',
+  announcement: 'Announcement',
+  analysis: 'Analysis',
+  news: 'News',
+};
+
+/** Human labels for document types (new taxonomy + legacy values). */
+export const TYPE_LABELS: Record<string, string> = {
+  act: 'Act',
+  rules: 'Rules',
+  notification: 'Notification',
+  scheme: 'Scheme',
+  budget: 'Budget',
+  policy: 'Policy',
+  judgment: 'Judgment',
+  bill: 'Bill',
+  draft: 'Draft for comment',
+  question: 'Parliament Q&A',
+  committee_report: 'Committee report',
+  debate: 'Debate',
+  release: 'Press release',
+  report: 'Report',
+  analysis: 'Analysis',
+  longform: 'Long read',
+  news: 'News',
+  opinion: 'Opinion',
+  // Legacy values still present in older records
+  legislation: 'Legislation',
+  research: 'Research',
+  announcement: 'Announcement',
+};
+
+/** Legacy type → kind, for records ingested before the taxonomy existed. */
+const LEGACY_KIND: Record<string, Kind> = {
+  legislation: 'instrument',
+  notification: 'instrument',
+  scheme: 'instrument',
+  budget: 'instrument',
+  policy: 'instrument',
+  research: 'analysis',
+  announcement: 'announcement',
+};
+
+/** Resolve an item's kind, deriving one for legacy records without it. */
+export function getKind(p: PolicyItem): Kind {
+  if (p.kind) return p.kind;
+  if (isMediaItem(p)) return 'news';
+  return LEGACY_KIND[p.type] ?? 'announcement';
 }
 
 export interface Amendment {
@@ -116,6 +177,66 @@ export function isMediaItem(p: PolicyItem): boolean {
  */
 export function getPolicyItems(): PolicyItem[] {
   return getAllPolicies().filter(p => !isMediaItem(p));
+}
+
+/* ── Kind-based views ─────────────────────────────────────────────────
+ * These are what the redesigned pages browse: actual policy instruments,
+ * the policy-making process, analysis, and clearly-labeled news — instead
+ * of one undifferentiated feed where a tattoo-art feature sat next to a
+ * gazette notification under the same "policy" label. */
+
+/** Enacted/in-force policy instruments: acts, rules, notifications,
+ * schemes, budgets, judgments, named policies. */
+export function getInstruments(): PolicyItem[] {
+  return getAllPolicies().filter(p => getKind(p) === 'instrument');
+}
+
+/** Policy in the making: bills, drafts open for comment, parliamentary
+ * question replies, committee reports, debates. */
+export function getProcessItems(): PolicyItem[] {
+  return getAllPolicies().filter(p => getKind(p) === 'process');
+}
+
+/** Research and think-tank analysis (reports, briefs, long reads). */
+export function getAnalysisItems(): PolicyItem[] {
+  return getAllPolicies().filter(p => getKind(p) === 'analysis');
+}
+
+/** Journalism coverage — kept, but never presented as policy. */
+export function getNewsItems(): PolicyItem[] {
+  return getAllPolicies().filter(p => getKind(p) === 'news');
+}
+
+/** In-depth long-form essays from journal/essay sources (EPW, The India
+ * Forum, Ideas for India, IDR). */
+export function getLongReads(limit = 30): PolicyItem[] {
+  return getAllPolicies()
+    .filter(p => p.type === 'longform')
+    .slice(0, limit);
+}
+
+/** Draft policies / consultation papers currently inviting comments,
+ * newest first by ingestion date. */
+export function getOpenDrafts(limit = 20): PolicyItem[] {
+  return getAllPolicies()
+    .filter(p => p.type === 'draft')
+    .sort((a, b) => (b.first_seen || b.date).localeCompare(a.first_seen || a.date))
+    .slice(0, limit);
+}
+
+/** Parliamentary question replies (starred/unstarred) detected in official
+ * releases. */
+export function getQuestionReplies(limit = 30): PolicyItem[] {
+  return getAllPolicies()
+    .filter(p => p.type === 'question')
+    .slice(0, limit);
+}
+
+/** Bills currently before Parliament, from parliamentary sources. */
+export function getBillItems(limit = 30): PolicyItem[] {
+  return getAllPolicies()
+    .filter(p => p.type === 'bill')
+    .slice(0, limit);
 }
 
 export function getMeta(): MetaData {
@@ -820,8 +941,14 @@ export function getSectorTypeMatrix(): {
     .sort(([, a], [, b]) => b - a)
     .map(([s]) => s);
 
-  const types = ['legislation', 'notification', 'scheme', 'budget', 'research', 'announcement', 'policy']
-    .filter(t => typeSet.has(t));
+  const types = [
+    // Taxonomy types (see scripts/classifier.py), instruments first
+    'act', 'rules', 'notification', 'scheme', 'budget', 'policy', 'judgment',
+    'bill', 'draft', 'question', 'committee_report', 'debate',
+    'report', 'analysis', 'longform', 'release', 'news', 'opinion',
+    // Legacy values still present in older records
+    'legislation', 'research', 'announcement',
+  ].filter(t => typeSet.has(t));
 
   return { sectors, types, matrix };
 }
@@ -1098,15 +1225,16 @@ export function getPriority(policy: PolicyItem): 'critical' | 'high' | 'medium' 
 
   // Critical: constitutional amendments, major acts, budget
   if (/constitutional amendment|finance bill|union budget|national security|emergency/i.test(combined)) return 'critical';
-  if (policy.type === 'legislation' && /\bact\b|\bbill\b/i.test(t)) return 'critical';
+  if (['act', 'bill', 'legislation'].includes(policy.type) && /\bact\b|\bbill\b/i.test(t)) return 'critical';
 
-  // High: major schemes, notifications with large scope
+  // High: major schemes, notifications with large scope, open consultations
   if (/crore|lakh crore|billion|nationwide|all states|pan-india/i.test(combined)) return 'high';
   if (policy.type === 'scheme' && policy.sectors.length >= 2) return 'high';
-  if (policy.type === 'notification' && /gazette|notification/i.test(t)) return 'high';
+  if (['notification', 'rules'].includes(policy.type) && /gazette|notification|rules/i.test(t)) return 'high';
+  if (policy.type === 'draft') return 'high';
 
   // Medium: research, policy frameworks
-  if (policy.type === 'research' || policy.type === 'policy') return 'medium';
+  if (['research', 'report', 'analysis', 'longform', 'policy'].includes(policy.type)) return 'medium';
   if (policy.sectors.length >= 3) return 'medium';
 
   return 'normal';

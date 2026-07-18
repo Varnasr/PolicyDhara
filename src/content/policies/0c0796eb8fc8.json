@@ -17,8 +17,10 @@
     "digital-technology",
     "transport-infrastructure"
   ],
-  "type": "announcement",
+  "type": "release",
   "level": "state",
   "state": "Punjab",
-  "first_seen": "2026-07-18"
+  "first_seen": "2026-07-18",
+  "kind": "announcement",
+  "authority": "government"
 }

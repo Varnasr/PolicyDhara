@@ -475,13 +475,27 @@ a:hover { color: var(--color-accent-hover); }
 }
 
 /* Accent bars by type */
-.policy-card[data-type="legislation"]::before { background: var(--type-legislation); }
-.policy-card[data-type="notification"]::before { background: var(--type-notification); }
+.policy-card[data-type="legislation"]::before,
+.policy-card[data-type="act"]::before,
+.policy-card[data-type="judgment"]::before { background: var(--type-legislation); }
+.policy-card[data-type="notification"]::before,
+.policy-card[data-type="rules"]::before,
+.policy-card[data-type="draft"]::before,
+.policy-card[data-type="question"]::before { background: var(--type-notification); }
 .policy-card[data-type="scheme"]::before { background: var(--type-scheme); }
 .policy-card[data-type="budget"]::before { background: var(--type-budget); }
-.policy-card[data-type="research"]::before { background: var(--type-research); }
-.policy-card[data-type="announcement"]::before { background: var(--type-announcement); }
+.policy-card[data-type="research"]::before,
+.policy-card[data-type="report"]::before,
+.policy-card[data-type="analysis"]::before,
+.policy-card[data-type="longform"]::before,
+.policy-card[data-type="bill"]::before,
+.policy-card[data-type="committee_report"]::before,
+.policy-card[data-type="debate"]::before { background: var(--type-research); }
+.policy-card[data-type="announcement"]::before,
+.policy-card[data-type="release"]::before { background: var(--type-announcement); }
 .policy-card[data-type="policy"]::before { background: var(--type-policy); }
+.policy-card[data-type="news"]::before,
+.policy-card[data-type="opinion"]::before { background: var(--color-border); }
 
 .policy-card-header {
   margin-bottom: 8px;
@@ -573,6 +587,49 @@ a:hover { color: var(--color-accent-hover); }
 .type-research { background: var(--type-research-bg); color: var(--type-research); border-color: var(--type-research-border); }
 .type-announcement { background: var(--type-announcement-bg); color: var(--type-announcement); border-color: var(--type-announcement-border); }
 .type-policy { background: var(--type-policy-bg); color: var(--type-policy); border-color: var(--type-policy-border); }
+
+/* New taxonomy document types (see scripts/classifier.py categorize_item) */
+.type-act,
+.type-judgment { background: var(--type-legislation-bg); color: var(--type-legislation); border-color: var(--type-legislation-border); }
+.type-rules { background: var(--type-notification-bg); color: var(--type-notification); border-color: var(--type-notification-border); }
+.type-bill,
+.type-committee_report,
+.type-debate { background: var(--type-research-bg); color: var(--type-research); border-color: var(--type-research-border); }
+.type-draft,
+.type-question { background: var(--type-notification-bg); color: var(--type-notification); border-color: var(--type-notification-border); }
+.type-release { background: var(--color-bg-alt); color: var(--color-text-muted); border-color: var(--color-border); }
+.type-report,
+.type-analysis,
+.type-longform { background: var(--type-research-bg); color: var(--type-research); border-color: var(--type-research-border); }
+.type-news,
+.type-opinion { background: var(--color-bg-alt); color: var(--color-text-muted); border-color: var(--color-border); }
+
+/* ── Kind Badges — the honest label: is this a policy, process, PR,
+      analysis, or news? Rendered on every card next to the type. ──── */
+
+.policy-kind {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.625rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.kind-instrument { background: var(--type-scheme); color: #fff; }
+.kind-process { background: var(--type-notification); color: #fff; }
+.kind-announcement { background: transparent; color: var(--color-text-muted); border: 1px dashed var(--color-border); }
+.kind-analysis { background: transparent; color: var(--type-research); border: 1px solid var(--type-research-border); }
+.kind-news { background: transparent; color: var(--color-text-muted); border: 1px solid var(--color-border); }
+
+/* Card-level cue: news and announcements are visually quieter than
+   instruments/process so the feed reads at a glance. */
+.kind-card-news { border-left: 3px solid var(--color-border); }
+.kind-card-announcement { border-left: 3px solid var(--color-border); }
+.kind-card-instrument { border-left: 3px solid var(--type-scheme); }
+.kind-card-process { border-left: 3px solid var(--type-notification); }
+.kind-card-analysis { border-left: 3px solid var(--type-research-border); }
 
 /* ── Sector Badges ───────────────────────────────────────────── */
 
