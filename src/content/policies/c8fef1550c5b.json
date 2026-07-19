@@ -18,9 +18,10 @@
     "urban-development"
   ],
   "type": "notification",
+  "kind": "instrument",
+  "authority": "regulator",
+  "comment_deadline": "",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-18",
-  "kind": "instrument",
-  "authority": "regulator"
+  "first_seen": "2026-07-18"
 }

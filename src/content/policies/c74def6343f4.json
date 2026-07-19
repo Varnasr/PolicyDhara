@@ -16,9 +16,10 @@
     "transport-infrastructure"
   ],
   "type": "report",
+  "kind": "analysis",
+  "authority": "legal",
+  "comment_deadline": "",
   "level": "central",
   "state": "",
-  "first_seen": "2026-07-18",
-  "kind": "analysis",
-  "authority": "legal"
+  "first_seen": "2026-07-18"
 }
