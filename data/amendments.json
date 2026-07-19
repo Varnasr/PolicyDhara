@@ -1372,13 +1372,6 @@
   ],
   "8f78b1c0d290": [
     {
-      "date": "2026-07-12",
-      "field": "description",
-      "old_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal to Lead High-Level Business Delegation to Spain, Belgium and Finland from 13–17 July 2026",
-      "new_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal to Lead High-Level Business D...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
       "date": "2026-07-13",
       "field": "description",
       "old_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal to Lead High-Level Business Delegation to Spain, Belgium and Finland from 13–17 July 2026",
@@ -1510,6 +1503,13 @@
       "old_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal to Lead High-Level Business Delegation to Spain, Belgium and Finland from 13–17 July 2026",
       "new_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Addresses India–Estonia Bus...",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal to Lead High-Level Business Delegation to Spain, Belgium and Finland from 13–17 July 2026",
+      "new_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal concludes successful visit ...",
+      "source_id": "pib"
     }
   ],
   "7d8861398b7d": [
@@ -1866,13 +1866,6 @@
   "30fbc250a52f": [
     {
       "date": "2026-07-16",
-      "field": "description",
-      "old_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
-      "new_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:50 Frontier Image Select Frontier Type Roadmaps to Viksit Bharat Frontier Link /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-07-16",
       "field": "type",
       "old_value": "research",
       "new_value": "policy",
@@ -2202,6 +2195,34 @@
     },
     {
       "date": "2026-07-18",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
+      "new_value": "Digital & Technology, Energy, Finance & Economy",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
+      "new_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:50 Frontier Image Select Frontier Type Roadmaps to Viksit Bharat Frontier Link /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
+      "new_value": "Digital & Technology, Energy, Finance & Economy",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
+      "new_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:48 Weight 0 Links /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-19",
       "field": "sectors",
       "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
       "new_value": "Digital & Technology, Energy, Finance & Economy",
@@ -2623,6 +2644,20 @@
       "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
       "new_value": "NITI Aayog released a report on “Investment Friendliness Index” niti_admin Fri, 07/17/2026 - 22:29 Publishing Date Fri, 07/17/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285847&reg=48&lang=1",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
+      "new_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 14:27 Weight 0 Links /sites/default/files/2026-07/Investment-Friendliness-Index.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
+      "new_value": "NITI Aayog released a report on “Investment Friendliness Index” niti_admin Fri, 07/17/2026 - 22:29 Publishing Date Fri, 07/17/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285847&reg=48&lang=1",
+      "source_id": "niti_aayog"
     }
   ],
   "e9c061d4d108": [
@@ -2768,11 +2803,39 @@
       "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
       "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹8 lakh (Rupees Eight Lakh only) on The Sambalpur District Co-operative Central Bank Limited...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People s Co-operative...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹50,000/- (Rupees Fifty Thousand only) on The Nawada Central Co-operative Bank Limited...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹8 lakh (Rupees Eight Lakh only) on The Sambalpur District Co-operative Central Bank Limited...",
+      "source_id": "policyradar"
     }
   ],
   "fdf71675e8de": [
     {
       "date": "2026-07-18",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar, Maharashtra (the bank) for non-compliance with provisions of Section 20(1) of the Banking Regulation Act, 1949 (BR Act). This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regulation Act, 1949. The statutory ins",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-19",
       "field": "description",
       "old_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar, Maharashtra (the bank) for non-compliance with provisions of Section 20(1) of the Banking Regulation Act, 1949 (BR Act). This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regulation Act, 1949. The statutory ins",
       "new_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar...",
@@ -3118,9 +3181,30 @@
       "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
       "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
       "source_id": "cprindia"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
+      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
+      "source_id": "cprindia"
     }
   ],
   "278a6d239b7a": [
+    {
+      "date": "2026-07-19",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
     {
       "date": "2026-07-19",
       "field": "type",
@@ -3549,6 +3633,41 @@
       "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
       "new_value": "Honorable Minister of State",
       "source_id": "moship"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
+      "new_value": "Honorable Cabinet Minister",
+      "source_id": "moship"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
+      "new_value": "Honorable Minister of State",
+      "source_id": "moship"
     }
   ],
   "a9fb0e91e258": [
@@ -3710,6 +3829,20 @@
       "old_value": "डीआरडीओ न्यूज़लेटर जुलाई 2026",
       "new_value": "संकल्प तकनीकी",
       "source_id": "drdo"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "डीआरडीओ न्यूज़लेटर जुलाई 2026",
+      "new_value": "संकल्प",
+      "source_id": "drdo"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "डीआरडीओ न्यूज़लेटर जुलाई 2026",
+      "new_value": "संकल्प तकनीकी",
+      "source_id": "drdo"
     }
   ],
   "bb327c669e3f": [
@@ -3754,9 +3887,37 @@
       "old_value": "Social Protection",
       "new_value": "Digital & Technology, Energy, Social Protection",
       "source_id": "seci"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "sectors",
+      "old_value": "Social Protection",
+      "new_value": "Climate & Environment, Energy, Social Protection",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "sectors",
+      "old_value": "Social Protection",
+      "new_value": "Digital & Technology, Energy, Social Protection",
+      "source_id": "seci"
     }
   ],
   "fe4b680c2aa0": [
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The delimitation debate should not be viewed as a contest between democracy and federalism. Rather, it concerns the appropriate balance between electoral equality and territorial accommodation within a federal polity. Among the alternatives considered, the allocation of only incremental seats, according to contemporary population, emerges as a possible middle path that merits consideration in future political deliberations.",
+      "new_value": "The impending post-2026 delimitation exercise has revived concerns over the allocation of Lok Sabha seats among Indian states. This paper argues that a purely population-based allocation formula is no longer adequate for preserving federal balance. It proposes a two-part approach: the existing allocation of 543 Lok Sabha seats should remain unchanged, while any additional seats created through Lok Sabha expansion should be distributed according to a demographic performance principle derived from",
+      "source_id": "epw"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Governance & Reform, Social Protection",
+      "new_value": "Digital & Technology, Energy, Social Protection",
+      "source_id": "epw"
+    },
     {
       "date": "2026-07-19",
       "field": "description",
@@ -3846,6 +4007,41 @@
       "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "new_value": "Gross domestic product (GDP) has been long criticized for its inadequacy in measuring economic activity or welfare. True, it is imperfect. But it is too deeply embedded in the institutional architecture of governments, markets and global organizations to drop.",
       "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "The addition has been introduced without any corresponding amendment to the statutory Form 6. Although the field is not marked as compulsory, users cannot proceed on ECINET portal with the application unless they respond.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "Zero tariffs. Cheaper whisky and British cars. Major benefits for Indian workers in the U.K. The India-U.K. trade deal could reshape business on both sides. Here’s the complete picture",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "How are petrol vehicle owners reacting to the E20 mandate? How environmentally friendly is India’s dependence on sugarcane for ethanol? How has the U.S. reacted to India’s booming ethanol economy? Why has the adoption of EVs in India been much slower compared to other large economies?",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "Police are maintaining constant surveillance in and around the protest site, while additional personnel have been stationed at strategic locations.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "The convergence of the CJP protest with the opening day of Parliament has heightened security across the national capital.",
+      "source_id": "hindustan_times"
     }
   ],
   "78fead1466d1": [
@@ -3858,62 +4054,6 @@
     }
   ],
   "f353eb1ef0a2": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "India Today impact Govt takes action after expose into Madhya Pradesh colleges",
-      "source_id": "india_today"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Mohammad Rafiuddin",
-      "source_id": "ceew_new"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Shravan Prabhu, Keerthana A S, Srishti Mandal, Divyanshu Sharma, Vishwas Chitale",
-      "source_id": "ceew_new"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "The results of All India Bar Examination-XXI (AIBE-XXI) will be declared on Saturday (July 18), a press note by the Bar Council of India states wherein 65.92% of the candidates have qualified the bar exam.� The press release states: \"The Bar Council of India is going to declare the result of AIBE-XXI today. The overall pass percentage of All India Bar Examination-XXI stands at 65.92%, indicating the performance standards achieved by the candidates\".� The BCI has said that result was directed to",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "‘Any comprehensive approach to the hawker crowding of streets in cities must address two key questions: how to accommodate the continuous entry of new vendors, and how to manage hawker presence in…▶01-Jul-2026",
-      "source_id": "india_forum"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "“Delimitation is not a Congress issue or an INDIA bloc issue alone; it is a national issue because it concerns India’s democratic and constitutional framework,” Mr. Venugopal said",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Having worked closely with Burnham during his previous tenure as Labour's deputy mayor of London, Indore-born Agrawal feels the incoming PM's domestic devolution agenda will find synergies in India's federal set-up",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Isro satellite images show clouds over nearly twothirds of India What to expect",
-      "source_id": "india_today"
-    },
     {
       "date": "2026-07-19",
       "field": "description",
@@ -3997,6 +4137,62 @@
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
       "new_value": "All India Institute of Medical Sciences (AIIMS), Bhopal invites online application for the post of Consultant (Law Officer). Name of the Post: Consultant (Law Officer) No. of Post: 01 (One) Age Limit: Upto the Age of 65 years Remuneration: Rs. 86955/- or Last Basic Pay minus Pension (without DA) whichever is lower Essential Qualification and Experience Retired employees having (i) Bachelor's Degree in Law (LL.B.) from a recognized Institute/University with 05 years of Professional experience in",
       "source_id": "livelaw"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "In an interview to PTI on Sunday, 12 July, the Buxar Member of Parliament (MP) alleged that the BJP was pursuing a political strategy to weaken opposition parties in an attempt to secure the numbers required to push through its legislative agenda.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Together, the two developments reflect India's growing ambitions in commercial space technology and sustainable transportation.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "The country's urban population is growing faster than official numbers indicate. While policymakers seem to have an inkling of this, three measures could help ensure a regular supply of robust data. Here’s what ought to be done",
+      "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Rainfall coverage is of enormous importance to Indian well-being, given the number of livelihoods and lives it still impacts. While initial fears of an El Niño dry-up this year might have begun to evaporate, it’s too early to relax our guard.",
+      "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "The success of Skyroot — a startup founded by former Isro engineers Pawan Kumar Chandana and Naga Bharath Daka in Hyderabad in 2018 — has validated the Indian government’s belief in the private sector and its decision to open up the space sector to private companies",
+      "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "India rejected former Japanese minister Hideki Makihara's claims of delays and recklessness in the Mumbai-Ahmedabad Bullet Train project, saying work is progressing well with first section due in 2027 and talks with Japan on track.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "This comes amid ongoing diplomatic engagement between India & Bangladesh, as Dhaka continues to press for Hasina’s return following her conviction in absentia. India has walked a careful line, acknowledging the requests without committing to outcomes while stressing constructive bilateral ties.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "The Centre for Innovation and Intellectual Property Rights (CIIPR), Rajiv Gandhi National University of Law (RGNUL), Punjab, in collaboration with Law Mantra Trust, is organising a two-day International Seminar on \"Inclusive Labour Law Regime in India: Addressing Women Workers, Child Labour, and Informal Economy\" on 16 and 17 October 2026. The seminar will be held online through Google Meet. The seminar seeks to provide an academic platform for deliberations on India's evolving labour law framew",
+      "source_id": "livelaw"
     }
   ],
   "face1f2211d9": [
@@ -4009,6 +4205,13 @@
     }
   ],
   "37ba715edf7e": [
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 1 Entry",
+      "new_value": "RBI/2026-27/176 DOR.AML.REC.149/14.06.001/2026-27 July 09, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks...",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-07-19",
       "field": "description",
@@ -4052,37 +4255,16 @@
       "old_value": "The Supreme Court ruled that a minister's personal remarks do not represent the government's official position unless endorsed by the government.",
       "new_value": "View All",
       "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The Supreme Court ruled that a minister's personal remarks do not represent the government's official position unless endorsed by the government.",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
     }
   ],
   "4eae8bbc3aa6": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Indian Team won 1 Gold and 3 Silver Medals at the 37th International Biology Olympiad 2026 in Vilnius, Lithuania",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: INDIAN AIR FORCE EX PITCH BLACK 2026 AT DARWIN, AUSTRALIA",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Indian Team won 1 Gold and 3 Silver Medals at the 37th International Biology Olympiad 2026 in Vilnius, Lithuania",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: INDIAN AIR FORCE EX PITCH BLACK 2026 AT DARWIN, AUSTRALIA",
-      "source_id": "pib_upsc"
-    },
     {
       "date": "2026-07-19",
       "field": "description",
@@ -4194,16 +4376,37 @@
       "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
       "new_value": "The 3rd National Digital Innovation Summit 2026, jointly organised by the Department of IT & Electronics, Government of Uttar Pradesh, and Elets Technomedia, was held today at The Centrum, Lucknow. The two-day summit brought…",
       "source_id": "ecgov"
-    }
-  ],
-  "9ed0725093c9": [
+    },
     {
       "date": "2026-07-19",
       "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_steel"
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Government of India press release: Prime Minister congratulates PV Sindhu on winning Japan Open 2026 title",
+      "source_id": "pib"
     },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Trinamool Congress MP Kakoli Ghosh Dastidar, who, along with 19 other party Lok Sabha MPs, has merged with the little-known Nationalist Citizens Party of India (NCPI), said the faction would observe Martyrs’ Day at Rajghat",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "The 3rd National Digital Innovation Summit 2026, jointly organised by the Department of IT & Electronics, Government of Uttar Pradesh, and Elets Technomedia, was held today at The Centrum, Lucknow. The two-day summit brought…",
+      "source_id": "ecgov"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "NOMINAL INDEX Netra Pal Singh v. State of U.P. and 2 Others 2026 LiveLaw (AB) 391 Asif Ansari v. Himanshu Sharma and another 2026 LiveLaw (AB) 392 Amarnath v. State Information Commission U.P. Lko. Thru. Chief Information Commissioner And Another 2026 LiveLaw (AB) 393 Ajeet Nigam v. Additional District Judge And 5 Others 2026 LiveLaw (AB) 394 Romil Jain v. Ashok Kumar Jain and another 2026 LiveLaw (AB) 395 Mithai Lal And Others v. D.D.C. And Others 2026 LiveLaw (AB) 396 Smt. Meenu v. State of U.",
+      "source_id": "livelaw"
+    }
+  ],
+  "9ed0725093c9": [
     {
       "date": "2026-07-19",
       "field": "description",
@@ -4336,6 +4539,13 @@
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Chou Sean Yu is not a Managing Partner who measures success in just revenue targets or headcount growth. Almost 30 years into his career at WongPartnership, a firm he joined 5 years after its founding and has never left, he instead speaks about leadership transitions, generational custodianship and keeping the founders’ legacy alive.In this wide-ranging conversation with Bar & Bench's Pallavi Saluja, Sean Yu speaks about his role as Managing Partner of the firm, Singapore's dominance as an a",
+      "source_id": "barandbench"
     }
   ],
   "06b73322a96b": [
@@ -4387,6 +4597,27 @@
       "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
       "new_value": "However, Wangchuk, 59, refused to call off the hunger strike and instead questioned the Centre's unwillingness to engage in talks. Dipke quoted Wangchuk as saying 'Don't ask me to end my fast. Ask the govt why they won't even have a dialogue.'",
       "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
+      "new_value": "In an open letter to the Jantar Mantar protestors, Tharoor said that with Parliament in session again from Monday, there will be an opportunity to raise the students' issues at the highest forum of democracy.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
+      "new_value": "Wangchuk has been on indefinite fast for 17 dys now even as CJP protest at Jantar Mantar completed 25 days on 14 July. According to the health bulletin issued by the outfit, Wangchuk, 59, has lost 8.5 kg since beginning the fast, and his blood pressure was recorded at 109/70 mm Hg.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
+      "new_value": "However, Wangchuk, 59, refused to call off the hunger strike and instead questioned the Centre's unwillingness to engage in talks. Dipke quoted Wangchuk as saying 'Don't ask me to end my fast. Ask the govt why they won't even have a dialogue.'",
+      "source_id": "livemint_policy"
     }
   ],
   "92d32efcdb9c": [
@@ -4403,6 +4634,27 @@
       "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inspects indigenous an...",
       "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah to perform Bhoomi Puja...",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inspects indigenous an...",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah performs Bhoomi Pujan ...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inspects indigenous an...",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the first ...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inspects indigenous an...",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah chairs a review meetin...",
+      "source_id": "pib"
     }
   ],
   "c26759372e2b": [
@@ -4475,6 +4727,13 @@
       "old_value": "Consumer Awareness Program at Chandigarh (Chandigarh) by Radio Madhuban Community Society ypjaipur Fri, 07/17/2026 - 13:33 Date Tue, 07/28/2026 - 12:00 District Chandigarh Division Consumer Affairs Date & Time Tue, 07/28/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Yashwant Patil Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Brahmakumaris Community Center, H No.5607, Modern Housing Complex, Sector 13, Mani, Ma",
       "new_value": "Consumer Awareness Program at Chandigarh (Chandigarh) by Radio Madhuban Community Society ypjaipur Fri, 07/17/2026 - 13:33 Date Fri, 08/28/2026 - 12:00 District Chandigarh Division Consumer Affairs Date & Time Fri, 08/28/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Yashwant Patil Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Brahmakumaris Community Hall, Prabhu Upvan, House Number 3303, Sector 28 D, Chandigadh",
       "source_id": "trai"
+    },
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Consumer Awareness Program at Chandigarh (Chandigarh) by Radio Madhuban Community Society ypjaipur Fri, 07/17/2026 - 13:33 Date Tue, 07/28/2026 - 12:00 District Chandigarh Division Consumer Affairs Date & Time Tue, 07/28/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Yashwant Patil Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Brahmakumaris Community Center, H No.5607, Modern Housing Complex, Sector 13, Mani, Ma",
+      "new_value": "Consumer Awareness Program at Chandigarh (Chandigarh) by Radio Madhuban Community Society ypjaipur Fri, 07/17/2026 - 13:33 Date Fri, 08/28/2026 - 12:00 District Chandigarh Division Consumer Affairs Date & Time Fri, 08/28/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Yashwant Patil Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Brahmakumaris Community Hall, Prabhu Upvan, House Number 3303, Sector 28 D, Chandigadh",
+      "source_id": "trai"
     }
   ],
   "52f3eff063b3": [
@@ -4531,23 +4790,14 @@
       "source_id": "hindustan_times"
     }
   ],
-  "d5ba1217303b": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Holding that \"use of mere swear words, profanities and vulgar expletives, however distasteful or uncivil they may be, cannot be equated with obscenity\", the Supreme Court has ruled that abusive or vulgar language by itself does not constitute the offence of obscenity under Section 294 of the Indian Penal Code (IPC). The Court clarified that obscenity in law is distinct from vulgarity, abuse or profanity and requires proof that the words are lascivious, appeal to prurient interests and have a ten",
-      "new_value": "Supreme Court rules abusive language alone does not amount to obscenity under IPC Section 294",
-      "source_id": "ndtv_india"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Holding that \"use of mere swear words, profanities and vulgar expletives, however distasteful or uncivil they may be, cannot be equated with obscenity\", the Supreme Court has ruled that abusive or vulgar language by itself does not constitute the offence of obscenity under Section 294 of the Indian Penal Code (IPC). The Court clarified that obscenity in law is distinct from vulgarity, abuse or profanity and requires proof that the words are lascivious, appeal to prurient interests and have a ten",
-      "new_value": "Top court rules that abusive or vulgar language alone does not constitute obscenity under Section 294 IPC unless it is lascivious, appeals to prurient interests and causes public annoyance.",
-      "source_id": "deccan_chronicle"
-    }
-  ],
   "195aba68595f": [
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "With the right to citizenship reduced to a discretionary privilege at the mercy of a state that disbelieves its own documents, what remains is neither the proof nor the right.",
+      "source_id": "frontline_mag"
+    },
     {
       "date": "2026-07-19",
       "field": "description",
@@ -4581,6 +4831,33 @@
       "old_value": "Gitanjali J. Angmo has sought an urgent hearing; she said that she lost her faith in Safdarjung Government Hospital in Delhi",
       "new_value": "Activist Sonam Wangchuk's wife, Dr Gitanjali Angmo, has moved the Delhi High Court seeking permission to shift him from Safdarjung Government Hospital to a private hospital, alleging that he is being illegally detained under the guise of medical treatment. The plea has been moved after Wangchuk's wife expressed apprehensions over his medical care at the government-run hospital, alleging discrepancies in his reported health condition and accusing the authorities of preventing his discharge. In a",
       "source_id": "livelaw"
+    }
+  ],
+  "90772f44f44b": [
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Progress was initially slow due to the pandemic, says minister; inclusion of cotton apparel is ruled out for now.",
+      "new_value": "Progress was initially slow due to the pandemic, says minister; inclusion of cotton apparel is ruled out for now",
+      "source_id": "business_line"
+    }
+  ],
+  "50e8e4e14eaf": [
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Bar Council of India declares AIBE result pass percentage stands at per cent",
+      "new_value": "The examination was conducted on June 7 across 292 centres in 60 cities",
+      "source_id": "deccan_chronicle"
+    }
+  ],
+  "d18e7f5c85c7": [
+    {
+      "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Top court rules that abusive or vulgar language alone does not constitute obscenity under Section 294 IPC unless it is lascivious, appeals to prurient interests and causes public annoyance.",
+      "new_value": "Supreme Court says abusive words alone do not amount to obscenity",
+      "source_id": "indiatoday_rss"
     }
   ]
 }
