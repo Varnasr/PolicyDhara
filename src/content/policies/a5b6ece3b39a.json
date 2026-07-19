@@ -16,9 +16,10 @@
     "trade-commerce"
   ],
   "type": "act",
+  "kind": "instrument",
+  "authority": "government",
+  "comment_deadline": "",
   "level": "state",
   "state": "Assam",
-  "first_seen": "2026-07-18",
-  "kind": "instrument",
-  "authority": "government"
+  "first_seen": "2026-07-18"
 }
