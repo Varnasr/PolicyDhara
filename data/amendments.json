@@ -1829,6 +1829,13 @@
       "old_value": "Government of India (GoI) has announced the sale (re-issue) of three dated securities for a notified amount of ₹32,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.03% GS 2029 Jan 27, 2029 11,000 F.No.4(1)-B(W&M)/2026 dated July 13, 2026 July 17, 2026 (Friday) July 20, 2026 (Monday) 2 6.68% GS 2033 Jan 27, 2033 11,000 3 7.24% GS 2055 Aug 18, 2055 10,000   Total",
       "new_value": "Government of India announces the conversion/switch of its securities through auction for an aggregate amount of ₹30,000 crore (face value). The security-wise details of the conversion/switch are given as under: Date of Auction Source Securities Amount (FV) of Source Securities (in ₹ crore) Destination Securities July 20, 2026 (Monday) 6.79% GS 2027 (Maturing on May 15, 2027) 4,000 6.19% GS 2034 (Maturing on Sep 16, 2034) 6.64% GS 2027 (Maturing on Dec 09, 2027) 4,000 6.67% GS 2035 (",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India (GoI) has announced the sale (re-issue) of three dated securities for a notified amount of ₹32,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.03% GS 2029 Jan 27, 2029 11,000 F.No.4(1)-B(W&M)/2026 dated July 13, 2026 July 17, 2026 (Friday) July 20, 2026 (Monday) 2 6.68% GS 2033 Jan 27, 2033 11,000 3 7.24% GS 2055 Aug 18, 2055 10,000   Total",
+      "new_value": "Government of India (GoI) has announced the sale (issue / re-issue) of two dated securities for a notified amount of ₹28,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 New GS 2041 Jul 27, 2041 17,000 F.No.4(1)-B(W&M)/2026 dated July 20, 2026 July 24, 2026(Friday) July 27, 2026(Monday) 2 7.43% GS 2076 Jan 19, 2076 11,000   Total   28,000       2. Go",
+      "source_id": "rbi"
     }
   ],
   "ca4f0d29c09b": [
@@ -1901,37 +1908,9 @@
     },
     {
       "date": "2026-07-17",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
-      "new_value": "Digital & Technology, Energy, Finance & Economy",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-07-17",
-      "field": "description",
-      "old_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
-      "new_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:48 Weight 0 Links /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-07-17",
       "field": "type",
       "old_value": "research",
       "new_value": "policy",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-07-17",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
-      "new_value": "Digital & Technology, Energy, Finance & Economy",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-07-17",
-      "field": "description",
-      "old_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
-      "new_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:50 Frontier Image Select Frontier Type Roadmaps to Viksit Bharat Frontier Link /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
       "source_id": "niti_aayog"
     },
     {
@@ -2255,6 +2234,34 @@
       "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
       "new_value": "Digital & Technology, Energy, Finance & Economy",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
+      "new_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:50 Frontier Image Select Frontier Type Roadmaps to Viksit Bharat Frontier Link /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
+      "new_value": "Digital & Technology, Energy, Finance & Economy",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
+      "new_value": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:48 Weight 0 Links /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Transport & Infrastructure",
+      "new_value": "Digital & Technology, Energy, Finance & Economy",
+      "source_id": "niti_aayog"
     }
   ],
   "5570c702f0dd": [
@@ -2481,20 +2488,6 @@
       "field": "description",
       "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
       "new_value": "Government of India press release: NITI Aayog released a report on “Investment Friendliness Index”",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-07-17",
-      "field": "description",
-      "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
-      "new_value": "NITI Aayog released a report on “Investment Friendliness Index” niti_admin Fri, 07/17/2026 - 22:29 Publishing Date Fri, 07/17/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285847&reg=48&lang=1",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-07-17",
-      "field": "description",
-      "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
-      "new_value": "Government of India press release: NITI Aayog released a report on “Investment Friendliness Index”",
       "source_id": "state_pib_karnataka"
     },
     {
@@ -2629,6 +2622,20 @@
       "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
       "new_value": "NITI Aayog released a report on “Investment Friendliness Index” niti_admin Fri, 07/17/2026 - 22:29 Publishing Date Fri, 07/17/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285847&reg=48&lang=1",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
+      "new_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 14:27 Weight 0 Links /sites/default/files/2026-07/Investment-Friendliness-Index.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Investment Friendliness Index 2026 niti_admin Fri, 07/17/2026 - 13:00 Choose Report Type Publications Publication Date Fri, 07/17/2026 - 13:00 Report Upload download (10.06 MB) vertical Industry & Foreign Investment",
+      "new_value": "NITI Aayog released a report on “Investment Friendliness Index” niti_admin Fri, 07/17/2026 - 22:29 Publishing Date Fri, 07/17/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285847&reg=48&lang=1",
+      "source_id": "niti_aayog"
     }
   ],
   "e9c061d4d108": [
@@ -2637,6 +2644,13 @@
       "field": "sectors",
       "old_value": "Digital & Technology, Social Protection",
       "new_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹21,700 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Assam 1000 10 Yield 2. Bihar 1000 15 Yield 1000 18 Yield 3. Chhattisgarh 500 Re-issue of 7.83% Chhattisgarh SGS 2040, issued on April 15, 2026 Price 500 Re-issue of 7.82% Chhattisgarh SGS 2048, issued on April 29, 2026 Price 4. Delhi 300 07 Yield 300 Re-issue of 7.75% Delhi S",
+      "new_value": "A. Source Security 6.79% GS 2027 6.64% GS 2027 7.17% GS 2028 7.06% GS 2028 B. Notified Amount (in ₹ crore) 4,000 4,000 3,000 5,000 Destination Security 6.19% GS 2034 6.67% GS 2035 7.50% GS 2034 7.62% GS 2039 C. i. No. of offers received 35 9 25 10 ii. Total amount of Source Security offered (Face value, in ₹ crore) 6,033.175 874.243 9,773.712 5,304.000 iii. No. of offers accepted 4 6 2 4 iv. Total amount of source security accepted (Face value, in ₹ crore) 4,000.000 503.899 155",
       "source_id": "rbi"
     }
   ],
@@ -2683,41 +2697,6 @@
   ],
   "dad369cfd2f2": [
     {
-      "date": "2026-07-18",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
-      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹50,000/- (Rupees Fifty Thousand only) on The Nawada Central Co-operative Bank Limited...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-07-18",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
-      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹8 lakh (Rupees Eight Lakh only) on The Sambalpur District Co-operative Central Bank Limited...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
-      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People s Co-operative...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
-      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹50,000/- (Rupees Fifty Thousand only) on The Nawada Central Co-operative Bank Limited...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
-      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹8 lakh (Rupees Eight Lakh only) on The Sambalpur District Co-operative Central Bank Limited...",
-      "source_id": "policyradar"
-    },
-    {
       "date": "2026-07-19",
       "field": "description",
       "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
@@ -2800,6 +2779,41 @@
       "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
       "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹8 lakh (Rupees Eight Lakh only) on The Sambalpur District Co-operative Central Bank Limited...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People s Co-operative...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹50,000/- (Rupees Fifty Thousand only) on The Nawada Central Co-operative Bank Limited...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 02, 2026, imposed a monetary penalty of ₹8 lakh (Rupees Eight Lakh only) on The Sambalpur District Co-operative Central Bank Limited...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 14, 2026, imposed a monetary penalty of ₹3 lakh (Rupees Three Lakh only) on The United Puri-Nimapara Central Co-operative Bank Limited, Odisha (the bank) for non-compliance with certain directions issued by RBI on ‘Know Your Customer (KYC)’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) and 56 of the Banking Regulation Act, 194",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated July 10, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen lakh and thirty thousand only) on Surat People’s Co-operative Bank Ltd., Surat (the bank), for non-compliance with certain directions issued by RBI on ‘Board of Directors - UCBs’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regula",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated July 17, 2026, imposed a monetary penalty of ₹1 lakh (Rupees One Lakh only) on Manmad Urban Co-operative Bank Ltd., Manmad, Maharashtra (the bank) for non-compliance with certain directions issued by RBI on ‘Loans and Advances to Directors, their Relatives, and Firms / Concerns in which they are Interested’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read w",
+      "source_id": "rbi"
     },
     {
       "date": "2026-07-20",
@@ -2872,6 +2886,13 @@
       "old_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar, Maharashtra (the bank) for non-compliance with provisions of Section 20(1) of the Banking Regulation Act, 1949 (BR Act). This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regulation Act, 1949. The statutory ins",
       "new_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar, Maharashtra (the bank) for non-compliance with provisions of Section 20(1) of the Banking Regulation Act, 1949 (BR Act). This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regulation Act, 1949. The statutory ins",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated June 29, 2026, imposed a monetary penalty of ₹10 lakh (Rupees Ten Lakh only) on Ashok Sahakari Bank Ltd., Ahmednagar...",
+      "source_id": "policyradar"
     }
   ],
   "8a701d0f1bcc": [
@@ -2881,6 +2902,13 @@
       "old_value": "In terms of GOI notification F.No.4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series-X-Issue date January 19, 2021) and in terms of GOI notification F.No.4(5)-B(W&M)/2021 dated May 12, 2021 (SGB 2021-22 Series-IV-Issue date July 20, 2021) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the due date of premature redemption of the above",
       "new_value": "The post A holiday for all appeared first on Vidhi Centre for Legal Policy.",
       "source_id": "vidhi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "In terms of GOI notification F.No.4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series-X-Issue date January 19, 2021) and in terms of GOI notification F.No.4(5)-B(W&M)/2021 dated May 12, 2021 (SGB 2021-22 Series-IV-Issue date July 20, 2021) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the due date of premature redemption of the above",
+      "new_value": "In terms of GOI notification F.No.4(7)-B(W&M)/2019 dated September 30, 2019 (SGB 2019-20 Series-VIII-Issue date January 21, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on July 21, 2026. 2. Further, the redemption price of SGB shall be based on simple average of closi",
+      "source_id": "rbi"
     }
   ],
   "a9e1aca89745": [
@@ -2926,6 +2954,146 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_social_justice_empowerment"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_steel"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
+      "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH -SHRAM PORTAL",
+      "source_id": "pib_ifsc_authority"
     }
   ],
   "ba2399974895": [
@@ -3213,6 +3381,13 @@
       "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
       "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
       "source_id": "cprindia"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
+      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
+      "source_id": "cprindia"
     }
   ],
   "278a6d239b7a": [
@@ -3267,6 +3442,20 @@
     },
     {
       "date": "2026-07-19",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-07-20",
       "field": "type",
       "old_value": "release",
       "new_value": "notification",
@@ -3598,13 +3787,6 @@
     },
     {
       "date": "2026-07-19",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
-      "new_value": "Transport & Infrastructure",
-      "source_id": "mocivil"
-    },
-    {
-      "date": "2026-07-19",
       "field": "description",
       "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
       "new_value": "Honorable Cabinet Minister",
@@ -3717,6 +3899,41 @@
     },
     {
       "date": "2026-07-19",
+      "field": "description",
+      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
+      "new_value": "Honorable Minister of State",
+      "source_id": "moship"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
+      "new_value": "Honorable Cabinet Minister",
+      "source_id": "moship"
+    },
+    {
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
       "new_value": "Honorable Minister of State",
@@ -3994,6 +4211,20 @@
       "old_value": "डीआरडीओ न्यूज़लेटर जुलाई 2026",
       "new_value": "संकल्प तकनीकी",
       "source_id": "drdo"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "डीआरडीओ न्यूज़लेटर जुलाई 2026",
+      "new_value": "संकल्प",
+      "source_id": "drdo"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "डीआरडीओ न्यूज़लेटर जुलाई 2026",
+      "new_value": "संकल्प तकनीकी",
+      "source_id": "drdo"
     }
   ],
   "bb327c669e3f": [
@@ -4166,6 +4397,20 @@
       "old_value": "Digital & Technology, Governance & Reform, Social Protection",
       "new_value": "Digital & Technology, Energy, Social Protection",
       "source_id": "epw"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The delimitation debate should not be viewed as a contest between democracy and federalism. Rather, it concerns the appropriate balance between electoral equality and territorial accommodation within a federal polity. Among the alternatives considered, the allocation of only incremental seats, according to contemporary population, emerges as a possible middle path that merits consideration in future political deliberations.",
+      "new_value": "The impending post-2026 delimitation exercise has revived concerns over the allocation of Lok Sabha seats among Indian states. This paper argues that a purely population-based allocation formula is no longer adequate for preserving federal balance. It proposes a two-part approach: the existing allocation of 543 Lok Sabha seats should remain unchanged, while any additional seats created through Lok Sabha expansion should be distributed according to a demographic performance principle derived from",
+      "source_id": "epw"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Governance & Reform, Social Protection",
+      "new_value": "Digital & Technology, Energy, Social Protection",
+      "source_id": "epw"
     }
   ],
   "4b4c4ae0755d": [
@@ -4277,6 +4522,34 @@
       "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "new_value": "CJP reiterated its demands for accountability, ₹1 crore relief and Sonam Wangchuk’s release before the march.",
       "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "Sonam Wangchuk's removal highlights a democratic paradox: the constitutional right to peaceful hunger strikes versus the state's duty to protect lives under Article 21, creating a legal clash between bodily autonomy and intervention.",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "Speaking to reporters, Nadda said the protesters' delegation met him and submitted a written petition following detailed discussions.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "The ESA notification draws a line between natural and cultural landscapes. The areas left outside protection are also where many people live and landslide risks are growing.",
+      "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "new_value": "What to expect from Parliaments monsoon battlefield",
+      "source_id": "india_today"
     }
   ],
   "78fead1466d1": [
@@ -4290,130 +4563,116 @@
   ],
   "f353eb1ef0a2": [
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Bar Council of India declares AIBE result pass percentage stands at per cent",
-      "source_id": "india_today"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Deloitte Shared Services India LLP invites online application for the post of Deputy Manager (Ethics & Compliance). Name of the Post: Deputy Manager (Ethics & Compliance) Location: Mumbai Essential Qualification and Experience Master's degree in human resources / personnel management / MBA / CA / CS / LL.B. Experience in conducting ethics inquiries. Excellent drafting and communication skill. Roles & Responsibilities Leading Ethics Case Inquiries: (a) Develop inquiry approach and methodology, (b",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "All India Institute of Medical Sciences (AIIMS), Bhopal invites online application for the post of Consultant (Law Officer). Name of the Post: Consultant (Law Officer) No. of Post: 01 (One) Age Limit: Upto the Age of 65 years Remuneration: Rs. 86955/- or Last Basic Pay minus Pension (without DA) whichever is lower Essential Qualification and Experience Retired employees having (i) Bachelor's Degree in Law (LL.B.) from a recognized Institute/University with 05 years of Professional experience in",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "In an interview to PTI on Sunday, 12 July, the Buxar Member of Parliament (MP) alleged that the BJP was pursuing a political strategy to weaken opposition parties in an attempt to secure the numbers required to push through its legislative agenda.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Together, the two developments reflect India's growing ambitions in commercial space technology and sustainable transportation.",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "The country's urban population is growing faster than official numbers indicate. While policymakers seem to have an inkling of this, three measures could help ensure a regular supply of robust data. Here’s what ought to be done",
-      "source_id": "mint_opinion"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Rainfall coverage is of enormous importance to Indian well-being, given the number of livelihoods and lives it still impacts. While initial fears of an El Niño dry-up this year might have begun to evaporate, it’s too early to relax our guard.",
-      "source_id": "mint_opinion"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "The success of Skyroot — a startup founded by former Isro engineers Pawan Kumar Chandana and Naga Bharath Daka in Hyderabad in 2018 — has validated the Indian government’s belief in the private sector and its decision to open up the space sector to private companies",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "India rejected former Japanese minister Hideki Makihara's claims of delays and recklessness in the Mumbai-Ahmedabad Bullet Train project, saying work is progressing well with first section due in 2027 and talks with Japan on track.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "This comes amid ongoing diplomatic engagement between India & Bangladesh, as Dhaka continues to press for Hasina’s return following her conviction in absentia. India has walked a careful line, acknowledging the requests without committing to outcomes while stressing constructive bilateral ties.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "The Centre for Innovation and Intellectual Property Rights (CIIPR), Rajiv Gandhi National University of Law (RGNUL), Punjab, in collaboration with Law Mantra Trust, is organising a two-day International Seminar on \"Inclusive Labour Law Regime in India: Addressing Women Workers, Child Labour, and Informal Economy\" on 16 and 17 October 2026. The seminar will be held online through Google Meet. The seminar seeks to provide an academic platform for deliberations on India's evolving labour law framew",
-      "source_id": "livelaw"
+      "new_value": "Government of India press release: India Becomes a Party to the WTO Agreement on Fisheries Subsidies by Depositing its Instrument of Acceptance",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "In an interview to PTI on Sunday, 12 July, the Buxar Member of Parliament (MP) alleged that the BJP was pursuing a political strategy to weaken opposition parties in an attempt to secure the numbers required to push through its legislative agenda.",
-      "source_id": "livemint_policy"
+      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported frisking, beating and forced removal of clothes of girl students by teachers after one of them lost Rs 1,000 at a government school in Sawai Madhopur district, Rajast...",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "The ECCI aims to bring together policymakers, e-commerce marketplaces, brands, retailers, logistics providers, technology companies, payment solution providers, startups, exporters, MSMEs, industry experts, and academic institutions to strengthen India’s digital commerce ecosystem",
-      "source_id": "the_hindu_business"
+      "new_value": "Government of India press release: PRESIDENT OF INDIA ADDRESSES INDIA-MOLDOVA BUSINESS FORUM",
+      "source_id": "pib_national_human_rights_commission"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "The country's urban population is growing faster than official numbers indicate. While policymakers seem to have an inkling of this, three measures could help ensure a regular supply of robust data. Here’s what ought to be done",
-      "source_id": "mint_opinion"
+      "new_value": "Government of India press release: PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND LEADS DELEGATION-LEVEL TALKS",
+      "source_id": "pib_national_human_rights_commission"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "Rainfall coverage is of enormous importance to Indian well-being, given the number of livelihoods and lives it still impacts. While initial fears of an El Niño dry-up this year might have begun to evaporate, it’s too early to relax our guard.",
-      "source_id": "mint_opinion"
+      "new_value": "Government of India press release: India Becomes a Party to the WTO Agreement on Fisheries Subsidies by Depositing its Instrument of Acceptance",
+      "source_id": "pib_national_human_rights_commission"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "India rejected former Japanese minister Hideki Makihara's claims of delays and recklessness in the Mumbai-Ahmedabad Bullet Train project, saying work is progressing well with first section due in 2027 and talks with Japan on track.",
-      "source_id": "republic_world"
+      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported frisking, beating and forced removal of clothes of girl students by teachers after one of them lost Rs 1,000 at a government school in Sawai Madhopur district, Rajast...",
+      "source_id": "pib_national_human_rights_commission"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "ORF Expert Speak: What Can India Expect from the Women’s Reservation Act?",
-      "source_id": "orf"
+      "new_value": "Government of India press release: PRESIDENT OF INDIA ADDRESSES INDIA-MOLDOVA BUSINESS FORUM",
+      "source_id": "pib_lokpal_of_india"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "CJP spokespersons Ashutosh Ranka and Sourav Das to meet Health Minister J.P. Nadda; Sonam Wangchuk wrote to Safdarjung Hospital, saying he wanted to join Parliament March",
-      "source_id": "the_hindu_policy"
+      "new_value": "Government of India press release: PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND LEADS DELEGATION-LEVEL TALKS",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: India Becomes a Party to the WTO Agreement on Fisheries Subsidies by Depositing its Instrument of Acceptance",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported frisking, beating and forced removal of clothes of girl students by teachers after one of them lost Rs 1,000 at a government school in Sawai Madhopur district, Rajast...",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: PRESIDENT OF INDIA ADDRESSES INDIA-MOLDOVA BUSINESS FORUM",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND LEADS DELEGATION-LEVEL TALKS",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: India Becomes a Party to the WTO Agreement on Fisheries Subsidies by Depositing its Instrument of Acceptance",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported frisking, beating and forced removal of clothes of girl students by teachers after one of them lost Rs 1,000 at a government school in Sawai Madhopur district, Rajast...",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported frisking, beating and forced re...",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Government of India press release: PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND ...",
+      "source_id": "state_pib_karnataka"
     },
     {
       "date": "2026-07-20",
@@ -4426,8 +4685,22 @@
       "date": "2026-07-20",
       "field": "description",
       "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
-      "new_value": "The launch of Senior Advocate Raju Ramachandran's new book, 14 Lawyers: Portraits from the Bar, on Friday saw legal luminaries and authors recall their experiences and memories of lawyers who permanently shaped India's legal landscape.The book brings together 14 profiles of lawyers who practised before the Supreme Court of India across several decades, figures who, according to Ramachandran, shaped the institution but whose lives remain largely undocumented outside law reports and courtroom memo",
-      "source_id": "barandbench"
+      "new_value": "Fresh spell for North-West and Central India comes even as rain deficit for country as a whole has widened to 24% as of Friday",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "In an increasingly competitive global tourism market, the winners will not necessarily be those with the most attractions. They will be those that best align marketing, connectivity and visitor facilitation around clearly identified source markets.",
+      "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "ADB is committed to supporting India’s Viksit Bharat vision of becoming a developed country by 2047, with an emphasis on inclusive growth, world-class infrastructure, and private sector development.",
+      "new_value": "Chief Justice of India Surya Kant on July 18, 2026 released the book 'The Mediation Movement in India' at Chandigarh. The book examines mediation and its growth in India, with a particular focus on the Mediation Act, 2023. The book has been edited by Prof. (Dr.) Seema Gupta, Professor in Law at the University Institute of Legal Studies (UILS), Chandigarh University. It has been published by Law and Justice Publishing Company. The Chief Justice of India has also written the Foreword. The book bri",
+      "source_id": "livelaw"
     }
   ],
   "face1f2211d9": [
@@ -4463,6 +4736,13 @@
     },
     {
       "date": "2026-07-19",
+      "field": "description",
+      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 1 Entry",
+      "new_value": "RBI/2026-27/176 DOR.AML.REC.149/14.06.001/2026-27 July 09, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 1 Entry",
       "new_value": "RBI/2026-27/176 DOR.AML.REC.149/14.06.001/2026-27 July 09, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks...",
@@ -4525,6 +4805,13 @@
       "old_value": "The Supreme Court ruled that a minister's personal remarks do not represent the government's official position unless endorsed by the government.",
       "new_value": "View All",
       "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Supreme Court ruled that a minister's personal remarks do not represent the government's official position unless endorsed by the government.",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
     }
   ],
   "4eae8bbc3aa6": [
@@ -4532,404 +4819,283 @@
       "date": "2026-07-20",
       "field": "description",
       "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi's statement at the start of the Monsoon Session of 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliament",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi's statement at the start of the Monsoon Session of 2026",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliament",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "The Reserve Bank of India has today released the data on Overseas Direct Investment, both under Automatic Route and the Approval Route, for the month of June 2026. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/711",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi's statement at the start of the Monsoon Session of 2026",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliament",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi's statement at the start of the Monsoon Session of 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliament",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi's statement at the start of the Monsoon Session of 2026",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliament",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi's statement at the start of the Monsoon Session of 2026",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliament",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi's statement at the start of the Monsoon Session of 2026",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliament",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: English rendering of PM’s remarks at the start of Monsoon Session 2026 of the Parliam...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Government of India press release: Prime Minister congratulates PV Sindhu on winning Japan Open 2026 title",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "AP EAMCET Counselling 2026 Phase 1 registration has started. Eligible candidates can apply online, upload documents, and complete counselling within the schedule.",
+      "new_value": "UP Board: School authorities must enter the user ID and password to access the compartment exam hall tickets for high school and intermediate students.",
       "source_id": "ndtv_india"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "The Monsoon Session of Parliament is set to commence today, with the Lok Sabha scheduled to introduce The Supreme Court (Number of Judges) Amendment Bill, 2026, besides taking up obituary references, Question Hour, papers to be laid on the Table, a ministerial statement, and other listed business, according to the Lok Sabha's List of Business.",
-      "source_id": "republic_world"
+      "new_value": "Appeal No. 6943 of 2026 filed by Kishan Lal",
+      "source_id": "sebi"
     },
     {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
-      "new_value": "Prescribing Minimum Viva Voce Cut-Off For Judicial Appointments Is Reasonable: Supreme Court �",
+      "new_value": "Appeal No. 6941 of 2026 filed by Vikram Singh",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Appeal No. 6939 of 2026 filed by Sudhir Agarwal",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Notice of Demand dated 20.07.2026 issued under RC No. 9226 of 2026 against Jigar Bhailalbhai Khalash [PAN: ESZPK4415E] in the matter of trading activity in the scrip of ANI Integrated Services Limited.",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Notice of Demand dated 20.07.2026 issued under RC No. 9227 of 2026 against Lataben Narotambhai Rangi [PAN: AYRPR7467F] in the matter of trading activity in the scrip of ANI Integrated Services Limited.",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Certificate No. RC9196 of 2026 A.P No 15569 of 2026 in respect of Prachi Tradevine Pvt. Ltd. (PAN: AAFCP7889L) in the matter of Illiquid Stock Options",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Certificate No. RC9196 of 2026 A.P No 15568 of 2026 in respect of Prachi Tradevine Pvt. Ltd. (PAN: AAFCP7889L) in the matter of Illiquid Stock Options",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Appeal No. 6937 of 2026 filed by Jagadish",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Appeal No. 6938 of 2026 filed by Suresh Kumar Vishnoi",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Appeal No. 6936 of 2026 filed by Jignesh Soni",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Notice of Attachment dated 17.07.2026 issued under RC No. 9167 of 2026 against Shvetalben Sagarbhai Dataniya [PAN: CQGPD5278K] in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (Now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Notice of Attachment dated 17.07.2026 issued under RC No. 9166 of 2026 against Manoj Rameshbhai Solanki [PAN: GEMPS6325N] in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (Now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Government of India press release: CISF to Host 11th All India Police Judo Cluster Championship 2026 in Hyderabad",
+      "source_id": "state_pib_assam"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Here is the Revision Module on Economy which consists of important current affairs. If you find errors, please send a mail to offline@insightsias.com. We shall recheck and make the changes accordingly. Happy Studies. All the Best . 🙂 INSIGHTS Mains 2026 Exclusive (Economy) : DOWNLOAD HERE   Join our Official Telegram Channel HERE Please subscribe to … Continue reading \"INSTA REVISION MODULES : Economy Module for UPSC CSE MAINS 2026\" The post INSTA REVISION MODULES : Economy Module for",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "UPSC Static Quiz – Environment : 20 July 2026 We will post 5 questions daily on static topics mentioned in the UPSC civil services preliminary examination syllabus. Each week will focus on a specific topic from the syllabus, such as History of India and Indian National Movement, Indian and World Geography, and more. We … Continue reading \"UPSC Static Quiz – Environment : 20 July 2026\" The post UPSC Static Quiz – Environment : 20 July 2026 appeared first on INSIGHTS IAS - Simplifying",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "The post UPSC CURRENT AFFAIRS – 20 JULY 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "The agency issued case-by-case responses with respect to five candidates whose allegations of discrepancies had been widely shared on social media.",
+      "source_id": "scroll"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Supreme Court Expresses Concern Over Quality Of MACT Judgments, Calls For Clear And Reasoned Findings https://www.livelaw.in/supreme-court/supreme-court-expresses-concern-over-quality-of-mact-judgments-calls-for-clear-and-reasoned-findings-542059",
       "source_id": "livelaw"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The racialisation of British Sikhs, UN report on Palestinian children, Arms markets across the world, and more.",
+      "new_value": "Indian content recorded 688 million global views on Netflix during the first half of 2026, reinforcing India's growing influence in the global streaming and entertainment industry.",
+      "source_id": "ibef"
     }
   ],
   "9ed0725093c9": [
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_surface_transport"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
       "source_id": "pib_tribal_affairs"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_steel"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
       "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
       "source_id": "pib_pm_speech"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_eac_pm"
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_youth_affairs_and_sports"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
       "source_id": "pib_upsc"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
       "source_id": "pib_national_financial_reporting_authority"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_national_security_council_secretariat"
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_special_service_and_features"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
       "source_id": "pib_competition_commission_of_india"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
-      "source_id": "pib_ifsc_authority"
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_national_security_council_secretariat"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Government of India press release: Prime Minister shares an article on how traditional Indian craftsmanship can drive economic growth",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
       "source_id": "pib_lokpal_of_india"
     },
     {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Chou Sean Yu is not a Managing Partner who measures success in just revenue targets or headcount growth. Almost 30 years into his career at WongPartnership, a firm he joined 5 years after its founding and has never left, he instead speaks about leadership transitions, generational custodianship and keeping the founders’ legacy alive.In this wide-ranging conversation with Bar & Bench's Pallavi Saluja, Sean Yu speaks about his role as Managing Partner of the firm, Singapore's dominance as an a",
-      "source_id": "barandbench"
-    },
-    {
       "date": "2026-07-20",
       "field": "description",
       "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "new_value": "Despite war in Middle East, India has maintained a growth rate of 7.7 per cent, emerging as the fastest-growing major economy in the world,\" says PM Modi.",
-      "source_id": "ndtv_india"
-    }
-  ],
-  "06b73322a96b": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "In an open letter to the Jantar Mantar protestors, Tharoor said that with Parliament in session again from Monday, there will be an opportunity to raise the students' issues at the highest forum of democracy.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "Wangchuk has been on indefinite fast for 17 dys now even as CJP protest at Jantar Mantar completed 25 days on 14 July. According to the health bulletin issued by the outfit, Wangchuk, 59, has lost 8.5 kg since beginning the fast, and his blood pressure was recorded at 109/70 mm Hg.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "However, Wangchuk, 59, refused to call off the hunger strike and instead questioned the Centre's unwillingness to engage in talks. Dipke quoted Wangchuk as saying 'Don't ask me to end my fast. Ask the govt why they won't even have a dialogue.'",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "Police cite Delhi High Court order after moving Mr. Wangchuk to Safdarjung Hospital, where he refused medical interventions; Opposition leaders say government is repressing peaceful dissent",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "In an open letter to the Jantar Mantar protestors, Tharoor said that with Parliament in session again from Monday, there will be an opportunity to raise the students' issues at the highest forum of democracy.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "Wangchuk has been on indefinite fast for 17 dys now even as CJP protest at Jantar Mantar completed 25 days on 14 July. According to the health bulletin issued by the outfit, Wangchuk, 59, has lost 8.5 kg since beginning the fast, and his blood pressure was recorded at 109/70 mm Hg.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "However, Wangchuk, 59, refused to call off the hunger strike and instead questioned the Centre's unwillingness to engage in talks. Dipke quoted Wangchuk as saying 'Don't ask me to end my fast. Ask the govt why they won't even have a dialogue.'",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "In an open letter to the Jantar Mantar protestors, Tharoor said that with Parliament in session again from Monday, there will be an opportunity to raise the students' issues at the highest forum of democracy.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "Wangchuk has been on indefinite fast for 17 dys now even as CJP protest at Jantar Mantar completed 25 days on 14 July. According to the health bulletin issued by the outfit, Wangchuk, 59, has lost 8.5 kg since beginning the fast, and his blood pressure was recorded at 109/70 mm Hg.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "However, Wangchuk, 59, refused to call off the hunger strike and instead questioned the Centre's unwillingness to engage in talks. Dipke quoted Wangchuk as saying 'Don't ask me to end my fast. Ask the govt why they won't even have a dialogue.'",
-      "source_id": "livemint_policy"
+      "new_value": "Government of India press release: Telangana’s Next Growth Corridor: How the NH-63 and NH-563 Expansion will Transform Mobility, Trade and Tourism",
+      "source_id": "pib_ifsc_authority"
     },
     {
       "date": "2026-07-20",
       "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "In an open letter to the Jantar Mantar protestors, Tharoor said that with Parliament in session again from Monday, there will be an opportunity to raise the students' issues at the highest forum of democracy.",
-      "source_id": "livemint_policy"
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "The earnings reports of IT firms like TCS, HCLTech and Accenture show that revenues are outpacing headcounts. But what the numbers don't show is how intimately IT firms grasp what they produce—and how that will impact their future.",
+      "source_id": "mint_opinion"
     },
     {
       "date": "2026-07-20",
       "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "Wangchuk has been on indefinite fast for 17 dys now even as CJP protest at Jantar Mantar completed 25 days on 14 July. According to the health bulletin issued by the outfit, Wangchuk, 59, has lost 8.5 kg since beginning the fast, and his blood pressure was recorded at 109/70 mm Hg.",
-      "source_id": "livemint_policy"
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Hyderabad is the focal point of CURE Vision. Our objective is not only to develop Hyderabad into a global city but also to ensure that the benefits of this growth reach the poor and the middle class living in the city: Minister",
+      "source_id": "deccan_chronicle"
     },
     {
       "date": "2026-07-20",
       "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "However, Wangchuk, 59, refused to call off the hunger strike and instead questioned the Centre's unwillingness to engage in talks. Dipke quoted Wangchuk as saying 'Don't ask me to end my fast. Ask the govt why they won't even have a dialogue.'",
-      "source_id": "livemint_policy"
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Container traffic is projected to grow at a 7-9% compound annual growth rate through FY27-28, driving overall growth at Indian ports and strengthening India's position as a global maritime and logistics hub.",
+      "source_id": "ibef"
     },
     {
       "date": "2026-07-20",
       "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "Sonam Wangchuk, in a note, alleged he was \"illegally detained\" in Safdarjung Hospital, with his freedom of movement, speech, communication \"restricted.\"",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "In an open letter to the Jantar Mantar protestors, Tharoor said that with Parliament in session again from Monday, there will be an opportunity to raise the students' issues at the highest forum of democracy.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "Wangchuk has been on indefinite fast for 17 dys now even as CJP protest at Jantar Mantar completed 25 days on 14 July. According to the health bulletin issued by the outfit, Wangchuk, 59, has lost 8.5 kg since beginning the fast, and his blood pressure was recorded at 109/70 mm Hg.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The educationist-cum-innovator, who has been on a 21-day fast, has emerged as the face of the CJP’s protest in Delhi demanding the Union Education Minister’s resignation",
-      "new_value": "However, Wangchuk, 59, refused to call off the hunger strike and instead questioned the Centre's unwillingness to engage in talks. Dipke quoted Wangchuk as saying 'Don't ask me to end my fast. Ask the govt why they won't even have a dialogue.'",
-      "source_id": "livemint_policy"
+      "old_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "new_value": "Deloitte projects India's economy to grow by 6.5-6.8% in FY27, supported by stronger domestic demand, monetary easing and expanding trade opportunities, while highlighting infrastructure, innovation and FTAs as key drivers of long-term growth.",
+      "source_id": "ibef"
     }
   ],
   "92d32efcdb9c": [
@@ -4997,6 +5163,13 @@
       "old_value": "The New Delhi DCP office said that Sonam Wangchuk has been shifted to the hospital as per the orders of the Delhi High Court and on expert medical advice due to his deteriorating health condition",
       "new_value": "Sonam Wangchuk urges protesters to make the march to Parliament 'big success'",
       "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The New Delhi DCP office said that Sonam Wangchuk has been shifted to the hospital as per the orders of the Delhi High Court and on expert medical advice due to his deteriorating health condition",
+      "new_value": "A Bench of Chief Justice D.K. Upadhyaya and Justice Tejas Karia agreed to list the case today (July 20, 2026) itself at 2.30 p.m.",
+      "source_id": "the_hindu_policy"
     }
   ],
   "4ed0961030f8": [
@@ -5015,33 +5188,6 @@
       "old_value": "CBSE has announced the Class 10 Second Board Results 2026. Nearly 60% students improved their scores, while the overall pass percentage reached 96.78%.",
       "new_value": "The results for the Class 10 Second Board Exams can be accessed by students through their DigiLocker Results Portal on results.digilocker.gov.in",
       "source_id": "the_hindu_policy"
-    }
-  ],
-  "d08f213276d5": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The Supreme Court recently explained the concept of waiver of rights as an intentional relinquishment of a right, advantage, benefit, claim or privilege that the person may have enjoyed. Pertinently, the key to waiving a right is that it must first be known to the person; that is, he must be aware of his existing right.� On May 13, a bench comprising Justice Dipankar Datta and Justice AG Masih awarded extraordinary compensation of Rs. 1.25 crore to a former driver of the Central Reserve Police F",
-      "new_value": "The Supreme Court recently clarified that although High Courts are ordinarily expected to remain confined to the pleadings and reliefs sought by parties, the rule is flexible while exercising jurisdiction under Article 226 of the Constitution. In exceptional cases, where the record clearly establishes a legal entitlement and denying relief on technical grounds would perpetuate injustice, High Courts may mould relief beyond the specific prayers in a writ petition. “…the rule that requires the par",
-      "source_id": "livelaw"
-    }
-  ],
-  "1425f5e2efb4": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "Jammu and Kashmir and Ladakh High Court Half-Yearly Digest January - June 2026 Citations 2026 LiveLaw (JKL) [ 1 - 286 ] Nominal Index: Saleema & Ors Vs UT Of J&K 2026 LiveLaw (JKL) 1 STATE OF J & K vs NAZIR AHMAD BHAT AND OTHERS 2026 LiveLaw (JKL) 2 State of Jammu and Kashmir vs Ahsan-ul-Haq Khan 2026 LiveLaw (JKL) 3 Lt. Col. Daljit Singh Dogra vs State of J&K 2026 LiveLaw (JKL) 4 Bharat Oil Traders Vs Assistant Commissioner & anr 2026 LiveLaw (JKL) 5 Rishi Kumar vs Chenab Valley Power Projects",
-      "new_value": "Nominal Index [Citations 1-66] Sarfaraz Khan & Ors. v. State of Orissa & Anr., 2026 LiveLaw (Ori) 1 Priyam Pratham Sabat v. State of Odisha, 2026 LiveLaw (Ori) 2 Pabana @ Prabhakar Sahu @ Pabana Sahu & Ors. v. State of Odisha, 2026 LiveLaw (Ori) 3 Union of India & Ors. v. K. Manoj Patra & Ors., 2026 LiveLaw (Ori) 4 Jayanti Biswas & Ors. v. State of Odisha & Ors., 2026 LiveLaw (Ori) 5 Ajay Kumar Sahoo v. State of Odisha & Ors., 2026 LiveLaw (Ori) 6 Kankalata Dwivedi v. State of Odisha & Ors., 202",
-      "source_id": "livelaw"
-    }
-  ],
-  "e91729541d18": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The Akhara has contended that the spirit of the top court's judgment has not been fully carried out, particularly with regard to the role and representation that the judgment envisaged for the Nirmohi Akhara in the management of the Ram Temple.",
-      "new_value": "The Akhara alleged that it has been denied due representation in the Trust and sought an appropriate oversight mechanism to ensure that the trust functioned in a transparent manner.",
-      "source_id": "livelaw"
     }
   ],
   "0a971dfa4216": [
@@ -5092,15 +5238,6 @@
       "source_id": "the_hindu_policy"
     }
   ],
-  "06805615e217": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "The High Court took note of the statewide reaction to the bail order, observing that doctors across Maharashtra had announced a strike on July 22 to protest the release of Mhatre and his associates.",
-      "new_value": "The court stated that the magistrate had taken the case lightly, given that the accused, accompanied by four others, attacked three doctors in a corporation hospital",
-      "source_id": "the_hindu_policy"
-    }
-  ],
   "13bf7c60706c": [
     {
       "date": "2026-07-19",
@@ -5124,6 +5261,13 @@
       "old_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "new_value": "Speaking in the West Bengal Legislative Assembly, the Chief Minister said official correspondence with the Central government would be carried out in Bengali as well as Hindi.",
       "source_id": "republic_world"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "new_value": "Government of India press release: NAMASTE Scheme Reflects The Governments Unwavering Commitment To Ensuring That Every Sanitation Worker Is Able To Work W...",
+      "source_id": "state_pib_punjab"
     }
   ],
   "1053e2225118": [
@@ -5172,6 +5316,13 @@
       "old_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "With the right to citizenship reduced to a discretionary privilege at the mercy of a state that disbelieves its own documents, what remains is neither the proof nor the right.",
       "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "With the right to citizenship reduced to a discretionary privilege at the mercy of a state that disbelieves its own documents, what remains is neither the proof nor the right.",
+      "source_id": "frontline_mag"
     }
   ],
   "d86be0ebab6d": [
@@ -5187,15 +5338,6 @@
       "field": "description",
       "old_value": "Nominal Index [Citations 1-66] Sarfaraz Khan & Ors. v. State of Orissa & Anr., 2026 LiveLaw (Ori) 1 Priyam Pratham Sabat v. State of Odisha, 2026 LiveLaw (Ori) 2 Pabana @ Prabhakar Sahu @ Pabana Sahu & Ors. v. State of Odisha, 2026 LiveLaw (Ori) 3 Union of India & Ors. v. K. Manoj Patra & Ors., 2026 LiveLaw (Ori) 4 Jayanti Biswas & Ors. v. State of Odisha & Ors., 2026 LiveLaw (Ori) 5 Ajay Kumar Sahoo v. State of Odisha & Ors., 2026 LiveLaw (Ori) 6 Kankalata Dwivedi v. State of Odisha & Ors., 202",
       "new_value": "Driving Licence Sufficient To Treat Deceased As Skilled Heavy Vehicle Driver; No Interference With MACT Compensation: P&H High Court Title: NATIONAL INSURANCE CO. LTD v. VIMAL KAUR AND ORS Citation: 2026 LiveLaw (PH) 01 The Punjab and Haryana High Court has dismissed an appeal filed by an insurance company challenging the quantum of compensation awarded by the Motor Accident Claims Tribunal (MACT), observing that the driving license was enough to prove that deceased was duly qualified to be trea",
-      "source_id": "livelaw"
-    }
-  ],
-  "85343ddf5060": [
-    {
-      "date": "2026-07-19",
-      "field": "description",
-      "old_value": "District Child Protection Unit, Aurangabad invites online application for the post of Support Person. Name of the Post: Support Person No. of Post: 20 (Twenty) Remuneration: Rs. 9,000/- month Essential Qualification and Experience Bachelor's degree in any discipline Social Work (MSW)/ Sociology/ Psychology/ Child Development or Post graduate in Law or Diploma in Child Rights/ Counselling along with three years of experience. Minimum 3 years of relevant experience in child rights/ child protectio",
-      "new_value": "District Child Protection Unit, Begusarai invites online application for the post of Support Person. Name of the Post: Support Person No. of Post: 15 (Fifteen) Remuneration: Rs. 9,000/- month Essential Qualification and Experience Bachelor's degree in any discipline Social Work (MSW)/ Sociology/ Psychology/ Child Development or Post graduate in Law or Diploma in Child Rights/ Counselling along with three years of experience. Minimum 3 years of relevant experience in child rights/ child protectio",
       "source_id": "livelaw"
     }
   ],
@@ -5287,24 +5429,13 @@
       "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 50,000 Total amount of bids received (in ₹ crore) 816 Amount allotted (in ₹ crore) 816 Cut off Rate (%) 5.26 Weighted Average Rate (%) 5.26 Partial Allotment Percentage of bids received at cut off rate (%) NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/694",
       "new_value": "Tenor 7-day Notified Amount (in ₹ crore) 1,25,000 Total amount of bids received (in ₹ crore) 72,051 Amount allotted (in ₹ crore) 72,051 Cut off Rate (%) 5.26 Weighted Average Rate (%) 5.26 Partial Allotment Percentage of bids received at cut off rate (%) NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/710",
       "source_id": "rbi"
-    }
-  ],
-  "e1d912d1da53": [
+    },
     {
       "date": "2026-07-20",
       "field": "description",
-      "old_value": "Speaking to reporters on Saturday, Angmo said Wangchuk was brought from Jantar Mantar to Safdarjung hospital without either his or her consent",
-      "new_value": "Gitanjali Angmo is the founding CEO of the Himalayan Institute of Alternatives, Ladakh. She is trained in Odissi, Russian ballet and has a black belt in Karate.",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "833db585f0c5": [
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The issue has become particularly serious following the recent issuance of recovery notices to DFIA exporters, directing them to return the benefits claimed under the RoDTEP scheme",
-      "new_value": "A recent recovery notice sent to DFIA exporters directed them to return benefits claimed under the Remission of Duties and Taxes on Exported Products",
-      "source_id": "business_line"
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 50,000 Total amount of bids received (in ₹ crore) 816 Amount allotted (in ₹ crore) 816 Cut off Rate (%) 5.26 Weighted Average Rate (%) 5.26 Partial Allotment Percentage of bids received at cut off rate (%) NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/694",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Repo (VRR) auction on Tuesday, July 21, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 3 09:30 AM to 10:00 AM July 24, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022. Ajit Prasad       &nb",
+      "source_id": "rbi"
     }
   ],
   "8c1a68f3e3d2": [
@@ -5313,15 +5444,6 @@
       "field": "description",
       "old_value": "The court stated that the magistrate had taken the case lightly, given that the accused, accompanied by four others, attacked three doctors in a corporation hospital",
       "new_value": "In a special Saturday sitting, the Bombay High Court stayed the bail granted by a Kalyan court to Shiv Sena corporator Ramesh Sukrya Mhatre in the case related to assault on doctors in Thane district earlier this month. A division bench of acting Chief Justice Ravindra V Ghuge and Justice Gautam Ankhad took suo motu cognisance of media reports on the July 6 incident and registered a petition before proceeding to stay the bail order granted by a magistrate court at Kalyan.After staying the b",
-      "source_id": "barandbench"
-    }
-  ],
-  "d6b52c8a9296": [
-    {
-      "date": "2026-07-20",
-      "field": "description",
-      "old_value": "According to the suspension orders, Singhal was suspended on July 10, while the order against Rani was issued on July 15, and both judges have been placed under suspension with immediate effect pending disciplinary proceedings.",
-      "new_value": "The Delhi High Court has issued suspension orders against two judicial officers over allegations of misconduct.The two judges are district judge Veena Rani posted at Saket court and district judge Vinay Singhal serving at Tis Hazari Courts.The Delhi High Court passed the suspension order against Singhal on July 10 and against Rani on July 15.According to Times of India, Rani is facing allegations of forum shopping. As per the same report, Singhal is facing allegations of misconduct in the proces",
       "source_id": "barandbench"
     }
   ],
@@ -5382,6 +5504,1060 @@
       "old_value": "NOMINAL INDEX Netra Pal Singh v. State of U.P. and 2 Others 2026 LiveLaw (AB) 391 Asif Ansari v. Himanshu Sharma and another 2026 LiveLaw (AB) 392 Amarnath v. State Information Commission U.P. Lko. Thru. Chief Information Commissioner And Another 2026 LiveLaw (AB) 393 Ajeet Nigam v. Additional District Judge And 5 Others 2026 LiveLaw (AB) 394 Romil Jain v. Ashok Kumar Jain and another 2026 LiveLaw (AB) 395 Mithai Lal And Others v. D.D.C. And Others 2026 LiveLaw (AB) 396 Smt. Meenu v. State of U.",
       "new_value": "Citation: 2026 LiveLaw (Guj) 195 - 2026 LiveLaw (Guj) 200 Nominal Index Rajashreeben v/s Bhupendrakumar Ambalal Patel, 2026 LiveLaw (Guj) 195 Shirishbhai Ashokbhai Garange v/s State of Gujarat, 2026 LiveLaw (Guj) 196 �Hiruben Pparbatbhai Satasiya v/s Bhagwanjibhai Popatbhai Ranparia & Ors., 2026 LiveLaw (Guj) 197 Paschim Gujarat Vij Company Limited & Anr. v/s Heirs of Decd. Rambhai Ramshibhai Lakhatrana & Ors.,� 2026 LiveLaw (Guj) 198 Solanki Ankuben Jitendrakumar v/s State of Gujarat & Anr., 20",
       "source_id": "livelaw"
+    }
+  ],
+  "d01448d0c655": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Chief Minister stated that Union Home Minister Amit Shah had written to him requesting that, on the occasion of the 125th birth anniversary of Dr. Syama Prasad Mookerjee, the use of the Bengali language in West Bengal should be promoted more extensively",
+      "new_value": "The Chief Minister stated that Union Home Minister Amit Shah had written to him requesting that, on the occasion of the 125th birth anniversary of Dr. Syama Prasad Mookerjee, the use of Bengali language in West Bengal should be promoted more extensively",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "20255e58f1f3": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "PM Modi's message that \"every voice should find an opportunity to be heard\", it appears, was lost, as both the Houses of parliament were adjourned shortly after reconvening on the first day of the Session.",
+      "new_value": "PM Modi's message that \"every voice should find an opportunity to be heard\", it appears, was lost, as both the Houses of parliament were forced to wrap up for the day after multiple adjournments.",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "PM Modi's message that \"every voice should find an opportunity to be heard\", it appears, was lost, as both the Houses of parliament were adjourned shortly after reconvening on the first day of the Session.",
+      "new_value": "The Monsoon Session of Parliament is set to commence today, with the Lok Sabha scheduled to introduce The Supreme Court (Number of Judges) Amendment Bill, 2026, besides taking up obituary references, Question Hour, papers to be laid on the Table, a ministerial statement, and other listed business, according to the Lok Sabha's List of Business.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "PM Modi's message that \"every voice should find an opportunity to be heard\", it appears, was lost, as both the Houses of parliament were adjourned shortly after reconvening on the first day of the Session.",
+      "new_value": "Monsoon session opens in chaos as Opposition protests stall Parliament",
+      "source_id": "indiatoday_rss"
+    }
+  ],
+  "d75aa422ed49": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Calcutta High Court Monday declined to permit All India Trinamool Congress (TMC) to operate the three bank accounts ordered to be frozen by the Enforcement Directorate (ED).TMC had moved the Court against ED's decision to freeze ₹440 crore in its accounts in a case under Prevention of Money Laundering Act (PMLA).Today, Justice Krishna Rao in an interim order refused to lift the freeze during the pendency of TMC's plea challenging the ED decision.The ED case relates to alleged transfer of fun",
+      "new_value": "The Calcutta High Court Monday declined to permit All India Trinamool Congress (TMC) to operate the three bank accounts ordered to be frozen by the Enforcement Directorate (ED).TMC had moved the Court against ED's decision to freeze ₹440 crore in its accounts in a case under Prevention of Money Laundering Act (PMLA).Today, Justice Krishna Rao in an interim order refused to lift the freeze during the pendency of TMC's plea challenging the ED decision.The Court said the ED has not ordered debit-fr",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Calcutta High Court Monday declined to permit All India Trinamool Congress (TMC) to operate the three bank accounts ordered to be frozen by the Enforcement Directorate (ED).TMC had moved the Court against ED's decision to freeze ₹440 crore in its accounts in a case under Prevention of Money Laundering Act (PMLA).Today, Justice Krishna Rao in an interim order refused to lift the freeze during the pendency of TMC's plea challenging the ED decision.The ED case relates to alleged transfer of fun",
+      "new_value": "The case pertains to alleged financial irregularities, unlawful collection of money and routing of suspected funds through certain bank accounts of the TMC.",
+      "source_id": "scroll"
+    }
+  ],
+  "353aa3c776ae": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Supreme Court today(July 20) stayed the Delhi High Court's order, which allowed Devangana Kalita, accused in the Delhi riots larger conspiracy case, o inspect electronic evidence collected by the Delhi Police during the investigation but not relied upon by the prosecution. It may be recalled that on June 6, Justice Neena Bansal Krishna of the Delhi High Court dismissed Kalita's plea seeking videos of the CAA-NRC protests and WhatsApp chats relied on by the Delhi police against her due to the",
+      "new_value": "The Supreme Court today(July 20) stayed the Delhi High Court's order, which allowed Devangana Kalita, accused in the Delhi riots larger conspiracy case, to inspect electronic evidence collected by the Delhi Police during the investigation but not relied upon by the prosecution. It may be recalled that on June 6, Justice Neena Bansal Krishna of the Delhi High Court dismissed Kalita's plea seeking videos of the CAA-NRC protests and WhatsApp chats relied on by the Delhi police against her due to th",
+      "source_id": "livelaw"
+    }
+  ],
+  "d0fca52c6e7a": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Gati Shakti Vishwavidyalaya Holds 4th Convocation; 121 Students Graduate Across B.Tec...",
+      "new_value": "Government of India press release: Gati Shakti Vishwavidyalaya Holds 4th Convocation; 121 Students Graduate Across B.Tech. and MBA Programmes",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Gati Shakti Vishwavidyalaya Holds 4th Convocation; 121 Students Graduate Across B.Tec...",
+      "new_value": "Government of India press release: Gati Shakti Vishwavidyalaya Holds 4th Convocation; 121 Students Graduate Across B.Tech. and MBA Programmes",
+      "source_id": "state_pib_karnataka"
+    }
+  ],
+  "22348f47b39f": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_social_justice_empowerment"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_steel"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of...",
+      "new_value": "Government of India press release: Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
+      "source_id": "pib_ifsc_authority"
+    }
+  ],
+  "cfa30ae599ac": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_social_justice_empowerment"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_steel"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly el...",
+      "new_value": "Government of India press release: Rajya Sabha Chairman Shri C.P. Radhakrishnan administers oath/affirmation to newly elected/re-elected Members in Rajya Sabha Chamber today",
+      "source_id": "pib_ifsc_authority"
+    }
+  ],
+  "5b1c0b4bb581": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_social_justice_empowerment"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_steel"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'...",
+      "new_value": "Government of India press release: TEXT OF THE OPENING REMARKS MADE IN THE HOUSE TODAY BY SHRI C. P. RADHAKRISHNAN, HON'BLE CHAIRMAN, RAJYA SABHA",
+      "source_id": "pib_ifsc_authority"
+    }
+  ],
+  "a6066830091f": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_social_justice_empowerment"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_steel"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: APEDA Facilitates First Export of 24 MT Frozen French Fries from Uttarakhand to Iraq",
+      "new_value": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
+      "source_id": "pib_ifsc_authority"
+    }
+  ],
+  "78a08cfc5c04": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hamirpur & Bilaspur and nearby areas Route under HP LSA",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Mumbai LSA",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hamirpur & Bilaspur and nearby areas Route under HP LSA",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Mumbai LSA",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hamirpur & Bilaspur and nearby areas Route under HP LSA",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Mumbai LSA",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hamirpur & Bilaspur and nearby areas Route under HP LSA",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Mumbai LSA",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hamirpur & Bilaspur and nearby areas Route under HP LSA",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Mumbai LSA",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hamirpur & Bilaspur and nearby areas Route under HP LSA",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Mumbai LSA",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Hamirpur & Bilaspur and nearby areas Route under HP LSA",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway. nitinkumar Mon, 07/20/2026 - 13:42 File Press Release No. 96 (7.73 MB) Date Mon, 07/20/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Mumbai LSA",
+      "source_id": "pib_ifsc_authority"
+    }
+  ],
+  "f3e311e63d8a": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_social_justice_empowerment"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_steel"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Flagship skill development scheme to enable Indian youth to take up industry-relevant skill training with monetary rewards and certification. Target of skilling one crore youth over four years.",
+      "new_value": "Government of India press release: Skill India Mission",
+      "source_id": "pib_ifsc_authority"
+    }
+  ],
+  "253e76d193de": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The flats with built up area of 582 sft will be built in multi-storey towers. While Telangana government would provide subsidy of Rs 5 lakh, tentative contribution of beneficiary is Rs 6 lakh.",
+      "new_value": "The flats with built up area of 528 sft will be built in multi-storey towers. While Telangana government would provide subsidy of ₹5 lakh, tentative contribution of beneficiary is ₹6 lakh. A flat will be spread over 400 sft.",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "f51169bd4f3e": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "In a post on X, the DMK’s deputy general secretary Kanimozhi Karunanidhi strongly condemned the TVK government’s action on the MLA and termed it “high-handed”",
+      "new_value": "The controversy stems from a public meeting held on July 18, where Markendiyan responded to the Chief Minister's remarks about his \"search for father\".",
+      "source_id": "ndtv_india"
+    }
+  ],
+  "ad701adef98f": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Home Minister Anitha, along with MSME Minister Kondapalli Srinivas, district collector S. Ram Sundar Reddy and SP A.R. Damodar, inspected the arrangements being made for the PM's visit and the inauguration ceremony.",
+      "new_value": "The airport features a 3,800-metre Code 4E runway, a modern integrated passenger terminal, dedicated cargo facilities and advanced airside infrastructure",
+      "source_id": "business_line"
+    }
+  ],
+  "63f3ef4878bf": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "A recent recovery notice sent to DFIA exporters directed them to return benefits claimed under the Remission of Duties and Taxes on Exported Products",
+      "new_value": "The issue has become particularly serious following the recent issuance of recovery notices to DFIA exporters, directing them to return the benefits claimed under the RoDTEP scheme",
+      "source_id": "business_line"
+    }
+  ],
+  "b392352ce40a": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "In his letter, O'Brien noted that although no legislation on delimitation appears in the bulletin listing government business for the Monsoon session.",
+      "new_value": "Citing the government's “dubious record of mocking parliamentary rules of procedure and conventions, O' Brien questioned the governing party's \"intention\".",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "138400603209": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Independent Drive Test Report Kerala LSA May 2026 nitinkumar Thu, 07/16/2026 - 16:47 File Download (4.89 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Thu, 07/16/2026 - 12:00 Service area Kerala Months May Year 2026",
+      "new_value": "Independent Drive Test Report Bhopal, Indore to Neemuch via Ratlam and Mandsau Highway (MP) LSA June 2026 nitinkumar Mon, 07/20/2026 - 15:50 File Download (8.26 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Madhya Pradesh Months June Year 2026",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Independent Drive Test Report Kerala LSA May 2026 nitinkumar Thu, 07/16/2026 - 16:47 File Download (4.89 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Thu, 07/16/2026 - 12:00 Service area Kerala Months May Year 2026",
+      "new_value": "Independent Drive Test Report Tamil Nadu LSA June 2026 nitinkumar Mon, 07/20/2026 - 15:50 File Download (6.78 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Tamil Nadu Months June Year 2026",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Independent Drive Test Report Kerala LSA May 2026 nitinkumar Thu, 07/16/2026 - 16:47 File Download (4.89 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Thu, 07/16/2026 - 12:00 Service area Kerala Months May Year 2026",
+      "new_value": "Independent Drive Test Report Bilaspur to Ambikapur (MP) LSA June 2026 nitinkumar Mon, 07/20/2026 - 15:48 File Download (5.98 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Madhya Pradesh Months June Year 2026",
+      "source_id": "trai"
+    }
+  ],
+  "63a9751a7ec2": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "The Court said that it will ask the CBSE to address the privacy concerns raised by the petitioners regarding the APAAR student ID scheme.",
+      "new_value": "Top court says CBSE must implement the Orissa High Court's ruling nationwide, ensuring parents can refuse consent for the APAAR ID scheme.",
+      "source_id": "deccan_chronicle"
+    }
+  ],
+  "3ac441daa834": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "CJP protesters near Parliament face barricades lathicharge tear gas",
+      "new_value": "CJP protesters near Parliament, face barricades, lathicharge, tear gas",
+      "source_id": "indiatoday_rss"
+    }
+  ],
+  "5bdc01b978a9": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Citations: 2026 LiveLaw (Mad) 313 To 2026 LiveLaw (Mad) 326 NOMINAL INDEX Sivanupandian v The District Collector and Others, 2026 LiveLaw (Mad) 313 P. Sundararaju v The District Collector and Others, 2026 LiveLaw (Mad) 314 Easwari and Others v The Chief Secretary and Others, 2026 LiveLaw (Mad) 315 Suji @ Kasi v The State, 2026 LiveLaw (Mad) 316 The Secretary To Government and Others v B Mohan, 2026 LiveLaw (Mad) 317 BR Aravindakshan v Union of India and Others, 2026 LiveLaw (Mad) 318 B. Ramesh @",
+      "new_value": "Citation:�2026 LiveLaw (AP) 121 - 2026 LiveLaw (AP) 130 Nominal Index Buddiga Dhana Lakshmi v. State of Andhra Pradesh & Others, 2026 LiveLaw (AP) 121 Duvvuru Nithya Reddy v. State of Andhra Pradesh & Ors., 2026 LiveLaw (AP) 122 Uddagiri Srirama Murthy & Anr. v. State of Andhra Pradesh & Ors., 2026 LiveLaw (AP) 123 M/s. Larsen and Toubro Limited v. Union of India & Others, 2026 LiveLaw (AP) 124 Kanyaka Traders vs Union of India and Others, 2026 LiveLaw (AP) 125 Kappala Joseph Paul v. State of An",
+      "source_id": "livelaw"
+    }
+  ],
+  "0f41945f641a": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Nominal Index: Adan Bashir Bangroo and Another v. Union Territory of J&K 2026 LiveLaw (JKL) 296 Mudasir Ahmad Mir v. Union Territory of J&K & Ors 2026 LiveLaw (JKL) 297 Gazetted Aspirants, Residents of Ladakh v. Union Territory of Ladakh 2026 LiveLaw (JKL) 298 Abdul Gani Ganie and Another v. Abdul Gani Bhat 2026 LiveLaw (JKL) 299 Gulla Ganaie @ Gulzar Ahmad Ganaie v. Ghulam Qadir Sheikh 2026 LiveLaw (JKL) 300 Amir Ahmad Wani v. Union Territory of J&K & Ors 2026 LiveLaw (JKL) 301 Aijaz Ahmad Bhat",
+      "new_value": "Citation: 2026 LiveLaw (Raj) 280 - 2026�LiveLaw (Raj) 288 Nominal Index Surendra Kumar & Ors. v the State of Rajasthan & Ors.; 2026 LiveLaw (Raj) 280 Board of Secondary Education, Rajasthan v Annu; 2026 LiveLaw (Raj) 278 Rajasthan University of Health Science & Ors. v Tanvi Sharma Peer Mohammad Shah Jilani Dargah Samiti v/s The State Of Rajasthan and batch; 2026 LiveLaw (Raj) 279 Suo Motu v State of Rajasthan Suo Motu v State of Rajasthan, and other connected petition Harshit Solanki v State of",
+      "source_id": "livelaw"
+    },
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Nominal Index: Adan Bashir Bangroo and Another v. Union Territory of J&K 2026 LiveLaw (JKL) 296 Mudasir Ahmad Mir v. Union Territory of J&K & Ors 2026 LiveLaw (JKL) 297 Gazetted Aspirants, Residents of Ladakh v. Union Territory of Ladakh 2026 LiveLaw (JKL) 298 Abdul Gani Ganie and Another v. Abdul Gani Bhat 2026 LiveLaw (JKL) 299 Gulla Ganaie @ Gulzar Ahmad Ganaie v. Ghulam Qadir Sheikh 2026 LiveLaw (JKL) 300 Amir Ahmad Wani v. Union Territory of J&K & Ors 2026 LiveLaw (JKL) 301 Aijaz Ahmad Bhat",
+      "new_value": "Citations: 2026 LiveLaw (Ker) 370 - 2026 LiveLaw (Ker)�382 Nominal Index Sugathan R v. State of Kerala and Others, 2026 LiveLaw (Ker) 370 Vinu K.S. and Anr. v. Veena Viswan, 2026 LiveLaw (Ker) 371 Muhammed J.I. and Ors. v. State of Kerala and Ors., 2026 LiveLaw (Ker) 372 Sharestates, Inc. v. Prasad Choorakuzhiyil Gopalan & Others, 2026 LiveLaw (Ker) 373 Tenny Joppen v. State of Kerala and Anr., 2026 LiveLaw (Ker) 374 Sinana Farvin v. Kerala Gramin Bank and Ors., 2026 LiveLaw (Ker) 375 Vasantha K",
+      "source_id": "livelaw"
+    }
+  ],
+  "7b39834d30ed": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "new_value": "The Andhra Pradesh High Court has held that a registered gift deed, once accepted by the donee, cannot be unilaterally revoked by the donor through a revocation deed executed before the Sub-Registrar, and that such revocation deeds are void unless the gift is first set aside by a competent civil court. [2026 LiveLaw (AP) 137] In doing so, the court held that there is no presumption that property is joint family property merely because the parties constitute a Hindu joint family, and the burden l",
+      "source_id": "livelaw"
+    }
+  ],
+  "24fb546652ae": [
+    {
+      "date": "2026-07-20",
+      "field": "description",
+      "old_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Addresses India–Estonia Bus...",
+      "new_value": "Addressing the India-Estonia Business Forum in Tallinn, Union Minister of Commerce and Industry Mr. Piyush Goyal highlighted India's manufacturing growth and reform-driven policy framework, while Estonia showcased its digital governance model to attract Indian investment.",
+      "source_id": "ibef"
     }
   ]
 }
