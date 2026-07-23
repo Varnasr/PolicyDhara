@@ -308,68 +308,399 @@
     "first_seen": "2026-07-23"
   },
   {
-    "id": "1bcdc883ccd3",
-    "title": "Kerala UDF constituent IUML trains guns on Revenue Minister A.P. Anil Kumar",
-    "description": "IUML leaders from the Wandoor constituency accuse Mr. Anil Kumar of sidelining the party after assuming office as Revenue Minister",
-    "link": "https://www.thehindu.com/news/national/kerala/iuml-trains-guns-on-revenue-minister-ap-anil-kumar/article71253086.ece",
+    "id": "3bd394047cd7",
+    "title": "Buyback of Government of India Dated Securities",
+    "description": "The Government of India has announced the buyback of its Securities through auction for an aggregate amount of ₹20,000 crore (face value). The security-wise details of the buyback are as under: S.No. Security Date of Maturity 1. 7.33% GS 2026 October 30, 2026 2. 5.74% GS 2026 November 15, 2026 3. 8.15% GS 2026 November 24, 2026 4. 8.24% GS 2027 February 15, 2027 There is no notified amount for the individual securities within the aggregate ceiling of ₹20,000 crore. Auction for securi",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63223",
     "date": "2026-07-23",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "d724ee4faeee",
+    "title": "RBI imposes monetary penalty on Arvind Sahakari Bank Ltd., Katol, Maharashtra",
+    "description": "The Reserve Bank of India (RBl) has, by an order dated July 16, 2026, imposed a monetary penalty of ₹11 lakh (Rupees Eleven Lakh only) on Arvind Sahakari Bank Ltd., Katol, Maharashtra (the bank) for non-compliance with certain directions issued by RBI on ‘Housing Finance for UCBs’ and ‘Interest Rate on Deposits’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) and 56 of the Ba",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63222",
+    "date": "2026-07-23",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Finance & Economy",
+      "Energy",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "energy",
+      "digital-technology"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "21fa023a0e2f",
+    "title": "RBI imposes monetary penalty on Rajnandgaon Kendriya Sahakari Bank Maryadit, Rajnandgaon, Chhattisgarh",
+    "description": "The Reserve Bank of India (RBl) has, by an order dated July 16, 2026, imposed a monetary penalty of ₹1 lakh (Rupees One Lakh only) on Rajnandgaon Kendriya Sahakari Bank Maryadit, Rajnandgaon, Chhattisgarh (the bank) for non-compliance with certain directions issued by RBI on ‘Interest Rate on Deposits’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) and 56 of the Banking Regulation Act,",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63221",
+    "date": "2026-07-23",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Finance & Economy",
+      "Digital & Technology",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "digital-technology",
+      "energy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "11bc6ce15fff",
+    "title": "RBI imposes monetary penalty on Shri Baria Nagarik Sahakari Bank Ltd., Baria, Gujarat",
+    "description": "The Reserve Bank of India (RBl) has, by an order dated July 17, 2026, imposed a monetary penalty of ₹1 lakh (Rupees One Lakh only) on Shri Baria Nagarik Sahakari Bank Ltd., Baria, Gujarat (the bank), for non-compliance with certain directions issued by RBI on ‘Inspection & Audit Systems in Primary (Urban) Co-operative Banks’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) and 56 of t",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63220",
+    "date": "2026-07-23",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
     "sectors": [
       "Digital & Technology",
       "Finance & Economy",
-      "Social Protection"
+      "Energy"
     ],
     "sector_slugs": [
       "digital-technology",
       "finance-economy",
-      "social-protection"
+      "energy"
     ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
     "comment_deadline": "",
-    "level": "media",
+    "level": "central",
     "state": "",
-    "first_seen": "2026-07-22"
+    "first_seen": "2026-07-23"
   },
   {
-    "id": "562250949861",
-    "title": "Why so selective on paper leaks, Nadda asks Rahul",
-    "description": "J.P. Nadda said Rahul Gandhi did not mention incidents of paper leaks and related irregularities reported under governments led by Opposition parties, including the Congress",
-    "link": "https://www.thehindu.com/news/national/why-so-selective-on-paper-leaks-nadda-asks-rahul/article71255070.ece",
+    "id": "9dac4bd884d0",
+    "title": "RBI imposes monetary penalty on Sindhudurg District Central Co-operative Bank Ltd., Sindhudurg, Maharashtra",
+    "description": "The Reserve Bank of India (RBI) has, by an order dated July 17, 2026, imposed a monetary penalty of ₹13.30 lakh (Rupees Thirteen Lakh Thirty Thousand only) on Sindhudurg District Central Co-operative Bank Ltd., Sindhudurg, Maharashtra (the bank) for contravention of provisions of section 20(1) read with section 56 of the Banking Regulation Act, 1949. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) an",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63219",
     "date": "2026-07-23",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Finance & Economy",
+      "Energy",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "energy",
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "b0877490aca4",
+    "title": "RBI imposes monetary penalty on Mandya District Co-operative Central Bank Ltd., Karnataka",
+    "description": "The Reserve Bank of India (RBI) has, by an order dated July 17, 2026, imposed a monetary penalty of ₹50,000/- (Rupees Fifty thousand only) on Mandya District Co-operative Central Bank Ltd., Karnataka (the bank) for contravention of provisions of section 19 read with section 56 of the Banking Regulation Act, 1949 (BR Act). This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) and 56 of the BR Act. The statu",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63218",
+    "date": "2026-07-23",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Finance & Economy",
+      "Energy",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "energy",
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "fbb194a1f743",
+    "title": "RBI imposes monetary penalty on The City Co-operative Bank, Hassan, Karnataka",
+    "description": "The Reserve Bank of India (RBI) has, by an order dated July 17, 2026, imposed a monetary penalty of ₹50,000/- (Rupees Fifty Thousand only) on The City Co-operative Bank, Hassan, Karnataka (the bank) for non-compliance with certain directions issued by RBI on ‘Know Your Customer (KYC)’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 47A(1)(c) read with sections 46(4)(i) and 56 of the BR Act. The statutory inspection of the ba",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63217",
+    "date": "2026-07-23",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
     "sectors": [
       "Digital & Technology",
-      "Energy",
-      "Governance & Reform"
+      "Finance & Economy",
+      "Energy"
     ],
     "sector_slugs": [
       "digital-technology",
-      "energy",
-      "governance-reform"
+      "finance-economy",
+      "energy"
     ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
     "comment_deadline": "",
-    "level": "media",
+    "level": "central",
     "state": "",
-    "first_seen": "2026-07-22"
+    "first_seen": "2026-07-23"
   },
   {
-    "id": "18df8f48368d",
-    "title": "Piracy fails to dampen advance bookings for Chief Minister Vijay’s Jana Nayagan",
-    "description": "According to data shared by trade tracker Sacnilk, Jana Nayagan has sold 7.37 lakh tickets nationwide, and grossed ₹16.78 crore in advance bookings across 9,566 shows",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/piracy-fails-to-dampen-advance-bookings-for-chief-minister-vijays-jana-nayagan/article71254586.ece",
+    "id": "8cb8ff7d4658",
+    "title": "Money Supply for the fortnight ended on July 15, 2026",
+    "description": "The Reserve Bank has today released data on Money Supply for the fortnight ended on July 15, 2026. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/738",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63216",
     "date": "2026-07-23",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "96dd4106a896",
+    "title": "Newsletter - NITISandhan July 2026",
+    "description": "Newsletter - NITISandhan July 2026 niti_admin Thu, 07/23/2026 - 14:09 Weight 0 Links /sites/default/files/2026-07/NITIsandhan-July-2026.pdf",
+    "link": "http://www.niti.gov.in/whats-new/newsletter-nitisandhan-july-2026",
+    "date": "2026-07-23",
+    "source_id": "niti_aayog",
+    "source_name": "NITI Aayog",
+    "source_short": "NITI",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "706b7c05dbcf",
+    "title": "Google as licensee ill-conceived",
+    "description": "",
+    "link": "https://icrier.org/google-as-licensee-ill-conceived/?utm_source=rss&utm_medium=rss&utm_campaign=google-as-licensee-ill-conceived",
+    "date": "2026-07-23",
+    "source_id": "icrier",
+    "source_name": "ICRIER",
+    "source_short": "ICRIER",
+    "sectors": [
+      "Finance & Economy",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "trade-commerce"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "c2e33db648d0",
+    "title": "The unbearable lightness of trade deals",
+    "description": "",
+    "link": "https://icrier.org/the-unbearable-lightness-of-trade-deals/?utm_source=rss&utm_medium=rss&utm_campaign=the-unbearable-lightness-of-trade-deals",
+    "date": "2026-07-23",
+    "source_id": "icrier",
+    "source_name": "ICRIER",
+    "source_short": "ICRIER",
+    "sectors": [
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "trade-commerce"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "7faeea74ccaa",
+    "title": "Ease of Doing Investment and Ease of Doing Business – Simplification and standardisation of the framework for transmission of securities",
+    "description": "Ease of Doing Investment and Ease of Doing Business – Simplification and standardisation of the framework for transmission of securities",
+    "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/ease-of-doing-investment-and-ease-of-doing-business-simplification-and-standardisation-of-the-framework-for-transmission-of-securities_103030.html",
+    "date": "2026-07-23",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Finance & Economy",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "0d7648b9f749",
+    "title": "Consumer Awareness Program at Bharatpur (Rajasthan) by Navjeevan Society",
+    "description": "Consumer Awareness Program at Bharatpur (Rajasthan) by Navjeevan Society nitinkumar Thu, 07/23/2026 - 17:50 Date Tue, 08/25/2026 - 12:00 District Bharatpur Division Consumer Affairs Date & Time Tue, 08/25/2026 - 11:30 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Rajendra Sharma Contact person Email info.navjeevan@gmail.com Event Category COP By TRAI Venue Details Arya Mahila Vidhay Peeth, Bhusawar, Bharatpur Event From Consumer Awareness ( In House ) Conta",
+    "link": "http://www.trai.gov.in/consumer/events/consumer-awareness-program-bharatpur-rajasthan-navjeevan-society",
+    "date": "2026-07-23",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Climate & Environment",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "climate-environment",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "18698ee43fcf",
+    "title": "Consumer Awareness Program at Tonk (Rajasthan) by Navjeevan Society",
+    "description": "Consumer Awareness Program at Tonk (Rajasthan) by Navjeevan Society nitinkumar Thu, 07/23/2026 - 17:50 Date Fri, 07/31/2026 - 12:00 District Tonk Division Consumer Affairs Date & Time Fri, 07/31/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Rajendra Sharma Contact person Email info.navjeevan@gmail.com Event Category COP By TRAI Venue Details Government Senior Secondary School, Mandawra, Tonk Event From Consumer Awareness ( In House ) Contact pe",
+    "link": "http://www.trai.gov.in/consumer/events/consumer-awareness-program-tonk-rajasthan-navjeevan-society",
+    "date": "2026-07-23",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Education"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "education"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "de7f079ec142",
+    "title": "TRAI Assesses Mobile Network Quality Across Alipurduar and Cooch Behar Districts and adjoining areas in the State of West Bengal under West Bengal LSA.",
+    "description": "TRAI Assesses Mobile Network Quality Across Alipurduar and Cooch Behar Districts and adjoining areas in the State of West Bengal under West Bengal LSA. nitinkumar Thu, 07/23/2026 - 16:54 File Press Release No. 103 (2.73 MB) Date Thu, 07/23/2026 - 12:00",
+    "link": "http://www.trai.gov.in/notifications/press-release/trai-assesses-mobile-network-quality-across-alipurduar-and-cooch-behar",
+    "date": "2026-07-23",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "6a781689da30",
+    "title": "Independent Drive Test Report river Ganga from Kolkata to Kachubaria-Gangasagar West Bengal LSA June 2026",
+    "description": "Independent Drive Test Report river Ganga from Kolkata to Kachubaria-Gangasagar West Bengal LSA June 2026 nitinkumar Thu, 07/23/2026 - 16:46 File Download (4.98 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/23/2026 - 12:00 Service area West Bengal Months June Year 2026",
+    "link": "http://www.trai.gov.in/node/18406",
+    "date": "2026-07-23",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
     "sectors": [
       "Digital & Technology",
       "Social Protection",
@@ -380,94 +711,389 @@
       "social-protection",
       "water-sanitation"
     ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
+    "type": "report",
+    "kind": "analysis",
+    "authority": "regulator",
     "comment_deadline": "",
-    "level": "media",
+    "level": "central",
     "state": "",
-    "first_seen": "2026-07-22"
+    "first_seen": "2026-07-23"
   },
   {
-    "id": "78ee212f29e4",
-    "title": "Did not refuse to meet KSU leaders, says Kerala Chief Minister V.D. Satheesan",
-    "description": "Chief Minister’s comments came in response to reports that he had refused to meet KSU president Aloshious Xavier amid controversies over the appointment of an individual with alleged past links to the Students Federation of India as government pleader",
-    "link": "https://www.thehindu.com/news/national/kerala/did-not-refuse-to-meet-ksu-leaders-says-kerala-chief-minister-vd-satheesan/article71253883.ece",
+    "id": "78b85d34479d",
+    "title": "Independent Drive Test Report Alipurduar and Cooch Behar Districts and adjoining areas West Bengal LSA June 2026",
+    "description": "Independent Drive Test Report Alipurduar and Cooch Behar Districts and adjoining areas West Bengal LSA June 2026 nitinkumar Thu, 07/23/2026 - 16:46 File Download (8 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/23/2026 - 12:00 Service area West Bengal Months June Year 2026",
+    "link": "http://www.trai.gov.in/node/18405",
     "date": "2026-07-23",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Social Protection",
-      "Education",
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "education",
-      "digital-technology"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "42f417617a83",
-    "title": "SFI demands that UDF government rid the Kerala Governor of Chancellor power",
-    "description": "Other demands include free bus travel for students, permanent Vice-Chancellors, free education till degree level, political freedom on campuses, permanent Principals in government colleges, regulating fees in private and self-financing institutions, and a unified examination system",
-    "link": "https://www.thehindu.com/news/national/kerala/sfi-demands-that-udf-government-rid-the-kerala-governor-of-chancellor-power/article71254236.ece",
-    "date": "2026-07-23",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Education",
-      "Energy",
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "education",
-      "energy",
-      "digital-technology"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "ec7e69215315",
-    "title": "Madras High Court dismisses Senthilbalaji’s plea to prevent police from ‘harassing’ him and his brother",
-    "description": "Justice G.K. Ilanthiraiyan says, no such direction can be issued when the brothers had obtained anticipatory bail in pending cases and it is premature to issue such a direction with respect to future cases",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-dismisses-senthilbalajis-plea-to-prevent-police-from-harassing-him-and-his-brother/article71253538.ece",
-    "date": "2026-07-23",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
     "sectors": [
       "Digital & Technology",
       "Social Protection",
-      "Energy"
+      "Transport & Infrastructure"
     ],
     "sector_slugs": [
       "digital-technology",
       "social-protection",
+      "transport-infrastructure"
+    ],
+    "type": "report",
+    "kind": "analysis",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "55453d0374ed",
+    "title": "Independent Drive Test Report South Tripura District and adjoining areas North East LSA May 2026",
+    "description": "Independent Drive Test Report South Tripura District and adjoining areas North East LSA May 2026 nitinkumar Thu, 07/23/2026 - 16:42 File Download (6.52 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Thu, 07/23/2026 - 12:00 Service area North East Months May Year 2026",
+    "link": "http://www.trai.gov.in/node/18403",
+    "date": "2026-07-23",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "transport-infrastructure"
+    ],
+    "type": "report",
+    "kind": "analysis",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "4d505cc98c32",
+    "title": "TRAI Assesses Mobile Network Quality along river Ganga from Kolkata to Kachubaria-Gangasagar under West Bengal LSA.",
+    "description": "TRAI Assesses Mobile Network Quality along river Ganga from Kolkata to Kachubaria-Gangasagar under West Bengal LSA. nitinkumar Thu, 07/23/2026 - 16:41 File Press Release No. 102 (2.64 MB) Date Thu, 07/23/2026 - 12:00",
+    "link": "http://www.trai.gov.in/notifications/press-release/trai-assesses-mobile-network-quality-along-river-ganga-kolkata",
+    "date": "2026-07-23",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Water & Sanitation"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "water-sanitation"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "e5776831856c",
+    "title": "TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA.",
+    "description": "TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA. nitinkumar Thu, 07/23/2026 - 16:38 File Press Release No. 101 (2.22 MB) Date Thu, 07/23/2026 - 12:00",
+    "link": "http://www.trai.gov.in/notifications/press-release/trai-assesses-mobile-network-quality-across-south-tripura-district-and",
+    "date": "2026-07-23",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "6e6477e2e7a8",
+    "title": "Notification for Tender Cancellation of “Setting up, Operating and Maintaining Green State Data Centre (GSDC) fora Period of Five (5 Years) in Imphal, Manipur”",
+    "description": "Click here to Download",
+    "link": "https://manipur.gov.in/?p=33713",
+    "date": "2026-07-23",
+    "source_id": "manipur_govt",
+    "source_name": "Manipur Government",
+    "source_short": "MN Govt",
+    "sectors": [
+      "Digital & Technology",
+      "Climate & Environment",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "climate-environment",
+      "social-protection"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "d4c8859e597e",
+    "title": "“There have to be some signals, some gestures from our closest neighbour, India”",
+    "description": "Prime Minister Tarique Rahman’s Bangladesh Nationalist Party will complete six months in office in August. His country faces multiple crises, with the Gulf War straining Bangladesh’s economy. In a sharp departure from previous practice, Rahman chose China for his first state visit even as anti-India rhetoric continued in Dhaka. It shouldn’t surprise, says Bangladesh’s departing High Commissioner to India, M. Riaz Hamidullah, speaking exclusively to Gateway House’s Nayanima Basu. The post “",
+    "link": "https://www.gatewayhouse.in/there-have-to-be-some-signals-some-gestures-from-our-closest-neighbor-india/",
+    "date": "2026-07-23",
+    "source_id": "gateway_house",
+    "source_name": "Gateway House",
+    "source_short": "GatewayH",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "739e10cf360d",
+    "title": "India should re-examine its energy investment",
+    "description": "The absence of panic in the energy markets despite the renewed U.S.-Iran fighting indicates a well-supplied oil market in the longer term. That means stability for energy short countries like India in the long term. In the short term, however, India will be impacted by other disruptions, such as the increased use of sanctions. The post India should re-examine its energy investment appeared first on Gateway House.",
+    "link": "https://www.gatewayhouse.in/india-should-re-examine-its-energy-investment/",
+    "date": "2026-07-23",
+    "source_id": "gateway_house",
+    "source_name": "Gateway House",
+    "source_short": "GatewayH",
+    "sectors": [
+      "Finance & Economy",
+      "Energy",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "energy",
+      "digital-technology"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "bbbbc6108117",
+    "title": "Mizoram’s Chin refugees from Myanmar",
+    "description": "The northeast state of Mizoram is home to 40,000 Chin refugees from Myanmar. It’s a natural refuge because of the close ethnic and family ties that bind them to the indigenous Mizo. But it is putting a strain on a poor state with a population of just 12 lakhs. Civil society organisations and the state government provide humanitarian aid. Despite the bonhomie between the host Mizo and the Chin, some issues persist. The post Mizoram’s Chin refugees from Myanmar appeared first on Gateway House.",
+    "link": "https://www.gatewayhouse.in/mizorams-chin-refugees-from-myanmar/",
+    "date": "2026-07-23",
+    "source_id": "gateway_house",
+    "source_name": "Gateway House",
+    "source_short": "GatewayH",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Tribal & Indigenous"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "tribal-indigenous"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "2b8b49de6004",
+    "title": "Centre approves two Electronics Manufacturing Clusters worth US$ 105 million in Tamil Nadu",
+    "description": "The Government has approved two Electronics Manufacturing Clusters at Manallur and Pillapaikkam in Tamil Nadu, with a combined investment of US$ 105 million, aimed at strengthening the state's electronics supply chain and advancing India's self-reliance in electronics production.",
+    "link": "",
+    "date": "2026-07-23",
+    "source_id": "ibef",
+    "source_name": "India Brand Equity Foundation",
+    "source_short": "IBEF",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "fd3fb9c05e01",
+    "title": "India Reaffirms Commitment to Rules-Based Global Trading System at WTO",
+    "description": "India reaffirmed its commitment to a rule-based, transparent and non-discriminatory multilateral trading system during its eighth WTO Trade Policy Review, highlighting its expanding trade partnerships and investment-led growth.",
+    "link": "",
+    "date": "2026-07-23",
+    "source_id": "ibef",
+    "source_name": "India Brand Equity Foundation",
+    "source_short": "IBEF",
+    "sectors": [
+      "Social Protection",
+      "Energy",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "energy",
+      "trade-commerce"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "67fc676b910a",
+    "title": "Indian Railways Achieves 99.6% Broad Gauge Electrification",
+    "description": "Indian Railways has electrified 99.6% of its broad-gauge network, becoming the second most electrified major railway system globally, while strengthening sustainable and energy-efficient rail transportation.",
+    "link": "",
+    "date": "2026-07-23",
+    "source_id": "ibef",
+    "source_name": "India Brand Equity Foundation",
+    "source_short": "IBEF",
+    "sectors": [
+      "Transport & Infrastructure",
+      "Digital & Technology",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "transport-infrastructure",
+      "digital-technology",
       "energy"
     ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
     "comment_deadline": "",
-    "level": "media",
+    "level": "central",
     "state": "",
-    "first_seen": "2026-07-22"
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "b577f8397fef",
+    "title": "India and US Deepen Strategic Partnership at Quad Meeting in Manila",
+    "description": "India and the United States reaffirmed their commitment to strengthening the Comprehensive Global Strategic Partnership during bilateral talks held alongside the Quad Foreign Ministers' Meeting in Manila.",
+    "link": "",
+    "date": "2026-07-23",
+    "source_id": "ibef",
+    "source_name": "India Brand Equity Foundation",
+    "source_short": "IBEF",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Defence & Security"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "defence-security"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "a12301739c2f",
+    "title": "India's Gem and Jewellery Exports Rise 26.5% in June 2026",
+    "description": "India's gem and jewellery exports increased 26.51% year-on-year to US$ 2.21 billion in June 2026, driven by stronger global demand and lower international gold prices.",
+    "link": "",
+    "date": "2026-07-23",
+    "source_id": "ibef",
+    "source_name": "India Brand Equity Foundation",
+    "source_short": "IBEF",
+    "sectors": [
+      "Trade & Commerce",
+      "Social Protection",
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "trade-commerce",
+      "social-protection",
+      "transport-infrastructure"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
+    "id": "a445b33a50bc",
+    "title": "Hikal Expands cGMP Pilot Plant to Strengthen Pharmaceutical Innovation",
+    "description": "Hikal Limited has commissioned an enhanced cGMP-compliant pilot plant at its Pune Research & Technology campus to strengthen pharmaceutical process development, technology transfer and clinical-stage manufacturing capabilities.",
+    "link": "",
+    "date": "2026-07-23",
+    "source_id": "ibef",
+    "source_name": "India Brand Equity Foundation",
+    "source_short": "IBEF",
+    "sectors": [
+      "Health",
+      "Digital & Technology",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "health",
+      "digital-technology",
+      "science-innovation"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
   },
   {
     "id": "d7baa958e99f",
@@ -7136,21 +7762,21 @@
   {
     "id": "30fbc250a52f",
     "title": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035",
-    "description": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Wed, 07/15/2026 - 12:23 Choose Report Type Publications Publication Date Wed, 07/15/2026 - 12:23 Report Upload download (2.27 MB) vertical Frontier Tech Hub",
-    "link": "http://www.niti.gov.in/node/2362",
+    "description": "Roadmap for Building India as a Leading BioEconomy Powerhouse by 2035 niti_admin Thu, 07/16/2026 - 10:48 Weight 0 Links /sites/default/files/2026-07/Roadmap-for-Building-India-as-a-Leading-Bioeconomy…",
+    "link": "http://www.niti.gov.in/whats-new/roadmap-building-india-leading-bioeconomy-powerhouse-2035",
     "date": "2026-07-15",
     "source_id": "niti_aayog",
     "source_name": "NITI Aayog",
     "source_short": "NITI",
     "sectors": [
-      "Transport & Infrastructure",
       "Digital & Technology",
-      "Finance & Economy"
+      "Finance & Economy",
+      "Energy"
     ],
     "sector_slugs": [
-      "transport-infrastructure",
       "digital-technology",
-      "finance-economy"
+      "finance-economy",
+      "energy"
     ],
     "type": "release",
     "kind": "announcement",
@@ -12131,6 +12757,33 @@
     "first_seen": "2026-07-22"
   },
   {
+    "id": "ee413bf174f7",
+    "title": "The Making of a New China-Japan Confrontation",
+    "description": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+    "link": "https://takshashila.org.in/content/publications/20260709-China-Japan-Escalation.html",
+    "date": "2026-07-08",
+    "source_id": "takshashila",
+    "source_name": "Takshashila Institution",
+    "source_short": "Takshashila",
+    "sectors": [
+      "Social Protection",
+      "Digital & Technology",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "digital-technology",
+      "energy"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
     "id": "0358d07ed674",
     "title": "Don’t Just Assemble, Innovate",
     "description": "",
@@ -13184,7 +13837,7 @@
     "id": "bb327c669e3f",
     "title": "Discover More",
     "description": "",
-    "link": "https://www.seci.co.in/tender-details/YmB3",
+    "link": "https://www.seci.co.in/tender-details/YmNy",
     "date": "2026-06-24",
     "source_id": "seci",
     "source_name": "Solar Energy Corporation of India",
@@ -15972,6 +16625,33 @@
     "first_seen": "2026-07-22"
   },
   {
+    "id": "c8a5bb8018c5",
+    "title": "16th BRICS Health Ministers' Meeting Concludes Successfully under India's BRICS Chairship 2026",
+    "description": "Government of India press release: 16th BRICS Health Ministers' Meeting Concludes Successfully under India's BRICS Chairship 2026",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2288267",
+    "date": "2026-06-01",
+    "source_id": "pib_vice_president_s_secretariat",
+    "source_name": "Vice President's Secretariat (via PIB)",
+    "source_short": "Vice President's Secretariat",
+    "sectors": [
+      "Health",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "health",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
+  },
+  {
     "id": "1599d9d3a787",
     "title": "OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world",
     "description": "The post OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world appeared first on Vidhi Centre for Legal Policy.",
@@ -17026,6 +17706,31 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-07-18"
+  },
+  {
+    "id": "3c51b9e8fb00",
+    "title": "West Bengal's Manufacturing Paradox: Reading the FY 2026-27 State Budget",
+    "description": "ORF Expert Speak: West Bengal's Manufacturing Paradox: Reading the FY 2026-27 State Budget",
+    "link": "https://www.orfonline.org/expert-speak/west-bengal-s-manufacturing-paradox-reading-the-fy-2026-27-state-budget",
+    "date": "2026-02-01",
+    "source_id": "orf",
+    "source_name": "Observer Research Foundation",
+    "source_short": "ORF",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-23"
   },
   {
     "id": "3ab94b8ee6a1",
@@ -28526,7 +29231,7 @@
     "id": "87725d26322d",
     "title": "Accessible Version :",
     "description": "",
-    "link": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/07/202607211843871990.pdf",
+    "link": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/07/202607211702251392.pdf",
     "date": "",
     "source_id": "ladakh_govt",
     "source_name": "Ladakh UT Administration",
@@ -36270,7 +36975,7 @@
     "id": "0e87aa2948b9",
     "title": "Download",
     "description": "",
-    "link": "https://delhihighcourt.nic.in/app/showFileJudgment/60815072026CRLMM1582026_171004.pdf",
+    "link": "https://delhihighcourt.nic.in/app/showFileJudgment/75716072026CRLA13202011_130802.pdf",
     "date": "",
     "source_id": "delhi_hc",
     "source_name": "Delhi High Court — Latest Judgments",
@@ -49224,651 +49929,6 @@
     "type": "release",
     "kind": "announcement",
     "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "a9daa8b7f533",
-    "title": "Prime Minister announces fast-track courts for paper leak cases to safeguard the futu...",
-    "description": "Government of India press release: Prime Minister announces fast-track courts for paper leak cases to safeguard the futu...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2288134",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "6bd72b431094",
-    "title": "Prime Minister pays homage to Chandra Shekhar Azad on his birth anniversary",
-    "description": "Government of India press release: Prime Minister pays homage to Chandra Shekhar Azad on his birth anniversary",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2288115",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "f7000c21ffe8",
-    "title": "Prime Minister pays tributes to Lokmanya Tilak on his birth anniversary",
-    "description": "Government of India press release: Prime Minister pays tributes to Lokmanya Tilak on his birth anniversary",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2288113",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "1ecda4524397",
-    "title": "Prime Minister shares a Sanskrit Subhashitam, highlights the profound cosmic connecti...",
-    "description": "Government of India press release: Prime Minister shares a Sanskrit Subhashitam, highlights the profound cosmic connecti...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2288112",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "dcac6e02fb12",
-    "title": "Union Minister Smt. Annpurna Devi interacts with mothers and beneficiary women at Pra...",
-    "description": "Government of India press release: Union Minister Smt. Annpurna Devi interacts with mothers and beneficiary women at Pra...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2288190",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Gender & Women"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "gender-women"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "12d92c713d4e",
-    "title": "Vice-President Pays Floral Tributes to Freedom Fighter Thiru Subramania Siva on His Death Anniversary",
-    "description": "Government of India press release: Vice-President Pays Floral Tributes to Freedom Fighter Thiru Subramania Siva on His Death Anniversary",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2288175",
-    "date": "",
-    "source_id": "pib_vice_president_s_secretariat",
-    "source_name": "Vice President's Secretariat (via PIB)",
-    "source_short": "Vice President's Secretariat",
-    "sectors": [
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "labour-employment"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "742e2443f7da",
-    "title": "Prime Minister announces fast-track courts for paper leak cases to safeguard the future of youth",
-    "description": "Government of India press release: Prime Minister announces fast-track courts for paper leak cases to safeguard the future of youth",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2288134",
-    "date": "",
-    "source_id": "pib_vice_president_s_secretariat",
-    "source_name": "Vice President's Secretariat (via PIB)",
-    "source_short": "Vice President's Secretariat",
-    "sectors": [
-      "Social Protection",
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "child-rights-youth"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "ade893481d0a",
-    "title": "36th Basic Course in Legislative Drafting Inaugurated to Strengthen Uniform and Effective Law-Making Across India",
-    "description": "Government of India press release: 36th Basic Course in Legislative Drafting Inaugurated to Strengthen Uniform and Effective Law-Making Across India",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2288143",
-    "date": "",
-    "source_id": "pib_vice_president_s_secretariat",
-    "source_name": "Vice President's Secretariat (via PIB)",
-    "source_short": "Vice President's Secretariat",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "7011fb77d269",
-    "title": "Indian Railways Approves ₹440 Crore Third Line Project Between Nimpura West Outer Cabin and Midnapur of South Eastern Railway",
-    "description": "Government of India press release: Indian Railways Approves ₹440 Crore Third Line Project Between Nimpura West Outer Cabin and Midnapur of South Eastern Railway",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2288187",
-    "date": "",
-    "source_id": "pib_vice_president_s_secretariat",
-    "source_name": "Vice President's Secretariat (via PIB)",
-    "source_short": "Vice President's Secretariat",
-    "sectors": [
-      "Transport & Infrastructure",
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "transport-infrastructure",
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "02b0d4d5e499",
-    "title": "Four CSIR Technologies Licensed to Industry and Smart Rural Water Monitoring Technology Commercially Launched",
-    "description": "Government of India press release: Four CSIR Technologies Licensed to Industry and Smart Rural Water Monitoring Technology Commercially Launched",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2288139",
-    "date": "",
-    "source_id": "pib_vice_president_s_secretariat",
-    "source_name": "Vice President's Secretariat (via PIB)",
-    "source_short": "Vice President's Secretariat",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Rural Development"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "rural-development"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "b09d57c89136",
-    "title": "The Dark Ocean Challenge: Undersea Networks and the Future of Naval Warfare",
-    "description": "ORF Expert Speak: The Dark Ocean Challenge: Undersea Networks and the Future of Naval Warfare",
-    "link": "https://www.orfonline.org/expert-speak/the-dark-ocean-challenge-undersea-networks-and-the-future-of-naval-warfare",
-    "date": "",
-    "source_id": "orf",
-    "source_name": "Observer Research Foundation",
-    "source_short": "ORF",
-    "sectors": [
-      "Defence & Security"
-    ],
-    "sector_slugs": [
-      "defence-security"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "5d281e138638",
-    "title": "When Play Becomes Learning | Aata Utsava",
-    "description": "",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education"
-    ],
-    "sector_slugs": [
-      "education"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "37f7a2075bca",
-    "title": "Learning to Read: Why faulty theories should not be allowed to get in the way of primary education",
-    "description": "23 Jul 2026",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education"
-    ],
-    "sector_slugs": [
-      "education"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "193dcc5c1efa",
-    "title": "भारतीय रेलवे ने निमपुरा पश्चिम आउटर केबिन और दक्षिण पूर्वी रेलवे के मिदनापुर के बीच तीसरी लाइन परियोजना को 440 करोड़ रुपये की लागत से मंजूरी दी",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288236",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "de5e646223bb",
-    "title": "उपराष्ट्रपति ने स्वतंत्रता सेनानी थिरु सुब्रमण्यम शिवा को उनकी पुण्यतिथि पर पुष्पांजलि अर्पित की",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288237",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "90e4b580072f",
-    "title": "सीएसआईआर की चार प्रौद्योगिकी इंडस्ट्री को सौंपी गईं और स्मार्ट ग्रामीण जल निगरानी प्रौद्योगिकी कमर्शियली लॉन्च की गई",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288235",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "22e241606611",
-    "title": "प्रधानमंत्री ने युवाओं के भविष्य की सुरक्षा के लिए पेपर लीक मामलों में फास्ट-ट्रैक अदालतों के गठन की घोषणा की",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288144",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "ae655ff815ba",
-    "title": "प्रधानमंत्री ने चंद्रशेखर आजाद की जयंती पर उन्हें भावभीनी श्रद्धांजलि अर्पित की",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288138",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "682b61a80c19",
-    "title": "प्रधानमंत्री ने लोकमान्य तिलक को उनकी जयंती पर भावभीनी श्रद्धांजलि अर्पित की",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288135",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "03c6eaef1953",
-    "title": "प्रधानमंत्री ने एक संस्कृत सुभाषित साझा करते हुए जीवात्मा और परम चेतना के बीच के गहरे आध्यात्मिक एवं ब्रह्मांडीय संबंध को रेखांकित किया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288133",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "644a64061dcd",
-    "title": "आयोग ने ब्रिंक्स कंपनी (अधिग्रहणकर्ता) द्वारा एनसीआर एटलेओस कॉर्पोरेशन (लक्ष्य) की 100% इक्विटी शेयर पूंजी के अधिग्रहण को मंजूरी दे दी है",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288119",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "4f1b746beb8e",
-    "title": "कोयला मंत्रालय ने ‘आरोह’ जारी किया: वैज्ञानिक खान बंदीकरण और पुनः उपयोग पद्धतियों पर भारत की पहली रिपोर्ट",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288123",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "4bf33bc6d0e9",
-    "title": "भारत और पनामा ने रसद, डिजिटल नवाचार और वैश्विक संपर्क पर केंद्रित नई समुद्री साझेदारी की रूपरेखा तैयार की",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288121",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "2927ec7c4b90",
-    "title": "रक्षा अनुसंधान और विकास संगठन (DRDO)डीआरडीओ ने उद्योग साझेदारों के साथ ए इ डब्लू एंड सी एमके-II कार्यक्रम के भाग के रूप में दो प्रमुख अनुबंध किए",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288117",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Defence & Security"
-    ],
-    "sector_slugs": [
-      "defence-security"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "538f40481e4b",
-    "title": "डॉ. जितेंद्र सिंह ने संसद को बताया कि पिछले पाँच वर्षों में इंस्पायर (INSPIRE) कार्यक्रम के तहत 3.75 लाख से अधिक छात्रों और शोधकर्ताओं को लाभ मिला",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288124",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "184519cc6693",
-    "title": "AI Needs Human Hands. Indian Workers Resist",
-    "description": "In factories in Delhi, workers are quietly resisting efforts to train their robot replacements on the most human of actions.▶21-Jul-2026",
-    "link": "https://www.theindiaforum.in/economy/ai-needs-human-hands-indian-workers-resist",
-    "date": "",
-    "source_id": "india_forum",
-    "source_name": "The India Forum",
-    "source_short": "India Forum",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "labour-employment"
-    ],
-    "type": "longform",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-23"
-  },
-  {
-    "id": "0de66e453353",
-    "title": "Anumeha Yadav",
-    "description": "In factories in Delhi, workers are quietly resisting efforts to train their robot replacements on the most human of actions.▶21-Jul-2026",
-    "link": "https://www.theindiaforum.in/authors/anumeha-yadav",
-    "date": "",
-    "source_id": "india_forum",
-    "source_name": "The India Forum",
-    "source_short": "India Forum",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "labour-employment"
-    ],
-    "type": "longform",
-    "kind": "analysis",
-    "authority": "think_tank",
     "comment_deadline": "",
     "level": "central",
     "state": "",
