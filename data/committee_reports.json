@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-07-23",
-    "total_reports": 960,
+    "total_reports": 963,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -13,7 +13,7 @@
       "key": "finance",
       "name": "Finance",
       "sector": "Finance & Economy",
-      "report_count": 183
+      "report_count": 184
     },
     {
       "key": "external_affairs",
@@ -25,7 +25,7 @@
       "key": "consumer_affairs",
       "name": "Consumer Affairs, Food and Public Distribution",
       "sector": "Social Protection",
-      "report_count": 140
+      "report_count": 142
     },
     {
       "key": "communications",
@@ -5962,6 +5962,20 @@
         "committee_key": "finance",
         "committee_name": "Finance",
         "sector": "Finance & Economy",
+        "report_number": 36,
+        "title": "Report on the Bill ‘The Securities Markets Code, 2025’.",
+        "presented_in_ls": "23-Jul-2026",
+        "laid_in_rs": "23-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Finance/18_Finance_36.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Finance/18_Finance_36(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "finance",
+        "committee_name": "Finance",
+        "sector": "Finance & Economy",
         "report_number": 35,
         "title": "Report on 'Demands for Grants (2026-27)' of the Ministry of Statistics and Programme Implementation.",
         "presented_in_ls": "17-Mar-2026",
@@ -8522,6 +8536,34 @@
       }
     ],
     "consumer_affairs": [
+      {
+        "committee_key": "consumer_affairs",
+        "committee_name": "Consumer Affairs, Food and Public Distribution",
+        "sector": "Social Protection",
+        "report_number": 16,
+        "title": "16th Report on ‘Modernisation of Public Distribution System: Strengthening Technical Data base’ pertaining to the Ministry of Consumer Affairs, Food and Public Distribution (Department of Food and Public Distribution).",
+        "presented_in_ls": "23-Jul-2026",
+        "laid_in_rs": "23-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_16.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_16(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "consumer_affairs",
+        "committee_name": "Consumer Affairs, Food and Public Distribution",
+        "sector": "Social Protection",
+        "report_number": 15,
+        "title": "15th Report on ‘Regulation of Packed Commodities with Specific Reference to Sugar Content in Baby Products and Other Food Products’ pertaining to the Ministry of Consumer Affairs, Food and Public Distribution (Department of Consumer Affairs).",
+        "presented_in_ls": "23-Jul-2026",
+        "laid_in_rs": "23-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_15.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_15(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "consumer_affairs",
         "committee_name": "Consumer Affairs, Food and Public Distribution",
