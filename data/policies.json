@@ -52,6 +52,31 @@
     "first_seen": "2026-07-23"
   },
   {
+    "id": "754ea3e49909",
+    "title": "Nature Writing for Children: Mountains, Myths&Memory",
+    "description": "",
+    "link": "",
+    "date": "2026-07-27",
+    "source_id": "azim_premji",
+    "source_name": "Azim Premji University",
+    "source_short": "APU",
+    "sectors": [
+      "Digital & Technology",
+      "Child Rights & Youth"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "child-rights-youth"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
     "id": "df0b1fce44ce",
     "title": "ಸಸ್ಯಶಾಸ್ತ್ರಜ್ಞ ಡಾ. ಬಿ. ಜಿ. ಎಲ್. ಸ್ವಾಮಿಯವರ ಜೀವನ ಆಧರಿತ​’ಹಸಿರೇ ಹೊನ್ನು’ ವಿಜ್ಞಾನ ನಾಟಕ ಪ್ರದರ್ಶನ |​‘Hasire Honnu’- A Science Drama based on the Life of Botanist Dr B. G. L. Swamy",
     "description": "",
@@ -526,6 +551,110 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-07-24"
+  },
+  {
+    "id": "ae27baacc7f2",
+    "title": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on July 27, 2026",
+    "description": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Repo (VRR) auction on Monday, July 27, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 3 09:30 AM to 10:00 AM July 30, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad       &nb",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63233",
+    "date": "2026-07-24",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Energy",
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "energy",
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
+    "id": "ef6ab362ad05",
+    "title": "Final Order in the matter of front running by Madhav Stock Vision Pvt. Ltd. and Others",
+    "description": "Final Order in the matter of front running by Madhav Stock Vision Pvt. Ltd. and Others",
+    "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/final-order-in-the-matter-of-front-running-by-madhav-stock-vision-pvt-ltd-and-others_103046.html",
+    "date": "2026-07-24",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
+    "id": "a2e30b4f8195",
+    "title": "Order in the matter of Nalwa Sons Investments Limited",
+    "description": "Order in the matter of Nalwa Sons Investments Limited",
+    "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/order-in-the-matter-of-nalwa-sons-investments-limited_103045.html",
+    "date": "2026-07-24",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
+    "id": "10aaf6d101e8",
+    "title": "Order in the matter of Hexa Tradex Limited",
+    "description": "Order in the matter of Hexa Tradex Limited",
+    "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/order-in-the-matter-of-hexa-tradex-limited_103044.html",
+    "date": "2026-07-24",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Digital & Technology",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "trade-commerce"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
   },
   {
     "id": "ff66b3e64f7b",
@@ -1577,7 +1706,7 @@
     "id": "8a8e9ac37823",
     "title": "The War of Disruption",
     "description": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-    "link": "https://takshashila.org.in/content/publications/20260724-war-of-disruption.html",
+    "link": "https://takshashila.org.in/content/publications/20260724-war-of-disruption(v2).html",
     "date": "2026-07-23",
     "source_id": "takshashila",
     "source_name": "Takshashila Institution",
@@ -5249,7 +5378,7 @@
   {
     "id": "e9c061d4d108",
     "title": "Auction of State Government Securities",
-    "description": "",
+    "description": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹18,100 Crore (Face Value). Sr. No. State Amount to be raised (₹ Crore) Additional Borrowing (Greenshoe) Option (₹ Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 1000 - Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 Price 1600 - 25 Yield 2. Gujarat 1000 - Re-issue of 7.38% Gujarat SGS 2035, issued on July 15, 2026 Price 1000 - Re-issue of 7.51% Guj",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63232",
     "date": "2026-07-17",
     "source_id": "rbi",
@@ -5257,11 +5386,13 @@
     "source_short": "RBI",
     "sectors": [
       "Digital & Technology",
-      "Social Protection"
+      "Climate & Environment",
+      "Finance & Economy"
     ],
     "sector_slugs": [
       "digital-technology",
-      "social-protection"
+      "climate-environment",
+      "finance-economy"
     ],
     "type": "release",
     "kind": "announcement",
@@ -17304,6 +17435,123 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-07-24"
+  },
+  {
+    "id": "9f081ccf63f2",
+    "title": "Two Days of the BRICS Science Academies Forum Meeting 2026 successfully concluded at ...",
+    "description": "Government of India press release: Two Days of the BRICS Science Academies Forum Meeting 2026 successfully concluded at ...",
+    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2289133",
+    "date": "2026-06-01",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Social Protection",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "science-innovation"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
+    "id": "ca482e8caffe",
+    "title": "ENGINEERING SERVICES (MAIN) EXAMINATION, 2026",
+    "description": "Government of India press release: ENGINEERING SERVICES (MAIN) EXAMINATION, 2026",
+    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2289098",
+    "date": "2026-06-01",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
+    "id": "249c0172fef6",
+    "title": "स्टील अथॉरिटी ऑफ इण्डिया लिमिटेड (SAIL) ने वित्त वर्ष 2026-27 की पहली तिमाही (Q1 FY27) के वित्तीय परिणाम किए घोषित, मजबूत मुनाफा किया दर्ज",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289228",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
+    "id": "c5edd79a8c54",
+    "title": "सतत विकास के लिए कृत्रिम बुद्धिमत्ता और वैश्विक दक्षिण सहयोग पर केंद्रित ब्रिक्स विज्ञान अकादमियों फोरम बैठक-2026 का दो दिवसीय आयोजन आईआईटी हैदराबाद में सफलतापूर्वक संपन्न",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289184",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
+  },
+  {
+    "id": "2aee906c8c64",
+    "title": "इंजीनियरी सेवा (प्रधान) परीक्षा, 2026",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289100",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-07-25"
   },
   {
     "id": "1599d9d3a787",
@@ -38043,7 +38291,7 @@
     "id": "0e87aa2948b9",
     "title": "Download",
     "description": "",
-    "link": "https://delhihighcourt.nic.in/app/showFileJudgment/75217072026OMPENFCOMM112026_125628.pdf",
+    "link": "https://delhihighcourt.nic.in/app/showFileJudgment/75217072026ARBACOMM502026_130444.pdf",
     "date": "",
     "source_id": "delhi_hc",
     "source_name": "Delhi High Court — Latest Judgments",
@@ -44374,7 +44622,7 @@
     "id": "6632d85e8ad8",
     "title": "प्रेस विज्ञप्ति",
     "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286918",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289242",
     "date": "",
     "source_id": "pib_rss",
     "source_name": "PIB RSS Feed",
@@ -49751,236 +49999,6 @@
     "title": "बिहार में भारतीय बीज सहकारी समिति लिमिटेड की शाखा",
     "description": "",
     "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287818",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "652142a6d8a0",
-    "title": "पंजाब में सहकारी संस्थाओं का सुदृढ़ीकरण",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287813",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "ede8d3244fcf",
-    "title": "ओडिशा में सहकारी समितियों का सुदृढ़ीकरण",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287807",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "38ef00049de1",
-    "title": "भारत टैक्सी सेवा की वर्तमान स्थिति",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287805",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "aca76d577d9f",
-    "title": "राजस्थान में बहुउद्देशीय सहकारी समितियां",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287801",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "f3b601e9c654",
-    "title": "सहकारी संस्थाओं में कृत्रिम बुद्धिमत्ता (एआई) तथा डिजिटल प्लेटफॉर्मों का संवर्धन",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287798",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "f66cfbfea430",
-    "title": "पारंपरिक कारीगर सहकारी समितियाँ",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287795",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "a92167f1f13e",
-    "title": "महाराष्ट्र में स्थित सहकारी समितियां",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287786",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "a23fb60d3fc2",
-    "title": "उपराष्ट्रपति ने कोयंबटूर में जीकेएनएम कॉलेज ऑफ़ नर्सिंग का उद्घाटन किया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287880",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "d529cc03cb75",
-    "title": "फास्टैग आधारित टोल संग्रह एवं डिजिटल टोलिंग प्रणाली",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287875",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-22"
-  },
-  {
-    "id": "28419ef6c1f1",
-    "title": "राष्ट्रीय राजमार्ग परामर्श अनुबंध में पेशेवर नियुक्तन करने के लिए एनएचएआई ने वर्तमान व्यपवस्थाम को मजबूत बनाया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287912",
     "date": "",
     "source_id": "pib_rss",
     "source_name": "PIB RSS Feed",
