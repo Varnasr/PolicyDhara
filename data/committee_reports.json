@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-07-27",
-    "total_reports": 965,
+    "total_reports": 967,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -58,16 +58,16 @@
       "report_count": 32
     },
     {
+      "key": "chemicals",
+      "name": "Chemicals & Fertilizers",
+      "sector": "Science & Innovation",
+      "report_count": 27
+    },
+    {
       "key": "coal",
       "name": "Coal, Mines and Steel",
       "sector": "Energy",
       "report_count": 26
-    },
-    {
-      "key": "chemicals",
-      "name": "Chemicals & Fertilizers",
-      "sector": "Science & Innovation",
-      "report_count": 25
     },
     {
       "key": "labour",
@@ -642,6 +642,34 @@
       }
     ],
     "chemicals": [
+      {
+        "committee_key": "chemicals",
+        "committee_name": "Chemicals & Fertilizers",
+        "sector": "Science & Innovation",
+        "report_number": 27,
+        "title": "Twenty-seventh Report on Action Taken by the Government on the Observations/Recommendations contained in the Fourteenth Report of the Standing Committee on Chemicals and Fertilizers (Eighteenth Lok Sabha) on ‘Price Rise of medicines in the Pharmaceutical Sector impacting the lives of ordinary citizens adversely- A Review’ pertaining to the Ministry of Chemicals and Fertilizers (Department of Pharmaceuticals).",
+        "presented_in_ls": "27-Jul-2026",
+        "laid_in_rs": "27-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Chemicals & Fertilizers/18_Chemicals_And_Fertilizers_27.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Chemicals & Fertilizers/18_Chemicals_And_Fertilizers_27(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "chemicals",
+        "committee_name": "Chemicals & Fertilizers",
+        "sector": "Science & Innovation",
+        "report_number": 26,
+        "title": "Twenty-sixth Report on Action Taken by the Government on the Observations/Recommendations contained in the Nineteenth Report of the Standing Committee on Chemicals and Fertilizers (Eighteenth Lok Sabha) on ‘Review of the functioning of Institute of Pesticide formulation Technology (IPFT)’ pertaining to the Ministry of Chemicals and Fertilizers (Department of Chemicals and Petrochemicals).",
+        "presented_in_ls": "27-Jul-2026",
+        "laid_in_rs": "27-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Chemicals & Fertilizers/18_Chemicals_And_Fertilizers_26.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Chemicals & Fertilizers/18_Chemicals_And_Fertilizers_26(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "chemicals",
         "committee_name": "Chemicals & Fertilizers",
