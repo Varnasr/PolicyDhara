@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-07-28",
-    "total_reports": 968,
+    "total_reports": 970,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -25,7 +25,7 @@
       "key": "consumer_affairs",
       "name": "Consumer Affairs, Food and Public Distribution",
       "sector": "Social Protection",
-      "report_count": 142
+      "report_count": 144
     },
     {
       "key": "communications",
@@ -8606,6 +8606,34 @@
       }
     ],
     "consumer_affairs": [
+      {
+        "committee_key": "consumer_affairs",
+        "committee_name": "Consumer Affairs, Food and Public Distribution",
+        "sector": "Social Protection",
+        "report_number": 18,
+        "title": "18th Report on Action Taken on the Observations/ Recommendations contained in the 14th Report of the Committee on Demands for Grants (2026-27) pertaining to the Department of Food and Public Distribution.",
+        "presented_in_ls": "28-Jul-2026",
+        "laid_in_rs": "28-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_18.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_18(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "consumer_affairs",
+        "committee_name": "Consumer Affairs, Food and Public Distribution",
+        "sector": "Social Protection",
+        "report_number": 17,
+        "title": "17th Report on Action Taken on the Observations/ Recommendations contained in the 13th Report of the Committee on Demands for Grants (2026-27) pertaining to the Department of Consumer Affairs",
+        "presented_in_ls": "28-Jul-2026",
+        "laid_in_rs": "28-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_17.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/Consumer Affairs, Food and Public Distribution/18_Consumer_Affairs_Food_and_Public_Distribution_17(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "consumer_affairs",
         "committee_name": "Consumer Affairs, Food and Public Distribution",
