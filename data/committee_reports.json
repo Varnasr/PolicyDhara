@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-07-28",
-    "total_reports": 967,
+    "total_reports": 968,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -49,7 +49,7 @@
       "key": "agriculture",
       "name": "Agriculture, Animal Husbandry and Food Processing",
       "sector": "Agriculture",
-      "report_count": 38
+      "report_count": 39
     },
     {
       "key": "rural_development",
@@ -108,6 +108,20 @@
   ],
   "committees": {
     "agriculture": [
+      {
+        "committee_key": "agriculture",
+        "committee_name": "Agriculture, Animal Husbandry and Food Processing",
+        "sector": "Agriculture",
+        "report_number": 39,
+        "title": "38th Report on Action Taken by the Government on the Observations/Recommendations \r\ncontained in the Twelfth Report (Eighteenth Lok Sabha) of the Standing \r\nCommittee on Agriculture, Animal Husbandry and Food Processing (2024-25) \r\non Demands for Grants (2025-26)",
+        "presented_in_ls": "27-Mar-2026",
+        "laid_in_rs": "27-Mar-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/Agriculture, Animal Husbandry and Food Processing/18_Agriculture_Animal_Husbandry_and_Food_Processing_39.pdf?source=app",
+        "pdf_url_hindi": null,
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "agriculture",
         "committee_name": "Agriculture, Animal Husbandry and Food Processing",
