@@ -4,7 +4,7 @@
     "source": "https://sansad.in",
     "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
     "last_updated": "2026-07-30",
-    "total_reports": 971,
+    "total_reports": 973,
     "total_committees": 16,
     "lok_sabha": 18
   },
@@ -19,7 +19,7 @@
       "key": "external_affairs",
       "name": "External Affairs",
       "sector": "Governance & Reform",
-      "report_count": 165
+      "report_count": 167
     },
     {
       "key": "consumer_affairs",
@@ -3730,6 +3730,34 @@
       }
     ],
     "external_affairs": [
+      {
+        "committee_key": "external_affairs",
+        "committee_name": "External Affairs",
+        "sector": "Governance & Reform",
+        "report_number": 15,
+        "title": "Action Taken by the Government on the Observations/ Recommendations contained in the Ninth Report of the Committee on the subject ‘Future of India-Bangladesh Relationship’",
+        "presented_in_ls": "30-Jul-2026",
+        "laid_in_rs": "30-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/External Affairs/18_External_Affairs_15.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/External Affairs/18_External_Affairs_15(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
+      {
+        "committee_key": "external_affairs",
+        "committee_name": "External Affairs",
+        "sector": "Governance & Reform",
+        "report_number": 14,
+        "title": "INDIA’S ROLE AND PRESENCE IN THE ARCTIC AND ANTARCTIC REGIONS",
+        "presented_in_ls": "30-Jul-2026",
+        "laid_in_rs": "30-Jul-2026",
+        "presented_to_speaker": null,
+        "pdf_url": "https://sansad.in/getFile/app/lsscommittee/External Affairs/18_External_Affairs_14.pdf?source=app",
+        "pdf_url_hindi": "https://sansad.in/getFile/app/committee_hindi/External Affairs/18_External_Affairs_14(hindi).pdf?source=app",
+        "lok_sabha": 18,
+        "house": "L"
+      },
       {
         "committee_key": "external_affairs",
         "committee_name": "External Affairs",
