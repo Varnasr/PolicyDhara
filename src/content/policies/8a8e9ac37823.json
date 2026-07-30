@@ -2,7 +2,7 @@
   "id": "8a8e9ac37823",
   "title": "The War of Disruption",
   "description": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-  "link": "https://takshashila.org.in/content/publications/20260724-the-war-of-disruption(4).html",
+  "link": "https://takshashila.org.in/content/publications/20260724-the-war-of-disruption.html",
   "date": "2026-07-23",
   "source_id": "takshashila",
   "source_name": "Takshashila Institution",
