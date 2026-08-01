@@ -1,5 +1,30 @@
 [
   {
+    "id": "3e02d0ac7591",
+    "title": "Managing Partnerships, Networks and Change in the Social Sector",
+    "description": "",
+    "link": "",
+    "date": "2026-08-12",
+    "source_id": "azim_premji",
+    "source_name": "Azim Premji University",
+    "source_short": "APU",
+    "sectors": [
+      "Education",
+      "Labour & Employment"
+    ],
+    "sector_slugs": [
+      "education",
+      "labour-employment"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
     "id": "7d1436880193",
     "title": "Lies, Likes and LLMs: Social Media, Artificial Intelligence and the Crisis of Truth",
     "description": "",
@@ -91,6 +116,29 @@
     ],
     "type": "notification",
     "kind": "instrument",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "3bef6f79f812",
+    "title": "Ministry of Textiles to celebrate 12th National Handloom Day on 7 August 2026",
+    "description": "Government of India press release: Ministry of Textiles to celebrate 12th National Handloom Day on 7 August 2026",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2292927",
+    "date": "2026-08-01",
+    "source_id": "pib_cabinet_committee_on_economic_affairs_ccea",
+    "source_name": "Cabinet Committee on Economic Affairs (CCEA) (via PIB)",
+    "source_short": "Cabinet Committee on Economic Affairs",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
     "authority": "government",
     "comment_deadline": "",
     "level": "central",
@@ -1202,6 +1250,158 @@
     "title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026",
     "description": "RBI notification: Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026",
     "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13642&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "4fe7022905cb",
+    "title": "Reserve Bank of India (Commercial Banks – Fraud Risk Management) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Commercial Banks – Fraud Risk Management) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13641&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy",
+      "Trade & Commerce",
+      "Tribal & Indigenous"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "trade-commerce",
+      "tribal-indigenous"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "dbc7eddb55cf",
+    "title": "Reserve Bank of India (Commercial Banks - Internal Audit Function) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Commercial Banks - Internal Audit Function) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13640&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "02f1b6d395ac",
+    "title": "Reserve Bank of India (Commercial Banks – Statutory Audit) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Commercial Banks – Statutory Audit) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13639&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "bfb4ee7a3c54",
+    "title": "Reserve Bank of India (Commercial Banks – Supervisory Returns) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Commercial Banks – Supervisory Returns) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13638&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "e1c617f4f936",
+    "title": "Reserve Bank of India (Commercial Banks – Miscellaneous) Supervisory Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Commercial Banks – Miscellaneous) Supervisory Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13637&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "13124ac54ae4",
+    "title": "Reserve Bank of India (Small Finance Banks – Digital Payment Security Controls) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Small Finance Banks – Digital Payment Security Controls) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13633&Mode=0",
     "date": "2026-07-31",
     "source_id": "rbi_notifications",
     "source_name": "RBI Notifications",
@@ -25036,6 +25236,102 @@
     "first_seen": "2026-08-01"
   },
   {
+    "id": "8e57a7f14168",
+    "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah presents the Lokmanya Tilak National Award 2026 to National Security Advisor Shri Ajit Doval in Pune, Maharashtra",
+    "description": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah presents the Lokmanya Tilak National Award 2026 to National Security Advisor Shri Ajit Doval in Pune, Maharashtra",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2293016",
+    "date": "2026-06-01",
+    "source_id": "pib_cabinet_committee_on_economic_affairs_ccea",
+    "source_name": "Cabinet Committee on Economic Affairs (CCEA) (via PIB)",
+    "source_short": "Cabinet Committee on Economic Affairs",
+    "sectors": [
+      "Social Protection",
+      "Digital & Technology",
+      "Defence & Security"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "digital-technology",
+      "defence-security"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "4bd9e251e869",
+    "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने मानसून 2026 में बाढ़ प्रभावित राज्यों को SDRF के तहत ₹2,117.85 करोड़ की अग्रिम केंद्रीय सहायता को मंजूरी दी",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293024",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "b7c0872f8ac7",
+    "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने आज पुणे, महाराष्ट्र में राष्ट्रीय सुरक्षा सलाहकार श्री अजीत डोभाल जी को ‘लोकमान्य तिलक नेशनल अवार्ड 2026’ से सम्मानित किया",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2292996",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "id": "c4531d14f47c",
+    "title": "वस्त्र मंत्रालय 7 अगस्त 2026 को 12 वां राष्ट्रीय हथकरघा दिवस मनाएगा",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2292976",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
+  },
+  {
     "id": "1599d9d3a787",
     "title": "OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world",
     "description": "The post OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world appeared first on Vidhi Centre for Legal Policy.",
@@ -28515,6 +28811,33 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-07-30"
+  },
+  {
+    "id": "0bb18cd10eca",
+    "title": "Union Minister Shri Bhupender Yadav presides over the Convocation Ceremony of 2024 batch of Indian Forest Service (IFS) Probationers at Indira Gandhi National Forest Academy; Presents Certificates and",
+    "description": "Government of India press release: Union Minister Shri Bhupender Yadav presides over the Convocation Ceremony of 2024 batch of Indian Forest Service (IFS) Probationers at Indira Gandhi National Forest Academy; Presents Certificates and Medals as the Chief...",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2292908",
+    "date": "2024-06-01",
+    "source_id": "pib_cabinet_committee_on_economic_affairs_ccea",
+    "source_name": "Cabinet Committee on Economic Affairs (CCEA) (via PIB)",
+    "source_short": "Cabinet Committee on Economic Affairs",
+    "sectors": [
+      "Climate & Environment",
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "social-protection",
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-01"
   },
   {
     "id": "e1c0b95b8492",
@@ -49984,343 +50307,6 @@
     ],
     "type": "scheme",
     "kind": "instrument",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "b05d46aa764b",
-    "title": "NHAI Enhances Digital Services on RajmargYatra Mobile App with Launch of Digital Loca...",
-    "description": "Government of India press release: NHAI Enhances Digital Services on RajmargYatra Mobile App with Launch of Digital Loca...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286722",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Digital & Technology",
-      "Health",
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "health",
-      "transport-infrastructure"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "ff55b8bd09b5",
-    "title": "Strong Industry Participation Marks Pre-Application Conference for ₹37,500 Crore Surf...",
-    "description": "Government of India press release: Strong Industry Participation Marks Pre-Application Conference for ₹37,500 Crore Surf...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286673",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Finance & Economy",
-      "Social Protection",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "finance-economy",
-      "social-protection",
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "81f1507c9753",
-    "title": "NHRC, India takes suo motu cognizance of the reported frisking, beating and forced re...",
-    "description": "Government of India press release: NHRC, India takes suo motu cognizance of the reported frisking, beating and forced re...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286657",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "transport-infrastructure"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "992a93122e3b",
-    "title": "Government and RBI Strengthen Fintech Ecosystem with Enhanced Regulatory Frameworks &...",
-    "description": "Government of India press release: Government and RBI Strengthen Fintech Ecosystem with Enhanced Regulatory Frameworks &...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286607",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Digital & Technology",
-      "Health",
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "health",
-      "finance-economy"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "7ffbb69d5fab",
-    "title": "PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND ...",
-    "description": "Government of India press release: PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND ...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286601",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Digital & Technology",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "labour-employment"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "132c79d1a0b9",
-    "title": "COAL PRODUCTION AND SELF -RELIANCE",
-    "description": "Government of India press release: COAL PRODUCTION AND SELF -RELIANCE",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286594",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Energy"
-    ],
-    "sector_slugs": [
-      "energy"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "62d01459bf6e",
-    "title": "PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND LEADS DELEGATION-LEVEL TALKS",
-    "description": "Government of India press release: PRESIDENT OF INDIA IN MOLDOVA; HOLDS BILATERAL MEETING WITH PRESIDENT OF MOLDOVA AND LEADS DELEGATION-LEVEL TALKS",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2286601",
-    "date": "",
-    "source_id": "pib_eci",
-    "source_name": "Election Commission of India (via PIB)",
-    "source_short": "ECI",
-    "sectors": [
-      "Digital & Technology",
-      "Energy",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "energy",
-      "labour-employment"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "83cb82c91875",
-    "title": "Strong Industry Participation Marks Pre-Application Conference for ₹37,500 Crore Surface Coal/Lignite Gasification Scheme",
-    "description": "Government of India press release: Strong Industry Participation Marks Pre-Application Conference for ₹37,500 Crore Surface Coal/Lignite Gasification Scheme",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2286673",
-    "date": "",
-    "source_id": "pib_eci",
-    "source_name": "Election Commission of India (via PIB)",
-    "source_short": "ECI",
-    "sectors": [
-      "Social Protection",
-      "Digital & Technology",
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "digital-technology",
-      "finance-economy"
-    ],
-    "type": "scheme",
-    "kind": "instrument",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "feb4ba2871ee",
-    "title": "FIRST MILE CONNECTIVITY AND COAL LOGISTICS INFRASTRUCTURE",
-    "description": "Government of India press release: FIRST MILE CONNECTIVITY AND COAL LOGISTICS INFRASTRUCTURE",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2286593",
-    "date": "",
-    "source_id": "pib_eci",
-    "source_name": "Election Commission of India (via PIB)",
-    "source_short": "ECI",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Energy"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "energy"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "8c5eeda91c69",
-    "title": "COAL GASIFICATION TARGETS",
-    "description": "Government of India press release: COAL GASIFICATION TARGETS",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2286591",
-    "date": "",
-    "source_id": "pib_eci",
-    "source_name": "Election Commission of India (via PIB)",
-    "source_short": "ECI",
-    "sectors": [
-      "Energy"
-    ],
-    "sector_slugs": [
-      "energy"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "04427dd4d817",
-    "title": "India Becomes a Party to the WTO Agreement on Fisheries Subsidies by Depositing its Instrument of Acceptance",
-    "description": "Government of India press release: India Becomes a Party to the WTO Agreement on Fisheries Subsidies by Depositing its Instrument of Acceptance",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2286763",
-    "date": "",
-    "source_id": "pib_eci",
-    "source_name": "Election Commission of India (via PIB)",
-    "source_short": "ECI",
-    "sectors": [
-      "Agriculture",
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "agriculture",
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "58756741e9e4",
-    "title": "APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
-    "description": "Government of India press release: APEDA Facilitates First Export of 24 Tonnes Frozen French Fries from Uttarakhand to Iraq",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2286498",
-    "date": "",
-    "source_id": "pib_eci",
-    "source_name": "Election Commission of India (via PIB)",
-    "source_short": "ECI",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "transport-infrastructure"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "e5aed12d0357",
-    "title": "TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
-    "description": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bhopal City, Indore to Neemuch Highway and Bilaspur to Ambikapur Highway under MP LSA",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2286577",
-    "date": "",
-    "source_id": "pib_eci",
-    "source_name": "Election Commission of India (via PIB)",
-    "source_short": "ECI",
-    "sectors": [
-      "Digital & Technology",
-      "Urban Development",
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "urban-development",
-      "transport-infrastructure"
-    ],
-    "type": "release",
-    "kind": "announcement",
     "authority": "government",
     "comment_deadline": "",
     "level": "central",
