@@ -50,6 +50,110 @@
     "first_seen": "2026-07-29"
   },
   {
+    "id": "76a1637848a9",
+    "title": "Consumer Education Workshop at Sri Sathya Sai (Andhra Pradesh) by Bharti Airtel Limited",
+    "description": "Consumer Education Workshop at Sri Sathya Sai (Andhra Pradesh) by Bharti Airtel Limited nitinkumar Mon, 08/03/2026 - 11:28 Date Tue, 08/11/2026 - 12:00 District Puttaparthi Division Consumer Affairs Date & Time Tue, 08/11/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Arathi Khanna Contact person Email arathi.khanna@airtel.com Event Category COP By TRAI Venue Details RV Jnakai Ramiah Kalyana Madapam, MRO Office backside, Main road, Puttaparthi-51513",
+    "link": "http://www.trai.gov.in/consumer/events/consumer-education-workshop-sri-sathya-sai-andhra-pradesh-bharti-airtel-limited",
+    "date": "2026-08-03",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Education",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "education",
+      "climate-environment"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "fc7b27d14389",
+    "title": "Consumer Education Workshop at Balangir (Odisha) by Reliance Jio Infocomm Ltd",
+    "description": "Consumer Education Workshop at Balangir (Odisha) by Reliance Jio Infocomm Ltd nitinkumar Mon, 08/03/2026 - 11:22 Date Sat, 08/08/2026 - 12:00 District Balangir Division Consumer Affairs Date & Time Sat, 08/08/2026 - 03:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Manish Dhuper Contact person Email manish.dhuper@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocomm Ltd, Plot no 251/2952,Brillant Merchandise Pvt ltd ,At Kausal Chhak, Palace l",
+    "link": "http://www.trai.gov.in/consumer/events/consumer-education-workshop-balangir-odisha-reliance-jio-infocomm-ltd",
+    "date": "2026-08-03",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Education",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "education",
+      "climate-environment"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "2673d7f1d6ec",
+    "title": "Consumer Education Workshop at Jaipur (Rajasthan) by RailTel Corporation of India Ltd.",
+    "description": "Consumer Education Workshop at Jaipur (Rajasthan) by RailTel Corporation of India Ltd. nitinkumar Mon, 08/03/2026 - 11:20 Date Mon, 08/10/2026 - 12:00 District Jaipur Division Consumer Affairs Date & Time Mon, 08/10/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Vipin Agarwal Contact person Email vipin@acemicro.in Event Category COP By TRAI Venue Details 119/86, Agarwal Farm, Mansarovar, Jaipur - 302020 Event From Consumer Awareness( TSPs ) Cont",
+    "link": "http://www.trai.gov.in/consumer/events/consumer-education-workshop-jaipur-rajasthan-railtel-corporation-india-ltd",
+    "date": "2026-08-03",
+    "source_id": "trai",
+    "source_name": "Telecom Regulatory Authority of India",
+    "source_short": "TRAI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Education"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "education"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "d7d39c116317",
+    "title": "Joining a nonprofit? Here’s what you get",
+    "description": "",
+    "link": "https://idronline.org/article/humour/joining-a-nonprofit-heres-what-you-get-nonprofit-humour/",
+    "date": "2026-08-03",
+    "source_id": "idronline",
+    "source_name": "IDR Online",
+    "source_short": "IDR",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "longform",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
     "id": "335ea013dced",
     "title": "PRESIDENT OF INDIA TO VISIT ODISHA FROM 3 TO 5 AUGUST 2026",
     "description": "Government of India press release: PRESIDENT OF INDIA TO VISIT ODISHA FROM 3 TO 5 AUGUST 2026",
@@ -98,6 +202,33 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-08-02"
+  },
+  {
+    "id": "3961ef086167",
+    "title": "Towards India’s US$ 2.6 Trillion Bioeconomy by 2047",
+    "description": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+    "link": "https://takshashila.org.in/content/publications/20260803-bioeconomy-strategy-2026.html",
+    "date": "2026-08-02",
+    "source_id": "takshashila",
+    "source_name": "Takshashila Institution",
+    "source_short": "Takshashila",
+    "sectors": [
+      "Social Protection",
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
   },
   {
     "id": "b617e1b85577",
@@ -1523,6 +1654,210 @@
     "first_seen": "2026-08-01"
   },
   {
+    "id": "4eb9856ac0a5",
+    "title": "Ecommerce’s trust problem",
+    "description": "",
+    "link": "https://icrier.org/ecommerces-trust-problem/?utm_source=rss&utm_medium=rss&utm_campaign=ecommerces-trust-problem",
+    "date": "2026-07-31",
+    "source_id": "icrier",
+    "source_name": "ICRIER",
+    "source_short": "ICRIER",
+    "sectors": [
+      "Social Protection",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "trade-commerce"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "bdd3b30f7edb",
+    "title": "Reserve Bank of India (Small Finance Banks – Concurrent Audit) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Small Finance Banks – Concurrent Audit) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13635&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy",
+      "Digital & Technology",
+      "Housing"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "digital-technology",
+      "housing"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "1ecab257df31",
+    "title": "Reserve Bank of India (Small Finance Banks - Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Small Finance Banks - Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13634&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Labour & Employment"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "labour-employment"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "58174f21b343",
+    "title": "Reserve Bank of India (Small Finance Banks - Internal Audit Function) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Small Finance Banks - Internal Audit Function) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13631&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy",
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "digital-technology"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "4eebbf623a61",
+    "title": "Reserve Bank of India (Small Finance Banks – Statutory Audit) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Small Finance Banks – Statutory Audit) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13630&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "0343c1a8228b",
+    "title": "Reserve Bank of India (Small Finance Banks - Supervisory Returns) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Small Finance Banks - Supervisory Returns) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13629&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "7d7e4bec28c1",
+    "title": "Reserve Bank of India (Payments Banks - Compliance Function) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Payments Banks - Compliance Function) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13627&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "a94ad6906ed3",
+    "title": "Reserve Bank of India (Payments Banks – Concurrent Audit) Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Payments Banks – Concurrent Audit) Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13626&Mode=0",
+    "date": "2026-07-31",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Housing"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "housing"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
     "id": "c68f1695b85a",
     "title": "Underwriting Auction for sale of Government Security for ₹34,000 crore on July 31, 2026",
     "description": "Government of India has announced the sale (re-issue) of Government Security, as detailed below, through auction to be held on July 31, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Minimum",
@@ -2694,6 +3029,33 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-07-31"
+  },
+  {
+    "id": "4ac70966e582",
+    "title": "Looking Inwards, Turning Away: A Review of Rehan Abeyratne’s ‘Courts and LGBTQ+ Rights in an Age of Judicial Retrenchment’",
+    "description": "The post Looking Inwards, Turning Away: A Review of Rehan Abeyratne’s ‘Courts and LGBTQ+ Rights in an Age of Judicial Retrenchment’ appeared first on Vidhi Centre for Legal Policy.",
+    "link": "https://vidhilegalpolicy.in/blog/looking-inwar-looking-inwards-turning-a-urning-away-a-re-y-a-review-of-rehan-abe-view-of-rehan-abeyratnescourts-and-l-ts-and-lgbtq-rights-in-an-age-of-judicial-retr-q-rights-in/?utm_source=rss&utm_medium=rss&utm_campaign=looking-inwar-looking-inwards-turning-a-urning-away-a-re-y-a-review-of-rehan-abe-view-of-rehan-abeyratnescourts-and-l-ts-and-lgbtq-rights-in-an-age-of-judicial-retr-q-rights-in",
+    "date": "2026-07-30",
+    "source_id": "vidhi",
+    "source_name": "Vidhi Centre for Legal Policy",
+    "source_short": "Vidhi",
+    "sectors": [
+      "Social Protection",
+      "Energy",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "energy",
+      "governance-reform"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
   },
   {
     "id": "c73be0ad0394",
@@ -21477,7 +21839,7 @@
     "id": "568cd54f6221",
     "title": "Applications for the post of Central Registrar and MD&CEO of Central Registry (CERSAI). The last date for receipt of applications has now been extended to 19.05.2026.",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/vacancy/2026-05/OM-extension-till-19-may-26.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/vacancy/2026-05/OM-extension-till-19-may-26.pdf",
     "date": "2026-06-01",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -21504,7 +21866,7 @@
     "id": "c7f54d53160f",
     "title": "Applications for the post of Central Registrar and Managing Director & Chief Executive of Central Registry (CERSAI). The last date for receipt of applications has now been extended to 04.05.2026.",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/vacancy/2026-05/6543.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/vacancy/2026-05/6543.pdf",
     "date": "2026-06-01",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -22760,7 +23122,7 @@
     "id": "17f51b4fb141",
     "title": "Counselling Schedule for admission to Undergraduate Programs (2026-27)\"",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/counselling-schedule-admission-undergraduate-programs-2026-27",
+    "link": "https://icar.org.in/hi/counselling-schedule-admission-undergraduate-programs-2026-27",
     "date": "2026-06-01",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -25879,6 +26241,223 @@
     "first_seen": "2026-08-02"
   },
   {
+    "id": "fa6c44c1b73d",
+    "title": "Prime Minister expresses pride in Indian contingent’s performance at Commonwealth Games 2026",
+    "description": "Government of India press release: Prime Minister expresses pride in Indian contingent’s performance at Commonwealth Games 2026",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2293569",
+    "date": "2026-06-01",
+    "source_id": "pib_cabinet_secretariat",
+    "source_name": "Cabinet Secretariat (via PIB)",
+    "source_short": "Cabinet Secretariat",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "adbba3ebcd83",
+    "title": "Monthly Production and Dispatch from Captive and Commercial Mines Continue Upward Growth in July 2026",
+    "description": "Government of India press release: Monthly Production and Dispatch from Captive and Commercial Mines Continue Upward Growth in July 2026",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2293622",
+    "date": "2026-06-01",
+    "source_id": "pib_cabinet_secretariat",
+    "source_name": "Cabinet Secretariat (via PIB)",
+    "source_short": "Cabinet Secretariat",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "a336328b0f09",
+    "title": "Union WCD Minister, Smt. Annpurna Devi hails the stellar performance of India’s women athletes at the Glasgow Commonwealth Games 2026",
+    "description": "Government of India press release: Union WCD Minister, Smt. Annpurna Devi hails the stellar performance of India’s women athletes at the Glasgow Commonwealth Games 2026",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2293633",
+    "date": "2026-06-01",
+    "source_id": "pib_cabinet_secretariat",
+    "source_name": "Cabinet Secretariat (via PIB)",
+    "source_short": "Cabinet Secretariat",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Gender & Women"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "gender-women"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "afb0c6a1abc6",
+    "title": "Union Minister for Youth Affairs and Sports Dr. Mansukh Mandaviya felicitates Commonwealth Games 2026 Weightlifting medallists with cash rewards; urges athletes to inspire next generation by visiting",
+    "description": "Government of India press release: Union Minister for Youth Affairs and Sports Dr. Mansukh Mandaviya felicitates Commonwealth Games 2026 Weightlifting medallists with cash rewards; urges athletes to inspire next generation by visiting schools and colleges",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2293712",
+    "date": "2026-06-01",
+    "source_id": "pib_cabinet_secretariat",
+    "source_name": "Cabinet Secretariat (via PIB)",
+    "source_short": "Cabinet Secretariat",
+    "sectors": [
+      "Social Protection",
+      "Child Rights & Youth",
+      "Education"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "child-rights-youth",
+      "education"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "919c0166bf9e",
+    "title": "The Indian Statistical Institute Bill, 2026",
+    "description": "",
+    "link": "https://prsindia.org/billtrack/the-indian-statistical-institute-bill-2026",
+    "date": "2026-06-01",
+    "source_id": "prs_bills",
+    "source_name": "PRS Bill Track",
+    "source_short": "PRS Bills",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "bill",
+    "kind": "process",
+    "authority": "parliament",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "5090a9867fa4",
+    "title": "The Bankers’ Books Evidence Bill, 2026",
+    "description": "",
+    "link": "https://prsindia.org/billtrack/the-bankers’-books-evidence-bill-2026",
+    "date": "2026-06-01",
+    "source_id": "prs_bills",
+    "source_name": "PRS Bill Track",
+    "source_short": "PRS Bills",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "bill",
+    "kind": "process",
+    "authority": "parliament",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "255c726bd4dc",
+    "title": "केंद्रीय महिला एवं बाल विकास मंत्री श्रीमती अन्नपूर्णा देवी ने ग्लासगो राष्ट्रमंडल खेल 2026 में भारत की महिला एथलीटों के शानदार प्रदर्शन की प्रशंसा की",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293702",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "db1bd22c6c48",
+    "title": "जुलाई 2026 में कैप्टिव और वाणिज्यिक खदानों से कोयला उत्पादन और ढुलाई में वृद्धि जारी रही",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293699",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "id": "74235fb24a0c",
+    "title": "प्रधानमंत्री ने राष्ट्रमंडल खेल 2026 में भारतीय दल के प्रदर्शन को सराहा",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293613",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-03"
+  },
+  {
     "id": "1599d9d3a787",
     "title": "OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world",
     "description": "The post OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world appeared first on Vidhi Centre for Legal Policy.",
@@ -28324,7 +28903,7 @@
     "id": "ca4bb13a1b0c",
     "title": "Annual ReportAnnual Report 2025-26",
     "description": "Annual Report 2025-26",
-    "link": "https://financialservices.gov.in/sites/default/files/2026-05/DFS-ANNUAL-REPORT-ENGLISH-2025-26.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/2026-05/DFS-ANNUAL-REPORT-ENGLISH-2025-26.pdf",
     "date": "2025-06-01",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -36952,7 +37531,7 @@
     "id": "d29b7c17ad56",
     "title": "About Us",
     "description": "",
-    "link": "https://financialservices.gov.in/about-us",
+    "link": "https://financialservices.gov.in/index.php/about-us",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -36977,7 +37556,7 @@
     "id": "134713aaf158",
     "title": "Appointment of Shri Rakesh Kashyap, CGM, Canara Bank as Deputy Managing Director, National Bank for Agriculture and Rural Development",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/Order-Notices/2026-06/Appointment-of-Shri-Rakesh-Kashyap.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/Order-Notices/2026-06/Appointment-of-Shri-Rakesh-Kashyap.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37004,7 +37583,7 @@
     "id": "1cfee173cf58",
     "title": "Nomination of Dr. Debasish Prusty, Additional Secretary, Department of Financial Services as Director on the Board of General Insurance Corporation of lndia",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/Order-Notices/2026-06/Dr.-Debasish-Prusty.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/Order-Notices/2026-06/Dr.-Debasish-Prusty.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37031,7 +37610,7 @@
     "id": "19389de4dd2a",
     "title": "Nomination of Shri Chandradeep Kumar Jha (Statistical Advisor, Govemment of India, Ministry of Finance, Department of Financial Services) as Director on the Board of Central Bank of India",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/Order-Notices/2026-06/Chandradeep-Kumar-Jha.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/Order-Notices/2026-06/Chandradeep-Kumar-Jha.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37056,7 +37635,7 @@
     "id": "912d0b1ef813",
     "title": "Reappointment of Shri Rajay Kumar Sinha as Whole Time Member (Finance & Investment) in Insurance Regulatory and Development Authority of India (IRDAI)",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/Order-Notices/2026-06/Rajay-Kumar-Sinha.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/Order-Notices/2026-06/Rajay-Kumar-Sinha.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37110,7 +37689,7 @@
     "id": "cb82e99ed114",
     "title": "Appointment to the posts of Chief Vigilance Officers (CVOs) in the Public Sector Banks, Public Sector Insurance Companies",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/vacancy/2026-06/Appointment-to-the-posts-of-Chief-Vigilance-Officers--CVOs--in-the-Public-Sector-Banks--Public-Sector-Insurance-Companies.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/vacancy/2026-06/Appointment-to-the-posts-of-Chief-Vigilance-Officers--CVOs--in-the-Public-Sector-Banks--Public-Sector-Insurance-Companies.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37135,7 +37714,7 @@
     "id": "4f343f250685",
     "title": "Inviting applications for the post of Whole-time Member (Economics) in Pension Fund Regulatory and Development Authority (PFRDA), New Delhi",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/vacancy/2026-06/Advertisement-WTM--Eco--for-Website.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/vacancy/2026-06/Advertisement-WTM--Eco--for-Website.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37162,7 +37741,7 @@
     "id": "2b979d707f4c",
     "title": "Filling up of vacancies for the post of Private Secretary, Assistant, Account Assistant, Stenographer Grade-l and Upper Division Clerk in Debts Recovery Appellate Tribunals (DRATs) and Debts Recovery",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/vacancy/2026-06/Image_2943.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/vacancy/2026-06/Image_2943.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37185,7 +37764,7 @@
     "id": "ff195b2863b6",
     "title": "Filling up of vacancies for the post of Section Officer, Private Secretary, Assistant, Account Assistant, Stenographer Grade -l and Upper Division Clerk in Debts Recovery Appellate Tribunals (DRATS) a",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/vacancy/2026-05/Image_2808-1.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/vacancy/2026-05/Image_2808-1.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37208,7 +37787,7 @@
     "id": "a9729319766b",
     "title": "e-Tender for hiring of DEO (Outsourced) for Department of Financial Services",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/tender/GeM-Bid-DEO-Published.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/tender/GeM-Bid-DEO-Published.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37233,7 +37812,7 @@
     "id": "6d4be161052c",
     "title": "e-Tender for hiring of MTS (Outsourced) for Department of Financial Services",
     "description": "",
-    "link": "https://financialservices.gov.in/sites/default/files/tender/GeM-Bidding-7792262-1.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/tender/GeM-Bidding-7792262-1.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -37258,7 +37837,7 @@
     "id": "ba5e1065dbaf",
     "title": "CircularDe-reservation of Vacancies - Revised timelines for consideration of proposals by the…",
     "description": "De-reservation of Vacancies - Revised timelines for consideration of proposals by the…",
-    "link": "https://financialservices.gov.in/sites/default/files/Order-Notices/2026-06/No.-1.2.2026-Wel--dt.-12.06.2026.pdf",
+    "link": "https://financialservices.gov.in/index.php/sites/default/files/Order-Notices/2026-06/No.-1.2.2026-Wel--dt.-12.06.2026.pdf",
     "date": "",
     "source_id": "dfs",
     "source_name": "Department of Financial Services",
@@ -39366,7 +39945,7 @@
     "id": "87725d26322d",
     "title": "Accessible Version :",
     "description": "",
-    "link": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/07/20260730812382721.pdf",
+    "link": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/07/202607301711474893.pdf",
     "date": "",
     "source_id": "ladakh_govt",
     "source_name": "Ladakh UT Administration",
@@ -39516,7 +40095,7 @@
     "id": "933a2ff45def",
     "title": "पूसा, दिल्ली में केन्द्रीय मंत्री शिवराज सिंह चौहान की अगुवाई में पर्यावरण संरक्षण का महासंकल्प: वृक्ष मित्रों के जनआंदोलन से हरित भारत के नये अध्याय की शुरुआत",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/pauusaa-dailalai-maen-kaenadaraiya-mantarai-saivaraaja-sainha-caauhaana-kai-agauvaai-maen",
+    "link": "https://icar.org.in/hi/pauusaa-dailalai-maen-kaenadaraiya-mantarai-saivaraaja-sainha-caauhaana-kai-agauvaai-maen",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39541,7 +40120,7 @@
     "id": "32bc351d088a",
     "title": "भाकृअनुप-एनआरसीसी, बीकानेर ने 43वाँ स्थापना दिवस के आयोजन अवसर पर ऊँट संरक्षण एवं उद्यमिता विकास के माध्यम से विकसित भारत–2047 के संकल्प को सशक्त बनाने का किया आह्वान",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-enaarasaisai-baikaanaera-nae-43vaan-sathaapanaa-daivasa-kae-ayaojana-avasara-para",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-enaarasaisai-baikaanaera-nae-43vaan-sathaapanaa-daivasa-kae-ayaojana-avasara-para",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39566,7 +40145,7 @@
     "id": "c9f7275b81f7",
     "title": "भाकृअनुप-विवेकानन्द पर्वतीय कृषि अनुसंधान संस्थान ने 103वाँ स्थापना दिवस का धूमधाम से किया आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-vaivaekaananada-paravataiya-karsai-anausandhaana-sansathaana-nae-103vaan-sathaapanaa",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-vaivaekaananada-paravataiya-karsai-anausandhaana-sansathaana-nae-103vaan-sathaapanaa",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39591,7 +40170,7 @@
     "id": "785538d14308",
     "title": "केन्द्रीय मंत्री शिवराज सिंह चौहान की अध्यक्षता में \"राष्ट्रीय ग्रामीण विकास सम्मेलन\" में ‘विकसित ग्राम–विकसित भारत’ का साझा रोडमैप",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/kaenadaraiya-mantarai-saivaraaja-sainha-caauhaana-kai-adhayakasataa-maen-raasataraiya-garaamaina",
+    "link": "https://icar.org.in/hi/kaenadaraiya-mantarai-saivaraaja-sainha-caauhaana-kai-adhayakasataa-maen-raasataraiya-garaamaina",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39616,7 +40195,7 @@
     "id": "1e169c85376f",
     "title": "भाकृअनुप-केन्द्रीय बारानी कृषि अनुसंधान संस्थान, हैदराबाद में राजभाषा कार्यशाला का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-kaenadaraiya-baaraanai-karsai-anausandhaana-sansathaana-haaidaraabaada-maen",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-kaenadaraiya-baaraanai-karsai-anausandhaana-sansathaana-haaidaraabaada-maen",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39641,7 +40220,7 @@
     "id": "ce49fd423dea",
     "title": "पूसा विवि बना प्राकृतिक खेती का राष्ट्रीय मॉडल, पहले बैच के सभी 15 छात्रों को 15 हजार तक की पेड इंटर्नशिप और नौकरी का ऑफर",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/pauusaa-vaivai-banaa-paraakartaika-khaetai-kaa-raasataraiya-maodala-pahalae-baaica-kae-sabhai-15",
+    "link": "https://icar.org.in/hi/pauusaa-vaivai-banaa-paraakartaika-khaetai-kaa-raasataraiya-maodala-pahalae-baaica-kae-sabhai-15",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39666,7 +40245,7 @@
     "id": "0cbbb087a10c",
     "title": "भाकृअनुप-केन्द्रीय भेड़ एवं ऊन अनुसंधान संस्थान अविकानगर में जिले के किसानों को किसान घर मे दिखाया गया पीएम किसान सम्मान निधि कार्यक्रम का लाइव प्रसारण",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-kaenadaraiya-bhaeda-evan-una-anausandhaana-sansathaana-avaikaanagara-maen-jailae-0",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-kaenadaraiya-bhaeda-evan-una-anausandhaana-sansathaana-avaikaanagara-maen-jailae-0",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39691,7 +40270,7 @@
     "id": "a738de53bc91",
     "title": "पीएम किसान सम्मान निधि की 23वीं किस्त का लाइव प्रसारण एवं कृषक गोष्ठी का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/paiema-kaisaana-samamaana-naidhai-kai-23vain-kaisata-kaa-laaiva-parasaarana-evan-karsaka-gaosathai",
+    "link": "https://icar.org.in/hi/paiema-kaisaana-samamaana-naidhai-kai-23vain-kaisata-kaa-laaiva-parasaarana-evan-karsaka-gaosathai",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39716,7 +40295,7 @@
     "id": "2ffa3d36e994",
     "title": "भाकृअनुप-विवेकानन्‍द पर्वतीय कृषि अनुसंधान संस्थान में फल एवं खाद्य प्रसंस्करण पर पांच दिवसीय व्यावहारिक प्रशिक्षण संपन्न",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-vaivaekaananada-paravataiya-karsai-anausandhaana-sansathaana-maen-phala-evan-khaadaya",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-vaivaekaananada-paravataiya-karsai-anausandhaana-sansathaana-maen-phala-evan-khaadaya",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39741,7 +40320,7 @@
     "id": "f5fce7ef6280",
     "title": "‘खेती बचाओ अभियान’ के अंतर्गत पर्वतीय कृषकों के लिए जागरूकता कार्यक्रमों का सफल आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/khaetai-bacaao-abhaiyaana-kae-antaragata-paravataiya-karsakaon-kae-laie-jaagarauukataa",
+    "link": "https://icar.org.in/hi/khaetai-bacaao-abhaiyaana-kae-antaragata-paravataiya-karsakaon-kae-laie-jaagarauukataa",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39766,7 +40345,7 @@
     "id": "858f926f674d",
     "title": "भाकृअनुप-वीपीकेएएस, अल्मोड़ा में प्रधानमंत्री किसान सम्मान निधि योजना की 23वीं किस्त के उपलक्ष्य में भव्य किसान महा-सम्मेलन एवं तकनीकी गोष्ठी का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-vaipaikaeeesa-alamaodaa-maen-paradhaanamantarai-kaisaana-samamaana-naidhai-yaojanaa",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-vaipaikaeeesa-alamaodaa-maen-paradhaanamantarai-kaisaana-samamaana-naidhai-yaojanaa",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39791,7 +40370,7 @@
     "id": "175eae46c2c1",
     "title": "किसान सम्मान निधि के कार्यक्रम में बाड़ी रायसेन से शामिल हुए केन्द्रीय कृषि मंत्री श्री चौहान",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/kaisaana-samamaana-naidhai-kae-kaarayakarama-maen-baadai-raayasaena-sae-saamaila-haue-kaenadaraiya",
+    "link": "https://icar.org.in/hi/kaisaana-samamaana-naidhai-kae-kaarayakarama-maen-baadai-raayasaena-sae-saamaila-haue-kaenadaraiya",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -39816,7 +40395,7 @@
     "id": "7d32d37c645e",
     "title": "भाकृअनुप-भाकृअनुसं नई दिल्ली में पीएम-किसान की 23वीं किस्त के अवसर पर किसान संगोष्ठी का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-bhaakaranausan-nai-dailalai-maen-paiema-kaisaana-kai-23vain-kaisata-kae-avasara-para",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-bhaakaranausan-nai-dailalai-maen-paiema-kaisaana-kai-23vain-kaisata-kae-avasara-para",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40041,7 +40620,7 @@
     "id": "82710ea1efc2",
     "title": "भाकृअनुप-एनएएचइपी प्रायोजित प्रशिक्षण कार्यक्रम भाकृअनुप-एनएमआरआई, हैदराबाद द्वारा किया गया आयोजित",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-enaeecaipai-paraayaojaita-parasaikasana-kaarayakarama-bhaakaranaupa-enaemaaraai",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-enaeecaipai-paraayaojaita-parasaikasana-kaarayakarama-bhaakaranaupa-enaemaaraai",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40066,7 +40645,7 @@
     "id": "d9a04007ac56",
     "title": "भाकृअनुप-आईआईएसडब्ल्यूसी, देहरादून के अधिकारी प्रशिक्षुओं हेतु एकीकृत जलग्रहण, मत्स्य एवं पशुधन प्रबंधन पर प्रशिक्षण सत्र आयोजित",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-aiaiesadabalayauusai-daeharaadauuna-kae-adhaikaarai-parasaikasauon-haetau-ekaikarta",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-aiaiesadabalayauusai-daeharaadauuna-kae-adhaikaarai-parasaikasauon-haetau-ekaikarta",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40091,7 +40670,7 @@
     "id": "ae212676cd0e",
     "title": "भाकृअनुप-सीआईएआरआई, श्री विजयपुरम द्वारा उत्तर एवं मध्य अंडमान में निचले भूभागीय परिस्थितियों में धान की खेती पर कार्यक्रम का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-saiaiearaai-sarai-vaijayapaurama-davaaraa-utatara-evan-madhaya-andamaana-maen",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-saiaiearaai-sarai-vaijayapaurama-davaaraa-utatara-evan-madhaya-andamaana-maen",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40116,7 +40695,7 @@
     "id": "330b4427a1c1",
     "title": "भाकृअनुप-केन्द्रीय कृषि महिला संस्थान, भुवनेश्वर द्वारा सतत कृषि-खाद्य प्रणालियों के लिए कृषि अनुसंधान में लैंगिक दृष्टिकोण के समावेशन पर प्रशिक्षण कार्यक्रम का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-kaenadaraiya-karsai-mahailaa-sansathaana-bhauvanaesavara-davaaraa-satata-karsai",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-kaenadaraiya-karsai-mahailaa-sansathaana-bhauvanaesavara-davaaraa-satata-karsai",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40141,7 +40720,7 @@
     "id": "bb7a25d7a883",
     "title": "Training on ‘Diversified Farming for Sustainable Income’ and Input distribution under SCSP Organised at ICAR-CCARI, Goa",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/training-diversified-farming-sustainable-income-and-input-distribution-under-scsp-organised-icar",
+    "link": "https://icar.org.in/hi/training-diversified-farming-sustainable-income-and-input-distribution-under-scsp-organised-icar",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40168,7 +40747,7 @@
     "id": "701d15bc4854",
     "title": "“From Terraces to Transformation: How Farm Mechanization Sparked a New Wave of Tribal Entrepreneurship in Dzongu”",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/terraces-transformation-how-farm-mechanization-sparked-new-wave-tribal-entrepreneurship-dzongu",
+    "link": "https://icar.org.in/hi/terraces-transformation-how-farm-mechanization-sparked-new-wave-tribal-entrepreneurship-dzongu",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40191,7 +40770,7 @@
     "id": "66005556d438",
     "title": "भाकृअनुप-डीडब्ल्यूआर, जबलपुर में अनुसूचित जाति किसानों हेतु प्रशिक्षण-सह-कृषि आदान वितरण कार्यक्रम का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-daidabalayauuara-jabalapaura-maen-anausauucaita-jaatai-kaisaanaon-haetau",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-daidabalayauuara-jabalapaura-maen-anausauucaita-jaatai-kaisaanaon-haetau",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40216,7 +40795,7 @@
     "id": "b86ad8198da7",
     "title": "भाकृअनुप-अटारी, कोलकाता में मृदा स्वास्थ्य संवर्धन एवं सतत आजीविका हेतु औषधीय पौधों पर आधारित हस्तक्षेपों पर प्रशिक्षण कार्यक्रम संपन्न",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-ataarai-kaolakaataa-maen-mardaa-savaasathaya-sanvaradhana-evan-satata-ajaivaikaa",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-ataarai-kaolakaataa-maen-mardaa-savaasathaya-sanvaradhana-evan-satata-ajaivaikaa",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40241,7 +40820,7 @@
     "id": "48b6285f872a",
     "title": "भाकृअनुप-नार्म द्वारा उदयपुर में पारंपरिक दुग्ध उत्पादों पर उद्यमिता विकास प्रशिक्षण का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-naarama-davaaraa-udayapaura-maen-paaranparaika-daugadha-utapaadaon-para-udayamaitaa",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-naarama-davaaraa-udayapaura-maen-paaranparaika-daugadha-utapaadaon-para-udayamaitaa",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40266,7 +40845,7 @@
     "id": "1baf49a989f4",
     "title": "भाकृअनुप-आईएआरआई, नई दिल्ली में किसान उत्पादक संगठनों की महिला नेताओं का प्रशिक्षण का आयोजन",
     "description": "",
-    "link": "https://icar.org.in/index.php/hi/bhaakaranaupa-aiearaai-nai-dailalai-maen-kaisaana-utapaadaka-sangathanaon-kai-mahailaa-naetaaon-kaa",
+    "link": "https://icar.org.in/hi/bhaakaranaupa-aiearaai-nai-dailalai-maen-kaisaana-utapaadaka-sangathanaon-kai-mahailaa-naetaaon-kaa",
     "date": "",
     "source_id": "icar",
     "source_name": "ICAR",
@@ -40959,17 +41538,19 @@
   {
     "id": "380d91f91e80",
     "title": "Postgraduate",
-    "description": "",
+    "description": "Join our Executive MBA programme",
     "link": "https://azimpremjiuniversity.edu.in/postgraduate",
     "date": "",
     "source_id": "azim_premji",
     "source_name": "Azim Premji University",
     "source_short": "APU",
     "sectors": [
-      "Social Protection"
+      "Social Protection",
+      "Rural Development"
     ],
     "sector_slugs": [
-      "social-protection"
+      "social-protection",
+      "rural-development"
     ],
     "type": "analysis",
     "kind": "analysis",
@@ -41761,8 +42342,8 @@
   {
     "id": "77e46c54116b",
     "title": "पेशकशें",
-    "description": "संकल्प तकनीकी",
-    "link": "http://xn--m1b0a2bb8esed.xn--11b7cb3a6a.xn--h2brj9c/drdo/hi/documents/publications/other-publications/sankalapa-takanaikai",
+    "description": "डीआरडीओ न्यूज़लेटर अगस्त 2026",
+    "link": "http://xn--m1b0a2bb8esed.xn--11b7cb3a6a.xn--h2brj9c/drdo/hi/documents/publications/drdo-newsletter/drdo-newsletter-august-2026",
     "date": "",
     "source_id": "drdo",
     "source_name": "DRDO",
@@ -47087,7 +47668,7 @@
     "id": "0e87aa2948b9",
     "title": "Download",
     "description": "",
-    "link": "https://delhihighcourt.nic.in/app/showFileJudgment/68028072026RCR942026_190713.pdf",
+    "link": "https://delhihighcourt.nic.in/app/showFileJudgment/76028072026CRLA11442025_142343.pdf",
     "date": "",
     "source_id": "delhi_hc",
     "source_name": "Delhi High Court — Latest Judgments",
@@ -49713,572 +50294,5 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-07-19"
-  },
-  {
-    "id": "1444ba942c1e",
-    "title": "प्रधानमंत्री ने श्रीमती चेन्नम्मा जी के निधन पर शोक व्यक्त किया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286293",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "03440b3d6323",
-    "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah performs Bhoomi Pujan ...",
-    "description": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah performs Bhoomi Pujan ...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286396",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Social Protection",
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "digital-technology"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "d0fca52c6e7a",
-    "title": "Gati Shakti Vishwavidyalaya Holds 4th Convocation; 121 Students Graduate Across B.Tec...",
-    "description": "Government of India press release: Gati Shakti Vishwavidyalaya Holds 4th Convocation; 121 Students Graduate Across B.Tec...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286394",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Education",
-      "Social Protection",
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "education",
-      "social-protection",
-      "transport-infrastructure"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "dfebf7445b21",
-    "title": "NAMASTE Scheme Reflects The Government's Unwavering Commitment To Ensuring That Every...",
-    "description": "Government of India press release: NAMASTE Scheme Reflects The Government's Unwavering Commitment To Ensuring That Every...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286362",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Social Protection",
-      "Digital & Technology",
-      "Energy"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "digital-technology",
-      "energy"
-    ],
-    "type": "scheme",
-    "kind": "instrument",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "9b5cb4c02587",
-    "title": "Union Minister of Commerce and Industry Shri Piyush Goyal concludes successful visit ...",
-    "description": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal concludes successful visit ...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286360",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Trade & Commerce"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "trade-commerce"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "5e5fec40a66d",
-    "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the first ...",
-    "description": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the first ...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286356",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Social Protection",
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "digital-technology"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "a19497bac9d2",
-    "title": "Prime Minister congratulates Indian team for outstanding performance at the 37th Inte...",
-    "description": "Government of India press release: Prime Minister congratulates Indian team for outstanding performance at the 37th Inte...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286346",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "7287baf7cabf",
-    "title": "Prime Minister congratulates Indian students on winning Gold Medals at the 58th Inter...",
-    "description": "Government of India press release: Prime Minister congratulates Indian students on winning Gold Medals at the 58th Inter...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286345",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Education",
-      "Social Protection",
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "education",
-      "social-protection",
-      "child-rights-youth"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "b08255f57a35",
-    "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah chairs a review meetin...",
-    "description": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah chairs a review meetin...",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2286342",
-    "date": "",
-    "source_id": "pib",
-    "source_name": "Press Information Bureau",
-    "source_short": "PIB",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Energy"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "energy"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "896e6d28fced",
-    "title": "गति शक्ति विश्वविद्यालय में चौथा दीक्षांत समारोह आयोजित। 121 छात्रों ने बी.टेक. और एमबीए कार्यक्रम से स्नातक किया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286413",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "178c9178b570",
-    "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने कोलकाता में अमूल बंगाल डेयरी परियोजना के अंतर्गत विश्व के सबसे बड़े दही उत्पादन संयंत्र का भूमि पूजन किया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286385",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "bf6b90270531",
-    "title": "नमस्ते योजना सरकार की इस अटूट प्रतिबद्धता को दर्शाती है कि प्रत्येक सफाईकर्मी गरिमा, सुरक्षा और सामाजिक सुरक्षा के साथ काम कर सके; यह योजना सबका साथ, सबका विकास, सबका विश्वास, सबका प्रयास के दृष्टिकोण के अनुरूप है: केंद्रीय सामाजिक न्याय और अधिकारिता मंत्री डॉ. वीरेंद्र कुमार",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286391",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "625731824a3d",
-    "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने कोलकाता में ‘म्यूजियम ऑफ़ वर्ड’ के पहले फेज का उद्घाटन किया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286352",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "82818b2ad369",
-    "title": "प्रधानमंत्री ने 37वें अंतरराष्ट्रीय बायोलॉजी ओलंपियाड में शानदार प्रदर्शन के लिए भारतीय टीम को बधाई दी",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286382",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "5870e604540b",
-    "title": "प्रधानमंत्री ने 58वें अंतरराष्ट्रीय केमिस्ट्री ओलंपियाड में स्वर्ण पदक जीतने पर भारतीय छात्रों को बधाई दी",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286379",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "eecf00dbf088",
-    "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने आज पश्चिम बंगाल की राजधानी कोलकाता में राज्य की कानून-व्यवस्था की समीक्षा बैठक की अध्यक्षता की",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286343",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "63b0e136db4d",
-    "title": "सीसीपीए ने पूर्व-निर्धारित रूप से सेवा शुल्क जोड़ने पर 41 रेस्तरां के विरुद्ध स्वतः संज्ञान लेते हुए कार्रवाई शुरू की; कार्रवाई राष्ट्रीय उपभोक्ता हेल्पलाइन के माध्यम से प्राप्त उपभोक्ता शिकायतों के आधार पर की गई",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286393",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "87ae05c37a4c",
-    "title": "रक्षा राज्य मंत्री निखिल खडसे ने युवा अधिकारियों से राष्ट्र निर्माण का उत्‍प्रेरक बनने का आह्वान किया",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286411",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "b1c15ab433e1",
-    "title": "टीम इंडिया के सभी 4 छात्रों ने ताशकंद, उज़्बेकिस्तान में आयोजित 58वें अंतर्राष्ट्रीय रसायन विज्ञान ओलंपियाड में स्वर्ण पदक जीते",
-    "description": "",
-    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286395",
-    "date": "",
-    "source_id": "pib_rss",
-    "source_name": "PIB RSS Feed",
-    "source_short": "PIB RSS",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-19"
-  },
-  {
-    "id": "d460bdce3a3c",
-    "title": "The Ground Beneath Kashmir Has Always Trembled",
-    "description": "Kashmir sits on one of the world’s most seismically active zones, and ancient chronicles, Persian manuscripts, colonial records, and modern geology all confirm…▶13-Jul-2026",
-    "link": "https://www.theindiaforum.in/forum/ground-beneath-kashmir-has-always-trembled",
-    "date": "",
-    "source_id": "india_forum",
-    "source_name": "The India Forum",
-    "source_short": "India Forum",
-    "sectors": [
-      "Social Protection",
-      "Digital & Technology",
-      "Energy"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "digital-technology",
-      "energy"
-    ],
-    "type": "longform",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "82d57990da0c",
-    "title": "Syed Aamir Sharief Qadri",
-    "description": "Kashmir sits on one of the world’s most seismically active zones, and ancient chronicles, Persian manuscripts, colonial records, and modern geology all confirm it is overdue for catastrophe. This makes preparedness for a major earthquake an imperative.▶13-Jul-2026",
-    "link": "https://www.theindiaforum.in/authors/syed-aamir-sharief-qadri",
-    "date": "",
-    "source_id": "india_forum",
-    "source_name": "The India Forum",
-    "source_short": "India Forum",
-    "sectors": [
-      "Social Protection",
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "digital-technology"
-    ],
-    "type": "longform",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "a3ff6e53e77d",
-    "title": "The Blue Frontier: Who Really Owns the Ocean?",
-    "description": "Coastal fishing communities are ocean citizens with historical rights & responsibilities. The Blue Economy is a project of de-citizenship & enclosure. Customary claims must be translated into…▶10-Jul-2026",
-    "link": "https://www.theindiaforum.in/environment/blue-frontier-who-really-owns-ocean",
-    "date": "",
-    "source_id": "india_forum",
-    "source_name": "The India Forum",
-    "source_short": "India Forum",
-    "sectors": [
-      "Digital & Technology",
-      "Health",
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "health",
-      "finance-economy"
-    ],
-    "type": "longform",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
-  },
-  {
-    "id": "37daff72fc76",
-    "title": "The ‘Moment of Madness’ that Embroiled the British Sikh Community",
-    "description": "The fall-out of the stabbing of Henry Nowak by a young Sikh shows the vulnerability of Sikhs who, despite being British-born or British citizens, are often viewed as foreigners. This reflects the…▶02-Jul-2026",
-    "link": "https://www.theindiaforum.in/society/moment-madness-embroiled-british-sikh-community",
-    "date": "",
-    "source_id": "india_forum",
-    "source_name": "The India Forum",
-    "source_short": "India Forum",
-    "sectors": [
-      "Health",
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "health",
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "longform",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-20"
   }
 ]
