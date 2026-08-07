@@ -50,6 +50,31 @@
     "first_seen": "2026-08-07"
   },
   {
+    "id": "725271478c97",
+    "title": "How Well Are We Assessing Learning Standards in Our Classrooms?",
+    "description": "",
+    "link": "",
+    "date": "2026-08-13",
+    "source_id": "azim_premji",
+    "source_name": "Azim Premji University",
+    "source_short": "APU",
+    "sectors": [
+      "Education",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "education",
+      "social-protection"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "3e02d0ac7591",
     "title": "Managing Partnerships, Networks and Change in the Social Sector",
     "description": "",
@@ -395,7 +420,7 @@
   {
     "id": "34ac806ae4e2",
     "title": "RBI imposes monetary penalty on Infinity Fincorp Solutions Private Limited",
-    "description": "",
+    "description": "The Reserve Bank of India (RBI) has, by an order dated August 03, 2026, imposed a monetary penalty of ₹5.40 lakh (Rupees Five lakh forty thousand only) on Infinity Fincorp Solutions Private Limited (the company) for non-compliance with certain provisions of the ‘Reserve Bank of India (Know Your Customer (KYC)) Directions’ and the directions issued by RBI on ‘Fair Practice Code’. This penalty has been imposed in exercise of powers conferred on RBI under section 58(G)",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63319",
     "date": "2026-08-07",
     "source_id": "rbi",
@@ -403,14 +428,16 @@
     "source_short": "RBI",
     "sectors": [
       "Digital & Technology",
-      "Finance & Economy"
+      "Finance & Economy",
+      "Energy"
     ],
     "sector_slugs": [
       "digital-technology",
-      "finance-economy"
+      "finance-economy",
+      "energy"
     ],
-    "type": "release",
-    "kind": "announcement",
+    "type": "notification",
+    "kind": "instrument",
     "authority": "regulator",
     "comment_deadline": "",
     "level": "central",
@@ -822,6 +849,81 @@
     "type": "longform",
     "kind": "analysis",
     "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "4941da4029fd",
+    "title": "RBI to conduct 7-day Variable Rate Reverse Repo (VRRR) auction under LAF on August 10, 2026",
+    "description": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, August 10, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 7 09:30 AM to 10:00 AM August 17, 2026 (Monday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad   &",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63321",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Energy",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "energy",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "595eef312afe",
+    "title": "Adjudication Order in respect to twenty entities in the matter of Ultracab (India) Limited",
+    "description": "Adjudication Order in respect to twenty entities in the matter of Ultracab (India) Limited",
+    "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/adjudication-order-in-respect-to-twenty-entities-in-the-matter-of-ultracab-india-limited_103452.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "e81f21147061",
+    "title": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Second Amendment Directions, 2026",
+    "description": "RBI notification: Reserve Bank of India (Priority Sector Lending – Targets and Classification) Second Amendment Directions, 2026",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13674&Mode=0",
+    "date": "2026-08-07",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
     "comment_deadline": "",
     "level": "central",
     "state": "",
@@ -5187,6 +5289,58 @@
     "type": "analysis",
     "kind": "analysis",
     "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "0a2578d98fbd",
+    "title": "Notice of Attachment of Demat Accounts and Mutual Fund Folios dated August 05, 2026 under RC 9219 of 2026 against Jitendra Surendra Gupta (PAN – AEJPG1171R) in the matter of Oriental Trimex Limited",
+    "description": "Notice of Attachment of Demat Accounts and Mutual Fund Folios dated August 05, 2026 under RC 9219 of 2026 against Jitendra Surendra Gupta (PAN – AEJPG1171R) in the matter of Oriental Trimex Limited",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/notice-of-attachment-of-demat-accounts-and-mutual-fund-folios-dated-august-05-2026-under-rc-9219-of-2026-against-jitendra-surendra-gupta-pan-aejpg1171r-in-the-matter-of-oriental-trimex-limited_103456.html",
+    "date": "2026-08-05",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "926c3a7a5373",
+    "title": "Notice of Attachment of Bank Accounts dated August 05, 2026 under RC 9219 of 2026 against Jitendra Surendra Gupta (PAN – AEJPG1171R) in the matter of Oriental Trimex Limited",
+    "description": "Notice of Attachment of Bank Accounts dated August 05, 2026 under RC 9219 of 2026 against Jitendra Surendra Gupta (PAN – AEJPG1171R) in the matter of Oriental Trimex Limited",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/notice-of-attachment-of-bank-accounts-dated-august-05-2026-under-rc-9219-of-2026-against-jitendra-surendra-gupta-pan-aejpg1171r-in-the-matter-of-oriental-trimex-limited_103454.html",
+    "date": "2026-08-05",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
     "comment_deadline": "",
     "level": "central",
     "state": "",
@@ -19734,21 +19888,21 @@
   {
     "id": "e9c061d4d108",
     "title": "Auction of State Government Securities",
-    "description": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹26,850 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Assam 1000 Re-issue of 7.56% Assam SGS 2036, issued on July 22, 2026 Price 2. Bihar 800 Re-issue of 7.42% Bihar SGS 2035, issued on July 08, 2026 Price 1200 Re-issue of 7.92% Bihar SGS 2051, issued on April 15, 2026 Price 3. Chhattisgarh 500 Re-issue of 7.40% Chhattisgarh SGS",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63273",
+    "description": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹15,300 Crore (Face Value). Sr. No. State Amount to be raised (₹ Crore) Additional Borrowing (Greenshoe) Option (₹ Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 1000 - 09 Yield 1200 - Re-issue of 7.65% Andhra Pradesh SGS 2043, issued on March 11, 2026 Price 1600 - 30 Yield 2. Gujarat 1000 - Re-issue of 7.38% Gujarat SGS 2035, issued on July 15, 2026 Price 1500 - Re-i",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63322",
     "date": "2026-07-17",
     "source_id": "rbi",
     "source_name": "Reserve Bank of India",
     "source_short": "RBI",
     "sectors": [
       "Digital & Technology",
-      "Finance & Economy",
-      "Social Protection"
+      "Climate & Environment",
+      "Finance & Economy"
     ],
     "sector_slugs": [
       "digital-technology",
-      "finance-economy",
-      "social-protection"
+      "climate-environment",
+      "finance-economy"
     ],
     "type": "release",
     "kind": "announcement",
@@ -19815,8 +19969,8 @@
   {
     "id": "8d7c4eca70a0",
     "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-    "description": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 August 05, 2026 (Wednesday) August 06, 2026(Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India,",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63269",
+    "description": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 August 12, 2026(Wednesday) August 13, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of India,",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63320",
     "date": "2026-07-17",
     "source_id": "rbi",
     "source_name": "Reserve Bank of India",
@@ -35598,6 +35752,121 @@
     "first_seen": "2026-08-07"
   },
   {
+    "id": "c596f4d9ba8a",
+    "title": "The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026 passed by ...",
+    "description": "Government of India press release: The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026 passed by ...",
+    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2296358",
+    "date": "2026-06-01",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "bill",
+    "kind": "process",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "c7bca83e058c",
+    "title": "Invitation of nominations for National Gopal Ratna Award -2026",
+    "description": "Government of India press release: Invitation of nominations for National Gopal Ratna Award -2026",
+    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2296314",
+    "date": "2026-06-01",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "39ab71badc25",
+    "title": "भारत की ब्रिक्‍स अध्यक्षता 2026 के तहत जयपुर में 16वीं ब्रिक्‍स व्यापार मंत्रियों की बैठक सफलतापूर्वक संपन्न",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296409",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "3789a7629e8f",
+    "title": "بہت چھوٹے ، چھوٹے اور درمیانے درجے کے کاروباری اداروں کی ترقی (ترمیم) بل، 2026 پارلیمنٹ نے منظور کیا",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296422",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "c2cddc5e9599",
+    "title": "राष्ट्रीय गोपाल रत्न पुरस्कार-2026 के लिए नामांकन आमंत्रित",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296379",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "1599d9d3a787",
     "title": "OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world",
     "description": "The post OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world appeared first on Vidhi Centre for Legal Policy.",
@@ -38463,6 +38732,75 @@
     "title": "भारत की राष्ट्रपति 12वें राष्ट्रीय हथकरघा दिवस समारोह में शामिल हुईं और संत कबीर हथकरघा पुरस्कार तथा राष्ट्रीय हथकरघा पुरस्कार 2025 प्रदान किए",
     "description": "",
     "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296064",
+    "date": "2025-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "a7bbe9acfdcc",
+    "title": "CENTRAL ARMED POLICE FORCES (ASSISTANT COMMANDANTS) EXAMINATION, 2025",
+    "description": "Government of India press release: CENTRAL ARMED POLICE FORCES (ASSISTANT COMMANDANTS) EXAMINATION, 2025",
+    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2296331",
+    "date": "2025-06-01",
+    "source_id": "pib",
+    "source_name": "Press Information Bureau",
+    "source_short": "PIB",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "b1f0f52c7e87",
+    "title": "केन्द्रीय सशस्‍त्र पुलिस बल (सहायक कमांडेंट) परीक्षा, 2025",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296332",
+    "date": "2025-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "a95dbb6b66a8",
+    "title": "संयुक्त रक्षा सेवा परीक्षा (द्वितीय), 2025",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296329",
     "date": "2025-06-01",
     "source_id": "pib_rss",
     "source_name": "PIB RSS Feed",
@@ -42818,6 +43156,29 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-05-08"
+  },
+  {
+    "id": "82017ac7a7a9",
+    "title": "वर्ष 2011 की जनगणना में अनुसूचित जातियों की जाति-वार जनसंख्या के आंकड़े उपलब्ध हैं; केंद्र सरकार की सेवाओं में अनुसूचित जातियों का कुल प्रतिनिधित्व 17.14%",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296378",
+    "date": "2011-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
   },
   {
     "id": "8a74bb18e6f3",
@@ -50408,377 +50769,6 @@
       "digital-technology",
       "finance-economy",
       "rural-development"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "bf1b7c8b886e",
-    "title": "MA in Education",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ma-in-education",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education"
-    ],
-    "sector_slugs": [
-      "education"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "8f72e8997f74",
-    "title": "MA in Early Childhood Care and Education",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ma-in-early-childhood-care-and-education",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "education",
-      "child-rights-youth"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "c000e39d07f7",
-    "title": "Integrated Teacher Education Programme (ITEP) BSc BEd",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/integrated-teacher-education-programme-itep-bsc-bed",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "education",
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "3ae19979144b",
-    "title": "MA in Development",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ma-in-development",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Energy"
-    ],
-    "sector_slugs": [
-      "energy"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "9c5c842c7200",
-    "title": "MA in Applied Economics *",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ma-in-applied-economics",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "69795ca0544d",
-    "title": "MA in Economics",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ma-in-economics",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "education",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "1b4cd81b57e1",
-    "title": "BA in Economics",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ba-in-economics",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "education",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "a7afdfffdc53",
-    "title": "Master of Public Health",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/mph",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Health",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "health",
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "162d556219fa",
-    "title": "BA in Media and Communications",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ba-in-media-and-communications",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "education",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "3979aeeccd54",
-    "title": "BA in English",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ba-english",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "education",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "6148f7ffde5f",
-    "title": "BA in Social Science",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ba-in-social-science",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection",
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "science-innovation"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "def8e7d25126",
-    "title": "MSc in Climate Change and Sustainability",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/msc-in-climate-change-and-sustainability",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Climate & Environment",
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "climate-environment",
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "0c9508075422",
-    "title": "BSc in Environmental Science and Sustainability",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/bsc-in-environmental-science-and-sustainability",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection",
-      "Climate & Environment"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection",
-      "climate-environment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "27cd80bdd21a",
-    "title": "BSc in Mathematics",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/bsc-in-mathematics",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "dd480eb70d4b",
-    "title": "BA in Philosophy, Politics and Economics",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ba-in-philosophy-politics-economics",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "digital-technology"
     ],
     "type": "analysis",
     "kind": "analysis",
