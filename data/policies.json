@@ -25,6 +25,31 @@
     "first_seen": "2026-08-06"
   },
   {
+    "id": "5cb9b8b368b8",
+    "title": "How Far are we Assessing Learning Standards in our Classrooms?",
+    "description": "",
+    "link": "",
+    "date": "2026-08-13",
+    "source_id": "azim_premji",
+    "source_name": "Azim Premji University",
+    "source_short": "APU",
+    "sectors": [
+      "Education",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "education",
+      "social-protection"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "3e02d0ac7591",
     "title": "Managing Partnerships, Networks and Change in the Social Sector",
     "description": "",
@@ -360,6 +385,441 @@
       "finance-economy"
     ],
     "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "34ac806ae4e2",
+    "title": "RBI imposes monetary penalty on Infinity Fincorp Solutions Private Limited",
+    "description": "",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63319",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "c04e0085c933",
+    "title": "RBI imposes monetary penalty on Namdev Finvest Limited (formerly known as Namdev Finvest Private Limited)",
+    "description": "The Reserve Bank of India (RBI) has, by an order dated August 03, 2026, imposed a monetary penalty of ₹2.70 lakh (Rupees Two lakh seventy thousand only) on Namdev Finvest Limited (formerly known as Namdev Finvest Private Limited) (the company) for non-compliance with certain provisions of the ‘Reserve Bank of India (Know Your Customer (KYC)) Directions’ issued by RBI. This penalty has been imposed in exercise of powers conferred on RBI under section 58(G)(1)(b) read with sectio",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63318",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Energy",
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "energy",
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "2d6b37938d2b",
+    "title": "RBI imposes monetary penalty on Utsav Securities Limited",
+    "description": "The Reserve Bank of India (RBI) has, by an order dated August 03, 2026, imposed a monetary penalty of ₹3.90 lakh (Rupees Three lakh ninety thousand only) on Utsav Securities Limited (the company) for non-compliance with certain provisions of the directions issued by RBI on ‘Governance’ and ‘Submission of data to Credit Information Companies (CICs)’. This penalty has been imposed in exercise of powers conferred on RBI under section 58(G)(1)(b) read with section 58(B)",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63317",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Finance & Economy",
+      "Digital & Technology",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "digital-technology",
+      "energy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "c4106e57d87b",
+    "title": "Sectoral Deployment of Credit by NBFC – June 2026",
+    "description": "Data on sectoral deployment of credit by non-banking financial companies (NBFCs) for the month of June 2026, collected from major NBFCs and housing finance companies (HFCs), are set out in the Statement1. On a year-on-year (y-o-y) basis, NBFCs’ credit registered a growth of 14.4 per cent in June 2026 as compared to 11.1 per cent a year ago. Highlights of the sectoral deployment of credit by NBFCs for the month ended June 30, 2026 are given below: Credit in agriculture and allied activities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63316",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Finance & Economy",
+      "Agriculture",
+      "Housing"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "agriculture",
+      "housing"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "655a8f63dddc",
+    "title": "RBI invites public comments on the draft Directions on ‘Credit Valuation Adjustment (CVA) Framework’",
+    "description": "Credit Valuation Adjustment (CVA) reflects the adjustment to the default risk-free prices of derivatives to account for potential counterparty default. CVA risk refers to losses resulting from changes in CVA values, driven by shifts in counterparty credit spreads and market risk factors. The CVA capital charge ensures banks hold sufficient capital to cover these risks. 2. The extant CVA framework was issued by the Reserve Bank in 2011, which was based on the Basel Committee on Banking Supervisio",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63314",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Finance & Economy",
+      "Digital & Technology",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "digital-technology",
+      "social-protection"
+    ],
+    "type": "draft",
+    "kind": "process",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "96cab1159d62",
+    "title": "RBI invites comments on the draft “Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026”",
+    "description": "The Reserve Bank of India has today released the draft Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026, which propose to amend ‘Chapter VII: Leverage Ratio framework’ of the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025. The amendment endeavours to implement the latest leverage ratio framework (‘Leverage Ratio 2017 Standard’) issued by the Bas",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63313",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Digital & Technology",
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "draft",
+    "kind": "process",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "6592f4b03a50",
+    "title": "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 –Urban Co-operative Bank Limited, Dehradun - Extension of Period",
+    "description": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Urban Co-operative Bank Limited, Dehradun vide Directive No. DDN.DOS.QAG.No.S168/03-04-007/2025-2026 dated February 09, 2026, for a period of 06 months from close of business on February 10, 2026 up to close of business on August 10, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Direc",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63312",
+    "date": "2026-08-07",
+    "source_id": "rbi",
+    "source_name": "Reserve Bank of India",
+    "source_short": "RBI",
+    "sectors": [
+      "Social Protection",
+      "Digital & Technology",
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "digital-technology",
+      "finance-economy"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "5784a2294a87",
+    "title": "Order No. 01 of 2026 issued under RC No. 424 of 2014 drawn against Mr. Bhargav Ranchodlal Panchal (PAN: AFUPP7738M) in the matter of IPO irregularities.",
+    "description": "Order No. 01 of 2026 issued under RC No. 424 of 2014 drawn against Mr. Bhargav Ranchodlal Panchal (PAN: AFUPP7738M) in the matter of IPO irregularities.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/order-no-01-of-2026-issued-under-rc-no-424-of-2014-drawn-against-mr-bhargav-ranchodlal-panchal-pan-afupp7738m-in-the-matter-of-ipo-irregularities-_103448.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Defence & Security"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "defence-security"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "a3eccef5f1fe",
+    "title": "Release Order - Certificate No. RC9216 of 2026 in respect of Prabhjeet Singh Chawla (PAN: ACAPC4870A) in the matter of Illiquid Stock Options",
+    "description": "Release Order - Certificate No. RC9216 of 2026 in respect of Prabhjeet Singh Chawla (PAN: ACAPC4870A) in the matter of Illiquid Stock Options",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/release-order-certificate-no-rc9216-of-2026-in-respect-of-prabhjeet-singh-chawla-pan-acapc4870a-in-the-matter-of-illiquid-stock-options_103446.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection",
+      "governance-reform"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "6997d4320167",
+    "title": "Completion of Recovery Certificate No. RC9216 of 2026 in respect of Prabhjeet Singh Chawla (PAN: ACAPC4870A) in the matter of Illiquid Stock Options",
+    "description": "Completion of Recovery Certificate No. RC9216 of 2026 in respect of Prabhjeet Singh Chawla (PAN: ACAPC4870A) in the matter of Illiquid Stock Options",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/completion-of-recovery-certificate-no-rc9216-of-2026-in-respect-of-prabhjeet-singh-chawla-pan-acapc4870a-in-the-matter-of-illiquid-stock-options_103444.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection",
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "f02fa4a38fa2",
+    "title": "Appeal No. 6976 of 2026 filed by Chhabeg Singh",
+    "description": "Appeal No. 6976 of 2026 filed by Chhabeg Singh",
+    "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-6976-of-2026-filed-by-chhabeg-singh_103442.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "b165cf457a2e",
+    "title": "Appeal No. 6974 of 2026 filed by Sudha Devi",
+    "description": "Appeal No. 6974 of 2026 filed by Sudha Devi",
+    "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-6974-of-2026-filed-by-sudha-devi_103440.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "e485cde23f57",
+    "title": "Appeal No. 6973 of 2026 filed by Bharat Bhushan Sharma",
+    "description": "Appeal No. 6973 of 2026 filed by Bharat Bhushan Sharma",
+    "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-6973-of-2026-filed-by-bharat-bhushan-sharma_103439.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "a48ce0af51e5",
+    "title": "Appeal No. 6972 of 2026 filed by Sunil Kumari",
+    "description": "Appeal No. 6972 of 2026 filed by Sunil Kumari",
+    "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-6972-of-2026-filed-by-sunil-kumari_103438.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "d803d22eb35b",
+    "title": "Appeal No. 6971 of 2026 filed by Piyush Agarwal",
+    "description": "Appeal No. 6971 of 2026 filed by Piyush Agarwal",
+    "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-6971-of-2026-filed-by-piyush-agarwal_103436.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "aeca716c146a",
+    "title": "SEBI streamlines inspection of market intermediaries",
+    "description": "SEBI streamlines inspection of market intermediaries",
+    "link": "https://www.sebi.gov.in/media-and-notifications/press-releases/aug-2026/sebi-streamlines-inspection-of-market-intermediaries_103434.html",
+    "date": "2026-08-07",
+    "source_id": "sebi",
+    "source_name": "Securities and Exchange Board of India",
+    "source_short": "SEBI",
+    "sectors": [
+      "Finance & Economy",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "finance-economy",
+      "social-protection"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "431f2661e85c",
+    "title": "Why systems change matters (to the government)",
+    "description": "It’s a position I have held for some time now: The government should own responsibility for driving systems change and the process of reinventing itself when needed.  Having said that, however, public entities and public servants face certain constraints. Outside capital and civil society can help them work around these to achieve the government’s welfare goals. While they cannot substitute for government, they can play the critical role of catalysts. Which, if I remember my high-school che",
+    "link": "https://idronline.org/article/perspectives/why-systems-change-matters-to-the-government/",
+    "date": "2026-08-07",
+    "source_id": "idronline",
+    "source_name": "IDR Online",
+    "source_short": "IDR",
+    "sectors": [
+      "Social Protection",
+      "Digital & Technology",
+      "Education"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "digital-technology",
+      "education"
+    ],
+    "type": "longform",
     "kind": "analysis",
     "authority": "think_tank",
     "comment_deadline": "",
@@ -4700,6 +5160,33 @@
     "type": "news",
     "kind": "news",
     "authority": "media",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "40a8f2e979ac",
+    "title": "Review of the MPC decision: The Fine print on outperformance by Ashima Goyal",
+    "description": "The post Review of the MPC decision: The Fine print on outperformance by Ashima Goyal appeared first on Indira Gandhi Institute of Development Research.",
+    "link": "http://www.igidr.ac.in/review-mpc-decision-fine-print-outperformance-ashima-goyal/",
+    "date": "2026-08-05",
+    "source_id": "igidr",
+    "source_name": "IGIDR",
+    "source_short": "IGIDR",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "energy"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
     "comment_deadline": "",
     "level": "central",
     "state": "",
@@ -13973,8 +14460,8 @@
   {
     "id": "8ceaff4ecad3",
     "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-    "description": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Jul. 25 Jul. 17 Jul. 24 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 24026 20629 24197 3568 171 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Jul. 24, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63266",
+    "description": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Aug. 01 Jul. 24 Jul. 31 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 32232 24197 17100 -7097 -15133 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Jul. 31, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63315",
     "date": "2026-07-24",
     "source_id": "rbi",
     "source_name": "Reserve Bank of India",
@@ -14025,8 +14512,8 @@
   {
     "id": "251ec9d01fd2",
     "title": "Government Stock - Full Auction Results",
-    "description": "(Amount in ₹ Crore) Auction Results 6.94% GS 2036 I. Notified Amount 34,000 II. Competitive Bids Received   (i) Number 432 (ii) Amount 85,565.000 III. Cut-off price / Yield 100.89 (YTM: 6.8117%) IV. Competitive Bids Accepted   (i) Number 152 (ii) Amount 33,964.938 V. Partial Allotment Percentage of Competitive Bids 54.9193% (56 bids) VI. Weighted Average Price/Yield 100.91 (WAY: 6.8089%) VII. Non-Competitive Bids Received   (i) Number 7 (ii) Amount 35.062 VIII. Non-Competiti",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63264",
+    "description": "(Amount in ₹ Crore) Auction Results 6.36% GS 2031 7.71% GS 2066 I. Notified Amount 21,000 11,000 II. Competitive Bids Received     (i) Number 246 242 (ii) Amount 50,030.000 34,560.000 III. Cut-off price / Yield 99.98 101.84 (YTM: 6.3647%) (YTM: 7.5618%) IV. Competitive Bids Accepted     (i) Number 103 20 (ii) Amount 20,988.272 10,981.043 V. Partial Allotment Percentage of Competitive Bids 80.6907% 97.8651% (27 bids) (5 bids) VI. Weighted Average Price/Yield 100.01 101.9",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63311",
     "date": "2026-07-24",
     "source_id": "rbi",
     "source_name": "Reserve Bank of India",
@@ -16430,7 +16917,7 @@
     "id": "309995b3e320",
     "title": "Order in the matter of certain Investment Advisers",
     "description": "Order in the matter of certain Investment Advisers",
-    "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/order-in-the-matter-of-certain-investment-advisers_102996.html",
+    "link": "https://www.sebi.gov.in/enforcement/orders/aug-2026/order-in-the-matter-of-certain-investment-advisers_103447.html",
     "date": "2026-07-22",
     "source_id": "sebi",
     "source_name": "Securities and Exchange Board of India",
@@ -18783,8 +19270,8 @@
   {
     "id": "0e1c14d935e6",
     "title": "Government Stock - Auction Results: Cut-off",
-    "description": "6.94% GS 2036 I. Notified Amount ₹34,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 100.89/6.8117% III. Amount accepted in the auction ₹34,000 crore IV. Devolvement on Primary Dealers NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/785",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63263",
+    "description": "6.36% GS 2031 7.71% GS 2066 I. Notified Amount ₹21,000 crore ₹11,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 99.98/6.3647% 101.84/7.5618% III. Amount accepted in the auction ₹21,000 crore ₹11,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/832",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63310",
     "date": "2026-07-17",
     "source_id": "rbi",
     "source_name": "Reserve Bank of India",
@@ -28508,7 +28995,7 @@
     "id": "bb327c669e3f",
     "title": "Discover More",
     "description": "",
-    "link": "https://www.seci.co.in/uploads/tenders/corrigendums/Pre-bid_meeting_notification44.pdf",
+    "link": "https://www.seci.co.in/uploads/tenders/corrigendums/Pre-EOI_response_meeting1.pdf",
     "date": "2026-06-24",
     "source_id": "seci",
     "source_name": "Solar Energy Corporation of India",
@@ -35061,6 +35548,56 @@
     "first_seen": "2026-08-07"
   },
   {
+    "id": "b8e9ce49535c",
+    "title": "BRICS WAVES Bazaar 2026 concludes with new International Partnerships and Collaboration",
+    "description": "Government of India press release: BRICS WAVES Bazaar 2026 concludes with new International Partnerships and Collaboration",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2296117",
+    "date": "2026-06-01",
+    "source_id": "pib_cabinet_committee_decisions",
+    "source_name": "Cabinet Committee Decisions (via PIB)",
+    "source_short": "Cabinet Committee Decisions",
+    "sectors": [
+      "Digital & Technology",
+      "Social Protection",
+      "Labour & Employment"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "social-protection",
+      "labour-employment"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "a05bc5800262",
+    "title": "नई दिल्ली में 9वें इंडिया मेडिकल डिवाइस 2026 का शुभारंभ; भारत को वैश्विक मेडटेक हब के रूप में विकसित करने पर केंद्रित",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296206",
+    "date": "2026-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "1599d9d3a787",
     "title": "OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world",
     "description": "The post OPINION | Rebuilding trust in a geopolitically fractured and financially interdependent world appeared first on Vidhi Centre for Legal Policy.",
@@ -37897,6 +38434,54 @@
     "first_seen": "2026-08-06"
   },
   {
+    "id": "e890e33c6055",
+    "title": "PRESIDENT OF INDIA GRACES 12TH NATIONAL HANDLOOM DAY CELEBRATIONS AND PRESENTS THE SANT KABIR HANDLOOM AWARDS AND NATIONAL HANDLOOM AWARDS 2025",
+    "description": "Government of India press release: PRESIDENT OF INDIA GRACES 12TH NATIONAL HANDLOOM DAY CELEBRATIONS AND PRESENTS THE SANT KABIR HANDLOOM AWARDS AND NATIONAL HANDLOOM AWARDS 2025",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2296051",
+    "date": "2025-06-01",
+    "source_id": "pib_cabinet_committee_decisions",
+    "source_name": "Cabinet Committee Decisions (via PIB)",
+    "source_short": "Cabinet Committee Decisions",
+    "sectors": [
+      "Social Protection",
+      "Labour & Employment"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "labour-employment"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "id": "dca57d3d4200",
+    "title": "भारत की राष्ट्रपति 12वें राष्ट्रीय हथकरघा दिवस समारोह में शामिल हुईं और संत कबीर हथकरघा पुरस्कार तथा राष्ट्रीय हथकरघा पुरस्कार 2025 प्रदान किए",
+    "description": "",
+    "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296064",
+    "date": "2025-06-01",
+    "source_id": "pib_rss",
+    "source_name": "PIB RSS Feed",
+    "source_short": "PIB RSS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "b06341128143",
     "title": "The Porto Alegre Model: Citizen Participation in Action",
     "description": "In 2002, amid our Ward Works campaign, Janaagraha Times (in its April and May issues) highlighted the transformative power of citizen participation through the example of Porto Alegre. The Brazilian city showed that “people, once included in the decision-making process, are capable of making effective and inclusive decisions.” This insight remains as relevant today as […]",
@@ -40212,6 +40797,29 @@
     "first_seen": "2026-07-24"
   },
   {
+    "id": "676bb794d9b4",
+    "title": "IT Rules, 2021 Mandate Classification for Liquor & Tobacco Content; 3-Tier Mechanism Redresses Code of Ethics Complaints",
+    "description": "Government of India press release: IT Rules, 2021 Mandate Classification for Liquor & Tobacco Content; 3-Tier Mechanism Redresses Code of Ethics Complaints",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2295969",
+    "date": "2021-06-01",
+    "source_id": "pib_cabinet_committee_decisions",
+    "source_name": "Cabinet Committee Decisions (via PIB)",
+    "source_short": "Cabinet Committee Decisions",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "rules",
+    "kind": "instrument",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
+  },
+  {
     "id": "20ef1d542df2",
     "title": "Securities and Exchange Board of India Act, 1992 (As amended by the Finance Act, 2021 (13 of 2021) w.e.f. April 1, 2021)",
     "description": "",
@@ -41800,6 +42408,31 @@
     "level": "central",
     "state": "",
     "first_seen": "2026-07-21"
+  },
+  {
+    "id": "25473281712b",
+    "title": "Full-Fledged DFC Operations and GCT Push Accelerate Freight Growth; Loading Rises Consistently from 1,098 MT in 2014-15 to 1,670 MT in 2025-26",
+    "description": "Government of India press release: Full-Fledged DFC Operations and GCT Push Accelerate Freight Growth; Loading Rises Consistently from 1,098 MT in 2014-15 to 1,670 MT in 2025-26",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2295944",
+    "date": "2014-06-01",
+    "source_id": "pib_cabinet_committee_decisions",
+    "source_name": "Cabinet Committee Decisions (via PIB)",
+    "source_short": "Cabinet Committee Decisions",
+    "sectors": [
+      "Social Protection",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "energy"
+    ],
+    "type": "release",
+    "kind": "announcement",
+    "authority": "government",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-08-07"
   },
   {
     "id": "e20a726b6037",
@@ -48811,7 +49444,7 @@
     "id": "87725d26322d",
     "title": "Accessible Version :",
     "description": "",
-    "link": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/08/20260805326105075.pdf",
+    "link": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/08/202608052015208007.pdf",
     "date": "",
     "source_id": "ladakh_govt",
     "source_name": "Ladakh UT Administration",
@@ -50137,617 +50770,6 @@
     "title": "BA in Philosophy, Politics and Economics",
     "description": "",
     "link": "https://azimpremjiuniversity.edu.in/programmes/ba-in-philosophy-politics-economics",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "digital-technology"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "c3ce912f0e0d",
-    "title": "BSc in Psychology",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/bsc-in-psychology",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "3047acb0bb4f",
-    "title": "BSc in Chemistry",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/bsc-in-chemistry",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "ec095802dc76",
-    "title": "BSc in Information Sciences",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/bsc-in-information-sciences",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection",
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "science-innovation"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "af0e1ee19906",
-    "title": "BA in History",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/ba-history",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "69f38920c90b",
-    "title": "BSc in Biology",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/bsc-in-biology",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "3bec337c5d0c",
-    "title": "BSc in Physics",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/bsc-in-physics",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "45c3efa0679e",
-    "title": "What can field immersion teach you that classrooms can't?",
-    "description": "Field immersion is a defining part of Executive MBA (Development Management) at Azim Premji University.",
-    "link": "https://www.youtube.com/watch?v=SFXPhoW99Ug",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Digital & Technology",
-      "Energy"
-    ],
-    "sector_slugs": [
-      "education",
-      "digital-technology",
-      "energy"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "3445c1cea83e",
-    "title": "Certificate Programme on Public Health Fundamentals: Perspectives and Practice",
-    "description": "Apply by 31 July 2026",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Health",
-      "Rural Development",
-      "Water & Sanitation"
-    ],
-    "sector_slugs": [
-      "health",
-      "rural-development",
-      "water-sanitation"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "ee1ae70701f4",
-    "title": "Certificate Programme: Diversity and Inclusion in Classrooms",
-    "description": "Contact admissions@apu.edu.in in case of any queries",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Digital & Technology",
-      "Rural Development",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "rural-development",
-      "governance-reform"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "575bf3411138",
-    "title": "Undergraduate",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/undergraduate",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "education",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "380d91f91e80",
-    "title": "Postgraduate",
-    "description": "Join our Executive MBA programme",
-    "link": "https://azimpremjiuniversity.edu.in/postgraduate",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Social Protection",
-      "Rural Development"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "rural-development"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "936a18346262",
-    "title": "PG Diplomas & Certificates",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/programmes/development-leadership",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "1f1689094702",
-    "title": "Bhopal Campus",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/bhopal",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "education",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "585d0421d403",
-    "title": "Ranchi Campus",
-    "description": "",
-    "link": "https://azimpremjiuniversity.edu.in/ranchi",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "education",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "5c0981697449",
-    "title": "Research Centres",
-    "description": "Contributing to practice on the ground",
-    "link": "https://azimpremjiuniversity.edu.in/centres/index",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "science-innovation"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "0e7bde879cb6",
-    "title": "Faculty Research",
-    "description": "To inform and inspire",
-    "link": "https://azimpremjiuniversity.edu.in/research/faculty-research-publications-and-stories",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "science-innovation"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "c374735d5348",
-    "title": "Student Research",
-    "description": "Asking questions that matter",
-    "link": "https://azimpremjiuniversity.edu.in/research/student-research",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Social Protection",
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "education",
-      "social-protection",
-      "science-innovation"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "b8a61a50cd40",
-    "title": "Work with us",
-    "description": "A space to explore ideas, inspire and collaborate in an environment of care",
-    "link": "https://azimpremjiuniversity.edu.in/jobs",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Climate & Environment",
-      "Digital & Technology",
-      "Labour & Employment"
-    ],
-    "sector_slugs": [
-      "climate-environment",
-      "digital-technology",
-      "labour-employment"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "c1b48df972bb",
-    "title": "A Bridge Worth Crossing",
-    "description": "",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "transport-infrastructure"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "f074032e061a",
-    "title": "Inside Rural Healthcare in India",
-    "description": "",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Health",
-      "Rural Development"
-    ],
-    "sector_slugs": [
-      "health",
-      "rural-development"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "422f64460c35",
-    "title": "Azim Premji Foundation Report",
-    "description": "",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "transport-infrastructure"
-    ],
-    "type": "report",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "b0405063dc27",
-    "title": "Leadership as a Shared Responsibility",
-    "description": "",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "digital-technology"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "e386c3de6cda",
-    "title": "BMTCಮತ್ತು ಬೆಂಗಳೂರು | The Story of Bengaluru Through Its Buses",
-    "description": "",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Digital & Technology",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "digital-technology",
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "3b997b854f4c",
-    "title": "Magazines for School Education",
-    "description": "",
-    "link": "",
-    "date": "",
-    "source_id": "azim_premji",
-    "source_name": "Azim Premji University",
-    "source_short": "APU",
-    "sectors": [
-      "Education",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "education",
-      "social-protection"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-07-18"
-  },
-  {
-    "id": "424dc0ffc6a3",
-    "title": "Kannada Initiative",
-    "description": "",
-    "link": "",
     "date": "",
     "source_id": "azim_premji",
     "source_name": "Azim Premji University",
