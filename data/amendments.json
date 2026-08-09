@@ -3425,13 +3425,6 @@
       "field": "description",
       "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
       "new_value": "Government of India press release: From Financial Constraints to MBA Aspirations: How Top-Class Education Support Helped Telu Jhansi Vijay Krishna Pursue Higher Education",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
-      "new_value": "Government of India press release: From Financial Constraints to MBA Aspirations: How Top-Class Education Support Helped Telu Jhansi Vijay Krishna Pursue Higher Education",
       "source_id": "pib_urban_development"
     },
     {
@@ -3548,6 +3541,13 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
+      "new_value": "Indian families invest in higher education, trusting it will deliver good jobs for their children. But with jobs growing scarce, work that is available matching neither qualifications nor aspirations, and graduate earnings stagnating, this bargain has broken down.▶05-Aug-2026",
+      "source_id": "india_forum"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
       "new_value": "Indian families invest in higher education, trusting it will deliver good jobs for their children. But with jobs growing scarce, work that is available matching neither qualifications nor aspirations, and graduate earnings stagnating, this bargain has broken down.▶05-Aug-2026",
@@ -4608,13 +4608,6 @@
       "source_id": "cprindia"
     },
     {
-      "date": "2026-08-04",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
       "date": "2026-08-05",
       "field": "description",
       "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
@@ -4732,24 +4725,17 @@
       "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
       "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
       "source_id": "cprindia"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
+      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
+      "source_id": "cprindia"
     }
   ],
   "278a6d239b7a": [
     {
-      "date": "2026-08-06",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "notification",
-      "source_id": "irdai"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "notification",
-      "source_id": "irdai"
-    },
-    {
       "date": "2026-08-07",
       "field": "type",
       "old_value": "release",
@@ -4862,14 +4848,28 @@
       "source_id": "irdai"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "notification",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-08-09",
       "field": "sectors",
       "old_value": "Digital & Technology, Finance & Economy, Social Protection",
       "new_value": "Energy, Health, Social Protection",
       "source_id": "irdai"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "sectors",
       "old_value": "Digital & Technology, Finance & Economy, Social Protection",
       "new_value": "Digital & Technology, Energy, Finance & Economy",
@@ -5158,20 +5158,6 @@
   ],
   "28c68c03b7c5": [
     {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
-      "new_value": "Honorable Cabinet Minister",
-      "source_id": "moship"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
-      "new_value": "Honorable Minister of State",
-      "source_id": "moship"
-    },
-    {
       "date": "2026-08-07",
       "field": "description",
       "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
@@ -5201,20 +5187,6 @@
     },
     {
       "date": "2026-08-07",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
-      "new_value": "Transport & Infrastructure",
-      "source_id": "mocivil"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
-      "new_value": "Transport & Infrastructure",
-      "source_id": "mocivil"
-    },
-    {
-      "date": "2026-08-07",
       "field": "description",
       "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
       "new_value": "Honorable Cabinet Minister",
@@ -5226,13 +5198,6 @@
       "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
       "new_value": "Honorable Minister of State",
       "source_id": "moship"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
-      "new_value": "Transport & Infrastructure",
-      "source_id": "mocivil"
     },
     {
       "date": "2026-08-07",
@@ -5397,6 +5362,41 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
+      "new_value": "Honorable Minister of State",
+      "source_id": "moship"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "mocivil"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
+      "new_value": "Honorable Cabinet Minister",
+      "source_id": "moship"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "Located at Rajiv Gandhi Bhavan at the Safdarjung Airport in New Delhi, the Ministry of Civil Aviation is responsible for formulation of national policies and programmes for the development and regulation of the Civil Aviation sector in the country. It is responsible for the administration of the Aircraft Act, 1934, Aircraft Rules, 1937 and various other legislations pertaining to the aviation sector in the country. This Ministry exercises administrative control over attached and autonomous organ",
       "new_value": "Honorable Minister of State",
@@ -5676,35 +5676,35 @@
       "source_id": "seci"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "sectors",
       "old_value": "Social Protection",
       "new_value": "Digital & Technology, Social Protection",
       "source_id": "seci"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "sectors",
       "old_value": "Social Protection",
       "new_value": "Digital & Technology, Energy, Social Protection",
       "source_id": "seci"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "sectors",
       "old_value": "Social Protection",
       "new_value": "Digital & Technology, Energy, Social Protection",
       "source_id": "seci"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "sectors",
       "old_value": "Social Protection",
       "new_value": "Climate & Environment, Finance & Economy, Social Protection",
       "source_id": "seci"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "sectors",
       "old_value": "Social Protection",
       "new_value": "Climate & Environment, Digital & Technology, Social Protection",
@@ -7364,20 +7364,6 @@
       "field": "description",
       "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
       "new_value": "Government of India press release: BRICS WAVES Bazaar, a premier international marketplace for the creative economy brings together over 500 delegates from BRICS member and partner countries in Mumbai",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
-      "new_value": "Government of India press release: BRICS WAVES Bazaar, a premier international marketplace for the creative economy brings together over 500 delegates from BRICS member and partner countries in Mumbai",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
-      "new_value": "Government of India press release: BRICS WAVES Bazaar, a premier international marketplace for the creative economy brings together over 500 delegates from BRICS member and partner countries in Mumbai",
       "source_id": "pib_eac_pm"
     },
     {
@@ -7491,6 +7477,20 @@
       "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
       "new_value": "Missing MP teen travels km to Mumbai to act in Taarak Mehta Ka Ooltah Chashmah",
       "source_id": "india_today"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
+      "new_value": "A sessions court in Mumbai on August 7 denied anticipatory bail to two students, who in an event held at TISS campus, for paying homage to GN Saibaba, raised slogans for freeing Sharjeel Imam and Umar Khalid, who are facing trial in a UAPA case. Additional Sessions Judge VB Bohra�said that the Supreme Court had denied bail to Sharjeel Imam and Umar Khalid and thus students must respect the law of the land. The Court�refused to grant bail to Abhirup Paul (32) and Kamakhya Prasad Das (23) who alon",
+      "source_id": "livelaw"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
+      "new_value": "The announcement came during the inauguration of NUCFDC’s new office premises at Sharada Sadan in the Fort area of south Mumbai. At the event, the NUCFDC and the National Forensic Sciences University (NFSU) signed a memorandum of understanding (MoU) to establish a centralised cybersecurity system for urban cooperative banks.",
+      "source_id": "deccan_chronicle"
     },
     {
       "date": "2026-08-09",
@@ -8848,6 +8848,13 @@
       "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
       "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
       "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
+      "source_id": "the_hindu_business"
     }
   ],
   "88f5dff1e2c9": [
@@ -10039,13 +10046,6 @@
       "source_id": "sidbi_new"
     },
     {
-      "date": "2026-08-04",
-      "field": "description",
-      "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "View All",
-      "source_id": "sidbi_new"
-    },
-    {
       "date": "2026-08-05",
       "field": "description",
       "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
@@ -10152,6 +10152,13 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "View All",
@@ -10897,6 +10904,13 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah presents the Lokmanya Tilak National Award 2026 to National Security Advisor Shri Ajit Doval in Pune, Maharashtra",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates NUCFDC’s n...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah presents the Lokmanya Tilak National Award 2026 to National Security Advisor Shri Ajit Doval in Pune, Maharashtra",
       "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates NUCFDC’s n...",
@@ -12164,20 +12178,6 @@
       "source_id": "nic"
     },
     {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "3 July 2026",
-      "new_value": "1 August 2026",
-      "source_id": "nic"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "3 July 2026",
-      "new_value": "1 August 2026",
-      "source_id": "nic"
-    },
-    {
       "date": "2026-08-07",
       "field": "description",
       "old_value": "3 July 2026",
@@ -12270,6 +12270,20 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "3 July 2026",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "3 July 2026",
+      "new_value": "1 August 2026",
+      "source_id": "nic"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "3 July 2026",
       "new_value": "Chief Minister, Finance…",
@@ -13556,6 +13570,13 @@
       "old_value": "Reimagining Care Strategies for Empowering Caregivers in Viksit Bharat@2047 niti_admin Tue, 08/04/2026 - 12:46 Choose Report Type Publications Publication Date Tue, 08/04/2026 - 12:46 Report Upload download (9.49 MB) vertical Social Justice & Empowerment PDF Text REIMAGINING CARE: STRATEGIES FOR EMPOWERING CAREGIVERS IN VIKSIT BHARAT@2047 Authors NITI Aayog Team Shri K.S. Rejimon, Joint Secretary Shri Arvind Kumar, Deputy Secretary Shri R.N. Mundhe, Senior Research Officer Ms Smriti Pandey,",
       "new_value": "Reimagining Care Strategies for Empowering Caregivers in Viksit Bharat@2047 niti_admin Wed, 08/05/2026 - 16:35 Weight 0 Links /sites/default/files/2026-08/Reimagining-Care-Strategies-for-Empowering-Caregiv…",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Reimagining Care Strategies for Empowering Caregivers in Viksit Bharat@2047 niti_admin Tue, 08/04/2026 - 12:46 Choose Report Type Publications Publication Date Tue, 08/04/2026 - 12:46 Report Upload download (9.49 MB) vertical Social Justice & Empowerment PDF Text REIMAGINING CARE: STRATEGIES FOR EMPOWERING CAREGIVERS IN VIKSIT BHARAT@2047 Authors NITI Aayog Team Shri K.S. Rejimon, Joint Secretary Shri Arvind Kumar, Deputy Secretary Shri R.N. Mundhe, Senior Research Officer Ms Smriti Pandey,",
+      "new_value": "Reimagining Care Strategies for Empowering Caregivers in Viksit Bharat@2047 niti_admin Wed, 08/05/2026 - 16:35 Weight 0 Links /sites/default/files/2026-08/Reimagining-Care-Strategies-for-Empowering-Caregiv…",
+      "source_id": "niti_aayog"
     }
   ],
   "2f704d8ffe3b": [
@@ -13721,6 +13742,13 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
+      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
+      "source_id": "state_pib_assam"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
       "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
@@ -14438,6 +14466,13 @@
       "old_value": "When geopolitical tensions escalate across the Gulf region, the consequences are felt in hundreds of households in Kerala, which depend on remittances to meet their daily needs. Early 2026 US-led military strikes on Iran and subsequent airspace closures over Dubai, […] The post From Remittance Dependence to Investment-Led Growth: Policy Choices for Kerala After the 2026 GCC Crisis appeared first on Centre for Public Policy Research (CPPR).",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "When geopolitical tensions escalate across the Gulf region, the consequences are felt in hundreds of households in Kerala, which depend on remittances to meet their daily needs. Early 2026 US-led military strikes on Iran and subsequent airspace closures over Dubai, […] The post From Remittance Dependence to Investment-Led Growth: Policy Choices for Kerala After the 2026 GCC Crisis appeared first on Centre for Public Policy Research (CPPR).",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
     }
   ],
   "0f6d2d3ee7b9": [
@@ -14497,6 +14532,13 @@
       "old_value": "The Punjab Cabinet has approved the establishment of three new Digital Open Universities and a fee regulation bill.",
       "new_value": "The Punjab Cabinet has approved the establishment of three new Digital Open Universities and a bill to regulate fees for these institutions.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "The Punjab Cabinet has approved the establishment of three new Digital Open Universities and a bill to regulate fees for these institutions.",
+      "new_value": "The Punjab Cabinet has approved the establishment of three new Digital Open Universities and a bill to regulate fees.",
+      "source_id": "policyradar"
     }
   ],
   "62d1d5a4a3c1": [
@@ -14512,6 +14554,13 @@
       "field": "description",
       "old_value": "RBI MPC meeting 2026: Repo rate kept unchanged at 5.25%    Deccan Herald",
       "new_value": "RBI MPC meeting 2026: Repo rate kept unchanged at 5.25%    deccanherald.com",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "RBI MPC meeting 2026: Repo rate kept unchanged at 5.25%    deccanherald.com",
+      "new_value": "RBI MPC meeting 2026: Repo rate kept unchanged at 5.25%    Deccan Herald",
       "source_id": "policyradar"
     }
   ],
@@ -14730,6 +14779,13 @@
       "old_value": "Calcutta High Court directed the Taxing Officer to decide the refund claim after hearing the petitioner and examine registration before applying the 17-week rule.",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
       "source_id": "digilocker"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Calcutta High Court directed the Taxing Officer to decide the refund claim after hearing the petitioner and examine registration before applying the 17-week rule.",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
     }
   ],
   "55b54a063455": [
@@ -14800,6 +14856,13 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "An amendment to ​India's Payment and Settlement Systems Act, tabled in parliament by Finance Minister Nirmala Sitharaman, would allow the introduction of ​a merchant discount rate (MDR) on digital...",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "An amendment to ​India's Payment and Settlement Systems Act, tabled in parliament by Finance Minister Nirmala Sitharaman, would allow the introduction of ​a merchant discount rate (MDR) on digital...",
       "new_value": "Union Finance Minister and…",
@@ -14963,6 +15026,13 @@
       "old_value": "On August 5, 2019, Kritika*, a counsellor at Shakti Shalini, was withdrawing cash from an ATM near our office in Jangpura, New Delhi, when she was attacked by a group of eight people attempting to abduct her. The attack was led by the former partner of a survivor of sexual and gender-based violence living at Shakti Shalini's shelter home. Kritika was handling the case, protecting the survivor’s well-being and identity. Despite the presence of several bystanders, she did not get any help when she",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "On August 5, 2019, Kritika*, a counsellor at Shakti Shalini, was withdrawing cash from an ATM near our office in Jangpura, New Delhi, when she was attacked by a group of eight people attempting to abduct her. The attack was led by the former partner of a survivor of sexual and gender-based violence living at Shakti Shalini's shelter home. Kritika was handling the case, protecting the survivor’s well-being and identity. Despite the presence of several bystanders, she did not get any help when she",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
     }
   ],
   "1613cdc7505d": [
@@ -14981,6 +15051,13 @@
       "old_value": "RBI keeps policy rate unchanged at 5.25% for third time in row amid West Asia crisis    Telegraph India",
       "new_value": "RBI keeps policy rate unchanged at 5.25% for third time in row amid West Asia crisis    telegraphindia.com",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "RBI keeps policy rate unchanged at 5.25% for third time in row amid West Asia crisis    telegraphindia.com",
+      "new_value": "RBI keeps policy rate unchanged at 5.25% for third time in row amid West Asia crisis    Telegraph India",
+      "source_id": "policyradar"
     }
   ],
   "7055046be983": [
@@ -14989,6 +15066,13 @@
       "field": "description",
       "old_value": "Amid din, Lok Sabha passes taxation bill to promote domestic electronic manufacturing    Deccan Herald",
       "new_value": "Amid din, Lok Sabha passes taxation bill to promote domestic electronic manufacturing    deccanherald.com",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Amid din, Lok Sabha passes taxation bill to promote domestic electronic manufacturing    deccanherald.com",
+      "new_value": "Amid din, Lok Sabha passes taxation bill to promote domestic electronic manufacturing    Deccan Herald",
       "source_id": "policyradar"
     }
   ],
@@ -15079,6 +15163,13 @@
       "old_value": "Upholding the constitutional validity of Rule 5(1)(b) of Arunachal Pradesh Police Service (Amendment) Rules 2025, the Gauhati High Court held that allocating promotional quota to Arunachal Pradesh...",
       "new_value": "The post Arunachal Pradesh appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Upholding the constitutional validity of Rule 5(1)(b) of Arunachal Pradesh Police Service (Amendment) Rules 2025, the Gauhati High Court held that allocating promotional quota to Arunachal Pradesh...",
+      "new_value": "The post Arunachal Pradesh appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "source_id": "insights_ias"
     }
   ],
   "4cac6c820b5c": [
@@ -15091,6 +15182,13 @@
     },
     {
       "date": "2026-08-08",
+      "field": "description",
+      "old_value": "On August 7, 2026, the Supreme Court of India addressed several policy-relevant matters. The Union government informed the Court about a potential scheme to modernize the entire police force.",
+      "new_value": "Links to reports of August 7, New Scheme For Modernization Of Entire Police Force Under Consideration: Union Tells Supreme Court Technology Has Democratised Legal Profession: CJI Surya Kant Grant Reservation To Military Cadets Disabled 40% Or More During Training Under Ex-Military Personnel Quota : Supreme Court To States/UTs Supreme Court Refuses To Reject Election Petition Against Ex-Chhattisgarh CM Bhupesh Baghel Civil Courts Can Adjudicate Succession Disputes Between Non-Tribals In Scheduled",
+      "source_id": "livelaw"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "On August 7, 2026, the Supreme Court of India addressed several policy-relevant matters. The Union government informed the Court about a potential scheme to modernize the entire police force.",
       "new_value": "Links to reports of August 7, New Scheme For Modernization Of Entire Police Force Under Consideration: Union Tells Supreme Court Technology Has Democratised Legal Profession: CJI Surya Kant Grant Reservation To Military Cadets Disabled 40% Or More During Training Under Ex-Military Personnel Quota : Supreme Court To States/UTs Supreme Court Refuses To Reject Election Petition Against Ex-Chhattisgarh CM Bhupesh Baghel Civil Courts Can Adjudicate Succession Disputes Between Non-Tribals In Scheduled",
@@ -15115,53 +15213,60 @@
   ],
   "8132565e06c9": [
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
       "new_value": "Parliament has passed the Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026. The bill amends existing legislation governing MSMEs in India.",
       "source_id": "policyradar"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
+      "new_value": "India's steel sector maintained steady growth during April–July FY27, with higher production, domestic consumption, exports and sustainability initiatives strengthening the country's steel manufacturing ecosystem.",
+      "source_id": "ibef"
+    },
+    {
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
       "new_value": "Citations 2026 LiveLaw (Del) 598 to 2026 LiveLaw (Del) 713 NOMINAL INDEX Pratik Shaw (Minor) v. UoI 2026 LiveLaw (Del) 598 RAGHAV CHADHA v. ASHOK KUMAR JOHN DOE AND ORS 2026 LiveLaw (Del) 599 ANKIT MAAN v. UNION OF INDIA AND ORS and other connected matter 2026 LiveLaw (Del) 600 UNION OF INDIA v. SANJEEV KUMAR YADAV AND ANR and other connected matter 2026 LiveLaw (Del) 601 TV TODAY NETWORK LIMITED v. ABC & ORS 2026 LiveLaw (Del) 602 National Stock Exchange of India Ltd. v. Central Information Com",
       "source_id": "livelaw"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
       "new_value": "Retrospective Tax Liability Valid, But Not Retrospective Penalty : Supreme Court�",
       "source_id": "livelaw"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
       "new_value": "Judgments Supreme Court Rejects Regularisation Claims Of 350+ West Bengal Madrasah Staff Appointed When State Law Was Struck Down Case Details: NAJMA KHATUN AND ORS.v THE STATE OF WEST BENGAL AND ORS|W.P.(C) No. 566/2024 Citation : 2026 LiveLaw (SC) 667 The Supreme Court dismissed a batch of 49 writ petitions filed by more than 350 teachers and non-teaching staff of aided madrasahs in West Bengal, holding that none of them could establish that their appointments were made in accordance with the",
       "source_id": "livelaw"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
       "new_value": "Lawyers Must Act Decently Not Only With Own Clients But Also With Opposite Parties : Supreme Court",
       "source_id": "livelaw"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
       "new_value": "Mere Marking Of Document As Exhibit Is Not Proof Of Contents : Supreme Court �",
       "source_id": "livelaw"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
-      "new_value": "India's steel sector maintained steady growth during April–July FY27, with higher production, domestic consumption, exports and sustainability initiatives strengthening the country's steel manufacturing ecosystem.",
-      "source_id": "ibef"
+      "new_value": "Delhi University organised Placement Drive 2026 with over 75 organisations and 500 participants, providing students with direct access to career opportunities.",
+      "source_id": "ndtv_india"
     },
     {
       "date": "2026-08-09",
@@ -15209,15 +15314,22 @@
       "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
-      "new_value": "Parliament has passed the Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026. The bill amends existing legislation governing MSMEs in India.",
-      "source_id": "policyradar"
+      "new_value": "India's steel sector maintained steady growth during April–July FY27, with higher production, domestic consumption, exports and sustainability initiatives strengthening the country's steel manufacturing ecosystem.",
+      "source_id": "ibef"
     },
     {
       "date": "2026-08-09",
       "field": "description",
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
-      "new_value": "India's steel sector maintained steady growth during April–July FY27, with higher production, domestic consumption, exports and sustainability initiatives strengthening the country's steel manufacturing ecosystem.",
-      "source_id": "ibef"
+      "new_value": "Administrative Law & Public Services – Interview/Viva-Voce Benchmarks – Administrative Necessity - Prescription of Minimum 25% Qualifying Marks in Viva-Voce – The introduction of a minimum qualifying benchmark for the interview stage is neither arbitrary nor whimsical; it is rooted in profound administrative necessity to preserve the integrity, calibre, and quality of judicial administration - While a written examination evaluates academic legal knowledge, the viva-voce is essential to judge cru",
+      "source_id": "livelaw"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
+      "new_value": "Citation: 2026 LiveLaw (Guj) 182 to 2026 LiveLaw (Guj) 208 Nominal Index Ajaukumar Babulal Gehlot v/s State of Gujarat & Ors., 2026 LiveLaw (Guj) 182 Dhaval @ Bobo Gopalbhai Machi v/s State of Gujarat, 2026 LiveLaw (Guj) 183 Hiteshkumar Surendrakumar Padhiyar (Rajput) v/s State of Gujarat, 2026 LiveLaw (Guj) 184 Sh. Rajendrakumar Mahendrabhai Patel v/s Director of Enforcement & Anr., 2026 LiveLaw (Guj) 185 Satrabhai Ramabhai Damor v/s State of Gujarat, 2026 LiveLaw (Guj) 186 State of Gujarat v/s",
+      "source_id": "livelaw"
     },
     {
       "date": "2026-08-09",
@@ -15239,20 +15351,166 @@
       "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
       "new_value": "Judgments Supreme Court Rejects Regularisation Claims Of 350+ West Bengal Madrasah Staff Appointed When State Law Was Struck Down Case Details: NAJMA KHATUN AND ORS.v THE STATE OF WEST BENGAL AND ORS|W.P.(C) No. 566/2024 Citation : 2026 LiveLaw (SC) 667 The Supreme Court dismissed a batch of 49 writ petitions filed by more than 350 teachers and non-teaching staff of aided madrasahs in West Bengal, holding that none of them could establish that their appointments were made in accordance with the",
       "source_id": "livelaw"
+    }
+  ],
+  "49bbb6b2031a": [
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "The Andhra Pradesh Cabinet approved a Public-Private Partnership (PPP) policy, withdrew the Disha Bill, and cleared key projects in Amaravati.",
+      "new_value": "The Andhra Pradesh Cabinet approved a Public-Private Partnership (PPP) policy, withdrew the Disha Bill, and cleared key projects for Amaravati.",
+      "source_id": "policyradar"
+    }
+  ],
+  "0c06be0860f0": [
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Karnataka Chief Minister D K Shivakumar announced a new policy to regulate the expenditure of Corporate Social Responsibility (CSR) funds.",
+      "new_value": "Karnataka Chief Minister D K Shivakumar announced the state will introduce a new policy governing the expenditure of Corporate Social Responsibility (CSR) funds.",
+      "source_id": "policyradar"
+    }
+  ],
+  "18d42f31cb5d": [
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_statistics_programme_implementation"
     },
     {
       "date": "2026-08-09",
       "field": "description",
-      "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
-      "new_value": "Lawyers Must Act Decently Not Only With Own Clients But Also With Opposite Parties : Supreme Court",
-      "source_id": "livelaw"
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_surface_transport"
     },
     {
       "date": "2026-08-09",
       "field": "description",
-      "old_value": "The students' demand for accountability, Vijay’s boy-man image, The failed promise of higher education, and more",
-      "new_value": "Mere Marking Of Document As Exhibit Is Not Proof Of Contents : Supreme Court �",
-      "source_id": "livelaw"
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-08-09",
+      "field": "description",
+      "old_value": "Government of India press release: Department of Administrative Reforms and Public Grievances (DARPG) released the 47th Report on Centralized Public Grievance Redress and Monitoring System (CPGRAMS) for States/UTs for June, 2026",
+      "new_value": "Government of India press release: Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "source_id": "pib_lokpal_of_india"
     }
   ]
 }
