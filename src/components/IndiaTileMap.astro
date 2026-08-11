@@ -235,6 +235,10 @@ const H = (MAX_ROW + 1) * (TILE + GAP) + GAP;
     transform: scale(1.06);
   }
   .tm-cell-link:focus { outline: none; }
+  .tm-cell-link:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
   .tm-cell-link:focus-visible .tm-cell {
     stroke: var(--color-accent);
     stroke-width: 2;

@@ -145,14 +145,23 @@ export interface MetaData {
   source_counts: Record<string, number>;
 }
 
+// Build-time cache. The site is fully static: data files never change during
+// a build, but every page render used to re-read and re-parse them from disk
+// (~4,700 parses of a ~2 MB file per build — most of the build time).
+const jsonCache = new Map<string, unknown>();
+
 function readJson<T>(filename: string, fallback: T): T {
+  if (jsonCache.has(filename)) return jsonCache.get(filename) as T;
   const filepath = path.join(DATA_DIR, filename);
+  let value: T;
   try {
     const raw = fs.readFileSync(filepath, 'utf-8');
-    return JSON.parse(raw) as T;
+    value = JSON.parse(raw) as T;
   } catch {
-    return fallback;
+    value = fallback;
   }
+  jsonCache.set(filename, value);
+  return value;
 }
 
 // Civil Liberties auto-tagging keywords
@@ -170,7 +179,12 @@ function tagCivilLiberties(policies: PolicyItem[]): PolicyItem[] {
   return policies;
 }
 
+let allPoliciesCache: PolicyItem[] | null = null;
+
 export function getAllPolicies(): PolicyItem[] {
+  // Memoized: the merge + civil-liberties regex pass over ~2,300 items is
+  // pure and was re-running for every one of ~4,700 rendered pages.
+  if (allPoliciesCache) return allPoliciesCache;
   const scraped = readJson<PolicyItem[]>('policies.json', getSamplePolicies());
   const historical = readJson<PolicyItem[]>('historical_policies.json', []);
 
@@ -181,7 +195,8 @@ export function getAllPolicies(): PolicyItem[] {
     if (!byId.has(p.id)) byId.set(p.id, p);
   }
   const merged = Array.from(byId.values()).sort((a, b) => b.date.localeCompare(a.date));
-  return tagCivilLiberties(merged);
+  allPoliciesCache = tagCivilLiberties(merged);
+  return allPoliciesCache;
 }
 
 // News/media source_ids — MIRRORS scripts/classifier.py MEDIA_SOURCE_IDS.
@@ -228,30 +243,10 @@ export function getPolicyItems(): PolicyItem[] {
  * of one undifferentiated feed where a tattoo-art feature sat next to a
  * gazette notification under the same "policy" label. */
 
-/** Enacted/in-force policy instruments: acts, rules, notifications,
- * schemes, budgets, judgments, named policies. */
-export function getInstruments(): PolicyItem[] {
-  return getAllPolicies().filter(p => getKind(p) === 'instrument');
-}
-
-/** Policy in the making: bills, drafts open for comment, parliamentary
- * question replies, committee reports, debates. */
-export function getProcessItems(): PolicyItem[] {
-  return getAllPolicies().filter(p => getKind(p) === 'process');
-}
-
-/** Research and think-tank analysis (reports, briefs, long reads). */
 export function getAnalysisItems(): PolicyItem[] {
   return getAllPolicies().filter(p => getKind(p) === 'analysis');
 }
 
-/** Journalism coverage — kept, but never presented as policy. */
-export function getNewsItems(): PolicyItem[] {
-  return getAllPolicies().filter(p => getKind(p) === 'news');
-}
-
-/** Journal mastheads ("Vol. 61, Issue No. 29") scraped from EPW-style
- * archive pages — table-of-contents links, not essays. */
 const JOURNAL_MASTHEAD = /\bvol\.?\s*\d+|\bissue no\b|\btable of contents\b/i;
 
 /** In-depth long-form essays from journal/essay sources (EPW, The India
@@ -365,7 +360,10 @@ export function getWeeklyWrap(): WeeklyWrap {
   };
 }
 
+let metaCache: MetaData | null = null;
+
 export function getMeta(): MetaData {
+  if (metaCache) return metaCache;
   const policies = getPolicyItems();
   const sectorCounts: Record<string, number> = {};
   const sourceCounts: Record<string, number> = {};
@@ -390,7 +388,7 @@ export function getMeta(): MetaData {
     }
   } catch { /* fall back to source_counts */ }
 
-  return {
+  metaCache = {
     last_updated: stored.last_updated || new Date().toISOString(),
     total_policies: policies.length,
     total_sources: totalConfiguredSources,
@@ -399,32 +397,15 @@ export function getMeta(): MetaData {
     sector_counts: sectorCounts,
     source_counts: sourceCounts,
   };
+  return metaCache;
 }
 
 export function getPoliciesBySector(sectorSlug: string): PolicyItem[] {
   return getAllPolicies().filter(p => p.sector_slugs.includes(sectorSlug));
 }
 
-export function getPoliciesBySource(sourceShort: string): PolicyItem[] {
-  return getAllPolicies().filter(p => p.source_short === sourceShort);
-}
-
 export function getSectorSlug(sector: string): string {
   return sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
-}
-
-export function getAllSectorSlugs(): string[] {
-  const meta = getMeta();
-  return Object.keys(meta.sector_counts).map(getSectorSlug);
-}
-
-export function getAllSourceShorts(): string[] {
-  const meta = getMeta();
-  return Object.keys(meta.source_counts);
-}
-
-export function getPolicyById(id: string): PolicyItem | undefined {
-  return getAllPolicies().find(p => p.id === id);
 }
 
 export function getRelatedPolicies(policy: PolicyItem, limit = 5): PolicyItem[] {
@@ -758,10 +739,6 @@ export function getStateSlug(name: string): string {
   return name.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
 }
 
-export function getPoliciesByState(stateName: string): PolicyItem[] {
-  return getAllPolicies().filter(p => p.state === stateName);
-}
-
 export function getStatePolicySummary(): { name: string; slug: string; count: number; party: string; label: string; abbr: string; type: 'state' | 'ut' }[] {
   const govs = getStateGovernments();
   const policies = getPolicyItems();
@@ -919,12 +896,6 @@ export function getImpactForPolicy(title: string): PolicyImpact | null {
   return null;
 }
 
-export function getAllImpacts(): Record<string, PolicyImpact> {
-  const data = readJson<any>('policy_impacts.json', { impacts: {} });
-  return data.impacts || {};
-}
-
-/** Parliament session data */
 export interface ParliamentSession {
   name: string;
   type: string;
@@ -1029,21 +1000,6 @@ export function getRecentCommitteeReports(limit = 20): CommitteeReport[] {
     .slice(0, limit);
 }
 
-export function searchCommitteeReports(query: string): CommitteeReport[] {
-  const data = getCommitteeReports();
-  const q = query.toLowerCase();
-  const results: CommitteeReport[] = [];
-  for (const reports of Object.values(data.committees)) {
-    for (const r of reports) {
-      if (r.title.toLowerCase().includes(q) || r.committee_name.toLowerCase().includes(q)) {
-        results.push(r);
-      }
-    }
-  }
-  return results;
-}
-
-/** Returns sectors x types matrix for landscape view */
 export function getSectorTypeMatrix(): {
   sectors: string[];
   types: string[];
@@ -1220,131 +1176,6 @@ function getSamplePolicies(): PolicyItem[] {
 
 /* ── Source Type Classification ─────────────────────────────── */
 
-const SOURCE_TYPE_MAP: Record<string, string> = {
-  // ── Government: ministries, departments, PIB, scheme portals, state govts ──
-  'PIB': 'government', 'PIB MH': 'government', 'PIB TN': 'government', 'PIB KA': 'government',
-  'PIB WB': 'government', 'PIB UP': 'government', 'PIB GJ': 'government', 'PIB KL': 'government',
-  'PIB MP': 'government', 'PIB RJ': 'government', 'PIB TS': 'government', 'PIB PB': 'government',
-  'PIB NE': 'government', 'PIB BR': 'government',
-  'NITI': 'government', 'NITI SDG': 'government', 'NITI Energy': 'government',
-  'data.gov.in': 'government',
-  'MoHFW': 'government', 'MoE': 'government', 'MoRD': 'government', 'MoHUA': 'government',
-  'MoLE': 'government', 'Jal Shakti': 'government', 'MNRE': 'government', 'MCA': 'government',
-  'MoTA': 'government', 'MWCD': 'government', 'MSJE': 'government', 'MEA': 'government',
-  'DoJ': 'government', 'MoSPI': 'government', 'MoAgri': 'government', 'DoT': 'government',
-  'Railways': 'government', 'DST': 'government', 'MoF Budget': 'government', 'MeitY': 'government',
-  'MoEFCC': 'government', 'DGE': 'government', 'DPIIT': 'government', 'StartupIndia': 'government',
-  'ECI': 'government', 'Historical': 'government',
-  'MoCA-Av': 'government', 'MoCoal': 'government', 'MoCommerce': 'government', 'MoCA': 'government',
-  'MoCoop': 'government', 'MoCulture': 'government', 'MoES': 'government', 'MoI&B': 'government',
-  'MoMines': 'government', 'MoMSME': 'government', 'MoPR': 'government', 'MoPNG': 'government',
-  'MoPower': 'government', 'MoRTH': 'government', 'MoShip': 'government', 'MoSteel': 'government',
-  'MoTextile': 'government', 'MoYAS': 'government', 'MoAYUSH': 'government', 'MoFPI': 'government',
-  'DoF': 'government', 'DEA': 'government', 'DFS': 'government', 'DoPT': 'government',
-  'DoNER': 'government', 'DIPAM': 'government', 'DAE': 'government',
-  'DRDO': 'government', 'ISRO': 'government', 'CSIR': 'government', 'NIC': 'government',
-  'CAG': 'government', 'NHA': 'government', 'NFHS': 'government',
-  'CBSE': 'government', 'NCERT': 'government', 'NCTE': 'government', 'NAAC': 'government',
-  'ICMR': 'government', 'ICAR': 'government', 'ICSSR': 'government',
-  'CBHI': 'government', 'NABH': 'government', 'NHM': 'government',
-  'CERT-In': 'government', 'CIC': 'government',
-  'NHRC': 'government', 'NCW': 'government', 'NCPCR': 'government', 'NCSC': 'government', 'NCST': 'government',
-  'DBT': 'government', 'ABDM': 'government', 'DigiLocker': 'government', 'DigitalIndia': 'government',
-  'GeM': 'government', 'MakeInIndia': 'government', 'SkillIndia': 'government',
-  'PMAY': 'government', 'JJM': 'government', 'SBM': 'government', 'MGNREGA': 'government',
-  'PMJAY': 'government', 'PM-KISAN': 'government', 'PMJDY': 'government', 'PMFBY': 'government',
-  'POSHAN': 'government', 'AMRUT': 'government', 'SCM': 'government', 'MUDRA': 'government',
-  'ONORC': 'government', 'StandUp': 'government', 'UJALA': 'government',
-  'SamagraS': 'government', 'NSP': 'government', 'SHC': 'government',
-  'eShram': 'government', 'UIDAI': 'government',
-  'Lok Sabha': 'government', 'Rajya Sabha': 'government',
-  // State governments
-  'MH Govt': 'government', 'KA Govt': 'government', 'TN Govt': 'government',
-  'KL Govt': 'government', 'Delhi Govt': 'government',
-  'AP Govt': 'government', 'AR Govt': 'government', 'AS Govt': 'government',
-  'BR Govt': 'government', 'CG Govt': 'government', 'GA Govt': 'government',
-  'GJ Govt': 'government', 'HR Govt': 'government', 'HP Govt': 'government',
-  'JH Govt': 'government', 'JK Govt': 'government', 'LA Govt': 'government',
-  'MN Govt': 'government', 'ML Govt': 'government', 'MZ Govt': 'government',
-  'NL Govt': 'government', 'OD Govt': 'government', 'PB Govt': 'government',
-  'RJ Govt': 'government', 'SK Govt': 'government', 'TR Govt': 'government',
-  'TS Govt': 'government', 'UP Govt': 'government', 'UK Govt': 'government',
-  'MP Govt': 'government', 'WB Gaz': 'government',
-
-  // ── Legal: courts, tribunals, law commission, bar council, legal media ──
-  'India Code': 'legal', 'eGazette': 'legal', 'SCI': 'legal', 'Law Comm': 'legal',
-  'LiveLaw': 'legal', 'Bar&Bench': 'legal', 'SCO': 'legal', 'NLSIU': 'legal',
-  'Art14': 'legal', 'Vidhi': 'legal',
-  'NCLAT': 'legal', 'NCLT': 'legal', 'ITAT': 'legal', 'TDSAT': 'legal', 'NGT': 'legal',
-  'Lokpal': 'legal', 'CVC': 'legal', 'BCI': 'legal',
-
-  // ── Regulator: independent regulatory bodies ──
-  'RBI': 'regulator', 'SEBI': 'regulator', 'TRAI': 'regulator', 'IRDAI': 'regulator',
-  'CCI': 'regulator', 'CERC': 'regulator', 'CPCB': 'regulator', 'FSSAI': 'regulator',
-  'DGFT': 'regulator', 'CBIC': 'regulator', 'CBDT': 'regulator', 'IBBI': 'regulator',
-  'NABARD': 'regulator', 'SIDBI': 'regulator', 'NHB': 'regulator',
-  'UGC': 'regulator', 'AICTE': 'regulator', 'NMC': 'regulator',
-  'DGCA': 'regulator', 'EPFO': 'regulator', 'ESIC': 'regulator',
-  'NPCI': 'regulator', 'PFRDA': 'regulator', 'RERA': 'regulator',
-
-  // ── Think tank: research orgs, universities, foundations, industry bodies ──
-  'PRS Bills': 'think_tank', 'PRS': 'think_tank', 'ORF': 'think_tank', 'ORF Health': 'think_tank',
-  'CPR': 'think_tank', 'ICRIER': 'think_tank', 'Brookings': 'think_tank', 'Carnegie': 'think_tank',
-  'CSDS': 'think_tank', 'EPW': 'think_tank', 'CEEW': 'think_tank', 'TERI': 'think_tank',
-  'CPPR': 'think_tank', 'CUTS': 'think_tank', 'IIMB': 'think_tank',
-  'Takshashila': 'think_tank', 'CSE': 'think_tank', 'CBGA': 'think_tank',
-  'IWWAGE': 'think_tank', 'J-PAL': 'think_tank', 'NCAER': 'think_tank',
-  'IDFC': 'think_tank', 'NIPFP': 'think_tank', 'IndiaSpend': 'think_tank',
-  'NASSCOM': 'think_tank', 'FICCI': 'think_tank', 'CII': 'think_tank',
-  'APU': 'think_tank', 'RIS': 'think_tank', 'IIHS': 'think_tank',
-  'IGIDR': 'think_tank', 'SPRF': 'think_tank', 'IIPS': 'think_tank',
-  'GatewayH': 'think_tank', 'ChathamH': 'think_tank', 'CSIS': 'think_tank',
-  'IndiaFound': 'think_tank', 'MP-IDSA': 'think_tank',
-  'AI-CPRG': 'think_tank', 'Janaagraha': 'think_tank', 'Praja': 'think_tank',
-  'Oxfam': 'think_tank', 'WiproF': 'think_tank',
-  'SAV': 'think_tank', 'Drishti': 'think_tank', 'InsightsIAS': 'think_tank',
-
-  // ── Media: news outlets, magazines, wire agencies ──
-  'The Hindu': 'media', 'The Hindu Biz': 'media', 'IE': 'media', 'IE Biz': 'media',
-  'ET': 'media', 'ET Infra': 'media', 'ET Energy': 'media', 'ET Govt': 'media', 'ET Health': 'media',
-  'NDTV': 'media', 'The Wire': 'media',
-  'Scroll': 'media', 'DH': 'media', 'HT': 'media', 'BS': 'media', 'BL': 'media',
-  'Firstpost': 'media', 'News18': 'media', 'ThePrint': 'media', 'Quint': 'media',
-  'DTE': 'media', 'Mint Op': 'media', 'Livemint': 'media',
-  'Reuters': 'media', 'BBC': 'media', 'AlJazeera': 'media',
-  'Tribune': 'media', 'Outlook': 'media', 'Caravan': 'media',
-  'PTI': 'media', 'ANI': 'media',
-  'MC': 'media', 'FE': 'media', 'DC': 'media',
-  'AsianAge': 'media', 'Frontline': 'media', 'Swarajya': 'media',
-  'Republic': 'media', 'Zee': 'media', 'NL': 'media',
-  'IndiaToday': 'media', 'Telegraph': 'media',
-  'Print Dip': 'media',
-
-  // ── International: UN agencies, multilateral bodies ──
-  'World Bank': 'international', 'UNDP': 'international', 'IMF': 'international',
-  'ADB': 'international', 'UNICEF': 'international', 'WHO': 'international',
-  'ILO': 'international', 'FAO': 'international',
-  'OECD': 'international', 'WTO': 'international', 'IFC': 'international',
-  'UNEP': 'international', 'UNDESA': 'international', 'UNFPA': 'international',
-  'UNHCR': 'international',
-};
-
-export function getSourceType(sourceShort: string): string {
-  return SOURCE_TYPE_MAP[sourceShort] || 'government';
-}
-
-export function getSourceTypeCounts(): Record<string, number> {
-  const policies = getAllPolicies();
-  const counts: Record<string, number> = { government: 0, legal: 0, think_tank: 0, international: 0, media: 0, regulator: 0 };
-  for (const p of policies) {
-    const t = getSourceType(p.source_short);
-    counts[t] = (counts[t] || 0) + 1;
-  }
-  return counts;
-}
-
-/* ── Priority Scoring ──────────────────────────────────────── */
-
 export function getPriority(policy: PolicyItem): 'critical' | 'high' | 'medium' | 'normal' {
   const t = policy.title.toLowerCase();
   const d = policy.description?.toLowerCase() || '';
@@ -1410,74 +1241,6 @@ export function getTrendingTopics(limit = 8): TrendingTopic[] {
 }
 
 /* ── Story Clustering ──────────────────────────────────────── */
-
-export interface PolicyCluster {
-  title: string;
-  slug: string;
-  policies: PolicyItem[];
-  sectors: string[];
-  latestDate: string;
-}
-
-function normalizeTitle(title: string): string {
-  return title
-    .toLowerCase()
-    .replace(/\b(the|a|an|of|for|and|in|on|to|with|by|from)\b/g, '')
-    // Keep unicode word chars so Devanagari titles compare on words, not
-    // digits (mirrors _title_similarity in scripts/fetch_all.py).
-    .replace(/[^\p{L}\p{N} ]/gu, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function titleSimilarity(a: string, b: string): number {
-  // Numeric tokens excluded — a shared year is not a shared subject.
-  const contentWords = (t: string) =>
-    new Set(normalizeTitle(t).split(' ').filter(w => w.length > 3 && !/^\d+$/.test(w)));
-  const wordsA = contentWords(a);
-  const wordsB = contentWords(b);
-  if (wordsA.size === 0 || wordsB.size === 0) return 0;
-  let overlap = 0;
-  for (const w of wordsA) if (wordsB.has(w)) overlap++;
-  return overlap / Math.min(wordsA.size, wordsB.size);
-}
-
-export function getStoryClusters(limit = 6): PolicyCluster[] {
-  const policies = getAllPolicies().slice(0, 200); // recent policies
-  const clusters: PolicyCluster[] = [];
-  const used = new Set<string>();
-
-  for (let i = 0; i < policies.length; i++) {
-    if (used.has(policies[i].id)) continue;
-
-    const group = [policies[i]];
-    for (let j = i + 1; j < policies.length; j++) {
-      if (used.has(policies[j].id)) continue;
-      // Same sector overlap + title similarity
-      const sectorOverlap = policies[i].sectors.some(s => policies[j].sectors.includes(s));
-      const sim = titleSimilarity(policies[i].title, policies[j].title);
-      if (sectorOverlap && sim >= 0.4) {
-        group.push(policies[j]);
-      }
-    }
-
-    if (group.length >= 2) {
-      for (const p of group) used.add(p.id);
-      const allSectors = [...new Set(group.flatMap(p => p.sectors))];
-      clusters.push({
-        title: group[0].title.length > 80 ? group[0].title.slice(0, 77) + '...' : group[0].title,
-        slug: group[0].id,
-        policies: group.slice(0, 5),
-        sectors: allSectors,
-        latestDate: group[0].date,
-      });
-    }
-  }
-
-  return clusters.sort((a, b) => b.policies.length - a.policies.length).slice(0, limit);
-}
-
-/* ── Daily Digest ──────────────────────────────────────────── */
 
 export interface DailyDigest {
   date: string;

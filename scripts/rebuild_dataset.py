@@ -169,7 +169,6 @@ def main() -> int:
         return 0
 
     fetch_all.write_data_json(final)
-    fetch_all.write_astro_content(final)
 
     # Retype the India Code historical archive too (merged into the site by
     # data.ts) — every entry there is an enacted Central Act.

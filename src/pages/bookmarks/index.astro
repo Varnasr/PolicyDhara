@@ -116,12 +116,17 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
     const lastVisit = localStorage.getItem('pd-tracker-last-visit') || '';
     try {
-      const [polResp, amdResp] = await Promise.all([
-        fetch(`${base}api/policies.json`),
+      // The compact index carries everything this page renders — no need to
+      // pull the full multi-MB policies.json just to resolve bookmark IDs.
+      const [idxResp, amdResp] = await Promise.all([
+        fetch(`${base}api/search-index.json`),
         fetch(`${base}api/amendments.json`),
       ]);
-      const { policies } = await polResp.json();
+      const { index } = await idxResp.json();
       const { amendments } = await amdResp.json();
+      const policies = index.map(e => ({
+        id: e.id, title: e.t, date: e.dt, source_short: e.src, type: e.ty,
+      }));
       const byId = new Map(policies.map(p => [p.id, p]));
 
       const esc = (s) => { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };

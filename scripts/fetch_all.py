@@ -32,7 +32,6 @@ from classifier import (
 PROJECT_ROOT = Path(__file__).parent.parent
 FEEDS_CONFIG = PROJECT_ROOT / "feeds.json"
 DATA_DIR = PROJECT_ROOT / "data"
-POLICIES_DIR = PROJECT_ROOT / "src" / "content" / "policies"
 MAX_ITEMS_PER_SOURCE = 50
 MAX_TOTAL_ITEMS = 2000
 # Generalist-news feeds out-produce official sources by an order of
@@ -561,22 +560,6 @@ def enforce_media_cap(live_items: list[dict], reserved: int = 0) -> list[dict]:
     return official[:official_kept] + media[:media_slots]
 
 
-def write_astro_content(policies: list[dict]):
-    """Write individual JSON files for Astro content collection."""
-    # Clean existing
-    if POLICIES_DIR.exists():
-        for f in POLICIES_DIR.glob("*.json"):
-            f.unlink()
-    POLICIES_DIR.mkdir(parents=True, exist_ok=True)
-
-    for item in policies:
-        filepath = POLICIES_DIR / f"{item['id']}.json"
-        with open(filepath, "w") as f:
-            json.dump(item, f, indent=2, ensure_ascii=False)
-
-    print(f"  Wrote {len(policies)} content files to {POLICIES_DIR}")
-
-
 def write_data_json(policies: list[dict]):
     """Write combined data file for the dashboard."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -877,7 +860,6 @@ def main():
 
     # Write outputs
     write_data_json(merged)
-    write_astro_content(merged)
 
     # Fetch parliamentary committee reports (ParliamentWatch integration)
     try:
