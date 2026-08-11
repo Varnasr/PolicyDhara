@@ -128,8 +128,8 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
       </div>
       <div class="dash-stat-divider"></div>
       <div class="dash-stat">
-        <span class="dash-stat-num">{meta.total_sources}</span>
-        <span class="dash-stat-label">sources</span>
+        <span class="dash-stat-num">{meta.active_sources}</span>
+        <span class="dash-stat-label">active sources</span>
       </div>
       <div class="dash-stat-divider"></div>
       <div class="dash-stat">
@@ -225,7 +225,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
 
       <div class="sidebar-card sidebar-card-muted">
         <p class="sidebar-meta">
-          Data from <strong>{meta.total_sources}</strong> government, media &amp; research sources.
+          Data from <strong>{meta.active_sources}</strong> active government, media &amp; research sources ({meta.total_sources} tracked).
           Updated every 6 hours. <a href={`${base}about/`}>Methodology</a>
         </p>
       </div>

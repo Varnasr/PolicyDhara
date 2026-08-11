@@ -357,13 +357,17 @@ const searchIndex = policies.map(p => ({
     }
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
+  // astro:page-load fires on the initial load AND after every ClientRouter
+  // navigation; DOMContentLoaded fires only on a full page load, which left
+  // this page inert when reached via an in-site link.
+  document.addEventListener('astro:page-load', () => {
     const fastEl = document.getElementById('search-results');
     const fullEl = document.getElementById('pagefind-search');
     const initialEl = document.getElementById('search-initial');
     const emptyEl = document.getElementById('search-empty');
     const buttons = document.querySelectorAll('.search-mode-btn');
     const fastFilters = document.querySelector('.search-filters');
+    if (!fastEl && !fullEl) return; // not on the search page
 
     function setMode(mode) {
       buttons.forEach(b => b.classList.toggle('active', b.dataset.mode === mode));
@@ -386,8 +390,9 @@ const searchIndex = policies.map(p => ({
 </script>
 
 <script define:vars={{ searchIndex, base }}>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const input = document.getElementById('search-input');
+    if (!input) return; // not on the search page
     const sectorFilter = document.getElementById('filter-sector');
     const sourceFilter = document.getElementById('filter-source');
     const typeFilter = document.getElementById('filter-type');
@@ -399,16 +404,23 @@ const searchIndex = policies.map(p => ({
     const initialEl = document.getElementById('search-initial');
     const kbdEl = document.querySelector('.search-kbd');
 
-    // Press / to focus search
-    document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== input) {
-        e.preventDefault();
-        input.focus();
-      }
-      if (e.key === 'Escape' && document.activeElement === input) {
-        input.blur();
-      }
-    });
+    // Press / to focus search. Registered once on the persistent document
+    // (this init re-runs on every astro:page-load); the live input is looked
+    // up per keystroke so the handler never holds a detached element.
+    if (!window.__searchKeysBound) {
+      window.__searchKeysBound = true;
+      document.addEventListener('keydown', (e) => {
+        const liveInput = document.getElementById('search-input');
+        if (!liveInput) return;
+        if (e.key === '/' && document.activeElement !== liveInput) {
+          e.preventDefault();
+          liveInput.focus();
+        }
+        if (e.key === 'Escape' && document.activeElement === liveInput) {
+          liveInput.blur();
+        }
+      });
+    }
 
     // Hide kbd when focused
     input.addEventListener('focus', () => { if (kbdEl) kbdEl.style.display = 'none'; });

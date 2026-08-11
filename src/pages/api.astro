@@ -411,8 +411,9 @@ const samplePolicy = policies[0] || {
 </style>
 
 <script define:vars={{ policies: policies.map(p => ({ id: p.id, title: p.title, description: p.description, link: p.link, date: p.date, source_id: p.source_id, source_name: p.source_name, source_short: p.source_short, sectors: p.sectors, sector_slugs: p.sector_slugs, type: p.type })) }}>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const sectorEl = document.getElementById('exp-sector');
+    if (!sectorEl) return; // not on the API page
     const sourceEl = document.getElementById('exp-source');
     const typeEl = document.getElementById('exp-type');
     const fromEl = document.getElementById('exp-from');

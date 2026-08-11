@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getSectorTypeMatrix, getMeta, getSectorSlug, getAllPolicies } from '../../lib/data';
+import { getSectorTypeMatrix, getMeta, getSectorSlug, getAllPolicies, TYPE_COLORS } from '../../lib/data';
 
 const { sectors, types, matrix } = getSectorTypeMatrix();
 const meta = getMeta();
@@ -8,10 +8,6 @@ const policies = getAllPolicies();
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
-const TYPE_COLORS: Record<string, string> = {
-  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
-  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
-};
 
 // Compute column totals
 const colTotals: Record<string, number> = {};
@@ -466,7 +462,7 @@ const maxCell = Math.max(...allCells, 1);
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const tabs = document.querySelectorAll('.ls-tab');
     const panels = document.querySelectorAll('.ls-panel');
     tabs.forEach(tab => {

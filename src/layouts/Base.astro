@@ -4,12 +4,20 @@ import NewsTicker from '../components/NewsTicker.astro';
 import { ClientRouter } from 'astro:transitions';
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string;
   ogImage?: string;
+  // Markdown pages using `layout:` pass their frontmatter here instead of
+  // discrete props — without reading it, blog posts rendered
+  // "undefined | PolicyDhara" as their <title>.
+  frontmatter?: { title?: string; description?: string };
 }
 
-const { title, description = "PolicyDhara — open-source tracker of Indian development policies across 20+ sectors. By ImpactMojo.", ogImage } = Astro.props;
+const props = Astro.props;
+const title = props.title ?? props.frontmatter?.title ?? 'PolicyDhara';
+const description = props.description ?? props.frontmatter?.description
+  ?? "PolicyDhara — open-source tracker of Indian development policies across 22 sectors. By ImpactMojo.";
+const { ogImage } = props;
 const siteTitle = `${title} | PolicyDhara`;
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
@@ -22,12 +30,8 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {/* Always fetch the freshest HTML — stop browsers/CDN serving stale pages
-      after a deploy. Astro already fingerprints CSS/JS filenames. */}
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
   <title>{siteTitle}</title>
+  <meta name="base-url" content={base} />
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
 
@@ -81,7 +85,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "PolicyDhara",
-    "description": "Open-source tracker of Indian development policies across 20+ sectors",
+    "description": "Open-source tracker of Indian development policies across 22 sectors",
     "url": canonicalUrl,
     "publisher": {
       "@type": "Organization",
@@ -552,7 +556,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
               searchInput.focus();
               searchInput.select();
             } else {
-              window.location.href = (window as any).__base ? (window as any).__base + 'search/' : '/search/';
+              window.location.href = base + 'search/';
             }
             break;
           case 'j':
@@ -582,7 +586,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
             break;
           case 'h':
           case 'H':
-            window.location.href = '/';
+            window.location.href = base;
             break;
         }
         });

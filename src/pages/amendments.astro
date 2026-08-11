@@ -114,7 +114,7 @@ function fieldLabel(field: string): string {
 </Base>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const filter = document.getElementById('sector-filter') as HTMLSelectElement | null;
     const list = document.getElementById('amendments-list');
     if (!filter || !list) return;

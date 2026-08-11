@@ -46,7 +46,7 @@ const idAttr = `cite-${(url || title).replace(/[^a-zA-Z0-9]/g, '').slice(0, 16)}
 </details>
 
 <script define:vars={{ idAttr, title, source_name, source_short, year, accessedDate, url, type }}>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const root = document.getElementById(idAttr);
     if (!root) return;
     const out = document.getElementById(`${idAttr}-out`);

@@ -67,19 +67,19 @@
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const form = document.getElementById('newsletter-form') as HTMLFormElement;
     const btn = document.getElementById('newsletter-btn') as HTMLButtonElement;
     const input = document.getElementById('newsletter-email') as HTMLInputElement;
 
     if (form) {
       form.addEventListener('submit', () => {
-        // Buttondown handles the actual subscription via form action.
-        // We just update the UI optimistically.
+        // Buttondown handles the actual subscription in the window the form
+        // opens; we can't observe the result cross-origin, so say what we
+        // actually know instead of claiming success.
         setTimeout(() => {
           if (btn && input) {
-            btn.textContent = 'Subscribed!';
-            btn.style.background = '#16a34a';
+            btn.textContent = 'Confirm in the opened window';
             input.disabled = true;
             btn.disabled = true;
             localStorage.setItem('pd-newsletter-sub', input.value);

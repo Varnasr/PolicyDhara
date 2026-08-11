@@ -280,7 +280,7 @@ const H = (MAX_ROW + 1) * (TILE + GAP) + GAP;
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const tooltip = document.getElementById('tilemap-tooltip');
     if (!tooltip) return;
 

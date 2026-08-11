@@ -1,38 +1,40 @@
 ---
-import { getAllPolicies, getMeta, getPoliciesBySector, getSectorSlug } from '../../lib/data';
+import { getAllPolicies, getMeta, getPoliciesBySector, getSectorSlug } from '../../../lib/data';
+
+// Static builds can't read query params at request time — the old
+// `/embed/feed/?sector=…` page evaluated its params against a build-time
+// placeholder, so every installed embed showed the same default feed.
+// Sectors are now static routes (`/embed/feed/health/`); the item limit is
+// applied client-side in the iframe, where query params really exist.
+export function getStaticPaths() {
+  const sectorNames = Object.keys(getMeta().sector_counts || {});
+  return [
+    { params: { sector: undefined }, props: { sectorName: '' } },
+    ...sectorNames.map((name) => ({
+      params: { sector: getSectorSlug(name) },
+      props: { sectorName: name },
+    })),
+  ];
+}
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 const siteUrl = `https://varnasr.github.io${base}`;
 
-// Read URL params
-const url = new URL(Astro.request.url);
-const sectorParam = url.searchParams.get('sector') || '';
-const limitParam = parseInt(url.searchParams.get('limit') || '5', 10);
-const limit = Math.max(1, Math.min(limitParam, 20));
+const { sectorName } = Astro.props;
+const sectorSlug = Astro.params.sector || '';
+const MAX_ITEMS = 20; // client-side ?limit hides the tail
 
-// Get policies
 const meta = getMeta();
-let policies;
-let sectorDisplayName = '';
-
-if (sectorParam) {
-  // Find the display name for the sector slug
-  const sectorEntries = Object.keys(meta.sector_counts);
-  const matchedSector = sectorEntries.find(s => getSectorSlug(s) === sectorParam);
-  if (matchedSector) {
-    sectorDisplayName = matchedSector;
-    policies = getPoliciesBySector(sectorParam).slice(0, limit);
-  } else {
-    policies = getAllPolicies().slice(0, limit);
-  }
-} else {
-  policies = getAllPolicies().slice(0, limit);
-}
+const sectorDisplayName = sectorName;
+const allInSector = sectorSlug ? getPoliciesBySector(sectorSlug) : [];
+const policies = sectorSlug
+  ? allInSector.slice(0, MAX_ITEMS)
+  : getAllPolicies().slice(0, MAX_ITEMS);
 
 const heading = sectorDisplayName ? `${sectorDisplayName} Policies` : 'Recent Policies';
 
-// Sector colors for badges
+// Sector colors for badges — keys match the canonical sector taxonomy.
 const sectorColors: Record<string, string> = {
   'Health': '#059669',
   'Education': '#7c3aed',
@@ -47,12 +49,15 @@ const sectorColors: Record<string, string> = {
   'Labour & Employment': '#9333ea',
   'Rural Development': '#65a30d',
   'Water & Sanitation': '#0891b2',
-  'Infrastructure': '#78716c',
+  'Transport & Infrastructure': '#78716c',
   'Trade & Commerce': '#ca8a04',
   'Science & Innovation': '#4f46e5',
   'Gender & Women': '#e11d48',
-  'Transport': '#0284c7',
-  'Housing & Urban': '#8b5cf6',
+  'Housing': '#8b5cf6',
+  'Urban Development': '#0284c7',
+  'Tribal & Indigenous': '#a16207',
+  'Child Rights & Youth': '#c026d3',
+  'Disability & Inclusion': '#7e22ce',
   'Civil Liberties': '#b91c1c',
 };
 
@@ -185,7 +190,7 @@ function getColor(sector: string): string {
   <div class="feed">
     <div class="feed-header">
       <span class="feed-title">{heading}</span>
-      <span class="feed-count">{policies.length} of {sectorDisplayName ? getPoliciesBySector(sectorParam).length : meta.total_policies}</span>
+      <span class="feed-count" id="feed-count">{policies.length} of {sectorDisplayName ? allInSector.length : meta.total_policies}</span>
     </div>
 
     {policies.length === 0 ? (
@@ -211,12 +216,37 @@ function getColor(sector: string): string {
     )}
 
     <div class="feed-footer">
-      <a class="feed-more" href={sectorDisplayName ? `${siteUrl}sectors/${sectorParam}/` : `${siteUrl}search/`} target="_blank" rel="noopener">
+      <a class="feed-more" href={sectorDisplayName ? `${siteUrl}sectors/${sectorSlug}/` : `${siteUrl}search/`} target="_blank" rel="noopener">
         View more on PolicyDhara
         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
       </a>
       <a class="feed-powered" href={siteUrl} target="_blank" rel="noopener">Powered by PolicyDhara</a>
     </div>
   </div>
+  <script is:inline define:vars={{ sectorSlug, total: policies.length }}>
+    // The page ships MAX_ITEMS items; ?limit=N trims client-side, where
+    // query params actually exist on a static host.
+    var params = new URLSearchParams(location.search);
+
+    // Back-compat: old embeds used /embed/feed/?sector=slug. Forward them
+    // to the static per-sector route, preserving the limit.
+    var wantedSector = params.get('sector') || '';
+    if (!sectorSlug && wantedSector) {
+      var target = location.pathname.replace(/\/?$/, '/') + encodeURIComponent(wantedSector) + '/';
+      var limitQ = params.get('limit');
+      location.replace(target + (limitQ ? '?limit=' + encodeURIComponent(limitQ) : ''));
+    } else {
+      var limit = Math.max(1, Math.min(parseInt(params.get('limit') || '5', 10) || 5, 20));
+      var items = document.querySelectorAll('.feed-item');
+      for (var i = 0; i < items.length; i++) {
+        if (i >= limit) items[i].style.display = 'none';
+      }
+      var countEl = document.getElementById('feed-count');
+      if (countEl && items.length) {
+        var shown = Math.min(limit, items.length);
+        countEl.textContent = countEl.textContent.replace(/^\d+/, String(shown));
+      }
+    }
+  </script>
 </body>
 </html>

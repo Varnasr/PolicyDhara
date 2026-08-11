@@ -103,9 +103,10 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 </style>
 
 <script define:vars={{ base }}>
-  document.addEventListener('DOMContentLoaded', async () => {
-    const followed = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
+  document.addEventListener('astro:page-load', async () => {
     const loading = document.getElementById('tracker-loading');
+    if (!loading) return; // not on the bookmarks page
+    const followed = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
     const empty = document.getElementById('bookmarks-empty');
     if (!followed.length) {
       loading.style.display = 'none';

@@ -91,7 +91,8 @@ const policyIndex = policies.slice(0, 50).map(p => ({
   </script>
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('astro:page-load', () => {
+      if (!document.getElementById('sector-checkboxes')) return; // not on the alerts page
       const STORAGE_KEY = 'pd-alert-prefs';
       const policies = (window as any).__alertsPolicies || [];
       const base = (window as any).__base || '/';

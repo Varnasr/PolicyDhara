@@ -6,18 +6,22 @@ import { getPolicyItems, getEraDistribution } from '../lib/data';
 const policies = getPolicyItems();
 const eras = getEraDistribution();
 
-// Compute coverage stats
+// Compute coverage stats. Undated items are excluded — an empty date string
+// sorts before every real date, so counting them lumped ~74 items into
+// "pre-2014" and produced a NaN year bucket, skewing the exact coverage-bias
+// statistic this page exists to be honest about.
+const dated = policies.filter(p => p.date);
 const yearCounts: Record<number, number> = {};
-for (const p of policies) {
+for (const p of dated) {
   const y = parseInt(p.date.slice(0, 4));
   yearCounts[y] = (yearCounts[y] || 0) + 1;
 }
 const years = Object.keys(yearCounts).map(Number).sort();
 
-const pre2014 = policies.filter(p => p.date < '2014-05-26').length;
-const post2014 = policies.filter(p => p.date >= '2014-05-26').length;
-const pre2014Pct = Math.round((pre2014 / policies.length) * 100);
-const post2014Pct = Math.round((post2014 / policies.length) * 100);
+const pre2014 = dated.filter(p => p.date < '2014-05-26').length;
+const post2014 = dated.filter(p => p.date >= '2014-05-26').length;
+const pre2014Pct = Math.round((pre2014 / dated.length) * 100);
+const post2014Pct = Math.round((post2014 / dated.length) * 100);
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';

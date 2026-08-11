@@ -1,5 +1,5 @@
 ---
-import { getPolicyItems, getEraDistribution } from '../lib/data';
+import { getPolicyItems, getEraDistribution, TYPE_COLORS } from '../lib/data';
 
 const policies = getPolicyItems();
 
@@ -37,10 +37,6 @@ const ERAS = [
   { name: 'NDA III', start: 2024, end: 2027, light: '#e0e7ff', dark: '#1a1a30' },
 ];
 
-const TYPE_COLORS: Record<string, string> = {
-  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
-  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
-};
 
 // Decade markers
 const decadeYears = allYears.filter(y => y.year % 5 === 0).map(y => y.year);

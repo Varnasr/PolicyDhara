@@ -69,6 +69,46 @@ export const TYPE_LABELS: Record<string, string> = {
   announcement: 'Announcement',
 };
 
+/** Canonical badge/chart colors for document types (new taxonomy + legacy).
+ * Single source of truth — page-local copies drifted when the taxonomy was
+ * reworked and left ~85% of items falling to a grey/green fallback. */
+export const TYPE_COLORS: Record<string, string> = {
+  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
+  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
+  act: '#dc2626', rules: '#d97706', bill: '#7c3aed', draft: '#d97706',
+  question: '#d97706', committee_report: '#7c3aed', debate: '#7c3aed',
+  judgment: '#dc2626', release: '#64748b', report: '#7c3aed',
+  analysis: '#7c3aed', longform: '#7c3aed', news: '#64748b', opinion: '#64748b',
+};
+
+/** What each document type means — shown on the policy detail page. Keys
+ * cover the full live taxonomy so a press release is described as a press
+ * release, not mislabeled as a "policy framework". */
+export const TYPE_CONTEXT: Record<string, string> = {
+  act: 'Central or state Act — primary legislation passed by the legislature. Carries binding force and shapes the rules under which citizens, institutions, and markets operate.',
+  rules: 'Rules or regulations — subordinate legislation issued under an Act. Operationalises the parent law with binding procedural and technical detail.',
+  notification: 'Official government notification — a formal executive order that operationalises policy decisions. Carries legal weight and specifies rules, dates, exemptions, or procedural requirements.',
+  scheme: 'Government scheme — a structured programme with defined beneficiaries, budget allocation, and delivery mechanisms. The primary instrument for delivering welfare and development outcomes.',
+  budget: 'Budgetary action — an allocation, fiscal policy change, or expenditure decision shaping how public resources flow. Reveals government priorities and affects programme implementation capacity.',
+  policy: 'Policy framework or directive — a strategic document setting direction, principles, and objectives for governance. Guides the design of schemes, legislation, and implementation strategies.',
+  judgment: 'Court judgment — a judicial decision interpreting the law. Can strike down, uphold, or reshape policy, and binds government action within its jurisdiction.',
+  bill: 'Bill before the legislature — proposed legislation not yet in force. Signals the direction of lawmaking and is subject to amendment or lapse.',
+  draft: 'Draft open for public comment — a proposed policy, rule, or standard in consultation. Not yet in force; stakeholder input can still change it.',
+  question: 'Parliament question and answer — an official ministerial response placing facts, data, or policy positions on the parliamentary record.',
+  committee_report: 'Parliamentary committee report — detailed scrutiny of bills, budgets, or ministry performance. Influential on subsequent legislation, though not binding.',
+  debate: 'Parliamentary or constitutional debate — the recorded deliberation behind lawmaking. Context for how and why a policy took its shape.',
+  release: 'Official press release — a government communication announcing decisions, milestones, or initiatives. Signals intent and often precedes formal notification or legislative action.',
+  report: 'Official or institutional report — an evidence-based assessment from government or research bodies. Informs policy design, monitoring, and evaluation.',
+  analysis: 'Research or analytical publication — an evidence-based assessment informing policy design and evaluation. Shapes the intellectual framework within which policy debates occur.',
+  longform: 'Long-form analysis — an in-depth researched piece examining a policy area. Context and interpretation rather than a policy instrument.',
+  news: 'News coverage — journalism about policy, not a policy document. Useful as timely context; the underlying instrument is linked where known.',
+  opinion: 'Opinion or commentary — an argued perspective on policy. Reflects its author’s view, not an official position.',
+  // Legacy values still present in older records
+  legislation: 'Legislative action — a bill, act, or amendment that creates or modifies the legal framework. Carries binding force and shapes the rules under which citizens, institutions, and markets operate.',
+  research: 'Research or analytical publication — an evidence-based assessment informing policy design and evaluation. Shapes the intellectual framework within which policy debates occur.',
+  announcement: 'Official announcement — a public communication of a policy decision, milestone, or initiative. Signals government intent and often precedes formal notification or legislative action.',
+};
+
 /** Legacy type → kind, for records ingested before the taxonomy existed. */
 const LEGACY_KIND: Record<string, Kind> = {
   legislation: 'instrument',
@@ -98,7 +138,8 @@ export interface Amendment {
 export interface MetaData {
   last_updated: string;
   total_policies: number;
-  total_sources: number;
+  total_sources: number;      // sources configured in feeds.json (tracked)
+  active_sources: number;     // sources that have actually contributed items
   total_sectors: number;
   sector_counts: Record<string, number>;
   source_counts: Record<string, number>;
@@ -353,6 +394,7 @@ export function getMeta(): MetaData {
     last_updated: stored.last_updated || new Date().toISOString(),
     total_policies: policies.length,
     total_sources: totalConfiguredSources,
+    active_sources: Object.keys(sourceCounts).length,
     total_sectors: Object.keys(sectorCounts).length,
     sector_counts: sectorCounts,
     source_counts: sourceCounts,

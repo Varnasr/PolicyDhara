@@ -10,7 +10,9 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/embed/'),
+      // Exclude only the iframe widget pages — /embed/ itself is the
+      // human-facing embed documentation and belongs in the sitemap.
+      filter: (page) => !page.includes('/embed/feed') && !page.includes('/embed/stats'),
       changefreq: 'daily',
       priority: 0.7,
       serialize(item) {
