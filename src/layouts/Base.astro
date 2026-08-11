@@ -4,12 +4,20 @@ import NewsTicker from '../components/NewsTicker.astro';
 import { ClientRouter } from 'astro:transitions';
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string;
   ogImage?: string;
+  // Markdown pages using `layout:` pass their frontmatter here instead of
+  // discrete props — without reading it, blog posts rendered
+  // "undefined | PolicyDhara" as their <title>.
+  frontmatter?: { title?: string; description?: string };
 }
 
-const { title, description = "PolicyDhara — open-source tracker of Indian development policies across 20+ sectors. By ImpactMojo.", ogImage } = Astro.props;
+const props = Astro.props;
+const title = props.title ?? props.frontmatter?.title ?? 'PolicyDhara';
+const description = props.description ?? props.frontmatter?.description
+  ?? "PolicyDhara — open-source tracker of Indian development policies across 22 sectors. By ImpactMojo.";
+const { ogImage } = props;
 const siteTitle = `${title} | PolicyDhara`;
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
@@ -22,12 +30,19 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {/* Always fetch the freshest HTML — stop browsers/CDN serving stale pages
-      after a deploy. Astro already fingerprints CSS/JS filenames. */}
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
   <title>{siteTitle}</title>
+  <meta name="base-url" content={base} />
+  <script is:inline>
+    // Theme: apply saved or system preference before first paint.
+    (function() {
+      var saved = localStorage.getItem('pd-theme');
+      if (saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else if (saved !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
 
@@ -81,7 +96,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "PolicyDhara",
-    "description": "Open-source tracker of Indian development policies across 20+ sectors",
+    "description": "Open-source tracker of Indian development policies across 22 sectors",
     "url": canonicalUrl,
     "publisher": {
       "@type": "Organization",
@@ -128,7 +143,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
           <a href={`${base}sectors/`}>Sectors</a>
           <a href={`${base}parliament/`}>Parliament</a>
           <div class="nav-dropdown" id="nav-explore">
-            <button class="nav-dropdown-trigger">
+            <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
               Explore
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
@@ -239,7 +254,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
         </div>
 
         {/* Mobile hamburger */}
-        <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu" aria-expanded="false">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
       </nav>
@@ -368,22 +383,6 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
 
   {/* ── Global Scripts: Dark Mode + Keyboard Shortcuts + Bookmarks + New-Since-Visit ─── */}
   <script>
-    // ── Theme: apply saved or system preference before paint ──
-    (function() {
-      const saved = localStorage.getItem('pd-theme');
-      if (saved === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-      } else if (saved === 'light') {
-        document.documentElement.removeAttribute('data-theme');
-      } else {
-        // System preference
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          document.documentElement.setAttribute('data-theme', 'dark');
-        }
-      }
-    })();
-  </script>
-  <script>
     // astro:page-load fires on the initial load AND after every ClientRouter
     // (View Transitions) navigation — unlike DOMContentLoaded, which fires only
     // once. Binding here re-attaches the hamburger, theme toggle, dropdown and
@@ -458,7 +457,8 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
 
       dropdownTrigger?.addEventListener('click', (e) => {
         e.stopPropagation();
-        navDropdown?.classList.toggle('open');
+        const open = navDropdown?.classList.toggle('open');
+        dropdownTrigger.setAttribute('aria-expanded', String(!!open));
       });
 
       // Bind once — document persists across navigations; query the dropdown
@@ -479,8 +479,9 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
       const mobileNav = document.getElementById('mobile-nav');
 
       hamburger?.addEventListener('click', () => {
-        mobileNav?.classList.toggle('open');
+        const open = mobileNav?.classList.toggle('open');
         document.body.classList.toggle('mobile-nav-open');
+        hamburger.setAttribute('aria-expanded', String(!!open));
       });
 
       // ── Keyboard Shortcuts ──
@@ -552,7 +553,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
               searchInput.focus();
               searchInput.select();
             } else {
-              window.location.href = (window as any).__base ? (window as any).__base + 'search/' : '/search/';
+              window.location.href = base + 'search/';
             }
             break;
           case 'j':
@@ -582,7 +583,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
             break;
           case 'h':
           case 'H':
-            window.location.href = '/';
+            window.location.href = base;
             break;
         }
         });

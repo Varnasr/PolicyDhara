@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
-import { getStateGovernments, getStateSlug, getAllPolicies, getStateProfile } from '../../lib/data';
+import { getStateGovernments, getStateSlug, getAllPolicies, getStateProfile, TYPE_COLORS } from '../../lib/data';
 
 export function getStaticPaths() {
   const govs = getStateGovernments();
@@ -39,10 +39,6 @@ for (const p of statePolicies) {
 }
 const typeBreakdown = Object.entries(typeCounts).sort(([,a], [,b]) => b - a);
 
-const TYPE_COLORS: Record<string, string> = {
-  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
-  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
-};
 
 const LEAN_COLORS: Record<string, string> = {
   'Left': '#dc2626',

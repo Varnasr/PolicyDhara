@@ -37,11 +37,10 @@ export function GET(context: APIContext & { props: { sectorName: string } }) {
       return {
         title: p.title,
         description: `[${p.sectors.join(', ')}] ${p.description}`,
-        link: p.link || `${siteRoot}/policies/${p.id}/`,
+        link: `${siteRoot}/policies/${p.id}/`,
         pubDate,
-        categories: p.sectors,
+        categories: [...p.sectors, p.source_short, p.type].filter(Boolean),
         content: renderPolicyHtml(p),
-        customData: `<source>${p.source_short}</source><type>${p.type}</type>`,
       };
     }),
     customData: `<language>en-in</language>`,

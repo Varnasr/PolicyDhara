@@ -1217,6 +1217,9 @@ body.mobile-nav-open { overflow: hidden; }
   padding-left: 16px;
 }
 .ticker-track:hover { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; }
+}
 .ticker-item {
   padding: 0 24px;
   display: inline-flex;

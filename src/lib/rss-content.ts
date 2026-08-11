@@ -15,6 +15,20 @@ const TYPE_COLORS: Record<string, { color: string; bg: string }> = {
   research:      { color: '#7c3aed', bg: '#f5f3ff' },
   announcement:  { color: '#2563eb', bg: '#eff6ff' },
   policy:        { color: '#9333ea', bg: '#faf5ff' },
+  act:           { color: '#dc2626', bg: '#fef2f2' },
+  rules:         { color: '#d97706', bg: '#fffbeb' },
+  bill:          { color: '#7c3aed', bg: '#f5f3ff' },
+  draft:         { color: '#d97706', bg: '#fffbeb' },
+  question:      { color: '#d97706', bg: '#fffbeb' },
+  committee_report: { color: '#7c3aed', bg: '#f5f3ff' },
+  debate:        { color: '#7c3aed', bg: '#f5f3ff' },
+  judgment:      { color: '#dc2626', bg: '#fef2f2' },
+  release:       { color: '#64748b', bg: '#f8fafc' },
+  report:        { color: '#7c3aed', bg: '#f5f3ff' },
+  analysis:      { color: '#7c3aed', bg: '#f5f3ff' },
+  longform:      { color: '#7c3aed', bg: '#f5f3ff' },
+  news:          { color: '#64748b', bg: '#f8fafc' },
+  opinion:       { color: '#64748b', bg: '#f8fafc' },
 };
 
 function escapeHtml(str: string): string {
@@ -38,7 +52,7 @@ export function renderPolicyHtml(p: PolicyItem): string {
   const source = escapeHtml(p.source_short || p.source_name || '');
   const desc = escapeHtml(p.description || '');
   const sectors = p.sectors.map(s =>
-    `<a href="${SITE_URL}/sectors/${getSectorSlug(s)}" style="color:#16a34a;text-decoration:none;font-size:12px;">${escapeHtml(s)}</a>`
+    `<a href="${SITE_URL}/sectors/${getSectorSlug(s)}/" style="color:#16a34a;text-decoration:none;font-size:12px;">${escapeHtml(s)}</a>`
   ).join(' &middot; ');
 
   return `<div style="font-family:-apple-system,'Libre Franklin','Segoe UI',system-ui,sans-serif;max-width:600px;margin:0 auto;color:#1a1a18;">
@@ -59,7 +73,7 @@ export function renderPolicyHtml(p: PolicyItem): string {
       <div style="margin-bottom:10px;">${sectors}</div>
       <div style="font-size:12px;color:#7a7a78;">
         <a href="${SITE_URL}" style="color:#16a34a;text-decoration:none;font-weight:500;">Browse all policies</a> &nbsp;&middot;&nbsp;
-        <a href="${SITE_URL}/digest" style="color:#16a34a;text-decoration:none;font-weight:500;">Today's digest</a> &nbsp;&middot;&nbsp;
+        <a href="${SITE_URL}/digest/" style="color:#16a34a;text-decoration:none;font-weight:500;">Today's digest</a> &nbsp;&middot;&nbsp;
         <a href="${SITE_URL}/rss.xml" style="color:#16a34a;text-decoration:none;font-weight:500;">RSS</a>
       </div>
       <div style="margin-top:10px;font-size:11px;color:#a0a09e;">

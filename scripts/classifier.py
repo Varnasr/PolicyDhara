@@ -4,6 +4,8 @@ Maps policy text (title + description) to one or more development sectors.
 No ML dependencies — runs fast in GitHub Actions.
 """
 
+import re
+
 # ─────────────────────────────────────────────────────────────────────────
 # Media / news sources. These are newspapers, TV, wires and opinion outlets:
 # they carry *coverage* of policy, not primary policy. Every item from one of
@@ -37,6 +39,11 @@ MEDIA_SOURCE_IDS = frozenset({
     "drishti_ias", "drishtiias_rss", "insights_ias",
     # Opinion magazines
     "article14", "caravanmag", "swarajya_mag",
+    # Aggregators of mixed government + media coverage. Not primary sources:
+    # without this entry policyradar inherited level "central" from
+    # feeds.json and its items (12% of the dataset) bypassed the relevance
+    # filters and the media cap entirely.
+    "policyradar",
 })
 
 
@@ -242,8 +249,6 @@ def categorize_item(title: str, description: str, source_id: str,
     the ceiling: journalism is `news`, research is `analysis`, and only
     official sources can produce instruments or process documents.
     """
-    import re
-
     authority = get_source_authority(source_id, source_config)
     text = f"{title} {description}".lower()
     title_l = title.lower()
@@ -386,8 +391,6 @@ def extract_comment_deadline(text: str) -> str:
     Only fires when a comment/consultation cue appears near the date, so an
     unrelated date in the same text doesn't become a fake deadline.
     """
-    import re
-
     t = text.lower()
     cue = re.search(
         r"(comments?|suggestions?|objections?|feedback|consultation)[^.]{0,120}?"
@@ -1180,16 +1183,45 @@ def normalize_sector_names(raw_sectors) -> list[str]:
     return result
 
 
+def _keyword_pattern(kw: str) -> re.Pattern:
+    """Compile a matcher for one sector keyword.
+
+    Short keywords (<= 4 chars) need word boundaries: bare substring
+    containment made "IT" fire on comm*it*tee, "SC" on *sc*heme, "port" on
+    su*pport* — which is how Digital & Technology ended up tagged on 61% of
+    the dataset. Acronyms (any uppercase letter) also match case-sensitively
+    so "IT" stops matching the pronoun "it". An optional trailing "s" keeps
+    plurals ("roads", "crops") matching. Longer keywords keep substring
+    matching so "scheme" still catches "schemes" and phrases behave as before.
+    """
+    escaped = re.escape(kw)
+    if len(kw) <= 4:
+        flags = 0 if any(c.isupper() for c in kw) else re.IGNORECASE
+        return re.compile(r"\b" + escaped + r"s?\b", flags)
+    return re.compile(escaped, re.IGNORECASE)
+
+
+_SECTOR_PATTERNS: dict[str, list] = {}
+
+
+def _sector_patterns() -> dict[str, list]:
+    if not _SECTOR_PATTERNS:
+        for sector, keywords in SECTOR_KEYWORDS.items():
+            _SECTOR_PATTERNS[sector] = [_keyword_pattern(kw) for kw in keywords]
+    return _SECTOR_PATTERNS
+
+
 def classify_policy(title: str, description: str = "", source_sectors=None) -> list[str]:
     """
     Classify a policy item into one or more sectors based on keyword matching.
     Returns a list of matched sector names, sorted by relevance (match count).
     """
-    text = f"{title} {description}".lower()
+    # Original case preserved: acronym patterns are case-sensitive.
+    text = f"{title} {description}"
     scores: dict[str, int] = {}
 
-    for sector, keywords in SECTOR_KEYWORDS.items():
-        score = sum(1 for kw in keywords if kw.lower() in text)
+    for sector, patterns in _sector_patterns().items():
+        score = sum(1 for pat in patterns if pat.search(text))
         if score > 0:
             scores[sector] = score
 

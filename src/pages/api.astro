@@ -410,16 +410,30 @@ const samplePolicy = policies[0] || {
   }
 </style>
 
-<script define:vars={{ policies: policies.map(p => ({ id: p.id, title: p.title, description: p.description, link: p.link, date: p.date, source_id: p.source_id, source_name: p.source_name, source_short: p.source_short, sectors: p.sectors, sector_slugs: p.sector_slugs, type: p.type })) }}>
-  document.addEventListener('DOMContentLoaded', () => {
+<script define:vars={{ base }}>
+  document.addEventListener('astro:page-load', () => {
     const sectorEl = document.getElementById('exp-sector');
+    if (!sectorEl) return; // not on the API page
+
+    // The full corpus used to be serialized into this page's HTML (~2 MB
+    // parsed on every visit) just to power the download buttons. Fetch it
+    // lazily instead; the browser caches the response.
+    let dataPromise = null;
+    function loadPolicies() {
+      if (!dataPromise) {
+        dataPromise = fetch(`${base}api/policies.json`)
+          .then(r => r.json())
+          .then(j => j.policies);
+      }
+      return dataPromise;
+    }
     const sourceEl = document.getElementById('exp-source');
     const typeEl = document.getElementById('exp-type');
     const fromEl = document.getElementById('exp-from');
     const toEl = document.getElementById('exp-to');
     const countEl = document.getElementById('exp-count');
 
-    function getFiltered() {
+    function getFiltered(policies) {
       return policies.filter(p => {
         if (sectorEl.value && !p.sectors.includes(sectorEl.value)) return false;
         if (sourceEl.value && p.source_short !== sourceEl.value) return false;
@@ -430,8 +444,9 @@ const samplePolicy = policies[0] || {
       });
     }
 
-    function updateCount() {
-      const filtered = getFiltered();
+    async function updateCount() {
+      countEl.textContent = 'Counting…';
+      const filtered = getFiltered(await loadPolicies());
       countEl.textContent = `${filtered.length} policies selected`;
     }
 
@@ -458,16 +473,16 @@ const samplePolicy = policies[0] || {
       return headers.join(',') + '\n' + rows.join('\n');
     }
 
-    document.getElementById('dl-json').addEventListener('click', () => {
-      downloadFile(JSON.stringify(policies, null, 2), 'policydhara-data.json', 'application/json');
+    document.getElementById('dl-json').addEventListener('click', async () => {
+      downloadFile(JSON.stringify(await loadPolicies(), null, 2), 'policydhara-data.json', 'application/json');
     });
 
-    document.getElementById('dl-csv').addEventListener('click', () => {
-      downloadFile(toCSV(policies), 'policydhara-data.csv', 'text/csv');
+    document.getElementById('dl-csv').addEventListener('click', async () => {
+      downloadFile(toCSV(await loadPolicies()), 'policydhara-data.csv', 'text/csv');
     });
 
-    document.getElementById('dl-json-filtered').addEventListener('click', () => {
-      const filtered = getFiltered();
+    document.getElementById('dl-json-filtered').addEventListener('click', async () => {
+      const filtered = getFiltered(await loadPolicies());
       downloadFile(JSON.stringify(filtered, null, 2), 'policydhara-filtered.json', 'application/json');
     });
   });

@@ -429,17 +429,23 @@ class TestAmendmentLogCap:
         )
 
     def test_stale_policy_ids_gc_ed(self, fetch_all):
-        """Policies that were once amended but no longer exist in `existing`
-        (dropped off the per-source cap, merged into a fuzzy-match, etc.)
-        must not stay in the log forever."""
-        existing = {"live": {"id": "live", "title": "Alive"}}
+        """Policies that were once amended but are not in the FINAL merged
+        dataset (dropped off the per-source cap, merged into a fuzzy-match,
+        trimmed by the media cap, etc.) must not stay in the log forever.
+        The GC runs in merge_policies against the post-cap dataset — running
+        it earlier against `existing` left orphan histories for items the
+        cap later dropped."""
+        fetch_all.AMENDMENTS_FILE = fetch_all.DATA_DIR / "amendments.json"
+        existing = {"live": {"id": "live", "title": "Alive", "source_id": "s"}}
         amendments = {
             "live": [{"date": "2026-01-01", "field": "description", "old_value": "a", "new_value": "b"}],
             "zombie": [{"date": "2024-06-15", "field": "description", "old_value": "x", "new_value": "y"}],
         }
-        fetch_all.detect_amendments(existing, new_items=[], amendments=amendments)
-        assert "live" in amendments
-        assert "zombie" not in amendments, (
+        fetch_all.save_amendments(amendments)
+        fetch_all.merge_policies(existing, new_items=[])
+        saved = fetch_all.load_amendments()
+        assert "live" in saved
+        assert "zombie" not in saved, (
             "amendments for dropped policy IDs must be GC'd; otherwise the "
             "log accumulates zombies forever"
         )

@@ -3882,7 +3882,8 @@
       "reliability": "high",
       "description": "Curated policy intelligence aggregating 240+ Indian government and media sources with priority classification",
       "covers_sectors": "all",
-      "level": "central"
+      "india_only": false,
+      "level": "media"
     },
     "psa": {
       "name": "Principal Scientific Adviser to GoI",

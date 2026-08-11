@@ -1,6 +1,6 @@
 import rss from '@astrojs/rss';
 import type { APIContext, GetStaticPaths } from 'astro';
-import { getAllPolicies, getMeta } from '../../../lib/data';
+import { getAllPolicies } from '../../../lib/data';
 import { renderPolicyHtml } from '../../../lib/rss-content';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -37,15 +37,21 @@ function loadMinistrySources(): Array<{ id: string; slug: string; name: string; 
 }
 
 export const getStaticPaths: GetStaticPaths = () => {
-  const meta = getMeta();
-  const counts = meta.source_counts || {};
+  // Count items per source_id directly. meta.source_counts is keyed by
+  // source_short ("PIB"), not source_id ("pib_law_and_justice"), so looking
+  // m.id up there always returned undefined and every ministry feed was
+  // silently skipped — the whole /rss/ministry/* tree emitted zero pages.
+  const countsById = new Map<string, number>();
+  for (const p of getAllPolicies()) {
+    countsById.set(p.source_id, (countsById.get(p.source_id) || 0) + 1);
+  }
   const ministries = loadMinistrySources();
 
   return ministries
     // Skip ministries that haven't contributed any items yet — an empty
     // RSS feed is worse than a 404 (crawlers treat it as "no news
     // available" and stop polling).
-    .filter(m => (counts[m.id] || 0) > 0)
+    .filter(m => (countsById.get(m.id) || 0) > 0)
     .map(m => ({
       params: { ministry: m.slug },
       props: { ministry: m },
@@ -73,11 +79,10 @@ export function GET(context: APIContext & { props: { ministry: { id: string; nam
       return {
         title: p.title,
         description: p.description,
-        link: p.link || `${siteRoot}/policies/${p.id}/`,
+        link: `${siteRoot}/policies/${p.id}/`,
         pubDate,
-        categories: p.sectors,
+        categories: [...p.sectors, p.source_short, p.type].filter(Boolean),
         content: renderPolicyHtml(p),
-        customData: `<source>${p.source_short}</source><type>${p.type}</type>`,
       };
     }),
     customData: `<language>en-in</language>`,

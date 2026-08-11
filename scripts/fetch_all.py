@@ -32,7 +32,6 @@ from classifier import (
 PROJECT_ROOT = Path(__file__).parent.parent
 FEEDS_CONFIG = PROJECT_ROOT / "feeds.json"
 DATA_DIR = PROJECT_ROOT / "data"
-POLICIES_DIR = PROJECT_ROOT / "src" / "content" / "policies"
 MAX_ITEMS_PER_SOURCE = 50
 MAX_TOTAL_ITEMS = 2000
 # Generalist-news feeds out-produce official sources by an order of
@@ -190,7 +189,6 @@ _JUNK_TITLE_PATTERNS = [
     r'^(Home|Login|Register|Contact Us|Sitemap|Disclaimer|FAQ)$',
     r'^(Skip to |Jump to )',
     r'^Money Market Operations',
-    r'^Statement\s*\n',
 ]
 _JUNK_RE = re.compile('|'.join(_JUNK_TITLE_PATTERNS), re.IGNORECASE)
 
@@ -251,17 +249,28 @@ def load_historical_seed() -> list[dict]:
 
 
 def load_existing_policies() -> dict:
-    """Load already-fetched policies to avoid duplicates."""
+    """Load already-fetched policies to avoid duplicates.
+
+    A corrupt policies.json is a hard error, not an empty dict: if this
+    returned {} the merge would emit only the current fetch cycle and the
+    write step would silently overwrite the accumulated archive with it.
+    Better to fail the run and keep the last good commit.
+    """
     existing = {}
     data_file = DATA_DIR / "policies.json"
     if data_file.exists():
         try:
             with open(data_file) as f:
                 items = json.load(f)
-                for item in items:
-                    existing[item.get("id", "")] = item
-        except (json.JSONDecodeError, KeyError):
-            pass
+        except json.JSONDecodeError as e:
+            raise SystemExit(
+                f"FATAL: {data_file} exists but is not valid JSON ({e}). "
+                "Refusing to continue — merging against an empty archive "
+                "would overwrite the accumulated dataset. Restore the file "
+                "from git and re-run."
+            )
+        for item in items:
+            existing[item.get("id", "")] = item
     return existing
 
 
@@ -277,10 +286,21 @@ def _normalize_for_compare(text: str) -> str:
 
 
 def _title_similarity(a: str, b: str) -> float:
-    """Fuzzy title similarity (mirrors titleSimilarity in data.ts)."""
+    """Fuzzy title similarity (mirrors titleSimilarity in data.ts).
+
+    Numeric tokens are excluded — a shared year is not evidence of a shared
+    subject — and non-ASCII word characters are kept so Devanagari titles
+    compare on their words instead of collapsing to their digits. (The old
+    `[^a-z0-9 ]` strip reduced Hindi titles to bare years, which then scored
+    1.0 against any title containing the same year and flooded the amendment
+    log with false "description changed" events.)
+    """
     stop = {"the", "a", "an", "of", "for", "and", "in", "on", "to", "with", "by", "from"}
     def words(t):
-        return {w for w in re.sub(r'[^a-z0-9 ]', '', t.lower()).split() if len(w) > 3 and w not in stop}
+        return {
+            w for w in re.sub(r'[^\w\s]', '', t.lower()).split()
+            if len(w) > 3 and w not in stop and not w.isdigit()
+        }
     wa, wb = words(a), words(b)
     if not wa or not wb:
         return 0.0
@@ -389,14 +409,6 @@ def detect_amendments(existing: dict, new_items: list[dict], amendments: dict) -
                     })
                 break  # one match per new item
 
-    # --- GC: drop amendments for policies no longer in existing ---
-    # A policy can leave `existing` when it drops off the per-source cap
-    # or when its ID changes after a dedup pass. Without this, the log
-    # grows forever.
-    stale_ids = [pid for pid in amendments if pid not in existing]
-    for pid in stale_ids:
-        del amendments[pid]
-
     return amendments
 
 
@@ -493,6 +505,17 @@ def merge_policies(existing: dict, new_items: list[dict]) -> list[dict]:
     # Combine and sort all by date
     all_items = live_items + seed_items
     all_items.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
+
+    # --- GC: drop amendment histories for policies not in the final dataset.
+    # Runs here (after dedup and the media cap) rather than inside
+    # detect_amendments, which only saw the pre-cap `existing` snapshot and
+    # left orphan histories for items the cap later dropped.
+    final_ids = {i.get("id") for i in all_items}
+    stale_ids = [pid for pid in amendments if pid not in final_ids]
+    for pid in stale_ids:
+        del amendments[pid]
+    save_amendments(amendments)
+
     return all_items
 
 
@@ -517,33 +540,24 @@ def enforce_media_cap(live_items: list[dict], reserved: int = 0) -> list[dict]:
     media.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
     official.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
 
-    # Non-media takes priority for the raw slot budget.
-    official = official[:budget]
-    remaining = budget - len(official)
+    # Media gets up to its fraction of the final dataset; official items fill
+    # every remaining slot. (The previous version let official items consume
+    # the whole budget first and gave media only the leftovers — which were
+    # zero whenever official supply exceeded the budget, so the published
+    # dataset contained no media at all and the "cap" was really a ban.)
+    media_slots = min(len(media), int(MEDIA_CAP_FRACTION * (budget + reserved)))
+    official_kept = min(len(official), budget - media_slots)
 
-    non_media_total = reserved + len(official)
+    # If official supply is thin, re-shrink media so its share of the final
+    # dataset still respects the cap: media <= f/(1-f) * non_media.
     # Floor (not round) so the resulting share never rounds *above* the cap.
     ratio_cap = int(
-        (MEDIA_CAP_FRACTION / (1 - MEDIA_CAP_FRACTION)) * non_media_total
+        (MEDIA_CAP_FRACTION / (1 - MEDIA_CAP_FRACTION)) * (reserved + official_kept)
     )
-    media_slots = max(0, min(remaining, ratio_cap))
-    return official + media[:media_slots]
+    media_slots = min(media_slots, max(0, ratio_cap))
+    official_kept = min(len(official), budget - media_slots)
 
-
-def write_astro_content(policies: list[dict]):
-    """Write individual JSON files for Astro content collection."""
-    # Clean existing
-    if POLICIES_DIR.exists():
-        for f in POLICIES_DIR.glob("*.json"):
-            f.unlink()
-    POLICIES_DIR.mkdir(parents=True, exist_ok=True)
-
-    for item in policies:
-        filepath = POLICIES_DIR / f"{item['id']}.json"
-        with open(filepath, "w") as f:
-            json.dump(item, f, indent=2, ensure_ascii=False)
-
-    print(f"  Wrote {len(policies)} content files to {POLICIES_DIR}")
+    return official[:official_kept] + media[:media_slots]
 
 
 def write_data_json(policies: list[dict]):
@@ -697,6 +711,13 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
             # If no date from source, try to extract from title
             if not date:
                 date = extract_date_from_title(title)
+            else:
+                # Source-provided dates get the same "never future" cap as
+                # title-derived ones — fuzzy date parsing occasionally pulls
+                # a future effective-date out of the text.
+                today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+                if date > today:
+                    date = today
 
             # Leave date empty if the source didn't expose one and we couldn't
             # parse it from the title. Stamping today's date here pollutes the
@@ -839,7 +860,6 @@ def main():
 
     # Write outputs
     write_data_json(merged)
-    write_astro_content(merged)
 
     # Fetch parliamentary committee reports (ParliamentWatch integration)
     try:

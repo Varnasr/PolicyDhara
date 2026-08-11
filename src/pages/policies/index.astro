@@ -256,10 +256,17 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
 </style>
 
 <script define:vars={{ INITIAL_SHOW }}>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
     const cards = wraps.map(w => w.querySelector('.policy-card')).filter(Boolean);
     const searchInput = document.getElementById('browse-search');
+    if (!searchInput) return; // not on the browse page
+
+    // The hidden-card class only handles the pre-JS initial paint. Once JS
+    // owns visibility, drop it — the class's CSS rule outranks the inline
+    // `style.display = ''` that applyFilters uses to reveal cards, which is
+    // why "Show more" updated the count but never showed anything.
+    wraps.forEach(w => w.classList.remove('hidden-card'));
     const sectorSelect = document.getElementById('browse-sector');
     const sourceSelect = document.getElementById('browse-source');
     const noResults = document.getElementById('no-results');

@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
 import ShareBar from '../../components/ShareBar.astro';
 import CiteBox from '../../components/CiteBox.astro';
-import { getAllPolicies, getRelatedPolicies, getMeta, getImpactForPolicy, getAmendmentsForPolicy } from '../../lib/data';
+import { getAllPolicies, getRelatedPolicies, getMeta, getImpactForPolicy, getAmendmentsForPolicy, TYPE_COLORS, TYPE_CONTEXT, TYPE_LABELS } from '../../lib/data';
 import type { Amendment } from '../../lib/data';
 import { enrichPolicy } from '../../lib/enrich';
 
@@ -47,33 +47,19 @@ function daysSince(dateStr: string): number {
   return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86400000);
 }
 
-const TYPE_COLORS: Record<string, string> = {
-  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
-  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
-};
 const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
-
-const TYPE_CONTEXT: Record<string, string> = {
-  legislation: 'Legislative action — a bill, act, or amendment that creates or modifies the legal framework. Carries binding force and shapes the rules under which citizens, institutions, and markets operate.',
-  notification: 'Official government notification — a formal executive order that operationalises policy decisions. Carries legal weight and specifies rules, dates, exemptions, or procedural requirements.',
-  scheme: 'Government scheme — a structured programme with defined beneficiaries, budget allocation, and delivery mechanisms. The primary instrument for delivering welfare and development outcomes.',
-  budget: 'Budgetary action — an allocation, fiscal policy change, or expenditure decision shaping how public resources flow. Reveals government priorities and affects programme implementation capacity.',
-  research: 'Research or analytical publication — an evidence-based assessment informing policy design and evaluation. Shapes the intellectual framework within which policy debates occur.',
-  announcement: 'Official announcement — a public communication of a policy decision, milestone, or initiative. Signals government intent and often precedes formal notification or legislative action.',
-  policy: 'Policy framework or directive — a strategic document setting direction, principles, and objectives for governance. Guides the design of schemes, legislation, and implementation strategies.',
-};
 
 // Spectrum position (for the visual bar)
 const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 to 0..100
 
 ---
-<Base title={policy.title} description={policy.description || `${policy.type.charAt(0).toUpperCase() + policy.type.slice(1)} from ${policy.source_short} — ${policy.sectors.join(', ')}.`}>
+<Base title={policy.title} description={policy.description || `${TYPE_LABELS[policy.type] || policy.type} from ${policy.source_short} — ${policy.sectors.join(', ')}.`}>
   <div class="policy-detail" data-pagefind-body>
     <span data-pagefind-meta={`title:${policy.title}`} class="visually-hidden"></span>
     <span data-pagefind-meta={`type:${policy.type}`} class="visually-hidden"></span>
     <span data-pagefind-meta={`source:${policy.source_short}`} class="visually-hidden"></span>
     <span data-pagefind-meta={`date:${policy.date}`} class="visually-hidden"></span>
-    <span data-pagefind-filter={`sector:${policy.sectors.join('|')}`} class="visually-hidden"></span>
+    {policy.sectors.map((s: string) => <span data-pagefind-filter={`sector:${s}`} class="visually-hidden"></span>)}
     <span data-pagefind-filter={`type:${policy.type}`} class="visually-hidden"></span>
     <span data-pagefind-filter={`source:${policy.source_short}`} class="visually-hidden"></span>
     <nav class="breadcrumb">
@@ -87,7 +73,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
     <article class="detail-main">
       <div class="detail-topbar">
         <span class="detail-type" style={`background: ${typeColor}15; color: ${typeColor}; border: 1px solid ${typeColor}30;`}>
-          {policy.type}
+          {TYPE_LABELS[policy.type] || policy.type}
         </span>
         <span class="detail-source">{policy.source_short}</span>
         <span class="detail-date">{formatDate(policy.date)}</span>
@@ -108,7 +94,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
       />
 
       <div class="detail-context-card">
-        <p>{TYPE_CONTEXT[policy.type] || TYPE_CONTEXT['policy']}</p>
+        <p>{TYPE_CONTEXT[policy.type] || TYPE_CONTEXT['release']}</p>
       </div>
 
       {policy.description && (
@@ -125,7 +111,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
           <div class="fact-grid">
             <div class="fact-item">
               <span class="fact-label">Type</span>
-              <span class="fact-value" style={`color: ${typeColor};`}>{policy.type.charAt(0).toUpperCase() + policy.type.slice(1)}</span>
+              <span class="fact-value" style={`color: ${typeColor};`}>{TYPE_LABELS[policy.type] || policy.type}</span>
             </div>
             <div class="fact-item">
               <span class="fact-label">Source</span>

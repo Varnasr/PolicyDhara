@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PolicyCard from '../../components/PolicyCard.astro';
-import { getAllPolicies, getMeta, getSectorSlug, getSectorInsight, getKind } from '../../lib/data';
+import { getAllPolicies, getMeta, getSectorSlug, getSectorInsight, getKind, TYPE_COLORS } from '../../lib/data';
 import type { Kind } from '../../lib/data';
 import { getDebatesForSector } from '../../lib/history';
 
@@ -21,14 +21,6 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 const policies = getAllPolicies().filter(p => p.sector_slugs.includes(sector!));
 const insight = getSectorInsight(sectorName);
 
-const TYPE_COLORS: Record<string, string> = {
-  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
-  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
-  act: '#dc2626', rules: '#d97706', bill: '#7c3aed', draft: '#d97706',
-  question: '#d97706', committee_report: '#7c3aed', debate: '#7c3aed',
-  judgment: '#dc2626', release: '#64748b', report: '#7c3aed',
-  analysis: '#7c3aed', longform: '#7c3aed', news: '#64748b', opinion: '#64748b',
-};
 
 const maxType = Math.max(...insight.typeBreakdown.map(t => t.count), 1);
 

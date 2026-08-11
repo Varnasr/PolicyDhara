@@ -225,7 +225,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     document.querySelectorAll('.day-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.day-tab').forEach(t => t.classList.remove('active'));

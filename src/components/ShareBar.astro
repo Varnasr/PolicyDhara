@@ -79,7 +79,7 @@ const { title, url, description = '', compact = false } = Astro.props;
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     document.querySelectorAll('.share-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const el = btn as HTMLElement;

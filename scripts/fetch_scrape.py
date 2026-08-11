@@ -10,6 +10,8 @@ Uses browser-like headers to avoid 403 blocks from .gov.in sites.
 
 import re
 import json
+import time
+
 import requests
 from datetime import datetime, timezone
 from urllib.parse import urlparse
@@ -29,8 +31,12 @@ HEADERS = {
 TIMEOUT = 10
 
 
-def safe_get(url: str, headers: dict = None) -> requests.Response | None:
-    """Make a safe HTTP GET request with retries (max 2 attempts)."""
+def safe_get(url: str, headers: dict | None = None) -> requests.Response | None:
+    """Make a safe HTTP GET request with retries (max 2 attempts).
+
+    A short backoff before the retry gives rate-limiting .gov.in hosts a
+    chance to recover — an immediate retry almost always fails the same way.
+    """
     hdrs = headers or HEADERS
     for attempt in range(2):
         try:
@@ -41,6 +47,7 @@ def safe_get(url: str, headers: dict = None) -> requests.Response | None:
             print(f"  Attempt {attempt + 1} failed for {url}: {e}")
             if attempt == 1:
                 return None
+            time.sleep(2)
     return None
 
 
@@ -77,7 +84,7 @@ def scrape_pib(config: dict) -> list[dict]:
     if not resp:
         return []
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
 
     # Find press release links on the homepage
@@ -126,7 +133,7 @@ def scrape_india_code(config: dict) -> list[dict]:
         if not resp:
             continue
 
-        soup = BeautifulSoup(resp.text, "lxml")
+        soup = BeautifulSoup(resp.content, "lxml")
 
         for tr in soup.select("table tr"):
             cells = tr.select("td")
@@ -160,7 +167,7 @@ def scrape_egazette(config: dict) -> list[dict]:
     if not resp:
         return []
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
 
     for row in soup.select("table tr, .gazette-item, .list-item, .notification-item"):
@@ -202,7 +209,7 @@ def scrape_niti_aayog(config: dict) -> list[dict]:
         if not resp:
             continue
 
-        soup = BeautifulSoup(resp.text, "lxml")
+        soup = BeautifulSoup(resp.content, "lxml")
 
         # NITI Aayog uses Drupal views-row divs
         for row in soup.select(".views-row, .node-article, article, .publication-item, .view-content .item-list li"):
@@ -247,7 +254,7 @@ def scrape_parliament(config: dict) -> list[dict]:
         if not resp:
             continue
 
-        soup = BeautifulSoup(resp.text, "lxml")
+        soup = BeautifulSoup(resp.content, "lxml")
 
         for row in soup.select("table tbody tr, .bill-item, .list-group-item, article"):
             cells = row.select("td")
@@ -297,7 +304,7 @@ def scrape_rbi(config: dict) -> list[dict]:
     if not resp:
         return []
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
 
     # RBI press releases page uses table format
@@ -341,7 +348,7 @@ def scrape_rbi_notifications(config: dict) -> list[dict]:
     if not resp:
         return []
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items: list[dict] = []
     seen: set[str] = set()
     current_date = ""
@@ -610,7 +617,7 @@ def scrape_ministry(config: dict) -> list[dict]:
     if not resp:
         return []
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
     seen_links: set[str] = set()
 
@@ -724,7 +731,7 @@ def scrape_orf(config: dict) -> list[dict]:
     if not resp:
         return []
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
     seen = set()
 
@@ -1103,7 +1110,7 @@ def fetch_scrape_source(source_id: str, config: dict) -> list[dict]:
     if not resp:
         return []
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     rss_url = discover_rss_url(soup, url)
     if not rss_url:
         return []

@@ -56,7 +56,7 @@ def fetch_year(year: int) -> list[dict]:
     resp = safe_get(BROWSE.format(year=year))
     if not resp:
         return []
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     acts = []
     seen = set()
     for tr in soup.select("table tr"):

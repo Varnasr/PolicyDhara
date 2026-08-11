@@ -45,11 +45,11 @@
       var limit = el.getAttribute('data-limit') || '5';
       var theme = el.getAttribute('data-theme') || 'light';
 
-      // Build iframe URL
-      var params = [];
-      if (sector) params.push('sector=' + encodeURIComponent(sector));
-      if (limit && limit !== '5') params.push('limit=' + encodeURIComponent(limit));
-      var iframeSrc = EMBED_BASE + (params.length ? '?' + params.join('&') : '');
+      // Build iframe URL. Sectors are static routes (the site is statically
+      // hosted, so a ?sector= query param can't select content server-side);
+      // the limit is applied client-side inside the iframe.
+      var iframeSrc = EMBED_BASE + (sector ? encodeURIComponent(sector) + '/' : '');
+      if (limit && limit !== '5') iframeSrc += '?limit=' + encodeURIComponent(limit);
 
       // Calculate height based on limit
       var numItems = parseInt(limit, 10) || 5;

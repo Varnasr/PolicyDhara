@@ -193,7 +193,7 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
 </script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     // Copy buttons
     document.querySelectorAll('.embed-copy-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -220,16 +220,16 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       const limit = limitSelect.value;
       const slug = sector ? sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-') : '';
 
-      const params = new URLSearchParams();
-      if (slug) params.set('sector', slug);
-      if (limit !== '5') params.set('limit', limit);
-      const qs = params.toString();
+      // Sector selects a static route; the limit rides along as a query
+      // param the iframe applies client-side.
+      const path = slug ? `${slug}/` : '';
+      const qs = limit !== '5' ? `?limit=${limit}` : '';
 
       const embedBase = 'https://varnasr.github.io/PolicyDhara/embed/';
       const localBase = feedIframe.src.split('/embed/feed/')[0] + '/embed/feed/';
 
-      feedCode.textContent = `<iframe src="${embedBase}feed/${qs ? '?' + qs : ''}" width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>`;
-      feedIframe.src = `${localBase}${qs ? '?' + qs : ''}`;
+      feedCode.textContent = `<iframe src="${embedBase}feed/${path}${qs}" width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>`;
+      feedIframe.src = `${localBase}${path}${qs}`;
     }
 
     sectorSelect?.addEventListener('change', updateFeed);

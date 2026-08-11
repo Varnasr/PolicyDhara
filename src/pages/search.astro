@@ -12,17 +12,8 @@ const types = [...new Set(policies.map(p => p.type))].sort();
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
-// Build a lightweight search index at build time
-const searchIndex = policies.map(p => ({
-  id: p.id,
-  t: p.title,
-  d: p.description,
-  dt: p.date,
-  src: p.source_short,
-  sec: p.sectors,
-  ty: p.type,
-  lk: p.link,
-}));
+// The compact search index is served from /api/search-index.json and
+// fetched client-side (it used to be inlined into this page's HTML).
 ---
 <Base title="Search Policies" description="Search across all tracked Indian development policies by keyword, sector, source, and date.">
   <div style="padding: var(--space-xl) 0;">
@@ -327,11 +318,10 @@ const searchIndex = policies.map(p => ({
     if (pagefindInitialized) return;
     pagefindInitialized = true;
     try {
-      // @ts-ignore - dynamic import of static asset
-      const mod = await import(`${base}_pagefind/pagefind-ui.js`);
-      const PagefindUI = mod.PagefindUI || mod.default?.PagefindUI || window.PagefindUI;
-      if (!PagefindUI) {
-        // Fallback: load via <script> tag
+      // pagefind-ui.js is a build-time asset outside the Vite graph — a
+      // dynamic import() with a runtime path can't be bundled and reliably
+      // failed, so load it as a plain script tag from the start.
+      if (!window.PagefindUI) {
         await new Promise((resolve, reject) => {
           const s = document.createElement('script');
           s.src = `${base}_pagefind/pagefind-ui.js`;
@@ -340,7 +330,7 @@ const searchIndex = policies.map(p => ({
           document.head.appendChild(s);
         });
       }
-      const Ctor = window.PagefindUI || PagefindUI;
+      const Ctor = window.PagefindUI;
       if (Ctor) {
         new Ctor({
           element: '#pagefind-search',
@@ -357,13 +347,17 @@ const searchIndex = policies.map(p => ({
     }
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
+  // astro:page-load fires on the initial load AND after every ClientRouter
+  // navigation; DOMContentLoaded fires only on a full page load, which left
+  // this page inert when reached via an in-site link.
+  document.addEventListener('astro:page-load', () => {
     const fastEl = document.getElementById('search-results');
     const fullEl = document.getElementById('pagefind-search');
     const initialEl = document.getElementById('search-initial');
     const emptyEl = document.getElementById('search-empty');
     const buttons = document.querySelectorAll('.search-mode-btn');
     const fastFilters = document.querySelector('.search-filters');
+    if (!fastEl && !fullEl) return; // not on the search page
 
     function setMode(mode) {
       buttons.forEach(b => b.classList.toggle('active', b.dataset.mode === mode));
@@ -385,9 +379,25 @@ const searchIndex = policies.map(p => ({
   });
 </script>
 
-<script define:vars={{ searchIndex, base }}>
-  document.addEventListener('DOMContentLoaded', () => {
+<script define:vars={{ base }}>
+  document.addEventListener('astro:page-load', async () => {
     const input = document.getElementById('search-input');
+    if (!input) return; // not on the search page
+
+    // The index used to be serialized into this page's HTML (~2 MB on every
+    // visit). Fetch it instead — the browser caches it across visits.
+    let searchIndex = window.__pdSearchIndex;
+    if (!searchIndex) {
+      try {
+        const resp = await fetch(`${base}api/search-index.json`);
+        searchIndex = (await resp.json()).index;
+        window.__pdSearchIndex = searchIndex;
+      } catch {
+        const metaElErr = document.getElementById('search-meta');
+        if (metaElErr) metaElErr.textContent = 'Could not load the search index — try refreshing.';
+        return;
+      }
+    }
     const sectorFilter = document.getElementById('filter-sector');
     const sourceFilter = document.getElementById('filter-source');
     const typeFilter = document.getElementById('filter-type');
@@ -399,16 +409,23 @@ const searchIndex = policies.map(p => ({
     const initialEl = document.getElementById('search-initial');
     const kbdEl = document.querySelector('.search-kbd');
 
-    // Press / to focus search
-    document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== input) {
-        e.preventDefault();
-        input.focus();
-      }
-      if (e.key === 'Escape' && document.activeElement === input) {
-        input.blur();
-      }
-    });
+    // Press / to focus search. Registered once on the persistent document
+    // (this init re-runs on every astro:page-load); the live input is looked
+    // up per keystroke so the handler never holds a detached element.
+    if (!window.__searchKeysBound) {
+      window.__searchKeysBound = true;
+      document.addEventListener('keydown', (e) => {
+        const liveInput = document.getElementById('search-input');
+        if (!liveInput) return;
+        if (e.key === '/' && document.activeElement !== liveInput) {
+          e.preventDefault();
+          liveInput.focus();
+        }
+        if (e.key === 'Escape' && document.activeElement === liveInput) {
+          liveInput.blur();
+        }
+      });
+    }
 
     // Hide kbd when focused
     input.addEventListener('focus', () => { if (kbdEl) kbdEl.style.display = 'none'; });

@@ -1,5 +1,5 @@
 ---
-import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getPolicyItems, getSectorSlug, getEraDistribution, getLegislativeEraDistribution, getStateGovernments } from '../lib/data';
+import { getTypeDistribution, getTopSectors, getWeeklyTrends, getMeta, getPolicyItems, getSectorSlug, getEraDistribution, getLegislativeEraDistribution, getStateGovernments, TYPE_COLORS } from '../lib/data';
 import type { PolicyItem } from '../lib/data';
 
 const typeDist = getTypeDistribution();
@@ -29,10 +29,6 @@ const recentWeeks = weeklyTrends.slice(-12);
 const maxWeekly = Math.max(...recentWeeks.map(w => w.count), 1);
 
 // Type colors for the bar chart
-const TYPE_COLORS: Record<string, string> = {
-  legislation: '#dc2626', notification: '#d97706', scheme: '#16a34a',
-  budget: '#ea580c', research: '#7c3aed', announcement: '#2563eb', policy: '#9333ea',
-};
 
 // Top sector max for bar widths
 const maxSectorCount = Math.max(...topSectors.map(s => s.count), 1);

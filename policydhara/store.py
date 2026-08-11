@@ -200,7 +200,8 @@ class PolicyStore:
         output = io.StringIO()
         fieldnames = [
             "id", "title", "description", "link", "date",
-            "source_id", "source_name", "sectors", "type", "level", "state",
+            "source_id", "source_name", "sectors", "type",
+            "kind", "authority", "comment_deadline", "level", "state",
         ]
         writer = csv.DictWriter(output, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()

@@ -17,6 +17,17 @@ updates:
       - "python"
     open-pull-requests-limit: 2
 
+  # The live pipeline's manifest — without this entry dependabot only
+  # watched the package metadata in pyproject.toml.
+  - package-ecosystem: "pip"
+    directory: "/scripts"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "python"
+    open-pull-requests-limit: 2
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
