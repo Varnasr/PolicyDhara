@@ -146,6 +146,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Gender & Women, Housing",
+      "new_value": "Gender & Women, Social Protection",
+      "source_id": "historical"
     }
   ],
   "6d6cdf1cdf12": [
@@ -288,6 +295,13 @@
       "old_value": "Provides free LPG connections to women from Below Poverty Line households to replace unclean cooking fuels. Over 10 crore connections released, significantly reducing indoor air pollution and health risks for rural women.",
       "new_value": "Government of India press release: Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore h...",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Health, Social Protection",
+      "new_value": "Energy, Gender & Women, Health, Rural Development",
+      "source_id": "historical"
     }
   ],
   "bc02d8d166fd": [
@@ -430,6 +444,13 @@
       "old_value": "Port-led development programme to modernise India's ports, enhance port connectivity, develop coastal economic zones, and promote coastal shipping. Envisaged investment of over Rs 8 lakh crore.",
       "new_value": "Government of India press release: SAGARMALA PROGRAMME AND PORT MODERNISATION",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Transport & Infrastructure",
+      "new_value": "Trade & Commerce, Transport & Infrastructure",
+      "source_id": "historical"
     }
   ],
   "3b8edcd48114": [
@@ -572,6 +593,13 @@
       "old_value": "Rs 76,000 crore programme to establish a semiconductor and display manufacturing ecosystem in India. Provides fiscal support of up to 50% of project cost for setting up semiconductor fabs, OSAT, and design centres.",
       "new_value": "India Semiconductor Mission 2.0 seeks to strengthen the country’s semiconductor value chain through investments in chip design, fabrication, advanced packaging, research and talent development, while expanding domestic electronics manufacturing capabilities.",
       "source_id": "ibef"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy",
+      "new_value": "Digital & Technology, Science & Innovation, Trade & Commerce",
+      "source_id": "historical"
     }
   ],
   "da79f4386fab": [
@@ -581,6 +609,13 @@
       "old_value": "Urban renewal programme to develop 100 smart cities with core infrastructure, sustainable environment, and technology-driven solutions. Total investment of Rs 2.05 lakh crore across selected cities.",
       "new_value": "His remarks come days after he posed questions in the Lok Sabha to the Ministry of Housing and Urban Affairs on the Smart Cities Mission (SCM)",
       "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Digital & Technology, Urban Development",
+      "new_value": "Digital & Technology, Transport & Infrastructure, Urban Development",
+      "source_id": "historical"
     }
   ],
   "c10ddfdaa448": [
@@ -653,6 +688,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Trade & Commerce",
+      "new_value": "Finance & Economy, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "d5d85bedba11": [
@@ -662,6 +704,13 @@
       "old_value": "Landmark agreement enabling civil nuclear cooperation between India and the United States, ending India's nuclear isolation. Allowed India access to civilian nuclear technology and fuel from the global market.",
       "new_value": "Government of India press release: PARLIAMENT QUESTION: IMPACT OF INDO–US NUCLEAR AGREEMENT",
       "source_id": "pib"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Energy, Social Protection",
+      "new_value": "Defence & Security, Energy, Science & Innovation",
+      "source_id": "historical"
     }
   ],
   "570ffc98b546": [
@@ -684,6 +733,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology",
+      "new_value": "Digital & Technology, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -827,6 +883,13 @@
       "old_value": "Incentive scheme across 14 key sectors including electronics, pharmaceuticals, automobiles, and textiles with total outlay of Rs 1.97 lakh crore. Aims to boost domestic manufacturing, create jobs, and reduce import dependence.",
       "new_value": "Government of India press release: Production Linked Incentive Schemes Strengthen India's Electronics Manufacturing Ecos...",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Health, Trade & Commerce",
+      "new_value": "Finance & Economy, Science & Innovation, Trade & Commerce",
+      "source_id": "historical"
     }
   ],
   "59001c1a6b60": [
@@ -836,6 +899,13 @@
       "old_value": "Rooftop solar programme providing free electricity up to 300 units per month to 1 crore households through subsidised rooftop solar installations. Government subsidy covers panels up to 3 kW capacity.",
       "new_value": "‘Karnataka has one of the lowest adoptions with some 23,900 households under Surya Ghar Yojana while Gujarat reported over 5.7 lakh homes under rooftop solar systems installations’",
       "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy, Housing",
+      "source_id": "historical"
     }
   ],
   "eee0acfe5526": [
@@ -851,6 +921,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Gender & Women, Governance & Reform, Social Protection",
+      "new_value": "Gender & Women, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -994,6 +1071,13 @@
       "old_value": "Rs 20,050 crore flagship scheme for sustainable and responsible development of fisheries sector. Aims to enhance fish production by 70 lakh tonnes, generate 55 lakh employment opportunities, and double fisheries exports.",
       "new_value": "Government of India press release: Union Fisheries Secretary visits ornamental fish brood bank and interacted with Progressive Fish Farmers under Pradhan Mantri Matsya Sampada Yojna (PMMSY) at Maharashtra",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Labour & Employment, Trade & Commerce",
+      "new_value": "Agriculture, Rural Development",
+      "source_id": "historical"
     }
   ],
   "c3fd81846a80": [
@@ -1010,6 +1094,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Finance & Economy, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "cdbcadaca893": [
@@ -1025,6 +1116,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Labour & Employment, Trade & Commerce",
+      "new_value": "Finance & Economy, Trade & Commerce",
       "source_id": "historical"
     }
   ],
@@ -1048,6 +1146,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Digital & Technology, Science & Innovation",
+      "new_value": "Education, Science & Innovation",
       "source_id": "historical"
     }
   ],
@@ -1191,6 +1296,13 @@
       "old_value": "World's largest government-funded health insurance scheme providing Rs 5 lakh per family per year for secondary and tertiary care hospitalisation. Covers over 55 crore beneficiaries from vulnerable families.",
       "new_value": "Government of India press release: Update on Ayushman Bharat Pradhan Mantri Jan Arogya Yojna (AB PM-JAY)",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Health",
+      "new_value": "Health, Social Protection",
+      "source_id": "historical"
     }
   ],
   "e1705e2599c1": [
@@ -1206,6 +1318,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Digital & Technology, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -1349,6 +1468,13 @@
       "old_value": "Rs 19,744 crore mission to make India a global hub for green hydrogen production and export. Targets 5 million tonnes per annum of green hydrogen production capacity by 2030, reducing fossil fuel dependence.",
       "new_value": "Government of India press release: National Green Hydrogen Mission Advances Green Hydrogen Adoption in Petroleum and Refining Sector",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy, Trade & Commerce",
+      "new_value": "Climate & Environment, Energy, Science & Innovation",
+      "source_id": "historical"
     }
   ],
   "9079db3524af": [
@@ -1357,6 +1483,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "scheme",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology",
+      "new_value": "Digital & Technology, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -1367,6 +1500,13 @@
       "old_value": "policy",
       "new_value": "scheme",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Science & Innovation, Social Protection",
+      "new_value": "Digital & Technology, Finance & Economy, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "c1bcb51ac9ef": [
@@ -1375,6 +1515,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "scheme",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Finance & Economy, Science & Innovation",
+      "new_value": "Finance & Economy, Trade & Commerce",
       "source_id": "historical"
     }
   ],
@@ -1392,6 +1539,13 @@
       "old_value": "policy",
       "new_value": "release",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy",
+      "new_value": "Finance & Economy, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "6878750fb14e": [
@@ -1400,6 +1554,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "scheme",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
+      "new_value": "Digital & Technology, Finance & Economy, Science & Innovation",
       "source_id": "historical"
     }
   ],
@@ -1426,6 +1587,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Labour & Employment, Social Protection, Trade & Commerce",
+      "new_value": "Governance & Reform, Labour & Employment, Social Protection",
+      "source_id": "historical"
     }
   ],
   "975cff56d498": [
@@ -1434,6 +1602,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "scheme",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Transport & Infrastructure, Water & Sanitation",
+      "new_value": "Digital & Technology, Governance & Reform, Transport & Infrastructure",
       "source_id": "historical"
     }
   ],
@@ -1451,6 +1626,13 @@
       "old_value": "policy",
       "new_value": "release",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Defence & Security, Finance & Economy",
+      "new_value": "Finance & Economy, Trade & Commerce",
+      "source_id": "historical"
     }
   ],
   "304238acff41": [
@@ -1459,6 +1641,13 @@
       "field": "type",
       "old_value": "scheme",
       "new_value": "notification",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Climate & Environment, Finance & Economy",
+      "new_value": "Climate & Environment, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -1609,6 +1798,13 @@
       "old_value": "Development of over 14,500 PM Schools for Rising India (PM SHRI) to showcase NEP 2020 implementation. Provides green, safe, inclusive, and stimulating learning environments with emphasis on modern pedagogy.",
       "new_value": "Government of India press release: Implementation of National Education Policy in HEIs",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Disability & Inclusion, Education",
+      "new_value": "Child Rights & Youth, Education",
+      "source_id": "historical"
     }
   ],
   "50d766411e32": [
@@ -1893,6 +2089,13 @@
       "old_value": "First comprehensive education policy in 34 years replacing the 1986 policy. Introduces 5+3+3+4 school structure, multidisciplinary higher education, mother tongue instruction till Grade 5, and targets 50% GER in higher education by 2035.",
       "new_value": "Government of India press release: Alignment of NCERT Syllabus with National Education Policy 2020",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Education",
+      "new_value": "Child Rights & Youth, Education",
+      "source_id": "historical"
     }
   ],
   "8f78b1c0d290": [
@@ -2409,6 +2612,13 @@
       "old_value": "Comprehensive health policy raising public health expenditure target to 2.5% of GDP. Emphasised Health and Wellness Centres for universal primary healthcare, health assurance, and preventive and promotive healthcare.",
       "new_value": "The endocrinologist explains how his district-level experiment prompted the Centre to build its first national system for childhood type 1 diabetes care.",
       "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Health",
+      "new_value": "Health",
+      "source_id": "historical"
     }
   ],
   "627b8f1c2a0a": [
@@ -3551,13 +3761,6 @@
       "field": "description",
       "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
       "new_value": "Government of India press release: From Financial Constraints to MBA Aspirations: How Top-Class Education Support Helped Telu Jhansi Vijay Krishna Pursue Higher Education",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
-      "new_value": "Government of India press release: From Financial Constraints to MBA Aspirations: How Top-Class Education Support Helped Telu Jhansi Vijay Krishna Pursue Higher Education",
       "source_id": "pib_ifsc_authority"
     },
     {
@@ -3685,6 +3888,13 @@
       "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
       "new_value": "The latest changes redraw responsibilities across several key departments, with senior bureaucrats receiving new assignments following a series of recent retirements.",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Higher Education niti_admin Thu, 07/16/2026 - 16:33 Weight 0",
+      "new_value": "The latest changes redraw responsibilities across several key departments, with senior bureaucrats receiving new assignments following a series of recent retirements.",
+      "source_id": "business_line"
     }
   ],
   "fcecc91f5849": [
@@ -3701,6 +3911,13 @@
       "old_value": "India's last Five Year Plan targeting 8% GDP growth with emphasis on health, education, and sustainable development. Introduced focus on governance improvements and the shift towards outcome-based monitoring.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard_new"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Education, Health",
+      "new_value": "Finance & Economy, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "dad369cfd2f2": [
@@ -4010,6 +4227,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Governance & Reform",
+      "new_value": "Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "37d0a72ee1de": [
@@ -4168,6 +4392,13 @@
       "old_value": "Recognises the rights of forest-dwelling tribal communities and other traditional forest dwellers to forest land and resources. Corrects historical injustice by vesting land and resource rights.",
       "new_value": "Government of India press release: FOREST RIGHTS ACT",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Social Protection, Tribal & Indigenous",
+      "new_value": "Climate & Environment, Tribal & Indigenous",
+      "source_id": "historical"
     }
   ],
   "b9a0401d6042": [
@@ -4317,6 +4548,13 @@
       "old_value": "Mandated 27% reservation for Other Backward Classes in central educational institutions including IITs, IIMs, and central universities. Implemented after Supreme Court upheld its constitutional validity.",
       "new_value": "Government of India press release: Vacancies in Central Educational Institutions",
       "source_id": "pib"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Education, Governance & Reform, Social Protection",
+      "new_value": "Education, Social Protection",
+      "source_id": "historical"
     }
   ],
   "b75ffa7ac3ac": [
@@ -4466,6 +4704,13 @@
       "old_value": "Provided social security framework for unorganised sector workers covering life and disability cover, health and maternity benefits, and old age protection. Established National and State Social Security Boards.",
       "new_value": "Government of India press release: SOCIAL SECURITY FOR UNORGANISED WORKERS THROUGH E-SHRAM PORTAL",
       "source_id": "pib"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Gender & Women, Health, Social Protection",
+      "new_value": "Labour & Employment, Social Protection",
+      "source_id": "historical"
     }
   ],
   "ba2399974895": [
@@ -4474,6 +4719,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Child Rights & Youth, Education, Social Protection",
+      "new_value": "Child Rights & Youth, Education",
       "source_id": "historical"
     }
   ],
@@ -4484,6 +4736,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Social Protection",
+      "new_value": "Agriculture, Social Protection",
+      "source_id": "historical"
     }
   ],
   "dc431bed8a30": [
@@ -4493,6 +4752,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Finance & Economy, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "c0c8cf258433": [
@@ -4501,6 +4767,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Governance & Reform, Rural Development, Social Protection",
       "source_id": "historical"
     }
   ],
@@ -4518,6 +4791,13 @@
       "old_value": "Defines and prohibits sexual harassment at the workplace and establishes Internal Complaints Committees and Local Complaints Committees for redressal. Applies to both organised and unorganised sectors.",
       "new_value": "Government of India press release: Awareness Program on “Prevention of Sexual Harassment of Women at Workplace”",
       "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Gender & Women",
+      "new_value": "Gender & Women, Labour & Employment",
+      "source_id": "historical"
     }
   ],
   "e20a726b6037": [
@@ -4536,6 +4816,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Gender & Women, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "72b43322d9c6": [
@@ -4544,6 +4831,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Finance & Economy, Social Protection",
+      "new_value": "Finance & Economy",
       "source_id": "historical"
     }
   ],
@@ -4554,6 +4848,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Housing, Social Protection, Urban Development",
+      "new_value": "Governance & Reform, Housing, Urban Development",
+      "source_id": "historical"
     }
   ],
   "ca09ef979f44": [
@@ -4562,6 +4863,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology",
+      "new_value": "Digital & Technology, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -4572,6 +4880,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Governance & Reform",
+      "new_value": "Finance & Economy, Governance & Reform, Trade & Commerce",
+      "source_id": "historical"
     }
   ],
   "286040a0cff7": [
@@ -4580,6 +4895,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Gender & Women",
+      "new_value": "Gender & Women, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -4590,6 +4912,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Governance & Reform, Social Protection",
+      "source_id": "historical"
     }
   ],
   "8bf674298da2": [
@@ -4598,6 +4927,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Defence & Security, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -4608,6 +4944,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Governance & Reform, Trade & Commerce",
+      "new_value": "Agriculture, Trade & Commerce",
+      "source_id": "historical"
     }
   ],
   "b5653086e54f": [
@@ -4616,6 +4959,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Governance & Reform",
+      "new_value": "Agriculture",
       "source_id": "historical"
     }
   ],
@@ -4626,6 +4976,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology",
+      "new_value": "Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "203d7d53b8a7": [
@@ -4634,6 +4991,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Finance & Economy, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -4653,6 +5017,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Gender & Women, Governance & Reform",
+      "new_value": "Governance & Reform, Social Protection",
+      "source_id": "historical"
     }
   ],
   "953a0d05e227": [
@@ -4662,6 +5033,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Transport & Infrastructure",
+      "new_value": "Governance & Reform, Transport & Infrastructure",
+      "source_id": "historical"
     }
   ],
   "c5c3c913c305": [
@@ -4670,6 +5048,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Urban Development",
+      "new_value": "Climate & Environment, Governance & Reform",
       "source_id": "historical"
     }
   ],
@@ -4689,6 +5074,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Social Protection",
+      "new_value": "Energy, Trade & Commerce",
+      "source_id": "historical"
     }
   ],
   "31d4266af961": [
@@ -4697,6 +5089,13 @@
       "field": "type",
       "old_value": "policy",
       "new_value": "act",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Defence & Security, Social Protection",
+      "new_value": "Energy, Science & Innovation, Trade & Commerce",
       "source_id": "historical"
     }
   ],
@@ -4707,6 +5106,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Education, Energy, Tribal & Indigenous",
+      "new_value": "Education, Tribal & Indigenous",
+      "source_id": "historical"
     }
   ],
   "8994b548f1f5": [
@@ -4716,175 +5122,13 @@
       "old_value": "policy",
       "new_value": "act",
       "source_id": "historical"
-    }
-  ],
-  "139aab6e17b7": [
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
     },
     {
       "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, […] The post From the Archives | World Water Day appeared first on CPR.",
-      "new_value": "Water is not just a resource; it is also the confluence of political and ecological realities. At CPR, this has been central to our interdisciplinary work on river basin management, interstate cooperation, the politics of infrastructure, federalism, and long-term water security. Our continued engagement with questions of India’s water policy spans decades, with stalwarts like Ramaswamy R. Iyer, B. […] The post From the Archives | World Water Day appeared first on CPR.",
-      "source_id": "cprindia"
-    }
-  ],
-  "61022426b6a1": [
-    {
-      "date": "2026-07-19",
       "field": "sectors",
-      "old_value": "Civil Liberties, Governance & Reform",
-      "new_value": "Governance & Reform",
-      "source_id": "nhrc"
-    }
-  ],
-  "390c16422861": [
-    {
-      "date": "2026-07-19",
-      "field": "sectors",
-      "old_value": "Civil Liberties, Governance & Reform",
-      "new_value": "Governance & Reform",
-      "source_id": "nhrc"
-    }
-  ],
-  "4b288d2b92b1": [
-    {
-      "date": "2026-07-19",
-      "field": "sectors",
-      "old_value": "Civil Liberties, Governance & Reform",
-      "new_value": "Governance & Reform",
-      "source_id": "nhrc"
+      "old_value": "Climate & Environment, Energy, Governance & Reform",
+      "new_value": "Energy, Governance & Reform",
+      "source_id": "historical"
     }
   ],
   "bb327c669e3f": [
@@ -4966,69 +5210,6 @@
       "source_id": "seci"
     },
     {
-      "date": "2026-08-10",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Finance & Economy, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Energy, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Energy, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Finance & Economy, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Energy, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Energy, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "sectors",
-      "old_value": "Social Protection",
-      "new_value": "Digital & Technology, Finance & Economy, Social Protection",
-      "source_id": "seci"
-    },
-    {
       "date": "2026-08-11",
       "field": "sectors",
       "old_value": "Social Protection",
@@ -5125,18 +5306,95 @@
       "old_value": "Digital & Technology, Energy, Social Protection",
       "new_value": "Social Protection",
       "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "EOI for Identification and Capability Assessment of Agencies for Geothermal Resource Assessment, Exploration, Development, and Utilization of Geothermal Power Plant in Union Territory of Andaman & Nicobar Islands, India",
+      "new_value": "Selection of Agency for conducting Gap Assessment for compliance with Digital Personal Data Protection Act, 2023 at SECI (SECI/C&P/IT/12/004/26-27)",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Digital & Technology",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "EOI for Identification and Capability Assessment of Agencies for Geothermal Resource Assessment, Exploration, Development, and Utilization of Geothermal Power Plant in Union Territory of Andaman & Nicobar Islands, India",
+      "new_value": "The procurement of Phasor Measurement Unit (PMU) for 100 MW SPV with 40 MW/120 MWh BESS Project at Rajnandgaon, Chhattisgarh",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "EOI for Identification and Capability Assessment of Agencies for Geothermal Resource Assessment, Exploration, Development, and Utilization of Geothermal Power Plant in Union Territory of Andaman & Nicobar Islands, India",
+      "new_value": "Scope of Supply & Work includes design & engineering, procurement & supply of equipment and materials, testing at manufacturers works, multi-level inspections, packing and forwarding, supply, receipt, unloading and storage at site, associated civil works, services, obtaining permits, licenses, installation and incidentals, insurance at all stages, erection, testing and commissioning of 922.635 kW Rooftop Solar PV projects, and performance demonstration with associated equipment and materials on",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Energy, Finance & Economy, Social Protection",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Social Protection",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
     }
   ],
   "fe4b680c2aa0": [
     {
       "date": "2026-07-20",
-      "field": "description",
-      "old_value": "The delimitation debate should not be viewed as a contest between democracy and federalism. Rather, it concerns the appropriate balance between electoral equality and territorial accommodation within a federal polity. Among the alternatives considered, the allocation of only incremental seats, according to contemporary population, emerges as a possible middle path that merits consideration in future political deliberations.",
-      "new_value": "The impending post-2026 delimitation exercise has revived concerns over the allocation of Lok Sabha seats among Indian states. This paper argues that a purely population-based allocation formula is no longer adequate for preserving federal balance. It proposes a two-part approach: the existing allocation of 543 Lok Sabha seats should remain unchanged, while any additional seats created through Lok Sabha expansion should be distributed according to a demographic performance principle derived from",
-      "source_id": "epw"
-    },
-    {
-      "date": "2026-07-20",
       "field": "sectors",
       "old_value": "Digital & Technology, Governance & Reform, Social Protection",
       "new_value": "Digital & Technology, Energy, Social Protection",
@@ -5407,6 +5665,13 @@
       "old_value": "Digital & Technology, Governance & Reform, Social Protection",
       "new_value": "Digital & Technology, Energy, Social Protection",
       "source_id": "epw"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The delimitation debate should not be viewed as a contest between democracy and federalism. Rather, it concerns the appropriate balance between electoral equality and territorial accommodation within a federal polity. Among the alternatives considered, the allocation of only incremental seats, according to contemporary population, emerges as a possible middle path that merits consideration in future political deliberations.",
+      "new_value": "After detailed deliberations on key issues before Parliament, the Shiromani Akali Dal also demanded a fair and equitable delimitation that ensures equal representation to all states, Badal said.",
+      "source_id": "livemint_policy"
     }
   ],
   "37ba715edf7e": [
@@ -5863,148 +6128,6 @@
       "old_value": "Consumer Awareness Program at Chandigarh (Chandigarh) by Radio Madhuban Community Society ypjaipur Fri, 07/17/2026 - 13:33 Date Tue, 07/28/2026 - 12:00 District Chandigarh Division Consumer Affairs Date & Time Tue, 07/28/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Yashwant Patil Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Brahmakumaris Community Center, H No.5607, Modern Housing Complex, Sector 13, Mani, Ma",
       "new_value": "Consumer Awareness Program at Chandigarh (Chandigarh) by Radio Madhuban Community Society ypjaipur Fri, 07/17/2026 - 13:33 Date Fri, 08/28/2026 - 12:00 District Chandigarh Division Consumer Affairs Date & Time Fri, 08/28/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Yashwant Patil Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Brahmakumaris Community Hall, Prabhu Upvan, House Number 3303, Sector 28 D, Chandigadh",
       "source_id": "trai"
-    }
-  ],
-  "13bf7c60706c": [
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: TRAI Hosts Workshop to Improve Quality of Audit in Digital Addressable Systems ( DAS ) Ecosystem",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: National Digitization Drive Workshop Strengthens India’s Manuscript Preservation Framework; Union Minister of Culture Calls for Sustained National Effort in Digitization",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: TRAI Hosts Workshop to Improve Quality of Audit in Digital Addressable Systems ( DAS ) Ecosystem",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: National Digitization Drive Workshop Strengthens India’s Manuscript Preservation Framework; Union Minister of Culture Calls for Sustained National Effort in Digitization",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: TRAI Hosts Workshop to Improve Quality of Audit in Digital Addressable Systems ( DAS ) Ecosystem",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: National Digitization Drive Workshop Strengthens India’s Manuscript Preservation Framework; Union Minister of Culture Calls for Sustained National Effort in Digitization",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: TRAI Hosts Workshop to Improve Quality of Audit in Digital Addressable Systems ( DAS ...",
-      "source_id": "state_pib_assam"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "TRAI Hosts Workshop to Improve Quality of Audit in DAS Ecosystem nitinkumar Fri, 07/31/2026 - 17:53 File Press Release No. 106 (95.62 KB) Date Fri, 07/31/2026 - 12:00",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Department of Commerce Holds Workshop on Trade and Sustainable Development Policy Lan...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Government of India press release: Department of Commerce Holds Workshop on Trade and Sustainable Development Policy Lan...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-03",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Consumer Education Workshop at Jaipur (Rajasthan) by RailTel Corporation of India Ltd. nitinkumar Mon, 08/03/2026 - 11:20 Date Mon, 08/10/2026 - 12:00 District Jaipur Division Consumer Affairs Date & Time Mon, 08/10/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Vipin Agarwal Contact person Email vipin@acemicro.in Event Category COP By TRAI Venue Details 119/86, Agarwal Farm, Mansarovar, Jaipur - 302020 Event From Consumer Awareness( TSPs ) Cont",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "The National Law Institute University (NLIU), Bhopal, established in 1997, is recognised by the University Grants Commission (UGC) and the Bar Council of India (BCI). The University offers legal education and research through interdisciplinary teaching, research and policy engagement. The workshop is being organised by the DPIIT-IPR Chair, NLIU Bhopal, established by the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, Government of India, under",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Three-day programme trains scholars in ethical research",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "The National Law Institute University (NLIU), Bhopal, established in 1997, is recognised by the University Grants Commission (UGC) and the Bar Council of India (BCI). The University offers legal education and research through interdisciplinary teaching, research and policy engagement. The workshop is being organised by the DPIIT-IPR Chair, NLIU Bhopal, established by the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, Government of India, under",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "The Gujarat Maritime University (GMU), in association with the National Judicial Academy (NJA), is organising a two-day Judicial Workshop on Admiralty & Shipping Laws.The workshop will be held on August 8 and 9, 2026 at GMU, Gandhinagar. It will bring together judges exercising Admiralty Jurisdiction from the High Courts of Calcutta, Bombay, Madras, Gujarat, Orissa, Kerala and Andhra Pradesh, along with judicial resource persons, for deliberations on admiralty and shipping law.As per the pre",
-      "source_id": "barandbench"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Music director P.S. Vidyadharan will inaugurate the workshop on Saturday morning.",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "The Principal District & Sessions Court, Durg, organised a comprehensive joint workshop on 'Mediation 3.0', 'Nyaya Shruti' and the Interoperable Criminal Justice System (ICJS) on Thursday, bringing together Judicial Officers, Public Prosecutors and court staff to deliberate on digital justice initiatives, electronic evidence management and mediation as part of efforts to strengthen technology-driven and citizen-centric justice delivery. The workshop was organised in continuation of the vision ou",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "The Principal District & Sessions Court, Durg, organised a comprehensive joint workshop on 'Mediation 3.0', 'Nyaya Shruti' and the Interoperable Criminal Justice System (ICJS) on Thursday, bringing together Judicial Officers, Public Prosecutors and court staff to deliberate on digital justice initiatives, electronic evidence management and mediation as part of efforts to strengthen technology-driven and citizen-centric justice delivery. The workshop was organised in continuation of the vision ou",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "The Principal District & Sessions Court, Durg, organised a comprehensive joint workshop on 'Mediation 3.0', 'Nyaya Shruti' and the Interoperable Criminal Justice System (ICJS) on Thursday, bringing together Judicial Officers, Public Prosecutors and court staff to deliberate on digital justice initiatives, electronic evidence management and mediation as part of efforts to strengthen technology-driven and citizen-centric justice delivery. The workshop was organised in continuation of the vision ou",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "The Telegraph, Guwahati, May 16, 2012",
-      "new_value": "Hidayatullah National Law University (HNLU), Raipur, through its Centre for Law and Indigenous People, in collaboration with the Centre for Constitutional Law and Federalism under the CG Learn Programme, organised a one-day workshop on \"Auditing Access to Justice for Indigenous Communities: Measuring Inclusion, Accountability, and Transformative Justice\" on August 8. Former Judge of the Chhattisgarh High Court, Justice Arvind Kumar Verma, attended the programme as the Chief Guest. The workshop b",
-      "source_id": "livelaw"
     }
   ],
   "195aba68595f": [
@@ -6705,6 +6828,13 @@
       "old_value": "The result of the auction of State Government Securities held on July 28, 2026, is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2039 ANDHRA PRADESH SGS 2051 GUJARAT SGS 2035 GUJARAT SGS 2038 Notified Amount 1000 1600 1000 1000 Tenor Re-issue of 7.56% ANDHRA SGS 2039 issued on 01-JUL-2026 25 -Years Re-issue of 7.38% GUJARAT SGS 2035 issued on 15-JUL-2026 Re-issue of 7.51% GUJARAT SGS 2038 issued on 15-JUL-2026 Competitive Bids Received         (i) No. 81 45 10",
       "new_value": "The result of the auction of State Government Securities held on August 04, 2026, is as under: (Amount in ₹ Crore)   ASSAM SGS* 2036 BIHAR SGS 2035 BIHAR SGS 2051 CHHATTISGARH SGS 2035 Notified Amount 1000 800 1200 500 Tenor Re-issue of 7.56% ASSAM SGS 2036 issued on 22-JUL-2026 Re-issue of 7.42% BIHAR SGS 2035 issued on 08-JUL-2026 Re-issue of 7.92% BIHAR SGS 2051 issued on 15-APR-2026 Re-issue of 7.40% CHHATTISGARH SGS 2035 issued on 08-JUL-2026 Competitive Bids Received   &nbs",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The result of the auction of State Government Securities held on August 04, 2026, is as under: (Amount in ₹ Crore)   ASSAM SGS* 2036 BIHAR SGS 2035 BIHAR SGS 2051 CHHATTISGARH SGS 2035 Notified Amount 1000 800 1200 500 Tenor Re-issue of 7.56% ASSAM SGS 2036 issued on 22-JUL-2026 Re-issue of 7.42% BIHAR SGS 2035 issued on 08-JUL-2026 Re-issue of 7.92% BIHAR SGS 2051 issued on 15-APR-2026 Re-issue of 7.40% CHHATTISGARH SGS 2035 issued on 08-JUL-2026 Competitive Bids Received   &nbs",
+      "new_value": "The result of the auction of State Government Securities held on August 11, 2026, is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2035 ANDHRA PRADESH SGS 2043 ANDHRA PRADESH SGS 2056 GUJARAT SGS 2035 Notified Amount 1000 1200 1600 1000 Tenor 9 -Years Re-issue of 7.65% ANDHRA SGS 2043 issued on 11-MAR-2026 30 -Years Re-issue of 7.38% GUJARAT SGS 2035 issued on 15-JUL-2026 Competitive Bids Received         (i) No. 65 99 37 107 (ii) Amount 2754.747 3070 5955 431",
+      "source_id": "rbi"
     }
   ],
   "cfefb7994873": [
@@ -6728,6 +6858,13 @@
       "old_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Andhra Pradesh 1000 1000 99.58/7.6105 Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 1600 1600 7.68 25 2. Gujarat 1000 1000 100.07/7.3685 Re-issue of 7.38% Gujarat SGS 2035, issued on July 15, 2026 1000 1000 100.23/7.4799 Re-issue of 7.51% Gujarat SGS 2038, issued on July 15, 2026 3. Maharashtra* 1000 1250 101.40/6.9911 Re-issue of 7.35% Maharash",
       "new_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam* 1000 930.030 99.79/7.5897 Re-issue of 7.56% Assam SGS 2036, issued on July 22, 2026 2. Bihar 800 800 99.41/7.5106 Re-issue of 7.42% Bihar SGS 2035, issued on July 08, 2026 1200 1200 102.41/7.6988 Re-issue of 7.92% Bihar SGS 2051, issued on April 15, 2026 3. Chhattisgarh 500 500 99.35/7.4999 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 5",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam* 1000 930.030 99.79/7.5897 Re-issue of 7.56% Assam SGS 2036, issued on July 22, 2026 2. Bihar 800 800 99.41/7.5106 Re-issue of 7.42% Bihar SGS 2035, issued on July 08, 2026 1200 1200 102.41/7.6988 Re-issue of 7.92% Bihar SGS 2051, issued on April 15, 2026 3. Chhattisgarh 500 500 99.35/7.4999 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 5",
+      "new_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield (%) Tenor(Year) 1. Andhra Pradesh 1000 1000 7.46 09 1200 1200 99.98/7.6511 Re-issue of 7.65% Andhra Pradesh SGS 2043, issued on March 11, 2026 1600 1600 7.64 30 2. Gujarat 1000 1000 100.10/7.3632 Re-issue of 7.38% Gujarat SGS 2035, issued on July 15, 2026 1500 1500 100.29/7.4717 Re-issue of 7.51% Gujarat SGS 2038, issued on July 15, 2026 3. Maharashtra 2400 2400 101.09/7.3591 Re-issue o",
+      "source_id": "rbi"
     }
   ],
   "893dcef33e38": [
@@ -6740,20 +6877,6 @@
     }
   ],
   "8c899acd431d": [
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
-      "new_value": "A sessions court in Mumbai on August 7 denied anticipatory bail to two students, who in an event held at TISS campus, for paying homage to GN Saibaba, raised slogans for freeing Sharjeel Imam and Umar Khalid, who are facing trial in a UAPA case. Additional Sessions Judge VB Bohra�said that the Supreme Court had denied bail to Sharjeel Imam and Umar Khalid and thus students must respect the law of the land. The Court�refused to grant bail to Abhirup Paul (32) and Kamakhya Prasad Das (23) who alon",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
-      "new_value": "The film director lured the actor to his house in Mumbai's Malwani on the pretext of discussing an upcoming film and allegedly sexually assaulted her.",
-      "source_id": "ndtv_india"
-    },
     {
       "date": "2026-08-09",
       "field": "description",
@@ -6879,6 +7002,20 @@
       "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
       "new_value": "The police acted against Sahida Fakir despite her family submitting her birth and school certificates, her voter ID card and a land title, her husband said.",
       "source_id": "scroll"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
+      "new_value": "The lean manufacturing success story opens a high-value defence export market",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Tue, 07/21/2026 - 11:41 File Download (2.39 MB) date Tue, 07/21/2026 - 12:00 Report type Performance Reports Service area Mumbai Period Jan-March Year 2026",
+      "new_value": "The police acted against Sahida Fakir despite her family submitting her birth and school certificates, her voter ID card and a land title, her husband said.",
+      "source_id": "scroll"
     }
   ],
   "c004957bec1d": [
@@ -6925,6 +7062,13 @@
       "old_value": "Large-scale internship programme offering 1 crore internship opportunities with top 500 companies over five years. Provides Rs 5,000 monthly allowance and Rs 6,000 one-time assistance targeting youth aged 21-24.",
       "new_value": "Report",
       "source_id": "newslaundry"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Child Rights & Youth",
+      "new_value": "Child Rights & Youth, Education, Labour & Employment",
+      "source_id": "historical"
     }
   ],
   "3b9919923b0c": [
@@ -7049,148 +7193,6 @@
       "old_value": "Consumer Awareness Program at Jamnagar (Gujarat) by Rajkot Saher Jilla Grahak Suraksha Mandal ypjaipur Fri, 07/17/2026 - 10:07 Date Tue, 07/28/2026 - 12:00 District Jamnagar Division Consumer Affairs Date & Time Tue, 07/28/2026 - 09:30 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Dillip Kumar Jena Contact person Email shree9info@gmail.com Event Category COP By TRAI Venue Details Conference Hall, Bhavan's Shri A. K. Doshi Mahila College, Mahila College Road",
       "new_value": "Consumer Awareness Program at Ahmedabad (Gujarat) by Bhavnagar Grahak Suraksha Mandal ypjaipur Wed, 07/22/2026 - 09:37 Date Wed, 08/05/2026 - 12:00 District Ahmedabad Division Consumer Affairs Date & Time Wed, 08/05/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Sanjay Sharm Contact person Email campusdirector@nsitifscs.ac.in Event Category COP By TRAI Venue Details Narnarayan Shastri Institute of Technology, Institue of Forensic Sciences and Cy",
       "source_id": "trai"
-    }
-  ],
-  "4e0368730633": [
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_surface_transport"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: Implementation of National Cooperation Policy, 2025",
-      "new_value": "Government of India press release: Review of National Cooperation Policy, 2025",
-      "source_id": "state_pib_karnataka"
     }
   ],
   "0e5e42a6c4ec": [
@@ -7342,15 +7344,6 @@
       "old_value": "The Ministry of Tourism has sanctioned 117 tourism infrastructure projects worth US$ 612 million over the last two years to strengthen destinations, improve visitor amenities and boost tourism-led economic growth.",
       "new_value": "The Ministry of Tourism has approved 117 tourism infrastructure projects with a total investment of ₹5,756.62 crore over the last two years to improve tourism facilities, enhance visitor experiences and promote sustainable destination development…",
       "source_id": "ecgov"
-    }
-  ],
-  "4076b369a424": [
-    {
-      "date": "2026-07-22",
-      "field": "description",
-      "old_value": "Government of India press release: New Aadhar Seva Kendra inaugurated in Kanchipuram",
-      "new_value": "Government of India press release: Smt. R. Revathi, District Collector, Thanjavur inaugurated New Aadhar Seva Kendra",
-      "source_id": "state_pib_punjab"
     }
   ],
   "292312f76bdd": [
@@ -7875,36 +7868,6 @@
       "source_id": "policyradar"
     }
   ],
-  "a85d6c7c2732": [
-    {
-      "date": "2026-07-24",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
-      "new_value": "Governance & Reform",
-      "source_id": "epw"
-    },
-    {
-      "date": "2026-07-24",
-      "field": "sectors",
-      "old_value": "Governance & Reform",
-      "new_value": "Digital & Technology, Finance & Economy, Social Protection",
-      "source_id": "epw"
-    },
-    {
-      "date": "2026-07-25",
-      "field": "sectors",
-      "old_value": "Digital & Technology, Finance & Economy, Social Protection",
-      "new_value": "Governance & Reform",
-      "source_id": "epw"
-    },
-    {
-      "date": "2026-08-08",
-      "field": "sectors",
-      "old_value": "Governance & Reform",
-      "new_value": "Digital & Technology, Energy, Social Protection",
-      "source_id": "epw"
-    }
-  ],
   "b8c899d23bff": [
     {
       "date": "2026-07-24",
@@ -8134,6 +8097,13 @@
       "old_value": "Rs 2,481 crore programme to promote chemical-free farming across 1 crore farmers in 15,000 clusters covering all Gram Panchayats. Provides training, bio-input resource centres, and certification for sustainable agricultural practices.",
       "new_value": "Government of India press release: PROGRESS OF NATURAL FARMING UNDER THE NATIONAL MISSION FOR NATURAL FARMING",
       "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Rural Development",
+      "new_value": "Agriculture, Climate & Environment",
+      "source_id": "historical"
     }
   ],
   "fce05c42ac96": [
@@ -8277,59 +8247,6 @@
       "source_id": "rbi"
     }
   ],
-  "bda6b6cac5f4": [
-    {
-      "date": "2026-07-25",
-      "field": "sectors",
-      "old_value": "Governance & Reform",
-      "new_value": "Agriculture, Digital & Technology, Social Protection",
-      "source_id": "epw"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "After being relatively stable till the 1980s, India witnessed a significant structural shift during the post-reform period. Using annual time series data from 1991 to 2022, structural transformation in India is examined with a focus on gender disparities in employment transitions from the agriculture sector. The findings reveal that India witnessed a workforce movement—from agriculture to industry and services—a symbol of the country’s economic progress. However, the process of change was not eq",
-      "new_value": "The company's gross margin was 50.1%, including a favourable impact of approximately 2% points from tariff refunds",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "After being relatively stable till the 1980s, India witnessed a significant structural shift during the post-reform period. Using annual time series data from 1991 to 2022, structural transformation in India is examined with a focus on gender disparities in employment transitions from the agriculture sector. The findings reveal that India witnessed a workforce movement—from agriculture to industry and services—a symbol of the country’s economic progress. However, the process of change was not eq",
-      "new_value": "July 20 police brutality at Amit Shah's behest turning point for protest: CJP chief",
-      "source_id": "indiatoday_rss"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "sectors",
-      "old_value": "Agriculture, Digital & Technology, Social Protection",
-      "new_value": "Governance & Reform",
-      "source_id": "epw"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "description",
-      "old_value": "After being relatively stable till the 1980s, India witnessed a significant structural shift during the post-reform period. Using annual time series data from 1991 to 2022, structural transformation in India is examined with a focus on gender disparities in employment transitions from the agriculture sector. The findings reveal that India witnessed a workforce movement—from agriculture to industry and services—a symbol of the country’s economic progress. However, the process of change was not eq",
-      "new_value": "The company's gross margin was 50.1%, including a favourable impact of approximately 2% points from tariff refunds",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "description",
-      "old_value": "After being relatively stable till the 1980s, India witnessed a significant structural shift during the post-reform period. Using annual time series data from 1991 to 2022, structural transformation in India is examined with a focus on gender disparities in employment transitions from the agriculture sector. The findings reveal that India witnessed a workforce movement—from agriculture to industry and services—a symbol of the country’s economic progress. However, the process of change was not eq",
-      "new_value": "July 20 police brutality at Amit Shah's behest turning point for protest: CJP chief",
-      "source_id": "indiatoday_rss"
-    }
-  ],
-  "a68964b3c3f2": [
-    {
-      "date": "2026-07-25",
-      "field": "description",
-      "old_value": "Government of India press release: Prime Minister extends best wishes to Skyroot Aerospace",
-      "new_value": "Government of India press release: Prime Minister extends best wishes to the Indian contingent for the Commonwealth Game...",
-      "source_id": "state_pib_karnataka"
-    }
-  ],
   "db1c67520931": [
     {
       "date": "2026-07-26",
@@ -8374,36 +8291,6 @@
       "old_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Repo (VRR) auction on Monday, July 27, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 3 09:30 AM to 10:00 AM July 30, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad       &nb",
       "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Repo (VRR) auction on Wednesday, July 29, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM July 30, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad",
       "source_id": "rbi"
-    }
-  ],
-  "e6fa6f03065b": [
-    {
-      "date": "2026-07-27",
-      "field": "description",
-      "old_value": "Central Act (2025): The Health Security Se National Security  Cess Act, 2025",
-      "new_value": "The Karnataka High Court recently struck down a cess levied on pan masala products by the Central government under the Health Security se National Security Cess Act, 2025 (Cess Act) [Dhariwal Industries v Union of India & Ors].Justice M Nagaprasanna upheld the Parliament's power to impose the cess, but found that levying it on pan masala products based on assumed output instead of actual production was arbitrary and violated Article 14 of the Constitution.\"While upholding the power of the Un",
-      "source_id": "barandbench"
-    },
-    {
-      "date": "2026-07-27",
-      "field": "description",
-      "old_value": "Central Act (2025): The Health Security Se National Security  Cess Act, 2025",
-      "new_value": "Asks Centre to rework on pan masala cess law while pointing out that cess cannot be levied on assumed production capacity of machines",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Central Act (2025): The Health Security Se National Security  Cess Act, 2025",
-      "new_value": "Asks Centre to rework on pan masala cess law while pointing out that cess cannot be levied on assumed production capacity of machines",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Central Act (2025): The Health Security Se National Security  Cess Act, 2025",
-      "new_value": "The Karnataka High Court recently struck down a cess levied on pan masala products by the Central government under the Health Security se National Security Cess Act, 2025 (Cess Act) [Dhariwal Industries v Union of India & Ors].Justice M Nagaprasanna upheld the Parliament's power to impose the cess, but found that levying it on pan masala products based on assumed output instead of actual production was arbitrary and violated Article 14 of the Constitution.\"While upholding the power of the Un",
-      "source_id": "barandbench"
     }
   ],
   "7f8525eb2db8": [
@@ -8555,6 +8442,13 @@
       "old_value": "Micro-credit scheme providing affordable working capital loans (Rs 10,000 to Rs 50,000 in three tranches) to street vendors affected by COVID-19. Includes digital payment incentives and cashback rewards.",
       "new_value": "Government of India press release: STREET VENDORS UNDER PM SVANIDHI",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy",
+      "new_value": "Finance & Economy, Labour & Employment, Urban Development",
+      "source_id": "historical"
     }
   ],
   "21fa023a0e2f": [
@@ -8598,36 +8492,6 @@
       "old_value": "Chittoor nitinkumar Mon, 07/20/2026 - 18:15 File Download (1.52 MB) date Mon, 07/20/2026 - 12:00 Report type Performance Reports Service area Andhra Pradesh Period Jan-March Year 2026",
       "new_value": "A total of 472 metric tonnes of improved jowar and AT maize fodder seed have been distributed to eligible livestock farmers under a 75% subsidy programme, says Animal Husbandry Joint Director",
       "source_id": "the_hindu_policy"
-    }
-  ],
-  "314d4453c4e1": [
-    {
-      "date": "2026-07-27",
-      "field": "description",
-      "old_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Engages with Leading Finnis...",
-      "new_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal Announces Task Force to Suppo...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Engages with Leading Finnis...",
-      "new_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal Announces Task Force to Suppo...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Engages with Leading Finnis...",
-      "new_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal Announces Task Force to Suppo...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Engages with Leading Finnis...",
-      "new_value": "Government of India press release: Union Minister of Commerce & Industry Shri Piyush Goyal Announces Task Force to Suppo...",
-      "source_id": "state_pib_karnataka"
     }
   ],
   "7e37e54d2836": [
@@ -9112,148 +8976,6 @@
       "source_id": "trai"
     }
   ],
-  "6af93ec88dec": [
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_steel"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_tourism"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a worker and injuries ...",
-      "new_value": "Government of India press release: NHRC, India takes suo motu cognizance of the reported death of a girl due to jaundice caused by consumption of contaminated drinking water in Shahzadpur, Ambala district, Haryana",
-      "source_id": "pib_lokpal_of_india"
-    }
-  ],
   "2c1a38a6e4db": [
     {
       "date": "2026-07-29",
@@ -9560,13 +9282,6 @@
   ],
   "6094ec542859": [
     {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "View All",
-      "source_id": "sidbi_new"
-    },
-    {
       "date": "2026-08-07",
       "field": "description",
       "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
@@ -9673,6 +9388,13 @@
     },
     {
       "date": "2026-08-10",
+      "field": "description",
+      "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-08-11",
       "field": "description",
       "old_value": "The post Looking Inwar Looking Inwards, Turning A urning Away: A Re y: A Review of Rehan Abe view of Rehan Abeyratne’s‘Courts and L ts and LGBTQ+ Rights in an Age of Judicial Retr Q+ Rights in an Age of Judicial Retrenchment’ enchment’ appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "View All",
@@ -9810,64 +9532,6 @@
       "old_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Jul. 25 Jul. 17 Jul. 24 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 24026 20629 24197 3568 171 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Jul. 24, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
       "new_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Aug. 01 Jul. 24 Jul. 31 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 32232 24197 17100 -7097 -15133 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Jul. 31, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
       "source_id": "rbi"
-    }
-  ],
-  "e4fbd226b032": [
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-07-31",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-01",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-02",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-02",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "One of the reasons behind the higher value in US Dollars is due to weaker Indian Rupee. India had procured a similar quantity in Q1 FY23 for around $47.88 billion.",
-      "source_id": "business_line"
     }
   ],
   "48faf48068b6": [
@@ -11686,6 +11350,13 @@
       "old_value": "Expanded the National Skill Development Corporation's mandate to skill 150 million people by 2022 through public-private partnerships. Set up Sector Skill Councils and standardised vocational training frameworks.",
       "new_value": "Government of India press release: Expansion of Skill Development Ecosystem",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Education, Labour & Employment, Social Protection",
+      "new_value": "Education, Labour & Employment",
+      "source_id": "historical"
     }
   ],
   "bdf1fafd911e": [
@@ -11711,22 +11382,6 @@
       "old_value": "Government of India press release: Cabinet approves continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a Financial Outlay of Rs.3.15 lakh crore",
       "new_value": "The Union Cabinet has approved the continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a financial outlay of US$ 33 billion to strengthen farmers' incomes, agricultural investment and rural prosperity.",
       "source_id": "ibef"
-    }
-  ],
-  "e862e8de5a6f": [
-    {
-      "date": "2026-08-03",
-      "field": "description",
-      "old_value": "Government of India press release: Text of the felicitation remarks delivered by the Hon'ble Chairman on the outstanding achievement of the Indian Contingent at the Commonwealth Games and the Commonwealth Para Games on 03-08-2026",
-      "new_value": "Government of India press release: Text of the felicitation remarks delivered by the Hon'ble Chairman on the outstanding...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-04",
-      "field": "description",
-      "old_value": "Government of India press release: Text of the felicitation remarks delivered by the Hon'ble Chairman on the outstanding achievement of the Indian Contingent at the Commonwealth Games and the Commonwealth Para Games on 03-08-2026",
-      "new_value": "Government of India press release: Text of the felicitation remarks delivered by the Hon'ble Chairman on the outstanding...",
-      "source_id": "pib"
     }
   ],
   "c0b14d01ba57": [
@@ -11971,6 +11626,13 @@
       "old_value": "The ongoing conflict in the Gulf has created tremendous change. Israel is deeply scarred by the October 7 attacks. Iran retains the ability to go nuclear despite U.S.-Israel attacks. China’s assistance to Iran through intelligence and the supply of parts and chemicals for missiles has been noticed. New formations of countries - either interlocutors, participants or victims of the war – are generating an alphabet soup of influencers. The post The gulf in the Gulf appeared first on Gateway House.",
       "new_value": "Four commodity ‌vessels, including two empty oil product tankers, entered the waterway, data ‌from Kpler showed on ‌Tuesday",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The ongoing conflict in the Gulf has created tremendous change. Israel is deeply scarred by the October 7 attacks. Iran retains the ability to go nuclear despite U.S.-Israel attacks. China’s assistance to Iran through intelligence and the supply of parts and chemicals for missiles has been noticed. New formations of countries - either interlocutors, participants or victims of the war – are generating an alphabet soup of influencers. The post The gulf in the Gulf appeared first on Gateway House.",
+      "new_value": "Four commodity ‌vessels, including two empty oil product tankers, entered the waterway, data ‌from Kpler showed on ‌Tuesday",
+      "source_id": "business_line"
     }
   ],
   "38d6b6f34b7e": [
@@ -12161,59 +11823,6 @@
       "old_value": "Independent Drive Test Report Gujarat LSA June 2026 nitinkumar Tue, 08/04/2026 - 11:32 File Download (5.58 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Tue, 08/04/2026 - 12:00 Service area Gujarat Months June Year 2026",
       "new_value": "Independent Drive Test Report Jammu & Kashmir LSA June 2026 nitinkumar Tue, 08/04/2026 - 15:38 File Download (9.62 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Tue, 08/04/2026 - 12:00 Service area Jammu and Kashmir Months June Year 2026",
       "source_id": "trai"
-    }
-  ],
-  "ec354e3722ae": [
-    {
-      "date": "2026-08-04",
-      "field": "description",
-      "old_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugitive criminals were brought back to India from 36 countries between 2019 and 2026",
-      "new_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-04",
-      "field": "description",
-      "old_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugitive criminals were brought back to India from 36 countries between 2019 and 2026",
-      "new_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-08-04",
-      "field": "description",
-      "old_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugitive criminals were brought back to India from 36 countries between 2019 and 2026",
-      "new_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugitive criminals were brought back to India from 36 countries between 2019 and 2026",
-      "new_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugitive criminals were brought back to India from 36 countries between 2019 and 2026",
-      "new_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugitive criminals were brought back to India from 36 countries between 2019 and 2026",
-      "new_value": "Government of India press release: Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...",
-      "source_id": "state_pib_punjab"
-    }
-  ],
-  "afb0c6a1abc6": [
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "Government of India press release: Union Minister for Youth Affairs and Sports Dr. Mansukh Mandaviya felicitates Commonwealth Games 2026 Weightlifting medallists with cash rewards; urges athletes to inspire next generation by visiting schools and colleges",
-      "new_value": "Youth Affairs & Sports niti_admin Wed, 08/05/2026 - 10:58 Weight 0",
-      "source_id": "niti_aayog"
     }
   ],
   "0a2f3600315e": [
@@ -13046,59 +12655,8 @@
       "source_id": "policyradar"
     }
   ],
-  "93223338dd47": [
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "Government of India press release: Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Foreign Trade Policy 2023",
-      "new_value": "The move follows the government’s decision to allow e-commerce companies with foreign investment to maintain inventory in India exclusively for export purposes",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Foreign Trade Policy 2023",
-      "new_value": "The move follows the government’s decision to allow e-commerce companies with foreign investment to maintain inventory in India exclusively for export purposes",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Foreign Trade Policy 2023",
-      "new_value": "The move follows the government’s decision to allow e-commerce companies with foreign investment to maintain inventory in India exclusively for export purposes",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Foreign Trade Policy 2023",
-      "new_value": "The move follows the government’s decision to allow e-commerce companies with foreign investment to maintain inventory in India exclusively for export purposes",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Foreign Trade Policy 2023",
-      "new_value": "The move follows the government’s decision to allow e-commerce companies with foreign investment to maintain inventory in India exclusively for export purposes",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "Government of India press release: Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Foreign Trade Policy 2023",
-      "new_value": "The move follows the government’s decision to allow e-commerce companies with foreign investment to maintain inventory in India exclusively for export purposes",
-      "source_id": "business_line"
-    }
-  ],
   "5d167398be64": [
     {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
-      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
-      "source_id": "state_pib_assam"
-    },
-    {
       "date": "2026-08-07",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
@@ -13205,6 +12763,13 @@
     },
     {
       "date": "2026-08-10",
+      "field": "description",
+      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
+      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
+      "source_id": "state_pib_assam"
+    },
+    {
+      "date": "2026-08-11",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
       "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
@@ -13634,34 +13199,6 @@
       "field": "description",
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "Government of India press release: Coal Supply Position for Power Sector Remains Adequate; Production and Despatch Register Strong Growth in July 2026",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Government of India press release: Coal Supply Position for Power Sector Remains Adequate; Production and Despatch Register Strong Growth in July 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Government of India press release: Coal Supply Position for Power Sector Remains Adequate; Production and Despatch Register Strong Growth in July 2026",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Government of India press release: Coal Supply Position for Power Sector Remains Adequate; Production and Despatch Register Strong Growth in July 2026",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Government of India press release: Coal Supply Position for Power Sector Remains Adequate; Production and Despatch Register Strong Growth in July 2026",
       "source_id": "pib_upsc"
     },
     {
@@ -13768,6 +13305,34 @@
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "Judgments Supreme Court Rejects Regularisation Claims Of 350+ West Bengal Madrasah Staff Appointed When State Law Was Struck Down Case Details: NAJMA KHATUN AND ORS.v THE STATE OF WEST BENGAL AND ORS|W.P.(C) No. 566/2024 Citation : 2026 LiveLaw (SC) 667 The Supreme Court dismissed a batch of 49 writ petitions filed by more than 350 teachers and non-teaching staff of aided madrasahs in West Bengal, holding that none of them could establish that their appointments were made in accordance with the",
       "source_id": "livelaw"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "The road for equity mutual fund schemes has been bumpy since the start of 2026, with net inflows declining in four of the first seven months",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "The road for equity mutual fund schemes has been bumpy since the start of 2026, with net inflows declining in four of the first seven months",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "Power demand surged 10.9% year-on-year to around 171 billion units as rainfall deficits and high humidity pushed up cooling needs across the country.",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "The sustained uptick in e-way bill generation is a strong proxy for economic momentum, reflecting robust movement of goods across the supply chain",
+      "source_id": "business_line"
     }
   ],
   "0166c69ebf76": [
@@ -13868,13 +13433,6 @@
   ],
   "4a4d9119556b": [
     {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "When geopolitical tensions escalate across the Gulf region, the consequences are felt in hundreds of households in Kerala, which depend on remittances to meet their daily needs. Early 2026 US-led military strikes on Iran and subsequent airspace closures over Dubai, […] The post From Remittance Dependence to Investment-Led Growth: Policy Choices for Kerala After the 2026 GCC Crisis appeared first on Centre for Public Policy Research (CPPR).",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
       "date": "2026-08-07",
       "field": "description",
       "old_value": "When geopolitical tensions escalate across the Gulf region, the consequences are felt in hundreds of households in Kerala, which depend on remittances to meet their daily needs. Early 2026 US-led military strikes on Iran and subsequent airspace closures over Dubai, […] The post From Remittance Dependence to Investment-Led Growth: Policy Choices for Kerala After the 2026 GCC Crisis appeared first on Centre for Public Policy Research (CPPR).",
@@ -13981,6 +13539,13 @@
     },
     {
       "date": "2026-08-10",
+      "field": "description",
+      "old_value": "When geopolitical tensions escalate across the Gulf region, the consequences are felt in hundreds of households in Kerala, which depend on remittances to meet their daily needs. Early 2026 US-led military strikes on Iran and subsequent airspace closures over Dubai, […] The post From Remittance Dependence to Investment-Led Growth: Policy Choices for Kerala After the 2026 GCC Crisis appeared first on Centre for Public Policy Research (CPPR).",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-08-11",
       "field": "description",
       "old_value": "When geopolitical tensions escalate across the Gulf region, the consequences are felt in hundreds of households in Kerala, which depend on remittances to meet their daily needs. Early 2026 US-led military strikes on Iran and subsequent airspace closures over Dubai, […] The post From Remittance Dependence to Investment-Led Growth: Policy Choices for Kerala After the 2026 GCC Crisis appeared first on Centre for Public Policy Research (CPPR).",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
@@ -14015,15 +13580,6 @@
       "old_value": "In terms of GOI notification F.No. 4(22)-B(W&M)/2018 dated October 08, 2018 (SGB 2018-19 Series-V-Issue date January 22, 2019) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on July 22, 2026. 2. Further, the redemption price of SGB shall be based on simple average of closing",
       "new_value": "In terms of GOI notification F.No.4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series-XI-Issue date February 09, 2021) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on August 07, 2026 (August 08 and August 09 being holiday). 2. Further, the redemption price of SGB sh",
       "source_id": "rbi"
-    }
-  ],
-  "ca4bb13a1b0c": [
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "Annual Report 2025-26",
-      "new_value": "SEBI Releases its Annual Report for FY 2025-26",
-      "source_id": "sebi"
     }
   ],
   "1ce279e3f7bc": [
@@ -14382,6 +13938,13 @@
       "old_value": "Calcutta High Court directed the Taxing Officer to decide the refund claim after hearing the petitioner and examine registration before applying the 17-week rule.",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
       "source_id": "digilocker"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Calcutta High Court directed the Taxing Officer to decide the refund claim after hearing the petitioner and examine registration before applying the 17-week rule.",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
     }
   ],
   "55b54a063455": [
@@ -14533,6 +14096,13 @@
       "old_value": "An amendment to ​India's Payment and Settlement Systems Act, tabled in parliament by Finance Minister Nirmala Sitharaman, would allow the introduction of ​a merchant discount rate (MDR) on digital...",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "An amendment to ​India's Payment and Settlement Systems Act, tabled in parliament by Finance Minister Nirmala Sitharaman, would allow the introduction of ​a merchant discount rate (MDR) on digital...",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "dc39f49d7e5a": [
@@ -14583,6 +14153,27 @@
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Third Amendment Directions, 2026",
       "new_value": "RBI/2026-2027/226 DOR.MCS.REC.No.196/01-01-036/2026-27 August 6, 2026 Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Fourth Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "new_value": "RBI/2026-2027/228 DOR.MCS.REC.No.198/01-01-038/2026-27 August 6, 2026 Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "new_value": "RBI/2026-2027/226 DOR.MCS.REC.No.196/01-01-036/2026-27 August 6, 2026 Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Fourth Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/227 DOR.MCS.REC.No.197/01-01-037/2026-27 August 6, 2026 Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions...",
       "source_id": "policyradar"
     }
   ],
@@ -14755,6 +14346,13 @@
       "old_value": "On August 5, 2019, Kritika*, a counsellor at Shakti Shalini, was withdrawing cash from an ATM near our office in Jangpura, New Delhi, when she was attacked by a group of eight people attempting to abduct her. The attack was led by the former partner of a survivor of sexual and gender-based violence living at Shakti Shalini's shelter home. Kritika was handling the case, protecting the survivor’s well-being and identity. Despite the presence of several bystanders, she did not get any help when she",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "On August 5, 2019, Kritika*, a counsellor at Shakti Shalini, was withdrawing cash from an ATM near our office in Jangpura, New Delhi, when she was attacked by a group of eight people attempting to abduct her. The attack was led by the former partner of a survivor of sexual and gender-based violence living at Shakti Shalini's shelter home. Kritika was handling the case, protecting the survivor’s well-being and identity. Despite the presence of several bystanders, she did not get any help when she",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
     }
   ],
   "1613cdc7505d": [
@@ -14855,15 +14453,6 @@
       "source_id": "pib"
     }
   ],
-  "16db4ba1739b": [
-    {
-      "date": "2026-08-08",
-      "field": "description",
-      "old_value": "Government of India press release: Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of Phase III (2025–30) under the CSIR Integrated Skill Initiative",
-      "new_value": "Government of India press release: Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of ...",
-      "source_id": "state_pib_karnataka"
-    }
-  ],
   "c3ab2a4da6e8": [
     {
       "date": "2026-08-08",
@@ -14942,6 +14531,13 @@
       "field": "description",
       "old_value": "On August 7, 2026, the Supreme Court of India addressed several policy-relevant matters. The Union government informed the Court about a potential scheme to modernize the entire police force.",
       "new_value": "Links to reports of August 7, New Scheme For Modernization Of Entire Police Force Under Consideration: Union Tells Supreme Court Technology Has Democratised Legal Profession: CJI Surya Kant Grant Reservation To Military Cadets Disabled 40% Or More During Training Under Ex-Military Personnel Quota : Supreme Court To States/UTs Supreme Court Refuses To Reject Election Petition Against Ex-Chhattisgarh CM Bhupesh Baghel Civil Courts Can Adjudicate Succession Disputes Between Non-Tribals In Scheduled",
+      "source_id": "livelaw"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "On August 7, 2026, the Supreme Court of India addressed several policy-relevant matters. The Union government informed the Court about a potential scheme to modernize the entire police force.",
+      "new_value": "Links to the reports of August 11 : Immediate FIR Must Be Registered For Every Missing Person, Irrespective Of Age Or Gender: Supreme Court Warns States 'Supreme Sacrifice' : Supreme Court Grants ₹10 Lakh To Shaurya Chakra Awardee's Widow West Bengal SIR | Can't Fix Timeline For Appellate Tribunals, Says Supreme Court; Seek Data On Appeal Disposals Supreme Court Seeks Union's Response On Plea For CBI Probe Against Fake Advocates & Curbs On Monetisation Of Judges' Remarks Supreme Court Issues Not",
       "source_id": "livelaw"
     }
   ],
@@ -15307,101 +14903,6 @@
       "source_id": "policyradar"
     }
   ],
-  "ef7ffbc95ff8": [
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
-      "new_value": "Government of India press release: Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 f...",
-      "source_id": "state_pib_punjab"
-    }
-  ],
-  "f752a65e5e8e": [
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 2026 meeting",
-      "new_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 20...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 2026 meeting",
-      "new_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 20...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 2026 meeting",
-      "new_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 20...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 2026 meeting",
-      "new_value": "Government of India press release: Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 20...",
-      "source_id": "state_pib_karnataka"
-    }
-  ],
   "a5758a0c2a95": [
     {
       "date": "2026-08-10",
@@ -15571,6 +15072,13 @@
       "old_value": "The post Monsoon Session—Delimitation Debate Must Move Past Reservation to Representation appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The National Testing Agency, which has been at the centre of the NEET paper leak controversy, remains hamstrung by extreme centralisation and bureaucratisation, and lacks the experience and expertise required to administer examinations at scale.",
       "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The post Monsoon Session—Delimitation Debate Must Move Past Reservation to Representation appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The National Testing Agency, which has been at the centre of the NEET paper leak controversy, remains hamstrung by extreme centralisation and bureaucratisation, and lacks the experience and expertise required to administer examinations at scale.",
+      "source_id": "frontline_mag"
     }
   ],
   "d02ad013da7e": [
@@ -15668,6 +15176,20 @@
       "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
       "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
       "source_id": "vidhi"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
+      "new_value": "The article examines how state governments in India can strengthen protections for transgender rights.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
+      "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ],
   "8ef4db869c59": [
@@ -15684,11 +15206,25 @@
       "old_value": "Finance & Economy, Social Protection",
       "new_value": "Digital & Technology, Finance & Economy, Social Protection",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "In terms of GOI notification F.No.4(7)-B(W&M)/2019 dated September 30, 2019 (SGB 2019-20 Series IX-Issue date February 11, 2020) and in terms of GOI notification F.No.4(4)-B(W&M)/2020 dated April 13, 2020 (SGB 2020-21 Series-V-Issue date August 11, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption",
+      "new_value": "In terms of GOI notification F.No.4(22)-B(W&M)/2018 dated October 08, 2018, (SGB 2018-19 Series-VI-Issue date February 12, 2019) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on August 12, 2026. 2. Further, the redemption price of SGB shall be based on simple average of clos",
+      "source_id": "rbi"
     }
   ],
   "a7c7c84ddbb1": [
     {
       "date": "2026-08-10",
+      "field": "description",
+      "old_value": "TRAI initiates phase-wise implementation of 1601-series for service and transactional calls by utilities, courier and logistics sectors entities. nitinkumar Mon, 08/10/2026 - 14:58 File Press Release No. 113 (633.04 KB) Date Mon, 08/10/2026 - 12:00",
+      "new_value": "At present, the 1600-series numbers are allotted for service and transactional calls by the BFSI sector and Government entities.",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-08-11",
       "field": "description",
       "old_value": "TRAI initiates phase-wise implementation of 1601-series for service and transactional calls by utilities, courier and logistics sectors entities. nitinkumar Mon, 08/10/2026 - 14:58 File Press Release No. 113 (633.04 KB) Date Mon, 08/10/2026 - 12:00",
       "new_value": "At present, the 1600-series numbers are allotted for service and transactional calls by the BFSI sector and Government entities.",
@@ -15839,6 +15375,13 @@
       "old_value": "The Hindu BusinessLine reports that a proposed Tribunal Commission, headquartered in Delhi, may set a template for the selection of judges.",
       "new_value": "To be headquartered in the national capital, the proposed commission will consist of a chairperson and four members -- two judicial members and two technical members",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Hindu BusinessLine reports that a proposed Tribunal Commission, headquartered in Delhi, may set a template for the selection of judges.",
+      "new_value": "To be headquartered in the national capital, the proposed commission will consist of a chairperson and four members -- two judicial members and two technical members",
+      "source_id": "business_line"
     }
   ],
   "bbee44916100": [
@@ -15857,6 +15400,13 @@
       "old_value": "Lok Sabha passes Bill for National Tribunals Commission to oversee 16 tribunals",
       "new_value": "The Lok Sabha on Monday passed the Tribunals Reforms Bill, 2026, which proposes to establish a National Tribunals Commission to oversee appointments, performance and complaints concerning members of 16 tribunals.The Bill was introduced and passed without debate amid sloganeering by Opposition members. Union Minister of State for Law and Justice Arjun Ram Meghwal said that the legislation would not alter the jurisdiction conferred on tribunals by their respective parent statutes.The Bill seeks to",
       "source_id": "barandbench"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Lok Sabha passes Bill for National Tribunals Commission to oversee 16 tribunals",
+      "new_value": "The members of the National Tribunals Commission, to be set up under the Tribunals Reforms Bill, 2026, will be appointed by the Union government.",
+      "source_id": "scroll"
     },
     {
       "date": "2026-08-11",
@@ -15907,6 +15457,376 @@
       "old_value": "Consumer Education Workshop at Sri Sathya Sai (Andhra Pradesh) by Bharti Airtel Limited nitinkumar Mon, 08/03/2026 - 11:28 Date Tue, 08/11/2026 - 12:00 District Puttaparthi Division Consumer Affairs Date & Time Tue, 08/11/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Arathi Khanna Contact person Email arathi.khanna@airtel.com Event Category COP By TRAI Venue Details RV Jnakai Ramiah Kalyana Madapam, MRO Office backside, Main road, Puttaparthi-51513",
       "new_value": "Consumer Education Workshop at Satara (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:11 Date Thu, 08/20/2026 - 12:00 District Satara Division Consumer Affairs Date & Time Thu, 08/20/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel Preeti Executive, P8/1,OLD MIDC,Pune-Banglore Highway,Satara-415004 Event From Consumer Awar",
       "source_id": "trai"
+    }
+  ],
+  "777deab79fe9": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform, Urban Development",
+      "new_value": "Housing, Transport & Infrastructure, Urban Development",
+      "source_id": "historical"
+    }
+  ],
+  "300fbae2346e": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Rural Development, Transport & Infrastructure, Tribal & Indigenous",
+      "new_value": "Rural Development, Transport & Infrastructure",
+      "source_id": "historical"
+    }
+  ],
+  "69296f1a8a53": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy",
+      "new_value": "Digital & Technology, Science & Innovation, Trade & Commerce",
+      "source_id": "historical"
+    }
+  ],
+  "ff274b09e4b9": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Education, Finance & Economy, Health",
+      "new_value": "Finance & Economy, Governance & Reform",
+      "source_id": "historical"
+    }
+  ],
+  "fd7b7eb5c06e": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture",
+      "new_value": "Agriculture, Finance & Economy",
+      "source_id": "historical"
+    }
+  ],
+  "5e8a649428b7": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Climate & Environment, Energy",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "historical"
+    }
+  ],
+  "5d226b3676b0": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Governance & Reform",
+      "new_value": "Governance & Reform, Social Protection",
+      "source_id": "historical"
+    }
+  ],
+  "b5067185c078": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy",
+      "new_value": "Labour & Employment, Trade & Commerce",
+      "source_id": "historical"
+    }
+  ],
+  "c8ada836f101": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy, Trade & Commerce",
+      "new_value": "Climate & Environment, Energy",
+      "source_id": "historical"
+    }
+  ],
+  "8a74bb18e6f3": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Rural Development, Social Protection",
+      "new_value": "Digital & Technology, Governance & Reform",
+      "source_id": "historical"
+    }
+  ],
+  "cf8758b98e18": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Education, Gender & Women",
+      "new_value": "Child Rights & Youth, Education",
+      "source_id": "historical"
+    }
+  ],
+  "b6d0eb9aedf4": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Social Protection",
+      "new_value": "Agriculture",
+      "source_id": "historical"
+    }
+  ],
+  "34e447114b5f": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Governance & Reform, Rural Development",
+      "new_value": "Governance & Reform, Rural Development",
+      "source_id": "historical"
+    }
+  ],
+  "22c8dbbf682a": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Urban Development, Water & Sanitation",
+      "new_value": "Health, Rural Development, Urban Development, Water & Sanitation",
+      "source_id": "historical"
+    }
+  ],
+  "cf5b9b5bf402": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Education, Governance & Reform",
+      "new_value": "Digital & Technology, Governance & Reform",
+      "source_id": "historical"
+    }
+  ],
+  "07b84ec133c5": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Social Protection, Transport & Infrastructure",
+      "new_value": "Transport & Infrastructure",
+      "source_id": "historical"
+    }
+  ],
+  "df7313c5c98c": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Energy, Rural Development, Urban Development",
+      "new_value": "Energy, Rural Development",
+      "source_id": "historical"
+    }
+  ],
+  "7c9ec36bf5e6": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture",
+      "new_value": "Agriculture, Social Protection",
+      "source_id": "historical"
+    }
+  ],
+  "ca67362f9b03": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Social Protection",
+      "new_value": "Finance & Economy, Gender & Women, Social Protection",
+      "source_id": "historical"
+    }
+  ],
+  "ceabfea20187": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy",
+      "new_value": "Finance & Economy, Labour & Employment",
+      "source_id": "historical"
+    }
+  ],
+  "b76eebe339be": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Housing, Social Protection, Urban Development",
+      "new_value": "Housing, Rural Development, Urban Development",
+      "source_id": "historical"
+    }
+  ],
+  "4b87b2029dc9": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Rural Development, Water & Sanitation",
+      "new_value": "Health, Rural Development, Water & Sanitation",
+      "source_id": "historical"
+    }
+  ],
+  "2dfbefe8d722": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Finance & Economy, Trade & Commerce",
+      "new_value": "Finance & Economy, Labour & Employment, Social Protection",
+      "source_id": "historical"
+    }
+  ],
+  "7e8615ba685a": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Water & Sanitation",
+      "new_value": "Climate & Environment, Rural Development, Water & Sanitation",
+      "source_id": "historical"
+    }
+  ],
+  "d782ea0390c1": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Transport & Infrastructure",
+      "new_value": "Trade & Commerce, Transport & Infrastructure",
+      "source_id": "historical"
+    }
+  ],
+  "8a422b4fad3a": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Defence & Security",
+      "new_value": "Child Rights & Youth, Defence & Security",
+      "source_id": "historical"
+    }
+  ],
+  "de117de1aefd": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Defence & Security, Rural Development",
+      "new_value": "Defence & Security, Rural Development, Tribal & Indigenous",
+      "source_id": "historical"
+    }
+  ],
+  "f14340d85dca": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Rural Development, Tribal & Indigenous, Water & Sanitation",
+      "new_value": "Rural Development, Social Protection, Tribal & Indigenous",
+      "source_id": "historical"
+    }
+  ],
+  "1700303d768f": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Finance & Economy",
+      "source_id": "historical"
+    }
+  ],
+  "234475e25060": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Child Rights & Youth, Energy",
+      "new_value": "Climate & Environment, Energy, Transport & Infrastructure",
+      "source_id": "historical"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Rs 10,900 crore scheme replacing FAME-II to promote adoption of electric vehicles. Provides demand incentives for e-2 wheelers, e-3 wheelers, e-ambulances, e-trucks, and supports EV charging infrastructure deployment.",
+      "new_value": "PM E-Drive offers support for a maximum 45,79,120 e2Ws, with total funding support from the MHI pegged at ₹2,767 crore",
+      "source_id": "business_line"
+    }
+  ],
+  "a6522f4a6380": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Digital & Technology, Education",
+      "new_value": "Education",
+      "source_id": "historical"
+    }
+  ],
+  "7b5f1b9f1c04": [
+    {
+      "date": "2026-08-11",
+      "field": "sectors",
+      "old_value": "Agriculture, Digital & Technology, Finance & Economy",
+      "new_value": "Agriculture, Finance & Economy",
+      "source_id": "historical"
+    }
+  ],
+  "b3921b1ae76d": [
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "India’s Services Sector: Insights on Regulatory Regime in Professional Services niti_admin Tue, 08/11/2026 - 17:14 Choose Report Type Publications Publication Date Tue, 08/11/2026 - 17:14 Report Upload download (11.5 MB) vertical Services and Economic Intelligence Unit PDF Text India’s Services Sector: Insights on Regulatory Regime in Professional Services iINDIA’S SERVICES SECTOR INSIGHTS ON REGULATORY REGIME IN PROFESSIONAL SERVICES India’s Services Sector: Insights on Regulatory Regime i",
+      "new_value": "India’s Services Sector: Insights on Regulatory Regime in Professional Services niti_admin Tue, 08/11/2026 - 17:16 Weight 0 Links /sites/default/files/2026-08/India-Services-Sector-Insights-on-Regulatory-Regim…",
+      "source_id": "niti_aayog"
+    }
+  ],
+  "8efe02772bf4": [
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 39,141 Amount accepted (in ₹ crore) 39,141 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/859",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, August 12, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM August 13, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad  &nbs",
+      "source_id": "rbi"
+    }
+  ],
+  "a9eb36200696": [
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following companies. Sr. No. Name of the Company Registered Office Address CoR No. CoR Issued on Cancellation Order Date 1 Naveen Merico Engineering Co. Private Limited 238/A A.J.C. Bose Road 3rd Floor, Kolkata, Kolkata, West Bengal, 700020 B.05.03745 March 19, 2001 June 01, 2026 2 Mehandipua Tradelink Pvt Ltd 85 N S",
+      "new_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration (CoR) of the following companies. Sr. No. Name of the Company Registered Office Address CoR No. CoR Issued on Cancellation Order Date 1 Trincas Consultancy Pvt Ltd 21, Hemanta Basu Sarani, 4th Floor, Suit No. 437, Kolkata, West Bengal, India, 700001 B.05.05497 September 17, 2003 June 01, 2026 2 Triple Rank Consultants Pvt.",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following companies. Sr. No. Name of the Company Registered Office Address CoR No. CoR Issued on Cancellation Order Date 1 Naveen Merico Engineering Co. Private Limited 238/A A.J.C. Bose Road 3rd Floor, Kolkata, Kolkata, West Bengal, 700020 B.05.03745 March 19, 2001 June 01, 2026 2 Mehandipua Tradelink Pvt Ltd 85 N S",
+      "new_value": "The following four Non-Banking Financial Companies (NBFC) have surrendered the Certificate of Registration (CoR) granted to them by the Reserve Bank of India (RBI). The RBI, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has therefore cancelled their CoR. i) Cancellation of CoR due to exit from Non-Banking Financial Institution (NBFI) business Sr. No. Name of the Company Registered Office Address CoR No. CoR Issued on Date of Cancellation of",
+      "source_id": "rbi"
+    }
+  ],
+  "bb8e2062035d": [
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Lok Sabha on Monday passed the Tribunals Reforms Bill, 2026 without any debate amid heavy protests by Opposition MPs over various issues.",
+      "new_value": "Minister for Law and Justice Arjun Ram Meghwal says the Bill has been brought with the objective of ensuring a modern, independent and uniform tribunal system",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Lok Sabha on Monday passed the Tribunals Reforms Bill, 2026 without any debate amid heavy protests by Opposition MPs over various issues.",
+      "new_value": "The Kerala (Alteration of Name) Bill, 2026, moved by Union Minister of State for Home, Nityanand Rai, was passed by a voice vote without any debate amid sloganeering.",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "The Lok Sabha on Monday passed the Tribunals Reforms Bill, 2026 without any debate amid heavy protests by Opposition MPs over various issues.",
+      "new_value": "The post The Tribunals Reforms Bill, 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "source_id": "insights_ias"
+    }
+  ],
+  "6722298eb72e": [
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Click here to Download",
+      "new_value": "Please click on the following links for Notification and Form Notification Application Form",
+      "source_id": "manipur_govt"
+    }
+  ],
+  "dab73527206c": [
+    {
+      "date": "2026-08-11",
+      "field": "description",
+      "old_value": "Solidarity Statement for Colombia ActionAid Association stands in solidarity with the people of Colombia following the devastating earthquake of 10 August 2026, which has caused tragic loss of life, injuries, displacement and extensive damage to homes, public infrastructure and essential services across affected areas. We extend our deepest condolences to the families who have lost … Continue reading \"Solidarity Statement for Colombia\" The post Solidarity Statement for Colombia appeared fi",
+      "new_value": "The post Colombia appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "source_id": "insights_ias"
     }
   ]
 }
