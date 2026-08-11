@@ -27,7 +27,6 @@ _JUNK_TITLE_PATTERNS = [
     r'^(Home|Login|Register|Contact Us|Sitemap|Disclaimer|FAQ)$',
     r'^(Skip to |Jump to )',
     r'^Money Market Operations',
-    r'^Statement\s*\n',
 ]
 _JUNK_RE = re.compile('|'.join(_JUNK_TITLE_PATTERNS), re.IGNORECASE)
 

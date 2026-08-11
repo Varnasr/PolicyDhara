@@ -73,7 +73,7 @@ def scrape_pib(config: dict) -> list[dict]:
     resp = safe_get(url)
     if not resp:
         return []
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
     seen = set()
     for a in soup.select("a[href*='PressRele'], a[href*='PRID']"):
@@ -100,7 +100,7 @@ def scrape_india_code(config: dict) -> list[dict]:
         resp = safe_get(url)
         if not resp:
             continue
-        soup = BeautifulSoup(resp.text, "lxml")
+        soup = BeautifulSoup(resp.content, "lxml")
         for tr in soup.select("table tr"):
             cells = tr.select("td")
             if not cells or len(cells) < 3:
@@ -122,7 +122,7 @@ def scrape_egazette(config: dict) -> list[dict]:
     resp = safe_get(url)
     if not resp:
         return []
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
     for row in soup.select("table tr, .gazette-item, .list-item, .notification-item"):
         cells = row.select("td")
@@ -150,7 +150,7 @@ def scrape_niti_aayog(config: dict) -> list[dict]:
         resp = safe_get(url)
         if not resp:
             continue
-        soup = BeautifulSoup(resp.text, "lxml")
+        soup = BeautifulSoup(resp.content, "lxml")
         for row in soup.select(".views-row, .node-article, article, .publication-item, .view-content .item-list li"):
             title_el = row.select_one("h2 a, h3 a, .title a, .field-title a, a")
             if not title_el:
@@ -179,7 +179,7 @@ def scrape_parliament(config: dict) -> list[dict]:
         resp = safe_get(url)
         if not resp:
             continue
-        soup = BeautifulSoup(resp.text, "lxml")
+        soup = BeautifulSoup(resp.content, "lxml")
         for row in soup.select("table tbody tr, .bill-item, .list-group-item, article"):
             cells = row.select("td")
             links = row.select("a")
@@ -215,7 +215,7 @@ def scrape_rbi(config: dict) -> list[dict]:
     resp = safe_get(url)
     if not resp:
         return []
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
     for row in soup.select("table tr, .tablebg tr, .tabledata tr"):
         cells = row.select("td")
@@ -296,7 +296,7 @@ def scrape_ministry(config: dict) -> list[dict]:
     resp = safe_get(url)
     if not resp:
         return []
-    soup = BeautifulSoup(resp.text, "lxml")
+    soup = BeautifulSoup(resp.content, "lxml")
     items = []
     for row in soup.select(".views-row, article, .list-item, table tbody tr, .news-item, .card, .panel"):
         title_el = row.select_one("a, h2, h3, h4, .title")

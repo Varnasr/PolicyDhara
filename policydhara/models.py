@@ -24,6 +24,9 @@ class Policy:
     sectors: list[str] = field(default_factory=list)
     sector_slugs: list[str] = field(default_factory=list)
     type: str = "policy"
+    kind: str = ""              # document role: instrument/process/announcement/analysis/news
+    authority: str = ""         # publisher tier: government/regulator/legal/parliament/think_tank/international/media
+    comment_deadline: str = ""  # drafts only: last date for public comments (ISO), "" if unknown
     level: str = "central"
     state: str = ""
 

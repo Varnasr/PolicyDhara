@@ -19,6 +19,13 @@ jobs:
   fetch-and-build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    # Secrets live at job level so step-level `if: env.X != ''` conditions
+    # can see them — a step's own env block is not in scope for its `if`,
+    # which is why the newsletter/Telegram steps silently never ran.
+    env:
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
     steps:
       - name: Checkout repository
@@ -36,9 +43,6 @@ jobs:
           pip install -r scripts/requirements.txt
           pip install -e ".[dev]"
 
-      - name: Run tests (gate auto-merge on green)
-        run: pytest tests/ -q
-
       - name: Snapshot policy IDs (pre-fetch)
         run: python3 scripts/send_newsletter.py --snapshot-only
 
@@ -47,13 +51,19 @@ jobs:
         env:
           PYTHONUNBUFFERED: '1'
 
+      # After the fetch, so the dataset-invariant tests validate the data
+      # that is about to be auto-merged — not the previous commit's.
+      - name: Run tests (gate auto-merge on green)
+        run: pytest tests/ -q
+
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
           node-version: '22'
+          cache: 'npm'
 
       - name: Install Node dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build Astro site
         run: npm run build
@@ -62,23 +72,16 @@ jobs:
         if: env.BUTTONDOWN_API_KEY != ''
         continue-on-error: true
         run: python3 scripts/send_newsletter.py --draft
-        env:
-          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
 
       - name: Send sector-specific alerts
         if: env.BUTTONDOWN_API_KEY != ''
         continue-on-error: true
         run: python3 scripts/send_newsletter.py --sector-alerts --draft
-        env:
-          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
 
       - name: Push Telegram alerts for high-priority new policies
         if: env.TELEGRAM_BOT_TOKEN != ''
         continue-on-error: true
         run: python3 scripts/push_telegram.py
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       - name: Create PR with updated data
         id: create-pr

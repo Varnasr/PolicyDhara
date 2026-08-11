@@ -11,7 +11,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -249,7 +249,7 @@ def write_reports(committees, total):
             "description": "Parliamentary committee reports scraped from sansad.in",
             "source": "https://sansad.in",
             "attribution": "Inspired by https://github.com/pranaykotas/parliamentwatch",
-            "last_updated": datetime.utcnow().strftime("%Y-%m-%d"),
+            "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "total_reports": total,
             "total_committees": len(committees),
             "lok_sabha": CURRENT_LOK_SABHA,

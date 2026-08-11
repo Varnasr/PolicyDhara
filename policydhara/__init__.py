@@ -2,7 +2,7 @@
 PolicyDhara — Python library for tracking Indian development policies.
 
 Search, filter, classify, and fetch policy data from 300+ Indian government,
-regulatory, research, and news sources across 21 sectors.
+regulatory, research, and news sources across 22 sectors.
 """
 
 from policydhara.models import Policy

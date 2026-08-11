@@ -49,8 +49,9 @@ def _fetch_items(sid: str, cfg: dict) -> int:
     reachability misses those; running the fetcher is what catches them."""
     try:
         from fetch_rss import fetch_rss_source
-        from fetch_scrape import fetch_scrape_source, SOURCE_SCRAPERS, scrape_pib, scrape_ministry
-    except Exception:
+        from fetch_scrape import fetch_scrape_source
+    except Exception as e:
+        print(f"  ! {sid}: fetcher import failed: {e}")
         return 0
     # NB: don't redirect stdout here — this runs in worker threads and
     # contextlib.redirect_stdout mutates the *global* sys.stdout, so
@@ -65,7 +66,10 @@ def _fetch_items(sid: str, cfg: dict) -> int:
         else:
             return 0
         return len(items) if items else 0
-    except Exception:
+    except Exception as e:
+        # A crash in our parser is not the same as an empty page — log it so
+        # the health report can't silently bucket our own bugs as SHELL/DEAD.
+        print(f"  ! {sid}: fetcher raised {type(e).__name__}: {e}")
         return 0
 
 
@@ -230,26 +234,46 @@ def _open_issue(stale: list) -> None:
     for sid, name, streak, status, last_healthy, bucket in stale:
         body_lines.append(f"| `{sid}` | {bucket} | {streak} | {status} | {last_healthy} | {name} |")
 
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": "policydhara-source-health",
+    }
     payload = json.dumps({
         "title": f"[source-health] {len(stale)} sources have gone stale",
         "body": "\n".join(body_lines),
         "labels": ["source-health", "maintenance"],
     }).encode("utf-8")
-    req = Request(
-        f"https://api.github.com/repos/{repo}/issues",
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Accept": "application/vnd.github+json",
-            "Content-Type": "application/json",
-            "User-Agent": "policydhara-source-health",
-        },
-        method="POST",
-    )
+
+    # Update the existing open report instead of opening a duplicate every
+    # week — the probe runs on a schedule and the stale list changes slowly.
+    existing_number = None
+    try:
+        list_req = Request(
+            f"https://api.github.com/repos/{repo}/issues"
+            "?state=open&labels=source-health&per_page=1",
+            headers=headers,
+        )
+        with urlopen(list_req, timeout=15) as resp:
+            issues = json.load(resp)
+            if issues:
+                existing_number = issues[0].get("number")
+    except (HTTPError, OSError) as e:
+        print(f"  ! Could not check for an existing issue: {e}")
+
+    if existing_number:
+        url = f"https://api.github.com/repos/{repo}/issues/{existing_number}"
+        method = "PATCH"
+    else:
+        url = f"https://api.github.com/repos/{repo}/issues"
+        method = "POST"
+    req = Request(url, data=payload, headers=headers, method=method)
     try:
         with urlopen(req, timeout=15) as resp:
             data = json.load(resp)
-            print(f"  Opened issue #{data.get('number')}: {data.get('html_url')}")
+            verb = "Updated" if existing_number else "Opened"
+            print(f"  {verb} issue #{data.get('number')}: {data.get('html_url')}")
     except HTTPError as e:
         print(f"  ! Failed to open issue: HTTP {e.code} {e.read()!r}")
 

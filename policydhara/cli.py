@@ -186,7 +186,7 @@ def export(fmt: str, sector: str | None, state: str | None, output: str | None, 
 
 @cli.command()
 def sectors():
-    """List all 21 tracked sectors."""
+    """List all 22 tracked sectors."""
     classifier = PolicyClassifier()
     click.echo(f"\n  PolicyDhara tracks {len(classifier.sectors)} sectors:\n")
     for i, sector in enumerate(classifier.sectors, 1):

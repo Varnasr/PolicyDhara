@@ -161,6 +161,7 @@ const MEDIA_SOURCE_IDS = new Set<string>([
   'factchecker', 'villagesquare', 'govinsider', 'ecgov',
   'drishti_ias', 'drishtiias_rss', 'insights_ias',
   'article14', 'caravanmag', 'swarajya_mag',
+  'policyradar',
 ]);
 
 export function isMediaItem(p: PolicyItem): boolean {
@@ -1380,14 +1381,19 @@ function normalizeTitle(title: string): string {
   return title
     .toLowerCase()
     .replace(/\b(the|a|an|of|for|and|in|on|to|with|by|from)\b/g, '')
-    .replace(/[^a-z0-9 ]/g, '')
+    // Keep unicode word chars so Devanagari titles compare on words, not
+    // digits (mirrors _title_similarity in scripts/fetch_all.py).
+    .replace(/[^\p{L}\p{N} ]/gu, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
 function titleSimilarity(a: string, b: string): number {
-  const wordsA = new Set(normalizeTitle(a).split(' ').filter(w => w.length > 3));
-  const wordsB = new Set(normalizeTitle(b).split(' ').filter(w => w.length > 3));
+  // Numeric tokens excluded — a shared year is not a shared subject.
+  const contentWords = (t: string) =>
+    new Set(normalizeTitle(t).split(' ').filter(w => w.length > 3 && !/^\d+$/.test(w)));
+  const wordsA = contentWords(a);
+  const wordsB = contentWords(b);
   if (wordsA.size === 0 || wordsB.size === 0) return 0;
   let overlap = 0;
   for (const w of wordsA) if (wordsB.has(w)) overlap++;

@@ -84,9 +84,12 @@ def _lxml_root(cleaned: bytes):
     except ImportError:
         return None
     try:
-        parser = LET.XMLParser(recover=True, resolve_entities=False, huge_tree=True)
+        # No huge_tree: keep libxml2's node/depth limits as a guard against
+        # hostile or corrupt feeds from third-party hosts.
+        parser = LET.XMLParser(recover=True, resolve_entities=False)
         root = LET.fromstring(cleaned, parser=parser)
-        return root if root is not None and len(root) else root
+        # An empty recovered tree means recovery produced nothing usable.
+        return root if root is not None and len(root) else None
     except Exception:
         return None
 

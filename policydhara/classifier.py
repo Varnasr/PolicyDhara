@@ -1,6 +1,6 @@
 """
 Keyword-based sector classifier for Indian policy items.
-Maps policy text (title + description) to one or more of 21 development sectors.
+Maps policy text (title + description) to one or more of 22 development sectors.
 No ML dependencies — fast and deterministic.
 
 Uses TF-IDF-inspired weighting:
@@ -209,21 +209,22 @@ SECTOR_KEYWORDS: dict[str, list[str]] = {
 def _build_keyword_pattern(keyword: str) -> re.Pattern[str]:
     """Build a compiled regex pattern for a keyword.
 
-    Short keywords (<=3 chars) use word-boundary matching to avoid
-    false positives like 'IT' matching inside 'with'.
-    Longer keywords use simple substring containment (case-insensitive).
+    Short keywords (<=4 chars) use word-boundary matching to avoid false
+    positives like 'IT' matching inside 'committee' or 'port' inside
+    'support'. Acronyms (any uppercase letter) also match case-sensitively
+    so 'IT' does not match the pronoun 'it'. A trailing optional 's' keeps
+    plurals ('roads', 'crops') matching. Longer keywords use substring
+    containment (case-insensitive) so 'scheme' still catches 'schemes'.
     """
-    escaped = re.escape(keyword.lower())
-    if len(keyword) <= 3:
-        # Word-boundary match for short keywords
-        return re.compile(r"\b" + escaped + r"\b", re.IGNORECASE)
-    else:
-        # Substring match for longer keywords (same as before but compiled)
-        return re.compile(escaped, re.IGNORECASE)
+    escaped = re.escape(keyword)
+    if len(keyword) <= 4:
+        flags = 0 if any(c.isupper() for c in keyword) else re.IGNORECASE
+        return re.compile(r"\b" + escaped + r"s?\b", flags)
+    return re.compile(escaped, re.IGNORECASE)
 
 
 class PolicyClassifier:
-    """Classify policy text into one or more of 21 Indian development sectors.
+    """Classify policy text into one or more of 22 Indian development sectors.
 
     Improvements over naive keyword counting:
     - IDF-like weighting: keywords unique to one sector score higher
@@ -270,8 +271,7 @@ class PolicyClassifier:
 
     def _score_text(self, title: str, description: str) -> dict[str, float]:
         """Score each sector against title + description with IDF weights and title boost."""
-        title_lower = title.lower()
-        desc_lower = description.lower()
+        # Original case preserved: acronym patterns are case-sensitive.
         scores: dict[str, float] = {}
 
         for sector, kws in self.keywords.items():
@@ -281,8 +281,8 @@ class PolicyClassifier:
                 pattern = self._keyword_patterns[kw_lower]
                 weight = self._keyword_weights[kw_lower]
 
-                title_match = bool(pattern.search(title_lower))
-                desc_match = bool(pattern.search(desc_lower))
+                title_match = bool(pattern.search(title))
+                desc_match = bool(pattern.search(description))
 
                 if title_match:
                     score += weight * 2  # title boost: 2x

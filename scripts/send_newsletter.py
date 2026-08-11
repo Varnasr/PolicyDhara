@@ -165,7 +165,8 @@ def format_email(policies: list[dict], sector_filter: str | None = None) -> tupl
     If sector_filter is given (as a display name), only that sector's
     policies are shown and the subject reflects the sector.
     """
-    today = datetime.now(timezone.utc).strftime("%B %-d, %Y")
+    now = datetime.now(timezone.utc)
+    today = f"{now.strftime('%B')} {now.day}, {now.year}"
     count = len(policies)
     plural = "s" if count != 1 else ""
 
@@ -313,7 +314,7 @@ def send_via_buttondown(subject: str, body: str, draft: bool = False,
     api_key = os.environ.get("BUTTONDOWN_API_KEY", "")
     if not api_key:
         print("  ERROR: BUTTONDOWN_API_KEY not set — skipping email")
-        sys.exit(1)
+        return False
 
     email_data: dict = {
         "subject": subject,
@@ -330,14 +331,18 @@ def send_via_buttondown(subject: str, body: str, draft: bool = False,
     req.add_header("Content-Type", "application/json")
 
     try:
-        with urlopen(req) as resp:
+        with urlopen(req, timeout=30) as resp:
             result = json.loads(resp.read())
             status = "Draft created" if draft else "Email sent"
             print(f"  {status}: {result.get('id', 'ok')}")
+            return True
     except HTTPError as e:
         error_body = e.read().decode() if e.fp else ""
         print(f"  ERROR ({e.code}): {error_body}")
-        sys.exit(1)
+        return False
+    except OSError as e:
+        print(f"  ERROR: Buttondown request failed: {e}")
+        return False
 
 
 def send_sector_alerts(new_policies: list[dict], draft: bool = False):
@@ -353,6 +358,7 @@ def send_sector_alerts(new_policies: list[dict], draft: bool = False):
         return
 
     print(f"  Sending sector alerts for {len(sectors_map)} sectors...")
+    failures = 0
 
     for sector_name, sector_policies in sorted(sectors_map.items()):
         slug = get_sector_slug(sector_name)
@@ -364,9 +370,13 @@ def send_sector_alerts(new_policies: list[dict], draft: bool = False):
             "sector_names": [sector_name],
             "type": "sector_alert",
         }
-        send_via_buttondown(subject, body, draft=draft, metadata=metadata)
+        if not send_via_buttondown(subject, body, draft=draft, metadata=metadata):
+            failures += 1
 
-    print(f"  Sector alerts done: {len(sectors_map)} emails sent/drafted")
+    sent = len(sectors_map) - failures
+    print(f"  Sector alerts done: {sent}/{len(sectors_map)} emails sent/drafted")
+    if failures:
+        sys.exit(1)
 
 
 def main():
