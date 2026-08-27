@@ -741,6 +741,13 @@
       "old_value": "Digital & Technology",
       "new_value": "Digital & Technology, Governance & Reform",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "India's first comprehensive data protection legislation governing the processing of digital personal data. Establishes Data Protection Board, defines data principal and fiduciary rights and obligations, and provides for significant penalties.",
+      "new_value": "On June 1, 2026, the Central Consumer Protection Authority (CCPA) penalised PhysicsWallah Limited with ₹5 lakh for deployment of dark patterns on its platform. The order narrates that PhysicsWallah maintained a pre-ticked “Donate for PW Foundation” checkbox which added ₹10 to the final checkout bill unless the user affirmatively unchecks it. The order also found that the “free courses” that PhysicsWallah offered were inaccessible unless every user affirmatively surrenders their phone number and",
+      "source_id": "livelaw"
     }
   ],
   "feb03351f369": [
@@ -3088,13 +3095,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Prime Minister Narendra Modi Calls for Indian Pharma Companies to Make Mark Among World’s Top Five",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-08-15",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Prime Minister Narendra Modi Calls for Indian Pharma Companies to Make Mark Among World’s Top Five",
       "source_id": "pib_eac_pm"
     },
     {
@@ -3222,6 +3222,13 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "The fund ended 2024-25 with Rs.8,452 crore but spent only Rs.87.85 lakh that year. Why are companies still adding to the reserve when their disclosures rarely explain why PM CARES was chosen?",
       "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Sales growth of listed private non-financial companies continued to accelerate to 19.4 per cent",
+      "source_id": "business_line"
     }
   ],
   "c0c8cf258433": [
@@ -3325,13 +3332,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3431,6 +3431,13 @@
     },
     {
       "date": "2026-08-24",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-08-27",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -4293,148 +4300,6 @@
       "source_id": "ecgov"
     }
   ],
-  "6be7a0159820": [
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_tourism"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "TRAI Assesses Mobile Network Quality Across Lunglei, Lawngtlai and Siaha Districts and adjoining areas in the State of Mizoram under North East LSA. nitinkumar Wed, 07/22/2026 - 14:48 File Press Release No. 100 (2.68 MB) Date Wed, 07/22/2026 - 12:00",
-      "new_value": "TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA. nitinkumar Thu, 07/23/2026 - 16:38 File Press Release No. 101 (2.22 MB) Date Thu, 07/23/2026 - 12:00",
-      "source_id": "trai"
-    }
-  ],
   "92db87ae0a64": [
     {
       "date": "2026-07-23",
@@ -4457,29 +4322,6 @@
       "field": "description",
       "old_value": "Consumer Awareness Program at Kota (Rajasthan) by Consumer Unity & Trust Society ypjaipur Wed, 07/22/2026 - 10:16 Date Thu, 08/20/2026 - 12:00 District Kota Division Consumer Affairs Date & Time Thu, 08/20/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Madu Sudan Sharma Contact person Email mss1@cuts.org Event Category COP By TRAI Venue Details Om Kothari Institute of Management, 1-A, Special IPIA, Jhalawar Road, Anantpura, Kota- 324009 Even",
       "new_value": "Consumer Awareness Program at Tonk (Rajasthan) by Navjeevan Society nitinkumar Thu, 07/23/2026 - 17:50 Date Fri, 07/31/2026 - 12:00 District Tonk Division Consumer Affairs Date & Time Fri, 07/31/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Rajendra Sharma Contact person Email info.navjeevan@gmail.com Event Category COP By TRAI Venue Details Government Senior Secondary School, Mandawra, Tonk Event From Consumer Awareness ( In House ) Contact pe",
-      "source_id": "trai"
-    }
-  ],
-  "0310bc1f5ed4": [
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "Independent Drive Test Report North East LSA May 2026 nitinkumar Wed, 07/22/2026 - 14:50 File Download (2.77 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Wed, 07/22/2026 - 12:00 Service area North East Months May Year 2026",
-      "new_value": "Independent Drive Test Report river Ganga from Kolkata to Kachubaria-Gangasagar West Bengal LSA June 2026 nitinkumar Thu, 07/23/2026 - 16:46 File Download (4.98 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/23/2026 - 12:00 Service area West Bengal Months June Year 2026",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "Independent Drive Test Report North East LSA May 2026 nitinkumar Wed, 07/22/2026 - 14:50 File Download (2.77 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Wed, 07/22/2026 - 12:00 Service area North East Months May Year 2026",
-      "new_value": "Independent Drive Test Report Alipurduar and Cooch Behar Districts and adjoining areas West Bengal LSA June 2026 nitinkumar Thu, 07/23/2026 - 16:46 File Download (8 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/23/2026 - 12:00 Service area West Bengal Months June Year 2026",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "Independent Drive Test Report North East LSA May 2026 nitinkumar Wed, 07/22/2026 - 14:50 File Download (2.77 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Wed, 07/22/2026 - 12:00 Service area North East Months May Year 2026",
-      "new_value": "Independent Drive Test Report South Tripura District and adjoining areas North East LSA May 2026 nitinkumar Thu, 07/23/2026 - 16:42 File Download (6.52 MB) QoS Quarter May Qos Report Type IDT Report Date of Release Thu, 07/23/2026 - 12:00 Service area North East Months May Year 2026",
       "source_id": "trai"
     }
   ],
@@ -5069,15 +4911,6 @@
       "source_id": "livelaw"
     }
   ],
-  "88f5dff1e2c9": [
-    {
-      "date": "2026-07-24",
-      "field": "description",
-      "old_value": "Adjudication Order in the matter of Front Running of trades of Axis Mutual Fund by certain clients of Pace Stock Broking Services Private Limited",
-      "new_value": "Final order in the matter of front running of the trades of Axis Mutual Fund",
-      "source_id": "sebi"
-    }
-  ],
   "ebba8023df20": [
     {
       "date": "2026-07-25",
@@ -5428,51 +5261,12 @@
       "source_id": "rbi"
     }
   ],
-  "af7d548f34bb": [
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Notice(s) of Attachment dated July 22, 2026 issued under RC No. 9185 of 2026 drawn against Usha Devi in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
-      "new_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15602 & 15603 of 2026 dated July 23, 2026 against Sagarkumar Pravinchandra Dataniya [Defaulter] in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited), under Recovery Certificate No. 9192 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Notice(s) of Attachment dated July 22, 2026 issued under RC No. 9185 of 2026 drawn against Usha Devi in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
-      "new_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15604 & 15605 of 2026 dated July 23, 2026 against Jigneshkumar Purshottamdas [Defaulter] in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited), under Recovery Certificate No. 9193 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Notice(s) of Attachment dated July 22, 2026 issued under RC No. 9185 of 2026 drawn against Usha Devi in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
-      "new_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15600 & 15601 of 2026 dated July 23, 2026 against Dhaval Girishbhai Parmar [Defaulter] in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited), under Recovery Certificate No. 9191 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Notice(s) of Attachment dated July 22, 2026 issued under RC No. 9185 of 2026 drawn against Usha Devi in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
-      "new_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15598 & 15599 of 2026 dated July 23, 2026 against Girish Kantilal Parmar [Defaulter] in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited), under Recovery Certificate No. 9190 of 2026.",
-      "source_id": "sebi"
-    }
-  ],
   "6a781689da30": [
     {
       "date": "2026-07-28",
       "field": "description",
       "old_value": "Independent Drive Test Report river Ganga from Kolkata to Kachubaria-Gangasagar West Bengal LSA June 2026 nitinkumar Thu, 07/23/2026 - 16:46 File Download (4.98 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Thu, 07/23/2026 - 12:00 Service area West Bengal Months June Year 2026",
       "new_value": "Independent Drive Test Report Bihar LSA June 2026 nitinkumar Tue, 07/28/2026 - 11:48 File Download (6.26 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Tue, 07/28/2026 - 12:00 Service area Bihar Months June Year 2026",
-      "source_id": "trai"
-    }
-  ],
-  "48be82968092": [
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Bengaluru Urban (Karnataka) by Reliance Jio Infocomm Ltd nitinkumar Wed, 07/22/2026 - 18:18 Date Fri, 08/21/2026 - 12:00 District Bengaluru Urban Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name RAMASUBBA REDDY Contact person Email ramasubba.reddy@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocomm Limited, RT NAGAR, BANGALORE Event From Consumer Awarene",
-      "new_value": "Consumer Education Workshop at Bengaluru Urban (Karnataka) by Reliance Jio Infocomm Ltd nitinkumar Tue, 07/28/2026 - 19:22 Date Fri, 08/21/2026 - 12:00 District Bengaluru Urban Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name RAMASUBBA REDDY Contact person Email ramasubba.reddy@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocomm Limited, RT NAGAR, BANGALORE Event From Consumer Awarene",
       "source_id": "trai"
     }
   ],
@@ -5490,29 +5284,6 @@
       "old_value": "REol for Research Study on Strengthening India’s Deep-Tech Startup Ecosystem for Industrial Transformation niti_admin Tue, 07/28/2026 - 16:38 Weight 0 download (3.23 MB)",
       "new_value": "Corrigendum-1: EOI for the study titled “Strengthening India’s Deep-Tech Startup Ecosystem for Industrial Transformation” niti_admin Tue, 08/18/2026 - 16:53 Weight 0 Download (999.21 KB)",
       "source_id": "niti_aayog"
-    }
-  ],
-  "5bb6a904e22e": [
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Khammam (Telangana) by Vodafone Idea Limited nitinkumar Wed, 07/22/2026 - 16:06 Date Tue, 07/28/2026 - 12:00 District Khammam Division Consumer Affairs Date & Time Tue, 07/28/2026 - 13:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name SURESH Contact person Email suresh.uppu2@vodafoneidea.com Event Category COP By TRAI Venue Details Khammam City Event From Consumer Awareness( TSPs ) Contact person phone number 9885018656 Conducted b",
-      "new_value": "Consumer Education Workshop at Mahabubnagar (Telangana) by Vodafone Idea Limited nitinkumar Tue, 07/28/2026 - 19:37 Date Wed, 08/26/2026 - 12:00 District Mahabubnagar Division Consumer Affairs Date & Time Wed, 08/26/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Suresh Uppu Contact person Email suresh.uppu2@vodafoneidea.com Event Category COP By TRAI Venue Details Mahabubnagar city Event From Consumer Awareness( TSPs ) Contact person phone number 98",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Khammam (Telangana) by Vodafone Idea Limited nitinkumar Wed, 07/22/2026 - 16:06 Date Tue, 07/28/2026 - 12:00 District Khammam Division Consumer Affairs Date & Time Tue, 07/28/2026 - 13:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name SURESH Contact person Email suresh.uppu2@vodafoneidea.com Event Category COP By TRAI Venue Details Khammam City Event From Consumer Awareness( TSPs ) Contact person phone number 9885018656 Conducted b",
-      "new_value": "Consumer Education Workshop at Kakinada (Andhra Pradesh) by Vodafone Idea Limited nitinkumar Tue, 07/28/2026 - 19:32 Date Thu, 08/20/2026 - 12:00 District Kakinada Division Consumer Affairs Date & Time Thu, 08/20/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Suresh Uppu Contact person Email suresh.uppu2@vodafoneidea.com Event Category COP By TRAI Venue Details Kakinada city Event From Consumer Awareness( TSPs ) Contact person phone number 988501865",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-28",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Khammam (Telangana) by Vodafone Idea Limited nitinkumar Wed, 07/22/2026 - 16:06 Date Tue, 07/28/2026 - 12:00 District Khammam Division Consumer Affairs Date & Time Tue, 07/28/2026 - 13:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name SURESH Contact person Email suresh.uppu2@vodafoneidea.com Event Category COP By TRAI Venue Details Khammam City Event From Consumer Awareness( TSPs ) Contact person phone number 9885018656 Conducted b",
-      "new_value": "Consumer Education Workshop at Medak (Telangana) by Vodafone Idea Limited nitinkumar Tue, 07/28/2026 - 19:28 Date Tue, 08/11/2026 - 12:00 District Medak Division Consumer Affairs Date & Time Tue, 08/11/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Suresh Uppu Contact person Email suresh.uppu2@vodafoneidea.com Event Category COP By TRAI Venue Details Medak city Event From Consumer Awareness( TSPs ) Contact person phone number 9885018656 Conducted by",
-      "source_id": "trai"
     }
   ],
   "2c1a38a6e4db": [
@@ -5545,54 +5316,6 @@
       "old_value": "The Reserve Bank of India (RBI) has, vide order dated April 24, 2026, cancelled the banking licence issued to Paytm Payments Bank Limited (PPBL) under Section 22(4) of the Banking Regulation Act, 1949 (‘BR Act’) effective from close of business on April 24, 2026. As indicated in the Press Release issued on the said date, the Reserve Bank, in exercise of powers conferred under Sections 38 and 39 of the Banking Regulation Act 1949, made an application before the Hon’ble High Cour",
       "new_value": "The Delhi High Court recently ordered the winding up of Paytm Payments Bank Limited on a petition filed by the Reserve Bank of India (RBI) following the cancellation of Paytm's bank licence [Reserve Bank of India v. Paytm Payments Bank Limited].Justice Anish Dayal on Tuesday also permitted RBI-nominated official liquidator Girikumar M Nair to appoint AZB & Partners as legal advisor for the winding-up process.Justice Anish DayalCounsel for Nair said that approval was required under Section 29",
       "source_id": "barandbench"
-    }
-  ],
-  "e81ff48b65f8": [
-    {
-      "date": "2026-07-29",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Hanumakonda (Telangana) by Reliance Jio Infocomm Ltd nitinkumar Wed, 07/22/2026 - 18:19 Date Sat, 07/25/2026 - 12:00 District Hanumakonda Division Consumer Affairs Date & Time Sat, 07/25/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name sunitha Contact person Email sunitha.dandu@ri.com Event Category COP By TRAI Venue Details Reliance Jio Infocomm Ltd., H.No. 5-11-503 & 504,2nd Floor, Kandakatla Gateway Building, K.U",
-      "new_value": "Consumer Education Workshop at Bundi (Rajasthan) by Reliance Jio Infocomm Ltd nitinkumar Wed, 07/29/2026 - 18:36 Date Fri, 08/07/2026 - 12:00 District Bundi Division Consumer Affairs Date & Time Fri, 08/07/2026 - 14:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Divyarth Dubey Contact person Email divyarth.dubey@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocomm, 4A, 4B, Hari Tower, Near Ambedkar Circle, Bundi - 323001 Event From Consu",
-      "source_id": "trai"
-    }
-  ],
-  "3d685a5b49d5": [
-    {
-      "date": "2026-07-29",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Yavatmal (Maharashtra) by Indian Institute of Technology & Entrepreneur Development (IITED), Maharashtra nitinkumar Wed, 07/22/2026 - 16:18 Date Sat, 07/25/2026 - 12:00 District Yavatmal Division Consumer Affairs Date & Time Sat, 07/25/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name DR. R.D. USMANI Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Jawaharlal Darda Institute of En",
-      "new_value": "Consumer Awareness Program at Dhanbad (Jharkhand) by Indian Institute Of Technology & Entrepreneur Development (IITED) nitinkumar Wed, 07/29/2026 - 18:33 Date Sat, 08/22/2026 - 12:00 District Dhanbad Division Consumer Affairs Date & Time Sat, 08/22/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Govt. Polytechnic College, Rd, Jharudih, Dhanbad,",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-29",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Yavatmal (Maharashtra) by Indian Institute of Technology & Entrepreneur Development (IITED), Maharashtra nitinkumar Wed, 07/22/2026 - 16:18 Date Sat, 07/25/2026 - 12:00 District Yavatmal Division Consumer Affairs Date & Time Sat, 07/25/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name DR. R.D. USMANI Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Jawaharlal Darda Institute of En",
-      "new_value": "Consumer Awareness Program at Gopalganj (Bihar) by Indian Institute of Technology & Entrepreneur Development (IITED) nitinkumar Wed, 07/29/2026 - 18:28 Date Tue, 08/18/2026 - 12:00 District Gopalganj Division Consumer Affairs Date & Time Tue, 08/18/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Braj Kishor Narayan Singh Government Polytechnic",
-      "source_id": "trai"
-    }
-  ],
-  "76352a6c927b": [
-    {
-      "date": "2026-07-29",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Thiruvananthapuram (Kerala) by Bharti Airtel Limited nitinkumar Wed, 07/22/2026 - 18:19 Date Thu, 07/23/2026 - 12:00 District Thiruvananthapuram Division Consumer Affairs Date & Time Thu, 07/23/2026 - 15:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sheena Samuel Contact person Email sheena.samuel@airtel.com Event Category COP By TRAI Venue Details S.P Granddays, Panavila Road Near New Flyover Thycaud, Panavila, Junction, Thiru",
-      "new_value": "Consumer Education Workshop at Siwan (Bihar) by Bharti Airtel Limited nitinkumar Wed, 07/29/2026 - 18:33 Date Wed, 08/26/2026 - 12:00 District Siwan Division Consumer Affairs Date & Time Wed, 08/26/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Prerna Ranjan Contact person Email prerna.ranjan@airtel.com Event Category COP By TRAI Venue Details Siwan Sadar Sabhagaar – In association with Sadar CDPO Event From Consumer Awareness( TSPs ) Contact person",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-29",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Thiruvananthapuram (Kerala) by Bharti Airtel Limited nitinkumar Wed, 07/22/2026 - 18:19 Date Thu, 07/23/2026 - 12:00 District Thiruvananthapuram Division Consumer Affairs Date & Time Thu, 07/23/2026 - 15:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sheena Samuel Contact person Email sheena.samuel@airtel.com Event Category COP By TRAI Venue Details S.P Granddays, Panavila Road Near New Flyover Thycaud, Panavila, Junction, Thiru",
-      "new_value": "Consumer Education Workshop at Sheohar (Bihar) by Bharti Airtel Limited nitinkumar Wed, 07/29/2026 - 18:28 Date Thu, 08/06/2026 - 12:00 District Sheohar Division Consumer Affairs Date & Time Thu, 08/06/2026 - 12:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Prerna Ranjan Contact person Email prerna.ranjan@airtel.com Event Category COP By TRAI Venue Details Samvaad Kaksh, Jila samaharnalay, Sheohar, Bihar Event From Consumer Awareness( TSPs ) Contact person p",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-29",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Thiruvananthapuram (Kerala) by Bharti Airtel Limited nitinkumar Wed, 07/22/2026 - 18:19 Date Thu, 07/23/2026 - 12:00 District Thiruvananthapuram Division Consumer Affairs Date & Time Thu, 07/23/2026 - 15:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sheena Samuel Contact person Email sheena.samuel@airtel.com Event Category COP By TRAI Venue Details S.P Granddays, Panavila Road Near New Flyover Thycaud, Panavila, Junction, Thiru",
-      "new_value": "Consumer Education Workshop at Tiruvannamalai (Tamil Nadu) by Bharti Airtel Limited nitinkumar Wed, 07/29/2026 - 18:26 Date Fri, 08/07/2026 - 12:00 District Tiruvannamalai Division Consumer Affairs Date & Time Fri, 08/07/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Uma Mageswari P Contact person Email umamaheswari.p@airtel.com Event Category COP By TRAI Venue Details Shanmuga Industrial Arts & Science College, Manalurpet Road, Tiruvannamalai,",
-      "source_id": "trai"
     }
   ],
   "4b94407d858a": [
@@ -7673,13 +7396,6 @@
       "source_id": "state_pib_assam"
     },
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
-      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
-      "source_id": "state_pib_assam"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
@@ -7786,6 +7502,13 @@
     },
     {
       "date": "2026-08-26",
+      "field": "description",
+      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
+      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
+      "source_id": "state_pib_assam"
+    },
+    {
+      "date": "2026-08-27",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
       "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
@@ -8116,27 +7839,6 @@
       "date": "2026-08-22",
       "field": "description",
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Episodic events in West Asia had kept prices on benchmark brent crude largely volatile in July this year.",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Episodic events in West Asia had kept prices on benchmark brent crude largely volatile in July this year.",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Rahul Gandhi and other Congress leaders’ dramatic stir outside the Parliament Street Police Station turned into a major political controversy with the (BJP).",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "The post Journal article:Jaiswal, Himanshu and Ganesh Kumar, A, Import surge and dumping concerns amid trade war and India–US trade deal, Foreign Trade Review, July 2026 appeared first on Indira Gandhi Institute of Development Research.",
       "source_id": "igidr"
     },
@@ -8244,6 +7946,27 @@
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "The post Journal article:Jaiswal, Himanshu and Ganesh Kumar, A, Import surge and dumping concerns amid trade war and India–US trade deal, Foreign Trade Review, July 2026 appeared first on Indira Gandhi Institute of Development Research.",
       "source_id": "igidr"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "The post Journal article:Jaiswal, Himanshu and Ganesh Kumar, A, Import surge and dumping concerns amid trade war and India–US trade deal, Foreign Trade Review, July 2026 appeared first on Indira Gandhi Institute of Development Research.",
+      "source_id": "igidr"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "Cancellation of Recovery Certificate No. 9263 of 2026 dated July 28, 2026 issued to Piyush Agarwal (PAN: APBPA7314M) [Defaulter] in the matter of Sadhna Broadcast Limited.",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "Cancellation of Recovery Certificate No. 9258 of 2026 dated July 27, 2026 issued to Neha Agarwal (PAN: BLJPA5504J) [Defaulter] in the matter of Sadhna Broadcast Limited.",
+      "source_id": "sebi"
     },
     {
       "date": "2026-08-27",
@@ -9117,13 +8840,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
-      "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
@@ -9230,6 +8946,13 @@
     },
     {
       "date": "2026-08-26",
+      "field": "description",
+      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
+      "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-08-27",
       "field": "description",
       "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
       "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
@@ -9649,13 +9372,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -9773,6 +9489,13 @@
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Customs exemptions for lithium-ion batteries, solar glass; renewable energy outlay rises",
       "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
     },
     {
       "date": "2026-08-27",
@@ -11058,13 +10781,6 @@
     },
     {
       "date": "2026-08-24",
-      "field": "sectors",
-      "old_value": "Digital & Technology",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-24",
       "field": "description",
       "old_value": "Selection of Agency for conducting Gap Assessment for compliance with Digital Personal Data Protection Act, 2023 at SECI (SECI/C&P/IT/12/004/26-27)",
       "new_value": "Engagement of Agency for Comprehensive Application Management, Integration and Support Services for Existing SAP ERP Landscape (ERP 2.0).",
@@ -11181,16 +10897,16 @@
       "old_value": "Climate & Environment, Energy",
       "new_value": "Social Protection",
       "source_id": "seci"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Social Protection",
+      "source_id": "seci"
     }
   ],
   "6bbc658c1e6c": [
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
-      "new_value": "Reforming India's tribunals: Centralisation may simplify them, but not guarantee independence    Deccan Herald",
-      "source_id": "policyradar"
-    },
     {
       "date": "2026-08-21",
       "field": "description",
@@ -11312,6 +11028,13 @@
     },
     {
       "date": "2026-08-26",
+      "field": "description",
+      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
+      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-27",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
       "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
@@ -12520,13 +12243,6 @@
       "source_id": "gst_council"
     },
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
-      "new_value": "Union Finance Minister and…",
-      "source_id": "gst_council"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
@@ -12633,6 +12349,13 @@
     },
     {
       "date": "2026-08-26",
+      "field": "description",
+      "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-08-27",
       "field": "description",
       "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
       "new_value": "Union Finance Minister and…",
@@ -12752,20 +12475,6 @@
       "source_id": "niti_aayog"
     },
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
@@ -12984,6 +12693,20 @@
     },
     {
       "date": "2026-08-26",
+      "field": "sectors",
+      "old_value": "Education, Labour & Employment, Science & Innovation",
+      "new_value": "Labour & Employment",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
+      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-27",
       "field": "sectors",
       "old_value": "Education, Labour & Employment, Science & Innovation",
       "new_value": "Labour & Employment",
@@ -13191,41 +12914,6 @@
       "date": "2026-08-24",
       "field": "description",
       "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Notice of Attachment of Demat Accounts with AP No. 15755 of 2026 dated August 21, 2026 against Mr. Kapil Wadhawan (PAN: AAOPW6145L) [Defaulter] In the matter of Dewan Housing Finance Corporation Ltd (DHFL) under Recovery Certificate No. 9277 of 2026",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Notice of Attachment of Demat Account and Mutual Fund Folio(s) 15724 of 2026 dated August 20, 2026 against Virtual Business Solution Pvt. Ltd. (PAN: AAFCV0106J) [Defaulter] in the matter of trading based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.: under Recovery Certificate No. 9245 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Notice of Attachment of Demat Account and Mutual Fund Folio(s) 15722 of 2026 dated August 20, 2026 against Sadhna Bio Oils Pvt. Ltd. (PAN: AAKCS4057N) [Defaulter] in the matter of trading based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.: under Recovery Certificate No. 9244 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Notice of Attachment of Demat Account and Mutual Fund Folio(s) 15720 of 2026 dated August 20, 2026 against Shreya Gupta (PAN: AIMPJ4419J) [Defaulter] in the matter of trading based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.: under Recovery Certificate No. 9240 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Notice of Attachment of Bank and Post Office Accounts 15723 of 2026 dated August 20, 2026 against Virtual Business Solution Pvt. Ltd. (PAN: AAFCV0106J) [Defaulter] in the matter of trading based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.: under Recovery Certificate No. 9245 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
       "new_value": "Colleges will issue their individual spot-admission notifications on August 28, with the notifications to be published in newspapers on August 29.",
       "source_id": "deccan_chronicle"
     },
@@ -13326,6 +13014,41 @@
       "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
       "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "The visit comes amid efforts by India and Bangladesh to repair ties strained by the 2024 ouster of former Prime Minister Sheikh Hasina, whom Dhaka has asked New Delhi to extradite.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "Notice of Attachment dated August 27,2026 in Recovery Certificate No. 9275 of 2026 issued in the matter of Kunnamkulam Paper Mills Ltd",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "A Division Bench of the Delhi High Court comprising Justice C. Hari Shankar and Justice Amit Mahajan held that a cut-off date for age eligibility in competitive exams is not arbitrary or violative of Articles 14 and 16 merely because it is not 1 January, as the executive has wide discretion to fix such dates. Background Facts The petitioner was a candidate for the Civil Services Examination (CSE) 2026. She was aggrieved by the fixation of 1 August as the cut-off date for determining the upper ag",
+      "source_id": "livelaw"
     }
   ],
   "5533f00f621f": [
@@ -13701,6 +13424,13 @@
       "field": "description",
       "old_value": "Consumer Education Workshop at Kendujhar (Odisha) by Bharat Sanchar Nigam Ltd nitinkumar Thu, 08/06/2026 - 11:39 Date Thu, 08/13/2026 - 12:00 District Keonjhar Division Consumer Affairs Date & Time Thu, 08/13/2026 - 10:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Suresh Chandra nayak Contact person Email tdmkjr24@gmail.com Event Category COP By TRAI Venue Details BSNL Telephone Exchange Office, Keonjhar Event From Consumer Awareness( TSPs ) Contact person p",
       "new_value": "Consumer Education Workshop at Kolkata (West Bengal) by Bharat Sanchar Nigam Ltd nitinkumar Fri, 08/21/2026 - 11:53 Date Mon, 08/24/2026 - 12:00 District Kolkata Division Consumer Affairs Date & Time Mon, 08/24/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name UJJAL DEY Contact person Email bsnlmktgcity@gmail.com Event Category COP By TRAI Venue Details Chamber of SDE/MKTG/OA-EAST CTD BSNL,3rd Floor,Telephone Kendra P-10,New CIT Road,Kolkata-700073 Eve",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Kendujhar (Odisha) by Bharat Sanchar Nigam Ltd nitinkumar Thu, 08/06/2026 - 11:39 Date Thu, 08/13/2026 - 12:00 District Keonjhar Division Consumer Affairs Date & Time Thu, 08/13/2026 - 10:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Suresh Chandra nayak Contact person Email tdmkjr24@gmail.com Event Category COP By TRAI Venue Details BSNL Telephone Exchange Office, Keonjhar Event From Consumer Awareness( TSPs ) Contact person p",
+      "new_value": "Consumer Education Workshop at Mandi (Himachal Pradesh) by Bharat Sanchar Nigam Ltd nitinkumar Thu, 08/27/2026 - 18:24 Date Sat, 08/29/2026 - 12:00 District Mandi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Savita Sharma Contact person Email sharmasavi.29@gmail.com Event Category COP By TRAI Venue Details Room no.02,Telephone exchange building ,BSNL,Sundernagar-175002 Event From Consumer Awareness(",
       "source_id": "trai"
     }
   ],
@@ -14324,6 +14054,13 @@
       "old_value": "**Himanshu and Lavanya Introduction The constitutional position of fourth-branch institutions requires a revisiting of the historical evolution of separation of powers doctrine. Modern constitutional democracies rely on a network of unelected oversight institutions in order to monitor the excesses of state power. Various fourth branch institutions now perform functions not envisaged by the classical theory […] The post Rethinking Fourth Branch Institutions appeared first on Vidhi Centre fo",
       "new_value": "The article examines the constitutional position of 'fourth-branch institutions'—unelected oversight bodies like regulators and auditors—that monitor government power.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "**Himanshu and Lavanya Introduction The constitutional position of fourth-branch institutions requires a revisiting of the historical evolution of separation of powers doctrine. Modern constitutional democracies rely on a network of unelected oversight institutions in order to monitor the excesses of state power. Various fourth branch institutions now perform functions not envisaged by the classical theory […] The post Rethinking Fourth Branch Institutions appeared first on Vidhi Centre fo",
+      "new_value": "The article examines the constitutional position of fourth-branch institutions—unelected oversight bodies like regulators and auditors—in modern democracies.",
+      "source_id": "policyradar"
     }
   ],
   "43b569884bf1": [
@@ -14513,6 +14250,13 @@
       "old_value": "Reddy had initially departed for the UK on August 20 with plans to travel onward to the US.",
       "new_value": "Reddy, who is in London currently, had planned to visit the US and return to Hyderabad on August 30.",
       "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Reddy had initially departed for the UK on August 20 with plans to travel onward to the US.",
+      "new_value": "Reddy, who is in London currently, had planned to visit the US and return to Hyderabad on August 30.",
+      "source_id": "livemint_policy"
     }
   ],
   "ea25bb57baa8": [
@@ -14646,29 +14390,20 @@
       "old_value": "Why Punjab Finance Ninister Harpal Singh Cheema is facing government employees’ ire    The Indian Express",
       "new_value": "Finance Minister",
       "source_id": "gst_council"
-    }
-  ],
-  "dd5312021687": [
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Citation: 2026 LiveLaw (Guj) 221 - 2026 LiveLaw (Guj) 226 Nominal Index Ravi Nair v. State of Gujarat and Anr., 2026 LiveLaw (Guj) 221 Arati Damjibhai Rangpariya v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 222 Ravikumar Bharatbhai Joshi v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 223 Rajeshbhai Krushnakant Jariwala & Ors. v/s Falguniben Kamalkant Jariwala & Ors., 2026 LiveLaw (Guj) 224 Harshadbhai Prabhudas Sheth & Anr. v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 225 The Oriental Ins",
-      "new_value": "Nominal Index [Citations: 2026 LiveLaw (Tel) 129 – 138] N.V.N. Constructions Pvt. Ltd. v. The Southern Power Distribution Company of Telangana Limited & Ors. 2026 LiveLaw (Tel) 129 R. Jaya Laxmi v. State of Telangana & Ors. 2026 LiveLaw (Tel) 130 Vangeti Satyanarayana Reddy & Ors. v. State of Telangana & Ors. 2026 LiveLaw (Tel) 131 Kubeer Prashanth v. Union of India & Ors. 2026 LiveLaw (Tel) 132 Kanemoni Saradamma & Ors. v. State of Telangana & Ors. with Sanda Vajramma & Ors. v. State of Telanga",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Citation: 2026 LiveLaw (Guj) 221 - 2026 LiveLaw (Guj) 226 Nominal Index Ravi Nair v. State of Gujarat and Anr., 2026 LiveLaw (Guj) 221 Arati Damjibhai Rangpariya v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 222 Ravikumar Bharatbhai Joshi v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 223 Rajeshbhai Krushnakant Jariwala & Ors. v/s Falguniben Kamalkant Jariwala & Ors., 2026 LiveLaw (Guj) 224 Harshadbhai Prabhudas Sheth & Anr. v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 225 The Oriental Ins",
-      "new_value": "Nominal Index [Citations�2026 LiveLaw (PH) 278 - 2026 LiveLaw (PH) 289] Sandeep @ Kala v. State of Haryana 2026 LiveLaw (PH) 278 Ram Sunder Prasad Singh v. U.T. Chandigarh through Additional Deputy Commissioner and others 2026 LiveLaw (PH) 279 Sanjay @ Fauji v. State of Haryana 2026 LiveLaw (PH) 280 Shahnaz Hussain v. State of Haryana �2026 LiveLaw (PH) 281 Rakesh Walia v. State of Punjab and another 2026 LiveLaw (PH) 282 Rakesh Kumar v. State of Haryana & Ors. 2026 LiveLaw (PH) 283 �Varun Puri",
-      "source_id": "livelaw"
     },
     {
       "date": "2026-08-27",
       "field": "description",
-      "old_value": "Citation: 2026 LiveLaw (Guj) 221 - 2026 LiveLaw (Guj) 226 Nominal Index Ravi Nair v. State of Gujarat and Anr., 2026 LiveLaw (Guj) 221 Arati Damjibhai Rangpariya v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 222 Ravikumar Bharatbhai Joshi v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 223 Rajeshbhai Krushnakant Jariwala & Ors. v/s Falguniben Kamalkant Jariwala & Ors., 2026 LiveLaw (Guj) 224 Harshadbhai Prabhudas Sheth & Anr. v/s State of Gujarat & Anr., 2026 LiveLaw (Guj) 225 The Oriental Ins",
-      "new_value": "NOMINAL INDEX Ram Autar Singh Yadav v. State of U.P. and Another 2026 LiveLaw (AB) 589 Brijesh Singh Dagar vs. State of U.P. and 5 others 2026 LiveLaw (AB) 590 Vinod Kumar Singh v. State of U.P. Thru. Secy. Secondary Edu. Lko. and 4 others 2026 LiveLaw (AB) 591 Kalyan Health Care Products Pharmaceuticals Co-Operative Society Limited v. State of U P and 4 others 2026 LiveLaw (AB) 592 Ashok Kumar And 7 Ors. v. State Of U.P. Thru. Prin. Secy. Karmik Anubhag And 3 Ors. 2026 LiveLaw (AB) 593 Shri Tha",
-      "source_id": "livelaw"
+      "old_value": "Why Punjab Finance Ninister Harpal Singh Cheema is facing government employees’ ire    The Indian Express",
+      "new_value": "Finance Minister",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Why Punjab Finance Ninister Harpal Singh Cheema is facing government employees’ ire    The Indian Express",
+      "new_value": "Why Punjab Finance Minister Harpal Singh Cheema is facing government employees’ ire    The Indian Express",
+      "source_id": "policyradar"
     }
   ],
   "5b27ed02a6fc": [
@@ -14681,6 +14416,13 @@
     },
     {
       "date": "2026-08-26",
+      "field": "description",
+      "old_value": "Important aspects of governance, transparency and accountability, e-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures. Introduction The publication of the audited financial statements of the Prime Minister’s Citizen Assistance and Relief in Emergency Situations (PM CARES) Fund for Financial Years 2023-24 and 2024-25 has revived core debates around … Continue reading \"UPSC Editor",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-08-27",
       "field": "description",
       "old_value": "Important aspects of governance, transparency and accountability, e-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures. Introduction The publication of the audited financial statements of the Prime Minister’s Citizen Assistance and Relief in Emergency Situations (PM CARES) Fund for Financial Years 2023-24 and 2024-25 has revived core debates around … Continue reading \"UPSC Editor",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -14710,15 +14452,6 @@
       "old_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield (%) Tenor (Year) 1. Assam 1000 1000 99.75/7.5950 Re-issue of 7.56% Assam SGS 2036, issued on July 22, 2026 2. Bihar 1000 1000 100.08/7.6499 Re-issue of 7.66% Bihar SGS 2041, issued on July 22, 2026 1000 1000 100.48/7.6594 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 3. Delhi 500 500 99.88/7.3308 Re-issue of 7.31% Delhi SGS 2033, issued on July 22, 2026 500 500 100.98/7.6",
       "new_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield(%) Tenor(Year) 1. Andhra Pradesh 1000 1000 99.10/7.6695 Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 1600 1600 99.89/7.6891 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 2. Gujarat 1000 1000 7.47 10 1000 1000 7.59 15 3. Haryana 1000 1000 7.56 09 2000 2000 7.69 22 4. Maharashtra 1000 1000 7.09 05 2400 2400 7.63 13 1600 1600 7.70 23 5. Punjab 50",
       "source_id": "rbi"
-    }
-  ],
-  "c7918bce6aa6": [
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "The Kerala High Court on Monday sought the State government's response to a plea filed by a transgender devotee alleging denial of permission to enter Sabarimala temple due to her gender [Sathyashri Sharmila Rehemathali v State of Kerala & ors].A bench of Justice Gopinath P and Justice S Manu issued notice to the State and posed the matter to September 3 for further consideration.Justice Gopinath P and Justice S ManuThe petition was filed by Sathyashri Sharmila Rehemathali, who identifies as",
-      "new_value": "The Kerala High Court on Monday sought the State government's response to a plea filed by a transgender devotee alleging denial of permission to enter Sabarimala temple due to her gender [Sathyashri Sharmila Rehemathali v State of Kerala & ors].A bench of Justice Gopinath P and Justice S Manu issued notice to the State and posted the matter for further consideration on September 3.Justice Gopinath P and Justice S ManuThe petition was filed by Sathyashri Sharmila Rehemathali, who identifies a",
-      "source_id": "barandbench"
     }
   ],
   "65a43278927e": [
@@ -14877,6 +14610,13 @@
       "old_value": "Consumer Education Workshop at Gangapur City (Rajasthan) by Vodafone Idea Limited nitinkumar Mon, 08/24/2026 - 17:58 Date Mon, 08/31/2026 - 12:00 District Gangapur City Division Consumer Affairs Date & Time Mon, 08/31/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Rakesh Purohit Contact person Email rakesh.purohit1@vodafoneidea.com Event Category COP By TRAI Venue Details Hotel Mangalam Palace, Udai moad Circle, Karamchari Colony, Gangapur City,",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Gangapur City (Rajasthan) by Vodafone Idea Limited nitinkumar Mon, 08/24/2026 - 17:58 Date Mon, 08/31/2026 - 12:00 District Gangapur City Division Consumer Affairs Date & Time Mon, 08/31/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Rakesh Purohit Contact person Email rakesh.purohit1@vodafoneidea.com Event Category COP By TRAI Venue Details Hotel Mangalam Palace, Udai moad Circle, Karamchari Colony, Gangapur City,",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "2aebe36f826d": [
@@ -14970,15 +14710,6 @@
       "old_value": "Journalist Abhishek Upadhyay, who reported about Ram Mandir donation theft in Ayodhya, has approached the Supreme Court to quash the first information report (FIR) lodged against him in a road rage case.He has alleged that the road rage case, which invokes provisions under the stringent, SC/ST (Prevention of Atrocities) Act, was a counter blast to target him for his investigative reports on the Ram Mandir Trust and alleged corruption in the Uttar Pradesh administration.The matter was mentioned b",
       "new_value": "The Supreme Court on Tuesday granted protection from arrest to journalist Abhishek Upadhyay, who reported about Ram Mandir donation theft in Ayodhya, in a road rage case filed against him.The Court also sought the response of the Uttar Pradesh government to the plea filed by Upadhyay to quash the case against him.Upadhyay moved the Court alleging that the road rage case, which invokes provisions under the stringent Scheduled Caste and Scheduled Tribe (Prevention of Atrocities) Act (SC/ST Act), w",
       "source_id": "barandbench"
-    }
-  ],
-  "0454fd64ed95": [
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "The order called on all corporate offices, government and private schools and institutions to guide their employees, staff to work from home on Tuesday.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
     }
   ],
   "0ae45f3d4e69": [
@@ -15083,16 +14814,14 @@
       "source_id": "rbi_notifications"
     }
   ],
-  "8911db2ebd67": [
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "Links to Top Picks of August 24: Allahabad HC Refers Senior IAS Officer's Conduct For Criminal Contempt Over Attempt To Intimidate Judge Mere 'Reading Out' Grounds Of Arrest To Accused Only During Production Before Trial Court Violates Article 22(1) Mandate: AP High Court Party Lacking Any Conceivable Right Over Land Can't Challenge Eviction Notice: Gauhati High Court KSU Black Flag Rally Violence: Meghalaya High Court Initiates Suo Moto PIL, Seeks Action-Taken Report Rajasthan High Court Tighte",
-      "new_value": "Links to Top Picks of August 25: Legally Wedded Wife Entitled To Family Pension Despite Husband Nominating Sons Instead: Gujarat High Court 'Public Utility' No Licence To Override Forest, Wildlife Laws: Rajasthan High Court Quashes NHAI Acquisition Near Sariska Tiger Reserve Son Can't Claim Coparcenary Share In Father's Inherited Property Unless HUF Is Established: Rajasthan High Court Calcutta High Court Stays Arrest Warrant Against TMC MP Mahua Moitra In Hate Speech Case Calcutta High Court Di",
-      "source_id": "livelaw"
-    }
-  ],
   "2928adeb8640": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:32 Publishing Date Tue, 08/25/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
+      "new_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:46 Weight 0 Links https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
+      "source_id": "niti_aayog"
+    },
     {
       "date": "2026-08-27",
       "field": "description",
@@ -15164,15 +14893,6 @@
       "source_id": "trai"
     }
   ],
-  "99e7e4ed6a87": [
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "The Gujarat High Court quashed a GST cancellation order as well as appellate proceedings against an entity after noting that the State Tax Officer had passed the order relying exclusively on AI-generated case laws, including non-existent and irrelevant authorities. [2026 LiveLaw (Guj) 228] A division bench of Justice AS Supehia and Justice Vaibhavi D Nanavati had in its earlier ordered said that it appeared that the Officer's order was passed by placing \"reliance exclusively on the AI generated",
-      "new_value": "The Gujarat High Court has directed State tax authorities to strictly follow instructions governing the use of Artificial Intelligence (AI) while passing adjudication and appellate orders [Faiz Enterprises Vs State Tax Officer]In a judgment delivered on August 20, a bench of Justice AS Supehia and Justice Vaibhavi D Nanavati cautioned that any violation of the safeguards would amount to contempt of court.The Court issued the direction after a State Tax Officer admitted that he had used AI while",
-      "source_id": "barandbench"
-    }
-  ],
   "cf44329d6d58": [
     {
       "date": "2026-08-27",
@@ -15208,6 +14928,13 @@
     }
   ],
   "bf2b92fbcd85": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "WhatsApp has launched new security features, including stronger two-step verification, multiple passkeys for accounts, and enhanced caller details.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
     {
       "date": "2026-08-27",
       "field": "description",
@@ -15287,6 +15014,13 @@
       "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
       "new_value": "RBI/2026-27/244 DOR.SOG(SPE).REC.212/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Small Finance Banks   Interest Rate on Deposits) Third Amendment Directions...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks   Interest Rate on Deposits) Second Amendment Directions...",
+      "source_id": "policyradar"
     }
   ],
   "d2571681d538": [
@@ -15316,15 +15050,6 @@
       "source_id": "scroll"
     }
   ],
-  "934ced7c2fc0": [
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "Directorate of Enforcement invites application for the post of Additional Director of Enforcement on deputation basis. Name of the Post: Additional Director of Enforcement No. of Post: 18 (Eighteen) Essential Qualification and Experience Officers In terms of the Recruitment Rules, the following categories of officers are eligible of the Central Government or State Government or Union Territory Administrations or Public Sector Undertakings or Universities or recognized research institutions or se",
-      "new_value": "Directorate of Enforcement invites application for the post of Joint Director of Enforcement on deputation basis. Name of the Post: Joint Director of Enforcement No. of Post: 20 (Twenty) Essential Qualification and Experience Officers of Central Government or State Government or Union Territory Administrations or Public Sector Undertakings or Universities or recognized research institutions or semi Government or autonomous bodies or statutory organizations: (a) (i) holding analogous post on regu",
-      "source_id": "livelaw"
-    }
-  ],
   "1557f6c4e569": [
     {
       "date": "2026-08-27",
@@ -15332,6 +15057,325 @@
       "old_value": "Hindu Law - Supreme Court Half Yearly Digest Jan - Jun, 2026 Hindu Law – Alienation – Legal Necessity – Karta's Power - held that alienations by a Karta in favor of a single coparcener must be strictly proved to be for legal necessity - Vague or general recitals in sale deeds regarding \"family needs\" or \"debts\" are insufficient to bind the interests of other coparceners - upheld the item-wise scrutiny performed by the lower courts to distinguish between proved legal necessity and impermissible a",
       "new_value": "Motor Vehicles Act, 1988 - Supreme Court Half Yearly Digest Jan - Jun, 2026 Motor Vehicles Act, 1988 - Conventional Heads – Omission of Filial Consortium – The Tribunal and High Court failed to award any amount under the head of consortium - Held: The Motor Vehicles Act is a beneficial legislation, and courts must ensure 'just compensation' is awarded even if a legitimate conventional head has been omitted below - The parents of the deceased unmarried son are entitled to filial consortium - Comp",
       "source_id": "livelaw"
+    }
+  ],
+  "e701ac4812fb": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 103 83 98 (ii) Amount 28,091.245 15,874.000 21,375.000 III. Cut-off price (₹)/Yield 98.7055 97.2987 94.5881 (YTM: 5.2603%) (YTM: 5.5678%) (YTM: 5.7373%) IV. Competitive Bids Accepted       (i) Number 28 50 51 (ii) Amount 8,550.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 86.0537 20.3",
+      "new_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 103 74 87 (ii) Amount 29,406.000 12,260.750 12,779.000 III. Cut-off price (₹) / Yield 98.7046 97.2750 94.5350 (YTM: 5.2640%) (YTM: 5.6181%) (YTM: 5.7968%) IV. Competitive Bids Accepted       (i) Number 32 60 61 (ii) Amount 8,550.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 13.8798 34",
+      "source_id": "rbi"
+    }
+  ],
+  "4c3369af7a7c": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.7055 (YTM: 5.2603%) 97.2987 (YTM: 5.5678%) 94.5881 (YTM: 5.7373%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
+      "new_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.7046 (YTM: 5.2640%) 97.2750 (YTM: 5.6181%) 94.5350 (YTM: 5.7968%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
+      "source_id": "rbi"
+    }
+  ],
+  "f6fc5e948e9b": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The World Bank's Franco emphasized that governments must ensure regulatory certainty to attract private investment.",
+      "new_value": "The World Bank's Franco has emphasized that governments must ensure regulatory certainty to attract private capital.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "sectors",
+      "old_value": "Finance & Economy",
+      "new_value": "Governance & Reform",
+      "source_id": "policyradar"
+    }
+  ],
+  "a1a57fdee4a5": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Telangana High Court has held that proceedings under Section 126 of the Electricity Act, 2003 cannot be initiated merely because the use of electricity allegedly violates other provisions of the Act or applicable regulations. The distribution licensee must independently establish that the alleged conduct falls within the statutory expression “unauthorised use of electricity”, the court said.� Justice Nagesh Bheemapaka made the observation while setting aside a provisional assessment of ₹81.1",
+      "new_value": "The Telangana High Court has held that proceedings under Section 126 of the Electricity Act, 2003 cannot be initiated merely because the use of electricity allegedly violates other provisions of the Act or applicable regulations. [2026 LiveLaw (Tel) 142] The distribution licensee must independently establish that the alleged conduct falls within the statutory expression “unauthorised use of electricity”, the court said.� Justice Nagesh Bheemapaka made the observation while setting aside a provis",
+      "source_id": "livelaw"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Telangana High Court has held that proceedings under Section 126 of the Electricity Act, 2003 cannot be initiated merely because the use of electricity allegedly violates other provisions of the Act or applicable regulations. The distribution licensee must independently establish that the alleged conduct falls within the statutory expression “unauthorised use of electricity”, the court said.� Justice Nagesh Bheemapaka made the observation while setting aside a provisional assessment of ₹81.1",
+      "new_value": "The Telangana High Court has held that proceedings under Section 126 of the Electricity Act, 2003 cannot be initiated merely because the use of electricity allegedly violates other provisions of the...",
+      "source_id": "policyradar"
+    }
+  ],
+  "509919ce2131": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Telangana High Court has directed Forest Department officials not to interfere with the peaceful possession, administration and management of a mosque and madrasa situated at Ananthagiri Hills in Vikarabad District without following due process of law. The Court, however, clarified that its order cannot be used to encroach upon any Reserve Forest area and the forest officials can take appropriate action in case of any encroachment on such land.� Justice Surepalli Nanda passed the order after",
+      "new_value": "The Telangana High Court has directed Forest Department officials not to interfere with the peaceful possession, administration and management of a mosque and madrasa situated at Ananthagiri Hills in Vikarabad District without following due process of law. [2026 LiveLaw (Tel) 141] The Court, however, clarified that its order cannot be used to encroach upon any Reserve Forest area and the forest officials can take appropriate action in case of any encroachment on such land.� Justice Surepalli Nan",
+      "source_id": "livelaw"
+    }
+  ],
+  "c01d59d14283": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Telangana High Court has held that when authorities extend the timeline for land acquisition proceedings, the timeline available to landowners to file objections must also run parallel with the extended period. The Court said that an extension of the acquisition proceedings cannot extinguish the landowners' right to object. Justice N.V. Shravan Kumar made the observation while setting aside a final award, insofar as nine landowners were concerned, for acquisition of their lands for infrastru",
+      "new_value": "The Telangana High Court has held that when authorities extend the timeline for land acquisition proceedings, the timeline available to landowners to file objections must also run parallel with the extended period. [2026 LiveLaw (Tel) 140] The Court said that an extension of the acquisition proceedings cannot extinguish the landowners' right to object. Justice N.V. Shravan Kumar made the observation while setting aside a final award, insofar as nine landowners were concerned, for acquisition of",
+      "source_id": "livelaw"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Telangana High Court has held that when authorities extend the timeline for land acquisition proceedings, the timeline available to landowners to file objections must also run parallel with the extended period. The Court said that an extension of the acquisition proceedings cannot extinguish the landowners' right to object. Justice N.V. Shravan Kumar made the observation while setting aside a final award, insofar as nine landowners were concerned, for acquisition of their lands for infrastru",
+      "new_value": "The Telangana High Court has held that when authorities extend the timeline for land acquisition proceedings, the timeline available to landowners to file objections must also run parallel with the...",
+      "source_id": "policyradar"
+    }
+  ],
+  "6d08ab85327a": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Supreme Court is set to hear on September 21 whether alternative methods of verification of identity can be used in a plea by a specially abled NEET candidate. A bench comprising Justice PS Narasimha and Justice Alok Aradhe heard Senior Advocate Gopal Shankaranarayanan(for petitioner) on the interim relief. The Court didn't pass any orders on interim relief, as it was informed that the petitioner was allowed to appear for the re-NEET UG conducted this year.� However, it has kept the larger i",
+      "new_value": "The Supreme Court is set to hear on September 21 whether alternative methods of verification of identity can be used in a plea by a specially abled NEET candidate. A bench comprising Justice PS Narasimha and Justice Alok Aradhe heard Senior Advocate Gopal Shankaranarayanan(for petitioner) on the interim relief on whether the petitioner can be allowed to appear for the examination using alternative proof of identity.� It may be on April 30, days before the NEET-UG 2026 examination, the National T",
+      "source_id": "livelaw"
+    }
+  ],
+  "6592f4b03a50": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Urban Co-operative Bank Limited, Dehradun vide Directive No. DDN.DOS.QAG.No.S168/03-04-007/2025-2026 dated February 09, 2026, for a period of 06 months from close of business on February 10, 2026 up to close of business on August 10, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Direc",
+      "new_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No. पर्य.वि.जम्मू. सं.S132/12-01-040/2026-27 dated August 25, 2026 has issued certain Directions to The Citizens Co-operative Bank Ltd., Jammu, (“the bank”), whereby, as",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Urban Co-operative Bank Limited, Dehradun vide Directive No. DDN.DOS.QAG.No.S168/03-04-007/2025-2026 dated February 09, 2026, for a period of 06 months from close of business on February 10, 2026 up to close of business on August 10, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Direc",
+      "new_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No. NGP.DOS.SSM 3.No.S276/15-02-156/2026-2027 dated August 25, 2026, has issued certain Directions to Desaiganj Nagari Cooperative Bank Maryadit, Desaiganj, (“the bank”), whereby, as from the close of business on August 27, 2026, the bank shall not",
+      "source_id": "rbi"
+    }
+  ],
+  "c0ea2c2aa3cb": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 2,00,000 Total amount of offers received (in ₹ crore) 1,42,622 Amount accepted (in ₹ crore) 1,42,622 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/969",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Friday, August 28, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 3,00,000 3 09:30 AM to 10:00 AM August 31, 2026 (Monday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
+      "source_id": "rbi"
+    }
+  ],
+  "fbe61ad5c452": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBl) has, by an order dated August 6, 2026, imposed a monetary penalty of ₹50,000 (Rupees Fifty Thousand only) on The Amravati District Central Co-operative Bank Ltd., Maharashtra (the bank), for non-compliance with certain directions issued by RBI on ‘Know Your Customer (KYC)’ and ‘Ensuring Reasonableness of Bank Charges and Charges Levied for Sending SMS Alerts’. This penalty has been imposed in exercise of powers conferred on RBI under",
+      "new_value": "The Reserve Bank of India (RBl) has, by an order dated August 25, 2026, imposed a monetary penalty of ₹50,000 (Rupees Fifty Thousand only) on Jalna District Central Co-operative Bank Ltd., Maharashtra (the bank), for non-compliance with certain directions issued by RBI on 'Membership of Credit Information Companies (CICs) by Co-operative Banks' and 'Know Your Customer (KYC)'. This penalty has been imposed in exercise of powers conferred on RBI, under the provisions of section 25(1)(iii) re",
+      "source_id": "rbi"
+    }
+  ],
+  "eb1669bb4498": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Forex traders said the RBI's continued intervention through state-run banks helped prevent a sharper decline",
+      "new_value": "Brent prices fell below the $90 mark for the first time in several sessions amid continuing discussions between Iran and Oman regarding a temporary shipping corridor through the Strait",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "19f1159a91a1": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Completion of Recovery Certificate No. 9255 of 2026 dated July 27, 2026 issued to Yogesh Kumar Gupta (PAN: ABJPG8977G) in the matter of Sadhna Broadcast Limited.",
+      "new_value": "Cancellation of Recovery Certificate No. 9260 of 2026 dated July 27, 2026 issued to Naresh Kumar (PAN: ASPPK8654F) [Defaulter] in the matter of Sadhna Broadcast Limited.",
+      "source_id": "sebi"
+    }
+  ],
+  "5e64fda5902e": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Notice of Demand under Recovery Certificate number 9263 of 2026 dated July 28, 2026 issued to Piyush Agarwal (PAN: APBPA7314M) in the matter of Sadhna Broadcast Limited: under Recovery Certificate No. 9263 of 2026.",
+      "new_value": "Release Order – Piyush Agarwal (PAN: APBPA7314M) [Defaulter] in the matter of Sadhna Broadcast Limited. Certificate No. 9263 of 2026.",
+      "source_id": "sebi"
+    }
+  ],
+  "c486b8f9d339": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Consumer Outreach Program at Jabalpur (Madhya Pradesh) by RO Bhopal nitinkumar Fri, 08/07/2026 - 12:08 Date Tue, 08/11/2026 - 12:00 District Jabalpur Division Consumer Affairs Date & Time Tue, 08/11/2026 - 10:30 Programme Category COP By TRAI Event Status In progress Contact Person Name Munish Mowar Contact person Email sro2.bhopal@trai.gov.in Event Category COP By TRAI Venue Details Hotel Arihant palace Russel Chowk, Napier Town Jabalpur (M.P.) Event From Consumer Awareness ( In House ) Con",
+      "new_value": "Consumer Outreach Program at Agra (Uttar Pradesh) by RO BHOPAL nitinkumar Thu, 08/27/2026 - 18:33 Date Wed, 09/09/2026 - 12:00 District Agra Division Consumer Affairs Date & Time Wed, 09/09/2026 - 10:30 Programme Category COP By TRAI Event Status In progress Contact Person Name Mayur Tarang Topno Contact person Email sro.bhopal@trai.gov.in Event Category COP By TRAI Venue Details Hotel Pushp Villa , VIP Road to Taj Mahal, Agra U.P. Event From Consumer Awareness ( In House ) Contact person ph",
+      "source_id": "trai"
+    }
+  ],
+  "d0c9c4041e39": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Consumer Awareness Program at East Delhi (Delhi) by Indian Institute of Technology & Entrepreneur Development (IITED), Delhi nitinkumar Mon, 08/24/2026 - 17:57 Date Sat, 08/29/2026 - 12:00 District East Delhi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Rajkiya Sarvodaya Kanya Vidyalaya, Shaka",
+      "new_value": "Consumer Awareness Program at East Delhi (Delhi) by Alabhaya Foundation nitinkumar Thu, 08/27/2026 - 18:24 Date Sun, 08/30/2026 - 12:00 District East Delhi Division Consumer Affairs Date & Time Sun, 08/30/2026 - 08:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Vandana Contact person Email alabhayafoundation@gmail.com Event Category COP By TRAI Venue Details Prajapita Eshwariya Vishwa Vidhyalaya Kamal Pushp Bhawan J -11 Gali no. 6 LAXMI NAGAR DELHI - 92 Event",
+      "source_id": "trai"
+    }
+  ],
+  "87a761547a6d": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Chennai (Tamil Nadu) by Tata Play Broadband Private Limited (formerly Tata Sky Broadband Pvt.Ltd.) nitinkumar Fri, 08/21/2026 - 11:53 Date Sat, 08/22/2026 - 12:00 District Chennai Division Consumer Affairs Date & Time Sat, 08/22/2026 - 10:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Smruti Ranjan Panda Contact person Email smrutiranjan.panda@tataplayfiber.com Event Category COP By TRAI Venue Details Bridge Xanadu , Chinna Nola",
+      "new_value": "Consumer Education Workshop at Chennai (Tamil Nadu) by Tata Play Broadband Private Limited (formerly Tata Sky Broadband Pvt Ltd) nitinkumar Thu, 08/27/2026 - 18:24 Date Sat, 09/19/2026 - 12:00 District Chennai Division Consumer Affairs Date & Time Sat, 09/19/2026 - 12:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Preeti Sonthalia Contact person Email preeti.sonthalia@tataplayfiber.com Event Category COP By TRAI Venue Details Bridge Xanadu , Chinna Nolambur ,",
+      "source_id": "trai"
+    }
+  ],
+  "23c77b18b3bc": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The outfit members allegedly attempted to provoke members of the Muslim procession and asked them not to raise slogans",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
+    }
+  ],
+  "8e68bacfce7c": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Civil Aviation Minister Mr. K. Ram Mohan Naidu said India’s air cargo operations have grown nearly 40% in recent years, while the Government is working to develop global-standard air cargo hubs and facilities.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    }
+  ],
+  "4fbb95306699": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Yogi Adityanath prayed to Lord Pashupatinath for the safety and well-being of all those affected",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
+    }
+  ],
+  "6e9d1fbfa1a1": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The panel has called on the US government to consider sanctions against RSS members and Indian officials “complicit in religious freedom violation.”",
+      "new_value": "Groups associated with the Rashtriya Swayamsevak Sangh have ‘perpetrated violent attacks’ against minorities in India, alleged the commission.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The panel has called on the US government to consider sanctions against RSS members and Indian officials “complicit in religious freedom violation.”",
+      "new_value": "Groups associated with the Rashtriya Swayamsevak Sangh have ‘perpetrated violent attacks’ against minorities in India, alleged the commission.",
+      "source_id": "scroll"
+    }
+  ],
+  "d6a6ebee10fb": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Government’s stated case for the law is the need to curb conversion obtained through force or fraud but sections of the Christian and Muslim communities have set out the opposite concern: that a wide reading of terms such as inducement could reach conduct that has nothing to do with coercion, from a personal relationship to attendance at a weekly service",
+      "new_value": "Maharashtra has passed an anti-conversion law aimed at preventing forced religious conversions. The law introduces measures like mandatory consent forms and potential prison terms for violations.",
+      "source_id": "policyradar"
+    }
+  ],
+  "7b87b8fd9e56": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Telangana High Court has set aside land acquisition proceedings for road widening at Liberty Cross Roads, Hyderabad, after finding that the authorities omitted the names of admittedly known co-owners from the acquisition proceedings and invoked the urgency provision under Land Acquisition Act without demonstrating genuine urgency to dispense with their right to object. For context, Section 4(1) provides for a preliminary notification expressing the Government's intention to acquire land for",
+      "new_value": "The Telangana High Court has set aside land acquisition proceedings for road widening at Liberty Cross Roads, Hyderabad, after finding that the authorities omitted the names of admittedly known...",
+      "source_id": "policyradar"
+    }
+  ],
+  "6b4e1427b47e": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Rajasthan High Court has dismissed petitions challenging the reservation of seats for the forthcoming municipal elections in the State, holding that it could not interfere with the election process after the election programme had been declared, in view of the bar under Article 243-ZG of the Constitution. The bench of Justice Anoop Kumar Dhand observed that the order dated August 19, 2026, by the Rajasthan State Election Commissioner indicated that the dates for conducting the municipal elec",
+      "new_value": "The Rajasthan High Court has dismissed petitions challenging the reservation of seats for the forthcoming municipal elections in the State, holding that it could not interfere with the election...",
+      "source_id": "policyradar"
+    }
+  ],
+  "ac3a8e12fe7c": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Tamil Nadu Chief Minister Joseph Vijay and Minister Aadhav Arjuna have filed applications to reject the election petitions challenging their victory during the 2026 Legislative Assembly Elections. Justice V Lakshminarayanan was informed that the applications have been filed and the same are yet to be numbered. The court has asked the petitions to be listed on Friday (August 28) and Monday (August 31). The court had, on Tuesday (August 25), warned that it would impose costs on the CM and the Mini",
+      "new_value": "Tamil Nadu Chief Minister Joseph Vijay and Minister Aadhav Arjuna have filed applications to reject the election petitions challenging their victory during the 2026 Legislative Assembly Elections.",
+      "source_id": "policyradar"
+    }
+  ],
+  "1e4da0d3412a": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The committee calls on India to “urgently address discrimination, hate speech and hate crimes” and “ensure accountability” for these violations",
+      "new_value": "The UN Committee on the Elimination of Racial Discrimination called on India to suspend NRC, and revise Special Intensive Revision.",
+      "source_id": "policyradar"
+    }
+  ],
+  "9f7588b9913a": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Government of India has announced the sale (re-issue) of Government Security, as detailed below, through auction to be held on August 28, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Minimu",
+      "new_value": "Government of India has announced the sale (re-issue) of Government Security, as detailed below, through auction to be held on August 28, 2026 (Friday).",
+      "source_id": "policyradar"
+    }
+  ],
+  "ea557b52e7f3": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "No Government has an entitlement to chose a politically convenient date of an election whose periodicity has been fixed by the Constitution of India, held the Bombay High Court while upholding the validity of the Goa Municipalities (Amendment) Ordinance, 2026, which has now paved way for elections of 11 Municipal Councils in Goa. A division bench of Justice Valmiki Menezes and�Justice Hiten Venegavkar has ordered the Goa State Election Commission (GSEC) to ensure that the elections to the 11 Cou",
+      "new_value": "No Government has an entitlement to chose a politically convenient date of an election whose periodicity has been fixed by the Constitution of India...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "No Government has an entitlement to chose a politically convenient date of an election whose periodicity has been fixed by the Constitution of India, held the Bombay High Court while upholding the validity of the Goa Municipalities (Amendment) Ordinance, 2026, which has now paved way for elections of 11 Municipal Councils in Goa. A division bench of Justice Valmiki Menezes and�Justice Hiten Venegavkar has ordered the Goa State Election Commission (GSEC) to ensure that the elections to the 11 Cou",
+      "new_value": "Government can't choose politically convenient time for elections: Bombay High Court",
+      "source_id": "policyradar"
+    }
+  ],
+  "8f6450839854": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "NOMINAL INDEX Ram Autar Singh Yadav v. State of U.P. and Another 2026 LiveLaw (AB) 589 Brijesh Singh Dagar vs. State of U.P. and 5 others 2026 LiveLaw (AB) 590 Vinod Kumar Singh v. State of U.P. Thru. Secy. Secondary Edu. Lko. and 4 others 2026 LiveLaw (AB) 591 Kalyan Health Care Products Pharmaceuticals Co-Operative Society Limited v. State of U P and 4 others 2026 LiveLaw (AB) 592 Ashok Kumar And 7 Ors. v. State Of U.P. Thru. Prin. Secy. Karmik Anubhag And 3 Ors. 2026 LiveLaw (AB) 593 Shri Tha",
+      "new_value": "Citations: 2026 LiveLaw (Kar) 303 to 2026 LiveLaw (Kar) 311 NOMINAL INDEX Sri G. Eshwaraiah S/o G. Narasimhulu vs. Central Bureau of Investigation (CBI) and Others, 2026 LiveLaw (Kar) 303 .",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "NOMINAL INDEX Ram Autar Singh Yadav v. State of U.P. and Another 2026 LiveLaw (AB) 589 Brijesh Singh Dagar vs. State of U.P. and 5 others 2026 LiveLaw (AB) 590 Vinod Kumar Singh v. State of U.P. Thru. Secy. Secondary Edu. Lko. and 4 others 2026 LiveLaw (AB) 591 Kalyan Health Care Products Pharmaceuticals Co-Operative Society Limited v. State of U P and 4 others 2026 LiveLaw (AB) 592 Ashok Kumar And 7 Ors. v. State Of U.P. Thru. Prin. Secy. Karmik Anubhag And 3 Ors. 2026 LiveLaw (AB) 593 Shri Tha",
+      "new_value": "Citations: 2026 LiveLaw (Kar) 303 to 2026 LiveLaw (Kar) 311 NOMINAL INDEX Sri G. Eshwaraiah S/o G. Narasimhulu vs. Central Bureau of Investigation (CBI) and Others, 2026 LiveLaw (Kar) 303 . Sri K N Venugopal @ Venugopala Reddy and Another vs. The State of Karnataka and Others, 2026 LiveLaw (Kar) 304 Hari Prakash SP & Ors.v. State of Karnataka & Ors., 2026 LiveLaw (Kar) 305 Shiva Shankarappa Sahukar v. Special Secretary & Anr., 2026 LiveLaw (Kar) 306 State of Karnataka v/s Pavitra Gowda & Ors..,",
+      "source_id": "livelaw"
+    }
+  ],
+  "5ae59fe13dec": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Jharkhand High Court has acquitted former Congress minister and MLA Yogendra Sao in a criminal case arising from a 2010 protest during the inauguration of an NTPC project office in Hazaribag, after finding that there was no specific evidence that he had assaulted anyone or instigated the gathering. A Single Judge Bench of Justice Pradeep Kumar Srivastava set aside the concurrent findings of the Trial Court and Appellate Court, which had convicted Sao for offences under Sections 323, 341, 504",
+      "new_value": "The Jharkhand High Court has acquitted former Congress minister and MLA Yogendra Sao in a criminal case arising from a 2010 protest during the inauguration of an NTPC project office in Hazaribag...",
+      "source_id": "policyradar"
+    }
+  ],
+  "c523ccb12d92": [
+    {
+      "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Various creditors stand to recover only about 0.028% of their origin claims from Essel Group founder Subhash Chandra under a repayment plan backed by a majority of the National Company Law Tribunal (NCLT). This translates into a haircut of approximately 99.97%, or nearly ₹22,000 crore. [India Bulls Vs Subhash Chandra]Since 2022, Chandra has been the subject of insolvency proceedings filed by Indiabulls Housing Finance Limited (Indiabulls/ IBHF), which is now known as Sammaan Capital. Chandra had",
+      "new_value": "NCLT ruling reduces Subhash Chandra’s liability from over ₹22K crore to ₹6.25 crore in insolvency case",
+      "source_id": "policyradar"
     }
   ]
 }
