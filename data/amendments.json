@@ -3318,13 +3318,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3438,6 +3431,13 @@
     },
     {
       "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-08-28",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -4277,22 +4277,6 @@
       "source_id": "historical"
     }
   ],
-  "26aa3b759c6d": [
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Kota (Rajasthan) by Consumer Unity & Trust Society ypjaipur Wed, 07/22/2026 - 10:16 Date Thu, 08/20/2026 - 12:00 District Kota Division Consumer Affairs Date & Time Thu, 08/20/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Madu Sudan Sharma Contact person Email mss1@cuts.org Event Category COP By TRAI Venue Details Om Kothari Institute of Management, 1-A, Special IPIA, Jhalawar Road, Anantpura, Kota- 324009 Even",
-      "new_value": "Consumer Awareness Program at Bharatpur (Rajasthan) by Navjeevan Society nitinkumar Thu, 07/23/2026 - 17:50 Date Tue, 08/25/2026 - 12:00 District Bharatpur Division Consumer Affairs Date & Time Tue, 08/25/2026 - 11:30 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Rajendra Sharma Contact person Email info.navjeevan@gmail.com Event Category COP By TRAI Venue Details Arya Mahila Vidhay Peeth, Bhusawar, Bharatpur Event From Consumer Awareness ( In House ) Conta",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-07-23",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Kota (Rajasthan) by Consumer Unity & Trust Society ypjaipur Wed, 07/22/2026 - 10:16 Date Thu, 08/20/2026 - 12:00 District Kota Division Consumer Affairs Date & Time Thu, 08/20/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Madu Sudan Sharma Contact person Email mss1@cuts.org Event Category COP By TRAI Venue Details Om Kothari Institute of Management, 1-A, Special IPIA, Jhalawar Road, Anantpura, Kota- 324009 Even",
-      "new_value": "Consumer Awareness Program at Tonk (Rajasthan) by Navjeevan Society nitinkumar Thu, 07/23/2026 - 17:50 Date Fri, 07/31/2026 - 12:00 District Tonk Division Consumer Affairs Date & Time Fri, 07/31/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Rajendra Sharma Contact person Email info.navjeevan@gmail.com Event Category COP By TRAI Venue Details Government Senior Secondary School, Mandawra, Tonk Event From Consumer Awareness ( In House ) Contact pe",
-      "source_id": "trai"
-    }
-  ],
   "9dac4bd884d0": [
     {
       "date": "2026-07-25",
@@ -4742,150 +4726,6 @@
       "old_value": "Agriculture, Rural Development",
       "new_value": "Agriculture, Climate & Environment",
       "source_id": "historical"
-    }
-  ],
-  "8a8e9ac37823": [
-    {
-      "date": "2026-07-24",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "The proposed amendment seeks to expand the scope of the Prevention of Insults to National Honour Act, 1971, by bringing within its ambit acts of intentionally obstructing rendition of the national song",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-07-25",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "The proposed amendment seeks to expand the scope of the Prevention of Insults to National Honour Act, 1971, by bringing within its ambit acts of intentionally obstructing rendition of the national song",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-05",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-06",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-07",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "“The way we faced these challenges gives us the confidence that come what may, we will emerge stronger from each episode.”",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-08-12",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "The Supreme Court on Wednesday agreed to hear a plea concerning the disruption of essential services during protests and rallies, and directed that the petition be tagged with a pending petition seeking to stop the use of Jantar Mantar as a designated venues for protests in the national capital. During the hearing, Advocate V Elanchezhiyan,�appearing for the petitioner, submitted that protests often result in the disruption of essential services and affect the movement of people. \"There is no wa",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "He says, the complex has a sanctioned load of 5,500 KVA and that the Registry has placed an indent for an additional load of 2,500 KVA for ongoing constructions and renovations",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "new_value": "The Rajasthan High Court has taken suo motu cognizance concerning the welfare of Gen Z, Gen Alpha, and Gen Beta and directed the filing of a status report and action plans on actions taken by the State and Union Governments to frame a mechanism to address major challenges, including paper leaks, education-to-employment gap, mental health and digital burnout, AI disruption, etc.� The bench of Justice Anoop Kumar Dhand took note of the growing educational needs of the new generations. Observing th",
-      "source_id": "livelaw"
-    }
-  ],
-  "ebba8023df20": [
-    {
-      "date": "2026-07-25",
-      "field": "description",
-      "old_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Repo (VRR) auction on Wednesday, July 22, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 2 10:00 AM to 10:30 AM July 24, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad       &n",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Repo (VRR) auction on Monday, July 27, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 3 09:30 AM to 10:00 AM July 30, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad       &nb",
-      "source_id": "rbi"
     }
   ],
   "ae27baacc7f2": [
@@ -5626,6 +5466,13 @@
       "old_value": "(Amount in ₹ Crore) Auction Results 7.06% GS 2041 7.43% GS 2076 I. Notified Amount 17,000 11,000 II. Competitive Bids Received     (i) Number 264 160 (ii) Amount 43,115.000 26,354.000 III. Cut-off price (₹)/Yield 99.93 98.22 (YTM: 7.0668%) (YTM: 7.5674%) IV. Competitive Bids Accepted     (i) Number 141 42 (ii) Amount 16,940.690 10,984.800 V. Partial Allotment Percentage of Competitive Bids 60.2602% 48.5333% (20 bids) (1 bid) VI. Weighted Average Price (₹)/Yi",
       "new_value": "6.94% GS 2036 I. Notified Amount ₹34,000 crore II. Cut off Price (₹)/Implicit Yield at cut-off 100.17/6.9136% III. Amount accepted in the auction ₹34,000 crore IV. Devolvement on Primary Dealers NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/982",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "(Amount in ₹ Crore) Auction Results 7.06% GS 2041 7.43% GS 2076 I. Notified Amount 17,000 11,000 II. Competitive Bids Received     (i) Number 264 160 (ii) Amount 43,115.000 26,354.000 III. Cut-off price (₹)/Yield 99.93 98.22 (YTM: 7.0668%) (YTM: 7.5674%) IV. Competitive Bids Accepted     (i) Number 141 42 (ii) Amount 16,940.690 10,984.800 V. Partial Allotment Percentage of Competitive Bids 60.2602% 48.5333% (20 bids) (1 bid) VI. Weighted Average Price (₹)/Yi",
+      "new_value": "(Amount in ₹ Crore) Auction Results 6.94% GS 2036 I. Notified Amount 34,000 II. Competitive Bids Received   (i) Number 383 (ii) Amount 82,151.762 III. Cut-off price (₹) / Yield 100.17 (YTM: 6.9136%) IV. Competitive Bids Accepted   (i) Number 117 (ii) Amount 33,995.602 V. Partial Allotment Percentage of Competitive Bids 97.9374% (47 bids) VI. Weighted Average Price (₹) / Yield 100.18 (WAY: 6.9122%) VII. Non-Competitive Bids Received   (i) Number 3 (ii) Amount 4.39",
+      "source_id": "rbi"
     }
   ],
   "d21077639a3f": [
@@ -5726,6 +5573,13 @@
       "field": "description",
       "old_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Aug. 08 Jul. 31 Aug. 07 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 42792 17100 29684 12584 -13108 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Aug. 07, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
       "new_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Aug. 15 Aug. 07 Aug. 14 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 34130 29684 14225 -15458 -19905 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Aug. 14, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Aug. 15 Aug. 07 Aug. 14 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 34130 29684 14225 -15458 -19905 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Aug. 14, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn",
+      "new_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Aug. 22 Aug. 14 Aug. 21 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 27463 14225 10788 -3437 -16675 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Aug. 21, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
       "source_id": "rbi"
     }
   ],
@@ -7357,13 +7211,6 @@
   ],
   "5d167398be64": [
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
-      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
-      "source_id": "state_pib_assam"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
@@ -7484,6 +7331,13 @@
     },
     {
       "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
+      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
+      "source_id": "state_pib_assam"
+    },
+    {
+      "date": "2026-08-28",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
       "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
@@ -7815,20 +7669,6 @@
       "field": "description",
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "Government of India press release: Highlights of Telecom Subscription Data at the end of July 2026",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-08-28",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Government of India press release: Highlights of Telecom Subscription Data at the end of July 2026",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-08-28",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Government of India press release: Highlights of Telecom Subscription Data at the end of July 2026",
       "source_id": "pib_tourism"
     },
     {
@@ -7942,6 +7782,20 @@
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "TRAI releases Telecom Subscription Data as on July 2026 nitinkumar Fri, 08/28/2026 - 12:52 File Press Release No. 116 (1.33 MB) Date Fri, 08/28/2026 - 12:00",
       "source_id": "trai"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "The post Journal article:Jaiswal, Himanshu and Ganesh Kumar, A, Import surge and dumping concerns amid trade war and India–US trade deal, Foreign Trade Review, July 2026 appeared first on Indira Gandhi Institute of Development Research.",
+      "source_id": "igidr"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "Power demand surged by almost 11% Y-o-Y last month to roughly 171 billion units — the highest on record for any month",
+      "source_id": "business_line"
     },
     {
       "date": "2026-08-28",
@@ -8801,13 +8655,6 @@
   ],
   "b2f452d6e597": [
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
-      "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
@@ -8928,6 +8775,13 @@
     },
     {
       "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
+      "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-08-28",
       "field": "description",
       "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
       "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
@@ -9361,13 +9215,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-08-22",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -9467,6 +9314,13 @@
     },
     {
       "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-08-28",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -10721,27 +10575,6 @@
     },
     {
       "date": "2026-08-24",
-      "field": "sectors",
-      "old_value": "Digital & Technology",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "sectors",
-      "old_value": "Digital & Technology",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "sectors",
-      "old_value": "Digital & Technology",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-24",
       "field": "description",
       "old_value": "Selection of Agency for conducting Gap Assessment for compliance with Digital Personal Data Protection Act, 2023 at SECI (SECI/C&P/IT/12/004/26-27)",
       "new_value": "Engagement of Agency for Comprehensive Application Management, Integration and Support Services for Existing SAP ERP Landscape (ERP 2.0).",
@@ -10879,16 +10712,30 @@
       "old_value": "Climate & Environment, Energy",
       "new_value": "Digital & Technology",
       "source_id": "seci"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Trade & Commerce",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Digital & Technology",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Finance & Economy",
+      "source_id": "seci"
     }
   ],
   "6bbc658c1e6c": [
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
-      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
-      "source_id": "republic_world"
-    },
     {
       "date": "2026-08-21",
       "field": "description",
@@ -11010,6 +10857,13 @@
     },
     {
       "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
+      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-28",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
       "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
@@ -12159,15 +12013,6 @@
       "source_id": "sebi"
     }
   ],
-  "ad3a738cf172": [
-    {
-      "date": "2026-08-18",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Ahmedabad (Gujarat) by Bhavnagar Grahak Suraksha Mandal ypjaipur Wed, 07/22/2026 - 09:37 Date Wed, 08/05/2026 - 12:00 District Ahmedabad Division Consumer Affairs Date & Time Wed, 08/05/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Sanjay Sharm Contact person Email campusdirector@nsitifscs.ac.in Event Category COP By TRAI Venue Details Narnarayan Shastri Institute of Technology, Institue of Forensic Sciences and Cy",
-      "new_value": "Consumer Awareness Program at Bhavnagar (Gujarat) by Shree Jagruti Grahak Suraksha Mahila Mandal nitinkumar Tue, 08/18/2026 - 16:16 Date Mon, 08/31/2026 - 12:00 District Bhavnagar Division Consumer Affairs Date & Time Mon, 08/31/2026 - 12:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Deepben V. Korat Contact person Email shreegrahakjagruti@gmail.com Event Category COP By TRAI Venue Details Vidyadhish Vidyasankul, Pramukhswami Nagar, Kaliyabid, Bhavnagar, Guj",
-      "source_id": "trai"
-    }
-  ],
   "2673d7f1d6ec": [
     {
       "date": "2026-08-18",
@@ -12203,13 +12048,6 @@
     }
   ],
   "824182b709d1": [
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
-      "new_value": "Union Finance Minister and…",
-      "source_id": "gst_council"
-    },
     {
       "date": "2026-08-21",
       "field": "description",
@@ -12342,6 +12180,13 @@
       "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "7d37f2faed47": [
@@ -12422,20 +12267,6 @@
   ],
   "669b586224d0": [
     {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-08-21",
       "field": "description",
       "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
@@ -12682,6 +12513,20 @@
     },
     {
       "date": "2026-08-27",
+      "field": "sectors",
+      "old_value": "Education, Labour & Employment, Science & Innovation",
+      "new_value": "Labour & Employment",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
+      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-28",
       "field": "sectors",
       "old_value": "Education, Labour & Employment, Science & Innovation",
       "new_value": "Labour & Employment",
@@ -12886,55 +12731,6 @@
   ],
   "b2781f7a4179": [
     {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Links to Top Picks of August 24: Allahabad HC Refers Senior IAS Officer's Conduct For Criminal Contempt Over Attempt To Intimidate Judge Mere 'Reading Out' Grounds Of Arrest To Accused Only During Production Before Trial Court Violates Article 22(1) Mandate: AP High Court Party Lacking Any Conceivable Right Over Land Can't Challenge Eviction Notice: Gauhati High Court KSU Black Flag Rally Violence: Meghalaya High Court Initiates Suo Moto PIL, Seeks Action-Taken Report Rajasthan High Court Tighte",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "State of Tamil Nadu on Monday told the Supreme Court that it will raise before the Cauvery Water Management Authority (CWMA) its grievance that it is not receiving its proportionate share of Cauvery water, following which the Court posted its plea seeking release of water for hearing on next Monday. A bench of Justice Vikram Nath and Justice Sandeep Mehta was hearing Tamil Nadu's plea seeking implementation of the CWMA's directions requiring Karnataka to release water. Senior Advocate CS Vaidyan",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Today, the Reserve Bank released the August 2026 issue of its monthly Bulletin. The Bulletin includes bi-monthly monetary policy statement (August 03-05, 2026), six speeches, one article and current statistics. The article is on the State of the Economy. State of the Economy The global economy is confronting a fragile geopolitical environment and continuing trade-related uncertainties. Nevertheless, the domestic economy has demonstrated notable resilience to the ongoing global headwinds, charact",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "The visit comes amid efforts by India and Bangladesh to repair ties strained by the 2024 ouster of former Prime Minister Sheikh Hasina, whom Dhaka has asked New Delhi to extradite.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Despite the threat of the Graham Bill and potential secondary tariffs, Russia remains India’s largest crude supplier",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-08-26",
       "field": "description",
       "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
@@ -13010,6 +12806,55 @@
       "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
       "new_value": "The visit comes amid efforts by India and Bangladesh to repair ties strained by the 2024 ouster of former Prime Minister Sheikh Hasina, whom Dhaka has asked New Delhi to extradite.",
       "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "The Reserve Bank has today released data on Reserve Money and Money Supply for the fortnight ended on August 15, 2026. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/985",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "The visit comes amid efforts by India and Bangladesh to repair ties strained by the 2024 ouster of former Prime Minister Sheikh Hasina, whom Dhaka has asked New Delhi to extradite.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "Considering the alarming importance of CSAT in UPSC CSE Prelims exam and with enormous requests we received recently, InsightsIAS has started Daily CSAT Test to ensure students practice CSAT Questions on a daily basis. Regular Practice would help one overcome the fear of CSAT too.We are naming this initiative as Insta– DART – Daily … Continue reading \"UPSC Insta–DART (Daily Aptitude and Reasoning Test) 28 August 2026\" The post UPSC Insta–DART (Daily Aptitude and Reasoning Test) 28 A",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "Indian Constitution and its Protection: Talk by Dr Menaka Guruswamy; Time: 6 pm; Venue: Institution of Engineers (India), Visvesvaraya Bhavan, Khairatabad -",
+      "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "DOC August 2026 niti_admin Wed, 08/19/2026 - 16:01 Upload Supported Document DOCplan-August-2026.pdf (695.83 KB) Choose Document Type Docplan Supported File Link August 2026",
+      "new_value": "The university has advised candidates to read the counselling notification carefully before entering their choices.",
+      "source_id": "deccan_chronicle"
     },
     {
       "date": "2026-08-28",
@@ -13772,6 +13617,13 @@
       "old_value": "Consumer Awareness Program at Tenkasi (Tamil Nadu) by Citizen Consumer & Civic Action Group nitinkumar Fri, 08/21/2026 - 11:53 Date Tue, 09/01/2026 - 12:00 District Tenkasi Division Consumer Affairs Date & Time Tue, 09/01/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name S Saroja Contact person Email saroja@cag.org.in Event Category COP By TRAI Venue Details Government Arts and Science College, Sankarankovil, Tenkasi Event From Consumer Awareness (",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
       "source_id": "vidhi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Consumer Awareness Program at Tenkasi (Tamil Nadu) by Citizen Consumer & Civic Action Group nitinkumar Fri, 08/21/2026 - 11:53 Date Tue, 09/01/2026 - 12:00 District Tenkasi Division Consumer Affairs Date & Time Tue, 09/01/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name S Saroja Contact person Email saroja@cag.org.in Event Category COP By TRAI Venue Details Government Arts and Science College, Sankarankovil, Tenkasi Event From Consumer Awareness (",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ],
   "ab384bb08100": [
@@ -14142,22 +13994,6 @@
       "field": "description",
       "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 21 Entries",
       "new_value": "RBI/2026-27/236 DOR.AML.REC.204/14.06.001/2026-27 August 19, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks...",
-      "source_id": "policyradar"
-    }
-  ],
-  "f87a8c5076e4": [
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Parliament passed the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, which put the extraction and management of minerals in the hands of the Central government. Many in Odisha, one of India’s most mineral-rich States, fear that the new law will impact the State’s fiscal health, while also disrupting the Centre-State relationship. Satyasundar Barik delves into the amendment’s far-reaching implications through the views of multiple stakeholders",
-      "new_value": "Parliament passed the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, which put the extraction and management of minerals in the hands of the Central government.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Parliament passed the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, which put the extraction and management of minerals in the hands of the Central government. Many in Odisha, one of India’s most mineral-rich States, fear that the new law will impact the State’s fiscal health, while also disrupting the Centre-State relationship. Satyasundar Barik delves into the amendment’s far-reaching implications through the views of multiple stakeholders",
-      "new_value": "Parliament passed the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, which put the extraction and management of minerals in the hands of the Central government.",
       "source_id": "policyradar"
     }
   ],
@@ -14574,6 +14410,13 @@
       "old_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:32 Publishing Date Tue, 08/25/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
       "new_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:46 Weight 0 Links https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:32 Publishing Date Tue, 08/25/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
+      "new_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:46 Weight 0 Links https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
+      "source_id": "niti_aayog"
     }
   ],
   "1c2ab6a601e3": [
@@ -14582,6 +14425,13 @@
       "field": "description",
       "old_value": "Government of India has announced the sale (re-issue) of Government Securities, as detailed below, through auction to be held on August 21, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Mini",
       "new_value": "Government of India has announced the sale (re-issue) of Government Security, as detailed below, through auction to be held on August 28, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Minimu",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Government of India has announced the sale (re-issue) of Government Securities, as detailed below, through auction to be held on August 21, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Mini",
+      "new_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹27,000 Crore (Face Value). Sr. No. State Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Assam 1000 Re-issue of 7.62% Assam SGS 2046, issued on January 21, 2026 Price 2. Bihar 800 Re-issue of 7.42% Bihar SGS 2035, issued on July 08, 2026 Price 1200 25 Yield 3. Chhattisgarh 500 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 Price 500 Re-issue of 7.6",
       "source_id": "rbi"
     }
   ],
@@ -14698,15 +14548,6 @@
       "source_id": "gateway_house"
     }
   ],
-  "0587757167aa": [
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "The Supreme Court on Tuesday directed the Delhi High Court Bar Association (DHCBA) and bar bodies of the district courts in the national capital to jointly work out a “structured” and “institutionalised” mechanism for representation of women in their governing bodies for the 2027 Bar elections [Fozia Rahman vs. Bar Council of Delhi and Anr.].A Bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana directed that the Coordination Committ",
-      "new_value": "Supreme Court directs Delhi lawyers bodies to work out women's representation in their governing bodies",
-      "source_id": "policyradar"
-    }
-  ],
   "59bf81cf7878": [
     {
       "date": "2026-08-27",
@@ -14802,6 +14643,27 @@
       "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
       "new_value": "RBI/2026-27/243 DOR.SOG(SPE).REC.211/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Commercial Banks   Interest Rate on Deposits) Third Amendment Directions...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks   Interest Rate on Deposits) Second Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/247 DOR.SOG(SPE).REC.216/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Urban Co-operative Banks   Interest Rate on Deposits) Third Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/246 DOR.SOG(SPE).REC.213/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Regional Rural Banks   Interest Rate on Deposits) Third Amendment Directions...",
+      "source_id": "policyradar"
     }
   ],
   "d2571681d538": [
@@ -14847,22 +14709,6 @@
       "old_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.7055 (YTM: 5.2603%) 97.2987 (YTM: 5.5678%) 94.5881 (YTM: 5.7373%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
       "new_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.7046 (YTM: 5.2640%) 97.2750 (YTM: 5.6181%) 94.5350 (YTM: 5.7968%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
       "source_id": "rbi"
-    }
-  ],
-  "f6fc5e948e9b": [
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "The World Bank's Franco emphasized that governments must ensure regulatory certainty to attract private investment.",
-      "new_value": "The World Bank's Franco has emphasized that governments must ensure regulatory certainty to attract private capital.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-27",
-      "field": "sectors",
-      "old_value": "Finance & Economy",
-      "new_value": "Governance & Reform",
-      "source_id": "policyradar"
     }
   ],
   "a1a57fdee4a5": [
@@ -14956,15 +14802,6 @@
       "source_id": "rbi"
     }
   ],
-  "eb1669bb4498": [
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "Forex traders said the RBI's continued intervention through state-run banks helped prevent a sharper decline",
-      "new_value": "Brent prices fell below the $90 mark for the first time in several sessions amid continuing discussions between Iran and Oman regarding a temporary shipping corridor through the Strait",
-      "source_id": "the_hindu_business"
-    }
-  ],
   "19f1159a91a1": [
     {
       "date": "2026-08-27",
@@ -15024,11 +14861,25 @@
       "old_value": "The outfit members allegedly attempted to provoke members of the Muslim procession and asked them not to raise slogans",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
       "source_id": "digilocker"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The outfit members allegedly attempted to provoke members of the Muslim procession and asked them not to raise slogans",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
     }
   ],
   "8e68bacfce7c": [
     {
       "date": "2026-08-27",
+      "field": "description",
+      "old_value": "Civil Aviation Minister Mr. K. Ram Mohan Naidu said India’s air cargo operations have grown nearly 40% in recent years, while the Government is working to develop global-standard air cargo hubs and facilities.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-08-28",
       "field": "description",
       "old_value": "Civil Aviation Minister Mr. K. Ram Mohan Naidu said India’s air cargo operations have grown nearly 40% in recent years, while the Government is working to develop global-standard air cargo hubs and facilities.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
@@ -15056,6 +14907,13 @@
       "old_value": "Yogi Adityanath prayed to Lord Pashupatinath for the safety and well-being of all those affected",
       "new_value": "View All",
       "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Yogi Adityanath prayed to Lord Pashupatinath for the safety and well-being of all those affected",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
     }
   ],
   "6e9d1fbfa1a1": [
@@ -15068,6 +14926,13 @@
     },
     {
       "date": "2026-08-27",
+      "field": "description",
+      "old_value": "The panel has called on the US government to consider sanctions against RSS members and Indian officials “complicit in religious freedom violation.”",
+      "new_value": "Groups associated with the Rashtriya Swayamsevak Sangh have ‘perpetrated violent attacks’ against minorities in India, alleged the commission.",
+      "source_id": "scroll"
+    },
+    {
+      "date": "2026-08-28",
       "field": "description",
       "old_value": "The panel has called on the US government to consider sanctions against RSS members and Indian officials “complicit in religious freedom violation.”",
       "new_value": "Groups associated with the Rashtriya Swayamsevak Sangh have ‘perpetrated violent attacks’ against minorities in India, alleged the commission.",
@@ -15398,6 +15263,13 @@
       "old_value": "Consumer Education Workshop at Mandi (Himachal Pradesh) by Bharat Sanchar Nigam Ltd nitinkumar Thu, 08/27/2026 - 18:24 Date Sat, 08/29/2026 - 12:00 District Mandi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Savita Sharma Contact person Email sharmasavi.29@gmail.com Event Category COP By TRAI Venue Details Room no.02,Telephone exchange building ,BSNL,Sundernagar-175002 Event From Consumer Awareness(",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Mandi (Himachal Pradesh) by Bharat Sanchar Nigam Ltd nitinkumar Thu, 08/27/2026 - 18:24 Date Sat, 08/29/2026 - 12:00 District Mandi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Savita Sharma Contact person Email sharmasavi.29@gmail.com Event Category COP By TRAI Venue Details Room no.02,Telephone exchange building ,BSNL,Sundernagar-175002 Event From Consumer Awareness(",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "d355db3e2645": [
@@ -15419,6 +15291,13 @@
     }
   ],
   "eedda4f960d5": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Tamil Nadu minister Raj Mohan said the government is now focused on tracing the whereabouts of the 86 missing pilgrims.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
     {
       "date": "2026-08-28",
       "field": "description",
@@ -15486,6 +15365,20 @@
       "old_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No. पर्य.वि.जम्मू. सं.S132/12-01-040/2026-27 dated August 25, 2026 has issued certain Directions to The Citizens Co-operative Bank Ltd., Jammu, (“the bank”), whereby, as",
       "new_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No. पर्य.वि.जम्मू. सं.S132/12-01-040/2026-27 dated August 25, 2026 has issued certain Directions to The Citizens Co-operative Bank Ltd., Jammu, (“the bank”), whereby, as",
+      "new_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No.S4110 /12-22-377 / 2026-27 dated August 28, 2026 has issued certain Directions to Ashok Sahakari Bank Ltd., Ahmednagar, (“the bank”), whereby, as from the close of business on August 28, 2026, the bank shall not, without prior approval of RBI in",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No. पर्य.वि.जम्मू. सं.S132/12-01-040/2026-27 dated August 25, 2026 has issued certain Directions to The Citizens Co-operative Bank Ltd., Jammu, (“the bank”), whereby, as",
+      "new_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949...",
+      "source_id": "policyradar"
     }
   ],
   "2aa716d06b6c": [
@@ -15497,13 +15390,301 @@
       "source_id": "livelaw"
     }
   ],
-  "d89f27de995a": [
+  "3bd394047cd7": [
     {
       "date": "2026-08-28",
       "field": "description",
-      "old_value": "Links to Top Picks of August 25: Legally Wedded Wife Entitled To Family Pension Despite Husband Nominating Sons Instead: Gujarat High Court 'Public Utility' No Licence To Override Forest, Wildlife Laws: Rajasthan High Court Quashes NHAI Acquisition Near Sariska Tiger Reserve Son Can't Claim Coparcenary Share In Father's Inherited Property Unless HUF Is Established: Rajasthan High Court Calcutta High Court Stays Arrest Warrant Against TMC MP Mahua Moitra In Hate Speech Case Calcutta High Court Di",
-      "new_value": "Links to Top Picks of August 27: Delhi High Court Grants 6-Weeks To Three Slum Clusters Near PM's Residence For Relocating To DUSIB Colony 26-Month Delay In SC/ST Act Probe: Rajasthan High Court Seeks Explanation From Former IOs, Supervisory Authorities P&H High Court Directs Courts Not To Disclose Identity Of Children In Conflict With Law In Judicial Records, Cause Lists SC/ST Act | Eyewitness To Caste Abuse Must Be Independent And Impartial: AP High Court No Govt Can Choose 'Politically Conven",
-      "source_id": "livelaw"
+      "old_value": "The Government of India has announced the buyback of its Securities through auction for an aggregate amount of ₹20,000 crore (face value). The security-wise details of the buyback are as under: S.No. Security Date of Maturity 1. 7.33% GS 2026 October 30, 2026 2. 5.74% GS 2026 November 15, 2026 3. 8.15% GS 2026 November 24, 2026 4. 8.24% GS 2027 February 15, 2027 There is no notified amount for the individual securities within the aggregate ceiling of ₹20,000 crore. Auction for securi",
+      "new_value": "The Government of India has announced the buyback of its Securities through auction for an aggregate amount of ₹30,000 crore (face value). The security-wise details of the buyback are as under: S.No. Security Date of Maturity 1. 7.33% GS 2026 October 30, 2026 2. 5.74% GS 2026 November 15, 2026 3. 8.15% GS 2026 November 24, 2026 4. 8.24% GS 2027 February 15, 2027 There is no notified amount for the individual securities within the aggregate ceiling of ₹30,000 crore. Auction for securi",
+      "source_id": "rbi"
+    }
+  ],
+  "568995e06640": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Congress party has criticized the National Company Law Tribunal (NCLT) for approving a haircut for Subhash Chandra, calling it a 'Neta-Company Loot Tribunal'.",
+      "new_value": "The Congress party has criticized the National Company Law Tribunal's (NCLT) approval of a haircut for Subhash Chandra, calling it a 'Neta-Company Loot Tribunal.' The opposition demands...",
+      "source_id": "policyradar"
+    }
+  ],
+  "17c0bdf266c7": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Telangana High Court has quashed a GST show cause notice and order issued for the financial year 2017-18, citing a violation of the statutory timeline under Section 73(2) of the GST law.",
+      "new_value": "The Telangana High Court set aside a GST show cause notice and order for the financial year 2017-18, ruling that they violated the statutory timeline prescribed under Section 73(2) of the GST law.",
+      "source_id": "policyradar"
+    }
+  ],
+  "77e7d169019e": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 3,00,000 Total amount of offers received (in ₹ crore) 1,52,537 Amount accepted (in ₹ crore) 1,52,537 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/981",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, August 31, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 6,00,000 15 09:30 AM to 10:00 AM September 15, 2026 (Tuesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad  &",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 3,00,000 Total amount of offers received (in ₹ crore) 1,52,537 Amount accepted (in ₹ crore) 1,52,537 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/981",
+      "new_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "source_id": "mocivil"
+    }
+  ],
+  "422b580e7d4c": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Hi smiles and more PM Modis day out with children on Raksha Bandhan",
+      "new_value": "Continuing the annual tradition, schoolgirls visited the prime minister's official residence at 7, Lok Kalyan Marg, where they tied 'rakhis' on his wrist.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "f444b60c7e44": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "No action will be taken against them during this period for not knowing the language, said Chief Minister Devendra Fadnavis.",
+      "new_value": "Thackeray's remarks came after the Maharashtra government on Thursday gave auto-rickshaw, taxi and cab drivers one year to learn functional Marathi.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "54a4be5b49cc": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Madras High Court has issued notice on a defamation plea filed by TVK Minister Aadhav Arjuna against former Chief Minister and head of the Dravida Munnetra Kazhagam (DMK), MK Stalin, seeking to restrain the latter and the DMK's IT Wing from making false and defamatory statements against him. The Minister has also sought damages of Rs, 1 Crore from Stalin and the party's IT Wing. Justice Govindarajan Thilakavadi issued notice returnable by September 15th. The Minister submitted that on June 8",
+      "new_value": "TN min Aadhav Arjuna seeks ₹one crore as damages from DMK chief Stalin",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "d7d10dd20c28": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Centre currently holds about 1.21 lakh tonnes of onion as buffer stock under the Price Stabilisation Fund.",
+      "new_value": "\"The first Kanda Express, carrying 453.65 tonnes of onion in 21 wagons, reached the national capital in the morning,\" Consumer Affairs Secretary Nidhi Khare said",
+      "source_id": "business_line"
+    }
+  ],
+  "8706eb47fcc9": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Notice of Attachment of Demat Accounts with AP No. 15755 of 2026 dated August 21, 2026 against Mr. Kapil Wadhawan (PAN: AAOPW6145L) [Defaulter] In the matter of Dewan Housing Finance Corporation Ltd (DHFL) under Recovery Certificate No. 9277 of 2026",
+      "new_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15768 & 15769 of 2026 dated August 28, 2026 against Mr. Dheeraj Wadhawan (PAN: AAOPW4517G) [Defaulter] In the matter of Dewan Housing Finance Corporation Limited. under Recovery Certificate No. 9214 of 2026",
+      "source_id": "sebi"
+    }
+  ],
+  "21d969eb1b0d": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
+      "new_value": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Delta Leasing & Finance Ltd: under Certificate No. 6199 of 2023.",
+      "source_id": "sebi"
+    }
+  ],
+  "7f16da0d40a7": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Notice of Demand under Recovery Certificate No. 9246 of 2026 dated July 27, 2026 issued against 8 entities jointly and severally in the matter of Shubhlaxmi Jewel Art Limited",
+      "new_value": "Release Order in RC 9246 of 2026 – 8 entities in the matter of Shubhlaxmi Jewel Art Limited",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Notice of Demand under Recovery Certificate No. 9246 of 2026 dated July 27, 2026 issued against 8 entities jointly and severally in the matter of Shubhlaxmi Jewel Art Limited",
+      "new_value": "Completion of Recovery Proceedings in Recovery Certificate No. 9246 of 2026 issued against 8 entities in the matter of Shubhlaxmi Jewel Art Limited",
+      "source_id": "sebi"
+    }
+  ],
+  "fd6ad48bc328": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Adjudication Order in respect of National Steel and Agro Industries Limited in the matter of trading in Illiquid Stock Options at BSE",
+      "new_value": "Adjudication Order in respect of Dilip Kumar Gupta HUF in the matter of trading in Illiquid Stock Options at BSE",
+      "source_id": "sebi"
+    }
+  ],
+  "7a463f43e0f8": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Remittance order in Recovery Certificate No. 9167 of 2026 issued against Shvetalben Sagarbhai Dataniya (PAN- CQGPD5278K) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "new_value": "Remittance Order dated August 28, 2026 issued under RC No. 9186 of 2026 drawn against Pranav Kamleshkumar Trivedi in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Remittance order in Recovery Certificate No. 9167 of 2026 issued against Shvetalben Sagarbhai Dataniya (PAN- CQGPD5278K) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "new_value": "Remittance Order dated August 28, 2026 issued under RC No. 9185 of 2026 drawn against Usha Devi in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Remittance order in Recovery Certificate No. 9167 of 2026 issued against Shvetalben Sagarbhai Dataniya (PAN- CQGPD5278K) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "new_value": "Remittance Order dated August 28, 2026 issued under RC No. 9184 of 2026 drawn against Dhaval Vinodbhai Gadani in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Remittance order in Recovery Certificate No. 9167 of 2026 issued against Shvetalben Sagarbhai Dataniya (PAN- CQGPD5278K) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "new_value": "Remittance Order dated August 28, 2026 issued under RC No. 9183 of 2026 drawn against Nayan Mahendrabhai Thakkar in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Remittance order in Recovery Certificate No. 9167 of 2026 issued against Shvetalben Sagarbhai Dataniya (PAN- CQGPD5278K) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "new_value": "Remittance Order dated August 28, 2026 issued under RC No. 9181 of 2026 drawn against Rathod Mahendrkumar in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Remittance order in Recovery Certificate No. 9167 of 2026 issued against Shvetalben Sagarbhai Dataniya (PAN- CQGPD5278K) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "new_value": "Remittance Order dated August 28, 2026 issued under RC No. 9180 of 2026 drawn against Sanjay Savjibhai Parmar in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Remittance order in Recovery Certificate No. 9167 of 2026 issued against Shvetalben Sagarbhai Dataniya (PAN- CQGPD5278K) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "new_value": "Remittance Order dated August 28, 2026 issued under RC No. 9178 of 2026 drawn against Madhu Kumari Bairwa in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+      "source_id": "sebi"
+    }
+  ],
+  "629dc027f203": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Introducing QUED – Questions from Editorials (UPSC Editorials Quiz) , an innovative initiative from InsightsIAS. Considering the significant number of questions in previous UPSC Prelims from editorials, practicing MCQs from this perspective can provide an extra edge. While we cover important editorials separately in our Editorial Section and SECURE Initiative, adding QUED (UPSC Editorials … Continue reading \"UPSC Editorials Quiz : 27 August 2026\" The post UPSC Editorials Quiz : 27 A",
+      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 28 August 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 28 August 2026 | Daily Prelims Quiz appeared fi",
+      "source_id": "insights_ias"
+    }
+  ],
+  "0242b60c745f": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "UPSC Static Quiz – Art and Culture : 27 August 2026 We will post 5 questions daily on static topics mentioned in the UPSC civil services preliminary examination syllabus. Each week will focus on a specific topic from the syllabus, such as History of India and Indian National Movement, Indian and World Geography, and … Continue reading \"UPSC Static Quiz – Art and Culture : 27 August 2026\" The post UPSC Static Quiz – Art and Culture : 27 August 2026 appeared first on INSIGHTS IAS - Si",
+      "new_value": "UPSC Static Quiz – Art and Culture : 28 August 2026 We will post 5 questions daily on static topics mentioned in the UPSC civil services preliminary examination syllabus. Each week will focus on a specific topic from the syllabus, such as History of India and Indian National Movement, Indian and World Geography, and … Continue reading \"UPSC Static Quiz – Art and Culture : 28 August 2026\" The post UPSC Static Quiz – Art and Culture : 28 August 2026 appeared first on INSIGHTS IAS - Si",
+      "source_id": "insights_ias"
+    }
+  ],
+  "38ffa5e832ed": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Bombay High Court questions Disha Salian probe, seeks lawful closure",
+      "new_value": "Bombay High Court questions Disha Salian probe over postmortem discrepancies",
+      "source_id": "india_today"
+    },
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Bombay High Court questions Disha Salian probe, seeks lawful closure",
+      "new_value": "Bombay High Court questions Disha Salian probe over post-mortem discrepancies",
+      "source_id": "indiatoday_rss"
+    }
+  ],
+  "a71e7ba65647": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "Negotiable Instruments Act, 1881 - Supreme Court Half Yearly Digest Jan - Jun, 2026 Negotiable Instruments Act, 1881 - Section 138 - When a company or NGO authorises a specific individual to sign and issue cheques on its behalf, along with the responsibility of making payments under an agreement, such person is treated as the 'drawer' of the cheque and attracts criminal liability under S. 138 NI Act, upon dishonour. The Treasurer of an NGO, who was appointed as the authorised signatory to execut",
+      "new_value": "The Supreme Court ruled that a company or NGO's authorized signatory who signs and issues cheques on its behalf, including handling payments, is considered the 'drawer' of the cheque.",
+      "source_id": "policyradar"
+    }
+  ],
+  "60e36f16edc8": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Kerala High Court has held that arrest of a person would be vitiated if the arrestee's relative/friend/nominated person is not informed of the arrest grounds when first produced before the nearest, non-jurisdictional magistrate for transit remand. [2026 LiveLaw (Ker) 465] Dr. Justice Kauser Edappagath observed: “when a person who is arrested is brought before a non-jurisdictional Magistrate even if only for the purpose of ordering a transit or transit remand, it is imperative that the ground",
+      "new_value": "The Kerala High Court has held that arrest of a person would be vitiated if the arrestee's relative/friend/nominated person is not informed of the arrest grounds when first produced before the...",
+      "source_id": "policyradar"
+    }
+  ],
+  "906d35c8b46c": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Central Government on Thursday (August 27) notified the establishment of the Mediation Council of India with its head office at Delhi under the Mediation Act 2023, which aims to promote domestic and international mediation in India through appropriate guidelines.� The Mediation Act, 2023 was enacted to promote and facilitate mediation, especially institutional mediation, for resolution of disputes, commercial or otherwise, enforce mediated settlement agreements, provide for a body for regist",
+      "new_value": "The Central Government on Thursday (August 27) notified the establishment of the Mediation Council of India with its head office at Delhi under the Mediation Act 2023...",
+      "source_id": "policyradar"
+    }
+  ],
+  "e788f3996af5": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
+      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
+      "source_id": "policyradar"
+    }
+  ],
+  "8f5c2c7b06d0": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Chief Minister of Tamil Nadu, Joseph Vijay has told the Madras High Court that staying bye-elections to 5 constituencies in the State would deprive lakhs of people from having democratically elected MLAs to represent their interests, causes and grievances for an indefinite period of time. The Chief Minister made the submissions by way of a counter affidavit in a plea seeking to declare that vacancies in Trichy (East), Perundurai, Ambasamudram, Viralimalai & Karur assembly constituencies did",
+      "new_value": "The Chief Minister of Tamil Nadu, Joseph Vijay has told the Madras High Court that staying bye-elections to 5 constituencies in the State would deprive lakhs of people from having democratically...",
+      "source_id": "policyradar"
+    }
+  ],
+  "427cc251482f": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "A joint statement, issued by the Finance Ministers of both countries following the conclusion of the inaugural India-Canada Finance Ministers’ Economic and Financial Dialogue in Toronto, said that India had expressed its readiness to begin negotiations on a Bilateral Investment Treaty “at the earliest”",
+      "new_value": "A joint statement, issued by the Finance Ministers of both countries following the conclusion of the inaugural India-Canada Finance Ministers’ Economic and Financial Dialogue in Toronto...",
+      "source_id": "policyradar"
+    }
+  ],
+  "0416cc8442f8": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Madras High Court, on Friday (August 28), orally remarked that Ministers are not above the law and they are expected to appear before courts where cases are pending against them.� Justice V Lakshminarayanan directed the Tamil Nadu Finance Minister Marie Wilson to appear before the Judicial Magistrate in Puducherry in connection with an assault case pending against him. The court directed the Minister's counsel to inform, by afternoon, the date on which the Minister was willing to appear befo",
+      "new_value": "The Madras High Court, on Friday (August 28), orally remarked that Ministers are not above the law and they are expected to appear before courts where cases are pending against them.� Justice V...",
+      "source_id": "policyradar"
+    }
+  ],
+  "2d39967bc8ed": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "In a first, Advocates Association of Western India (AAWI) a lawyers association in the Bombay High Court, will now get a Woman Advocate as its President, in its existence of 162 years.� This comes after AAWI amended its Constitution and Rules to reserve the post of its President for women lawyers. Confirming the development, senior advocate Deepa Chawan said that this is a significant development as it would help women lawyers to now lead one of the oldest Bar Associations in the country.� \"In 1",
+      "new_value": "In a first, Advocates Association of Western India (AAWI) a lawyers association in the Bombay High Court, will now get a Woman Advocate as its President...",
+      "source_id": "policyradar"
+    }
+  ],
+  "5c6b332a15bb": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "The Gauhati High Court has held that a plaintiff cannot oppose the impleadment of a proper party merely on the ground that, being dominus litis, the plaintiff has the right to choose the persons against whom they wish to litigate. Justice Mridul Kumar Kalita observed, “...the general rule with regard to impleadment of parties, that the plaintiff being dominus litis may choose the person against whom he wishes to litigate, gives way to the discretion of the court under Order 1 Rule 10 (2) of the",
+      "new_value": "The Gauhati High Court has held that a plaintiff cannot oppose the impleadment of a proper party merely on the ground that, being dominus litis...",
+      "source_id": "policyradar"
+    }
+  ],
+  "be21173d2efc": [
+    {
+      "date": "2026-08-28",
+      "field": "description",
+      "old_value": "In a letter to Prime Minister Modi, Kharge reiterated his earlier request made on July 16, after Union Parliamentary Affairs Minister's reported remarks that a special session of Parliament could be convened to discuss the issue.",
+      "new_value": "The Congress chief also sought an all-party meeting to discuss the Bharatiya Janata Party government’s proposed delimitation exercise.",
+      "source_id": "scroll"
     }
   ]
 }
