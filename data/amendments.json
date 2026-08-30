@@ -161,13 +161,6 @@
       "field": "description",
       "old_value": "Provides free LPG connections to women from Below Poverty Line households to replace unclean cooking fuels. Over 10 crore connections released, significantly reducing indoor air pollution and health risks for rural women.",
       "new_value": "Government of India press release: Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore houses delivered",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-08-09",
-      "field": "description",
-      "old_value": "Provides free LPG connections to women from Below Poverty Line households to replace unclean cooking fuels. Over 10 crore connections released, significantly reducing indoor air pollution and health risks for rural women.",
-      "new_value": "Government of India press release: Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore houses delivered",
       "source_id": "pib_women_and_child_development"
     },
     {
@@ -298,6 +291,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "Provides free LPG connections to women from Below Poverty Line households to replace unclean cooking fuels. Over 10 crore connections released, significantly reducing indoor air pollution and health risks for rural women.",
+      "new_value": "Government of India press release: Pradhan Mantri Fasal Bima Yojana",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "Provides free LPG connections to women from Below Poverty Line households to replace unclean cooking fuels. Over 10 crore connections released, significantly reducing indoor air pollution and health risks for rural women.",
       "new_value": "Government of India press release: Pradhan Mantri Fasal Bima Yojana",
@@ -3095,13 +3095,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Prime Minister Narendra Modi Calls for Indian Pharma Companies to Make Mark Among World’s Top Five",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-08-15",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Prime Minister Narendra Modi Calls for Indian Pharma Companies to Make Mark Among World’s Top Five",
       "source_id": "pib_lokpal_of_india"
     },
     {
@@ -3229,6 +3222,13 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "The fund ended 2024-25 with Rs.8,452 crore but spent only Rs.87.85 lakh that year. Why are companies still adding to the reserve when their disclosures rarely explain why PM CARES was chosen?",
       "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "The fund ended 2024-25 with Rs.8,452 crore but spent only Rs.87.85 lakh that year. Why are companies still adding to the reserve when their disclosures rarely explain why PM CARES was chosen?",
+      "source_id": "frontline_mag"
     }
   ],
   "c0c8cf258433": [
@@ -3318,13 +3318,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-08-22",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3445,6 +3438,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -7211,13 +7211,6 @@
   ],
   "5d167398be64": [
     {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
-      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
-      "source_id": "state_pib_assam"
-    },
-    {
       "date": "2026-08-22",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
@@ -7345,6 +7338,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
+      "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
+      "source_id": "state_pib_assam"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "Government of India press release: Second BRICS Anti-Corruption Working Group Meeting 4-5 August 2026",
       "new_value": "Government of India press release: 2nd BRICS Anti-Corruption Working Group Meeting begins in Hyderabad",
@@ -7669,13 +7669,6 @@
       "field": "description",
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "Government of India press release: Highlights of Telecom Subscription Data at the end of July 2026",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-08-28",
-      "field": "description",
-      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
-      "new_value": "Government of India press release: Highlights of Telecom Subscription Data at the end of July 2026",
       "source_id": "pib_special_service_and_features"
     },
     {
@@ -7799,6 +7792,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
+      "new_value": "The post Journal article:Jaiswal, Himanshu and Ganesh Kumar, A, Import surge and dumping concerns amid trade war and India–US trade deal, Foreign Trade Review, July 2026 appeared first on Indira Gandhi Institute of Development Research.",
+      "source_id": "igidr"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "DOC July 2026 niti_admin Wed, 08/05/2026 - 15:44 Upload Supported Document Doc-PLan-July-2026.pdf (573.32 KB) Choose Document Type Docplan Supported File Link July 2026",
       "new_value": "The post Journal article:Jaiswal, Himanshu and Ganesh Kumar, A, Import surge and dumping concerns amid trade war and India–US trade deal, Foreign Trade Review, July 2026 appeared first on Indira Gandhi Institute of Development Research.",
@@ -8655,13 +8655,6 @@
   ],
   "b2f452d6e597": [
     {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
-      "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-08-22",
       "field": "description",
       "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
@@ -8789,6 +8782,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
+      "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "The Transgender Persons (Protection of Rights) Amendment Act, 2026, which amends the Transgender Persons (Protection of Rights) Act, 2019, came into force on May 25, 2026. The Amendment Act makes a few major changes to the 2019 Act:  It replaces the definition of ‘transgender person’ under the 2019 Act—which included ‘any person who did not identify with the gender assigned to them at birth’—with a narrow list of four socio-cultural groups (hijras, kinners, jogtas, and aravanis), persons wi",
       "new_value": "The post How can state governments protect transgender rights? appeared first on Vidhi Centre for Legal Policy.",
@@ -9215,13 +9215,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-08-23",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -9328,6 +9321,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -10589,20 +10589,6 @@
     },
     {
       "date": "2026-08-26",
-      "field": "sectors",
-      "old_value": "Digital & Technology",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "sectors",
-      "old_value": "Digital & Technology",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-26",
       "field": "description",
       "old_value": "Selection of Agency for conducting Gap Assessment for compliance with Digital Personal Data Protection Act, 2023 at SECI (SECI/C&P/IT/12/004/26-27)",
       "new_value": "Engagement of Agency for Comprehensive Application Management, Integration and Support Services for Existing SAP ERP Landscape (ERP 2.0).",
@@ -10612,13 +10598,6 @@
       "date": "2026-08-26",
       "field": "sectors",
       "old_value": "Digital & Technology",
-      "new_value": "Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "sectors",
-      "old_value": "Digital & Technology",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
@@ -10733,16 +10712,30 @@
       "old_value": "Climate & Environment, Energy",
       "new_value": "Energy, Finance & Economy",
       "source_id": "seci"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Trade & Commerce",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Digital & Technology",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Finance & Economy",
+      "source_id": "seci"
     }
   ],
   "6bbc658c1e6c": [
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
-      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
-      "source_id": "republic_world"
-    },
     {
       "date": "2026-08-22",
       "field": "description",
@@ -10871,6 +10864,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
+      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
       "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
@@ -12049,13 +12049,6 @@
   ],
   "824182b709d1": [
     {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
-      "new_value": "Union Finance Minister and…",
-      "source_id": "gst_council"
-    },
-    {
       "date": "2026-08-22",
       "field": "description",
       "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
@@ -12183,6 +12176,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "India’s banking sector is entering the next phase of reforms with NPAs at their lowest-ever level, while PSB Confluence 2026 focuses on actionable strategies across deposits, youth banking, investment, agriculture and credit.",
       "new_value": "Union Finance Minister and…",
@@ -12267,20 +12267,6 @@
   ],
   "669b586224d0": [
     {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-08-22",
       "field": "description",
       "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
@@ -12541,6 +12527,20 @@
     },
     {
       "date": "2026-08-29",
+      "field": "sectors",
+      "old_value": "Education, Labour & Employment, Science & Innovation",
+      "new_value": "Labour & Employment",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
+      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-30",
       "field": "sectors",
       "old_value": "Education, Labour & Employment, Science & Innovation",
       "new_value": "Labour & Employment",
@@ -13645,6 +13645,13 @@
       "old_value": "Consumer Awareness Program at Tenkasi (Tamil Nadu) by Citizen Consumer & Civic Action Group nitinkumar Fri, 08/21/2026 - 11:53 Date Tue, 09/01/2026 - 12:00 District Tenkasi Division Consumer Affairs Date & Time Tue, 09/01/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name S Saroja Contact person Email saroja@cag.org.in Event Category COP By TRAI Venue Details Government Arts and Science College, Sankarankovil, Tenkasi Event From Consumer Awareness (",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
       "source_id": "vidhi"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Consumer Awareness Program at Tenkasi (Tamil Nadu) by Citizen Consumer & Civic Action Group nitinkumar Fri, 08/21/2026 - 11:53 Date Tue, 09/01/2026 - 12:00 District Tenkasi Division Consumer Affairs Date & Time Tue, 09/01/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name S Saroja Contact person Email saroja@cag.org.in Event Category COP By TRAI Venue Details Government Arts and Science College, Sankarankovil, Tenkasi Event From Consumer Awareness (",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ],
   "ab384bb08100": [
@@ -14459,6 +14466,13 @@
       "old_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:32 Publishing Date Tue, 08/25/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
       "new_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:46 Weight 0 Links https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:32 Publishing Date Tue, 08/25/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
+      "new_value": "Government reiterates its commitment for reimagining skilling niti_admin Tue, 08/25/2026 - 21:46 Weight 0 Links https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2303206&reg=48&lang=1",
+      "source_id": "niti_aayog"
     }
   ],
   "1c2ab6a601e3": [
@@ -14543,27 +14557,6 @@
       "date": "2026-08-27",
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
-      "new_value": "RBI/2026-27/246 DOR.SOG(SPE).REC.213/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Regional Rural Banks   Interest Rate on Deposits) Third Amendment Directions...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
-      "new_value": "RBI/2026-27/243 DOR.SOG(SPE).REC.211/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Commercial Banks   Interest Rate on Deposits) Third Amendment Directions...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
-      "new_value": "RBI/2026-27/244 DOR.SOG(SPE).REC.212/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Small Finance Banks   Interest Rate on Deposits) Third Amendment Directions...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
       "new_value": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks   Interest Rate on Deposits) Second Amendment Directions...",
       "source_id": "policyradar"
     },
@@ -14674,6 +14667,27 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/246 DOR.SOG(SPE).REC.213/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Regional Rural Banks   Interest Rate on Deposits) Third Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks   Interest Rate on Deposits) Second Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/247 DOR.SOG(SPE).REC.216/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Urban Co-operative Banks   Interest Rate on Deposits) Third Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
       "new_value": "RBI/2026-27/246 DOR.SOG(SPE).REC.213/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Regional Rural Banks   Interest Rate on Deposits) Third Amendment Directions...",
@@ -15279,6 +15293,13 @@
       "old_value": "Consumer Education Workshop at Mandi (Himachal Pradesh) by Bharat Sanchar Nigam Ltd nitinkumar Thu, 08/27/2026 - 18:24 Date Sat, 08/29/2026 - 12:00 District Mandi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Savita Sharma Contact person Email sharmasavi.29@gmail.com Event Category COP By TRAI Venue Details Room no.02,Telephone exchange building ,BSNL,Sundernagar-175002 Event From Consumer Awareness(",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Mandi (Himachal Pradesh) by Bharat Sanchar Nigam Ltd nitinkumar Thu, 08/27/2026 - 18:24 Date Sat, 08/29/2026 - 12:00 District Mandi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 11:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Savita Sharma Contact person Email sharmasavi.29@gmail.com Event Category COP By TRAI Venue Details Room no.02,Telephone exchange building ,BSNL,Sundernagar-175002 Event From Consumer Awareness(",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "eedda4f960d5": [
@@ -15448,6 +15469,13 @@
       "old_value": "The Centre currently holds about 1.21 lakh tonnes of onion as buffer stock under the Price Stabilisation Fund.",
       "new_value": "\"The first Kanda Express, carrying 453.65 tonnes of onion in 21 wagons, reached the national capital in the morning,\" Consumer Affairs Secretary Nidhi Khare said",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "The Centre currently holds about 1.21 lakh tonnes of onion as buffer stock under the Price Stabilisation Fund.",
+      "new_value": "\"The first Kanda Express, carrying 453.65 tonnes of onion in 21 wagons, reached the national capital in the morning,\" Consumer Affairs Secretary Nidhi Khare said",
+      "source_id": "business_line"
     }
   ],
   "8706eb47fcc9": [
@@ -15590,6 +15618,13 @@
       "old_value": "Negotiable Instruments Act, 1881 - Supreme Court Half Yearly Digest Jan - Jun, 2026 Negotiable Instruments Act, 1881 - Section 138 - When a company or NGO authorises a specific individual to sign and issue cheques on its behalf, along with the responsibility of making payments under an agreement, such person is treated as the 'drawer' of the cheque and attracts criminal liability under S. 138 NI Act, upon dishonour. The Treasurer of an NGO, who was appointed as the authorised signatory to execut",
       "new_value": "The Supreme Court ruled that a company or NGO's authorized signatory who signs and issues cheques on its behalf, including handling payments, is considered the 'drawer' of the cheque.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Negotiable Instruments Act, 1881 - Supreme Court Half Yearly Digest Jan - Jun, 2026 Negotiable Instruments Act, 1881 - Section 138 - When a company or NGO authorises a specific individual to sign and issue cheques on its behalf, along with the responsibility of making payments under an agreement, such person is treated as the 'drawer' of the cheque and attracts criminal liability under S. 138 NI Act, upon dishonour. The Treasurer of an NGO, who was appointed as the authorised signatory to execut",
+      "new_value": "The Supreme Court ruled that a company or NGO's authorized signatory who signs and issues cheques on its behalf, including handling payments, is considered the 'drawer' of the cheque.",
+      "source_id": "policyradar"
     }
   ],
   "60e36f16edc8": [
@@ -15616,6 +15651,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "The Kerala High Court has held that arrest of a person would be vitiated if the arrestee's relative/friend/nominated person is not informed of the arrest grounds when first produced before the nearest, non-jurisdictional magistrate for transit remand. [2026 LiveLaw (Ker) 465] Dr. Justice Kauser Edappagath observed: “when a person who is arrested is brought before a non-jurisdictional Magistrate even if only for the purpose of ordering a transit or transit remand, it is imperative that the ground",
+      "new_value": "The Kerala High Court has held that arrest of a person would be vitiated if the arrestee's relative/friend/nominated person is not informed of the arrest grounds when first produced before the...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "The Kerala High Court has held that arrest of a person would be vitiated if the arrestee's relative/friend/nominated person is not informed of the arrest grounds when first produced before the nearest, non-jurisdictional magistrate for transit remand. [2026 LiveLaw (Ker) 465] Dr. Justice Kauser Edappagath observed: “when a person who is arrested is brought before a non-jurisdictional Magistrate even if only for the purpose of ordering a transit or transit remand, it is imperative that the ground",
       "new_value": "The Kerala High Court has held that arrest of a person would be vitiated if the arrestee's relative/friend/nominated person is not informed of the arrest grounds when first produced before the...",
@@ -15657,6 +15699,13 @@
       "old_value": "The Central Government on Thursday (August 27) notified the establishment of the Mediation Council of India with its head office at Delhi under the Mediation Act 2023, which aims to promote domestic and international mediation in India through appropriate guidelines.� The Mediation Act, 2023 was enacted to promote and facilitate mediation, especially institutional mediation, for resolution of disputes, commercial or otherwise, enforce mediated settlement agreements, provide for a body for regist",
       "new_value": "The Central Government on Thursday (August 27) notified the establishment of the Mediation Council of India with its head office at Delhi under the Mediation Act 2023...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "The Central Government on Thursday (August 27) notified the establishment of the Mediation Council of India with its head office at Delhi under the Mediation Act 2023, which aims to promote domestic and international mediation in India through appropriate guidelines.� The Mediation Act, 2023 was enacted to promote and facilitate mediation, especially institutional mediation, for resolution of disputes, commercial or otherwise, enforce mediated settlement agreements, provide for a body for regist",
+      "new_value": "The Central Government on Thursday (August 27) notified the establishment of the Mediation Council of India with its head office at Delhi under the Mediation Act 2023...",
+      "source_id": "policyradar"
     }
   ],
   "e788f3996af5": [
@@ -15683,6 +15732,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
+      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
       "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
@@ -15717,6 +15773,13 @@
       "old_value": "The Chief Minister of Tamil Nadu, Joseph Vijay has told the Madras High Court that staying bye-elections to 5 constituencies in the State would deprive lakhs of people from having democratically elected MLAs to represent their interests, causes and grievances for an indefinite period of time. The Chief Minister made the submissions by way of a counter affidavit in a plea seeking to declare that vacancies in Trichy (East), Perundurai, Ambasamudram, Viralimalai & Karur assembly constituencies did",
       "new_value": "The Chief Minister of Tamil Nadu, Joseph Vijay has told the Madras High Court that staying bye-elections to 5 constituencies in the State would deprive lakhs of people from having democratically...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "The Chief Minister of Tamil Nadu, Joseph Vijay has told the Madras High Court that staying bye-elections to 5 constituencies in the State would deprive lakhs of people from having democratically elected MLAs to represent their interests, causes and grievances for an indefinite period of time. The Chief Minister made the submissions by way of a counter affidavit in a plea seeking to declare that vacancies in Trichy (East), Perundurai, Ambasamudram, Viralimalai & Karur assembly constituencies did",
+      "new_value": "The Chief Minister of Tamil Nadu, Joseph Vijay has told the Madras High Court that staying bye-elections to 5 constituencies in the State would deprive lakhs of people from having democratically...",
+      "source_id": "policyradar"
     }
   ],
   "427cc251482f": [
@@ -15743,6 +15806,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "A joint statement, issued by the Finance Ministers of both countries following the conclusion of the inaugural India-Canada Finance Ministers’ Economic and Financial Dialogue in Toronto, said that India had expressed its readiness to begin negotiations on a Bilateral Investment Treaty “at the earliest”",
+      "new_value": "A joint statement, issued by the Finance Ministers of both countries following the conclusion of the inaugural India-Canada Finance Ministers’ Economic and Financial Dialogue in Toronto...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "A joint statement, issued by the Finance Ministers of both countries following the conclusion of the inaugural India-Canada Finance Ministers’ Economic and Financial Dialogue in Toronto, said that India had expressed its readiness to begin negotiations on a Bilateral Investment Treaty “at the earliest”",
       "new_value": "A joint statement, issued by the Finance Ministers of both countries following the conclusion of the inaugural India-Canada Finance Ministers’ Economic and Financial Dialogue in Toronto...",
@@ -15777,6 +15847,13 @@
       "old_value": "The Madras High Court, on Friday (August 28), orally remarked that Ministers are not above the law and they are expected to appear before courts where cases are pending against them.� Justice V Lakshminarayanan directed the Tamil Nadu Finance Minister Marie Wilson to appear before the Judicial Magistrate in Puducherry in connection with an assault case pending against him. The court directed the Minister's counsel to inform, by afternoon, the date on which the Minister was willing to appear befo",
       "new_value": "The Madras High Court, on Friday (August 28), orally remarked that Ministers are not above the law and they are expected to appear before courts where cases are pending against them.� Justice V...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "The Madras High Court, on Friday (August 28), orally remarked that Ministers are not above the law and they are expected to appear before courts where cases are pending against them.� Justice V Lakshminarayanan directed the Tamil Nadu Finance Minister Marie Wilson to appear before the Judicial Magistrate in Puducherry in connection with an assault case pending against him. The court directed the Minister's counsel to inform, by afternoon, the date on which the Minister was willing to appear befo",
+      "new_value": "The Madras High Court, on Friday (August 28), orally remarked that Ministers are not above the law and they are expected to appear before courts where cases are pending against them.� Justice V...",
+      "source_id": "policyradar"
     }
   ],
   "5c6b332a15bb": [
@@ -15803,6 +15880,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "The Gauhati High Court has held that a plaintiff cannot oppose the impleadment of a proper party merely on the ground that, being dominus litis, the plaintiff has the right to choose the persons against whom they wish to litigate. Justice Mridul Kumar Kalita observed, “...the general rule with regard to impleadment of parties, that the plaintiff being dominus litis may choose the person against whom he wishes to litigate, gives way to the discretion of the court under Order 1 Rule 10 (2) of the",
+      "new_value": "The Gauhati High Court has held that a plaintiff cannot oppose the impleadment of a proper party merely on the ground that, being dominus litis...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "The Gauhati High Court has held that a plaintiff cannot oppose the impleadment of a proper party merely on the ground that, being dominus litis, the plaintiff has the right to choose the persons against whom they wish to litigate. Justice Mridul Kumar Kalita observed, “...the general rule with regard to impleadment of parties, that the plaintiff being dominus litis may choose the person against whom he wishes to litigate, gives way to the discretion of the court under Order 1 Rule 10 (2) of the",
       "new_value": "The Gauhati High Court has held that a plaintiff cannot oppose the impleadment of a proper party merely on the ground that, being dominus litis...",
@@ -15867,20 +15951,6 @@
     }
   ],
   "10aca068fc02": [
-    {
-      "date": "2026-08-29",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "The visit comes amid efforts by India and Bangladesh to repair ties strained by the 2024 ouster of former Prime Minister Sheikh Hasina, whom Dhaka has asked New Delhi to extradite.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-08-29",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "Booth-level officers (BLOs) will be present at polling stations on these days to assist electors with the process",
-      "source_id": "the_hindu_policy"
-    },
     {
       "date": "2026-08-29",
       "field": "description",
@@ -15999,6 +16069,27 @@
       "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
       "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "The visit comes amid efforts by India and Bangladesh to repair ties strained by the 2024 ouster of former Prime Minister Sheikh Hasina, whom Dhaka has asked New Delhi to extradite.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
     }
   ],
   "f64d5578317f": [
@@ -16047,6 +16138,13 @@
       "old_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No.S4110 /12-22-377 / 2026-27 dated August 28, 2026 has issued certain Directions to Ashok Sahakari Bank Ltd., Ahmednagar, (“the bank”), whereby, as from the close of business on August 28, 2026, the bank shall not, without prior approval of RBI in",
       "new_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India (RBI) vide Directive Ref. No.S4110 /12-22-377 / 2026-27 dated August 28, 2026 has issued certain Directions to Ashok Sahakari Bank Ltd., Ahmednagar, (“the bank”), whereby, as from the close of business on August 28, 2026, the bank shall not, without prior approval of RBI in",
+      "new_value": "It is hereby notified for information of the public that in exercise of powers vested in it under sub section (1) of Section 35 A read with Section 56 of the Banking Regulation Act, 1949...",
+      "source_id": "policyradar"
     }
   ],
   "aef19e629205": [
@@ -16066,6 +16164,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "Extension of timeline for implementation of provisions of SEBI Circular dated June 15, 2026 on norms for base price, price bands, call auction in pre-open session and Close-out procedure for Exchange Traded Funds (ETFs)",
+      "new_value": "Extension of timeline for implementation of provisions of SEBI Circular dated June 15, 2026 on norms for base price, price bands, call auction in pre-open session and Close-out procedure for Exchange...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "Extension of timeline for implementation of provisions of SEBI Circular dated June 15, 2026 on norms for base price, price bands, call auction in pre-open session and Close-out procedure for Exchange Traded Funds (ETFs)",
       "new_value": "Extension of timeline for implementation of provisions of SEBI Circular dated June 15, 2026 on norms for base price, price bands, call auction in pre-open session and Close-out procedure for Exchange...",
@@ -16107,6 +16212,13 @@
     },
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "The Madhya Pradesh government decided not to grant sanction to prosecute Minister Vijay Shah for his remarks about Colonel Qureshi.",
+      "new_value": "The state government on Tuesday decided not to grant sanction to prosecute minister Vijay Shah for the comments, ‘Dainik Bhaskar’ reported.",
+      "source_id": "scroll"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "The Madhya Pradesh government decided not to grant sanction to prosecute Minister Vijay Shah for his remarks about Colonel Qureshi.",
       "new_value": "The state government on Tuesday decided not to grant sanction to prosecute minister Vijay Shah for the comments, ‘Dainik Bhaskar’ reported.",
@@ -16179,6 +16291,13 @@
       "old_value": "BJP’s preparations for the upcoming Assembly polls in seven States, including Uttar Pradesh, Punjab and Gujarat, was also a key agenda for the meeting",
       "new_value": "Assembly polls are due in Punjab, Uttar Pradesh, Uttarakhand, Goa, Himachal Pradesh, Manipur and Gujarat in 2027. The BJP is in power in five of these poll-bound states, except Punjab and Himachal Pradesh. While the AAP currently rules Punjab, the Congress is in power in Himachal Pradesh.",
       "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "BJP’s preparations for the upcoming Assembly polls in seven States, including Uttar Pradesh, Punjab and Gujarat, was also a key agenda for the meeting",
+      "new_value": "Assembly polls are due in Punjab, Uttar Pradesh, Uttarakhand, Goa, Himachal Pradesh, Manipur and Gujarat in 2027. The BJP is in power in five of these poll-bound states, except Punjab and Himachal Pradesh. While the AAP currently rules Punjab, the Congress is in power in Himachal Pradesh.",
+      "source_id": "livemint_policy"
     }
   ],
   "2f4e0caa1594": [
@@ -16190,18 +16309,16 @@
       "source_id": "hindustan_times"
     }
   ],
-  "847ffed43f08": [
-    {
-      "date": "2026-08-29",
-      "field": "description",
-      "old_value": "The suggestions received would be examined by the Committee together with the inputs already received from the various revenue-generating departments of the State, he said.",
-      "new_value": "SICCI said that all levers should be used to ensure that Tamil Nadu’s economy must grow faster than its debt",
-      "source_id": "business_line"
-    }
-  ],
   "029e9150625d": [
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "The Uttar Pradesh Judicial Services Association has sought appropriate action from the state government over the alleged interference of Devi Patan Mandal Commissioner Durga Shakti Nagpal in the judicial functioning of Civil Judge (Senior Division), Gonda, Shabina Khan. In a letter addressed to the Chief Secretary, Uttar Pradesh Government, dated August 26, 2026, the Association referred to reports, social media posts and an order of the Allahabad High Court, Lucknow Bench, concerning an alleged",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "The Uttar Pradesh Judicial Services Association has sought appropriate action from the state government over the alleged interference of Devi Patan Mandal Commissioner Durga Shakti Nagpal in the judicial functioning of Civil Judge (Senior Division), Gonda, Shabina Khan. In a letter addressed to the Chief Secretary, Uttar Pradesh Government, dated August 26, 2026, the Association referred to reports, social media posts and an order of the Allahabad High Court, Lucknow Bench, concerning an alleged",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
@@ -16215,6 +16332,13 @@
       "old_value": "The Karnataka High Court on Saturday said it will pass orders on September 3 on petitions filed by former BJP IT Cell head Amit Malviya and Republic TV Editor-in-Chief Arnab Goswami seeking to quash an FIR registered against them on a Congress leader’s complaint [Amit Malviya v State of Karnataka, Arnab Goswami v State of Karnataka].During a brief hearing today, Justice M Nagaprasanna was amused at a submission made by the Senior Advocate Aruna Shyam who was representing the petitioners.\"Short p",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
       "source_id": "digilocker"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "The Karnataka High Court on Saturday said it will pass orders on September 3 on petitions filed by former BJP IT Cell head Amit Malviya and Republic TV Editor-in-Chief Arnab Goswami seeking to quash an FIR registered against them on a Congress leader’s complaint [Amit Malviya v State of Karnataka, Arnab Goswami v State of Karnataka].During a brief hearing today, Justice M Nagaprasanna was amused at a submission made by the Senior Advocate Aruna Shyam who was representing the petitioners.\"Short p",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
     }
   ],
   "ecb140b592b3": [
@@ -16224,11 +16348,25 @@
       "old_value": "Arunachal CM unveils roadmap for youth-driven growth",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Arunachal CM unveils roadmap for youth-driven growth",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
     }
   ],
   "446239f3849a": [
     {
       "date": "2026-08-29",
+      "field": "description",
+      "old_value": "MCA had approached the High Court challenging the FDA's decision to suspend operations over alleged hygiene violations and third-party operational irregularities",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-08-30",
       "field": "description",
       "old_value": "MCA had approached the High Court challenging the FDA's decision to suspend operations over alleged hygiene violations and third-party operational irregularities",
       "new_value": "View All",
@@ -16251,6 +16389,58 @@
       "old_value": "Links to Top Picks of August 28: Plaintiff Can't Oppose Impleadment Of Proper Party Merely As 'Dominus Litis': Gauhati High Court Cockfights Are Illegal, Previous Orders Permitting Them 'Totally Unwarranted': Madras High Court Man Who Fought For Nation Deserves Appreciation: P&H High Court Says War Injury Pension Arrears Can't Be Restricted To Three Years 'Abuse Of Process': Bombay High Court Imposes ₹5 Lakh Costs On Son Seeking To Assess 78-Yr-Old Father's Mental Condition Amid Property Dispute",
       "new_value": "Links to Top Picks of August 29: Karnataka High Court Slams Police For 'Illegal' Arrest Of Activist Over Post On Kunal Kamra's Show Cancellation Whether Appointment Of Deputy Chief Ministers Unconstitutional? Orissa High Court Reserves Order Power Of Devaswom Board To Assume Management Of A Religious Institution 'Not Unfettered': Kerala High Court Father Not In Charge Of Child Can't Be Prosecuted For Cruelty Under Juvenile Justice Act Over Non-Payment Of Maintenance: Kerala High Court Judgment D",
       "source_id": "livelaw"
+    }
+  ],
+  "c4244dda436a": [
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Revanth Reddy seeks 4-week extension for Telangana voter roll objections",
+      "new_value": "Telangana chief minister A Revanth Reddy on Saturday urged the Election Commission of India (ECI) to extend the schedule for the Special Intensive Revision (SIR) of electoral rolls in the state by four weeks, in the wake of concern over possible deletion of a large number of voters during the verification",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "b766bc17fa83": [
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "The Supreme Court has dismissed a curative plea by Richie Rich Cooperative Housing Society, keeping its pan-India directions on illegally diverted forest land in force.",
+      "new_value": "The Supreme Court has refused to roll back its decision directing states and Union territories to constitute a special investigation team (SIT) to restore forest land illegally diverted to private entities and recover costs in cases where recovery of land is not feasible",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "3541bd6ed484": [
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "This exemplifies a broader pattern: an Indian Judiciary that proactively responds to emerging fraudulent schemes, rather than waiting for Parliament to address them, says Chief Justice of India Surya Kant",
+      "new_value": "Judiciary proactively responded to emerging fraudulent schemes like digital arrest: CJI",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "852628d97be1": [
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "'Diversity Is A Decoration For Our Innate Unity': RSS Chief Mohan Bhagwat",
+      "new_value": "Mohan Bhagwat, chief of the Rashtriya Swayamsevak Sangh (RSS), addresses a gathering at Madison Square Garden. The event had leaders from across religions among the first-row audience.",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "'Diversity Is A Decoration For Our Innate Unity': RSS Chief Mohan Bhagwat",
+      "new_value": "Bhagwat said that while \"pluralism\" is frequently associated with the United States, \"unity in diversity\" defines Bharat",
+      "source_id": "deccan_chronicle"
+    }
+  ],
+  "f90b51f2d36d": [
+    {
+      "date": "2026-08-30",
+      "field": "description",
+      "old_value": "Recording the statement, the High Court disposed of a petition challenging the mandate to know Marathi for drivers.",
+      "new_value": "No action will be taken against them during this period for not knowing the language, said Chief Minister Devendra Fadnavis.",
+      "source_id": "scroll"
     }
   ]
 }
