@@ -3325,13 +3325,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-09-12",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-09-13",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3438,6 +3431,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3758,13 +3758,6 @@
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "Government of India press release: Government is promoting alternate dispute resolution mechanisms including mediation",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "Government of India press release: Government is promoting alternate dispute resolution mechanisms including mediation",
       "source_id": "pib_national_security_council_secretariat"
     },
     {
@@ -3892,6 +3885,13 @@
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "The Supreme Court on Wednesday referred a long-standing property dispute involving film producer Boney Kapoor and actors Janhvi Kapoor and Khushi Kapoor to mediation, while directing the parties to maintain status quo on a 2.7-acre plot of land in Chennai [MC Sivakami v. Boney Kapoor]. A Bench of Justices KV Viswanathan and Arun Palli suggested that the family dispute be resolved amicably rather than through prolonged litigation.\"We wanted to know if you people were prepared",
       "source_id": "barandbench"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
     }
   ],
   "b8d7ee003bed": [
@@ -4740,89 +4740,6 @@
       "source_id": "historical"
     }
   ],
-  "d02ad013da7e": [
-    {
-      "date": "2026-08-10",
-      "field": "sectors",
-      "old_value": "Energy, Social Protection",
-      "new_value": "Digital & Technology, Energy, Social Protection",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 58,671 Amount accepted (in ₹ crore) 58,671 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/848",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, August 11, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 1,25,000 3 09:30 AM to 10:00 AM August 14, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 58,671 Amount accepted (in ₹ crore) 58,671 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/848",
-      "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 39,141 Amount accepted (in ₹ crore) 39,141 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/859",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 58,671 Amount accepted (in ₹ crore) 58,671 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/848",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a second Variable Rate Reverse Repo (VRRR) auction on Tuesday, August 11, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 1,00,000 1 11:00 AM to 11:30 AM August 12, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad &",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 58,671 Amount accepted (in ₹ crore) 58,671 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/848",
-      "new_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,25,000 Total amount of offers received (in ₹ crore) 42,560 Amount accepted (in ₹ crore) 42,560 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/857",
-      "source_id": "rbi"
-    }
-  ],
-  "8ef4db869c59": [
-    {
-      "date": "2026-08-10",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "notification",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Social Protection",
-      "new_value": "Digital & Technology, Finance & Economy, Social Protection",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "In terms of GOI notification F.No.4(7)-B(W&M)/2019 dated September 30, 2019 (SGB 2019-20 Series IX-Issue date February 11, 2020) and in terms of GOI notification F.No.4(4)-B(W&M)/2020 dated April 13, 2020 (SGB 2020-21 Series-V-Issue date August 11, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption",
-      "new_value": "In terms of GOI notification F.No.4(22)-B(W&M)/2018 dated October 08, 2018, (SGB 2018-19 Series-VI-Issue date February 12, 2019) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on August 12, 2026. 2. Further, the redemption price of SGB shall be based on simple average of clos",
-      "source_id": "rbi"
-    }
-  ],
-  "aafd90b78e25": [
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Government of India press release: Independence Day Celebrations 2026 to honour ‘150 Years of Vande Mataram’ & ‘Yuva Sha...",
-      "new_value": "Government of India press release: Independence Day Celebrations 2026 to honour ‘150 Years of Vande Mataram’ & ‘Yuva Shakti for Viksit Bharat@2047’",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Government of India press release: Independence Day Celebrations 2026 to honour ‘150 Years of Vande Mataram’ & ‘Yuva Sha...",
-      "new_value": "Government of India press release: Independence Day Celebrations 2026 to honour ‘150 Years of Vande Mataram’ & ‘Yuva Shakti for Viksit Bharat@2047’",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Government of India press release: Independence Day Celebrations 2026 to honour ‘150 Years of Vande Mataram’ & ‘Yuva Sha...",
-      "new_value": "Government of India press release: Independence Day Celebrations 2026 to honour ‘150 Years of Vande Mataram’ & ‘Yuva Shakti for Viksit Bharat@2047’",
-      "source_id": "state_pib_karnataka"
-    }
-  ],
   "777deab79fe9": [
     {
       "date": "2026-08-11",
@@ -5082,13 +4999,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-09-12",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-09-13",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5195,6 +5105,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -6297,13 +6214,6 @@
       "source_id": "republic_world"
     },
     {
-      "date": "2026-09-12",
-      "field": "description",
-      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
-      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-09-13",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
@@ -6410,6 +6320,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
+      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
       "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
@@ -6551,6 +6468,13 @@
       "field": "description",
       "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
       "new_value": "Release Order - Certificate No. RC7376 of 2023 in respect of Padam Prabhu Vanijya Pvt Ltd (PAN: AAECP9720F) in the matter of Illiquid Stock Options",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
+      "new_value": "Release Order - Certificate No. RC7374 of 2023 in respect of Kanchan Agarwal (PAN: AFMPA8305D) in the matter of Illiquid Stock Options",
       "source_id": "sebi"
     }
   ],
@@ -7142,15 +7066,6 @@
       "field": "description",
       "old_value": "General Remittance Order dated August 13, 2026 issued under RC No. 9161 of 2026 against Rupee Services Private Limited in the matter of dealing in Illiquid Stocks Options at BSE",
       "new_value": "Order in the matter of Max Financial Services Limited",
-      "source_id": "sebi"
-    }
-  ],
-  "68f4b9d98d6c": [
-    {
-      "date": "2026-08-18",
-      "field": "description",
-      "old_value": "Remittance Advice against: Santosh Kumar [Defaulter] (PAN: AEKPK6751Q) in the matter of Investigation into the trading activities of certain entities in the scrip of Delta Leasing and Finance Ltd. under Recovery Certificate No. 9152 of 2026.",
-      "new_value": "General Remittance Advice against: Sunil Singh (Proprietor of Alfa Finsec) [Defaulter] (PAN: BDGPS0774K) in the matter of trading activities of certain entities in the scrip of Delta Leasing and Finance Ltd.: under Recovery Certificate No. 9156 of 2026.",
       "source_id": "sebi"
     }
   ],
@@ -9971,15 +9886,6 @@
       "source_id": "rbi"
     }
   ],
-  "fbe61ad5c452": [
-    {
-      "date": "2026-08-27",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBl) has, by an order dated August 6, 2026, imposed a monetary penalty of ₹50,000 (Rupees Fifty Thousand only) on The Amravati District Central Co-operative Bank Ltd., Maharashtra (the bank), for non-compliance with certain directions issued by RBI on ‘Know Your Customer (KYC)’ and ‘Ensuring Reasonableness of Bank Charges and Charges Levied for Sending SMS Alerts’. This penalty has been imposed in exercise of powers conferred on RBI under",
-      "new_value": "The Reserve Bank of India (RBl) has, by an order dated August 25, 2026, imposed a monetary penalty of ₹50,000 (Rupees Fifty Thousand only) on Jalna District Central Co-operative Bank Ltd., Maharashtra (the bank), for non-compliance with certain directions issued by RBI on 'Membership of Credit Information Companies (CICs) by Co-operative Banks' and 'Know Your Customer (KYC)'. This penalty has been imposed in exercise of powers conferred on RBI, under the provisions of section 25(1)(iii) re",
-      "source_id": "rbi"
-    }
-  ],
   "19f1159a91a1": [
     {
       "date": "2026-08-27",
@@ -10522,34 +10428,6 @@
       "field": "description",
       "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
       "new_value": "Government of India press release: Achievements / Efforts of Department of Biotechnology aimed at Swachhata and expeditious disposal of pending matters in Government during November, 2025 – August, 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "Government of India press release: Achievements / Efforts of Department of Biotechnology aimed at Swachhata and expeditious disposal of pending matters in Government during November, 2025 – August, 2026",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "Government of India press release: Achievements / Efforts of Department of Biotechnology aimed at Swachhata and expeditious disposal of pending matters in Government during November, 2025 – August, 2026",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "Government of India press release: Achievements / Efforts of Department of Biotechnology aimed at Swachhata and expeditious disposal of pending matters in Government during November, 2025 – August, 2026",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "Government of India press release: Achievements / Efforts of Department of Biotechnology aimed at Swachhata and expeditious disposal of pending matters in Government during November, 2025 – August, 2026",
       "source_id": "pib_eac_pm"
     },
     {
@@ -10642,6 +10520,34 @@
       "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
       "new_value": "Click the following links to download Compilation of QUED ( Questions from Editorials ) (August 2026) Insights August 2026 QUED Quiz Questions Insights August 2026 QUED Quiz Compilation   Join our Official Telegram Channel HERE for Motivation and Fast Updates Subscribe to our YouTube Channel HERE to watch Motivational and New analysis videos The post [COMPILATION] UPSC Editorials Quiz – August 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "Government of India press release: India’s Textile exports rise 16.1% to ₹29,776 crore in August 2026",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "India’s net spend on oil and gas stayed nearly flat in August at $9.3 billion.",
+      "source_id": "the_hindu_business"
     },
     {
       "date": "2026-09-17",
@@ -10839,24 +10745,6 @@
       "old_value": "The Reserve Bank of India (RBl) has, by an order dated August 25, 2026, imposed a monetary penalty of ₹50,000 (Rupees Fifty Thousand only) on Jalna District Central Co-operative Bank Ltd., Maharashtra (the bank), for non-compliance with certain directions issued by RBI on 'Membership of Credit Information Companies (CICs) by Co-operative Banks' and 'Know Your Customer (KYC)'. This penalty has been imposed in exercise of powers conferred on RBI, under the provisions of section 25(1)(iii) re",
       "new_value": "The Reserve Bank of India (RBI) has, by an order dated August 25, 2026, imposed a monetary penalty of ₹20,000/- (Rupees Twenty Thousand only) on The Mumbai District Central Co-operative Bank Ltd., Maharashtra (the bank) for non-compliance with certain directions issued by RBI on Know Your Customer (KYC). This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of the Banking Regulation Act, 1949. The s",
       "source_id": "rbi"
-    }
-  ],
-  "954e8b19db0a": [
-    {
-      "date": "2026-08-31",
-      "field": "description",
-      "old_value": "Release Order – Kamlesh Ahuja [Defaulter] (PAN: ADFPA4706R) in the matter of dealings in Illiquid Stock Options at BSE. under Certificate No. 8037 of 2024.",
-      "new_value": "Release Order – Sai Refinery [Defaulter] (PAN: ABRFS9439H) in the matter of Trading in Illiquid Stock Options on BSE: under Certificate No. 3901 of 2021.",
-      "source_id": "sebi"
-    }
-  ],
-  "fe955f15e14c": [
-    {
-      "date": "2026-08-31",
-      "field": "description",
-      "old_value": "Completion of Recovery Certificate No. 8037 of 2024 dated September 19, 2024 issued to Kamlesh Ahuja [Defaulter] (PAN: ADFPA4706R) in the matter of dealings in Illiquid Stock Options at BSE.",
-      "new_value": "Completion of Recovery Certificate No. 3901 of 2021 dated July 01, 2021 issued to Sai Refinery [Defaulter] (PAN: ABRFS9439H) in the matter of Trading in Illiquid Stock Options on BSE.",
-      "source_id": "sebi"
     }
   ],
   "3ab7377c7c8a": [
@@ -11972,13 +11860,6 @@
   ],
   "d38ebecb98aa": [
     {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
-      "new_value": "Union Finance Minister and…",
-      "source_id": "gst_council"
-    },
-    {
       "date": "2026-09-11",
       "field": "description",
       "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
@@ -12092,6 +11973,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
       "new_value": "Union Finance Minister and…",
@@ -13760,13 +13648,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-09-12",
-      "field": "description",
-      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-09-13",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
@@ -13873,6 +13754,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -14044,13 +13932,6 @@
       "source_id": "policyradar"
     },
     {
-      "date": "2026-09-12",
-      "field": "description",
-      "old_value": "RBI notification: Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
-      "new_value": "RBI/2026-27/254 A.P. (DIR Series) Circular No. 21 September 08, 2026 To All Authorised Persons Madam / Sir, Review of Circulars issued under Foreign Exchange Management Act...",
-      "source_id": "policyradar"
-    },
-    {
       "date": "2026-09-13",
       "field": "description",
       "old_value": "RBI notification: Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
@@ -14157,6 +14038,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "RBI notification: Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+      "new_value": "RBI/2026-27/254 A.P. (DIR Series) Circular No. 21 September 08, 2026 To All Authorised Persons Madam / Sir, Review of Circulars issued under Foreign Exchange Management Act...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "RBI notification: Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
       "new_value": "RBI/2026-27/254 A.P. (DIR Series) Circular No. 21 September 08, 2026 To All Authorised Persons Madam / Sir, Review of Circulars issued under Foreign Exchange Management Act...",
@@ -14233,27 +14121,6 @@
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "Government of India press release: India reaffirms Commitment to Ozone Layer Protection and Climate Action at 32nd World Ozone Day Celebration in Mumbai",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: India reaffirms Commitment to Ozone Layer Protection and Climate Action at 32nd World Ozone Day Celebration in Mumbai",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: India reaffirms Commitment to Ozone Layer Protection and Climate Action at 32nd World Ozone Day Celebration in Mumbai",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: India reaffirms Commitment to Ozone Layer Protection and Climate Action at 32nd World Ozone Day Celebration in Mumbai",
       "source_id": "pib_national_human_rights_commission"
     },
     {
@@ -14325,6 +14192,27 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
       "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
+      "source_id": "policyradar"
     },
     {
       "date": "2026-09-17",
@@ -14632,6 +14520,13 @@
       "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to the U.P. Civil Secretariat Primary Co-operative Bank Ltd., Lucknow, vide Directive LKO.DOS.SED.No.S796/10-12-294/2025-26 dated March 11, 2026, for a period of six months up to close of business of September 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond September 1",
       "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Amanath Co-operative Bank Ltd., Bangalore vide Directive No.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to the U.P. Civil Secretariat Primary Co-operative Bank Ltd., Lucknow, vide Directive LKO.DOS.SED.No.S796/10-12-294/2025-26 dated March 11, 2026, for a period of six months up to close of business of September 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond September 1",
+      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Gauhati Co-operative Urban Bank Ltd., Guwahati vide Directive No.GWH.DOS.ADM.No.S233/01-10-101/2025-2026 dated December 17, 2025 for a period of six months up to close of business on June 17, 2026, which were last extended up to close of business on September 17, 2026, vide Directive No. DOR.MON/D-16/12-29-108/2026-2027 dated June 11, 2026. The Reserve Bank of India is sa",
+      "source_id": "rbi"
     }
   ],
   "35674edfc473": [
@@ -14957,6 +14852,13 @@
       "field": "description",
       "old_value": "Remittance Order dated 08.09.2026 issued in RC No. 9189 of 2026",
       "new_value": "General Remittance Order dated September 16, 2026 in Recovery Certificate No. 9252 of 2026 issued against Chiranggi Irish Shah (PAN: CACPS1824G) in the matter of Front Running by Navnit Gadoya, Chiranggi Irish Shah and Surbhi Aggarwal.",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Remittance Order dated 08.09.2026 issued in RC No. 9189 of 2026",
+      "new_value": "General Remittance Order dated 17.09.2026 in Recovery Certificate No. 7163 of 2023 issued against Investmart Prop Mr. Anshuman Bhise (PAN: DYFPB1666H) in the matter of Investmart Prop Mr. Anshuman Bhise.",
       "source_id": "sebi"
     }
   ],
@@ -15386,36 +15288,13 @@
       "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Gujarat Rajya Karmachari Co-op. Bank Ltd., Ahmedabad, vide Directive No. AMD.DOS.SSM.No.S1057/11-04-083/2025-2026 dated March 11, 2026 for a period of six months up to close of business on September 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond close of busine",
       "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Amanath Co-operative Bank Ltd., Bangalore vide Directive No.",
       "source_id": "policyradar"
-    }
-  ],
-  "b81a9a711e96": [
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India’s med-tech ecosystem is strengthening through government initiatives such as the PLI Scheme, Medical Device Parks and PRIP Scheme, which are supporting indigenous production of high-end medical devices.",
-      "new_value": "He walked on a ramp this week at an event which was marketed on the ticketing platform, BookMyShow.",
-      "source_id": "scroll"
     },
     {
-      "date": "2026-09-13",
+      "date": "2026-09-17",
       "field": "description",
-      "old_value": "India’s med-tech ecosystem is strengthening through government initiatives such as the PLI Scheme, Medical Device Parks and PRIP Scheme, which are supporting indigenous production of high-end medical devices.",
-      "new_value": "He walked on a ramp this week at an event which was marketed on the ticketing platform, BookMyShow.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "India’s med-tech ecosystem is strengthening through government initiatives such as the PLI Scheme, Medical Device Parks and PRIP Scheme, which are supporting indigenous production of high-end medical devices.",
-      "new_value": "He walked on a ramp this week at an event which was marketed on the ticketing platform, BookMyShow.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-09-14",
-      "field": "description",
-      "old_value": "India’s med-tech ecosystem is strengthening through government initiatives such as the PLI Scheme, Medical Device Parks and PRIP Scheme, which are supporting indigenous production of high-end medical devices.",
-      "new_value": "He walked on a ramp this week at an event which was marketed on the ticketing platform, BookMyShow.",
-      "source_id": "scroll"
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Gujarat Rajya Karmachari Co-op. Bank Ltd., Ahmedabad, vide Directive No. AMD.DOS.SSM.No.S1057/11-04-083/2025-2026 dated March 11, 2026 for a period of six months up to close of business on September 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond close of busine",
+      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd., Valsad Gujarat vide Directive No. AMD.DOS.SSM.No.S831/11-03-153/2025-2026 dated December 17, 2025, for a period of six months up to close of business on June 18, 2026 which was last extended vide Directive No. DOR.MON/D-17/12-21-153/2026-27 dated June 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it",
+      "source_id": "rbi"
     }
   ],
   "bebc2e546d0d": [
@@ -15737,13 +15616,6 @@
     },
     {
       "date": "2026-09-16",
-      "field": "sectors",
-      "old_value": "Energy, Trade & Commerce",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-16",
       "field": "description",
       "old_value": "Selection of Solar Power Developers for Setting up of 700 MW ISTS-connected Solar PV Power Projects in Special Economic Zones (SEZs) or areas designated as Export Oriented Units (EOUs) of India under Tariff-based Competitive Bidding",
       "new_value": "To identify and lease, on a long-term basis of 27 years (extendable by mutual consent), two agricultural land parcels of approximately 10 acres each in Issapur and Dhansa villages, Najafgarh-Delhi, for development of Agri-PV power plants",
@@ -15923,6 +15795,20 @@
       "old_value": "Climate & Environment, Energy",
       "new_value": "Agriculture, Energy, Rural Development",
       "source_id": "seci"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Agriculture, Energy, Rural Development",
+      "source_id": "seci"
     }
   ],
   "81ac578ad1f2": [
@@ -15998,6 +15884,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "The Reserve Bank of India (RBI) has, by an order dated September 08, 2026, imposed a monetary penalty of ₹27.30 lakh (Rupees Twenty Seven Lakh Thirty Thousand only) on Asset Care & Reconstruction Enterprise Limited (the company) for non-compliance with certain provisions of the directions issued by RBI on ‘Income Recognition’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 12 read with section 30A(1) of the Securitisatio",
+      "new_value": "The Reserve Bank of India (RBI) has, by an order dated September 08, 2026, imposed a monetary penalty of ₹27.30 lakh (Rupees Twenty Seven Lakh Thirty Thousand only) on Asset Care...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "The Reserve Bank of India (RBI) has, by an order dated September 08, 2026, imposed a monetary penalty of ₹27.30 lakh (Rupees Twenty Seven Lakh Thirty Thousand only) on Asset Care & Reconstruction Enterprise Limited (the company) for non-compliance with certain provisions of the directions issued by RBI on ‘Income Recognition’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of section 12 read with section 30A(1) of the Securitisatio",
       "new_value": "The Reserve Bank of India (RBI) has, by an order dated September 08, 2026, imposed a monetary penalty of ₹27.30 lakh (Rupees Twenty Seven Lakh Thirty Thousand only) on Asset Care...",
@@ -16109,6 +16002,13 @@
       "old_value": "RBI notification: Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
       "new_value": "RBI/2026-27/255 DOR.RET.REC.220/12.01.001/2026-27 September 11, 2026 Reserve Bank of India (Local Area Banks   Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/255 DOR.RET.REC.220/12.01.001/2026-27 September 11, 2026 Reserve Bank of India (Local Area Banks   Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions...",
+      "source_id": "policyradar"
     }
   ],
   "2044bc3f38b6": [
@@ -16184,6 +16084,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/256 FIDD.CO.PSD.BC.No.10/04.09.001/2026-27 September 11, 2026 Reserve Bank of India (Priority Sector Lending   Targets and Classification) Third Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
       "new_value": "RBI/2026-27/256 FIDD.CO.PSD.BC.No.10/04.09.001/2026-27 September 11, 2026 Reserve Bank of India (Priority Sector Lending   Targets and Classification) Third Amendment Directions...",
@@ -16458,52 +16365,6 @@
       "source_id": "sebi"
     }
   ],
-  "2490eab6ff8d": [
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "A dollar deluge has placed the Reserve Bank of India's liquidity management in focus and instances of it being out of whack with the monetary policy committee's interest-rate decisions suggest it might be time to revisit the latter’s remit.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "A dollar deluge has placed the Reserve Bank of India's liquidity management in focus and instances of it being out of whack with the monetary policy committee's interest-rate decisions suggest it might be time to revisit the latter’s remit.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "A dollar deluge has placed the Reserve Bank of India's liquidity management in focus and instances of it being out of whack with the monetary policy committee's interest-rate decisions suggest it might be time to revisit the latter’s remit.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "A dollar deluge has placed the Reserve Bank of India's liquidity management in focus and instances of it being out of whack with the monetary policy committee's interest-rate decisions suggest it might be time to revisit the latter’s remit.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "A dollar deluge has placed the Reserve Bank of India's liquidity management in focus and instances of it being out of whack with the monetary policy committee's interest-rate decisions suggest it might be time to revisit the latter’s remit.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    }
-  ],
-  "f7501a4c2cf1": [
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "Under the proposed new rules, foreigners on student visas would be admitted for a maximum of up to four years after which they would have to apply for an extension",
-      "new_value": "A day before the rules were to take effect, the court said that Washington was adopting the policy based on ‘exceptionally weak’ rationales.",
-      "source_id": "scroll"
-    }
-  ],
   "6d0ebe21084a": [
     {
       "date": "2026-09-15",
@@ -16578,54 +16439,6 @@
       "old_value": "India and Canada have begun the fourth round of CEPA talks, targeting US$ 50 billion in bilateral trade by 2030 through stronger market access and economic cooperation.",
       "new_value": "The negotiations are important as the two sides have targeted to increase bilateral trade to $50 billion by 2030.",
       "source_id": "the_hindu_business"
-    }
-  ],
-  "7f754973ced5": [
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "The remarks were made during recent DMK demonstrations held on September 12, amid a heated political row over Stalin's detention under MISA in 1976.",
-      "new_value": "Saidapet police booked a case against Raja based on a complaint lodged by TVK functionary Karthik that Raja made derogatory remarks against Energy Resources and Law Minister R Nirmal Kumar, during the protest condemning the chief minister's speech in the Assembly.",
-      "source_id": "ndtv_india"
-    }
-  ],
-  "ce3310ddfa1b": [
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "The 18th BRICS Summit in the national capital witnessed member nations unanimously adopting the extensive 45-page New Delhi Declaration 2026, comprising 140 points.",
-      "new_value": "The BRICS countries, while adopting the New Delhi Declaration for the ongoing summit, condemned the terrorist attack in Pahalgam.",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "5ef34807ada5": [
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "The air quality panel has advised Delhi, Haryana, Rajasthan, and Uttar Pradesh to ensure physical sports and competitions are not scheduled in November and December.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "The air quality panel has advised Delhi, Haryana, Rajasthan, and Uttar Pradesh to ensure physical sports and competitions are not scheduled in November and December.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The air quality panel has advised Delhi, Haryana, Rajasthan, and Uttar Pradesh to ensure physical sports and competitions are not scheduled in November and December.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The air quality panel has advised Delhi, Haryana, Rajasthan, and Uttar Pradesh to ensure physical sports and competitions are not scheduled in November and December.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
     }
   ],
   "b9cf85e292f9": [
@@ -16770,15 +16583,6 @@
       "source_id": "pib_national_human_rights_commission"
     }
   ],
-  "24e4ca34301f": [
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "Mumbai Police earlier denied permission to Manoj Jarange to take the protest to Azad Maidan, citing law and order concerns during the ongoing Ganesh festival",
-      "new_value": "His arrival on September 16 will be the third protest staged in Mumbai for Marathi reservation in last three years.",
-      "source_id": "the_hindu_policy"
-    }
-  ],
   "c98da8988d2a": [
     {
       "date": "2026-09-16",
@@ -16794,14 +16598,14 @@
       "field": "description",
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_skill_development_and_entrepreneurship"
+      "source_id": "pib_tourism"
     },
     {
       "date": "2026-09-17",
       "field": "description",
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+      "source_id": "pib_surface_transport"
     },
     {
       "date": "2026-09-17",
@@ -16815,7 +16619,21 @@
       "field": "description",
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_steel"
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
+      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
+      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
+      "source_id": "pib_textiles"
     },
     {
       "date": "2026-09-17",
@@ -16823,6 +16641,13 @@
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
       "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
+      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
+      "source_id": "pib_women_and_child_development"
     },
     {
       "date": "2026-09-17",
@@ -16843,14 +16668,21 @@
       "field": "description",
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_textiles"
+      "source_id": "pib_youth_affairs_and_sports"
     },
     {
       "date": "2026-09-17",
       "field": "description",
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_tribal_affairs"
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
+      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
+      "source_id": "pib_special_service_and_features"
     },
     {
       "date": "2026-09-17",
@@ -16871,20 +16703,6 @@
       "field": "description",
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
       "source_id": "pib_ifsc_authority"
     },
     {
@@ -16892,14 +16710,7 @@
       "field": "description",
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+      "source_id": "pib_competition_commission_of_india"
     },
     {
       "date": "2026-09-17",
@@ -16907,13 +16718,6 @@
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
       "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
-      "source_id": "pib_competition_commission_of_india"
     },
     {
       "date": "2026-09-17",
@@ -16928,15 +16732,6 @@
       "old_value": "SEMICON India 2026 will bring together global industry leaders and showcase India’s expanding semiconductor capabilities, with the domestic market projected to reach US$ 103 billion by 2030.",
       "new_value": "Government of India press release: Prime Minister Shri Narendra Modi inaugurates SEMICON India 2026",
       "source_id": "pib_national_security_council_secretariat"
-    }
-  ],
-  "0ad338b8ddae": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "DMK spokesperson TKS Elangovan said they have the right to criticise and attack the ruling party for its mistakes",
-      "new_value": "The FIRs followed a September 12 DMK protest, with party spokesperson TKS Elangovan accusing the TVK government of targeting opposition leaders.",
-      "source_id": "hindustan_times"
     }
   ],
   "4bad834018d4": [
@@ -16989,24 +16784,6 @@
       "source_id": "ibef"
     }
   ],
-  "65f75951871a": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "India’s automobile industry is passing through a robust growth phase. The growth in August 2026 has been supported by a lower base of previous year, says Rajesh Menon, Director General, SIAM",
-      "new_value": "SIAM data shows passenger vehicle sales rose 36.5% and two-wheeler sales grew 10.5% in August 2026, marking the highest-ever August sales. Three-wheeler sales also rose 22.8%, supported by strong rural demand and improving financing conditions.",
-      "source_id": "ibef"
-    }
-  ],
-  "78892efd941d": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Task Force also has representation from the Department of Tourism and Commerce, among others and will include representatives from the Uttar Pradesh and Maharshtra Government",
-      "new_value": "Sports Minister Mr. Mansukh Mandaviya has announced a 10-member task force to assess the revival of Formula 1 in India. The panel aims to prepare a roadmap for hosting a race by 2028, over a decade after India last hosted one in 2013.",
-      "source_id": "ibef"
-    }
-  ],
   "457bb47c89f7": [
     {
       "date": "2026-09-16",
@@ -17024,6 +16801,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
+      "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
       "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
@@ -17344,6 +17128,13 @@
       "old_value": "On a review of current and evolving liquidity conditions, the Reserve Bank has decided to conduct OMO sale auctions of Government of India securities for an aggregate amount of ₹1,00,000 crore in three tranches of ₹50,000 crore, ₹25,000 crore, and ₹25,000 crore to be held on September 17, 2026, September 21, 2026, and September 28, 2026, respectively, through multi-security auction using the multiple price method. 2. The securities being offered for sale in the auction to",
       "new_value": "Government of India announces the conversion/switch of its securities through auction for an aggregate amount of ₹30,000 crore (face value). The security-wise details of the conversion/switch are given as under: Date of Auction Source Securities Amount (FV) of Source Securities (in ₹ crore) Destination Securities September 21, 2026 (Monday) 8.26% GS 2027 (Maturing on Aug 02, 2027) 2,000 7.19% GS 2060 (Maturing on Sep 15, 2060) 7.06% GS 2028 (Maturing on Apr 10, 2028) 4,000 6.79% GS 2",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "On a review of current and evolving liquidity conditions, the Reserve Bank has decided to conduct OMO sale auctions of Government of India securities for an aggregate amount of ₹1,00,000 crore in three tranches of ₹50,000 crore, ₹25,000 crore, and ₹25,000 crore to be held on September 17, 2026, September 21, 2026, and September 28, 2026, respectively, through multi-security auction using the multiple price method. 2. The securities being offered for sale in the auction to",
+      "new_value": "As announced vide the Press Release 2026-27/1106 dated September 11, 2026, the Reserve Bank will be conducting OMO sale auction of Government of India securities for an aggregate amount of ₹25,000 crore on September 21, 2026. 2. The securities being offered for sale in the auction are as below: S. No. ISIN Security Date of Maturity Aggregate Amount 1 IN0020070069 8.28% GS 2027 21-Sep-2027 ₹25,000 crore (There is no security-wise notified amount) 2 IN0020170174 7.17% GS 2028 08-Jan-20",
+      "source_id": "rbi"
     }
   ],
   "ffd327fc670a": [
@@ -17415,6 +17206,13 @@
       "old_value": "Consumer Education Workshop at Dang (Gujarat) by Vodafone Idea Limited nitinkumar Wed, 09/16/2026 - 14:12 Date Wed, 09/23/2026 - 12:00 District Dang Division Consumer Affairs Date & Time Wed, 09/23/2026 - 10:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Kaushal Sarda Contact person Email Kaushal.Sarda@vodafoneidea.com Event Category COP By TRAI Venue Details Eklavya Model Residential School, Opposite Hill Top Hotel, Near BRC Bhavan, Sunrise Point Road, S",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Dang (Gujarat) by Vodafone Idea Limited nitinkumar Wed, 09/16/2026 - 14:12 Date Wed, 09/23/2026 - 12:00 District Dang Division Consumer Affairs Date & Time Wed, 09/23/2026 - 10:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Kaushal Sarda Contact person Email Kaushal.Sarda@vodafoneidea.com Event Category COP By TRAI Venue Details Eklavya Model Residential School, Opposite Hill Top Hotel, Near BRC Bhavan, Sunrise Point Road, S",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "a84d9c574673": [
@@ -17458,15 +17256,6 @@
       "source_id": "deccan_chronicle"
     }
   ],
-  "b80893f57571": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Indravati reserve was established under Project Tiger in 1983, but prolonged left wing extremism (LWE) kept large parts of the reserve inaccessible",
-      "new_value": "Vehicles are being procured for safari and routes are being planned in the ITR, the largest tiger reserve in Central India: Chhattisgarh Principal Chief Conservator of Forest (PCCF) Arun Pandey",
-      "source_id": "deccan_chronicle"
-    }
-  ],
   "4d75db1d6a84": [
     {
       "date": "2026-09-16",
@@ -17493,6 +17282,13 @@
     },
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "India's cumulative exports for April-August 2026-27 rose 15.55% to US$ 399.27 billion, led by strong growth in electronic goods and engineering goods. August 2026 alone saw total exports grow 25.41%, narrowing the trade balance deficit year-on-year.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "India's cumulative exports for April-August 2026-27 rose 15.55% to US$ 399.27 billion, led by strong growth in electronic goods and engineering goods. August 2026 alone saw total exports grow 25.41%, narrowing the trade balance deficit year-on-year.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
@@ -17594,6 +17390,20 @@
       "old_value": "Finance & Economy, Trade & Commerce",
       "new_value": "Trade & Commerce",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
+      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Trade & Commerce",
+      "source_id": "niti_aayog"
     }
   ],
   "c8eaf8ac0a4c": [
@@ -17617,6 +17427,13 @@
   "50d4b92df990": [
     {
       "date": "2026-09-16",
+      "field": "description",
+      "old_value": "FIR alleges that Reporter TV managing director and two unidentified persons conspired to defame the Chief Minister in public by circulating and retaining documents which they allegedly knew to be fabricated",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
+    },
+    {
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "FIR alleges that Reporter TV managing director and two unidentified persons conspired to defame the Chief Minister in public by circulating and retaining documents which they allegedly knew to be fabricated",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
@@ -17706,7 +17523,7 @@
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+      "source_id": "pib_surface_transport"
     },
     {
       "date": "2026-09-17",
@@ -17720,7 +17537,21 @@
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_steel"
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
+      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
+      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
+      "source_id": "pib_textiles"
     },
     {
       "date": "2026-09-17",
@@ -17728,6 +17559,13 @@
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
       "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
+      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
+      "source_id": "pib_women_and_child_development"
     },
     {
       "date": "2026-09-17",
@@ -17748,14 +17586,21 @@
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_textiles"
+      "source_id": "pib_youth_affairs_and_sports"
     },
     {
       "date": "2026-09-17",
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_tribal_affairs"
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
+      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
+      "source_id": "pib_special_service_and_features"
     },
     {
       "date": "2026-09-17",
@@ -17776,20 +17621,6 @@
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
       "source_id": "pib_ifsc_authority"
     },
     {
@@ -17797,14 +17628,7 @@
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+      "source_id": "pib_competition_commission_of_india"
     },
     {
       "date": "2026-09-17",
@@ -17812,13 +17636,6 @@
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
       "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_competition_commission_of_india"
     },
     {
       "date": "2026-09-17",
@@ -17838,8 +17655,8 @@
       "date": "2026-09-17",
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capa...",
-      "source_id": "state_pib_karnataka"
+      "new_value": "ORF Expert Speak: Arms and Alliances: Israel’s Evolving Defence Ties With Europe",
+      "source_id": "orf"
     }
   ],
   "30c58ec1f674": [
@@ -17861,6 +17678,13 @@
     }
   ],
   "26037a4a9f24": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Japan’s recently-released defence white paper marks a significant turn in intent and policy. The country’s long focus on economic security is now blended with its defence capacity, bringing together foreign policy, intelligence, and economic, technological and industrial capacities into a “comprehensive architecture for national defence.” This is a new conception of national security in Japan. The post Japan’s 2026 Defence White Paper appeared first on Gateway House.",
+      "new_value": "ORF Expert Speak: Japan’s Defence Transformation: Reading the 2026 White Paper",
+      "source_id": "orf"
+    },
     {
       "date": "2026-09-17",
       "field": "description",
@@ -17903,9 +17727,23 @@
       "old_value": "A Congress MLA’s niece was removed from her position as a medical officer in a government clinic in Bagalkot after failing to attend an inquiry into allegations that she was drawing a salary from the clinic while simultaneosly neglecting her duties to pursue a postgraduate medical studies course, officials said",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "A Congress MLA’s niece was removed from her position as a medical officer in a government clinic in Bagalkot after failing to attend an inquiry into allegations that she was drawing a salary from the clinic while simultaneosly neglecting her duties to pursue a postgraduate medical studies course, officials said",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
     }
   ],
   "fe68f9893f5f": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Despite a collapse in learning outcomes across the world, the OECD’s report on one of the world’s best known surveys has glossed over what’s clearly a crisis. It’s now for educationists to raise an alarm over the impact of technology on cognitive capacity.",
+      "new_value": "17 Sept 2026",
+      "source_id": "azim_premji"
+    },
     {
       "date": "2026-09-17",
       "field": "description",
@@ -17930,6 +17768,298 @@
       "old_value": "India require USD 29.9 billion investment, the report said",
       "new_value": "India's data centre capacity is set to grow by 3,860 MW by 2030, requiring an estimated US$ 29.9 billion in development capital. Mumbai leads the pipeline, with Hyderabad, Chennai and Delhi NCR emerging as key growth markets.",
       "source_id": "ibef"
+    }
+  ],
+  "3dcd0c33a4f9": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "A vigilance court in Kerala on Thursday sentenced former Kerala Director General of Police (DGP) Tomin J Thachankary to four years imprisonment in connection with a disproportionate assets case. Kottayam Enquiry Commissioner and Special Judge (Vigilance) KV Rajaneesh passed the sentencing order this afternoon, after finding him guilty under the provisions of the Prevention of Corruption Act. Thachankary was also ordered to pay a fine of ₹30 lakhs. The case originated from a complaint filed by Bo",
+      "new_value": "A vigilance court in Kerala on Thursday sentenced former Kerala Director General of Police (DGP) Tomin J Thachankary to four years rigorous imprisonment for amassing assets disproportionate to his wealth [State of Kerala v.Tomin J Thachankary].Kottayam Enquiry Commissioner and Special Judge (Vigilance) KV Rajaneesh passed the verdict after finding that there was a disproportionate income of over ₹30 lakh, which comes up to over 50% of his known income at the time. \"The convict was a senior offic",
+      "source_id": "barandbench"
+    }
+  ],
+  "490198e96377": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_textiles"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "source_id": "state_pib_punjab"
+    }
+  ],
+  "29766e413852": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 3,00,000 Total amount of offers received (in ₹ crore) 2,39,959 Amount accepted (in ₹ crore) 2,39,959 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1130",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Friday, September 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 2,25,000 3 09:30 AM to 10:00 AM September 21, 2026 (Monday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
+      "source_id": "rbi"
+    }
+  ],
+  "9522313cd57e": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets the Chairperson of the African Union and President of Republic of Burundi on the sidelines of the BRICS Summit in New Delhi",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets with the President of South Africa on the sidelines of the BRICS Summit in New Delhi",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets with the Vice President of Nigeria on the sidelines of the 18th BRICS Summit in New Delhi",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets the Vice President of Uganda on the sidelines of the 18th BRICS Summit in New Delhi",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "The online speculation came after the South African government said President Cyril Ramaphosa was unwell, but did not provide details.",
+      "source_id": "scroll"
+    }
+  ],
+  "9f479f23775e": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Appeal No. 7043 of 2026 filed by Aniket Singh",
+      "new_value": "Appeal No. 7060 of 2026 filed by HAWA SINGH",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Appeal No. 7043 of 2026 filed by Aniket Singh",
+      "new_value": "Appeal No. 7055 of 2026 filed by Sanamdeep Singh Bakshi",
+      "source_id": "sebi"
+    }
+  ],
+  "c0f58abe7e17": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Kaul said it was misleading for the Uddhav Thackeray group to suggest that the Subhash Desai judgment prohibited the use of the legislative-majority test.",
+      "new_value": "The Supreme Court on Thursday questioned the use of legislative majority as a test to decide the Shiv Sena symbol dispute.A Bench of Chief Justice of India Surya Kant and Justices Joymalya Bagchi and V Mohana made the observations while continuing to hear the Shiv Sena party name and symbol dispute.Justice Joymalya Bagchi, CJI Surya Kant and Justice V MohanaJustice Bagchi observed that while electoral numbers are relevant to the recognition of political parties, a question arises when legislator",
+      "source_id": "barandbench"
+    }
+  ],
+  "c8ea9ae82c87": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Earlier this month, the Supreme Court issued an order quashing all FIRs registered across India in connection with the student protest led by the Cockroach Janata Party (CJP).It permitted the Central government and the Delhi Police to register fresh FIRs with respect to 2,873 individuals having serious criminal antecedents. While the order largely brought to a close criminal proceedings arising out of the protests, its reasoning raises several constitutional questions.Inadequate reasons for quas",
+      "source_id": "barandbench"
+    }
+  ],
+  "3c0e7d24b45c": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The post UPSC CURRENT AFFAIRS – 17 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 17 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 17 September 2026 | Daily Prelims Quiz appea",
+      "source_id": "insights_ias"
+    }
+  ],
+  "409ffc9c40bb": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The Delhi High Court on Thursday grilled the Delhi Police for denying the Kshatriya Karni Sena permission to hold a protest at Jantar Mantar against reservation policies and the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026. Justice Swarana Kanta Sharma observed that the police could have put conditions on the protestors instead of refusing them permission to gather there on September 20.\"You rejected it? Why? Can this kind of order be pass",
+      "new_value": "The police had granted permission to the Karni Sena for a demonstration on September 20, but withdrew it, apprehending that a large crowd would gather.",
+      "source_id": "scroll"
+    }
+  ],
+  "b95e2caec5a5": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The MEA says there is no boundary between Pakistan and China; adds that J&K and Ladakh \"are and will always remain integral and inalienable parts of India\"",
+      "new_value": "Islamabad should ‘immediately vacate the areas under its illegal and forcible occupation’, said New Delhi after the commission was operationalised on Wednesday.",
+      "source_id": "scroll"
+    }
+  ],
+  "3b357bd40cf2": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Maratha quota stir Manoj Jarange ends fast gives Maharashtra govt months to act",
+      "new_value": "He ended the 20-day hunger strike after a Maharashtra government delegation informed him about the steps it had initiated to meet the demands.",
+      "source_id": "scroll"
+    }
+  ],
+  "219c4ea8aef0": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The resolution to advance the Russia sanctions bill and a slew of other legislations was approved by a 214-211 vote, shocking the House Democratic leadership",
+      "new_value": "India said it will continue to ensure energy security for its people ‘through diversified sourcing and on the basis of evolving market dynamics’.",
+      "source_id": "scroll"
+    }
+  ],
+  "fc828e6e9dba": [
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The bench had directed the State to file an affidavit ensuring that the guidelines issued by the CBCP, along with earlier orders of the Supreme Court, Madras HC, and NGT, would be followed at least during next year’s festival; the State, however, sought more time",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
     }
   ]
 }
