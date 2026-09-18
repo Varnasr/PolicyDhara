@@ -2235,13 +2235,6 @@
       "field": "description",
       "old_value": "First comprehensive education policy in 34 years replacing the 1986 policy. Introduces 5+3+3+4 school structure, multidisciplinary higher education, mother tongue instruction till Grade 5, and targets 50% GER in higher education by 2035.",
       "new_value": "Government of India press release: Alignment of NCERT Syllabus with National Education Policy 2020",
-      "source_id": "pib_social_justice_empowerment"
-    },
-    {
-      "date": "2026-08-10",
-      "field": "description",
-      "old_value": "First comprehensive education policy in 34 years replacing the 1986 policy. Introduces 5+3+3+4 school structure, multidisciplinary higher education, mother tongue instruction till Grade 5, and targets 50% GER in higher education by 2035.",
-      "new_value": "Government of India press release: Alignment of NCERT Syllabus with National Education Policy 2020",
       "source_id": "pib_tribal_affairs"
     },
     {
@@ -2376,6 +2369,13 @@
       "old_value": "Education",
       "new_value": "Child Rights & Youth, Education",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "First comprehensive education policy in 34 years replacing the 1986 policy. Introduces 5+3+3+4 school structure, multidisciplinary higher education, mother tongue instruction till Grade 5, and targets 50% GER in higher education by 2035.",
+      "new_value": "Northeast states seek region-specific rules to implement National Education Policy",
+      "source_id": "indiatoday_rss"
     }
   ],
   "4cc8a087909b": [
@@ -3318,13 +3318,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-09-14",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3431,6 +3424,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3754,13 +3754,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-08-17",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "The District and Sessions Court, Durg, in association with the District Legal Services Authority (DLSA), Durg, organised a Student Mediation Competition at Bharati University, Durg, under the theme “Taking Mediation to the Roots Through Campus-Based Mediation Competitions – An Initiative under Mediation 3.0 Drive.” The initiative seeks to introduce students to mediation and consensual dispute resolution before disputes reach the courtroom. It is part of the broader vision of Justice Ramesh Sinha",
-      "source_id": "livelaw"
-    },
-    {
       "date": "2026-08-19",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3885,6 +3878,13 @@
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "The National Company Law Tribunal (NCLT) at New Delhi has sent Bira and its creditors to mediation to explore a settlement of insolvency proceedings pending against the company.A special bench comprising Judicial Member Ashok Kumar Bhardwaj and Technical Member Ravindra Chaturvedi passed the order on September 15 while hearing multiple proceedings against B9 Beverages Limited, including a Section 7 insolvency plea filed by Unity Small Finance Bank Limited.\"It is made clear that if no settlement",
       "source_id": "barandbench"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
     },
     {
       "date": "2026-09-18",
@@ -4992,13 +4992,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-09-14",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5105,6 +5098,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -6017,13 +6017,6 @@
   ],
   "6bbc658c1e6c": [
     {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
-      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-09-14",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
@@ -6130,6 +6123,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
+      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
       "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
@@ -10173,20 +10173,6 @@
       "date": "2026-09-17",
       "field": "description",
       "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
       "new_value": "Click the following links to download Compilation of QUED ( Questions from Editorials ) (August 2026) Insights August 2026 QUED Quiz Questions Insights August 2026 QUED Quiz Compilation   Join our Official Telegram Channel HERE for Motivation and Fast Updates Subscribe to our YouTube Channel HERE to watch Motivational and New analysis videos The post [COMPILATION] UPSC Editorials Quiz – August 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "source_id": "insights_ias"
     },
@@ -10294,6 +10280,20 @@
       "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
       "new_value": "Performance against various QoS Parameters of Access Service (Wireless) for the Month of August 2026 nitinkumar Fri, 09/18/2026 - 17:52 File Download (1.36 MB) QoS Quarter August Qos Report Type PMR Reports Report Type Access (Wireless) Date of Release Fri, 09/18/2026 - 12:00 Months August Year 2026",
       "source_id": "trai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
     },
     {
       "date": "2026-09-18",
@@ -13887,20 +13887,6 @@
       "date": "2026-09-17",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
       "source_id": "policyradar"
     },
@@ -14015,6 +14001,20 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "The blaze broke out around 11:50 pm on Thursday at a godown close to a weighbridge facility, he added.",
       "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
     },
     {
       "date": "2026-09-18",
@@ -15397,20 +15397,6 @@
     },
     {
       "date": "2026-09-16",
-      "field": "sectors",
-      "old_value": "Energy, Trade & Commerce",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "sectors",
-      "old_value": "Energy, Trade & Commerce",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-16",
       "field": "description",
       "old_value": "Selection of Solar Power Developers for Setting up of 700 MW ISTS-connected Solar PV Power Projects in Special Economic Zones (SEZs) or areas designated as Export Oriented Units (EOUs) of India under Tariff-based Competitive Bidding",
       "new_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
@@ -15582,6 +15568,27 @@
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Agriculture, Energy, Rural Development",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Agriculture, Energy, Rural Development",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Education, Energy",
       "source_id": "seci"
     },
     {
@@ -16689,6 +16696,13 @@
       "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
       "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
+      "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
+      "source_id": "niti_aayog"
     }
   ],
   "ef47d9f61ac9": [
@@ -16730,22 +16744,6 @@
       "old_value": "In terms of GoI notification F.No. 4(7)-B(W&M)/2019 dated September 30, 2019 (SGB 2019-20 Series X - Issue date March 11, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on September 11, 2026. 2. Further, the redemption price of SGB shall be based on simple average of cl",
       "new_value": "In terms of GoI notification F.No. 4(7)-B(W&M)/2019 dated May 30, 2019 (SGB 2019-20 Series IV - Issue date September 17, 2019) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on September 17, 2026. 2. Further, the redemption price of SGB shall be based on simple average of clo",
       "source_id": "rbi"
-    }
-  ],
-  "3a6405d8da78": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The bill -- Lindsey O Graham Sanctioning Russia and Iran Act 2026 -- is expected to pass in Thursday’s final vote, people aware of the matter told HT.",
-      "new_value": "New Delhi is watching developments closely, and its response will hinge on both how the House votes and how Trump implements the law, sources said",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The bill -- Lindsey O Graham Sanctioning Russia and Iran Act 2026 -- is expected to pass in Thursday’s final vote, people aware of the matter told HT.",
-      "new_value": "The Republican-led House of Representatives passed the package by 262-159",
-      "source_id": "deccan_chronicle"
     }
   ],
   "f65b28c72795": [
@@ -16999,6 +16997,20 @@
       "old_value": "Finance & Economy, Trade & Commerce",
       "new_value": "Trade & Commerce",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
+      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Trade & Commerce",
+      "source_id": "niti_aayog"
     }
   ],
   "ad3ab46ba9f2": [
@@ -17020,13 +17032,6 @@
     }
   ],
   "9627dec12f25": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_tribal_affairs"
-    },
     {
       "date": "2026-09-17",
       "field": "description",
@@ -17141,6 +17146,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
+      "new_value": "ORF Expert Speak: Arms and Alliances: Israel’s Evolving Defence Ties With Europe",
+      "source_id": "orf"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "ORF Expert Speak: Arms and Alliances: Israel’s Evolving Defence Ties With Europe",
@@ -17277,48 +17289,6 @@
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
     },
     {
@@ -17411,6 +17381,48 @@
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
       "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Divisional Level Dak Adalat to be Conducted by Chennai City South Division",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Chennai GPO to Conduct Divisional Level DakAdalat",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "state_pib_punjab"
     }
   ],
   "29766e413852": [
@@ -17430,27 +17442,6 @@
     }
   ],
   "9522313cd57e": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
-      "new_value": "Prime Minister meets with the President of South Africa on the sidelines of the BRICS Summit in New Delhi",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
-      "new_value": "Prime Minister meets with the Vice President of Nigeria on the sidelines of the 18th BRICS Summit in New Delhi",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
-      "new_value": "Prime Minister meets the Vice President of Uganda on the sidelines of the 18th BRICS Summit in New Delhi",
-      "source_id": "policyradar"
-    },
     {
       "date": "2026-09-17",
       "field": "description",
@@ -17569,6 +17560,27 @@
       "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
       "new_value": "Prime Minister meets with the President of South Africa on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets the Chairperson of the African Union and President of Republic of Burundi on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets with the President of South Africa on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
+      "source_id": "policyradar"
     }
   ],
   "9f479f23775e": [
@@ -17637,15 +17649,6 @@
       "source_id": "scroll"
     }
   ],
-  "219c4ea8aef0": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The resolution to advance the Russia sanctions bill and a slew of other legislations was approved by a 214-211 vote, shocking the House Democratic leadership",
-      "new_value": "India said it will continue to ensure energy security for its people ‘through diversified sourcing and on the basis of evolving market dynamics’.",
-      "source_id": "scroll"
-    }
-  ],
   "fc828e6e9dba": [
     {
       "date": "2026-09-17",
@@ -17711,6 +17714,13 @@
       "old_value": "Live Delhi CM Rekha Gupta lights diyas at Kartavya Path on PM Modis birthday",
       "new_value": "Chief Minister, Finance…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Live Delhi CM Rekha Gupta lights diyas at Kartavya Path on PM Modis birthday",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
     }
   ],
   "051030cb2290": [
@@ -17732,6 +17742,13 @@
     }
   ],
   "4803dd069394": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Sources in Dhaka said efforts are underway to schedule his visit to New Delhi during a suitable period in November following Mr. Rahman’s existing diplomatic engagements",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -17827,9 +17844,23 @@
       "old_value": "The duo also discussed measures to strengthen bilateral economic ties and initiatives to enhance connectivity for deepening trade, investments and people-to-people exchanges",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The duo also discussed measures to strengthen bilateral economic ties and initiatives to enhance connectivity for deepening trade, investments and people-to-people exchanges",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "8abd2ac753a2": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "New Zealand's parliament has passed legislation implementing its free trade agreement with India, eliminating or reducing tariffs on 95% of exports. The deal includes a US$ 20 billion New Zealand investment commitment in India over 15 years.",
+      "new_value": "New Zealand parliament clears FTA with India    The Tribune",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -17859,9 +17890,23 @@
       "old_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union government",
       "new_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union government",
+      "new_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union...",
+      "source_id": "policyradar"
     }
   ],
   "3e2c1a5dcbf2": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The government is projecting the recently concluded BRICS Summit’s joint declaration as a symbol of the world’s trust in India, but is now facing ‘aggressive bullying from a strategic partner’, party general secretary K.C. Venugopal says",
+      "new_value": "The government is projecting the recently concluded BRICS Summit’s joint declaration as a symbol of the world’s trust in India, but is now facing ‘aggressive bullying from a strategic partner’...",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -17891,9 +17936,23 @@
       "old_value": "Prime Minister Mr. Narendra Modi chaired a BRICS session on inclusive global governance, calling for greater representation of the Global South and stronger multilateral cooperation.",
       "new_value": "Prime Minister chaired the BRICS session on “Inclusive Global Governance and Strengthening Multilateralism” (September 12, 2026)    Ministry of External Affairs",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Prime Minister Mr. Narendra Modi chaired a BRICS session on inclusive global governance, calling for greater representation of the Global South and stronger multilateral cooperation.",
+      "new_value": "Prime Minister chaired the BRICS session on “Inclusive Global Governance and Strengthening Multilateralism” (September 12, 2026)    Ministry of External Affairs",
+      "source_id": "policyradar"
     }
   ],
   "fdca0b83893e": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following companies. Sr. No. Name of the Company Registered Office Address CoR No. CoR Issued on Cancellation Order Date 1 Dar's Financial Services Pvt Ltd GE-108, Rajdanga Main Road, Kolkata, West Bengal, India, 700107 B.05.03300 February 03, 2000 August 03, 2026 2 Rolta Holding and Finance Corporation Private Limit",
+      "new_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following...",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -17923,9 +17982,23 @@
       "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd., Valsad Gujarat vide Directive No. AMD.DOS.SSM.No.S831/11-03-153/2025-2026 dated December 17, 2025, for a period of six months up to close of business on June 18, 2026 which was last extended vide Directive No. DOR.MON/D-17/12-21-153/2026-27 dated June 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it",
       "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd....",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd., Valsad Gujarat vide Directive No. AMD.DOS.SSM.No.S831/11-03-153/2025-2026 dated December 17, 2025, for a period of six months up to close of business on June 18, 2026 which was last extended vide Directive No. DOR.MON/D-17/12-21-153/2026-27 dated June 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it",
+      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd....",
+      "source_id": "policyradar"
     }
   ],
   "448e11a8c936": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "US House passes Russia sanctions bill clears way for tariffs on India China",
+      "new_value": "100% tariffs on India, China? Sanctions bill targeting Russia, allies passed by US House; awaits Trump's assent    Deccan Herald",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -18131,6 +18204,13 @@
       "old_value": "The post The EPFO Wage Ceiling appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "new_value": "Supreme Court closes EPFO wage ceiling plea after limit raised to Rs 25,000",
       "source_id": "indiatoday_rss"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The post The EPFO Wage Ceiling appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "Government of India press release: Govt Hikes EPFO Wage Ceiling to Rs. 25,000; Over 51 Lakh Workers to Get Fresh Cover",
+      "source_id": "state_pib_karnataka"
     }
   ],
   "8f05419026f3": [
@@ -18161,6 +18241,13 @@
     }
   ],
   "22fcd9a809cf": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "After years of incentives helping put electric vehicles on Indian roads, the industry faces a harder test: whether localisation, scale, and falling costs can make EVs affordable enough to reduce their dependence on government support. The first challenge was adoption; the next is building a market that can increasingly stand on its own.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -18213,6 +18300,13 @@
       "old_value": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore",
       "new_value": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore",
+      "new_value": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities...",
+      "source_id": "policyradar"
     }
   ],
   "3a3b55088e12": [
@@ -18222,6 +18316,261 @@
       "old_value": "Vikramaditya Motwane, Kiran Rao, Shakun Batra and Vishal Bhardwaj direct four segments about sexual desire.",
       "new_value": "Read the latest news and stories of children and their families from across the country.",
       "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Vikramaditya Motwane, Kiran Rao, Shakun Batra and Vishal Bhardwaj direct four segments about sexual desire.",
+      "new_value": "Read the latest news and stories of children and their families from across the country.",
+      "source_id": "unicef_india"
+    }
+  ],
+  "65275ec2e80e": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The leaders also discussed steps to expand India-UAE Comprehensive Strategic Partnership in areas including energy, defence, technology, investment and health.",
+      "new_value": "The UAE President, who dialled Modi, conveyed greetings on the PM's birthday. Modi turned 76 on Thursday.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "sectors",
+      "old_value": "Defence & Security, Digital & Technology, Health",
+      "new_value": "Governance & Reform",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "861ac1b079c6": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The post SEMICON India 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "Government of India press release: SEMICON India 2026 Day 2 Highlights India’s Semiconductor Journey from Ambition to Ex...",
+      "source_id": "pib"
+    }
+  ],
+  "e4f4ef5fb744": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Minutes before the announcement, the candidate from Mamata Banerjee-led TMC had withdrawn her nomination for the elections.",
+      "new_value": "Police sources have said that this arrest has no relation to the elections, and the arrest was merely based on an old case against Milan Pradhan",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "61d3d9699523": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The workshop will bring together senior officials and heads and faculty of training institutes from seven states and Puducherry.",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
+    }
+  ],
+  "1854262172f2": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "The Department looks into the complaints from policyholders against life, non-life and health insurance companies.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "The following are the jobs listed as under:  Conducting meetings of the Authority, Insurance Advisory Committee (IAC) and meetings of Chairman with Heads of Departments (HoDs) by coordinating various activities;Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Enforcement department processes the inspection reports of various regulated entities and takes the same to logical conclusion by taking appropriate action on each of the observations forming part of the inspection report.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Process the requests of Insurers for: Transfer of shares/ change in Shareholding . Amalgamation and mergers and Arrangements of Life InsurersKnow More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Health Department is responsible for attending to all the functions involving regulation and supervision of health insurance business.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "The role of Human Resource Department is to meet the requirement of human resources and plan, develop, process and administer policies and programs designed to create an environment that develops, encourage and sustains the well-being of employees. The main aim is to strengthen the employer-employee relationship through measuring job satisfaction, employee engagement and resolving workplace conflict. It is that part of management which is concerned with the people at work and with their relation",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "The Authority derives the following powers from Sec.14(2)(h) of the IRDAI Act, 1999:  o\tCalling for information  o\tUndertaking inspection o\tConducting enquiries and investigations including audit of the insurers, intermediaries, insurance intermediaries and other organizations connected with the insurance business.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "IRDAI (Registration of Insurance Marketing Firm) Regulations, 2015 (IMF Regulations) were notified in the Gazette on 21.01.2015. The Authority launched an online portal on 26th May, 2015 for facilitating the applicants to submit their applications through portal. The basic functions of the department are as follows.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Brokers & Distribution DevelopmentKnow More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "IRDAI (Investment) Regulations, 2016 read along with Master Circular and guidelines amended from time to time regulate Insurers’ Investments.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Information Technology Department has been providing day-to-day assistance in planning, organizing, and implementing IT Projects designed to support IRDA in all aspects of information technology.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Legal Issues.\tCourt matters. Scrutinize of petitions received, entry in database, forward to the respective departments. Process for decision to file vakalat after due analysis. \tPrepare para-wise comments and draft counter affidavit with respect to the petition filed in coordination with the operating department and process for internal administrative approvals.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "It is primarily responsible for work related to regulatory approvals, new regulation making, supervision related to Life Insurance companies and MIS/Inputs for policy making to Authority, Chairperson, Members.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "The following are functions and responsibilities of Non-Life Department :  1. Registration of Insurers. 2. Approval of Liaison offices.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "OLIKnow More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "IRDAI established the Re-insurance Department to take care of the following portfolios:-  All reinsurance related matters will be handled by the department including the following:Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "To enhance and intensify regulatory cooperation, coordination and information exchange between IRDA and Government, domestic financial regulators and International Insurance regulators/association and also to focus on policy making through research and data driven analysis and improve the participation of IRDA in public policy debate, it has been decided by the Authority to form Sectoral Development Department.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "In exercise of the powers conferred by sections 42D, 64 UM and 114A of the Insurance Act, 1938, as amended by The Insurance Laws (Amendment) Act, 2015 and section 26 of the Insurance Regulatory and Development Authority Act, 1999, the Authority framed IRDAI Insurance Surveyors and Loss Assessors Regulations, 2015.Know More",
+      "source_id": "irdai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tamil Nadu bypoll: The nominations of 58 candidates for the Madurantakam and Dharapuram bypolls were accepted on Thursday following scrutiny, EC said.",
+      "new_value": "Insurance Regulatory and Development Authority of India (IRDAI) Vigilance Department is under the overall charge of the Chief Vigilance Officer (CVO). The main function of the Vigilance Department is to undertake preventive vigilance and anti-corruption measures as also investigate complaints /allegations having vigilance angle (as defined by the Central Vigilance Commission) against the employees of the Authority.Know More",
+      "source_id": "irdai"
+    }
+  ],
+  "663ba6aa0260": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Supreme Court on Friday expressed concern over the declining emphasis on traditional court training and decorum among young lawyers [Puja Entertainment India Ltd v. TIPS Industries Ltd & Ors.].A Bench of Justices BV Nagarathna and AG Masih emphasized that soft skills and advocacy are best learned under the guidance of senior members of the Bar. \"Today we are told some youngsters are starting their own office without training. That is really not good. Unless you train with",
+      "new_value": "A Bench comprising Justice B.V. Nagarathna and Justice Augustine George Masih observed that young members of the Bar must learn what should and should not be said in court.",
+      "source_id": "deccan_chronicle"
+    }
+  ],
+  "2cba129281c5": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "MEA warns targeting India could hurt bilateral ties and global energy market as Lindsey Graham sanctions bill awaits Trump’s signature",
+      "new_value": "New Delhi also maintained that US tariffs imposed over its purchase of Russian oil could have implications for the overall India-US relationship.",
+      "source_id": "deccan_chronicle"
+    }
+  ],
+  "104acf8f16e3": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The BJP is planning a month-long nationwide outreach campaign from from September 17 to October 17 to mark PM Modi’s 76th birthday and 25 years in public life.",
+      "new_value": "Focus on pedestrian safety must not penalise street vendors alone. Clearing a socially and economically important street market should require assessing its impact on vendors and consumers, much as infrastructure projects require environmental impact assessments.",
+      "source_id": "frontline_mag"
+    }
+  ],
+  "83b5e4e63a42": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Telangana’s AUM crosses ₹2.12 lakh crore, registering 19% growth over July 2025, with Hyderabad accounting for 87% of the state’s assets",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    }
+  ],
+  "771f1c72db98": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Aims to remove forex rule that has cost SEZ-based MRO, IT, defence firms out of domestic contracts",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
+    }
+  ],
+  "f08167122bdf": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "DUSU Elections 2026: Which organisation received students' support, and what the DUSU election outcome looks like this year, will become clear only after the results are announced tomorrow.",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    }
+  ],
+  "a3db417cb8c3": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Matthew Aaron Van Dyke and six Ukrainian citizens were arrested under the UAPA, but the agency chargesheet accused them only of immigration offences.",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ]
 }
