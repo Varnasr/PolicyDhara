@@ -3325,13 +3325,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-09-14",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3438,6 +3431,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3754,20 +3754,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "The Gujarat State Legal Services Authority (GSLSA) organized a two day Community Mediation Training Programme for mediators belonging to trading community under the Community Mediation (Trading Community) Initiative. As per a GSLSA press release, this initiative is the first of its kind in the country and aims to institutionalize the tradition of amicable dispute resolution within trade and business communities.� The training programme was conducted by trained trainers of of GSLSA designed in ac",
-      "source_id": "livelaw"
-    },
-    {
-      "date": "2026-08-15",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "The District Legal Services Authority (DLSA), Durg, conducted a five-day grassroots legal awareness and community mediation campaign covering five villages under the initiative “Five Villages, Five Days, One Resolve — Resolution Through Dialogue, Not Dispute.” The initiative was conducted under the guidance of K. Vinod Kujur, Principal District & Sessions Judge and Chairman, DLSA Durg, with the objective of taking legal awareness and access to justice directly to rural communities through villag",
-      "source_id": "livelaw"
-    },
-    {
       "date": "2026-08-17",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3884,6 +3870,20 @@
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "In this 'Leading Questions' piece, Jyoti Dastidar and Animesh Dubey discuss how the Mediation Act, 2023 formalizes mediation in India, making mediated settlements final and enforceable, establishing a Mediation Council, enhancing confidentiality, promoting pre-litigation mediation, and limiting judicial challenges.Question: What are the most significant changes introduced by the Mediation Act, 2023?Answer: The most significant change is the statutory recognition given to mediation and mediated s",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "The National Company Law Tribunal (NCLT) at New Delhi has sent Bira and its creditors to mediation to explore a settlement of insolvency proceedings pending against the company.A special bench comprising Judicial Member Ashok Kumar Bhardwaj and Technical Member Ravindra Chaturvedi passed the order on September 15 while hearing multiple proceedings against B9 Beverages Limited, including a Section 7 insolvency plea filed by Unity Small Finance Bank Limited.\"It is made clear that if no settlement",
       "source_id": "barandbench"
     },
     {
@@ -4999,13 +4999,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-09-14",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5112,6 +5105,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -5457,143 +5457,6 @@
       "source_id": "rbi"
     }
   ],
-  "dab73527206c": [
-    {
-      "date": "2026-08-11",
-      "field": "description",
-      "old_value": "Solidarity Statement for Colombia ActionAid Association stands in solidarity with the people of Colombia following the devastating earthquake of 10 August 2026, which has caused tragic loss of life, injuries, displacement and extensive damage to homes, public infrastructure and essential services across affected areas. We extend our deepest condolences to the families who have lost … Continue reading \"Solidarity Statement for Colombia\" The post Solidarity Statement for Colombia appeared fi",
-      "new_value": "The post Colombia appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "source_id": "insights_ias"
-    }
-  ],
-  "86cf92ec8b8a": [
-    {
-      "date": "2026-08-12",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-12",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-12",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-12",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-15",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-15",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-15",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-15",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-17",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-17",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Sangli (Maharashtra) by Bharti Airtel Limited nitinkumar Tue, 08/11/2026 - 18:12 Date Fri, 08/21/2026 - 12:00 District Sangli Division Consumer Affairs Date & Time Fri, 08/21/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sai Parkhi Contact person Email bharati.buddhikot@airtel.com Event Category COP By TRAI Venue Details Hotel SKY Avenue, C.S.No.1404,Beside Sawant Ceramic,Madhavnagar Road,Sangli-416416 Event From Cons",
-      "new_value": "Consumer Education Workshop at Pratapgarh (Rajasthan) by Bharti Airtel Limited nitinkumar Mon, 08/17/2026 - 15:38 Date Wed, 09/09/2026 - 12:00 District Pratapgarh Division Consumer Affairs Date & Time Wed, 09/09/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Karan Khangarot Contact person Email karan.khangarot@airtel.com Event Category COP By TRAI Venue Details Hotal Crown Leela, Pratapgarh Chittorgarh Road, Pratapgarh, Rajasthan - 312605 Event From",
-      "source_id": "trai"
-    }
-  ],
   "879370041f54": [
     {
       "date": "2026-08-12",
@@ -5617,15 +5480,6 @@
       "old_value": "The post Justice begins with court language: Why Indian courts must stop patronising survivors appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The National Testing Agency, which has been at the centre of the NEET paper leak controversy, remains hamstrung by extreme centralisation and bureaucratisation, and lacks the experience and expertise required to administer examinations at scale.",
       "source_id": "frontline_mag"
-    }
-  ],
-  "5ca23a4c7677": [
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "In terms of GOI notification F.No.4(22)-B(W&M)/2018 dated October 08, 2018, (SGB 2018-19 Series-VI-Issue date February 12, 2019) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on August 12, 2026. 2. Further, the redemption price of SGB shall be based on simple average of clos",
-      "new_value": "In terms of GOI notification F.No. 4(7)-B(W&M)/2019 dated May 30, 2019 (SGB 2019-20 Series III - Issue date August 14, 2019) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on August 14, 2026. 2. Further, the redemption price of SGB shall be based on simple average of closing",
-      "source_id": "rbi"
     }
   ],
   "48872fce9670": [
@@ -6170,13 +6024,6 @@
       "source_id": "republic_world"
     },
     {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
-      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-09-14",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
@@ -6283,6 +6130,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
+      "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Independence day nitinkumar Fri, 08/14/2026 - 00:01 image Banner Order 58",
       "new_value": "The Bench has directed the State Government to examine whether children living in border and remote areas were denied the same educational, cultural and civic opportunities relating to Independence Day that were available to children in other parts of the State.",
@@ -6392,15 +6246,6 @@
       "field": "description",
       "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
       "new_value": "Release Order - Certificate No. RC7374 of 2023 in respect of Kanchan Agarwal (PAN: AFMPA8305D) in the matter of Illiquid Stock Options",
-      "source_id": "sebi"
-    }
-  ],
-  "3120984750c2": [
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "SEBI Order for Compliance - Completion of Recovery Certificate No.4473 of 2022 Mr. Girishkumar Prabhudas Ruparel (PAN: AIPPR8860G) in the matter of Atlanta Infrastructure and Finance Limited.",
-      "new_value": "SEBI Order for Compliance - Completion Of Recovery Certificate No. 3858 of 2021 Mindvision Capital Limited (PAN: AAACK8154A) in the matter of Mindvision Capital Limited",
       "source_id": "sebi"
     }
   ],
@@ -6839,22 +6684,6 @@
       "old_value": "Government of India press release: India to Host BRICS Environment Working Group Meetings at Bharat Mandapam, New Delhi (17-18 August 2026)",
       "new_value": "The ministry also said under its chairship, it has already initiated discussions and deliberations through a series of virtual meetings",
       "source_id": "hindustan_times"
-    }
-  ],
-  "e1e36200fceb": [
-    {
-      "date": "2026-08-17",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Kangra (Himachal Pradesh) by Indian Institute Of Technology & Entrepreneur Development (IITED), Himachal Pradesh nitinkumar Tue, 08/11/2026 - 18:20 Date Tue, 09/01/2026 - 12:00 District Kangra Division Consumer Affairs Date & Time Tue, 09/01/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Govt. Polytechnic, Kangra,",
-      "new_value": "Consumer Awareness Program at Harda (Madhya Pradesh) by Indian Institute of Technology & Entrepreneur Development (IITED), Madhya Pradesh nitinkumar Mon, 08/17/2026 - 15:39 Date Mon, 08/24/2026 - 12:00 District Harda Division Consumer Affairs Date & Time Mon, 08/24/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Government Polytechnic College,",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-08-17",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Kangra (Himachal Pradesh) by Indian Institute Of Technology & Entrepreneur Development (IITED), Himachal Pradesh nitinkumar Tue, 08/11/2026 - 18:20 Date Tue, 09/01/2026 - 12:00 District Kangra Division Consumer Affairs Date & Time Tue, 09/01/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Govt. Polytechnic, Kangra,",
-      "new_value": "Consumer Awareness Program at Buldhana (Maharashtra) by Indian Institute of Technology & Entrepreneur Development (IITED), Maharashtra nitinkumar Mon, 08/17/2026 - 15:38 Date Tue, 08/25/2026 - 12:00 District Buldhana Division Consumer Affairs Date & Time Tue, 08/25/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name MUKUL KUMAR Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Rajarshi Shahu Polytechnic, Near Pal",
-      "source_id": "trai"
     }
   ],
   "6a220a87ab18": [
@@ -10341,27 +10170,6 @@
   ],
   "10aca068fc02": [
     {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-09-17",
       "field": "description",
       "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
@@ -10479,6 +10287,27 @@
       "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
       "new_value": "India’s merchandise exports rose 26.1% YoY to US$ 43.8 billion in August 2026, while slower import growth narrowed the trade deficit to US$ 26.9 billion.",
       "source_id": "ibef"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "Performance against various QoS Parameters of Access Service (Wireless) for the Month of August 2026 nitinkumar Fri, 09/18/2026 - 17:52 File Download (1.36 MB) QoS Quarter August Qos Report Type PMR Reports Report Type Access (Wireless) Date of Release Fri, 09/18/2026 - 12:00 Months August Year 2026",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
     }
   ],
   "a8712fa749e2": [
@@ -11663,6 +11492,13 @@
       "old_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹35,900 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Arunachal Pradesh 600 20 Yield 2. Assam 600 Re-issue of 7.66% Assam SGS 2036, issued on June 17, 2026 Price 700 15 Yield 3. Bihar 1000 Re-issue of 7.66% Bihar SGS 2041, issued on July 22, 2026 Price 1000 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 Price 4. Chhat",
       "new_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Arunachal Pradesh 600 600 7.94 20 2. Assam* 600 445.055 98.73/7.8460 Re-issue of 7.66% Assam SGS 2036, issued on June 17, 2026 700 - - 15 3. Bihar 1000 1000 97.50/7.9480 Re-issue of 7.66% Bihar SGS 2041, issued on July 22, 2026 1000 1000 97.10/8.0166 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 4. Chhattisgarh 500 500 7.88 12 500 500 7.99 21 5. Delhi",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹35,900 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Arunachal Pradesh 600 20 Yield 2. Assam 600 Re-issue of 7.66% Assam SGS 2036, issued on June 17, 2026 Price 700 15 Yield 3. Bihar 1000 Re-issue of 7.66% Bihar SGS 2041, issued on July 22, 2026 Price 1000 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 Price 4. Chhat",
+      "new_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹16,750 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 1000 Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 Price 1600 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 Price 2. Goa 150 15 Yield 3. Gujarat 1000 Re-issue of 7.47% Gujarat SGS 2036, issued on August 27, 2026 Price 1",
+      "source_id": "rbi"
     }
   ],
   "a18c5a76c978": [
@@ -11976,6 +11812,13 @@
       "field": "description",
       "old_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 September 09, 2026 (Wednesday) September 10, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of",
       "new_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 September 16, 2026 (Wednesday) September 17, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 September 16, 2026 (Wednesday) September 17, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of",
+      "new_value": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 September 23, 2026 (Wednesday) September 24, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000   Total 24,000     The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025, issued by Government of",
       "source_id": "rbi"
     }
   ],
@@ -13572,13 +13415,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-09-13",
-      "field": "description",
-      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-09-14",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
@@ -13685,6 +13521,13 @@
     },
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -14041,137 +13884,137 @@
   ],
   "8c899acd431d": [
     {
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "The Mumbai police have so far not granted permission for Jarange to hold a protest at Azad Maidan. The activist is planning to approach the Bombay High Court seeking permission to hold the protest in Mumbai.",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "The blaze broke out around 11:50 pm on Thursday at a godown close to a weighbridge facility, he added.",
       "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai admits Section 9 CIRP application for unpaid operational debt, rejecting contractual, cheque, GST reversal and limitation objections.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
     },
     {
       "date": "2026-09-18",
@@ -15054,6 +14897,13 @@
       "old_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Aug. 29 Aug. 21 Aug. 28 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 19623 10788 3116 -7672 -16507 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Aug. 28, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
       "new_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Sep. 05 Aug. 28 Sep. 04 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 44070 3116 27940 24824 -16130 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Sep. 04, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Sep. 05 Aug. 28 Sep. 04 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 44070 3116 27940 24824 -16130 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Sep. 04, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn.",
+      "new_value": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Sep. 12 Sep. 04 Sep. 11 Week Year 1 2 3 4 5 4 Loans and Advances           4.1 Central Government 0 0 0 0 0 4.2 State Governments 29150 27940 14958 -12981 -14192 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Sep. 11, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn",
+      "source_id": "rbi"
     }
   ],
   "251ec9d01fd2": [
@@ -15561,20 +15411,6 @@
     },
     {
       "date": "2026-09-16",
-      "field": "sectors",
-      "old_value": "Energy, Trade & Commerce",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "sectors",
-      "old_value": "Energy, Trade & Commerce",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-16",
       "field": "description",
       "old_value": "Selection of Solar Power Developers for Setting up of 700 MW ISTS-connected Solar PV Power Projects in Special Economic Zones (SEZs) or areas designated as Export Oriented Units (EOUs) of India under Tariff-based Competitive Bidding",
       "new_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
@@ -15746,6 +15582,27 @@
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Agriculture, Energy, Rural Development",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Agriculture, Energy, Rural Development",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Education, Energy",
       "source_id": "seci"
     },
     {
@@ -15989,6 +15846,13 @@
       "old_value": "RBI notification: Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
       "new_value": "RBI/2026-27/255 DOR.RET.REC.220/12.01.001/2026-27 September 11, 2026 Reserve Bank of India (Local Area Banks   Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
     }
   ],
   "2044bc3f38b6": [
@@ -16755,29 +16619,6 @@
       "source_id": "frontline_mag"
     }
   ],
-  "b6caa0272305": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "New Zealand Parliament passes India trade deal bill tariff relief on of exports",
-      "new_value": "Once it comes into effect, all Indian goods will get duty-free access to New Zealand.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "New Zealand Parliament passes India trade deal bill tariff relief on of exports",
-      "new_value": "93-29 vote clears ratification process as trade pact is expected to take effect later this year",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "New Zealand Parliament passes India trade deal bill tariff relief on of exports",
-      "new_value": "New Zealand's parliament has passed legislation implementing its free trade agreement with India, eliminating or reducing tariffs on 95% of exports. The deal includes a US$ 20 billion New Zealand investment commitment in India over 15 years.",
-      "source_id": "ibef"
-    }
-  ],
   "457bb47c89f7": [
     {
       "date": "2026-09-16",
@@ -16841,299 +16682,13 @@
       "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
       "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
       "source_id": "niti_aayog"
-    }
-  ],
-  "3955934079ad": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Kerala High Court recently calls on trial courts to take a progressive approach while dealing with John Doe suits, and not insist on the identification of unknown parties before such civil suits are entertained [Cubes Entertainments v Big Tree Entertainment Pvt Ltd & ors]'John Doe' suits (often referred to as 'Ashok Kumar’ suits in India) are civil proceedings filed against unidentified or anonymous legal opponents (defendants). Through such proceedings, a person filing the civil case (p",
-      "new_value": "The Kerala High Court recently calls on trial courts to take a progressive approach while dealing with John Doe suits, and not insist on the identification of unknown parties before such civil suits are entertained. [Cubes Entertainments v Big Tree Entertainment Pvt Ltd & ors]'John Doe' suits (often referred to as 'Ashok Kumar’ suits in India) are civil proceedings filed against unidentified or anonymous legal opponents (defendants). Through such proceedings, a person filing the civil case (",
-      "source_id": "barandbench"
-    }
-  ],
-  "785eaf094ab3": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "Government of India press release: Cabinet approves enhancement of EPFO wage ceiling from Rs.15,000 to Rs.25,000 per month",
-      "source_id": "state_pib_punjab"
     },
     {
       "date": "2026-09-18",
       "field": "description",
-      "old_value": "In a press release, the Government said that this decision is expected to bring more than 51 lakh additional employees within the ambit of mandatory EPFO coverage",
-      "new_value": "The post The EPFO Wage Ceiling appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "source_id": "insights_ias"
-    }
-  ],
-  "56b6f93d10de": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_surface_transport"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_tourism"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The Union Cabinet on Wednesday approved an increase in the wage ceiling for mandatory coverage under the Employees’ Provident Fund Organisation (EPFO) to Rs 25,000 per month from Rs 15,000, a move expected to bring more than 51 lakh additional employees under mandatory social security coverage",
-      "new_value": "Government of India press release: Cabinet Approves Higher EPFO Wage Ceiling of Rs. 25,000, Expanding Mandatory Coverage",
-      "source_id": "pib_national_human_rights_commission"
+      "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
+      "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
+      "source_id": "niti_aayog"
     }
   ],
   "ef47d9f61ac9": [
@@ -17249,6 +16804,13 @@
       "old_value": "Consumer Education Workshop at Dang (Gujarat) by Vodafone Idea Limited nitinkumar Wed, 09/16/2026 - 14:12 Date Wed, 09/23/2026 - 12:00 District Dang Division Consumer Affairs Date & Time Wed, 09/23/2026 - 10:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Kaushal Sarda Contact person Email Kaushal.Sarda@vodafoneidea.com Event Category COP By TRAI Venue Details Eklavya Model Residential School, Opposite Hill Top Hotel, Near BRC Bhavan, Sunrise Point Road, S",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Dang (Gujarat) by Vodafone Idea Limited nitinkumar Wed, 09/16/2026 - 14:12 Date Wed, 09/23/2026 - 12:00 District Dang Division Consumer Affairs Date & Time Wed, 09/23/2026 - 10:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Kaushal Sarda Contact person Email Kaushal.Sarda@vodafoneidea.com Event Category COP By TRAI Venue Details Eklavya Model Residential School, Opposite Hill Top Hotel, Near BRC Bhavan, Sunrise Point Road, S",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "a84d9c574673": [
@@ -17258,54 +16820,6 @@
       "old_value": "India-Cambodia bilateral trade grew over 36% to US$ 406.78 million in FY 2025-26 as both countries discussed deeper cooperation in trade, investment, pharmaceuticals, agriculture, digital payments and customs.",
       "new_value": "The post Cambodia appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "source_id": "insights_ias"
-    }
-  ],
-  "f8e5ec8da4e5": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The playbook identifies three priorities for stronger government-civil society partnerships: clear roles, working with existing public systems, and building trust",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "The playbook identifies three priorities for stronger government-civil society partnerships: clear roles, working with existing public systems, and building trust",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The playbook identifies three priorities for stronger government-civil society partnerships: clear roles, working with existing public systems, and building trust",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    }
-  ],
-  "08c827b98bc6": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "RSR High School and Devireddy Sarada High School renovated at a cost of ₹21.40 crore through private funding",
-      "new_value": "The two schools have been transformed with modern classrooms, laboratories, digital learning facilities and sports infrastructure at a combined investment of over ₹21.7 crore through CSR and philanthropic support.",
-      "source_id": "deccan_chronicle"
-    }
-  ],
-  "4d75db1d6a84": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Focus on pedestrian safety must not penalise street vendors alone. Clearing a socially and economically important street market should require assessing its impact on vendors and consumers, much as infrastructure projects require environmental impact assessments.",
-      "new_value": "The federation further cited a 2025 High Court order prohibiting authorities from issuing further licences until a proper street vending plan was prepared: Reports",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Focus on pedestrian safety must not penalise street vendors alone. Clearing a socially and economically important street market should require assessing its impact on vendors and consumers, much as infrastructure projects require environmental impact assessments.",
-      "new_value": "The BJP is planning a month-long nationwide outreach campaign from from September 17 to October 17 to mark PM Modi’s 76th birthday and 25 years in public life.",
-      "source_id": "hindustan_times"
     }
   ],
   "69b55d4b1a35": [
@@ -17364,45 +16878,13 @@
       "old_value": "India's cumulative exports for April-August 2026-27 rose 15.55% to US$ 399.27 billion, led by strong growth in electronic goods and engineering goods. August 2026 alone saw total exports grow 25.41%, narrowing the trade balance deficit year-on-year.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
-    }
-  ],
-  "b1fab3fd7035": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Once it comes into effect, all Indian goods will get duty-free access to New Zealand.",
-      "new_value": "The kiwifruit industry alone expects to save around $125 million in tariffs over five years.",
-      "source_id": "scroll"
-    }
-  ],
-  "8a50fcd3bfe2": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Can an accused seek bail simply because a co-accused has already been granted relief? How do courts assess the individual role and circumstances of each accused? Why is parity not an absolute right?",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
     },
     {
-      "date": "2026-09-16",
+      "date": "2026-09-18",
       "field": "description",
-      "old_value": "Can an accused seek bail simply because a co-accused has already been granted relief? How do courts assess the individual role and circumstances of each accused? Why is parity not an absolute right?",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Can an accused seek bail simply because a co-accused has already been granted relief? How do courts assess the individual role and circumstances of each accused? Why is parity not an absolute right?",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Can an accused seek bail simply because a co-accused has already been granted relief? How do courts assess the individual role and circumstances of each accused? Why is parity not an absolute right?",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
+      "old_value": "India's cumulative exports for April-August 2026-27 rose 15.55% to US$ 399.27 billion, led by strong growth in electronic goods and engineering goods. August 2026 alone saw total exports grow 25.41%, narrowing the trade balance deficit year-on-year.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
     }
   ],
   "8d825d7c319f": [
@@ -17503,24 +16985,20 @@
       "old_value": "Finance & Economy, Trade & Commerce",
       "new_value": "Trade & Commerce",
       "source_id": "niti_aayog"
-    }
-  ],
-  "c8eaf8ac0a4c": [
+    },
     {
-      "date": "2026-09-16",
+      "date": "2026-09-18",
       "field": "description",
-      "old_value": "Addressing a press conference here, Dipke said the campaign is aimed at drawing the government's attention towards the problems and discrimination faced by tribal students.",
-      "new_value": "As part of the exercise, CJP representatives will visit tribal schools and inspect the facilities and infrastructure; Abhijeet Dipke tears up copy of MoU between Maharashtra govt., trust over tribal hostels",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "7220f488df1e": [
+      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
+      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
+      "source_id": "niti_aayog"
+    },
     {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Army chief General Dhiraj Seth will receive a ceremonial Guard of Honour and pay tribute to the fallen soldiers at ‘Tomb of the Unknown Soldier’ in Moscow",
-      "new_value": "General Seth will also travel to St Petersburg, where he will visit the Mikhailovskaya Military Artillery Academy and interact with its leadership and faculty.",
-      "source_id": "deccan_chronicle"
+      "date": "2026-09-18",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Trade & Commerce",
+      "source_id": "niti_aayog"
     }
   ],
   "ad3ab46ba9f2": [
@@ -17530,15 +17008,6 @@
       "old_value": "NITI Aayog Launches Ninth Edition of “Trade Watch Quarterly” niti_admin Wed, 09/16/2026 - 23:29 Publishing Date Wed, 09/16/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2310941&reg=48&lang=1",
       "new_value": "Government of India press release: NITI Aayog Launches Ninth Edition of “Trade Watch Quarterly”",
       "source_id": "state_pib_karnataka"
-    }
-  ],
-  "2549ac906763": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Families on land reclaimed from gangster Atiq to celebrate Diwali on PMs birthday",
-      "new_value": "Families on land reclaimed from Atiq Ahmed to celebrate Diwali on PMs birthday",
-      "source_id": "india_today"
     }
   ],
   "95c00191f79a": [
@@ -17551,13 +17020,6 @@
     }
   ],
   "9627dec12f25": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Prime Minister shares an article highlighting India’s rapidly evolving deep-tech capabilities",
-      "source_id": "pib_urban_development"
-    },
     {
       "date": "2026-09-17",
       "field": "description",
@@ -17690,6 +17152,13 @@
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "ORF Expert Speak: Arms and Alliances: Israel’s Evolving Defence Ties With Europe",
       "source_id": "orf"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
+      "new_value": "ORF Expert Speak: Arms and Alliances: Israel’s Evolving Defence Ties With Europe",
+      "source_id": "orf"
     }
   ],
   "30c58ec1f674": [
@@ -17747,15 +17216,6 @@
       "source_id": "orf"
     }
   ],
-  "8aa5040a967d": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The searches were conducted based on a case registered against the former School Education Minister in a multi-crore fraud involving private schools across Tamil Nadu",
-      "new_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "source_id": "trai"
-    }
-  ],
   "b8dada94f778": [
     {
       "date": "2026-09-17",
@@ -17802,52 +17262,6 @@
       "source_id": "azim_premji"
     }
   ],
-  "fe68f9893f5f": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Despite a collapse in learning outcomes across the world, the OECD’s report on one of the world’s best known surveys has glossed over what’s clearly a crisis. It’s now for educationists to raise an alarm over the impact of technology on cognitive capacity.",
-      "new_value": "17 Sept 2026",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Despite a collapse in learning outcomes across the world, the OECD’s report on one of the world’s best known surveys has glossed over what’s clearly a crisis. It’s now for educationists to raise an alarm over the impact of technology on cognitive capacity.",
-      "new_value": "17 Sept 2026",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Despite a collapse in learning outcomes across the world, the OECD’s report on one of the world’s best known surveys has glossed over what’s clearly a crisis. It’s now for educationists to raise an alarm over the impact of technology on cognitive capacity.",
-      "new_value": "17 Sept 2026",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Despite a collapse in learning outcomes across the world, the OECD’s report on one of the world’s best known surveys has glossed over what’s clearly a crisis. It’s now for educationists to raise an alarm over the impact of technology on cognitive capacity.",
-      "new_value": "17 Sept 2026",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Despite a collapse in learning outcomes across the world, the OECD’s report on one of the world’s best known surveys has glossed over what’s clearly a crisis. It’s now for educationists to raise an alarm over the impact of technology on cognitive capacity.",
-      "new_value": "17 Sept 2026",
-      "source_id": "azim_premji"
-    }
-  ],
-  "9ce6b925a94b": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "India require USD 29.9 billion investment, the report said",
-      "new_value": "India's data centre capacity is set to grow by 3,860 MW by 2030, requiring an estimated US$ 29.9 billion in development capital. Mumbai leads the pipeline, with Hyderabad, Chennai and Delhi NCR emerging as key growth markets.",
-      "source_id": "ibef"
-    }
-  ],
   "3dcd0c33a4f9": [
     {
       "date": "2026-09-17",
@@ -17859,129 +17273,129 @@
   ],
   "490198e96377": [
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
-      "source_id": "pib_niti_aayog"
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_textiles"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_youth_affairs_and_sports"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_eac_pm"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_upsc"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_national_financial_reporting_authority"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_ifsc_authority"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_competition_commission_of_india"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_lokpal_of_india"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Chennai City under TN LSA, during the month of July 2026",
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
       "source_id": "pib_national_security_council_secretariat"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
+      "new_value": "Government of India press release: 17th Kathakali Festival Inaugurated at Kalakshetra Foundation in Chennai",
+      "source_id": "pib_national_human_rights_commission"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "new_value": "Government of India press release: Divisional Level Dak Adalat to be Conducted by Chennai City South Division",
       "source_id": "state_pib_punjab"
     },
     {
       "date": "2026-09-18",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "new_value": "Government of India press release: Chennai GPO to Conduct Divisional Level DakAdalat",
       "source_id": "state_pib_punjab"
     },
     {
@@ -18016,20 +17430,6 @@
     }
   ],
   "9522313cd57e": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
-      "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
-      "new_value": "Prime Minister meets the Chairperson of the African Union and President of Republic of Burundi on the sidelines of the BRICS Summit in New Delhi",
-      "source_id": "policyradar"
-    },
     {
       "date": "2026-09-17",
       "field": "description",
@@ -18148,6 +17548,27 @@
       "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
       "new_value": "Prime Minister meets with the President of South Africa on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets the Chairperson of the African Union and President of Republic of Burundi on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "Prime Minister meets with the President of South Africa on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
+      "source_id": "policyradar"
     }
   ],
   "9f479f23775e": [
@@ -18181,6 +17602,20 @@
       "field": "description",
       "old_value": "The post UPSC CURRENT AFFAIRS – 17 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 17 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 17 September 2026 | Daily Prelims Quiz appea",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The post UPSC CURRENT AFFAIRS – 17 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 18 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 18 September 2026 | Daily Prelims Quiz appea",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The post UPSC CURRENT AFFAIRS – 17 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "The post UPSC CURRENT AFFAIRS – 18 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "source_id": "insights_ias"
     }
   ],
@@ -18239,11 +17674,25 @@
       "old_value": "The bench had directed the State to file an affidavit ensuring that the guidelines issued by the CBCP, along with earlier orders of the Supreme Court, Madras HC, and NGT, would be followed at least during next year’s festival; the State, however, sought more time",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The bench had directed the State to file an affidavit ensuring that the guidelines issued by the CBCP, along with earlier orders of the Supreme Court, Madras HC, and NGT, would be followed at least during next year’s festival; the State, however, sought more time",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
     }
   ],
   "2c2ae706f63e": [
     {
       "date": "2026-09-17",
+      "field": "description",
+      "old_value": "Live Delhi CM Rekha Gupta lights diyas at Kartavya Path on PM Modis birthday",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-18",
       "field": "description",
       "old_value": "Live Delhi CM Rekha Gupta lights diyas at Kartavya Path on PM Modis birthday",
       "new_value": "Chief Minister, Finance…",
@@ -18283,6 +17732,13 @@
     }
   ],
   "4803dd069394": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Sources in Dhaka said efforts are underway to schedule his visit to New Delhi during a suitable period in November following Mr. Rahman’s existing diplomatic engagements",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -18364,9 +17820,23 @@
       "old_value": "The duo also discussed measures to strengthen bilateral economic ties and initiatives to enhance connectivity for deepening trade, investments and people-to-people exchanges",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The duo also discussed measures to strengthen bilateral economic ties and initiatives to enhance connectivity for deepening trade, investments and people-to-people exchanges",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "8abd2ac753a2": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "New Zealand's parliament has passed legislation implementing its free trade agreement with India, eliminating or reducing tariffs on 95% of exports. The deal includes a US$ 20 billion New Zealand investment commitment in India over 15 years.",
+      "new_value": "New Zealand parliament clears FTA with India    The Tribune",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -18382,9 +17852,23 @@
       "old_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union government",
       "new_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union government",
+      "new_value": "The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launched the PM Vishwakarma Scheme; This is the first time West Bengal has joined th scheme launched by the Union...",
+      "source_id": "policyradar"
     }
   ],
   "3e2c1a5dcbf2": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The government is projecting the recently concluded BRICS Summit’s joint declaration as a symbol of the world’s trust in India, but is now facing ‘aggressive bullying from a strategic partner’, party general secretary K.C. Venugopal says",
+      "new_value": "The government is projecting the recently concluded BRICS Summit’s joint declaration as a symbol of the world’s trust in India, but is now facing ‘aggressive bullying from a strategic partner’...",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -18400,9 +17884,23 @@
       "old_value": "Prime Minister Mr. Narendra Modi chaired a BRICS session on inclusive global governance, calling for greater representation of the Global South and stronger multilateral cooperation.",
       "new_value": "Prime Minister chaired the BRICS session on “Inclusive Global Governance and Strengthening Multilateralism” (September 12, 2026)    Ministry of External Affairs",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Prime Minister Mr. Narendra Modi chaired a BRICS session on inclusive global governance, calling for greater representation of the Global South and stronger multilateral cooperation.",
+      "new_value": "Prime Minister chaired the BRICS session on “Inclusive Global Governance and Strengthening Multilateralism” (September 12, 2026)    Ministry of External Affairs",
+      "source_id": "policyradar"
     }
   ],
   "fdca0b83893e": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following companies. Sr. No. Name of the Company Registered Office Address CoR No. CoR Issued on Cancellation Order Date 1 Dar's Financial Services Pvt Ltd GE-108, Rajdanga Main Road, Kolkata, West Bengal, India, 700107 B.05.03300 February 03, 2000 August 03, 2026 2 Rolta Holding and Finance Corporation Private Limit",
+      "new_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following...",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-18",
       "field": "description",
@@ -18418,6 +17916,13 @@
       "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd., Valsad Gujarat vide Directive No. AMD.DOS.SSM.No.S831/11-03-153/2025-2026 dated December 17, 2025, for a period of six months up to close of business on June 18, 2026 which was last extended vide Directive No. DOR.MON/D-17/12-21-153/2026-27 dated June 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it",
       "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd....",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd., Valsad Gujarat vide Directive No. AMD.DOS.SSM.No.S831/11-03-153/2025-2026 dated December 17, 2025, for a period of six months up to close of business on June 18, 2026 which was last extended vide Directive No. DOR.MON/D-17/12-21-153/2026-27 dated June 11, 2026. The Reserve Bank of India is satisfied that in the public interest, it",
+      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank Ltd....",
+      "source_id": "policyradar"
     }
   ],
   "448e11a8c936": [
@@ -18427,6 +17932,296 @@
       "old_value": "US House passes Russia sanctions bill clears way for tariffs on India China",
       "new_value": "100% tariffs on India, China? Sanctions bill targeting Russia, allies passed by US House; awaits Trump's assent    Deccan Herald",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "US House passes Russia sanctions bill clears way for tariffs on India China",
+      "new_value": "100% tariffs on India, China? Sanctions bill targeting Russia, allies passed by US House; awaits Trump's assent    Deccan Herald",
+      "source_id": "policyradar"
+    }
+  ],
+  "9802867e539e": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Data shows that advance tax from companies rose by 18%, while collections from non-corporate taxpayers increased by just over 9%",
+      "new_value": "Data shows that advance tax from companies rose by 18 per cent, while collections from non-corporate taxpayers increased by just over 9 per cent",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Data shows that advance tax from companies rose by 18%, while collections from non-corporate taxpayers increased by just over 9%",
+      "new_value": "Refund issuance jumped 29.19% to over ₹2.20 lakh crore till September 17, the data released by the Central Board of Direct Taxes (CBDT) showed.",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "9aa26119c20a": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "OHD on Consultation Paper on Draft Amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024 nitinkumar Fri, 09/18/2026 - 14:27 Date Wed, 09/30/2026 - 12:00 Location New Delhi Division Quality of Service Date & Time Wed, 09/30/2026 - 10:00 description Click Here for Registration  Event Category Open House Discussion Event Status In progress Name Shri Tejpal Singh Email adv-qos1@trai.gov.in Attached",
+      "new_value": "OHD on Consultation Paper on Draft Amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024 nitinkumar Fri, 09/18/2026 - 14:27 Date Wed, 09/30/2026 - 12:00 Location New Delhi Division Quality of Service Date & Time Wed, 09/30/2026 - 10:30 description Click Here for Registration  Event Category Open House Discussion Event Status In progress Name Shri Tejpal Singh Email adv-qos1@trai.gov.in Attached",
+      "source_id": "trai"
+    }
+  ],
+  "0a23fb4e68ed": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_surface_transport"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_textiles"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "TRAI Strengthens Framework for Curbing UCC through Technology-Driven Enforcement and Enhanced Consumer Protection nitinkumar Fri, 09/18/2026 - 12:14 File Press Release No. 119 (2.65 MB) Date Fri, 09/18/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Strengthens Framework for Curbing Unsolicited Commercial Communications through Technology-Driven Enforcement and Enhanced Consumer Protection",
+      "source_id": "pib_national_human_rights_commission"
+    }
+  ],
+  "92da2da69360": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 2,25,000 Total amount of offers received (in ₹ crore) 2,22,629 Amount accepted (in ₹ crore) 2,22,629 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1142",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, September 21, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor(day) Window Timing Date of Reversal 1 1,00,000 1 09:30 AM to 10:00 AM September 22, 2026 (Tuesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad  &",
+      "source_id": "rbi"
+    }
+  ],
+  "045e507ffb8f": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The post The EPFO Wage Ceiling appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "Government of India press release: Govt Hikes EPFO Wage Ceiling to Rs. 25,000; Over 51 Lakh Workers to Get Fresh Cover",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The post The EPFO Wage Ceiling appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "Supreme Court closes EPFO wage ceiling plea after limit raised to Rs 25,000",
+      "source_id": "indiatoday_rss"
+    }
+  ],
+  "8f05419026f3": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Managing director of Malayalam news channel Reporter TV, Anto Augustine has moved a plea before the Kerala High Court seeking bail following his arrest on allegations of possessing liquor in excess of the legally permissible levels under the Kerala Abkari Act.Augustine had been arrested in the case on Thursday morning. On Thursday night, he was remanded to 14 days if judicial custody. He later moved a bail before a trial court, which rejected the application earlier today. Augustine has now move",
+      "new_value": "Though his counsel contended that Anto was no longer in possession of the building from where the liquor was seized, DGP informs the court that Anto had paid tax for the building in March 2026",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "3c0f0f46670a": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "NEET PG Answer Key 2026 Live: Provisional key is expected to be announced anytime soon as the exam was conducted on August 30. Check latest updates here.",
+      "new_value": "NEET PG Answer Key 2026, Result Date LIVE Updates: Provisional key is expected to be announced anytime soon as the exam was conducted on August 30. Check latest updates here.",
+      "source_id": "ndtv_india"
+    }
+  ],
+  "6b1abb00d57e": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Earlier this month, the agency filed a chargesheet against Van Dyke and six Ukrainian citizens for alleged illegal entry, stay and movement in India, but did not invoke the anti-terror law Unlawful Activities (Prevention) Act (UAPA).",
+      "new_value": "A Delhi court on Friday granted default bail to Matthew Aaron Van Dyke, a US national who was arrested by the National Investigation Agency (NIA) in March this year. Special NIA Judge Prashant Sharma of the Rouse Avenue Court granted bail to Van Dyke on a personal bond of ₹1 lakh and a surety of the same amount. In its order, the Court noted that the chargesheet filed by the NIA was \"piecemeal\" as it pertained to Section 21 and 23 of the Immigration and Foreigners Act, 2025 only. It said that as",
+      "source_id": "barandbench"
+    }
+  ],
+  "22fcd9a809cf": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "After years of incentives helping put electric vehicles on Indian roads, the industry faces a harder test: whether localisation, scale, and falling costs can make EVs affordable enough to reduce their dependence on government support. The first challenge was adoption; the next is building a market that can increasingly stand on its own.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    }
+  ],
+  "776335e7bf56": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank in its Know Your Customers (KYC) Directions, 2025 has issued instructions on 'Operations of Bank Accounts and Money Mules'. The Hon'ble Supreme Court in its order dated August 4, 2026 has directed the Reserve Bank to adopt and circulate a Standard Operating Procedure (SOP) prescribing the action to be taken by banks for placing temporary debit holds on amounts or accounts linked to money-mule activity and cyber-enabled fraud. 2. Accordingly, the Reserve Bank has today issued the",
+      "new_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank in its Know Your Customers (KYC) Directions, 2025 has issued instructions on 'Operations of Bank Accounts and Money Mules'. The Hon'ble Supreme Court in its order dated August 4, 2026 has directed the Reserve Bank to adopt and circulate a Standard Operating Procedure (SOP) prescribing the action to be taken by banks for placing temporary debit holds on amounts or accounts linked to money-mule activity and cyber-enabled fraud. 2. Accordingly, the Reserve Bank has today issued the",
+      "new_value": "RBI notification: Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank in its Know Your Customers (KYC) Directions, 2025 has issued instructions on 'Operations of Bank Accounts and Money Mules'. The Hon'ble Supreme Court in its order dated August 4, 2026 has directed the Reserve Bank to adopt and circulate a Standard Operating Procedure (SOP) prescribing the action to be taken by banks for placing temporary debit holds on amounts or accounts linked to money-mule activity and cyber-enabled fraud. 2. Accordingly, the Reserve Bank has today issued the",
+      "new_value": "RBI notification: Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank in its Know Your Customers (KYC) Directions, 2025 has issued instructions on 'Operations of Bank Accounts and Money Mules'. The Hon'ble Supreme Court in its order dated August 4, 2026 has directed the Reserve Bank to adopt and circulate a Standard Operating Procedure (SOP) prescribing the action to be taken by banks for placing temporary debit holds on amounts or accounts linked to money-mule activity and cyber-enabled fraud. 2. Accordingly, the Reserve Bank has today issued the",
+      "new_value": "RBI notification: Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    },
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "The Reserve Bank in its Know Your Customers (KYC) Directions, 2025 has issued instructions on 'Operations of Bank Accounts and Money Mules'. The Hon'ble Supreme Court in its order dated August 4, 2026 has directed the Reserve Bank to adopt and circulate a Standard Operating Procedure (SOP) prescribing the action to be taken by banks for placing temporary debit holds on amounts or accounts linked to money-mule activity and cyber-enabled fraud. 2. Accordingly, the Reserve Bank has today issued the",
+      "new_value": "RBI notification: Reserve Bank of India (Commercial Banks – Know Your Customer) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    }
+  ],
+  "846e4ddb2aa2": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore",
+      "new_value": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities...",
+      "source_id": "policyradar"
+    }
+  ],
+  "3a3b55088e12": [
+    {
+      "date": "2026-09-18",
+      "field": "description",
+      "old_value": "Vikramaditya Motwane, Kiran Rao, Shakun Batra and Vishal Bhardwaj direct four segments about sexual desire.",
+      "new_value": "Read the latest news and stories of children and their families from across the country.",
+      "source_id": "unicef_india"
     }
   ]
 }
