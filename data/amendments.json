@@ -3102,20 +3102,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Shri G. Kishan Reddy, Union Minister of Coal & Mines, Launches First-Ever Sector-Wide CSR Framework for Indian Coal Companies; Celebrates Milestones under Thalassemia Bal Sewa Yojana and Nanha Sa Dil",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Round 1 of Scheme for Promotion of Surface Coal/Lignite Gasification Projects Concludes with Overwhelming Response Receiving Seven Applications from Leading Public and Private Sector Companies",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Shri G. Kishan Reddy, Union Minister of Coal & Mines, Launches First-Ever Sector-Wide CSR Framework for Indian Coal Companies; Celebrates Milestones under Thalassemia Bal Sewa Yojana and Nanha Sa Dil",
       "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
@@ -3236,6 +3222,20 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "The Supreme Court on Monday dismissed a review petition filed by the Central government against its judgment holding that a special court cannot take cognisance of certain Companies Act offences linked to fraud based on private complaints. [Union of India v. State of Telangana]A Bench of Chief Justice of India (CJI) Surya Kant and Justices K Vinod Chandran and Joymalya Bagchi was dealing with the Centre's plea seeking review of the Court's January 9 judgment concerning the bar contained in the s",
       "source_id": "barandbench"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Settlement Order in the matter of Adani Group Companies",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Managers cannot fix broader systemic causes but can influence what happens once an overqualified immigrant is on the job.",
+      "source_id": "scroll"
     }
   ],
   "c0c8cf258433": [
@@ -3316,13 +3316,6 @@
       "old_value": "Energy, Finance & Economy, Social Protection",
       "new_value": "Finance & Economy",
       "source_id": "historical"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
     },
     {
       "date": "2026-09-16",
@@ -3438,6 +3431,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3757,13 +3757,6 @@
       "date": "2026-09-18",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "The National Company Law Tribunal (NCLT) at New Delhi has sent Bira and its creditors to mediation to explore a settlement of insolvency proceedings pending against the company.A special bench comprising Judicial Member Ashok Kumar Bhardwaj and Technical Member Ravindra Chaturvedi passed the order on September 15 while hearing multiple proceedings against B9 Beverages Limited, including a Section 7 insolvency plea filed by Unity Small Finance Bank Limited.\"It is made clear that if no settlement",
       "source_id": "barandbench"
     },
@@ -3874,6 +3867,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -4999,13 +4999,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-09-18",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5112,6 +5105,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -5299,428 +5299,6 @@
       "source_id": "historical"
     }
   ],
-  "33993ffff2bd": [
-    {
-      "date": "2026-08-19",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-21",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-22",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-23",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:29 Choose Report Type Publications Publication Date Thu, 08/13/2026 - 16:29 Report Upload download (6.47 MB) vertical Industry & Foreign Investment PDF Text Crisil has received financial assistance under the Research Scheme of NITI Aayog (RSNA) to prepare this report. While due care has been exercised to prepare this report using data from various sources, NITI Aayog does not confirm the authenticity",
-      "new_value": "Key Sectors to Position India as a Global Manufacturing Hub niti_admin Thu, 08/13/2026 - 16:31 Weight 0 Links /sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufact…",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "type",
-      "old_value": "scheme",
-      "new_value": "release",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Science & Innovation",
-      "new_value": "Governance & Reform",
-      "source_id": "niti_aayog"
-    }
-  ],
   "77c3c2bb5a50": [
     {
       "date": "2026-08-13",
@@ -5735,75 +5313,6 @@
       "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 80,170 Amount accepted (in ₹ crore) 80,170 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/881",
       "new_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 80,235 Amount accepted (in ₹ crore) 80,235 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/889",
       "source_id": "rbi"
-    }
-  ],
-  "e09608f69cba": [
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "India is targeting US$ 1 trillion in exports in FY27, supported by 15% export growth in the first four months, expanded market access through nine FTAs and efforts to strengthen the global competitiveness of Indian manufacturers.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "India is targeting US$ 1 trillion in exports in FY27, supported by 15% export growth in the first four months, expanded market access through nine FTAs and efforts to strengthen the global competitiveness of Indian manufacturers.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "India is targeting US$ 1 trillion in exports in FY27, supported by 15% export growth in the first four months, expanded market access through nine FTAs and efforts to strengthen the global competitiveness of Indian manufacturers.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    }
-  ],
-  "bfb217b98ca6": [
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Appeal No. 6981 of 2026 filed by Sandeep Kumar",
-      "new_value": "Appeal No. 6983 of 2026 filed by Anivesh Kumar Pandey",
-      "source_id": "sebi"
-    }
-  ],
-  "b04fcb2ba588": [
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
-      "new_value": "Adjudication Order in respect of Fatmabibi Yusufbhai Rangwala in the matter of Illiquid Stock Options at BSE",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
-      "new_value": "Release Order - Certificate No. RC7967 of 2024 in respect of Adhunik Contractors Private Limited (PAN: AAGCA9909H) in the matter of Illiquid Stock Options",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
-      "new_value": "Release Order - Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-09-14",
-      "field": "description",
-      "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
-      "new_value": "Release Order - Certificate No. RC7376 of 2023 in respect of Padam Prabhu Vanijya Pvt Ltd (PAN: AAECP9720F) in the matter of Illiquid Stock Options",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Adjudication Order in respect of Ram Asava HUF in the matter of Illiquid Stock Options at BSE",
-      "new_value": "Release Order - Certificate No. RC7374 of 2023 in respect of Kanchan Agarwal (PAN: AFMPA8305D) in the matter of Illiquid Stock Options",
-      "source_id": "sebi"
     }
   ],
   "e9ef1e32f2d6": [
@@ -6324,22 +5833,6 @@
       "old_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Second Variable Rate Reverse Repo (VRRR) auction on Tuesday, August 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 12:00 Noon to 12:30 PM August 19, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad &n",
       "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, August 19, 2026, as under: Sl. No.",
       "source_id": "policyradar"
-    }
-  ],
-  "f0e1645d9b63": [
-    {
-      "date": "2026-08-18",
-      "field": "description",
-      "old_value": "General Remittance Order dated August 13, 2026 issued under RC No. 9161 of 2026 against Rupee Services Private Limited in the matter of dealing in Illiquid Stocks Options at BSE",
-      "new_value": "General Remittance Order dated August 18, 2026 issued under RC No. 9174 of 2026 drawn against Amit Kumar Agarwal HUF in the matter of dealing in Illiquid Stocks Options at BSE",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "General Remittance Order dated August 13, 2026 issued under RC No. 9161 of 2026 against Rupee Services Private Limited in the matter of dealing in Illiquid Stocks Options at BSE",
-      "new_value": "Order in the matter of Max Financial Services Limited",
-      "source_id": "sebi"
     }
   ],
   "d03f204cc5cd": [
@@ -7822,15 +7315,6 @@
       "source_id": "rbi"
     }
   ],
-  "7edf6e53d6d1": [
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBI) has, by an order dated August 11, 2026, imposed a monetary penalty of ₹1.80 lakh (Rupees One Lakh and Eighty Thousand only) on Valuefin India Credit Services Private Limited (the company), for non-compliance with certain directions issued by RBI on ’Acquisition of Shareholding or Control’. This penalty has been imposed in exercise of powers conferred on RBI under Section 58G(1)(b) read with Section 58B(5)(aa) of the RBI Act, 1934. The corresponde",
-      "new_value": "The Reserve Bank of India (RBI) has, by an order dated August 19, 2026, imposed a monetary penalty of ₹2.70 lakh (Rupees Two lakh seventy thousand only) on Progfin Private Limited (the company) for non-compliance with certain provisions of the ‘Reserve Bank of India (Know Your Customer (KYC)) Directions’. This penalty has been imposed in exercise of powers conferred on RBI under section 58(G)(1)(b) read with section 58(B)(5)(aa) of the Reserve Bank of India Act, 1934. The Statu",
-      "source_id": "rbi"
-    }
-  ],
   "0a77b578129f": [
     {
       "date": "2026-08-21",
@@ -7838,15 +7322,6 @@
       "old_value": "The Central Government has appointed Shri Somanath Sreedhara Panicker as part-time, Non-official Director on the Central Board of Reserve Bank of India for a period of four years with effect from August 20, 2026 or until further orders, whichever is earlier. (Brij Raj)            Chief General Manager Press Release: 2026-2027/934",
       "new_value": "The 624th meeting of the Central Board of Directors of Reserve Bank of India was held today in Chennai under the Chairmanship of Shri Sanjay Malhotra, Governor. The Board in its meeting reviewed the current economic situation, global and domestic challenges including risks to the economic outlook. The Board also reviewed various areas of operations of the Reserve Bank including the functioning of its Committees and the Ombudsman Scheme. Deputy Governors Shri Swaminathan J., Dr. Poonam Gupta, Shr",
       "source_id": "rbi"
-    }
-  ],
-  "85b195a3fd58": [
-    {
-      "date": "2026-08-21",
-      "field": "description",
-      "old_value": "Appeal No. 6986 of 2026 filed by Prabhat Singh",
-      "new_value": "Appeal No. 7001 of 2026 filed by Prakash Singh",
-      "source_id": "sebi"
     }
   ],
   "88e752482d56": [
@@ -10010,15 +9485,6 @@
       "source_id": "policyradar"
     }
   ],
-  "4e8b39f3315d": [
-    {
-      "date": "2026-08-31",
-      "field": "description",
-      "old_value": "The Reserve Bank of India (RBl) has, by an order dated August 11, 2026, imposed a monetary penalty of ₹2.50 lakh (Rupees Two Lakh Fifty Thousand only) on Jilla Sahakari Kendriya Bank Maryadit, Bhind, Madhya Pradesh (the bank), for contravention of the provisions of Section 26A read with Section 56 of the Banking Regulation Act, 1949 (BR Act). This penalty has been imposed in exercise of powers conferred on RBI, under the provisions of Section 47A(1)(c) read with Sections 46(4)(i) and 56 of",
-      "new_value": "The Reserve Bank of India (RBI) has, by an order dated August 28, 2026, imposed a monetary penalty of ₹2.03 lakh (Rupees Two Lakh and Three Thousand only) on Jai Bhawani Sahakari Bank Ltd., Pune, (the bank) for non-compliance with certain directions issued by RBI on ‘Membership of Credit Information Companies (CICs) by Co-operative Banks’ and ‘Know Your Customer (KYC)’. This penalty has been imposed in exercise of powers conferred on RBI under the provisions of Sect",
-      "source_id": "rbi"
-    }
-  ],
   "e20c33a72f55": [
     {
       "date": "2026-08-31",
@@ -11158,13 +10624,6 @@
       "source_id": "gst_council"
     },
     {
-      "date": "2026-09-14",
-      "field": "description",
-      "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
-      "new_value": "Union Finance Minister and…",
-      "source_id": "gst_council"
-    },
-    {
       "date": "2026-09-15",
       "field": "description",
       "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
@@ -11264,6 +10723,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
       "new_value": "Union Finance Minister and…",
@@ -13415,27 +12881,6 @@
   ],
   "8c899acd431d": [
     {
-      "date": "2026-09-19",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-19",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-19",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
       "date": "2026-09-20",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
@@ -13553,6 +12998,27 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "SAT Mumbai quashed SEBI penalty against DCHL after resolution plan approval but affirmed directors violations and reduced penalties.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "The 8th Central Pay Commission will also visit Bengaluru next month, on October 7 and 8.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "The court had on Monday taken suo motu (on its own) cognizance of the issue of severe noise and air pollution caused during processions.",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
     }
   ],
   "1353cbae308f": [
@@ -13593,6 +13059,13 @@
       "field": "description",
       "old_value": "Appeal No. 7031 of 2026 filed by Sanjay Singh",
       "new_value": "Appeal No. 7043 of 2026 filed by Aniket Singh",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Appeal No. 7031 of 2026 filed by Sanjay Singh",
+      "new_value": "Appeal No. 7063 of 2026 filed by Sanjay Shah",
       "source_id": "sebi"
     }
   ],
@@ -14920,13 +14393,6 @@
       "source_id": "seci"
     },
     {
-      "date": "2026-09-17",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
       "date": "2026-09-18",
       "field": "type",
       "old_value": "release",
@@ -14984,23 +14450,9 @@
     },
     {
       "date": "2026-09-20",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Education, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-20",
       "field": "type",
       "old_value": "release",
       "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Agriculture, Energy, Rural Development",
       "source_id": "seci"
     },
     {
@@ -15145,6 +14597,27 @@
     },
     {
       "date": "2026-09-21",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Agriculture, Energy, Rural Development",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Education, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-22",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Agriculture, Energy, Rural Development",
@@ -15544,144 +15017,144 @@
   ],
   "5bde89036819": [
     {
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of Pejawar Mutt, Sri Vishwaprasanna Teerth Swami Ji in New Delhi today",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister & Minister of Cooperation Shri Amit Shah to inaugurate 3rd National Conference of Heads of ANTF of States/UTs in New Delhi on 22nd September",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of...",
-      "source_id": "pib"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_surface_transport"
     },
     {
       "date": "2026-09-22",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah meets revered saint of...",
-      "source_id": "pib"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_statistics_programme_implementation"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 3rd National Conference of Anti-Narcotics Task Force (ANTF) Heads of States/UTs in New Delhi",
+      "source_id": "pib_lokpal_of_india"
     }
   ],
   "1550389b1e23": [
@@ -16248,13 +15721,6 @@
       "source_id": "niti_aayog"
     },
     {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
-      "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-09-18",
       "field": "description",
       "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
@@ -16361,6 +15827,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
+      "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
       "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
@@ -16633,20 +16106,6 @@
       "source_id": "niti_aayog"
     },
     {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
-      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Trade & Commerce",
-      "new_value": "Trade & Commerce",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-09-18",
       "field": "description",
       "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
@@ -16865,6 +16324,20 @@
     },
     {
       "date": "2026-09-21",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Trade & Commerce",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
+      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-22",
       "field": "sectors",
       "old_value": "Finance & Economy, Trade & Commerce",
       "new_value": "Trade & Commerce",
@@ -17084,43 +16557,6 @@
       "source_id": "rbi"
     }
   ],
-  "26037a4a9f24": [
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Japan’s recently-released defence white paper marks a significant turn in intent and policy. The country’s long focus on economic security is now blended with its defence capacity, bringing together foreign policy, intelligence, and economic, technological and industrial capacities into a “comprehensive architecture for national defence.” This is a new conception of national security in Japan. The post Japan’s 2026 Defence White Paper appeared first on Gateway House.",
-      "new_value": "ORF Expert Speak: Japan’s Defence Transformation: Reading the 2026 White Paper",
-      "source_id": "orf"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Japan’s recently-released defence white paper marks a significant turn in intent and policy. The country’s long focus on economic security is now blended with its defence capacity, bringing together foreign policy, intelligence, and economic, technological and industrial capacities into a “comprehensive architecture for national defence.” This is a new conception of national security in Japan. The post Japan’s 2026 Defence White Paper appeared first on Gateway House.",
-      "new_value": "ORF Expert Speak: Japan’s Defence Transformation: Reading the 2026 White Paper",
-      "source_id": "orf"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Japan’s recently-released defence white paper marks a significant turn in intent and policy. The country’s long focus on economic security is now blended with its defence capacity, bringing together foreign policy, intelligence, and economic, technological and industrial capacities into a “comprehensive architecture for national defence.” This is a new conception of national security in Japan. The post Japan’s 2026 Defence White Paper appeared first on Gateway House.",
-      "new_value": "ORF Expert Speak: Japan’s Defence Transformation: Reading the 2026 White Paper",
-      "source_id": "orf"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Japan’s recently-released defence white paper marks a significant turn in intent and policy. The country’s long focus on economic security is now blended with its defence capacity, bringing together foreign policy, intelligence, and economic, technological and industrial capacities into a “comprehensive architecture for national defence.” This is a new conception of national security in Japan. The post Japan’s 2026 Defence White Paper appeared first on Gateway House.",
-      "new_value": "ORF Expert Speak: Japan’s Defence Transformation: Reading the 2026 White Paper",
-      "source_id": "orf"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Japan’s recently-released defence white paper marks a significant turn in intent and policy. The country’s long focus on economic security is now blended with its defence capacity, bringing together foreign policy, intelligence, and economic, technological and industrial capacities into a “comprehensive architecture for national defence.” This is a new conception of national security in Japan. The post Japan’s 2026 Defence White Paper appeared first on Gateway House.",
-      "new_value": "ORF Expert Speak: Japan’s Defence Transformation: Reading the 2026 White Paper",
-      "source_id": "orf"
-    }
-  ],
   "b8dada94f778": [
     {
       "date": "2026-09-17",
@@ -17131,20 +16567,6 @@
     }
   ],
   "490198e96377": [
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "According to the official, to strengthen field operations, Domestic Breeding Checkers (DBCs) and public health staff are undergoing continuous monitoring and coordination training",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Around 95% of dengue cases were self-limiting and managed at home, while about 5% required hospitalisation, GCC Commissioner G.S. Sameeran said",
-      "source_id": "the_hindu_policy"
-    },
     {
       "date": "2026-09-20",
       "field": "description",
@@ -17270,6 +16692,20 @@
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "GSTAT Chennai holds ITC dispute involving Sections 16, 18(3) and Rule 41 raises a question of law and must be heard by Division Bench.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "source_id": "state_pib_punjab"
     }
   ],
   "29766e413852": [
@@ -17289,13 +16725,6 @@
     }
   ],
   "9522313cd57e": [
-    {
-      "date": "2026-09-19",
-      "field": "description",
-      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
-      "new_value": "Prime Minister meets with the President of South Africa on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
-      "source_id": "policyradar"
-    },
     {
       "date": "2026-09-19",
       "field": "description",
@@ -17410,6 +16839,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
       "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
@@ -17890,89 +17326,6 @@
       "source_id": "policyradar"
     }
   ],
-  "ddddfb5998ec": [
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "An influential industrialist now finds himself at the centre of a widening investigation under the POCSO Act into the allegations of paedophilia. While he was under investigation from last year, a fresh probe, ordered by the court, led the police to recover additional digital evidence and identify multiple victims. This report examines what has been labelled the ‘Epstein case of Tamil Nadu’, only to discover that while the scale of operations was nowhere near that of the American offender, a sub",
-      "new_value": "‘Gem Granite’ Veeramani, an influential industrialist now finds himself at the centre of a widening investigation under the POCSO Act into the allegations of paedophilia. While he was under investigation from last year, a fresh probe, ordered by the court, led the police to recover additional digital evidence and identify multiple victims. This report examines what has been labelled the ‘Epstein case of Tamil Nadu’, only to discover that while the scale of operations was nowhere near that of the",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "a512b3997ce7": [
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "The office of the Delhi CEO published the list of electors served notices, nearly three weeks after the draft electoral roll of voters in the city was released.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "The office of the Delhi CEO published the list of electors served notices, nearly three weeks after the draft electoral roll of voters in the city was released.",
-      "new_value": "Those who have been sent notices account for about one-third of the number of voters included in the draft electoral rolls.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "The office of the Delhi CEO published the list of electors served notices, nearly three weeks after the draft electoral roll of voters in the city was released.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "The office of the Delhi CEO published the list of electors served notices, nearly three weeks after the draft electoral roll of voters in the city was released.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The office of the Delhi CEO published the list of electors served notices, nearly three weeks after the draft electoral roll of voters in the city was released.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The office of the Delhi CEO published the list of electors served notices, nearly three weeks after the draft electoral roll of voters in the city was released.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    }
-  ],
-  "e43bb26cda47": [
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil? How could this impact India’s economy? Is there any provision for a waiver of tariffs?",
-      "new_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil?",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil? How could this impact India’s economy? Is there any provision for a waiver of tariffs?",
-      "new_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil?",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil? How could this impact India’s economy? Is there any provision for a waiver of tariffs?",
-      "new_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil?",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil? How could this impact India’s economy? Is there any provision for a waiver of tariffs?",
-      "new_value": "Why did the U.S. introduce the Lindsey O. Graham Sanctioning Russia and Iran Act, 2026? What does this new law say about tariffs? What particular condition impacts India’s imports of Russian oil?",
-      "source_id": "policyradar"
-    }
-  ],
   "b0636ab92edc": [
     {
       "date": "2026-09-20",
@@ -18117,157 +17470,6 @@
       "source_id": "policyradar"
     }
   ],
-  "c3cc79c18c4a": [
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_steel"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_tourism"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Vice President to inaugurate India International Water Week on September 22",
-      "new_value": "Government of India press release: Vice President Shri C. P. Radhakrishnan to Inaugurate 9th India International Water Week 2026 on 22 September in New Delhi",
-      "source_id": "pib_lokpal_of_india"
-    }
-  ],
-  "c7ee557b4ac6": [
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Those who have been sent notices account for about one-third of the number of voters included in the draft electoral rolls.",
-      "new_value": "ormer deputy PM L K Advani and ex-Delhi deputy CM Manish Sisodia figure among prominent voters flagged over discrepancies in their details.",
-      "source_id": "deccan_chronicle"
-    }
-  ],
   "db015705dd62": [
     {
       "date": "2026-09-21",
@@ -18339,6 +17541,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "Yogi Adityanath said that the State government has prioritized women in its schemes, stating, ‘in Uttar Pradesh, 54,000 Banking Correspondent Sakhis are providing banking services in villages’",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "Yogi Adityanath said that the State government has prioritized women in its schemes, stating, ‘in Uttar Pradesh, 54,000 Banking Correspondent Sakhis are providing banking services in villages’",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
@@ -18537,20 +17746,6 @@
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Government of India press release: PROVISIONAL ESTIMATES OF INDEX OF CORE INDUSTRIES FOR THE MONTH OF AUGUST 2026, AND FINAL INDEX FOR THE MONTH OF JULY 2026 WITH BASE YEAR 2022-23",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: PROVISIONAL ESTIMATES OF INDEX OF CORE INDUSTRIES FOR THE MONTH OF AUGUST 2026, AND FINAL INDEX FOR THE MONTH OF JULY 2026 WITH BASE YEAR 2022-23",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: PROVISIONAL ESTIMATES OF INDEX OF CORE INDUSTRIES FOR THE MONTH OF AUGUST 2026, AND FINAL INDEX FOR THE MONTH OF JULY 2026 WITH BASE YEAR 2022-23",
       "source_id": "pib_special_service_and_features"
     },
     {
@@ -18643,6 +17838,20 @@
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Government of India press release: PROVISIONAL ESTIMATES OF INDEX OF CORE INDUSTRIES FOR THE MONTH OF AUGUST 2026, AND F...",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
     },
     {
       "date": "2026-09-22",
@@ -18785,6 +17994,13 @@
       "old_value": "Consumer Education Workshop at Saharsa (Bihar) by Bharti Airtel Limited nitinkumar Mon, 09/21/2026 - 12:44 Date Thu, 10/08/2026 - 12:00 District Saharsa Division Consumer Affairs Date & Time Thu, 10/08/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Prerna Ranjan Contact person Email prerna.ranjan@airtel.com Event Category COP By TRAI Venue Details Hotel Kosi Vihar Matashyagandha Rd, Sarswati Nagar, Police Line, Saharsa, Bihar 852202 Event From Consu",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Saharsa (Bihar) by Bharti Airtel Limited nitinkumar Mon, 09/21/2026 - 12:44 Date Thu, 10/08/2026 - 12:00 District Saharsa Division Consumer Affairs Date & Time Thu, 10/08/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Prerna Ranjan Contact person Email prerna.ranjan@airtel.com Event Category COP By TRAI Venue Details Hotel Kosi Vihar Matashyagandha Rd, Sarswati Nagar, Police Line, Saharsa, Bihar 852202 Event From Consu",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "b3c664eeaae6": [
@@ -18861,6 +18077,13 @@
       "old_value": "The Delhi electoral roll revision has identified two broad categories of discrepancies: “no mapping” and “logical discrepancies”.",
       "new_value": "Chief Minister, Finance…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "The Delhi electoral roll revision has identified two broad categories of discrepancies: “no mapping” and “logical discrepancies”.",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
     }
   ],
   "9300502cd49f": [
@@ -18912,6 +18135,13 @@
     },
     {
       "date": "2026-09-21",
+      "field": "description",
+      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-09-22",
       "field": "description",
       "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -19100,9 +18330,23 @@
       "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
       "new_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk   under Basel III on February 17, 2023 , seeking stakeholder feedback.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
+      "new_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk   under Basel III on February 17, 2023 , seeking stakeholder feedback.",
+      "source_id": "policyradar"
     }
   ],
   "12e0c60af251": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "The West Bengal Universities and Colleges (Administration and Regulation) Bill seeks to add one provision in Section 14A of the existing 2017 Act, which will allow inter-university transfer of both teaching and non-teaching employees as and when required, officials said",
+      "new_value": "The West Bengal Universities and Colleges (Administration and Regulation) Bill seeks to add one provision in Section 14A of the existing 2017 Act...",
+      "source_id": "policyradar"
+    },
     {
       "date": "2026-09-22",
       "field": "description",
@@ -19126,6 +18370,482 @@
       "field": "description",
       "old_value": "UP to be split into states claims minister What happened when Mayawati tried",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "UP to be split into states claims minister What happened when Mayawati tried",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    }
+  ],
+  "66d5ce29fb5c": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Addressing National Management Convention of the AIMA, she emphasised that businesses must engage constructively with government and regulators.",
+      "new_value": "Addressing National Management Convention of the AIMA, she emphasised that businesses must engage constructively with government and regulators",
+      "source_id": "business_line"
+    }
+  ],
+  "89edf59f50b8": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_surface_transport"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_statistics_programme_implementation"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA. nitinkumar Tue, 09/22/2026 - 11:37 File Press Release No. 121 (2.67 MB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality on Gandhidham to Santhalpur National Highway (NH-27) in Gujarat LSA",
+      "source_id": "pib_lokpal_of_india"
+    }
+  ],
+  "a8f3a580d45c": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_surface_transport"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_statistics_programme_implementation"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "TRAI releases Telecom Consumer Protection (13th Amendment) Regulations, 2026 nitinkumar Tue, 09/22/2026 - 11:49 File Press Release No. 120 (472.38 KB) Date Tue, 09/22/2026 - 12:00",
+      "new_value": "Government of India press release: TRAI releases Telecom Consumer Protection (Thirteenth Amendment) Regulations, 2026",
+      "source_id": "pib_lokpal_of_india"
+    }
+  ],
+  "97b37d49e75f": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 75,000 Total amount of offers received (in ₹ crore) 71,971 Amount accepted (in ₹ crore) 71,971 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1164",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, September 23, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM September 24, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad &nbs",
+      "source_id": "rbi"
+    }
+  ],
+  "2a02aa9a9c9e": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Notifications for the elections will be issued on September 29, with nominations to be filed by October 6, according to the schedule.",
+      "new_value": "With BSP MP Ramji Gautam vacating his seat, party to be left without any MPs for first time since 1989; SP or allies may gain this seat in U.P., while BJP likely to gain a seat in West Bengal bypoll after TMC MP’s resignation",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "7f8752b1d745": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Noting that over 30 lakh notices have been issued, the Court sought the details of manpower deployed for the process.",
+      "new_value": "The court asked the Election Commission’s counsel if the people to whom these notices were sent at least know what logical discrepancies they have to prove incorrect; petitioners argue that the term ‘logical discrepancies’ was not defined by the ECI",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "311be354b288": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "ED alleged that Nishant Pitti facilitated the entry of proceeds of illegal betting into the Indian equity market under the guise of foreign portfolio investments",
+      "new_value": "Pitti, on behalf of the promoters of NzVs Easy Trip Planners Ltd., entered into a pre-arranged stock price manipulation deal with Amardeep Sharma to artificially inflate the share price and market capitalisation of IWs Easy Trip Planners Ltd., the chargesheet filed in a special PMLA court says",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "c1e9c795934f": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Where does the solution lie?Noel Tata and Natarajan Chandrasekaran.Imagine two investors controlling a listed company through a private holding company. One has a veto over how the holding company will vote on capital raising, borrowing, acquisitions and divestments at the listed company.Put that veto in the listed company and public shareholders must approve it. Put the equivalent right in the promoter’s unlisted parent and the shareholder vote may disappear.The location changes while the power",
+      "new_value": "The group’s promoter company faces questions over leadership, ownership and regulatory issues amid growing differences over who should serve as its executive chairman and whether the company should be listed",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Where does the solution lie?Noel Tata and Natarajan Chandrasekaran.Imagine two investors controlling a listed company through a private holding company. One has a veto over how the holding company will vote on capital raising, borrowing, acquisitions and divestments at the listed company.Put that veto in the listed company and public shareholders must approve it. Put the equivalent right in the promoter’s unlisted parent and the shareholder vote may disappear.The location changes while the power",
+      "new_value": "Five more years for N. Chandrasekaran as Tata Sons chairperson, contested by its majority owner amid a deep split on the eve of an RBI-ordered public listing. It’s the latest twist in the story of the Tata Group. Does it make a Tata deal with its minority partner more likely?",
+      "source_id": "mint_opinion"
+    }
+  ],
+  "a57d4de84c13": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Meghalaya HC asks govt to shift all foreign nationals who completed jail terms to detention centre",
+      "new_value": "A division bench comprising Chief Justice Revati Mohite Dere and justice W Diengdoh issued the direction on Monday",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "ad381acebe4e": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "The project has moved from mere connectivity to building long-term operational viability",
+      "new_value": "Challenge-based airport selection aims to cut construction time to 18 months; 200 heliports planned",
+      "source_id": "business_line"
+    }
+  ],
+  "cce5d72fb400": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "General Remittance Advice against: Sapna (Proprietor of Stallion Trading Co.) [Defaulter] (PAN: DRUPS8079D) in the matter of trading activities of certain entities in the scrip of Delta Leasing and Finance Ltd.: under Recovery Certificate No. 9159 of 2026.",
+      "new_value": "General Remittance Advice against: Heena Khatoon, Proprietor of Heena Enterprises [Defaulter] (PAN-FGXPK5721G) in the matter of Investigation in the trading activities of certain entities in the scrip of Continental Seeds and Chemicals Limited: under Recovery Certificate No. 8876 of 2025.",
+      "source_id": "sebi"
+    }
+  ],
+  "16fdfc76ea19": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Notice of Demand under Recovery Certificate number 9295 of 2026 dated September 03, 2026, issued to Paresh Mulji Kariya (PAN – AAEPK0469M) in the matter of Anugrah Stock and Broking Private Limited",
+      "new_value": "Notice of Demand under Recovery Certificate number 9298 of 2026 dated September 21, 2026, issued to Allied Financial Services Private Limited [Defaulter] (PAN: AAACA2020K) in the matter of Allied Financial Services Private Limited: under Recovery Certificate No. 9298 of 2026.",
+      "source_id": "sebi"
+    }
+  ],
+  "76207f0421f5": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Notices of Attachment of Bank and Post Office accounts and Demat Accounts and mutual Fund Folios with AP Nos. 15695 and 15696 of 2026 dated August 18, 2026 against Fulabhai Bhitor (PAN: DYLPB2813Q) in the matter of trading activity in the scrip of ANI Integrated Services Limited under RC No. 9228 of 2026",
+      "new_value": "Notices of Attachment of Bank and Post Office accounts and Demat Accounts and mutual Fund Folios with AP Nos. 15805 and 15806 of 2026 dated September 18, 2026 issued against Harsha Ishvarbhai Solanki (PAN: DCXPS3726R) and 20 others in the matter of trading activity in the scrip of ANI Integrated Services Limited",
+      "source_id": "sebi"
+    }
+  ],
+  "0738397b3740": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Court reduces convict Veer Pal’s sentence from five years to three after modifying his conviction in a 2002 assault case.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    }
+  ],
+  "7b57c71a2d65": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Months before deal with Pak Trumplinked US drone firm signed pact with India",
+      "new_value": "Months before Pak deal Trump familylinked US drone firm inked pact with India",
+      "source_id": "india_today"
+    }
+  ],
+  "8d10c7b84c02": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (All India Financial Institutions - Classification, Valuation, and Operation of Investment Portfolio) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    },
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    }
+  ],
+  "098b7d43f89d": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (Small Finance Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    }
+  ],
+  "8d34344b0d03": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (Local Area Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    }
+  ],
+  "8e473cbc1a32": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Commercial Banks – Know Your Customer) Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Third Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    }
+  ],
+  "b978d33e3ef4": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "The Supreme Court on Tuesday sought a report from the Allahabad High Court on allegations raised by Advocate Prashant Bhushan against the trial judge hearing the 2021 Lakhimpur Kheri violence case [Ashish Mishra Alias Monu v State of UP].A Bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana directed the Uttar Pradesh government to appoint a senior and experienced public prosecutor for the trial. \"Let the State government take instructions and place on recor",
+      "new_value": "The Court also asked the State to assign a senior Public Prosecutor, after questions were raised about the present Proseuctor's approach.",
+      "source_id": "livelaw"
+    }
+  ],
+  "65a597088b69": [
+    {
+      "date": "2026-09-22",
+      "field": "description",
+      "old_value": "The appeal comes after a video from Bihar’s Jamui went viral on social media, purportedly showing a few men harassing and groping two minors.",
+      "new_value": "For more than 75 years, UNICEF has led the global fight for children’s rights. Join us to have a real impact on the lives of the world’s children.",
       "source_id": "unicef_india"
     }
   ]
