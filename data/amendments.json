@@ -3101,13 +3101,6 @@
       "date": "2026-09-08",
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Shri G. Kishan Reddy, Union Minister of Coal & Mines, Launches First-Ever Sector-Wide CSR Framework for Indian Coal Companies; Celebrates Milestones under Thalassemia Bal Sewa Yojana and Nanha Sa Dil",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Round 1 of Scheme for Promotion of Surface Coal/Lignite Gasification Projects Concludes with Overwhelming Response Receiving Seven Applications from Leading Public and Private Sector Companies",
       "source_id": "pib_national_security_council_secretariat"
     },
@@ -3236,6 +3229,13 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Managers cannot fix broader systemic causes but can influence what happens once an overqualified immigrant is on the job.",
       "source_id": "scroll"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "SEBI settles Hindenburg-linked disclosure cases against five Adani companies for ₹1.5 crore",
+      "source_id": "policyradar"
     }
   ],
   "c0c8cf258433": [
@@ -3316,13 +3316,6 @@
       "old_value": "Energy, Finance & Economy, Social Protection",
       "new_value": "Finance & Economy",
       "source_id": "historical"
-    },
-    {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
     },
     {
       "date": "2026-09-17",
@@ -3445,6 +3438,13 @@
     },
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3754,13 +3754,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-09-19",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3881,6 +3874,13 @@
     },
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -5006,13 +5006,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-09-19",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5119,6 +5112,13 @@
     },
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -5297,22 +5297,6 @@
       "old_value": "Agriculture, Digital & Technology, Finance & Economy",
       "new_value": "Agriculture, Finance & Economy",
       "source_id": "historical"
-    }
-  ],
-  "77c3c2bb5a50": [
-    {
-      "date": "2026-08-13",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 80,170 Amount accepted (in ₹ crore) 80,170 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/881",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Friday, August 14, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 1,50,000 3 09:30 AM to 10:00 AM August 17, 2026 (Monday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-14",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 80,170 Amount accepted (in ₹ crore) 80,170 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/881",
-      "new_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 80,235 Amount accepted (in ₹ crore) 80,235 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/889",
-      "source_id": "rbi"
     }
   ],
   "e9ef1e32f2d6": [
@@ -8585,6 +8569,13 @@
       "old_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 120 93 110 (ii) Amount 37,880.700 30,079.000 17,795.000 III. Cut-off price (₹)/Yield 98.7180 97.2753 94.4300 (YTM: 5.2089%) (YTM: 5.6174%) (YTM: 5.9148%) IV. Competitive Bids Accepted       (i) Number 40 6 50 (ii) Amount 8,550.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 65.8524% 78.",
       "new_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 82 76 103 (ii) Amount 24,176.500 16,118.750 16,171.000 III. Cut-off price (₹)/Yield 98.7007 97.2128 94.3200 (YTM: 5.2801%) (YTM: 5.7500%) (YTM: 6.0386%) IV. Competitive Bids Accepted       (i) Number 37 56 75 (ii) Amount 8,550.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 13.9165% 74.",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 82 76 103 (ii) Amount 24,176.500 16,118.750 16,171.000 III. Cut-off price (₹)/Yield 98.7007 97.2128 94.3200 (YTM: 5.2801%) (YTM: 5.7500%) (YTM: 6.0386%) IV. Competitive Bids Accepted       (i) Number 37 56 75 (ii) Amount 8,550.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 13.9165% 74.",
+      "new_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 9,000 8,000 7,000 II. Competitive Bids Received       (i) Number 106 68 112 (ii) Amount 22,188.150 12,510.150 14,031.000 III. Cut-off price (₹) / Yield 98.6740 97.1800 94.2749 (YTM: 5.3900%) (YTM: 5.8196%) (YTM: 6.0895%) IV. Competitive Bids Accepted       (i) Number 58 54 82 (ii) Amount 8,550.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 5.1233% 5",
+      "source_id": "rbi"
     }
   ],
   "4c3369af7a7c": [
@@ -8614,6 +8605,13 @@
       "field": "description",
       "old_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.7180 (YTM: 5.2089%) 97.2753 (YTM: 5.6174%) 94.4300 (YTM: 5.9148%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
       "new_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.7007 (YTM: 5.2801%) 97.2128 (YTM: 5.7500%) 94.3200 (YTM: 6.0386%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.7007 (YTM: 5.2801%) 97.2128 (YTM: 5.7500%) 94.3200 (YTM: 6.0386%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
+      "new_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.6740 (YTM: 5.3900%) 97.1800 (YTM: 5.8196%) 94.2749 (YTM: 6.0895%) III. Total Face Value Accepted ₹9,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
       "source_id": "rbi"
     }
   ],
@@ -10622,13 +10620,6 @@
       "source_id": "gst_council"
     },
     {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
-      "new_value": "Union Finance Minister and…",
-      "source_id": "gst_council"
-    },
-    {
       "date": "2026-09-16",
       "field": "description",
       "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
@@ -10728,6 +10719,13 @@
     },
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "Finance Minister Ms. Nirmala Sitharaman held bilateral meetings with key global partners during the G20 meetings to strengthen trade, investment, infrastructure financing and cooperation in emerging technologies.",
       "new_value": "Union Finance Minister and…",
@@ -12221,15 +12219,6 @@
       "source_id": "sebi"
     }
   ],
-  "8cf2dd5eeba0": [
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "General Remittance dated 14.08.2026 against K. Sai Prasad (PAN: AAJPS6517M) [Defaulter] in the matter of Mediaone Global Entertainment Limited under Recovery Certificate No. 9139 of 2026",
-      "new_value": "General Remittance dated 08.09.2026 against Rashmi Chandak (PAN: AEKPC4067M) [Defaulter] in the matter of ISO at BSE under Recovery Certificate No. 9162 of 2026",
-      "source_id": "sebi"
-    }
-  ],
   "3453260efadd": [
     {
       "date": "2026-09-08",
@@ -12889,27 +12878,6 @@
       "date": "2026-09-20",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Muslims barred from Mumbai garba event BJP MLA lays down tilak family rules",
-      "source_id": "india_today"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Modi will first visit Vadodara where he will lay the foundation stone, and inaugurate and dedicate to the nation various development projects. He will also address the gathering, an official statement issued by Prime Minister's Office (PMO) said.",
-      "source_id": "livemint_policy"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
       "source_id": "sidbi_new"
     },
@@ -13003,6 +12971,27 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "SAT Mumbai quashed SEBI penalty against DCHL after resolution plan approval but affirmed directors violations and reduced penalties.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Case seen as setting precedent for India’s ‌duty-free sector",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "According to the regulator, blood and ketchup stains from non-vegetarian items were found on ice inside the refrigerator of BJRS Restaurant at Mahalaxmi racecourse",
+      "source_id": "deccan_chronicle"
     },
     {
       "date": "2026-09-23",
@@ -14391,13 +14380,6 @@
       "source_id": "seci"
     },
     {
-      "date": "2026-09-18",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
       "date": "2026-09-19",
       "field": "type",
       "old_value": "release",
@@ -14448,23 +14430,9 @@
     },
     {
       "date": "2026-09-20",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Education, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-20",
       "field": "type",
       "old_value": "release",
       "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-20",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Agriculture, Energy, Rural Development",
       "source_id": "seci"
     },
     {
@@ -14630,6 +14598,27 @@
     },
     {
       "date": "2026-09-22",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Agriculture, Energy, Rural Development",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Education, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-23",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Agriculture, Energy, Rural Development",
@@ -15719,13 +15708,6 @@
       "source_id": "niti_aayog"
     },
     {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
-      "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-09-19",
       "field": "description",
       "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
@@ -15832,6 +15814,13 @@
     },
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
+      "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:07 Choose Report Type Publications Publication Date Tue, 09/15/2026 - 14:07 Report Upload Download (9.48 MB) vertical E-Mobility PDF Text INDIA ELECTRIC MOBILITY INDEX Tracking Electric Mobility Trends in Indian States Disclaimer: 1. This document is not a Statement of policy by the National Institution for Transforming India (hereinafter referred to as NITI Aayog). It has been prepared by WRI India in partnership with NIT",
       "new_value": "India Electric Mobility Index (IEMI) 2025 niti_admin Tue, 09/15/2026 - 14:14 Weight 0 Links /sites/default/files/2026-09/India-Electric-Mobility-Index-IEMI-2025.pdf",
@@ -16111,20 +16100,6 @@
       "source_id": "niti_aayog"
     },
     {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
-      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Trade & Commerce",
-      "new_value": "Trade & Commerce",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-09-19",
       "field": "description",
       "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
@@ -16343,6 +16318,20 @@
     },
     {
       "date": "2026-09-22",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Trade & Commerce",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
+      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-23",
       "field": "sectors",
       "old_value": "Finance & Economy, Trade & Commerce",
       "new_value": "Trade & Commerce",
@@ -16562,41 +16551,6 @@
       "date": "2026-09-21",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "“A global brand of Starbucks’ stature choosing Chennai to establish its Global Capability Centre is a strong endorsement of our talent, our capabilities, and the business environment we are building in Tamil Nadu,” said Minister S. Keerthana",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "A total of 2,054 idols were transported in processions and immersed on Sunday",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
       "source_id": "state_pib_punjab"
     },
@@ -16697,6 +16651,41 @@
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
       "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: BIS Chennai Conducts Sensitization-cum-Training Programme for NLC India Limited Offic...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "The searches were conducted based on a case registered against the former School Education Minister in a multi-crore fraud involving private schools across Tamil Nadu",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "In the letter sent in August, Chief Minister C. Joseph Vijay has said Tamil Nadu has been industry-friendly, making consistent efforts to attract business and investment; hence, better management of the airport is of paramount importance",
+      "source_id": "the_hindu_policy"
     }
   ],
   "29766e413852": [
@@ -16716,13 +16705,6 @@
     }
   ],
   "9522313cd57e": [
-    {
-      "date": "2026-09-19",
-      "field": "description",
-      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
-      "new_value": "Prime Minister meets the Chairperson of the African Union and President of Republic of Burundi on the sidelines of the BRICS Summit in New Delhi    Ministry of External Affairs",
-      "source_id": "policyradar"
-    },
     {
       "date": "2026-09-19",
       "field": "description",
@@ -16855,6 +16837,13 @@
       "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
       "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
       "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The recent BRICS Summit in New Delhi was declared a success. Its 140-paragraph New Delhi Declaration is the longest yet. With members divided over the Russia-Ukraine and West Asia wars, leaders avoided naming countries or taking positions, focusing on issues affecting the Global South and deepening intra-BRICS cooperation. India steered the grouping towards practical cooperation. The question now is: how will BRICS implement the decisions taken? The post BRICS after the New Delhi Summit appeared",
+      "new_value": "BRICS Summit: Xi last visited India in 2019 for an informal summit with Prime Minister Narendra Modi in Mamallapuram near Chennai. The most recent meeting between the two leaders was on 31 August , 2025, on the sidelines of the Shanghai Cooperation Organisation (SCO) summit in Tianjin, China.",
+      "source_id": "livemint_policy"
     }
   ],
   "9f479f23775e": [
@@ -16880,6 +16869,13 @@
       "old_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "Earlier this month, the Supreme Court issued an order quashing all FIRs registered across India in connection with the student protest led by the Cockroach Janata Party (CJP).It permitted the Central government and the Delhi Police to register fresh FIRs with respect to 2,873 individuals having serious criminal antecedents. While the order largely brought to a close criminal proceedings arising out of the protests, its reasoning raises several constitutional questions.Inadequate reasons for quas",
       "source_id": "barandbench"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ],
   "dc6cbcb996b5": [
@@ -17459,6 +17455,13 @@
       "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
       "new_value": "RBI/2026-27/261 DOR.AML.REC.225/14.01.006/2026-27 September 18, 2026 Reserve Bank of India (Urban Co-operative Banks   Know Your Customer) Amendment Directions...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/262 DOR.AML.REC.223/14.01.005/2026-27 September 18, 2026 Reserve Bank of India (Rural Co-operative Banks   Know Your Customer) Amendment Directions...",
+      "source_id": "policyradar"
     }
   ],
   "db015705dd62": [
@@ -17603,163 +17606,7 @@
       "source_id": "policyradar"
     }
   ],
-  "48b319a5f9f9": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Government of India press release: India-New Zealand FTA to Enter into Force from 20 October 2026",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "Deal aims to double bilateral trade as NZ removes all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from NZ; India’s dairy, sensitive agri sectors protected, says Commerce Minister",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The agreement will see New Zealand removing all tariffs on all goods imported from India, while India will remove or reduce tariffs on 95% of current imports from New Zealand",
-      "new_value": "The pact, he said, also facilitates significant investments of USD 20 billion over the next 15 years from New Zealand to India.",
-      "source_id": "hindustan_times"
-    }
-  ],
   "767cca424275": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: PROVISIONAL ESTIMATES OF INDEX OF CORE INDUSTRIES FOR THE MONTH OF AUGUST 2026, AND FINAL INDEX FOR THE MONTH OF JULY 2026 WITH BASE YEAR 2022-23",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: PROVISIONAL ESTIMATES OF INDEX OF CORE INDUSTRIES FOR THE MONTH OF AUGUST 2026, AND FINAL INDEX FOR THE MONTH OF JULY 2026 WITH BASE YEAR 2022-23",
-      "source_id": "pib_lokpal_of_india"
-    },
     {
       "date": "2026-09-21",
       "field": "description",
@@ -17871,6 +17718,20 @@
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "The failed samples during routine regulatory surveillance included 29 samples tested by the central drugs laboratories and 191 identified by the state drugs testing laboratories.",
       "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
     },
     {
       "date": "2026-09-23",
@@ -18020,222 +17881,13 @@
       "old_value": "Consumer Education Workshop at Saharsa (Bihar) by Bharti Airtel Limited nitinkumar Mon, 09/21/2026 - 12:44 Date Thu, 10/08/2026 - 12:00 District Saharsa Division Consumer Affairs Date & Time Thu, 10/08/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Prerna Ranjan Contact person Email prerna.ranjan@airtel.com Event Category COP By TRAI Venue Details Hotel Kosi Vihar Matashyagandha Rd, Sarswati Nagar, Police Line, Saharsa, Bihar 852202 Event From Consu",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
-    }
-  ],
-  "b3c664eeaae6": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "MK Stalin claimed there were reports that the Pattinapakkam site was chosen because astrologers advised that the chief minister's office should face the sea.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "MK Stalin claimed there were reports that the Pattinapakkam site was chosen because astrologers advised that the chief minister's office should face the sea.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "MK Stalin claimed there were reports that the Pattinapakkam site was chosen because astrologers advised that the chief minister's office should face the sea.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "MK Stalin claimed there were reports that the Pattinapakkam site was chosen because astrologers advised that the chief minister's office should face the sea.",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    }
-  ],
-  "37378b3e56fb": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Vijay govt expands free bus scheme for Tamil Nadu women ahead of Oct 2 launch",
-      "new_value": "Vijay govt expands free bus scheme for Tamil Nadu women ahead of Oct launch",
-      "source_id": "india_today"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Vijay govt expands free bus scheme for Tamil Nadu women ahead of Oct 2 launch",
-      "new_value": "Vijay govt expands free bus scheme for Tamil Nadu women ahead of Oct launch",
-      "source_id": "india_today"
-    }
-  ],
-  "5a6ecb0347c7": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The Delhi electoral roll revision has identified two broad categories of discrepancies: “no mapping” and “logical discrepancies”.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The Delhi electoral roll revision has identified two broad categories of discrepancies: “no mapping” and “logical discrepancies”.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The Delhi electoral roll revision has identified two broad categories of discrepancies: “no mapping” and “logical discrepancies”.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The Delhi electoral roll revision has identified two broad categories of discrepancies: “no mapping” and “logical discrepancies”.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The Delhi electoral roll revision has identified two broad categories of discrepancies: “no mapping” and “logical discrepancies”.",
-      "new_value": "Chief Minister, Finance…",
-      "source_id": "gst_council"
-    }
-  ],
-  "9300502cd49f": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "A Delhi sessions court on Monday set aside a magistrate's refusal to order the registration of an FIR against Congress leader Sonia Gandhi over the alleged inclusion of her name in the electoral roll before she became an Indian citizen.Judge Visha Gogne set aside the magistrate court order of September 2025 and directed that the plea will be heard and decided afresh. The court said that the magistrate must pass a reasoned order after hearing the complainant, Vikas Tripathi, and the Delhi Police.",
-      "new_value": "The court directed the magistrate to hear the petition afresh and pass a ‘reasoned order’.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "A Delhi sessions court on Monday set aside a magistrate's refusal to order the registration of an FIR against Congress leader Sonia Gandhi over the alleged inclusion of her name in the electoral roll before she became an Indian citizen.Judge Visha Gogne set aside the magistrate court order of September 2025 and directed that the plea will be heard and decided afresh. The court said that the magistrate must pass a reasoned order after hearing the complainant, Vikas Tripathi, and the Delhi Police.",
-      "new_value": "Special Judge Vishal Gogne said that a Magisterial Court, instead of considering the core aspect of whether the complaint disclosed commission of a cognisable offence, digressed towards the issue of citizenship",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "9dfd45cddcbd": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Sikkim's Education department launched AI-FunZone in 71 government schools to enhance reading and math skills for classes three to five.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Sikkim's Education department launched AI-FunZone in 71 government schools to enhance reading and math skills for classes three to five.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Sikkim's Education department launched AI-FunZone in 71 government schools to enhance reading and math skills for classes three to five.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    }
-  ],
-  "754a12a16367": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
     },
     {
       "date": "2026-09-23",
       "field": "description",
-      "old_value": "The grievances were received and recorded for examination by the respective departments. Officials concerned were directed to review the petitions and take necessary action as per the prescribed timelines",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    }
-  ],
-  "39e915443a00": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Solicitor General Tushar Mehta, appearing for the Uttar Pradesh government, said the probe had been “substantially concluded” and a charge sheet in the case would be filed before the court of the jurisdictional Additional Sessions Judge on or before September 25, 2026.",
-      "new_value": "Solicitor General Tushar Mehta, appearing for Uttar Pradesh, says probe has been “substantially concluded” and a charge sheet will be filed before the court of Additional Sessions Judge on or before September 25, 2026",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "cbd58d973ba6": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "This type of action is not permitted in the democratic system of the country wherein every citizen is free to follow his/her faith and belief, the Court said.",
-      "new_value": "The Allahabad High Court recently observed that people cannot be forced to wear Santa Claus caps in violation of their right to faith and belief [Vikram Singh @ Vishwa Vikram Singh v State of UP and Another]Justice Saurabh Srivastava made the observation while dealing with a case in which 'V Bazar' employees had allegedly been forced to wear Santa Claus red caps by their superiors in 2022.\"The documents which have been appended along with affidavit in support of the application, crystal clearly",
-      "source_id": "barandbench"
-    }
-  ],
-  "ef8cf4e9ad46": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The court termed the magistrate's order \"non-speaking\" with regard to the facts of the case.",
-      "new_value": "Special Judge Vishal Gogne of Rouse Avenue Court passed the order while setting aside a magistrate’s decision last year dismissing allegations against Gandhi.",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "1cda08ceca6b": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Molshree Shrivastava has been appointed Head of Legal at Zeta, taking charge of the legal function not only at Zeta but across all sister entities including Titan, Radix, and Finova — all part of serial entrepreneur Bhavin Turakhia’s stable of companies.Shrivastava is a 2014 graduate of the National Law School of India University, Bengaluru.She has been with Zeta since 2024, where she has spent the last two years serving the company and its group entities before stepping into this expanded leade",
-      "new_value": "Molshree Shrivastava has been appointed Head of Legal at Zeta, taking charge of the legal function at Zeta, part of serial entrepreneur Bhavin Turakhia’s stable of companies.Shrivastava is a 2014 graduate of the National Law School of India University, Bengaluru.She has been with Zeta since 2024, where she has spent the last two years serving the company before stepping into this expanded leadership role.In 2023, she was selected as a Chevening India Cyber Security Fellow, a distinction that too",
-      "source_id": "barandbench"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "sectors",
-      "old_value": "Education",
-      "new_value": "Digital & Technology, Education",
-      "source_id": "barandbench"
+      "old_value": "Consumer Education Workshop at Saharsa (Bihar) by Bharti Airtel Limited nitinkumar Mon, 09/21/2026 - 12:44 Date Thu, 10/08/2026 - 12:00 District Saharsa Division Consumer Affairs Date & Time Thu, 10/08/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Prerna Ranjan Contact person Email prerna.ranjan@airtel.com Event Category COP By TRAI Venue Details Hotel Kosi Vihar Matashyagandha Rd, Sarswati Nagar, Police Line, Saharsa, Bihar 852202 Event From Consu",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "fee6757d498f": [
@@ -18245,15 +17897,6 @@
       "old_value": "The CM had recently announced that the free bus travel scheme for women, previously called Vidiyal Payanam, would be expanded to Express, LSS, Deluxe, Mofussil Ordinary, and Ghat Ordinary buses",
       "new_value": "CM Vijay will launch the expansion of the scheme at a school in Tiruvanmiyur in Chennai on September 22",
       "source_id": "the_hindu_policy"
-    }
-  ],
-  "6eea4d6c6749": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Pitti, on behalf of the promoters of NzVs Easy Trip Planners Ltd., entered into a pre-arranged stock price manipulation deal with Amardeep Sharma to artificially inflate the share price and market capitalisation of IWs Easy Trip Planners Ltd., the chargesheet filed in a special PMLA court says",
-      "new_value": "ED alleged that Nishant Pitti facilitated the entry of proceeds of illegal betting into the Indian equity market under the guise of foreign portfolio investments",
-      "source_id": "hindustan_times"
     }
   ],
   "dee80829083f": [
@@ -18299,31 +17942,6 @@
       "source_id": "trai"
     }
   ],
-  "ef1c397030d5": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 21 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 21 September 2026 | Daily Prelims Quiz appea",
-      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 22 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 22 September 2026 | Daily Prelims Quiz appea",
-      "source_id": "insights_ias"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 21 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 21 September 2026 | Daily Prelims Quiz appea",
-      "new_value": "The post UPSC CURRENT AFFAIRS – 22 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "source_id": "insights_ias"
-    }
-  ],
-  "f56e4fda0441": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Tata Sons row Mehli Mistry objects to trust funds paying legal costs",
-      "new_value": "Where does the solution lie?Noel Tata and Natarajan Chandrasekaran.Imagine two investors controlling a listed company through a private holding company. One has a veto over how the holding company will vote on capital raising, borrowing, acquisitions and divestments at the listed company.Put that veto in the listed company and public shareholders must approve it. Put the equivalent right in the promoter’s unlisted parent and the shareholder vote may disappear.The location changes while the power",
-      "source_id": "swarajya_mag"
-    }
-  ],
   "579092afe8c5": [
     {
       "date": "2026-09-22",
@@ -18358,6 +17976,13 @@
       "field": "description",
       "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
       "new_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk   under Basel III on February 17, 2023 , seeking stakeholder feedback.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
+      "new_value": "RBI/DOR/2026-27/472 DOR.MRG.REC.227/21-01-002/2026-27 September 21, 2026 Reserve Bank of India (Commercial Banks - Minimum Capital Requirements for Market Risk) Directions...",
       "source_id": "policyradar"
     }
   ],
@@ -18737,6 +18362,20 @@
       "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 75,000 Total amount of offers received (in ₹ crore) 71,971 Amount accepted (in ₹ crore) 71,971 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1164",
       "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, September 23, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM September 24, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad &nbs",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 75,000 Total amount of offers received (in ₹ crore) 71,971 Amount accepted (in ₹ crore) 71,971 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1164",
+      "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 75,000 Total amount of offers received (in ₹ crore) 87,993 Amount accepted (in ₹ crore) 75,026 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate 75.93 Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1170",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 75,000 Total amount of offers received (in ₹ crore) 71,971 Amount accepted (in ₹ crore) 71,971 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1164",
+      "new_value": "DOC September 2026 niti_admin Wed, 09/23/2026 - 14:54 Upload Supported Document DOC-PLAN-Sept-2026.pdf (336.68 KB) Choose Document Type Docplan Supported File Link September 2026",
+      "source_id": "niti_aayog"
     }
   ],
   "2a02aa9a9c9e": [
@@ -18767,6 +18406,13 @@
     },
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "ED alleged that Nishant Pitti facilitated the entry of proceeds of illegal betting into the Indian equity market under the guise of foreign portfolio investments",
+      "new_value": "Pitti, on behalf of the promoters of NzVs Easy Trip Planners Ltd., entered into a pre-arranged stock price manipulation deal with Amardeep Sharma to artificially inflate the share price and market capitalisation of IWs Easy Trip Planners Ltd., the chargesheet filed in a special PMLA court says",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "ED alleged that Nishant Pitti facilitated the entry of proceeds of illegal betting into the Indian equity market under the guise of foreign portfolio investments",
       "new_value": "Pitti, on behalf of the promoters of NzVs Easy Trip Planners Ltd., entered into a pre-arranged stock price manipulation deal with Amardeep Sharma to artificially inflate the share price and market capitalisation of IWs Easy Trip Planners Ltd., the chargesheet filed in a special PMLA court says",
@@ -18814,6 +18460,13 @@
       "field": "description",
       "old_value": "Where does the solution lie?Noel Tata and Natarajan Chandrasekaran.Imagine two investors controlling a listed company through a private holding company. One has a veto over how the holding company will vote on capital raising, borrowing, acquisitions and divestments at the listed company.Put that veto in the listed company and public shareholders must approve it. Put the equivalent right in the promoter’s unlisted parent and the shareholder vote may disappear.The location changes while the power",
       "new_value": "Five more years for N. Chandrasekaran as Tata Sons chairperson, contested by its majority owner amid a deep split on the eve of an RBI-ordered public listing. It’s the latest twist in the story of the Tata Group. Does it make a Tata deal with its minority partner more likely?",
+      "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Where does the solution lie?Noel Tata and Natarajan Chandrasekaran.Imagine two investors controlling a listed company through a private holding company. One has a veto over how the holding company will vote on capital raising, borrowing, acquisitions and divestments at the listed company.Put that veto in the listed company and public shareholders must approve it. Put the equivalent right in the promoter’s unlisted parent and the shareholder vote may disappear.The location changes while the power",
+      "new_value": "The reappointment of Chandrasekaran as Tata Sons chairman raises critical questions about governance, ownership, and regulatory oversight. The RBI’s recent decisions add complexity. So, who should lead Tata Sons? What should Tata Sons evolve into?",
       "source_id": "mint_opinion"
     }
   ],
@@ -18872,6 +18525,13 @@
     },
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "Court reduces convict Veer Pal’s sentence from five years to three after modifying his conviction in a 2002 assault case.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "Court reduces convict Veer Pal’s sentence from five years to three after modifying his conviction in a 2002 assault case.",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
@@ -18967,6 +18627,13 @@
       "old_value": "The appeal comes after a video from Bihar’s Jamui went viral on social media, purportedly showing a few men harassing and groping two minors.",
       "new_value": "For more than 75 years, UNICEF has led the global fight for children’s rights. Join us to have a real impact on the lives of the world’s children.",
       "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The appeal comes after a video from Bihar’s Jamui went viral on social media, purportedly showing a few men harassing and groping two minors.",
+      "new_value": "For more than 75 years, UNICEF has led the global fight for children’s rights. Join us to have a real impact on the lives of the world’s children.",
+      "source_id": "unicef_india"
     }
   ],
   "5ce99a6065e0": [
@@ -18975,15 +18642,6 @@
       "field": "description",
       "old_value": "Police officer who fails to furnish written grounds of arrest must face departmental inquiry: Supreme Court",
       "new_value": "The Supreme Court has held that when police seek to re-arrest an accused released due to their failure to furnish written grounds of arrest, the investigation must be transferred to another officer and a departmental inquiry initiated against the officers responsible for failing to furnish the grounds of arrest [Jaskaran Jeet Singh Deol v. State of Punjab].A Bench of Justices Ujjal Bhuyan and Atul S Chandurkar reiterated that a failure to furnish written grounds of arrest violates Article 22(1)",
-      "source_id": "barandbench"
-    }
-  ],
-  "0141321e6f7e": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The censor board has flagged that the film, ‘Prisoner No: 626710 is Present’, has not been certified.",
-      "new_value": "The Law and Society Committee (LawSoc) at National Law School of India University (NLSIU), Bengaluru has decided not to proceed with the screening of Lalit Vachani's documentary on jailed activist Umar Khalid, Prisoner No. 626710 is Present.In an email to students, LawSoc said that the planned screening had been met with serious threats of criminal action, intimidation, doxxing and other forms of harassment.\"As LawSoc, we continue to be undeterred and committed deeply to questions of freedom and",
       "source_id": "barandbench"
     }
   ],
@@ -18999,6 +18657,13 @@
   "1ef51379f911": [
     {
       "date": "2026-09-22",
+      "field": "description",
+      "old_value": "In 1995-96, Rekha Gupta became general secretary of DUSU. The following year, in 1996-97, she was elected president of the Delhi University Students’ Union.",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-23",
       "field": "description",
       "old_value": "In 1995-96, Rekha Gupta became general secretary of DUSU. The following year, in 1996-97, she was elected president of the Delhi University Students’ Union.",
       "new_value": "Chief Minister, Finance…",
@@ -19082,6 +18747,155 @@
       "old_value": "Beef in Tamil Nadu govt hostels? Minister says students sought it, decision soon",
       "new_value": "Beef in Tamil Nadu govt hostels Minister says students sought it decision soon",
       "source_id": "india_today"
+    }
+  ],
+  "df0f6c26d619": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The Sikkim High Court on Tuesday ordered a fact-finding inquiry into the failing infrastructure of the Sikkim Government Law College (SGLC), Gangtok. [In Re Dilapidated Condition of Infrastructure of the Sikkim Government Law College, Burtuk, Gangtok]A Division Bench of Chief Justice A Muhamed Mustaque and Justice Bhaskar Raj Pradhan directed the State government to get the building's structural stability assessed by an engineer by September 29.The Court also appreciated the student protest that",
+      "new_value": "The Sikkim High Court on Tuesday ordered a fact-finding inquiry into the failing infrastructure of the Sikkim Government Law College (SGLC), Gangtok. [In Re Dilapidated Condition of Infrastructure of the Sikkim Government Law College, Burtuk, Gangtok]A Division Bench of Chief Justice A Muhamed Mustaque and Justice Bhaskar Raj Pradhan also directed the State government to get the building's stability assessed by the Structural Engineer of the Buildings & Housing Department by September 29.The",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "sectors",
+      "old_value": "Child Rights & Youth, Education, Governance & Reform",
+      "new_value": "Education, Governance & Reform, Housing",
+      "source_id": "barandbench"
+    }
+  ],
+  "a15f0185276b": [
+    {
+      "date": "2026-09-23",
+      "field": "sectors",
+      "old_value": "Energy",
+      "new_value": "Energy, Labour & Employment, Social Protection",
+      "source_id": "centre_science_env"
+    }
+  ],
+  "d6ca87054eaa": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The winners will be announced at the award ceremony in Delhi in November.",
+      "new_value": "The winners will be announced at the award ceremony late this year.",
+      "source_id": "scroll"
+    }
+  ],
+  "57d83f74d0dd": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "CM Vijay will launch the expansion of the scheme at a school in Tiruvanmiyur in Chennai on September 22",
+      "new_value": "The scheme will be rolled out in all districts except Chengalpattu and Tiruppur, where the Model Code of Conduct is in force in view of the ensuing bypolls to Madurantakam and Dharapuram Assembly segments",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "c497bc6184e4": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "He also reviewed measures for dengue prevention",
+      "new_value": "CM directed officials to prepare a list of areas vulnerable to sea water intrusion and coastal erosion during the monsoon and ensure that weather and storm warnings reached fishermen and rehabilitation centres",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "21bf25aaa09b": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Smartphone screen protectors that do not meet certain specific requirements regarding thickness, dimensions, light transmission, defects and strength and that don’t carry the ‘Standard’ mark, will not be manufactured, stored for sale, imported, sold or distributed in India after April 1, 2027, the government has said in a notification Monday",
+      "new_value": "The mandatory BIS certification will be effective from April 1, 2027",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "6d5876c0d760": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Alleged irregularities in the appointment of Chief (Industry and Infrastructure Division) of Kerala State Planning Board",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
+    }
+  ],
+  "2a142939b18e": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 22 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 22 September 2026 | Daily Prelims Quiz appea",
+      "new_value": "Introducing QUED – Questions from Editorials (UPSC Editorials Quiz) , an innovative initiative from InsightsIAS. Considering the significant number of questions in previous UPSC Prelims from editorials, practicing MCQs from this perspective can provide an extra edge. While we cover important editorials separately in our Editorial Section and SECURE Initiative, adding QUED (UPSC Editorials … Continue reading \"UPSC Editorials Quiz : 23 September 2026\" The post UPSC Editorials Quiz : 2",
+      "source_id": "insights_ias"
+    }
+  ],
+  "3577594bc57a": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "‘We realised that, using the same principles and some of the same assets, we could enter a different line of business without much investment,’ said Anish Swadi, Senior President, Business Transformation",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    }
+  ],
+  "6098b4c40cfe": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Signatories argued that the campaign could provide political ammunition to the BJP and Sangh Parivar by allowing them to portray themselves as defenders of constitutional principles while suggesting that Muslims sought a separate legal framework",
+      "new_value": "Signatories argued that the campaign could provide political ammunition to the BJP and Sangh Parivar by allowing them to portray themselves as defenders of constitutional principles while suggesting...",
+      "source_id": "policyradar"
+    }
+  ],
+  "84793ee557ee": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
+      "new_value": "RBI finalises novation rules for OTC derivative contracts across foreign exchange, interest rate, government securities and credit derivatives.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
+      "new_value": "RBI/2026-27/263 FMRD.DIRD.No.04/14.03.066/2026-27 September 22, 2026 To All Eligible Market Participants Madam / Sir, Novation of OTC Derivative Contracts Please refer to the draft Reserve Bank of...",
+      "source_id": "policyradar"
+    }
+  ],
+  "24eff497a989": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The Supreme Court ordered Uttar Pradesh to replace the prosecutor in the Lakhimpur violence trial after concerns about crucial witnesses not being presented.",
+      "new_value": "Supreme Court directs Yogi govt to replace public prosecutor in Lakhimpur case | India News    hindustantimes.com",
+      "source_id": "policyradar"
+    }
+  ],
+  "a73a9c88a6e6": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "Challenge-based airport selection aims to cut construction time to 18 months; 200 heliports planned",
+      "new_value": "The Civil Aviation Ministry signed MoUs with 21 states and UTs for the next phase of the UDAN scheme, targeting 100 new airports and four crore passengers. The phase also introduces a Challenge Mode Portal to fast-track airport construction timelines.",
+      "source_id": "ibef"
+    }
+  ],
+  "97e13b7f79ba": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "This year, El Nino had brought rainfall deficit during southwest monsoon in India, including Tamil Nadu",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    }
+  ],
+  "751b819a1fd4": [
+    {
+      "date": "2026-09-23",
+      "field": "description",
+      "old_value": "The American national was arrested with six Ukrainians over alleged training of Myanmar-based armed groups.",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ]
 }
