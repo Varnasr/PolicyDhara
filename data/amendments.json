@@ -695,6 +695,13 @@
       "old_value": "Trade & Commerce",
       "new_value": "Finance & Economy, Governance & Reform",
       "source_id": "historical"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Unified insolvency resolution framework replacing multiple overlapping laws. Established NCLT as adjudicating authority with time-bound resolution (180+90 days) for corporate insolvency, improving India's ease of doing business.",
+      "new_value": "With the IBC completing 10 years of existence this year, it's a good time for policymakers to evaluate how well it serves the economy today. Three structural aspects deserve scrutiny, and Section 29A requires a reset to guard against its dampening effect on the deployment of risk capital.",
+      "source_id": "mint_opinion"
     }
   ],
   "d5d85bedba11": [
@@ -3102,13 +3109,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: MCA issues advisory - cautions public against high-return promises by non-compliant Nidhi Companies",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-09-24",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: MCA issues advisory - cautions public against high-return promises by non-compliant Nidhi Companies",
       "source_id": "pib_eac_pm"
     },
     {
@@ -3236,6 +3236,13 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "SEBI settles Hindenburg-linked disclosure cases against five Adani companies for ₹1.5 crore",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "SEBI settles Hindenburg-linked disclosure cases against five Adani companies for ₹1.5 crore",
+      "source_id": "policyradar"
     }
   ],
   "c0c8cf258433": [
@@ -3332,13 +3339,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-09-23",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3445,6 +3445,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3768,13 +3775,6 @@
       "source_id": "takshashila"
     },
     {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-09-23",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3881,6 +3881,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -4999,13 +5006,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-09-23",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5119,6 +5119,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -11833,13 +11840,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-09-17",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
@@ -11946,6 +11946,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -12283,13 +12290,6 @@
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "Government of India press release: DRI seizes 9.40 kg foreign-origin gold worth around Rs. 15 crore at Mumbai airport; three arrested",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: DRI seizes 9.40 kg foreign-origin gold worth around Rs. 15 crore at Mumbai airport; three arrested",
       "source_id": "pib_pm_speech"
     },
     {
@@ -12406,6 +12406,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
@@ -13827,13 +13834,6 @@
     },
     {
       "date": "2026-09-24",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-24",
       "field": "description",
       "old_value": "To identify and lease, on a long-term basis of 27 years (extendable by mutual consent), two agricultural land parcels of approximately 10 acres each in Issapur and Dhansa villages, Najafgarh-Delhi, for development of Agri-PV power plants",
       "new_value": "Selection of Solar Project Developers for setting up of 4083.75 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode at Constituent Colleges/Institutions of Central Agricultural University (CAU), Imphal - North Eastern Region",
@@ -13844,13 +13844,6 @@
       "field": "description",
       "old_value": "To identify and lease, on a long-term basis of 27 years (extendable by mutual consent), two agricultural land parcels of approximately 10 acres each in Issapur and Dhansa villages, Najafgarh-Delhi, for development of Agri-PV power plants",
       "new_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-24",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
       "source_id": "seci"
     },
     {
@@ -13913,20 +13906,6 @@
       "date": "2026-09-25",
       "field": "sectors",
       "old_value": "Agriculture, Energy, Rural Development",
-      "new_value": "Education, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "sectors",
-      "old_value": "Agriculture, Energy, Rural Development",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "sectors",
-      "old_value": "Agriculture, Energy, Rural Development",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
@@ -14128,6 +14107,34 @@
     },
     {
       "date": "2026-09-26",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Climate & Environment, Defence & Security, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Education, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-27",
       "field": "type",
       "old_value": "release",
       "new_value": "scheme",
@@ -14513,136 +14520,136 @@
   ],
   "5bde89036819": [
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initiatives related to women empowerment and cooperation in Kollam, Keralam",
-      "source_id": "pib_lokpal_of_india"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_textiles"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday celebrations of Mata Amritanandamayi Ji in Kollam, Keralam, as Chief Guest",
-      "source_id": "pib_lokpal_of_india"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_steel"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initiatives related to women empowerment and cooperation in Kollam, Keralam",
-      "source_id": "pib_national_financial_reporting_authority"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_tribal_affairs"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday celebrations of Mata Amritanandamayi Ji in Kollam, Keralam, as Chief Guest",
-      "source_id": "pib_national_financial_reporting_authority"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_urban_development"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initiatives related to women empowerment and cooperation in Kollam, Keralam",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
       "source_id": "pib_competition_commission_of_india"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday celebrations of Mata Amritanandamayi Ji in Kollam, Keralam, as Chief Guest",
-      "source_id": "pib_competition_commission_of_india"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_national_financial_reporting_authority"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initiatives related to women empowerment and cooperation in Kollam, Keralam",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
       "source_id": "pib_national_security_council_secretariat"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday celebrations of Mata Amritanandamayi Ji in Kollam, Keralam, as Chief Guest",
-      "source_id": "pib_national_security_council_secretariat"
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initiatives related to women empowerment and cooperation in Kollam, Keralam",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates development projects worth ₹1,472 crore and flagged off the country’s first LNG-powered train from Sabarmati Railway Station in Ahmedabad",
       "source_id": "pib_national_human_rights_commission"
     },
     {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday celebrations of Mata Amritanandamayi Ji in Kollam, Keralam, as Chief Guest",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday ...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initi...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday ...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initi...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday ...",
-      "source_id": "state_pib_punjab"
-    },
-    {
       "date": "2026-09-27",
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday ...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initi...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday ...",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
-      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah launches various initi...",
+      "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates developmen...",
       "source_id": "state_pib_karnataka"
     },
     {
@@ -14650,7 +14657,7 @@
       "field": "description",
       "old_value": "Government of India press release: Message of Union Home Minister and Minister of Cooperation Shri Amit Shah on Hindi Diwas 2026",
       "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah attends 73rd birthday ...",
-      "source_id": "state_pib_punjab"
+      "source_id": "state_pib_karnataka"
     }
   ],
   "1550389b1e23": [
@@ -15596,20 +15603,6 @@
       "source_id": "niti_aayog"
     },
     {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
-      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Trade & Commerce",
-      "new_value": "Trade & Commerce",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-09-23",
       "field": "description",
       "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
@@ -15828,6 +15821,20 @@
     },
     {
       "date": "2026-09-26",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Trade & Commerce",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
+      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-27",
       "field": "sectors",
       "old_value": "Finance & Economy, Trade & Commerce",
       "new_value": "Trade & Commerce",
@@ -16038,27 +16045,6 @@
       "date": "2026-09-25",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: ALRARI Chennai Conducts Outreach Drives across Tamil Nadu for 11th Ayurveda Day",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: BIS Chennai Organises ‘Manak Manthan’ on Draft Guidelines for Greenbelt Development i...",
       "source_id": "state_pib_punjab"
     },
@@ -16159,6 +16145,27 @@
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
       "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Veterinarians from across India attended a hands-on canine tracheal stenting workshop in Chennai, showcasing fluoroscopy-guided deployment on cadavers and live dogs.",
+      "source_id": "the_hindu_policy"
     },
     {
       "date": "2026-09-27",
@@ -16863,13 +16870,6 @@
       "date": "2026-09-21",
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
-      "new_value": "RBI/2026-27/262 DOR.AML.REC.223/14.01.005/2026-27 September 18, 2026 Reserve Bank of India (Rural Co-operative Banks   Know Your Customer) Amendment Directions...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
       "new_value": "RBI/2026-27/261 DOR.AML.REC.225/14.01.006/2026-27 September 18, 2026 Reserve Bank of India (Urban Co-operative Banks   Know Your Customer) Amendment Directions...",
       "source_id": "policyradar"
     },
@@ -16987,6 +16987,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/262 DOR.AML.REC.223/14.01.005/2026-27 September 18, 2026 Reserve Bank of India (Rural Co-operative Banks   Know Your Customer) Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
       "new_value": "RBI/2026-27/262 DOR.AML.REC.223/14.01.005/2026-27 September 18, 2026 Reserve Bank of India (Rural Co-operative Banks   Know Your Customer) Amendment Directions...",
@@ -17140,28 +17147,28 @@
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -17388,13 +17395,6 @@
       "source_id": "policyradar"
     },
     {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
-      "new_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk   under Basel III on February 17, 2023 , seeking stakeholder feedback.",
-      "source_id": "policyradar"
-    },
-    {
       "date": "2026-09-23",
       "field": "description",
       "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
@@ -17501,6 +17501,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
+      "new_value": "RBI/DOR/2026-27/472 DOR.MRG.REC.227/21-01-002/2026-27 September 21, 2026 Reserve Bank of India (Commercial Banks - Minimum Capital Requirements for Market Risk) Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "The Reserve Bank of India had issued Draft Guidelines on Minimum Capital Requirements for Market Risk – under Basel III on February 17, 2023, seeking stakeholder feedback. The draft guidelines proposed adoption of the Simplified Standardised Approach (SSA) for computing capital requirement for market risk under the revised Basel III framework. 2. Feedback received on the draft guidelines has been examined and consequent modifications have been suitably incorporated in the final Directions.",
       "new_value": "RBI/DOR/2026-27/472 DOR.MRG.REC.227/21-01-002/2026-27 September 21, 2026 Reserve Bank of India (Commercial Banks - Minimum Capital Requirements for Market Risk) Directions...",
@@ -17902,20 +17909,6 @@
   ],
   "84793ee557ee": [
     {
-      "date": "2026-09-24",
-      "field": "description",
-      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
-      "new_value": "RBI finalises novation rules for OTC derivative contracts across foreign exchange, interest rate, government securities and credit derivatives.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-24",
-      "field": "description",
-      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
-      "new_value": "RBI/2026-27/263 FMRD.DIRD.No.04/14.03.066/2026-27 September 22, 2026 To All Eligible Market Participants Madam / Sir, Novation of OTC Derivative Contracts Please refer to the draft Reserve Bank of...",
-      "source_id": "policyradar"
-    },
-    {
       "date": "2026-09-25",
       "field": "description",
       "old_value": "RBI notification: Novation of OTC Derivative Contracts",
@@ -18022,6 +18015,20 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
+      "new_value": "RBI/2026-27/263 FMRD.DIRD.No.04/14.03.066/2026-27 September 22, 2026 To All Eligible Market Participants Madam / Sir, Novation of OTC Derivative Contracts Please refer to the draft Reserve Bank of...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
+      "new_value": "RBI finalises novation rules for OTC derivative contracts across foreign exchange, interest rate, government securities and credit derivatives.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "RBI notification: Novation of OTC Derivative Contracts",
       "new_value": "RBI/2026-27/263 FMRD.DIRD.No.04/14.03.066/2026-27 September 22, 2026 To All Eligible Market Participants Madam / Sir, Novation of OTC Derivative Contracts Please refer to the draft Reserve Bank of...",
@@ -18360,6 +18367,13 @@
       "old_value": "Finance Minister Ms. Nirmala Sitharaman urged Indian industry to build scale alongside resilience, governance and innovation for Viksit Bharat 2047.",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Finance Minister Ms. Nirmala Sitharaman urged Indian industry to build scale alongside resilience, governance and innovation for Viksit Bharat 2047.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "bb0e68ed23e2": [
@@ -18523,6 +18537,13 @@
       "old_value": "Consumer Education Workshop at Amreli (Gujarat) by Reliance Jio Infocomm Ltd nitinkumar Thu, 09/24/2026 - 12:08 Date Sun, 09/27/2026 - 12:00 District Amreli Division Consumer Affairs Date & Time Sun, 09/27/2026 - 12:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Mohamad Pathan Contact person Email mohamad.pathan@ril.com Event Category COP By TRAI Venue Details 2nd Floor, Lifeline Corner, Swaminarayan Mandir Road, Manekpara, Amreli, Gujarat - 365601 Event",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Amreli (Gujarat) by Reliance Jio Infocomm Ltd nitinkumar Thu, 09/24/2026 - 12:08 Date Sun, 09/27/2026 - 12:00 District Amreli Division Consumer Affairs Date & Time Sun, 09/27/2026 - 12:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Mohamad Pathan Contact person Email mohamad.pathan@ril.com Event Category COP By TRAI Venue Details 2nd Floor, Lifeline Corner, Swaminarayan Mandir Road, Manekpara, Amreli, Gujarat - 365601 Event",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "7b1c63acefad": [
@@ -18607,6 +18628,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "MY Bharat has crossed 3 crore registered youth in less than three years, expanding access to experiential learning, volunteering, leadership, civic engagement and youth-led nation-building opportunities.",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "MY Bharat has crossed 3 crore registered youth in less than three years, expanding access to experiential learning, volunteering, leadership, civic engagement and youth-led nation-building opportunities.",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
@@ -18756,137 +18784,137 @@
   ],
   "0002b665aebf": [
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_tribal_affairs"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
-      "source_id": "pib_special_service_and_features"
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_urban_development"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
       "source_id": "pib_upsc"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
       "source_id": "pib_ifsc_authority"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
       "source_id": "pib_competition_commission_of_india"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
       "source_id": "pib_national_security_council_secretariat"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Government of India press release: Union Minister Shri Rajiv Ranjan Singh alias Lalan Singh to Launch Livestock Insurance Portal in New Delhi on 28 September 2026",
       "source_id": "pib_national_human_rights_commission"
     },
     {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Punjab SSSB Recruitment 2026 has announced 70 Group C vacancies. Check important dates, eligibility criteria, application fee and more details here.",
-      "source_id": "ndtv_india"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Addressing a rally in Hooghly, Banerjee said, \"Why was the SIR conducted? It was forced upon us solely to capture Bengal, as they couldn't win otherwise.\"",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "The Ladakh activist says civil society groups may constitute a “people’s tribunal” to probe the “police excess and firing” if the panel does not table its report soon",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Police say there is no permission for the protest, warn of stern action against those violating Section 30 of the Police Act",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "The Ladakh activist says civil society groups may constitute a “people’s tribunal” to probe the “police excess and firing” if the panel does not table its report soon",
-      "source_id": "policyradar"
-    },
-    {
       "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Vice-President C. P. Radhakrishnan to visit Keralam on September 27",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Mehbooba Mufti said the protest has been organised by the Monitoring Committee for Indian Muslims",
+      "new_value": "A total of 10,003 voters are expected to cast their votes in the interim polls necessitated for various reasons",
       "source_id": "the_hindu_policy"
     },
     {
       "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Key leaders, including Rahul Gandhi and Mamata Banerjee, are expected to attend amid criticism of the Election Commission's recent actions.",
-      "source_id": "hindustan_times"
+      "new_value": "The public interest litigation (PIL) filed by advocate Anjan Datta has challenged the Centre's September 14 notification and the MDR framework announced on September 15",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "Tithi: Bhadrapada Bahula Vidiya till 7.10 pm",
+      "source_id": "deccan_chronicle"
     },
     {
       "date": "2026-09-27",
@@ -18987,52 +19015,6 @@
       "source_id": "barandbench"
     }
   ],
-  "16df68173504": [
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "“Train No. 19427 Bhuj-Barauni Amrit Bharat Express will depart from Bhuj at 5:30 p.m. and reach Barauni at 04:05 a.m.. In the return direction, Train No. 19428 Barauni-Bhuj Amrit Bharat Express will depart Barauni at 11.55 pm and reach Bhuj at :15 pm,” says a press statement from the Railway Ministry",
-      "new_value": "Government of India press release: Indian Railways to Introduce New Tri-Weekly Amrit Bharat Express between Bhuj and Barauni",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "“Train No. 19427 Bhuj-Barauni Amrit Bharat Express will depart from Bhuj at 5:30 p.m. and reach Barauni at 04:05 a.m.. In the return direction, Train No. 19428 Barauni-Bhuj Amrit Bharat Express will depart Barauni at 11.55 pm and reach Bhuj at :15 pm,” says a press statement from the Railway Ministry",
-      "new_value": "Government of India press release: Indian Railways to Introduce New Tri-Weekly Amrit Bharat Express between Bhuj and Barauni",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "“Train No. 19427 Bhuj-Barauni Amrit Bharat Express will depart from Bhuj at 5:30 p.m. and reach Barauni at 04:05 a.m.. In the return direction, Train No. 19428 Barauni-Bhuj Amrit Bharat Express will depart Barauni at 11.55 pm and reach Bhuj at :15 pm,” says a press statement from the Railway Ministry",
-      "new_value": "Government of India press release: Indian Railways to Introduce New Tri-Weekly Amrit Bharat Express between Bhuj and Barauni",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "“Train No. 19427 Bhuj-Barauni Amrit Bharat Express will depart from Bhuj at 5:30 p.m. and reach Barauni at 04:05 a.m.. In the return direction, Train No. 19428 Barauni-Bhuj Amrit Bharat Express will depart Barauni at 11.55 pm and reach Bhuj at :15 pm,” says a press statement from the Railway Ministry",
-      "new_value": "Government of India press release: Indian Railways to Introduce New Tri-Weekly Amrit Bharat Express between Bhuj and Barauni",
-      "source_id": "state_pib_assam"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "“Train No. 19427 Bhuj-Barauni Amrit Bharat Express will depart from Bhuj at 5:30 p.m. and reach Barauni at 04:05 a.m.. In the return direction, Train No. 19428 Barauni-Bhuj Amrit Bharat Express will depart Barauni at 11.55 pm and reach Bhuj at :15 pm,” says a press statement from the Railway Ministry",
-      "new_value": "Government of India press release: Indian Railways to Introduce New Tri-Weekly Amrit Bharat Express between Bhuj and Barauni",
-      "source_id": "state_pib_assam"
-    }
-  ],
-  "c1c2131752fa": [
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Jantar Mantar news live updates: Protesters seeking the arrest and resignation of Chief Election Commissioner (CEC) Gyanesh Kumar were reportedly detained by the Delhi Police during a protest at Jantar Mantar on Friday. TMC MP Mahua Moitra also joined the demonstration in the national capital.",
-      "new_value": "Jantar Mantar news: Protesters seeking the arrest and resignation of Chief Election Commissioner (CEC) Gyanesh Kumar were reportedly detained by the Delhi Police during a protest at Jantar Mantar on Friday. TMC MP Mahua Moitra also joined the demonstration in the national capital.",
-      "source_id": "hindustan_times"
-    }
-  ],
   "9c5f3722c3a7": [
     {
       "date": "2026-09-25",
@@ -19040,33 +19022,6 @@
       "old_value": "Digital Connectivity Rating Platform nitinkumar Fri, 09/25/2026 - 16:35 image Link Click Here Banner Order 60",
       "new_value": "TRAI Launches Digital Connectivity Rating Platform nitinkumar Fri, 09/25/2026 - 18:00 File Press Release No. 122 (1.28 MB) Date Fri, 09/25/2026 - 12:00",
       "source_id": "trai"
-    }
-  ],
-  "22ad949124df": [
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "The Supreme Court on Friday relaxed the bail conditions imposed on Meeran Haider, an accused in the 2020 Delhi riots larger conspiracy case, allowing him to mark his presence at the police station once a week instead of twice [Meeran Haider v. State]. Haider was granted bail by the top court in January this year along with four co-accused - Gulfisha Fatima, Shifa ur Rehman, Shadab Ahmed, and Mohd Saleem Khan. However, the top court had refused bail to Umar Khalid and Sharjeel Imam in the same ma",
-      "new_value": "Bench reduces Meeran Haider’s mandatory police station appearances from twice a week to once weekly",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "40af381ac88a": [
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "At a campaign meeting held in Madurantanakam for the Assembly byelection, the Chief Minister says the accused was ruining the lives of young girls for years. The case was registered during DMK rule, but it was covered up",
-      "new_value": "Tamil Nadu chief minister C Joseph Vijay on Friday launched a sharp attack on Dravida Munnetra Kazhagam (DMK) and All India Anna Dravida Munnetra Kazhagam (AIADMK), accusing the state’s opposition parties of colluding to hide the Pocso act case in connection with granite baron R Veeramani, questioning their “silence” over the matter",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "295ac797eafe": [
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Union cabinet minister Chirag Paswan asks Chief Election Commissioner Gyanesh Kumar to clear doubts over EC, SIR",
-      "new_value": "As the Opposition continues to demand chief election commissioner Gyanesh Kumar’s resignation in light of recent revelations about dissent in the poll panel, union cabinet minister Chirag Paswan, whose party the LJP is an ally of the Bharatiya Janata Party, also went public with his concerns",
-      "source_id": "hindustan_times"
     }
   ],
   "f8e1ea594811": [
@@ -19287,6 +19242,13 @@
       "old_value": "Edible oilseeds farmers view the step as an attack on their livelihood; they fear that this decision is a prelude to the proposed signing of a trade deal with United States, which is the largest producer of soybean.",
       "new_value": "The Centre expects that the reduction in BCD on crude edible oils will lower their landed cost and facilitate transmission of the benefit through the domestic supply chain",
       "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Edible oilseeds farmers view the step as an attack on their livelihood; they fear that this decision is a prelude to the proposed signing of a trade deal with United States, which is the largest producer of soybean.",
+      "new_value": "The Centre expects that the reduction in BCD on crude edible oils will lower their landed cost and facilitate transmission of the benefit through the domestic supply chain",
+      "source_id": "the_hindu_business"
     }
   ],
   "cb671938a366": [
@@ -19299,6 +19261,13 @@
     },
     {
       "date": "2026-09-26",
+      "field": "description",
+      "old_value": "The committees, constituted on the directions of chief minister Rekha Gupta, will coordinate with various departments",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "The committees, constituted on the directions of chief minister Rekha Gupta, will coordinate with various departments",
       "new_value": "Chief Minister, Finance…",
@@ -19353,6 +19322,13 @@
       "old_value": "Mr Scindia is a long-standing friend of mine, a responsive public servant, and a competent minister. This incident is, therefore, not about him, but about the larger lesson to be derived from this incident. Moreover, one should not draw the simplistic conclusion that the road was sanctioned because of the threat. In fact, reports say that its DPR had been prepared. Mr Scindia’s intentions may, therefore, not be in question",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Mr Scindia is a long-standing friend of mine, a responsive public servant, and a competent minister. This incident is, therefore, not about him, but about the larger lesson to be derived from this incident. Moreover, one should not draw the simplistic conclusion that the road was sanctioned because of the threat. In fact, reports say that its DPR had been prepared. Mr Scindia’s intentions may, therefore, not be in question",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
     }
   ],
   "b7230cd76e3e": [
@@ -19396,6 +19372,13 @@
       "old_value": "To achieve this, the country must put greater effort into growing multiple sectors, including startups, using technological innovations",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "To achieve this, the country must put greater effort into growing multiple sectors, including startups, using technological innovations",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
     }
   ],
   "5935b13dfd2f": [
@@ -19423,6 +19406,49 @@
       "old_value": "The Delhi High Court has held that a marriage recognised under Muslim personal law does not confer a man entering such a marriage immunity from criminal prosecution for having sexual intercourse with a wife under 18 years [Bilal & Anr v The State Govt of NCT of Delhi through SHO & Ors]. Justice Sanjeev Narula ruled that personal law cannot override the protections guaranteed under the Protection of Children from Sexual Offences Act, 2012 (POCSO Act) and the Bharatiya Nyaya Sanh",
       "new_value": "Personal laws cannot be a ground to seek exemption from criminal liability under penal statutes, the Delhi high court held as it directed a Muslim man to face trial under the protection of children from sexual offences (Pocso) Act for establishing sexual relations with his underage wife",
       "source_id": "hindustan_times"
+    }
+  ],
+  "99c9af547a2b": [
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Left parties, workers and farmers’ groups step up protests; CPI(M) claims survey found deleted voters still residing in Bihar villages",
+      "new_value": "Left parties, workers and farmers’ groups step up protests; CPI(ML) claims survey found deleted voters still residing in Bihar villages",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "12a1f51574ef": [
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "India is strengthening global economic integration through trade partnerships, supply chain participation and deep-tech capabilities, with semiconductor demand and the start-up ecosystem creating new growth opportunities.",
+      "new_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Highlights Uttar Pradesh’s ...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "India is strengthening global economic integration through trade partnerships, supply chain participation and deep-tech capabilities, with semiconductor demand and the start-up ecosystem creating new growth opportunities.",
+      "new_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal Highlights Uttar Pradesh’s ...",
+      "source_id": "state_pib_karnataka"
+    }
+  ],
+  "0d9f9bca82c4": [
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Taking serious note of illegal constructions and the conversion of residential properties for commercial use, the Supreme Court has directed the Uttar Pradesh government to seal over 16,000 properties in Meerut and demolish unauthorised structures.",
+      "new_value": "The Court also directed the authorities to demolish every illegal structure at Meerut's Uldepur and remove the debris on a daily basis.",
+      "source_id": "livelaw"
+    }
+  ],
+  "8e727909699a": [
+    {
+      "date": "2026-09-27",
+      "field": "description",
+      "old_value": "What did the Karnataka Legislature decide on September 22? Why has the State repeatedly rejected the ESA draft? What did the Kasturirangan Committee recommend? How much of the Western Ghats was proposed as ESA? What has Karnataka proposed as the way forward?",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
     }
   ]
 }
