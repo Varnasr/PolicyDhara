@@ -770,13 +770,6 @@
       "field": "description",
       "old_value": "Incentive scheme across 14 key sectors including electronics, pharmaceuticals, automobiles, and textiles with total outlay of Rs 1.97 lakh crore. Aims to boost domestic manufacturing, create jobs, and reduce import dependence.",
       "new_value": "Government of India press release: Production Linked Incentive Schemes have Strengthened India’s Pharmaceutical, Bulk Drugs and Medical Devices Manufacturing Ecosystem",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Incentive scheme across 14 key sectors including electronics, pharmaceuticals, automobiles, and textiles with total outlay of Rs 1.97 lakh crore. Aims to boost domestic manufacturing, create jobs, and reduce import dependence.",
-      "new_value": "Government of India press release: Production Linked Incentive Schemes have Strengthened India’s Pharmaceutical, Bulk Drugs and Medical Devices Manufacturing Ecosystem",
       "source_id": "pib_tourism"
     },
     {
@@ -904,6 +897,13 @@
       "old_value": "Incentive scheme across 14 key sectors including electronics, pharmaceuticals, automobiles, and textiles with total outlay of Rs 1.97 lakh crore. Aims to boost domestic manufacturing, create jobs, and reduce import dependence.",
       "new_value": "The government launched the schemes in 2020 for 14 sectors, with an approved outlay of Rs 1.91 lakh crore, to enhance manufacturing capabilities, attract investment, promote exports, generate employment, and reduce import dependence",
       "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Incentive scheme across 14 key sectors including electronics, pharmaceuticals, automobiles, and textiles with total outlay of Rs 1.97 lakh crore. Aims to boost domestic manufacturing, create jobs, and reduce import dependence.",
+      "new_value": "PLI Schemes are strengthening India’s pharmaceutical, bulk drugs and medical devices manufacturing ecosystem by supporting investment, domestic production, employment, exports and technology adoption.",
+      "source_id": "ibef"
     }
   ],
   "59001c1a6b60": [
@@ -3346,13 +3346,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-09-23",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-09-24",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3459,6 +3452,13 @@
     },
     {
       "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3775,13 +3775,6 @@
       "source_id": "takshashila"
     },
     {
-      "date": "2026-09-23",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-09-24",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3895,6 +3888,13 @@
     },
     {
       "date": "2026-09-27",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -5009,13 +5009,6 @@
       "date": "2026-09-23",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
-      "date": "2026-09-23",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Finance Ministry schedules month-long consultations with ministries till November 13",
       "source_id": "deccan_chronicle"
     },
@@ -5133,6 +5126,13 @@
     },
     {
       "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -5304,29 +5304,6 @@
       "old_value": "Agriculture, Digital & Technology, Finance & Economy",
       "new_value": "Agriculture, Finance & Economy",
       "source_id": "historical"
-    }
-  ],
-  "6a220a87ab18": [
-    {
-      "date": "2026-08-18",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 96,914 Amount accepted (in ₹ crore) 96,914 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/907",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, August 18, 2026, as under: Sl. No. Notified Amount(₹ crore) Tenor (day) Window Timing Date of Reversal 1 1,50,000 1 09:30 AM to 10:00 AM August 19, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad  &nb",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-18",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 96,914 Amount accepted (in ₹ crore) 96,914 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/907",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Second Variable Rate Reverse Repo (VRRR) auction on Tuesday, August 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 12:00 Noon to 12:30 PM August 19, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad &n",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-18",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 96,914 Amount accepted (in ₹ crore) 96,914 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/907",
-      "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 82,788 Amount accepted (in ₹ crore) 82,788 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)    Press Release: 2026-2027/914",
-      "source_id": "rbi"
     }
   ],
   "e4f3ee0774fb": [
@@ -5531,325 +5508,6 @@
       "source_id": "epod_harvard"
     }
   ],
-  "d603ee71bbe8": [
-    {
-      "date": "2026-08-18",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Chatra (Jharkhand) by Reliance Jio Infocomm Ltd nitinkumar Tue, 08/18/2026 - 16:16 Date Sat, 08/22/2026 - 12:00 District Chatra Division Consumer Affairs Date & Time Sat, 08/22/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Mr Vishal Sinha Contact person Email vishal1.sinha@ril.com Event Category COP By TRAI Venue Details Jio Point, Near to Gandouri Mandir, Opposite to Girls High School, Chatra – 825401 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Chatra (Jharkhand) by Reliance Jio Infocomm Ltd nitinkumar Tue, 08/18/2026 - 16:16 Date Sat, 08/22/2026 - 12:00 District Chatra Division Consumer Affairs Date & Time Sat, 08/22/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Mr Vishal Sinha Contact person Email vishal1.sinha@ril.com Event Category COP By TRAI Venue Details Jio Point, Near to Gandouri Mandir, Opposite to Girls High School, Chatra – 825401 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Chatra (Jharkhand) by Reliance Jio Infocomm Ltd nitinkumar Tue, 08/18/2026 - 16:16 Date Sat, 08/22/2026 - 12:00 District Chatra Division Consumer Affairs Date & Time Sat, 08/22/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Mr Vishal Sinha Contact person Email vishal1.sinha@ril.com Event Category COP By TRAI Venue Details Jio Point, Near to Gandouri Mandir, Opposite to Girls High School, Chatra – 825401 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Chatra (Jharkhand) by Reliance Jio Infocomm Ltd nitinkumar Tue, 08/18/2026 - 16:16 Date Sat, 08/22/2026 - 12:00 District Chatra Division Consumer Affairs Date & Time Sat, 08/22/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Mr Vishal Sinha Contact person Email vishal1.sinha@ril.com Event Category COP By TRAI Venue Details Jio Point, Near to Gandouri Mandir, Opposite to Girls High School, Chatra – 825401 Event From Cons",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "description",
-      "old_value": "Consumer Education Workshop at Chatra (Jharkhand) by Reliance Jio Infocomm Ltd nitinkumar Tue, 08/18/2026 - 16:16 Date Sat, 08/22/2026 - 12:00 District Chatra Division Consumer Affairs Date & Time Sat, 08/22/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Mr Vishal Sinha Contact person Email vishal1.sinha@ril.com Event Category COP By TRAI Venue Details Jio Point, Near to Gandouri Mandir, Opposite to Girls High School, Chatra – 825401 Event From Cons",
-      "new_value": "Consumer Education Workshop at Ballari (Karnataka) by Reliance Jio Infocomm Ltd nitinkumar Wed, 08/19/2026 - 17:59 Date Fri, 09/11/2026 - 12:00 District Ballari Division Consumer Affairs Date & Time Fri, 09/11/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name RAMASUBBAREDDY Contact person Email ramasubba.reddy@ril.com Event Category COP By TRAI Venue Details Jio Center, Cmc Ward, 519/2, No-9, OPD Colony, CMC Ward No-25, Infatry Rd KHB Colony, Netaji na",
-      "source_id": "trai"
-    }
-  ],
-  "669b586224d0": [
-    {
-      "date": "2026-09-05",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-05",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-05",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-05",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-06",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-07",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:03 Choose Report Type Publications Publication Date Tue, 08/18/2026 - 14:03 Report Upload download (14.87 MB) vertical Skill Development, Labour & Employment PDF Text REIMAGINING SKILLING FOR VIKSIT BHARAT@2047 While due care has been exercised to prepare this report by compiling data from various sources, NITI Aayog does not confirm the authenticity of the data and the accuracy of the methodology used for research a",
-      "new_value": "Reimagining Skilling for Viksit Bharat@2047 niti_admin Tue, 08/18/2026 - 14:08 Weight 0 Links /sites/default/files/2026-08/Reimagining-Skilling-for-Viksit-Bharat-2047.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment, Science & Innovation",
-      "new_value": "Labour & Employment",
-      "source_id": "niti_aayog"
-    }
-  ],
   "5248cf2f3931": [
     {
       "date": "2026-08-19",
@@ -5906,66 +5564,6 @@
       "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 1,25,825 Amount accepted (in ₹ crore) 1,25,825 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/922",
       "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,00,000 Total amount of offers received (in ₹ crore) 1,36,732 Amount accepted (in ₹ crore) 1,00,032 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate 72.31 Ajit Prasad           Deputy General Manager (Communications)    Press Release: 2026-2027/928",
       "source_id": "rbi"
-    }
-  ],
-  "500326f002bc": [
-    {
-      "date": "2026-08-19",
-      "field": "description",
-      "old_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15703 & 15704 of 2026 dated August 18, 2026 against Sonalben Amitbhai Khalas (PAN: HVUPK8521G) [Defaulter] In the matter of trading activity in the scrip of ANI Integrated Services Limited under Recovery Certificate No. 9230 of 2026",
-      "new_value": "Notice of Attachment of Bank and Post Office Accounts 15685 of 2026 dated August 17, 2026 against NISHAA ANAND (PAN: AJWPA4527H) [Defaulter] in the matter of ISO at BSE- NISHAA ANAND: under Recovery Certificate No. 9271 of 2026.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15703 & 15704 of 2026 dated August 18, 2026 against Sonalben Amitbhai Khalas (PAN: HVUPK8521G) [Defaulter] In the matter of trading activity in the scrip of ANI Integrated Services Limited under Recovery Certificate No. 9230 of 2026",
-      "new_value": "Notice of Attachment of Demat account dated 19.08.2026 in RC No. 9249 of 2026",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15703 & 15704 of 2026 dated August 18, 2026 against Sonalben Amitbhai Khalas (PAN: HVUPK8521G) [Defaulter] In the matter of trading activity in the scrip of ANI Integrated Services Limited under Recovery Certificate No. 9230 of 2026",
-      "new_value": "Notice of Attachment of Demat account dated 19.08.2026 in RC No. 9248 of 2026",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15703 & 15704 of 2026 dated August 18, 2026 against Sonalben Amitbhai Khalas (PAN: HVUPK8521G) [Defaulter] In the matter of trading activity in the scrip of ANI Integrated Services Limited under Recovery Certificate No. 9230 of 2026",
-      "new_value": "Notice of Attachment of Demat account dated 19.08.2026 in RC No. 9241 of 2026",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15703 & 15704 of 2026 dated August 18, 2026 against Sonalben Amitbhai Khalas (PAN: HVUPK8521G) [Defaulter] In the matter of trading activity in the scrip of ANI Integrated Services Limited under Recovery Certificate No. 9230 of 2026",
-      "new_value": "Notice of Attachment of Bank account dated 19.08.2026 in RC No. 9249 of 2026",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15703 & 15704 of 2026 dated August 18, 2026 against Sonalben Amitbhai Khalas (PAN: HVUPK8521G) [Defaulter] In the matter of trading activity in the scrip of ANI Integrated Services Limited under Recovery Certificate No. 9230 of 2026",
-      "new_value": "Notice of Attachment of Bank account dated 19.08.2026 in RC No. 9248 of 2026",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15703 & 15704 of 2026 dated August 18, 2026 against Sonalben Amitbhai Khalas (PAN: HVUPK8521G) [Defaulter] In the matter of trading activity in the scrip of ANI Integrated Services Limited under Recovery Certificate No. 9230 of 2026",
-      "new_value": "Notice of Attachment of Bank account dated 19.08.2026 in RC No. 9241 of 2026",
-      "source_id": "sebi"
-    }
-  ],
-  "fd8500c708ff": [
-    {
-      "date": "2026-08-19",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 04 Entries",
-      "new_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 21 Entries",
-      "source_id": "rbi_notifications"
     }
   ],
   "a6f6f1476869": [
@@ -6302,22 +5900,6 @@
       "source_id": "sebi"
     }
   ],
-  "66488ad7e05d": [
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Demand in case of Recovery Certificate No. 9283 of 2026 dated August 18, 2026 against Saachi Overseas (ABQFS9871C)",
-      "new_value": "Notice of Demand dated 19.08.2026 in RC No. 9287 of 2026",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notice of Demand in case of Recovery Certificate No. 9283 of 2026 dated August 18, 2026 against Saachi Overseas (ABQFS9871C)",
-      "new_value": "Notice of Demand dated 19.08.2026 in RC No. 9286 of 2026",
-      "source_id": "sebi"
-    }
-  ],
   "bfd0366f1f67": [
     {
       "date": "2026-08-20",
@@ -6362,15 +5944,6 @@
       "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 50,000 Total amount of offers received (in ₹ crore) 53,938 Amount accepted (in ₹ crore) 50,013 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate 92.7 Ajit Prasad           Deputy General Manager (Communications)    Press Release: 2026-2027/931",
       "new_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 95,970 Amount accepted (in ₹ crore) 95,970 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/937",
       "source_id": "rbi"
-    }
-  ],
-  "a647c1191725": [
-    {
-      "date": "2026-08-20",
-      "field": "description",
-      "old_value": "Notices of Attachment of Bank and Post Office accounts and Demat Accounts and mutual Fund Folios with AP Nos. 15693 and 15694 of 2026 dated August 18, 2026 against Manoj Rameshbhai Solanki (PAN: GEMPS6325N) (‘Defaulter’) in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited) RC No. 9213 of 2026",
-      "new_value": "Remittance order in Recovery Certificate No. 9166 of 2026 issued against Manoj Rameshbhai Solanki (PAN- GEMPS6325N) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
-      "source_id": "sebi"
     }
   ],
   "f6d1a548dddf": [
@@ -7358,73 +6931,6 @@
       "old_value": "Consumer Awareness Program at Muktsar (Punjab) by Indian Institute Of Technology & Entrepreneur Development (IITED), Punjab nitinkumar Fri, 08/21/2026 - 11:53 Date Fri, 09/04/2026 - 12:00 District Sri Muktsar Sahib Division Consumer Affairs Date & Time Fri, 09/04/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Government Polytechnic College, Fa",
       "new_value": "Consumer Awareness Program at East Delhi (Delhi) by Indian Institute of Technology & Entrepreneur Development (IITED), Delhi nitinkumar Mon, 08/24/2026 - 17:57 Date Sat, 08/29/2026 - 12:00 District East Delhi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Dr. R.D. Usmani Contact person Email iited_mngo@rediffmail.com Event Category COP By TRAI Venue Details Rajkiya Sarvodaya Kanya Vidyalaya, Shaka",
       "source_id": "trai"
-    }
-  ],
-  "f2a5148855b0": [
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "The result of the auction of State Government Securities held on August 18, 2026, is as under: (Amount in ₹ Crore)   ASSAM SGS 2036 BIHAR SGS 2041 BIHAR SGS 2044 DELHI SGS 2033 Notified Amount 1000 1000 1000 500 Tenor Re-issue of 7.56% ASSAM SGS 2036 issued on 22-JUL-2026 Re-issue of 7.66% BIHAR SGS 2041 issued on 22-JUL-2026 Re-issue of 7.71% BIHAR SGS 2044 issued on 22-JUL-2026 Re-issue of 7.31% DELHI SGS 2033 issued on 22-JUL-2026 Competitive Bids Received       &nbs",
-      "new_value": "The result of the auction of State Government Securities held on August 25, 2026, is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2039 ANDHRA PRADESH SGS 2051 GUJARAT SGS 2036 GUJARAT SGS 2041 Notified Amount 1000 1600 1000 1000 Tenor Re-issue of 7.56% ANDHRA SGS 2039 issued on 01-JUL-2026 Re-issue of 7.68% ANDHRA SGS 2051 issued on 29-JUL-2026 10 -Years 15 -Years Competitive Bids Received         (i) No. 81 35 87 70 (ii) Amount 2055.500 4963 5290 4000 Cut-of",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-01",
-      "field": "description",
-      "old_value": "The result of the auction of State Government Securities held on August 25, 2026, is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2039 ANDHRA PRADESH SGS 2051 GUJARAT SGS 2036 GUJARAT SGS 2041 Notified Amount 1000 1600 1000 1000 Tenor Re-issue of 7.56% ANDHRA SGS 2039 issued on 01-JUL-2026 Re-issue of 7.68% ANDHRA SGS 2051 issued on 29-JUL-2026 10 -Years 15 -Years Competitive Bids Received         (i) No. 81 35 87 70 (ii) Amount 2055.500 4963 5290 4000 Cut-of",
-      "new_value": "The result of the auction of State Government Securities held on September 01, 2026, is as under: (Amount in ₹ Crore)   ASSAM SGS 2046 BIHAR SGS 2035 BIHAR SGS 2051 CHHATTISGARH SGS 2035 Notified Amount 1000 800 1200 500 Tenor Re-issue of 7.62% ASSAM SGS 2046 issued on 21-JAN-2026 Re-issue of 7.42% BIHAR SGS 2035 issued on 08-JUL-2026 25 -Years Re-issue of 7.40% CHHATTISGARH SGS 2035 issued on 08-JUL-2026 Competitive Bids Received         (i) No. 54 43 28 39 (ii) A",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "The result of the auction of State Government Securities held on September 01, 2026, is as under: (Amount in ₹ Crore)   ASSAM SGS 2046 BIHAR SGS 2035 BIHAR SGS 2051 CHHATTISGARH SGS 2035 Notified Amount 1000 800 1200 500 Tenor Re-issue of 7.62% ASSAM SGS 2046 issued on 21-JAN-2026 Re-issue of 7.42% BIHAR SGS 2035 issued on 08-JUL-2026 25 -Years Re-issue of 7.40% CHHATTISGARH SGS 2035 issued on 08-JUL-2026 Competitive Bids Received         (i) No. 54 43 28 39 (ii) A",
-      "new_value": "The result of the auction of State Government Securities held on September 08, 2026, is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2035 ANDHRA PRADESH SGS 2043 ANDHRA PRADESH SGS 2056 GOA SGS 2036 Notified Amount 1000 1200 1600 100 Tenor Re-issue of 7.46% ANDHRA SGS 2035 issued on 12-AUG-2026 Re-issue of 7.65% ANDHRA SGS 2043 issued on 11-MAR-2026 Re-issue of 7.64% ANDHRA SGS 2056 issued on 12-AUG-2026 10 -Years Competitive Bids Received         (i) No. 61",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-15",
-      "field": "description",
-      "old_value": "The result of the auction of State Government Securities held on September 08, 2026, is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2035 ANDHRA PRADESH SGS 2043 ANDHRA PRADESH SGS 2056 GOA SGS 2036 Notified Amount 1000 1200 1600 100 Tenor Re-issue of 7.46% ANDHRA SGS 2035 issued on 12-AUG-2026 Re-issue of 7.65% ANDHRA SGS 2043 issued on 11-MAR-2026 Re-issue of 7.64% ANDHRA SGS 2056 issued on 12-AUG-2026 10 -Years Competitive Bids Received         (i) No. 61",
-      "new_value": "The result of the auction of State Government Securities held on September 15, 2026, is as under: (Amount in ₹ Crore)   ARUNACHAL PRADESH SGS 2046 ASSAM SGS 2036* ASSAM SGS 2041* BIHAR SGS 2041 Notified Amount 600 600 700 1000 Tenor 20 -Years Re-issue of 7.66% ASSAM SGS 2036 issued on 17-JUN-2026 15 -Years Re-issue of 7.66% BIHAR SGS 2041 issued on 22-JUL-2026 Competitive Bids Received         (i) No. 32 29 28 56 (ii) Amount 2270 960 800 1930 Cut-off Yield (%) 7.94",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "The result of the auction of State Government Securities held on September 15, 2026, is as under: (Amount in ₹ Crore)   ARUNACHAL PRADESH SGS 2046 ASSAM SGS 2036* ASSAM SGS 2041* BIHAR SGS 2041 Notified Amount 600 600 700 1000 Tenor 20 -Years Re-issue of 7.66% ASSAM SGS 2036 issued on 17-JUN-2026 15 -Years Re-issue of 7.66% BIHAR SGS 2041 issued on 22-JUL-2026 Competitive Bids Received         (i) No. 32 29 28 56 (ii) Amount 2270 960 800 1930 Cut-off Yield (%) 7.94",
-      "new_value": "The result of the auction of State Government Securities held on September 22, 2026, is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2039 ANDHRA PRADESH SGS 2051 GOA SGS 2041 GUJARAT SGS 2036 Notified Amount 1000 1600 150 1000 Tenor Re-issue of 7.56% ANDHRA SGS 2039 issued on 01-JUL-2026 Re-issue of 7.68% ANDHRA SGS 2051 issued on 29-JUL-2026 15 -Years Re-issue of 7.47% GUJARAT SGS 2036 issued on 27-AUG-2026 Competitive Bids Received         (i) No. 87 40 32",
-      "source_id": "rbi"
-    }
-  ],
-  "cfefb7994873": [
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield (%) Tenor (Year) 1. Assam 1000 1000 99.75/7.5950 Re-issue of 7.56% Assam SGS 2036, issued on July 22, 2026 2. Bihar 1000 1000 100.08/7.6499 Re-issue of 7.66% Bihar SGS 2041, issued on July 22, 2026 1000 1000 100.48/7.6594 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 3. Delhi 500 500 99.88/7.3308 Re-issue of 7.31% Delhi SGS 2033, issued on July 22, 2026 500 500 100.98/7.6",
-      "new_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield(%) Tenor(Year) 1. Andhra Pradesh 1000 1000 99.10/7.6695 Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 1600 1600 99.89/7.6891 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 2. Gujarat 1000 1000 7.47 10 1000 1000 7.59 15 3. Haryana 1000 1000 7.56 09 2000 2000 7.69 22 4. Maharashtra 1000 1000 7.09 05 2400 2400 7.63 13 1600 1600 7.70 23 5. Punjab 50",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-01",
-      "field": "description",
-      "old_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield(%) Tenor(Year) 1. Andhra Pradesh 1000 1000 99.10/7.6695 Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 1600 1600 99.89/7.6891 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 2. Gujarat 1000 1000 7.47 10 1000 1000 7.59 15 3. Haryana 1000 1000 7.56 09 2000 2000 7.69 22 4. Maharashtra 1000 1000 7.09 05 2400 2400 7.63 13 1600 1600 7.70 23 5. Punjab 50",
-      "new_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam 1000 1000 98.61/7.7585 Re-issue of 7.62% Assam SGS 2046, issued on January 21, 2026 2. Bihar 800 800 98.53/7.6494 Re-issue of 7.42% Bihar SGS 2035, issued on July 08, 2026 1200 1200 7.76 25 3. Chhattisgarh* 500 500 98.46/7.6403 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 500 390.030 98.47/7.8082 Re-issue of 7.64% Chhattisgarh SGS 2042, iss",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam 1000 1000 98.61/7.7585 Re-issue of 7.62% Assam SGS 2046, issued on January 21, 2026 2. Bihar 800 800 98.53/7.6494 Re-issue of 7.42% Bihar SGS 2035, issued on July 08, 2026 1200 1200 7.76 25 3. Chhattisgarh* 500 500 98.46/7.6403 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 500 390.030 98.47/7.8082 Re-issue of 7.64% Chhattisgarh SGS 2042, iss",
-      "new_value": "Sr. No State/ UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield (%) Tenor (Year) 1. Andhra Pradesh 1000 1000 98.97/7.6198 Re-issue of 7.46% Andhra Pradesh SGS 2035, issued on August 12, 2026 1200 1200 99.03/7.7551 Re-issue of 7.65% Andhra Pradesh SGS 2043, issued on March 11, 2026 1600 1600 98.63/7.7576 Re-issue of 7.64% Andhra Pradesh SGS 2056, issued on August 12, 2026 2. Goa 100 100 7.63 10 3. Gujarat 1000 1000 99.17/7.5896 Re-issue of 7.47%",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Sr. No State/ UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield (%) Tenor (Year) 1. Andhra Pradesh 1000 1000 98.97/7.6198 Re-issue of 7.46% Andhra Pradesh SGS 2035, issued on August 12, 2026 1200 1200 99.03/7.7551 Re-issue of 7.65% Andhra Pradesh SGS 2043, issued on March 11, 2026 1600 1600 98.63/7.7576 Re-issue of 7.64% Andhra Pradesh SGS 2056, issued on August 12, 2026 2. Goa 100 100 7.63 10 3. Gujarat 1000 1000 99.17/7.5896 Re-issue of 7.47%",
-      "new_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield (%) Tenor (Year) 1. Andhra Pradesh 1000 1000 97.44/7.8793 Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 1600 1600 97.74/7.8874 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 2. Goa 150 150 7.88 15 3. Gujarat 1000 1000 98.25/7.7244 Re-issue of 7.47% Gujarat SGS 2036, issued on August 27, 2026 1000 1000 97.90/7.8300 Re-issue of 7.59% Gujarat SGS",
-      "source_id": "rbi"
     }
   ],
   "65a43278927e": [
@@ -11847,13 +11353,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-09-17",
-      "field": "description",
-      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-09-18",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
@@ -11960,6 +11459,13 @@
     },
     {
       "date": "2026-09-27",
+      "field": "description",
+      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -12290,34 +11796,6 @@
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "Government of India press release: DRI seizes 9.40 kg foreign-origin gold worth around Rs. 15 crore at Mumbai airport; three arrested",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: DRI seizes 9.40 kg foreign-origin gold worth around Rs. 15 crore at Mumbai airport; three arrested",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: DRI seizes 9.40 kg foreign-origin gold worth around Rs. 15 crore at Mumbai airport; three arrested",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: DRI seizes 9.40 kg foreign-origin gold worth around Rs. 15 crore at Mumbai airport; three arrested",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Government of India press release: DRI seizes 9.40 kg foreign-origin gold worth around Rs. 15 crore at Mumbai airport; three arrested",
       "source_id": "pib_ifsc_authority"
     },
     {
@@ -12424,22 +11902,34 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "Mumbai ITAT deletes ₹11.82 lakh Section 69A addition as earlier bank withdrawals were not disproved and arbitrary 70% rejection lacked evidence.",
       "source_id": "policyradar"
-    }
-  ],
-  "1353cbae308f": [
-    {
-      "date": "2026-09-09",
-      "field": "description",
-      "old_value": "Certificate No. RC9284 of 2026 Notice of Demand in respect of Sachin Kumar Jhawar HUF (PAN: AALHS9592Q) in the matter of Illiquid Stock Options",
-      "new_value": "Certificate No. RC9284 of 2026 A. P. No 15800 of 2026 in respect of Sachin Kumar Jhawar HUF (PAN: AALHS9592Q) in the matter of Illiquid Stock Options",
-      "source_id": "sebi"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-28",
       "field": "description",
-      "old_value": "Certificate No. RC9284 of 2026 Notice of Demand in respect of Sachin Kumar Jhawar HUF (PAN: AALHS9592Q) in the matter of Illiquid Stock Options",
-      "new_value": "Certificate No. RC9284 of 2026 A. P. No 15799 of 2026 in respect of Sachin Kumar Jhawar HUF (PAN: AALHS9592Q) in the matter of Illiquid Stock Options",
-      "source_id": "sebi"
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "\"Whatever work is remaining should be completed in the next two to three years, and through that, our transport experience is going to change substantially,\" Ashwini Bhide said",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "The CJP has announced a protest in Mumbai's Shivaji Park on October 2, seeking the resignation of Gyanesh Kumar.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai admits Union Bank’s Section 7 petition against Heera Hospitality after finding authenticated default; MSME and NPA objections fail.",
+      "source_id": "policyradar"
     }
   ],
   "3d6af9146f3f": [
@@ -13890,48 +13380,6 @@
     },
     {
       "date": "2026-09-25",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Climate & Environment, Defence & Security, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Education, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Climate & Environment, Defence & Security, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Education, Energy",
@@ -14163,6 +13611,48 @@
     },
     {
       "date": "2026-09-27",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Climate & Environment, Energy, Social Protection",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Climate & Environment, Defence & Security, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Education, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-09-28",
       "field": "type",
       "old_value": "release",
       "new_value": "scheme",
@@ -15617,20 +15107,6 @@
       "source_id": "niti_aayog"
     },
     {
-      "date": "2026-09-23",
-      "field": "description",
-      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
-      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
-      "source_id": "niti_aayog"
-    },
-    {
-      "date": "2026-09-23",
-      "field": "sectors",
-      "old_value": "Finance & Economy, Trade & Commerce",
-      "new_value": "Trade & Commerce",
-      "source_id": "niti_aayog"
-    },
-    {
       "date": "2026-09-24",
       "field": "description",
       "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
@@ -15849,6 +15325,20 @@
     },
     {
       "date": "2026-09-27",
+      "field": "sectors",
+      "old_value": "Finance & Economy, Trade & Commerce",
+      "new_value": "Trade & Commerce",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:27 Choose Report Type Publications Publication Date Wed, 09/16/2026 - 14:27 Report Upload Download (2.32 MB) vertical Economics & Finance-I PDF Text 1Trade Watch  April-June (Q1) FY27 QUARTERLY TRADE WATCH THEMATIC ANALYSIS: METALS & ORES TRADE April-June (Q1) FY27 TRADE WATCH QUARTERLY, Quarterly Report for the FY’2026-27 Copyright@ NITI Aayog, 2026 Published:",
+      "new_value": "Trade Watch- Quarterly (April- June [Q1] FY27) niti_admin Wed, 09/16/2026 - 14:32 Weight 0 Links /sites/default/files/2026-09/Trade-Watch-Quarterly-January-March-Q4-FY26.pdf",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-09-28",
       "field": "sectors",
       "old_value": "Finance & Economy, Trade & Commerce",
       "new_value": "Trade & Commerce",
@@ -16042,20 +15532,6 @@
   ],
   "490198e96377": [
     {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
-      "source_id": "state_pib_punjab"
-    },
-    {
       "date": "2026-09-26",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
@@ -16176,6 +15652,20 @@
     },
     {
       "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
@@ -17034,15 +16524,6 @@
       "source_id": "niti_aayog"
     }
   ],
-  "3f3520409a48": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Sitamarhi (Bihar) by Yuva kriti Sangam nitinkumar Tue, 08/18/2026 - 16:05 Date Sat, 08/29/2026 - 12:00 District Sitamarhi Division Consumer Affairs Date & Time Sat, 08/29/2026 - 13:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sanjib Kumar Choudhary Contact person Email yksangammdb@gmail.com Event Category COP By TRAI Venue Details Panchayat Bhawan Lalbandi , Block: Parihar ,District: Sitamarhi , Bihar, 843324 Event From Consume",
-      "new_value": "Consumer Awareness Program at Purnia (Bihar) by Yuva kriti Sangam nitinkumar Mon, 09/21/2026 - 12:44 Date Mon, 09/28/2026 - 12:00 District Purnia Division Consumer Affairs Date & Time Mon, 09/28/2026 - 12:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Aditya Choudhary Contact person Email yksangammdb@gmail.com Event Category COP By TRAI Venue Details Kasba High School ,Block: Kasba ,District –Purnia, Bihar(854330) Event From Consumer Awareness ( In House ) Co",
-      "source_id": "trai"
-    }
-  ],
   "eb15a1abf50a": [
     {
       "date": "2026-09-21",
@@ -17063,28 +16544,7 @@
   ],
   "767cca424275": [
     {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
-      "source_id": "who_india_new"
-    },
-    {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -17175,28 +16635,49 @@
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-09-27",
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Growth in the Index of Industrial Production, data on which was released by the Ministry of Statistics and Programme Implementation on Monday, was last quicker in June 2026 when it touched 8.8%.",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Telecom Subscription Data as on August, 2026 nitinkumar Mon, 09/28/2026 - 15:49 File Download (6.12 MB) date Mon, 09/28/2026 - 12:00 Report type Telecom Subscription Reports Year 2026",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "TRAI releases Telecom Subscription Data as on August 2026 nitinkumar Mon, 09/28/2026 - 15:45 File Press Release No. 125 (6.12 MB) Date Mon, 09/28/2026 - 12:00",
+      "source_id": "trai"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -17257,15 +16738,6 @@
       "field": "description",
       "old_value": "Appeal No. 7052 of 2026 filed by Kamal Kumar",
       "new_value": "Appeal No. 7067 of 2026 filed by Kailash Kumar",
-      "source_id": "sebi"
-    }
-  ],
-  "f62ab1242de3": [
-    {
-      "date": "2026-09-21",
-      "field": "description",
-      "old_value": "General Remittance Advice against: Sunil Singh (Proprietor of Alfa Finsec) [Defaulter] (PAN: BDGPS0774K) in the matter of trading activities of certain entities in the scrip of Delta Leasing and Finance Ltd.: under Recovery Certificate No. 9156 of 2026.",
-      "new_value": "General Remittance Advice against: Sapna (Proprietor of Stallion Trading Co.) [Defaulter] (PAN: DRUPS8079D) in the matter of trading activities of certain entities in the scrip of Delta Leasing and Finance Ltd.: under Recovery Certificate No. 9159 of 2026.",
       "source_id": "sebi"
     }
   ],
@@ -17336,37 +16808,12 @@
       "source_id": "cuts_international"
     }
   ],
-  "dee80829083f": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Bhavnagar (Gujarat) by Shree Jagruti Grahak Suraksha Mahila Mandal nitinkumar Tue, 08/18/2026 - 16:16 Date Mon, 08/31/2026 - 12:00 District Bhavnagar Division Consumer Affairs Date & Time Mon, 08/31/2026 - 12:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Deepben V. Korat Contact person Email shreegrahakjagruti@gmail.com Event Category COP By TRAI Venue Details Vidyadhish Vidyasankul, Pramukhswami Nagar, Kaliyabid, Bhavnagar, Guj",
-      "new_value": "Consumer Awareness Program at Anand (Gujarat) by Bhavnagar Grahak Suraksha Mandal nitinkumar Tue, 09/22/2026 - 12:22 Date Tue, 09/29/2026 - 12:00 District Anand Division Consumer Affairs Date & Time Tue, 09/29/2026 - 10:30 Programme Category CAP by CAG's Event Status In progress Contact Person Name Sh. Mayankbhai C Bosamia Contact person Email bgsms82@gmail.com Event Category COP By TRAI Venue Details Auditorium Hall, Indukaka Ipcowala Institute of Management (IIIM) Building, Charotar Univer",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at Bhavnagar (Gujarat) by Shree Jagruti Grahak Suraksha Mahila Mandal nitinkumar Tue, 08/18/2026 - 16:16 Date Mon, 08/31/2026 - 12:00 District Bhavnagar Division Consumer Affairs Date & Time Mon, 08/31/2026 - 12:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Deepben V. Korat Contact person Email shreegrahakjagruti@gmail.com Event Category COP By TRAI Venue Details Vidyadhish Vidyasankul, Pramukhswami Nagar, Kaliyabid, Bhavnagar, Guj",
-      "new_value": "Consumer Awareness Program at Vadodara (Gujarat) by Shree Jagruti Grahak Suraksha Mahila Mandal nitinkumar Tue, 09/22/2026 - 12:15 Date Thu, 09/24/2026 - 12:00 District Vadodara Division Consumer Affairs Date & Time Thu, 09/24/2026 - 14:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Smt. Deepben V. Korat Contact person Email shreegrahakjagruti@gmail.com Event Category COP By TRAI Venue Details Seminar Hall, LAKSHYA2047, Parul University Campus, Limda, Waghodi",
-      "source_id": "trai"
-    }
-  ],
   "d7e3fce7064e": [
     {
       "date": "2026-09-22",
       "field": "description",
       "old_value": "Consumer Awareness Program at East Delhi (Delhi) by Alabhaya Foundation nitinkumar Thu, 08/27/2026 - 18:24 Date Sun, 08/30/2026 - 12:00 District East Delhi Division Consumer Affairs Date & Time Sun, 08/30/2026 - 08:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Vandana Contact person Email alabhayafoundation@gmail.com Event Category COP By TRAI Venue Details Prajapita Eshwariya Vishwa Vidhyalaya Kamal Pushp Bhawan J -11 Gali no. 6 LAXMI NAGAR DELHI - 92 Event",
       "new_value": "Consumer Awareness Program at North East Delhi (Delhi) by Alabhaya Foundation nitinkumar Tue, 09/22/2026 - 12:15 Date Wed, 09/30/2026 - 12:00 District North East Delhi Division Consumer Affairs Date & Time Wed, 09/30/2026 - 09:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Vandana Contact person Email alabhayafoundation@gmail.com Event Category COP By TRAI Venue Details Sunshine Modern Public School, F 24, 40 Ft Road, Ganga Vihar, Delhi- 110094 Event From Con",
-      "source_id": "trai"
-    }
-  ],
-  "8e5ae14da795": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Consumer Awareness Program at West Delhi (Delhi) by Federation of Coummunity Radio Station nitinkumar Tue, 08/18/2026 - 16:05 Date Tue, 08/25/2026 - 12:00 District West Delhi Division Consumer Affairs Date & Time Tue, 08/25/2026 - 10:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name BK Shilpa Didi Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Govt Sarvodaya Kanya Vidyalaya, Basai Darapur, Kirti Nagar, Delhi Event From Consumer A",
-      "new_value": "Consumer Awareness Program at Central Delhi (Delhi) by Federation of Coummunity Radio Station nitinkumar Tue, 09/22/2026 - 12:15 Date Wed, 09/30/2026 - 12:00 District Central Delhi Division Consumer Affairs Date & Time Wed, 09/30/2026 - 11:00 Programme Category CAP by CAG's Event Status In progress Contact Person Name Anand Gupta Contact person Email yash108@gmail.com Event Category COP By TRAI Venue Details Sarvodaya Vidyalaya NO.1, Mori Gate, Delhi 110006 Event From Consumer Awareness ( In",
       "source_id": "trai"
     }
   ],
@@ -17846,15 +17293,6 @@
       "source_id": "sebi"
     }
   ],
-  "76207f0421f5": [
-    {
-      "date": "2026-09-22",
-      "field": "description",
-      "old_value": "Notices of Attachment of Bank and Post Office accounts and Demat Accounts and mutual Fund Folios with AP Nos. 15695 and 15696 of 2026 dated August 18, 2026 against Fulabhai Bhitor (PAN: DYLPB2813Q) in the matter of trading activity in the scrip of ANI Integrated Services Limited under RC No. 9228 of 2026",
-      "new_value": "Notices of Attachment of Bank and Post Office accounts and Demat Accounts and mutual Fund Folios with AP Nos. 15805 and 15806 of 2026 dated September 18, 2026 issued against Harsha Ishvarbhai Solanki (PAN: DCXPS3726R) and 20 others in the matter of trading activity in the scrip of ANI Integrated Services Limited",
-      "source_id": "sebi"
-    }
-  ],
   "8d10c7b84c02": [
     {
       "date": "2026-09-22",
@@ -17912,13 +17350,6 @@
       "date": "2026-09-25",
       "field": "description",
       "old_value": "RBI notification: Novation of OTC Derivative Contracts",
-      "new_value": "RBI/2026-27/263 FMRD.DIRD.No.04/14.03.066/2026-27 September 22, 2026 To All Eligible Market Participants Madam / Sir, Novation of OTC Derivative Contracts Please refer to the draft Reserve Bank of...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
       "new_value": "RBI finalises novation rules for OTC derivative contracts across foreign exchange, interest rate, government securities and credit derivatives.",
       "source_id": "policyradar"
     },
@@ -18043,6 +17474,13 @@
     },
     {
       "date": "2026-09-27",
+      "field": "description",
+      "old_value": "RBI notification: Novation of OTC Derivative Contracts",
+      "new_value": "RBI/2026-27/263 FMRD.DIRD.No.04/14.03.066/2026-27 September 22, 2026 To All Eligible Market Participants Madam / Sir, Novation of OTC Derivative Contracts Please refer to the draft Reserve Bank of...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "RBI notification: Novation of OTC Derivative Contracts",
       "new_value": "RBI/2026-27/263 FMRD.DIRD.No.04/14.03.066/2026-27 September 22, 2026 To All Eligible Market Participants Madam / Sir, Novation of OTC Derivative Contracts Please refer to the draft Reserve Bank of...",
@@ -18259,6 +17697,13 @@
       "field": "description",
       "old_value": "Settlement Order in the matter of DMI Income Fund Pte Ltd.",
       "new_value": "Settlement Order in the matter of True North Fund",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Settlement Order in the matter of DMI Income Fund Pte Ltd.",
+      "new_value": "Settlement order in the matter of Investcorp Private Equity Fund I",
       "source_id": "sebi"
     }
   ],
@@ -18681,6 +18126,13 @@
       "old_value": "MY Bharat has crossed 3 crore registered youth in less than three years, expanding access to experiential learning, volunteering, leadership, civic engagement and youth-led nation-building opportunities.",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
       "source_id": "digilocker"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "MY Bharat has crossed 3 crore registered youth in less than three years, expanding access to experiential learning, volunteering, leadership, civic engagement and youth-led nation-building opportunities.",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
     }
   ],
   "7cbf526410af": [
@@ -18706,78 +18158,6 @@
       "source_id": "epod_harvard"
     }
   ],
-  "371f0df7c3ce": [
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Government of India press release: 12 Years of Make in India",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Government of India press release: 12 Years of Make in India",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Government of India press release: 12 Years of Make in India",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Government of India press release: 12 Years of Make in India",
-      "source_id": "state_pib_assam"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "While recent incentive schemes by the government have seen some success, those gains are limited to a handful of sectors",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    }
-  ],
   "06b71913d57b": [
     {
       "date": "2026-09-25",
@@ -18787,51 +18167,7 @@
       "source_id": "niti_aayog"
     }
   ],
-  "70844bffbbda": [
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Nobody Wants This trailer Joanne and Noah move in together but what next",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Nobody Wants This trailer Joanne and Noah move in together but what next",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "Nobody Wants This trailer Joanne and Noah move in together but what next",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "Nobody Wants This trailer Joanne and Noah move in together but what next",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    }
-  ],
   "0002b665aebf": [
-    {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman will embark on an official visit to Qatar from 27 to 29 September 2026",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Government of India press release: Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman will embark on an official visit to Qatar from 27 to 29 September 2026",
-      "source_id": "pib_women_and_child_development"
-    },
     {
       "date": "2026-09-27",
       "field": "description",
@@ -18957,6 +18293,20 @@
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
       "new_value": "Fajar: 5:06 am; Zohar: 12:17 pm; Asr: 4:26 pm",
       "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "General Remittance order September 28,2026 in Recovery Certificate No. 9275 of 2026 issued in the matter of Kunnamkulam Paper Mills Ltd",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "General Remittance order September 28,2026 in Recovery Certificate No. 9275 of 2026 issued in the matter of Kunnamkulam Paper Mills Ltd",
+      "source_id": "sebi"
     }
   ],
   "4121878f4118": [
@@ -18966,43 +18316,20 @@
       "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 90,280 Amount accepted (in ₹ crore) 90,280 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1185",
       "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, September 28, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 09:30 AM to 10:00 AM September 29, 2026 (Tuesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad",
       "source_id": "rbi"
-    }
-  ],
-  "a9141772f41c": [
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "GVMC clears 102 of 112 fallen trees and finds 12 km of roads damaged; Home Minister Anitha asks officials to coordinate with Odisha on flood flows",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "field": "description",
-      "old_value": "GVMC clears 102 of 112 fallen trees and finds 12 km of roads damaged; Home Minister Anitha asks officials to coordinate with Odisha on flood flows",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 90,280 Amount accepted (in ₹ crore) 90,280 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1185",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, September 29, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 09:30 AM to 10:00 AM September 30, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad &nb",
+      "source_id": "rbi"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-09-28",
       "field": "description",
-      "old_value": "GVMC clears 102 of 112 fallen trees and finds 12 km of roads damaged; Home Minister Anitha asks officials to coordinate with Odisha on flood flows",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "GVMC clears 102 of 112 fallen trees and finds 12 km of roads damaged; Home Minister Anitha asks officials to coordinate with Odisha on flood flows",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "GVMC clears 102 of 112 fallen trees and finds 12 km of roads damaged; Home Minister Anitha asks officials to coordinate with Odisha on flood flows",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 90,280 Amount accepted (in ₹ crore) 90,280 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1185",
+      "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 2,00,000 Total amount of offers received (in ₹ crore) 1,11,711 Amount accepted (in ₹ crore) 1,11,711 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1198",
+      "source_id": "rbi"
     }
   ],
   "9c5f3722c3a7": [
@@ -19168,6 +18495,20 @@
       "old_value": "The post UPSC CURRENT AFFAIRS – 26 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 26 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 26 September 2026 | Daily Prelims Quiz appea",
       "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "The post UPSC CURRENT AFFAIRS – 26 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 28 September 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 28 September 2026 | Daily Prelims Quiz appea",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "The post UPSC CURRENT AFFAIRS – 26 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "The post UPSC CURRENT AFFAIRS – 28 SEPTEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "source_id": "insights_ias"
     }
   ],
   "a2e2d39b299f": [
@@ -19225,15 +18566,6 @@
       "source_id": "deccan_chronicle"
     }
   ],
-  "40f7f3c47fcc": [
-    {
-      "date": "2026-09-26",
-      "field": "description",
-      "old_value": "ExKerala chief secy says Gyanesh Kumar offered him BJP ticket in Rahul reacts",
-      "new_value": "ExKeralam chief secy says Gyanesh Kumar offered him BJP ticket in Rahul reacts",
-      "source_id": "india_today"
-    }
-  ],
   "050341ad2cb2": [
     {
       "date": "2026-09-26",
@@ -19269,6 +18601,20 @@
       "old_value": "To achieve this, the country must put greater effort into growing multiple sectors, including startups, using technological innovations",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "To achieve this, the country must put greater effort into growing multiple sectors, including startups, using technological innovations",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "To achieve this, the country must put greater effort into growing multiple sectors, including startups, using technological innovations",
+      "new_value": "Union Finance Minister, Ms. Nirmala Sitharaman, said India could achieve more than 10% economic growth, with technology, innovation and startups playing an important role in improving productivity.",
+      "source_id": "ibef"
     }
   ],
   "5935b13dfd2f": [
@@ -19367,6 +18713,13 @@
       "old_value": "What did the Karnataka Legislature decide on September 22? Why has the State repeatedly rejected the ESA draft? What did the Kasturirangan Committee recommend? How much of the Western Ghats was proposed as ESA? What has Karnataka proposed as the way forward?",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "What did the Karnataka Legislature decide on September 22? Why has the State repeatedly rejected the ESA draft? What did the Kasturirangan Committee recommend? How much of the Western Ghats was proposed as ESA? What has Karnataka proposed as the way forward?",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
     }
   ],
   "c52a81f72996": [
@@ -19426,6 +18779,13 @@
       "old_value": "Delhi CM Rekha Gupta accused the opposition of misleading people over the ECI’s handling of SIR and rejected allegations of unilateral changes to Form 6.",
       "new_value": "Chief Minister, Finance…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Delhi CM Rekha Gupta accused the opposition of misleading people over the ECI’s handling of SIR and rejected allegations of unilateral changes to Form 6.",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
     }
   ],
   "6a25cabc40ec": [
@@ -19442,11 +18802,25 @@
       "old_value": "Government of India press release: Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman will embark on an official visit to Qatar from 27 to 29 September 2026",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Government of India press release: Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman will embark on an official visit to Qatar from 27 to 29 September 2026",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "76f1980c4f09": [
     {
       "date": "2026-09-27",
+      "field": "description",
+      "old_value": "Parliamentary Committee on the Welfare of Scheduled Castes and Scheduled Tribes has asked Ministry of Corporate Affairs and Institute of Chartered Accountants of India (ICAI) to reply to its office memorandum by October 5",
+      "new_value": "Parliamentary Committee on the Welfare of Scheduled Castes and Scheduled Tribes has asked Ministry of Corporate Affairs and Institute of Chartered Accountants of India (ICAI) to reply to its office...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-28",
       "field": "description",
       "old_value": "Parliamentary Committee on the Welfare of Scheduled Castes and Scheduled Tribes has asked Ministry of Corporate Affairs and Institute of Chartered Accountants of India (ICAI) to reply to its office memorandum by October 5",
       "new_value": "Parliamentary Committee on the Welfare of Scheduled Castes and Scheduled Tribes has asked Ministry of Corporate Affairs and Institute of Chartered Accountants of India (ICAI) to reply to its office...",
@@ -19469,6 +18843,13 @@
       "old_value": "SEBI Order for Compliance - General Remittance Order dated 23.09.2026 in Recovery Certificate No. 8933 of 2025 issued against Pinal Rajesh Mehta (Legal representative of Rajesh Rajnikant Mehta who is deceased) [\"Defaulter\"] in the matter of Jay Energy and S. Energies Limited",
       "new_value": "SEBI Order for Compliance - General Remittance Order dated 23.09.2026 in Recovery Certificate No. 8933 of 2025 issued against Pinal Rajesh Mehta (Legal representative of Rajesh Rajnikant Mehta who is...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "SEBI Order for Compliance - General Remittance Order dated 23.09.2026 in Recovery Certificate No. 8933 of 2025 issued against Pinal Rajesh Mehta (Legal representative of Rajesh Rajnikant Mehta who is deceased) [\"Defaulter\"] in the matter of Jay Energy and S. Energies Limited",
+      "new_value": "SEBI Order for Compliance - General Remittance Order dated 23.09.2026 in Recovery Certificate No. 8933 of 2025 issued against Pinal Rajesh Mehta (Legal representative of Rajesh Rajnikant Mehta who is...",
+      "source_id": "policyradar"
     }
   ],
   "94c4911f7b1a": [
@@ -19478,6 +18859,110 @@
       "old_value": "The scheme will cover eligible babies born in government hospitals from June 22, with 1.28 lakh rings procured for the first phase.",
       "new_value": "Tamil Nadu Chief Minister S. Joseph Vijay will launch the 'Thaai Maaman Thanga Mothiram Thittam' scheme for newborns in Madurai on September 28...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "The scheme will cover eligible babies born in government hospitals from June 22, with 1.28 lakh rings procured for the first phase.",
+      "new_value": "BJP leader Soundararajan posted on X on Monday saying that while such an initiative was welcome, the CM should first focus on ensuring adequate stocks of milk",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "The scheme will cover eligible babies born in government hospitals from June 22, with 1.28 lakh rings procured for the first phase.",
+      "new_value": "Rolling out the scheme at the Government Rajaji Hospital, Vijay held the babies for a while and gave away the gold rings.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "cbf432a61e9b": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "A. Source Security 8.26% GS 2027 7.06% GS 2028 8.60% GS 2028 7.26% GS 2029 B. Notified Amount (in ₹ crore) 2,000 4,000 4,000 4,000 Destination Security 7.19% GS 2060 6.79% GS 2034 7.50% GS 2034 7.50% GS 2034 C. i. No. of offers received 4 17 8 22 ii. Total amount of Source Security offered (Face value, in ₹ crore) 2,107.859 4,245.357 3,970.832 4,614.777 iii. No. of offers accepted 3 13 3 3 iv. Total amount of source security accepted (Face value, in ₹ crore) 2,000.000 3,945.357",
+      "new_value": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of ₹33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated September 28, 2026 October 01, 2026 (Thursday) October 05, 2026 (Monday) 2 6.57% GS 2033 Aug 17, 2033 12,000 3 7.63% GS 2056 Sep 15, 2056 9,000 4 7.50% G",
+      "source_id": "rbi"
+    }
+  ],
+  "0af16127154e": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "I. SUMMARY OMO SALE RESULTS Aggregate Amount (Face value) notified by RBI : ₹25,000 crore Total amount bid (Face value) by participants : ₹84,982 crore Total amount accepted (Face value) by RBI : ₹25,000 crore II. DETAILS OF OMO SALE ISSUE Security 8.28% GS 2027 7.17% GS 2028 6.75% GS 2029 7.17% GS 2030 6.10% GS 2031 7.95% GS 2032 No. of bids received 20 18 53 65 102 127 Total bid amount (face value) (₹ in crore) 3,082 3,205 7,945 9,820 31,780 29,150 No. of bids accepted",
+      "new_value": "I. SUMMARY OMO SALE RESULTS Aggregate Amount (Face value) notified by RBI : ₹25,000 crore Total amount bid (Face value) by participants : ₹67,655 crore Total amount accepted (Face value) by RBI : ₹25,000 crore II. DETAILS OF OMO SALE ISSUE Security 7.59% GS 2029 6.45% GS 2029 7.61% GS 2030 5.85% GS 2030 6.54% GS 2032 7.26% GS 2032 No. of bids received 27 34 31 60 78 98 Total bid amount (face value) (₹ in crore) 4,785 4,510 4,655 6,305 23,305 24,095 No. of bids accepted 5",
+      "source_id": "rbi"
+    }
+  ],
+  "82d3dd0124e4": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Security 8.28% GS 2027 7.17% GS 2028 6.75% GS 2029 7.17% GS 2030 6.10% GS 2031 7.95% GS 2032 Total amount notified Aggregate amount of ₹25,000 crore (No security-wise notified amount) Total amount (Face Value) accepted by RBI (₹ in crore) NIL 180 2,300 2,250 11,512 8,758 Cut off yield (%) NA 6.1320 6.6862 6.7740 6.8753 7.0083 Cut off price (₹) NA 101.26 100.17 101.23 96.86 104.50 Detailed results will be issued shortly. Ajit Prasad",
+      "new_value": "Security 7.59% GS 2029 6.45% GS 2029 7.61% GS 2030 5.85% GS 2030 6.54% GS 2032 7.26% GS 2032 Total amount notified Aggregate amount of ₹25,000 crore(No security-wise notified amount) Total amount (Face Value) accepted by RBI (₹ in crore) 920 610 1,350 1,320 14,350 6,450 Cut off yield (%) 6.6676 6.7201 6.9108 6.9481 7.0810 7.1021 Cut off price (₹) 102.07 99.27 102.19 96.07 97.63 100.74 Detailed results will be issued shortly. Ajit Prasad",
+      "source_id": "rbi"
+    }
+  ],
+  "34818ef8e90c": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Settlement Order in the matter of Adani Group Companies",
+      "new_value": "Final order in the matter of Adani Group Companies for alleged MPS violation",
+      "source_id": "sebi"
+    }
+  ],
+  "4338832c0e16": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Summary Settlement Order in the matter of Mirae Asset Venture Opportunity Trust AIF",
+      "new_value": "Summary Settlement Order in the matter of Harbourfront India trust AIF",
+      "source_id": "sebi"
+    }
+  ],
+  "2b40082b34da": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "The programme will include technical sessions, while the workshop will conclude on September 30.",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
+    }
+  ],
+  "2b1ba95a0f47": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Filling up of the post of Assistant in TRAI Regional Office Bhopal on deputation on foreign service terms. nitinkumar Fri, 09/25/2026 - 18:25 File Vacancy (683.8 KB) link Apply Now Date of Release Fri, 09/25/2026 - 12:00 Date of Close Tue, 11/03/2026 - 12:00",
+      "new_value": "Filling up of the post of Joint Advisor in TRAI Camp Office Guwahati (Under TRAI RO Kolkata) on deputation on foreign service terms. nitinkumar Mon, 09/28/2026 - 18:30 File Vacancy (737.14 KB) link Apply Now Date of Release Mon, 09/28/2026 - 12:00 Date of Close Fri, 11/06/2026 - 12:00",
+      "source_id": "trai"
+    }
+  ],
+  "a8008bc76712": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "TRAI Assesses Mobile Network Quality Across Various Areas of Chennai City. nitinkumar Thu, 09/17/2026 - 12:57 File Press Release No. 118 (3.89 MB) Date Thu, 09/17/2026 - 12:00",
+      "new_value": "TRAI Assesses Mobile Network Quality Across South Delhi and Nearby Areas. nitinkumar Mon, 09/28/2026 - 14:33 File Press Release No. 124 (3.83 MB) Date Mon, 09/28/2026 - 12:00",
+      "source_id": "trai"
+    }
+  ],
+  "5ee41c04f89d": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "GCC Commissioner G.S. Sameeran inspects development works under way at the canal, including the construction of retaining walls and removal of silt and waste, at an estimated cost of ₹30 crore",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    }
+  ],
+  "4955769e9d5d": [
+    {
+      "date": "2026-09-28",
+      "field": "description",
+      "old_value": "Parvesh Sahib Singh Verma claimed that the man allegedly abused his family.",
+      "new_value": "The minister Parvesh Sahib Singh Verma claimed that the man, an Aam Aadmi Party MLA’s aide, abused his family.",
+      "source_id": "scroll"
     }
   ]
 }
