@@ -1,5 +1,1512 @@
 [
   {
+    "id": "9c732a592262",
+    "title": "Online Course: The RE (Renewable Energy) Playbook",
+    "description": "",
+    "link": "https://www.cseindia.org/online-course-the-re-renewable-energy-playbook-13120",
+    "date": "2026-10-01",
+    "source_id": "centre_science_env",
+    "source_name": "Centre for Science & Environment",
+    "source_short": "CSE",
+    "sectors": [
+      "Energy",
+      "Climate & Environment"
+    ],
+    "sector_slugs": [
+      "energy",
+      "climate-environment"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "e146d45682be",
+    "title": "Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
+    "description": "RBI notification: Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
+    "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13716&Mode=0",
+    "date": "2026-10-01",
+    "source_id": "rbi_notifications",
+    "source_name": "RBI Notifications",
+    "source_short": "RBI Notif",
+    "sectors": [
+      "Social Protection",
+      "Finance & Economy",
+      "Tribal & Indigenous"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "finance-economy",
+      "tribal-indigenous"
+    ],
+    "type": "notification",
+    "kind": "instrument",
+    "authority": "regulator",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "d7758bde265f",
+    "title": "Trained canines to bolster crime detection in Andhra Pradesh",
+    "description": "36 canines and their handlers complete 10-month training in detection of explosives, narcotics, cadavers and Search & Rescue operations",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/trained-canines-to-bolster-crime-detection-in-andhra-pradesh/article71529094.ece",
+    "date": "2026-10-01",
+    "source_id": "the_hindu_policy",
+    "source_name": "The Hindu - National",
+    "source_short": "The Hindu",
+    "sectors": [
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "social-protection"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "7359b36034b5",
+    "title": "Punjab Congress chief Warring set to quit, Vijay Inder Singla frontrunner for post",
+    "description": "The announcement of a new Punjab Congress chief is expected soon, party sources said",
+    "link": "https://www.thehindu.com/news/national/punjab/punjab-congress-chief-resignation/article71531181.ece",
+    "date": "2026-10-01",
+    "source_id": "the_hindu_policy",
+    "source_name": "The Hindu - National",
+    "source_short": "The Hindu",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "5acfe75b87a8",
+    "title": "Kerala HC directs State to decide on appointment of expert panel to probe alleged irregularities in digital re-survey",
+    "description": "A petition by Congress leader Shaji J. Kodankandath had alleged that irregularities in the digital survey equipment tenders had caused a loss of ₹150 crore to the public exchequer",
+    "link": "https://www.thehindu.com/news/national/kerala/kerala-hc-directs-state-to-decide-on-appointment-of-expert-panel-to-probe-alleged-irregularities-in-digital-re-survey/article71529619.ece",
+    "date": "2026-10-01",
+    "source_id": "the_hindu_policy",
+    "source_name": "The Hindu - National",
+    "source_short": "The Hindu",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "a43ae465b378",
+    "title": "Kalamassery police issue fresh summons to Anto Augustine in case over ‘CM marriage remarks’",
+    "description": "The case pertains to a reported revelation by Augustine that two people had met him with what they claimed was a journalistic scoop on Satheesan’s alleged second marriage",
+    "link": "https://www.thehindu.com/news/national/kerala/kalamassery-police-issue-fresh-summons-to-anto-augustine-in-case-over-cm-marriage-remarks/article71529529.ece",
+    "date": "2026-10-01",
+    "source_id": "the_hindu_policy",
+    "source_name": "The Hindu - National",
+    "source_short": "The Hindu",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "4c3b593fbb6a",
+    "title": "Kerala High Court directs State govt. to expedite disposal of pending cases against MPs and MLAs based on District Judiciary recommendations",
+    "description": "Registrar suggests measures such as prioritising execution of processes such as summons or warrants issued by criminal courts and deputing police officers to assist courts in the matter",
+    "link": "https://www.thehindu.com/news/national/kerala/kerala-high-court-directs-state-govt-to-expedite-disposal-of-pending-cases-against-mps-and-mlas-based-on-district-judiciary-recommendations/article71529500.ece",
+    "date": "2026-10-01",
+    "source_id": "the_hindu_policy",
+    "source_name": "The Hindu - National",
+    "source_short": "The Hindu",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "6173d30e95e5",
+    "title": "\"Proud\": PM Modi Praises \"Hero\" Indian Pilot For Fighting Off Hijack Scare",
+    "description": "Captain Smit Machchhar, an Indian citizen, had been working with flydubai - a low-cost carrier owned by the Emirati government, for four years.",
+    "link": "https://www.ndtv.com/india-news/captain-smit-machchhar-showed-immense-courage-on-flydubai-plane-pm-modi-praises-indian-pilot-12122858#publisher=newsstand",
+    "date": "2026-10-01",
+    "source_id": "ndtv_india",
+    "source_name": "NDTV - India",
+    "source_short": "NDTV",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "d075322038d9",
+    "title": "Justice Nagarathna first judge to start writing Sabarimala reference verdict",
+    "description": "The reference originates from the Supreme Court’s September 2018 judgment, by a 4:1 majority, allowing women of all ages to enter the Sabarimala temple in Kerala",
+    "link": "https://www.hindustantimes.com/india-news/justice-nagarathna-first-judge-to-start-writing-sabarimala-reference-verdict-101790822815898.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Gender & Women",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "gender-women",
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "48e7371665aa",
+    "title": "Former AIADMK minister Semmalai joins TVK with his supporters",
+    "description": "Former minister and seasoned AIADMK leader S Semmalai formally joined the ruling Tamilaga Vettri Kazhagam (TVK) alongside a host of his supporters at party chief C Joseph Vijay’s rally at Dharapuram on Wednesday",
+    "link": "https://www.hindustantimes.com/india-news/former-aiadmk-minister-semmalai-joins-tvk-with-his-supporters-101790797489730.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "db02eafa8ad0",
+    "title": "Foreign spouses of Indians not entitled to visa: Kerala HC",
+    "description": "The Kerala high court has held that a foreign national, even if he/she is the spouse of an Indian citizen, has no vested right to demand that he/she be issued a visa to enter the country",
+    "link": "https://www.hindustantimes.com/india-news/foreign-spouses-of-indians-not-entitled-to-visa-kerala-hc-101790797369179.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "cfc3216d5248",
+    "title": "KPSC scam candidates gave blank cheques for favourable selection: ED",
+    "description": "Candidates allegedly paid tens of lakhs of rupees for favourable selection in the Karnataka Public Service Commission’s Veterinary Officers recruitment examination and were then made to sign over blank cheques and promissory notes to secure the unpaid balance, according to the Enforcement Directorate.",
+    "link": "https://www.hindustantimes.com/india-news/kpsc-scam-candidates-gave-blank-cheques-for-favourable-selection-ed-101790797267396.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "fb6a9c227577",
+    "title": "Andhra to develop Tirupati as global wedding destination",
+    "description": "The Andhra Pradesh government has decided to develop the famous pilgrim town of Tirupati as a global wedding destination, along with its existing religious tourism ecosystem, special chief secretary (revenue) Mukesh Kumar Meena said on Wednesday",
+    "link": "https://www.hindustantimes.com/india-news/andhra-to-develop-tirupati-as-global-wedding-destination-101790797251939.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "f353252615eb",
+    "title": "5-commissionerate plan set to be placed before cabinet",
+    "description": "The Karnataka government is expected to place its plan to split the Bengaluru City Police Commissionerate into five units before the Cabinet on Thursday, with approval potentially clearing the way for a reorganisation that would create 6,633 new police posts at a projected cost of ₹764",
+    "link": "https://www.hindustantimes.com/india-news/5commissionerate-plan-set-to-be-placed-before-cabinet-101790797129573.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Urban Development"
+    ],
+    "sector_slugs": [
+      "urban-development"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "d50ceb8ab1a9",
+    "title": "Plea seeks recall of SC order on challenge to CEC appointment law",
+    "description": "An application filed in the Supreme Court has sought the recall of the order passed by the Supreme Court on referring to a Constitution bench the challenge to the law governing the appointment of the chief election commissioner and election commissioners",
+    "link": "https://www.hindustantimes.com/india-news/plea-seeks-recall-of-sc-order-on-challenge-to-cec-appointment-law-101790796649527.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform",
+      "Social Protection"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "social-protection"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "a8832b9a997a",
+    "title": "‘Vehicles which can run on 100% ethanol may hit roads in 2 months’: Nitin Gadkari at HT Auto Leaderboard Awards",
+    "description": "Gadkari also highlighted the impact of ethanol production on farmers, saying the govt's decision to allow production from corn had helped raise prices.",
+    "link": "https://www.hindustantimes.com/india-news/multiple-flex-fuel-cars-in-the-next-two-months-nitin-gadkari-at-ht-auto-leaderboard-awards-and-summit-101790796589328.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Agriculture",
+      "Transport & Infrastructure"
+    ],
+    "sector_slugs": [
+      "agriculture",
+      "transport-infrastructure"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "f195f01050f2",
+    "title": "Cabinet hikes minimum support prices of Rabi crops; oilseeds, pulses get biggest boost",
+    "description": "Wheat received the smallest increase of ₹25 per quintal, while its MSP now stands at ₹2,610, 106% margin over the weighted average cost of production.",
+    "link": "https://www.hindustantimes.com/india-news/cabinet-hikes-msps-of-rabi-crops-oilseeds-pulses-get-biggest-boost-101790796291167.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Agriculture"
+    ],
+    "sector_slugs": [
+      "agriculture"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "886783f151a6",
+    "title": "Andhra, Meghalaya to get more time for SIR",
+    "description": "The Election Commission of India (ECI) on Wednesday extended the schedule for the special intensive revision (SIR) of electoral rolls in Andhra Pradesh and Meghalaya, according to an official press release",
+    "link": "https://www.hindustantimes.com/india-news/andhra-meghalaya-to-get-more-time-for-sir-101790796169109.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "0fec4d4a8f6f",
+    "title": "Accused can use unrelied prosecution documents in trial: Supreme Court",
+    "description": "The court clarified that the stage at which particular documents can be sought would depend on the nature and relevance of the material.",
+    "link": "https://www.hindustantimes.com/india-news/accused-can-use-unrelied-prosecution-documents-in-trial-supreme-court-101790796108790.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "dd65ba1f4905",
+    "title": "HC refuses to transfer Veeramani case to CBI",
+    "description": "The Madras High court on Wednesday refused to transfer the investigation into the Protection of children from sexual offence (Pocso) case involving granite baron R Veeramani to the Central Bureau of Investigation (CBI), saying that the special investigation team (SIT) constituted by the Tamil Nadu government should be given time to collect evidence",
+    "link": "https://www.hindustantimes.com/india-news/hc-refuses-to-transfer-veeramani-case-to-cbi-101790796049541.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Child Rights & Youth",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "child-rights-youth",
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "e06db7c9c763",
+    "title": "Cabinet clears ₹1.8 lakh-crore Green Energy Corridor-III",
+    "description": "The programme is aimed at reinforcing India’s Intra-State Transmission System (InSTS) so that it can evacuate up to 135 gigawatts (GW) of renewable energy across states and Union territories.",
+    "link": "https://www.hindustantimes.com/india-news/cabinet-clears-1-8-lakh-crore-green-energy-corridoriii-101790795929145.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Climate & Environment",
+      "Energy"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "energy"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "1104d80b8f38",
+    "title": "Opposition may put on hold motion to remove CEC Gyanesh Kumar over Election Commission row",
+    "description": "The Congress had announced last week that the Opposition will move a fresh impeachment motion against Kumar in the wake of the Indian Express’ report.",
+    "link": "https://www.hindustantimes.com/india-news/opposition-may-put-on-hold-motion-to-remove-cec-gyanesh-kumar-over-election-commission-row-101790795870613.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "540f1e4f797f",
+    "title": "INDIA bloc revives paper ballot demand, lists steps to target CEC",
+    "description": "Opposition parties on Wednesday revived their demand to replace electronic voting machines (EVMs) with paper ballots and announced a six-point programme—ranging from public rallies to petition to President—to target chief election commissioner Gyanesh Kumar and Prime Minister Narendra Modi",
+    "link": "https://www.hindustantimes.com/india-news/india-bloc-revives-paper-ballot-demand-lists-steps-to-target-cec-101790795809413.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "4081f4f5ab37",
+    "title": "'How does your system override law?': HC asks ECI over 7 voter deletions in Goa",
+    "description": "Hearing the matter, the court said a name cannot be deleted from the rolls without affording a hearing to the affected party.",
+    "link": "https://www.hindustantimes.com/india-news/goa-eci-election-commission-sir-special-intensive-revision-booth-level-officer-bombay-high-court-form-6-101790820117742.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "3e38dd3db7f2",
+    "title": "Delhi HC rejects bail pleas of Umar, Sharjeel in 2020 Delhi riots conspiracy case",
+    "description": "The Delhi High Court on Wednesday dismissed the bail petitions of former Jawaharlal Nehru University (JNU) scholar Umar Khalid and student activist Sharjeel Imam in the larger conspiracy case related to the February 2020 Delhi riots",
+    "link": "https://www.hindustantimes.com/india-news/delhi-hc-rejects-bail-pleas-of-umar-sharjeel-in-2020-delhi-riots-conspiracy-case-101790793289495.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Education",
+      "Governance & Reform",
+      "Child Rights & Youth"
+    ],
+    "sector_slugs": [
+      "education",
+      "governance-reform",
+      "child-rights-youth"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "d0dc2477d843",
+    "title": "PM Modi calls US President Trump, discusses trade, defence, energy amid Russia sanctions",
+    "description": "PM Modi and Donald Trump reviewed trade, defence and energy ties as India-US trade talks continue amid concerns over the new US Russia sanctions law",
+    "link": "https://www.hindustantimes.com/india-news/pm-modi-calls-us-president-trump-discusses-trade-defence-energy-amid-russia-sanctions-101790789748962.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Energy",
+      "Defence & Security",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "energy",
+      "defence-security",
+      "trade-commerce"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "5ca4a97f3cd1",
+    "title": "‘India is proud of Captain Machchhar’: PM Modi hails flydubai pilot, hopes for his speedy recovery",
+    "description": "The captain, Smit Machchhar, is from Ghatkopar East in Mumbai and was based in Dubai for work, people aware of the matter told HT.",
+    "link": "https://www.hindustantimes.com/india-news/india-is-proud-of-captain-smit-machchhar-pm-modi-hails-flydubai-pilot-hopes-for-his-speedy-recovery-101790818827298.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "d594b7436c05",
+    "title": "PM Modi, Trump discuss trade, energy ties amid tariff concerns over Russian oil purchase",
+    "description": "India has raised concerns over a US law that could impose tariffs of up to 100% on major buyers of Russian oil as trade talks continue.",
+    "link": "https://www.hindustantimes.com/india-news/pm-modi-donald-trump-discuss-trade-energy-ties-amid-us-tariff-concerns-over-russian-oil-purchase-101790796469464.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Energy",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "energy",
+      "trade-commerce"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "10dc25fccc8c",
+    "title": "Southwest monsoon ends with 12.6% deficit, fourth-lowest rainfall since 2001",
+    "description": "The rainfall deficit widened to 51.1% in the week ending July 15 before rains improved briefly in late July and early August.",
+    "link": "https://www.hindustantimes.com/india-news/southwest-monsoon-ends-with-12-6-deficit-fourth-lowest-rainfall-since-2001-101790796169323.html",
+    "date": "2026-10-01",
+    "source_id": "hindustan_times",
+    "source_name": "Hindustan Times - India",
+    "source_short": "HT",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "53949c984d56",
+    "title": "Can Essar’s planned steelmaking project in America count on Trump’s policies outlasting his power?",
+    "description": "The Indian industrial group's return to steelmaking with a project in the US would be in sync with Trump’s call to make this metal in America again. Yet, what looks like a win-win for Trump and Essar might be over-exposed to policy risks.",
+    "link": "https://www.livemint.com/opinion/online-views/can-essars-planned-steelmaking-project-in-america-count-on-trump-s-policies-outlasting-his-power-11790794389522.html",
+    "date": "2026-10-01",
+    "source_id": "mint_opinion",
+    "source_name": "Livemint - Opinion",
+    "source_short": "Mint Op",
+    "sectors": [
+      "Energy"
+    ],
+    "sector_slugs": [
+      "energy"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "9426449aac93",
+    "title": "Government cuts windfall tax on diesel, ATF",
+    "description": "Diesel levy reduced to ₹16/L from ₹20; ATF to ₹10.5/L from ₹15; petrol levy unchanged at ₹0.50/L",
+    "link": "https://www.thehindubusinessline.com/economy/government-cuts-windfall-tax-on-diesel-atf/article71531203.ece",
+    "date": "2026-10-01",
+    "source_id": "business_line",
+    "source_name": "BusinessLine - Economy",
+    "source_short": "BL",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "62302d154db8",
+    "title": "Flydubai cockpit attack: Indian pilot fought off co-pilot, Israeli PM hails him as ‘true hero’",
+    "description": "The incident triggered emergency signals and a diversion to Saudi Arabia, as passengers described panic before the cockpit was secured",
+    "link": "https://www.thehindubusinessline.com/economy/logistics/indian-captain-fought-off-co-pilot-who-tried-to-crash-plane-israeli-pm-hails-him-as-true-hero/article71531162.ece",
+    "date": "2026-10-01",
+    "source_id": "business_line",
+    "source_name": "BusinessLine - Economy",
+    "source_short": "BL",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "de5dad6822ea",
+    "title": "AZB & Partners, Trilegal act on Steamhouse India ₹414 crore IPO",
+    "description": "Steamhouse India Limited has raised ₹414 crore from an intial public offering comprising a fresh issue aggregating to ₹353 crore and an offer for sale by the Promoter Selling Shareholder aggregating to ₹61 crore.AZB & Partners advised Steamhouse India on this IPO, according to the DRHP.Trilegal advised Equirus Capital Limited, the book-running lead manager for this IPO.The transaction was led by Abhinav Maker (Partner), with support from Jayant Saxena (Senior Associate), Associates Ipsita Sa",
+    "link": "https://www.barandbench.com/law-firms/dealstreet/azb-partners-trilegal-act-on-steamhouse-india-414-crore-ipo",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "58a9ed459b78",
+    "title": "TT&A, JSA act on Romsons securing investment from Temasek subsidiary",
+    "description": "Romsons Group Private Limited has secured an investment from Jongsong Investments Pte. Ltd., an indirect wholly owned subsidiary of Temasek Holdings (Private) Limited.TT&A advised Romsons with relation to the investment as well as the sale of certain shares of Romsons by the promoter group and other shareholders to Temasek.The transaction team consisted of Gautam Saha (Joint-Managing Partner), Shivranjani Ralawata (Partner), Nishant Singh (Managing Associate) and Eshani Agarwal (Associate).S",
+    "link": "https://www.barandbench.com/law-firms/dealstreet/tta-jsa-act-on-romsons-on-securing-investment-from-temasek-subsidiary",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Finance & Economy"
+    ],
+    "sector_slugs": [
+      "finance-economy"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "ed844e10624c",
+    "title": "Desai & Diwanji acts on Anchor Offshore Services DRHP filing",
+    "description": "Anchor Offshore Services Limited has filed a Draft Red Herring Prospectus for an initial public offering comprising a fresh issue of up to 64,00,000 equity shares of face value ₹ 10 each by the Company and an offer for sale by Promoter Selling Shareholder of up to 6,00,000 equity shares of face value ₹ 10 each.Desai & Diwanji advised Anchor Offshore Services on this DRHP filing.The transaction team consisted of Tushar Dey (Senior Partner), Akshay Bhagchandani (Partner), Associates Ankit Rao,",
+    "link": "https://www.barandbench.com/law-firms/dealstreet/desai-diwanji-acts-on-anchor-offshore-services-drhp-filing",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "3655ded7c27f",
+    "title": "Samisti Legal, VERTICES PARTNERS act on Balwaan Krishi ₹100 crore Series B fundraise",
+    "description": "Modish Tractoraurkisan Private Limited, dba Balwaan Krishi, has raised ₹100 crore from a Series B fundraise led by First Bridge India.VERTICES PARTNERS advised lead investor First Bridge India, which invested ₹70 crore in this fundraise.The transaction was led by Vikrant Anand (Partner), with a team that included Sajal Jain (Associate Manager), Associates Liji Anna Thomas and Mansi Dixit. Founder and Managing Partner Vinayak Burman provided strategic inputs.Vikrant Anand, Vinayak BurmanSami",
+    "link": "https://www.barandbench.com/law-firms/dealstreet/samisti-legal-vertices-partners-act-on-balwaan-krishi-100-crore-series-b-fundraise",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Agriculture",
+      "Transport & Infrastructure",
+      "Defence & Security"
+    ],
+    "sector_slugs": [
+      "agriculture",
+      "transport-infrastructure",
+      "defence-security"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "fdeb02b177b5",
+    "title": "Lex Consult advises ONYA Diamonds on pre-Series A fundraise",
+    "description": "Mahiva Technologies Private Limited, dba ONYA Diamonds, has raised funds from a pre-Series A fundraise led by Divisa Family Office with participation from its existing investor, Zeropearl VC, and several other angel investors.Lex Consult advised ONYA Diamonds on this fundraise.The transaction was led by Naresh Pareek (Partner), with assistance from Riya Trivedi (Senior Associate), Associates Jash Doshi and Vibhor Jain.ONYA DiamondsONYA Diamonds combines art and science to create practical and el",
+    "link": "https://www.barandbench.com/law-firms/dealstreet/lex-consult-advises-onya-diamonds-on-pre-series-a-fundraise",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "science-innovation"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "e7c3d64f753f",
+    "title": "Legacy Law Offices acts on Dinotarp IPO",
+    "description": "Shakti Polytarp Limited, dba Dinotarp, has raised ₹26.93 crore from an initial public offering of equity shares consisting of a fresh issue of 45,64,000 shares.Legacy Law Offices advised Dinotarp as well as the Book Running Lead Manager Nexgen Financial Services Ltd on this SME IPO.The transaction team comprised of Naman Anand (Counsel) and Meghna Shukla (Associate). Surbhi Narang (Partner) provided strategic inputs.DinotarpShakti Polytarp is engaged in the business of manufacturing of",
+    "link": "https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dinotarp-ipo",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Defence & Security"
+    ],
+    "sector_slugs": [
+      "defence-security"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "9fddb4316c23",
+    "title": "Bombay High Court orders X to remove defamatory post against Serum Institute and CEO Adar Poonawalla",
+    "description": "The Bombay High Court on Wednesday directed social media platform X Corp (formerly Twitter) to remove a video uploaded by influencer Yohan Tengra against pharmaceutical company Serum Institute of India and its CEO Adar Poonawalla [Serum Institute of India v. Yohan Tengra & Ors.].Justice Gauri Godse said that the video was in violation of an earlier injunction order passed in a ₹100-crore defamation suit filed by Serum Institute and Poonawalla.The Court also issued a show-cause notice under O",
+    "link": "https://www.barandbench.com/news/bombay-high-court-orders-x-to-remove-defamatory-post-against-serum-institute-and-ceo-adar-poonawalla",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Health",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "health",
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "ce12773b291f",
+    "title": "Judges should not impose personal views on morality in bail cases or criminal trials: Supreme Court",
+    "description": "The Supreme Court recently said that judges should refrain from imposing their personal views or value judgments on morality while deciding bail matters or conducting criminal trials. [Kanha @ Kanhaiya Singh v. State of Madhya Pradesh]A bench of Justices Ujjal Bhuyan and Atul S Chandurkar made the observation while setting aside a Madhya Pradesh High Court order that had refused bail to a man accused of sexually exploiting a minor girl.The High Court had declined bail on the ground that releasin",
+    "link": "https://www.barandbench.com/news/litigation/judges-should-not-impose-personal-views-on-morality-in-bail-cases-or-criminal-trials-supreme-court",
+    "date": "2026-10-01",
+    "source_id": "barandbench",
+    "source_name": "Bar and Bench",
+    "source_short": "Bar&Bench",
+    "sectors": [
+      "Governance & Reform",
+      "Gender & Women"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "gender-women"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "8571d60ac4c3",
+    "title": "What is source apportionment in air-pollution management? How can it improve the effectiveness of urban clean-air strategies in India?",
+    "description": "Topic: Conservation, environmental pollution and degradation, environmental impact assessment Q6. What is source apportionment in air-pollution management? How can it improve the effectiveness of urban clean-air strategies in India? (10 M) Difficulty Level: Medium Reference: DTE Why the question Source apportionment as a scientific tool and its practical role in making India’s urban air-pollution control … Continue reading \"What is source apportionment in air-pollution management? How can",
+    "link": "https://www.insightsonindia.com/2026/10/01/what-is-source-apportionment-in-air-pollution-management-how-can-it-improve-the-effectiveness-of-urban-clean-air-strategies-in-india/",
+    "date": "2026-10-01",
+    "source_id": "insights_ias",
+    "source_name": "Insights IAS",
+    "source_short": "InsightsIAS",
+    "sectors": [
+      "Climate & Environment",
+      "Urban Development",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "climate-environment",
+      "urban-development",
+      "science-innovation"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "31d4c84fa85d",
+    "title": "“Space sustainability is becoming as important as access to space itself.” Discuss the challenges posed by orbital congestion and space debris. Examine the technological and regulatory measures required for sustainable use of outer space.",
+    "description": "Topic: Awareness in the fields of IT, Space Q5. “Space sustainability is becoming as important as access to space itself.” Discuss the challenges posed by orbital congestion and space debris. Examine the technological and regulatory measures required for sustainable use of outer space. (15 M) Difficulty Level: Medium Reference: TH Why the question Rapid expansion … Continue reading \"“Space sustainability is becoming as important as access to space itself.” Discuss the challenges posed by o",
+    "link": "https://www.insightsonindia.com/2026/10/01/space-sustainability-is-becoming-as-important-as-access-to-space-itself-discuss-the-challenges-posed-by-orbital-congestion-and-space-debris-examine-the-technological-and-regulatory/",
+    "date": "2026-10-01",
+    "source_id": "insights_ias",
+    "source_name": "Insights IAS",
+    "source_short": "InsightsIAS",
+    "sectors": [
+      "Digital & Technology",
+      "Defence & Security",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "digital-technology",
+      "defence-security",
+      "trade-commerce"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "eaedd8a22c65",
+    "title": "“Shared cultural affinities have not automatically translated into deeper regional integration in South Asia.” Explain.",
+    "description": "Topic: Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests Q4. “Shared cultural affinities have not automatically translated into deeper regional integration in South Asia.” Explain. (10 M) Difficulty Level: Medium Reference: NIE Why the question The paradox of cultural proximity but weak regional integration in South Asia, an important dimension … Continue reading \"“Shared cultural affinities have not automatically translated in",
+    "link": "https://www.insightsonindia.com/2026/10/01/shared-cultural-affinities-have-not-automatically-translated-into-deeper-regional-integration-in-south-asia-explain/",
+    "date": "2026-10-01",
+    "source_id": "insights_ias",
+    "source_name": "Insights IAS",
+    "source_short": "InsightsIAS",
+    "sectors": [
+      "Social Protection",
+      "Trade & Commerce"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "trade-commerce"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "311410a5d2a0",
+    "title": "“Transformative constitutionalism requires the State not merely to prohibit caste discrimination but also to dismantle conditions that perpetuate caste-based exclusion.” Discuss.",
+    "description": "Topic: mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections. Q3. “Transformative constitutionalism requires the State not merely to prohibit caste discrimination but also to dismantle conditions that perpetuate caste-based exclusion.” Discuss. (15 M) Difficulty Level: Medium Reference: IE Why the question The idea of transformative constitutionalism and how … Continue reading \"“Transformative constitutionalism requires the Sta",
+    "link": "https://www.insightsonindia.com/2026/10/01/transformative-constitutionalism-requires-the-state-not-merely-to-prohibit-caste-discrimination-but-also-to-dismantle-conditions-that-perpetuate-caste-based-exclusion-discuss/",
+    "date": "2026-10-01",
+    "source_id": "insights_ias",
+    "source_name": "Insights IAS",
+    "source_short": "InsightsIAS",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "8f7def2bb7a4",
+    "title": "PM Modi, Netanyahu Hail Flydubai Pilot Smit Machchhar as 'Hero'",
+    "description": "PM Modi said Machchhar's valour helped save hundreds of lives and avert a major tragedy",
+    "link": "https://www.deccanchronicle.com/nation/world/pm-modi-netanyahu-hail-flydubai-pilot-smit-machchhar-as-hero-1992109",
+    "date": "2026-10-01",
+    "source_id": "deccan_chronicle",
+    "source_name": "Deccan Chronicle",
+    "source_short": "DC",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "e80d8effcbca",
+    "title": "Kalam Foundation Takes Ramanathapuram School Kids To ISRO",
+    "description": "Students from areas including Rameswaram, Mandapam, Uchipuli, Ramanathapuram and Paramakudi were selected.",
+    "link": "https://www.deccanchronicle.com/southern-states/tamil-nadu/kalam-foundation-takes-ramanathapuram-school-kids-to-isro-1992108",
+    "date": "2026-10-01",
+    "source_id": "deccan_chronicle",
+    "source_name": "Deccan Chronicle",
+    "source_short": "DC",
+    "sectors": [
+      "Education",
+      "Defence & Security",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "education",
+      "defence-security",
+      "science-innovation"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "99d7cbbe4b21",
+    "title": "Identical Bids In Amma Unavagam Tenders In Ward 155 Raise Questions Over Bidding Process Per Se",
+    "description": "According to the financial documents examined by residents, multiple bidders in each of the three tenders quoted exactly 14.99 per cent below the estimated rate, producing identical quoted amounts within the respective tender.",
+    "link": "https://www.deccanchronicle.com/southern-states/tamil-nadu/identical-bids-in-amma-unavagam-tenders-in-ward-155-raise-questions-over-bidding-process-per-se-1992107",
+    "date": "2026-10-01",
+    "source_id": "deccan_chronicle",
+    "source_name": "Deccan Chronicle",
+    "source_short": "DC",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "5718b6d8db0e",
+    "title": "Akhilesh Says Many BJP MLAs in Touch Ahead of UP Polls",
+    "description": "There have been talks between the Samajwadi Party and Congress over an alliance for the Uttar Pradesh Assembly polls",
+    "link": "https://www.deccanchronicle.com/nation/politics/akhilesh-says-many-bjp-mlas-in-touch-ahead-of-up-polls-1992106",
+    "date": "2026-10-01",
+    "source_id": "deccan_chronicle",
+    "source_name": "Deccan Chronicle",
+    "source_short": "DC",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "a2fb65c79157",
+    "title": "Ooty Recorded 50% Deficit Rainfall During Southwest Monsoon",
+    "description": "While the average normal rainfall for the Nilgiris during the southwest monsoon in 842 mm, this monsoon, the Nilgiris recorded only 572 mm rainfall",
+    "link": "https://www.deccanchronicle.com/southern-states/tamil-nadu/ooty-recorded-50-deficit-rainfall-during-southwest-monsoon-1992104",
+    "date": "2026-10-01",
+    "source_id": "deccan_chronicle",
+    "source_name": "Deccan Chronicle",
+    "source_short": "DC",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "981c96f7db40",
+    "title": "Ronaldo Leaves Portugal Camp After Being Dropped from Nations League Start",
+    "description": "Ronaldo had been due to train with his team-mates at the Parken stadium in Copenhagen on Wednesday but left abruptly after Jesus's press conference",
+    "link": "https://www.deccanchronicle.com/sports/football/ronaldo-leaves-portugal-camp-after-being-dropped-from-nations-league-start-1992101",
+    "date": "2026-10-01",
+    "source_id": "deccan_chronicle",
+    "source_name": "Deccan Chronicle",
+    "source_short": "DC",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "c6558c184207",
+    "title": "Elon Musk to Co-Lead US Project on Future of Warfare",
+    "description": "The project will operate under the supervision of the department's Chief Technology Officer, Emil Michael",
+    "link": "https://www.deccanchronicle.com/world/americas/elon-musk-to-co-lead-us-project-on-future-of-warfare-1992100",
+    "date": "2026-10-01",
+    "source_id": "deccan_chronicle",
+    "source_name": "Deccan Chronicle",
+    "source_short": "DC",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "7352583daa16",
+    "title": "Showed immense courage: PM praises hero Indian pilot for averting flydubai tragedy",
+    "description": "Showed immense courage PM praises hero Indian pilot for averting flydubai tragedy",
+    "link": "https://www.indiatoday.in/india/story/showed-immense-courage-pm-praises-hero-capt-smit-machchhar-for-averting-tragedy-on-flydubai-plane-3007051-2026-10-01?utm_source=rss",
+    "date": "2026-10-01",
+    "source_id": "india_today",
+    "source_name": "India Today",
+    "source_short": "IndiaToday",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "3efdffd1fc4c",
+    "title": "UPSC turns 100: How Indians took on Britain for exam even before Congress was born",
+    "description": "UPSC turns How Indians took on Britain for exam even before Congress was born",
+    "link": "https://www.indiatoday.in/india/story/upsc-100-years-history-surendranath-banerjea-ics-exam-india-british-raj-congress-civil-services-3006824-2026-10-01?utm_source=rss",
+    "date": "2026-10-01",
+    "source_id": "india_today",
+    "source_name": "India Today",
+    "source_short": "IndiaToday",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "feac841f94f2",
+    "title": "Kimi AI trained on ChatGPT? OpenAI accuses Moonshot of massive AI model copying campaign",
+    "description": "Kimi AI trained on ChatGPT OpenAI accuses Moonshot of massive AI model copying campaign",
+    "link": "https://www.indiatoday.in/technology/news/story/kimi-ai-trained-on-chatgpt-openai-accuses-moonshot-of-massive-ai-model-copying-campaign-3007068-2026-10-01?utm_source=rss",
+    "date": "2026-10-01",
+    "source_id": "india_today",
+    "source_name": "India Today",
+    "source_short": "IndiaToday",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "3e4ac69a17d5",
+    "title": "New NTA law, independent board: SBI Research suggests major exam reforms",
+    "description": "New NTA law independent board SBI Research suggests major exam reforms",
+    "link": "https://www.indiatoday.in/education-today/news/story/nta-overhaul-sbi-research-proposes-new-law-independent-board-and-expert-team-3007063-2026-10-01?utm_source=rss",
+    "date": "2026-10-01",
+    "source_id": "india_today",
+    "source_name": "India Today",
+    "source_short": "IndiaToday",
+    "sectors": [
+      "Governance & Reform",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "governance-reform",
+      "science-innovation"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "02c78c69ec0b",
+    "title": "Nuclear expansion gathers pace, Kalpakkam reactor targets 2027 completion: RTI",
+    "description": "Nuclear expansion gathers pace, Kalpakkam reactor targets 2027 completion: RTI",
+    "link": "https://www.indiatoday.in/india/story/kalpakkam-pfbr-500mw-fast-breeder-reactor-march-2027-completion-3007055-2026-10-01?utm_source=rss",
+    "date": "2026-10-01",
+    "source_id": "indiatoday_rss",
+    "source_name": "India Today (RSS)",
+    "source_short": "IT RSS",
+    "sectors": [
+      "Energy",
+      "Governance & Reform",
+      "Science & Innovation"
+    ],
+    "sector_slugs": [
+      "energy",
+      "governance-reform",
+      "science-innovation"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "58365664720e",
+    "title": "Eiffel Tower chief to step down after row over removal of women staff for Hindu group’s visit",
+    "description": "An internal probe found that ‘operational flaws’ had led to the ‘unacceptable’ incident, said the firm that manages the landmark.",
+    "link": "https://scroll.in/latest/1096128/eiffel-tower-chief-to-step-down-after-row-over-removal-of-women-staff-for-hindu-groups-visit?utm_source=rss&utm_medium=public",
+    "date": "2026-10-01",
+    "source_id": "scroll",
+    "source_name": "Scroll.in",
+    "source_short": "Scroll",
+    "sectors": [
+      "Social Protection",
+      "Gender & Women"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "gender-women"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "a8df0fd04174",
+    "title": "Flydubai incident: What we know so far",
+    "description": "While the airline said the reason behind the Indian pilot getting injured was unknown, Israeli PM Netanyahu claimed he had saved the plane from being crashed.",
+    "link": "https://scroll.in/latest/1096127/flydubai-incident-what-we-know-so-far?utm_source=rss&utm_medium=public",
+    "date": "2026-10-01",
+    "source_id": "scroll",
+    "source_name": "Scroll.in",
+    "source_short": "Scroll",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "e0eaccb0e21b",
+    "title": "Another Muslim man from Bengal pushed into Bangladesh despite voter ID and passport, says family",
+    "description": "The authorities had not provided proof of Abdul Barek being an allegedly undocumented Bangladeshi and did not consider his identity documents, his son alleged.",
+    "link": "https://scroll.in/latest/1096126/another-muslim-man-from-bengal-pushed-into-bangladesh-despite-voter-id-passport?utm_source=rss&utm_medium=public",
+    "date": "2026-10-01",
+    "source_id": "scroll",
+    "source_name": "Scroll.in",
+    "source_short": "Scroll",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "69e090319e9d",
+    "title": "Non-Disclosure Of Criminal Case Is Not Suppression If Candidate Had No Knowledge Of It, & Was Ultimately Exonerated: Madras High Court",
+    "description": "",
+    "link": "https://www.livelaw.in/high-court/madras-high-court/non-disclosure-of-criminal-case-is-not-suppression-if-candidate-had-no-knowledge-of-it-was-ultimately-exonerated-madras-high-court-552576",
+    "date": "2026-10-01",
+    "source_id": "livelaw",
+    "source_name": "LiveLaw",
+    "source_short": "LiveLaw",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "857edade177b",
+    "title": "Kerala High Court Declares Wife Exclusive Owner Of Property Bought In Joint Name With Husband Using Her Father's Money",
+    "description": "",
+    "link": "https://www.livelaw.in/high-court/kerala-high-court/exclusive-owner-wife-joint-property-fathers-money-section-14-family-courts-act-552570",
+    "date": "2026-10-01",
+    "source_id": "livelaw",
+    "source_name": "LiveLaw",
+    "source_short": "LiveLaw",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "828ed5667e7e",
+    "title": "Police Cannot Detain Innocent Family Member To Force Accused To Surrender: Allahabad High Court Awards ₹40K Compensation",
+    "description": "Allahabad HC awards ₹40,000 compensation for unlawful detention of innocent man to pressure accused to surrender.",
+    "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-cannot-detain-innocent-family-member-accused-surrender-552575",
+    "date": "2026-10-01",
+    "source_id": "livelaw",
+    "source_name": "LiveLaw",
+    "source_short": "LiveLaw",
+    "sectors": [
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "id": "3347fdf46f83",
+    "title": "Full Court Meetings 'Stage-Managed'? Allahabad High Court Flags Lack Of Collegiate Deliberation; Says Judges' Views Not Recorded",
+    "description": "'Only 16 Full Court meetings in 10 Years'; Justice Diwakar notes no general policy matters placed before Full Court in last decade",
+    "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-stage-managed-full-court-meetings-dissent-justice-vinod-diwakar-552574",
+    "date": "2026-10-01",
+    "source_id": "livelaw",
+    "source_name": "LiveLaw",
+    "source_short": "LiveLaw",
+    "sectors": [
+      "Social Protection",
+      "Governance & Reform"
+    ],
+    "sector_slugs": [
+      "social-protection",
+      "governance-reform"
+    ],
+    "type": "news",
+    "kind": "news",
+    "authority": "media",
+    "comment_deadline": "",
+    "level": "media",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
     "id": "76d22d368d7f",
     "title": "Online Training Course Driving clean air: Strategies to reduce emissions from transport",
     "description": "",
@@ -12940,6 +14447,29 @@
     "first_seen": "2026-09-30"
   },
   {
+    "id": "fd9496c51c69",
+    "title": "Why and How India Should Accelerate AI Diffusion",
+    "description": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+    "link": "https://takshashila.org.in/content/publications/20260930-why-and-how-india-should-accelerate-ai.html",
+    "date": "2026-09-29",
+    "source_id": "takshashila",
+    "source_name": "Takshashila Institution",
+    "source_short": "Takshashila",
+    "sectors": [
+      "Digital & Technology"
+    ],
+    "sector_slugs": [
+      "digital-technology"
+    ],
+    "type": "analysis",
+    "kind": "analysis",
+    "authority": "think_tank",
+    "comment_deadline": "",
+    "level": "central",
+    "state": "",
+    "first_seen": "2026-10-01"
+  },
+  {
     "id": "e8279b4da257",
     "title": "Satheesan government faces first major electoral test as counting begins in 38 local body wards across 12 districts",
     "description": "The results, expected to trickle in soon, could have significant consequences for the UDF, the Left Democratic Front (LDF) opposition and the Bharatiya Janata Party (BJP)-led National Democratic Alliance.",
@@ -19147,1453 +20677,6 @@
     "sector_slugs": [
       "finance-economy",
       "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "63fee0a34e2d",
-    "title": "Military Land Register Conclusive Record, Private Title Claim Can't Stand: Karnataka High Court Restores Land To Indian Air Force",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-restores-iaf-title-3acres-defence-land-yelahanka-552239",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Defence & Security",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "defence-security",
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "3de6b95336e1",
-    "title": "Wife's Masters Degree, Rejection Of Permanent Alimony Can't Be Grounds To Deny Maintenance U/S 125 CrPC: Karnataka High Court",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-section125-crpc-claim-cannot-reject-permanent-maintenance-denied-earlier-552182",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "3b34be513506",
-    "title": "State Labour Court Can Entertain Industrial Dispute Involving Central Govt-Controlled Bank Employee: AP High Court",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/ap-high-court-state-labour-tribunal-entertain-dispute-within-territory-552232",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Labour & Employment",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "labour-employment",
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "2ef64184a93b",
-    "title": "Hookah Bars Can't Operate In UP Even In Designated Smoking Areas: Allahabad High Court Says 'Right To Clean Air' Overrides Right To Trade",
-    "description": "",
-    "link": "https://www.livelaw.in/top-stories/hookah-bars-cant-operate-up-designated-smoking-areas-allahabad-high-court-552236",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Climate & Environment",
-      "Governance & Reform",
-      "Trade & Commerce"
-    ],
-    "sector_slugs": [
-      "climate-environment",
-      "governance-reform",
-      "trade-commerce"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "74033b8aa4d9",
-    "title": "Why Not Cap Medicines' MRPs At 16% Above Retailer Prices? Supreme Court Asks",
-    "description": "",
-    "link": "https://www.livelaw.in/top-stories/why-not-cap-medicines-mrps-at-16-above-retailer-prices-supreme-court-asks-552235",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform",
-      "Trade & Commerce"
-    ],
-    "sector_slugs": [
-      "governance-reform",
-      "trade-commerce"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "cc3449835657",
-    "title": "Gujarat High Court Grants Bail To POCSO Accused Booked For 'Eloping' With Minor Girl To Help Evade Forced Marriage",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/gujarat-high-court/gujarat-high-court-bail-pocso-accused-minor-girl-marriage-552233",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Gender & Women",
-      "Governance & Reform",
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "gender-women",
-      "governance-reform",
-      "child-rights-youth"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "d26f772f7ac4",
-    "title": "Delhi High Court Sets Aside FSSAI Order Directing Red Bull To Stop Using “Energy Drink” Label",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-sets-aside-fssai-order-directing-red-bull-to-stop-using-energy-drink-label-552234",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Health",
-      "Energy",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "health",
-      "energy",
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "eb29efca0e56",
-    "title": "Delhi High Court Fines Lawyer ₹1 Lakh For Appearing Virtually From Moving Car",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-fines-lawyer-1-lakh-for-appearing-virtually-from-moving-car-552223",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "ac8caeb6e1d5",
-    "title": "S. 17 Arbitration Act | Arbitral Tribunal Does Not Exercise Appellate Jurisdiction Over Section 9 Orders: Supreme Court",
-    "description": "",
-    "link": "https://www.livelaw.in/supreme-court/s-17-arbitration-act-arbitral-tribunal-does-not-exercise-appellate-jurisdiction-over-section-9-orders-supreme-court-552229",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Social Protection",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "social-protection",
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "1e8e3c1e0d29",
-    "title": "S.528 BNSS | High Court's Inherent Powers Can't Be Used As Disguised Second Revision: P&H High Court",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/punjab-and-haryana-high-court/section-528-bnss-no-disguised-second-revision-552195",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Energy",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "energy",
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "25034aca9722",
-    "title": "Delhi High Court Orders Takedown Of Deepfake Content Against Drishti IAS Founder, Flags Risks Of Anonymous Social Media Profiles",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-orders-takedown-of-deepfake-content-against-drishti-ias-founder-vikas-divyakirti-552227",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "ea220cbcedb2",
-    "title": "LiveLaw Andhra Pradesh High Court Weekly Round-Up: September 21 - September 27, 2026",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-weekly-roundup-552196",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "c6056edbc1f6",
-    "title": "Karnataka High Court Censures RTI Applicants For Filing Thousands Of Pleas, Says RTI Must Not Be Filed 'For The Sake Of It'",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-grills-serial-rti-applicants-thousands-pleas-552205",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "49a7faf0bd8c",
-    "title": "Punjab Municipal Elections: Supreme Court Says All Wards Where Violence Took Place Must Go For Re-Election",
-    "description": "",
-    "link": "https://www.livelaw.in/top-stories/supreme-court-punjab-municipal-elections-wards-where-violence-took-place-must-go-for-re-election-552225",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Urban Development",
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "urban-development",
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "165cd1eab364",
-    "title": "Special Public Prosecutor Vacancy At Central Bureau Of Investigation [Coimbatore; Apply Now]",
-    "description": "",
-    "link": "https://www.livelaw.in/job-updates/special-public-prosecutor-vacancy-at-central-bureau-of-investigation-coimbatore-552224",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "1cf08f0cd7ad",
-    "title": "Delhi High Court Calls For Expeditious Disposal Of Cheque Bounce Cases, Says Cross-Examination Should Take Place Same Day",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/delhi-high-court/cheque-bounce-cases-cross-examine-witness-same-day-552201",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "33752abc01d0",
-    "title": "S.65B Evidence Act Certificate Not Mandatory For Electronic Evidence Before Family Courts: Karnataka High Court",
-    "description": "",
-    "link": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-certificate-section65b-evidence-act-not-mandatory-family-court-proceedings-552181",
-    "date": "2026-09-29",
-    "source_id": "livelaw",
-    "source_name": "LiveLaw",
-    "source_short": "LiveLaw",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "49ba3756559f",
-    "title": "UP Rajya Sabha polls: Smriti Irani, Kumar Vishwas likely BJP picks; Varun Gandhi, Hardeep Puri also in the mix",
-    "description": "The Uttar Pradesh BJP has sent a panel of 25 names to the party's central leadership for consideration as candidates for the 16 October Rajya Sabha elections to 10 seats falling vacant from the state.",
-    "link": "https://www.livemint.com/politics/news/up-rajya-sabha-polls-smriti-irani-kumar-vishwas-likely-bjp-picks-varun-gandhi-hardeep-puri-also-in-the-mix-11790692346316.html",
-    "date": "2026-09-29",
-    "source_id": "livemint_policy",
-    "source_name": "Livemint - Policy & Politics",
-    "source_short": "Livemint",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "60625d9f5d4a",
-    "title": "Sahil Wakode’s parents seek police protection, allege threat to life and probe",
-    "description": "The parents have accused IIT Bombay Director Prof. Shireesh Kedare and Prof. Suryanarayana Doolla in connection with Wakode’s death.",
-    "link": "https://www.thehindu.com/news/national/maharashtra/sahil-wakodes-parents-seek-police-protection-allege-threat-to-life-and-probe/article71525165.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Education"
-    ],
-    "sector_slugs": [
-      "education"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "ebf38ef0dcd6",
-    "title": "CMC organises events to mark World Heart Day",
-    "description": "Ranipet Collector N. Priya Ravichandran was the chief guest",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/cmc-organises-events-to-mark-world-heart-day/article71524159.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "e053111f7ee0",
-    "title": "Change the name of Adi Dravidar Welfare Department, says Krishnasamy",
-    "description": "",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/change-the-name-of-adi-dravidar-welfare-department-says-krishnasamy/article71524613.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "0174d72fe2a0",
-    "title": "Mammoth protest at Kittur Chennamma Circle by Sugarcane farmers; Farmers agree for talk at Delhi with Joshi after intervention by MLAs Tenginakai, Patil",
-    "description": "Thousands of sugarcane growers from across Karnataka and neighbouring Maharashtra and Telangana staged a massive protest at Kittur Chennamma Circle in Hubballi on Tuesday, demanding remunerative prices for sugarcane and a revision of the minimum selling price (MSP) of sugar. After appeal by union minister Pralhad Joshi, intervention by local legislators they agree for talks at Delhi, withdraw protest",
-    "link": "https://www.thehindu.com/news/national/karnataka/mammoth-protest-at-kittur-chennamma-circle-by-sugarcane-farmers-farmers-agree-for-talk-at-delhi-with-joshi-after-intervention-by-mlas-tenginakai-patil/article71524508.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Agriculture"
-    ],
-    "sector_slugs": [
-      "agriculture"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "3611e5447b8e",
-    "title": "Of those deleted in SIR so far, over 71% in ‘absent, shifted or others’ category",
-    "description": "Many of the 9.5 crore names deleted under the ‘absent, shifted or others’ category could potentially be back in the electoral rolls after the SIR process is completed",
-    "link": "https://www.thehindu.com/news/national/of-those-deleted-in-sir-so-far-over-71-in-absent-shifted-or-others-category/article71524969.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "2babf12f687a",
-    "title": "EC reverts to allowing Form 6 submission without attached declaration in non-SIR States",
-    "description": "While Form 6 is normally used for new voter registrations, during the SIR process, it was also used for re-enlisting those who had been deleted during the enumeration phase. A separate declaration had been added to the physical form regarding the mapping of self or parents with electoral rolls from the period of the previous SIR",
-    "link": "https://www.thehindu.com/news/national/ec-reverts-to-allowing-form-6-submission-without-attached-declaration-in-non-sir-states/article71525571.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "3575a7206db6",
-    "title": "Ministers Aadhav Arjuna, C.T.R. Nirmal Kumar urge Madras High Court to dismiss DMK’s defamation case",
-    "description": "They contend that the political party had not issued prior notices to them as required under Section 80 of the Code of Criminal Procedure",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/ministers-aadhav-arjuna-ctr-nirmal-kumar-urge-madras-high-court-to-dismiss-dmks-defamation-case/article71525136.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "f313143db9d4",
-    "title": "T.N. government proposes memorial for 5 icons on University Union Grounds at Chepet in Chennai, sports teachers object",
-    "description": "The State government plans to build the memorial complex for 5 icons on a portion of the University Union Grounds in Chetpet belonging to the University of Madras",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-government-proposes-memorial-for-5-icons-on-university-union-grounds-at-chepet-in-chennai-sports-teachers-object/article71525294.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Education",
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "education",
-      "child-rights-youth"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "8c3e1c3a1a82",
-    "title": "Surveillance is not the only privacy issue",
-    "description": "Who is responsible, when a protester is identified by a camera, doxxed by anonymous accounts, and then threatened at home? What happens to privacy when an electoral-roll decision determines whether someone can vote? Which safeguard applies when data gathered by the police is held by a private company?",
-    "link": "https://www.thehindu.com/opinion/op-ed/surveillance-is-not-the-only-privacy-issue/article71525462.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "digital-technology"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "a6d90ba5c00c",
-    "title": "R. Veeramani booked for abetting suicide of minor in 2004",
-    "description": "Chennai Police also book third case against the octogenarian businessmen under the POCSO Act",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/r-veeramani-booked-for-abetting-suicide-of-minor/article71525500.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "child-rights-youth"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "f1772e8bffce",
-    "title": "At CWC meet, Rahul says Modi told him: ‘When we go, you will come'",
-    "description": "Leader of Opposition says Congress must resist both inside Parliament and on the streets; asserts CEC Gyanesh Kumar has to resign",
-    "link": "https://www.thehindu.com/news/national/when-we-go-you-will-come-rahul-gandhi-says-pm-told-him-only-congress-can-defeat-bjp/article71523738.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "a0f86e1af93d",
-    "title": "Centre moves Supreme Court to stay hearings on Great Nicobar project",
-    "description": "Centre reiterates in Supreme Court that the petitioner, Meena Gupta, has no locus standi to move court in the matter and the petitions are an abuse of process; Calcutta High Court had rejected this argument in May and paved the way for a final hearing in November",
-    "link": "https://www.thehindu.com/news/national/centre-moves-supreme-court-to-stay-hearings-on-great-nicobar-project/article71525280.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "a99416a4fdc6",
-    "title": "Japan calls on India to fast-track internal process on UNICORN naval radar agreement",
-    "description": "The pact for transfer of technology was signed during Prime Minister Sanae Takaichi’s India visit in July",
-    "link": "https://www.thehindu.com/news/national/japan-calls-on-india-to-fast-trackinternal-process-on-unicorn-naval-radar-agreement/article71524306.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "digital-technology"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "6d5684d39e46",
-    "title": "CEC row updates: Reward Gyanesh Kumar with Bharat Ratna for delivering West Bengal to BJP, says Jammu and Kashmir CM Omar Abdullah",
-    "description": "\"Padma Bhushan? Why stop there? Give him the Bharat Ratna! One or two years left for the presidential election? Make him the President! Now that he has done so much for the BJP,\" says Jammu and Kashmir CM Omar Abdullah",
-    "link": "https://www.thehindu.com/news/national/cec-election-commission-row-gyanesh-kumar-live-updates-september-29-2026/article71522496.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "a8b91b5918d6",
-    "title": "Country has lost its way, but always finds its path back: Murli Manohar Joshi",
-    "description": "From growing trust deficit in Indian politics to the mishandling of the youth protest at Jantar Mantar, BJP veteran Murli Manohar Joshi, in an interview to The Hindu, speaks at length on various burning issues in the country. On the Ayodhya Ram Temple, he holds the government responsible for the temple trust’s functioning and stressed the need for fair elections and public trust in the SIR process",
-    "link": "https://www.thehindu.com/news/national/country-has-lost-its-way-but-always-finds-its-way-back-murli-manohar-joshi/article71524532.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "child-rights-youth"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "5c0247ecfaff",
-    "title": "Days after India-Pakistan sparring at UN, senior Indian official visits Islamabad for SCO planning meet",
-    "description": "First such official visit by Indian delegation since Operation Indoor; Senior External Affair Ministry official leads team at three-day SCO preparatory meeting",
-    "link": "https://www.thehindu.com/news/national/days-after-india-pakistan-sparring-at-un-senior-indian-official-visits-islamabad-for-sco-planning-meet/article71525343.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "social-protection"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "535b79f95eb4",
-    "title": "Rahul Gandhi urged to ensure social diversity in Kerala Planning Board",
-    "description": "The memorandum requests that corrective steps be taken to ensure that the constitutional values of social diversity, professional excellence, inclusion and equal opportunity are reflected in the composition of the Planning Board.",
-    "link": "https://www.thehindu.com/news/national/kerala/rahul-gandhi-urged-to-ensure-social-diversity-in-kerala-planning-board/article71525273.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "f40d17d4970e",
-    "title": "MeitY IndiaAI Centre of Excellence in Artificial Intelligence to be launched on Wednesday",
-    "description": "A major milestone accompanying the launch is the announcement of CAIK’s first cohort of 15 start-ups.",
-    "link": "https://www.thehindu.com/news/national/kerala/meity-indiaai-centre-of-excellence-in-artificial-intelligence-to-be-launched-on-wednesday/article71524860.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Digital & Technology"
-    ],
-    "sector_slugs": [
-      "digital-technology"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "7a2d11d5686d",
-    "title": "CPI seeks rehabilitation package for P&T apartment residents",
-    "description": "A delegation led by CPI district secretary N. Arun visited the complex and expressed solidarity with the residents staging protest",
-    "link": "https://www.thehindu.com/news/national/kerala/cpi-seeks-rehabilitation-package-for-pt-apartment-residents/article71523623.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "6f834c963bc8",
-    "title": "NIA arrests 13 for links with Bangladesh terror outfit",
-    "description": "The probe agency also arrested three in Manipur, including two for ambushing the Chief Minister’s convoy",
-    "link": "https://www.thehindu.com/news/national/nia-arrests-13-for-links-with-bangladesh-terror-outfit/article71525020.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_policy",
-    "source_name": "The Hindu - National",
-    "source_short": "The Hindu",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "26d446c4a2b1",
-    "title": "NCLAT issues notice to creditors on Subhash Chandra's plea; sets next hearing for October 29-30",
-    "description": "A three-member Bench of NCLAT also granted a week's time to Subhash Chandra to file a rejoinder to the creditors' reply",
-    "link": "https://www.thehindu.com/business/nclat-issues-notice-to-creditors-on-subhash-chandras-plea-sets-next-hearing-for-october-29-30/article71525530.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_business",
-    "source_name": "The Hindu - Business",
-    "source_short": "The Hindu Biz",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "ebddc31a05bc",
-    "title": "Cleartrip bets on holidays for growth; targets high-single-digit share",
-    "description": "The platform is trying to build a new revenue engine around holidays after spending nearly two decades scaling its air and hotel businesses",
-    "link": "https://www.thehindu.com/business/Industry/cleartrip-bets-on-holidays-for-growth-targets-high-single-digit-share/article71524319.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_business",
-    "source_name": "The Hindu - Business",
-    "source_short": "The Hindu Biz",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "9deabaa3fd75",
-    "title": "Tata Trusts within right to seek merger, but Tata Sons can challenge: Lawyer",
-    "description": "The proposed restructuring aims to take Tata Sons out from NBFC/CIC framework. Whether that objective could be achieved depend on final structure and RBI’s assessment, not on unilateral decision by Tata Trusts or Tata Sons",
-    "link": "https://www.thehindu.com/business/Industry/tata-trusts-within-right-to-seek-merger-but-tata-sons-can-challenge-lawyer/article71524163.ece",
-    "date": "2026-09-29",
-    "source_id": "the_hindu_business",
-    "source_name": "The Hindu - Business",
-    "source_short": "The Hindu Biz",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "91660dd5cad0",
-    "title": "Delhi Bans Bus Strikes For 6 Months, Commuters Get Relief",
-    "description": "The Delhi government has invoked the Essential Services Maintenance Act (ESMA), which allows strikes in essential services to be prohibited.",
-    "link": "https://www.ndtv.com/india-news/delhi-bans-bus-strikes-agitations-for-6-months-commuters-get-relief-12116939#publisher=newsstand",
-    "date": "2026-09-29",
-    "source_id": "ndtv_india",
-    "source_name": "NDTV - India",
-    "source_short": "NDTV",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "b15fd65fb97c",
-    "title": "INDIA Bloc To Meet Today Over Poll Body Row: Options And Gameplan",
-    "description": "The meet will also draw up a strategy to launch a nationwide agitation. Protests and public rallies against the Chief Election Commissioner will be held across the country, while an impeachment motion will be moved in Parliament.",
-    "link": "https://www.ndtv.com/india-news/india-bloc-to-meet-today-over-poll-body-row-options-and-gameplan-12116922#publisher=newsstand",
-    "date": "2026-09-29",
-    "source_id": "ndtv_india",
-    "source_name": "NDTV - India",
-    "source_short": "NDTV",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "5a238a7f6ee4",
-    "title": "High Court Setback For Arvind Kejriwal In PM Modi Degree Case",
-    "description": "The two-judge bench delivered the verdict after having previously reserved its judgment. The court found no merit in Kejriwal's challenge and refused to interfere with the earlier ruling.",
-    "link": "https://www.ndtv.com/india-news/high-court-setback-for-arvind-kejriwal-in-pm-modi-degree-case-12116915#publisher=newsstand",
-    "date": "2026-09-29",
-    "source_id": "ndtv_india",
-    "source_name": "NDTV - India",
-    "source_short": "NDTV",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "0c313156da51",
-    "title": "Bhagat Singh To Punjab's Water: AAP Widens Its Political Campaign",
-    "description": "The clearest example came in Ludhiana, where the AAP government organised 'Jashan-e-Inquilab' at Punjab Agricultural University to mark Bhagat Singh's birth anniversary.",
-    "link": "https://www.ndtv.com/india-news/bhagat-singh-to-punjabs-water-aap-widens-its-political-campaign-12116891#publisher=newsstand",
-    "date": "2026-09-29",
-    "source_id": "ndtv_india",
-    "source_name": "NDTV - India",
-    "source_short": "NDTV",
-    "sectors": [
-      "Education",
-      "Water & Sanitation"
-    ],
-    "sector_slugs": [
-      "education",
-      "water-sanitation"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "e8d258e61119",
-    "title": "Attend, Don't Just Write Articles: Mallikarjun Kharge's Lighthearted Dig At Shashi Tharoor",
-    "description": "At the Congress Working Committee meeting, Tharoor suggested holding an event on October 2, Mahatma Gandhi's birth anniversary.",
-    "link": "https://www.ndtv.com/india-news/attend-dont-just-write-articles-mallikarjun-kharges-lighthearted-dig-at-shashi-tharoor-12116706#publisher=newsstand",
-    "date": "2026-09-29",
-    "source_id": "ndtv_india",
-    "source_name": "NDTV - India",
-    "source_short": "NDTV",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "b20a7a8cc17b",
-    "title": "Multi-Crore Land Fraud Busted In Kashmir. Revenue Officer, Broker Arrested",
-    "description": "According to investigations, as soon as a mutation is cancelled, property brokers are able to obtain fresh land extracts, allowing the same plots to be sold again to new buyers.",
-    "link": "https://www.ndtv.com/india-news/multi-crore-land-fraud-busted-in-kashmir-revenue-officer-broker-arrested-12116587#publisher=newsstand",
-    "date": "2026-09-29",
-    "source_id": "ndtv_india",
-    "source_name": "NDTV - India",
-    "source_short": "NDTV",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "c33573440a4f",
-    "title": "Supreme Court Rejects Plea Against SIR Ahead Of West Bengal Bypolls",
-    "description": "The by-elections are scheduled to take place on October 6. Voters in Rejinagar and Nandigram who had applied before the tribunal had been hoping to get some relief from the top court on Monday.",
-    "link": "https://www.ndtv.com/india-news/supreme-court-rejects-plea-against-sir-ahead-of-west-bengal-bypolls-12116568#publisher=newsstand",
-    "date": "2026-09-29",
-    "source_id": "ndtv_india",
-    "source_name": "NDTV - India",
-    "source_short": "NDTV",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "e459780d85e2",
-    "title": "SC pulls up NCPCR for ‘indifferent’ implemention of 25% EWS quota",
-    "description": "The court was monitoring the implementation of its January 13 direction which mandated strict enforcement of the provision under section 12(1)(c) of the Right of Children to Free and Compulsory Education Act, 2009.",
-    "link": "https://www.hindustantimes.com/india-news/sc-pulls-up-ncpcr-for-indifferent-implemention-of-25-ews-quota-101790708191879.html",
-    "date": "2026-09-29",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Child Rights & Youth",
-      "Education",
-      "Social Protection"
-    ],
-    "sector_slugs": [
-      "child-rights-youth",
-      "education",
-      "social-protection"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "04c3f21134ae",
-    "title": "MP govt to transfer ₹600 each to 5.8 million students for school uniforms",
-    "description": "The state cabinet approved ₹348.07 crore for the 2026-27 academic session to provide uniform allowances to 5.8 million students",
-    "link": "https://www.hindustantimes.com/india-news/mp-govt-to-transfer-600-each-to-5-8-million-students-for-school-uniforms-101790692416682.html",
-    "date": "2026-09-29",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Education",
-      "Child Rights & Youth"
-    ],
-    "sector_slugs": [
-      "education",
-      "child-rights-youth"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "8566490d6452",
-    "title": "‘Unwarranted, no locus standi’: India rejects Turkish President Erdogan's Kashmir remarks at UNGA",
-    "description": "MEA spokesperson Randhir Jaiswal said the matter pertained to India's “sovereignty and territorial integrity”.",
-    "link": "https://www.hindustantimes.com/india-news/india-rejects-turkish-president-erdogans-kashmir-remarks-at-unga-unwarranted-no-locus-standi-101790689693460.html",
-    "date": "2026-09-29",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "ee5f72e95cab",
-    "title": "Revanth Reddy's ‘rich God, poor God’ remark faces heat, BJP slams Telangana CM's 'absurd' statement",
-    "description": "Telangana CM Revanth Reddy on Monday claimed that Lord Ram was the God of the rich and Lord Shiva was the God of the poor.",
-    "link": "https://www.hindustantimes.com/india-news/revanth-reddys-rich-god-poor-god-ram-shiva-remark-faces-heat-bjp-slams-telangana-cm-absurd-statement-101790683369721.html",
-    "date": "2026-09-29",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "f39bb32d42b2",
-    "title": "India pursues Xinjiang air route with China to mitigate Pakistan airspace ban: Aviation minister Ram Mohan Naidu",
-    "description": "Ram Mohan Naidu said the proposed corridor over Hotan in southwestern Xinjiang would offer a significantly shorter route",
-    "link": "https://www.hindustantimes.com/india-news/india-pursues-xinjiang-air-route-with-china-to-mitigate-pak-airspace-bannaidu-101790684427017.html",
-    "date": "2026-09-29",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Transport & Infrastructure",
-      "Defence & Security",
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "transport-infrastructure",
-      "defence-security",
-      "science-innovation"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "ff7d04e95e23",
-    "title": "PM's resignation, pause SIR: Congress lists its demands amid ECI dissent row",
-    "description": "Congress president Mallikarjun Kharge demanded that complete data regarding every major change made to the electoral rolls must be made public",
-    "link": "https://www.hindustantimes.com/india-news/restore-names-of-130-million-deleted-voters-halt-sir-says-cwc-resolution-101790682146776.html",
-    "date": "2026-09-29",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "577bad6a6abb",
-    "title": "AAP Delhi protest highlights: AAP's Saurabh Bharadwaj, Jarnail Singh detained during protest against Delhi minister",
-    "description": "AAP Delhi protest highlights: Delhi Police on Monday filed a non-cognisable report (NCR) against Verma over the slapping incident, while an FIR has been registered against AAP MLA Jarnail Singh for allegedly obstructing public servants in the discharge of their duty, officials said.",
-    "link": "https://www.hindustantimes.com/india-news/aap-delhi-protest-live-updates-parvesh-verma-sahib-singh-slap-row-tilak-nagar-bjp-kejriwal-101790670510143.html",
-    "date": "2026-09-29",
-    "source_id": "hindustan_times",
-    "source_name": "Hindustan Times - India",
-    "source_short": "HT",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "d0e51c500192",
-    "title": "Foreign Secretary flags concerns over US Russia sanctions law to US lawmakers",
-    "description": "There are indications that the SRIA may be used as a leverage in the ongoing India-US negotiations for a bilateral trade agreement, sources said",
-    "link": "https://www.thehindubusinessline.com/economy/foreign-secretary-flags-concerns-over-us-russia-sanctions-law-to-us-lawmakers/article71525206.ece",
-    "date": "2026-09-29",
-    "source_id": "business_line",
-    "source_name": "BusinessLine - Economy",
-    "source_short": "BL",
-    "sectors": [
-      "Trade & Commerce"
-    ],
-    "sector_slugs": [
-      "trade-commerce"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "7d40850f243d",
-    "title": "Rosatom in talks with Adani Group, RIL, NTPC for nuclear power push in India",
-    "description": "The Russian nuclear energy giant believes private participation will allow more companies to invest, build capacity in the sector",
-    "link": "https://www.thehindubusinessline.com/companies/rosatom-in-talks-with-adani-group-ril-ntpc-for-nuclear-power-push-in-india/article71524468.ece",
-    "date": "2026-09-29",
-    "source_id": "business_line",
-    "source_name": "BusinessLine - Economy",
-    "source_short": "BL",
-    "sectors": [
-      "Energy",
-      "Science & Innovation"
-    ],
-    "sector_slugs": [
-      "energy",
-      "science-innovation"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "871c59f25ee8",
-    "title": "Telangana Labour Dept calls Uber, Ola, Rapido, GMR for talks on airport cab row",
-    "description": "The union said the Joint Commissioner wrote to Uber, Ola and Rapido the same day, advising them to implement the fares prescribed in the GO for prepaid cabs at the airport",
-    "link": "https://www.thehindubusinessline.com/economy/logistics/telangana-labour-dept-calls-uber-ola-rapido-gmr-for-talks-on-airport-cab-row/article71524732.ece",
-    "date": "2026-09-29",
-    "source_id": "business_line",
-    "source_name": "BusinessLine - Economy",
-    "source_short": "BL",
-    "sectors": [
-      "Labour & Employment",
-      "Transport & Infrastructure"
-    ],
-    "sector_slugs": [
-      "labour-employment",
-      "transport-infrastructure"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "854a977f94f1",
-    "title": "India, EFTA to review trade pact a year on, eye new opportunities",
-    "description": "Second Prosperity Summit in Delhi will address market access, other bottlenecks; discuss further expansion of trade, investments",
-    "link": "https://www.thehindubusinessline.com/economy/india-efta-to-review-trade-pact-a-year-on-eye-new-opportunities/article71525057.ece",
-    "date": "2026-09-29",
-    "source_id": "business_line",
-    "source_name": "BusinessLine - Economy",
-    "source_short": "BL",
-    "sectors": [
-      "Finance & Economy",
-      "Trade & Commerce"
-    ],
-    "sector_slugs": [
-      "finance-economy",
-      "trade-commerce"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "4ff612731e7b",
-    "title": "Financial accommodation: RBI’s committee recommends 11.2% increase in States’ avg WMA limit",
-    "description": "At the same time, the Committee is also clear that unlike in the past when WMA was the principal medium through which States availed temporary financial accommodation, SDF has become the main window for liquidity support to them in recent times",
-    "link": "https://www.thehindubusinessline.com/economy/financial-accommodation-rbis-committee-recommends-112-increase-in-states-avg-wma-limit/article71524788.ece",
-    "date": "2026-09-29",
-    "source_id": "business_line",
-    "source_name": "BusinessLine - Economy",
-    "source_short": "BL",
-    "sectors": [
-      "Finance & Economy"
-    ],
-    "sector_slugs": [
-      "finance-economy"
-    ],
-    "type": "news",
-    "kind": "news",
-    "authority": "media",
-    "comment_deadline": "",
-    "level": "media",
-    "state": "",
-    "first_seen": "2026-09-29"
-  },
-  {
-    "id": "ffd0b3e532db",
-    "title": "Edible oils duty cut: Indian govt has to balance consumers’ and farmers’ interest, says Agriculture Minister",
-    "description": "Shivraj Singh Chouhan announces procurement of oilseeds and pulses by government agencies if growers sell below minimum support price",
-    "link": "https://www.thehindubusinessline.com/economy/agri-business/edible-oils-duty-cut-indian-govt-has-to-balance-consumers-and-farmers-interest-says-agriculture-minister/article71524752.ece",
-    "date": "2026-09-29",
-    "source_id": "business_line",
-    "source_name": "BusinessLine - Economy",
-    "source_short": "BL",
-    "sectors": [
-      "Agriculture"
-    ],
-    "sector_slugs": [
-      "agriculture"
     ],
     "type": "news",
     "kind": "news",
@@ -45344,77 +45427,6 @@
     "type": "analysis",
     "kind": "analysis",
     "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-08-20"
-  },
-  {
-    "id": "01f24d754f0d",
-    "title": "Escorts Kubota announces US$ 210 million investment on new plant in Uttar Pradesh",
-    "description": "Escorts Kubota’s US$ 210 million investment in a new Uttar Pradesh plant will expand tractor and construction equipment capacity while strengthening India’s role as a global manufacturing and engineering hub.",
-    "link": "",
-    "date": "2026-08-20",
-    "source_id": "ibef",
-    "source_name": "India Brand Equity Foundation",
-    "source_short": "IBEF",
-    "sectors": [
-      "Finance & Economy",
-      "Housing"
-    ],
-    "sector_slugs": [
-      "finance-economy",
-      "housing"
-    ],
-    "type": "analysis",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-08-20"
-  },
-  {
-    "id": "1b625bf77653",
-    "title": "IDR Interviews | A Revathi",
-    "description": "A Revathi is a writer, actor, and trans rights activist based in Tamil Nadu. She has worked with civil society organisations (CSOs) that serve sexual and gender minorities since the late 1990s She has authored and been the subject of books including Our Lives, Our Words (2006), The Truth About Me (2010), and A Life in Trans Activism (2016). She has written and performed Vellai Mozhi, her solo play based on her life, across several places in India and abroad, and now runs a theatre group called N",
-    "link": "https://idronline.org/features/gender/interview-with-a-revathi-an-actor-writer-and-transgender-activist/",
-    "date": "2026-08-20",
-    "source_id": "idronline",
-    "source_name": "IDR Online",
-    "source_short": "IDR",
-    "sectors": [
-      "Gender & Women"
-    ],
-    "sector_slugs": [
-      "gender-women"
-    ],
-    "type": "longform",
-    "kind": "analysis",
-    "authority": "think_tank",
-    "comment_deadline": "",
-    "level": "central",
-    "state": "",
-    "first_seen": "2026-08-20"
-  },
-  {
-    "id": "d932bb6a6e67",
-    "title": "Eligible Organisations Encouraged to Apply for Recognition as Government Approved Test Centres (GATCs) : Applications Open Till 31 August 2026",
-    "description": "Government of India press release: Eligible Organisations Encouraged to Apply for Recognition as Government Approved Test Centres (GATCs) : Applications Open Till 31 August 2026",
-    "link": "https://pib.gov.in/PressReleaseDetail.aspx?PRID=2301442",
-    "date": "2026-08-20",
-    "source_id": "pib_cabinet_committee_on_economic_affairs_ccea",
-    "source_name": "Cabinet Committee on Economic Affairs (CCEA) (via PIB)",
-    "source_short": "Cabinet Committee on Economic Affairs",
-    "sectors": [
-      "Governance & Reform"
-    ],
-    "sector_slugs": [
-      "governance-reform"
-    ],
-    "type": "release",
-    "kind": "announcement",
-    "authority": "government",
     "comment_deadline": "",
     "level": "central",
     "state": "",
