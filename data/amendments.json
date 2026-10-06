@@ -3151,13 +3151,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: MCA issues advisory - cautions public against high-return promises by non-compliant Nidhi Companies",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-24",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: MCA issues advisory - cautions public against high-return promises by non-compliant Nidhi Companies",
       "source_id": "pib_competition_commission_of_india"
     },
     {
@@ -3285,6 +3278,13 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "He describes such reports as ‘media creation’ and maintains that adequate stocks are available in government hospitals",
       "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "NCLT New Delhi sanctions Sesa Care-Dabur India amalgamation, subject to tax liabilities, statutory compliance and regulatory rights.",
+      "source_id": "policyradar"
     }
   ],
   "c0c8cf258433": [
@@ -3367,13 +3367,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-10-01",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3494,6 +3487,13 @@
     },
     {
       "date": "2026-10-05",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3803,20 +3803,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
-      "date": "2026-10-01",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-10-01",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3934,6 +3920,20 @@
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
       "source_id": "takshashila"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "Delhi High Court set aside a Section 12-A exemption order, holding that defendants must be heard and the plaint must be examined to determine whether urgent relief is genuinely contemplated The post...",
+      "source_id": "policyradar"
     },
     {
       "date": "2026-10-06",
@@ -5041,13 +5041,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-10-01",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5168,6 +5161,13 @@
     },
     {
       "date": "2026-10-05",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -5486,29 +5486,6 @@
       "old_value": "Agriculture, Digital & Technology, Finance & Economy",
       "new_value": "Agriculture, Finance & Economy",
       "source_id": "historical"
-    }
-  ],
-  "3ab75a039a8f": [
-    {
-      "date": "2026-08-24",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 49,206 Amount accepted (in ₹ crore) 49,206 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/952",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, August 25, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 1,75,000 2 09:30 AM to 10:00 AM August 27, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad  &nb",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 49,206 Amount accepted (in ₹ crore) 49,206 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/952",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, August 27, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 9:30 AM to 10:00 AM August 28, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-26",
-      "field": "description",
-      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 49,206 Amount accepted (in ₹ crore) 49,206 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/952",
-      "new_value": "Tenor 2-day Notified Amount (in ₹ crore) 1,75,000 Total amount of offers received (in ₹ crore) 98,516 Amount accepted (in ₹ crore) 98,516 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/963",
-      "source_id": "rbi"
     }
   ],
   "2928adeb8640": [
@@ -9683,69 +9660,6 @@
   ],
   "8c899acd431d": [
     {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "They have been accused of providing forged Aadhaar and other identity documents to Bangladeshi citizens to help them enter India.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "The commission has issued notices to the Mumbai Police Commissioner, the Ministry of Electronics and Information Technology, X Corp., and Maharashtra's Women and Child Development Department, asking them to submit action taken reports within a week.",
-      "source_id": "ndtv_india"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "“Across the country, the names of 13 crore people have been deleted from the electoral rolls\": Reports",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "They have been accused of providing forged Aadhaar and other identity documents to Bangladeshi citizens to help them enter India.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Become a Scroll member to get Rush Hour – a wrap of the day’s important stories delivered straight to your inbox every evening.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Uddhav Thackeray accused the BJP of using the Election Commission to pursue political vendettas, while Congress leader Balasaheb Thorat called for unity.",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "They have been accused of providing forged Aadhaar and other identity documents to Bangladeshi citizens to help them enter India.",
-      "source_id": "scroll"
-    },
-    {
       "date": "2026-10-05",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
@@ -9820,6 +9734,69 @@
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "The police booked them for unlawful assembly and wilful disobedience of lawful order issued by public servant after the demonstration in Shivaji Park on Friday.",
+      "source_id": "scroll"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Godrej Properties Limited has acquired the development rights over a 2.5 acres land parcel at Marine Lines from Man Infraconstruction Limited and Shreepati Group. Elarra Law Offices advised Godrej Properties on the acquisition of development rights over the land parcel. The Firm was involved in the finalization of the deal structure and drafting, negotiating and finalising the transaction documentation. The transaction was led by Madhura Samant (Managing Partner) and Supriya Majumdar (Partner),",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Tribal students started the march for their demands including better facilities, a probe into student deaths in tribal schools, and the resignation of the tribal development minister",
+      "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Mumbai’s overwhelming response to the Cockroach Janta Party’s protest demanding Chief Election Commissioner Gyanesh Kumar’s resignation is a shot in the arm for the CJP, which has now announced a Jantar Mantar protest on October 10.",
+      "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "ITAT Mumbai upheld deletion of ₹2.03 crore Section 270A penalty as additions were deleted, bona fide error was explained and quantum was not final.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "ITAT Mumbai deletes ₹6.36 crore TP adjustment on NCD interest and directs section 94B recomputation excluding non-AE interest.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Mumbai ITAT quashes Ceat assessments for lack of fresh section 143(2) notices and remands R&D deduction claims for limited verification.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "NCLT Mumbai refused to delete PNB officers from Section 339 proceedings but vacated property attachments for lack of incriminating evidence.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "The winners will be announced at a special ceremony in Mumbai on October 25.",
       "source_id": "scroll"
     }
   ],
@@ -10678,15 +10655,6 @@
       "source_id": "rbi"
     }
   ],
-  "3b80493369cb": [
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "RBI notification: Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
-      "new_value": "RBI notification: Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
-      "source_id": "rbi_notifications"
-    }
-  ],
   "8ceaff4ecad3": [
     {
       "date": "2026-09-11",
@@ -11351,34 +11319,62 @@
     },
     {
       "date": "2026-10-04",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-04",
+      "field": "type",
+      "old_value": "release",
+      "new_value": "scheme",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-05",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-05",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-05",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Energy, Housing",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "field": "type",
       "old_value": "release",
       "new_value": "scheme",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Climate & Environment, Energy, Social Protection",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "field": "type",
       "old_value": "release",
       "new_value": "scheme",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Climate & Environment, Defence & Security, Energy",
@@ -11421,55 +11417,6 @@
     },
     {
       "date": "2026-10-05",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Climate & Environment, Defence & Security, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Housing",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Climate & Environment, Energy, Social Protection",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Energy",
@@ -11536,6 +11483,27 @@
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Climate & Environment, Energy, Social Protection",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Housing",
       "source_id": "seci"
     }
   ],
@@ -12855,15 +12823,6 @@
       "source_id": "trai"
     }
   ],
-  "a84d9c574673": [
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "India-Cambodia bilateral trade grew over 36% to US$ 406.78 million in FY 2025-26 as both countries discussed deeper cooperation in trade, investment, pharmaceuticals, agriculture, digital payments and customs.",
-      "new_value": "The post Cambodia appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "source_id": "insights_ias"
-    }
-  ],
   "69b55d4b1a35": [
     {
       "date": "2026-09-16",
@@ -13423,27 +13382,6 @@
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
       "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
@@ -13557,6 +13495,27 @@
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
       "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "NCLT Chennai allows Niyogin Fintech’s composite scheme application and orders shareholder and creditor meetings under Sections 230-232.",
+      "source_id": "policyradar"
     }
   ],
   "29766e413852": [
@@ -13747,22 +13706,6 @@
       "old_value": "In the underwriting auction conducted on September 11, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore",
       "new_value": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities...",
       "source_id": "policyradar"
-    }
-  ],
-  "ddc3c2c2882e": [
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Extension of last date for submission of comments and counter-comments on TRAI Consultation Paper on draft amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024 nitinkumar Tue, 08/25/2026 - 18:00 File Press Release No. 115 (291.52 KB) Date Tue, 08/25/2026 - 12:00",
-      "new_value": "OHD on Consultation Paper on Draft Amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024 - dated 30/09/2026 nitinkumar Fri, 09/18/2026 - 14:49 link Click here New Off",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "Extension of last date for submission of comments and counter-comments on TRAI Consultation Paper on draft amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024 nitinkumar Tue, 08/25/2026 - 18:00 File Press Release No. 115 (291.52 KB) Date Tue, 08/25/2026 - 12:00",
-      "new_value": "OHD on Consultation Paper on Draft Amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024 nitinkumar Fri, 09/18/2026 - 14:27 Date Wed, 09/30/2026 - 12:00 Location New Delhi Division Quality of Service Date & Time Wed, 09/30/2026 - 10:00 description Click Here for Registration  Event Category Open House Discussion Event Status In progress Name Shri Tejpal Singh Email adv-qos1@trai.gov.in Attached",
-      "source_id": "trai"
     }
   ],
   "8abd2ac753a2": [
@@ -14422,34 +14365,6 @@
   ],
   "767cca424275": [
     {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
-      "source_id": "who_india_new"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
-      "source_id": "who_india_new"
-    },
-    {
       "date": "2026-10-05",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
@@ -14528,6 +14443,34 @@
     },
     {
       "date": "2026-10-05",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -16774,13 +16717,6 @@
   ],
   "a13fa036b50d": [
     {
-      "date": "2026-09-30",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment",
-      "new_value": "Education",
-      "source_id": "azim_premji"
-    },
-    {
       "date": "2026-10-01",
       "field": "sectors",
       "old_value": "Education, Labour & Employment",
@@ -16901,6 +16837,13 @@
     },
     {
       "date": "2026-10-05",
+      "field": "sectors",
+      "old_value": "Education, Labour & Employment",
+      "new_value": "Education",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-06",
       "field": "sectors",
       "old_value": "Education, Labour & Employment",
       "new_value": "Education",
@@ -17305,13 +17248,6 @@
   ],
   "e75f75e0407a": [
     {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-10-01",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
@@ -17432,6 +17368,13 @@
     },
     {
       "date": "2026-10-05",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
@@ -17782,6 +17725,13 @@
       "old_value": "Direction regarding publication of tariff offers, etc. nitinkumar Thu, 10/01/2026 - 14:30 Measure Sector Telecom Telecom Telecom Tariff Document Type Directions Division Financial & Economic Analysis Group Field Title Direction File Direction_01102026.pdf (1.33 MB) Release Date Thu, 10/01/2026 - 12:00 Closing Date Thu, 10/01/2026 - 12:00 Counter Comments Date Thu, 10/01/2026 - 12:00 Status Closed",
       "new_value": "Direction regarding publication of tariff offers, etc. nitinkumar Thu, 10/01/2026 - 14:37 Date Thu, 10/01/2026 - 12:00",
       "source_id": "trai"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Direction regarding publication of tariff offers, etc. nitinkumar Thu, 10/01/2026 - 14:30 Measure Sector Telecom Telecom Telecom Tariff Document Type Directions Division Financial & Economic Analysis Group Field Title Direction File Direction_01102026.pdf (1.33 MB) Release Date Thu, 10/01/2026 - 12:00 Closing Date Thu, 10/01/2026 - 12:00 Counter Comments Date Thu, 10/01/2026 - 12:00 Status Closed",
+      "new_value": "Direction regarding publication of tariff offers, etc. nitinkumar Thu, 10/01/2026 - 14:37 Date Thu, 10/01/2026 - 12:00",
+      "source_id": "trai"
     }
   ],
   "c26034fbabdb": [
@@ -17955,6 +17905,13 @@
       "old_value": "RBI notification: Consolidation/ Review of instructions issued on currency management matters – Withdrawal of Circulars/ Guidelines",
       "new_value": "RBI/2026-27/274 DCM (IFCD).No.S2096/06.08.002/2026-27 October 1, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "RBI notification: Consolidation/ Review of instructions issued on currency management matters – Withdrawal of Circulars/ Guidelines",
+      "new_value": "RBI/2026-27/274 DCM (IFCD).No.S2096/06.08.002/2026-27 October 1, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir...",
+      "source_id": "policyradar"
     }
   ],
   "a0943410ef99": [
@@ -18071,6 +18028,27 @@
       "old_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
       "new_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+      "new_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+      "new_value": "General Remittance Order dated 05.10.2026 in Recovery Certificate No. 9273 of 2026 issued against Manjulaben Parmar (PAN: DKYPP5235B) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+      "new_value": "General Remittance Order dated 05.10.2026 in Recovery Certificate No. 9272 of 2026 issued against Bhaumik Parmar (PAN: EQQPP8919H) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
+      "source_id": "sebi"
     },
     {
       "date": "2026-10-06",
@@ -18345,6 +18323,13 @@
       "old_value": "RBI notification: Master Direction on Note Sorting Machines",
       "new_value": "RBI/DCM/2026-27/473 DCM(NPD) No.S2154/18.00.014/2026-27 October 02, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "RBI notification: Master Direction on Note Sorting Machines",
+      "new_value": "RBI/DCM/2026-27/473 DCM(NPD) No.S2154/18.00.014/2026-27 October 02, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir...",
+      "source_id": "policyradar"
     }
   ],
   "f8b29795e9eb": [
@@ -18550,95 +18535,6 @@
       "source_id": "unicef_india"
     }
   ],
-  "f75cf70df172": [
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "The plight faced by the CSL was recently highlighted in a news report that showed how the library, established in 1891, currently has no space in the new Central Vista project.",
-      "new_value": "The plight faced by CSL was recently highlighted in a news report that showed how the library, established in 1891, has no space in the Central Vista project.",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "700007541b84": [
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "The petitioners seek prosecution of Gyanesh Kumar, reversal of ECI decisions, and SIT inquiry into SIR voter deletions.",
-      "new_value": "Supreme Court to hear pleas seeking suspension of Gyanesh Kumar over EC decisions",
-      "source_id": "indiatoday_rss"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "The petitioners seek prosecution of Gyanesh Kumar, reversal of ECI decisions, and SIT inquiry into SIR voter deletions.",
-      "new_value": "Supreme Court to hear pleas to suspend Gyanesh Kumar over unilateral decisions",
-      "source_id": "india_today"
-    }
-  ],
-  "f6aae3217866": [
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "MK Muneer, who was the PWD minister in 2006 when Kumar served as the secretary of the department, said he welcomes the decision to investigate the circumstances leading to the engineer's death and called for a comprehensive probe into the matter",
-      "new_value": "The matter is linked to alleged bribery involving an Indo-Malaysian construction company during Kumar’s tenure as the state’s public works pepartment secretary.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "MK Muneer, who was the PWD minister in 2006 when Kumar served as the secretary of the department, said he welcomes the decision to investigate the circumstances leading to the engineer's death and called for a comprehensive probe into the matter",
-      "new_value": "Keralam Home Minister Ramesh Chennithala had earlier ordered an investigation by the Vigilance and Anti-Corruption Bureau (VACB) against Gyanesh Kumar over alleged irregularities during his tenure as the state’s Public Works Department Secretary in 2006",
-      "source_id": "deccan_chronicle"
-    }
-  ],
-  "6ce159d8d581": [
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Police said an FIR has been filed on the directions of the Supreme Court and on the basis of a complaint received from the Security Officer of IIT Delhi.",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Police said an FIR has been filed on the directions of the Supreme Court and on the basis of a complaint received from the Security Officer of IIT Delhi.",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Police said an FIR has been filed on the directions of the Supreme Court and on the basis of a complaint received from the Security Officer of IIT Delhi.",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    }
-  ],
-  "38b11c1ed639": [
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "Arrest made in Tamil Nadu",
-      "new_value": "CBI arrests DGCA official aviation firm director in Rs lakh bribery case",
-      "source_id": "india_today"
-    }
-  ],
-  "0f7b0af0bcce": [
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "In Uttarakhand, the by-election is necessitated by the completion of the term of sitting Rajya Sabha member Naresh Bansal.",
-      "new_value": "BJP picks exTMC MP Koel Mallick Dinesh Arya for Rajya Sabha polls",
-      "source_id": "india_today"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "In Uttarakhand, the by-election is necessitated by the completion of the term of sitting Rajya Sabha member Naresh Bansal.",
-      "new_value": "BJP picks ex-TMC MP Koel Mallick, Dinesh Arya for Rajya Sabha polls",
-      "source_id": "indiatoday_rss"
-    }
-  ],
   "da7886840774": [
     {
       "date": "2026-10-05",
@@ -18646,40 +18542,6 @@
       "old_value": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of ₹33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated September 28, 2026 October 01, 2026 (Thursday) October 05, 2026 (Monday) 2 6.57% GS 2033 Aug 17, 2033 12,000 3 7.63% GS 2056 Sep 15, 2056 9,000 4 7.50% G",
       "new_value": "Government of India (GoI) has announced the sale (re-issue) of two dated securities for a notified amount of ₹36,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 7.06% GS 2041 Jul 27, 2041 23,000 F.No.4(1)-B(W&M)/2026 dated October 05, 2026 October 09, 2026 (Friday) October 12, 2026 (Monday) 2 7.43% GS 2076 Jan 19, 2076 13,000   Total   36,000",
       "source_id": "rbi"
-    }
-  ],
-  "c9861172e697": [
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Trust members, retired professor Panduranga Rao and former mayor Dr T. Rajeshwar Rao, met Union coal and mines minister G. Kishan Reddy on Saturday night: Reports",
-      "new_value": "Telangana government PSU clarifies that it has decided to proceed with project only after conducting a comprehensive scientific study",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "4e1c0cdc27ca": [
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Listening to the news every day helps us remain informed, develop awareness of important issues, and gain confidence in sharing knowledg",
-      "new_value": "Staying updated on important national, international, sports, and education news sharpens the mind and helps students become informed citizens.",
-      "source_id": "ndtv_india"
-    }
-  ],
-  "3ac112c62434": [
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Both sides aim to conclude trade pact negotiations by year-end",
-      "new_value": "He said the negotiations would build on the momentum from his recent visit to Mumbai and discussions with Union Commerce Minister Piyush Goyal at the G20 Trade Ministers Meeting",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Both sides aim to conclude trade pact negotiations by year-end",
-      "new_value": "He said the negotiations would build on the momentum from his recent visit to Mumbai and discussions with Union Commerce Minister Piyush Goyal at the G20 Trade Ministers Meeting",
-      "source_id": "policyradar"
     }
   ],
   "dc74f48aa916": [
@@ -18778,6 +18640,13 @@
       "old_value": "Next-Gen GST was conceived with two connected purposes: to reduce and rationalise rates, and to make compliance easier",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Next-Gen GST was conceived with two connected purposes: to reduce and rationalise rates, and to make compliance easier",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
     }
   ],
   "d652456cb6ec": [
@@ -18810,6 +18679,13 @@
       "old_value": "Sarthak Pradhan and Pranay Kotasthane's book, Fiscal Fables, offers insights into India's public finance, linking tax policies to citizen welfare.",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
       "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Sarthak Pradhan and Pranay Kotasthane's book, Fiscal Fables, offers insights into India's public finance, linking tax policies to citizen welfare.",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ],
   "462062131c61": [
@@ -18823,74 +18699,123 @@
   ],
   "9c92dc88bde1": [
     {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "Government of India press release: PRESIDENT OF INDIA TO VISIT HIMACHAL PRADESH FROM OCTOBER 6 TO 8",
-      "source_id": "pib"
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "Government of India press release: PRESIDENT OF INDIA TO VISIT HIMACHAL PRADESH FROM OCTOBER 6 TO 8",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with World Post Day on 9th October",
+      "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Government of India press release: National Postal Week 2026 to be Celebrated from 9th to 15th October, Commencing with ...",
       "source_id": "state_pib_karnataka"
     },
     {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "According to sources in the Finance Ministry, the proposal covers process reforms, structural reforms, ease of living and doing business, exports of services, and e-commerce",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "CJP alleges police harassment and travel-subsidy scrutiny ahead of October 10 Delhi protest, dubbing it ‘dictatorship’",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "According to sources in the Finance Ministry, the proposal covers process reforms, structural reforms, ease of living and doing business, exports of services, and e-commerce",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
       "new_value": "The last repo rate hike was in February 2023, when the RBI raised the rate by 0.25% to 6.50%",
       "source_id": "the_hindu_business"
     },
     {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "INSIGHTSIAS · UPSC CSE 2027 UPSC Prelims Test Series 2027 GS, CSAT & Personal Mentorship Give your Prelims preparation a clear structure with 60 tests, one-on-one mentorship, expert discussions and AI-powered performance analysis. Course starts 12 October 2026 Combined package 60 GS + CSAT tests Preparation support Mentorship + AI analysis Enrol NowView Fees & … Continue reading \"UPSC Prelims Test Series 2027 with Mentorship: 60 GS & CSAT Tests | Starts 12 October 2026\" T",
-      "source_id": "insights_ias"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "INSIGHTSIAS · UPSC CSE 2027 MARG 2027 4.0 Integrated Prelims cum Mains Test Series & Mentorship Build a clear preparation routine for UPSC CSE 2027 with 110 tests, personal mentorship, daily answer writing support and detailed test discussions. Scholarship test 7 October 2026 Course starts 12 October 2026 Rank-based scholarship Up to 100% fee discount … Continue reading \"MARG 2027 4.0: Integrated Prelims cum Mains and Mentorship Program for UPSC CSE 2027 | Scholarship Test on 7 Oc",
-      "source_id": "insights_ias"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "Business Standard poll: RBI may hike repo rate by 25 bps in October meet    Business Standard",
-      "source_id": "policyradar"
-    },
-    {
       "date": "2026-10-06",
       "field": "description",
       "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "Government of India press release: PRESIDENT OF INDIA TO VISIT HIMACHAL PRADESH FROM OCTOBER 6 TO 8",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "Government of India press release: PRESIDENT OF INDIA TO VISIT HIMACHAL PRADESH FROM OCTOBER 6 TO 8",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "The last repo rate hike was in February 2023, when the RBI raised the rate by 0.25% to 6.50%",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "The India Mobile Congress, being held at Yashobhoomi from October 7 to 10, will be themed “Scale Without Boundaries” this year.",
+      "new_value": "The programme will begin at 10am at the parking area of Maharana Pratap Swarn Jayanti Udyan (Leisure Valley), said Gurugram deputy commissioner Uttam Singh",
       "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "Considering the alarming importance of CSAT in UPSC CSE Prelims exam and with enormous requests we received recently, InsightsIAS has started Daily CSAT Test to ensure students practice CSAT Questions on a daily basis. Regular Practice would help one overcome the fear of CSAT too.We are naming this initiative as Insta– DART – Daily … Continue reading \"UPSC Insta–DART (Daily Aptitude and Reasoning Test) 6 October 2026\" The post UPSC Insta–DART (Daily Aptitude and Reasoning Test) 6 Oc",
+      "source_id": "insights_ias"
     },
     {
       "date": "2026-10-06",
@@ -18903,7 +18828,14 @@
       "date": "2026-10-06",
       "field": "description",
       "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
-      "new_value": "Business Standard poll: RBI may hike repo rate by 25 bps in October meet    Business Standard",
+      "new_value": "GST Council reschedules its 57th Meeting to 8 October 2026 from 11:00 AM onwards at Bharat Mandapam, New Delhi.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "As the Asian Games 2026 draw to a close, my compliments to every member of the Indian contingent for representing our nation with determination, passion and remarkable sporting spirit. Congratulations to all our medal winners, whose performances have brought immense joy to the nation. May these Games inspire even greater achievements in the years ahead. May they contribute to strengthening sports at the grassroots too.",
+      "new_value": "RBI MPC meeting: Experts believe there are three possible outcomes that market expects: interest rate unchanged, interest rate hike by 25 BPS, and interest rate hike by more than 25 BPS",
       "source_id": "policyradar"
     }
   ],
@@ -18944,11 +18876,25 @@
       "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 50,000 Total amount of offers received (in ₹ crore) 10,142 Amount accepted (in ₹ crore) 10,142 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1248",
       "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, October 06, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 2,50,000 1 09:30 AM to 10:00 AM October 07, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 50,000 Total amount of offers received (in ₹ crore) 10,142 Amount accepted (in ₹ crore) 10,142 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1248",
+      "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 2,50,000 Total amount of offers received (in ₹ crore) 1,92,357 Amount accepted (in ₹ crore) 1,92,357 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1258",
+      "source_id": "rbi"
     }
   ],
   "39d0992db4eb": [
     {
       "date": "2026-10-05",
+      "field": "description",
+      "old_value": "Dharam Pal Singh, Radhakant Ojha, Prakash Pal, Vidyasagar Sonkar, Gopi Krishna Pandey, Priyanka Singh Rawat, Ram Pratap Singh Chauhan and Shruti Gangwar are the eight BJP candidates for the Rajya Sabha polls.",
+      "new_value": "The Uttar Pradesh BJP has sent a panel of 25 names to the party's central leadership for consideration as candidates for the 16 October Rajya Sabha elections to 10 seats falling vacant from the state.",
+      "source_id": "livemint_policy"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "Dharam Pal Singh, Radhakant Ojha, Prakash Pal, Vidyasagar Sonkar, Gopi Krishna Pandey, Priyanka Singh Rawat, Ram Pratap Singh Chauhan and Shruti Gangwar are the eight BJP candidates for the Rajya Sabha polls.",
       "new_value": "The Uttar Pradesh BJP has sent a panel of 25 names to the party's central leadership for consideration as candidates for the 16 October Rajya Sabha elections to 10 seats falling vacant from the state.",
@@ -18978,15 +18924,6 @@
       "source_id": "state_pib_karnataka"
     }
   ],
-  "ff51549f833c": [
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "The Congress announced the appointments on Friday as part of an organisational: Reporters",
-      "new_value": "Gohil targeted the Centre over capital gains taxation on stock market investments, arguing that middle-class investors were being subjected to higher tax burden",
-      "source_id": "hindustan_times"
-    }
-  ],
   "02bbaf6df0b4": [
     {
       "date": "2026-10-05",
@@ -19010,6 +18947,20 @@
       "old_value": "Consumer Education Workshop at Nagaur (Rajasthan) by Bharti Airtel Limited nitinkumar Mon, 10/05/2026 - 12:07 Date Fri, 10/16/2026 - 12:00 District Nagaur Division Consumer Affairs Date & Time Fri, 10/16/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Karan Khangarot Contact person Email karan.khangarot@airtel.com Event Category COP By TRAI Venue Details Hotel Inder Paradise, Shiv Colony, Near Vallabh Chowk Nagaur, Rajasthan – 341001 Event From C",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Nagaur (Rajasthan) by Bharti Airtel Limited nitinkumar Mon, 10/05/2026 - 12:07 Date Fri, 10/16/2026 - 12:00 District Nagaur Division Consumer Affairs Date & Time Fri, 10/16/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Karan Khangarot Contact person Email karan.khangarot@airtel.com Event Category COP By TRAI Venue Details Hotel Inder Paradise, Shiv Colony, Near Vallabh Chowk Nagaur, Rajasthan – 341001 Event From C",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at Nagaur (Rajasthan) by Bharti Airtel Limited nitinkumar Mon, 10/05/2026 - 12:07 Date Fri, 10/16/2026 - 12:00 District Nagaur Division Consumer Affairs Date & Time Fri, 10/16/2026 - 12:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Sh. Karan Khangarot Contact person Email karan.khangarot@airtel.com Event Category COP By TRAI Venue Details Hotel Inder Paradise, Shiv Colony, Near Vallabh Chowk Nagaur, Rajasthan – 341001 Event From C",
+      "new_value": "Consumer Education Workshop at Sirmaur (Himachal Pradesh) by Bharti Airtel Limited nitinkumar Tue, 10/06/2026 - 11:31 Date Fri, 10/30/2026 - 12:00 District Sirmaur Division Consumer Affairs Date & Time Fri, 10/30/2026 - 11:30 Programme Category CEW By TSP's Event Status In progress Contact Person Name Neeraj Kumar Contact person Email Neeraj27.kumar@airtel.com Event Category COP By TRAI Venue Details P. Vee Resorts Shri Renuka Ji Sirmaur, Himachal Pradesh Event From Consumer Awareness( TSPs",
+      "source_id": "trai"
     }
   ],
   "d850089bf57f": [
@@ -19026,11 +18977,25 @@
       "old_value": "The work is scheduled to be completed by November-end, according to sources in the Greater Bengaluru Authority (GBA)",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The work is scheduled to be completed by November-end, according to sources in the Greater Bengaluru Authority (GBA)",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
     }
   ],
   "7b1424866617": [
     {
       "date": "2026-10-05",
+      "field": "description",
+      "old_value": "India’s registered manufacturing sector grew 7.81% in FY25, with GVA, employment, capital investment and industrial output recording broad-based growth.",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "India’s registered manufacturing sector grew 7.81% in FY25, with GVA, employment, capital investment and industrial output recording broad-based growth.",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
@@ -19083,6 +19048,13 @@
       "old_value": "The Telangana Backward Classes (BC) Commission has taken a serious view of an alleged social boycott in Thallarampur village, Yergatla mandal, Nizamabad district.",
       "new_value": "View All",
       "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The Telangana Backward Classes (BC) Commission has taken a serious view of an alleged social boycott in Thallarampur village, Yergatla mandal, Nizamabad district.",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
     }
   ],
   "616e9a69fe63": [
@@ -19113,6 +19085,13 @@
   "00d05544ec1d": [
     {
       "date": "2026-10-05",
+      "field": "description",
+      "old_value": "Court said lawyers are increasingly disregarding its orders and using apologies to escape consequences.",
+      "new_value": "For more than 75 years, UNICEF has led the global fight for children’s rights. Join us to have a real impact on the lives of the world’s children.",
+      "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-10-06",
       "field": "description",
       "old_value": "Court said lawyers are increasingly disregarding its orders and using apologies to escape consequences.",
       "new_value": "For more than 75 years, UNICEF has led the global fight for children’s rights. Join us to have a real impact on the lives of the world’s children.",
@@ -19160,15 +19139,6 @@
       "source_id": "india_today"
     }
   ],
-  "33d0d4d11e6d": [
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "UP fifth-largest exporting state, Bhadohi carpets making major contribution: CM",
-      "new_value": "CM Yogi inaugurates golden jubilee edition of ‘India Carpet Expo’",
-      "source_id": "the_hindu_policy"
-    }
-  ],
   "5ceba6e03f73": [
     {
       "date": "2026-10-06",
@@ -19194,6 +19164,191 @@
       "old_value": "The court's observation came amid a debate over functioning of the EC and the manner in which decisions concerning the electoral-roll revision were taken.",
       "new_value": "The modified online version required applicants to provide details of whether their parents or grandparents appeared in a previous SIR electoral roll.",
       "source_id": "hindustan_times"
+    }
+  ],
+  "f2a5148855b0": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The result of the auction of State Government Securities held on September 29, 2026 is as under: (Amount in ₹ Crore)   ASSAM SGS 2046 BIHAR SGS 2035 BIHAR SGS 2051 CHHATTISGARH SGS 2035 Notified Amount 800 800 1200 250 Tenor Re-issue of 7.83% ASSAM SGS 2046 issued on 29-APR-2026 Re-issue of 7.42% BIHAR SGS 2035 issued on 08-JUL-2026 Re-issue of 7.92% BIHAR SGS 2051 issued on 15-APR-2026 Re-issue of 7.40% CHHATTISGARH SGS 2035 issued on 08-JUL-2026 Competitive Bids Received   &nbs",
+      "new_value": "The result of the auction of State Government Securities held on October 06, 2026 is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2035 ANDHRA PRADESH SGS 2042 DELHI SGS 2033* DELHI SGS 2041* Notified Amount 1000 1000 500 500 Tenor Re-issue of 7.46% ANDHRA SGS 2035 issued on 12-AUG-2026 Re-issue of 7.79% ANDHRA SGS 2042 issued on 22-APR-2026 Re-issue of 7.31% DELHI SGS 2033 issued on 22-JUL-2026 Re-issue of 7.75% DELHI SGS 2041 issued on 24-JUN-2026 Competitive Bids Received &nbs",
+      "source_id": "rbi"
+    }
+  ],
+  "cfefb7994873": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam 800 800 98.59/7.9724 Re-issue of 7.83% Assam SGS 2046, issued on April 29, 2026 2. Bihar 800 800 97.11/7.8797 Re-issue of 7.42% Bihar SGS 2035, issued on July 08, 2026 1200 1200 99.52/7.9643 Re-issue of 7.92% Bihar SGS 2051, issued on April 15, 2026 3. Chhattisgarh 250 250 96.92/7.8903 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 250 250 96",
+      "new_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield(%) Tenor(Year) 1. Andhra Pradesh 1000 1000 97.10/7.9197 Re-issue of 7.46% Andhra Pradesh SGS 2035, issued on August 12, 2026 1000 1000 98.17/7.9971 Re-issue of 7.79% Andhra Pradesh SGS 2042, issued on April 22, 2026 2. Delhi* 500 - - Re-issue of 7.31% Delhi SGS 2033, issued on July 22, 2026 500 - - Re-issue of 7.75% Delhi SGS 2041, issued on June 24, 2026 3. Goa 200 200 7.85 08 4. Hi",
+      "source_id": "rbi"
+    }
+  ],
+  "30478c5b1c67": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Prime Minister Mr. Narendra Modi highlighted space sector reforms, including the creation of IN-SPACe, as key to making India self-reliant and technologically stronger. Skyroot Aerospace's growth, including its Vikram-1 rocket, was cited as an example of these reforms in action.",
+      "new_value": "PM Narendra Modi said space reforms like IN-SPACe are making India self-reliant, citing Skyroot Aerospace and its Vikram-1 rocket as proof of the change.",
+      "source_id": "ibef"
+    }
+  ],
+  "1b74a6a10585": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Data on sectoral deployment of bank credit for the month of August 2026, collected from 41 select scheduled commercial banks (SCBs) which together account for about 95 per cent of the total non-food credit by all SCBs1, are set out in Statements I and II. On a year-on-year (y-o-y) basis, non-food bank credit2 grew by 18.8 per cent as on the fortnight ended August 31, 2026, compared to 10.2 per cent during the corresponding fortnight of the previous year (i.e., September 5, 2025). Highlights of t",
+      "new_value": "Data on sectoral deployment of credit by non-banking financial companies (NBFCs) for the month of August 2026, collected from major NBFCs and housing finance companies (HFCs), are set out in the Statement1. On a year-on-year (y-o-y) basis, NBFCs’ credit registered a growth of 15.8 per cent in August 2026 as compared to 10.0 per cent a year ago. Highlights of the sectoral deployment of credit by NBFCs for the month ended August 31, 2026, are given below: Credit to agriculture and allied act",
+      "source_id": "rbi"
+    }
+  ],
+  "9c370307d20a": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Motiram Agrawal Jalna Merchants Co-operative Bank Ltd, Jalna, vide Directive No. NGP.DOS.SED 2.No.S12/15-04-339/2026-2027 dated April 10, 2026, for a period of six months up to the close of business on October 10, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond close of",
+      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Samarth Urban Co-operative Bank Ltd., Osmanabad, Maharashtra, vide Directive No. NGP.DOS.SSM1.No.S581/15-04-381/2025-2026 dated October 06, 2025, for a period of six months up to the close of business on April 07, 2026, which were last extended up to the close of business on October 07, 2026, vide Directive No. DOR.RG/D-24/15-04-381/2026-2027 dated July 02, 2026. The Reserve",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Motiram Agrawal Jalna Merchants Co-operative Bank Ltd, Jalna, vide Directive No. NGP.DOS.SED 2.No.S12/15-04-339/2026-2027 dated April 10, 2026, for a period of six months up to the close of business on October 10, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond close of",
+      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Samarth Urban Co-operative Bank Ltd., Osmanabad, Maharashtra...",
+      "source_id": "policyradar"
+    }
+  ],
+  "4209938b77e7": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "TVK, DMK And AIADMK Face Crucial Test In Two Assembly Constituencies Amid Political Stakes",
+      "new_value": "Polling was halted in a booth in Dharapuram; technical glitches in EVMs were reported at two polling stations in Madurantakam",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "9fc6f8d63464": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "South Delhi nitinkumar Mon, 09/28/2026 - 14:42 File Download (8 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Mon, 09/28/2026 - 12:00 Service area Delhi Months July Year 2026",
+      "new_value": "Consumer Education Workshop at South East Delhi (Delhi) by Reliance Jio Infocomm Ltd nitinkumar Tue, 10/06/2026 - 11:31 Date Mon, 10/19/2026 - 12:00 District South East Delhi Division Consumer Affairs Date & Time Mon, 10/19/2026 - 14:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Manish Sharma Contact person Email Manish14.Sharma@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocomm Ltd (JC12) -B-1/E-26, Mohan Co-operative Ind Estate, Mathura",
+      "source_id": "trai"
+    }
+  ],
+  "c204f789cf0e": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Justice Agarwal is set to serve on the Supreme Court until April 2031, while Justices Upadhyaya and Singh are due to retire in 2030.",
+      "new_value": "Three new judges for the Supreme Court of India were administered the oath of office on Tuesday afternoon. The newly appointed judges are Justice Sunita Agarwal (formerly Chief Justice of the Gujarat High Court), Justice DK Upadhyay (formerly Chief Justice of the Delhi High Court) and Justice Aparesh Kumar Singh (formerly Chief Justice of the Telangana High Court).Justice Sunita Agarwal, Justice DK Upadhyaya, Justice Aparesh Kumar SinghThe Central government had notified their appointments as Su",
+      "source_id": "barandbench"
+    }
+  ],
+  "626477799b59": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Supreme Court seeks detailed plan from government on proposed relocation of Central Secretariat Library",
+      "new_value": "The Supreme Court on Monday issued notice to the Central government in a suo motu case initiated by it with regard to the proposed relocation of the 135-year-old Central Secretariat Library (CSL) from Shastri Bhawan in New Delhi, which is slated for demolition as part of the Central Vista redevelopment project.A bench of Justices PV Sanjay Kumar and Sanjeev Sachdeva asked the government to file a detailed affidavit within three weeks, setting out the layout plan and full details of the area that",
+      "source_id": "barandbench"
+    }
+  ],
+  "1c1447423b13": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The India Mobile Congress, being held at Yashobhoomi from October 7 to 10, will be themed “Scale Without Boundaries” this year.",
+      "new_value": "At AAI’s Bagdogra Airport @aaibagairport, the rich cultural heritage of the region comes alive as skilled local artisans showcase traditional weaving techniques and craftsmanship. As part of the Yatri Seva Abhiyan 2026, this initiative offers passengers an opportunity to experience the vibrant local traditions of the region while providing traditional artisans a platform to showcase their skills. @RamMNK @mohol_murlidhar @MoCA_GoI @Pib_MoCA @MIB_India @PIB_India @mygovindia @PIBKolkata @icawbgov",
+      "source_id": "mocivil"
+    }
+  ],
+  "38a0a6b84e6c": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 5 October 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 5 October 2026 | Daily Prelims Quiz appeared fi",
+      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 6 October 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 6 October 2026 | Daily Prelims Quiz appeared fi",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 5 October 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 5 October 2026 | Daily Prelims Quiz appeared fi",
+      "new_value": "The post UPSC CURRENT AFFAIRS – 6 OCTOBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "source_id": "insights_ias"
+    }
+  ],
+  "e7a72dc5de38": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "US Trade Representative Jamieson Greer recently said an agreement was not imminent, as Washington and New Delhi continue to work through unresolved issues.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    }
+  ],
+  "223b628eaa1b": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The AP minister met the Delhi CM during his visit to Delhi on Monday and explained the significance of the Dasara festivities, especially those held at Kanaka Durga Temple in Vijayawada, AP.",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
+    }
+  ],
+  "10d3a71e2d0d": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Banks cannot unilaterally reduce interest on fixed deposits maintained pursuant to court orders without justification, the Delhi High Court recently held [Natwest Vs Hero Exports].A bench of Justices Avneesh Jhingan and Shail Jain passed a ruling to this effect while dismissing an appeal by NatWest Markets PLC against an order requiring it to pay higher interest on a ₹5.89 crore fixed deposit that was being maintained during the pendency of an arbitration dispute. Justice Avneesh JhinganThe disp",
+      "new_value": "Banks can't unilaterally reduce interest on fixed deposits maintained pursuant to court orders: Delhi High Court",
+      "source_id": "policyradar"
+    }
+  ],
+  "2dd607178ae8": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The revised framework comes as India seeks to strengthen investment relations and address key issues surrounding tariffs and trade imbalances",
+      "new_value": "New bilateral investment treaty framework to get Cabinet nod: Sitharaman    Business Standard",
+      "source_id": "policyradar"
+    }
+  ],
+  "666b3fe81960": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The remark came during a light-hearted exchange with Binnu Rani, a Bundeli content creator from Chhatarpur, who asked the Chief Minister what his government planned to do for the Binnus, or daughters, after doing so much for their Jijjis, or sisters.",
+      "new_value": "Mohan Yadav said that the cash transfer programme for women announced by BJP ahead of Assembly polls had turned out to be ‘a very costly affair’.",
+      "source_id": "scroll"
+    }
+  ],
+  "8a22975c9331": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Industries must reuse or recycle at least 30% of water, while irrigation will be allowed only after meeting drinking water, livestock and fodder needs.",
+      "new_value": "The measure will be in force from October 16 till August 31, said the state water resources minister.",
+      "source_id": "scroll"
+    }
+  ],
+  "fb0531c9d232": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "The proposal to confer additional duty charge to these officers was initiated on August 25, “much before the present set of events”, the government said",
+      "new_value": "The decision to give Vivek Bhagat the duty of additional deputy commissioner was taken ‘much before the present set of events’, said the government.",
+      "source_id": "scroll"
+    }
+  ],
+  "f846f21f667a": [
+    {
+      "date": "2026-10-06",
+      "field": "description",
+      "old_value": "Topic: Major crops cropping patterns in various parts of the country. Q5. Examine the potential of India’s oilseed sector to reduce edible-oil import dependence. What structural constraints limit domestic production? Suggest measures for achieving sustainable self-reliance. (15 M) Difficulty Level: Medium Reference: IE Why the question India’s high edible-oil import dependence, coupled with global price, … Continue reading \"Examine the potential of India’s oilseed sector to reduce edible-o",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
     }
   ]
 }
