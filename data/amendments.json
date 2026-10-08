@@ -3151,27 +3151,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
-      "source_id": "pib_railways"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
-      "source_id": "pib_science_technology"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
       "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
     },
     {
@@ -3285,6 +3264,27 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
       "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen In...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen In...",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen In...",
+      "source_id": "state_pib_punjab"
     }
   ],
   "c0c8cf258433": [
@@ -3381,13 +3381,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-10-02",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-10-03",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3501,6 +3494,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3810,13 +3810,6 @@
       "source_id": "takshashila"
     },
     {
-      "date": "2026-10-02",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-10-03",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3937,6 +3930,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -5055,13 +5055,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-10-02",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-10-03",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5175,6 +5168,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -8825,13 +8825,6 @@
   ],
   "f7035fedf8a8": [
     {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-09-20",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
@@ -8959,6 +8952,13 @@
     },
     {
       "date": "2026-10-01",
+      "field": "description",
+      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -9288,27 +9288,6 @@
       "date": "2026-10-06",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "ITAT Mumbai upheld deletion of ₹2.03 crore Section 270A penalty as additions were deleted, bona fide error was explained and quantum was not final.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "ITAT Mumbai deletes ₹6.36 crore TP adjustment on NCD interest and directs section 94B recomputation excluding non-AE interest.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Mumbai ITAT quashes Ceat assessments for lack of fresh section 143(2) notices and remands R&D deduction claims for limited verification.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "NCLT Mumbai refused to delete PNB officers from Section 339 proceedings but vacated property attachments for lack of incriminating evidence.",
       "source_id": "policyradar"
     },
@@ -9423,6 +9402,27 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "ITAT Mumbai allowed ₹2.76 crore interest expense and remanded unexplained investment, deposits and books issues for fresh examination.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "BITS Law School has opened admissions for the 2027-28 session for its five-year integrated BA LLB and BBA LLB programmes.",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Mumbai’s overwhelming response to the Cockroach Janta Party’s protest demanding Chief Election Commissioner Gyanesh Kumar’s resignation is a shot in the arm for the CJP, which has now announced a Jantar Mantar protest on October 10.",
+      "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
     }
   ],
   "3d6af9146f3f": [
@@ -10973,20 +10973,6 @@
     },
     {
       "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
       "field": "description",
       "old_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
       "new_value": "Selection of Solar Project Developers for setting up of 11,159 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode",
@@ -11106,6 +11092,20 @@
     },
     {
       "date": "2026-10-07",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Trade & Commerce",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-08",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Energy",
@@ -12986,27 +12986,6 @@
       "date": "2026-10-05",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
-      "source_id": "state_pib_karnataka"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
       "source_id": "state_pib_punjab"
     },
@@ -13117,6 +13096,27 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Violation of Hallmarking Regulations Detected at Jewellery Shop in Chennai: BIS Seize...",
@@ -13974,34 +13974,6 @@
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Balasore City under OD LSA, during the month of August 2026",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Balasore City under OD LSA, during the month of August 2026",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Balasore City under OD LSA, during the month of August 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Balasore City under OD LSA, during the month of August 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Balasore City under OD LSA, during the month of August 2026",
       "source_id": "pib_tourism"
     },
     {
@@ -14104,6 +14076,34 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -16364,13 +16364,6 @@
       "source_id": "azim_premji"
     },
     {
-      "date": "2026-10-02",
-      "field": "sectors",
-      "old_value": "Education, Labour & Employment",
-      "new_value": "Education",
-      "source_id": "azim_premji"
-    },
-    {
       "date": "2026-10-03",
       "field": "sectors",
       "old_value": "Education, Labour & Employment",
@@ -16484,6 +16477,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "sectors",
+      "old_value": "Education, Labour & Employment",
+      "new_value": "Education",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-08",
       "field": "sectors",
       "old_value": "Education, Labour & Employment",
       "new_value": "Education",
@@ -16895,13 +16895,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-10-02",
-      "field": "description",
-      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-10-03",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
@@ -17015,6 +17008,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
@@ -18524,6 +18524,13 @@
       "old_value": "The AP minister met the Delhi CM during his visit to Delhi on Monday and explained the significance of the Dasara festivities, especially those held at Kanaka Durga Temple in Vijayawada, AP.",
       "new_value": "Chief Minister, Finance…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The AP minister met the Delhi CM during his visit to Delhi on Monday and explained the significance of the Dasara festivities, especially those held at Kanaka Durga Temple in Vijayawada, AP.",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
     }
   ],
   "10d3a71e2d0d": [
@@ -18822,6 +18829,13 @@
       "old_value": "NDIA bloc leaders march towards Election Commission, demanding Chief Election Commissioner Gyanesh Kumar's resignation.",
       "new_value": "Report",
       "source_id": "newslaundry"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "NDIA bloc leaders march towards Election Commission, demanding Chief Election Commissioner Gyanesh Kumar's resignation.",
+      "new_value": "Report",
+      "source_id": "newslaundry"
     }
   ],
   "6302a84eb2ae": [
@@ -18848,6 +18862,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
       "new_value": "Union Finance Minister and…",
@@ -18898,6 +18919,13 @@
       "old_value": "ITAT Chandigarh quashes Section 263 revision where AO examined ₹10.10 crore insurance write-off and PCIT merely substituted another view.",
       "new_value": "View All",
       "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "ITAT Chandigarh quashes Section 263 revision where AO examined ₹10.10 crore insurance write-off and PCIT merely substituted another view.",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
     }
   ],
   "691ed5d9cfeb": [
@@ -18940,6 +18968,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "General Remittance Order dated 05.10.2026 in Recovery Certificate No. 9273 of 2026 issued against Manjulaben Parmar (PAN: DKYPP5235B) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
+      "new_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "General Remittance Order dated 05.10.2026 in Recovery Certificate No. 9273 of 2026 issued against Manjulaben Parmar (PAN: DKYPP5235B) in the matter of trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited).",
       "new_value": "SEBI Order for Compliance - General Remittance Order dated 01.10.2026 in Recovery Certificate No. 8932 of 2025 issued against M/s. Jay Energy and S.",
@@ -18999,11 +19034,25 @@
       "old_value": "Ministry of External Affairs said that 12 crew members, including 11 Indians, were injured after Panama-flagged vessel MT On Peace was hit by a projectile",
       "new_value": "The 19-member crew included 17 Indians, while the injured sailors were evacuated to Khasab in Oman with assistance from local authorities.",
       "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Ministry of External Affairs said that 12 crew members, including 11 Indians, were injured after Panama-flagged vessel MT On Peace was hit by a projectile",
+      "new_value": "The targeting of commercial shipping, seafarers and civilian infrastructure in the region must end, the Ministry of External Affairs said.",
+      "source_id": "scroll"
     }
   ],
   "697d100000ce": [
     {
       "date": "2026-10-06",
+      "field": "description",
+      "old_value": "A Delhi court on Monday night granted bail to 17 students and freelance journalists arrested by the Delhi Police during the protest against Chief Election Commissioner (CEC) Gyanesh Kumar.In four separate orders passed between 9 PM and 9:25 PM, Judicial Magistrate First Class (JMFC) Animesh Kumar of Patiala House Courts granted bail to the 17 accused who were produced before the Court. Delhi Police had asked the Court to send them to judicial remand for two weeks. The Court said that the al",
+      "new_value": "The accused persons were young and did not appear to be habitual offenders, the court noted.",
+      "source_id": "scroll"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "A Delhi court on Monday night granted bail to 17 students and freelance journalists arrested by the Delhi Police during the protest against Chief Election Commissioner (CEC) Gyanesh Kumar.In four separate orders passed between 9 PM and 9:25 PM, Judicial Magistrate First Class (JMFC) Animesh Kumar of Patiala House Courts granted bail to the 17 accused who were produced before the Court. Delhi Police had asked the Court to send them to judicial remand for two weeks. The Court said that the al",
       "new_value": "The accused persons were young and did not appear to be habitual offenders, the court noted.",
@@ -19017,31 +19066,6 @@
       "old_value": "The proceedings concerned a reference arising out of the Tamil Nadu Legislative Assembly's action against journalists, including N Ravi, in 2003 over articles and editorials published in The Hindu and Murasoli relating to proceedings in the assembly",
       "new_value": "The bench left significant constitutional questions unresolved for future consideration.",
       "source_id": "hindustan_times"
-    }
-  ],
-  "952feb9aa5bf": [
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Former senior police officers have questioned whether a civic structure can be directly replicated in policing, arguing that crime, law and order, traffic management and emergency mobilisation do not necessarily follow municipal boundaries",
-      "new_value": "Former senior police officers have questioned whether a civic structure can be directly replicated in policing, arguing that crime, law and order...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Former senior police officers have questioned whether a civic structure can be directly replicated in policing, arguing that crime, law and order, traffic management and emergency mobilisation do not necessarily follow municipal boundaries",
-      "new_value": "Cabinet approves five commissionerates for Bengaluru; former officers express concern    The Hindu",
-      "source_id": "policyradar"
-    }
-  ],
-  "071e0da6990a": [
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "“The Ganga Water Treaty is three decades old and flawed as it does not include a guarantee clause. It also does not have ecological flow and environmental flow considerations,” Manjur A. Chowdhury, chairman of Bangladesh River Conservation Commission told The Hindu",
-      "new_value": "“The Ganga Water Treaty is three decades old and flawed as it does not include a guarantee clause. It also does not have ecological flow and environmental flow considerations,” Manjur A.",
-      "source_id": "policyradar"
     }
   ],
   "a8a3e6baa41d": [
@@ -19158,6 +19182,13 @@
       "old_value": "Five days after the Election Commission directed Karnataka’s election officials to examine false Form 7 applications and take legal action where required, eight police cases have been registered over alleged attempts to delete voters from electoral rolls",
       "new_value": "Get registered as a DigiLocker Issuer or Requester!",
       "source_id": "digilocker"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Five days after the Election Commission directed Karnataka’s election officials to examine false Form 7 applications and take legal action where required, eight police cases have been registered over alleged attempts to delete voters from electoral rolls",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
     }
   ],
   "9961151cd34f": [
@@ -19197,6 +19228,13 @@
     },
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "In a statement issued after the protest, the poll panel said it considered the proposed venue and the manner in which the meeting was sought ‘unusual’ in view of its established protocol.",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "In a statement issued after the protest, the poll panel said it considered the proposed venue and the manner in which the meeting was sought ‘unusual’ in view of its established protocol.",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
@@ -19256,6 +19294,27 @@
       "old_value": "Warm and substantive interaction with H.E. Mr. Joao Jorge Matlombe, Hon’ble Minister of Transport and Logistics, Mozambique. We discussed strengthening aviation linkages with the growing presence of Indian business & investments in Mozambique. India has always extended a warm and positive hand of friendship towards Mozambique. Look forward to a continued dialogue for aviation cooperation!",
       "new_value": "If a less extreme government takes office after the polls on October 27, will the world’s attention to Gaza and the West Bank hold?",
       "source_id": "scroll"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Warm and substantive interaction with H.E. Mr. Joao Jorge Matlombe, Hon’ble Minister of Transport and Logistics, Mozambique. We discussed strengthening aviation linkages with the growing presence of Indian business & investments in Mozambique. India has always extended a warm and positive hand of friendship towards Mozambique. Look forward to a continued dialogue for aviation cooperation!",
+      "new_value": "According to sources in the Finance Ministry, the proposal covers process reforms, structural reforms, ease of living and doing business, exports of services, and e-commerce",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Warm and substantive interaction with H.E. Mr. Joao Jorge Matlombe, Hon’ble Minister of Transport and Logistics, Mozambique. We discussed strengthening aviation linkages with the growing presence of Indian business & investments in Mozambique. India has always extended a warm and positive hand of friendship towards Mozambique. Look forward to a continued dialogue for aviation cooperation!",
+      "new_value": "Metro stations closed, roads barricaded, and more than 700 detained as students and opposition parties protest against the Election Commission. A visual guide to the agitation.",
+      "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Warm and substantive interaction with H.E. Mr. Joao Jorge Matlombe, Hon’ble Minister of Transport and Logistics, Mozambique. We discussed strengthening aviation linkages with the growing presence of Indian business & investments in Mozambique. India has always extended a warm and positive hand of friendship towards Mozambique. Look forward to a continued dialogue for aviation cooperation!",
+      "new_value": "Abhijeet Dipke shared a photo of the notice issued to a supporter, which asked why he wanted to join the agitation and who was funding his participation.",
+      "source_id": "scroll"
     }
   ],
   "9255ed2e7a36": [
@@ -19273,6 +19332,13 @@
       "field": "description",
       "old_value": "Chief Justice of India (CJI) Surya Kant will attend the 34th annual convocation of the National Law School of India University (NLSIU), Bengaluru on October 17.The convocation will be held from 11 am to 1 pm at the Jnana Jyoti Auditorium on Palace Road, Bengaluru. Justice Kant, who is the Chancellor of NLSIU, will preside over the ceremony, the University said in an invitation circulated to invitees.The convocation comes after NLSIU had earlier cancelled the ceremony scheduled for September 12 a",
       "new_value": "Veteran theatre and film personality Arundhati Nag will be the Chief Guest and deliver the Convocation Address.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Chief Justice of India (CJI) Surya Kant will attend the 34th annual convocation of the National Law School of India University (NLSIU), Bengaluru on October 17.The convocation will be held from 11 am to 1 pm at the Jnana Jyoti Auditorium on Palace Road, Bengaluru. Justice Kant, who is the Chancellor of NLSIU, will preside over the ceremony, the University said in an invitation circulated to invitees.The convocation comes after NLSIU had earlier cancelled the ceremony scheduled for September 12 a",
+      "new_value": "The convocation will be held from 11am to 1pm at the Jnana Jyoti Auditorium in the Palace Road area in Bengaluru.",
       "source_id": "hindustan_times"
     }
   ],
@@ -19340,6 +19406,20 @@
       "old_value": "The Union Cabinet approves a US$1.06 billion SME Growth Fund to provide growth equity, support innovation and strengthen the global competitiveness of Indian SMEs.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The Union Cabinet approves a US$1.06 billion SME Growth Fund to provide growth equity, support innovation and strengthen the global competitiveness of Indian SMEs.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The Union Cabinet approves a US$1.06 billion SME Growth Fund to provide growth equity, support innovation and strengthen the global competitiveness of Indian SMEs.",
+      "new_value": "Cabinet approves Rs 10,000 crore towards establishment of SME Growth Fund for SMEs    The Tribune",
+      "source_id": "policyradar"
     }
   ],
   "f43310b99177": [
@@ -19358,6 +19438,13 @@
       "old_value": "Paytm Payments Bank Limited has been excluded from the Second Schedule to the Reserve Bank of India Act, 1934 vide Notification DoR.LIC.No.S3674/16.13.215/2026-27 dated July 31, 2026 and published in the Gazette of India (Part III - Section 4) dated September 07, 2026. (Brij Raj)            Chief General Manager Press Release: 2026-2027/1273",
       "new_value": "Paytm Payments Bank Limited has been excluded from the Second Schedule to the Reserve Bank of India Act, 1934 vide Notification DoR.LIC.No.S3674/16.13.215/2026-27 dated July 31...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Paytm Payments Bank Limited has been excluded from the Second Schedule to the Reserve Bank of India Act, 1934 vide Notification DoR.LIC.No.S3674/16.13.215/2026-27 dated July 31, 2026 and published in the Gazette of India (Part III - Section 4) dated September 07, 2026. (Brij Raj)            Chief General Manager Press Release: 2026-2027/1273",
+      "new_value": "Paytm Payments Bank Limited has been excluded from the Second Schedule to the Reserve Bank of India Act, 1934 vide Notification DoR.LIC.No.S3674/16.13.215/2026-27 dated July 31...",
+      "source_id": "policyradar"
     }
   ],
   "89ced468b1ab": [
@@ -19367,11 +19454,25 @@
       "old_value": "The Reserve Bank of India had issued draft Amendment Directions on the ‘Standardised Approach for Counterparty Credit Risk (SA-CCR)’ on June 10, 2026, inviting feedback from stakeholders until July 1, 2026. The draft Amendment Directions proposed modifications to the instructions on capital charge for counterparty credit risk as provided in Master Direction on Forthcoming Instructions for commercial banks. Key revisions included: (i) clarifying the scope of CCR for both banking and t",
       "new_value": "The Reserve Bank of India had issued draft Amendment Directions on the   Standardised Approach for Counterparty Credit Risk (SA-CCR)  on June 10, 2026...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had issued draft Amendment Directions on the ‘Standardised Approach for Counterparty Credit Risk (SA-CCR)’ on June 10, 2026, inviting feedback from stakeholders until July 1, 2026. The draft Amendment Directions proposed modifications to the instructions on capital charge for counterparty credit risk as provided in Master Direction on Forthcoming Instructions for commercial banks. Key revisions included: (i) clarifying the scope of CCR for both banking and t",
+      "new_value": "The Reserve Bank of India had issued draft Amendment Directions on the   Standardised Approach for Counterparty Credit Risk (SA-CCR)  on June 10, 2026...",
+      "source_id": "policyradar"
     }
   ],
   "68001a0eff7e": [
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had issued draft Directions on the ‘Credit Valuation Adjustment (CVA) Framework’ on August 7, 2026, inviting feedback from stakeholders until August 28, 2026. 2. The draft Directions proposed modifications to the instructions on capital charge for CVA risk for commercial banks. Key revisions included: (i) allowing eligible banks to choose a simpler approach; (ii) increasing the sensitivity of supervisory risk weights for counterparties by sector and credit q",
+      "new_value": "The Reserve Bank of India had issued draft Directions on the   Credit Valuation Adjustment (CVA) Framework  on August 7, 2026 , inviting feedback from stakeholders until August 28, 2026. 2.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "The Reserve Bank of India had issued draft Directions on the ‘Credit Valuation Adjustment (CVA) Framework’ on August 7, 2026, inviting feedback from stakeholders until August 28, 2026. 2. The draft Directions proposed modifications to the instructions on capital charge for CVA risk for commercial banks. Key revisions included: (i) allowing eligible banks to choose a simpler approach; (ii) increasing the sensitivity of supervisory risk weights for counterparties by sector and credit q",
       "new_value": "The Reserve Bank of India had issued draft Directions on the   Credit Valuation Adjustment (CVA) Framework  on August 7, 2026 , inviting feedback from stakeholders until August 28, 2026. 2.",
@@ -19394,11 +19495,25 @@
       "old_value": "RBI notification: Penal Interest on shortfall in CRR and SLR requirements - Change in Bank Rate",
       "new_value": "RBI/2026-27/283 DoR.RET.REC.239/12.01.001/2026-27 October 07, 2026 All banks, Madam / Sir, Penal Interest on shortfall in CRR and SLR requirements - Change in Bank Rate Please refer to our circular...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "RBI notification: Penal Interest on shortfall in CRR and SLR requirements - Change in Bank Rate",
+      "new_value": "RBI/2026-27/283 DoR.RET.REC.239/12.01.001/2026-27 October 07, 2026 All banks, Madam / Sir, Penal Interest on shortfall in CRR and SLR requirements - Change in Bank Rate Please refer to our circular...",
+      "source_id": "policyradar"
     }
   ],
   "4810228e7bf7": [
     {
       "date": "2026-10-07",
+      "field": "description",
+      "old_value": "RBI notification: Liquidity Adjustment Facility - Change in rates",
+      "new_value": "RBI/2026-27/282 FMOD.MAOG.No.154/01.01.001/2026-27 October 07, 2026 All Liquidity Adjustment Facility (LAF) participants Madam/Sir, Liquidity Adjustment Facility - Change in rates As announced in the...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
       "field": "description",
       "old_value": "RBI notification: Liquidity Adjustment Facility - Change in rates",
       "new_value": "RBI/2026-27/282 FMOD.MAOG.No.154/01.01.001/2026-27 October 07, 2026 All Liquidity Adjustment Facility (LAF) participants Madam/Sir, Liquidity Adjustment Facility - Change in rates As announced in the...",
@@ -19412,6 +19527,129 @@
       "old_value": "Former senior police officers have questioned whether a civic structure can be directly replicated in policing, arguing that crime, law and order, traffic management and emergency mobilisation do not necessarily follow municipal boundaries",
       "new_value": "Cabinet approves five commissionerates for Bengaluru; former officers express concern    The Hindu",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Former senior police officers have questioned whether a civic structure can be directly replicated in policing, arguing that crime, law and order, traffic management and emergency mobilisation do not necessarily follow municipal boundaries",
+      "new_value": "Cabinet approves five commissionerates for Bengaluru; former officers express concern    The Hindu",
+      "source_id": "policyradar"
+    }
+  ],
+  "91a413fff52e": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    }
+  ],
+  "3eafda595de2": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "IIT Bombay’s Senate decided to go back to its 2015 rules dealing with unfair means during examinations, giving students opportunity to explain before disciplinary action is initiated",
+      "new_value": "The 2015 rules dealing with unfair means during examinations, allow students an opportunity to explain their actions before disciplinary action is initiated",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "350a5bfe6244": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The Union Cabinet approves ITLA to strengthen integrated transport planning, multimodal connectivity, infrastructure efficiency and logistics in India.",
+      "new_value": "Seeks to address long-standing challenges; strengthen research, planning, appraisal, monitoring",
+      "source_id": "business_line"
+    }
+  ],
+  "903dc2453f67": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "A $30,000 fee for each renewal",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    }
+  ],
+  "1a64bc039464": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The annexure lab was constructed at a cost of ₹2.23 crore and will conduct drinking water tests.",
+      "new_value": "Vijay inspected the operational activities of the existing Madhavaram dairy plant and reviewed ongoing construction work on an upcoming modern dairy facility",
+      "source_id": "deccan_chronicle"
+    }
+  ],
+  "4d8a13ea950f": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/289 DOR.MRG.REC.No.245/21-01-002/2026-27 October 07, 2026 Reserve Bank of India (All India Financial Institutions (AIFIs)   Prudential Norms on Capital Adequacy) Fifth Amendment...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/288 DOR.MRG.REC.No.244/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Payments Banks   Prudential Norms on Capital Adequacy) Third Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/286 DOR.MRG.REC.No.242/00-00-001/2026-27 October 07, 2026 Reserve Bank of India (Commercial Banks   Prudential Norms on Capital Adequacy) Twelfth Amendment Directions...",
+      "source_id": "policyradar"
+    }
+  ],
+  "4d44efc4c160": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/287 DOR.MRG.REC.No.243/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Small Finance Banks   Prudential Norms on Capital Adequacy) Sixth Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/285 DOR.MRG.REC.No.241/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Commercial Banks   Miscellaneous) Amendment Directions...",
+      "source_id": "policyradar"
+    }
+  ],
+  "a0bcbfd8c10f": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The clarification is expected to ease concerns among small digital service providers and individuals receiving or making legitimate cross-border payments for personal or small-scale professional purposes.",
+      "new_value": "The clarification is expected to ease concerns among small digital service providers and individuals receiving or making legitimate cross-border payments for personal or small-scale professional...",
+      "source_id": "policyradar"
+    }
+  ],
+  "de458ae482dc": [
+    {
+      "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Rahul Gandhis guerrilla politics Surprise moves small teams and attacks on govt",
+      "new_value": "Rahul Gandhi's 'guerrilla politics': Surprise moves, small teams and attacks on govt",
+      "source_id": "indiatoday_rss"
     }
   ]
 }
