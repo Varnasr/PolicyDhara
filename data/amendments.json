@@ -3151,13 +3151,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
       "source_id": "pib_women_and_child_development"
     },
     {
@@ -3285,6 +3278,13 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "ITC will also be allowed when businesses buy and resell certain services in the same line of business. This includes restaurant and catering services, hotel rooms costing up to ₹7,500 a night, and fitness services",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "On the basis of assessment of current market conditions, Reserve Bank of India has decided to open a special window to meet the entire daily dollar requirements of three public sector oil marketing companies (OMCs), viz. Indian Oil Corporation Limited, Hindustan Petroleum Corporation Limited and Bharat Petroleum Corporation Limited. Under the facility, the Reserve Bank will undertake sale of USD to the public sector OMCs through designated bank/s. The facility will come in effect from October 12",
+      "source_id": "rbi"
     }
   ],
   "c0c8cf258433": [
@@ -3374,13 +3374,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-10-03",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-10-04",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3487,6 +3480,13 @@
     },
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3817,13 +3817,6 @@
       "source_id": "takshashila"
     },
     {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-10-05",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3923,6 +3916,13 @@
     },
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -5048,13 +5048,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-10-03",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-10-04",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5161,6 +5154,13 @@
     },
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -5486,115 +5486,6 @@
       "old_value": "Agriculture, Digital & Technology, Finance & Economy",
       "new_value": "Agriculture, Finance & Economy",
       "source_id": "historical"
-    }
-  ],
-  "77e7d169019e": [
-    {
-      "date": "2026-08-28",
-      "field": "description",
-      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 3,00,000 Total amount of offers received (in ₹ crore) 1,52,537 Amount accepted (in ₹ crore) 1,52,537 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/981",
-      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, August 31, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 6,00,000 15 09:30 AM to 10:00 AM September 15, 2026 (Tuesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad  &",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-08-28",
-      "field": "description",
-      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 3,00,000 Total amount of offers received (in ₹ crore) 1,52,537 Amount accepted (in ₹ crore) 1,52,537 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/981",
-      "new_value": "विश्वसंस्कृतदिवसस्य शुभाशयाः।अद्य, श्रावणपूर्णिमादिने, वयं संस्कृतस्य चिरन्तन-समृद्धेः उत्सवम् आचरामः। एषा भाषा भारतस्य ज्ञानस्य, चिन्तनस्य, सर्जनशीलतायाः च निरन्तर-संवाहिका आसीत्। तस्याः सकारात्मकः प्रभावः बहुषु क्षेत्रेषु अद्यापि द्रष्टुं शक्यते।एतस्मिन् विशिष्टे दिने,…",
-      "source_id": "mocivil"
-    }
-  ],
-  "e788f3996af5": [
-    {
-      "date": "2026-08-28",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-29",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-29",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-29",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-30",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-30",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-30",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-30",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-31",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-31",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-08-31",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-01",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-04",
-      "field": "description",
-      "old_value": "In the underwriting auction conducted on August 28, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government security, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU",
-      "new_value": "In the underwriting auction conducted on September 04, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore",
-      "source_id": "rbi"
     }
   ],
   "958e15d35b50": [
@@ -6551,57 +6442,6 @@
       "source_id": "gst_council"
     }
   ],
-  "0e1c14d935e6": [
-    {
-      "date": "2026-09-04",
-      "field": "description",
-      "old_value": "6.94% GS 2036 I. Notified Amount ₹34,000 crore II. Cut off Price (₹)/Implicit Yield at cut-off 100.17/6.9136% III. Amount accepted in the auction ₹34,000 crore IV. Devolvement on Primary Dealers NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/982",
-      "new_value": "New GS 2031 7.71% GS 2066 I. Notified Amount ₹21,000 crore ₹11,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 6.53% 100.58/7.6618% III. Amount accepted in the auction ₹21,000 crore ₹11,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1038",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-04",
-      "field": "description",
-      "old_value": "6.94% GS 2036 I. Notified Amount ₹34,000 crore II. Cut off Price (₹)/Implicit Yield at cut-off 100.17/6.9136% III. Amount accepted in the auction ₹34,000 crore IV. Devolvement on Primary Dealers NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/982",
-      "new_value": "(Amount in ₹ Crore) Auction Results New GS 2031 7.71% GS 2066 I. Notified Amount 21,000 11,000 II. Competitive Bids Received     (i) Number 137 241 (ii) Amount 49,886.000 34,980.000 III. Cut-off price(₹) / Yield 100.00 100.58 (YTM: 6.5300%) (YTM: 7.6618%) IV. Competitive Bids Accepted     (i) Number 76 72 (ii) Amount 20,996.823 10,986.680 V. Partial Allotment Percentage of Competitive Bids 35.1939% 84.8966% (28 bids) (11 bids) VI. Weighted Average Price(₹) /",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "New GS 2031 7.71% GS 2066 I. Notified Amount ₹21,000 crore ₹11,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 6.53% 100.58/7.6618% III. Amount accepted in the auction ₹21,000 crore ₹11,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1038",
-      "new_value": "6.20% GS 2029* 6.57% GS 2033 New GS 2056 I. Notified Amount ₹11,000 crore ₹11,000 crore ₹10,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 99.46/6.4031% 98.36/6.8703% 7.63% III. Amount accepted in the auction ₹4,505.529 crore ₹11,000 crore ₹10,000 crore IV. Devolvement on Primary Dealers NIL NIL NIL * Partial amount of ₹4,505.529 crore has been accepted Ajit Prasad         &nbs",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-18",
-      "field": "description",
-      "old_value": "6.20% GS 2029* 6.57% GS 2033 New GS 2056 I. Notified Amount ₹11,000 crore ₹11,000 crore ₹10,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 99.46/6.4031% 98.36/6.8703% 7.63% III. Amount accepted in the auction ₹4,505.529 crore ₹11,000 crore ₹10,000 crore IV. Devolvement on Primary Dealers NIL NIL NIL * Partial amount of ₹4,505.529 crore has been accepted Ajit Prasad         &nbs",
-      "new_value": "7.06% GS 2041 7.43% GS 2076 I. Notified Amount ₹17,000 crore ₹11,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.45/7.2305% 96.73/7.6863% III. Amount accepted in the auction ₹17,000 crore ₹11,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1143",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "7.06% GS 2041 7.43% GS 2076 I. Notified Amount ₹17,000 crore ₹11,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.45/7.2305% 96.73/7.6863% III. Amount accepted in the auction ₹17,000 crore ₹11,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1143",
-      "new_value": "6.94% GS 2036 I. Notified Amount ₹34,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.58/7.1450% III. Amount accepted in the auction ₹34,000 crore IV. Devolvement on Primary Dealers NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1186",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-10-01",
-      "field": "description",
-      "old_value": "6.94% GS 2036 I. Notified Amount ₹34,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.58/7.1450% III. Amount accepted in the auction ₹34,000 crore IV. Devolvement on Primary Dealers NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1186",
-      "new_value": "6.20% GS 2029 6.57% GS 2033 7.63% GS 2056 7.50% GOI SGrB 2056 I. Notified Amount ₹9,000 crore ₹12,000 crore ₹9,000 crore ₹3,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.53/6.7688% 96.79/7.1680% 99.30/7.6895% 98.20/7.6539% III. Amount accepted in the auction ₹9,000 crore ₹12,000 crore ₹9,000 crore ₹3,000 crore IV. Devolvement on Primary Dealers NIL NIL NIL NIL Ajit Prasad",
-      "source_id": "rbi"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "6.20% GS 2029 6.57% GS 2033 7.63% GS 2056 7.50% GOI SGrB 2056 I. Notified Amount ₹9,000 crore ₹12,000 crore ₹9,000 crore ₹3,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.53/6.7688% 96.79/7.1680% 99.30/7.6895% 98.20/7.6539% III. Amount accepted in the auction ₹9,000 crore ₹12,000 crore ₹9,000 crore ₹3,000 crore IV. Devolvement on Primary Dealers NIL NIL NIL NIL Ajit Prasad",
-      "new_value": "7.06% GS 2041 7.43% GS 2076 I. Notified Amount ₹23,000 crore ₹13,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 96.18/7.4898% 95.33/7.8015% III. Amount accepted in the auction ₹23,000 crore ₹13,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1296",
-      "source_id": "rbi"
-    }
-  ],
   "37f02d3dfde4": [
     {
       "date": "2026-09-04",
@@ -7446,15 +7286,6 @@
       "field": "description",
       "old_value": "In terms of GOI notification F.No. 4(5)-B(W&M)/2021 dated May 12, 2021 (SGB 2021-22 Series VI - Issue date September 07, 2021) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the due date of premature redemption of the above tranche shall be on September 07, 2026. 2. Further, the redemption price of SGB shall be based on simple average of closing",
       "new_value": "In terms of GoI notification F.No. 4(4)-B(W&M)/2020 dated April 13, 2020 (SGB 2020-21 Series VI - Issue date September 08, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on September 08, 2026. 2. Further, the redemption price of SGB shall be based on simple average of c",
-      "source_id": "rbi"
-    }
-  ],
-  "7d14795d39b9": [
-    {
-      "date": "2026-09-07",
-      "field": "description",
-      "old_value": "TRAI releases Telecom Subscription Data as on July 2026 nitinkumar Fri, 08/28/2026 - 12:52 File Press Release No. 116 (1.33 MB) Date Fri, 08/28/2026 - 12:00",
-      "new_value": "The Reserve Bank of India has today released the data on External Commercial Borrowings (ECB), Foreign Currency Convertible Bonds (FCCB) and Rupee Denominated Bonds (RDB) through General Permission and Special Permission for the month of July 2026. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1059",
       "source_id": "rbi"
     }
   ],
@@ -8436,34 +8267,6 @@
   ],
   "8c899acd431d": [
     {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "Mumbai’s overwhelming response to the Cockroach Janta Party’s protest demanding Chief Election Commissioner Gyanesh Kumar’s resignation is a shot in the arm for the CJP, which has now announced a Jantar Mantar protest on October 10.",
-      "source_id": "frontline_mag"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai approved Zicom’s Rs.17.75 crore Resolution Plan after CoC reconsidered valuation, feasibility, viability and implementation concerns.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "ITAT Mumbai allowed ₹2.76 crore interest expense and remanded unexplained investment, deposits and books issues for fresh examination.",
-      "source_id": "policyradar"
-    },
-    {
       "date": "2026-10-08",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
@@ -8574,6 +8377,34 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "ITAT Mumbai held that the CIT(E) cannot impose additional conditions beyond statutory provisions while granting Section 12AB registration and Section 80G approval.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Mumbai’s overwhelming response to the Cockroach Janta Party’s protest demanding Chief Election Commissioner Gyanesh Kumar’s resignation is a shot in the arm for the CJP, which has now announced a Jantar Mantar protest on October 10.",
+      "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "ITAT Mumbai remands ₹1.48 crore unexplained bank credit addition to CIT(A) for fresh examination, while rejecting the company's non-existence plea.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Supreme Court permits Mumbai arbitration under JVA and MoU despite an earlier Seoul arbitration clause; non-signatory issues left to arbitrator.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
     }
   ],
   "3d6af9146f3f": [
@@ -8651,148 +8482,6 @@
       "old_value": "Consumer Education Workshop at Bargarh (Odisha) by Reliance Jio Infocomm Ltd nitinkumar Tue, 09/01/2026 - 12:26 Date Sat, 09/19/2026 - 12:00 District Bargarh Division Consumer Affairs Date & Time Sat, 09/19/2026 - 15:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Naresh Selvaraj Contact person Email naresh51.kumar@ril.com Event Category COP By TRAI Venue Details Reliance Jio Infocom Ltd,plot no 1413, Badriprasad complex,infront of hotel Ganpati,Bargarh, Odish",
       "new_value": "Consumer Education Workshop at Doda (Jammu and Kashmir) by Reliance Jio Infocomm Ltd nitinkumar Wed, 09/09/2026 - 18:17 Date Sat, 09/26/2026 - 12:00 District Doda Division Consumer Affairs Date & Time Sat, 09/26/2026 - 13:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Anil Ambardar Contact person Email anil.ambardar@ril.com Event Category COP By TRAI Venue Details Reliance Jio Store, Tak City Mall, Bharat Road, Opposite Townhall, Doda. J&K. 182202 Event F",
       "source_id": "trai"
-    }
-  ],
-  "3c239da71f65": [
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_steel"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_tourism"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-11",
-      "field": "description",
-      "old_value": "India will host the 18th BRICS Summit in New Delhi on 12-13 September 2026 under the theme \"Building for Resilience, Innovation, Cooperation and Sustainability.\"",
-      "new_value": "Government of India press release: BRICS Bharat Innovates Exposition being held on September 11-12, 2026 as part of 18th BRICS Summit at Bharat Mandapam in New Delhi",
-      "source_id": "pib_lokpal_of_india"
     }
   ],
   "9628c34b5fe5": [
@@ -9853,428 +9542,6 @@
       "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah will address the inaugural session of Hindi Diwas 2026 and the 6th All India Official Language Conference in Mumbai on Monday, 14 September",
       "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah today addresses 52nd I...",
       "source_id": "state_pib_karnataka"
-    }
-  ],
-  "bb327c669e3f": [
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "To identify and lease, on a long-term basis of 27 years (extendable by mutual consent), two agricultural land parcels of approximately 10 acres each in Issapur and Dhansa villages, Najafgarh-Delhi, for development of Agri-PV power plants",
-      "new_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "To identify and lease, on a long-term basis of 27 years (extendable by mutual consent), two agricultural land parcels of approximately 10 acres each in Issapur and Dhansa villages, Najafgarh-Delhi, for development of Agri-PV power plants",
-      "new_value": "Request for Selection (RfS) for Selection of Green Ammonia Producer for Production and Supply of 54,000 MTPA Green Ammonia in India through Cost-Based Competitive Bidding under Strategic Interventions for Green Hydrogen Transition (SIGHT) Scheme (Mode-2A-Tranche-II)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "To identify and lease, on a long-term basis of 27 years (extendable by mutual consent), two agricultural land parcels of approximately 10 acres each in Issapur and Dhansa villages, Najafgarh-Delhi, for development of Agri-PV power plants",
-      "new_value": "Selection of Solar Project Developers for setting up of 4083.75 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode at Constituent Colleges/Institutions of Central Agricultural University (CAU), Imphal - North Eastern Region",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-25",
-      "field": "description",
-      "old_value": "To identify and lease, on a long-term basis of 27 years (extendable by mutual consent), two agricultural land parcels of approximately 10 acres each in Issapur and Dhansa villages, Najafgarh-Delhi, for development of Agri-PV power plants",
-      "new_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-29",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Selection of Executing Agency(ies) for preparation of Detailed Project Reports (DPRs) under Component-B1 for establishing Green Hydrogen Hubs in India under National Green Hydrogen Mission (NGHM)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-29",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Request for Selection (RfS) for Selection of Green Ammonia Producer for Production and Supply of 54,000 MTPA Green Ammonia in India through Cost-Based Competitive Bidding under Strategic Interventions for Green Hydrogen Transition (SIGHT) Scheme (Mode-2A-Tranche-II)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-29",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Selection of Solar Project Developers for setting up of 4083.75 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode at Constituent Colleges/Institutions of Central Agricultural University (CAU), Imphal - North Eastern Region",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Selection of Executing Agency(ies) for preparation of Detailed Project Reports (DPRs) under Component-B1 for establishing Green Hydrogen Hubs in India under National Green Hydrogen Mission (NGHM)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Request for Selection (RfS) for Selection of Green Ammonia Producer for Production and Supply of 54,000 MTPA Green Ammonia in India through Cost-Based Competitive Bidding under Strategic Interventions for Green Hydrogen Transition (SIGHT) Scheme (Mode-2A-Tranche-II)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Selection of Solar Project Developers for setting up of 4083.75 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode at Constituent Colleges/Institutions of Central Agricultural University (CAU), Imphal - North Eastern Region",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Selection of Executing Agency(ies) for preparation of Detailed Project Reports (DPRs) under Component-B1 for establishing Green Hydrogen Hubs in India under National Green Hydrogen Mission (NGHM)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Request for Selection (RfS) for Selection of Green Ammonia Producer for Production and Supply of 54,000 MTPA Green Ammonia in India through Cost-Based Competitive Bidding under Strategic Interventions for Green Hydrogen Transition (SIGHT) Scheme (Mode-2A-Tranche-II)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "Request for Proposal for engagement of an Agency for establishing a Programme Management Unit (PMU) to support the National Mission on Cleantech Manufacturing",
-      "new_value": "Selection of Solar Project Developers for setting up of 4083.75 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode at Constituent Colleges/Institutions of Central Agricultural University (CAU), Imphal - North Eastern Region",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-03",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-03",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-03",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-03",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-03",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-03",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-03",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-05",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "type",
-      "old_value": "release",
-      "new_value": "scheme",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
-      "new_value": "Selection of Solar Project Developers for setting up of 11,159 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
-      "new_value": "RfS for Supply of Energy from 800 MW/ 3200 MWh Standalone Battery Energy Storage Systems in India (SECI-ESS-IV)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
-      "new_value": "Selection of Solar Project Developers for setting up of 11,159 kW Grid-Connected Rooftop Solar PV Projects under RESCO mode",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
-      "new_value": "RfS for Supply of Energy from 800 MW/ 3200 MWh Standalone Battery Energy Storage Systems in India (SECI-ESS-IV)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
-      "new_value": "Selection of Solar Project Developer (SPD) for setting up of 3680 kW Grid-Connected Rooftop Solar PV (RTSPV) Projects on NDMC buildings under RESCO mode through Tariff based competitive bidding",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Tender for Design, Engineering, Supply, Construction, Erection, Testing, Commissioning and O&M of ISTS-Connected 60 MW (AC) Solar PV Power Plant at Gaya, Bihar, India",
-      "new_value": "RfS for 1200 MW ISTS-Connected Wind Power Projects in India (SECI-Tranche-XXI)",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Energy, Housing",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Trade & Commerce",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Trade & Commerce",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Trade & Commerce",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Trade & Commerce",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Trade & Commerce",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Trade & Commerce",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
     }
   ],
   "81ac578ad1f2": [
@@ -12165,34 +11432,6 @@
       "date": "2026-10-08",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outlines Path to 100 GW Wind Capacity by 2030",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
       "source_id": "pib"
     },
@@ -12300,6 +11539,34 @@
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
       "source_id": "ibef"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "The arrangement includes 15,000 officers and personnel. City Police Commissioner A. Amalraj chairs review meeting",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: BIS Chennai Organizes MSME Stakeholder Conclave as Part of World Standards Day 2026 C...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
     }
   ],
   "29766e413852": [
@@ -13159,34 +12426,6 @@
       "date": "2026-10-09",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: Union Public Service Commission announces Recruitment Results for the month of August, 2026",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Kathgodam to Dehradun Railway under UPW LSA, during the month of August 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Bilaspur and Janjgir-Champa City under MP LSA, during the month of August 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Government of India press release: Union Public Service Commission announces Recruitment Results for the month of August, 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Government of India press release: TRAI Assesses Mobile Network Quality Across Kathgodam to Dehradun Railway under UPW LSA, during the month of August 2026",
       "source_id": "pib_national_security_council_secretariat"
     },
@@ -13266,6 +12505,34 @@
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Government of India press release: Union Public Service Commission announces Recruitment Results for the month of August, 2026",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
+      "source_id": "who_india_new"
     },
     {
       "date": "2026-10-09",
@@ -14883,13 +14150,6 @@
       "date": "2026-10-04",
       "field": "description",
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
-      "new_value": "Goods and Services Tax (GST) refunds, however, slowed to ₹27,001 crore in September, a decline of 3% year on year",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-10-04",
-      "field": "description",
-      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
       "new_value": "In first meeting, Home Ministry officials to brief 31-member panel about provisions of the proposed legislation",
       "source_id": "the_hindu_business"
     },
@@ -15018,6 +14278,13 @@
       "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
       "new_value": "The rate of stock depletion has also moderated significantly, while rake position has strengthened, the ministry said",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "TOC September 2026 niti_admin Fri, 09/25/2026 - 15:12 Upload Supported Document TOC-September-2026.pdf (803.59 KB) Choose Document Type Table of Content Supported File Link September 2026",
+      "new_value": "The Reserve Bank of India has launched the 75th round of its Order Books, Inventories and Capacity Utilisation Survey (OBICUS). The survey is for the reference period July – September 2026 (Q2:2026-27). The Reserve Bank has been conducting the Order Books, Inventories and Capacity Utilisation Survey (OBICUS) of the manufacturing sector on a quarterly basis since 2008. The information collected in the survey includes quantitative data on new orders received during the reference quarter, bac",
+      "source_id": "rbi"
     }
   ],
   "4121878f4118": [
@@ -15686,6 +14953,13 @@
       "old_value": "Education, Labour & Employment",
       "new_value": "Education",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "9 Oct 2026 | Azim Premji University, Bengaluru Campus",
+      "new_value": "Celebrating a decade of supporting young changemakers across India",
+      "source_id": "azim_premji"
     }
   ],
   "7ef147d36f06": [
@@ -16086,13 +15360,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-10-03",
-      "field": "description",
-      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-10-04",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
@@ -16199,6 +15466,13 @@
     },
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
@@ -16647,6 +15921,13 @@
       "field": "description",
       "old_value": "Adjudication Order in the matter of BAO Ltd. Group",
       "new_value": "Adjudication Order in the matter of VCK Share and Stock Broking Services Limited",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Adjudication Order in the matter of BAO Ltd. Group",
+      "new_value": "Adjudication Order in the matter of inspection of Vineet Ashwinikumar Chawla - Research Analyst",
       "source_id": "sebi"
     }
   ],
@@ -17941,6 +17222,13 @@
       "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "691ed5d9cfeb": [
@@ -18193,84 +17481,6 @@
       "source_id": "trai"
     }
   ],
-  "e2df8d635638": [
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "The move comes hours after Delhi Police detained around 260 INDIA bloc protesters, including 10 MPs, during a demonstration demanding Chief Election Commissioner Gyanesh Kumar’s resignation",
-      "new_value": "Warm and substantive interaction with H.E. Mr. Joao Jorge Matlombe, Hon’ble Minister of Transport and Logistics, Mozambique. We discussed strengthening aviation linkages with the growing presence of Indian business & investments in Mozambique. India has always extended a warm and positive hand of friendship towards Mozambique. Look forward to a continued dialogue for aviation cooperation!",
-      "source_id": "mocivil"
-    }
-  ],
-  "397d9e75038c": [
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Five days after the Election Commission directed Karnataka’s election officials to examine false Form 7 applications and take legal action where required, eight police cases have been registered over alleged attempts to delete voters from electoral rolls",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Five days after the Election Commission directed Karnataka’s election officials to examine false Form 7 applications and take legal action where required, eight police cases have been registered over alleged attempts to delete voters from electoral rolls",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "Five days after the Election Commission directed Karnataka’s election officials to examine false Form 7 applications and take legal action where required, eight police cases have been registered over alleged attempts to delete voters from electoral rolls",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "Five days after the Election Commission directed Karnataka’s election officials to examine false Form 7 applications and take legal action where required, eight police cases have been registered over alleged attempts to delete voters from electoral rolls",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "Five days after the Election Commission directed Karnataka’s election officials to examine false Form 7 applications and take legal action where required, eight police cases have been registered over alleged attempts to delete voters from electoral rolls",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    }
-  ],
-  "9961151cd34f": [
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "The Union cabinet on Tuesday approved a ₹10,000 crore fund to provide equity support to promising small and medium enterprises, ahead of the 57th GST Council meeting that is expected to consider major process reforms for businesses, particularly micro, small and medium enterprises (MSMEs), officials aware of the matter said",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    }
-  ],
-  "11ae2f31b1f4": [
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "In a statement issued after the protest, the poll panel said it considered the proposed venue and the manner in which the meeting was sought ‘unusual’ in view of its established protocol.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "In a statement issued after the protest, the poll panel said it considered the proposed venue and the manner in which the meeting was sought ‘unusual’ in view of its established protocol.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "In a statement issued after the protest, the poll panel said it considered the proposed venue and the manner in which the meeting was sought ‘unusual’ in view of its established protocol.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    }
-  ],
   "324bf8f9aebe": [
     {
       "date": "2026-10-07",
@@ -18517,6 +17727,13 @@
       "old_value": "The Union Cabinet approves a US$1.06 billion SME Growth Fund to provide growth equity, support innovation and strengthen the global competitiveness of Indian SMEs.",
       "new_value": "Cabinet approves Rs 10,000 crore towards establishment of SME Growth Fund for SMEs    The Tribune",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "The Union Cabinet approves a US$1.06 billion SME Growth Fund to provide growth equity, support innovation and strengthen the global competitiveness of Indian SMEs.",
+      "new_value": "Cabinet approves Rs 10,000 crore towards establishment of SME Growth Fund for SMEs    The Tribune",
+      "source_id": "policyradar"
     }
   ],
   "f43310b99177": [
@@ -18694,13 +17911,6 @@
       "source_id": "manipur_govt"
     },
     {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "source_id": "manipur_govt"
-    },
-    {
       "date": "2026-10-09",
       "field": "description",
       "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
@@ -18740,6 +17950,48 @@
       "field": "description",
       "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
       "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "html,body{background:#000!important;margin:0!important;padding:0!important}header,footer,nav,.site-header,.site-footer,.entry-header,.post-navigation,.comments-area,.sidebar,#masthead,#colophon,.navigation,.menu,.wp-block-navigation,.wp-block-template-part{display:none!important;visibility:hidden!important;height:0!important;overflow:hidden!important} Hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimu",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "html,body{background:#000!important;margin:0!important;padding:0!important}header,footer,nav,.site-header,.site-footer,.entry-header,.post-navigation,.comments-area,.sidebar,#masthead,#colophon,.navigation,.menu,.wp-block-navigation,.wp-block-template-part{display:none!important;visibility:hidden!important;height:0!important;overflow:hidden!important} Hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimu",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "html,body{background:#000!important;margin:0!important;padding:0!important}header,footer,nav,.site-header,.site-footer,.entry-header,.post-navigation,.comments-area,.sidebar,#masthead,#colophon,.navigation,.menu,.wp-block-navigation,.wp-block-template-part{display:none!important;visibility:hidden!important;height:0!important;overflow:hidden!important} Hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimu",
       "source_id": "manipur_govt"
     }
   ],
@@ -18783,6 +18035,13 @@
     },
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/288 DOR.MRG.REC.No.244/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Payments Banks   Prudential Norms on Capital Adequacy) Third Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
       "new_value": "RBI/2026-27/288 DOR.MRG.REC.No.244/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Payments Banks   Prudential Norms on Capital Adequacy) Third Amendment Directions...",
@@ -18872,6 +18131,13 @@
     },
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) notified 375 permissible works on Tuesday, up 41% from the 266 works under previous MGNREGA",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) notified 375 permissible works on Tuesday, up 41% from the 266 works under previous MGNREGA",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
@@ -19053,6 +18319,13 @@
       "old_value": "Consumer Education Workshop at West Godavari (Andhra Pradesh) by Reliance Jio Infocomm Ltd nitinkumar Thu, 10/08/2026 - 13:04 Date Sat, 10/10/2026 - 12:00 District West Godavari Division Consumer Affairs Date & Time Sat, 10/10/2026 - 14:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Shri Narendra Contact person Email narendra1.nekkanti@ril.com Event Category COP By TRAI Venue Details Jio Office, Tanuku Event From Consumer Awareness( TSPs ) Contact person phon",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at West Godavari (Andhra Pradesh) by Reliance Jio Infocomm Ltd nitinkumar Thu, 10/08/2026 - 13:04 Date Sat, 10/10/2026 - 12:00 District West Godavari Division Consumer Affairs Date & Time Sat, 10/10/2026 - 14:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Shri Narendra Contact person Email narendra1.nekkanti@ril.com Event Category COP By TRAI Venue Details Jio Office, Tanuku Event From Consumer Awareness( TSPs ) Contact person phon",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "9efe7d3d7f2b": [
@@ -19085,11 +18358,25 @@
       "old_value": "Recalling his personal association with Patekar, Pramod Sawant said the actor would make it a point to call him whenever he was in Goa.",
       "new_value": "Chief Minister",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Recalling his personal association with Patekar, Pramod Sawant said the actor would make it a point to call him whenever he was in Goa.",
+      "new_value": "Chief Minister",
+      "source_id": "gst_council"
     }
   ],
   "9b476935faac": [
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "Under the procurement conditions approved by the State Electricity Regulatory Commission, KSEB will receive 80 MW from Barh Stage-I and 97 MW from Barh Stage-II stations of NTPC Ltd for a period of three years from May 1, 2026, to April 30, 2029",
+      "new_value": "SECI is a Category-I (highest) Power Trading Licensee for trading power on Pan-India basis. It is the intermediary power procurer for projects being set up through SECI tenders.",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "Under the procurement conditions approved by the State Electricity Regulatory Commission, KSEB will receive 80 MW from Barh Stage-I and 97 MW from Barh Stage-II stations of NTPC Ltd for a period of three years from May 1, 2026, to April 30, 2029",
       "new_value": "SECI is a Category-I (highest) Power Trading Licensee for trading power on Pan-India basis. It is the intermediary power procurer for projects being set up through SECI tenders.",
@@ -19193,6 +18480,13 @@
   "40b8665523bc": [
     {
       "date": "2026-10-08",
+      "field": "description",
+      "old_value": "The primary focus of the SLBS is supposed to be on “policy and strategic issues relating to the flow of priority sector credit and overall financial inclusion in the state”, as per the RBI guidelines governing the functioning of the committees",
+      "new_value": "The primary focus of the SLBS is supposed to be on “policy and strategic issues relating to the flow of priority sector credit and overall financial inclusion in the state”...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-09",
       "field": "description",
       "old_value": "The primary focus of the SLBS is supposed to be on “policy and strategic issues relating to the flow of priority sector credit and overall financial inclusion in the state”, as per the RBI guidelines governing the functioning of the committees",
       "new_value": "The primary focus of the SLBS is supposed to be on “policy and strategic issues relating to the flow of priority sector credit and overall financial inclusion in the state”...",
@@ -19379,6 +18673,265 @@
       "date": "2026-10-09",
       "field": "description",
       "old_value": "Topic: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment Q5. What are the major determinants of India’s public debt trajectory? Assess the implications of persistent revenue deficits and interest obligations for fiscal sustainability. Suggest measures for improving the quality of fiscal adjustment. (15 M) Difficulty Level: Medium Reference: DTE … Continue reading \"What are the major determinants of India’s public debt",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    }
+  ],
+  "32168f47a9d0": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Storage in India’s 178 major reservoirs dipped marginally this week to 71 per cent of capacity, with the situation remaining concerning in the southern region, according to data from the Central Water Commission (CWC).",
+      "new_value": "Storage in India’s 178 major reservoirs dipped marginally this week to 71% of capacity, with the situation remaining concerning in the southern region, according to data from the Central Water Commission (CWC)",
+      "source_id": "business_line"
+    }
+  ],
+  "a6e023537cb2": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Uttar Pradesh Chief Minister Adityanath made the announcement on Friday.",
+      "new_value": "‘Those who do not believe anybody would remember them want to name structures after themselves in their lifetime,’ said Samajwadi Party chief Akhilesh Yadav.",
+      "source_id": "scroll"
+    }
+  ],
+  "ac8df8a64526": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
+      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
+      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
+      "source_id": "state_pib_punjab"
+    }
+  ],
+  "324d7955b5cc": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 1,39,847 Amount accepted (in ₹ crore) 1,39,847 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1293",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, October 12, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 3 09:30 AM to 10:00 AM October 15, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad  &n",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Tenor 3-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 1,39,847 Amount accepted (in ₹ crore) 1,39,847 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1293",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, October 12, 2026, as under: Sl. No.",
+      "source_id": "policyradar"
+    }
+  ],
+  "1f88ea6602d9": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Government of India has announced the sale (re-issue) of Government Securities, as detailed below, through auction to be held on October 09, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Min",
+      "new_value": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹31,200 Crore (Face Value). Sr. No. State Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Assam 1000 11 Yield 2. Bihar 1000 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 Price 2000 Re-issue of 7.76% Bihar SGS 2051, issued on September 02, 2026 Price 3. Chhattisgarh 600 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 Price 600 Re-issue of",
+      "source_id": "rbi"
+    }
+  ],
+  "88ab6a8e7d3c": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Bypoll Election Results 2026 Live Updates: BJP's Hasi Rani Rath has won from Bengal's Nandigram constituency by over 1 lakh votes. She defeated Congress's Milan Pradhan. TVK's Sathyabama won Dharapuram seat by over 9000 votes.",
+      "new_value": "Bypoll Election Results 2026 Live Updates: BJP's Hasi Rani Rath has won from Bengal's Nandigram constituency by over 1 lakh votes. She defeated Congress's Milan Pradhan. TVK won Madurantakam and Dharapuram seats.",
+      "source_id": "livemint_policy"
+    }
+  ],
+  "5afa8121430c": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "The Delhi Police said permission for the protest had been rejected because the mandatory 10-day advance intimation had not been received.",
+      "new_value": "Here is everything you need to know about the massive security lockdown in Delhi ahead of the CJP’s October 10 protest.",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "8bb292948010": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "The rate of stock depletion has also moderated significantly, while rake position has strengthened, the ministry said",
+      "new_value": "The Coal Ministry stated that rail loading has also improved, stock depletion and power demand are also expected to moderate mid-October citing historical trends.",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "f1a614c15e17": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Delhi is under tight vigil ahead of CJP's planned Jantar Mantar protest on Oct 10, with some social media users describing the curbs as “undeclared lockdown”.",
+      "new_value": "Ahead of CJP's planned protest, Delhi Metro has announced the closure of entry and exit at 57 stations from October 9 to curb unruly mob movement.",
+      "source_id": "ndtv_india"
+    }
+  ],
+  "ed53343f61c0": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "Delhi Police has imposed Section 163 BNSS restrictions in ‘sensitive areas’ to maintain public order and prevent potential security threats.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "From bypoll wins and Navi Pillay’s Nobel to Iran’s Hormuz warning and key Supreme Court directions, here are the top stories of the day.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "Notice of Demand dated October 08, 2026 against Manish Mishra (PAN: AMPPM6823L) and Aahuti Rasik Mistry (PAN: AMPPM6823L) jointly and severally in the matter of Sadhna Broadcast Limited under RC No. 9300 of 2026",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "Metro stations closed, roads barricaded, and more than 700 detained as students and opposition parties protest against the Election Commission. A visual guide to the agitation.",
+      "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "The exams will take place in two sessions, morning session from 9 am to 12 noon and the afternoon session from 2.30 pm to 5.30 pm.",
+      "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "The Indian capital New Delhi has been turned into a fortress with train and metro cancelations, barricades and heavy police presence ahead of Saturday's planned protests against the chief of India's...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "If a less extreme government takes office after the polls on October 27, will the world’s attention to Gaza and the West Bank hold?",
+      "source_id": "scroll"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "The Court asked the Centre to allow the services in a regulated manner so that the general public is not put to inconvenience.",
+      "source_id": "livelaw"
+    }
+  ],
+  "ef780e909a77": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Appeal No. 7080 of 2026 filed by Saurabh Kumar",
+      "new_value": "Appeal No. 7083 of 2026 filed by Sunil Kumar",
+      "source_id": "sebi"
+    }
+  ],
+  "29ddd797e1b6": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "General Remittance dated 29.09.2026 against Dheeraj Wadhawan (PAN: AAOPW4517G) [Defaulter] in the matter of trading activity in the scrip of Dewan Housing Finance Corporation Limited. under Recovery Certificate No. 9214 of 2026",
+      "new_value": "General Remittance dated 09.10.2026 against Kapil Wadhawan (PAN: AAOPW6145L) [Defaulter] in the matter of Dewan Housing Finance Corporation Ltd (DHFL) under Recovery Certificate No. 9277 of 2026",
+      "source_id": "sebi"
+    }
+  ],
+  "3f2306fd9de4": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "CM Yogi Adityanath said the State Cabinet was grateful to Prime Minister Modi for the airport, which he described as a major gift to Uttar Pradesh",
+      "new_value": "Modi laid the foundation stone for the greenfield airport on November 25, 2021, and inaugurated its first phase on March 28, 2026. Commercial flights began on June 15.",
+      "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "CM Yogi Adityanath said the State Cabinet was grateful to Prime Minister Modi for the airport, which he described as a major gift to Uttar Pradesh",
+      "new_value": "U.P. Cabinet approves to rename Jewar airport after PM Modi    The Hindu",
+      "source_id": "policyradar"
+    }
+  ],
+  "508e3f88f61d": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "GST reforms will sustain growth momentum, help face global headwinds    The Indian Express",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    }
+  ],
+  "d6e872eda146": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "RBI notification: Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement",
+      "new_value": "RBI/2026-27/290 DoR.RET.REC.247/12.01.001/2026-27 October 09, 2026 All Scheduled Banks, Madam / Sir, Section 42(1) of the Reserve Bank of India Act...",
+      "source_id": "policyradar"
+    }
+  ],
+  "cba64f227949": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "ITAT Pune allows ₹1.32 crore Section 80P deduction for cooperative society, but denies exemption on ₹1.09 lakh MSEDCL deposit interest.",
+      "new_value": "ITAT Surat allows Section 80P(2)(d) deduction of ₹1.16 crore on co-operative bank interest and dividend; condones 751-day appeal delay.",
+      "source_id": "policyradar"
+    }
+  ],
+  "af00c296d803": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "The Supreme Court on Friday issued notice on a public interest litigation (PIL) seeking directions to fill vacancies in electricity regulatory commissions across 15 States and the Union Territory of Jammu and Kashmir. [Energy Watchdog v. State of WB]A Bench of Chief Justice of India Surya Kant and Justices Joymalya Bagchi and V Mohana agreed to consider the plea. Justice Joymalya Bagchi, CJI Surya Kant and Justice V MohanaThe petition, filed by non-governmental organisation Energy Watchdog, alle",
+      "new_value": "Supreme Court Issues Notice On Plea To Fill Vacancies In Electricity Regulatory Commissions In 15 States, J&K",
+      "source_id": "policyradar"
+    }
+  ],
+  "ff2834c196a9": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "A Bench of Justices Dipankar Datta and Sheel Nagu calls the High Court order ‘very reasonable’ and says there was no empirical data to justify breaching the 50% ceiling",
+      "new_value": "Supreme Court upholds Andhra Pradesh High Court judgment on BC reservations    The Hindu",
+      "source_id": "policyradar"
+    }
+  ],
+  "0a67c89e1fb7": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following companies. Sr. No. Name of the Company Registered Office Address CoR No. CoR Issued on Cancellation Order Date 1 Nakodar Finance Private Limited 8th Floor, SKCL Tech Square, Plot No.SP14, Thiru Vi Ka Industrial Estate, Guindy, Chennai, Tamil Nadu 600032 B-13.02246 May 25, 2018 September 07, 2026 2 Ajitnath",
+      "new_value": "The Reserve Bank of India, in exercise of powers conferred on it under Section 45-IA (6) of the Reserve Bank of India Act, 1934, has cancelled the Certificate of Registration of the following...",
+      "source_id": "policyradar"
+    }
+  ],
+  "b765d79a766e": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "Chief Minister Suvendu Adhikari says Muslim voters from both Nandigram and Rejinagar have extended support to the BJP candidates; the number of seats of the BJP in the 294-member Legislative Assembly have increased to 209",
+      "new_value": "Polling was held on Tuesday, with the Opposition alleging that voters had been intimidated.",
+      "source_id": "scroll"
+    }
+  ],
+  "3d12eb759c8b": [
+    {
+      "date": "2026-10-09",
+      "field": "description",
+      "old_value": "“The biggest change after I moved into the new role was that I no longer spent my time in the field and with communities the way I used to. There were meetings, planning, review calls, reporting, and the responsibility of taking the team along. At that time, I had no idea how to manage all of this at once. Sometimes it felt like the whole day had gone by, but I had not actually done anything.” This is how Biraj Krishna Upadhyay, Senior Manager at Network for Youth Development and Healthy Environ",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "source_id": "unicef_india"
     }
