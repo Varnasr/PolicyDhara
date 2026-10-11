@@ -3151,13 +3151,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
       "source_id": "pib_special_service_and_features"
     },
     {
@@ -3285,6 +3278,13 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "ITC will also be allowed when businesses buy and resell certain services in the same line of business. This includes restaurant and catering services, hotel rooms costing up to ₹7,500 a night, and fitness services",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "ITC will also be allowed when businesses buy and resell certain services in the same line of business. This includes restaurant and catering services, hotel rooms costing up to ₹7,500 a night, and fitness services",
+      "source_id": "business_line"
     }
   ],
   "c0c8cf258433": [
@@ -3381,13 +3381,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-10-06",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3494,6 +3487,13 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3806,13 +3806,6 @@
       "date": "2026-10-06",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "Delhi High Court set aside a Section 12-A exemption order, holding that defendants must be heard and the plaint must be examined to determine whether urgent relief is genuinely contemplated The post...",
       "source_id": "policyradar"
     },
@@ -3930,6 +3923,13 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -5055,13 +5055,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-10-06",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5168,6 +5161,13 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -7686,13 +7686,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-09-28",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
@@ -7792,6 +7785,13 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -8119,20 +8119,6 @@
       "date": "2026-10-09",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai rejects Section 9 IBC plea as major default fell within Section 10A period and remaining debt was below ₹1 crore threshold.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "ITAT Mumbai deletes ₹3.03 lakh penalty under Section 271(1)(c) for refund interest disclosed and taxed in the subsequent assessment year.",
       "source_id": "policyradar"
     },
@@ -8254,6 +8240,20 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
       "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "The Supreme Court passed an interim order directing that people peacefully assembling to protest must not be detained ‘except save by law’.",
+      "source_id": "scroll"
     }
   ],
   "3d6af9146f3f": [
@@ -11278,130 +11278,109 @@
   ],
   "490198e96377": [
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: BIS Chennai Organizes MSME Stakeholder Conclave as Part of World Standards Day 2026 C...",
-      "source_id": "state_pib_punjab"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_tribal_affairs"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_national_financial_reporting_authority"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "The protesters, many carrying placards, raised slogans against the Election Commission and demanded Kumar's resignation. The demonstration in Chennai came as Delhi Police moved against a proposed protest at Jantar Mantar by the Cockroach Janata Party.",
-      "source_id": "ndtv_india"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_national_security_council_secretariat"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: BIS Chennai Organizes MSME Stakeholder Conclave as Part of World Standards Day 2026 C...",
-      "source_id": "state_pib_punjab"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_ifsc_authority"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_competition_commission_of_india"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_lokpal_of_india"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "10 Oct 2026",
-      "source_id": "azim_premji"
+      "new_value": "Government of India press release: Text of PM’s address during the launch of development projects in Chennai",
+      "source_id": "pib_national_human_rights_commission"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Rahul Gandhi first met TN CM Vijay at his residence and later went to a nearby cafe and reportedly had a coffee drink (Cappuccino), Tiramisu, cookies and coffee.",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Gandhi's soon-to-be-held meeting with CM Vijay will be the first such interaction between the two leaders after the TVK-led 'Secular Social Justice Victory Alliance' was formally named recently.",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Rahul Gandhi meets CM Vijay in Chennai An hour of talks then coffee together",
-      "source_id": "india_today"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Rahul Gandhi meets CM Vijay in Chennai: An hour of talks, then coffee together",
-      "source_id": "indiatoday_rss"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "10 Oct 2026",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "In the initial period, 15 trains will be run from Poonamallee to Vadapalani, and commuters can access a train every 10 minutes during the peak hours",
+      "new_value": "Six years after the work began, Chennai Metro Rail Limited (CMRL)’s first train ran from Porur Bypass at noon on October 11, 2026, with Mr. Modi and Chief Minister C. Joseph Vijay being the first few commuters.",
       "source_id": "the_hindu_policy"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "PM Modi will ride the Chennai Metro from Porur Bypass Station to Poonamallee Bypass Station and back, and pray at the Jalakandeswarar Temple.",
+      "new_value": "PM Modi took a ride on the Chennai Metro from Porur Bypass Station to Poonamallee Bypass Station and back. Tamil Nadu Chief Minister C Joseph Vijay was also present.",
       "source_id": "ndtv_india"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
+      "new_value": "‘This is your time, opportunity’: PM Modi tells Chennai students, says future lies in them",
+      "source_id": "hindustan_times"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "10 Oct 2026",
-      "source_id": "azim_premji"
+      "new_value": "After flagging off the services, PM Modi and CM Vijay shared a ride on the metro train.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "PM Modi is set to launch and dedicate development projects worth over ₹13,000 crore in Chennai on Sunday, including the Porur–Poonamallee stretch of the Chennai Metro Phase II",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "At Chhatron Ki Goonj event in Chennai, Rahul Gandhi urged young people to question authority and defend their convictions.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "There are a total of 11 elevated Metro Stations covering approximately 15 km in the newly inaugurated stretch",
+      "source_id": "business_line"
     },
     {
       "date": "2026-10-11",
@@ -11414,8 +11393,29 @@
       "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "10 Oct 2026",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "PM launches Chennai Metro stretch worth Rs crore takes ride with CM Vijay",
+      "source_id": "india_today"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "PM Narendra Modi: '1975 Mein Chennai Ka West Mamallapuram Ek Chhote Se Vidyalaya Ke Roop Mein'",
+      "source_id": "indiatoday_rss"
     }
   ],
   "29766e413852": [
@@ -12356,28 +12356,28 @@
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -14865,6 +14865,13 @@
       "old_value": "9 Oct 2026 | Azim Premji University, Bengaluru Campus",
       "new_value": "Celebrating a decade of supporting young changemakers across India",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "9 Oct 2026 | Azim Premji University, Bengaluru Campus",
+      "new_value": "Celebrating a decade of supporting young changemakers across India",
+      "source_id": "azim_premji"
     }
   ],
   "7ef147d36f06": [
@@ -15272,13 +15279,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-10-05",
-      "field": "description",
-      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-10-06",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
@@ -15385,6 +15385,13 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
@@ -17169,6 +17176,13 @@
       "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
       "new_value": "Union Finance Minister and…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
     }
   ],
   "691ed5d9cfeb": [
@@ -17723,6 +17737,13 @@
       "old_value": "The Union Cabinet approves a US$1.06 billion SME Growth Fund to provide growth equity, support innovation and strengthen the global competitiveness of Indian SMEs.",
       "new_value": "Cabinet approves Rs 10,000 crore towards establishment of SME Growth Fund for SMEs    The Tribune",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The Union Cabinet approves a US$1.06 billion SME Growth Fund to provide growth equity, support innovation and strengthen the global competitiveness of Indian SMEs.",
+      "new_value": "Cabinet approves Rs 10,000 crore towards establishment of SME Growth Fund for SMEs    The Tribune",
+      "source_id": "policyradar"
     }
   ],
   "f43310b99177": [
@@ -17847,27 +17868,6 @@
       "date": "2026-10-09",
       "field": "description",
       "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "source_id": "manipur_govt"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "source_id": "manipur_govt"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "new_value": "html,body{background:#000!important;margin:0!important;padding:0!important}header,footer,nav,.site-header,.site-footer,.entry-header,.post-navigation,.comments-area,.sidebar,#masthead,#colophon,.navigation,.menu,.wp-block-navigation,.wp-block-template-part{display:none!important;visibility:hidden!important;height:0!important;overflow:hidden!important} Hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimu",
-      "source_id": "manipur_govt"
-    },
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
       "new_value": "html,body{background:#000!important;margin:0!important;padding:0!important}header,footer,nav,.site-header,.site-footer,.entry-header,.post-navigation,.comments-area,.sidebar,#masthead,#colophon,.navigation,.menu,.wp-block-navigation,.wp-block-template-part{display:none!important;visibility:hidden!important;height:0!important;overflow:hidden!important} Hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimu",
       "source_id": "manipur_govt"
     },
@@ -17957,6 +17957,27 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
       "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
@@ -18063,6 +18084,27 @@
       "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
       "new_value": "RBI/2026-27/288 DOR.MRG.REC.No.244/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Payments Banks   Prudential Norms on Capital Adequacy) Third Amendment Directions...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/288 DOR.MRG.REC.No.244/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Payments Banks   Prudential Norms on Capital Adequacy) Third Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/286 DOR.MRG.REC.No.242/00-00-001/2026-27 October 07, 2026 Reserve Bank of India (Commercial Banks   Prudential Norms on Capital Adequacy) Twelfth Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/289 DOR.MRG.REC.No.245/21-01-002/2026-27 October 07, 2026 Reserve Bank of India (All India Financial Institutions (AIFIs)   Prudential Norms on Capital Adequacy) Fifth Amendment...",
+      "source_id": "policyradar"
     }
   ],
   "4d44efc4c160": [
@@ -18078,6 +18120,13 @@
       "field": "description",
       "old_value": "RBI notification: Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third Amendment Directions, 2026",
       "new_value": "RBI/2026-27/285 DOR.MRG.REC.No.241/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Commercial Banks   Miscellaneous) Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/287 DOR.MRG.REC.No.243/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Small Finance Banks   Prudential Norms on Capital Adequacy) Sixth Amendment Directions...",
       "source_id": "policyradar"
     }
   ],
@@ -18229,6 +18278,13 @@
       "old_value": "Consumer Education Workshop at West Godavari (Andhra Pradesh) by Reliance Jio Infocomm Ltd nitinkumar Thu, 10/08/2026 - 13:04 Date Sat, 10/10/2026 - 12:00 District West Godavari Division Consumer Affairs Date & Time Sat, 10/10/2026 - 14:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Shri Narendra Contact person Email narendra1.nekkanti@ril.com Event Category COP By TRAI Venue Details Jio Office, Tanuku Event From Consumer Awareness( TSPs ) Contact person phon",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
       "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Consumer Education Workshop at West Godavari (Andhra Pradesh) by Reliance Jio Infocomm Ltd nitinkumar Thu, 10/08/2026 - 13:04 Date Sat, 10/10/2026 - 12:00 District West Godavari Division Consumer Affairs Date & Time Sat, 10/10/2026 - 14:00 Programme Category CEW By TSP's Event Status In progress Contact Person Name Shri Narendra Contact person Email narendra1.nekkanti@ril.com Event Category COP By TRAI Venue Details Jio Office, Tanuku Event From Consumer Awareness( TSPs ) Contact person phon",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
     }
   ],
   "9efe7d3d7f2b": [
@@ -18368,6 +18424,13 @@
       "old_value": "RBI notification: Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Twelfth Amendment Directions, 2026",
       "new_value": "RBI notification: Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Amendment Directions, 2026",
       "source_id": "rbi_notifications"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Twelfth Amendment Directions, 2026",
+      "new_value": "RBI/2026-27/284 DOR.MRG.REC.240/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Commercial Banks   Forthcoming Instructions) Amendment Directions...",
+      "source_id": "policyradar"
     }
   ],
   "bd703f4bbb88": [
@@ -18395,15 +18458,6 @@
       "old_value": "Storage in India’s 178 major reservoirs dipped marginally this week to 71 per cent of capacity, with the situation remaining concerning in the southern region, according to data from the Central Water Commission (CWC).",
       "new_value": "Storage in India’s 178 major reservoirs dipped marginally this week to 71% of capacity, with the situation remaining concerning in the southern region, according to data from the Central Water Commission (CWC)",
       "source_id": "business_line"
-    }
-  ],
-  "a6e023537cb2": [
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "Uttar Pradesh Chief Minister Adityanath made the announcement on Friday.",
-      "new_value": "‘Those who do not believe anybody would remember them want to name structures after themselves in their lifetime,’ said Samajwadi Party chief Akhilesh Yadav.",
-      "source_id": "scroll"
     }
   ],
   "ac8df8a64526": [
@@ -18472,6 +18526,20 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
+      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
+      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
       "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
@@ -18568,27 +18636,6 @@
     }
   ],
   "ed53343f61c0": [
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
-      "new_value": "Government of India press release: PM to Visit Chennai on 11 October",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
-      "new_value": "Government of India press release: PM to Visit Chennai on 11 October",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
-      "new_value": "Government of India press release: PM to Visit Chennai on 11 October",
-      "source_id": "pib_ifsc_authority"
-    },
     {
       "date": "2026-10-10",
       "field": "description",
@@ -18707,6 +18754,27 @@
       "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
       "new_value": "Government of India press release: PM to Visit Chennai on 11 October",
       "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "According to an official strike notice issued on October 10, the protest will begin at 8.30 a.m. at the main gate of Osmania General Hospital",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "NCERT has announced a 40-week online diploma course in teaching Science at the middle stage. Registration begins on October 12, 2026, and the enrolment fee is Rs 2,000.",
+      "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Ever wondered how an aircraft steers smoothly left and right in mid-air? Meet Yaw-the unsung hero of steady flying. #AviationAZ #AllianceAir https://t.co/OZhwampwTX",
+      "new_value": "Renewal for PM-USP CSSS scholarship 2026-27 is open on the National Scholarship Portal with a deadline of October 31, 2026.",
+      "source_id": "ndtv_india"
     }
   ],
   "ef780e909a77": [
@@ -18755,36 +18823,6 @@
       "old_value": "CM Yogi Adityanath said the State Cabinet was grateful to Prime Minister Modi for the airport, which he described as a major gift to Uttar Pradesh",
       "new_value": "U.P. Cabinet approves to rename Jewar airport after PM Modi    The Hindu",
       "source_id": "policyradar"
-    }
-  ],
-  "508e3f88f61d": [
-    {
-      "date": "2026-10-09",
-      "field": "description",
-      "old_value": "GST reforms will sustain growth momentum, help face global headwinds    The Indian Express",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "GST reforms will sustain growth momentum, help face global headwinds    The Indian Express",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "GST reforms will sustain growth momentum, help face global headwinds    The Indian Express",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "GST reforms will sustain growth momentum, help face global headwinds    The Indian Express",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
     }
   ],
   "d6e872eda146": [
@@ -18863,6 +18901,13 @@
       "old_value": "A Bench of Justices Dipankar Datta and Sheel Nagu calls the High Court order ‘very reasonable’ and says there was no empirical data to justify breaching the 50% ceiling",
       "new_value": "Supreme Court upholds Andhra Pradesh High Court judgment on BC reservations    The Hindu",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "A Bench of Justices Dipankar Datta and Sheel Nagu calls the High Court order ‘very reasonable’ and says there was no empirical data to justify breaching the 50% ceiling",
+      "new_value": "Supreme Court upholds Andhra Pradesh High Court judgment on BC reservations    The Hindu",
+      "source_id": "policyradar"
     }
   ],
   "0a67c89e1fb7": [
@@ -18927,24 +18972,6 @@
       "old_value": "Finance & Economy, Labour & Employment",
       "new_value": "Governance & Reform",
       "source_id": "insights_ias"
-    }
-  ],
-  "5718348fa492": [
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "The committee is also learnt to have recommended a separate “technology diplomacy strategy” for the MEA",
-      "new_value": "New Delhi: The Parliamentary Committee on External Affairs has asked the Ministry of External Affairs (MEA) to prepare a public “technology vision and strategy document”, saying it was surprised that India lacks a single written strategy linking technology with its foreign policy",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "505eed749af9": [
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "\"We will go to the Supreme Court on Monday to meet the Chief Justice of India and hand over a memorandum to him,\" Rahul Gandhi, Leader of the Opposition (Lok Sabha), announced after meeting with President Murmu.",
-      "new_value": "Opposition leaders asked President Droupadi Murmu to restore 133 million voters they say were removed from electoral rolls.",
-      "source_id": "hindustan_times"
     }
   ],
   "f747d5d7b1da": [
@@ -19012,33 +19039,20 @@
       "old_value": "Climate & Environment, Energy",
       "new_value": "Energy",
       "source_id": "seci"
-    }
-  ],
-  "67c01ea3efec": [
+    },
     {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Nation has been driven back: Supreme Court laments its own 1987 judgment on condonation of delay",
-      "new_value": "The Supreme Court on Friday expressed displeasure over its own 1987 judgment in Collector, Land Acquisition v. Katiji, observing that the decision, which condoned a delay of merely four days, had driven the country backwards because litigants have since repeatedly relied on it to seek condonation of delay. A Bench of Justices Dipankar Datta and Sheel Nagu made the observation while dismissing appeals filed by Karvy Stock Broking Limited and its former Chairman and Managing Director C Parthasarat",
-      "source_id": "barandbench"
-    }
-  ],
-  "a764ab1243cb": [
+      "date": "2026-10-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Trade & Commerce",
+      "source_id": "seci"
+    },
     {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "West Bengal SIR: Supreme Court to hear plea to allow excluded voters under appeal to vote for upcoming municipal elections",
-      "new_value": "The Supreme Court on Friday said that it will hear the case concerning the Special Intensive Revision (SIR) of electoral rolls in West Bengal on October 16. Pertinently, the Court on that date will consider whether voters excluded during the SIR process and who have filed appeals against the exclusion, should be allowed to vote for the upcoming municipal elections in the State.A Bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana advanced the hearing amid c",
-      "source_id": "barandbench"
-    }
-  ],
-  "0ae9b26c72a5": [
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "By-Election Results 2026 Highlights: Nandigram, Rejinagar, Nagaon, Dharapuram, Madurantakam And Thattanchavady Vote Counting: The votes were cast on October 6.",
-      "new_value": "While the Tamilaga Vettri Kazhagam is elated at winning both Madurantakam and Dharapuram, the Dravida Munnetra Kazhagam and the All India Anna Dravida Munnetra Kazhagam, too, have reasons to be pleased with their performance.",
-      "source_id": "frontline_mag"
+      "date": "2026-10-11",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
     }
   ],
   "ba0a6dfa2a2f": [
@@ -19156,6 +19170,13 @@
       "old_value": "The Uttar Pradesh cabinet on Friday passed a resolution to rename the Noida International Airport in Jewar as Narendra Modi International Airport, Noida-Jewar,chief minister Yogi Adityanath announced after chairing the cabinet meeting",
       "new_value": "U.P. Cabinet approves to rename Jewar airport after PM Modi    The Hindu",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The Uttar Pradesh cabinet on Friday passed a resolution to rename the Noida International Airport in Jewar as Narendra Modi International Airport, Noida-Jewar,chief minister Yogi Adityanath announced after chairing the cabinet meeting",
+      "new_value": "U.P. Cabinet approves to rename Jewar airport after PM Modi    The Hindu",
+      "source_id": "policyradar"
     }
   ],
   "4f89892ee1db": [
@@ -19195,16 +19216,16 @@
       "old_value": "Q7. What is the Green Energy Corridor? Bring out the significance of its third phase for India’s renewable-energy transition. (10 M) The post What is the Green Energy Corridor? Bring out the significance of its third phase for India’s renewable-energy transition. appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Q7. What is the Green Energy Corridor? Bring out the significance of its third phase for India’s renewable-energy transition. (10 M) The post What is the Green Energy Corridor? Bring out the significance of its third phase for India’s renewable-energy transition. appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
     }
   ],
   "e1ed0522c205": [
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Government of India press release: 5th Kautilya Economic Conclave to be held in New Delhi from 3 to 5 October 2026 under the theme “Resilience in an Age of Flux”",
-      "new_value": "Government of India press release: Fifth Kautilya Economic Conclave (KEC 2026) with the theme ‘Resilience in an Age of Flux’ concludes successfully in New Delhi",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
     {
       "date": "2026-10-10",
       "field": "description",
@@ -19337,6 +19358,13 @@
       "old_value": "Government of India press release: 5th Kautilya Economic Conclave to be held in New Delhi from 3 to 5 October 2026 under the theme “Resilience in an Age of Flux”",
       "new_value": "Government of India press release: Fifth Kautilya Economic Conclave (KEC 2026) with the theme ‘Resilience in an Age of F...",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "Government of India press release: 5th Kautilya Economic Conclave to be held in New Delhi from 3 to 5 October 2026 under the theme “Resilience in an Age of Flux”",
+      "new_value": "Government of India press release: Fifth Kautilya Economic Conclave (KEC 2026) with the theme ‘Resilience in an Age of F...",
+      "source_id": "state_pib_karnataka"
     }
   ],
   "4a7f561b69a1": [
@@ -19416,6 +19444,41 @@
       "old_value": "The post The GST Council appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "new_value": "GST Council unveils major reforms, eases penalties and speeds up refunds    Business Standard",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The post The GST Council appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "Finance Minister Nirmala Sitharaman says 99% of GST rate and process issues had been addressed but the “door is not closed to further reforms”; all the changes are expected to come into effect from April 1, 2027",
+      "source_id": "the_hindu_business"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The post The GST Council appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "GST reforms shift focus towards faster refunds, simpler compliance and proportionate enforcement",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The post The GST Council appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "Supply by e commerce platform to an unregistered person by any delivery mechanism to attract flat 5% rate",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The post The GST Council appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "The Finance Ministry said the time for acknowledging a refund claim will be cut to 10 days from 15",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The post The GST Council appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "GST Council unveils major reforms, eases penalties and speeds up refunds    Business Standard",
+      "source_id": "policyradar"
     }
   ],
   "19f081e3ed27": [
@@ -19437,6 +19500,13 @@
     },
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "NASSCOM chairperson Srikanth Velamakanni said the suspension is unlikely to significantly affect Indian IT companies in the short to medium term and could encourage talent, capital and work to move to India.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "NASSCOM chairperson Srikanth Velamakanni said the suspension is unlikely to significantly affect Indian IT companies in the short to medium term and could encourage talent, capital and work to move to India.",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
@@ -19482,15 +19552,6 @@
       "source_id": "india_today"
     }
   ],
-  "d5a1aa7f2b1c": [
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "The order has been issued by the Delhi Police.",
-      "new_value": "Delhi CJP Protest Highlights: Entry and exit gates at 45 Delhi Metro stations, including Rajiv Chowk, New Delhi, Central Secretariat, Patel Chowk and Kashmere Gate, will remain closed today.",
-      "source_id": "ndtv_india"
-    }
-  ],
   "32aaf88afc9c": [
     {
       "date": "2026-10-10",
@@ -19521,6 +19582,13 @@
   "0173c2565053": [
     {
       "date": "2026-10-10",
+      "field": "description",
+      "old_value": "Barricades, internet shutdowns, and detentions precede Bloomberg’s New Economy Forum in the national capital, as joblessness, food prices, and distrust weigh on the government.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-10-11",
       "field": "description",
       "old_value": "Barricades, internet shutdowns, and detentions precede Bloomberg’s New Economy Forum in the national capital, as joblessness, food prices, and distrust weigh on the government.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
@@ -19638,6 +19706,51 @@
       "old_value": "Telangana braces for El Nio threat CM Revanth Reddy orders urgent action plan",
       "new_value": "Telangana braces for El Niño threat, CM Revanth Reddy orders urgent action plan",
       "source_id": "indiatoday_rss"
+    }
+  ],
+  "5a68cbd654f8": [
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The Keralam government has sanctioned Rs 12.5 lakh as compensation to a teacher who was allegedly subjected to custodial torture by police in connection with the 2003 Muthanga tribal land agitation in Wayanad.",
+      "new_value": "K.K. Surendran, a teacher tortured in custody after his arrest during the 2003 Muthanga land agitation, will receive the compensation after a 23-year legal battle",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "8f0f98ccca86": [
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "In the initial period, 15 trains will be run from Poonamallee to Vadapalani, and commuters can access a train every 10 minutes during the peak hours",
+      "new_value": "The passenger services will start on October 11, 2026) from 4 p.m.",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "617c4c0ce360": [
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "PM Modi will ride the Chennai Metro from Porur Bypass Station to Poonamallee Bypass Station and back, and pray at the Jalakandeswarar Temple.",
+      "new_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
+      "source_id": "deccan_chronicle"
+    }
+  ],
+  "5f6c0c0445f7": [
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The security operation to prevent the CJP protest against CEC Gyanesh Kumar resulted in the detention of 7,000 people and left large parts of Delhi deserted.",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
+    }
+  ],
+  "7f5b04f8dee7": [
+    {
+      "date": "2026-10-11",
+      "field": "description",
+      "old_value": "The employees’ JAC says it has not withdraw its major demands, but is giving an opportunity to the government to resolve issues through discussions",
+      "new_value": "Gender differences within the informal labour market, where outcomes are generally poorer than in the formal sector owing to limited protection and regulation, are examined. The paper hypothesises that women are more disadvantaged than men even within this vulnerable segment. The findings show that women are concentrated in less gainful activities, and rising female employment does not significantly increase household per capita consumption expenditure. Wage estimates, after correcting for endog",
+      "source_id": "epw"
     }
   ]
 }
