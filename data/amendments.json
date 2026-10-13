@@ -3151,20 +3151,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: Commerce and Industry Minister Shri Piyush Goyal Holds Meetings with Leading U.S. Companies in New York to Strengthen India–U.S. Trade and Investment Ties",
       "source_id": "pib_competition_commission_of_india"
     },
     {
@@ -3285,6 +3271,20 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "The Telangana Cyber Security Bureau has registered a case against three telemarketing companies following allegations of unauthorised transmission of fraudulent commercial SMSes",
       "source_id": "ndtv_india"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Anbumani alleges that the authority has moved with ‘lightning speed’ to reduce buffer zone around the Pallikaranai marsh in order to protect the interests of construction firms. He demands that the government notify all wetlands across the State",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Before 2019, the government levied a charge of around ₹9 per kg on poultry brought into the region, which farmers say provided some protection against supplies from larger producers in other States",
+      "source_id": "business_line"
     }
   ],
   "c0c8cf258433": [
@@ -3374,13 +3374,6 @@
       "source_id": "dfs"
     },
     {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
-      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
-      "source_id": "dfs"
-    },
-    {
       "date": "2026-10-08",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
@@ -3487,6 +3480,13 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
+      "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
+      "source_id": "dfs"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "Raised FDI cap in insurance sector from 26% to 49%, strengthened IRDA's regulatory powers, and allowed Lloyd's of London to operate in India. Aimed to increase insurance penetration and capital inflows.",
       "new_value": "Draft Rules pursuant to the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act,…",
@@ -3806,13 +3806,6 @@
       "date": "2026-10-08",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
-      "date": "2026-10-08",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "Allahabad High Court opens mediation drive for pending disputes till December",
       "source_id": "india_today"
     },
@@ -3923,6 +3916,13 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -5048,13 +5048,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-10-08",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5161,6 +5154,13 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -6525,148 +6525,6 @@
       "source_id": "trai"
     }
   ],
-  "3ca55be73834": [
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Government of India press release: TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026 nitinkumar Thu, 09/10/2026 - 18:13 Measure Sector Broadcasting Document Type Regulations Division Broadcasting and Cable Services Group Field Title Repeal - Regulation File Repealing_Regulation_10092026.pdf (160.3 KB) Release Date Thu, 09/10/2026 - 12:00 Closing Date Thu, 09/10/2026 - 12:00 Counter Comments Date Thu, 09/10/2026 - 12:00 Status Closed Select Main Regulation The Sta",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-09-10",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "TRAI releases The Standards of Quality of Service (Duration of Advertisements in Television Channels) (Repealing) Regulations, 2026 nitinkumar Thu, 09/10/2026 - 18:12 File Press Release No. 117 (682.28 KB) Date Thu, 09/10/2026 - 12:00",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-09-14",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Withdrawal of Order No. 23-1/2012-B&CS dated 5th August 2013 regarding furnishing of information on duration of advertisements on TV channels nitinkumar Mon, 09/14/2026 - 15:51 Date Mon, 09/14/2026 - 12:00",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-09-14",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Withdrawal of Order No. 23-1/2012-B&CS dated 5th August 2013 regarding furnishing of information on duration of advertisements on TV channels nitinkumar Mon, 09/14/2026 - 15:35 Measure Sector Broadcasting Broadcasting Quality of Service Document Type Miscellaneous Division Broadcasting and Cable Services Group Field Title Order File Order_14092026.pdf (1.63 MB) Release Date Mon, 09/14/2026 - 12:00 Closing Date Mon, 09/14/2026 - 12:00 Counter Comments Date Mon, 09/14/2026 - 12:00 Status Close",
-      "source_id": "trai"
-    },
-    {
-      "date": "2026-09-16",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Case against regional news channel's MD over Kerala CM's second marriage claim",
-      "source_id": "indiatoday_rss"
-    },
-    {
-      "date": "2026-10-06",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "Training programme highlights digital content, AI ethics and effective classroom use",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "MRP of Pay Channels as on 31.08.2026 nitinkumar Wed, 09/02/2026 - 16:46 Attachment Download (31.72 KB) File MRP_02092026.pdf (103.28 KB)",
-      "new_value": "The police allowed mainstream television channels to broadcast from Central Delhi while restricting access for several reporters from independent media.",
-      "source_id": "scroll"
-    }
-  ],
   "26691ebefb25": [
     {
       "date": "2026-09-07",
@@ -6960,13 +6818,6 @@
   ],
   "f7035fedf8a8": [
     {
-      "date": "2026-09-30",
-      "field": "description",
-      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
-      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-10-01",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
@@ -7080,6 +6931,13 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "**Kanishk Goyal and Ayushi Kumari  “Publicity is justly commended as a remedy for social and industrial diseases. Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.” – Louis D. Brandeis Brandeis’s observation matters most when State power itself becomes the subject of public scrutiny. In September 2025, the Supreme […] The post The Constitutional Paradox of Why the State Can Surveil but the Citizen Cannot Record appeared fi",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
@@ -7414,27 +7272,6 @@
       "date": "2026-10-10",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT directs release of income tax refunds of ₹1.70 crore and ₹2.69 crore in PMT Machines insolvency proceedings, relying on IBC moratorium protection.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "NCLT Mumbai orders restoration of ₹2.69 crore income tax refunds adjusted against pre-CIRP dues during IBC moratorium.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "ITAT Mumbai deletes unexplained share investment additions, allows interest expenditure and holds that undisclosed third-party evidence violates natural justice.",
       "source_id": "policyradar"
     },
@@ -7542,6 +7379,27 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "No blanket orders can be passed, the Bombay High Court remarked during the hearing of a public interest litigation (PIL) challenging widespread preventive detentions and alleged police excesses during demonstrations in Mumbai on October 10 and 11, 2026 over alleged irregularities in the Special Intensive Revision (SIR) of electoral rolls. [Sagar Devre v. State of Maharashtra & Ors]These detentions allegedly took place during demonstrations demanding accountability from Chief Election Commiss",
       "source_id": "barandbench"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Government of India press release: 21st Meeting of Maritime State Development Council Concludes Successfully at Mumbai",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "The meeting between Mumbai International Airport Limited (MIAL), airlines and the ministry on Tuesday ended on a positive note, with both sides agreeing to work towards a plan for the redevelopment of Terminal 1",
+      "source_id": "ndtv_india"
     },
     {
       "date": "2026-10-13",
@@ -10521,27 +10379,6 @@
       "date": "2026-10-11",
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "10 Oct 2026",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Upon arrival, the Prime Minister was received with a floral bouquet by Chief Minister C Joseph Vijay. Following the Chief Minister, the State Minister for Rural Development and Water Resources, N. Anand, stepped forward to greet him",
       "source_id": "deccan_chronicle"
     },
@@ -10634,6 +10471,27 @@
       "field": "description",
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "10 Oct 2026",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Hydroponic Ganja seizure at Chennai International Airport",
       "source_id": "state_pib_punjab"
     },
     {
@@ -11498,34 +11356,6 @@
   ],
   "767cca424275": [
     {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
-      "source_id": "who_india_new"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
-      "source_id": "who_india_new"
-    },
-    {
       "date": "2026-10-12",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
@@ -11576,6 +11406,34 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -14122,6 +13980,13 @@
       "old_value": "9 Oct 2026 | Azim Premji University, Bengaluru Campus",
       "new_value": "The event brought together students from across India to present business ideas addressing social problems.",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "9 Oct 2026 | Azim Premji University, Bengaluru Campus",
+      "new_value": "The event brought together students from across India to present business ideas addressing social problems.",
+      "source_id": "azim_premji"
     }
   ],
   "7ef147d36f06": [
@@ -14522,13 +14387,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-10-08",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
@@ -14635,6 +14493,13 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
@@ -16426,13 +16291,6 @@
       "source_id": "gst_council"
     },
     {
-      "date": "2026-10-07",
-      "field": "description",
-      "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
-      "new_value": "Union Finance Minister and…",
-      "source_id": "gst_council"
-    },
-    {
       "date": "2026-10-08",
       "field": "description",
       "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
@@ -16532,6 +16390,13 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "India expects to sign three new bilateral investment treaties by December, with talks involving Canada, Russia and other countries to strengthen investment ties.",
       "new_value": "Union Finance Minister and…",
@@ -17274,27 +17139,6 @@
       "source_id": "manipur_govt"
     },
     {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "source_id": "manipur_govt"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "source_id": "manipur_govt"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-      "source_id": "manipur_govt"
-    },
-    {
       "date": "2026-10-12",
       "field": "description",
       "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
@@ -17331,6 +17175,27 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
+      "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
       "new_value": "hacked by trenggalek6etar — JATIM4U — Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
@@ -17954,20 +17819,6 @@
       "source_id": "state_pib_punjab"
     },
     {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "description",
-      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
-      "source_id": "state_pib_punjab"
-    },
-    {
       "date": "2026-10-11",
       "field": "description",
       "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
@@ -18046,6 +17897,20 @@
     },
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
+      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
+      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
+      "source_id": "pib"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
       "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
@@ -18350,20 +18215,6 @@
       "source_id": "seci"
     },
     {
-      "date": "2026-10-10",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy, Trade & Commerce",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-10",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
       "date": "2026-10-11",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
@@ -18466,6 +18317,34 @@
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Energy, Trade & Commerce",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "RfS for Assured Peak Supply of 4800 MWh (1200 MW x 4 Hrs.) from ISTS-Connected RE Projects in India (SECI-FDRE-X)",
+      "new_value": "Selection of Solar Project Developer (SPD) for setting up of 3680 kW Grid-Connected Rooftop Solar PV (RTSPV) Projects on NDMC buildings under RESCO mode through Tariff based competitive bidding",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy, Trade & Commerce",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "RfS for Assured Peak Supply of 4800 MWh (1200 MW x 4 Hrs.) from ISTS-Connected RE Projects in India (SECI-FDRE-X)",
+      "new_value": "RfS for 1200 MW ISTS-Connected Wind Power Projects in India (SECI-Tranche-XXI)",
       "source_id": "seci"
     },
     {
@@ -18729,6 +18608,13 @@
       "old_value": "The security operation to prevent the CJP protest against CEC Gyanesh Kumar resulted in the detention of 7,000 people and left large parts of Delhi deserted.",
       "new_value": "Chief Minister, Finance…",
       "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "The security operation to prevent the CJP protest against CEC Gyanesh Kumar resulted in the detention of 7,000 people and left large parts of Delhi deserted.",
+      "new_value": "Chief Minister, Finance…",
+      "source_id": "gst_council"
     }
   ],
   "7f5b04f8dee7": [
@@ -18780,148 +18666,13 @@
       "old_value": "The employees’ JAC says it has not withdraw its major demands, but is giving an opportunity to the government to resolve issues through discussions",
       "new_value": "Gender differences within the informal labour market, where outcomes are generally poorer than in the formal sector owing to limited protection and regulation, are examined. The paper hypothesises that women are more disadvantaged than men even within this vulnerable segment. The findings show that women are concentrated in less gainful activities, and rising female employment does not significantly increase household per capita consumption expenditure. Wage estimates, after correcting for endog",
       "source_id": "epw"
-    }
-  ],
-  "733de734f63e": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_tourism"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-13",
       "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_textiles"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_statistics_programme_implementation"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Modi will lay the foundation stone for a Rs. 1,620-crore group II/III lube oil base stocks project at Chennai Petroleum Corporation Limited’s Manali refinery",
-      "new_value": "Government of India press release: Prime Minister Shri Narendra Modi lays the foundation stone, inaugurates and dedicates various development projects worth over ₹13,000 crore in Chennai, Tamil Nadu",
-      "source_id": "pib_ifsc_authority"
+      "old_value": "The employees’ JAC says it has not withdraw its major demands, but is giving an opportunity to the government to resolve issues through discussions",
+      "new_value": "Gender differences within the informal labour market, where outcomes are generally poorer than in the formal sector owing to limited protection and regulation, are examined. The paper hypothesises that women are more disadvantaged than men even within this vulnerable segment. The findings show that women are concentrated in less gainful activities, and rising female employment does not significantly increase household per capita consumption expenditure. Wage estimates, after correcting for endog",
+      "source_id": "epw"
     }
   ],
   "d2002deec0e0": [
@@ -18947,123 +18698,6 @@
       "source_id": "policyradar"
     }
   ],
-  "a434c871caf4": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Prakash Rajpurohit fills the vacancy left by Sanjay Kumar’s premature repatriation, amid concerns raised by Election Commissioners S.S. Sandhu and Vivek Joshi over IT department files not being routed through him",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Prakash Rajpurohit fills the vacancy left by Sanjay Kumar’s premature repatriation, amid concerns raised by Election Commissioners S.S. Sandhu and Vivek Joshi over IT department files not being routed through him",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "Prakash Rajpurohit fills the vacancy left by Sanjay Kumar’s premature repatriation, amid concerns raised by Election Commissioners S.S. Sandhu and Vivek Joshi over IT department files not being routed through him",
-      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
-      "source_id": "azim_premji"
-    }
-  ],
-  "3aea5a520d35": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "India can expect capital to flow more efficiently and give businesses the competitiveness they need with the reforms approved by the GST Council. Here's how the changes create an enabling environment for faster GDP growth.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "India can expect capital to flow more efficiently and give businesses the competitiveness they need with the reforms approved by the GST Council. Here's how the changes create an enabling environment for faster GDP growth.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "India can expect capital to flow more efficiently and give businesses the competitiveness they need with the reforms approved by the GST Council. Here's how the changes create an enabling environment for faster GDP growth.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "India can expect capital to flow more efficiently and give businesses the competitiveness they need with the reforms approved by the GST Council. Here's how the changes create an enabling environment for faster GDP growth.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    }
-  ],
-  "aba077a7d6e1": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Jairam Ramesh said a Parliamentary Standing Committee report catalogued “grave incompetence and malpractice” in the NTA, alleging nine paper leaks and a revenue surplus of ₹590 crore left unused for students",
-      "new_value": "Jairam Ramesh said a Parliamentary Standing Committee report catalogued “grave incompetence and malpractice” in the NTA, alleging nine paper leaks and a revenue surplus of ₹590 crore left unused for...",
-      "source_id": "policyradar"
-    }
-  ],
-  "f9c86ef70149": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "New Delhi rejected the concerns, describing them as ‘misplaced and ‘an unwarranted interference in the internal affairs of India’.",
-      "new_value": "New Delhi rejected the concerns and accused the UN body of having an ‘approach of extreme selectivity’ and ‘double standards’ regarding public positions.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "New Delhi rejected the concerns, describing them as ‘misplaced and ‘an unwarranted interference in the internal affairs of India’.",
-      "new_value": "New Delhi rejected the concerns and accused the UN body of having an ‘approach of extreme selectivity’ and ‘double standards’ regarding public positions.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "New Delhi rejected the concerns, describing them as ‘misplaced and ‘an unwarranted interference in the internal affairs of India’.",
-      "new_value": "New Delhi rejected the concerns and accused the UN body of having an ‘approach of extreme selectivity’ and ‘double standards’ regarding public positions.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "New Delhi rejected the concerns, describing them as ‘misplaced and ‘an unwarranted interference in the internal affairs of India’.",
-      "new_value": "New Delhi rejected the concerns and accused the UN body of having an ‘approach of extreme selectivity’ and ‘double standards’ regarding public positions.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-10-13",
-      "field": "description",
-      "old_value": "New Delhi rejected the concerns, describing them as ‘misplaced and ‘an unwarranted interference in the internal affairs of India’.",
-      "new_value": "New Delhi rejected the concerns and accused the UN body of having an ‘approach of extreme selectivity’ and ‘double standards’ regarding public positions.",
-      "source_id": "scroll"
-    }
-  ],
-  "17cbcf68aaa2": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "PM Modi took a ride on the Chennai Metro from Porur Bypass Station to Poonamallee Bypass Station and back. Tamil Nadu Chief Minister C Joseph Vijay was also present.",
-      "new_value": "The IAP House, located behind the Kaloor metro station, will also be home to the ‘Arike’ Pain and Palliative Care Unit, which focusses on pediatric palliative care.",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "1fa9c8db8bc4": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "The passenger services will start on October 11, 2026) from 4 p.m.",
-      "new_value": "The passenger services will start on October 11, 2026 from 4 p.m.",
-      "source_id": "the_hindu_policy"
-    }
-  ],
   "440da7fd5aef": [
     {
       "date": "2026-10-11",
@@ -19071,15 +18705,6 @@
       "old_value": "Supreme Court fixes special hearing on Sunday for pleas challenging mass detentions, transit shutdown in Delhi",
       "new_value": "General secretary Ravi Shankar Alluri issued a 10 point charter of demands: Reports",
       "source_id": "deccan_chronicle"
-    }
-  ],
-  "fea906af6468": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "CJP's Saurav Das alleged that the government had turned the state against its own citizens and said the authorities could have invited a delegation for talks instead of restricting protesters seeking to demonstrate at a designated site.",
-      "new_value": "New Delhi, Oct 11 (PTI) Cockroach Janta Party (CJP) leaders on Sunday vowed to continue their agitation against Chief Election Commissioner Gyanesh Kumar...",
-      "source_id": "policyradar"
     }
   ],
   "c5dc2e471abd": [
@@ -19096,45 +18721,6 @@
       "old_value": "Headed by Rajeev Ranjan Mishra, the Commission submitted its report on provision of reservation for the BCs local body-wise, in due compliance with the triple test mandate laid down by the Supreme Court and other constitutional provisions",
       "new_value": "Andhra Pradesh govt. accepts Dedicated Commission’s recommendations on BC reservation    The Hindu",
       "source_id": "policyradar"
-    }
-  ],
-  "4e6f1f98fdd6": [
-    {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "On Saturday, about 41,000 security personnel turned the Capital into a fortress to thwart a planned protest and detained 7,000 people.",
-      "new_value": "The interim directions are subject to any law and order situation.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "On Saturday, about 41,000 security personnel turned the Capital into a fortress to thwart a planned protest and detained 7,000 people.",
-      "new_value": "The interim directions are subject to any law and order situation.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "On Saturday, about 41,000 security personnel turned the Capital into a fortress to thwart a planned protest and detained 7,000 people.",
-      "new_value": "The interim directions are subject to any law and order situation.",
-      "source_id": "policyradar"
-    }
-  ],
-  "e7be79e19e4b": [
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "His final salute to the skies during the multilateral combat exercise Tarang Shakti will also turn the spotlight on the LCA’s latest Mk-1A variant.",
-      "new_value": "The aircraft that the Chief of Air Staff flew is the LCA’s first variant — the Mk-1.",
-      "source_id": "hindustan_times"
-    },
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "His final salute to the skies during the multilateral combat exercise Tarang Shakti will also turn the spotlight on the LCA’s latest Mk-1A variant.",
-      "new_value": "Air Chief Marshal AP Singh on Sunday flew the Tejas light combat aircraft from Jodhpur airbase, the Indian Air Force chief’s last flight before he retires on October 31, officials aware of the matter said",
-      "source_id": "hindustan_times"
     }
   ],
   "828399f3c306": [
@@ -19180,15 +18766,6 @@
       "old_value": "Settlement order in the matter of Investcorp Private Equity Fund I",
       "new_value": "Settlement Order in the matter of Singularity Equity Fund",
       "source_id": "sebi"
-    }
-  ],
-  "80b9171a44b8": [
-    {
-      "date": "2026-10-12",
-      "field": "description",
-      "old_value": "Delhi HC permits officers of Central Secretariat Club to collect belongings after eviction",
-      "new_value": "New Delhi & Central Delhi nitinkumar Mon, 10/12/2026 - 14:21 File Download (7.59 MB) QoS Quarter August Qos Report Type IDT Report Date of Release Mon, 10/12/2026 - 12:00 Service area Delhi Months August Year 2026",
-      "source_id": "trai"
     }
   ],
   "ab7e1ac5979e": [
@@ -19237,6 +18814,13 @@
   "69940f684db7": [
     {
       "date": "2026-10-12",
+      "field": "description",
+      "old_value": "The central bank’s special window to supply oil importers with dollars directly will reduce forex market demand and help stabilize India’s currency. But it doesn’t reduce uncertainty on capital inflows—the crux of its weakness.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-13",
       "field": "description",
       "old_value": "The central bank’s special window to supply oil importers with dollars directly will reduce forex market demand and help stabilize India’s currency. But it doesn’t reduce uncertainty on capital inflows—the crux of its weakness.",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
@@ -19314,27 +18898,6 @@
       "old_value": "Social Protection, Transport & Infrastructure",
       "new_value": "Finance & Economy",
       "source_id": "mocivil"
-    },
-    {
-      "date": "2026-10-13",
-      "field": "description",
-      "old_value": "West Bengal is set to get better air connectivity with four new airports and expanded air operations across the state. These efforts will make travel easier, connect more people and open up new opportunities for communities across the region. @RamMNK @mohol_murlidhar @samirsinha69 @AAI_Official @Pib_MoCA",
-      "new_value": "Notice of attachment dated October 13,2026 issued against Subhalakshmi M S under RC No. 7712 of 2024 in the matter of Arvind Remedies Ltd.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-10-13",
-      "field": "description",
-      "old_value": "West Bengal is set to get better air connectivity with four new airports and expanded air operations across the state. These efforts will make travel easier, connect more people and open up new opportunities for communities across the region. @RamMNK @mohol_murlidhar @samirsinha69 @AAI_Official @Pib_MoCA",
-      "new_value": "Notice of attachment dated October 13,2026 issued against S Sengolancy Beaula under RC No. 7711 of 2024 in the matter of Arvind Remedies Ltd.",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-10-13",
-      "field": "description",
-      "old_value": "West Bengal is set to get better air connectivity with four new airports and expanded air operations across the state. These efforts will make travel easier, connect more people and open up new opportunities for communities across the region. @RamMNK @mohol_murlidhar @samirsinha69 @AAI_Official @Pib_MoCA",
-      "new_value": "Notice of attachment dated October 13,2026 issued against M Sethujanani under RC No. 7709 of 2024 in the matter of Arvind Remedies Ltd.",
-      "source_id": "sebi"
     },
     {
       "date": "2026-10-13",
@@ -19453,6 +19016,27 @@
       "field": "description",
       "old_value": "West Bengal is set to get better air connectivity with four new airports and expanded air operations across the state. These efforts will make travel easier, connect more people and open up new opportunities for communities across the region. @RamMNK @mohol_murlidhar @samirsinha69 @AAI_Official @Pib_MoCA",
       "new_value": "Visit of Shri Pabitra Margherita, Union Minister of State for External Affairs, and Textiles, to the Independent State of Samoa, the Cook Islands and the Republic of Naoero (October 16–22...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Partnerships for Made in India Aircraft is what excites me the most! In a significant interaction with the Deputy Prime Minister of the Czech Republic, H.E. Shri Karel Havlicek, we discussed the immense opportunity to combine India’s regional air connectivity demand with Czech expertise to build aircraft. Developing 19, 40 and 90-seater aircraft in India to connect UDAN destinations, while also manufacturing for global markets, takes forward Hon'ble PM's vision of UDAN & Make in India!",
+      "new_value": "The next 25 days will be crucial to guard against further spurt in prices as traders anticipate negligible stock at mill levels",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Partnerships for Made in India Aircraft is what excites me the most! In a significant interaction with the Deputy Prime Minister of the Czech Republic, H.E. Shri Karel Havlicek, we discussed the immense opportunity to combine India’s regional air connectivity demand with Czech expertise to build aircraft. Developing 19, 40 and 90-seater aircraft in India to connect UDAN destinations, while also manufacturing for global markets, takes forward Hon'ble PM's vision of UDAN & Make in India!",
+      "new_value": "CBIC Notification 82/2026 introduces India–New Zealand FTA origin rules covering tariff preferences, value addition, certification and verification.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Partnerships for Made in India Aircraft is what excites me the most! In a significant interaction with the Deputy Prime Minister of the Czech Republic, H.E. Shri Karel Havlicek, we discussed the immense opportunity to combine India’s regional air connectivity demand with Czech expertise to build aircraft. Developing 19, 40 and 90-seater aircraft in India to connect UDAN destinations, while also manufacturing for global markets, takes forward Hon'ble PM's vision of UDAN & Make in India!",
+      "new_value": "Central Bank of India Cent Super 333-day callable FD: official 6.50%/7.00% rates, deposit limits, TDS under section 393, GST and DICGC rules.",
       "source_id": "policyradar"
     }
   ],
@@ -19703,6 +19287,13 @@
       "old_value": "Ruling parties sweep by-elections, but defections mar Tamil Nadu results",
       "new_value": "While the Tamilaga Vettri Kazhagam is elated at winning both Madurantakam and Dharapuram, the Dravida Munnetra Kazhagam and the All India Anna Dravida Munnetra Kazhagam, too, have reasons to be pleased with their performance.",
       "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Ruling parties sweep by-elections, but defections mar Tamil Nadu results",
+      "new_value": "While the Tamilaga Vettri Kazhagam is elated at winning both Madurantakam and Dharapuram, the Dravida Munnetra Kazhagam and the All India Anna Dravida Munnetra Kazhagam, too, have reasons to be pleased with their performance.",
+      "source_id": "frontline_mag"
     }
   ],
   "33c27ab3a204": [
@@ -19721,6 +19312,166 @@
       "old_value": "Eleven Opposition leaders, including Leader of Opposition Rahul Gandhi, have moved a plea before the Supreme Court challenging large-scale voter deletions and alleged irregularities in the ongoing Special Intensive Revision (SIR) of electoral rolls.The other petitioners in the matter include Congress President Mallikarjun Kharge, Trinamool Congress leader Saugata Roy, Samajwadi Party President Akhilesh Yadav, Rashtriya Janata Dal leader Tejashwi Prasad Yadav, Shiv Sena (UBT) leader Sanjay Raut,",
       "new_value": "The petition was filed after the Opposition’s request for a meeting with Chief Justice Surya Kant was declined.",
       "source_id": "scroll"
+    }
+  ],
+  "6ee618b54570": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "L Murugan is a former president of the BJP's Tamil Nadu unit and he was elected to the Upper House from Madhya Pradesh.",
+      "new_value": "L Murugan requested PM Modi to relieve him of his duties and said that he wanted to dedicate his time to strengthening the BJP in Tamil Nadu.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "4f62559dbe1b": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 71,580 Amount accepted (in ₹ crore) 71,580 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1317",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, October 14, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM October 15, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same.Ajit Prasad  &n",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 1,50,000 Total amount of offers received (in ₹ crore) 71,580 Amount accepted (in ₹ crore) 71,580 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1317",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, October 14, 2026, as under: Sl. No.",
+      "source_id": "policyradar"
+    }
+  ],
+  "2206262e3fba": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Government of India press release: Union Women and Child Development Minister Smt. Annpurna Devi Visits NCPCR, Reviews Office Functioning and Directs Timely Disposal of Pending Files by December 31, 2026",
+      "new_value": "Government of India press release: Union Women and Child Development Minister Smt. Annpurna Devi Visits NCPCR, Reviews O...",
+      "source_id": "state_pib_karnataka"
+    }
+  ],
+  "f64682bc095e": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Hundreds were detained, 45 metro stations restricted, and internet suspended near Jantar Mantar, a day after the Supreme Court cautioned against curbs.",
+      "new_value": "Detentions come a day after Delhi Police de-notified Jantar Mantar as a protest site; two FIRs registered over the INDIA bloc march held without permission in Central Delhi.",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "ea74bd07783a": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "While the INDIA bloc leaders marched, their legal team filed a petition against Election Commission chief Gyanesh Kumar over alleged \"vote chori\" (vote theft).",
+      "new_value": "Karnataka CM DK Shivakumar said that Rahul Gandhi didn't push him aside, but was only concerned for him because the crowd was massive.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "a89900883d51": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "J. K. Jena, Deputy DG (Fisheries Science) ICAR, said research must go beyond outputs to benefit communities, farmers, fishers and entrepreneurs",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
+    }
+  ],
+  "76f72a4973bf": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Notice of Demand under Recovery Certificate number 9302 of 2026 dated October 13, 2026, issued to Arvind Shukla (PAN: ISZPS7481G) [Defaulter] in the matter of market manipulation using social media in the scrip of Moksh Ornaments Limited: under Recovery Certificate No. 9302 of 2026.",
+      "new_value": "Notice of Demand under Recovery Certificate number 9303 of 2026 dated October 13, 2026, issued to Mr. Aviral Saxena (PAN: KVYPS1652D) in the matter of Investigation in the matter of market manipulation using social media in the scrip of Moksh Ornaments Limited: under Recovery Certificate No. 9303 of 2026.",
+      "source_id": "sebi"
+    }
+  ],
+  "018be91956c8": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "\"Freight revenue during September 2026 increased by ₹1,266 crore over September 2025, registering a 9.3% growth,\" the Railway Board said",
+      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
+      "source_id": "digilocker"
+    }
+  ],
+  "440b35b36050": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Dr Martin Patrick, Senior Fellow (Economy), Centre for Public Policy Research (CPPR), discusses Kerala’s economic development priorities, focusing on employment generation, higher education, investment, technology and sustainable growth. The interview explores ways to strengthen Kerala’s economy by creating local employment […] The post Kerala’s Economic Development: Growth, Employment and Sustainability | Dr Martin Patrick appeared first on Centre for Public Policy Research (CPPR).",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    }
+  ],
+  "45883f5f5134": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "First come first serve policy to allot grounds for Ramleela unfair: Delhi High Court",
+      "new_value": "'First Come, First Serve' Policy For Allotment Of Public Grounds For Ramlila Events Arbitrary: Delhi High Court",
+      "source_id": "policyradar"
+    }
+  ],
+  "4f10fa91d224": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "The Supreme Court on Tuesday asked the Delhi government to obtain inputs from the Intelligence Bureau (IB) on whether Jagtar Singh Hawara, who is serving a life sentence for his role in the 1995 assassination of former Punjab Chief Minister Beant Singh, can be transferred from Tihar Jail to a prison in Punjab [Jagtar Singh Hawara v. Govt. of NCT of Delhi].A Bench of Justices MM Sundresh and Prasanna B Varale issued the direction while considering Hawara's plea for the jail transfer. Additional S",
+      "new_value": "Supreme Court asks Delhi government to seek IB inputs on jail transfer plea by CM Beant Singh assassination convict",
+      "source_id": "policyradar"
+    }
+  ],
+  "702410d70fb2": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "The report ‘Rationalisation of Tax on Contract Carriage Buses Plying within Telangana’, flags alleged misuse of temporary permits by operators",
+      "new_value": "Committee recommends replacing Telangana’s three-tier tax slab for contract carriages with single tax system    The Hindu",
+      "source_id": "policyradar"
+    }
+  ],
+  "12cee89cdd76": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "The Central government on Tuesday notified the appointment of two judicial officers - Dharmalingam Lingeswaran and Balathandayutham Karthikeyan - as additional judges of the Madras High Court.Union Minister of State for Law and Justice Arjun Ram Meghwal announced the appointments on X. In exercise of the powers conferred by the Constitution of India, in consultation with Chief Justice of India, the President is pleased to appoint the following 02 Judicial Officers as Additional Judges of the Mad",
+      "new_value": "Central government appoints two judicial officers as additional judges of Madras High Court",
+      "source_id": "policyradar"
+    }
+  ],
+  "58447baa3f5c": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "The plea has sought to declare Section 16 of the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023 to be unconstitutional",
+      "new_value": "Supreme Court to hear plea against legal immunity for chief election commissioner, election commissioners    Telegraph India",
+      "source_id": "policyradar"
+    }
+  ],
+  "414fcb90165c": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Telangana firm on abiding by the provisions of the Reorganisation Act",
+      "new_value": "View All",
+      "source_id": "sidbi_new"
+    }
+  ],
+  "2ea1ce653c51": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Democracy is more than distant institutions or elections every few years. It is precarious and urgent, a struggle by people to assert their most basic rights in their daily lives. Over the past few weeks, protests across the country have made questions about rights and accountability a public conversation. Workers, artists, activists, collectives, and students have come together on to the streets–many for the first time–to exercise their right to dissent and to make their voices count. As slogan",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    }
+  ],
+  "74f4c3c1b262": [
+    {
+      "date": "2026-10-13",
+      "field": "description",
+      "old_value": "Police action against lawyers participating in a peaceful protest could have a chilling effect on their fundamental rights, the Supreme Court Advocates-on-Record Association (SCAORA) has told the Supreme Court. [SCAORA v. Union of India]The Association has sought an independent, impartial and time-bound inquiry into the detention and alleged manhandling of advocates by Delhi Police during a protest march on October 10.The Union government, the Delhi Police Commissioner and the Lieutenant Governo",
+      "new_value": "For more than 75 years, UNICEF has led the global fight for children’s rights. Join us to have a real impact on the lives of the world’s children.",
+      "source_id": "unicef_india"
     }
   ]
 }
