@@ -29,7 +29,7 @@ if not date:
 
 When a source didn't expose a publication date — and roughly half of Indian government sources don't — the fetcher stamped today's date and moved on. Every six hours, another cycle of undated items got labeled with the current day. Over months, ninety-four percent of the dataset ended up clustered on the three days CI happened to run most recently.
 
-![94% of the dataset was stamped with today's date onto just three dates — the days CI happened to run; only 6% carried a real publication date.](/PolicyDhara/blog/date-clustering.svg)
+![94% of the dataset was stamped with today's date onto just three dates — the days CI happened to run; only 6% carried a real publication date.](/blog/date-clustering.svg)
 
 A commit in April *had* tried to fix this. It removed the fallback in the Python package's fetcher (`policydhara/fetchers/base.py`) and migrated the data. But CI ran a *different* fetcher — `scripts/fetch_all.py` — that still had the fallback. Within a few cycles the fake dates were back.
 
@@ -74,7 +74,7 @@ Concretely, PolicyDhara now:
 
 None of these are ambitious. All of them are what the platform should have been doing already. Sometimes the most valuable work is the un-showable kind: the number on the dashboard goes down, and the meaning behind it goes up.
 
-The tracker is at [varnasr.github.io/PolicyDhara](https://varnasr.github.io/PolicyDhara) and the code is at [github.com/Varnasr/PolicyDhara](https://github.com/Varnasr/PolicyDhara). If you spot another lie, tell us — that's exactly the kind of contribution we like most.
+The tracker is at [policydhara.impactmojo.in](https://policydhara.impactmojo.in) and the code is at [github.com/Varnasr/PolicyDhara](https://github.com/Varnasr/PolicyDhara). If you spot another lie, tell us — that's exactly the kind of contribution we like most.
 
 ---
 

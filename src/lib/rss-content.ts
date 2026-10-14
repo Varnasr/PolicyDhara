@@ -5,7 +5,7 @@
 
 import type { PolicyItem } from './data';
 
-const SITE_URL = 'https://varnasr.github.io/PolicyDhara';
+const SITE_URL = 'https://policydhara.impactmojo.in';
 
 const TYPE_COLORS: Record<string, { color: string; bg: string }> = {
   legislation:   { color: '#dc2626', bg: '#fef2f2' },

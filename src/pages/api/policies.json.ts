@@ -11,7 +11,7 @@ export const GET: APIRoute = () => {
         last_updated: meta.last_updated,
         total: policies.length,
         version: '1.0',
-        attribution: 'PolicyDhara by ImpactMojo (https://varnasr.github.io/PolicyDhara)',
+        attribution: 'PolicyDhara by ImpactMojo (https://policydhara.impactmojo.in)',
       },
       policies,
     }, null, 2),

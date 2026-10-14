@@ -43,7 +43,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 SNAPSHOT_FILE = DATA_DIR / ".policy_ids_snapshot.json"
 POLICIES_FILE = DATA_DIR / "policies.json"
-SITE_URL = "https://varnasr.github.io/PolicyDhara"
+SITE_URL = "https://policydhara.impactmojo.in"
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}/{method}"
 SLEEP_BETWEEN_SENDS = 0.6  # respect Telegram's 30 msg/sec channel rate limit

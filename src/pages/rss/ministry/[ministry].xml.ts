@@ -5,7 +5,7 @@ import { renderPolicyHtml } from '../../../lib/rss-content';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const SITE_URL = 'https://varnasr.github.io/PolicyDhara';
+const SITE_URL = 'https://policydhara.impactmojo.in';
 
 // Every source_id of the form `pib_<slug>` (excluding regional PIB offices
 // which live under `state_pib_*`) is a ministry-filtered listing. This

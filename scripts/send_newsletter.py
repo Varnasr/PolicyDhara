@@ -28,7 +28,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 SNAPSHOT_FILE = DATA_DIR / ".policy_ids_snapshot.json"
 POLICIES_FILE = DATA_DIR / "policies.json"
-SITE_URL = "https://varnasr.github.io/PolicyDhara"
+SITE_URL = "https://policydhara.impactmojo.in"
 
 BUTTONDOWN_API = "https://api.buttondown.email/v1/emails"
 

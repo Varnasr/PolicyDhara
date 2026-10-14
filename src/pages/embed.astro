@@ -5,7 +5,7 @@ import { getAllPolicies, getMeta } from '../lib/data';
 const meta = getMeta();
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
-const siteOrigin = 'https://varnasr.github.io';
+const siteOrigin = 'https://policydhara.impactmojo.in';
 const embedBase = `${siteOrigin}${base}embed/`;
 const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a);
 ---
@@ -225,7 +225,7 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       const path = slug ? `${slug}/` : '';
       const qs = limit !== '5' ? `?limit=${limit}` : '';
 
-      const embedBase = 'https://varnasr.github.io/PolicyDhara/embed/';
+      const embedBase = 'https://policydhara.impactmojo.in/embed/';
       const localBase = feedIframe.src.split('/embed/feed/')[0] + '/embed/feed/';
 
       feedCode.textContent = `<iframe src="${embedBase}feed/${path}${qs}" width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>`;
