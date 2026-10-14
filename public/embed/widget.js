@@ -4,12 +4,12 @@
  *
  * Usage:
  *   <div id="policydhara-widget" data-sector="health" data-limit="5"></div>
- *   <script src="https://varnasr.github.io/PolicyDhara/embed/widget.js"></script>
+ *   <script src="https://policydhara.impactmojo.in/embed/widget.js"></script>
  */
 (function () {
   'use strict';
 
-  var SITE_BASE = 'https://varnasr.github.io/PolicyDhara/';
+  var SITE_BASE = 'https://policydhara.impactmojo.in/';
   var EMBED_BASE = SITE_BASE + 'embed/feed/';
 
   // Detect if running locally (same origin)

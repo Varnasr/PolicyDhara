@@ -22,7 +22,7 @@ const siteTitle = `${title} | PolicyDhara`;
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 const canonicalUrl = Astro.url.href;
-const siteOrigin = Astro.site?.toString().replace(/\/$/, '') || 'https://varnasr.github.io';
+const siteOrigin = Astro.site?.toString().replace(/\/$/, '') || 'https://policydhara.impactmojo.in';
 const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
 ---
 <!DOCTYPE html>
@@ -342,11 +342,13 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
     </div>
   </footer>
 
-  {/* Stale-cache killswitch. All of varnasr.github.io's project sites share
-      one origin, so a service worker registered by ANY of them (now or in
-      the past) can pin a browser to a cached copy of this site through every
-      refresh. If one controls this page, unregister it, clear CacheStorage,
-      and reload once. No-op on browsers with no service worker. */}
+  {/* Stale-cache killswitch. This site was served from varnasr.github.io
+      until it moved to policydhara.impactmojo.in, and project sites there
+      share one origin, so a service worker registered by any of them could
+      pin a browser to a cached copy through every refresh. On its own origin
+      that risk is gone, but the guard is cheap: if a service worker controls
+      this page, unregister it, clear CacheStorage, and reload once. No-op on
+      browsers with no service worker. */}
   <script is:inline>
     if ('serviceWorker' in navigator && !sessionStorage.getItem('pd-sw-purged')) {
       navigator.serviceWorker.getRegistrations().then(function (regs) {

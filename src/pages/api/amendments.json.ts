@@ -10,7 +10,7 @@ export const GET: APIRoute = () => {
     JSON.stringify({
       meta: {
         version: '1.0',
-        attribution: 'PolicyDhara by ImpactMojo (https://varnasr.github.io/PolicyDhara)',
+        attribution: 'PolicyDhara by ImpactMojo (https://policydhara.impactmojo.in)',
       },
       amendments,
     }),

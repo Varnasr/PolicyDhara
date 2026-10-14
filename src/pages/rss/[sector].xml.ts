@@ -3,7 +3,7 @@ import type { APIContext, GetStaticPaths } from 'astro';
 import { getAllPolicies, getMeta, getSectorSlug } from '../../lib/data';
 import { renderPolicyHtml } from '../../lib/rss-content';
 
-const SITE_URL = 'https://varnasr.github.io/PolicyDhara';
+const SITE_URL = 'https://policydhara.impactmojo.in';
 
 export const getStaticPaths: GetStaticPaths = () => {
   const meta = getMeta();

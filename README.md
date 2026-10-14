@@ -1,6 +1,6 @@
 # PolicyDhara
 
-[![Website](https://img.shields.io/badge/Website-varnasr.github.io%2FPolicyDhara-blue)](https://varnasr.github.io/PolicyDhara)
+[![Website](https://img.shields.io/badge/Website-policydhara.impactmojo.in-blue)](https://policydhara.impactmojo.in)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![GitHub Actions](https://img.shields.io/badge/Auto--Update-Every%206%20Hours-brightgreen?logo=github-actions)](https://github.com/Varnasr/PolicyDhara/actions)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Varnasr/PolicyDhara)](https://github.com/Varnasr/PolicyDhara/commits/master)
@@ -8,11 +8,11 @@
 
 **Auto-updating tracker of Indian development policy across 22 sectors — fetching from ~350 official sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
 
-📋 [Roadmap](ROADMAP.md) · 📝 [Blog](https://varnasr.github.io/PolicyDhara/blog)
+📋 [Roadmap](ROADMAP.md) · 📝 [Blog](https://policydhara.impactmojo.in/blog)
 
 A complement to [impactmojo.in](https://impactmojo.in) and the [OpenStacks for Change](https://github.com/Varnasr/OpenStacks-for-Change) ecosystem.
 
-**Live at [varnasr.github.io/PolicyDhara](https://varnasr.github.io/PolicyDhara)**
+**Live at [policydhara.impactmojo.in](https://policydhara.impactmojo.in)**
 
 ---
 
@@ -85,7 +85,7 @@ The pipeline fetches from ~350 sources concurrently. A few high-value ones:
               GitHub Pages (static hosting)
                          │
 ┌──────────────────────────────────────────────────────┐
-│              varnasr.github.io/PolicyDhara            │
+│               policydhara.impactmojo.in               │
 │  ├── Searchable policy database                       │
 │  ├── Sector filters (22 categories)                   │
 │  ├── Source attribution for every entry               │
