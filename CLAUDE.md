@@ -1,5 +1,7 @@
 # PolicyDhara
 
+Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
+
 Indian government scheme tracker. Astro, static output, 2,424 pages, with a
 Pagefind search index built after the pages.
 
@@ -40,7 +42,7 @@ critical**, and none of them was fixable below 7.2.7:
 Verified before and after on the same machine: 2,424 pages both times, the
 Pagefind index built both times, and `npm audit` from 5 vulnerabilities to 0.
 
-`sharp` is at 0.35.4, `svgo` at 4.1.0, `js-yaml` at 4.3.2.
+`sharp` is at 0.35.5 (from 0.35.4 on 2026-10-19, for the librsvg advisory), `svgo` at 4.1.0, `js-yaml` at 4.3.2.
 
 ## Watch out for
 
