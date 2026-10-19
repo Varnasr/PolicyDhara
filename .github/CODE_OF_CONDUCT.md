@@ -25,7 +25,7 @@ This Code of Conduct applies within all community spaces, including GitHub, Disc
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to **hello@impactmojo.in**. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to **care@pinpointventures.in**. All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution
 
