@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in PolicyDhara, please report it responsibly.
 
-**Email:** hello@impactmojo.in
+**Email:** care@pinpointventures.in
 
 **Please do NOT open a public issue for security vulnerabilities.**
 
