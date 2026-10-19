@@ -106,7 +106,7 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
   </div>
 
   <div class="feed-toolbar">
-    <div id="feed-status" aria-live="polite" style="font-size:0.75rem; color:var(--color-text-muted);"></div>
+    <div id="feed-status" aria-live="polite" data-total={all.length} style="font-size:0.75rem; color:var(--color-text-muted);"></div>
     <div class="feed-toolbar-actions">
       <button class="btn btn-secondary btn-sm" id="export-csv" title="Export the filtered items as CSV">CSV</button>
       <button class="btn btn-secondary btn-sm" id="export-json" title="Export the filtered items as JSON">JSON</button>
@@ -344,9 +344,14 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
 
       if (noResults) noResults.style.display = totalMatching === 0 ? '' : 'none';
       if (feedStatus) {
+        // The counts beside each filter cover the full archive, but this page
+        // holds only the newest documents of each kind. Say so, so a filter
+        // labelled with a bigger number than the list shows is not a mystery.
+        const archive = Number(feedStatus.dataset.total) || cards.length;
+        const capped = archive > cards.length;
         feedStatus.textContent = filtering
-          ? `${totalMatching} matching documents`
-          : `${cards.length} documents`;
+          ? `${totalMatching} matching documents${capped ? ` among the newest ${cards.length} held on this page (the full archive holds ${archive.toLocaleString()}; counts beside each filter are for the archive)` : ''}`
+          : `${cards.length} documents${capped ? ` shown of ${archive.toLocaleString()} in the archive` : ''}`;
       }
       if (showMoreWrap) {
         const remaining = totalMatching - showCount;
