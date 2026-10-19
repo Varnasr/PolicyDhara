@@ -1,5 +1,7 @@
 # PolicyDhara
 
+Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
+
 Indian government scheme tracker. Astro, static output, 2,424 pages, with a
 Pagefind search index built after the pages.
 
