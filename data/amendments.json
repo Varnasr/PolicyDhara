@@ -3151,13 +3151,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Government of India press release: DFS Organises Workshop on Reservation Policy for Public Sector Banks, Public Sector Insurance Companies and Public Financial Institutions",
-      "source_id": "pib_statistics_programme_implementation"
-    },
-    {
-      "date": "2026-10-16",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Government of India press release: DFS Organises Workshop on Reservation Policy for Public Sector Banks, Public Sector Insurance Companies and Public Financial Institutions",
       "source_id": "pib_tourism"
     },
     {
@@ -3281,6 +3274,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Delhi High Court stays SFIO investigation into Sahara companies over prima facie issues under Sections 212 and 219 of Companies Act.",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "Delhi High Court stays SFIO investigation into Sahara companies over prima facie issues under Sections 212 and 219 of Companies Act.",
@@ -3810,13 +3810,6 @@
       "source_id": "takshashila"
     },
     {
-      "date": "2026-10-14",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-10-15",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -3930,6 +3923,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
+      "source_id": "takshashila"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
@@ -5048,13 +5048,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-10-11",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-10-12",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5175,6 +5168,13 @@
     },
     {
       "date": "2026-10-17",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -5562,78 +5562,6 @@
       "source_id": "trai"
     }
   ],
-  "26691ebefb25": [
-    {
-      "date": "2026-09-07",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI/2026-27/253 DOR.AML.REC.219/14.06.001/2026-27 September 07, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI/2026-27/253 DOR.AML.REC.219/14.06.001/2026-27 September 07, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI directs regulated entities to implement updates to the UNSC 1267/1989 ISIL (Da’esh) and Al-Qaida Sanctions List under Section 51A of UAPA, 1967, following amendments to two individual entries.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI/2026-27/253 DOR.AML.REC.219/14.06.001/2026-27 September 07, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI/2026-27/253 DOR.AML.REC.219/14.06.001/2026-27 September 07, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI directs regulated entities to implement updates to the UNSC 1267/1989 ISIL (Da’esh) and Al-Qaida Sanctions List under Section 51A of UAPA, 1967, following amendments to two individual entries.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI/2026-27/253 DOR.AML.REC.219/14.06.001/2026-27 September 07, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI directs regulated entities to implement updates to the UNSC 1267/1989 ISIL (Da’esh) and Al-Qaida Sanctions List under Section 51A of UAPA, 1967, following amendments to two individual entries.",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-09",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI/2026-27/253 DOR.AML.REC.219/14.06.001/2026-27 September 07, 2026 The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-09-29",
-      "field": "description",
-      "old_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
-      "new_value": "RBI notification: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 1 Entry",
-      "source_id": "rbi_notifications"
-    }
-  ],
   "3deb65881974": [
     {
       "date": "2026-09-07",
@@ -5677,15 +5605,6 @@
       "field": "description",
       "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 5,00,000 Total amount of offers received (in ₹ crore) 4,17,609 Amount accepted (in ₹ crore) 4,17,609 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1064",
       "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 5,00,000 Total amount of offers received (in ₹ crore) 4,61,586 Amount accepted (in ₹ crore) 4,61,586 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1074",
-      "source_id": "rbi"
-    }
-  ],
-  "253ae38197b5": [
-    {
-      "date": "2026-09-08",
-      "field": "description",
-      "old_value": "In terms of GoI notification F.No. 4(4)-B(W&M)/2020 dated April 13, 2020 (SGB 2020-21 Series VI - Issue date September 08, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on September 08, 2026. 2. Further, the redemption price of SGB shall be based on simple average of c",
-      "new_value": "In terms of GoI notification F.No. 4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series XII - Issue date March 09, 2021) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on September 09, 2026. 2. Further, the redemption price of SGB shall be based on simple average of cl",
       "source_id": "rbi"
     }
   ],
@@ -6279,27 +6198,6 @@
   ],
   "8c899acd431d": [
     {
-      "date": "2026-10-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-10-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
-      "date": "2026-10-17",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
-      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
-      "source_id": "sidbi_new"
-    },
-    {
       "date": "2026-10-18",
       "field": "description",
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
@@ -6417,15 +6315,27 @@
       "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
       "new_value": "Become a Scroll member to get Rush Hour – a wrap of the day’s important stories delivered straight to your inbox every evening.",
       "source_id": "scroll"
-    }
-  ],
-  "98da9e9ea30a": [
+    },
     {
-      "date": "2026-09-09",
+      "date": "2026-10-19",
       "field": "description",
-      "old_value": "Release Order dated September 07, 2026, issued under RC No. 9713 of 2026 drawn against Padmavathi Darak (PAN: AFMPD1863K) in the matter of trading in illiquid stock options at BSE under RC No. 9173 of 2026",
-      "new_value": "Remittance Order dated September 09, 2026 issued under RC No. 8960 of 2025 drawn against Rajvardhan Foundation in the matter of Dealings in illiquid Stock Options at BSE",
-      "source_id": "sebi"
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Flight tracking website Flightradar 24 showed that the Airbus A330 aircraft turned back to base after flying all the way up to Turkiye. The aircraft took off from Copenhagen in Denmark at 4.25 pm local time and returned six hours later",
+      "source_id": "business_line"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "02/04/2026 The SIDBI family came together in Mumbai for a memorable Annual Staff Welfare Gathering, thoughtfully organised by the Local Welfare Committee. The evening brought colleagues and their families under one roof, creating a warm and vibrant atmosphere that celebrated the spirit of unity, togetherness, and camaraderie. A special highlight of the evening was the captivating monologue “Kuch Bhi Ho Sakta Hai” by Anupam Kher. His powerful and thought-provoking performance resonated deeply wit",
+      "source_id": "sidbi_new"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Wed, 09/09/2026 - 14:55 File Download (5.88 MB) QoS Quarter June Qos Report Type IDT Report Date of Release Mon, 07/20/2026 - 12:00 Service area Mumbai Months June Year 2026",
+      "new_value": "Why Mumbai cops may need Centre's nod to question jailed Lawrence Bishnoi",
+      "source_id": "indiatoday_rss"
     }
   ],
   "031add90544e": [
@@ -9130,13 +9040,6 @@
       "field": "description",
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "Government of India press release: Close defence-academia-industry collaboration key to accelerating development & adoption of indigenous tech amid evolving nature of warfare: Raksha Mantri",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-10-14",
-      "field": "description",
-      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
-      "new_value": "Government of India press release: Close defence-academia-industry collaboration key to accelerating development & adoption of indigenous tech amid evolving nature of warfare: Raksha Mantri",
       "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
@@ -9264,6 +9167,13 @@
       "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
       "new_value": "ORF Expert Speak: Governing the AI–Bio Convergence: India’s Evolving Biosecurity Challenge",
       "source_id": "orf"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "The SCO aims to be more than a security dialogue, because churn in the global order means not only military power but includes new instruments like infrastructure, energy and technology. The SCO has potential here. China’s factories, Russia’s energy and resources, India’s technology and services, and Central Asia’s location and minerals, connected to Iran and Pakistan’s location on the Arabian Sea, could become a formidable economic geography. The post The SCO at 25 is evolving appeared first on",
+      "new_value": "ORF Expert Speak: Governing the AI–Bio Convergence: India’s Evolving Biosecurity Challenge",
+      "source_id": "orf"
     }
   ],
   "30c58ec1f674": [
@@ -9299,20 +9209,6 @@
     }
   ],
   "490198e96377": [
-    {
-      "date": "2026-10-15",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
-      "source_id": "state_pib_punjab"
-    },
-    {
-      "date": "2026-10-16",
-      "field": "description",
-      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
-      "new_value": "Government of India press release: Chennai Port Authority Celebrates 145th Port Day",
-      "source_id": "state_pib_punjab"
-    },
     {
       "date": "2026-10-16",
       "field": "description",
@@ -9431,6 +9327,20 @@
       "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
       "new_value": "During the rains, water indentation takes place at several places in Chennai and the government has taken precautionary measures.",
       "source_id": "deccan_chronicle"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: Chennai Port Authority observes the Swachhata Pakhwada campaign",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Chennai nitinkumar Thu, 09/17/2026 - 13:02 File Download (10.66 MB) QoS Quarter July Qos Report Type IDT Report Date of Release Thu, 09/17/2026 - 12:00 Service area Tamil Nadu Months July Year 2026",
+      "new_value": "Government of India press release: DGFT Chennai Flags Off First Gem and Jewellery Consignment to New Zealand Under New F...",
+      "source_id": "state_pib_punjab"
     },
     {
       "date": "2026-10-19",
@@ -10378,28 +10288,28 @@
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "When summer temperatures soared in Jatni, youth volunteers from the Jatni Yuva Shakti Club did not wait, they acted. Mobilized under the Young Gamechangers Initiative and supported by WHO India, they distributed over 200 oral rehydration salts (ORS) packets to daily wage workers, street vendors, traffic police and older adults at risk of heat stroke and dehydration. They demonstrated correct ORS preparation, shared practical heat-safety tips, and set up ORS corners at anganwadi centres, while en",
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "Road safety concerns in Jatni sparked young volunteers from Jatni Yuva Shakti Club to turn awareness into action. Trained and empowered under the Young Gamechangers Initiative, supported by WHO India, they used street plays to promote helmet and seatbelt use, responsible driving and injury prevention. Their advocacy helped secure local approval for traffic signals, speed breakers and other road safety measures. (© WHO India/ Manoj Parida)",
@@ -12316,6 +12226,13 @@
       "old_value": "A. Source Security 8.26% GS 2027 7.06% GS 2028 8.60% GS 2028 7.26% GS 2029 B. Notified Amount (in ₹ crore) 2,000 4,000 4,000 4,000 Destination Security 7.19% GS 2060 6.79% GS 2034 7.50% GS 2034 7.50% GS 2034 C. i. No. of offers received 4 17 8 22 ii. Total amount of Source Security offered (Face value, in ₹ crore) 2,107.859 4,245.357 3,970.832 4,614.777 iii. No. of offers accepted 3 13 3 3 iv. Total amount of source security accepted (Face value, in ₹ crore) 2,000.000 3,945.357",
       "new_value": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of ₹33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated September 28, 2026 October 01, 2026 (Thursday) October 05, 2026 (Monday) 2 6.57% GS 2033 Aug 17, 2033 12,000 3 7.63% GS 2056 Sep 15, 2056 9,000 4 7.50% G",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "A. Source Security 8.26% GS 2027 7.06% GS 2028 8.60% GS 2028 7.26% GS 2029 B. Notified Amount (in ₹ crore) 2,000 4,000 4,000 4,000 Destination Security 7.19% GS 2060 6.79% GS 2034 7.50% GS 2034 7.50% GS 2034 C. i. No. of offers received 4 17 8 22 ii. Total amount of Source Security offered (Face value, in ₹ crore) 2,107.859 4,245.357 3,970.832 4,614.777 iii. No. of offers accepted 3 13 3 3 iv. Total amount of source security accepted (Face value, in ₹ crore) 2,000.000 3,945.357",
+      "new_value": "A. Source Security 8.26% GS 2027 7.17% GS 2028 7.06% GS 2028 7.26% GS 2029 6.03% GS 2029 6.79% GS 2029 B. Notified Amount (in ₹ crore) 2,000 3,000 3,000 4,000 4,000 4,000 Destination Security 7.19% GS 2060 7.41% GS 2036 7.23% GS 2039 6.64% GS 2035 7.50% GS 2034 7.57% GS 2033 C. i. No. of offers received 2 34 12 18 0 14 ii. Total amount of Source Security offered (Face value, in ₹ crore) 2,003.098 4,058.000 3,425.000 2,378.180 0.000 2,185.000 iii. No. of offers accepted 1 18 11 17 0 7",
+      "source_id": "rbi"
     }
   ],
   "0af16127154e": [
@@ -13219,13 +13136,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-10-14",
-      "field": "description",
-      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-10-15",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
@@ -13332,6 +13242,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "The post Tryst with the Constitution: The many constitutional questions in the CJP protest order appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The post Tryst with the Constitution: The many constitutional questions arising from the Samay Raina case appeared first on Vidhi Centre for Legal Policy.",
@@ -14872,6 +14789,13 @@
       "old_value": "The result of the auction of State Government Securities held on October 06, 2026 is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2035 ANDHRA PRADESH SGS 2042 DELHI SGS 2033* DELHI SGS 2041* Notified Amount 1000 1000 500 500 Tenor Re-issue of 7.46% ANDHRA SGS 2035 issued on 12-AUG-2026 Re-issue of 7.79% ANDHRA SGS 2042 issued on 22-APR-2026 Re-issue of 7.31% DELHI SGS 2033 issued on 22-JUL-2026 Re-issue of 7.75% DELHI SGS 2041 issued on 24-JUN-2026 Competitive Bids Received &nbs",
       "new_value": "The result of the auction of State Government Securities held on October 13, 2026 is as under: (Amount in ₹ Crore)   ASSAM SGS 2037* BIHAR SGS 2044 BIHAR SGS 2051 CHHATTISGARH SGS 2035 Notified Amount 1000 1000 2000 600 Tenor 11 -Years Re-issue of 7.71% BIHAR SGS 2044 issued on 22-JUL-2026 Re-issue of 7.76% BIHAR SGS 2051 issued on 02-SEP-2026 Re-issue of 7.40% CHHATTISGARH SGS 2035 issued on 08-JUL-2026 Competitive Bids Received         (i) No. 96 102 44 60 (ii) A",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "The result of the auction of State Government Securities held on October 13, 2026 is as under: (Amount in ₹ Crore)   ASSAM SGS 2037* BIHAR SGS 2044 BIHAR SGS 2051 CHHATTISGARH SGS 2035 Notified Amount 1000 1000 2000 600 Tenor 11 -Years Re-issue of 7.71% BIHAR SGS 2044 issued on 22-JUL-2026 Re-issue of 7.76% BIHAR SGS 2051 issued on 02-SEP-2026 Re-issue of 7.40% CHHATTISGARH SGS 2035 issued on 08-JUL-2026 Competitive Bids Received         (i) No. 96 102 44 60 (ii) A",
+      "new_value": "The result of the auction of State Government Securities held on October 19, 2026 is as under: (Amount in ₹ Crore)   ANDHRA PRADESH SGS 2051* GOA SGS 2037 GUJARAT SGS 2035 GUJARAT SGS 2038 Notified Amount 1000 200 1000 1000 Tenor Re-issue of 7.68% ANDHRA SGS 2051 issued on 29-JUL-2026 Re-issue of 7.8% GOA SGS 2037 issued on 16-SEP-2026 Re-issue of 7.96% GUJARAT SGS 2035 issued on 14-OCT-2026 12 -Years Competitive Bids Received         (i) No. 47 37 95 134 (ii) Amou",
+      "source_id": "rbi"
     }
   ],
   "cfefb7994873": [
@@ -14887,6 +14811,13 @@
       "field": "description",
       "old_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/Yield(%) Tenor(Year) 1. Andhra Pradesh 1000 1000 97.10/7.9197 Re-issue of 7.46% Andhra Pradesh SGS 2035, issued on August 12, 2026 1000 1000 98.17/7.9971 Re-issue of 7.79% Andhra Pradesh SGS 2042, issued on April 22, 2026 2. Delhi* 500 - - Re-issue of 7.31% Delhi SGS 2033, issued on July 22, 2026 500 - - Re-issue of 7.75% Delhi SGS 2041, issued on June 24, 2026 3. Goa 200 200 7.85 08 4. Hi",
       "new_value": "Sr. No State Amount to be raised(₹ Crore) Amount Accepted(₹ Crore) Cut off Price (₹)/Yield (%) Tenor (Year) 1. Assam* 1000 805 8.10 11 2. Bihar 1000 1000 95.91/8.1475 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 2000 2000 95.77/8.1585 Re-issue of 7.76% Bihar SGS 2051, issued on September 02, 2026 3. Chhattisgarh 600 600 96.09/8.0285 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 600 600 95.51/8.1493 Re-issue of 7.64% Chhattisgarh SGS 2042, issued",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Sr. No State Amount to be raised(₹ Crore) Amount Accepted(₹ Crore) Cut off Price (₹)/Yield (%) Tenor (Year) 1. Assam* 1000 805 8.10 11 2. Bihar 1000 1000 95.91/8.1475 Re-issue of 7.71% Bihar SGS 2044, issued on July 22, 2026 2000 2000 95.77/8.1585 Re-issue of 7.76% Bihar SGS 2051, issued on September 02, 2026 3. Chhattisgarh 600 600 96.09/8.0285 Re-issue of 7.40% Chhattisgarh SGS 2035, issued on July 08, 2026 600 600 95.51/8.1493 Re-issue of 7.64% Chhattisgarh SGS 2042, issued",
+      "new_value": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Andhra Pradesh* 1000 - - Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 2. Goa 200 200 97.84/8.1004 Re-issue of 7.80% Goa SGS 2037, issued on September 16, 2026 3. Gujarat 1000 1000 99.98/7.9627 Re-issue of 7.96% Gujarat SGS 2035, issued on October 14, 2026 1000 1000 8.06 12 4. Jammu and Kashmir 800 800 95.82/8.1980 Re-issue of 7.75% Jammu and",
       "source_id": "rbi"
     }
   ],
@@ -16680,6 +16611,13 @@
       "old_value": "RBI notification: Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Twelfth Amendment Directions, 2026",
       "new_value": "RBI/2026-27/284 DOR.MRG.REC.240/00-00-001/2026-27 October 7, 2026 Reserve Bank of India (Commercial Banks   Forthcoming Instructions) Amendment Directions...",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Twelfth Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
     }
   ],
   "ac8df8a64526": [
@@ -16688,13 +16626,6 @@
       "field": "description",
       "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
       "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
-      "source_id": "pib"
-    },
-    {
-      "date": "2026-10-15",
-      "field": "description",
-      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
-      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
       "source_id": "state_pib_punjab"
     },
     {
@@ -16811,6 +16742,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
+      "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
+      "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Pralhad Joshi inaugurates Windergy India 2026 in Chennai and outlines India’s roadmap to achieve 100 GW of wind power capacity by 2030.",
       "new_value": "Government of India press release: Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...",
@@ -17097,13 +17035,6 @@
       "date": "2026-10-15",
       "field": "description",
       "old_value": "RfS for Assured Peak Supply of 4800 MWh (1200 MW x 4 Hrs.) from ISTS-Connected RE Projects in India (SECI-FDRE-X)",
-      "new_value": "Selection of Solar Project Developer (SPD) for setting up of 3680 kW Grid-Connected Rooftop Solar PV (RTSPV) Projects on NDMC buildings under RESCO mode through Tariff based competitive bidding",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-10-15",
-      "field": "description",
-      "old_value": "RfS for Assured Peak Supply of 4800 MWh (1200 MW x 4 Hrs.) from ISTS-Connected RE Projects in India (SECI-FDRE-X)",
       "new_value": "RfS for 1200 MW ISTS-Connected Wind Power Projects in India (SECI-Tranche-XXI)",
       "source_id": "seci"
     },
@@ -17214,9 +17145,9 @@
     },
     {
       "date": "2026-10-18",
-      "field": "sectors",
-      "old_value": "Energy",
-      "new_value": "Climate & Environment, Energy",
+      "field": "description",
+      "old_value": "RfS for 1200 MW ISTS-Connected Wind Power Projects in India (SECI-Tranche-XXI)",
+      "new_value": "Selection of Solar Project Developer (SPD) for setting up of 3680 kW Grid-Connected Rooftop Solar PV (RTSPV) Projects on NDMC buildings under RESCO mode through Tariff based competitive bidding",
       "source_id": "seci"
     },
     {
@@ -17234,73 +17165,80 @@
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "RfS for 1200 MW ISTS-Connected Wind Power Projects in India (SECI-Tranche-XXI)",
       "new_value": "Selection of Solar Project Developer (SPD) for setting up of 3680 kW Grid-Connected Rooftop Solar PV (RTSPV) Projects on NDMC buildings under RESCO mode through Tariff based competitive bidding",
       "source_id": "seci"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "sectors",
       "old_value": "Energy",
       "new_value": "Energy, Trade & Commerce",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "sectors",
+      "old_value": "Energy",
+      "new_value": "Climate & Environment, Energy",
       "source_id": "seci"
     },
     {
@@ -18134,130 +18072,130 @@
   ],
   "1c296db7ba77": [
     {
-      "date": "2026-10-17",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Power Secretary Pankaj Agarwal added that a data governance committee would also be set up at the national level which would be headed by Chairperson of the Central Electricity Authority.",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_women_and_child_development"
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Foreign Minister of Canada calls on Prime Minister (October 14, 2026)    Ministry of External Affairs , Government of India",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "The decision to hold the hunger strike was announced following a march to the Secretariat, organised here on Wednesday, raising various demands",
-      "source_id": "the_hindu_policy"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_niti_aayog"
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Power Secretary Pankaj Agarwal added that a data governance committee would also be set up at the national level which would be headed by Chairperson of the Central Electricity Authority.",
-      "source_id": "the_hindu_business"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_youth_affairs_and_sports"
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Power Secretary Pankaj Agarwal added that a data governance committee would also be set up at the national level which would be headed by Chairperson of the Central Electricity Authority.",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_pm_speech"
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Foreign Minister of Canada calls on Prime Minister (October 14, 2026)    Ministry of External Affairs , Government of India",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_upsc"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Direct tax collection up 13.21% to ₹13.38 lakh crore till Oct 14, driven by strong corporate tax growth and higher STT refunds",
-      "source_id": "the_hindu_business"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_eac_pm"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Foreign Minister of Canada calls on Prime Minister (October 14, 2026)    Ministry of External Affairs , Government of India",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_special_service_and_features"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "NCERT is organizing a series of live interactive sessions on \"Language and Numeracy-Friendly Classrooms for Learners with SLD\". The session will be conducted from October 19 to 23, 2026.",
-      "source_id": "ndtv_india"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "TIAL said the flight services would be suspended from 4 pm to 9 pm on October 20.",
-      "source_id": "hindustan_times"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_national_financial_reporting_authority"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Foreign Minister of Canada calls on Prime Minister (October 14, 2026)    Ministry of External Affairs , Government of India",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_competition_commission_of_india"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "According to sources in the Finance Ministry, the proposal covers process reforms, structural reforms, ease of living and doing business, exports of services, and e-commerce",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_national_security_council_secretariat"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Stay updated and be ready to share your thoughts in the morning with these News Headlines.",
-      "source_id": "ndtv_india"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_ifsc_authority"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Foreign Minister of Canada calls on Prime Minister (October 14, 2026)    Ministry of External Affairs , Government of India",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_national_human_rights_commission"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "According to sources in the Finance Ministry, the proposal covers process reforms, structural reforms, ease of living and doing business, exports of services, and e-commerce",
-      "source_id": "policyradar"
+      "new_value": "Government of India press release: India to Host 61st Meeting of International Committee of Legal Metrology for the First Time in New Delhi from 26–28 October 2026",
+      "source_id": "pib_lokpal_of_india"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Government of India press release: On October 20, 2026, Union Home Minister Shri Amit Shah will meet families of those w...",
-      "source_id": "pib"
+      "new_value": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Monday, October 19, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 1,00,000 7 09:30 AM to 10:00 AM October 26, 2026 (Monday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad   &nbs",
+      "source_id": "rbi"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "Foreign Minister of Canada calls on Prime Minister (October 14, 2026)    Ministry of External Affairs , Government of India",
-      "source_id": "policyradar"
+      "new_value": "The London Court of International Arbitration, Arbitral Women and Arbitration and Conciliation Centre, Bengaluru are hosting an event on 'Ethics & Evidence in Arbitration' at the Karnataka Judicial Academy on 31st October 2026, 9:00 A.M. – 12:50 P.M.The event will begin with opening remarks from Justice D. K. Singh, Judge, High Court of Karnataka and President, Arbitration & Conciliation Centre, Bengaluru.This will be followed by a Fireside chat on Hits and Misses of Indian Arbitration L",
+      "source_id": "barandbench"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "रेलवे कर्मचारियों को दीपावली का उपहार! 🚆🪔 माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की अध्यक्षता में आयोजित केंद्रीय मंत्रिमंडल की बैठक में रेलवे कर्मचारियों के लिए ₹2,009.61 करोड़ के उत्पादकता आधारित बोनस (PLB) को मंजूरी दी गई है। इस निर्णय के अंतर्गत देशभर के 11.40 लाख से अधिक रेलवे कर्मचारियों को 78 दिनों के वेतन के बराबर बोनस का लाभ मिलेगा। भारतीय रेलवे के सुचारू संचालन और देश की परिवहन व्यवस्था को सशक्त बनाने में महत्वपूर्ण योगदान देने वाले रेल कर्मचारियों के परिश्रम को सम्मानित करने वाला यह",
-      "new_value": "According to sources in the Finance Ministry, the proposal covers process reforms, structural reforms, ease of living and doing business, exports of services, and e-commerce",
-      "source_id": "policyradar"
+      "new_value": "The Insights IAS Secure Initiative for UPSC Mains Answer Writing practice enables you to practice daily answer writing, enhancing your skills and boosting your scores with regular feedback, expert tips, and strategies. Let consistency be the hallmark of your preparation and utilize UPSC Mains Answer Writing practice initiative wisely   Click on EACH question to … Continue reading \"UPSC Mains Answer Writing Practice – Insights SECURE: 19 October 2026\" The post UPSC Mains Answer Writing",
+      "source_id": "insights_ias"
     },
     {
       "date": "2026-10-19",
@@ -18414,13 +18352,6 @@
       "field": "description",
       "old_value": "Data Centre Evaluation Framework to Help States Plan for Sustainable Growth niti_admin Wed, 10/14/2026 - 11:24 Choose Report Type Publications Publication Date Wed, 10/14/2026 - 11:24 Report Upload Download (7.52 MB) vertical Frontier Tech Hub PDF Text Data Centre Evaluation Framework to Help States Plan for Sustainable Growth NITI Frontier Tech Hub Disclaimer This framework has been prepared by NITI Frontier Tech Hub (FTH) in consultation with experts and stakeholders. The data used is fro",
       "new_value": "Government of India press release: NITI Aayog’s Frontier Tech Hub Unveils Data Centre Evaluation Framework to Help States Plan for Sustainable Growth",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-10-15",
-      "field": "description",
-      "old_value": "Data Centre Evaluation Framework to Help States Plan for Sustainable Growth niti_admin Wed, 10/14/2026 - 11:24 Choose Report Type Publications Publication Date Wed, 10/14/2026 - 11:24 Report Upload Download (7.52 MB) vertical Frontier Tech Hub PDF Text Data Centre Evaluation Framework to Help States Plan for Sustainable Growth NITI Frontier Tech Hub Disclaimer This framework has been prepared by NITI Frontier Tech Hub (FTH) in consultation with experts and stakeholders. The data used is fro",
-      "new_value": "Government of India press release: NITI Aayog’s Frontier Tech Hub Unveils Data Centre Evaluation Framework to Help States Plan for Sustainable Growth",
       "source_id": "pib_competition_commission_of_india"
     },
     {
@@ -18537,6 +18468,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "Data Centre Evaluation Framework to Help States Plan for Sustainable Growth niti_admin Wed, 10/14/2026 - 11:24 Choose Report Type Publications Publication Date Wed, 10/14/2026 - 11:24 Report Upload Download (7.52 MB) vertical Frontier Tech Hub PDF Text Data Centre Evaluation Framework to Help States Plan for Sustainable Growth NITI Frontier Tech Hub Disclaimer This framework has been prepared by NITI Frontier Tech Hub (FTH) in consultation with experts and stakeholders. The data used is fro",
+      "new_value": "Data Centre Evaluation Framework to Help States Plan for Sustainable Growth niti_admin Wed, 10/14/2026 - 15:11 Weight 0 Links /sites/default/files/2026-10/Data-Centre-Evaluation-Framework-to-Help-States-Pl…",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Data Centre Evaluation Framework to Help States Plan for Sustainable Growth niti_admin Wed, 10/14/2026 - 11:24 Choose Report Type Publications Publication Date Wed, 10/14/2026 - 11:24 Report Upload Download (7.52 MB) vertical Frontier Tech Hub PDF Text Data Centre Evaluation Framework to Help States Plan for Sustainable Growth NITI Frontier Tech Hub Disclaimer This framework has been prepared by NITI Frontier Tech Hub (FTH) in consultation with experts and stakeholders. The data used is fro",
       "new_value": "Data Centre Evaluation Framework to Help States Plan for Sustainable Growth niti_admin Wed, 10/14/2026 - 15:11 Weight 0 Links /sites/default/files/2026-10/Data-Centre-Evaluation-Framework-to-Help-States-Pl…",
@@ -18830,6 +18768,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "Finance Minister Nirmala Sitharaman will attend IMF-World Bank Annual Meetings in Bangkok, discussing global economic growth, financial cooperation and investment.",
+      "new_value": "Union Finance Minister and…",
+      "source_id": "gst_council"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Finance Minister Nirmala Sitharaman will attend IMF-World Bank Annual Meetings in Bangkok, discussing global economic growth, financial cooperation and investment.",
       "new_value": "Union Finance Minister and…",
@@ -19342,6 +19287,13 @@
       "old_value": "India has ranked first in business climate among 41 global markets in the Swedish Chamber of Commerce in India’s Business Climate Survey 2026, reflecting positive business sentiment among Swedish companies.",
       "new_value": "The Annual Assessment of Extreme Weather Events",
       "source_id": "centre_science_env"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "India has ranked first in business climate among 41 global markets in the Swedish Chamber of Commerce in India’s Business Climate Survey 2026, reflecting positive business sentiment among Swedish companies.",
+      "new_value": "The Annual Assessment of Extreme Weather Events",
+      "source_id": "centre_science_env"
     }
   ],
   "0ba1db3a7cba": [
@@ -19361,6 +19313,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "The Reserve Bank of India today released on its website the results of the following Surveys: Urban Consumer Confidence Survey (UCCS) – September 2026 Inflation Expectations Survey of Households (IESH) – September 2026 Rural Consumer Confidence Survey (RCCS) – September 2026 Survey of Professional Forecasters on Macroeconomic Indicators–Results of the 102nd Round1 Order Books, Inventories and Capacity Utilisation Survey on the Manufacturing sector for Q1:2026-27 Industria",
+      "new_value": "With BJP-ruled States enacting uniform civil codes, it is time to assess them as laboratories of legislative experimentation and ask whether they advance gender equality and protect individual autonomy in marriage and property rights.",
+      "source_id": "frontline_mag"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "The Reserve Bank of India today released on its website the results of the following Surveys: Urban Consumer Confidence Survey (UCCS) – September 2026 Inflation Expectations Survey of Households (IESH) – September 2026 Rural Consumer Confidence Survey (RCCS) – September 2026 Survey of Professional Forecasters on Macroeconomic Indicators–Results of the 102nd Round1 Order Books, Inventories and Capacity Utilisation Survey on the Manufacturing sector for Q1:2026-27 Industria",
       "new_value": "With BJP-ruled States enacting uniform civil codes, it is time to assess them as laboratories of legislative experimentation and ask whether they advance gender equality and protect individual autonomy in marriage and property rights.",
@@ -19653,88 +19612,81 @@
       "source_id": "policyradar"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "The Congress-led Opposition's protests are against the SIR exercise and demand for the resignation of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in the voters' roll revision.",
       "source_id": "livemint_policy"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "Asking the government for permission to criticise the government turns a fundamental right into a favour. The Constitution sets no such condition.",
       "source_id": "frontline_mag"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "The developments came after the student protest in Ranchi over alleged irregularities in examinations conducted by the Jharkhand Public Service Commission (JPSC) and Jharkhand Staff Selection Commission (JSSC).",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
       "source_id": "republic_world"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "India jails ‘cockroach’ leaders following election commission protest    South China Morning Post",
       "source_id": "policyradar"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "The Congress-led Opposition's protests are against the SIR exercise and demand for the resignation of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in the voters' roll revision.",
       "source_id": "livemint_policy"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "The Delhi Police have filed an FIR against an unidentified protester for ‘slapping’ the official near Connaught Place on Friday during CJP's Tiranga march.",
+      "new_value": "The Bombay High Court directed the Maharashtra government to respond to petitions alleging illegal detention of protesters during the anti-CEC demonstrations, while cautioning that “criminals should not participate” under the guise of civilians",
+      "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
+      "new_value": "The Samyukt Kisan Morcha (SKM) has called for an action on October 23, followed by a mobilisation in Delhi and state capitals on November 26",
       "source_id": "hindustan_times"
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "Asking the government for permission to criticise the government turns a fundamental right into a favour. The Constitution sets no such condition.",
-      "source_id": "frontline_mag"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "The developments came after the student protest in Ranchi over alleged irregularities in examinations conducted by the Jharkhand Public Service Commission (JPSC) and Jharkhand Staff Selection Commission (JSSC).",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "India jails ‘cockroach’ leaders following election commission protest    South China Morning Post",
-      "source_id": "policyradar"
+      "new_value": "The Ramlila Maidan event will demand the removal of CEC Gyanesh Kumar, with a 10-15-member coordination committee expected to oversee the protest plans.",
+      "source_id": "hindustan_times"
     },
     {
       "date": "2026-10-19",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "The Congress-led Opposition's protests are against the SIR exercise and demand for the resignation of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in the voters' roll revision.",
-      "source_id": "livemint_policy"
+      "new_value": "Delhi protest LIVE: CJP's Ashutosh Ranka and Saurav Das were to be produced before a new Special Executive Magistrate at 2 pm today but there has been no updated on the hearing as of now.",
+      "source_id": "hindustan_times"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
+      "new_value": "Das and Ranka were arrested by Delhi Police on October 13 following a flash protest organised by CJP against the exclusion of Jantar Mantar from the list of designated protest sites",
+      "source_id": "deccan_chronicle"
     },
     {
       "date": "2026-10-19",
@@ -19756,6 +19708,13 @@
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
       "source_id": "republic_world"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
+      "new_value": "CJP protest effect Govt issues warning to Meta fix your algorithm",
+      "source_id": "india_today"
     },
     {
       "date": "2026-10-19",
@@ -19838,6 +19797,13 @@
     },
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "ITU Workshop on Performance, Quality of Service and Quality of Experience nitinkumar Fri, 10/16/2026 - 16:01 The Telecom Regulatory Authority of India (TRAI) in coordination with International Telecommunication Union (ITU) is organizing a two-days ITU Workshop on \"Performance, Quality of Service (QoS), and Quality of Experience (QoE)\" from 4th - 5th December 2025 at Bhubaneswar (Odisha) - 751013, India.Facilitated by the Quality of Service Development Group (QSDG) operating under ITU-T Study Gro",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "ITU Workshop on Performance, Quality of Service and Quality of Experience nitinkumar Fri, 10/16/2026 - 16:01 The Telecom Regulatory Authority of India (TRAI) in coordination with International Telecommunication Union (ITU) is organizing a two-days ITU Workshop on \"Performance, Quality of Service (QoS), and Quality of Experience (QoE)\" from 4th - 5th December 2025 at Bhubaneswar (Odisha) - 751013, India.Facilitated by the Quality of Service Development Group (QSDG) operating under ITU-T Study Gro",
       "new_value": "The Telegraph, Guwahati, May 16, 2012",
@@ -20121,6 +20087,20 @@
       "old_value": "The Reserve Bank of India has sanctioned the Scheme of Amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. (Transferor Bank) with RBL Bank Limited (Transferee Bank). The Scheme has been sanctioned in exercise of the powers contained in sub-section (4) of Section 44A of the Banking Regulation Act, 1949. The effective date of the amalgamation shall be December 01, 2026. All the Indian branches of Emirates NBD Bank P.J.S.C. will function as branches of RBL Bank Limited with effect from De",
       "new_value": "RBI approves amalgamation of Emirates NBD's Indian branches with RBL Bank    Business Standard",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "The Reserve Bank of India has sanctioned the Scheme of Amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. (Transferor Bank) with RBL Bank Limited (Transferee Bank). The Scheme has been sanctioned in exercise of the powers contained in sub-section (4) of Section 44A of the Banking Regulation Act, 1949. The effective date of the amalgamation shall be December 01, 2026. All the Indian branches of Emirates NBD Bank P.J.S.C. will function as branches of RBL Bank Limited with effect from De",
+      "new_value": "The Reserve Bank of India has sanctioned the Scheme of Amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. (Transferor Bank) with RBL Bank Limited (Transferee Bank).",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "The Reserve Bank of India has sanctioned the Scheme of Amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. (Transferor Bank) with RBL Bank Limited (Transferee Bank). The Scheme has been sanctioned in exercise of the powers contained in sub-section (4) of Section 44A of the Banking Regulation Act, 1949. The effective date of the amalgamation shall be December 01, 2026. All the Indian branches of Emirates NBD Bank P.J.S.C. will function as branches of RBL Bank Limited with effect from De",
+      "new_value": "RBI approves amalgamation of Emirates NBD's Indian branches with RBL Bank    Business Standard",
+      "source_id": "policyradar"
     }
   ],
   "b19777cfc3f3": [
@@ -20172,6 +20152,13 @@
       "old_value": "Commerce and Industry Minister Piyush Goyal on Thursday said the first phase of the India-US trade pact has been finalised and is undergoing legal drafting.",
       "new_value": "India-US trade pact will be concluded at the earliest, in interest of global trade: Finance Minister Nirmala Sitharaman    Deccan Herald",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Commerce and Industry Minister Piyush Goyal on Thursday said the first phase of the India-US trade pact has been finalised and is undergoing legal drafting.",
+      "new_value": "India-US trade pact will be concluded at the earliest, in interest of global trade: Finance Minister Nirmala Sitharaman    Deccan Herald",
+      "source_id": "policyradar"
     }
   ],
   "1ce93677a9df": [
@@ -20188,6 +20175,13 @@
       "old_value": "The post INS Samarthak appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "new_value": "Government of India press release: INDIAN NAVY COMMISSIONS INS SAMARTHAK, THE FIRST INDIGENOUS MULTI-PURPOSE VESSEL",
       "source_id": "state_pib_punjab"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "The post INS Samarthak appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "new_value": "Mr. Radhakrishnan says the vessel, with more than 75% indigenous content, reflected the growing industrial, technological and shipbuilding capabilities of the country",
+      "source_id": "the_hindu_policy"
     }
   ],
   "c55b411fa5d6": [
@@ -20298,6 +20292,13 @@
       "old_value": "The United States president said that waiving the sanctions, which were to take effect on Sunday, was in the national interest of the US.",
       "new_value": "The United States president said that waiving the sanctions, which were to take effect on Sunday, was in the interest of the US.",
       "source_id": "scroll"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "The United States president said that waiving the sanctions, which were to take effect on Sunday, was in the national interest of the US.",
+      "new_value": "The United States president said that waiving the sanctions, which were to take effect on Sunday, was in the interest of the US.",
+      "source_id": "scroll"
     }
   ],
   "37d769fa9102": [
@@ -20371,112 +20372,6 @@
       "old_value": "He was detained on Friday and then formally arrested as he planned to head to Connaught Place for a 'Tiranga March' to gather and wave the national flag as part of ongoing protests against alleged electoral fraud.",
       "new_value": "The Delhi Police has granted permission to the Congress to hold a rally at Ramlila Maidan on November 1 and issued a no-objection certificate (NOC) for the event, a senior police officer said on October 17, 2026.",
       "source_id": "the_hindu_policy"
-    }
-  ],
-  "eadc718096de": [
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "The plea requested the High Court to quash the notice and stay its operation in an interim relief: Reports",
-      "new_value": "Notice followed politically motivated complaint, led to violation of Sections 14 and 21 of the Constitution, says the actor in his writ petition; fresh notice asks the U.S. citizen to explain why his OCI card should not be cancelled",
-      "source_id": "the_hindu_policy"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "The plea requested the High Court to quash the notice and stay its operation in an interim relief: Reports",
-      "new_value": "Actor Imran Khan is set to approach the Bombay High Court after receiving a notice asking him to leave the country following his participation in a protest. The actor is expected to challenge the legality of the notice and seek judicial relief.",
-      "source_id": "the_hindu_policy"
-    }
-  ],
-  "271385eb87ac": [
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "Kolkata stampede LIVE: A stampede took place at Chorbagan Sarbojanin Durgotsab Samity puja pandal in Kolkata.",
-      "new_value": "Kolkata stampede LIVE: At least 19 people died, and 25 others were injured in a stampede at the Chorebagan Durga Puja pandal in north Kolkata following a crowd surge amid rain on Saturday evening, the day of Maha Saptami.",
-      "source_id": "hindustan_times"
-    }
-  ],
-  "018be91956c8": [
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "\"Freight revenue during September 2026 increased by ₹1,266 crore over September 2025, registering a 9.3% growth,\" the Railway Board said",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "\"Freight revenue during September 2026 increased by ₹1,266 crore over September 2025, registering a 9.3% growth,\" the Railway Board said",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "\"Freight revenue during September 2026 increased by ₹1,266 crore over September 2025, registering a 9.3% growth,\" the Railway Board said",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "\"Freight revenue during September 2026 increased by ₹1,266 crore over September 2025, registering a 9.3% growth,\" the Railway Board said",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    },
-    {
-      "date": "2026-10-19",
-      "field": "description",
-      "old_value": "\"Freight revenue during September 2026 increased by ₹1,266 crore over September 2025, registering a 9.3% growth,\" the Railway Board said",
-      "new_value": "Get registered as a DigiLocker Issuer or Requester!",
-      "source_id": "digilocker"
-    }
-  ],
-  "5b6990024575": [
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "YSRC president Y.S. Jagan Mohan Reddy demanded President’s Rule in Andhra Pradesh, alleging violence, intimidation and police bias during the local body election nomination process.",
-      "new_value": "Jeevan Reddy Demands Suspension of Revanth Reddy, President’s Rule in Telangana    The Hans India",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "YSRC president Y.S. Jagan Mohan Reddy demanded President’s Rule in Andhra Pradesh, alleging violence, intimidation and police bias during the local body election nomination process.",
-      "new_value": "Jeevan Reddy Demands Suspension of Revanth Reddy, President’s Rule in Telangana    The Hans India",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "YSRC president Y.S. Jagan Mohan Reddy demanded President’s Rule in Andhra Pradesh, alleging violence, intimidation and police bias during the local body election nomination process.",
-      "new_value": "Jeevan Reddy Demands Suspension of Revanth Reddy, President’s Rule in Telangana    The Hans India",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "YSRC president Y.S. Jagan Mohan Reddy demanded President’s Rule in Andhra Pradesh, alleging violence, intimidation and police bias during the local body election nomination process.",
-      "new_value": "TD state president Palla Srinivasa Rao accused Y.S. Jagan Mohan Reddy of seeking President’s Rule to divert attention from allegations against the YSRC leadership.",
-      "source_id": "deccan_chronicle"
-    },
-    {
-      "date": "2026-10-18",
-      "field": "description",
-      "old_value": "YSRC president Y.S. Jagan Mohan Reddy demanded President’s Rule in Andhra Pradesh, alleging violence, intimidation and police bias during the local body election nomination process.",
-      "new_value": "Jeevan Reddy Demands Suspension of Revanth Reddy, President’s Rule in Telangana    The Hans India",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-10-19",
-      "field": "description",
-      "old_value": "YSRC president Y.S. Jagan Mohan Reddy demanded President’s Rule in Andhra Pradesh, alleging violence, intimidation and police bias during the local body election nomination process.",
-      "new_value": "Jeevan Reddy Demands Suspension of Revanth Reddy, President’s Rule in Telangana    The Hans India",
-      "source_id": "policyradar"
     }
   ],
   "9b9907eb6f43": [
@@ -20722,6 +20617,13 @@
       "old_value": "New guidelines mandate Kannada application forms, digital payments and SMS and WhatsApp updates on application status",
       "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
       "source_id": "vidhi"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "New guidelines mandate Kannada application forms, digital payments and SMS and WhatsApp updates on application status",
+      "new_value": "The post So, who is a citizen? appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ],
   "6317f42954b5": [
@@ -20765,6 +20667,13 @@
       "old_value": "He was inaugurating the two-day Leaders’ Meet organised by the IUML Thrissur district committee at Nakshatra Emerald hotel in Guruvayur on Sunday",
       "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
       "source_id": "azim_premji"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "He was inaugurating the two-day Leaders’ Meet organised by the IUML Thrissur district committee at Nakshatra Emerald hotel in Guruvayur on Sunday",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
     }
   ],
   "751bf8d116f0": [
@@ -20790,11 +20699,25 @@
       "old_value": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble burst.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble burst.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
     }
   ],
   "66498c5efa0f": [
     {
       "date": "2026-10-18",
+      "field": "description",
+      "old_value": "Kurubur Shantakumar asks Ministers and legislators to give up their salary and allowances to compensate drought-hit farmers",
+      "new_value": "In view of the recent attacks on writer Kancha Ilaiah, we are republishing his 1996 article which was published as a Commentary in on 15 Jun, 1996 in Vol. 31, Issue No. 24 of the EPW. On one hand the BJP defines SC, OBC castes as Hindus, and on the other by banning beef denies them their age-old food habits. If beef is banned it will he the beginning of the end of the country's multiculturalism.",
+      "source_id": "epw"
+    },
+    {
+      "date": "2026-10-19",
       "field": "description",
       "old_value": "Kurubur Shantakumar asks Ministers and legislators to give up their salary and allowances to compensate drought-hit farmers",
       "new_value": "In view of the recent attacks on writer Kancha Ilaiah, we are republishing his 1996 article which was published as a Commentary in on 15 Jun, 1996 in Vol. 31, Issue No. 24 of the EPW. On one hand the BJP defines SC, OBC castes as Hindus, and on the other by banning beef denies them their age-old food habits. If beef is banned it will he the beginning of the end of the country's multiculturalism.",
@@ -20824,6 +20747,99 @@
       "old_value": "The Tamil Nadu government has announced the contact numbers of zonal officials in Chennai for residents to report waterlogging complaints. As a precautionary measure, the state government has also established 220 relief camps and 110 community kitchens in Chennai.",
       "new_value": "According to the Greater Chennai Corporation’s data, Parrys recorded the maximum of 36 cm of rain, followed by Kathivakkam with 34.4 cm. The government machinery worked through the night to clear the stagnant water",
       "source_id": "the_hindu_policy"
+    }
+  ],
+  "d875eb62965e": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Tenor 1-day Notified Amount (in ₹ crore) 50,000 Total amount of offers received (in ₹ crore) 9,562 Amount accepted (in ₹ crore) 9,562 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1331",
+      "new_value": "Tenor 7-day Notified Amount (in ₹ crore) 1,00,000 Total amount of bids received (in ₹ crore) 1,50,735 Amount allotted (in ₹ crore) 1,00,014 Cut off Rate (%) 5.51 Weighted Average Rate (%) 5.52 Partial Allotment Percentage of bids received at cut off rate (%) 56.04 Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1347",
+      "source_id": "rbi"
+    }
+  ],
+  "da5945fbb4ae": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Notice followed politically motivated complaint, led to violation of Sections 14 and 21 of the Constitution, says the actor in his writ petition; fresh notice asks the U.S. citizen to explain why his OCI card should not be cancelled",
+      "new_value": "Terming the ‘leave India notice’ issued to him by the Foreigners Regional Registration Office (FRRO) in Mumbai as arbitrary, illegal, and unconstitutional, actor Imran Khan on Saturday (October 17, 2026) moved the Bombay HC seeking its quash",
+      "source_id": "the_hindu_policy"
+    }
+  ],
+  "1321bdd73fac": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Elevated crude oil prices and foreign fund outflows capped the rupee's gains, according to forex traders",
+      "new_value": "The rupee snapped its six-session winning streak and settled in negative territory amid continued pressure from foreign institutional investor outflows and elevated crude oil prices",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "e0350237063c": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Deputy CM Eknath Shinde said the police had formed several teams to identify and arrest those responsible.",
+      "new_value": "Three motorcycle-borne men had opened fire at Tiger Shroff in Juhu area of Mumbai on Sunday evening.",
+      "source_id": "hindustan_times"
+    }
+  ],
+  "3161a644de9f": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Research Analysts) (Amendment) Regulations, 2026",
+      "new_value": "Securities and Exchange Board of India (Alternative Investment Funds) (Third Amendment) Regulations, 2026",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Research Analysts) (Amendment) Regulations, 2026",
+      "new_value": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Research Analysts) (Amendment) Regulations, 2026",
+      "new_value": "Securities and Exchange Board of India (Real Estate Investment Trusts) (Second Amendment) Regulations, 2026",
+      "source_id": "sebi"
+    },
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Research Analysts) (Amendment) Regulations, 2026",
+      "new_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) (Second Amendment) Regulations, 2026",
+      "source_id": "sebi"
+    }
+  ],
+  "a29f57faf010": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 17 October 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 17 October 2026 | Daily Prelims Quiz appeared",
+      "new_value": "Introducing QUED – Questions from Editorials (UPSC Editorials Quiz) , an innovative initiative from InsightsIAS. Considering the significant number of questions in previous UPSC Prelims from editorials, practicing MCQs from this perspective can provide an extra edge. While we cover important editorials separately in our Editorial Section and SECURE Initiative, adding QUED (UPSC Editorials … Continue reading \"UPSC Editorials Quiz : 19 October 2026\" The post UPSC Editorials Quiz : 19",
+      "source_id": "insights_ias"
+    }
+  ],
+  "55db363a2509": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "RBI notification: Reserve Bank of India (Small Finance Banks – Prudential Norms on Capital Adequacy) Sixth Amendment Directions, 2026",
+      "new_value": "RBI notification: Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026",
+      "source_id": "rbi_notifications"
+    }
+  ],
+  "4233d962d87e": [
+    {
+      "date": "2026-10-19",
+      "field": "description",
+      "old_value": "Serialborrower Pak is chief of global borrowers club What it brings to the table",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
     }
   ]
 }
