@@ -1,5 +1,5 @@
 ---
-import { getAllPolicies, getMeta, getPoliciesBySector, getSectorSlug } from '../../../lib/data';
+import { getPolicyItems, isMediaItem, getMeta, getPoliciesBySector, getSectorSlug } from '../../../lib/data';
 
 // Static builds can't read query params at request time — the old
 // `/embed/feed/?sector=…` page evaluated its params against a build-time
@@ -27,10 +27,10 @@ const MAX_ITEMS = 20; // client-side ?limit hides the tail
 
 const meta = getMeta();
 const sectorDisplayName = sectorName;
-const allInSector = sectorSlug ? getPoliciesBySector(sectorSlug) : [];
+const allInSector = sectorSlug ? getPoliciesBySector(sectorSlug).filter(p => !isMediaItem(p)) : [];
 const policies = sectorSlug
   ? allInSector.slice(0, MAX_ITEMS)
-  : getAllPolicies().slice(0, MAX_ITEMS);
+  : getPolicyItems().slice(0, MAX_ITEMS);
 
 const heading = sectorDisplayName ? `${sectorDisplayName} Policies` : 'Recent Policies';
 

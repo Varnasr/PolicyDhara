@@ -38,7 +38,7 @@ MAX_TOTAL_ITEMS = 2000
 # magnitude, so without a cap the tracker becomes a news reader. Media
 # (level == "media") items may fill at most this share of the final
 # dataset; government / research / historical items are prioritized.
-MEDIA_CAP_FRACTION = 0.4
+MEDIA_CAP_FRACTION = 0.15
 MAX_PIPELINE_SECONDS = 720  # 12 minutes total (leave 3 min for build/deploy)
 HISTORICAL_SEED = PROJECT_ROOT / "data" / "historical_seed.json"
 
