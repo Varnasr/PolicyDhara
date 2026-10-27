@@ -3377,18 +3377,49 @@
       "level": "central"
     },
     "sebi_circulars": {
-      "name": "SEBI Circulars",
-      "short_name": "SEBI Circ",
-      "type": "scrape",
-      "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=6",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "SEBI regulatory circulars and guidelines for capital markets",
-      "covers_sectors": [
-        "Finance & Economy"
-      ],
-      "level": "central"
+        "name": "SEBI Circulars",
+        "short_name": "SEBI Circulars",
+        "type": "scrape",
+        "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+        "sebi_ssid": "7",
+        "frequency": "Daily",
+        "format": "HTML",
+        "reliability": "high",
+        "description": "Circulars issued by SEBI to the securities market",
+        "covers_sectors": [
+            "Finance & Economy"
+        ],
+        "authority": "regulator"
+    },
+    "sebi_master_circulars": {
+        "name": "SEBI Master Circulars",
+        "short_name": "SEBI Master",
+        "type": "scrape",
+        "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0",
+        "sebi_ssid": "6",
+        "frequency": "Daily",
+        "format": "HTML",
+        "reliability": "high",
+        "description": "Consolidated master circulars",
+        "covers_sectors": [
+            "Finance & Economy"
+        ],
+        "authority": "regulator"
+    },
+    "sebi_regulations": {
+        "name": "SEBI Regulations",
+        "short_name": "SEBI Regs",
+        "type": "scrape",
+        "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=3&smid=0",
+        "sebi_ssid": "3",
+        "frequency": "Daily",
+        "format": "HTML",
+        "reliability": "high",
+        "description": "Regulations notified by SEBI",
+        "covers_sectors": [
+            "Finance & Economy"
+        ],
+        "authority": "regulator"
     },
     "maharashtra_new": {
       "name": "Maharashtra Government",
