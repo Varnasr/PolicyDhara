@@ -1,12 +1,14 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
-import { getAllPolicies, getMeta } from '../lib/data';
+import { getPolicyItems, getMeta } from '../lib/data';
 import { renderPolicyHtml } from '../lib/rss-content';
 
 const SITE_URL = 'https://policydhara.impactmojo.in';
 
 export function GET(context: APIContext) {
-  const policies = getAllPolicies();
+  // The main feed carries policy; news is left out so a reader subscribing for
+  // policy does not receive headlines.
+  const policies = getPolicyItems();
   const base = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
   const siteRoot = context.site
     ? new URL(base, context.site).toString().replace(/\/$/, '')

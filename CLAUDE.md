@@ -127,6 +127,18 @@ and did not. Client-drawn cards mirror `PolicyCard.astro`; change one and
 change the other. The bookmark handler in `Base.astro` binds the buttons present
 at load, so the Browse page binds its own by delegation.
 
+## Policy first, news opt-in
+
+On 27 October 2026 the newest 500 records were 464 news and 5 instruments, because
+news feeds out-produce official sources. `/policies/` now opens on a "Policy"
+tab (every kind except news); News and "All, with news" are separate tabs, and
+`?kind=all` still works. The main RSS feed, the sector feeds and the embed feed use
+`getPolicyItems()`, which leaves media out. `MEDIA_CAP_FRACTION` in
+`scripts/fetch_all.py` fell from 0.4 to 0.15, so the next fetch holds news to about
+a sixth of the archive. Instruments are still thin (SEBI, RBI and the archive
+supply nearly all 345): adding official sources and per-scheme pages is the
+remaining work.
+
 ## Writing check
 
 `scripts/check_copy.py` is a ratchet over the prose a reader sees (pages,

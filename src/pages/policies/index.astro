@@ -16,7 +16,7 @@ const INITIAL_SHOW = 30;
 // Order the feed for browsing: instruments and process first (the reason the
 // tracker exists), then analysis, announcements, and news. Within each kind,
 // newest first. The kind tabs re-filter client-side, so this order only
-// matters for the default "All" view.
+// matters for the default "Policy" view, which leaves news out.
 const KIND_ORDER: Kind[] = ['instrument', 'process', 'analysis', 'announcement', 'news'];
 const kindRank = (p) => KIND_ORDER.indexOf(getKind(p));
 const sorted = [...all].sort((a, b) =>
@@ -27,7 +27,7 @@ const sorted = [...all].sort((a, b) =>
 // archive: a sector or date filter only saw the cards that happened to be in
 // the page. The browser loads api/browse.json (every document, compact) and
 // filters, sorts, pages and exports from that.
-const items = sorted.slice(0, INITIAL_SHOW);
+const items = sorted.filter(p => getKind(p) !== 'news').slice(0, INITIAL_SHOW);
 
 // Counts per kind (for the tab labels).
 const kindCounts: Record<string, number> = {};
@@ -43,12 +43,13 @@ const allTypes: Record<string, number> = {};
 for (const p of all) allTypes[p.type] = (allTypes[p.type] || 0) + 1;
 
 const TABS: { key: string; label: string; hint: string }[] = [
-  { key: 'all', label: 'Everything', hint: 'All documents the tracker follows' },
+  { key: 'policy', label: 'Policy', hint: 'Everything except news: policy documents, bills and drafts, analysis and official announcements' },
   { key: 'instrument', label: 'Policy documents', hint: 'Acts, rules, notifications, schemes, budgets and other instruments in force' },
   { key: 'process', label: 'In the making', hint: 'Bills, drafts open for comment, Parliament Q&A, committee reports' },
   { key: 'analysis', label: 'Analysis', hint: 'Research, reports, and long reads from think tanks and institutions' },
   { key: 'announcement', label: 'Announcements', hint: 'Official press releases that are not themselves policy' },
   { key: 'news', label: 'News', hint: 'Journalism about policy, labeled as such and never counted as policy' },
+  { key: 'all', label: 'All, with news', hint: 'Every document the tracker follows, including news coverage' },
 ];
 
 const sortedSectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
@@ -71,9 +72,9 @@ const labels = {
   {/* Kind */}
   <div class="kind-tabs" role="group" aria-label="Kind of document">
     {TABS.map(t => (
-      <button type="button" class={`kind-tab ${t.key === 'all' ? 'active' : ''}`} data-kind-tab={t.key} aria-pressed={t.key === 'all' ? 'true' : 'false'} title={t.hint}>
+      <button type="button" class={`kind-tab ${t.key === 'policy' ? 'active' : ''}`} data-kind-tab={t.key} aria-pressed={t.key === 'policy' ? 'true' : 'false'} title={t.hint}>
         {t.label}
-        <span class="kind-tab-count">{t.key === 'all' ? all.length : (kindCounts[t.key] || 0)}</span>
+        <span class="kind-tab-count">{t.key === 'all' ? all.length : t.key === 'policy' ? all.length - (kindCounts['news'] || 0) : (kindCounts[t.key] || 0)}</span>
       </button>
     ))}
   </div>
@@ -142,7 +143,7 @@ const labels = {
   </div>
 
   <div class="feed-toolbar">
-    <div id="feed-status" role="status" aria-live="polite" data-total={all.length} class="bf-status"></div>
+    <div id="feed-status" role="status" aria-live="polite" data-total={all.length} data-policy={all.length - (kindCounts['news'] || 0)} class="bf-status"></div>
     <div class="feed-toolbar-actions">
       <button type="button" class="btn btn-secondary btn-sm" id="export-csv" title="Download every matching document as CSV">CSV</button>
       <button type="button" class="btn btn-secondary btn-sm" id="export-json" title="Download every matching document as JSON">JSON</button>
@@ -259,7 +260,7 @@ const labels = {
     const chips = Array.from(document.querySelectorAll('[data-type-chip]'));
     const archiveTotal = Number(feedStatus.dataset.total) || 0;
 
-    const DEFAULTS = { kind: 'all', type: 'all', sector: 'all', source: 'all', period: 'all', sort: 'recommended', q: '' };
+    const DEFAULTS = { kind: 'policy', type: 'all', sector: 'all', source: 'all', period: 'all', sort: 'recommended', q: '' };
     const state = { ...DEFAULTS };
     let showCount = INITIAL_SHOW;
     let data = null;        // every document, once loaded
@@ -307,7 +308,7 @@ const labels = {
       const ts = terms();
       const out = [];
       for (const r of data) {
-        if (state.kind !== 'all' && r.k !== state.kind) continue;
+        if (state.kind === 'policy' ? r.k === 'news' : state.kind !== 'all' && r.k !== state.kind) continue;
         if (state.type !== 'all' && r.y !== state.type) continue;
         if (state.sector !== 'all' && !r._slugs.includes(state.sector)) continue;
         if (state.source !== 'all' && r.s !== state.source) continue;
@@ -382,7 +383,7 @@ const labels = {
 
     function renderActive() {
       const items = [];
-      if (state.kind !== 'all') items.push(pill('kind', (tabs.find(t => t.dataset.kindTab === state.kind)?.firstChild?.textContent || state.kind).trim()));
+      if (state.kind !== 'policy') items.push(pill('kind', (tabs.find(t => t.dataset.kindTab === state.kind)?.firstChild?.textContent || state.kind).trim()));
       if (state.type !== 'all') items.push(pill('type', labels.type[state.type] || state.type));
       if (state.sector !== 'all') items.push(pill('sector', labels.sector[state.sector] || state.sector));
       if (state.source !== 'all') items.push(pill('source', state.source));
@@ -404,7 +405,7 @@ const labels = {
         const on = c.dataset.typeChip === state.type;
         c.classList.toggle('active', on);
         c.setAttribute('aria-pressed', String(on));
-        if (c.dataset.typeChip === 'all' || state.kind === 'all') c.hidden = false;
+        if (c.dataset.typeChip === 'all' || state.kind === 'all' || state.kind === 'policy') c.hidden = false;
         else c.hidden = !JSON.parse(c.dataset.chipKinds || '[]').includes(state.kind);
       });
       sectorSelect.value = state.sector;
@@ -432,7 +433,7 @@ const labels = {
       if (remainingCount) remainingCount.textContent = remaining > 0 ? `(${remaining.toLocaleString()} more)` : '';
       noResults.hidden = matches.length !== 0;
       feedStatus.textContent = isDefault()
-        ? `${archiveTotal.toLocaleString()} documents in the archive. Showing ${shown.length.toLocaleString()}.`
+        ? `${matches.length.toLocaleString()} policy documents, news left out (see the News tab). Showing ${shown.length.toLocaleString()}.`
         : `${matches.length.toLocaleString()} of ${archiveTotal.toLocaleString()} documents match. Showing ${shown.length.toLocaleString()}.`;
       if (typeof focusFrom === 'number') feed.querySelectorAll('.policy-title a')[focusFrom]?.focus();
     }
@@ -453,7 +454,7 @@ const labels = {
     tabs.forEach(t => t.addEventListener('click', () => {
       const next = { kind: t.dataset.kindTab };
       const activeChip = chips.find(c => c.dataset.typeChip === state.type);
-      if (activeChip && next.kind !== 'all' && state.type !== 'all') {
+      if (activeChip && next.kind !== 'all' && next.kind !== 'policy' && state.type !== 'all') {
         if (!JSON.parse(activeChip.dataset.chipKinds || '[]').includes(next.kind)) next.type = 'all';
       }
       update(next);
@@ -528,7 +529,7 @@ const labels = {
 
     syncControls();
     if (isDefault()) {
-      feedStatus.textContent = `${archiveTotal.toLocaleString()} documents in the archive. Showing ${INITIAL_SHOW}.`;
+      feedStatus.textContent = `${Number(feedStatus.dataset.policy || archiveTotal).toLocaleString()} policy documents, news left out (see the News tab). Showing ${INITIAL_SHOW}.`;
       showMoreWrap.hidden = false;
       // Fetch the full list while the reader looks at the first page.
       (window.requestIdleCallback || (f => setTimeout(f, 1200)))(() => load().catch(() => {}));
