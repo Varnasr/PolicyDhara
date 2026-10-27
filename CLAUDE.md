@@ -131,9 +131,9 @@ at load, so the Browse page binds its own by delegation.
 
 `scripts/check_copy.py` is a ratchet over the prose a reader sees (pages,
 posts, string literals in `src/lib`, the root documents): no em dash, no
-banned word, no "not X but Y", no emoji. The baseline holds one known item,
-the page named "Policy Landscape", which is a navigation label for the owner to
-rename or keep. A count that rises or falls fails; `--update` lowers it and
+banned word, no "not X but Y", no emoji. The baseline is empty. The page formerly named
+"Policy Landscape" is "Policy Map" (the owner's choice, 27 October 2026); its URL
+is still `/landscape/` so links keep working. A count that rises or falls fails; `--update` lowers it and
 refuses to raise it. Policy records are not ours and are not read.
 
 ## Colour: ink and fill are different tokens

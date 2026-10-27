@@ -27,10 +27,10 @@ const sourcesSorted = Object.entries(meta.source_counts).sort(([, a], [, b]) => 
 const allCells = sectors.flatMap(s => types.map(t => matrix[s]?.[t] || 0));
 const maxCell = Math.max(...allCells, 1);
 ---
-<Base title="Policy Landscape" description={`A structured taxonomy of Indian policy activity across ${meta.total_sectors} sectors and ${new Set(getAllPolicies().map(p => p.type)).size} document types, shown on one page.`}>
+<Base title="Policy Map" description={`A structured taxonomy of Indian policy activity across ${meta.total_sectors} sectors and ${new Set(getAllPolicies().map(p => p.type)).size} document types, shown on one page.`}>
   <div class="landscape">
     <div class="section-header" style="margin-top: var(--space-xl);">
-      <h2 class="page-title">Policy Landscape</h2>
+      <h2 class="page-title">Policy Map</h2>
       <p class="page-subtitle">
         A structured view of {meta.total_policies} policies across {meta.total_sectors} development sectors and {types.length} policy types.
         Cell intensity shows relative concentration, and darker cells indicate higher policy activity.
