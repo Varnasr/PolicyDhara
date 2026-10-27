@@ -56,12 +56,12 @@ const leaderTitle = gov.cm ? 'Chief Minister' : gov.lg ? 'Lt. Governor' : 'Admin
 const profile = getStateProfile(gov.name);
 
 const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
-  active: { bg: 'var(--type-scheme-bg)', text: 'var(--type-scheme)' },
-  discontinued: { bg: 'var(--type-legislation-bg)', text: 'var(--type-legislation)' },
-  proposed: { bg: 'var(--type-notification-bg)', text: 'var(--type-notification)' },
+  active: { bg: 'var(--type-scheme-bg)', text: 'var(--ink-good)' },
+  discontinued: { bg: 'var(--type-legislation-bg)', text: 'var(--ink-bad)' },
+  proposed: { bg: 'var(--type-notification-bg)', text: 'var(--ink-warn)' },
 };
 ---
-<Base title={gov.name} description={`State policy tracker for ${gov.name} — governed by ${gov.party}. Part of PolicyDhara by ImpactMojo.`}>
+<Base title={gov.name} description={`State policy tracker for ${gov.name}, governed by ${gov.party}. Part of PolicyDhara by ImpactMojo.`}>
   <div style="padding: var(--space-xl) 0;">
     <div style="margin-bottom: var(--space-lg);">
       <a href={`${base}states/`} class="btn btn-secondary" style="margin-bottom: var(--space-md); display: inline-flex;">&larr; All States</a>
@@ -92,7 +92,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
 
         {/* Political alignment */}
         <div class="gov-alignment">
-          <h4>Political Alignment</h4>
+          <h4>Political alignment</h4>
           <div class="gov-lean-badge" style={`background: ${LEAN_COLORS[gov.label] || '#888'}20; border-color: ${LEAN_COLORS[gov.label] || '#888'};`}>
             <span class="gov-lean-dot" style={`background: ${LEAN_COLORS[gov.label] || '#888'};`}></span>
             {gov.label}
@@ -132,7 +132,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Development Indicators */}
     {profile && (
       <div class="indicators-panel">
-        <h4>Development Indicators</h4>
+        <h4>Development indicators</h4>
         <div class="indicators-grid">
           <div class="indicator-card">
             <span class="indicator-value">{profile.gsdp_lakh_crore}L Cr</span>
@@ -160,7 +160,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {profile && profile.flagship_schemes.length > 0 && (
       <div class="schemes-panel">
         <div class="schemes-header">
-          <h4>Flagship Schemes</h4>
+          <h4>Flagship schemes</h4>
           <p class="schemes-sub">State government's major policy programmes</p>
         </div>
         <div class="schemes-grid">
@@ -189,7 +189,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Key Policy Actions */}
     {profile && profile.key_policies.length > 0 && (
       <div class="key-policies-panel">
-        <h4>Key Policy Actions</h4>
+        <h4>Key policy actions</h4>
         <div class="key-policies-list">
           {profile.key_policies.map(kp => (
             <div class="kp-row">
@@ -207,7 +207,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
       <div class="breakdown-panel">
         <div class="breakdown-grid">
           <div class="breakdown-section">
-            <h4>Top Sectors</h4>
+            <h4>Top sectors</h4>
             <div class="breakdown-bars">
               {topSectors.map(([sector, count]) => (
                 <div class="bd-bar-row">
@@ -221,7 +221,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
             </div>
           </div>
           <div class="breakdown-section">
-            <h4>Policy Types</h4>
+            <h4>Policy types</h4>
             <div class="breakdown-bars">
               {typeBreakdown.map(([type, count]) => (
                 <div class="bd-bar-row">

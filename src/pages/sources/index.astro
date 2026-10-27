@@ -28,6 +28,17 @@ try {
   health = JSON.parse(raw);
 } catch {}
 
+// The date of the newest probe, shown so a reader can judge how current the counts are.
+const probeDates = Object.values(health)
+  .map(h => (h as { last_probed?: string }).last_probed)
+  .filter((d): d is string => Boolean(d))
+  .sort();
+const lastProbed = probeDates.length ? probeDates[probeDates.length - 1] : '';
+const probeAgeDays = lastProbed ? Math.floor((Date.now() - new Date(lastProbed + 'T00:00:00Z').getTime()) / 86400000) : 0;
+const lastProbedLabel = lastProbed
+  ? new Date(lastProbed + 'T00:00:00Z').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })
+  : '';
+
 type SourceRow = {
   id: string;
   name: string;
@@ -48,11 +59,11 @@ type SourceRow = {
 // nothing (fixable selectors); SHELL = JS-rendered/empty (needs RSS/API);
 // DEAD = unreachable / HTTP error.
 const BUCKET_META: Record<string, { label: string; color: string; bg: string }> = {
-  WORKS:           { label: 'Working',       color: '#15803d', bg: '#f0fdf4' },
-  REDUNDANT:       { label: 'Covered by PIB', color: '#0e7490', bg: '#ecfeff' },
-  SELECTOR_BROKEN: { label: 'Selectors broken', color: '#b45309', bg: '#fffbeb' },
-  SHELL:           { label: 'JS shell',      color: '#7c3aed', bg: '#f5f3ff' },
-  DEAD:            { label: 'Dead',          color: '#dc2626', bg: '#fef2f2' },
+  WORKS:           { label: 'Working',       color: 'var(--ink-good)', bg: 'color-mix(in srgb, #16a34a 10%, var(--color-bg-white))' },
+  REDUNDANT:       { label: 'Covered by PIB', color: 'var(--ink-teal)', bg: 'color-mix(in srgb, #0e7490 10%, var(--color-bg-white))' },
+  SELECTOR_BROKEN: { label: 'Selectors broken', color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
+  SHELL:           { label: 'JS shell',      color: 'color-mix(in srgb, #7c3aed 45%, var(--color-text))', bg: 'color-mix(in srgb, #7c3aed 10%, var(--color-bg-white))' },
+  DEAD:            { label: 'Dead',          color: 'var(--ink-bad)', bg: 'color-mix(in srgb, #dc2626 10%, var(--color-bg-white))' },
 };
 
 // Build a row per configured source. source_counts is keyed by source_id
@@ -99,16 +110,16 @@ const bucketCounts: Record<string, number> = {};
 for (const r of rows) if (r.bucket) bucketCounts[r.bucket] = (bucketCounts[r.bucket] || 0) + 1;
 const hasBuckets = Object.keys(bucketCounts).length > 0;
 ---
-<Base title="Sources" description="Every open data source powering PolicyDhara — PIB (per ministry), PRS, India Code, eGazette, RBI, Parliament, state governments, and more.">
+<Base title="Sources" description="Every open data source that feeds PolicyDhara, including PIB (per ministry), PRS, India Code, eGazette, RBI, Parliament, state governments and more.">
   <div style="padding: var(--space-xl) 0;">
-    <h2 class="page-title">Data Sources</h2>
+    <h2 class="page-title">Data sources</h2>
     <p class="page-subtitle">
       {totalConfigured} configured sources · {contributing} currently contributing items · {stale} flagged stale · refetched every 6 hours
     </p>
 
     {orphanRows.length > 0 && (
       <p class="page-subtitle" style="color: var(--color-text-muted); font-size: 0.85rem;">
-        {orphanRows.length} legacy source_id{orphanRows.length === 1 ? '' : 's'} present in the dataset but not in <code>feeds.json</code> — shown below with a "LEGACY" tag.
+        {orphanRows.length} legacy source_id{orphanRows.length === 1 ? '' : 's'} present in the dataset but not in <code>feeds.json</code>. They are shown below with a "LEGACY" tag.
       </p>
     )}
 
@@ -120,7 +131,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
           </span>
         ))}
         <span style="font-size: 0.75rem; color: var(--color-text-muted); align-self: center;">
-          — health from the weekly probe. "Covered by PIB" = a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the genuine fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
+          These counts come from the weekly health probe.{lastProbed && ` The latest probe in this build ran on ${lastProbedLabel}${probeAgeDays > 14 ? `, ${probeAgeDays} days ago, so the counts may be out of date` : ''}.`} "Covered by PIB" means a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
         </span>
       </div>
     )}
@@ -153,14 +164,14 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
             )}
 
             {r.coveredBy && (
-              <span style="font-size: 0.75rem; color: #0e7490;">
-                Releases collected via <code>{r.coveredBy}</code> (PIB) — no policy lost.
+              <span style="font-size: 0.75rem; color: var(--ink-teal);">
+                Releases collected via <code>{r.coveredBy}</code> (PIB), so no policy is lost.
               </span>
             )}
 
             {r.url && (
               <a href={r.url} target="_blank" rel="noopener noreferrer"
-                 style="font-size: 0.75rem; word-break: break-all; color: var(--color-accent);">
+                 style="font-size: 0.75rem; word-break: break-all; color: var(--color-accent); text-decoration: underline;">
                 {r.url}
               </a>
             )}

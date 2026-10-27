@@ -105,8 +105,8 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
   <div class="dash-hero">
     <div class="dash-hero-left">
       <h1 class="dash-title">PolicyDhara</h1>
-      <p class="dash-subtitle">Tracking Indian development policy — from draft to gazette to ground</p>
-      <p class="dash-intro">An open-source platform by <a href="https://www.impactmojo.in">ImpactMojo</a> that follows policy the way it is actually made: consultation drafts, bills in Parliament, question-hour replies, enacted instruments — with research and news kept clearly apart.</p>
+      <p class="dash-subtitle">Tracking Indian development policy from draft to gazette to ground</p>
+      <p class="dash-intro">An open-source platform by <a href="https://www.impactmojo.in">ImpactMojo</a> that follows policy the way it is actually made: consultation drafts, bills in Parliament, question-hour replies and enacted instruments. Research and news are kept clearly apart.</p>
       <a href="https://t.me/policydhara" class="hero-telegram-cta" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
           <path d="M22.05 2.79 2.34 10.4c-1.34.54-1.33 1.29-.24 1.62l5.06 1.58 11.71-7.39c.55-.34 1.06-.16.64.21l-9.48 8.56h-.01l.01.01-.35 5.22c.5 0 .72-.23.99-.5l2.39-2.33 4.97 3.67c.92.5 1.58.24 1.81-.85l3.27-15.42c.34-1.33-.51-1.94-1.36-1.6Z"/>
@@ -191,7 +191,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     {/* ── Right: Sidebar summary (spans only the lead zone) ── */}
     <aside class="dash-sidebar">
       <div class="sidebar-card">
-        <h4 class="sidebar-card-title">By Sector</h4>
+        <h4 class="sidebar-card-title">By sector</h4>
         <div class="sidebar-sector-list">
           {Object.entries(meta.sector_counts)
             .sort((a, b) => b[1] - a[1])
@@ -208,7 +208,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
       </div>
 
       <div class="sidebar-card">
-        <h4 class="sidebar-card-title">Quick Links</h4>
+        <h4 class="sidebar-card-title">Quick links</h4>
         <div class="sidebar-links">
           <a href={`${base}policies/`}>Browse Everything</a>
           <a href={`${base}process/`}>How Policy Is Made</a>
@@ -241,7 +241,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
         <div class="section-header section-header-row">
           <div>
             <h3>Policy in the making</h3>
-            <p>Before a policy is a policy it is a draft, a bill, a question on the floor of the House. Track it there.</p>
+            <p>Before a policy is in force it is a draft, a bill or a question on the floor of the House. The tracker follows it through those stages.</p>
           </div>
           <a class="btn btn-secondary btn-sm" href={`${base}process/`}>How a policy is made &rarr;</a>
         </div>
@@ -326,7 +326,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
           <div class="section-header section-header-row">
             <div>
               <h3>Policy in the news</h3>
-              <p>Journalism about policy — context, not policy documents. Never counted in the tracker's policy numbers.</p>
+              <p>Journalism about policy, shown for context. It is not a policy document and is never counted in the tracker's policy numbers.</p>
             </div>
             <a class="btn btn-secondary btn-sm" href={`${base}policies/?kind=news`}>All coverage &rarr;</a>
           </div>
@@ -346,12 +346,12 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
         <a class="explore-card" href={`${base}graph/`}>
           <span class="explore-icon" aria-hidden="true">◉</span>
           <span class="explore-title">Knowledge graph</span>
-          <span class="explore-desc">Which sources feed which sectors — an interactive map of the whole tracker.</span>
+          <span class="explore-desc">An interactive map of which sources feed which sectors across the whole tracker.</span>
         </a>
         <a class="explore-card" href={`${base}history/`}>
           <span class="explore-icon" aria-hidden="true">⌛</span>
           <span class="explore-title">Policy history</span>
-          <span class="explore-desc">Today's debates began in the Constituent Assembly, 1946–49. Trace the threads.</span>
+          <span class="explore-desc">Today's debates began in the Constituent Assembly of 1946–49, and this page traces them forward.</span>
         </a>
         <a class="explore-card" href={`${base}landscape/`}>
           <span class="explore-icon" aria-hidden="true">▦</span>
@@ -603,7 +603,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--type-notification);
+    color: color-mix(in srgb, var(--type-notification) 40%, var(--color-text));
     margin-bottom: 8px;
     padding-bottom: 6px;
     border-bottom: 2px solid var(--type-notification-border);
@@ -901,6 +901,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     background: var(--color-accent-bg);
     color: var(--color-accent);
   }
+  .sidebar-meta a { text-decoration: underline; }
   .sidebar-meta {
     font-size: 0.75rem;
     color: var(--color-text-muted);

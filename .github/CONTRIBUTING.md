@@ -1,30 +1,30 @@
 # Contributing to PolicyDhara
 
-Thank you for your interest in contributing to PolicyDhara! This project is an auto-updating tracker of Indian development policies across 22 sectors, and community contributions are essential to keeping it accurate, comprehensive, and useful.
+Thank you for your interest in contributing to PolicyDhara. This project is an auto-updating tracker of Indian development policies across more than twenty sectors, and community contributions keep it accurate and useful.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Development Setup](#development-setup)
-- [Types of Contributions](#types-of-contributions)
-- [Code Contributions](#code-contributions)
-- [Adding Policy Sources](#adding-policy-sources)
-- [Sector Expansions](#sector-expansions)
-- [Style Guidelines](#style-guidelines)
-- [Submitting Changes](#submitting-changes)
+- [Getting started](#getting-started)
+- [Development setup](#development-setup)
+- [Types of contributions](#types-of-contributions)
+- [Code contributions](#code-contributions)
+- [Adding policy sources](#adding-policy-sources)
+- [Sector expansions](#sector-expansions)
+- [Style guidelines](#style-guidelines)
+- [Submitting changes](#submitting-changes)
 - [Community](#community)
 
-## Getting Started
+## Getting started
 
 1. Fork the repository on GitHub.
 2. Clone your fork locally.
-3. Create a new branch from `main` for your work.
+3. Create a new branch from `master` for your work.
 4. Make your changes, commit, and push to your fork.
-5. Open a pull request against the `main` branch of this repository.
+5. Open a pull request against the `master` branch of this repository.
 
-## Development Setup
+## Development setup
 
-PolicyDhara is built with **Astro** (frontend), **Python** (data pipeline), and **TypeScript** (utilities and interactivity).
+PolicyDhara is built with Astro (frontend), Python (data pipeline) and TypeScript (utilities and interactivity).
 
 ### Prerequisites
 
@@ -43,58 +43,60 @@ cd PolicyDhara
 npm install
 
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r scripts/requirements.txt
 
 # Start the Astro development server
 npm run dev
 ```
 
-### Running the Data Pipeline
+### Running the data pipeline
 
 ```bash
-# Fetch and classify policy data
-python scripts/fetch_policies.py
+# Fetch and classify policy data from every source in feeds.json
+python3 scripts/fetch_all.py
 
-# Verify the output
-python scripts/validate_data.py
+# Run the tests, which also check the data
+pip install -e ".[dev]"
+python3 -m pytest tests -q
+python3 scripts/check_copy.py
+python3 scripts/check_evidence.py
 ```
 
-## Types of Contributions
+## Types of contributions
 
-### Code Contributions
+### Code contributions
 
-- **Frontend (Astro/TypeScript/CSS):** Improvements to the static site, search functionality, analytics dashboards, and email digest templates.
-- **Backend (Python):** Enhancements to the data fetching pipeline, classification logic, scheduling, and data validation.
-- **Infrastructure:** GitHub Actions workflows, CI/CD improvements, deployment scripts, and dependency management.
+- Frontend (Astro/TypeScript/CSS): improvements to the static site, search functionality, analytics dashboards, and email digest templates.
+- Backend (Python): improvements to the data fetching pipeline, classification logic, scheduling, and data validation.
+- Infrastructure: GitHub Actions workflows, CI/CD improvements, deployment scripts, and dependency management.
 
-### Adding Policy Sources
+### Adding policy sources
 
-PolicyDhara currently fetches from 20+ official government sources. To add a new source:
+PolicyDhara fetches from every source listed in `feeds.json`. To add a new source:
 
 1. Identify the official URL and confirm it provides structured or scrapable policy data.
-2. Create a new fetcher in `/scripts/sources/` following the existing patterns.
-3. Add the source configuration to the sources manifest file.
+2. Add the source to `feeds.json` with its name, short name, type (`rss`, `api` or `scrape`) and URLs. Most sources need no new code. A source with a new page layout needs a fetcher in `scripts/` that follows `fetch_rss.py` and `fetch_scrape.py`.
 4. Include appropriate error handling, rate limiting, and retry logic.
-5. Write tests to verify the fetcher works correctly.
+5. Write tests for any new fetcher in `tests/`.
 6. Document the source in your pull request description.
 
-### Sector Expansions
+### Sector expansions
 
-PolicyDhara tracks policies across 22 sectors. To propose a new sector:
+PolicyDhara tracks policies across more than twenty sectors. To propose a new sector:
 
-1. Open an issue using the **Feature Request** template explaining the sector and its relevance.
+1. Open an issue using the **Feature Request** template that explains the sector and why it matters.
 2. Identify at least two official sources that publish policies for this sector.
 3. If approved, implement the sector classification rules in the classifier module.
 4. Add corresponding frontend components (filters, sector pages).
 5. Update the sector documentation and metadata.
 
-### Data Quality
+### Data quality
 
 - Report incorrect, missing, or outdated policy data using the **Data Issue** template.
 - Help verify and validate policy entries against official sources.
 - Improve classification accuracy by reviewing sector assignments.
 
-## Style Guidelines
+## Style guidelines
 
 ### Python
 
@@ -103,13 +105,13 @@ PolicyDhara tracks policies across 22 sectors. To propose a new sector:
 - Write docstrings for all public functions and classes.
 - Format code with `black` and lint with `ruff`.
 
-### TypeScript / JavaScript
+### TypeScript and JavaScript
 
 - Use TypeScript wherever possible.
 - Follow the existing ESLint configuration.
 - Use Prettier for formatting.
 
-### Astro Components
+### Astro components
 
 - Follow the existing component structure in `/src/`.
 - Keep components focused and composable.
@@ -123,11 +125,11 @@ PolicyDhara tracks policies across 22 sectors. To propose a new sector:
 
 ### Commits
 
-- Write clear, concise commit messages.
-- Use the imperative mood (e.g., "Add source fetcher for MoHFW" not "Added source fetcher").
+- Write clear, short commit messages.
+- Use the imperative mood, for example "Add source fetcher for MoHFW".
 - Reference related issues in commit messages where applicable.
 
-## Submitting Changes
+## Submitting changes
 
 1. Ensure your code passes all existing tests and linting.
 2. Run the Astro build (`npm run build`) and verify there are no errors.
@@ -138,10 +140,10 @@ PolicyDhara tracks policies across 22 sectors. To propose a new sector:
 
 ## Community
 
-PolicyDhara is part of the **ImpactMojo Learning Platform** stack. We are committed to fostering an inclusive, respectful community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+PolicyDhara is part of the ImpactMojo Learning Platform stack. We want an inclusive, respectful community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
 For questions, suggestions, or discussions, reach out at **hello@impactmojo.in**.
 
 ---
 
-Thank you for helping make Indian development policy tracking more accessible and transparent!
+Thank you for helping make Indian development policy tracking easier to access and easier to check.

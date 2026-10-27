@@ -6,9 +6,9 @@
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Varnasr/PolicyDhara)](https://github.com/Varnasr/PolicyDhara/commits/master)
 [![Part of ImpactMojo](https://img.shields.io/badge/Part%20of-ImpactMojo-orange)](https://www.impactmojo.in)
 
-**Auto-updating tracker of Indian development policy across 22 sectors — fetching from ~350 official sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
+**Auto-updating tracker of Indian development policy across more than twenty sectors. It fetches from hundreds of government, regulator, think-tank and media sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
 
-📋 [Roadmap](ROADMAP.md) · 📝 [Blog](https://policydhara.impactmojo.in/blog)
+[Roadmap](ROADMAP.md) · [Blog](https://policydhara.impactmojo.in/blog)
 
 A complement to [impactmojo.in](https://impactmojo.in) and the [OpenStacks for Change](https://github.com/Varnasr/OpenStacks-for-Change) ecosystem.
 
@@ -18,13 +18,13 @@ A complement to [impactmojo.in](https://impactmojo.in) and the [OpenStacks for C
 
 ## About
 
-PolicyDhara (पॉलिसीधारा — "Policy Stream") provides a living, searchable archive of Indian development policy. It aggregates policy documents, schemes, legislation, budget allocations, and analysis from official government portals and research institutions — automatically refreshed every 6 hours.
+PolicyDhara (पॉलिसीधारा, "Policy Stream") is a searchable archive of Indian development policy. It aggregates policy documents, schemes, legislation, budget allocations and analysis from official government portals and research institutions, and refreshes automatically every 6 hours.
 
-It is designed for researchers, journalists, advocates, and practitioners who need to track policy developments across India's complex governance landscape without manually monitoring dozens of government portals.
+It is designed for researchers, journalists, advocates and practitioners who need to track policy developments across India's governance system without monitoring dozens of government portals by hand.
 
 ---
 
-## What It Tracks
+## What it tracks
 
 - Central and state government policies, schemes, and legislation
 - Union Budget allocations and fiscal policy statements
@@ -34,7 +34,7 @@ It is designed for researchers, journalists, advocates, and practitioners who ne
 
 ---
 
-## 22 Sectors Covered
+## Sectors covered
 
 | Cluster | Sectors |
 |---------|---------|
@@ -46,9 +46,9 @@ It is designed for researchers, journalists, advocates, and practitioners who ne
 
 ---
 
-## Data Sources (~380 configured)
+## Data sources
 
-The pipeline fetches from ~350 sources concurrently. A few high-value ones:
+The pipeline fetches from every source listed in `feeds.json` concurrently. A few high-value ones:
 
 | Source | Type |
 |--------|------|
@@ -74,9 +74,9 @@ The pipeline fetches from ~350 sources concurrently. A few high-value ones:
 │              GitHub Actions (every 6 hours)           │
 │                                                        │
 │  update-policies.yml                                   │
-│  ├── Fetch ~350 sources concurrently (RSS/API/scrape) │
+│  ├── Fetch all sources concurrently (RSS/API/scrape)  │
 │  ├── Filter news noise + cap media at 40%             │
-│  ├── Classify by sector (22 categories)               │
+│  ├── Classify by sector and document type             │
 │  ├── Deduplicate and detect amendments                │
 │  ├── Commit updated data to repository                │
 │  └── Trigger GitHub Pages rebuild                     │
@@ -95,7 +95,7 @@ The pipeline fetches from ~350 sources concurrently. A few high-value ones:
 
 ---
 
-## Automation Schedule
+## Automation schedule
 
 | Task | Frequency | Mechanism |
 |------|-----------|-----------|
@@ -109,18 +109,18 @@ The pipeline fetches from ~350 sources concurrently. A few high-value ones:
 
 Both run as best-effort steps in `update-policies.yml` and skip silently if the relevant secrets are not set.
 
-**Buttondown newsletter** — set `BUTTONDOWN_API_KEY` as a GitHub Secret.
+For the Buttondown newsletter, set `BUTTONDOWN_API_KEY` as a GitHub Secret.
 
-**Telegram alerts** for high-priority new policies — set:
+For Telegram alerts on high-priority new policies, set:
 
-- `TELEGRAM_BOT_TOKEN` — from [@BotFather](https://t.me/BotFather) (`/newbot`)
-- `TELEGRAM_CHAT_ID` — channel `@username` (e.g. `@policydhara`) or numeric chat id
+- `TELEGRAM_BOT_TOKEN`: from [@BotFather](https://t.me/BotFather) (`/newbot`)
+- `TELEGRAM_CHAT_ID`: the channel `@username` (e.g. `@policydhara`) or a numeric chat id
 
 Add the bot as an administrator on the channel with "Post Messages" permission. Test locally with `python3 scripts/push_telegram.py --dry-run`.
 
 ---
 
-## Local Development
+## Local development
 
 ```bash
 git clone https://github.com/Varnasr/PolicyDhara.git
@@ -142,11 +142,11 @@ python3 -m pytest tests/
 
 ---
 
-## Tech Stack
+## Tech stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| Data Pipeline | Python | Concurrent fetching, news filter, classification, dedup |
+| Data pipeline | Python | Concurrent fetching, news filter, classification, dedup |
 | Automation | GitHub Actions | Scheduled data refresh (6-hourly) and deploy |
 | Frontend | Astro 7 | Static searchable site (+ Pagefind search) |
 | Hosting | GitHub Pages | Auto-deploy from repository |
@@ -154,18 +154,18 @@ python3 -m pytest tests/
 
 ---
 
-## Related Repositories
+## Related repositories
 
-- [ImpactMojo](https://github.com/Varnasr/ImpactMojo) — Main platform (PolicyDhara is embedded)
-- [PolicyStack](https://github.com/Varnasr/PolicyStack) — OpenStacks policy data layer
-- [INDIA-DATA](https://github.com/Varnasr/INDIA-DATA) — Bihar electoral data analysis
-- [someperspective](https://github.com/Varnasr/someperspective) — India's political economy analysis
+- [ImpactMojo](https://github.com/Varnasr/ImpactMojo): main platform (PolicyDhara is embedded)
+- [PolicyStack](https://github.com/Varnasr/PolicyStack): OpenStacks policy data layer
+- [INDIA-DATA](https://github.com/Varnasr/INDIA-DATA): Bihar electoral data analysis
+- [someperspective](https://github.com/Varnasr/someperspective): India's political economy analysis
 
 ---
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 

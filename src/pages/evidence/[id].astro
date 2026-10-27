@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShareBar from '../../components/ShareBar.astro';
+import { getAllEvidence, VERDICT_LABELS, DESIGN_LABELS, VERDICT_RULES } from '../../lib/evidence';
+
+export function getStaticPaths() {
+  return getAllEvidence().map(c => ({ params: { id: c.id }, props: { c } }));
+}
+
+const { c } = Astro.props;
+const base = (import.meta.env.BASE_URL).replace(/\/?$/, '/');
+const where = c.geography.states.length ? c.geography.states.join(', ') : 'All India';
+---
+<Base title={c.title} description={`${VERDICT_LABELS[c.verdict]}: ${c.intervention}`}>
+  <article class="ev-detail" data-pagefind-body>
+    <p class="ev-crumb"><a href={`${base}evidence/`}>Evidence from India</a></p>
+    <span class="ev-badge"><span class={`ev-dot ev-dot-${c.verdict}`} aria-hidden="true"></span>{VERDICT_LABELS[c.verdict]}</span>
+    <h1 class="page-title" data-pagefind-meta="title">{c.title}</h1>
+    <p class="page-subtitle">{c.area} · {where} · {c.period}</p>
+
+    <h2>The intervention</h2>
+    <p>{c.intervention}</p>
+
+    <h2>Verdict</h2>
+    <p>{c.verdict_basis}</p>
+    <p class="ev-rule">{VERDICT_RULES[c.verdict]}</p>
+
+    <h2>The study</h2>
+    <dl class="ev-facts">
+      <dt>Design</dt><dd>{DESIGN_LABELS[c.design]}. {c.design_detail}</dd>
+      <dt>Sample</dt><dd>{c.sample}</dd>
+    </dl>
+
+    <h2>Results</h2>
+    <div class="ev-table-scroll" tabindex="0" role="region" aria-label="Results table, scrolls sideways on narrow screens">
+      <table class="ev-table">
+        <thead><tr><th scope="col">Outcome</th><th scope="col">Result</th><th scope="col">Uncertainty</th><th scope="col">Where in the source</th></tr></thead>
+        <tbody>
+          {c.effects.map(e => (
+            <tr>
+              <th scope="row">{e.outcome}</th>
+              <td>{e.result}</td>
+              <td>{e.interval_or_se ?? 'Not reported'}</td>
+              <td>{e.page_or_section}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Quotations from the source</h2>
+    <ul class="ev-quotes">
+      {c.effects.map(e => <li><q>{e.quote}</q></li>)}
+    </ul>
+
+    <h2>Limits of the evidence</h2>
+    <ul>{c.caveats.map(x => <li>{x}</li>)}</ul>
+
+    <h2>Sources</h2>
+    <ol>
+      {c.sources.map(s => <li>{s.citation}. <a href={s.url} rel="noopener">{s.url}</a></li>)}
+    </ol>
+    <p class="ev-checked">Figures checked against the sources above on {c.verified_on}.</p>
+
+    <ShareBar title={c.title} />
+  </article>
+</Base>
+
+<style>
+  .ev-detail { padding: var(--space-xl) 0; max-width: 72ch; }
+  .ev-crumb { margin: 0 0 var(--space-sm); font-size: 0.85rem; }
+  .ev-badge { display: inline-flex; align-items: center; font-size: 0.8rem; font-weight: 700; color: var(--color-text); }
+  .ev-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+  .ev-dot-worked { background: var(--type-scheme); }
+  .ev-dot-did-not-work { background: var(--type-legislation); }
+  .ev-dot-mixed { background: var(--type-notification); }
+  .ev-detail h2 { margin: var(--space-xl) 0 var(--space-sm); font-size: 1.15rem; }
+  .ev-rule, .ev-checked { font-size: 0.88rem; color: var(--color-text-secondary); }
+  .ev-facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px var(--space-md); margin: 0; }
+  .ev-facts dt { font-weight: 700; }
+  .ev-facts dd { margin: 0; min-width: 0; }
+  .ev-table-scroll { overflow-x: auto; max-width: 100%; }
+  .ev-table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+  .ev-table th, .ev-table td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--color-border); }
+  .ev-table thead th { font-size: 0.78rem; color: var(--color-text-secondary); }
+  .ev-quotes { color: var(--color-text-secondary); }
+  .ev-detail ol a { overflow-wrap: anywhere; text-decoration: underline; }
+  .ev-detail :global(.share-label) { color: var(--color-text-secondary); }
+  @media (max-width: 560px) { .ev-facts { grid-template-columns: 1fr; } }
+</style>

@@ -9,11 +9,11 @@ const latest = digests[0];
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---
-<Base title="Daily Digest — The Big Picture" description="Daily summary of India's policy activity — what happened, which sectors, and what matters most.">
+<Base title="Daily digest: the big picture" description="Daily summary of India's policy activity: what happened, which sectors it touched and what matters most.">
   <div class="digest-page">
     <div class="section-header" style="margin-top: var(--space-xl);">
-      <h2 class="page-title">The Big Picture</h2>
-      <p class="page-subtitle">Daily digest of India's policy landscape — auto-generated from all tracked sources.</p>
+      <h2 class="page-title">The big picture</h2>
+      <p class="page-subtitle">A daily digest of India's policy activity, generated automatically from all tracked sources.</p>
     </div>
 
     {/* ── Day selector ── */}
@@ -136,7 +136,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     color: var(--color-accent);
   }
   .day-tab.active {
-    background: var(--color-accent);
+    background: var(--color-accent-fill);
     border-color: var(--color-accent);
     color: white;
   }

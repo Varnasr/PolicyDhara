@@ -94,7 +94,7 @@ export function getSectorMomentum(): SectorMomentum[] {
     let signal: string;
     if (trend === 'surging') signal = `${sector} activity surged ${Math.round((velocity - 1) * 100)}% vs prior period`;
     else if (trend === 'rising') signal = `${sector} seeing increased policy attention`;
-    else if (trend === 'cooling') signal = `${sector} activity slowing — down ${Math.round((1 - velocity) * 100)}%`;
+    else if (trend === 'cooling') signal = `${sector} activity is slowing, down ${Math.round((1 - velocity) * 100)}%`;
     else if (trend === 'declining') signal = `${sector} policy output dropped significantly`;
     else signal = `${sector} activity steady`;
 
@@ -228,13 +228,13 @@ export function getPolicyConcentration(): ConcentrationAnalysis {
   let interpretation: string;
   if (hhi < 1500) {
     label = 'diverse';
-    interpretation = 'Policy attention is spread broadly across sectors — no single area dominates';
+    interpretation = 'Policy attention is spread broadly across sectors, and no single area dominates';
   } else if (hhi < 2500) {
     label = 'moderate';
-    interpretation = `Policy activity moderately concentrated — ${topSector} leads at ${topSectorShare}%`;
+    interpretation = `Policy activity is moderately concentrated, and ${topSector} leads at ${topSectorShare}%`;
   } else {
     label = 'concentrated';
-    interpretation = `Policy attention heavily concentrated in ${topSector} (${topSectorShare}%) — other sectors may be underserved`;
+    interpretation = `Policy attention is heavily concentrated in ${topSector} (${topSectorShare}%), so other sectors may be underserved`;
   }
 
   return { hhi, label, topSectorShare, topSector, interpretation };
@@ -279,9 +279,9 @@ export function getSourceDiversity(): SourceDiversity {
   const evenness = maxEntropy > 0 ? shannonEntropy / maxEntropy : 0;
 
   let interpretation: string;
-  if (evenness > 0.8) interpretation = 'Excellent source diversity — broad coverage across multiple outlets';
+  if (evenness > 0.8) interpretation = 'Excellent source diversity, with broad coverage across multiple outlets';
   else if (evenness > 0.6) interpretation = `Good diversity, though ${dominantSource} contributes ${dominantShare}% of coverage`;
-  else interpretation = `Source concentration risk — ${dominantSource} accounts for ${dominantShare}% of all policies`;
+  else interpretation = `Source concentration risk: ${dominantSource} accounts for ${dominantShare}% of all policies`;
 
   return {
     totalSources: Object.keys(sourceCounts).length,
@@ -318,11 +318,11 @@ export function getLegislativePipeline(): LegislativePipeline {
 
   let interpretation: string;
   if (recentBills > 5 && billToNotificationRatio < 2) {
-    interpretation = 'Active legislative session — high bill introduction, notifications following';
+    interpretation = 'Active legislative session, with many bills introduced and notifications following';
   } else if (recentNotifications > recentBills * 3) {
-    interpretation = 'Implementation phase — executive notifications outpacing new legislation';
+    interpretation = 'Implementation phase, with executive notifications outpacing new legislation';
   } else if (recentSchemes > recentBills + recentNotifications) {
-    interpretation = 'Scheme-heavy period — government focus on direct benefit programs';
+    interpretation = 'Scheme-heavy period, with government focus on direct benefit programs';
   } else {
     interpretation = `${recentBills} bills, ${recentNotifications} notifications, ${recentSchemes} schemes in last 90 days`;
   }
@@ -373,16 +373,16 @@ export function generateIntelligenceBrief(): IntelligenceBrief {
 
   if (hasComparablePrior && surgingSectors.length > 0) {
     const top = surgingSectors[0];
-    headlines.push(`${top.sector} policy activity ${top.trend === 'surging' ? 'surging' : 'rising'} — ${top.last30} updates in 30 days (${Math.round((top.velocity - 1) * 100)}% increase)`);
+    headlines.push(`${top.sector} policy activity ${top.trend === 'surging' ? 'surging' : 'rising'}, with ${top.last30} updates in 30 days (${Math.round((top.velocity - 1) * 100)}% increase)`);
   }
 
   if (hasComparablePrior && coolingSectors.length > 0) {
     const top = coolingSectors[0];
-    headlines.push(`${top.sector} attention declining — down ${Math.round((1 - top.velocity) * 100)}% from prior period`);
+    headlines.push(`${top.sector} attention is declining, down ${Math.round((1 - top.velocity) * 100)}% from the prior period`);
   }
 
   if (!hasComparablePrior) {
-    headlines.push(`Most active sector last 30 days: ${momentum[0]?.sector ?? '—'} (${momentum[0]?.last30 ?? 0} items). "Versus prior period" comparisons will populate after more fetches.`);
+    headlines.push(`Most active sector last 30 days: ${momentum[0]?.sector ?? 'none'} (${momentum[0]?.last30 ?? 0} items). "Versus prior period" comparisons will populate after more fetches.`);
   }
 
   if (pipeline.recentBills > 3) {
@@ -392,7 +392,7 @@ export function generateIntelligenceBrief(): IntelligenceBrief {
   if (recentAnomalies.length > 0) {
     const highWeeks = recentAnomalies.filter(a => a.direction === 'high');
     if (highWeeks.length > 0) {
-      headlines.push(`Unusual policy burst in ${highWeeks[0].week} — ${highWeeks[0].count} items (z-score: ${highWeeks[0].zScore})`);
+      headlines.push(`Unusual policy burst in ${highWeeks[0].week}: ${highWeeks[0].count} items (z-score: ${highWeeks[0].zScore})`);
     }
   }
 

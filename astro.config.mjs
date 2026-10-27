@@ -8,6 +8,10 @@ export default defineConfig({
   build: {
     format: 'directory'
   },
+  markdown: {
+    // The default dark theme paints comments at 3.0:1 on its own background.
+    shikiConfig: { theme: 'github-dark-high-contrast' },
+  },
   integrations: [
     sitemap({
       // Exclude only the iframe widget pages — /embed/ itself is the

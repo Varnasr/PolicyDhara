@@ -22,18 +22,12 @@ const kindRank = (p) => KIND_ORDER.indexOf(getKind(p));
 const sorted = [...all].sort((a, b) =>
   kindRank(a) - kindRank(b) || (b.date || '').localeCompare(a.date || ''));
 
-// Cap the DOM per kind (newest first). Rendering all ~2000 cards produced a
-// 3.2 MB page that phones choked on; the tabs still show TRUE totals, and
-// the full dataset stays available via the API page and data/policies.json.
-const KIND_CAP: Record<string, number> = {
-  instrument: 300, process: 150, analysis: 200, announcement: 200, news: 200,
-};
-const perKindSeen: Record<string, number> = {};
-const items = sorted.filter(p => {
-  const k = getKind(p);
-  perKindSeen[k] = (perKindSeen[k] || 0) + 1;
-  return perKindSeen[k] <= (KIND_CAP[k] ?? 200);
-});
+// The server renders only the first screen. Rendering every card made a
+// 3.2 MB page that phones choked on, and a capped page could not filter the
+// archive: a sector or date filter only saw the cards that happened to be in
+// the page. The browser loads api/browse.json (every document, compact) and
+// filters, sorts, pages and exports from that.
+const items = sorted.slice(0, INITIAL_SHOW);
 
 // Counts per kind (for the tab labels).
 const kindCounts: Record<string, number> = {};
@@ -50,28 +44,34 @@ for (const p of all) allTypes[p.type] = (allTypes[p.type] || 0) + 1;
 
 const TABS: { key: string; label: string; hint: string }[] = [
   { key: 'all', label: 'Everything', hint: 'All documents the tracker follows' },
-  { key: 'instrument', label: 'Policy documents', hint: 'Acts, rules, notifications, schemes, budgets — instruments in force' },
+  { key: 'instrument', label: 'Policy documents', hint: 'Acts, rules, notifications, schemes, budgets and other instruments in force' },
   { key: 'process', label: 'In the making', hint: 'Bills, drafts open for comment, Parliament Q&A, committee reports' },
   { key: 'analysis', label: 'Analysis', hint: 'Research, reports, and long reads from think tanks and institutions' },
   { key: 'announcement', label: 'Announcements', hint: 'Official press releases that are not themselves policy' },
-  { key: 'news', label: 'News', hint: 'Journalism about policy — clearly labeled, never counted as policy' },
+  { key: 'news', label: 'News', hint: 'Journalism about policy, labeled as such and never counted as policy' },
 ];
 
 const sortedSectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
-const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a[1]).slice(0, 60);
+const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a[1]);
+const sectorSlug = (s: string) => s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
+const labels = {
+  kind: KIND_LABELS,
+  type: TYPE_LABELS,
+  sector: Object.fromEntries(sortedSectors.map(([s]) => [sectorSlug(s), s])),
+};
 ---
-<Base title="Browse Policies">
+<Base title="Browse Policies" description="Filter every document the tracker follows by kind, type, sector, source and date, search them, and export what you find.">
   <div class="page-header">
     <h1 class="page-title">Browse the tracker</h1>
     <p class="page-subtitle">
-      {`Every document, honestly labeled: ${kindCounts['instrument'] || 0} policy documents, ${kindCounts['process'] || 0} in the making, ${kindCounts['analysis'] || 0} analysis pieces, ${kindCounts['announcement'] || 0} announcements and ${kindCounts['news'] || 0} news items. Filters are shareable — the URL updates as you refine.`}
+      {`Every document is labelled by kind: ${kindCounts['instrument'] || 0} policy documents, ${kindCounts['process'] || 0} in the making, ${kindCounts['analysis'] || 0} analysis pieces, ${kindCounts['announcement'] || 0} announcements and ${kindCounts['news'] || 0} news items. The address updates as you filter, so you can share a view.`}
     </p>
   </div>
 
-  {/* Kind tabs */}
-  <div class="kind-tabs" role="tablist">
+  {/* Kind */}
+  <div class="kind-tabs" role="group" aria-label="Kind of document">
     {TABS.map(t => (
-      <button class={`kind-tab ${t.key === 'all' ? 'active' : ''}`} data-kind-tab={t.key} role="tab" title={t.hint}>
+      <button type="button" class={`kind-tab ${t.key === 'all' ? 'active' : ''}`} data-kind-tab={t.key} aria-pressed={t.key === 'all' ? 'true' : 'false'} title={t.hint}>
         {t.label}
         <span class="kind-tab-count">{t.key === 'all' ? all.length : (kindCounts[t.key] || 0)}</span>
       </button>
@@ -79,285 +79,366 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
   </div>
   <p class="kind-hint" id="kind-hint">{TABS[0].hint}</p>
 
-  {/* Toolbar: search + selects + type chips */}
-  <div class="browse-toolbar">
-    <input type="search" id="browse-search" class="browse-search" placeholder="Search titles and summaries…" />
-    <select id="browse-sector" class="browse-select">
-      <option value="all">All sectors</option>
-      {sortedSectors.map(([sector, count]) => (
-        <option value={sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}>{sector} ({count})</option>
-      ))}
-    </select>
-    <select id="browse-source" class="browse-select">
-      <option value="all">All sources</option>
-      {sortedSources.map(([source, count]) => (
-        <option value={source}>{source} ({count})</option>
-      ))}
-    </select>
-  </div>
+  {/* Search, selects, sort */}
+  <form class="bf-controls" id="bf-controls" role="search" aria-label="Filter documents">
+    <div class="bf-field bf-field-wide">
+      <label for="browse-search">Search</label>
+      <input type="search" id="browse-search" class="browse-search" placeholder="Words from the title or summary" autocomplete="off" />
+    </div>
+    <div class="bf-field">
+      <label for="browse-sector">Sector</label>
+      <select id="browse-sector" class="browse-select">
+        <option value="all">All sectors</option>
+        {sortedSectors.map(([sector, count]) => (
+          <option value={sectorSlug(sector)}>{sector} ({count})</option>
+        ))}
+      </select>
+    </div>
+    <div class="bf-field">
+      <label for="browse-source">Source</label>
+      <select id="browse-source" class="browse-select">
+        <option value="all">All sources</option>
+        {sortedSources.map(([source, count]) => (
+          <option value={source}>{source} ({count})</option>
+        ))}
+      </select>
+    </div>
+    <div class="bf-field">
+      <label for="browse-period">Date</label>
+      <select id="browse-period" class="browse-select">
+        <option value="all">Any time</option>
+        <option value="7">Last 7 days</option>
+        <option value="30">Last 30 days</option>
+        <option value="90">Last 90 days</option>
+        <option value="365">Last 12 months</option>
+        <option value="older">Older than 12 months</option>
+        <option value="undated">No date given</option>
+      </select>
+    </div>
+    <div class="bf-field">
+      <label for="browse-sort">Order</label>
+      <select id="browse-sort" class="browse-select">
+        <option value="recommended">Recommended</option>
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="relevance">Best match</option>
+      </select>
+    </div>
+  </form>
 
-  <div class="type-chips" id="type-chips">
-    <button class="type-chip active" data-type-chip="all">All types</button>
+  <div class="type-chips" id="type-chips" role="group" aria-label="Type of document">
+    <button type="button" class="type-chip active" data-type-chip="all" aria-pressed="true">All types</button>
     {Object.entries(allTypes).sort((a, b) => b[1] - a[1]).map(([t, count]) => (
-      <button class="type-chip" data-type-chip={t} data-chip-kinds={JSON.stringify(Object.keys(typesByKind).filter(k => typesByKind[k][t]))}>
+      <button type="button" class="type-chip" data-type-chip={t} aria-pressed="false" data-chip-kinds={JSON.stringify(Object.keys(typesByKind).filter(k => typesByKind[k][t]))}>
         {TYPE_LABELS[t] ?? t} <span class="chip-count">{count}</span>
       </button>
     ))}
   </div>
 
+  <div class="bf-active" id="bf-active" hidden>
+    <span class="bf-active-label">Filters on:</span>
+    <span id="bf-active-list"></span>
+    <button type="button" class="bf-clear" id="bf-clear">Clear all</button>
+  </div>
+
   <div class="feed-toolbar">
-    <div id="feed-status" aria-live="polite" data-total={all.length} style="font-size:0.75rem; color:var(--color-text-muted);"></div>
+    <div id="feed-status" role="status" aria-live="polite" data-total={all.length} class="bf-status"></div>
     <div class="feed-toolbar-actions">
-      <button class="btn btn-secondary btn-sm" id="export-csv" title="Export the filtered items as CSV">CSV</button>
-      <button class="btn btn-secondary btn-sm" id="export-json" title="Export the filtered items as JSON">JSON</button>
+      <button type="button" class="btn btn-secondary btn-sm" id="export-csv" title="Download every matching document as CSV">CSV</button>
+      <button type="button" class="btn btn-secondary btn-sm" id="export-json" title="Download every matching document as JSON">JSON</button>
     </div>
   </div>
-  {items.length < all.length && (
-    <p class="cap-note">This page holds the newest {items.length.toLocaleString()} documents for speed; tab counts reflect the full archive of {all.length.toLocaleString()}. The complete dataset is downloadable from the <a href={`${base}api/`}>API page</a>.</p>
-  )}
 
   <div class="policy-feed" id="policy-feed">
-    {items.map((p, i) => (
-      <div class={`policy-card-wrap ${i >= INITIAL_SHOW ? 'hidden-card' : ''}`}>
+    {items.map(p => (
+      <div class="policy-card-wrap">
         <PolicyCard id={p.id} title={p.title} description={p.description} link={p.link}
           date={p.date} source_short={p.source_short} sectors={p.sectors} type={p.type}
           kind={getKind(p)} source_id={p.source_id} authority={p.authority} />
       </div>
     ))}
-    <div class="show-more-wrap" id="show-more-wrap">
-      <button class="btn btn-primary" id="show-more-btn">
-        Show more <span id="remaining-count"></span>
-      </button>
-    </div>
   </div>
-  <div id="no-results" class="empty-state" style="display:none;">
+  <div class="show-more-wrap" id="show-more-wrap">
+    <button type="button" class="btn btn-primary" id="show-more-btn">
+      Show more <span id="remaining-count"></span>
+    </button>
+  </div>
+  <div id="no-results" class="empty-state" hidden>
     <h3>No matching documents</h3>
-    <p>Try a different tab, or clear the search and filters.</p>
+    <p>Try a different kind, widen the date, or clear the search and filters.</p>
+    <button type="button" class="btn btn-secondary btn-sm" id="no-results-clear">Clear all filters</button>
   </div>
 </Base>
 
-<style>
-  .kind-tabs {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 6px;
-  }
+<style is:global>
+  .kind-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
   .kind-tab {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    padding: 8px 14px;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-pill);
-    background: var(--color-bg-white);
-    color: var(--color-text-secondary);
-    font-size: 0.8125rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.12s;
+    display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px;
+    border: 1px solid var(--color-border); border-radius: var(--radius-pill);
+    background: var(--color-bg-white); color: var(--color-text-secondary);
+    font-size: 0.8125rem; font-weight: 600; cursor: pointer; transition: all 0.12s;
   }
   .kind-tab:hover { border-color: var(--color-accent); color: var(--color-accent); }
-  .kind-tab.active {
-    background: var(--color-text);
-    border-color: var(--color-text);
-    color: var(--color-bg-white);
-  }
+  .kind-tab.active { background: var(--color-text); border-color: var(--color-text); color: var(--color-bg-white); }
   .kind-tab-count {
-    font-size: 0.6875rem;
-    font-weight: 700;
-    background: var(--color-bg-alt);
-    color: var(--color-text-muted);
-    border-radius: var(--radius-pill);
-    padding: 1px 7px;
+    font-size: 0.6875rem; font-weight: 700; background: var(--color-bg-alt);
+    color: var(--color-text-secondary); border-radius: var(--radius-pill); padding: 1px 7px;
   }
   .kind-tab.active .kind-tab-count { background: rgba(255,255,255,0.18); color: inherit; }
-  .kind-hint {
-    font-size: 0.75rem;
-    color: var(--color-text-muted);
-    margin: 0 0 var(--space-md);
-  }
+  [data-theme="dark"] .kind-tab.active .kind-tab-count { background: rgba(0,0,0,0.18); }
+  .kind-hint { font-size: 0.8rem; color: var(--color-text-secondary); margin: 0 0 var(--space-md); }
 
-  .browse-toolbar {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    margin-bottom: var(--space-sm);
+  .bf-controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: var(--space-sm); }
+  .bf-field { display: flex; flex-direction: column; gap: 3px; flex: 0 1 auto; min-width: 0; }
+  .bf-field-wide { flex: 1 1 260px; }
+  .bf-field label { font-size: 0.72rem; font-weight: 700; color: var(--color-text-secondary); }
+  .browse-search, .browse-select {
+    padding: 9px 12px; min-width: 0; width: 100%;
+    border: 1px solid var(--color-border); border-radius: var(--radius-md);
+    background: var(--color-bg-white); color: var(--color-text); font: inherit; font-size: 0.8125rem;
   }
-  .browse-search {
-    flex: 1 1 260px;
-    padding: 9px 14px;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    background: var(--color-bg-white);
-    color: var(--color-text);
-    font-size: 0.8125rem;
-  }
-  .browse-search:focus { outline: 2px solid var(--color-accent); outline-offset: -1px; }
-  .browse-select {
-    flex: 0 1 auto;
-    max-width: 240px;
-    padding: 9px 10px;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    background: var(--color-bg-white);
-    color: var(--color-text-secondary);
-    font-size: 0.8125rem;
-    font-weight: 500;
-  }
+  .browse-select { max-width: 240px; font-weight: 500; }
+  .browse-search:focus, .browse-select:focus { outline: 2px solid var(--color-accent); outline-offset: -1px; }
 
-  .type-chips {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    margin-bottom: var(--space-md);
-  }
+  .type-chips { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: var(--space-md); }
   .type-chip {
-    padding: 4px 10px;
-    border: 1px solid var(--color-border-light);
-    border-radius: var(--radius-pill);
-    background: var(--color-bg-alt);
-    color: var(--color-text-secondary);
-    font-size: 0.6875rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.1s;
+    padding: 5px 11px; border: 1px solid var(--color-border-light); border-radius: var(--radius-pill);
+    background: var(--color-bg-alt); color: var(--color-text-secondary);
+    font-size: 0.72rem; font-weight: 600; cursor: pointer; transition: all 0.1s;
   }
   .type-chip:hover { border-color: var(--color-accent); color: var(--color-accent); }
-  .type-chip.active {
-    background: var(--color-accent);
-    border-color: var(--color-accent);
-    color: #fff;
-  }
+  .type-chip.active { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-bg-white); }
   .type-chip[hidden] { display: none; }
-  .chip-count { opacity: 0.65; margin-left: 2px; }
+  .chip-count { opacity: 0.8; margin-left: 2px; }
+
+  .bf-active { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: var(--space-md); font-size: 0.8rem; }
+  .bf-active[hidden], #no-results[hidden] { display: none; }
+  .bf-active-label { color: var(--color-text-secondary); font-weight: 600; }
+  .bf-pill {
+    display: inline-flex; align-items: center; gap: 6px; padding: 3px 6px 3px 10px;
+    border: 1px solid var(--color-accent-border); border-radius: var(--radius-pill);
+    background: var(--color-accent-bg); color: var(--color-text); font: inherit; font-size: 0.78rem; cursor: pointer;
+  }
+  .bf-pill:hover { border-color: var(--color-accent); }
+  .bf-pill-x { font-weight: 700; line-height: 1; padding: 0 4px; }
+  .bf-clear { background: none; border: 0; padding: 4px 6px; color: var(--color-accent); font: inherit; font-size: 0.8rem; font-weight: 600; text-decoration: underline; cursor: pointer; }
 
   .feed-toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: var(--space-md);
-    padding: 8px 12px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--color-border-light);
+    display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+    margin-bottom: var(--space-md); padding: 8px 12px; background: var(--color-bg-alt);
+    border-radius: var(--radius-md); border: 1px solid var(--color-border-light);
   }
+  .bf-status { font-size: 0.8rem; color: var(--color-text-secondary); }
   .feed-toolbar-actions { display: flex; gap: 6px; }
-  .btn-sm { padding: 6px 12px !important; font-size: 0.6875rem !important; }
-
+  .btn-sm { padding: 6px 12px !important; font-size: 0.72rem !important; }
   .policy-card-wrap { display: contents; }
-  .hidden-card > :global(.policy-card) { display: none; }
-  .cap-note {
-    font-size: 0.6875rem;
-    color: var(--color-text-muted);
-    margin: -6px 0 var(--space-md);
-  }
-  .cap-note a { color: var(--color-accent); }
+  .policy-card mark { background: var(--color-accent-bg); color: inherit; border-radius: 2px; padding: 0 1px; }
+  .show-more-wrap { text-align: center; margin: var(--space-lg) 0; }
+  .show-more-wrap[hidden] { display: none; }
 </style>
 
-<script define:vars={{ INITIAL_SHOW }}>
+<script define:vars={{ INITIAL_SHOW, labels, base }}>
   document.addEventListener('astro:page-load', () => {
-    const wraps = Array.from(document.querySelectorAll('.policy-card-wrap'));
-    const cards = wraps.map(w => w.querySelector('.policy-card')).filter(Boolean);
     const searchInput = document.getElementById('browse-search');
-    if (!searchInput) return; // not on the browse page
+    const feed = document.getElementById('policy-feed');
+    if (!searchInput || !feed) return; // not on the browse page
 
-    // The hidden-card class only handles the pre-JS initial paint. Once JS
-    // owns visibility, drop it — the class's CSS rule outranks the inline
-    // `style.display = ''` that applyFilters uses to reveal cards, which is
-    // why "Show more" updated the count but never showed anything.
-    wraps.forEach(w => w.classList.remove('hidden-card'));
     const sectorSelect = document.getElementById('browse-sector');
     const sourceSelect = document.getElementById('browse-source');
+    const periodSelect = document.getElementById('browse-period');
+    const sortSelect = document.getElementById('browse-sort');
     const noResults = document.getElementById('no-results');
     const feedStatus = document.getElementById('feed-status');
     const showMoreBtn = document.getElementById('show-more-btn');
     const showMoreWrap = document.getElementById('show-more-wrap');
     const remainingCount = document.getElementById('remaining-count');
     const kindHint = document.getElementById('kind-hint');
+    const activeBar = document.getElementById('bf-active');
+    const activeList = document.getElementById('bf-active-list');
     const tabs = Array.from(document.querySelectorAll('[data-kind-tab]'));
     const chips = Array.from(document.querySelectorAll('[data-type-chip]'));
+    const archiveTotal = Number(feedStatus.dataset.total) || 0;
 
+    const DEFAULTS = { kind: 'all', type: 'all', sector: 'all', source: 'all', period: 'all', sort: 'recommended', q: '' };
+    const state = { ...DEFAULTS };
     let showCount = INITIAL_SHOW;
-    const state = { kind: 'all', type: 'all', sector: 'all', source: 'all', q: '' };
+    let data = null;        // every document, once loaded
+    let loading = null;
+    let matches = [];
+    const lastVisit = (localStorage.getItem('pd-last-visit') || '').slice(0, 10);
 
-    // ── Deep linking: read state from URL, write it back on change ──
     const params = new URLSearchParams(location.search);
-    for (const key of ['kind', 'type', 'sector', 'source', 'q']) {
-      if (params.get(key)) state[key] = params.get(key);
+    for (const key of Object.keys(DEFAULTS)) if (params.get(key)) state[key] = params.get(key);
+
+    const slug = s => s.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
+    const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const isDefault = () => Object.keys(DEFAULTS).every(k => state[k] === DEFAULTS[k]);
+    const terms = () => state.q.toLowerCase().split(/\s+/).filter(Boolean);
+
+    function load() {
+      if (data) return Promise.resolve(data);
+      if (!loading) {
+        loading = fetch(`${base}api/browse.json`)
+          .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+          .then(rows => {
+            data = rows;
+            for (const r of rows) {
+              r._slugs = r.c.map(slug);
+              r._hay = (r.t + ' ' + r.x + ' ' + r.s + ' ' + r.c.join(' ') + ' ' + (labels.type[r.y] || r.y)).toLowerCase();
+              r._title = r.t.toLowerCase();
+            }
+            return rows;
+          })
+          .catch(() => { loading = null; feedStatus.textContent = 'The full list could not be loaded. Check your connection and try again.'; throw new Error('load'); });
+      }
+      return loading;
+    }
+
+    function inPeriod(r) {
+      const p = state.period;
+      if (p === 'all') return true;
+      if (p === 'undated') return !r.d;
+      if (!r.d) return false;
+      const age = (Date.now() - new Date(r.d + 'T00:00:00').getTime()) / 86400000;
+      return p === 'older' ? age > 365 : age <= Number(p);
+    }
+
+    function filterRows() {
+      const ts = terms();
+      const out = [];
+      for (const r of data) {
+        if (state.kind !== 'all' && r.k !== state.kind) continue;
+        if (state.type !== 'all' && r.y !== state.type) continue;
+        if (state.sector !== 'all' && !r._slugs.includes(state.sector)) continue;
+        if (state.source !== 'all' && r.s !== state.source) continue;
+        if (!inPeriod(r)) continue;
+        if (ts.length) {
+          let ok = true, score = 0;
+          for (const t of ts) {
+            if (!r._hay.includes(t)) { ok = false; break; }
+            if (r._title.includes(t)) score += 3;
+            if (new RegExp('\\b' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(r._title)) score += 2;
+            score += 1;
+          }
+          if (!ok) continue;
+          r._score = score;
+        } else r._score = 0;
+        out.push(r);
+      }
+      const order = state.sort === 'relevance' && ts.length ? 'relevance' : state.sort === 'relevance' ? 'recommended' : state.sort;
+      if (order === 'newest') out.sort((a, b) => (b.d || '').localeCompare(a.d || ''));
+      else if (order === 'oldest') out.sort((a, b) => (a.d || '9999').localeCompare(b.d || '9999'));
+      else if (order === 'relevance') out.sort((a, b) => b._score - a._score);
+      return out;
+    }
+
+    function relTime(d) {
+      if (!d) return 'No date';
+      const days = Math.floor((Date.now() - new Date(d + 'T00:00:00').getTime()) / 86400000);
+      if (days <= 0) return 'Today';
+      if (days === 1) return 'Yesterday';
+      if (days < 7) return `${days}d ago`;
+      if (days < 30) return `${Math.floor(days / 7)}w ago`;
+      return new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+    }
+    const KIND_TITLES = {
+      instrument: 'A policy instrument issued by a government, regulator, or court',
+      process: 'Policy in the making: bill, draft, question, or committee report',
+      announcement: 'An official press release, which is not itself a policy',
+      analysis: 'Research or think-tank analysis of policy',
+      news: 'Journalism about policy, not a policy document',
+    };
+    const IMPL = { operational: 'Operational', partial: 'Partial', early: 'Early stage' };
+    const IMPL_INK = { operational: '#166534', partial: '#c2410c' };
+
+    function mark(text, ts) {
+      let out = esc(text);
+      for (const t of ts) {
+        if (t.length < 2) continue;
+        out = out.replace(new RegExp('(' + esc(t).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>');
+      }
+      return out;
+    }
+
+    // Mirrors components/PolicyCard.astro so a card looks the same wherever it is drawn.
+    function card(r, ts, bookmarks) {
+      const kindLabel = labels.kind[r.k] || r.k;
+      const typeLabel = labels.type[r.y] || r.y;
+      const isNew = lastVisit && r.d && r.d > lastVisit;
+      const sectors = r.c.map(s => `<a href="${base}sectors/${slug(s)}/" class="sector-badge">${esc(s)}</a>`).join('');
+      const impact = r.m ? `<div class="policy-impact-bar"><span class="impact-badge" style="background: var(${r.m[0] >= 8 ? '--type-scheme-bg' : r.m[0] >= 6 ? '--type-notification-bg' : '--color-bg-alt'}); color: var(--color-text);">Impact ${esc(r.m[0])}/10</span><span class="impact-beneficiaries">${esc(r.m[1])}</span><span class="impact-impl-tag" style="color: ${IMPL_INK[r.m[2]] || '#854d0e'};">${IMPL[r.m[2]] || 'Announced'}</span></div>` : '';
+      const priority = r.p ? `<span class="priority-badge priority-${r.p}">${r.p === 'critical' ? '●' : r.p === 'high' ? '▲' : '◆'} ${r.p}</span>` : '';
+      return `<div class="policy-card-wrap"><article class="policy-card kind-card-${r.k}" data-sectors='${esc(JSON.stringify(r._slugs))}' data-type="${esc(r.y)}" data-kind="${r.k}" data-source="${esc(r.s)}" data-date="${esc(r.d)}" data-id="${esc(r.i)}">
+        <button type="button" class="bookmark-btn${bookmarks.includes(r.i) ? ' bookmarked' : ''}" data-policy-id="${esc(r.i)}" title="Bookmark this policy (B)" aria-label="Bookmark this policy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg></button>
+        <div class="policy-card-header"><h3 class="policy-title"><a href="${base}policies/${esc(r.i)}/">${mark(r.t, ts)}</a></h3></div>
+        <div class="policy-meta">${isNew ? '<span class="new-badge">NEW</span>' : ''}${priority}<span class="policy-date">${esc(relTime(r.d))}</span><span class="meta-dot"></span><span class="policy-source">${esc(r.s)}</span><span class="policy-kind kind-${r.k}" title="${esc(KIND_TITLES[r.k] || '')}">${esc(kindLabel)}</span><span class="policy-type type-${esc(r.y)}">${esc(typeLabel)}</span></div>
+        ${r.x ? `<p class="policy-description">${mark(r.x, ts)}</p>` : ''}${impact}
+        <div class="policy-sectors">${sectors}</div></article></div>`;
+    }
+
+    function pill(key, text) {
+      return `<button type="button" class="bf-pill" data-clear="${key}" aria-label="Remove filter: ${esc(text)}">${esc(text)} <span class="bf-pill-x" aria-hidden="true">×</span></button> `;
+    }
+
+    function renderActive() {
+      const items = [];
+      if (state.kind !== 'all') items.push(pill('kind', (tabs.find(t => t.dataset.kindTab === state.kind)?.firstChild?.textContent || state.kind).trim()));
+      if (state.type !== 'all') items.push(pill('type', labels.type[state.type] || state.type));
+      if (state.sector !== 'all') items.push(pill('sector', labels.sector[state.sector] || state.sector));
+      if (state.source !== 'all') items.push(pill('source', state.source));
+      if (state.period !== 'all') items.push(pill('period', periodSelect.selectedOptions[0]?.textContent || state.period));
+      if (state.q) items.push(pill('q', `“${state.q}”`));
+      activeList.innerHTML = items.join('');
+      activeBar.hidden = items.length === 0;
+    }
+
+    function syncControls() {
+      tabs.forEach(t => {
+        const on = t.dataset.kindTab === state.kind;
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-pressed', String(on));
+      });
+      const activeTab = tabs.find(t => t.dataset.kindTab === state.kind);
+      if (kindHint && activeTab) kindHint.textContent = activeTab.title;
+      chips.forEach(c => {
+        const on = c.dataset.typeChip === state.type;
+        c.classList.toggle('active', on);
+        c.setAttribute('aria-pressed', String(on));
+        if (c.dataset.typeChip === 'all' || state.kind === 'all') c.hidden = false;
+        else c.hidden = !JSON.parse(c.dataset.chipKinds || '[]').includes(state.kind);
+      });
+      sectorSelect.value = state.sector;
+      sourceSelect.value = state.source;
+      periodSelect.value = state.period;
+      sortSelect.value = state.sort;
+      searchInput.value = state.q;
+      renderActive();
     }
 
     function syncUrl() {
       const p = new URLSearchParams();
-      for (const [k, v] of Object.entries(state)) {
-        if (v && v !== 'all') p.set(k, v);
-      }
+      for (const [k, v] of Object.entries(state)) if (v && v !== DEFAULTS[k]) p.set(k, v);
       const qs = p.toString();
       history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
     }
 
-    function syncControls() {
-      tabs.forEach(t => t.classList.toggle('active', t.dataset.kindTab === state.kind));
-      const activeTab = tabs.find(t => t.dataset.kindTab === state.kind);
-      if (kindHint && activeTab) kindHint.textContent = activeTab.title;
-      chips.forEach(c => {
-        c.classList.toggle('active', c.dataset.typeChip === state.type);
-        // Hide type chips that can't occur under the active kind tab.
-        if (c.dataset.typeChip === 'all' || state.kind === 'all') {
-          c.hidden = false;
-        } else {
-          const kinds = JSON.parse(c.dataset.chipKinds || '[]');
-          c.hidden = !kinds.includes(state.kind);
-        }
-      });
-      if (sectorSelect) sectorSelect.value = state.sector;
-      if (sourceSelect) sourceSelect.value = state.source;
-      if (searchInput) searchInput.value = state.q;
+    function paint(focusFrom) {
+      const ts = terms();
+      const bookmarks = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
+      const shown = matches.slice(0, showCount);
+      feed.innerHTML = shown.map(r => card(r, ts, bookmarks)).join('');
+      const remaining = matches.length - shown.length;
+      showMoreWrap.hidden = remaining <= 0;
+      if (remainingCount) remainingCount.textContent = remaining > 0 ? `(${remaining.toLocaleString()} more)` : '';
+      noResults.hidden = matches.length !== 0;
+      feedStatus.textContent = isDefault()
+        ? `${archiveTotal.toLocaleString()} documents in the archive. Showing ${shown.length.toLocaleString()}.`
+        : `${matches.length.toLocaleString()} of ${archiveTotal.toLocaleString()} documents match. Showing ${shown.length.toLocaleString()}.`;
+      if (typeof focusFrom === 'number') feed.querySelectorAll('.policy-title a')[focusFrom]?.focus();
     }
 
-    function applyFilters() {
-      let visibleCount = 0;
-      let totalMatching = 0;
-      const filtering = state.kind !== 'all' || state.type !== 'all'
-        || state.sector !== 'all' || state.source !== 'all' || state.q !== '';
-
-      for (const card of cards) {
-        const sectors = JSON.parse(card.dataset.sectors || '[]');
-        const matches = (state.kind === 'all' || card.dataset.kind === state.kind)
-          && (state.type === 'all' || card.dataset.type === state.type)
-          && (state.sector === 'all' || sectors.includes(state.sector))
-          && (state.source === 'all' || card.dataset.source === state.source)
-          && (!state.q || (card.textContent || '').toLowerCase().includes(state.q.toLowerCase()));
-
-        if (matches) {
-          totalMatching++;
-          if (totalMatching <= showCount) {
-            card.style.display = '';
-            visibleCount++;
-          } else {
-            card.style.display = 'none';
-          }
-        } else {
-          card.style.display = 'none';
-        }
-      }
-
-      if (noResults) noResults.style.display = totalMatching === 0 ? '' : 'none';
-      if (feedStatus) {
-        // The counts beside each filter cover the full archive, but this page
-        // holds only the newest documents of each kind. Say so, so a filter
-        // labelled with a bigger number than the list shows is not a mystery.
-        const archive = Number(feedStatus.dataset.total) || cards.length;
-        const capped = archive > cards.length;
-        feedStatus.textContent = filtering
-          ? `${totalMatching} matching documents${capped ? ` among the newest ${cards.length} held on this page (the full archive holds ${archive.toLocaleString()}; counts beside each filter are for the archive)` : ''}`
-          : `${cards.length} documents${capped ? ` shown of ${archive.toLocaleString()} in the archive` : ''}`;
-      }
-      if (showMoreWrap) {
-        const remaining = totalMatching - showCount;
-        showMoreWrap.style.display = remaining > 0 ? '' : 'none';
-        if (remainingCount && remaining > 0) remainingCount.textContent = `(${remaining} more)`;
-      }
+    function apply(focusFrom) {
+      return load().then(() => { matches = filterRows(); paint(focusFrom); }).catch(() => {});
     }
 
     function update(partial) {
@@ -365,77 +446,95 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
       showCount = INITIAL_SHOW;
       syncControls();
       syncUrl();
-      applyFilters();
+      if (isDefault() && !data) return; // the server-rendered first page already shows this view
+      apply();
     }
 
     tabs.forEach(t => t.addEventListener('click', () => {
-      // Changing kind resets the type filter if it can't occur there.
       const next = { kind: t.dataset.kindTab };
       const activeChip = chips.find(c => c.dataset.typeChip === state.type);
       if (activeChip && next.kind !== 'all' && state.type !== 'all') {
-        const kinds = JSON.parse(activeChip.dataset.chipKinds || '[]');
-        if (!kinds.includes(next.kind)) next.type = 'all';
+        if (!JSON.parse(activeChip.dataset.chipKinds || '[]').includes(next.kind)) next.type = 'all';
       }
       update(next);
     }));
     chips.forEach(c => c.addEventListener('click', () => update({ type: c.dataset.typeChip })));
-    sectorSelect?.addEventListener('change', () => update({ sector: sectorSelect.value }));
-    sourceSelect?.addEventListener('change', () => update({ source: sourceSelect.value }));
-    if (searchInput) {
-      let timer;
-      searchInput.addEventListener('input', () => {
-        clearTimeout(timer);
-        timer = setTimeout(() => update({ q: searchInput.value }), 200);
-      });
-    }
-    showMoreBtn?.addEventListener('click', () => { showCount += 30; applyFilters(); });
+    sectorSelect.addEventListener('change', () => update({ sector: sectorSelect.value }));
+    sourceSelect.addEventListener('change', () => update({ source: sourceSelect.value }));
+    periodSelect.addEventListener('change', () => update({ period: periodSelect.value }));
+    sortSelect.addEventListener('change', () => update({ sort: sortSelect.value }));
+    document.getElementById('bf-controls').addEventListener('submit', e => e.preventDefault());
+    let timer;
+    searchInput.addEventListener('input', () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        // Typing a query is the moment "Best match" becomes useful.
+        update({ q: searchInput.value.trim(), sort: state.sort === 'recommended' && searchInput.value.trim() ? 'relevance' : state.sort });
+      }, 180);
+    });
+    activeList.addEventListener('click', e => {
+      const b = e.target.closest('[data-clear]');
+      if (b) update({ [b.dataset.clear]: DEFAULTS[b.dataset.clear] });
+    });
+    const clearAll = () => update({ ...DEFAULTS });
+    document.getElementById('bf-clear').addEventListener('click', clearAll);
+    document.getElementById('no-results-clear').addEventListener('click', clearAll);
+    showMoreBtn.addEventListener('click', () => { const from = showCount; showCount += 30; paint(from); });
 
-    // ── Export what's filtered (all matches, not just rendered page) ──
-    function getMatching() {
-      const rows = [];
-      for (const card of cards) {
-        const sectors = JSON.parse(card.dataset.sectors || '[]');
-        const matches = (state.kind === 'all' || card.dataset.kind === state.kind)
-          && (state.type === 'all' || card.dataset.type === state.type)
-          && (state.sector === 'all' || sectors.includes(state.sector))
-          && (state.source === 'all' || card.dataset.source === state.source)
-          && (!state.q || (card.textContent || '').toLowerCase().includes(state.q.toLowerCase()));
-        if (!matches) continue;
-        rows.push({
-          id: card.dataset.id || '',
-          title: card.querySelector('.policy-title')?.textContent?.trim() || '',
-          kind: card.dataset.kind || '',
-          type: card.dataset.type || '',
-          source: card.dataset.source || '',
-          date: card.dataset.date || '',
-          sectors,
-          description: card.querySelector('.policy-description')?.textContent?.trim() || '',
-        });
-      }
-      return rows;
-    }
+    // Bookmarks on cards drawn here (the layout binds only the cards present at load).
+    feed.addEventListener('click', e => {
+      const btn = e.target.closest('.bookmark-btn');
+      if (!btn || btn.dataset.bound) return;
+      e.preventDefault(); e.stopPropagation();
+      const id = btn.dataset.policyId;
+      const bm = JSON.parse(localStorage.getItem('pd-bookmarks') || '[]');
+      const i = bm.indexOf(id);
+      if (i >= 0) bm.splice(i, 1); else bm.push(id);
+      localStorage.setItem('pd-bookmarks', JSON.stringify(bm));
+      btn.classList.toggle('bookmarked', i < 0);
+    });
+
+    // ── Export every match, not only the cards on screen ──
     function download(content, filename, mime) {
-      const blob = new Blob([content], { type: mime });
-      const url = URL.createObjectURL(blob);
+      const url = URL.createObjectURL(new Blob([content], { type: mime }));
       const a = document.createElement('a');
       a.href = url; a.download = filename; a.click();
       URL.revokeObjectURL(url);
     }
-    document.getElementById('export-csv')?.addEventListener('click', () => {
-      const rows = getMatching();
-      if (!rows.length) return;
-      const headers = ['id', 'title', 'kind', 'type', 'source', 'date', 'sectors', 'description'];
-      const csv = [headers.join(',')].concat(rows.map(r =>
-        headers.map(h => '"' + String(h === 'sectors' ? r[h].join('; ') : r[h]).replace(/"/g, '""') + '"').join(','))).join('\n');
-      download(csv, `policydhara-export-${new Date().toISOString().slice(0, 10)}.csv`, 'text/csv');
-    });
-    document.getElementById('export-json')?.addEventListener('click', () => {
-      const rows = getMatching();
-      if (!rows.length) return;
-      download(JSON.stringify(rows, null, 2), `policydhara-export-${new Date().toISOString().slice(0, 10)}.json`, 'application/json');
-    });
+    const origin = location.origin + base;
+    function rows() {
+      return matches.map(r => ({
+        id: r.i, title: r.t, kind: r.k, type: r.y, source: r.s, date: r.d,
+        sectors: r.c.join('; '), summary: r.x, url: `${origin}policies/${r.i}/`,
+      }));
+    }
+    function exportAs(kind) {
+      load().then(() => {
+        matches = filterRows();
+        if (!matches.length) return;
+        const stamp = new Date().toISOString().slice(0, 10);
+        if (kind === 'json') {
+          download(JSON.stringify(rows(), null, 2), `policydhara-export-${stamp}.json`, 'application/json');
+        } else {
+          const headers = ['id', 'title', 'kind', 'type', 'source', 'date', 'sectors', 'summary', 'url'];
+          const csv = [headers.join(',')].concat(rows().map(r =>
+            headers.map(h => '"' + String(r[h]).replace(/"/g, '""') + '"').join(','))).join('\r\n');
+          download('﻿' + csv, `policydhara-export-${stamp}.csv`, 'text/csv;charset=utf-8');
+        }
+      }).catch(() => {});
+    }
+    document.getElementById('export-csv').addEventListener('click', () => exportAs('csv'));
+    document.getElementById('export-json').addEventListener('click', () => exportAs('json'));
 
     syncControls();
-    applyFilters();
+    if (isDefault()) {
+      feedStatus.textContent = `${archiveTotal.toLocaleString()} documents in the archive. Showing ${INITIAL_SHOW}.`;
+      showMoreWrap.hidden = false;
+      // Fetch the full list while the reader looks at the first page.
+      (window.requestIdleCallback || (f => setTimeout(f, 1200)))(() => load().catch(() => {}));
+      showMoreBtn.addEventListener('click', () => { if (!data) apply(); }, { once: true });
+    } else {
+      apply();
+    }
   });
 </script>

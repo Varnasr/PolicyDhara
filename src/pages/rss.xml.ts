@@ -1,6 +1,6 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
-import { getAllPolicies } from '../lib/data';
+import { getAllPolicies, getMeta } from '../lib/data';
 import { renderPolicyHtml } from '../lib/rss-content';
 
 const SITE_URL = 'https://policydhara.impactmojo.in';
@@ -14,7 +14,7 @@ export function GET(context: APIContext) {
 
   return rss({
     title: 'PolicyDhara',
-    description: 'Auto-updating tracker of Indian development policies across 22 sectors — by ImpactMojo',
+    description: `Auto-updating tracker of Indian development policies across ${getMeta().total_sectors} sectors, by ImpactMojo`,
     site: siteRoot,
     items: policies.slice(0, 100).map(p => {
       // pubDate prefers issuance date, falls back to ingestion (first_seen),

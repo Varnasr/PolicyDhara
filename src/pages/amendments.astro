@@ -35,26 +35,26 @@ function fieldLabel(field: string): string {
   return labels[field] || field.charAt(0).toUpperCase() + field.slice(1);
 }
 ---
-<Base title="Amendments" description="Track policy changes, amendments, and text diffs across Indian government policies.">
+<Base title="Amendments" description="Changes to the tracker's own records of Indian government policy documents, such as a changed title, description, type or sector. These are not amendments to the law.">
   <div class="amendments-page">
     <div class="page-header">
       <nav class="breadcrumb">
         <a href={base}>Home</a>
         <span class="bc-sep">/</span>
-        <span>Amendments</span>
+        <span>Record changes</span>
       </nav>
-      <h1 class="page-title">Amendment Tracker</h1>
-      <p class="page-desc">Track when policies are updated, amended, or reclassified. Visual diffs show exactly what changed.</p>
+      <h1 class="page-title">Record changes</h1>
+      <p class="page-desc">This page shows changes to the tracker's own records of each document, such as a changed title, description, type or sector. These are changes in our records, not amendments to the law. A new description is often a different summary taken from the source site, so a change here does not show that the law or the document itself changed. Each entry shows the old and the new value of the field in our record.</p>
     </div>
 
     <div class="stats-row">
       <div class="stat-card">
         <span class="stat-num">{totalAmendedPolicies}</span>
-        <span class="stat-label">Amended Policies</span>
+        <span class="stat-label">Records changed</span>
       </div>
       <div class="stat-card">
         <span class="stat-num">{totalChanges}</span>
-        <span class="stat-label">Total Changes Tracked</span>
+        <span class="stat-label">Changes logged</span>
       </div>
     </div>
 
@@ -62,7 +62,7 @@ function fieldLabel(field: string): string {
       <div class="filter-bar">
         <label class="filter-label" for="sector-filter">Filter by sector</label>
         <select id="sector-filter" class="filter-select">
-          <option value="">All Sectors</option>
+          <option value="">All sectors</option>
           {allSectors.map(s => (
             <option value={s}>{s}</option>
           ))}
@@ -72,7 +72,7 @@ function fieldLabel(field: string): string {
 
     {recentAmended.length === 0 ? (
       <div class="empty-state">
-        <p>No amendments have been recorded yet. Amendment tracking begins when a policy reappears with changed text during the fetch pipeline.</p>
+        <p>No record changes have been logged yet. A change is logged when a document reappears in the fetch pipeline with a different title, description, type or sector.</p>
       </div>
     ) : (
       <div class="amendments-list" id="amendments-list">
@@ -378,7 +378,7 @@ function fieldLabel(field: string): string {
     border: 1px solid rgba(220, 38, 38, 0.15);
   }
   .diff-old del {
-    color: #b91c1c;
+    color: var(--ink-bad);
     text-decoration: line-through;
     text-decoration-color: rgba(220, 38, 38, 0.4);
   }
@@ -387,23 +387,23 @@ function fieldLabel(field: string): string {
     border: 1px solid rgba(22, 163, 74, 0.15);
   }
   .diff-new ins {
-    color: #15803d;
+    color: var(--ink-good);
     text-decoration: none;
     border-bottom: 1px solid rgba(22, 163, 74, 0.3);
   }
 
-  [data-theme="dark"] .diff-old {
+  :global(:root[data-theme="dark"]) .diff-old {
     background: rgba(220, 38, 38, 0.1);
     border-color: rgba(220, 38, 38, 0.2);
   }
-  [data-theme="dark"] .diff-old del {
+  :global(:root[data-theme="dark"]) .diff-old del {
     color: #fca5a5;
   }
-  [data-theme="dark"] .diff-new {
+  :global(:root[data-theme="dark"]) .diff-new {
     background: rgba(22, 163, 74, 0.1);
     border-color: rgba(22, 163, 74, 0.2);
   }
-  [data-theme="dark"] .diff-new ins {
+  :global(:root[data-theme="dark"]) .diff-new ins {
     color: #86efac;
   }
 

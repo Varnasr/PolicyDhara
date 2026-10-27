@@ -27,92 +27,95 @@ const sessions = parl.sessions;
 const bills = parl.bills_tracker;
 const history = parl.historical_productivity;
 
-const totalBillsPassed = sessions.reduce((s, sess) => s + sess.bills_passed, 0);
-const totalDaysSat = sessions.reduce((s, sess) => s + sess.days_sat, 0);
-const avgProductivity = sessions.length > 0 ? Math.round(sessions.reduce((s, sess) => s + sess.productivity_pct, 0) / sessions.length) : 0;
+const totalDaysSat = sessions.reduce((s, sess) => s + (sess.days_sat || 0), 0);
+const latestSession = sessions[sessions.length - 1];
+const notGiven = (v: number | null | undefined, suffix = '') => (v === null || v === undefined ? 'Not given' : `${v}${suffix}`);
+const ringPct = (v: number | null | undefined) => Math.min(Math.max(v ?? 0, 0), 100);
 
-const maxHistBills = Math.max(...history.map(h => h.bills_passed), 1);
+const maxHistBills = Math.max(...history.map(h => h.bills_passed || 0), 1);
 
 const SESSION_COLORS: Record<string, string> = {
   'Budget Session': '#16a34a',
   'Monsoon Session': '#2563eb',
   'Winter Session': '#d97706',
   'Special Session': '#7c3aed',
+  'First and Budget Sessions': '#16a34a',
 };
 
 const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
-  'Referred to JPC': { bg: 'var(--type-notification-bg)', text: 'var(--type-notification)' },
-  'Referred to Standing Committee': { bg: 'var(--type-notification-bg)', text: 'var(--type-notification)' },
+  'Referred to JPC': { bg: 'var(--type-notification-bg)', text: 'var(--ink-warn)' },
+  'Referred to Standing Committee': { bg: 'var(--type-notification-bg)', text: 'var(--ink-warn)' },
   'Pending in Lok Sabha': { bg: 'var(--color-bg-alt)', text: 'var(--color-text-muted)' },
-  'Passed in Lok Sabha': { bg: 'var(--type-scheme-bg)', text: 'var(--type-scheme)' },
+  'Passed in Lok Sabha': { bg: 'var(--type-scheme-bg)', text: 'var(--ink-good)' },
   'Enacted': { bg: 'var(--type-announcement-bg)', text: 'var(--type-announcement)' },
 };
 ---
-<Base title="Parliament Tracker" description="Track Indian Parliament sessions, bills, and legislative productivity — Lok Sabha and Rajya Sabha.">
+<Base title="Parliament Tracker" description="Track Indian Parliament sessions, bills, and legislative productivity in the Lok Sabha and Rajya Sabha.">
   <div style="padding: var(--space-xl) 0;">
     <h2 class="page-title">Parliament Tracker</h2>
     <p class="page-subtitle">
-      {parl.lok_sabha.current}th Lok Sabha — Speaker: {parl.lok_sabha.speaker} — Since {new Date(parl.lok_sabha.term_start).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}
+      {parl.lok_sabha.current}th Lok Sabha. Speaker: {parl.lok_sabha.speaker}. In office since {new Date(parl.lok_sabha.term_start).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}
     </p>
 
     {/* Overview stats */}
     <div class="parl-stats">
       <div class="parl-stat-card">
-        <span class="parl-stat-num">{totalBillsPassed}</span>
-        <span class="parl-stat-label">Bills Passed</span>
-        <span class="parl-stat-sub">{parl.lok_sabha.current}th Lok Sabha</span>
-      </div>
-      <div class="parl-stat-card">
         <span class="parl-stat-num">{totalDaysSat}</span>
-        <span class="parl-stat-label">Days Sat</span>
-        <span class="parl-stat-sub">{sessions.length} sessions</span>
+        <span class="parl-stat-label">Lok Sabha Sittings</span>
+        <span class="parl-stat-sub">{parl.lok_sabha.current}th Lok Sabha, {sessions.length} session entries</span>
       </div>
       <div class="parl-stat-card">
-        <span class="parl-stat-num">{avgProductivity}%</span>
-        <span class="parl-stat-label">Avg Productivity</span>
-        <span class="parl-stat-sub">Time utilised</span>
+        <span class="parl-stat-num">{notGiven(latestSession?.productivity_pct, '%')}</span>
+        <span class="parl-stat-label">Scheduled Time Used</span>
+        <span class="parl-stat-sub">Lok Sabha, latest session</span>
+      </div>
+      <div class="parl-stat-card">
+        <span class="parl-stat-num">{notGiven((bills as any).referred_share_pct, '%')}</span>
+        <span class="parl-stat-label">Bills Referred to Committees</span>
+        <span class="parl-stat-sub">{parl.lok_sabha.current}th Lok Sabha to Monsoon 2026</span>
       </div>
       <div class="parl-stat-card">
         <span class="parl-stat-num">{bills.total_pending}</span>
         <span class="parl-stat-label">Bills Pending</span>
-        <span class="parl-stat-sub">{bills.referred_to_committee} in committee</span>
+        <span class="parl-stat-sub">at the end of the Monsoon Session 2026</span>
       </div>
     </div>
 
     {/* Session cards */}
     <div class="parl-section">
       <h3>Sessions</h3>
+      <p class="section-attribution">Source: PRS Legislative Research Vital Stats notes. "Time used" is the share of its scheduled time the Lok Sabha functioned, as PRS reports it, and can exceed 100%. Sittings are Lok Sabha sitting days. "Not given" means the source note does not give the figure.</p>
       <div class="session-grid">
         {sessions.slice().reverse().map(sess => (
           <div class="session-card">
             <div class="session-header">
-              <span class="session-type-badge" style={`background: ${(SESSION_COLORS[sess.type] || '#888')}15; color: ${SESSION_COLORS[sess.type] || '#888'}; border: 1px solid ${(SESSION_COLORS[sess.type] || '#888')}30;`}>
+              <span class="session-type-badge" style={`background: color-mix(in srgb, ${SESSION_COLORS[sess.type] || '#888'} 9%, var(--color-bg-white)); color: color-mix(in srgb, ${SESSION_COLORS[sess.type] || '#888'} 45%, var(--color-text)); border: 1px solid color-mix(in srgb, ${SESSION_COLORS[sess.type] || '#888'} 30%, var(--color-bg-white));`}>
                 {sess.type}
               </span>
               <span class="session-dates">
-                {new Date(sess.start).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })} – {new Date(sess.end).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
+                {new Date(sess.start).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })} to {new Date(sess.end).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
               </span>
             </div>
             <h4 class="session-name">{sess.name}</h4>
 
             <div class="session-stats-row">
               <div class="session-mini-stat">
-                <span class="session-mini-num">{sess.days_sat}/{sess.days_scheduled}</span>
-                <span class="session-mini-label">Days Sat</span>
+                <span class="session-mini-num">{notGiven(sess.days_sat)}</span>
+                <span class="session-mini-label">Sittings</span>
               </div>
               <div class="session-mini-stat">
-                <span class="session-mini-num">{sess.bills_introduced}</span>
+                <span class="session-mini-num">{notGiven(sess.bills_introduced)}</span>
                 <span class="session-mini-label">Bills Intro</span>
               </div>
               <div class="session-mini-stat">
-                <span class="session-mini-num">{sess.bills_passed}</span>
+                <span class="session-mini-num">{notGiven(sess.bills_passed)}</span>
                 <span class="session-mini-label">Bills Passed</span>
               </div>
               <div class="session-mini-stat">
-                <div class="session-prod-ring" style={`background: conic-gradient(${sess.productivity_pct >= 70 ? '#16a34a' : sess.productivity_pct >= 50 ? '#d97706' : '#dc2626'} ${sess.productivity_pct}%, var(--color-bg-alt) 0);`}>
-                  <span class="session-prod-num">{sess.productivity_pct}%</span>
+                <div class="session-prod-ring" style={`background: conic-gradient(${(sess.productivity_pct ?? 0) >= 70 ? '#16a34a' : (sess.productivity_pct ?? 0) >= 50 ? '#d97706' : '#dc2626'} ${ringPct(sess.productivity_pct)}%, var(--color-bg-alt) 0);`}>
+                  <span class="session-prod-num">{notGiven(sess.productivity_pct, '%')}</span>
                 </div>
-                <span class="session-mini-label">Productivity</span>
+                <span class="session-mini-label">Time used</span>
               </div>
             </div>
 
@@ -121,6 +124,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
                 <span class="session-event">{evt}</span>
               ))}
             </div>
+            {(sess as any).note && <p class="session-note">{(sess as any).note}</p>}
           </div>
         ))}
       </div>
@@ -129,6 +133,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Key pending bills */}
     <div class="parl-section">
       <h3>Key Pending Bills</h3>
+      <p class="section-attribution">Bills referred to a Joint Parliamentary Committee, as listed by PRS Legislative Research. Bills that have since become Acts are not shown.</p>
       <div class="bills-table">
         <div class="bills-header-row">
           <span class="bills-col-name">Bill</span>
@@ -155,7 +160,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {liveBills.length > 0 && (
       <div class="parl-section">
         <h3>Bills on the Tracker</h3>
-        <p class="section-attribution">Live from PRS Bill Track and Digital Sansad via the 6-hourly pipeline — <a href={`${base}policies/?type=bill`}>see all</a></p>
+        <p class="section-attribution">Live from PRS Bill Track and Digital Sansad via the 6-hourly pipeline. <a href={`${base}policies/?type=bill`}>see all</a></p>
         <ul class="live-list">
           {liveBills.map(p => (
             <li class="live-row">
@@ -170,7 +175,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Drafts open for public comment */}
     <div class="parl-section">
       <h3>Open for Public Comment</h3>
-      <p class="section-attribution">Draft rules, policies and consultation papers currently inviting comments — pre-legislative scrutiny in the wild. <a href={`${base}policies/?type=draft`}>See all drafts</a></p>
+      <p class="section-attribution">Draft rules, policies and consultation papers currently inviting comments. These are public consultations on drafts, and most items are draft rules, not bills. <a href={`${base}policies/?type=draft`}>See all drafts</a></p>
       {liveDrafts.length === 0 ? (
         <p class="live-empty">No open consultations detected in the current fetch window.</p>
       ) : (
@@ -195,7 +200,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Question Hour */}
     <div class="parl-section">
       <h3>Question Hour</h3>
-      <p class="section-attribution">Starred and unstarred questions — from sansad.in when available, plus ministers' replies detected in official releases. <a href={`${base}policies/?type=question`}>See all Q&amp;A</a></p>
+      <p class="section-attribution">Starred and unstarred questions from sansad.in when available, plus ministers' replies detected in official releases. <a href={`${base}policies/?type=question`}>See all Q&amp;A</a></p>
       {sansadQuestions.length > 0 && (
         <ul class="live-list" style="margin-bottom: var(--space-sm);">
           {sansadQuestions.map(q => (
@@ -211,7 +216,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
         </ul>
       )}
       {sansadQuestions.length === 0 && liveQuestions.length === 0 ? (
-        <p class="live-empty">Replies appear here while Parliament is in session — the pipeline flags "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases, and fetches the sansad.in question corpus when its API responds.</p>
+        <p class="live-empty">Replies appear here while Parliament is in session. The pipeline flags the phrase "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases, and it fetches the sansad.in question corpus when its API responds.</p>
       ) : (
         liveQuestions.length > 0 && (
           <ul class="live-list">
@@ -231,7 +236,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
       <div class="parl-section">
         <h3>Standing Committee Reports</h3>
         <p class="section-attribution">
-          Data from <a href="https://sansad.in" target="_blank" rel="noopener">sansad.in</a> — inspired by <a href="https://github.com/pranaykotas/parliamentwatch" target="_blank" rel="noopener">ParliamentWatch</a>
+          Data from <a href="https://sansad.in" target="_blank" rel="noopener">sansad.in</a>, inspired by <a href="https://github.com/pranaykotas/parliamentwatch" target="_blank" rel="noopener">ParliamentWatch</a>
         </p>
 
         {/* Committee overview grid */}
@@ -257,7 +262,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
           </div>
           {recentReports.map(r => {
             const dateStr = r.presented_in_ls || r.laid_in_rs || '';
-            const displayDate = dateStr ? new Date(dateStr).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '—';
+            const displayDate = dateStr ? new Date(dateStr).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : 'Not given';
             return (
               <div class="reports-row">
                 <span class="reports-col-num">{r.report_number}</span>
@@ -267,7 +272,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
                 <span class="reports-col-link">
                   {r.pdf_url ? (
                     <a href={r.pdf_url} target="_blank" rel="noopener" class="pdf-link" title="Download PDF (English)">EN</a>
-                  ) : '—'}
+                  ) : 'None'}
                   {r.pdf_url_hindi ? (
                     <a href={r.pdf_url_hindi} target="_blank" rel="noopener" class="pdf-link pdf-link-hi" title="Download PDF (Hindi)">HI</a>
                   ) : null}
@@ -277,14 +282,15 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
           })}
         </div>
         <p class="committee-meta">
-          {committeeData.metadata.total_reports} reports across {committeeData.metadata.total_committees} committees — Last updated: {committeeData.metadata.last_updated}
+          {committeeData.metadata.total_reports} reports across {committeeData.metadata.total_committees} committees. Last updated: {committeeData.metadata.last_updated}
         </p>
       </div>
     )}
 
     {/* Historical comparison */}
     <div class="parl-section">
-      <h3>Legislative Productivity Across Lok Sabhas</h3>
+      <h3>Bills Passed and Time Used Across Lok Sabhas</h3>
+      <p class="section-attribution">{(parl as any).historical_note}</p>
       <div class="hist-chart">
         {history.map(h => (
           <div class="hist-row">
@@ -294,13 +300,13 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
             </div>
             <div class="hist-bar-group">
               <div class="hist-bar-track">
-                <div class="hist-bar-fill" style={`width: ${(h.bills_passed / maxHistBills) * 100}%; background: ${h.lok_sabha === parl.lok_sabha.current ? 'var(--color-accent)' : '#94a3b8'};`}></div>
+                <div class="hist-bar-fill" style={`width: ${((h.bills_passed || 0) / maxHistBills) * 100}%; background: ${h.lok_sabha === parl.lok_sabha.current ? 'var(--color-accent)' : '#94a3b8'};`}></div>
               </div>
-              <span class="hist-bills-count">{h.bills_passed} bills</span>
+              <span class="hist-bills-count">{h.bills_passed === null ? 'Not given' : `${h.bills_passed} bills`}</span>
             </div>
             <div class="hist-prod">
-              <span class="hist-prod-num" style={`color: ${h.avg_productivity >= 70 ? '#16a34a' : h.avg_productivity >= 50 ? '#d97706' : '#dc2626'};`}>{h.avg_productivity}%</span>
-              <span class="hist-prod-label">productivity</span>
+              <span class="hist-prod-num" style={`color: ${(h.avg_productivity ?? 0) >= 70 ? 'var(--ink-good)' : (h.avg_productivity ?? 0) >= 50 ? 'var(--ink-warn)' : 'var(--ink-bad)'};`}>{notGiven(h.avg_productivity, '%')}</span>
+              <span class="hist-prod-label">time used</span>
             </div>
           </div>
         ))}
@@ -445,6 +451,12 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     font-weight: 700;
     z-index: 1;
     color: var(--color-text);
+  }
+  .session-note {
+    font-size: 0.6875rem;
+    color: var(--color-text-dim);
+    margin: 8px 0 0;
+    line-height: 1.4;
   }
   .session-events {
     display: flex;
@@ -598,10 +610,10 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
   }
   .section-attribution a {
     color: var(--color-accent);
-    text-decoration: none;
+    text-decoration: underline;
   }
   .section-attribution a:hover {
-    text-decoration: underline;
+    text-decoration-thickness: 2px;
   }
   .committee-grid {
     display: grid;
@@ -713,7 +725,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     font-weight: 700;
     padding: 2px 6px;
     border-radius: var(--radius-sm);
-    background: var(--color-accent);
+    background: var(--color-accent-fill);
     color: white;
     text-decoration: none;
   }
@@ -721,7 +733,8 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     opacity: 0.8;
   }
   .pdf-link-hi {
-    background: #d97706;
+    background: #92400e;
+    color: #fff;
   }
   .committee-meta {
     font-size: 0.625rem;
@@ -767,7 +780,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     color: var(--color-text-muted);
     padding: var(--space-sm) 0;
   }
-  .closing-soon { color: var(--type-legislation); font-weight: 800; }
+  .closing-soon { color: var(--ink-bad); font-weight: 800; }
 
   @media (max-width: 768px) {
     .parl-stats { grid-template-columns: repeat(2, 1fr); }

@@ -58,5 +58,9 @@ jobs:
           if ! gh pr view "$BRANCH" --json state --jq .state 2>/dev/null | grep -q OPEN; then
             gh pr create --base master --head "$BRANCH" \
               --title "Chore: weekly source-health update" \
-              --body "Automated source-health probe results from the weekly run. Review the bucket changes and merge to update the live health board."
+              --body "Automated source-health probe results from the weekly run. Merged automatically; the bucket changes are in the diff."
           fi
+          # The policy-data workflow merges its own PR the same way. Without
+          # this the PR waited for a person, and the health board showed a
+          # probe from 21 September in late October.
+          gh pr merge "$BRANCH" --squash --delete-branch

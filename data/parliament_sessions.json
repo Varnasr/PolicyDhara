@@ -1,129 +1,182 @@
 {
   "metadata": {
-    "description": "Indian Parliament session data — Lok Sabha and Rajya Sabha sessions, bills, and legislative productivity",
-    "last_updated": "2026-03-04"
+    "description": "Indian Parliament session data for the 18th Lok Sabha: sittings, share of scheduled Lok Sabha time used, bills and key events, from PRS Legislative Research Vital Stats notes and the Lok Sabha and Rajya Sabha records",
+    "last_updated": "2026-10-27",
+    "source": "PRS Legislative Research, Vital Stats notes for each session; PIB year-end review 2024; Rajya Sabha resume of the 265th session",
+    "note": "'productivity_pct' is the share of its scheduled time that the Lok Sabha functioned, as PRS reports it, and can exceed 100. A null means the source note does not give the figure."
   },
   "lok_sabha": {
     "current": 18,
     "term_start": "2024-06-24",
-    "speaker": "Om Birla"
+    "speaker": "Om Birla",
+    "deputy_speaker": null
   },
   "sessions": [
     {
-      "name": "18th Lok Sabha — 1st Session",
-      "type": "Special Session",
+      "name": "18th Lok Sabha: first session and Budget Session 2024",
+      "type": "First and Budget Sessions",
       "start": "2024-06-24",
-      "end": "2024-07-03",
-      "days_sat": 7,
-      "days_scheduled": 7,
-      "bills_introduced": 0,
-      "bills_passed": 0,
-      "key_events": ["Election of Speaker Om Birla", "President's Address", "Members sworn in"],
-      "productivity_pct": 100
-    },
-    {
-      "name": "18th Lok Sabha — Budget Session 2024",
-      "type": "Budget Session",
-      "start": "2024-07-22",
       "end": "2024-08-09",
-      "days_sat": 14,
-      "days_scheduled": 15,
-      "bills_introduced": 8,
-      "bills_passed": 5,
-      "key_events": ["Union Budget 2024-25 presented", "Finance Bill passed", "Waqf Amendment Bill introduced"],
-      "productivity_pct": 57
+      "days_sat": 22,
+      "bills_introduced": 11,
+      "bills_passed": null,
+      "key_events": [
+        "Om Birla re-elected Speaker",
+        "Motion of Thanks to the President's Address",
+        "General Budget discussed for more than 27 hours in Lok Sabha",
+        "Waqf (Amendment) Bill, 2024 introduced on 8 August and referred to a Joint Parliamentary Committee"
+      ],
+      "productivity_pct": 123,
+      "note": "PRS reports these two sessions together: 22 sittings in the Lok Sabha and 20 in the Rajya Sabha, Lok Sabha at 123% and Rajya Sabha at 110% of scheduled time. The first session ended on 2 July (Lok Sabha) and 3 July (Rajya Sabha); the Budget Session ran from 22 July to 9 August 2024."
     },
     {
-      "name": "18th Lok Sabha — Winter Session 2024",
+      "name": "18th Lok Sabha: Winter Session 2024",
       "type": "Winter Session",
       "start": "2024-11-25",
       "end": "2024-12-20",
-      "days_sat": 17,
-      "days_scheduled": 20,
-      "bills_introduced": 12,
-      "bills_passed": 4,
-      "key_events": ["One Nation One Election Bill tabled", "Waqf Bill referred to JPC", "Constitution Day celebrated"],
-      "productivity_pct": 40
+      "days_sat": 20,
+      "bills_introduced": 4,
+      "bills_passed": 1,
+      "key_events": [
+        "Constitution discussed for 16 hours in Lok Sabha",
+        "Constitution (129th Amendment) Bill and Union Territories Laws (Amendment) Bill on simultaneous elections introduced",
+        "Notice for removal of the Vice-President (Chairman of the Rajya Sabha) given and rejected by the Deputy Chairman"
+      ],
+      "productivity_pct": 52
     },
     {
-      "name": "18th Lok Sabha — Budget Session 2025 (Part I)",
+      "name": "18th Lok Sabha: Budget Session 2025",
       "type": "Budget Session",
       "start": "2025-01-31",
-      "end": "2025-02-13",
-      "days_sat": 10,
-      "days_scheduled": 10,
-      "bills_introduced": 3,
-      "bills_passed": 2,
-      "key_events": ["Economic Survey tabled", "Union Budget 2025-26 presented", "Railway Budget integrated"],
-      "productivity_pct": 78
-    },
-    {
-      "name": "18th Lok Sabha — Budget Session 2025 (Part II)",
-      "type": "Budget Session",
-      "start": "2025-03-10",
       "end": "2025-04-04",
-      "days_sat": 18,
-      "days_scheduled": 20,
-      "bills_introduced": 7,
-      "bills_passed": 8,
-      "key_events": ["Finance Bill 2025 passed", "Demands for Grants debated", "DPDP Rules discussion"],
-      "productivity_pct": 65
+      "days_sat": 26,
+      "bills_introduced": 5,
+      "bills_passed": 10,
+      "key_events": [
+        "Waqf (Amendment) Bill, 2024 passed by the Lok Sabha on 2 April and the Rajya Sabha on 3 April",
+        "Lok Sabha approved President's Rule in Manipur after 42 minutes of discussion",
+        "Income Tax Bill, 2025 referred to a Select Committee of Lok Sabha"
+      ],
+      "productivity_pct": 111
     },
     {
-      "name": "18th Lok Sabha — Monsoon Session 2025",
+      "name": "18th Lok Sabha: Monsoon Session 2025",
       "type": "Monsoon Session",
       "start": "2025-07-21",
-      "end": "2025-08-15",
-      "days_sat": 19,
-      "days_scheduled": 20,
-      "bills_introduced": 11,
-      "bills_passed": 9,
-      "key_events": ["Semiconductor Policy Bill", "One Nation One Election Bill debated", "Labour Code implementation update"],
-      "productivity_pct": 72
+      "end": "2025-08-21",
+      "days_sat": 21,
+      "bills_introduced": 13,
+      "bills_passed": 14,
+      "key_events": [
+        "Operation Sindoor discussed for about 19 hours in Lok Sabha and 16 hours in Rajya Sabha",
+        "Motion to remove Justice Yashwant Varma admitted by the Speaker",
+        "Income-Tax (No.2) Bill, 2025 passed in Lok Sabha on the day it was introduced, without discussion"
+      ],
+      "productivity_pct": 29
     },
     {
-      "name": "18th Lok Sabha — Winter Session 2025",
+      "name": "18th Lok Sabha: Winter Session 2025",
       "type": "Winter Session",
-      "start": "2025-11-24",
+      "start": "2025-12-01",
       "end": "2025-12-19",
-      "days_sat": 16,
-      "days_scheduled": 20,
+      "days_sat": 15,
       "bills_introduced": 9,
-      "bills_passed": 6,
-      "key_events": ["Data Protection Board operational status", "Climate Action Plan 2030 tabled", "Minimum Support Price Bill"],
-      "productivity_pct": 55
+      "bills_passed": 7,
+      "key_events": [
+        "Bills on the nuclear energy regulator, rural employment guarantee and insurance laws passed within a week of introduction",
+        "Bills on higher education regulation and on securities laws referred to committees",
+        "Special discussions on the 150th anniversary of Vande Mataram and on electoral reforms"
+      ],
+      "productivity_pct": 103
     },
     {
-      "name": "18th Lok Sabha — Budget Session 2026 (Part I)",
+      "name": "18th Lok Sabha: Budget Session 2026",
       "type": "Budget Session",
-      "start": "2026-01-30",
-      "end": "2026-02-14",
-      "days_sat": 12,
-      "days_scheduled": 12,
-      "bills_introduced": 4,
-      "bills_passed": 2,
-      "key_events": ["Economic Survey 2025-26", "Union Budget 2026-27 presented", "Fiscal deficit target 4.4%"],
-      "productivity_pct": 82
+      "start": "2026-01-28",
+      "end": "2026-04-18",
+      "days_sat": 31,
+      "bills_introduced": null,
+      "bills_passed": null,
+      "key_events": [
+        "Session extended by three days to take up three delimitation Bills",
+        "Constitution (131st Amendment) Bill voted down in Lok Sabha, 298 members for and 230 against",
+        "Resolution to remove the Speaker moved in Lok Sabha and defeated after over 12 hours of discussion"
+      ],
+      "productivity_pct": 86
+    },
+    {
+      "name": "18th Lok Sabha: Monsoon Session 2026",
+      "type": "Monsoon Session",
+      "start": "2026-07-20",
+      "end": "2026-08-13",
+      "days_sat": 19,
+      "bills_introduced": null,
+      "bills_passed": 11,
+      "key_events": [
+        "Lok Sabha passed 11 Bills, nine of them with no member other than the Minister speaking",
+        "Public Examinations (Prevention of Unfair Means) Amendment Bill, 2026 discussed for nearly 11 hours in Lok Sabha",
+        "Foreign Contribution (Regulation) Amendment Bill, 2026 referred to a Joint Parliamentary Committee"
+      ],
+      "productivity_pct": 15
     }
   ],
   "bills_tracker": {
-    "total_pending": 42,
-    "referred_to_committee": 8,
-    "passed_lok_sabha_only": 5,
+    "total_pending": 31,
+    "total_pending_as_of": "end of the Monsoon Session 2026 (PRS Session Wrap). PRS counted 30 before the session and 13 Bills introduced during it",
+    "referred_share_pct": 21,
+    "referred_share_note": "Share of Bills introduced in the 18th Lok Sabha that have been referred to Committees, up to the Monsoon Session 2026 (PRS). The figure was 16% in the 17th and 28% in the 16th Lok Sabha.",
     "key_pending_bills": [
-      { "name": "One Nation One Election Bill", "introduced": "2024-12-17", "status": "Referred to JPC", "sector": "Governance & Reform" },
-      { "name": "Waqf (Amendment) Bill, 2024", "introduced": "2024-08-08", "status": "Referred to JPC", "sector": "Governance & Reform" },
-      { "name": "Minimum Support Price Guarantee Bill", "introduced": "2025-12-03", "status": "Pending in Lok Sabha", "sector": "Agriculture" },
-      { "name": "Industrial Relations Code (Amendment)", "introduced": "2026-01-15", "status": "Pending in Lok Sabha", "sector": "Labour & Employment" },
-      { "name": "Coastal Shipping Promotion Bill", "introduced": "2025-08-01", "status": "Passed in Lok Sabha", "sector": "Transport & Infrastructure" },
-      { "name": "Digital Competition Bill", "introduced": "2025-07-28", "status": "Referred to Standing Committee", "sector": "Digital & Technology" }
+      {
+        "name": "Constitution (129th Amendment) Bill, 2024 and Union Territories Laws (Amendment) Bill, 2024 (simultaneous elections)",
+        "introduced": "2024-12-17",
+        "status": "Referred to JPC",
+        "sector": "Governance & Reform"
+      },
+      {
+        "name": "Viksit Bharat Shiksha Adhishthan Bill, 2025",
+        "introduced": "2025-12-15",
+        "status": "Referred to JPC",
+        "sector": "Education"
+      },
+      {
+        "name": "Foreign Contribution (Regulation) Amendment Bill, 2026",
+        "introduced": "2026-03-25",
+        "status": "Referred to JPC",
+        "sector": "Finance"
+      }
     ]
   },
   "historical_productivity": [
-    { "lok_sabha": 14, "term": "2004-2009", "bills_passed": 248, "avg_productivity": 73 },
-    { "lok_sabha": 15, "term": "2009-2014", "bills_passed": 181, "avg_productivity": 62 },
-    { "lok_sabha": 16, "term": "2014-2019", "bills_passed": 205, "avg_productivity": 77 },
-    { "lok_sabha": 17, "term": "2019-2024", "bills_passed": 150, "avg_productivity": 58 },
-    { "lok_sabha": 18, "term": "2024-present", "bills_passed": 36, "avg_productivity": 69 }
-  ]
+    {
+      "lok_sabha": 14,
+      "term": "2004-2009",
+      "bills_passed": 248,
+      "avg_productivity": 87
+    },
+    {
+      "lok_sabha": 15,
+      "term": "2009-2014",
+      "bills_passed": 179,
+      "avg_productivity": 61
+    },
+    {
+      "lok_sabha": 16,
+      "term": "2014-2019",
+      "bills_passed": 133,
+      "avg_productivity": null
+    },
+    {
+      "lok_sabha": 17,
+      "term": "2019-2024",
+      "bills_passed": 179,
+      "avg_productivity": 88
+    },
+    {
+      "lok_sabha": 18,
+      "term": "2024-present",
+      "bills_passed": null,
+      "avg_productivity": null
+    }
+  ],
+  "historical_note": "Figures are those PRS Legislative Research gives in its Vital Stats notes on each Lok Sabha. The notes do not use one definition of 'bills passed' throughout (for the 15th Lok Sabha, PRS gives 179 with finance and appropriation Bills and 116 without them), so compare the counts with care. The share is the part of its scheduled time the Lok Sabha functioned. PRS gives no comparable single figure for the 16th, and the 18th is still in progress."
 }

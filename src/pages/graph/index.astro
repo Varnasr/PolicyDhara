@@ -1,4 +1,5 @@
 ---
+import { heat } from '../../lib/heat';
 import Base from '../../layouts/Base.astro';
 import KnowledgeGraph from '../../components/KnowledgeGraph.astro';
 import { getAllPolicies, getMeta } from '../../lib/data';
@@ -70,12 +71,12 @@ for (let i = 0; i < topSectors.length; i++) {
   }
 }
 ---
-<Base title="Knowledge Graph" description="Visual map of connections between policy sectors, sources, and themes across India's policy landscape.">
+<Base title="Knowledge Graph" description="Visual map of connections between policy sectors, sources, and themes in Indian policy.">
   <div style="margin-top: var(--space-xl);">
     <div class="section-header">
-      <h2 class="page-title">Knowledge Graph</h2>
-      <p class="page-subtitle">Which sources feed which sectors across India's policy landscape.
-        Bigger circle = more documents. Thicker line = stronger connection. Hover for counts.</p>
+      <h2 class="page-title">Knowledge graph</h2>
+      <p class="page-subtitle">This graph shows which sources feed which sectors in Indian policy.
+        A bigger circle means more documents, a thicker line means a stronger connection, and hovering shows the counts.</p>
     </div>
 
     {/* ── Graph Visualization ── */}
@@ -83,10 +84,10 @@ for (let i = 0; i < topSectors.length; i++) {
 
     {/* ── Sector Co-occurrence Heatmap ── */}
     <div class="section-header" style="margin-top: var(--space-2xl);">
-      <h3>Sector Co-occurrence Matrix</h3>
-      <p>How often sectors appear together on the same policy. Darker = stronger connection.</p>
+      <h3>Sector co-occurrence matrix</h3>
+      <p>How often sectors appear together on the same policy. Darker cells mean a stronger connection.</p>
     </div>
-    <div class="heatmap-wrap">
+    <div class="heatmap-wrap" tabindex="0" role="region" aria-label="Sector overlap table, scrolls sideways on narrow screens">
       <table class="heatmap-table">
         <thead>
           <tr>
@@ -102,11 +103,11 @@ for (let i = 0; i < topSectors.length; i++) {
                 const val = coMatrix[i][j];
                 const max = Math.max(...coMatrix.flat().filter((_, idx) => Math.floor(idx / topSectors.length) !== idx % topSectors.length));
                 const intensity = i === j ? 0.15 : (val / (max || 1));
-                const bg = i === j
-                  ? `rgba(22,163,74,0.15)`
-                  : `rgba(37,99,235,${Math.min(0.9, intensity * 0.8 + 0.05)})`;
+                const cell = i === j
+                  ? { background: 'color-mix(in srgb, #15803d 15%, var(--color-bg-white))', color: 'var(--color-text)' }
+                  : heat(Math.min(0.9, intensity * 0.8 + 0.05));
                 return (
-                  <td class="heatmap-cell" style={`background:${bg};`} title={`${row} + ${topSectors[j]}: ${val}`}>
+                  <td class="heatmap-cell" style={`background:${cell.background}; color:${cell.color};`} title={`${row} + ${topSectors[j]}: ${val}`}>
                     {val > 0 ? val : ''}
                   </td>
                 );
@@ -119,8 +120,8 @@ for (let i = 0; i < topSectors.length; i++) {
 
     {/* ── Top Connections List ── */}
     <div class="section-header" style="margin-top: var(--space-2xl);">
-      <h3>Strongest Connections</h3>
-      <p>Top sector pairs that most frequently appear together</p>
+      <h3>Strongest connections</h3>
+      <p>The sector pairs that appear together most often.</p>
     </div>
     <div class="connections-grid">
       {edgeList
@@ -181,7 +182,6 @@ for (let i = 0; i < topSectors.length; i++) {
     height: 36px;
     font-size: 0.625rem;
     font-weight: 600;
-    color: white;
     cursor: default;
   }
   .heatmap-cell:empty { color: transparent; }

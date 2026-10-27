@@ -11,18 +11,18 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
 ---
 <Base title="Embed Widgets" description="Embed live PolicyDhara data on your website using iframes or a lightweight JavaScript widget.">
   <div style="padding: var(--space-xl) 0;">
-    <h2 class="page-title">Embed Widgets</h2>
-    <p class="page-subtitle">Add live Indian policy data to your website, blog, or dashboard. Three options from simple badge to full feed.</p>
+    <h2 class="page-title">Embed widgets</h2>
+    <p class="page-subtitle">Add live Indian policy data to your website, blog or dashboard. There are three options, from a simple badge to a full feed.</p>
 
     {/* Overview stats */}
     <div class="embed-stats">
       <div class="embed-stat">
         <span class="embed-stat-num">3</span>
-        <span class="embed-stat-label">Widget Types</span>
+        <span class="embed-stat-label">Widget types</span>
       </div>
       <div class="embed-stat">
         <span class="embed-stat-num">{meta.total_policies}</span>
-        <span class="embed-stat-label">Policies Available</span>
+        <span class="embed-stat-label">Policies available</span>
       </div>
       <div class="embed-stat">
         <span class="embed-stat-num">{Object.keys(meta.sector_counts).length}</span>
@@ -39,8 +39,8 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       <div class="embed-section-header">
         <span class="embed-option-num">1</span>
         <div>
-          <h3>Stats Badge</h3>
-          <p class="embed-desc">A compact inline badge showing total policy count and sources. Perfect for sidebars and footers.</p>
+          <h3>Stats badge</h3>
+          <p class="embed-desc">A compact inline badge showing the total policy count and sources. It fits in a sidebar or footer.</p>
         </div>
       </div>
       <div class="embed-specs">
@@ -49,14 +49,14 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
         <span class="embed-spec">No JS required</span>
       </div>
       <div class="embed-code-block">
-        <div class="embed-code-label">Embed Code</div>
+        <div class="embed-code-label">Embed code</div>
         <pre class="embed-pre"><code id="code-stats">&lt;iframe src="{embedBase}stats/" width="300" height="80" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"&gt;&lt;/iframe&gt;</code></pre>
         <button class="embed-copy-btn" data-target="code-stats">Copy</button>
       </div>
       <div class="embed-preview-wrap">
-        <div class="embed-preview-label">Live Preview</div>
+        <div class="embed-preview-label">Live preview</div>
         <div class="embed-preview" style="max-width:320px;">
-          <iframe src={`${base}embed/stats/`} width="300" height="80" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>
+          <iframe title="Policy statistics widget preview" src={`${base}embed/stats/`} width="300" height="80" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>
         </div>
       </div>
     </div>
@@ -66,8 +66,8 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       <div class="embed-section-header">
         <span class="embed-option-num">2</span>
         <div>
-          <h3>Sector Feed</h3>
-          <p class="embed-desc">A compact feed of recent policies filtered by sector. Great for topic-specific pages.</p>
+          <h3>Sector feed</h3>
+          <p class="embed-desc">A compact feed of recent policies filtered by sector, suited to pages on one topic.</p>
         </div>
       </div>
       <div class="embed-specs">
@@ -77,26 +77,26 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       </div>
       <div class="embed-config">
         <label class="embed-config-label">Preview sector:</label>
-        <select id="feed-sector-select" class="embed-select">
-          <option value="">All Sectors</option>
+        <select id="feed-sector-select" class="embed-select" aria-label="Sector for the feed">
+          <option value="">All sectors</option>
           {sectorList.map(([s]) => <option value={s}>{s}</option>)}
         </select>
         <label class="embed-config-label">Limit:</label>
-        <select id="feed-limit-select" class="embed-select">
+        <select id="feed-limit-select" class="embed-select" aria-label="Number of items">
           <option value="3">3</option>
           <option value="5" selected>5</option>
           <option value="10">10</option>
         </select>
       </div>
       <div class="embed-code-block">
-        <div class="embed-code-label">Embed Code</div>
+        <div class="embed-code-label">Embed code</div>
         <pre class="embed-pre"><code id="code-feed">&lt;iframe src="{embedBase}feed/" width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"&gt;&lt;/iframe&gt;</code></pre>
         <button class="embed-copy-btn" data-target="code-feed">Copy</button>
       </div>
       <div class="embed-preview-wrap">
-        <div class="embed-preview-label">Live Preview</div>
+        <div class="embed-preview-label">Live preview</div>
         <div class="embed-preview" id="feed-preview-container" style="max-width:420px;">
-          <iframe id="feed-preview-iframe" src={`${base}embed/feed/`} width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>
+          <iframe id="feed-preview-iframe" title="Policy feed widget preview" src={`${base}embed/feed/`} width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>
         </div>
       </div>
     </div>
@@ -106,8 +106,8 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       <div class="embed-section-header">
         <span class="embed-option-num">3</span>
         <div>
-          <h3>JavaScript Widget</h3>
-          <p class="embed-desc">Drop in a <code>&lt;div&gt;</code> and a <code>&lt;script&gt;</code> tag. The widget automatically creates an embedded feed using configurable data attributes.</p>
+          <h3>JavaScript widget</h3>
+          <p class="embed-desc">Drop in a <code>&lt;div&gt;</code> and a <code>&lt;script&gt;</code> tag. The widget builds an embedded feed from the data attributes you set.</p>
         </div>
       </div>
       <div class="embed-specs">
@@ -116,7 +116,7 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
         <span class="embed-spec">data-* config</span>
       </div>
       <div class="embed-code-block">
-        <div class="embed-code-label">Embed Code</div>
+        <div class="embed-code-label">Embed code</div>
         <pre class="embed-pre"><code id="code-widget">&lt;div id="policydhara-widget" data-sector="health" data-limit="5"&gt;&lt;/div&gt;
 &lt;script src="{siteOrigin}{base}embed/widget.js"&gt;&lt;/script&gt;</code></pre>
         <button class="embed-copy-btn" data-target="code-widget">Copy</button>
@@ -146,7 +146,7 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       </div>
 
       <div class="embed-preview-wrap">
-        <div class="embed-preview-label">Live Preview</div>
+        <div class="embed-preview-label">Live preview</div>
         <div class="embed-preview" style="max-width:420px;">
           <div id="policydhara-widget" data-sector="" data-limit="5"></div>
         </div>
@@ -155,9 +155,9 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
 
     {/* Sector Slugs Reference */}
     <div class="embed-section">
-      <h3>Sector Slug Reference</h3>
+      <h3>Sector slug reference</h3>
       <p class="embed-desc">Use these slugs in <code>data-sector</code> or the <code>?sector=</code> URL parameter.</p>
-      <div class="embed-slugs">
+      <div class="embed-slugs" tabindex="0" role="region" aria-label="Sector slugs, scrolls sideways on narrow screens">
         {sectorList.map(([sector]) => {
           const slug = sector.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
           return (
@@ -228,7 +228,7 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
       const embedBase = 'https://policydhara.impactmojo.in/embed/';
       const localBase = feedIframe.src.split('/embed/feed/')[0] + '/embed/feed/';
 
-      feedCode.textContent = `<iframe src="${embedBase}feed/${path}${qs}" width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>`;
+      feedCode.textContent = `<iframe title="PolicyDhara policy feed" src="${embedBase}feed/${path}${qs}" width="400" height="300" frameborder="0" style="border:none;border-radius:8px;overflow:hidden;"></iframe>`;
       feedIframe.src = `${localBase}${path}${qs}`;
     }
 
@@ -286,7 +286,7 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: var(--color-accent);
+    background: var(--color-accent-fill);
     color: #fff;
     display: flex;
     align-items: center;
@@ -386,7 +386,7 @@ const sectorList = Object.entries(meta.sector_counts).sort(([,a], [,b]) => b - a
     font-size: 0.6875rem;
     font-family: inherit;
     font-weight: 600;
-    background: var(--color-accent);
+    background: var(--color-accent-fill);
     color: #fff;
     border: none;
     border-radius: var(--radius-sm);
