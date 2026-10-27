@@ -36,3 +36,21 @@ def test_irdai_listing_is_read_day_first_with_english_title(monkeypatch):
     assert item["title"] == "Repeal of the Guidelines on dividends"
     assert item["description"].startswith("Circular:")
     assert item["link"].endswith("documentId=1")
+
+
+TABLE = """
+<table><tr><th>Sr. No.</th><th>Date</th><th>Subject</th></tr>
+<tr><td>1</td><td>08 Jul, 2026</td><td>Notification under section 1 of the Code <a href="/n.pdf">pdf</a></td></tr>
+<tr><td>2</td><td>05/10/2026</td><td>Appointment of a member of the Board of the Authority</td></tr>
+<tr><td>3</td><td>soon</td><td>A row whose date cannot be read at all</td></tr>
+<tr><td>4</td><td>01 Jan, 2026</td><td>Short</td></tr>
+</table>
+"""
+
+
+def test_dated_table_reads_header_columns_and_skips_unreadable_rows(monkeypatch):
+    scrape = _load("fetch_scrape")
+    monkeypatch.setattr(scrape, "safe_get", lambda url, headers=None: SimpleNamespace(content=TABLE.encode()))
+    items = scrape.scrape_dated_table({"url": "https://example.gov.in/list"})
+    assert [i["date"] for i in items] == ["2026-07-08", "2026-10-05"]   # day first: 5 October
+    assert items[0]["link"] == "https://example.gov.in/n.pdf"

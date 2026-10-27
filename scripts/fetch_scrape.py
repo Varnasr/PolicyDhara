@@ -249,6 +249,62 @@ def scrape_irdai(config: dict) -> list[dict]:
     return items
 
 
+_TITLE_HEADERS = ("subject", "title", "description", "particulars", "name of", "short description")
+_DATE_FORMATS = ("%d %b, %Y", "%d %b %Y", "%d %B, %Y", "%d %B %Y", "%d/%m/%Y", "%d-%m-%Y",
+                 "%d.%m.%Y", "%Y-%m-%d", "%b %d, %Y")
+
+
+def _parse_listed_date(text: str) -> str:
+    """Parse the date formats government tables use, day first. dateutil reads
+    05/10/2026 as 10 May, so explicit formats come first and an unreadable
+    value is left empty rather than guessed."""
+    from datetime import datetime as _dt
+    text = " ".join((text or "").split())
+    for fmt in _DATE_FORMATS:
+        try:
+            return _dt.strptime(text, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return ""
+
+
+def scrape_dated_table(config: dict) -> list[dict]:
+    """Read a listing table whose header names a date column and a title
+    column (IBBI notifications, Law Commission documents). Rows without a
+    readable date are skipped: an undated item cannot be placed in time."""
+    resp = safe_get(config.get("url", ""))
+    if not resp:
+        return []
+    soup = BeautifulSoup(resp.content, "lxml")
+    base = config.get("url", "")
+    items = []
+    for table in soup.select("table"):
+        rows = table.select("tr")
+        if len(rows) < 2:
+            continue
+        head = [c.get_text(" ", strip=True).lower() for c in rows[0].select("th,td")]
+        date_i = next((i for i, h in enumerate(head) if h.startswith("date") or h.endswith("date")), None)
+        title_i = next((i for i, h in enumerate(head) if any(t in h for t in _TITLE_HEADERS)), None)
+        if date_i is None or title_i is None:
+            continue
+        for row in rows[1:]:
+            cells = row.select("td")
+            if len(cells) <= max(date_i, title_i):
+                continue
+            date = _parse_listed_date(cells[date_i].get_text(" ", strip=True))
+            title = " ".join(cells[title_i].get_text(" ", strip=True).split())
+            if not date or len(title) < 15:
+                continue
+            link = ""
+            for a in row.select("a"):
+                href = a.get("href", "")
+                if href and not href.startswith(("#", "javascript")):
+                    link = _abs_url(href, base)
+                    break
+            items.append({"title": title[:200], "description": title[:300], "link": link, "date": date})
+    return items
+
+
 def scrape_niti_aayog(config: dict) -> list[dict]:
     """Scrape publications from NITI Aayog."""
     items = []
@@ -863,7 +919,7 @@ SOURCE_SCRAPERS = {
     "cbic": scrape_ministry,
     "cbdt": scrape_ministry,
     "dpiit": scrape_ministry,
-    "ibbi": scrape_ministry,
+    "ibbi": scrape_dated_table,
     # Additional ministries
     "mohfw": scrape_ministry,
     "moe": scrape_ministry,
@@ -883,7 +939,7 @@ SOURCE_SCRAPERS = {
     "morail": scrape_ministry,
     # Legal & judicial
     "sci_judgments": scrape_ministry,
-    "law_commission": scrape_ministry,
+    "law_commission": scrape_dated_table,
     "csds_lokniti": scrape_ministry,
     # Sector-specific
     "nabard": scrape_ministry,
@@ -1121,7 +1177,7 @@ SOURCE_SCRAPERS = {
     "hp_govt": scrape_ministry,
     "jharkhand_govt": scrape_ministry,
     "jk_govt": scrape_ministry,
-    "ladakh_govt": scrape_ministry,
+    "ladakh_govt": scrape_dated_table,
     "manipur_govt": scrape_ministry,
     "meghalaya_govt": scrape_ministry,
     "mizoram_govt": scrape_ministry,
