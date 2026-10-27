@@ -1,0 +1,180 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getAllEvidence, VERDICT_LABELS, DESIGN_LABELS, VERDICT_RULES } from '../../lib/evidence';
+import type { Verdict } from '../../lib/evidence';
+
+const cases = getAllEvidence();
+const base = (import.meta.env.BASE_URL).replace(/\/?$/, '/');
+const areas = [...new Set(cases.map(c => c.area))].sort();
+const designs = [...new Set(cases.map(c => c.design))];
+const verdicts: Verdict[] = ['worked', 'did-not-work', 'mixed'];
+const count = (v: Verdict) => cases.filter(c => c.verdict === v).length;
+---
+<Base title="Evidence" description={`What worked and what did not in Indian policy: ${cases.length} interventions with a published evaluation, each tied to a source.`}>
+  <div class="ev-wrap">
+    <h2 class="page-title">Evidence from India</h2>
+    <p class="page-subtitle">
+      Interventions carried out in India, each judged by a published evaluation. Every case gives the study design, the size of the effect and a link to the paper.
+    </p>
+
+    <form class="ev-controls" id="ev-controls" role="search">
+      <div class="ev-field ev-field-wide">
+        <label for="ev-q">Search</label>
+        <input id="ev-q" type="search" placeholder="Programme, outcome or state" autocomplete="off" />
+      </div>
+      <div class="ev-field">
+        <label for="ev-area">Policy area</label>
+        <select id="ev-area">
+          <option value="">All areas</option>
+          {areas.map(a => <option value={a}>{a}</option>)}
+        </select>
+      </div>
+      <div class="ev-field">
+        <label for="ev-design">Study design</label>
+        <select id="ev-design">
+          <option value="">All designs</option>
+          {designs.map(d => <option value={d}>{DESIGN_LABELS[d]}</option>)}
+        </select>
+      </div>
+    </form>
+
+    <div class="ev-verdicts" role="group" aria-label="Filter by verdict">
+      <button type="button" class="ev-verdict" data-verdict="" aria-pressed="true">All <span class="ev-n">{cases.length}</span></button>
+      {verdicts.map(v => (
+        <button type="button" class="ev-verdict" data-verdict={v} aria-pressed="false">
+          <span class={`ev-dot ev-dot-${v}`} aria-hidden="true"></span>{VERDICT_LABELS[v]} <span class="ev-n">{count(v)}</span>
+        </button>
+      ))}
+    </div>
+
+    <p class="ev-status" id="ev-status" role="status" aria-live="polite"></p>
+
+    <ul class="ev-grid" id="ev-grid">
+      {cases.map(c => (
+        <li class="ev-card"
+            data-verdict={c.verdict} data-area={c.area} data-design={c.design}
+            data-text={[c.title, c.intervention, c.area, c.geography.states.join(' '), ...c.effects.map(e => e.outcome)].join(' ').toLowerCase()}>
+          <a class="ev-card-link" href={`${base}evidence/${c.id}/`}>
+            <span class="ev-badge"><span class={`ev-dot ev-dot-${c.verdict}`} aria-hidden="true"></span>{VERDICT_LABELS[c.verdict]}</span>
+            <h3 class="ev-card-title">{c.title}</h3>
+            <p class="ev-card-text">{c.intervention}</p>
+            <p class="ev-card-meta">
+              {c.area} · {c.geography.states.length ? c.geography.states.join(', ') : 'All India'} · {c.period}
+            </p>
+            <p class="ev-card-meta">{DESIGN_LABELS[c.design]}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <section class="ev-rules" aria-labelledby="ev-rules-h">
+      <h3 id="ev-rules-h">What the verdicts mean</h3>
+      <dl>
+        {verdicts.map(v => (
+          <>
+            <dt><span class={`ev-dot ev-dot-${v}`} aria-hidden="true"></span>{VERDICT_LABELS[v]}</dt>
+            <dd>{VERDICT_RULES[v]}</dd>
+          </>
+        ))}
+      </dl>
+      <p>A verdict describes the study cited, in the place and period it covered. It does not predict what the same intervention would do elsewhere.</p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  const q = document.getElementById('ev-q') as HTMLInputElement;
+  const area = document.getElementById('ev-area') as HTMLSelectElement;
+  const design = document.getElementById('ev-design') as HTMLSelectElement;
+  const status = document.getElementById('ev-status')!;
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('.ev-card'));
+  const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>('.ev-verdict'));
+  let verdict = '';
+  document.getElementById('ev-controls')!.addEventListener('submit', e => e.preventDefault());
+
+  function apply() {
+    const text = q.value.trim().toLowerCase();
+    let shown = 0;
+    for (const c of cards) {
+      const ok =
+        (!verdict || c.dataset.verdict === verdict) &&
+        (!area.value || c.dataset.area === area.value) &&
+        (!design.value || c.dataset.design === design.value) &&
+        (!text || (c.dataset.text || '').includes(text));
+      c.hidden = !ok;
+      if (ok) shown++;
+    }
+    status.textContent = shown === 0
+      ? 'No cases match these filters.'
+      : `Showing ${shown} of ${cards.length} cases.`;
+    const params = new URLSearchParams();
+    if (verdict) params.set('verdict', verdict);
+    if (area.value) params.set('area', area.value);
+    if (design.value) params.set('design', design.value);
+    if (text) params.set('q', q.value.trim());
+    const qs = params.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+  }
+
+  buttons.forEach(b => b.addEventListener('click', () => {
+    verdict = b.dataset.verdict || '';
+    buttons.forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    apply();
+  }));
+  [q, area, design].forEach(el => el.addEventListener('input', apply));
+
+  const p = new URLSearchParams(location.search);
+  verdict = p.get('verdict') || '';
+  area.value = p.get('area') || '';
+  design.value = p.get('design') || '';
+  q.value = p.get('q') || '';
+  buttons.forEach(x => x.setAttribute('aria-pressed', String((x.dataset.verdict || '') === verdict)));
+  apply();
+</script>
+
+<style>
+  .ev-wrap { padding: var(--space-xl) 0; }
+  .ev-controls { display: flex; flex-wrap: wrap; gap: var(--space-md); margin: var(--space-lg) 0 var(--space-md); }
+  .ev-field { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1 1 180px; }
+  .ev-field-wide { flex: 2 1 260px; }
+  .ev-field label { font-size: 0.8rem; font-weight: 600; color: var(--color-text-secondary); }
+  .ev-field input, .ev-field select {
+    font: inherit; padding: 8px 10px; min-width: 0; width: 100%;
+    color: var(--color-text); background: var(--color-bg-white);
+    border: 1px solid var(--color-border); border-radius: var(--radius-sm);
+  }
+  .ev-verdicts { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: var(--space-sm); }
+  .ev-verdict {
+    font: inherit; font-weight: 600; font-size: 0.9rem; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 14px; border-radius: var(--radius-pill);
+    color: var(--color-text); background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+  }
+  .ev-verdict[aria-pressed="true"] { background: var(--color-accent-bg); border-color: var(--color-accent); }
+  .ev-n { font-variant-numeric: tabular-nums; color: var(--color-text-secondary); font-weight: 500; }
+  .ev-status { min-height: 1.4em; font-size: 0.85rem; color: var(--color-text-secondary); margin: 0 0 var(--space-md); }
+  .ev-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; margin-right: 6px; }
+  .ev-verdict .ev-dot { margin-right: 0; }
+  .ev-dot-worked { background: var(--type-scheme); }
+  .ev-dot-did-not-work { background: var(--type-legislation); }
+  .ev-dot-mixed { background: var(--type-notification); }
+  .ev-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--space-md); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+  .ev-card { display: block; }
+  .ev-card[hidden] { display: none; }
+  .ev-card-link {
+    display: block; height: 100%; padding: var(--space-md); text-decoration: none; color: var(--color-text);
+    background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-md);
+    box-shadow: var(--shadow-card);
+  }
+  .ev-card-link:hover { box-shadow: var(--shadow-card-hover); border-color: var(--color-accent-border); }
+  .ev-badge { display: inline-flex; align-items: center; font-size: 0.78rem; font-weight: 700; color: var(--color-text); }
+  .ev-card-title { margin: 6px 0; font-size: 1.1rem; line-height: 1.25; }
+  .ev-card-text { margin: 0 0 8px; font-size: 0.92rem; color: var(--color-text-secondary); }
+  .ev-card-meta { margin: 0; font-size: 0.8rem; color: var(--color-text-secondary); }
+  .ev-rules { margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: 1px solid var(--color-border); max-width: 70ch; }
+  .ev-rules h3 { margin: 0 0 var(--space-sm); }
+  .ev-rules dt { font-weight: 700; margin-top: var(--space-sm); display: flex; align-items: center; }
+  .ev-rules dd { margin: 2px 0 0 16px; color: var(--color-text-secondary); }
+  .ev-rules p { color: var(--color-text-secondary); }
+</style>
