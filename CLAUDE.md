@@ -24,7 +24,7 @@ sixteen files; an empty or missing one means the site ships with a search box
 that finds nothing, and nothing errors.
 
 Check both numbers after any build that matters: the page count, currently
-2,450, and the presence of the index.
+2,459, and the presence of the index.
 
 ## The September 2026 dependency upgrade
 
@@ -47,7 +47,7 @@ Pagefind index built both times, and `npm audit` from 5 vulnerabilities to 0.
 ## Watch out for
 
 - **`npm audit` matters more here than in most repositories**, because Astro
-  ships the whole rendering path and this site has 2,450 pages of it. Read the
+  ships the whole rendering path and this site has 2,459 pages of it. Read the
   advisory rather than the count: a critical that only affects server-rendered
   output matters less on a prerendered site than a high that affects the build,
   which is why the AVIF one was the reason to move.
