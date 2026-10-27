@@ -1309,6 +1309,20 @@
           "interval_or_se": null,
           "quote": "found no significant effect of JSY on perinatal and neonatal deaths in the district-level differences-indifferences analysis",
           "page_or_section": "Replication of Lim et al., district differences-in-differences analysis"
+        },
+        {
+          "outcome": "Births in a public health facility, district differences in differences",
+          "result": "Rise of 19 percentage points, a doubling of the rate, if the scheme were implemented at full coverage; in practice the increase is substantially smaller because implementation was incomplete",
+          "interval_or_se": null,
+          "quote": "when implemented at full coverage, the JSY leads to a 19 percentage point increase or a doubling in the rate of utilisation",
+          "page_or_section": "Introduction (Powell-Jackson, Mazumdar and Mills, first version, 20 September 2011)"
+        },
+        {
+          "outcome": "Neonatal and early neonatal mortality, district differences in differences",
+          "result": "No statistically significant effect on either",
+          "interval_or_se": null,
+          "quote": "finding no statistically significant effect on either neonatal mortality (deaths within 28 days of birth) or early neonatal mortality (deaths within 24 hours of birth)",
+          "page_or_section": "Introduction (Powell-Jackson, Mazumdar and Mills, first version, 20 September 2011)"
         }
       ],
       "caveats": [
@@ -1317,7 +1331,8 @@
         "The mortality result is not consistent across designs. Matching and with-versus-without show reductions. District differences in differences shows no significant effect, per the 3ie paper.",
         "Matching compares women who received payment with women who did not. Unobserved differences between them could inflate the coverage effect.",
         "The abstract says the poorest and least educated women did not always have the highest odds of receiving payment.",
-        "Maternal mortality was assessed but the abstract gives no result for it. See not_verified."
+        "Maternal mortality was assessed but the abstract gives no result for it. See not_verified.",
+        "Powell-Jackson and colleagues find the facility-birth effect larger for less educated, poorer and marginalised women, and could not assess maternal mortality for lack of suitable data. Their placebo check found little or no effect on antenatal care, which the scheme did not pay for."
       ],
       "sources": [
         {
@@ -1333,6 +1348,11 @@
         {
           "citation": "Carvalho N and Rokicki S (2015), The impact of India's JSY conditional cash transfer programme: a replication study, 3ie Replication Paper 6",
           "url": "https://www.3ieimpact.org/sites/default/files/2017-11/rps_6_impact_of_indias_jsy.pdf",
+          "kind": "working-paper"
+        },
+        {
+          "citation": "Powell-Jackson T, Mazumdar S, Mills A (2015), Financial incentives in health: new evidence from India's Janani Suraksha Yojana, Journal of Health Economics 43, 154-169. Quotations are from the open first version of 20 September 2011 (LSHTM Research Online), which may differ from the journal text",
+          "url": "https://researchonline.lshtm.ac.uk/id/eprint/20618/",
           "kind": "working-paper"
         }
       ],

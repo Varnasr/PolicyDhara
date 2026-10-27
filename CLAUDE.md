@@ -82,7 +82,9 @@ Balsakhi, Surat, Rajasthan police reform, women's police stations, the Debt
 Recovery Tribunals, Gujarat audits, Bihar e-FMS, Hyderabad microfinance and
 teacher performance pay; the publisher page for the midday meals quotations;
 the Lancet abstract for Janani Suraksha Yojana (the 3ie replication reproduces
-the table with unlabelled units, so those figures are not printed). The Chennai
+the table with unlabelled units, so those figures are not printed; the
+facility-birth and neonatal results come from the open first version of
+Powell-Jackson, Mazumdar and Mills, 2011). The Chennai
 property tax paper (November 2025) is unpublished. The BMJ 2014 paper
 evaluates Karnataka's Vajpayee Arogyashree, not Andhra Pradesh's Aarogyasri,
 and is filed under that scheme. The health cases added the same day (IMNCI,
