@@ -48,11 +48,11 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
   'Enacted': { bg: 'var(--type-announcement-bg)', text: 'var(--type-announcement)' },
 };
 ---
-<Base title="Parliament Tracker" description="Track Indian Parliament sessions, bills, and legislative productivity — Lok Sabha and Rajya Sabha.">
+<Base title="Parliament Tracker" description="Track Indian Parliament sessions, bills, and legislative productivity in the Lok Sabha and Rajya Sabha.">
   <div style="padding: var(--space-xl) 0;">
     <h2 class="page-title">Parliament Tracker</h2>
     <p class="page-subtitle">
-      {parl.lok_sabha.current}th Lok Sabha — Speaker: {parl.lok_sabha.speaker} — Since {new Date(parl.lok_sabha.term_start).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}
+      {parl.lok_sabha.current}th Lok Sabha. Speaker: {parl.lok_sabha.speaker}. In office since {new Date(parl.lok_sabha.term_start).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}
     </p>
 
     {/* Overview stats */}
@@ -90,7 +90,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
                 {sess.type}
               </span>
               <span class="session-dates">
-                {new Date(sess.start).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })} – {new Date(sess.end).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
+                {new Date(sess.start).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })} to {new Date(sess.end).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
               </span>
             </div>
             <h4 class="session-name">{sess.name}</h4>
@@ -155,7 +155,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {liveBills.length > 0 && (
       <div class="parl-section">
         <h3>Bills on the Tracker</h3>
-        <p class="section-attribution">Live from PRS Bill Track and Digital Sansad via the 6-hourly pipeline — <a href={`${base}policies/?type=bill`}>see all</a></p>
+        <p class="section-attribution">Live from PRS Bill Track and Digital Sansad via the 6-hourly pipeline. <a href={`${base}policies/?type=bill`}>see all</a></p>
         <ul class="live-list">
           {liveBills.map(p => (
             <li class="live-row">
@@ -170,7 +170,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Drafts open for public comment */}
     <div class="parl-section">
       <h3>Open for Public Comment</h3>
-      <p class="section-attribution">Draft rules, policies and consultation papers currently inviting comments — pre-legislative scrutiny in the wild. <a href={`${base}policies/?type=draft`}>See all drafts</a></p>
+      <p class="section-attribution">Draft rules, policies and consultation papers currently inviting comments. This is pre-legislative scrutiny while it is still open. <a href={`${base}policies/?type=draft`}>See all drafts</a></p>
       {liveDrafts.length === 0 ? (
         <p class="live-empty">No open consultations detected in the current fetch window.</p>
       ) : (
@@ -195,7 +195,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {/* Question Hour */}
     <div class="parl-section">
       <h3>Question Hour</h3>
-      <p class="section-attribution">Starred and unstarred questions — from sansad.in when available, plus ministers' replies detected in official releases. <a href={`${base}policies/?type=question`}>See all Q&amp;A</a></p>
+      <p class="section-attribution">Starred and unstarred questions from sansad.in when available, plus ministers' replies detected in official releases. <a href={`${base}policies/?type=question`}>See all Q&amp;A</a></p>
       {sansadQuestions.length > 0 && (
         <ul class="live-list" style="margin-bottom: var(--space-sm);">
           {sansadQuestions.map(q => (
@@ -211,7 +211,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
         </ul>
       )}
       {sansadQuestions.length === 0 && liveQuestions.length === 0 ? (
-        <p class="live-empty">Replies appear here while Parliament is in session — the pipeline flags "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases, and fetches the sansad.in question corpus when its API responds.</p>
+        <p class="live-empty">Replies appear here while Parliament is in session. The pipeline flags the phrase "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases, and it fetches the sansad.in question corpus when its API responds.</p>
       ) : (
         liveQuestions.length > 0 && (
           <ul class="live-list">
@@ -231,7 +231,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
       <div class="parl-section">
         <h3>Standing Committee Reports</h3>
         <p class="section-attribution">
-          Data from <a href="https://sansad.in" target="_blank" rel="noopener">sansad.in</a> — inspired by <a href="https://github.com/pranaykotas/parliamentwatch" target="_blank" rel="noopener">ParliamentWatch</a>
+          Data from <a href="https://sansad.in" target="_blank" rel="noopener">sansad.in</a>, inspired by <a href="https://github.com/pranaykotas/parliamentwatch" target="_blank" rel="noopener">ParliamentWatch</a>
         </p>
 
         {/* Committee overview grid */}
@@ -257,7 +257,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
           </div>
           {recentReports.map(r => {
             const dateStr = r.presented_in_ls || r.laid_in_rs || '';
-            const displayDate = dateStr ? new Date(dateStr).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '—';
+            const displayDate = dateStr ? new Date(dateStr).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : 'Not given';
             return (
               <div class="reports-row">
                 <span class="reports-col-num">{r.report_number}</span>
@@ -267,7 +267,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
                 <span class="reports-col-link">
                   {r.pdf_url ? (
                     <a href={r.pdf_url} target="_blank" rel="noopener" class="pdf-link" title="Download PDF (English)">EN</a>
-                  ) : '—'}
+                  ) : 'None'}
                   {r.pdf_url_hindi ? (
                     <a href={r.pdf_url_hindi} target="_blank" rel="noopener" class="pdf-link pdf-link-hi" title="Download PDF (Hindi)">HI</a>
                   ) : null}
@@ -277,7 +277,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
           })}
         </div>
         <p class="committee-meta">
-          {committeeData.metadata.total_reports} reports across {committeeData.metadata.total_committees} committees — Last updated: {committeeData.metadata.last_updated}
+          {committeeData.metadata.total_reports} reports across {committeeData.metadata.total_committees} committees. Last updated: {committeeData.metadata.last_updated}
         </p>
       </div>
     )}
