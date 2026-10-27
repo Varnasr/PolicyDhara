@@ -20,6 +20,7 @@ Env vars:
 
 import argparse
 import json
+import re
 import os
 import sys
 import time
@@ -41,8 +42,8 @@ TIMEOUT = 12
 PROBE_WORKERS = 16
 
 
-def _fetch_items(sid: str, cfg: dict) -> int:
-    """Run the source's real fetcher and return the item count (0 on failure).
+def _fetch_items(sid: str, cfg: dict) -> tuple[int, int]:
+    """Run the source's real fetcher and return (items, dated items); (0, 0) on failure.
 
     A URL can be reachable (HTTP 200) yet extract nothing — stale scraper
     selectors, or a JS-rendered shell that static scraping can't read. Plain
@@ -52,7 +53,7 @@ def _fetch_items(sid: str, cfg: dict) -> int:
         from fetch_scrape import fetch_scrape_source
     except Exception as e:
         print(f"  ! {sid}: fetcher import failed: {e}")
-        return 0
+        return 0, 0
     # NB: don't redirect stdout here — this runs in worker threads and
     # contextlib.redirect_stdout mutates the *global* sys.stdout, so
     # concurrent redirects race and corrupt it. The fetchers' progress prints
@@ -64,22 +65,40 @@ def _fetch_items(sid: str, cfg: dict) -> int:
         elif t == "scrape":
             items = fetch_scrape_source(sid, cfg)
         else:
-            return 0
-        return len(items) if items else 0
+            return 0, 0
+        items = items or []
+        return len(items), sum(1 for i in items if _is_dated(i))
     except Exception as e:
         # A crash in our parser is not the same as an empty page — log it so
         # the health report can't silently bucket our own bugs as SHELL/DEAD.
         print(f"  ! {sid}: fetcher raised {type(e).__name__}: {e}")
-        return 0
+        return 0, 0
 
 
-def classify_bucket(status, body_len: int, items: int, covered_by: str = "") -> str:
-    """Bucket a probe result: WORKS / REDUNDANT / SELECTOR_BROKEN / SHELL / DEAD."""
+_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}")
+
+
+def _is_dated(item: dict) -> bool:
+    """An item the pipeline can place in time: a real date and a real title.
+    The scraper returns 'Download', 'PDF (9.34 MB)' and a minister's name as
+    titles, with no date; those are dropped at the date cut-off."""
+    date = str(item.get("date") or item.get("published") or "")
+    return bool(_DATE.match(date)) and len(str(item.get("title", "")).strip()) >= 20
+
+
+def classify_bucket(status, body_len: int, items: int, covered_by: str = "",
+                    dated: int | None = None) -> str:
+    """Bucket a probe result: WORKS / UNDATED / REDUNDANT / SELECTOR_BROKEN /
+    SHELL / DEAD. UNDATED means the fetcher returned items but none with a date
+    and a usable title, which the pipeline cannot use; `dated=None` skips that
+    test."""
     # If the real fetcher extracted content, the source WORKS — full stop.
     # This must come first: the lightweight probe() uses urllib and is often
     # blocked (403) by sites that the requests-based fetcher reaches fine
     # (e.g. ADB's RSS), and we must not mislabel a working feed as DEAD.
     if items > 0:
+        if dated is not None and dated == 0:
+            return "UNDATED"
         return "WORKS"
     # A source whose releases already flow through a working feed (a direct
     # ministry site duplicated by its PIB per-ministry feed) is not a bug to
@@ -149,8 +168,8 @@ def main() -> int:
             if not url:
                 return sid, None
             status, body_len = probe(url)
-            items = _fetch_items(sid, cfg)
-            return sid, (status, body_len, items)
+            items, dated = _fetch_items(sid, cfg)
+            return sid, (status, body_len, items, dated)
 
         with ThreadPoolExecutor(max_workers=PROBE_WORKERS) as ex:
             results = list(ex.map(_probe_one, sources.items()))
@@ -158,14 +177,15 @@ def main() -> int:
         for sid, res in results:
             if res is None:
                 continue
-            status, body_len, items = res
+            status, body_len, items, dated = res
             cfg = sources[sid]
             entry = health.setdefault(sid, {"first_probed": today, "streak": 0})
             entry["last_probed"] = today
             entry["last_status"] = status
             entry["last_body_len"] = body_len
             entry["last_items"] = items
-            entry["bucket"] = classify_bucket(status, body_len, items, cfg.get("covered_by", ""))
+            entry["last_dated"] = dated
+            entry["bucket"] = classify_bucket(status, body_len, items, cfg.get("covered_by", ""), dated)
             # "Healthy" now means the fetcher actually extracted content —
             # reachability alone is not enough (a JS shell returns 200 with 0
             # items and used to be counted healthy, hiding the real breakage).

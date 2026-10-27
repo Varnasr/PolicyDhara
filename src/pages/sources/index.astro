@@ -55,11 +55,13 @@ type SourceRow = {
 };
 
 // Health buckets from the weekly probe (see scripts/check_source_health.py):
-// WORKS = returns content; SELECTOR_BROKEN = page loads but parser gets
+// WORKS = returns dated content; UNDATED = returns items with no date or a
+// junk title, which the pipeline cannot place in time; SELECTOR_BROKEN = page loads but parser gets
 // nothing (fixable selectors); SHELL = JS-rendered/empty (needs RSS/API);
 // DEAD = unreachable / HTTP error.
 const BUCKET_META: Record<string, { label: string; color: string; bg: string }> = {
   WORKS:           { label: 'Working',       color: 'var(--ink-good)', bg: 'color-mix(in srgb, #16a34a 10%, var(--color-bg-white))' },
+  UNDATED:         { label: 'No dates',      color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
   REDUNDANT:       { label: 'Covered by PIB', color: 'var(--ink-teal)', bg: 'color-mix(in srgb, #0e7490 10%, var(--color-bg-white))' },
   SELECTOR_BROKEN: { label: 'Selectors broken', color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
   SHELL:           { label: 'JS shell',      color: 'color-mix(in srgb, #7c3aed 45%, var(--color-text))', bg: 'color-mix(in srgb, #7c3aed 10%, var(--color-bg-white))' },
@@ -125,7 +127,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
 
     {hasBuckets && (
       <div style="display: flex; gap: 8px; flex-wrap: wrap; margin: var(--space-md) 0;">
-        {['WORKS', 'REDUNDANT', 'SELECTOR_BROKEN', 'SHELL', 'DEAD'].filter(b => bucketCounts[b]).map(b => (
+        {['WORKS', 'UNDATED', 'REDUNDANT', 'SELECTOR_BROKEN', 'SHELL', 'DEAD'].filter(b => bucketCounts[b]).map(b => (
           <span style={`display:inline-flex; align-items:center; gap:6px; font-size:0.8rem; font-weight:600; padding:4px 10px; border-radius:6px; color:${BUCKET_META[b].color}; background:${BUCKET_META[b].bg};`}>
             {bucketCounts[b]} {BUCKET_META[b].label}
           </span>
