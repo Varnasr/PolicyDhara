@@ -30,20 +30,20 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       </div>
 
       <div class="search-filters">
-        <select id="filter-sector" class="search-select">
+        <select id="filter-sector" class="search-select" aria-label="Sector">
           <option value="">All sectors</option>
           {sectors.map(s => <option value={s}>{s}</option>)}
         </select>
-        <select id="filter-source" class="search-select">
+        <select id="filter-source" class="search-select" aria-label="Source">
           <option value="">All sources</option>
           {sources.map(s => <option value={s}>{s}</option>)}
         </select>
-        <select id="filter-type" class="search-select">
+        <select id="filter-type" class="search-select" aria-label="Type of document">
           <option value="">All types</option>
           {types.map(t => <option value={t}>{t}</option>)}
         </select>
-        <input type="date" id="filter-from" class="search-select" title="From date" />
-        <input type="date" id="filter-to" class="search-select" title="To date" />
+        <input type="date" id="filter-from" class="search-select" title="From date" aria-label="From date" />
+        <input type="date" id="filter-to" class="search-select" title="To date" aria-label="To date" />
       </div>
     </div>
 
@@ -298,7 +298,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
   }
   .search-mode-btn:hover { background: var(--color-bg-alt); }
   .search-mode-btn.active {
-    background: var(--color-accent);
+    background: var(--color-accent-fill);
     color: white;
   }
   #search-meta {

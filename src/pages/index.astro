@@ -603,7 +603,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--type-notification);
+    color: color-mix(in srgb, var(--type-notification) 40%, var(--color-text));
     margin-bottom: 8px;
     padding-bottom: 6px;
     border-bottom: 2px solid var(--type-notification-border);
@@ -901,6 +901,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     background: var(--color-accent-bg);
     color: var(--color-accent);
   }
+  .sidebar-meta a { text-decoration: underline; }
   .sidebar-meta {
     font-size: 0.75rem;
     color: var(--color-text-muted);

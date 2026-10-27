@@ -136,7 +136,7 @@ const GOV_PARTY_COLORS: Record<string, string> = {
     <div class="legis-era-chart">
       {legisEra.map(e => (
         <div class="legis-era-row">
-          <span class="legis-era-name" style={`color: ${ERA_COLORS[e.era] || '#888'};`}>
+          <span class="legis-era-name" style={`color: color-mix(in srgb, ${ERA_COLORS[e.era] || '#888'} 45%, var(--color-text));`}>
             {e.era}
             <span class="legis-era-range">{e.dateRange}</span>
           </span>
@@ -353,7 +353,7 @@ const GOV_PARTY_COLORS: Record<string, string> = {
     flex-direction: column;
     line-height: 1.15;
   }
-  .legis-era-range { font-weight: 400; font-size: 0.62rem; opacity: 0.55; }
+  .legis-era-range { font-weight: 400; font-size: 0.62rem; color: var(--color-text-secondary); }
   .legis-era-track {
     height: 12px;
     background: var(--color-bg-alt);

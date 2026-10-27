@@ -85,13 +85,13 @@ export const TYPE_COLORS: Record<string, string> = {
  * cover the full live taxonomy so a press release is described as a press
  * release, not mislabeled as a "policy framework". */
 export const TYPE_CONTEXT: Record<string, string> = {
-  act: 'A central or state Act is primary legislation passed by the legislature. It carries binding force and sets the rules under which citizens, institutions and markets operate.',
+  act: 'An Act of Parliament or of a State Legislature that has received assent. It is primary legislation, it binds once in force, and it sets the rules under which citizens, institutions and markets operate.',
   rules: 'Rules or regulations are subordinate legislation issued under an Act. They put the parent law into effect with binding procedural and technical detail.',
-  notification: 'An official government notification is a formal executive order that puts policy decisions into effect. It carries legal weight and specifies rules, dates, exemptions or procedural requirements.',
-  scheme: 'A government scheme is a structured programme with defined beneficiaries, a budget allocation and delivery mechanisms. It is the main instrument for delivering welfare and development outcomes.',
+  notification: 'An official government notification is a formal public notice, usually published in the Gazette. A notification made under a power in an Act can bring provisions into force, make rules or grant exemptions. Others only convey administrative decisions and carry no force of law by themselves.',
+  scheme: 'A government scheme is a structured programme with defined beneficiaries, a budget allocation and delivery mechanisms. It is usually set up by executive decision and not by a statute of its own.',
   budget: 'A budgetary action is an allocation, fiscal policy change or expenditure decision that shapes how public resources flow. It shows government priorities and affects how well programmes can be implemented.',
-  policy: 'A policy framework or directive is a strategic document that sets direction, principles and objectives for governance. It guides the design of schemes, legislation and implementation strategies.',
-  judgment: 'A court judgment is a judicial decision interpreting the law. It can strike down, uphold or reshape policy, and it binds government action within its jurisdiction.',
+  policy: 'A policy framework or directive is a strategic document that sets direction, principles and objectives for governance. It guides the design of schemes, legislation and implementation strategies, and is not legally binding by itself.',
+  judgment: 'A court judgment is a judicial decision interpreting the law. It can strike down, uphold or reshape policy, and it binds government action within its jurisdiction. A Supreme Court judgment is the law declared for all courts in India under Article 141 of the Constitution.',
   bill: 'A bill is proposed legislation that is not yet in force. It signals the direction of lawmaking and can be amended or lapse.',
   draft: 'A draft open for public comment is a proposed policy, rule or standard in consultation. It is not yet in force, and stakeholder input can still change it.',
   question: 'A Parliament question and answer is an official ministerial response that places facts, data or policy positions on the parliamentary record.',
@@ -104,7 +104,7 @@ export const TYPE_CONTEXT: Record<string, string> = {
   news: 'News coverage is journalism about policy and is not a policy document. It is useful as timely context, and the underlying instrument is linked where known.',
   opinion: 'An opinion or commentary is an argued perspective on policy. It reflects its author’s view and is not an official position.',
   // Legacy values still present in older records
-  legislation: 'A legislative action is a bill, act or amendment that creates or changes the legal framework. It carries binding force and sets the rules under which citizens, institutions and markets operate.',
+  legislation: 'A legislative action is a bill, Act or amendment that proposes or changes the legal framework. Only an enacted Act is in force, and a bill carries no binding force until it is enacted.',
   research: 'A research or analytical publication is an evidence-based assessment that informs policy design and evaluation. It supplies ideas and evidence for policy debates.',
   announcement: 'An official announcement is a public communication of a policy decision, milestone or initiative. It signals government intent and often comes before a formal notification or legislative action.',
 };
@@ -674,6 +674,12 @@ export function getEraDistribution(): {
  * Years are capped at the last complete year with reliable India Code coverage
  * (the current/most-recent year lags as acts are still being catalogued), so
  * the series is not distorted by a partial, under-recorded tail.
+ *
+ * Acts are grouped by calendar year of enactment, so a year in which the
+ * government changed is assigned wholly to the later government (2004 to the
+ * UPA, which took office in May, and 2014 to the NDA, which took office in
+ * May). The 1996 to 2004 band spans the United Front (1996 to 1998) and the
+ * Vajpayee NDA governments (1998 to 2004).
  */
 const LEGIS_LAST_COMPLETE_YEAR = 2024;
 

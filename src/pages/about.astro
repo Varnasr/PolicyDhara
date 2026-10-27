@@ -1,10 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getPolicyItems, getEraDistribution } from '../lib/data';
+import { getPolicyItems, getEraDistribution, getMeta } from '../lib/data';
 
 // Coverage stats are about policy, so they exclude news (level === 'media').
 const policies = getPolicyItems();
 const eras = getEraDistribution();
+const meta = getMeta();
 
 // Compute coverage stats. Undated items are excluded — an empty date string
 // sorts before every real date, so counting them lumped ~74 items into
@@ -169,7 +170,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
           <span class="bias-icon">6</span>
           <div>
             <strong>PIB as primary source</strong>
-            <p>The PIB is by far the largest source in the dataset. PIB releases tend to present government
+            <p>The Press Information Bureau (PIB) is the main channel for central government announcements. PIB releases tend to present government
             actions positively. Policies that were withdrawn, failed or were controversial may receive
             less coverage in PIB than successful initiatives.</p>
           </div>
@@ -181,7 +182,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     <div class="about-section">
       <h3>Collection methodology</h3>
       <p>
-        A Python pipeline runs every 6 hours via GitHub Actions. It fetches from ~380 configured sources
+        A Python pipeline runs every 6 hours via GitHub Actions. It fetches from {meta.total_sources} configured sources
         concurrently (RSS, JSON APIs and HTML scrapers), so the whole set is reached inside
         the time budget rather than only the first few dozen. Each item is classified by sector and type using
         keyword matching, deduplicated across sources, and stored as JSON. The Astro static site builds pages
@@ -338,7 +339,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: var(--color-accent);
+    background: var(--color-accent-fill);
     color: #fff;
     display: flex;
     align-items: center;

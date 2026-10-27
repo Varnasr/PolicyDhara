@@ -6,7 +6,7 @@
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Varnasr/PolicyDhara)](https://github.com/Varnasr/PolicyDhara/commits/master)
 [![Part of ImpactMojo](https://img.shields.io/badge/Part%20of-ImpactMojo-orange)](https://www.impactmojo.in)
 
-**Auto-updating tracker of Indian development policy across 22 sectors. It fetches from ~350 official sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
+**Auto-updating tracker of Indian development policy across more than twenty sectors. It fetches from hundreds of government, regulator, think-tank and media sources concurrently every 6 hours via GitHub Actions, with a news filter and a policy-forward homepage.**
 
 [Roadmap](ROADMAP.md) · [Blog](https://policydhara.impactmojo.in/blog)
 
@@ -34,7 +34,7 @@ It is designed for researchers, journalists, advocates and practitioners who nee
 
 ---
 
-## 22 sectors covered
+## Sectors covered
 
 | Cluster | Sectors |
 |---------|---------|
@@ -46,9 +46,9 @@ It is designed for researchers, journalists, advocates and practitioners who nee
 
 ---
 
-## Data sources (~380 configured)
+## Data sources
 
-The pipeline fetches from ~350 sources concurrently. A few high-value ones:
+The pipeline fetches from every source listed in `feeds.json` concurrently. A few high-value ones:
 
 | Source | Type |
 |--------|------|
@@ -74,9 +74,9 @@ The pipeline fetches from ~350 sources concurrently. A few high-value ones:
 │              GitHub Actions (every 6 hours)           │
 │                                                        │
 │  update-policies.yml                                   │
-│  ├── Fetch ~350 sources concurrently (RSS/API/scrape) │
+│  ├── Fetch all sources concurrently (RSS/API/scrape)  │
 │  ├── Filter news noise + cap media at 40%             │
-│  ├── Classify by sector (22 categories)               │
+│  ├── Classify by sector and document type             │
 │  ├── Deduplicate and detect amendments                │
 │  ├── Commit updated data to repository                │
 │  └── Trigger GitHub Pages rebuild                     │

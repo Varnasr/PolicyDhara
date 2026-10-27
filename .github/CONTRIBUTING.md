@@ -1,6 +1,6 @@
 # Contributing to PolicyDhara
 
-Thank you for your interest in contributing to PolicyDhara. This project is an auto-updating tracker of Indian development policies across 22 sectors, and community contributions keep it accurate and useful.
+Thank you for your interest in contributing to PolicyDhara. This project is an auto-updating tracker of Indian development policies across more than twenty sectors, and community contributions keep it accurate and useful.
 
 ## Table of Contents
 
@@ -69,7 +69,7 @@ python scripts/validate_data.py
 
 ### Adding policy sources
 
-PolicyDhara currently fetches from 20+ official government sources. To add a new source:
+PolicyDhara fetches from every source listed in `feeds.json`. To add a new source:
 
 1. Identify the official URL and confirm it provides structured or scrapable policy data.
 2. Create a new fetcher in `/scripts/sources/` following the existing patterns.
@@ -80,7 +80,7 @@ PolicyDhara currently fetches from 20+ official government sources. To add a new
 
 ### Sector expansions
 
-PolicyDhara tracks policies across 22 sectors. To propose a new sector:
+PolicyDhara tracks policies across more than twenty sectors. To propose a new sector:
 
 1. Open an issue using the **Feature Request** template that explains the sector and why it matters.
 2. Identify at least two official sources that publish policies for this sector.

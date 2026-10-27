@@ -84,7 +84,7 @@ function getRelativeTime(dateStr: string): string {
 
   {impact && (
     <div class="policy-impact-bar">
-      <span class="impact-badge" style={`background: var(${impact.impact_score >= 8 ? '--type-scheme-bg' : impact.impact_score >= 6 ? '--type-notification-bg' : '--color-bg-alt'}); color: var(${impact.impact_score >= 8 ? '--type-scheme' : impact.impact_score >= 6 ? '--type-notification' : '--color-text-muted'});`}>
+      <span class="impact-badge" style={`background: var(${impact.impact_score >= 8 ? '--type-scheme-bg' : impact.impact_score >= 6 ? '--type-notification-bg' : '--color-bg-alt'}); color: var(--color-text);`}>
         Impact {impact.impact_score}/10
       </span>
       <span class="impact-beneficiaries">{impact.beneficiaries}</span>
