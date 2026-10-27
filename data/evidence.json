@@ -1270,7 +1270,7 @@
       "period": "Scheme launched 2005. Evaluation compares district household surveys from 2002-04 and 2007-09.",
       "intervention": "The Government of India launched Janani Suraksha Yojana in 2005 as a conditional cash transfer that pays women to give birth in a health facility, with the aim of reducing maternal and neonatal deaths. Receipt of payment varied widely by state, from under 5% to 44% of women giving birth in 2007-08.",
       "verdict": "mixed",
-      "verdict_basis": "Lim et al. report a significant rise in antenatal care and in-facility births, the behaviours the scheme paid for. The mortality result depends on the method: matching gives 3.7 fewer perinatal deaths per 1000 pregnancies (95% CI 2.2 to 5.2), but a replication using district differences in differences found no significant effect on perinatal or neonatal deaths.",
+      "verdict_basis": "Lim et al. report a significant rise in antenatal care and in-facility births, the behaviours the scheme paid for. The mortality result depends on the method: matching gives 3.7 fewer perinatal deaths per 1000 pregnancies (95% CI 2.2 to 5.2), but a replication using district differences in differences found no significant effect on perinatal or neonatal deaths. Powell-Jackson and colleagues find no substantial effect on antenatal care, which conflicts with the Lancet abstract's finding of a significant rise.",
       "design": "quasi-experimental",
       "design_detail": "Three approaches on district-level household survey data: exact matching of women who did and did not receive JSY payment, a with-versus-without comparison, and district-level differences in differences. The effect is of receiving a payment, compared across women, so selection into payment is a threat.",
       "sample": "Lim et al. N as listed in the 3ie replication paper: 182,869 for the logistic regression of payment receipt and 158,907 for the exact matching analysis of in-facility births (births after 1 January 2004), using DLHS-3 (2007-09). Counts taken from a secondary source, not from the Lancet paper itself.",
@@ -1323,6 +1323,13 @@
           "interval_or_se": null,
           "quote": "finding no statistically significant effect on either neonatal mortality (deaths within 28 days of birth) or early neonatal mortality (deaths within 24 hours of birth)",
           "page_or_section": "Introduction (Powell-Jackson, Mazumdar and Mills, first version, 20 September 2011)"
+        },
+        {
+          "outcome": "Three or more antenatal care visits, district differences in differences (a placebo outcome, since the payment is tied to delivery)",
+          "result": "Small and statistically insignificant without demographic controls; the paper reports no substantial effect",
+          "interval_or_se": null,
+          "quote": "there is no evidence the JSY had a substantial effect on utilisation of antenatal care services",
+          "page_or_section": "Results on utilisation (Powell-Jackson, Mazumdar and Mills, first version, 20 September 2011)"
         }
       ],
       "caveats": [
