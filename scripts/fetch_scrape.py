@@ -305,6 +305,52 @@ def scrape_dated_table(config: dict) -> list[dict]:
     return items
 
 
+_DATE_IN_TEXT = re.compile(
+    r"\b(\d{1,2}[-/.]\d{1,2}[-/.]\d{4}|\d{1,2}\s+[A-Za-z]{3,9},?\s+\d{4})\b")
+_HOUSEKEEPING = re.compile(
+    r"\b(tender|recruitment|vacanc\w*|call letter|scribe|auction|corrigendum|"
+    r"walk[- ]in|admit card|quotation|empanelment|rfp)\b", re.I)
+
+
+def scrape_dated_links(config: dict) -> list[dict]:
+    """Read pages that list documents as a link with its date beside it.
+
+    A link counts only when the nearest list item, row or block around it holds
+    exactly one such link and exactly one date, so a block listing several
+    items cannot lend its date to the wrong one. Tenders, recruitment notices
+    and similar housekeeping are skipped.
+    """
+    resp = safe_get(config.get("url", ""))
+    if not resp:
+        return []
+    soup = BeautifulSoup(resp.content, "lxml")
+    base = config.get("url", "")
+    seen, items = set(), []
+    for a in soup.select("a[href]"):
+        title = " ".join(a.get_text(" ", strip=True).split())
+        href = a.get("href", "")
+        if len(title) < 25 or href.startswith(("#", "javascript", "mailto")):
+            continue
+        block = a.find_parent(["li", "tr", "article"]) or a.parent
+        if block is None:
+            continue
+        long_links = [x for x in block.select("a[href]")
+                      if len(x.get_text(" ", strip=True)) >= 25]
+        text = " ".join(block.get_text(" ", strip=True).split())
+        dates = _DATE_IN_TEXT.findall(text)
+        if len(long_links) != 1 or len(set(dates)) != 1:
+            continue
+        date = _parse_listed_date(re.sub(r"[.]", "-", dates[0]) if dates[0][0].isdigit() and "." in dates[0] else dates[0])
+        if not date or date > datetime.now(timezone.utc).strftime("%Y-%m-%d") or _HOUSEKEEPING.search(title):
+            continue
+        link = _abs_url(href, base)
+        if link in seen:
+            continue
+        seen.add(link)
+        items.append({"title": title[:200], "description": title[:300], "link": link, "date": date})
+    return items
+
+
 def scrape_niti_aayog(config: dict) -> list[dict]:
     """Scrape publications from NITI Aayog."""
     items = []
@@ -920,6 +966,7 @@ SOURCE_SCRAPERS = {
     "cbdt": scrape_ministry,
     "dpiit": scrape_ministry,
     "ibbi": scrape_dated_table,
+    "gst_council": scrape_dated_links,
     # Additional ministries
     "mohfw": scrape_ministry,
     "moe": scrape_ministry,
@@ -981,7 +1028,7 @@ SOURCE_SCRAPERS = {
     "mopng": scrape_ministry,
     "mopower": scrape_ministry,
     "moroad": scrape_ministry,
-    "moship": scrape_ministry,
+    "moship": scrape_dated_links,
     "mosteel": scrape_ministry,
     "motextile": scrape_ministry,
     "moyouth": scrape_ministry,
@@ -996,7 +1043,7 @@ SOURCE_SCRAPERS = {
     "bar_council": scrape_ministry,
     "cbse": scrape_ministry,
     "cert_in": scrape_ministry,
-    "cic": scrape_ministry,
+    "cic": scrape_dated_links,
     "cvc": scrape_ministry,
     "dgca": scrape_ministry,
     "epfo": scrape_ministry,
@@ -1017,7 +1064,7 @@ SOURCE_SCRAPERS = {
     "nic": scrape_ministry,
     "nmc": scrape_ministry,
     "npci": scrape_ministry,
-    "pfrda": scrape_ministry,
+    "pfrda": scrape_dated_links,
     "rera": scrape_ministry,
     "sebi": scrape_ministry,
     "telecom_disputes": scrape_ministry,
