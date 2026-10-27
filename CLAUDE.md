@@ -56,3 +56,31 @@ Pagefind index built both times, and `npm audit` from 5 vulnerabilities to 0.
   Use `npm run update` when the point is fresh data.
 - **This repository supersedes PolicyStack**, which carries a Retired badge. Work
   belongs here.
+
+## The Evidence pages
+
+`/evidence/` lists Indian interventions with a published evaluation, from
+`data/evidence.json` (12 cases on 27 October 2026). Each case carries its study
+design, sample, effects, a short quotation for every figure, caveats and the
+sources opened. `python3 scripts/check_evidence.py` refuses a case without an
+https source, a quotation that contains the figure beside it, or a
+verification date, and applies the house writing rules to our own prose
+(quotations and citations are printed as the source wrote them).
+`tests/test_evidence.py` injects the faults.
+
+**Verdicts follow one rule, shown on the page.** Worked: a significant
+improvement in the outcome the intervention targeted. Did not work: no
+significant improvement in it, or harm. Mixed: improvement on some targeted
+outcomes and not others, or the effect depends on conditions. Janani Suraksha
+Yojana is mixed because the Lancet matching result and a replication using
+district differences in differences disagree on mortality.
+
+**Add a case only from a source you opened.** All 12 were checked by
+downloading the paper or its abstract and matching each quotation to its text. Four rest on
+something short of the journal text: JSY facility-birth effects come from the
+Lancet abstract (the 3ie replication reproduces the table with unlabelled
+units, so those figures are not printed), Surat and Balsakhi use a working
+paper or hosted copy, and the midday meals quotations come from the publisher
+page. Balsakhi year-two effect is 0.27 SD in the 2005 draft and 0.28 in the
+published paper. The Surat 20 to 30 percent range includes imputed estimates;
+without imputation it is about 18 percent.

@@ -84,6 +84,7 @@ const where = c.geography.states.length ? c.geography.states.join(', ') : 'All I
   .ev-table th, .ev-table td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--color-border); }
   .ev-table thead th { font-size: 0.78rem; color: var(--color-text-secondary); }
   .ev-quotes { color: var(--color-text-secondary); }
-  .ev-detail ol a { overflow-wrap: anywhere; }
+  .ev-detail ol a { overflow-wrap: anywhere; text-decoration: underline; }
+  .ev-detail :global(.share-label) { color: var(--color-text-secondary); }
   @media (max-width: 560px) { .ev-facts { grid-template-columns: 1fr; } }
 </style>

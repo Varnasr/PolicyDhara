@@ -1,0 +1,1015 @@
+{
+  "cases": [
+    {
+      "title": "Extra contract teachers in Andhra Pradesh government primary schools",
+      "area": "Education",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Andhra Pradesh"
+        ]
+      },
+      "period": "2005-06 and 2006-07 school years (baseline June-July 2005)",
+      "intervention": "The Government of Andhra Pradesh authorised 100 randomly chosen rural primary schools to hire one extra contract teacher on top of their usual staff, using the normal hiring process. Contract teachers were locally hired, not professionally trained, on fixed-term renewable contracts and paid far less than civil-service teachers.",
+      "verdict": "worked",
+      "verdict_basis": "After two years, combined maths and language scores were 0.156 SD higher in the schools with an extra contract teacher (SE 0.045, significant at 1%), with maths 0.158 and language 0.153.",
+      "design": "rct",
+      "design_detail": "Lottery at school level: of 500 sampled schools, 100 were assigned to the extra contract teacher and 100 to the comparison group; analysis uses these 200 schools, with mandal fixed effects, lagged test scores and standard errors clustered by school. The comparison with regular teachers uses non-experimental panel data from control schools.",
+      "sample": "200 government rural primary schools (100 treatment, 100 comparison) drawn from a representative 500-school sample; the two-year combined regression has 26,142 test observations (student-subject). Number of students not reported in the source.",
+      "effects": [
+        {
+          "outcome": "Math test score, after 2 years",
+          "result": "+0.158 SD (text rounds to 0.16)",
+          "interval_or_se": "SE 0.051, significant at 1%",
+          "quote": "significantly better than those in comparison schools by 0.16 and 0.15 standard deviations (σ) in math and language tests respectively",
+          "page_or_section": "Introduction and Table 3 Panel B, NBER WP 19440"
+        },
+        {
+          "outcome": "Language (Telugu) test score, after 2 years",
+          "result": "+0.153 SD (text rounds to 0.15)",
+          "interval_or_se": "SE 0.042, significant at 1%",
+          "quote": "significantly better than those in comparison schools by 0.16 and 0.15 standard deviations (σ) in math and language tests respectively",
+          "page_or_section": "Introduction and Table 3 Panel C"
+        },
+        {
+          "outcome": "Combined math and language, after 1 year and after 2 years",
+          "result": "About 0.10 SD after one year and 0.16 SD after two years",
+          "interval_or_se": "SE 0.035 and 0.045; significant at 1%",
+          "quote": "students in program schools scored 0.10σ and 0.16σ higher than those in comparison schools at the end of one and two years",
+          "page_or_section": "Section 3.3 and Table 3 Panel A"
+        },
+        {
+          "outcome": "Cost comparison: salary",
+          "result": "contract teacher about Rs 1,000 to 1,500 per month against a regular teacher average over Rs 8,000 per month (Table 1: Rs 8,698)",
+          "interval_or_se": null,
+          "quote": "Their typical salary of around Rs. 1000 - 1500/month is less than one fifth of the average salary of regular government teachers.",
+          "page_or_section": "Section 2.1 and Table 1"
+        },
+        {
+          "outcome": "Cost-effectiveness: reducing pupil-teacher ratio (PTR) by 10%",
+          "result": "contract teacher +0.03 SD per year; regular civil-service teacher +0.02 SD per year (regular estimate is non-experimental)",
+          "interval_or_se": null,
+          "quote": "reducing PTR by 10% using a contract teacher would improve mean test scores in the school, across subjects, by 0.03σ/year",
+          "page_or_section": "Introduction"
+        },
+        {
+          "outcome": "Teacher absence",
+          "result": "contract teachers 18% absent versus 27% for regular teachers",
+          "interval_or_se": null,
+          "quote": "contract teachers were significantly less likely to be absent from school than regular teachers (18% versus 27%)",
+          "page_or_section": "Introduction"
+        },
+        {
+          "outcome": "Heterogeneity",
+          "result": "no difference by baseline score; larger gains in remote schools",
+          "interval_or_se": null,
+          "quote": "We find no heterogeneity in impact by baseline test scores, suggesting that the gains are broadly distributed among all students.",
+          "page_or_section": "Introduction"
+        }
+      ],
+      "caveats": [
+        "This is the September 2013 NBER working paper, not a peer-reviewed version. An earlier draft reported different second-year figures (0.15 math, 0.13 language, per a search snippet), so quote the version cited.",
+        "The regular-teacher comparison is not randomised. It uses five years of panel data from control schools.",
+        "Results apply to rural primary schools with many first-generation learners; the authors say they may not extend beyond primary school.",
+        "The paper gives salaries, not a cost per child, so a cost per SD gained is not reported here.",
+        "Treatment effects are for the school as a whole because the extra teacher was not assigned to a grade."
+      ],
+      "sources": [
+        {
+          "citation": "Muralidharan and Sundararaman (2013), Contract Teachers: Experimental Evidence from India, NBER Working Paper 19440",
+          "url": "https://www.nber.org/system/files/working_papers/w19440/revisions/w19440.rev0.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "id": "ap-contract-teachers",
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "ap-smartcards",
+      "title": "Biometric smartcard payments for NREGS and pensions in Andhra Pradesh",
+      "area": "Digital government",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Andhra Pradesh"
+        ]
+      },
+      "period": "Randomised rollout from 2010; baseline survey August to October 2010, endline survey August to October 2012 (NREGS activity May to July 2012)",
+      "intervention": "The Government of Andhra Pradesh moved payments in the NREGS employment scheme and Social Security Pensions to biometrically authenticated smartcards, paid in villages by locally hired bank staff. J-PAL randomised the order in which sub-districts (mandals) were converted.",
+      "verdict": "worked",
+      "verdict_basis": "Payment speed and leakage, the outcomes the smartcards targeted, both improved significantly for NREGS. Mean time to collect payment fell 22 minutes (SE about 9) and survey-reported leakage fell Rs 25 per week (SE 13), which the paper puts at 12.7 percentage points, a 41% cut. Leakage in social security pensions fell 2.8 percentage points. Access to NREGS work did not fall.",
+      "design": "rct",
+      "design_detail": "Cluster randomised trial: 296 mandals in 8 districts were assigned by lottery to treatment (112), a buffer group (139) and control (45). Survey data came from treatment and control only (157 mandals). Intent-to-treat analysis; about 50% of payments were carded in treated mandals after two years.",
+      "sample": "157 sub-districts (mandals) surveyed, about 19 million rural people in 8 districts; 880 gram panchayats sampled; endline survey of 8,774 households sampled, 365 confirmed as ghost households",
+      "effects": [
+        {
+          "outcome": "Time to collect an NREGS payment",
+          "result": "-22 minutes (control mean 112)",
+          "interval_or_se": "SE 9.2 (column 1) and 8.7 (column 2)",
+          "quote": "NREGS workers spent 22 fewer minutes collecting each payment (20 percent less than the control group)",
+          "page_or_section": "Introduction p. 2898; Table 2"
+        },
+        {
+          "outcome": "Average lag between finishing NREGS work and payment (days)",
+          "result": "-5.8 to -10 days (control mean 34); statutory limit is 14 days",
+          "interval_or_se": "SE 3.5 in both specifications",
+          "quote": "collected their payments 5.8 to 10 days sooner after finishing their work (17–29 percent faster than the control mean)",
+          "page_or_section": "Introduction p. 2898; Table 2, columns 5 and 6"
+        },
+        {
+          "outcome": "Variability of payment lag (absolute deviation from mandal median, days)",
+          "result": "Fell by 21 to 39 percent relative to the control group",
+          "interval_or_se": "SE 0.99 and 1.6",
+          "quote": "The absolute deviation of payment delays also fell by 21–39 percent relative to the control group",
+          "page_or_section": "Introduction p. 2898; Table 2, columns 7 and 8"
+        },
+        {
+          "outcome": "NREGS leakage (share of outlays not reaching beneficiaries)",
+          "result": "-12.7 percentage points (41% of control mean); control 30.7%, treatment 18%",
+          "interval_or_se": "Survey-minus-official gap -Rs 25 per week, SE 13 (Table 3, column 6)",
+          "quote": "we estimate a 12.7 percentage point reduction in NREGS leakage in treated areas (a 41 percent reduction relative to the control mean)",
+          "page_or_section": "Introduction p. 2898; Section IIIB; Table 3"
+        },
+        {
+          "outcome": "Household NREGS earnings per week",
+          "result": "+Rs 35, 24% of control mean (Rs 146); official outlays unchanged",
+          "interval_or_se": "SE 16",
+          "quote": "earnings per week during our endline study period increased by Rs 35, or 24 percent of the control group mean",
+          "page_or_section": "Section IIIB; Table 3, columns 3 and 4"
+        },
+        {
+          "outcome": "Households reporting NREGS work",
+          "result": "+7.1 percentage points (control mean 42%)",
+          "interval_or_se": null,
+          "quote": "the proportion of households reporting having worked on NREGS increased by 7.1 percentage points (a 17 percent increase over the control mean of 42 percent)",
+          "page_or_section": "Introduction p. 2898; Table 5"
+        },
+        {
+          "outcome": "SSP pension leakage",
+          "result": "-2.8 percentage points (47% of control mean); pension received +Rs 12 (5%)",
+          "interval_or_se": "Leakage SE 3.9 (Rs per month, -7.5 and -7)",
+          "quote": "significant reduction in SSP leakage of 2.8 percentage points (a 47 percent reduction relative to the control mean)",
+          "page_or_section": "Introduction p. 2898; Table 3 panel B"
+        }
+      ],
+      "caveats": [
+        "Only about 50% of payments in treated mandals went through smartcards after two years, so estimates are of the programme as implemented, not full coverage.",
+        "The eight districts were not randomly chosen, although they resemble the state's other non-urban districts on main indicators.",
+        "The NREGS leakage rate needs a correction for households holding several jobcards, so the 12.7 point figure rests on extra assumptions.",
+        "The survey was run about ten weeks after the work, so recall error is possible.",
+        "The time saved on SSP collection was small and not statistically significant.",
+        "The authors report that the state nearly scrapped the project in 2013 because local officials passed on negative anecdotes."
+      ],
+      "sources": [
+        {
+          "citation": "Muralidharan, Niehaus and Sukhtankar (2016), Building State Capacity: Evidence from Biometric Smartcards in India, American Economic Review 106(10), 2895-2929",
+          "url": "https://www.povertyactionlab.org/sites/default/files/publications/Building-State-Capacity_Feb2016.pdf",
+          "kind": "journal"
+        },
+        {
+          "citation": "Muralidharan, Niehaus and Sukhtankar (2016), same article, publisher abstract page",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20141346",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "title": "Teaching at the Right Level and the Balsakhi remedial education trials",
+      "area": "Education",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Maharashtra",
+          "Gujarat",
+          "Bihar",
+          "Uttarakhand",
+          "Uttar Pradesh",
+          "Haryana"
+        ]
+      },
+      "period": "Balsakhi trial 2001-2004 (Mumbai, Vadodara); later Teaching at the Right Level trials 2005-2014",
+      "intervention": "Pratham, an NGO working with government schools, sent a trained young woman from the community (a balsakhi) to teach basic literacy and numeracy to lagging third and fourth grade children, for about two hours of the four-hour school day. Later versions grouped children by learning level and were run by volunteers, by government teachers in camps, or by government teachers inside the school day.",
+      "verdict": "mixed",
+      "verdict_basis": "The Balsakhi trial raised average scores by 0.14 SD in year one and 0.28 SD in year two, significant at 1% for total score in the pooled estimates. The wider Teaching at the Right Level record is mixed. The same method had no detectable effect when added to the regular school year in Bihar and Uttarakhand, and it worked when delivered in summer camps, with a protected hour in Haryana, or by the balsakhi pull-out model.",
+      "design": "rct",
+      "design_detail": "Balsakhi: schools in Vadodara and one ward of Mumbai were randomly assigned (stratified by language of instruction and other school characteristics) to receive a balsakhi in grade three or grade four; the untreated grade served as the comparison. Later trials randomised schools or villages to Pratham's delivery models.",
+      "sample": "Mumbai: 77 schools. Vadodara: 98 schools, with 25 more added in year two. The number of children is not given in the working paper text.",
+      "effects": [
+        {
+          "outcome": "Average test score, all children in Balsakhi schools, years 1 and 2",
+          "result": "+0.14 SD in year 1; +0.28 SD in year 2",
+          "interval_or_se": "total score estimates significant at the 1% level (standard errors not copied)",
+          "quote": "increased average test scores of all children in treatment schools by 0.14 standard deviations in the first year, and 0.28 in the second year",
+          "page_or_section": "Abstract, NBER WP 11904 (Dec 2005 draft)"
+        },
+        {
+          "outcome": "Pooled estimate, difference and value added specifications",
+          "result": "+0.14 SD year 1; +0.27 SD year 2 (0.28 value added)",
+          "interval_or_se": "significant at the 1% level",
+          "quote": "the impact of the program was 0.14 standard deviations overall in the first year, and 0.27 standard deviations in the second year",
+          "page_or_section": "Results section, NBER WP 11904"
+        },
+        {
+          "outcome": "Children in the bottom third of the initial distribution, year 2",
+          "result": "over +0.40 SD",
+          "interval_or_se": null,
+          "quote": "children in the bottom third of the initial distribution gained over 0.40 standard deviations",
+          "page_or_section": "Introduction, NBER WP 11904"
+        },
+        {
+          "outcome": "Children actually sent to the balsakhi (instrumental variables)",
+          "result": "about +0.6 SD in overall test score",
+          "interval_or_se": null,
+          "quote": "they gain 0.6 standard deviations in overall test scores",
+          "page_or_section": "Direct and peer effects section, NBER WP 11904"
+        },
+        {
+          "outcome": "One year after the programme ended",
+          "result": "Average effect no longer significant one year after the programme ended",
+          "interval_or_se": null,
+          "quote": "For the balsakhi program, the average effect becomes insignificant.",
+          "page_or_section": "Persistence section, NBER WP 11904"
+        },
+        {
+          "outcome": "Cost",
+          "result": "about USD 2.25 per child per year",
+          "interval_or_se": null,
+          "quote": "The cost per student of the remedial education program is about $2.25 per child per year.",
+          "page_or_section": "Cost-effectiveness section, NBER WP 11904"
+        },
+        {
+          "outcome": "Delivery model: materials only, or materials plus training, Bihar and Uttarakhand",
+          "result": "no effect",
+          "interval_or_se": null,
+          "quote": "The materials-alone and materials-plus-training interventions had no effect in either Bihar or Uttarakhand.",
+          "page_or_section": "Read India section, NBER WP 22931"
+        },
+        {
+          "outcome": "Delivery model: volunteers inside the school team, Uttarakhand",
+          "result": "no detectable impact",
+          "interval_or_se": null,
+          "quote": "The materials-training-volunteers treatment in Uttarakhand had no detectible impact either.",
+          "page_or_section": "Read India section, NBER WP 22931"
+        },
+        {
+          "outcome": "Delivery model: one-month summer camp run by government teachers, Bihar",
+          "result": "significant gains in language and math; reported as about +0.5 reading levels for children treated, not in SD",
+          "interval_or_se": null,
+          "quote": "the camp improved reading scores by about 0.5 levels in just a few weeks",
+          "page_or_section": "Read India section, NBER WP 22931"
+        },
+        {
+          "outcome": "Delivery model: government teachers with a protected hour and monitoring, Haryana 2012-13",
+          "result": "+0.2 reading levels in Hindi (400 schools, 200 treated)",
+          "interval_or_se": null,
+          "quote": "Hindi test scores increased by 0.2 levels.",
+          "page_or_section": "Haryana section, NBER WP 22931"
+        }
+      ],
+      "caveats": [
+        "The Balsakhi figures come from the December 2005 working paper. The published Quarterly Journal of Economics paper reports 0.28 SD for the second year, as cited in NBER Working Paper 22931.",
+        "The Read India results report reading levels, not standard deviations, so they cannot be compared directly with the Balsakhi effect sizes.",
+        "The balsakhi was a pull-out programme, so class size also fell for children who stayed in class. The authors find the gains concentrated in children sent to the balsakhi.",
+        "The effect faded within a year of the programme ending for the average child."
+      ],
+      "sources": [
+        {
+          "citation": "Banerjee, Cole, Duflo and Linden (2005), Remedying Education: Evidence from Two Randomized Experiments in India, NBER Working Paper 11904 (published as QJE 122(3), 2007)",
+          "url": "https://www.nber.org/papers/w11904.pdf",
+          "kind": "working-paper"
+        },
+        {
+          "citation": "Banerjee, Cole, Duflo and Linden (2007), Remedying Education: Evidence from Two Randomized Experiments in India, Quarterly Journal of Economics 122(3):1235-1264 (abstract page only, full text paywalled)",
+          "url": "https://doi.org/10.1162/qjec.122.3.1235",
+          "kind": "journal"
+        },
+        {
+          "citation": "Banerjee, Banerji, Berry, Duflo, Kannan, Mukherji, Shotland and Walton (2016, rev. 2017), From Proof of Concept to Scalable Policies, NBER Working Paper 22931 (Journal of Economic Perspectives 31(4), 2017)",
+          "url": "https://www.nber.org/papers/w22931.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "id": "balsakhi-remedial-education",
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "janani-suraksha-yojana",
+      "title": "Janani Suraksha Yojana cash payments for institutional delivery",
+      "area": "Health",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "Scheme launched 2005. Evaluation compares district household surveys from 2002-04 and 2007-09.",
+      "intervention": "The Government of India launched Janani Suraksha Yojana in 2005 as a conditional cash transfer that pays women to give birth in a health facility, with the aim of reducing maternal and neonatal deaths. Receipt of payment varied widely by state, from under 5% to 44% of women giving birth in 2007-08.",
+      "verdict": "mixed",
+      "verdict_basis": "Lim et al. report a significant rise in antenatal care and in-facility births, the behaviours the scheme paid for. The mortality result depends on the method: matching gives 3.7 fewer perinatal deaths per 1000 pregnancies (95% CI 2.2 to 5.2), but a replication using district differences in differences found no significant effect on perinatal or neonatal deaths.",
+      "design": "quasi-experimental",
+      "design_detail": "Three approaches on district-level household survey data: exact matching of women who did and did not receive JSY payment, a with-versus-without comparison, and district-level differences in differences. The effect is of receiving a payment, compared across women, so selection into payment is a threat.",
+      "sample": "Lim et al. N as listed in the 3ie replication paper: 182,869 for the logistic regression of payment receipt and 158,907 for the exact matching analysis of in-facility births (births after 1 January 2004), using DLHS-3 (2007-09). Counts taken from a secondary source, not from the Lancet paper itself.",
+      "effects": [
+        {
+          "outcome": "Antenatal care and births in a health facility",
+          "result": "Significant increase in both (matching, with-versus-without and differences in differences)",
+          "interval_or_se": null,
+          "quote": "JSY had a significant effect on increasing antenatal care and in-facility births.",
+          "page_or_section": "Findings, Lancet abstract"
+        },
+        {
+          "outcome": "Perinatal deaths, matching analysis",
+          "result": "Reduction of 3.7 per 1000 pregnancies",
+          "interval_or_se": "95% CI 2.2 to 5.2",
+          "quote": "JSY payment was associated with a reduction of 3.7 (95% CI 2.2-5.2) perinatal deaths per 1000 pregnancies",
+          "page_or_section": "Abstract, Findings (Lancet 2010, via PubMed)"
+        },
+        {
+          "outcome": "Neonatal deaths, matching analysis",
+          "result": "Reduction of 2.3 per 1000 livebirths",
+          "interval_or_se": "95% CI 0.9 to 3.7",
+          "quote": "2.3 (0.9-3.7) neonatal deaths per 1000 livebirths",
+          "page_or_section": "Abstract, Findings (Lancet 2010, via PubMed)"
+        },
+        {
+          "outcome": "Perinatal and neonatal deaths, with-versus-without comparison",
+          "result": "Reduction of 4.1 perinatal deaths per 1000 pregnancies and 2.4 neonatal deaths per 1000 livebirths",
+          "interval_or_se": "Perinatal 95% CI 2.5 to 5.7; neonatal 95% CI 0.7 to 4.1",
+          "quote": "the reductions were 4.1 (2.5-5.7) perinatal deaths per 1000 pregnancies and 2.4 (0.7-4.1) neonatal deaths per 1000 livebirths",
+          "page_or_section": "Abstract, Findings (Lancet 2010, via PubMed)"
+        },
+        {
+          "outcome": "Perinatal and neonatal deaths, district differences in differences",
+          "result": "No significant effect on perinatal or neonatal deaths",
+          "interval_or_se": null,
+          "quote": "found no significant effect of JSY on perinatal and neonatal deaths in the district-level differences-indifferences analysis",
+          "page_or_section": "Replication of Lim et al., district differences-in-differences analysis"
+        }
+      ],
+      "caveats": [
+        "The evaluation compares districts with different levels of JSY payments in survey data from 2002-04 and 2007-09. It is not a randomised trial, and the mortality effect changes with the method used.",
+        "The 3ie replication team reports it replicated the exact matching results closely, but it did not replicate the with-versus-without or differences-in-differences analyses.",
+        "The mortality result is not consistent across designs. Matching and with-versus-without show reductions. District differences in differences shows no significant effect, per the 3ie paper.",
+        "Matching compares women who received payment with women who did not. Unobserved differences between them could inflate the coverage effect.",
+        "The abstract says the poorest and least educated women did not always have the highest odds of receiving payment.",
+        "Maternal mortality was assessed but the abstract gives no result for it. See not_verified."
+      ],
+      "sources": [
+        {
+          "citation": "Lim SS, Dandona L, Hoisington JA, James SL, Hogan MC, Gakidou E (2010), India's Janani Suraksha Yojana, a conditional cash transfer programme to increase births in health facilities: an impact evaluation, The Lancet 375(9730), 2009-2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20569841/",
+          "kind": "journal"
+        },
+        {
+          "citation": "Lim et al. (2010), The Lancet 375(9730), abstract page",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)60744-1/abstract",
+          "kind": "journal"
+        },
+        {
+          "citation": "Carvalho N and Rokicki S (2015), The impact of India's JSY conditional cash transfer programme: a replication study, 3ie Replication Paper 6",
+          "url": "https://www.3ieimpact.org/sites/default/files/2017-11/rps_6_impact_of_indias_jsy.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "jharkhand-biometric-pds",
+      "title": "Aadhaar-based biometric authentication in Jharkhand's ration shops",
+      "area": "Digital government",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Jharkhand"
+        ]
+      },
+      "period": "ePOS devices introduced from August 2016; first follow-up January to March 2017; reconciliation of grain disbursals began July 2017 and was paused after four months",
+      "intervention": "The Government of Jharkhand installed electronic point-of-sale machines in ration shops and required beneficiaries to authenticate by fingerprint against a seeded Aadhaar number to collect Public Distribution System grain. In a second phase it cut each shop's grain allocation by the amount authenticated records showed was undistributed.",
+      "verdict": "did-not-work",
+      "verdict_basis": "Biometric authentication, the randomised arm, did not reduce leakage, which is what it targeted: the estimate is +Rs 14 per ration card-month (SE 12). It raised beneficiary transaction costs by Rs 6.9 (SE 3.8) and left 2.4 percentage points more households receiving nothing (SE 1.4, p<0.1). The later reconciliation phase was not randomised. It cut leakage and also cut the benefits received.",
+      "design": "rct",
+      "design_detail": "Cluster randomised rollout of ABBA across 132 sub-districts in 10 districts, with reconciliation (launched at the same time in all areas) studied by a pre-specified event study with a placebo commodity group and experimental variation in exposure time. The reconciliation estimates are quasi-experimental.",
+      "sample": "132 sub-districts in 10 districts, representative of 15.1 million individuals in 3.3 million households in 17 of 24 districts; panel of 3,840 PDS beneficiaries; administrative data on all 8,924 ration shops in the study area",
+      "effects": [
+        {
+          "outcome": "Leakage (value disbursed minus value received), per ration card-month, ABBA arm",
+          "result": "+Rs 14 (control mean Rs 116); 95% CI -1.7% to +6.6% of value disbursed",
+          "interval_or_se": "SE 12",
+          "quote": "We estimate that leakage increased insignificantly by Rs. 14 per ration card × month.",
+          "page_or_section": "Section 4.1.3, p. 20; Table 2 panel C"
+        },
+        {
+          "outcome": "Value disbursed by government, ABBA arm",
+          "result": "+Rs 12 per ration card-month (about 2%)",
+          "interval_or_se": "SE 4.9",
+          "quote": "a small but significant increase in total value disbursed of Rs. 12 per ration-card month, or around 2%",
+          "page_or_section": "Section 4.1.1, p. 19; Table 2 panel A"
+        },
+        {
+          "outcome": "Value received by beneficiaries, ABBA arm",
+          "result": "No significant change in value received",
+          "interval_or_se": "95% CI Rs -25.2 to +22.8",
+          "quote": "no significant change in overall value received",
+          "page_or_section": "Section 4.1.2, p. 19; Table 2 panel B"
+        },
+        {
+          "outcome": "Beneficiary transaction costs to collect benefits",
+          "result": "+Rs 6.9, about Rs 7 on a base of Rs 41 (17%)",
+          "interval_or_se": "SE 3.8 (significant at 10%)",
+          "quote": "beneficiaries did incur 17% higher flow transaction costs to collect their benefits (a Rs. 7 increase on a base of Rs. 41)",
+          "page_or_section": "Introduction p. 3; Section 4.2; Table 3"
+        },
+        {
+          "outcome": "Probability of receiving no commodity in a month",
+          "result": "+2.4 percentage points (control mean 85% receive any); about 296,000 people denied benefits including non-study districts",
+          "interval_or_se": "SE 1.4 (p < 0.1)",
+          "quote": "The probability that a beneficiary received no commodities at all in a given month increased by an estimated 2.4 percentage points (p < 0.1)",
+          "page_or_section": "Introduction p. 3; Section 4.3; Table 4"
+        },
+        {
+          "outcome": "Households that had not seeded Aadhaar at baseline (23% of households): receiving none of the commodities",
+          "result": "Probability of receiving nothing rose by 10 percentage points",
+          "interval_or_se": null,
+          "quote": "their probability of receiving none of these commodities increased by 10 percentage points",
+          "page_or_section": "Introduction p. 3; Section 4.3; Table 5"
+        },
+        {
+          "outcome": "Reconciliation phase, first month, control areas: value disbursed",
+          "result": "Value disbursed fell 19% in the first month",
+          "interval_or_se": null,
+          "quote": "the onset of reconciliation coincided with a sharp 19% drop in value disbursed by the government in control areas",
+          "page_or_section": "Introduction p. 4; Section 5.2; Table 7"
+        }
+      ],
+      "caveats": [
+        "The cited working paper is the September 2021 revision; the NBER page lists a published version in The Review of Economics and Statistics, and figures there may differ.",
+        "The 2.4 point rise in households receiving nothing is significant only at the 10% level.",
+        "The authors attribute much of the exclusion to how the transition was managed: no manual override for unseeded households, and dealers held liable for earlier undistributed grain.",
+        "The reconciliation results are not from a randomised arm and run only for four months before the state paused the policy.",
+        "Leakage here is measured on the quantity margin and may miss overcharging by dealers.",
+        "Reconciliation cut leakage in the paper's own accounting, so the verdict applies to authentication alone, which is the randomised arm."
+      ],
+      "sources": [
+        {
+          "citation": "Muralidharan, Niehaus and Sukhtankar (2020, revised 2021), Identity Verification Standards in Welfare Programs: Experimental Evidence from India, NBER Working Paper 26744",
+          "url": "https://www.nber.org/system/files/working_papers/w26744/w26744.pdf",
+          "kind": "working-paper"
+        },
+        {
+          "citation": "Same paper, NBER abstract and publication details page",
+          "url": "https://www.nber.org/papers/w26744",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "mgnrega-rural-wages",
+      "title": "MGNREGA and rural labour markets: public works, private work and wages",
+      "area": "Poverty and social protection",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "Programme phased in from February 2006 (200 districts), April 2007 (130 districts) and April 2008 (rest of rural India); outcomes compared between July 2004 to June 2005 and July 2007 to June 2008",
+      "intervention": "The National Rural Employment Guarantee Act offers rural households public works employment on demand. The central government introduced it district by district, starting with the poorest districts.",
+      "verdict": "mixed",
+      "verdict_basis": "The guarantee raised public works employment and rural wages, but the effect depends on state implementation. Nationally, public works time rose 1.17 percentage points in the dry season (SE 0.298) and private wages rose 4.7 log points (SE 2.1). In the seven 'star' states public works time rose 3.1 points. The paper reports no rise in public employment in the other states.",
+      "design": "quasi-experimental",
+      "design_detail": "Difference-in-differences comparing 288 districts that received the programme in the first two phases (early) with 209 districts that received it in 2008 (late), using National Sample Survey employment rounds. Phase assignment was not random: early districts were chosen for low agricultural wages, a larger share of backward castes and low agricultural output per worker.",
+      "sample": "497 districts; 356,636 adults aged 18 to 60 in the National Sample Survey sample used for the employment outcomes (Table 3 observations)",
+      "effects": [
+        {
+          "outcome": "Time spent on public works, dry season, all India (percentage points of total time)",
+          "result": "+1.17 percentage points (rainy season +0.46)",
+          "interval_or_se": "SE 0.298 (dry); SE 0.179 (rainy); clustered by district",
+          "quote": "Public works employment increased by 1.17 percentage points during the dry season and 0.46 percentage points during the rainy season.",
+          "page_or_section": "Section 5.2 and Table 3, column 1 (accepted manuscript, pp. 17 and 39)"
+        },
+        {
+          "outcome": "Time spent on private sector work, dry season",
+          "result": "-1.306 percentage points (significant at 10 percent only); private work fell 1.46 percent",
+          "interval_or_se": "SE 0.759 (significant at 10% only)",
+          "quote": "private sector work declined by 1.31/.893 = 1.46%",
+          "page_or_section": "Section 5.2 and Table 3, column 2 (pp. 18 and 39)"
+        },
+        {
+          "outcome": "Log deflated daily casual earnings, dry season (private wage)",
+          "result": "+4.73 log points (about 4.7%)",
+          "interval_or_se": "SE 0.0213 (significant at 5%)",
+          "quote": "The estimated 4.7% increase in wages and 1.5% decrease in private employment imply a 0.31 elasticity of labor demand",
+          "page_or_section": "Introduction (p. 3) and Table 3, column 5"
+        },
+        {
+          "outcome": "Time spent on public works, dry season, seven star states",
+          "result": "+3.1 percentage points; no rise in other states",
+          "interval_or_se": "SE 0.682 (star states); 0.00622 with SE 0.168 (other states)",
+          "quote": "time spent on public employment in early districts of star states rises by 3.1 percentage points in the dry season",
+          "page_or_section": "Section 5.4 and Table 4, column 1 (pp. 22 and 40)"
+        },
+        {
+          "outcome": "Casual wage, dry season, star states",
+          "result": "+8.98%",
+          "interval_or_se": "SE 0.0258 (log points 0.0898)",
+          "quote": "in star states, daily casual earnings increase by a strongly significant 8.98% in the dry season",
+          "page_or_section": "Section 5.4 and Table 4, column 5"
+        }
+      ],
+      "caveats": [
+        "Early districts were chosen because they were poorer, so differences between early and late districts may partly reflect different trends.",
+        "The authors find a positive pre-programme trend in casual wages in early districts, which disappears once district controls are added.",
+        "The employment effects are concentrated in the dry season and in seven states that delivered most of the programme's employment.",
+        "The fall in private work is significant only at the 10% level, and unemployment did not fall.",
+        "The post period covers at most about two years of programme exposure."
+      ],
+      "sources": [
+        {
+          "citation": "Imbert and Papp (2015), Labor Market Effects of Social Programs: Evidence from India's Employment Guarantee, American Economic Journal: Applied Economics 7(2)",
+          "url": "https://wrap.warwick.ac.uk/id/eprint/97987/1/WRAP-labor-market-effects-social-programs-Imbert-2015.pdf",
+          "kind": "working-paper"
+        },
+        {
+          "citation": "Imbert and Papp (2015), same article, publisher abstract page",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/app.20130401",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "title": "India's midday meal programme and children's test scores",
+      "area": "Education",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "Supreme Court directive 2001; states introduced meals between 2002 and 2006; ASER data 2005-2012",
+      "intervention": "A 2001 Supreme Court directive required free cooked midday meals in government primary schools. States introduced them at different dates between 2002 and 2006, run by state governments and local bodies.",
+      "verdict": "worked",
+      "verdict_basis": "About five years of exposure raised reading scores 18% (0.17 SD) and maths scores 9% (0.09 SD) compared with under a year of exposure. The design is quasi-experimental, so the result rests on a parallel-trends assumption that the authors say cannot be tested formally.",
+      "design": "quasi-experimental",
+      "design_detail": "Difference-in-differences style intent-to-treat design. Staggered state rollout and birth cohort give variation in months of potential exposure; regressions include state, birth-year and survey-year fixed effects and state-specific linear time trends. Identification relies on parallel trends in test scores across early and late implementing states.",
+      "sample": "ASER household survey, rural India, 8 cross-sections 2005-2012; the main sample of 6 to 10 year olds is 1,238,781 child observations in 24 states and union territories (2016 working paper version).",
+      "effects": [
+        {
+          "outcome": "Reading score, long exposure (up to five years) versus under one year",
+          "result": "+18% (0.17 SD)",
+          "interval_or_se": null,
+          "quote": "increases test scores by 18% (0.17 σ) for reading and 9% (0.09 σ) for math relative to children with less than a year of exposure",
+          "page_or_section": "Conclusion, J. Development Economics 139 (publisher page)"
+        },
+        {
+          "outcome": "Math score, long exposure versus under one year",
+          "result": "+9% (0.09 SD)",
+          "interval_or_se": null,
+          "quote": "increases test scores by 18% (0.17 σ) for reading and 9% (0.09 σ) for math relative to children with less than a year of exposure",
+          "page_or_section": "Conclusion, J. Development Economics 139 (publisher page)"
+        },
+        {
+          "outcome": "Who benefited",
+          "result": "no difference by gender or housing assets; gains larger where teaching inputs were present",
+          "interval_or_se": null,
+          "quote": "All children, irrespective of gender or wealth, benefit equally from the program.",
+          "page_or_section": "Highlights, J. Development Economics 139"
+        },
+        {
+          "outcome": "Shape of effect",
+          "result": "rises over the first three years of exposure, then tapers",
+          "interval_or_se": null,
+          "quote": "the effect of program exposure on test performance is increasing in the first 3 years of exposure and then tapers off",
+          "page_or_section": "Section 4, IZA DP 10086"
+        },
+        {
+          "outcome": "Cost relative to teaching inputs",
+          "result": "cost per child almost three times higher than extra teachers or tutoring, so less test-score gain per rupee",
+          "interval_or_se": null,
+          "quote": "this improvement comes at a cost per child that is almost three times higher than these teaching and tutoring inputs",
+          "page_or_section": "Introduction, J. Development Economics 139"
+        }
+      ],
+      "caveats": [
+        "The main sample is 6 to 10 year olds, the primary school ages. Extending to 5 to 11 year olds was a sensitivity check that, per the IZA draft, did not change results.",
+        "There is no pure control group. Every child in the sample had at least 4 months of potential exposure, so the comparison is long versus short exposure, and meals versus none cannot be estimated.",
+        "Exposure is intent-to-treat and based on age and state rollout date, not on whether a child ate the meal.",
+        "Parallel trends cannot be formally tested. The authors say so.",
+        "Data are rural India only, from a survey where nutritional deficiency was common; the authors say the gains may reflect a very disadvantaged population.",
+        "Outcomes are ASER reading and arithmetic levels on a 0 to 4 scale, which are basic skills.",
+        "The sample size comes from the 2016 working paper version; the journal version may differ."
+      ],
+      "sources": [
+        {
+          "citation": "Chakraborty and Jayaraman (2019), School feeding and learning achievement: Evidence from India's midday meal program, Journal of Development Economics 139:249-265 (abstract, introduction and conclusion snippets on publisher page)",
+          "url": "https://doi.org/10.1016/j.jdeveco.2018.10.011",
+          "kind": "journal"
+        },
+        {
+          "citation": "Chakraborty and Jayaraman (2016), School Feeding and Learning Achievement: Evidence from India's Midday Meal Program, IZA Discussion Paper 10086",
+          "url": "https://docs.iza.org/dp10086.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "id": "midday-meals-learning",
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "pmgsy-rural-roads",
+      "title": "Rural roads under the Pradhan Mantri Gram Sadak Yojana",
+      "area": "Water, sanitation and infrastructure",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "Programme launched in 2000; outcomes measured in 2012 and 2013 data, on average four years after road completion.",
+      "intervention": "The Government of India's PMGSY funded all-weather roads to unconnected villages, with national guidelines that prioritised villages above population thresholds of 1,000 and then 500 (2001 Census). By 2015 it had funded roads to nearly 200,000 villages at a cost of almost 40 billion US dollars.",
+      "verdict": "mixed",
+      "verdict_basis": "Roads raised transport use (index +0.410, SE 0.187) and cut the share of workers in agriculture by 9.2 percentage points (SE 0.043). Predicted consumption (+0.022 log points, SE 0.038), agricultural yields and assets showed no significant change, and village firm employment rose only slightly (index p = 0.09).",
+      "design": "quasi-experimental",
+      "design_detail": "Fuzzy regression discontinuity. Programme guidelines prioritised villages above population thresholds of 500 and 1,000 (2001 Census), so villages just above a threshold were about 22 percentage points more likely to get a road. Estimates use local linear regression with a triangular kernel, an optimal bandwidth of 84 around the thresholds, district-by-threshold fixed effects and baseline controls.",
+      "sample": "11,432 villages that had no paved road in 2001, matched across datasets, and fell within the optimal bandwidth of a population threshold. Household outcomes come from the 2012 Socioeconomic and Caste Census; firm outcomes from the Economic Census.",
+      "effects": [
+        {
+          "outcome": "Probability of getting a PMGSY road, villages just above vs below the threshold (first stage)",
+          "result": "About 22 percentage points higher",
+          "interval_or_se": "0.224 (SE 0.019) at a bandwidth of 60; F-statistic 132.8",
+          "quote": "This rule causes villages just above the population threshold to be 22 percentage points more likely to receive a road",
+          "page_or_section": "AER 110(3), Introduction; Table 2"
+        },
+        {
+          "outcome": "Share of workers (aged 21 to 60) in agriculture",
+          "result": "-9.2 percentage points (19 percent below the control mean of 0.476)",
+          "interval_or_se": "SE 0.043",
+          "quote": "New roads cause a 9.2 percentage point reduction in workers in agriculture (representing a 19 percent decrease from the control group mean)",
+          "page_or_section": "AER 110(3), Table 5 and accompanying text"
+        },
+        {
+          "outcome": "Employment in village non-farm firms (log, all sectors)",
+          "result": "4.2 new jobs per village on average (log change +0.273, not significant at 5 percent)",
+          "interval_or_se": "SE 0.159 (log); SE 7.596 (level)",
+          "quote": "We estimate that a new road on average creates 4.2 new jobs in a village.",
+          "page_or_section": "AER 110(3), abstract; Table 6"
+        },
+        {
+          "outcome": "Predicted consumption per capita",
+          "result": "+2 percent (+0.022 log points), not significant; the paper rules out a 10 percent increase at 95 percent confidence",
+          "interval_or_se": "SE 0.038",
+          "quote": "We estimate that roads cause a statistically insignificant 2 percent increase in predicted consumption",
+          "page_or_section": "AER 110(3), Table 8 and text"
+        },
+        {
+          "outcome": "Index of agricultural production",
+          "result": "+0.082, not significant",
+          "interval_or_se": "SE 0.124 (p = 0.51)",
+          "quote": "New road | 0.410 (0.187) | -0.341 (0.160) | 0.269 (0.157) | 0.082 (0.124) | 0.033 (0.137)",
+          "page_or_section": "AER 110(3), Table 3 (columns: transportation, ag occupation, firms, ag production, consumption)"
+        }
+      ],
+      "caveats": [
+        "Outcomes are observed about four years after road completion, so the paper estimates short- to medium-run effects only.",
+        "Consumption is predicted from assets and other measures, not measured directly, because the census microdata contain no wage, input or output variables.",
+        "The sample is villages near the 500 and 1,000 population thresholds in states that followed the prioritisation rule, including Gujarat, Madhya Pradesh, Maharashtra, Orissa and Rajasthan, so results apply to those villages.",
+        "In Table 5 the fall in agricultural occupation is significant at the 5 percent level, but the matching rise in non-agricultural manual labour (SE 0.043 on an estimate of 0.072) is not.",
+        "The authors note that remote areas may continue to lack economic opportunities even with better market connections."
+      ],
+      "sources": [
+        {
+          "citation": "Asher and Novosad (2020), Rural Roads and Local Economic Development, American Economic Review 110(3), 797-823",
+          "url": "https://samuelasher.com/wp-content/uploads/2020/11/an-rural-roads.pdf",
+          "kind": "journal"
+        },
+        {
+          "citation": "Asher and Novosad (2020), AER 110(3), publisher abstract page (DOI 10.1257/aer.20180268)",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20180268",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "rsby-health-insurance",
+      "title": "Rashtriya Swasthya Bima Yojana and out-of-pocket health spending",
+      "area": "Health",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "Scheme launched April 2008. Outcomes measured to March 2012, using survey rounds of 1999-2000, 2004-05 and 2011-12.",
+      "intervention": "RSBY is a Government of India health insurance scheme launched in April 2008 by the Ministry of Labour and Employment. It covers inpatient care for households on the Below Poverty Line list, with a cover limit of INR 30,000 per family.",
+      "verdict": "did-not-work",
+      "verdict_basis": "The scheme aimed to lower out-of-pocket health spending. The authors find no significant effect on inpatient out-of-pocket spending or on catastrophic inpatient spending (the 26% fall in early districts was not significant). The probability of any out-of-pocket spending rose by 30% in early districts.",
+      "design": "quasi-experimental",
+      "design_detail": "Difference in differences with propensity score matching of districts, using the staggered district roll-out. Treated households are the two poorest expenditure quintiles in RSBY districts, a proxy for BPL status. Two treatment groups: districts enrolling by March 2010 (treat1) and between April 2010 and March 2012 (treat2). Estimates are intention to treat.",
+      "sample": "N = 346,615 households across three NSSO survey rounds, plus district-level RSBY enrolment data (as stated in the abstract). 65,458 households in four excluded states were dropped before analysis, about 18% of the total.",
+      "effects": [
+        {
+          "outcome": "Inpatient out-of-pocket spending (probability and level)",
+          "result": "No significant effect",
+          "interval_or_se": "Standard errors reported in Table 4; not extracted",
+          "quote": "RSBY did not affect the likelihood of inpatient out-of-pocket spending, the level of inpatient out of pocket spending or catastrophic inpatient spending.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "outcome": "Catastrophic inpatient spending (OOP above 10% of household consumption expenditure), early districts (treat1)",
+          "result": "Odds of catastrophic inpatient OOP lower by 26%, not statistically significant",
+          "interval_or_se": null,
+          "quote": "RSBY lowers the likelihood of experiencing catastrophic inpatient OOP spending by 26%, the effect is not statistically significant.",
+          "page_or_section": "Section 4.2.1, Inpatient expenses"
+        },
+        {
+          "outcome": "Catastrophic inpatient spending, later districts (treat2)",
+          "result": "Lower by almost 9%, not statistically significant",
+          "interval_or_se": null,
+          "quote": "RSBY also lowered the probability of incurring any catastrophic inpatient OOP by almost 9% in ‘treat2’ households, but this was statistically insignificant.",
+          "page_or_section": "Section 4.2.1, Inpatient expenses"
+        },
+        {
+          "outcome": "Probability of any out-of-pocket spending (inpatient and outpatient), early districts",
+          "result": "Increase of 30%, statistically significant",
+          "interval_or_se": "Marked significant at the 10 percent level in Table 4",
+          "quote": "the likelihood of incurring any out of pocket spending (inpatient and outpatient) rose by 30% due to RSBY and was statistically significant.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "outcome": "Outpatient out-of-pocket spending (level and probability)",
+          "result": "No statistically significant effect (abstract)",
+          "interval_or_se": null,
+          "quote": "We also do not find any statistically significant effect of RSBY on the level of outpatient out-of-pocket expenditure and the probability of incurring outpatient expenditure.",
+          "page_or_section": "Abstract. Note: the abstract and Section 4.2.2 differ on the outpatient probability, see caveats."
+        },
+        {
+          "outcome": "Household non-medical spending, early districts",
+          "result": "Increase of about 5%",
+          "interval_or_se": null,
+          "quote": "RSBY raised household non-medical spending by 5%.",
+          "page_or_section": "Abstract"
+        }
+      ],
+      "caveats": [
+        "Estimates are intention to treat for eligible households, not for enrolled households, because the survey cannot identify RSBY status at household level.",
+        "Eligibility is proxied by the two poorest expenditure quintiles, which may misclassify some poor households and weaken estimates.",
+        "The abstract states no significant effect on the probability of outpatient spending, while Section 4.2.2 reports a significant 23% rise in early districts. The text is internally inconsistent on this point.",
+        "Enrolment was under 50% of eligible households in many districts and the authors find no larger effect in high-enrolment districts.",
+        "Catastrophic spending is defined only as OOP above 10% of consumption expenditure. Debt and asset sales are not measured.",
+        "Authors suggest explanations such as hospital refusals, the INR 30,000 cap and purchases of drugs outside the scheme. These are plausible explanations and are not tested in the paper."
+      ],
+      "sources": [
+        {
+          "citation": "Karan A, Yip W, Mahal A (2017), Extending health insurance to the poor in India: An impact evaluation of Rashtriya Swasthya Bima Yojana on out of pocket spending for healthcare, Social Science and Medicine 181, 83-92",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5408909/",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "surat-emissions-trading",
+      "title": "Surat particulate matter emissions trading market",
+      "area": "Environment and climate",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Gujarat"
+        ]
+      },
+      "period": "September 2019 to April 2021, with an interruption caused by the nationwide COVID-19 lockdown.",
+      "intervention": "The Gujarat Pollution Control Board, working with the research team, built the world's first particulate matter emissions market for coal-burning industrial plants in Surat. Plants assigned to the market received tradeable permits against a cap, with 80 percent of permits given free and 20 percent auctioned weekly, while control plants stayed under standard command-and-control rules.",
+      "verdict": "worked",
+      "verdict_basis": "Plants in the market cut particulate emissions by a statistically significant amount: -0.193 log points (SE 0.076) without imputed data and -0.282 to -0.316 log points with imputed data, which the authors summarise as a 20 to 30 percent reduction. Compliance with permit obligations was 99 percent against 66 percent under the status quo.",
+      "design": "rct",
+      "design_detail": "Plant-level randomised controlled trial, registered as AEARCTR-0003860. Half of an initial sample of 342 high-pollution-potential plants under the Surat regional office were randomly assigned to the market. All sample plants were required to install continuous emissions monitoring systems. After assignment and before the market began, plants that were closed or seasonal were removed as ineligible.",
+      "sample": "162 treatment plants and 156 control plants (318 in total) after ineligible plants were removed, from an initial sample of 342 plants.",
+      "effects": [
+        {
+          "outcome": "Particulate matter emissions, treatment versus control plants",
+          "result": "20 to 30 percent reduction (log-point estimates from -0.178 to -0.316 across specifications)",
+          "interval_or_se": "Without imputation -0.193 log points, SE 0.076; imputation rule A -0.282, SE 0.074; imputation rule B -0.316, SE 0.057",
+          "quote": "Second, treatment plants reduced pollution emissions, relative to control plants, by 20%-30%.",
+          "page_or_section": "QJE 140(2), abstract; Table III and Section IV"
+        },
+        {
+          "outcome": "Compliance with the pollution obligation",
+          "result": "Treatment plants held enough permits to cover emissions 99% of the time, against 66% compliance with standards under the status quo",
+          "interval_or_se": null,
+          "quote": "treatment plants held enough permits to cover their emissions 99% of the time, compared with just 66% compliance with standards",
+          "page_or_section": "QJE 140(2), abstract"
+        },
+        {
+          "outcome": "Variable abatement costs at constant emissions",
+          "result": "11 percent lower under the market than under command-and-control (estimated, model-based)",
+          "interval_or_se": null,
+          "quote": "the market reduced abatement costs by an estimated 11%, holding constant emissions",
+          "page_or_section": "QJE 140(2), abstract; Section on abatement costs"
+        },
+        {
+          "outcome": "Benefit-cost comparison of extending the market (mortality benefits against costs)",
+          "result": "Benefits exceed costs by at least 25 times",
+          "interval_or_se": null,
+          "quote": "the emissions market has mortality benefits that exceed its costs by at least 25 times",
+          "page_or_section": "QJE 140(2), abstract"
+        },
+        {
+          "outcome": "Market design: permit allocation",
+          "result": "Permits summing to 80% of the cap were distributed free in proportion to emissions potential and 20% were sold in weekly auctions",
+          "interval_or_se": null,
+          "quote": "permits summing to 80% of the cap distributed for free, in proportion to plant emissions potential, and 20% sold off in weekly",
+          "page_or_section": "QJE 140(2), Introduction"
+        }
+      ],
+      "caveats": [
+        "The 20 to 30 percent range depends on how missing emissions readings are handled; the log-point estimates without imputation (about -0.18 to -0.19) convert to roughly 16 to 18 percent by my own arithmetic, so the lower end of the range rests on the imputed specifications.",
+        "The paper says the lower emissions in treatment plants came partly from a cap that proved stricter than the control regulation and from the regulator cutting the cap over the first compliance periods.",
+        "The cost saving is an estimate from a model of plant bidding, not a direct measurement of spending.",
+        "The benefit-cost ratio is for a hypothetical extension of the market across Surat, under assumptions about mortality damages.",
+        "The trial covers coal-burning plants in one city and was interrupted by the COVID-19 lockdown.",
+        "A research summary from the University of Chicago gives 317 plants; the journal paper gives 318 (162 plus 156), which this page uses.",
+        "Converting the log-point estimates (one minus e to the power of the estimate) gives a reduction of about 18 percent without imputed data and about 25 to 27 percent with it, so the lower end of the authors' 20 to 30 percent range depends on the imputation."
+      ],
+      "sources": [
+        {
+          "citation": "Greenstone, Pande, Ryan and Sudarshan (2025), Can Pollution Markets Work in Developing Countries? Experimental Evidence from India, Quarterly Journal of Economics 140(2), 1003-1060",
+          "url": "https://thedocs.worldbank.org/en/doc/43a1279f2bd4fd555add4e7e59b0644b-0050022025/original/CAN-POLLUTION-MARKETS-WORK-IN-DEVELOPING-COUNTRIES.pdf",
+          "kind": "journal"
+        },
+        {
+          "citation": "Greenstone, Pande, Ryan and Sudarshan (2025), QJE 140(2), publisher abstract page (DOI 10.1093/qje/qjaf009)",
+          "url": "https://academic.oup.com/qje/article-abstract/140/2/1003/8002857",
+          "kind": "journal"
+        },
+        {
+          "citation": "Greenstone, Pande, Ryan and Sudarshan (2023), Can Pollution Markets Work in Developing Countries? Experimental Evidence from India, Warwick Economics Research Paper 1453 (earlier working paper abstract)",
+          "url": "https://ideas.repec.org/p/wrk/warwec/1453.html",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "tsc-madhya-pradesh-sanitation",
+      "title": "Total Sanitation Campaign in rural Madhya Pradesh",
+      "area": "Water, sanitation and infrastructure",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Madhya Pradesh"
+        ]
+      },
+      "period": "Baseline May to July 2009. Follow-up February to April 2011, 21 months later. The national TSC began in 1999.",
+      "intervention": "India's Total Sanitation Campaign subsidises and promotes individual household latrines and uses social mobilisation to end open defecation. In Madhya Pradesh it ran with capacity building from the World Bank's Water and Sanitation Program and alongside Nirmal Vatika, which together gave at least Rs 4,200 to below-poverty-line households.",
+      "verdict": "mixed",
+      "verdict_basis": "Latrine coverage rose 19 percentage points (95% CI 12 to 26) and adult open defecation fell about 10 points (95% CI 4 to 15). Diarrhoea (7.4% against 7.7%, p=0.687), gastrointestinal illness, parasites, anaemia and growth showed no difference. Behaviour changed modestly and the child health goal was not met.",
+      "design": "rct",
+      "design_detail": "Cluster randomised controlled trial, randomised at village level with equal allocation to intervention and control. Control villages were promised the programme after the study. Analysis by intention to treat.",
+      "sample": "80 rural villages in two districts. Baseline: 3,390 children under 5 from 1,954 households. Follow-up: 5,209 children under 5 from 3,039 households, each with at least one child under 24 months at enrolment. Stool testing on a random subsample of 1,150 children under 24 months.",
+      "effects": [
+        {
+          "outcome": "Households with a JMP-defined improved sanitation facility",
+          "result": "+19 percentage points (41.4% intervention vs 22.6% control)",
+          "interval_or_se": "95% CI 12 to 26; p<0.001",
+          "quote": "The intervention increased the coverage of JMP defined improved sanitation facility by average 19 percentage points (95% CI 12%–26%; p-value<0.001)",
+          "page_or_section": "Results, IHL Coverage and Sanitation-Related Behaviors"
+        },
+        {
+          "outcome": "Households with any individual household latrine",
+          "result": "+20 percentage points (44.1% intervention vs 24.2% control)",
+          "interval_or_se": "95% CI 13 to 27; p<0.001",
+          "quote": "The intervention increased the coverage of any type of IHL facility by 20 percentage points (95% CI 13%–27%; p-value<0.001)",
+          "page_or_section": "Results, IHL Coverage and Sanitation-Related Behaviors"
+        },
+        {
+          "outcome": "Daily open defecation, adult women",
+          "result": "73% intervention vs 83% control, difference about 10 percentage points",
+          "interval_or_se": "p<0.001 (abstract gives adult CI 4 to 15 for the pooled adult measure)",
+          "quote": "adult women (73% intervention versus 83% control; mean difference: 10%; p-value<0.001)",
+          "page_or_section": "Results, IHL Coverage and Sanitation-Related Behaviors"
+        },
+        {
+          "outcome": "Daily open defecation, adult men",
+          "result": "75% intervention vs 84% control, difference 9.5 points",
+          "interval_or_se": "p=0.001",
+          "quote": "adult men (75% intervention versus 84% control; mean difference: 9.5%; p-value = 0.001)",
+          "page_or_section": "Results, IHL Coverage and Sanitation-Related Behaviors"
+        },
+        {
+          "outcome": "Caregiver-reported diarrhoea",
+          "result": "7.4% intervention vs 7.7% control, no difference",
+          "interval_or_se": "p=0.687",
+          "quote": "Diarrhea prevalence did not differ between groups (7.4% intervention versus 7.7% control; p-value = 0.687)",
+          "page_or_section": "Results, Caregiver Reported Illness"
+        },
+        {
+          "outcome": "Highly credible gastrointestinal illness",
+          "result": "11.5% intervention vs 12.0% control, no difference",
+          "interval_or_se": "p=0.692",
+          "quote": "HCGI prevalence also did not differ between groups (11.5% intervention versus 12.0% control; p-value = 0.692)",
+          "page_or_section": "Results, Caregiver Reported Illness"
+        },
+        {
+          "outcome": "Child growth and anaemia",
+          "result": "No difference between groups",
+          "interval_or_se": null,
+          "quote": "we found no differences between the randomized groups in anemia prevalence or growth outcomes.",
+          "page_or_section": "Results, Anemia and Anthropometry"
+        }
+      ],
+      "caveats": [
+        "Follow-up was short, 21 months after baseline.",
+        "Ten of the 40 control villages were contaminated: TSC activities began in eight control villages soon after baseline and possibly in two more before follow-up.",
+        "Diarrhoea, gastrointestinal illness and open defecation are self-reported by caregivers or households, so reporting bias is possible.",
+        "Baseline imbalances existed on improved water access (89% vs 80%), handwashing station with soap and water (44% vs 54%), anaemia (88% vs 93%) and height-for-age z-score (-1.38 vs -1.81).",
+        "Among households with an improved facility, 41% in intervention villages still reported daily open defecation by adult men or women, against 28% in control villages.",
+        "The abstract gives the control mean for adult open defecation as 84%, while the results text gives 83% for women and 84% for men. The pooled adult figure was not separately read.",
+        "The authors note the study was funded by the Bill & Melinda Gates Foundation through the World Bank's Water and Sanitation Program, and one author was World Bank staff."
+      ],
+      "sources": [
+        {
+          "citation": "Patil SR, Arnold BF, Salvatore AL, Briceno B, Ganguly S, Colford JM Jr, et al. (2014), The Effect of India's Total Sanitation Campaign on Defecation Behaviors and Child Health in Rural Madhya Pradesh: A Cluster Randomized Controlled Trial, PLoS Medicine 11(8): e1001709",
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001709",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "women-panchayat-reservation",
+      "title": "Reserving panchayat head positions for women",
+      "area": "Governance and participation",
+      "geography": {
+        "level": "state",
+        "states": [
+          "West Bengal",
+          "Rajasthan"
+        ]
+      },
+      "period": "Reservation rules applied from 1995 (Rajasthan) and 1998 (West Bengal); the paper reports data collected in 2000 in Birbhum (West Bengal) and Udaipur (Rajasthan) districts.",
+      "intervention": "Under the 73rd Amendment, one third of Gram Panchayat head (Pradhan) positions were reserved for women, and the councils to be reserved were chosen by a randomised rotation rule. The state governments of West Bengal and Rajasthan implemented the rule; the researchers surveyed the councils afterwards.",
+      "verdict": "mixed",
+      "verdict_basis": "Reserved councils built more drinking water facilities in both states (West Bengal +9.09, SE 4.02; Rajasthan +2.62, SE 0.95). Roads were in better condition in West Bengal (+0.18, SE 0.06) and worse in Rajasthan (-0.08, SE 0.04). Informal education centres fell in West Bengal (-0.16, SE 0.07, council level).",
+      "design": "rct",
+      "design_detail": "Natural randomised policy experiment. In West Bengal, Gram Panchayats in each district were ranked by serial number and every third one was reserved for a woman Pradhan, which makes the reservation as good as random. In Rajasthan a random rotation system was used. Reserved and unreserved councils are compared, and census 1991 village variables show no significant differences between the two groups.",
+      "sample": "265 Village Councils (Gram Panchayats) in West Bengal and Rajasthan, per the abstract. West Bengal: all 161 Gram Panchayats of Birbhum district in the study (166 in the district, 5 held back for pre-testing); 322 village-level observations in Table V. Rajasthan: 100 village-level observations in Table V.",
+      "effects": [
+        {
+          "outcome": "Drinking water facilities newly built or repaired per village, West Bengal (reserved minus unreserved)",
+          "result": "+9.09 facilities (23.83 reserved vs 14.74 unreserved)",
+          "interval_or_se": "SE 4.02 (clustered at Gram Panchayat level)",
+          "quote": "Number of Drinking Water Facilities Newly Built or Repaired | 23.83(5.00) | 14.74(1.44) | 9.09(4.02)",
+          "page_or_section": "Econometrica 72(5), Table V, panel A (village level)"
+        },
+        {
+          "outcome": "Condition of roads, West Bengal (1 if in good condition, reserved minus unreserved)",
+          "result": "+0.18 (0.41 reserved vs 0.23 unreserved)",
+          "interval_or_se": "SE 0.06",
+          "quote": "Condition of Roads (1 if in good condition) | .41(.05) | .23(.03) | .18(.06)",
+          "page_or_section": "Econometrica 72(5), Table V, panel A (village level)"
+        },
+        {
+          "outcome": "Drinking water facilities newly built or repaired per village, Rajasthan (reserved minus unreserved)",
+          "result": "+2.62 facilities (7.31 reserved vs 4.69 unreserved)",
+          "interval_or_se": "SE 0.95",
+          "quote": "7.31(.93) | 4.69(.44) | 2.62(.95)",
+          "page_or_section": "Econometrica 72(5), Table V, panel A, Rajasthan columns 4 to 6"
+        },
+        {
+          "outcome": "Condition of roads, Rajasthan (1 if in good condition, reserved minus unreserved)",
+          "result": "-0.08 (0.90 reserved vs 0.98 unreserved)",
+          "interval_or_se": "SE 0.04",
+          "quote": ".90(.05) | .98(.02) | -.08(.04)",
+          "page_or_section": "Econometrica 72(5), Table V, panel A, Rajasthan columns 4 to 6"
+        },
+        {
+          "outcome": "Informal education centre in the Gram Panchayat, West Bengal (council level)",
+          "result": "-0.16 (0.67 reserved vs 0.82 unreserved)",
+          "interval_or_se": "SE 0.07",
+          "quote": "1 if There Is an Informal EducationCenter in the GP | .67(.06) | .82(.04) | -.16(.07)",
+          "page_or_section": "Econometrica 72(5), Table V, panel B (GP level)"
+        },
+        {
+          "outcome": "Summary of direction of effects",
+          "result": "More investment in goods tied to women's concerns, less in goods tied to men's concerns; this depends on the state.",
+          "interval_or_se": null,
+          "quote": "They invest less in public goods that are more closely linked to mens concerns: education in West Bengal and roads in Rajasthan.",
+          "page_or_section": "Econometrica 72(5), concluding section (section number not confirmed)"
+        }
+      ],
+      "caveats": [
+        "The effect on roads has opposite signs in the two states, so a single 'women invest more in roads' claim is not supported.",
+        "The evidence comes from one district per state (Birbhum and Udaipur), surveyed in 2000.",
+        "Rajasthan and West Bengal differ in institutions: Rajasthan held its first Panchayat election only in 1995, so the setting has a much shorter history of elected councils.",
+        "Reservation changes who leads and also the political competition; the paper argues the results come mainly from the leader's gender.",
+        "The paper measures investment in public goods, not the quality, cost or final welfare gains of those goods.",
+        "The text of the paper gives the West Bengal village-level count as 322 in Table V and as 323 in a later table note."
+      ],
+      "sources": [
+        {
+          "citation": "Chattopadhyay and Duflo (2004), Women as Policy Makers: Evidence from a Randomized Policy Experiment in India, Econometrica 72(5), 1409-1443",
+          "url": "https://economics.mit.edu/sites/default/files/2022-08/Women%20as%20Policy%20Makers%20Evidence%20from%20a%20Randomized.pdf",
+          "kind": "journal"
+        },
+        {
+          "citation": "Chattopadhyay and Duflo (2001), Women as Policy Makers: Evidence from a India-Wide Randomized Policy Experiment, NBER Working Paper 8615 (West Bengal only, 165 councils)",
+          "url": "https://www.nber.org/papers/w8615",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    }
+  ]
+}

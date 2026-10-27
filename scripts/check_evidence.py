@@ -77,6 +77,8 @@ def _prose_problems(label, text):
 
 
 def _numbers(text):
+    # ".18" in a table row and "0.18" in our result are the same number.
+    text = re.sub(r"(?<![\d.])\.(\d)", r"0.\1", text)
     return {n.replace(",", "").rstrip(".") for n in NUMBER.findall(text)}
 
 
