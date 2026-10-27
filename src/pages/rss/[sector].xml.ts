@@ -27,8 +27,8 @@ export function GET(context: APIContext & { props: { sectorName: string } }) {
     : SITE_URL;
 
   return rss({
-    title: `PolicyDhara - ${sectorName}`,
-    description: `Indian development policies in the ${sectorName} sector — by ImpactMojo`,
+    title: `PolicyDhara: ${sectorName}`,
+    description: `Indian development policies in the ${sectorName} sector, tracked by PolicyDhara`,
     site: siteRoot,
     items: policies.map(p => {
       const dateStr = p.date || p.first_seen || new Date().toISOString().slice(0, 10);
