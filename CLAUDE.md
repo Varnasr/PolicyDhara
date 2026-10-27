@@ -139,7 +139,9 @@ status words and flip with the theme; `--type-*` are fills and tints, and a
 badge's text is `color-mix` of the type colour into `--color-text`. Heat-map
 cells use `src/lib/heat.ts`, opaque fills in two bands (dark text on a tint,
 white on a deep blue), measured at 6.7:1 or better in both themes. An axe run
-over 34 page types at 390x844 and 1280x900 in both themes found 136 failing
-nodes at the start of the 27 October 2026 pass and none at the end; the
-audit script lives in the session scratchpad, so rerun axe over a changed page
+over 34 page types at 390x844 and 1280x900 in both themes found 157 distinct
+failing selectors at the start of the 27 October 2026 pass. The last full run
+showed one (a link in the sources page explainer); it was fixed and the pages
+that share the rule were rechecked clean, but no full run followed it. The
+audit script lived in the session scratchpad, so rerun axe over a changed page
 rather than trusting this paragraph.
