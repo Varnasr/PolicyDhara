@@ -1,962 +1,1058 @@
 {
   "pib": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 15,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 14,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_eci": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_president_s_secretariat": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_vice_president_s_secretariat": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_prime_minister_s_office": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_lok_sabha_secretariat": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_rajya_sabha_secretariat": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cabinet": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cabinet_committee_decisions": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cabinet_committee_on_economic_affairs_ccea": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cabinet_secretariat": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cabinet_committee_on_infrastructure": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cabinet_committee_on_price": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cabinet_committee_on_investment": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_ayush": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_other_cabinet_committees": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_dept_space": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_dept_ocean_development": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_dept_atomic_energy": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_finance_commission": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_agriculture_farmers_welfare": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_agro_rural_industries": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_chemicals_and_fertilizers": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_civil_aviation": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_coal": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_commerce_industry": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_communications": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_company_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_consumer_affairs_food_public_distribution": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_cooperation": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_corporate_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_culture": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_defence": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_development_of_north_east_region": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_disinvestment": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_drinking_water_sanitation": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_earth_sciences": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_education": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_electronics_it": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_environment_forest_and_climate_change": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_external_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_finance": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_fisheries_animal_husbandry_dairying": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_food_processing_industries": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_health_and_family_welfare": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_heavy_industries": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_home_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_housing_urban_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_information_broadcasting": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_jal_shakti": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_labour_employment": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_law_and_justice": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_micro_small_medium_enterprises": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_mines": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_minority_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_new_and_renewable_energy": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_overseas_indian_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_panchayati_raj": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_parliamentary_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_personnel_public_grievances_pensions": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_petroleum_natural_gas": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_planning": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_power": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_railways": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_road_transport_highways": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_rural_development": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_science_technology": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_ports_shipping_and_waterways": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_skill_development_and_entrepreneurship": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_social_justice_empowerment": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_statistics_programme_implementation": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_steel": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_surface_transport": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_textiles": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_tourism": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_tribal_affairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_urban_development": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_water_resources_river_development_and_ganga_rejuvenation": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_women_and_child_development": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_youth_affairs_and_sports": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_niti_aayog": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_pm_speech": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_eac_pm": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_upsc": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_special_service_and_features": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_office_of_principal_scientific_advisor_to_goi": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_national_financial_reporting_authority": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_competition_commission_of_india": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_ifsc_authority": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_national_security_council_secretariat": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_national_human_rights_commission": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "pib_lokpal_of_india": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "prs_legislative": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 390,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "prs_bills": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 983,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "india_code": {
     "first_probed": "2026-07-18",
-    "streak": 2,
+    "streak": 3,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "egazette": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "niti_aayog": {
     "first_probed": "2026-07-18",
@@ -966,35 +1062,39 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "parliament_lok_sabha": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "parliament_rajya_sabha": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "mof_budget": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 30,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "rbi": {
     "first_probed": "2026-07-18",
@@ -1004,7 +1104,8 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "moefcc": {
     "first_probed": "2026-07-18",
@@ -1014,7 +1115,8 @@
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "meity": {
     "first_probed": "2026-07-18",
@@ -1024,17 +1126,19 @@
     "last_body_len": 3285,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "orf": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 9,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "cprindia": {
     "first_probed": "2026-07-18",
@@ -1044,7 +1148,8 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "livemint_policy": {
     "first_probed": "2026-07-18",
@@ -1054,127 +1159,141 @@
     "last_body_len": 4096,
     "last_items": 35,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 35
   },
   "state_pib_maharashtra": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "state_pib_tamil_nadu": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "state_pib_karnataka": {
     "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "state_pib_west_bengal": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "state_pib_uttar_pradesh": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "state_pib_gujarat": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "state_pib_kerala": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "state_pib_madhya_pradesh": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "state_pib_rajasthan": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "state_pib_telangana": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "state_pib_punjab": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 15,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "state_pib_assam": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 11,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
-  "state_pib_bihar": {
+  "state_pib_west_bengal": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "state_pib_uttar_pradesh": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "state_pib_gujarat": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "state_pib_kerala": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "state_pib_madhya_pradesh": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "state_pib_rajasthan": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "state_pib_telangana": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "state_pib_punjab": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 15,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "state_pib_assam": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 11,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "state_pib_bihar": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "the_hindu_policy": {
     "first_probed": "2026-07-18",
@@ -1184,7 +1303,8 @@
     "last_body_len": 4096,
     "last_items": 60,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 60
   },
   "the_hindu_business": {
     "first_probed": "2026-07-18",
@@ -1194,27 +1314,30 @@
     "last_body_len": 4096,
     "last_items": 60,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 60
   },
   "indian_express_policy": {
     "first_probed": "2026-07-18",
-    "streak": 2,
+    "streak": 3,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "indian_express_business": {
     "first_probed": "2026-07-18",
-    "streak": 2,
+    "streak": 3,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "ndtv_india": {
     "first_probed": "2026-07-18",
@@ -1228,12 +1351,13 @@
   },
   "the_wire": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "hindustan_times": {
     "first_probed": "2026-07-18",
@@ -1253,16 +1377,18 @@
     "last_body_len": 4096,
     "last_items": 60,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 60
   },
   "the_print": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "mint_opinion": {
     "first_probed": "2026-07-18",
@@ -1272,7 +1398,8 @@
     "last_body_len": 4096,
     "last_items": 35,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 35
   },
   "icrier": {
     "first_probed": "2026-07-18",
@@ -1282,25 +1409,28 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "brookings_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "carnegie_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "cppr": {
     "first_probed": "2026-07-18",
@@ -1310,7 +1440,8 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "cuts_international": {
     "first_probed": "2026-07-18",
@@ -1320,36 +1451,40 @@
     "last_body_len": 4096,
     "last_items": 3,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 2
   },
   "cse_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "cbga": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "ncaer": {
     "first_probed": "2026-07-18",
-    "streak": 1,
+    "streak": 2,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-09-21"
+    "last_healthy": "2026-09-21",
+    "last_dated": 0
   },
   "sebi": {
     "first_probed": "2026-07-18",
@@ -1359,16 +1494,18 @@
     "last_body_len": 4096,
     "last_items": 30,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 30
   },
   "trai": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
+    "last_status": 0,
+    "last_body_len": 0,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "irdai": {
     "first_probed": "2026-07-18",
@@ -1382,12 +1519,13 @@
   },
   "cerc": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "cbic": {
     "first_probed": "2026-07-18",
@@ -1397,7 +1535,8 @@
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "dpiit": {
     "first_probed": "2026-07-18",
@@ -1407,7 +1546,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mohfw": {
     "first_probed": "2026-07-18",
@@ -1417,7 +1557,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "moe": {
     "first_probed": "2026-07-18",
@@ -1427,7 +1568,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mord": {
     "first_probed": "2026-07-18",
@@ -1437,7 +1579,8 @@
     "last_body_len": 2965,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mole": {
     "first_probed": "2026-07-18",
@@ -1447,7 +1590,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mowr": {
     "first_probed": "2026-07-18",
@@ -1457,7 +1601,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mnre": {
     "first_probed": "2026-07-18",
@@ -1467,7 +1612,8 @@
     "last_body_len": 3925,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mofa": {
     "first_probed": "2026-07-18",
@@ -1477,16 +1623,18 @@
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "doj": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "mospi": {
     "first_probed": "2026-07-18",
@@ -1496,7 +1644,8 @@
     "last_body_len": 2644,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "dot": {
     "first_probed": "2026-07-18",
@@ -1506,25 +1655,28 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "fao_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "sci_judgments": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "barandbench": {
     "first_probed": "2026-07-18",
@@ -1532,9 +1684,10 @@
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 7,
+    "last_items": 12,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 12
   },
   "scobserver": {
     "first_probed": "2026-07-18",
@@ -1544,72 +1697,80 @@
     "last_body_len": 2647,
     "last_items": 1,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 1
   },
   "nlsiu_blog": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 792,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "nha": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "nasscom": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 287,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "cii": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 404,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "dst": {
     "first_probed": "2026-07-18",
-    "streak": 1,
+    "streak": 2,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "SHELL",
-    "last_healthy": "2026-09-21"
+    "last_healthy": "2026-09-21",
+    "last_dated": 0
   },
   "startup_india": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "cag": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "niti_sdg": {
     "first_probed": "2026-07-18",
@@ -1619,7 +1780,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "moinfo": {
     "first_probed": "2026-07-18",
@@ -1629,7 +1791,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mopower": {
     "first_probed": "2026-07-18",
@@ -1639,7 +1802,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mocoal": {
     "first_probed": "2026-07-18",
@@ -1649,7 +1813,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "momsme": {
     "first_probed": "2026-07-18",
@@ -1659,7 +1824,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "moship": {
     "first_probed": "2026-07-18",
@@ -1667,29 +1833,32 @@
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 19,
+    "last_items": 1,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 1
   },
   "mocivil": {
     "first_probed": "2026-07-18",
-    "streak": 1,
+    "streak": 2,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "SHELL",
-    "last_healthy": "2026-09-21"
+    "last_healthy": "2026-09-21",
+    "last_dated": 0
   },
   "mosteel": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 11,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "momine": {
     "first_probed": "2026-07-18",
@@ -1699,17 +1868,19 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mopanchayat": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 3,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "doner": {
     "first_probed": "2026-07-18",
@@ -1719,7 +1890,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "moearth": {
     "first_probed": "2026-07-18",
@@ -1729,7 +1901,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "moayush": {
     "first_probed": "2026-07-18",
@@ -1739,27 +1912,30 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "dfs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 20,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "disinvestment": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 4,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "moroad": {
     "first_probed": "2026-07-18",
@@ -1769,7 +1945,8 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mohousing": {
     "first_probed": "2026-07-18",
@@ -1779,120 +1956,134 @@
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "REDUNDANT",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "npci": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "epfo": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "ncte": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "cbse": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "dgca": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "nhrc": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 23,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "ncpcr": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 5,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "ncsc": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 5,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "ncst": {
     "first_probed": "2026-07-18",
-    "streak": 2,
+    "streak": 3,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "cic": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "nic": {
     "first_probed": "2026-07-18",
     "streak": 0,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 35,
+    "last_items": 13,
     "bucket": "WORKS",
+    "last_dated": 13,
     "last_healthy": "2026-10-27"
+  },
+  "nic": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 35,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "cert_in": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 447,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "pfrda": {
     "first_probed": "2026-07-18",
@@ -1900,83 +2091,92 @@
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 20,
+    "last_items": 11,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 11
   },
   "uidai": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "bihar_govt": {
     "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "jharkhand_govt": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "odisha_govt": {
-    "first_probed": "2026-07-18",
-    "streak": 2,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_dated": 0
   },
-  "punjab_govt": {
+  "jharkhand_govt": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 1,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "odisha_govt": {
+    "first_probed": "2026-07-18",
+    "streak": 3,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
+  },
+  "punjab_govt": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 0,
+    "last_body_len": 0,
+    "last_items": 0,
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "haryana_govt": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "hp_govt": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "goa_govt": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "manipur_govt": {
     "first_probed": "2026-07-18",
@@ -1986,25 +2186,28 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "arunachal_govt": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "sikkim_govt": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "ladakh_govt": {
     "first_probed": "2026-07-18",
@@ -2014,17 +2217,19 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "ris": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "igidr": {
     "first_probed": "2026-07-18",
@@ -2034,45 +2239,50 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "ipc": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 10,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "icmr": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "icar": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 36,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "drishti_ias": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "insights_ias": {
     "first_probed": "2026-07-18",
@@ -2082,16 +2292,18 @@
     "last_body_len": 4096,
     "last_items": 5,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 5
   },
   "praja": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "janaagraha": {
     "first_probed": "2026-07-18",
@@ -2101,17 +2313,19 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 10
   },
   "accountability_india": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "centre_science_env": {
     "first_probed": "2026-07-18",
@@ -2121,16 +2335,18 @@
     "last_body_len": 4096,
     "last_items": 29,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 6
   },
   "wipro_sustainability": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "azim_premji": {
     "first_probed": "2026-07-18",
@@ -2140,35 +2356,39 @@
     "last_body_len": 4096,
     "last_items": 47,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 2
   },
   "wto_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "unfpa_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "undesa": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "frontline_mag": {
     "first_probed": "2026-07-18",
@@ -2178,7 +2398,8 @@
     "last_body_len": 4096,
     "last_items": 60,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 50
   },
   "deccan_chronicle": {
     "first_probed": "2026-07-18",
@@ -2192,31 +2413,34 @@
   },
   "newslaundry": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 4,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "article14": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "caravanmag": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "moneycontrol": {
     "first_probed": "2026-07-18",
@@ -2226,184 +2450,204 @@
     "last_body_len": 4096,
     "last_items": 4,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 4
   },
   "pmfby": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "jjm": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "digilocker": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mgnrega": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 453,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "skill_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "samagra_shiksha": {
     "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "one_nation_one_ration": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 3,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "e_shram": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "national_horticulture": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "dbt_bharat": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "nabh": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 8,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "bar_council": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 661,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "nclat": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "itat": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 0,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "telecom_disputes": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "atomic_energy": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "drdo": {
-    "first_probed": "2026-07-18",
-    "streak": 1,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-09-21"
+    "last_dated": 0
   },
-  "swarajya_mag": {
+  "one_nation_one_ration": {
     "first_probed": "2026-07-18",
     "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
-    "last_body_len": 735,
-    "last_items": 0,
-    "bucket": "SHELL",
-    "last_healthy": "2026-09-21"
+    "last_body_len": 4096,
+    "last_items": 3,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
-  "print_diplomacy": {
+  "e_shram": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 1,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "national_horticulture": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "dbt_bharat": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "nabh": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 8,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "bar_council": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 661,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "nclat": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "itat": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 0,
+    "last_body_len": 0,
+    "last_items": 0,
+    "bucket": "DEAD",
+    "last_dated": 0
+  },
+  "telecom_disputes": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "atomic_energy": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "drdo": {
+    "first_probed": "2026-07-18",
+    "streak": 2,
+    "last_probed": "2026-10-27",
+    "last_status": 0,
+    "last_body_len": 0,
+    "last_items": 0,
+    "bucket": "DEAD",
+    "last_healthy": "2026-09-21",
+    "last_dated": 0
+  },
+  "swarajya_mag": {
+    "first_probed": "2026-07-18",
+    "streak": 0,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 1,
+    "bucket": "WORKS",
+    "last_healthy": "2026-10-27",
+    "last_dated": 1
+  },
+  "print_diplomacy": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "india_today": {
     "first_probed": "2026-07-18",
@@ -2423,102 +2667,113 @@
     "last_body_len": 4096,
     "last_items": 99,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 99
   },
   "pti_news": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 3535,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "idsa": {
     "first_probed": "2026-07-18",
-    "streak": 1,
+    "streak": 2,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-09-21"
+    "last_healthy": "2026-09-21",
+    "last_dated": 0
   },
   "gateway_house": {
     "first_probed": "2026-07-18",
-    "streak": 2,
+    "streak": 3,
     "last_probed": "2026-10-27",
     "last_status": 307,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "SHELL",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "south_asian_voices": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "india_foundation": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 14,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "sprf": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 5,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "molaw": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "molaw_bills": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "pmindia": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "mygov": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 12,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "gst_council": {
     "first_probed": "2026-07-18",
@@ -2526,27 +2781,30 @@
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 34,
+    "last_items": 2,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 2
   },
   "darpg": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "dsir": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "rbi_notifications": {
     "first_probed": "2026-07-18",
@@ -2556,286 +2814,317 @@
     "last_body_len": 4096,
     "last_items": 21,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 21
   },
   "sebi_circulars": {
     "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "maharashtra_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "transformingindia": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "mohealth": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "msde": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "motourism": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "mowr_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "mofa_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 403,
-    "last_body_len": 0,
-    "last_items": 0,
-    "bucket": "DEAD"
-  },
-  "mord_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 2945,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "mospi_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 2644,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "cerc_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "dgca_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "nhai": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "seci": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 14,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "ireda": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "exim_bank": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "sidbi_new": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 7,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "bseindia": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "cdsl": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 2,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "ntpc": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "nhpc": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 13,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "hal": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "climate_policy_radar": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "ceew_new": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 7,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "teri_new": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "epod_harvard": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 10,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "ecgov": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 28,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "govinsider": {
-    "first_probed": "2026-07-18",
-    "streak": 0,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 36,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
-  },
-  "indiawaterportal": {
-    "first_probed": "2026-07-18",
-    "streak": 4,
-    "last_probed": "2026-10-27",
-    "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
-  },
-  "villagesquare": {
-    "first_probed": "2026-07-18",
-    "streak": 3,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
     "bucket": "SHELL",
-    "last_healthy": "2026-07-18"
+    "last_dated": 0
+  },
+  "maharashtra_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "transformingindia": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "mohealth": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "msde": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "motourism": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "mowr_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "mofa_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 403,
+    "last_body_len": 0,
+    "last_items": 0,
+    "bucket": "DEAD",
+    "last_dated": 0
+  },
+  "mord_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 2945,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "mospi_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 2644,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "cerc_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "dgca_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "nhai": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "seci": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 14,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "ireda": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "exim_bank": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "sidbi_new": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "bseindia": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "cdsl": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 2,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "ntpc": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "nhpc": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 13,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "hal": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "climate_policy_radar": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "ceew_new": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 7,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "teri_new": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "epod_harvard": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 10,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "ecgov": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 28,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "govinsider": {
+    "first_probed": "2026-07-18",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 36,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "indiawaterportal": {
+    "first_probed": "2026-07-18",
+    "streak": 5,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "villagesquare": {
+    "first_probed": "2026-07-18",
+    "streak": 4,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "indiatoday_rss": {
     "first_probed": "2026-07-18",
@@ -2849,70 +3138,77 @@
   },
   "up_rera": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 14,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "policyradar": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "psa": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "disabilityaffairs": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 3,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "nisg": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "pratham": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "aser": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "actionaid": {
     "first_probed": "2026-07-18",
@@ -2922,132 +3218,146 @@
     "last_body_len": 4096,
     "last_items": 6,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 6
   },
   "savechildren": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "who_india_new": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 16,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "adb_india_new": {
     "first_probed": "2026-07-18",
-    "streak": 3,
+    "streak": 4,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "lse_southasia": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 2,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "wb_projects": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "igod": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "constitution_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "drishtiias_rss": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "pib_rss": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 20,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "mohua_new": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "ibef": {
     "first_probed": "2026-07-18",
     "streak": 0,
     "last_probed": "2026-10-27",
     "last_status": 200,
-    "last_body_len": 4096,
-    "last_items": 1194,
+    "last_body_len": 0,
+    "last_items": 1200,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 1200
   },
   "indiaspend": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 6,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "factchecker": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 6,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "scroll": {
     "first_probed": "2026-07-18",
@@ -3057,63 +3367,70 @@
     "last_body_len": 4096,
     "last_items": 100,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 100
   },
   "downtoearth": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "epw": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 53,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "nlsiu": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "world_bank_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "transparency_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
-    "last_status": 503,
+    "last_status": 500,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "nclt": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 46,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "livelaw": {
     "first_probed": "2026-07-18",
@@ -3123,7 +3440,8 @@
     "last_body_len": 4096,
     "last_items": 60,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 60
   },
   "idronline": {
     "first_probed": "2026-07-18",
@@ -3133,98 +3451,109 @@
     "last_body_len": 4096,
     "last_items": 10,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 9
   },
   "nfra": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "sfac": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "nddb": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 1,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "cci": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 404,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "adb_india": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "ka_gazette": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "tn_gazette": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "rj_gazette": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "mh_gazette": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "up_gazette": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "law_commission": {
     "first_probed": "2026-07-18",
@@ -3232,37 +3561,41 @@
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 12,
+    "last_items": 5,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 5
   },
   "cvc": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "ncw": {
     "first_probed": "2026-07-18",
-    "streak": 3,
+    "streak": 4,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "ncbc": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "ibbi": {
     "first_probed": "2026-07-18",
@@ -3272,16 +3605,18 @@
     "last_body_len": 4096,
     "last_items": 20,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 20
   },
   "aerb": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "takshashila": {
     "first_probed": "2026-07-18",
@@ -3291,16 +3626,18 @@
     "last_body_len": 4096,
     "last_items": 30,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 30
   },
   "csep": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "vidhi": {
     "first_probed": "2026-07-18",
@@ -3310,100 +3647,144 @@
     "last_body_len": 4096,
     "last_items": 40,
     "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "last_healthy": "2026-10-27",
+    "last_dated": 35
   },
   "nipfp": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "unicef_india": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 5,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "ecourts_judgments": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "delhi_hc": {
     "first_probed": "2026-07-18",
-    "streak": 0,
+    "streak": 1,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
     "last_items": 367,
-    "bucket": "WORKS",
-    "last_healthy": "2026-10-27"
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
   },
   "imd_press": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 478,
     "last_items": 0,
-    "bucket": "SHELL"
+    "bucket": "SHELL",
+    "last_dated": 0
   },
   "digital_india_prog": {
     "first_probed": "2026-07-18",
-    "streak": 3,
+    "streak": 4,
     "last_probed": "2026-10-27",
     "last_status": 403,
     "last_body_len": 0,
     "last_items": 0,
     "bucket": "DEAD",
-    "last_healthy": "2026-07-18"
+    "last_healthy": "2026-07-18",
+    "last_dated": 0
   },
   "dipr_tn": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "dipr_ka": {
     "first_probed": "2026-07-18",
-    "streak": 4,
+    "streak": 5,
     "last_probed": "2026-10-27",
     "last_status": 0,
     "last_body_len": 0,
     "last_items": 0,
-    "bucket": "DEAD"
+    "bucket": "DEAD",
+    "last_dated": 0
   },
   "india_forum": {
     "first_probed": "2026-09-21",
+    "streak": 1,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 13,
+    "bucket": "UNDATED",
+    "last_healthy": "2026-10-27",
+    "last_dated": 0
+  },
+  "ideas_for_india": {
+    "first_probed": "2026-09-21",
+    "streak": 3,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 0,
+    "bucket": "SHELL",
+    "last_dated": 0
+  },
+  "irdai_circulars": {
+    "first_probed": "2026-10-27",
     "streak": 0,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 15,
+    "last_items": 20,
+    "last_dated": 20,
     "bucket": "WORKS",
     "last_healthy": "2026-10-27"
   },
-  "ideas_for_india": {
-    "first_probed": "2026-09-21",
-    "streak": 2,
+  "irdai_notifications": {
+    "first_probed": "2026-10-27",
+    "streak": 0,
     "last_probed": "2026-10-27",
     "last_status": 200,
     "last_body_len": 4096,
-    "last_items": 0,
-    "bucket": "SHELL"
+    "last_items": 20,
+    "last_dated": 20,
+    "bucket": "WORKS",
+    "last_healthy": "2026-10-27"
+  },
+  "irdai_press": {
+    "first_probed": "2026-10-27",
+    "streak": 0,
+    "last_probed": "2026-10-27",
+    "last_status": 200,
+    "last_body_len": 4096,
+    "last_items": 20,
+    "last_dated": 20,
+    "bucket": "WORKS",
+    "last_healthy": "2026-10-27"
   }
 }
