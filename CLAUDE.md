@@ -165,6 +165,16 @@ readable date are skipped). Run against the other 183 undated scrape sources it 
 further table it could read, so each of those needs its own scraper. CERC's draft-regulation page carries no dates at all, so it is not scraped. The gazette (`egazette.gov.in` fails on its
 certificate chain), CCI, CERC and the other regulators still need a scraper each.
 
+**Orders about named people and firms are not kept.** SEBI's feed carries every recovery,
+release, prohibitory and adjudication order, some with the person's PAN, and the classifier
+read "order" in a regulator's title as a notification. `is_case_specific` in
+`scripts/fetch_all.py` drops them at fetch and from the stored archive (180 of 2,000 on
+27 October: 135 SEBI, 42 TRAI consumer workshops run by telecom firms, 3 IRDAI orders on
+named insurers). SEBI regulations, circulars and master circulars stay. Instruments are not
+subject to the per-source cap, so a filter like this is what keeps a chatty feed from filling
+the archive. After a change that makes many old records new, run the refresh by hand with
+`quiet` on so the alert steps stay silent.
+
 ## Writing check
 
 `scripts/check_copy.py` is a ratchet over the prose a reader sees (pages,

@@ -211,6 +211,27 @@ def is_valid_title(title: str) -> bool:
     return True
 
 
+# Orders about one named person or firm, and a telecom firm's outreach
+# workshops, are not policy. SEBI's feed carries every recovery and
+# adjudication order, some with the person's PAN, and the classifier reads
+# "order" in a regulator's title as a notification. They are dropped at fetch
+# and from the stored archive.
+_CASE_SPECIFIC_RE = re.compile(
+    r"recovery certificate|certificate no\.?\s*rc\s*\d|notice of demand|prohibitory order|"
+    r"\b(release|remittance|completion|attachment) order\b|order for compliance|"
+    r"\(pan\b|\bpan\s*:|"
+    r"^(?:[\w-]+\s+){0,3}order\b.*\bin the matter of\b|\bsettlement (order|application)\b|"
+    r"\badjudication order\b|show cause notice|"
+    r"consumer (education|awareness|outreach) (workshop|programme|program|camp)",
+    re.I,
+)
+
+
+def is_case_specific(title: str) -> bool:
+    """True for an order or notice about a named person or firm."""
+    return bool(_CASE_SPECIFIC_RE.search(title or ""))
+
+
 def load_historical_seed() -> list[dict]:
     """Load curated historical policy data (UPA I onwards)."""
     if not HISTORICAL_SEED.exists():
@@ -423,6 +444,11 @@ def merge_policies(existing: dict, new_items: list[dict]) -> list[dict]:
     Also detects amendments when a policy reappears with changed text."""
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # Orders about named people and firms leave the stored archive too.
+    # (In place: callers read the merged result back out of `existing`.)
+    for pid in [k for k, v in existing.items() if is_case_specific(v.get("title", ""))]:
+        del existing[pid]
 
     # --- Amendment detection (before overwriting) ---
     amendments = load_amendments()
@@ -702,7 +728,7 @@ def fetch_source(source_id: str, source_config: dict) -> list[dict]:
         for raw in raw_items[:MAX_ITEMS_PER_SOURCE]:
             title = html.unescape(raw.get("title", "")).strip()
             title = re.sub(r'\s+', ' ', title)  # collapse whitespace
-            if not is_valid_title(title):
+            if not is_valid_title(title) or is_case_specific(title):
                 continue
 
             description = html.unescape(raw.get("description", "")).strip()
