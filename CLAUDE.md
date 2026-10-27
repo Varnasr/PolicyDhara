@@ -139,6 +139,16 @@ a sixth of the archive. Instruments are still thin (SEBI, RBI and the archive
 supply nearly all 345): adding official sources and per-scheme pages is the
 remaining work.
 
+**Why bills never appeared.** The 1,200 official slots were filled by date, and
+four chatty sources (SEBI, RBI, IBEF, TRAI: 771 of 1,089 non-news records) took
+every slot from 11 September onward. PRS bills are dated 1 June, so all 42 were
+cut on every run although the fetch itself works (CI log, 27 October). The cap now
+holds each source's releases and analysis to `OFFICIAL_PER_SOURCE_CAP` (100) and
+never caps instruments or process items. Only 34 of 353 sources contribute any
+record; 254 return nothing in CI, so most of the gap is scrapers that need work
+site by site. HT, NDTV, Deccan Chronicle and India Today were removed from
+`feeds.json` on the owner's instruction; LiveLaw and Bar & Bench stay.
+
 ## Writing check
 
 `scripts/check_copy.py` is a ratchet over the prose a reader sees (pages,

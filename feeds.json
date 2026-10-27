@@ -1478,20 +1478,6 @@
       "india_only": false,
       "level": "media"
     },
-    "ndtv_india": {
-      "name": "NDTV - India",
-      "short_name": "NDTV",
-      "type": "rss",
-      "url": "https://feeds.feedburner.com/ndtvnews-india-news",
-      "frequency": "Daily (multiple)",
-      "format": "RSS",
-      "reliability": "high",
-      "description": "India policy and politics coverage from NDTV",
-      "covers_sectors": "all",
-      "rss_url": "https://feeds.feedburner.com/ndtvnews-india-news",
-      "india_only": false,
-      "level": "media"
-    },
     "the_wire": {
       "name": "The Wire",
       "short_name": "The Wire",
@@ -1502,20 +1488,6 @@
       "reliability": "high",
       "description": "Independent investigative journalism on policy, politics, and rights",
       "covers_sectors": "all",
-      "india_only": false,
-      "level": "media"
-    },
-    "hindustan_times": {
-      "name": "Hindustan Times - India",
-      "short_name": "HT",
-      "type": "rss",
-      "url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
-      "frequency": "Daily (multiple)",
-      "format": "RSS",
-      "reliability": "high",
-      "description": "India news and policy coverage from Hindustan Times",
-      "covers_sectors": "all",
-      "rss_url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
       "india_only": false,
       "level": "media"
     },
@@ -2851,19 +2823,6 @@
       "india_only": false,
       "level": "media"
     },
-    "deccan_chronicle": {
-      "name": "Deccan Chronicle",
-      "short_name": "DC",
-      "type": "rss",
-      "url": "https://www.deccanchronicle.com/rss_feed/",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "South India focused news and policy coverage",
-      "covers_sectors": "all",
-      "india_only": false,
-      "level": "media"
-    },
     "newslaundry": {
       "name": "Newslaundry",
       "short_name": "NL",
@@ -3178,20 +3137,6 @@
       "covers_sectors": [
         "Defence & Security"
       ],
-      "india_only": false,
-      "level": "media"
-    },
-    "india_today": {
-      "name": "India Today",
-      "short_name": "IndiaToday",
-      "type": "rss",
-      "url": "https://www.indiatoday.in/rss/home",
-      "frequency": "Daily",
-      "format": "RSS",
-      "reliability": "medium",
-      "description": "India's largest newsmagazine, policy and political coverage",
-      "covers_sectors": "all",
-      "rss_url": "https://www.indiatoday.in/rss/home",
       "india_only": false,
       "level": "media"
     },
@@ -3841,20 +3786,6 @@
         "Health"
       ],
       "level": "media",
-      "india_only": false
-    },
-    "indiatoday_rss": {
-      "name": "India Today (RSS)",
-      "short_name": "IT RSS",
-      "type": "rss",
-      "url": "https://www.indiatoday.in/rss/1206578",
-      "frequency": "Continuous",
-      "format": "RSS",
-      "reliability": "high",
-      "description": "India news from India Today",
-      "covers_sectors": "all",
-      "level": "media",
-      "rss_url": "https://www.indiatoday.in/rss/home",
       "india_only": false
     },
     "up_rera": {

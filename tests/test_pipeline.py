@@ -340,6 +340,20 @@ class TestMediaCap:
             f"media share {frac:.2%} exceeds cap {fetch_all.MEDIA_CAP_FRACTION:.0%}"
         )
 
+    def test_one_chatty_source_cannot_push_out_older_instruments(self, fetch_all):
+        # A source with 500 recent releases must not crowd out a bill dated
+        # before all of them: releases are held to the per-source cap and
+        # instruments/process items are never capped.
+        chatty = [{"id": f"r{i}", "title": f"r {i}", "level": "central",
+                   "kind": "announcement", "source_id": "chatty",
+                   "date": f"2026-10-{i % 28 + 1:02d}"} for i in range(500)]
+        bill = {"id": "bill1", "title": "bill", "level": "central",
+                "kind": "process", "source_id": "prs", "date": "2026-06-01"}
+        out = fetch_all.enforce_media_cap(chatty + [bill], reserved=0)
+        assert any(i["id"] == "bill1" for i in out)
+        kept = sum(1 for i in out if i["source_id"] == "chatty")
+        assert kept == fetch_all.OFFICIAL_PER_SOURCE_CAP
+
     def test_official_items_are_prioritized(self, fetch_all):
         # All 100 official items must survive; media is what gets trimmed.
         live = self._make("central", 100) + self._make("media", 900)

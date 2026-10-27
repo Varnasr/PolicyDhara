@@ -39,6 +39,12 @@ MAX_TOTAL_ITEMS = 2000
 # (level == "media") items may fill at most this share of the final
 # dataset; government / research / historical items are prioritized.
 MEDIA_CAP_FRACTION = 0.15
+# A few high-volume publishers (SEBI, RBI, TRAI, IBEF) used to fill every
+# official slot with their newest press releases, so the date cut-off sat six
+# weeks back and every PRS bill, dated before it, was dropped. Releases and
+# analysis from any one source are held to this many; instruments and
+# process items (acts, rules, notifications, bills, drafts) are never capped.
+OFFICIAL_PER_SOURCE_CAP = 100
 MAX_PIPELINE_SECONDS = 720  # 12 minutes total (leave 3 min for build/deploy)
 HISTORICAL_SEED = PROJECT_ROOT / "data" / "historical_seed.json"
 
@@ -539,6 +545,20 @@ def enforce_media_cap(live_items: list[dict], reserved: int = 0) -> list[dict]:
     official = [i for i in live_items if i.get("level") != "media"]
     media.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
     official.sort(key=lambda x: x.get("date", "1970-01-01"), reverse=True)
+
+    # Hold each source's releases and analysis to OFFICIAL_PER_SOURCE_CAP so
+    # one chatty publisher cannot push out everything older (see above).
+    per_source: dict[str, int] = {}
+    diversified = []
+    for item in official:
+        if item.get("kind") in ("instrument", "process"):
+            diversified.append(item)
+            continue
+        sid = item.get("source_id", "")
+        per_source[sid] = per_source.get(sid, 0) + 1
+        if per_source[sid] <= OFFICIAL_PER_SOURCE_CAP:
+            diversified.append(item)
+    official = diversified
 
     # Media gets up to its fraction of the final dataset; official items fill
     # every remaining slot. (The previous version let official items consume
