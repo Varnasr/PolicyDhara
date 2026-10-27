@@ -1,20 +1,20 @@
 # Contributing to PolicyDhara
 
-Thank you for your interest in contributing to PolicyDhara! This project is an auto-updating tracker of Indian development policies across 22 sectors, and community contributions are essential to keeping it accurate, comprehensive, and useful.
+Thank you for your interest in contributing to PolicyDhara. This project is an auto-updating tracker of Indian development policies across 22 sectors, and community contributions keep it accurate and useful.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Development Setup](#development-setup)
-- [Types of Contributions](#types-of-contributions)
-- [Code Contributions](#code-contributions)
-- [Adding Policy Sources](#adding-policy-sources)
-- [Sector Expansions](#sector-expansions)
-- [Style Guidelines](#style-guidelines)
-- [Submitting Changes](#submitting-changes)
+- [Getting started](#getting-started)
+- [Development setup](#development-setup)
+- [Types of contributions](#types-of-contributions)
+- [Code contributions](#code-contributions)
+- [Adding policy sources](#adding-policy-sources)
+- [Sector expansions](#sector-expansions)
+- [Style guidelines](#style-guidelines)
+- [Submitting changes](#submitting-changes)
 - [Community](#community)
 
-## Getting Started
+## Getting started
 
 1. Fork the repository on GitHub.
 2. Clone your fork locally.
@@ -22,9 +22,9 @@ Thank you for your interest in contributing to PolicyDhara! This project is an a
 4. Make your changes, commit, and push to your fork.
 5. Open a pull request against the `main` branch of this repository.
 
-## Development Setup
+## Development setup
 
-PolicyDhara is built with **Astro** (frontend), **Python** (data pipeline), and **TypeScript** (utilities and interactivity).
+PolicyDhara is built with Astro (frontend), Python (data pipeline) and TypeScript (utilities and interactivity).
 
 ### Prerequisites
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 npm run dev
 ```
 
-### Running the Data Pipeline
+### Running the data pipeline
 
 ```bash
 # Fetch and classify policy data
@@ -59,15 +59,15 @@ python scripts/fetch_policies.py
 python scripts/validate_data.py
 ```
 
-## Types of Contributions
+## Types of contributions
 
-### Code Contributions
+### Code contributions
 
-- **Frontend (Astro/TypeScript/CSS):** Improvements to the static site, search functionality, analytics dashboards, and email digest templates.
-- **Backend (Python):** Enhancements to the data fetching pipeline, classification logic, scheduling, and data validation.
-- **Infrastructure:** GitHub Actions workflows, CI/CD improvements, deployment scripts, and dependency management.
+- Frontend (Astro/TypeScript/CSS): improvements to the static site, search functionality, analytics dashboards, and email digest templates.
+- Backend (Python): improvements to the data fetching pipeline, classification logic, scheduling, and data validation.
+- Infrastructure: GitHub Actions workflows, CI/CD improvements, deployment scripts, and dependency management.
 
-### Adding Policy Sources
+### Adding policy sources
 
 PolicyDhara currently fetches from 20+ official government sources. To add a new source:
 
@@ -78,23 +78,23 @@ PolicyDhara currently fetches from 20+ official government sources. To add a new
 5. Write tests to verify the fetcher works correctly.
 6. Document the source in your pull request description.
 
-### Sector Expansions
+### Sector expansions
 
 PolicyDhara tracks policies across 22 sectors. To propose a new sector:
 
-1. Open an issue using the **Feature Request** template explaining the sector and its relevance.
+1. Open an issue using the **Feature Request** template that explains the sector and why it matters.
 2. Identify at least two official sources that publish policies for this sector.
 3. If approved, implement the sector classification rules in the classifier module.
 4. Add corresponding frontend components (filters, sector pages).
 5. Update the sector documentation and metadata.
 
-### Data Quality
+### Data quality
 
 - Report incorrect, missing, or outdated policy data using the **Data Issue** template.
 - Help verify and validate policy entries against official sources.
 - Improve classification accuracy by reviewing sector assignments.
 
-## Style Guidelines
+## Style guidelines
 
 ### Python
 
@@ -103,13 +103,13 @@ PolicyDhara tracks policies across 22 sectors. To propose a new sector:
 - Write docstrings for all public functions and classes.
 - Format code with `black` and lint with `ruff`.
 
-### TypeScript / JavaScript
+### TypeScript and JavaScript
 
 - Use TypeScript wherever possible.
 - Follow the existing ESLint configuration.
 - Use Prettier for formatting.
 
-### Astro Components
+### Astro components
 
 - Follow the existing component structure in `/src/`.
 - Keep components focused and composable.
@@ -123,11 +123,11 @@ PolicyDhara tracks policies across 22 sectors. To propose a new sector:
 
 ### Commits
 
-- Write clear, concise commit messages.
-- Use the imperative mood (e.g., "Add source fetcher for MoHFW" not "Added source fetcher").
+- Write clear, short commit messages.
+- Use the imperative mood, for example "Add source fetcher for MoHFW".
 - Reference related issues in commit messages where applicable.
 
-## Submitting Changes
+## Submitting changes
 
 1. Ensure your code passes all existing tests and linting.
 2. Run the Astro build (`npm run build`) and verify there are no errors.
@@ -138,10 +138,10 @@ PolicyDhara tracks policies across 22 sectors. To propose a new sector:
 
 ## Community
 
-PolicyDhara is part of the **ImpactMojo Learning Platform** stack. We are committed to fostering an inclusive, respectful community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+PolicyDhara is part of the ImpactMojo Learning Platform stack. We want an inclusive, respectful community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
 For questions, suggestions, or discussions, reach out at **hello@impactmojo.in**.
 
 ---
 
-Thank you for helping make Indian development policy tracking more accessible and transparent!
+Thank you for helping make Indian development policy tracking easier to access and easier to check.

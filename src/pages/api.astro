@@ -27,16 +27,16 @@ const samplePolicy = policies[0] || {
   type: "legislation",
 };
 ---
-<Base title="API & Data Export" description="Download PolicyDhara data as JSON or CSV. Open data for researchers, journalists, and developers.">
+<Base title="API & Data Export" description="Download PolicyDhara data as JSON or CSV. Open data for researchers, journalists and developers.">
   <div style="padding: var(--space-xl) 0;">
-    <h2 class="page-title">API & Data Export</h2>
-    <p class="page-subtitle">All PolicyDhara data is open and downloadable. Use it for research, journalism, or build your own tools.</p>
+    <h2 class="page-title">API and data export</h2>
+    <p class="page-subtitle">All PolicyDhara data is open and downloadable. Use it for research or journalism, or to build your own tools.</p>
 
     {/* Quick stats */}
     <div class="api-stats">
       <div class="api-stat">
         <span class="api-stat-num">{meta.total_policies}</span>
-        <span class="api-stat-label">Total Policies</span>
+        <span class="api-stat-label">Total policies</span>
       </div>
       <div class="api-stat">
         <span class="api-stat-num">{sectorList.length}</span>
@@ -48,14 +48,14 @@ const samplePolicy = policies[0] || {
       </div>
       <div class="api-stat">
         <span class="api-stat-num">{new Date(meta.last_updated).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}</span>
-        <span class="api-stat-label">Last Updated</span>
+        <span class="api-stat-label">Last updated</span>
       </div>
     </div>
 
     {/* Download buttons */}
     <div class="api-section">
-      <h3>Download Data</h3>
-      <p class="api-desc">Download the full dataset in your preferred format. Data updates every 6 hours via automated pipeline.</p>
+      <h3>Download data</h3>
+      <p class="api-desc">Download the full dataset in your preferred format. The data updates every 6 hours through an automated pipeline.</p>
       <div class="download-grid">
         <button class="download-btn" id="dl-json">
           <span class="dl-icon">{ }</span>
@@ -83,18 +83,18 @@ const samplePolicy = policies[0] || {
 
     {/* Filter before export */}
     <div class="api-section">
-      <h3>Filter Before Export</h3>
+      <h3>Filter before export</h3>
       <div class="export-filters">
         <select id="exp-sector" class="exp-select">
-          <option value="">All Sectors</option>
+          <option value="">All sectors</option>
           {sectorList.map(([s]) => <option value={s}>{s}</option>)}
         </select>
         <select id="exp-source" class="exp-select">
-          <option value="">All Sources</option>
+          <option value="">All sources</option>
           {sourceList.map(([s]) => <option value={s}>{s}</option>)}
         </select>
         <select id="exp-type" class="exp-select">
-          <option value="">All Types</option>
+          <option value="">All types</option>
           <option value="act">Act</option>
           <option value="rules">Rules</option>
           <option value="notification">Notification</option>
@@ -118,7 +118,7 @@ const samplePolicy = policies[0] || {
 
     {/* Data schema */}
     <div class="api-section">
-      <h3>Data Schema</h3>
+      <h3>Data schema</h3>
       <p class="api-desc">Each policy record has the following fields:</p>
       <div class="schema-card">
         <pre class="schema-pre"><code>{JSON.stringify({
@@ -156,42 +156,42 @@ const samplePolicy = policies[0] || {
 
     {/* Available datasets */}
     <div class="api-section">
-      <h3>Other Datasets</h3>
+      <h3>Other datasets</h3>
       <p class="api-desc">Additional structured data available through the repository.</p>
       <div class="dataset-grid">
         <div class="dataset-card">
-          <strong>Parliament Sessions</strong>
-          <span>Lok Sabha sessions, bills tracker, and historical productivity data</span>
+          <strong>Parliament sessions</strong>
+          <span>Lok Sabha sessions, bills tracker and historical productivity data</span>
         </div>
         <div class="dataset-card">
-          <strong>Budget Allocations</strong>
+          <strong>Budget allocations</strong>
           <span>Ministry-wise and scheme-wise budget allocations across fiscal years</span>
         </div>
         <div class="dataset-card">
-          <strong>State Profiles</strong>
-          <span>State-level GSDP, HDI, flagship schemes, and key policy actions</span>
+          <strong>State profiles</strong>
+          <span>State-level GSDP, HDI, flagship schemes and key policy actions</span>
         </div>
         <div class="dataset-card">
-          <strong>Policy Impacts</strong>
-          <span>Impact scores, beneficiary reach, SDG alignment, and implementation status</span>
+          <strong>Policy impacts</strong>
+          <span>Impact scores, beneficiary reach, SDG alignment and implementation status</span>
         </div>
         <div class="dataset-card">
-          <strong>Policy Continuity</strong>
+          <strong>Policy continuity</strong>
           <span>How policies evolved across government eras (UPA to NDA)</span>
         </div>
         <div class="dataset-card">
-          <strong>State Governments</strong>
-          <span>Current ruling parties, CMs, political alignment for all states and UTs</span>
+          <strong>State governments</strong>
+          <span>Current ruling parties, chief ministers and political alignment for all states and UTs</span>
         </div>
       </div>
     </div>
 
     {/* License */}
     <div class="api-section">
-      <h3>License & Attribution</h3>
+      <h3>License and attribution</h3>
       <p class="api-desc">
         PolicyDhara data is sourced from official Indian government portals and public domain sources.
-        The aggregated dataset is available under <strong>CC BY 4.0</strong>. If you use this data, please credit
+        The aggregated dataset is available under CC BY 4.0. If you use this data, please credit
         "PolicyDhara by ImpactMojo" with a link back to this site.
       </p>
     </div>

@@ -60,7 +60,7 @@ Pagefind index built both times, and `npm audit` from 5 vulnerabilities to 0.
 ## The Evidence pages
 
 `/evidence/` lists Indian interventions with a published evaluation, from
-`data/evidence.json` (12 cases on 27 October 2026). Each case carries its study
+`data/evidence.json` (25 cases on 27 October 2026). Each case carries its study
 design, sample, effects, a short quotation for every figure, caveats and the
 sources opened. `python3 scripts/check_evidence.py` refuses a case without an
 https source, a quotation that contains the figure beside it, or a
@@ -75,12 +75,19 @@ outcomes and not others, or the effect depends on conditions. Janani Suraksha
 Yojana is mixed because the Lancet matching result and a replication using
 district differences in differences disagree on mortality.
 
-**Add a case only from a source you opened.** All 12 were checked by
-downloading the paper or its abstract and matching each quotation to its text. Four rest on
-something short of the journal text: JSY facility-birth effects come from the
-Lancet abstract (the 3ie replication reproduces the table with unlabelled
-units, so those figures are not printed), Surat and Balsakhi use a working
-paper or hosted copy, and the midday meals quotations come from the publisher
-page. Balsakhi year-two effect is 0.27 SD in the 2005 draft and 0.28 in the
-published paper. The Surat 20 to 30 percent range includes imputed estimates;
-without imputation it is about 18 percent.
+**Add a case only from a source you opened.** All 25 were checked by
+downloading the paper or its abstract and matching each quotation to its text. Several rest on something short of the journal
+text, and each case names its version in the citation: the working paper for
+Balsakhi, Surat, Rajasthan police reform, women's police stations, the Debt
+Recovery Tribunals, Gujarat audits, Bihar e-FMS, Hyderabad microfinance and
+teacher performance pay; the publisher page for the midday meals quotations;
+the Lancet abstract for Janani Suraksha Yojana (the 3ie replication reproduces
+the table with unlabelled units, so those figures are not printed). The Chennai
+property tax paper (November 2025) is unpublished. Balsakhi year-two effect is
+0.27 SD in the 2005 draft and 0.28 in the published paper. The Surat 20 to 30
+percent range includes imputed estimates; without imputation it is about 18
+percent. The BMJ immunisation abstract swaps the two cost figures; the Results
+section is followed. A verdict for the Jaunpur committees (mixed) and the
+Chennai paper (worked) are judgement calls: reading the targeted outcome as
+school-level involvement makes the first "did not work", and reading the
+question as "does outsourcing work" makes the second weaker.

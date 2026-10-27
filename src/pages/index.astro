@@ -191,7 +191,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
     {/* ── Right: Sidebar summary (spans only the lead zone) ── */}
     <aside class="dash-sidebar">
       <div class="sidebar-card">
-        <h4 class="sidebar-card-title">By Sector</h4>
+        <h4 class="sidebar-card-title">By sector</h4>
         <div class="sidebar-sector-list">
           {Object.entries(meta.sector_counts)
             .sort((a, b) => b[1] - a[1])
@@ -208,7 +208,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
       </div>
 
       <div class="sidebar-card">
-        <h4 class="sidebar-card-title">Quick Links</h4>
+        <h4 class="sidebar-card-title">Quick links</h4>
         <div class="sidebar-links">
           <a href={`${base}policies/`}>Browse Everything</a>
           <a href={`${base}process/`}>How Policy Is Made</a>

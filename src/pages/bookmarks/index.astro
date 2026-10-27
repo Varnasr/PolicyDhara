@@ -7,8 +7,8 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 <Base title="My Tracker" description="Policies you follow, and what changed since your last visit.">
   <div style="margin-top: var(--space-xl);">
     <div class="section-header">
-      <h2 class="page-title">My Tracker</h2>
-      <p class="page-subtitle">Policies you follow, and what changed since your last visit. Stored locally in your browser — nothing leaves your device.</p>
+      <h2 class="page-title">My tracker</h2>
+      <p class="page-subtitle">Policies you follow, and what changed since your last visit. It is stored locally in your browser, and nothing leaves your device.</p>
     </div>
 
     <div id="bookmarks-empty" class="empty-state" style="display:none;">
@@ -148,7 +148,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       const changesSection = document.getElementById('changes-section');
       const changesList = document.getElementById('changes-list');
       const note = document.getElementById('last-visit-note');
-      note.textContent = lastVisit ? `since ${fmt(lastVisit)}` : '(first visit — future changes will appear here)';
+      note.textContent = lastVisit ? `since ${fmt(lastVisit)}` : '(first visit, so future changes will appear here)';
       changesSection.style.display = '';
       if (changes.length) {
         changesList.innerHTML = changes.slice(0, 30).map(({ p, a }) => `
@@ -190,7 +190,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
       // for next time.
       localStorage.setItem('pd-tracker-last-visit', new Date().toISOString().slice(0, 10));
     } catch (e) {
-      loading.innerHTML = '<p>Could not load tracker data — try refreshing.</p>';
+      loading.innerHTML = '<p>Could not load tracker data. Try refreshing the page.</p>';
     }
   });
 </script>

@@ -88,7 +88,7 @@ const GOV_PARTY_COLORS: Record<string, string> = {
 <div class="insights-grid">
   {/* Quick stats row */}
   <div class="insight-card insight-quickstats">
-    <h4>Enacted This Week</h4>
+    <h4>Enacted this week</h4>
     <div class="qs-row">
       <div class="qs-item">
         <span class="qs-number">{last7}</span>
@@ -120,7 +120,7 @@ const GOV_PARTY_COLORS: Record<string, string> = {
 
   {/* Data depth / historical coverage */}
   <div class="insight-card insight-trend">
-    <h4>Data Coverage</h4>
+    <h4>Data coverage</h4>
     <div class="coverage-stats">
       <div class="coverage-item">
         <span class="coverage-num">{(() => { const dates = policies.map(p => p.date).sort(); return dates[0]?.slice(0, 4) || '—'; })()}</span>
@@ -160,7 +160,7 @@ const GOV_PARTY_COLORS: Record<string, string> = {
 
   {/* Type distribution */}
   <div class="insight-card insight-types">
-    <h4>Policy Types</h4>
+    <h4>Policy types</h4>
     <div class="type-bars">
       {typeDist.map(t => (
         <div class="type-bar-row">
@@ -176,7 +176,7 @@ const GOV_PARTY_COLORS: Record<string, string> = {
 
   {/* Top sectors */}
   <div class="insight-card insight-sectors">
-    <h4>Top Sectors</h4>
+    <h4>Top sectors</h4>
     <div class="sector-bars">
       {topSectors.map(s => (
         <a href={`${base}sectors/${s.slug}/`} class="sector-bar-row">

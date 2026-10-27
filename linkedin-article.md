@@ -53,7 +53,7 @@ Dedicated modules cover the 18th Lok Sabha (bill introductions, session producti
 
 ### Policy continuity across government eras
 
-This is one of the most-used features. PolicyDhara maps policies across **five government eras**: UPA I (2004–2009), UPA II (2009–2014), NDA I (2014–2019), NDA II (2019–2024) and NDA III (2024–present). That allows longitudinal analysis of how sectors have changed across political cycles.
+This is one of the most-used features. PolicyDhara maps policies across **five government eras**: UPA I (2004 to 2009), UPA II (2009 to 2014), NDA I (2014 to 2019), NDA II (2019 to 2024) and NDA III (2024 to the present). That allows longitudinal analysis of how sectors have changed across political cycles.
 
 ### Amendment tracking, now bounded
 
@@ -107,7 +107,7 @@ Python Pipeline (fetch_all.py)
     ↓
 Structured JSON (policies.json, amendments.json, source_health.json, meta.json)
     ↓
-pytest (gates the auto-merge — bad data can't land)
+pytest (gates the auto-merge; bad data can't land)
     ↓
 Astro Build (~2,100 static pages in ~2 minutes)
     ↓

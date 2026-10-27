@@ -31,7 +31,7 @@ const groups: { kind: Kind; title: string; sub: string; items: typeof policies }
   { kind: 'process', title: 'In the making', sub: 'Bills, drafts open for comment, Parliament Q&A', items: [] },
   { kind: 'analysis', title: 'Analysis & research', sub: 'Reports, briefs and long reads', items: [] },
   { kind: 'announcement', title: 'Announcements', sub: 'Official press releases', items: [] },
-  { kind: 'news', title: 'News coverage', sub: 'Journalism about this sector — not policy documents', items: [] },
+  { kind: 'news', title: 'News coverage', sub: 'Journalism about this sector, listed apart from policy documents', items: [] },
 ];
 for (const p of policies) {
   const g = groups.find(g => g.kind === getKind(p));
@@ -52,7 +52,7 @@ const fmtDebateDate = (d: string) => {
     : dt.toLocaleDateString('en-IN', { month: 'long', year: 'numeric' });
 };
 ---
-<Base title={sectorName} description={`Tracking Indian government policies in ${sectorName} — ${policies.length} policies from open sources.`}>
+<Base title={sectorName} description={`Tracking Indian government policies in ${sectorName}, with ${policies.length} policies from open sources.`}>
   <div style="padding: var(--space-xl) 0;">
     <div style="margin-bottom: var(--space-lg);">
       <a href={`${base}sectors/`} class="btn btn-secondary" style="margin-bottom: var(--space-md); display: inline-flex;">&larr; All Sectors</a>
@@ -88,7 +88,7 @@ const fmtDebateDate = (d: string) => {
 
         {/* Type breakdown bars */}
         <div class="sip-section">
-          <h4>Policy Type Breakdown</h4>
+          <h4>Policy type breakdown</h4>
           <div class="sip-bars">
             {insight.typeBreakdown.map(t => (
               <div class="sip-bar-row">
@@ -105,7 +105,7 @@ const fmtDebateDate = (d: string) => {
 
         {/* Sources + Related */}
         <div class="sip-section">
-          <h4>Top Sources</h4>
+          <h4>Top sources</h4>
           <div class="sip-source-list">
             {insight.topSources.map(s => (
               <div class="sip-source-row">
@@ -117,7 +117,7 @@ const fmtDebateDate = (d: string) => {
 
           {insight.relatedSectors.length > 0 && (
             <div style="margin-top: var(--space-md);">
-              <h4>Related Sectors</h4>
+              <h4>Related sectors</h4>
               <div class="sip-related-chips">
                 {insight.relatedSectors.map(r => (
                   <a href={`${base}sectors/${getSectorSlug(r)}/`} class="sector-badge">{r}</a>
@@ -136,7 +136,7 @@ const fmtDebateDate = (d: string) => {
           <h3>Constitutional foundations</h3>
           <a href={`${base}history/`} class="foundations-link">Full policy history &rarr;</a>
         </div>
-        <p class="foundations-sub">Where this sector's policy story begins — in the Constituent Assembly, 1946–1949.</p>
+        <p class="foundations-sub">This sector's policy story begins in the Constituent Assembly, 1946–1949.</p>
         {foundations.map(d => (
           <div class="foundation-item">
             <div class="foundation-meta">

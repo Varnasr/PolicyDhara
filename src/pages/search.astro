@@ -15,10 +15,10 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 // The compact search index is served from /api/search-index.json and
 // fetched client-side (it used to be inlined into this page's HTML).
 ---
-<Base title="Search Policies" description="Search across all tracked Indian development policies by keyword, sector, source, and date.">
+<Base title="Search Policies" description="Search across all tracked Indian development policies by keyword, sector, source and date.">
   <div style="padding: var(--space-xl) 0;">
-    <h2 class="page-title">Search Policies</h2>
-    <p class="page-subtitle">Search across {policies.length} policies from {sources.length} sources and {sectors.length} sectors</p>
+    <h2 class="page-title">Search policies</h2>
+    <p class="page-subtitle">Search {policies.length} policies from {sources.length} sources and {sectors.length} sectors.</p>
 
     <div class="search-box">
       <div class="search-input-wrap">
@@ -31,15 +31,15 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
       <div class="search-filters">
         <select id="filter-sector" class="search-select">
-          <option value="">All Sectors</option>
+          <option value="">All sectors</option>
           {sectors.map(s => <option value={s}>{s}</option>)}
         </select>
         <select id="filter-source" class="search-select">
-          <option value="">All Sources</option>
+          <option value="">All sources</option>
           {sources.map(s => <option value={s}>{s}</option>)}
         </select>
         <select id="filter-type" class="search-select">
-          <option value="">All Types</option>
+          <option value="">All types</option>
           {types.map(t => <option value={t}>{t}</option>)}
         </select>
         <input type="date" id="filter-from" class="search-select" title="From date" />
@@ -66,10 +66,10 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
     <div class="search-initial" id="search-initial">
       <h3>Start typing to search</h3>
-      <p>Search across policy titles, descriptions, and metadata. Use filters to narrow results by sector, source, type, or date range.</p>
+      <p>Search policy titles, descriptions and metadata. Use the filters to narrow results by sector, source, type or date range.</p>
       <div class="search-tips">
         <div class="search-tip">
-          <strong>Tip:</strong> Press <kbd>/</kbd> anywhere to focus the search box
+          <strong>Tip:</strong> Press <kbd>/</kbd> on any part of the page to move to the search box
         </div>
         <div class="search-tip">
           <strong>Examples:</strong> "digital data protection", "education NEP", "PM-KISAN", "semiconductor"
@@ -341,7 +341,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         });
       }
     } catch (err) {
-      console.warn('Pagefind UI failed to load — falling back to fast filter', err);
+      console.warn('Pagefind UI failed to load, so the page is using the fast filter', err);
       const pf = document.getElementById('pagefind-search');
       if (pf) pf.innerHTML = '<p style="padding: var(--space-md); color: var(--color-text-muted); font-size: 0.8125rem;">Full-text search unavailable. Using fast filter.</p>';
     }
@@ -394,7 +394,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         window.__pdSearchIndex = searchIndex;
       } catch {
         const metaElErr = document.getElementById('search-meta');
-        if (metaElErr) metaElErr.textContent = 'Could not load the search index — try refreshing.';
+        if (metaElErr) metaElErr.textContent = 'Could not load the search index. Try refreshing the page.';
         return;
       }
     }

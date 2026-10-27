@@ -12,12 +12,12 @@ const fmtD = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day: '
 const fmtLong = (d: string) => new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
 const totalTracked = wrap.instruments.length + wrap.newDrafts.length + wrap.billsMoved.length + wrap.questions.length;
 ---
-<Base title="Weekly Policy Wrap" description={`The week in Indian policy, ${fmtLong(wrap.from)} – ${fmtLong(wrap.to)}: new instruments, drafts open for comment, bills, and long reads.`}>
+<Base title="Weekly Policy Wrap" description={`The week in Indian policy, from ${fmtLong(wrap.from)} to ${fmtLong(wrap.to)}, with new instruments, drafts open for comment, bills and long reads.`}>
   <div style="padding: var(--space-xl) 0;">
     <p class="wrap-eyebrow">Weekly Policy Wrap</p>
     <h1 class="page-title">The week in policy</h1>
     <p class="page-subtitle">
-      {fmtLong(wrap.from)} — {fmtLong(wrap.to)} · regenerated automatically with
+      {fmtLong(wrap.from)} to {fmtLong(wrap.to)} · regenerated automatically with
       every data refresh. Share this page to catch someone up in five minutes.
     </p>
 
@@ -30,8 +30,8 @@ const totalTracked = wrap.instruments.length + wrap.newDrafts.length + wrap.bill
       <>
         {closingSoon.length > 0 && (
           <section class="wrap-section wrap-urgent">
-            <h2 class="wrap-heading">⏳ Consultations closing within a week</h2>
-            <p class="wrap-sub">Comment windows about to shut — act on these first.</p>
+            <h2 class="wrap-heading">Consultations closing within a week</h2>
+            <p class="wrap-sub">Comment windows are about to shut, so act on these first.</p>
             <ul class="wrap-list">
               {closingSoon.map(p => (
                 <li>

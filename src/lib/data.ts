@@ -85,28 +85,28 @@ export const TYPE_COLORS: Record<string, string> = {
  * cover the full live taxonomy so a press release is described as a press
  * release, not mislabeled as a "policy framework". */
 export const TYPE_CONTEXT: Record<string, string> = {
-  act: 'Central or state Act — primary legislation passed by the legislature. Carries binding force and shapes the rules under which citizens, institutions, and markets operate.',
-  rules: 'Rules or regulations — subordinate legislation issued under an Act. Operationalises the parent law with binding procedural and technical detail.',
-  notification: 'Official government notification — a formal executive order that operationalises policy decisions. Carries legal weight and specifies rules, dates, exemptions, or procedural requirements.',
-  scheme: 'Government scheme — a structured programme with defined beneficiaries, budget allocation, and delivery mechanisms. The primary instrument for delivering welfare and development outcomes.',
-  budget: 'Budgetary action — an allocation, fiscal policy change, or expenditure decision shaping how public resources flow. Reveals government priorities and affects programme implementation capacity.',
-  policy: 'Policy framework or directive — a strategic document setting direction, principles, and objectives for governance. Guides the design of schemes, legislation, and implementation strategies.',
-  judgment: 'Court judgment — a judicial decision interpreting the law. Can strike down, uphold, or reshape policy, and binds government action within its jurisdiction.',
-  bill: 'Bill before the legislature — proposed legislation not yet in force. Signals the direction of lawmaking and is subject to amendment or lapse.',
-  draft: 'Draft open for public comment — a proposed policy, rule, or standard in consultation. Not yet in force; stakeholder input can still change it.',
-  question: 'Parliament question and answer — an official ministerial response placing facts, data, or policy positions on the parliamentary record.',
-  committee_report: 'Parliamentary committee report — detailed scrutiny of bills, budgets, or ministry performance. Influential on subsequent legislation, though not binding.',
-  debate: 'Parliamentary or constitutional debate — the recorded deliberation behind lawmaking. Context for how and why a policy took its shape.',
-  release: 'Official press release — a government communication announcing decisions, milestones, or initiatives. Signals intent and often precedes formal notification or legislative action.',
-  report: 'Official or institutional report — an evidence-based assessment from government or research bodies. Informs policy design, monitoring, and evaluation.',
-  analysis: 'Research or analytical publication — an evidence-based assessment informing policy design and evaluation. Shapes the intellectual framework within which policy debates occur.',
-  longform: 'Long-form analysis — an in-depth researched piece examining a policy area. Context and interpretation rather than a policy instrument.',
-  news: 'News coverage — journalism about policy, not a policy document. Useful as timely context; the underlying instrument is linked where known.',
-  opinion: 'Opinion or commentary — an argued perspective on policy. Reflects its author’s view, not an official position.',
+  act: 'A central or state Act is primary legislation passed by the legislature. It carries binding force and sets the rules under which citizens, institutions and markets operate.',
+  rules: 'Rules or regulations are subordinate legislation issued under an Act. They put the parent law into effect with binding procedural and technical detail.',
+  notification: 'An official government notification is a formal executive order that puts policy decisions into effect. It carries legal weight and specifies rules, dates, exemptions or procedural requirements.',
+  scheme: 'A government scheme is a structured programme with defined beneficiaries, a budget allocation and delivery mechanisms. It is the main instrument for delivering welfare and development outcomes.',
+  budget: 'A budgetary action is an allocation, fiscal policy change or expenditure decision that shapes how public resources flow. It shows government priorities and affects how well programmes can be implemented.',
+  policy: 'A policy framework or directive is a strategic document that sets direction, principles and objectives for governance. It guides the design of schemes, legislation and implementation strategies.',
+  judgment: 'A court judgment is a judicial decision interpreting the law. It can strike down, uphold or reshape policy, and it binds government action within its jurisdiction.',
+  bill: 'A bill is proposed legislation that is not yet in force. It signals the direction of lawmaking and can be amended or lapse.',
+  draft: 'A draft open for public comment is a proposed policy, rule or standard in consultation. It is not yet in force, and stakeholder input can still change it.',
+  question: 'A Parliament question and answer is an official ministerial response that places facts, data or policy positions on the parliamentary record.',
+  committee_report: 'A parliamentary committee report is a detailed scrutiny of bills, budgets or ministry performance. It often influences later legislation but is not binding.',
+  debate: 'A parliamentary or constitutional debate is the recorded deliberation behind lawmaking. It gives context for how and why a policy took its shape.',
+  release: 'An official press release is a government communication announcing decisions, milestones or initiatives. It signals intent and often comes before a formal notification or legislative action.',
+  report: 'An official or institutional report is an evidence-based assessment from government or research bodies. It informs policy design, monitoring and evaluation.',
+  analysis: 'A research or analytical publication is an evidence-based assessment that informs policy design and evaluation. It supplies ideas and evidence for policy debates.',
+  longform: 'A long-form analysis is an in-depth researched piece on a policy area. It offers context and interpretation and is not a policy instrument.',
+  news: 'News coverage is journalism about policy and is not a policy document. It is useful as timely context, and the underlying instrument is linked where known.',
+  opinion: 'An opinion or commentary is an argued perspective on policy. It reflects its author’s view and is not an official position.',
   // Legacy values still present in older records
-  legislation: 'Legislative action — a bill, act, or amendment that creates or modifies the legal framework. Carries binding force and shapes the rules under which citizens, institutions, and markets operate.',
-  research: 'Research or analytical publication — an evidence-based assessment informing policy design and evaluation. Shapes the intellectual framework within which policy debates occur.',
-  announcement: 'Official announcement — a public communication of a policy decision, milestone, or initiative. Signals government intent and often precedes formal notification or legislative action.',
+  legislation: 'A legislative action is a bill, act or amendment that creates or changes the legal framework. It carries binding force and sets the rules under which citizens, institutions and markets operate.',
+  research: 'A research or analytical publication is an evidence-based assessment that informs policy design and evaluation. It supplies ideas and evidence for policy debates.',
+  announcement: 'An official announcement is a public communication of a policy decision, milestone or initiative. It signals government intent and often comes before a formal notification or legislative action.',
 };
 
 /** Legacy type → kind, for records ingested before the taxonomy existed. */
@@ -657,7 +657,7 @@ export function getEraDistribution(): {
       count,
       months,
       perMonth: Math.round((count / months) * 10) / 10,
-      dateRange: `${era.start.slice(0, 4)}–${partial ? 'Present' : era.end.slice(0, 4)}`,
+      dateRange: `${era.start.slice(0, 4)} to ${partial ? 'Present' : era.end.slice(0, 4)}`,
       partial,
     };
   });
@@ -703,7 +703,7 @@ export function getLegislativeEraDistribution(): {
       acts: n,
       years,
       perYear: Math.round((n / years) * 10) / 10,
-      dateRange: `${e.from}–${Math.min(e.to, LEGIS_LAST_COMPLETE_YEAR + 1) - 1}`,
+      dateRange: `${e.from} to ${Math.min(e.to, LEGIS_LAST_COMPLETE_YEAR + 1) - 1}`,
     };
   });
 }

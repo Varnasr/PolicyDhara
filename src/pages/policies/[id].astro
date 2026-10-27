@@ -107,7 +107,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
       {/* ── Key Facts + Key Numbers ─────────────────────── */}
       <div class="detail-panels">
         <div class="fact-card">
-          <h3>Key Facts</h3>
+          <h3>Key facts</h3>
           <div class="fact-grid">
             <div class="fact-item">
               <span class="fact-label">Type</span>
@@ -130,7 +130,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
 
         {enrichment.keyNumbers.length > 0 && (
           <div class="fact-card numbers-card">
-            <h3>Key Numbers</h3>
+            <h3>Key numbers</h3>
             <div class="key-numbers">
               {enrichment.keyNumbers.map(n => (
                 <div class="key-number-item">
@@ -148,7 +148,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
       {/* ── Authorities, Stakeholders, Spectrum ────────── */}
       <div class="detail-three-col">
         <div class="fact-card">
-          <h3>Key Authorities</h3>
+          <h3>Key authorities</h3>
           <div class="tag-list">
             {enrichment.ministries.map(m => (
               <span class="authority-tag">{m}</span>
@@ -157,7 +157,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
         </div>
 
         <div class="fact-card">
-          <h3>Key Stakeholders</h3>
+          <h3>Key stakeholders</h3>
           <div class="tag-list">
             {enrichment.stakeholders.map(s => (
               <span class="stakeholder-tag">{s}</span>
@@ -166,7 +166,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
         </div>
 
         <div class="fact-card">
-          <h3>Government Context</h3>
+          <h3>Government context</h3>
           <div class="gov-context">
             <div class="gov-era-badge">
               <span class="gov-era-name">{enrichment.governmentEra}</span>
@@ -193,7 +193,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
       {/* ── Impact Assessment ─────────────────────────────── */}
       {impact && (
         <div class="impact-section">
-          <h3>Impact Assessment</h3>
+          <h3>Impact assessment</h3>
 
           <div class="impact-top-row">
             <div class="impact-score-card">
@@ -235,7 +235,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
 
           <div class="impact-details-grid">
             <div class="impact-detail-card">
-              <h4>Key Outcomes</h4>
+              <h4>Key outcomes</h4>
               <ul class="impact-list impact-outcomes">
                 {impact.outcomes.map(o => (
                   <li>{o}</li>
@@ -271,7 +271,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
       {/* ── Amendment History ────────────────────────────── */}
       {amendments.length > 0 && (
         <div class="amendment-history-section">
-          <h3>Amendment History</h3>
+          <h3>Amendment history</h3>
           <p class="amendment-history-desc">{amendments.length} change{amendments.length !== 1 ? 's' : ''} recorded for this policy.</p>
           <div class="amendment-history-timeline">
             {amendments.map((a: Amendment) => (
@@ -296,7 +296,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
 
       {/* ── Sectors ───────────────────────────────────────── */}
       <div class="detail-sectors">
-        <h3>Explore Sectors</h3>
+        <h3>Explore sectors</h3>
         <div class="detail-sector-grid">
           {policy.sectors.map((sector: string, i: number) => (
             <a href={`${base}sectors/${policy.sector_slugs[i]}/`} class="detail-sector-card">
@@ -321,7 +321,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
 
     {related.length > 0 && (
       <section class="detail-related">
-        <h3>Related Policies</h3>
+        <h3>Related policies</h3>
         <div class="policy-feed" style="margin-top: 12px;">
           {related.map(r => (
             <PolicyCard id={r.id} title={r.title} description={r.description} link={r.link}

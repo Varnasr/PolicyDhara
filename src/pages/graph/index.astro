@@ -70,12 +70,12 @@ for (let i = 0; i < topSectors.length; i++) {
   }
 }
 ---
-<Base title="Knowledge Graph" description="Visual map of connections between policy sectors, sources, and themes across India's policy landscape.">
+<Base title="Knowledge Graph" description="Visual map of connections between policy sectors, sources, and themes in Indian policy.">
   <div style="margin-top: var(--space-xl);">
     <div class="section-header">
-      <h2 class="page-title">Knowledge Graph</h2>
-      <p class="page-subtitle">Which sources feed which sectors across India's policy landscape.
-        Bigger circle = more documents. Thicker line = stronger connection. Hover for counts.</p>
+      <h2 class="page-title">Knowledge graph</h2>
+      <p class="page-subtitle">This graph shows which sources feed which sectors in Indian policy.
+        A bigger circle means more documents, a thicker line means a stronger connection, and hovering shows the counts.</p>
     </div>
 
     {/* ── Graph Visualization ── */}
@@ -83,8 +83,8 @@ for (let i = 0; i < topSectors.length; i++) {
 
     {/* ── Sector Co-occurrence Heatmap ── */}
     <div class="section-header" style="margin-top: var(--space-2xl);">
-      <h3>Sector Co-occurrence Matrix</h3>
-      <p>How often sectors appear together on the same policy. Darker = stronger connection.</p>
+      <h3>Sector co-occurrence matrix</h3>
+      <p>How often sectors appear together on the same policy. Darker cells mean a stronger connection.</p>
     </div>
     <div class="heatmap-wrap">
       <table class="heatmap-table">
@@ -119,8 +119,8 @@ for (let i = 0; i < topSectors.length; i++) {
 
     {/* ── Top Connections List ── */}
     <div class="section-header" style="margin-top: var(--space-2xl);">
-      <h3>Strongest Connections</h3>
-      <p>Top sector pairs that most frequently appear together</p>
+      <h3>Strongest connections</h3>
+      <p>The sector pairs that appear together most often.</p>
     </div>
     <div class="connections-grid">
       {edgeList

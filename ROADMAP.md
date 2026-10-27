@@ -50,7 +50,7 @@ A triage of all sources (latest local probe):
 
 | Bucket | Count | Meaning | Fix |
 |---|---|---|---|
-| `WORKS` | ~195 | returns content | — |
+| `WORKS` | ~195 | returns content | none needed |
 | `REDUNDANT` | ~27 | ministry site duplicated by its PIB feed | none, no data lost |
 | `SHELL` | ~105 | JS-rendered / empty page | needs a headless fetch path |
 | `DEAD` | ~24 | unreachable / TLS / 404 | CI re-probes; prune if confirmed |

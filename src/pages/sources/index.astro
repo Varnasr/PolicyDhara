@@ -99,16 +99,16 @@ const bucketCounts: Record<string, number> = {};
 for (const r of rows) if (r.bucket) bucketCounts[r.bucket] = (bucketCounts[r.bucket] || 0) + 1;
 const hasBuckets = Object.keys(bucketCounts).length > 0;
 ---
-<Base title="Sources" description="Every open data source powering PolicyDhara — PIB (per ministry), PRS, India Code, eGazette, RBI, Parliament, state governments, and more.">
+<Base title="Sources" description="Every open data source that feeds PolicyDhara, including PIB (per ministry), PRS, India Code, eGazette, RBI, Parliament, state governments and more.">
   <div style="padding: var(--space-xl) 0;">
-    <h2 class="page-title">Data Sources</h2>
+    <h2 class="page-title">Data sources</h2>
     <p class="page-subtitle">
       {totalConfigured} configured sources · {contributing} currently contributing items · {stale} flagged stale · refetched every 6 hours
     </p>
 
     {orphanRows.length > 0 && (
       <p class="page-subtitle" style="color: var(--color-text-muted); font-size: 0.85rem;">
-        {orphanRows.length} legacy source_id{orphanRows.length === 1 ? '' : 's'} present in the dataset but not in <code>feeds.json</code> — shown below with a "LEGACY" tag.
+        {orphanRows.length} legacy source_id{orphanRows.length === 1 ? '' : 's'} present in the dataset but not in <code>feeds.json</code>. They are shown below with a "LEGACY" tag.
       </p>
     )}
 
@@ -120,7 +120,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
           </span>
         ))}
         <span style="font-size: 0.75rem; color: var(--color-text-muted); align-self: center;">
-          — health from the weekly probe. "Covered by PIB" = a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the genuine fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
+          These counts come from the weekly health probe. "Covered by PIB" means a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
         </span>
       </div>
     )}
@@ -154,7 +154,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
 
             {r.coveredBy && (
               <span style="font-size: 0.75rem; color: #0e7490;">
-                Releases collected via <code>{r.coveredBy}</code> (PIB) — no policy lost.
+                Releases collected via <code>{r.coveredBy}</code> (PIB), so no policy is lost.
               </span>
             )}
 

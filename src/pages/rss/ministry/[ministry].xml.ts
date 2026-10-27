@@ -69,7 +69,7 @@ export function GET(context: APIContext & { props: { ministry: { id: string; nam
     : SITE_URL;
 
   return rss({
-    title: `PolicyDhara — ${ministry.name}`,
+    title: `PolicyDhara: ${ministry.name}`,
     description: `Press releases and notifications from ${ministry.name}, tracked by PolicyDhara.`,
     site: siteRoot,
     items: policies.map(p => {

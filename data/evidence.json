@@ -175,6 +175,82 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "ap-teacher-performance-pay",
+      "title": "Teacher performance pay in Andhra Pradesh government schools",
+      "area": "Education",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Andhra Pradesh"
+        ]
+      },
+      "period": "Two school years of the programme, with independent tests at the end of each year.",
+      "intervention": "Teachers in rural government primary schools received bonus payments based on their students' improvement in independently administered tests, with a mean bonus of about 3% of annual pay. Bonuses were paid either to a whole school as a group or to individual teachers, at Rs. 500 for each percentage point of average gain above 5%.",
+      "verdict": "worked",
+      "verdict_basis": "After two years, students in incentive schools scored 0.28 standard deviations higher in maths and 0.16 higher in language, a mean of 0.22. They also scored 0.11 and 0.18 standard deviations higher in science and social studies, which carried no incentive. The incentive programmes raised scores 0.22 standard deviations against 0.08 for extra inputs of similar value.",
+      "design": "rct",
+      "design_detail": "Randomised trial across 300 government rural primary schools: 100 with group incentives, 100 with individual incentives and 100 comparison schools. A parallel randomisation gave two other sets of 100 schools an extra contract teacher or a materials grant.",
+      "sample": "300 government-run rural primary schools in Andhra Pradesh, 100 in each of the group incentive, individual incentive and comparison arms.",
+      "effects": [
+        {
+          "outcome": "Student test scores after two years, maths and language",
+          "result": "0.28 standard deviations higher in maths and 0.16 in language",
+          "interval_or_se": null,
+          "quote": "students in incentive schools performed significantly better than those in comparison schools by 0.28 and 0.16 standard deviations (SD) in math and language tests respectively",
+          "page_or_section": "Introduction"
+        },
+        {
+          "outcome": "Mean test score effect after one year and two years",
+          "result": "0.15 standard deviations after one year and 0.22 after two years",
+          "interval_or_se": null,
+          "quote": "students in incentive schools scored 0.15 standard deviations (SD) higher than those in comparison schools at the end of the first year of the program, and 0.22 SD higher at the end of the second year",
+          "page_or_section": "Section 5.3"
+        },
+        {
+          "outcome": "Test scores in non-incentive subjects after two years",
+          "result": "0.11 standard deviations higher in science and 0.18 in social studies",
+          "interval_or_se": null,
+          "quote": "scoring 0.11 and 0.18 SD higher than students in control schools in science and social studies at the end of two years of the program",
+          "page_or_section": "Section 5.5"
+        },
+        {
+          "outcome": "Group versus individual incentives after two years",
+          "result": "0.27 standard deviations for individual incentives and 0.16 for group incentives",
+          "interval_or_se": "Difference between the two nearly significant at the 10% level",
+          "quote": "the average treatment effect was 0.27 SD in the individual incentive schools compared to 0.16 SD in the group incentive schools",
+          "page_or_section": "Introduction"
+        },
+        {
+          "outcome": "Incentives compared with extra school inputs",
+          "result": "0.22 standard deviations for incentives against 0.08 for extra inputs",
+          "interval_or_se": null,
+          "quote": "students in schools receiving the input programs scored 0.08 SD higher than those in comparison schools. However, the incentive programs had a significantly larger impact on learning outcomes (0.22 versus 0.08 SD)",
+          "page_or_section": "Introduction"
+        },
+        {
+          "outcome": "Annual cost per school",
+          "result": "About Rs. 6,000 for group incentives and Rs. 10,000 for individual incentives, against Rs. 10,000 for each input programme",
+          "interval_or_se": null,
+          "quote": "The average annual spending on each of the input treatments was Rs. 10,000/school, while the group and individual incentives programs cost roughly Rs. 6,000/school and Rs.10,000/school respectively.",
+          "page_or_section": "Section 7"
+        }
+      ],
+      "caveats": [
+        "The tests were set by an independent firm and cover only primary-school maths, language, science and social studies, so the results say nothing about other skills a teacher builds.",
+        "The sample is rural government schools in one state. Bonuses were small, at about 3% of annual pay, and the programme ran for two years.",
+        "Testing was paid for separately, at about Rs. 5,000 per school per round, and is not included in the incentive cost figures.",
+        "Figures come from the NBER working paper of September 2009, an author-hosted version of the paper published in the Journal of Political Economy 119(1); estimates in the published journal article may differ."
+      ],
+      "sources": [
+        {
+          "citation": "Muralidharan, K. and Sundararaman, V. (2011). Teacher performance pay: Experimental evidence from India. Journal of Political Economy 119(1). Version read: NBER Working Paper 15323, September 2009.",
+          "url": "https://www.nber.org/papers/w15323",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "title": "Teaching at the Right Level and the Balsakhi remedial education trials",
       "area": "Education",
       "geography": {
@@ -294,6 +370,580 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "bihar-efms-nrega",
+      "title": "Just-in-time fund release for the rural employment guarantee in Bihar",
+      "area": "Digital government",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Bihar"
+        ]
+      },
+      "period": "September 2012 to March 2013 (experiment); 2012 to 2015 (national roll-out)",
+      "intervention": "Under the rural employment guarantee scheme (MGNREGS), advance transfers to village councils (Gram Panchayats) were replaced by just-in-time release, triggered when officials entered worker details and a payment request in an electronic system. The reform also removed approval by the intermediate administrative tiers.",
+      "verdict": "worked",
+      "verdict_basis": "The main aim was to cut leakage of programme funds. Spending fell 24 percent over the intervention period while survey-reported participation rose 0.89 percentage points (30 percent of the control mean) and built assets were unchanged, so delivery to households held up as spending fell. Matching found 5 percent fewer ghost workers, and officials' median movable assets were 10 percent lower. Payment delays rose by 46 days in September to December 2012. After states adopted the system nationally, labour expenditure was 19 percent lower.",
+      "design": "rct",
+      "design_detail": "Blocks were randomly assigned to the reformed fund flow in 12 Bihar districts, with a one-third share of blocks treated in each district. The persistence of the effect was checked with a difference-in-differences comparison of district spending as the system was adopted in states across India between 2012 and 2015.",
+      "sample": "195 blocks in 12 districts, covering about 33 million people: 69 treatment blocks (1,033 village councils) and 126 control blocks (2,034). A household survey covered 9,670 households in 390 village councils. The national comparison uses 4,253 district-years.",
+      "effects": [
+        {
+          "outcome": "Spending from village council accounts, September 2012 to March 2013",
+          "result": "24 percent lower in treatment than in control village councils",
+          "interval_or_se": null,
+          "quote": "Across the whole intervention period (from September 2012 to March 2013), spending was 24 percent lower.",
+          "page_or_section": "Page 15 (Table 2, Panel A)"
+        },
+        {
+          "outcome": "Self-reported participation in the scheme among surveyed households",
+          "result": "Increase of 0.89 percentage points, 30 percent of the control mean; the 95 percent interval runs from -0.5 to +61 percent of the control mean",
+          "interval_or_se": "Whole intervention period: 0.00892 (SE 0.00462) on a control mean of 0.0296 (Table 5, Panel A)",
+          "quote": "(0.89 percentage point, which is 30 percent of the control mean, with a 95 percent confidence interval expressed as fraction of the control mean of [-0.5;+61])",
+          "page_or_section": "Page 18 (Table 5, Panel A)"
+        },
+        {
+          "outcome": "Wages received from the scheme by surveyed households during the intervention",
+          "result": "No detectable change; the point estimate is positive and the 95 percent interval runs from -33 percent to +69 percent",
+          "interval_or_se": "95% interval -33 percent to +69 percent",
+          "quote": "During the intervention, the point estimate is positive (14), and the 95 percent confidence interval, expressed in percentages, is [-33 percent; +69 percent].",
+          "page_or_section": "Page 18 (Table 5, Panel C)"
+        },
+        {
+          "outcome": "Delay between work and payment, September to December 2012",
+          "result": "Surveyed workers in treatment blocks waited an extra 46 days, against a control average of 70 days",
+          "interval_or_se": "SE 23.06 (Table 5, Panel D)",
+          "quote": "Compared to an average 70-day delay in the control during the first phase of the intervention (September to December 2012), surveyed workers in treatment blocks report waiting an extra 46 days for their payment.",
+          "page_or_section": "Page 18 (Table 5, Panel D)"
+        },
+        {
+          "outcome": "Ghost workers, measured by matching job cards to the 2012 Socio-Economic Caste Census",
+          "result": "5 percent fewer ghost workers (unmatched beneficiaries) in treatment village councils",
+          "interval_or_se": "Match rate for single-name job cards up 1.90 percentage points, SE 0.00742 (Table 6, Panel A)",
+          "quote": "The estimates imply that the number of ghost workers (unmatched beneficiaries) declined by 5 percent in treatment GPs.",
+          "page_or_section": "Page 21 (Table 6)"
+        },
+        {
+          "outcome": "Movable assets declared by block and village council officials, 2012-13",
+          "result": "Median movable assets 10 percent lower in treatment areas (8.8 percent with controls)",
+          "interval_or_se": null,
+          "quote": "find a significant 10 percent decline in median movable assets (8.8 percent with control variables)",
+          "page_or_section": "Page 22 (Table 7, Panel A)"
+        },
+        {
+          "outcome": "Labour expenditure by district after states adopted electronic fund management (e-FMS), 2008 to 2016",
+          "result": "19 percent lower where e-FMS for wage payments was in force, significant at the 1 percent level",
+          "interval_or_se": "Coefficient -770.4 (SE 179.6), in 100,000 rupees per district-year (Table 8, Panel A)",
+          "quote": "e-FMS decreased expenditures by 19 percent, and this effect is significant at the 1 percent level.",
+          "page_or_section": "Page 25 (Table 8)"
+        }
+      ],
+      "caveats": [
+        "The experiment ran for seven months and was stopped early. Participation on the scheme was low (about 3 percent of households in the control group during the intervention), so the household survey estimates are noisy.",
+        "Leakage is measured indirectly, through the gap between official spending and survey reports, ghost-worker matching and officials' self-reported assets. The paper calls the asset result suggestive.",
+        "The national comparison uses district spending from the programme's public database and has no survey data on employment. The estimate becomes a 14 percent decline in both labour and material spending when district-specific trends are controlled for.",
+        "Spending in treatment and control village councils converged after the reform period ended in April 2013.",
+        "Quotes and page numbers are taken from the author-hosted manuscript (MIT Economics copy, June 2019); the article was published in 2020."
+      ],
+      "sources": [
+        {
+          "citation": "Banerjee, A., Duflo, E., Imbert, C., Mathew, S. and Pande, R. (2020). E-governance, Accountability, and Leakage in Public Programs: Experimental Evidence from a Financial Management Reform in India. American Economic Journal: Applied Economics 12(4): 39-72. Author-hosted manuscript, June 2019.",
+          "url": "https://economics.mit.edu/sites/default/files/2022-08/E-Governance%20BiharNREGApaper_2019.06.pdf",
+          "kind": "working-paper"
+        },
+        {
+          "citation": "Journal page for the published article, American Economic Journal: Applied Economics 12(4).",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/app.20180302",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "chennai-property-tax-reassessment",
+      "title": "Property tax reassessment in Chennai by government inspectors and private firms",
+      "area": "Tax and public finance",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Tamil Nadu"
+        ]
+      },
+      "period": "Reassessment April to June 2023; tax demand and collections for the 2023-24 tax year",
+      "intervention": "The Greater Chennai Corporation reassessed property tax on properties flagged as likely undervalued, using either its own tax inspectors or private surveying firms. Firms were paid either a fixed fee per property or a fixed fee plus a share of the tax increase found.",
+      "verdict": "worked",
+      "verdict_basis": "Reassessment raised annual tax demand by 6,080 rupees (about 84 percent) on properties reassessed by government inspectors and by 3,859 rupees (about 53 percent) on those reassessed by private firms, and both estimates are significant at the 1 percent level. Collections for 2023-24 rose 69 percent and 36 percent respectively. Private firms completed fewer reassessments than government inspectors, and the gap in revenue between the two is significant.",
+      "design": "rct",
+      "design_detail": "Each of Chennai's 199 wards was randomly assigned to reassessment by government inspectors, by a fixed-fee private firm or by an incentive-contract private firm, stratified by city region. Within wards, 40 percent of street segments were randomly chosen for reassessment and the rest formed the control group. Effects on properties actually reassessed come from instrumental variables, using assignment as the instrument.",
+      "sample": "About 206,000 properties in 199 wards: the first list of treated street segments plus the control segments. The government had flagged about 280,000 properties as likely undervalued. 50 percent of wards went to fixed-fee firms, 25 percent to the incentive firm and 25 percent to government inspectors.",
+      "effects": [
+        {
+          "outcome": "Share of assigned properties reassessed by April 2024",
+          "result": "Government inspectors reassessed 47 percent of assigned properties, private firms 38 percent",
+          "interval_or_se": "Government 0.471 (SE 0.042), private 0.377 (SE 0.022); p-value of the difference 0.050 (Table 2, Panel A)",
+          "quote": "we find that the government surveyors reassessed 47 percent of the properties they had been assigned, compared to 38 percent for private firms (column 2).",
+          "page_or_section": "Section 4.2 (Table 2)"
+        },
+        {
+          "outcome": "Annual tax demand on properties reassessed by government inspectors",
+          "result": "Increase of 6,080 rupees, about 84 percent",
+          "interval_or_se": "SE 540.06; control mean 7,218.18 rupees (Table 2, Panel B)",
+          "quote": "For those properties re-assessed by government workers, tax demand increases by an average of 6,080 rupees, or about 84 percent.",
+          "page_or_section": "Section 4.3 (Table 2, Panel B)"
+        },
+        {
+          "outcome": "Annual tax demand on properties reassessed by private firms",
+          "result": "Increase of 3,859 rupees, about 53 percent",
+          "interval_or_se": "SE 378.13; control mean 7,218.18 rupees (Table 2, Panel B)",
+          "quote": "For those properties re-assessed by private firms, tax demand increases by an average of 3,859 rupees, or about 53 percent.",
+          "page_or_section": "Section 4.3 (Table 2, Panel B)"
+        },
+        {
+          "outcome": "Tax collected in 2023-24 on reassessed properties",
+          "result": "Collections rose 69 percent with government inspectors and 36 percent with private firms",
+          "interval_or_se": "Government 3,964.66 rupees (SE 431.04), private 2,116.19 rupees (SE 230.27); control mean 5,721.16 rupees (Table 2, Panel B)",
+          "quote": "Tax collections increase by 69 percent when re-assessed by government surveyors, but by only 36 percent when re-assessed by private firms.",
+          "page_or_section": "Section 4.3 (Table 2, Panel B)"
+        },
+        {
+          "outcome": "Performance of fixed-fee firms against incentive-contract firms",
+          "result": "No statistically significant difference on properties reassessed, tax demand, collections or accuracy",
+          "interval_or_se": null,
+          "quote": "We find no statistically significant differences in performance between fixed fee and incentive-based firms on any of the dimensions we examine.",
+          "page_or_section": "Section 5 (Table 7)"
+        }
+      ],
+      "caveats": [
+        "The government halted reassessment on 3 June 2023 for political reasons, so only the first list of treated street segments was worked and effects are measured on that list.",
+        "Tax demand and collections cover one tax year and were measured in 2024, so the paper gives no evidence on how long the extra revenue lasts.",
+        "Only three firms were contracted (two fixed-fee, one incentive) after most interested firms declined to bid, so the private-firm results describe these firms. Government inspectors and firms also reached different properties, with government inspectors more likely to reassess the largest.",
+        "Effects per reassessed property are instrumental variables estimates for properties that were actually reassessed.",
+        "The cited version is an author-hosted working paper dated November 2025 and has not been published in a journal."
+      ],
+      "sources": [
+        {
+          "citation": "Duflo, E., Hanna, R., Olken, B.A. and Tandon, S. (2025). The Limits of Government Outsourcing: Property Tax Re-Assessments in India. Working paper, November 2025. Author-hosted version.",
+          "url": "https://remahanna.scholars.harvard.edu/sites/g/files/omnuum3176/files/2025-11/TNPT_Paper.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "debt-recovery-tribunals",
+      "title": "Debt Recovery Tribunals and loan repayment",
+      "area": "Justice and public safety",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "Tribunals opened from April 1994 (first group of states) and from November 1996 (second group); repayment of loans sanctioned before June 1993",
+      "intervention": "The Debt Recovery Tribunals Act of 1993 let the central government set up special tribunals that follow a faster procedure to speed up banks' suits against defaulting borrowers, in place of the civil courts. Claims above Rs 1 million are eligible, and tribunals were opened state by state from 1994.",
+      "verdict": "worked",
+      "verdict_basis": "Loans with more than Rs 1 million overdue were 11% more likely to pay subsequent invoices within 180 days once a tribunal existed in the state (coefficient 0.11, significant at 1%), and late payers cut the time taken by 265 days. Within the same loans the gain was smaller, 0.03 and only significant at 10%. Interest rates on new loans fell by 2.2 percentage points in one specification (10% level) but not in borrower fixed-effects regressions, and loan sizes did not change.",
+      "design": "quasi-experimental",
+      "design_detail": "Difference-in-differences using two sources of variation: the Rs 1 million claim threshold for tribunal eligibility, and the staggered opening of tribunals across states. Loans with more than Rs 1 million overdue are compared with loans below the threshold before and after a state's tribunal opened. Checks add narrow bands around the threshold, state-by-quarter fixed effects, and loan and borrower fixed effects. Standard errors are block bootstrapped by groups of states sharing a tribunal.",
+      "sample": "798 project loans to 439 borrowers from one large private bank with a national presence, observed in 15,034 loan-quarters (loans sanctioned before 24 June 1993); 2,018 loans in the loan-size tests and 2,179 disbursements in the interest-rate tests.",
+      "effects": [
+        {
+          "outcome": "Probability an invoice is paid within 180 days, loans above the claim threshold after a state tribunal opened",
+          "result": "Loans with more than Rs 1 million overdue were 11% more likely to pay up within 180 days",
+          "interval_or_se": "Coefficient 0.11, SE 0.01; mean of the outcome 0.55 without a state tribunal and 0.71 with one",
+          "quote": "loans which had more than Rupees 1 million overdue were 11% more likely to pay up subsequent invoices within 180 days",
+          "page_or_section": "Section 8.1, Table 3A column 1"
+        },
+        {
+          "outcome": "Days taken to pay among invoices not paid within 180 days",
+          "result": "Reduced by 265 days",
+          "interval_or_se": "Coefficient -264.89, SE 34.30",
+          "quote": "even loans which did not pay up within 180 days, did reduce the time taken to pay by 265 days",
+          "page_or_section": "Section 8.1, Table 3A column 5"
+        },
+        {
+          "outcome": "Probability an invoice is paid within 180 days, within the same loan (loan fixed effects)",
+          "result": "+0.03 in the full sample, +0.01 in the earlier-opening states and +0.05 in the later-opening states",
+          "interval_or_se": "SE 0.02, 0.03 and 0.02; significant at 10% in the full sample and at 5% in group 2 states",
+          "quote": "State DRT X Above 0.03* 0.01 0.05**",
+          "page_or_section": "Table 4, columns 1 to 3"
+        },
+        {
+          "outcome": "Interest rate on loans sanctioned after a state tribunal opened",
+          "result": "2.2 percentage points lower in levels, with no significant change in borrower fixed-effects regressions",
+          "interval_or_se": "Coefficient -2.15, SE 1.19 (10% level) in levels; -0.94, SE 1.34 with borrower fixed effects",
+          "quote": "the establishment of DRTs caused loans sanctioned subsequently to charge an interest rate that is 2.2 percentage points lower",
+          "page_or_section": "Section 9, Table 6 columns 1 and 4"
+        },
+        {
+          "outcome": "Log size of loans sanctioned after a state tribunal opened",
+          "result": "No significant change: -0.14 in levels and -0.08 with borrower fixed effects",
+          "interval_or_se": "SE 0.21 and 0.56",
+          "quote": "Post state DRT -0.14 -0.13 -0.23 -0.08 -0.04 -0.20",
+          "page_or_section": "Table 5"
+        }
+      ],
+      "caveats": [
+        "All loan data come from a single private bank, so the results may not describe other lenders or public sector banks.",
+        "The eligibility threshold is on the amount overdue at the time of the reform, and the paper notes that loans far above it responded less, which may mean they were too far gone to respond to the threat of litigation.",
+        "The within-loan gain appears in the group 2 states, where tribunals opened from 1996 after the Supreme Court restored them, and not in the group 1 states, where the paper describes the effect as compositional.",
+        "Official data on case processing times were not available; the evidence on speed is a sample of 50 cases from the bank's law firm.",
+        "The figures and quotes come from the April 2006 Boston University working paper; the published article (American Economic Journal: Applied Economics 2009) reports revised estimates."
+      ],
+      "sources": [
+        {
+          "citation": "Visaria, S. (2006). Legal Reform and Loan Repayment: The Microeconomic Impact of Debt Recovery Tribunals in India. Boston University working paper, April 2006 (version used for the figures above). Published in American Economic Journal: Applied Economics 1(3): 59-81, 2009.",
+          "url": "https://www.bu.edu/econ/files/2012/11/dp157-Visaria.pdf",
+          "kind": "working-paper"
+        },
+        {
+          "citation": "Visaria, S. (2009). Legal Reform and Loan Repayment: The Microeconomic Impact of Debt Recovery Tribunals in India. American Economic Journal: Applied Economics 1(3): 59-81.",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/app.1.3.59",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "delhi-odd-even",
+      "title": "Delhi odd-even vehicle rationing",
+      "area": "Environment and climate",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Delhi"
+        ]
+      },
+      "period": "Two pilot rounds: 1 to 15 January 2016 and 15 to 30 April 2016",
+      "intervention": "Between 8 am and 8 pm, privately owned cars with odd-numbered licence plates could run only on odd dates and even-numbered plates only on even dates. Women drivers and cars carrying more than two passengers were exempt, and Sundays were excluded.",
+      "verdict": "mixed",
+      "verdict_basis": "The scheme aimed to cut traffic and air pollution. Fine particle concentrations (PM2.5) in Delhi were 13% lower than in neighbouring satellite cities during the January round, with triple-difference estimates of 32.77 and 33.45 micrograms per cubic metre at the 5 percent level in two of three specifications. There was no detectable effect in the April round. Road congestion fell in both rounds, by around 0.10 to 0.12 minutes per km (9 to 10% of average excess delay) in the pooled estimates, but 41 to 43% of drivers who stopped using their primary car switched to another private vehicle.",
+      "design": "quasi-experimental",
+      "design_detail": "Air quality: difference-in-differences and triple-difference comparison of hourly PM2.5 at Delhi monitors against monitors in Faridabad, Gurgaon and Rohtak, for restricted hours on programme days against other times. Traffic: a regression discontinuity around the end of each round using Google Maps travel times on 150 routes, and a panel of drivers using the essentially random assignment of odd and even plates.",
+      "sample": "Air quality: hourly PM2.5 from 10 monitors (7 in Delhi, 3 in neighbouring towns) from November 2015 to April 2016, with regression samples of 3,667 observations from 8 monitors for January and 3,438 from 9 monitors for April. Traffic: 150 routes in Delhi and daily phone surveys of 556 male drivers recruited before the first round and 494 before the second.",
+      "effects": [
+        {
+          "outcome": "PM2.5 in Delhi relative to satellite cities, January round",
+          "result": "Fine particle concentrations in Delhi were 13% lower than in neighbouring cities during the January pilot.",
+          "interval_or_se": "Triple-difference estimates in Table 2 are -32.77 (standard error 10.37) and -33.45 (standard error 10.83) micrograms per cubic metre, both significant at 5%; the bootstrapped specification gives -37.66 (standard error 22.21), significant at 10%",
+          "quote": "Relative to surrounding satellite cities, fine particle concentrations in Delhi’s air were lower by 13% during the January pilot.",
+          "page_or_section": "Abstract; Section 5.1, Table 2"
+        },
+        {
+          "outcome": "PM2.5 in Delhi relative to satellite cities, April round",
+          "result": "The programme did not affect Delhi's air quality in April.",
+          "interval_or_se": "Triple-difference estimates in Table 2 are -1.801 (standard error 15.20), 0.635 (standard error 9.283) and -0.642 (standard error 8.920) micrograms per cubic metre",
+          "quote": "the program did not affect Delhi’s air quality during the warmer month of April",
+          "page_or_section": "Abstract; Section 5.1, Table 2"
+        },
+        {
+          "outcome": "Travel time excess delay on 150 Delhi routes, January and April rounds",
+          "result": "Excess delay fell by about 0.10 to 0.12 minutes per km, 9 to 10% of average excess delay.",
+          "interval_or_se": "January estimates -0.116 (standard error 0.018), -0.124 (0.037), -0.121 (0.037); April estimates -0.096 (0.015), -0.143 (0.032), -0.141 (0.032) minutes per km (Table 1)",
+          "quote": "The results point to a reduction of around 0.10-0.12 minutes/km. Given the average excess delay of 1.1-1.2 minutes/km without the policy, this effect size represents 9-10% of average excess delay.",
+          "page_or_section": "Kreindler, Section 3, Table 1"
+        },
+        {
+          "outcome": "Use of the primary car by surveyed drivers, first round",
+          "result": "In the first round 51% of drivers used their primary car on an unrestricted day, against 18% on a restricted day.",
+          "interval_or_se": null,
+          "quote": "during the first round of the policy 51% of drivers use their primary car on an unrestricted day, versus 18% on a restricted day",
+          "page_or_section": "Kreindler, Section 4.1, Table 3"
+        },
+        {
+          "outcome": "Where drivers who stopped using their primary car went",
+          "result": "Almost half, 41 to 43%, of the drivers pushed away from their primary car switched to a different private vehicle.",
+          "interval_or_se": null,
+          "quote": "almost half (41-43%) of the drivers who are induced away from using their primary car turn to using a different private vehicle for their commute",
+          "page_or_section": "Kreindler, Section 4.2, Table 4"
+        },
+        {
+          "outcome": "Drivers cancelling all trips on a restricted day",
+          "result": "Between 8 and 10 percentage points of drivers cancelled all trips on the reference day.",
+          "interval_or_se": null,
+          "quote": "between 8 and 10 percentage points of drivers cancel all trips during the reference day",
+          "page_or_section": "Kreindler, Section 4.2, Table 4"
+        }
+      ],
+      "caveats": [
+        "The January air quality estimate rests on 8 monitors and 15 days. Data availability in the comparison towns was thin in January (Gurgaon 10% of hours, Rohtak 52%, Faridabad 60%).",
+        "Delhi introduced other measures at the same time, including limits on trucks and a ban on new large diesel cars. The authors argue the effect is confined to restricted hours on programme days, which points to cars, but the design cannot fully exclude these measures.",
+        "The authors report significant reductions mainly between 11 am and 2 pm, and estimates for other hours are noisy and cannot be distinguished from zero.",
+        "The January round was announced as a short pilot, so commuter behaviour may differ if a scheme runs for longer.",
+        "The traffic results measure excess delay on 150 routes and a panel of male drivers recruited at petrol pumps, not the average experience of all commuters.",
+        "Both sources are working papers. The air quality source is an EPIC-India draft file dated 2 July 2017 and the traffic source is the 11 July 2016 working paper hosted by the International Growth Centre."
+      ],
+      "sources": [
+        {
+          "citation": "Greenstone, M., Harish, S., Pande, R. and Sudarshan, A. (2017). Clearing the air on Delhi's odd-even program. EPIC-India working paper, draft of 2 July 2017.",
+          "url": "https://epic.uchicago.in/wp-content/uploads/2017/07/Odd-Even-EPW-draft-02072017.pdf",
+          "kind": "working-paper"
+        },
+        {
+          "citation": "Kreindler, G. (2016). Driving Delhi? Behavioural Responses to Driving Restrictions. Working paper, 11 July 2016, International Growth Centre.",
+          "url": "https://www.theigc.org/sites/default/files/2016/11/Kreindler-2016-Working-paper.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "graduation-programme-west-bengal",
+      "title": "Graduation programme for the ultra-poor in West Bengal",
+      "area": "Poverty and social protection",
+      "geography": {
+        "level": "state",
+        "states": [
+          "West Bengal"
+        ]
+      },
+      "period": "Multi-site trial run between 2007 and 2014. In West Bengal the first follow-up came about two years after the programme began and the second about three years after.",
+      "intervention": "Bandhan gave selected ultra-poor households a productive asset worth 6.53 goats at local prices, which most households used for livestock. The asset came with a consumption stipend, business training, regular home visits that included health education, and access to savings.",
+      "verdict": "worked",
+      "verdict_basis": "In the West Bengal sample, the per capita consumption index was 0.296 standard deviations higher in treated households two years after the start and 0.228 higher about a year after the programme ended, both significant. The asset index was 0.650 and 0.712 standard deviations higher at the two follow-ups. Across all six countries consumption rose 0.12 standard deviations, with no fall-back a year after the programme ended.",
+      "design": "rct",
+      "design_detail": "Randomised trial in which eligible households within each village were assigned to treatment or control. Effects are intention-to-treat. Only 52% of the households selected in West Bengal took up the programme, so the estimates are diluted by non-participation.",
+      "sample": "West Bengal site: 816 observations at the first follow-up and 879 at the second in the consumption regressions. The six-country trial (Ethiopia, Ghana, Honduras, India, Pakistan, Peru) covers 21,063 adults in 10,495 households.",
+      "effects": [
+        {
+          "outcome": "India (West Bengal) per capita consumption index, standardised, at two follow-ups",
+          "result": "0.296 standard deviations at the first follow-up and 0.228 at the second, treatment versus control",
+          "interval_or_se": "SE 0.080 and 0.066; q-values 0.001 and 0.002",
+          "quote": "Total per capita consumption, standardized 0.296*** 0.001 0.228*** 0.002",
+          "page_or_section": "Table S4d, supplementary materials"
+        },
+        {
+          "outcome": "India (West Bengal) total consumption per capita per month, second follow-up",
+          "result": "PPP US$6.18 higher in treated households",
+          "interval_or_se": "SE 1.78",
+          "quote": "India (Bandhan) 6.18*** 3.02*** 2.55*** 0.55",
+          "page_or_section": "Table S5a-2, supplementary materials"
+        },
+        {
+          "outcome": "India (West Bengal) asset index at two follow-ups",
+          "result": "0.650 standard deviations at the first follow-up and 0.712 at the second",
+          "interval_or_se": "SE 0.089 and 0.096; q-values 0.001 and 0.001",
+          "quote": "Asset index 0.650*** 0.001 0.712*** 0.001",
+          "page_or_section": "Table S4d, supplementary materials"
+        },
+        {
+          "outcome": "India (West Bengal) incomes and revenues index at two follow-ups",
+          "result": "0.608 standard deviations at the first follow-up and 0.666 at the second",
+          "interval_or_se": "SE 0.114 and 0.099; q-values 0.001 and 0.001",
+          "quote": "Incomes and revenues index (5 components) 0.608*** 0.001 0.666*** 0.001",
+          "page_or_section": "Table S4d, supplementary materials"
+        },
+        {
+          "outcome": "India (West Bengal) physical health index at two follow-ups",
+          "result": "0.160 standard deviations at the first follow-up, significant, and -0.017 at the second, not significant",
+          "interval_or_se": "SE 0.065 and 0.051; q-values 0.025 and 0.746",
+          "quote": "Physical health index (3 components) 0.160** 0.025 -0.017 0.746",
+          "page_or_section": "Table S4d, supplementary materials"
+        },
+        {
+          "outcome": "Pooled across six countries: per capita consumption at the first follow-up",
+          "result": "0.12 standard deviations, equal to PPP US$4.55 per capita per month. This is a pooled figure across six countries, not the India figure",
+          "interval_or_se": "q-value 0.001",
+          "quote": "per-capita consumption increases by 0.12 standard deviations (q-value 0.001), which is equivalent to PPP US$4.55 per capita per month",
+          "page_or_section": "Section IV(a), pooled sample"
+        },
+        {
+          "outcome": "Pooled across six countries: asset index at two follow-ups",
+          "result": "0.26 standard deviations at the first follow-up and 0.25 at the second. This is a pooled figure across six countries",
+          "interval_or_se": null,
+          "quote": "The asset index we construct in all countries is 0.26 standard deviations larger in endline 1 and 0.25 standard deviations larger in endline 2.",
+          "page_or_section": "Section IV(a), pooled sample"
+        },
+        {
+          "outcome": "India (West Bengal) benefit-cost ratio using consumption gains as the benefit",
+          "result": "410%, the highest of the six sites",
+          "interval_or_se": null,
+          "quote": "the programs all have benefits greater than their costs (ranging from 133% in Ghana to 410% in India)",
+          "page_or_section": "Section on cost-benefit analysis"
+        },
+        {
+          "outcome": "India (West Bengal) internal rate of return",
+          "result": "23.4%",
+          "interval_or_se": null,
+          "quote": "They are 13.3% (Ethiopia), 6.9% (Ghana), n/a (Honduras), 23.4% (India), 9.5% (Pakistan), and 7.5% (Peru).",
+          "page_or_section": "Section on cost-benefit analysis"
+        }
+      ],
+      "caveats": [
+        "Half of the households selected in West Bengal did not take up the programme, so the intention-to-treat estimates understate the effect on households that took part.",
+        "Attrition in West Bengal was 17% at the first follow-up, and was not different between treatment and control.",
+        "The benefit-cost ratio and rate of return rest on assumptions about how long the consumption gains last after the third year, and on costs that were spread over the households that accepted the programme.",
+        "Figures come from the author manuscript and its supplementary tables, not the typeset journal version."
+      ],
+      "sources": [
+        {
+          "citation": "Banerjee, A., Duflo, E., Goldberg, N., Karlan, D., Osei, R., Parienté, W., Shapiro, J., Thuysbaert, B. and Udry, C. (2015). A multifaceted program causes lasting progress for the very poor: Evidence from six countries. Science 348(6236), 1260799. Author final manuscript with supplementary materials (MIT DSpace copy).",
+          "url": "https://hdl.handle.net/1721.1/97047",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "gujarat-third-party-audits",
+      "title": "Third-party environmental audits of polluting plants in Gujarat",
+      "area": "Environment and climate",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Gujarat"
+        ]
+      },
+      "period": "Audit years 2009 and 2010, with an endline pollution survey about six months after the last audit visit",
+      "intervention": "Treated plants were assigned an environmental auditor at random, and the auditor was paid a flat fee from a central pool rather than by the plant. A random 20 percent of each auditor's readings were checked by unannounced follow-up visits from an independent technical agency, and from the second year the auditor's pay was linked to accuracy.",
+      "verdict": "worked",
+      "verdict_basis": "The reform targeted truthful auditing and, through it, plant pollution. Audits in treatment plants were 81 percent less likely to falsely report compliance with the standard, and audit readings were 0.210 standard deviations higher relative to backchecks than in control plants. Average pollution at endline was 0.211 standard deviations lower in treatment plants (standard error 0.099), driven by a 0.300 standard deviation fall in water pollutants. The effect on air pollutants and on the share of readings meeting the standard (2.68 percentage points) was not significant.",
+      "design": "rct",
+      "design_detail": "Plants were randomly assigned to treatment within region, with half of the provisional sample in each arm. Reporting accuracy is measured by comparing audit readings with backcheck readings for the same pollutants and places. Pollution is measured in an independent endline survey of all plants. Standard errors are clustered at the plant level.",
+      "sample": "473 audit-eligible plants in the Ahmedabad and Surat regions (233 treatment and 240 control). The endline survey collected 2,953 pollution samples from 408 plants, and the audit-report analysis uses 13,170 pollutant readings.",
+      "effects": [
+        {
+          "outcome": "Gap between audit report and backcheck reading (standard deviations), treatment relative to control",
+          "result": "Audit readings relative to backchecks were 0.210 standard deviations higher in treatment plants than in control plants.",
+          "interval_or_se": "Standard error 0.073 (Table V, panel C, column 1)",
+          "quote": "The treatment coefficient of 0.210 standard deviations (standard error of 0.073 standard deviations) indicates that auditors working in treatment plants report",
+          "page_or_section": "Section 5, Table V panel C"
+        },
+        {
+          "outcome": "Readings falsely reported as below the standard, control plants",
+          "result": "In control plants an additional 28.8% of audit readings, relative to backchecks, were falsely reported as below the standard.",
+          "interval_or_se": "Standard error 0.023 (Table IV, panel B, column 1)",
+          "quote": "The coefficient for audit reports indicates that an additional 28.8% of readings from audits are falsely reported as below the standard.",
+          "page_or_section": "Section 5, Table IV panel B"
+        },
+        {
+          "outcome": "False reports of compliance with the standard, treatment relative to control",
+          "result": "Audits in treatment plants were 81% less likely to falsely report compliance, a coefficient of -0.234 against 0.288 in control plants.",
+          "interval_or_se": "Standard error 0.039 (Table IV, panel B, column 1)",
+          "quote": "audits in the treatment are 81% (-0.234/0.288) less likely to falsely report compliance with the standard",
+          "page_or_section": "Section 5, Table IV panel B"
+        },
+        {
+          "outcome": "Pollution at endline, all pollutants (standard deviations)",
+          "result": "Treatment plants reduced pollution by 0.211 standard deviations.",
+          "interval_or_se": "Standard error 0.099, significant at the 5 percent level; control mean 0.076 (Table VII, panel A, column 1)",
+          "quote": "On average, the treatment plants reduced pollution by a statistically significant 0.211 standard deviations.",
+          "page_or_section": "Section 6, Table VII panel A"
+        },
+        {
+          "outcome": "Water pollutant concentrations at endline",
+          "result": "Water pollutants fell by 0.300 standard deviations in treatment plants.",
+          "interval_or_se": "Standard error 0.159, significant at the 10 percent level (Table VII, panel A, column 2)",
+          "quote": "This effect is driven by a large decrease of 0.300 standard deviations in water pollutant concentrations, shown in column (2).",
+          "page_or_section": "Section 6, Table VII panel A"
+        },
+        {
+          "outcome": "Air pollutant concentrations at endline",
+          "result": "The effect on air pollutants was smaller and not statistically significant.",
+          "interval_or_se": "Coefficient -0.053, standard error 0.057 (Table VII, panel A, column 3)",
+          "quote": "The estimated effect on air pollution in column (3) is smaller and insignificant.",
+          "page_or_section": "Section 6, Table VII panel A"
+        },
+        {
+          "outcome": "Share of endline readings at or below the regulatory standard",
+          "result": "Compliance rose by 2.68 percentage points, which is not statistically significant.",
+          "interval_or_se": "Standard error 0.027 (Table VII, panel B, column 1)",
+          "quote": "compliance is estimated to have increased by a small and insignificant 2.68 percentage points.",
+          "page_or_section": "Section 6, Table VII panel B"
+        },
+        {
+          "outcome": "Where in the pollution distribution the reduction occurred",
+          "result": "The reduction sat in the right tail: point estimates fall to less than -0.5 standard deviations at the 0.95-quantile.",
+          "interval_or_se": null,
+          "quote": "from the 0.80-quantile onwards the point estimates sharply decrease to less than -0.5 standard deviations at the 0.95-quantile",
+          "page_or_section": "Section 6, Figure 4"
+        }
+      ],
+      "caveats": [
+        "The treatment bundled four changes (random assignment, fixed pay from a central pool, backchecks and incentive pay from year two), so the effect of each part cannot be separated.",
+        "With auditor fixed effects the audit-minus-backcheck estimate is 0.153 with a standard error of 0.099, which is not significant at conventional levels.",
+        "No individual quantile coefficient in the pollution distribution is significant at conventional levels, and the mean effect is helped by a few control plants with very high readings. Top-coding the highest readings shrinks the estimate to 0.143 and 0.114 standard deviations.",
+        "Audits were submitted by 70 percent of treatment plants and 74 percent of control plants in 2009, and by 70 percent and 64 percent in 2010, so the audit-report results describe plants that submitted.",
+        "The experiment covers two industrial regions of one state and two years, and plant responses may differ if a reform is permanent.",
+        "Cited from NBER Working Paper 19259 (July 2013), the working-paper version of the Quarterly Journal of Economics article."
+      ],
+      "sources": [
+        {
+          "citation": "Duflo, E., Greenstone, M., Pande, R. and Ryan, N. (2013). Truth-telling by Third-party Auditors and the Response of Polluting Firms: Experimental Evidence from India. Quarterly Journal of Economics 128(4): 1499-1545. Cited version: NBER Working Paper 19259, July 2013.",
+          "url": "https://www.nber.org/system/files/working_papers/w19259/w19259.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "immunisation-incentives-rajasthan",
+      "title": "Immunisation camps with small incentives in rural Udaipur",
+      "area": "Health",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Rajasthan"
+        ]
+      },
+      "period": "Baseline survey from June 2004 to February 2005. Endline survey from July 2006 to February 2007, about 18 months after the camps began.",
+      "intervention": "Seva Mandir, a non-governmental organisation, ran monthly immunisation camps at a fixed date and time in study villages. In half of those villages parents also received 1 kg of raw lentils for each immunisation and a set of metal plates when a child was fully immunised.",
+      "verdict": "worked",
+      "verdict_basis": "Full immunisation among children aged 1 to 3 was 6% in control villages, 18% in villages with reliable camps and 39% in villages with camps plus incentives. The relative risk against control was 3.1 for camps alone and 6.7 for camps with incentives. Most children in the best arm were still not fully immunised, so the gain is large but starts from under 2% at baseline.",
+      "design": "rct",
+      "design_detail": "Cluster randomised trial. After stratifying by administrative block, 30 villages were assigned to reliable camps, 30 to camps with incentives and 74 to control. Analysis was by intention to treat, with a neighbouring village sampled near each study village to measure spillovers.",
+      "sample": "134 villages; 2,188 children aged 1 to 3 at endline from 2,898 households, including 860 in control, 379 in camp-only and 382 in camps-with-incentives villages.",
+      "effects": [
+        {
+          "outcome": "Share of children aged 1 to 3 fully immunised, by arm",
+          "result": "39% with camps and incentives, 18% with camps only, 6% in control",
+          "interval_or_se": "95% CI 30% to 47%, 11% to 23% and 3% to 9%",
+          "quote": "148/382 (mean 39%, 95% confidence interval 30% to 47%) children were completely immunised compared with 68/379 (18%, 11% to 23%) in intervention A villages and 50/860 (6%, 3% to 9%) in control villages",
+          "page_or_section": "Results, main outcome"
+        },
+        {
+          "outcome": "Relative risk of full immunisation",
+          "result": "3.1 for camps only versus control, 6.7 for camps with incentives versus control, 2.2 for camps with incentives versus camps only",
+          "interval_or_se": "95% CI 2.0 to 4.2, 4.5 to 8.8 and 1.5 to 2.8",
+          "quote": "3.1 (2.0 to 4.2) for intervention A versus control, 6.7 (4.5 to 8.8) for intervention B versus control, and 2.2 for intervention B versus intervention A (1.5 to 2.8)",
+          "page_or_section": "Results, main outcome"
+        },
+        {
+          "outcome": "Average cost to Seva Mandir of fully immunising one child",
+          "result": "$27.94 (1,102 rupees) in camps with incentives and $55.83 (2,202 rupees) in camps without",
+          "interval_or_se": null,
+          "quote": "The average cost to Seva Mandir of fully immunising a child was $27.94 (1102 rupees, about £16 or €19) in the reliable camp with incentives and $55.83 (2202 rupees) in the reliable camp without incentives",
+          "page_or_section": "Results, costs"
+        },
+        {
+          "outcome": "Estimated cost per fully immunised child for a government using existing health infrastructure",
+          "result": "$17.35 in camps with incentives and $25.18 in camps without",
+          "interval_or_se": null,
+          "quote": "the average cost of fully immunising a child was estimated at $25.18 in camps without incentives and $17.35 in camps with incentives",
+          "page_or_section": "Results, costs"
+        },
+        {
+          "outcome": "Full immunisation in villages neighbouring study villages",
+          "result": "20% near camps with incentives and 11% near camps without",
+          "interval_or_se": "95% CI 10% to 31% and 5% to 16%",
+          "quote": "61/302 children (20%, 10% to 31%) were completely immunised compared with 36/265 children (11%, 5% to 16%) in villages bordering an intervention A camp",
+          "page_or_section": "Results, impact on neighbouring villages"
+        }
+      ],
+      "caveats": [
+        "Immunisation status came partly from mothers' reports, which the authors checked against BCG scars, immunisation cards and camp logbooks.",
+        "Villagers knew which arm they were in, and may have attended camps to keep the programme running.",
+        "Baseline full immunisation was under 2%, so the gains may be smaller where coverage is already higher. The villages come from a poor, largely tribal catchment area and are not representative of Udaipur.",
+        "The trial tests reliable supply together with incentives, so it cannot separate the effect of the incentive from the effect of the camp it was attached to.",
+        "The abstract of the published paper gives the two cost figures the other way round to the Results section; the costs here follow the Results section. Full text read from the open-access PubMed Central copy."
+      ],
+      "sources": [
+        {
+          "citation": "Banerjee, A. V., Duflo, E., Glennerster, R. and Kothari, D. (2010). Improving immunisation coverage in rural India: clustered randomised controlled evaluation of immunisation campaigns with and without incentives. BMJ 340:c2220. Open-access full text via PubMed Central.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2871989/",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "id": "janani-suraksha-yojana",
       "title": "Janani Suraksha Yojana cash payments for institutional delivery",
       "area": "Health",
@@ -368,6 +1018,109 @@
           "citation": "Carvalho N and Rokicki S (2015), The impact of India's JSY conditional cash transfer programme: a replication study, 3ie Replication Paper 6",
           "url": "https://www.3ieimpact.org/sites/default/files/2017-11/rps_6_impact_of_indias_jsy.pdf",
           "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "jaunpur-education-committees",
+      "title": "Community participation in village education committees in Jaunpur",
+      "area": "Governance and participation",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Uttar Pradesh"
+        ]
+      },
+      "period": "Interventions September to December 2005; baseline March to April 2005; endline March to April 2006",
+      "intervention": "Three interventions were tested to raise community involvement in schools through the Village Education Committees (VECs) set up under the Sarva Shiksha Abhiyan. The first gave information about the VEC and the school system at village meetings; the second added training for community members to test children's reading and produce village report cards; the third added volunteers trained to run reading camps of two to three months outside school.",
+      "verdict": "mixed",
+      "verdict_basis": "The first two arms changed neither community involvement nor learning: an increase of 0.12 standard deviations in VEC activism and of 0.06 standard deviations in parental involvement with schools is rejected at the 5 percent level, and reading effects are about 0.4 percentage points. The third arm raised reading, with children 1.7 percentage points more likely to read at least letters and baseline non-readers 7.9 percentage points more likely to read letters. Those gains came from the camps run outside the school, with no rise in involvement in the school itself.",
+      "design": "rct",
+      "design_detail": "Villages were randomly assigned within four randomly chosen blocks of Jaunpur district to one of three treatment arms or a control group. Effects come from regressions of endline outcomes on arm indicators and baseline values, with standard errors clustered by village, and an instrumental variables estimate of the effect of attending a reading camp.",
+      "sample": "280 villages in Jaunpur district: 65 villages in each of the three arms and 85 control villages. The baseline covered 2,800 households, 316 schools, 1,029 VEC members and 17,533 children aged 7 to 14 tested in reading and maths; 17,419 children were tested at endline.",
+      "effects": [
+        {
+          "outcome": "VEC activism (complaints made, resources raised)",
+          "result": "No detectable change; an increase of 0.12 standard deviations is rejected at the 5 percent level",
+          "interval_or_se": "Joint effect of the three arms -0.030 standard deviations, SE 0.076 (Table 1, Panel B)",
+          "quote": "Thus, we can reject at the 5 percent level that the intervention increased VEC activism by 0.12 standard deviations.",
+          "page_or_section": "Page 22 (Table 1, Panel B)"
+        },
+        {
+          "outcome": "Parental involvement with schools (visits, time or money volunteered)",
+          "result": "No detectable change in any arm; an increase of 0.06 standard deviations is rejected at the 5 percent level",
+          "interval_or_se": null,
+          "quote": "We can reject at the 5 percent level an increase of 0.06 standard deviations in parents’ involvement with the schools for any treatment, which would be a very small effect.",
+          "page_or_section": "Page 23 (Table 2, Panel B)"
+        },
+        {
+          "outcome": "Parents' knowledge that a VEC exists",
+          "result": "2.9 percentage points higher in treatment villages, against 4 percent in the control at endline",
+          "interval_or_se": null,
+          "quote": "Parents in treatment villages are 2.9 percentage points more likely to know that a VEC exists (compared to only 4 percent in the control at endline).",
+          "page_or_section": "Page 22 (Table 2, Panel A)"
+        },
+        {
+          "outcome": "Child attendance at school",
+          "result": "No detectable change; an increase of 0.04 standard deviations is ruled out at the 5 percent level",
+          "interval_or_se": "Joint effect of the three arms -0.094 standard deviations, SE 0.069 (Table 3, Panel B)",
+          "quote": "We can thus rule out at the 5 percent level a 0.04 standard deviation increase in child presence in school, a small effect.",
+          "page_or_section": "Page 24 (Table 3, Panel B)"
+        },
+        {
+          "outcome": "School resources and teacher presence",
+          "result": "No effect found in any arm",
+          "interval_or_se": null,
+          "quote": "Overall, we find no effect on school resources, nonteaching resources or teacher presence (Web Appendix, Table 9).",
+          "page_or_section": "Page 24"
+        },
+        {
+          "outcome": "Reading among all children, arms 1 and 2",
+          "result": "No effect on reading or maths; levels in arms 1 and 2 rose as much as in the comparison group",
+          "interval_or_se": "Share reading at least letters: arm 1 0.004 (SE 0.007), arm 2 0.004 (SE 0.007) (Table 4, Panel A)",
+          "quote": "Both reading and math levels increased as much in the comparison group as in either treatment 1 or treatment 2.",
+          "page_or_section": "Page 24 (Table 4)"
+        },
+        {
+          "outcome": "Reading among all children in arm 3 villages (reading camps)",
+          "result": "1.7 percentage points more likely to read at least letters",
+          "interval_or_se": "Letters 0.017 (SE 0.007), significant at the 5 percent level; words or paragraphs 0.018 (SE 0.008), also significant at the 5 percent level (Table 4, Panel A)",
+          "quote": "children in the villages that received intervention 3 are 1.7 percent more likely to read at least letters",
+          "page_or_section": "Page 24 (Table 4, Panel A)"
+        },
+        {
+          "outcome": "Reading letters among children who could read nothing at baseline, arm 3",
+          "result": "7.9 percentage points more likely to read at least letters at endline",
+          "interval_or_se": "0.079 (SE 0.035) (Table 4, Panel B)",
+          "quote": "Children who could not read anything at the baseline are 7.9 percent more likely to be able to read at least letters at the endline in intervention 3 villages.",
+          "page_or_section": "Page 25 (Table 4, Panel B)"
+        },
+        {
+          "outcome": "Reading letters among baseline non-readers who attended a reading camp (instrumental variables)",
+          "result": "60 percentage points more likely to read letters after attending the camp",
+          "interval_or_se": "0.602 (SE 0.304); first stage 0.131 (SE 0.023) (Table 4, Panel B, columns 6 and 7)",
+          "quote": "A child who could not read at all is 60 percentage points more likely to read letters after attending the reading class.",
+          "page_or_section": "Page 26 (Table 4, Panel B)"
+        }
+      ],
+      "caveats": [
+        "Only about 8 percent of children in arm 3 villages attended a reading camp, so village-wide effects are small even though the effect on attendees is large. The attendee estimates assume the whole arm 3 effect works through camp attendance, and they apply to children who chose to attend.",
+        "The paper writes some percentage-point differences as percent. The regression tables report them as proportions, for example 0.017 for 1.7.",
+        "Arm 2 villages hired 0.23 more Shiksha Mitras (community-hired local teachers) than the control mean of 1.2, significant at the 5 percent level; this is the only school-level gain found.",
+        "The results are for one district of Uttar Pradesh and the VEC structure as it stood in 2005 to 2006. Of 88 baseline characteristics, 3 differed significantly between groups.",
+        "Quotes and page numbers are taken from the published article as hosted by MIT Economics."
+      ],
+      "sources": [
+        {
+          "citation": "Banerjee, A.V., Banerji, R., Duflo, E., Glennerster, R. and Khemani, S. (2010). Pitfalls of Participatory Programs: Evidence from a Randomized Evaluation in Education in India. American Economic Journal: Economic Policy 2(1): 1-30.",
+          "url": "https://economics.mit.edu/sites/default/files/2022-08/pitfalls.pdf",
+          "kind": "journal"
+        },
+        {
+          "citation": "Journal page for the published article, American Economic Journal: Economic Policy 2(1).",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/pol.2.1.1",
+          "kind": "journal"
         }
       ],
       "verified_on": "2026-10-27"
@@ -536,6 +1289,96 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "microfinance-hyderabad",
+      "title": "Group microcredit in Hyderabad neighbourhoods",
+      "area": "Poverty and social protection",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Telangana"
+        ]
+      },
+      "period": "Spandana opened branches from 2005. Households were surveyed 15 to 18 months later and again two years after that, three to 3.5 years after microfinance arrived.",
+      "intervention": "The microfinance institution Spandana opened group-lending branches in 52 of 104 poor Hyderabad neighbourhoods chosen at random. It lends to groups of women who are jointly responsible for each loan, and offers no business training.",
+      "verdict": "mixed",
+      "verdict_basis": "Borrowing from microfinance institutions rose by 8.4 percentage points. Investment and profits of businesses that already existed rose, with profits up Rs. 2,206 a month from a control mean of Rs. 2,000, concentrated in the top tail of profitability. Average profits across all households did not rise significantly, consumption did not change, and the index of 16 social outcomes moved by 0.007 standard deviations.",
+      "design": "rct",
+      "design_detail": "Neighbourhood-level randomised trial with intention-to-treat estimates. Other lenders entered treatment and control areas, so the difference in borrowing between the two is modest.",
+      "sample": "About 6,850 households in 104 neighbourhoods at the first endline, an average of 65 per neighbourhood, re-surveyed two years later.",
+      "effects": [
+        {
+          "outcome": "Probability a household has a loan from a microfinance institution, first endline",
+          "result": "8.4 percentage points higher in treated areas (26.7% versus 18.3%)",
+          "interval_or_se": null,
+          "quote": "the probability of receiving an MFI loan was still 8.4 percentage points (46%) higher in treatment areas than in comparison areas (26.7% borrowers in treated areas versus 18.3% borrowers in comparison areas)",
+          "page_or_section": "Introduction"
+        },
+        {
+          "outcome": "Spending on business durables over the last year, all households, first endline",
+          "result": "Rs. 391 more in treated areas, statistically significant",
+          "interval_or_se": null,
+          "quote": "the point estimate is small in absolute value (Rs. 391 over the last year, or a bit less than a third of the increase in average MFI borrowing in treatment households)",
+          "page_or_section": "Section 4.2, Table 3"
+        },
+        {
+          "outcome": "Monthly profit of businesses that existed before microcredit arrived, first endline",
+          "result": "Rs. 2,206 higher in treated areas against a control mean of Rs. 2,000, concentrated in the top tail of profitability",
+          "interval_or_se": null,
+          "quote": "We find an average increase in profits of Rs. 2,206 in treatment areas, which is statistically significant and represents more than doubling, relative to the control mean of Rs. 2,000.",
+          "page_or_section": "Section 4.2, Table 3B"
+        },
+        {
+          "outcome": "Monthly business profit across all households, first endline",
+          "result": "Rs. 354 per month higher, about a 50% increase on the comparison mean but not statistically significant",
+          "interval_or_se": null,
+          "quote": "The point estimate, at Rs. 354 per month, corresponds to a roughly 50% increase relative to the profits received by the average comparison household.",
+          "page_or_section": "Section 4.2, Table 3, Panel A"
+        },
+        {
+          "outcome": "Total consumption per adult equivalent, first endline",
+          "result": "No significant change; the estimate is close to zero",
+          "interval_or_se": "90% CI -51 to 71 rupees per month",
+          "quote": "The 90% CIs are (-51, 71) for total consumption and (-59, 46) for non-durable consumption.",
+          "page_or_section": "Section 4.4, footnote 20"
+        },
+        {
+          "outcome": "Spending on temptation goods per capita, first endline",
+          "result": "About Rs. 9 per month lower in treated areas",
+          "interval_or_se": null,
+          "quote": "Spending on temptation goods is reduced by about Rs. 9 per capita per month (column 7).",
+          "page_or_section": "Section 4.4, Table 6"
+        },
+        {
+          "outcome": "Index of 16 social outcomes including women's decision-making, first endline",
+          "result": "No effect; point estimate .007 standard deviations",
+          "interval_or_se": "SE 0.023",
+          "quote": "Column 7 shows that there is no effect on the index of social outcomes (point estimate .007 standard deviations)",
+          "page_or_section": "Section 4.5, Table 7"
+        },
+        {
+          "outcome": "Business assets and profits after three years, second endline",
+          "result": "Treated-area businesses had significantly more assets and larger profits above the 85th percentile; no difference in average consumption",
+          "interval_or_se": null,
+          "quote": "businesses in the treatment groups have significantly more assets, and business profits are now larger for businesses above the 85th percentile of profitability",
+          "page_or_section": "Introduction"
+        }
+      ],
+      "caveats": [
+        "Take-up was low and the gap in borrowing between treatment and control areas was only 8.4 percentage points, so the estimates reflect marginal borrowers and have limited power.",
+        "By the second endline, control areas also had microcredit, so the later comparison is between longer and shorter exposure rather than access against none.",
+        "The lender is for-profit, offers no training, and worked in neighbourhoods it was undecided about, in a period of fast economic growth.",
+        "Figures come from the March 2014 working paper, which updates and supersedes the 2010 version; it is an author-hosted copy of the paper later published in AEJ: Applied Economics 7(1)."
+      ],
+      "sources": [
+        {
+          "citation": "Banerjee, A., Duflo, E., Glennerster, R. and Kinnan, C. (2015). The miracle of microfinance? Evidence from a randomized evaluation. American Economic Journal: Applied Economics 7(1), 22-53. Version read: author-hosted working paper dated March 2014.",
+          "url": "https://economics.mit.edu/sites/default/files/publications/spandana_Mar14_final.pdf",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "title": "India's midday meal programme and children's test scores",
       "area": "Education",
       "geography": {
@@ -611,6 +1454,125 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "odisha-improved-cookstoves",
+      "title": "Improved cookstoves in rural Odisha",
+      "area": "Environment and climate",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Odisha"
+        ]
+      },
+      "period": "Stoves built from September 2006 to April 2010, with households followed for four years after the first offers",
+      "intervention": "Gram Vikas, an NGO, offered subsidised improved mud stoves with a chimney and two pot holes (the ARTI design, about US$12.50 per stove) to households chosen by public lottery in each village. Stove construction came with training on use and maintenance and a paid village promoter.",
+      "verdict": "did-not-work",
+      "verdict_basis": "The stoves aimed to cut smoke exposure and improve health. Exhaled carbon monoxide among primary cooks fell by 3.1 percent of the control mean over the four years, which is not statistically significant. The only significant fall was 0.53 ppm (7.5 percent) in year 1, and it was gone by year 2. A standardised index of health outcomes moved by 0.008 standard deviations for primary cooks (standard error 0.014), and lung function, birth weight and illness showed no gains. Wood use and fuel costs did not fall, and repairs rose by 2.431 per year.",
+      "design": "rct",
+      "design_detail": "Within each village a public lottery decided the order in which households received stoves, in three waves. Households offered a stove in the first two waves are compared with households still waiting. Standard errors are clustered at the household level and effects are estimated by months since stove construction.",
+      "sample": "2,575 households in 44 villages in the western and southern districts of Odisha (then Orissa), followed for four years. About 94 percent of households were found in the first two main surveys and about 81 percent in the last.",
+      "effects": [
+        {
+          "outcome": "Meals cooked in a week on a good-condition, low-polluting stove (offered versus not offered)",
+          "result": "The extra meals fell from 3.472 in year 1 to 1.758 by year 3.",
+          "interval_or_se": "Standard error 0.229 in year 1 and 0.287 in year 3 (Table 3, column 4)",
+          "quote": "This fell from 3.472 in Year 1 to 1.758 by Year 3.",
+          "page_or_section": "Section IV.A, Table 3 column 4"
+        },
+        {
+          "outcome": "Households with an improved stove installed",
+          "result": "Households offered a stove were 62 percentage points more likely to have the improved stove than the control group.",
+          "interval_or_se": "Standard error 0.011 (Table 3, column 1)",
+          "quote": "the treatment group was 62 percentage points more likely to have a GV stove than the control group",
+          "page_or_section": "Section IV.A, Table 3 column 1"
+        },
+        {
+          "outcome": "Improved stoves in good condition",
+          "result": "The offer raised the share of improved stoves in good condition by 36 percentage points over the whole period.",
+          "interval_or_se": "Standard error 0.011 (Table 3, column 3)",
+          "quote": "the treatment effect on the proportion of GV improved stoves in good condition is 36 percentage points over the entire period",
+          "page_or_section": "Section IV.A, Table 3 column 3"
+        },
+        {
+          "outcome": "Exhaled carbon monoxide of primary cooks, four-year average",
+          "result": "Carbon monoxide fell by 3.1 percent of the control mean, which is not statistically significant.",
+          "interval_or_se": "Coefficient -0.230 ppm, standard error 0.196; control mean 7.128 ppm (Table 4, column 1)",
+          "quote": "In terms of magnitude, it is small, being 3.1 percent of the mean and 3.6 percent of a standard deviation.",
+          "page_or_section": "Section IV.B, Table 4 column 1"
+        },
+        {
+          "outcome": "Exhaled carbon monoxide of primary cooks, year 1",
+          "result": "In year 1 the reduction was 0.53 ppm, or 7.5 percent of the control mean, when stove use was at its highest.",
+          "interval_or_se": "Coefficient -0.534 ppm, standard error 0.281, significant at the 10 percent level only (Table 4, panel B)",
+          "quote": "we find a 0.53 ppm reduction (7.5 percent of the control group’s mean) in the CO concentration during Year 1 for primary cooks",
+          "page_or_section": "Section IV.B, Table 4 panel B"
+        },
+        {
+          "outcome": "Exhaled carbon monoxide of primary cooks, years 2 to 4",
+          "result": "The effect fell to 0.173 ppm by the second year, was no longer significant, and was positive and insignificant in years 3 and 4.",
+          "interval_or_se": "Year 2 standard error 0.489 (Table 4, panel B)",
+          "quote": "the treatment effect for primary cooks falls to −0.173 ppm by the second year of stove ownership and is no longer significant, and is positive and insignificant by Years 3 and 4",
+          "page_or_section": "Section IV.B, Table 4 panel B"
+        },
+        {
+          "outcome": "Exhaled carbon monoxide of children",
+          "result": "Carbon monoxide among children fell slightly, which is not statistically significant.",
+          "interval_or_se": "Coefficient -0.120 ppm, standard error 0.181; control mean 5.460 ppm (Table 4, column 2)",
+          "quote": "For children, the overall effect is also negative, but statistically insignificant",
+          "page_or_section": "Section IV.B, Table 4 column 2"
+        },
+        {
+          "outcome": "Lung function of women who cook regularly (spirometry)",
+          "result": "No difference in lung function between treatment and control women.",
+          "interval_or_se": null,
+          "quote": "no difference in lung functioning (as measured by spirometry tests) between women who regularly cook in the treatment and control groups",
+          "page_or_section": "Introduction; Section IV.C, Table 6A"
+        },
+        {
+          "outcome": "Standardised index of health outcomes",
+          "result": "The index changed by a 0.008 standard deviation fall for primary cooks and a 0.006 rise for children, neither significant.",
+          "interval_or_se": "Standard error 0.014 for primary cooks and 0.011 for children (Table 6B, panel A)",
+          "quote": "Treat −0.008 0.006",
+          "page_or_section": "Section IV.C, Table 6B panel A"
+        },
+        {
+          "outcome": "Wood used at the last meal (kg)",
+          "result": "Wood use did not change: the estimate is 0.046 kg.",
+          "interval_or_se": "Standard error 0.123; control mean 3.373 kg (Table 7, column 1)",
+          "quote": "Treat 0.046 9.482 3.410 2.431*** 29.387**",
+          "page_or_section": "Section IV.D, Table 7 column 1"
+        },
+        {
+          "outcome": "Fuel costs in the last 30 days (rupees)",
+          "result": "Reported fuel spending rose by 9.482 rupees, which is not statistically significant.",
+          "interval_or_se": "Standard error 6.697; control mean 333 rupees (Table 7, column 2)",
+          "quote": "Treat 0.046 9.482 3.410 2.431*** 29.387**",
+          "page_or_section": "Section IV.D, Table 7 column 2"
+        },
+        {
+          "outcome": "Repairs made to the stove in the last year",
+          "result": "Treatment households made 2.431 more repairs per year.",
+          "interval_or_se": "Standard error 0.506, significant at the 1 percent level; control mean 5.430 (Table 7, column 4)",
+          "quote": "Treat 0.046 9.482 3.410 2.431*** 29.387**",
+          "page_or_section": "Section IV.D, Table 7 column 4"
+        }
+      ],
+      "caveats": [
+        "Smoke exposure is measured by carbon monoxide in exhaled breath, a proxy for fine particles, not by direct measurement of fine particles.",
+        "The stove is at the lower-cost end of improved designs, and the authors note that stove designs have improved since the study began.",
+        "The programme was run by a well-regarded NGO with training and a village promoter, so the authors describe it as a better-than-typical rollout.",
+        "The finding concerns stoves that households used irregularly and maintained poorly. It does not show what a stove that is well used and maintained would do.",
+        "Cited from the published article as hosted by J-PAL."
+      ],
+      "sources": [
+        {
+          "citation": "Hanna, R., Duflo, E. and Greenstone, M. (2016). Up in Smoke: The Influence of Household Behavior on the Long-Run Impact of Improved Cooking Stoves. American Economic Journal: Economic Policy 8(1): 80-114. Published version, as hosted by J-PAL.",
+          "url": "https://www.povertyactionlab.org/sites/default/files/research-paper/52%20Up%20in%20Smoke%20AEJ2016.pdf",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "id": "pmgsy-rural-roads",
       "title": "Rural roads under the Pradhan Mantri Gram Sadak Yojana",
       "area": "Water, sanitation and infrastructure",
@@ -679,6 +1641,138 @@
           "citation": "Asher and Novosad (2020), AER 110(3), publisher abstract page (DOI 10.1257/aer.20180268)",
           "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20180268",
           "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "rajasthan-police-reform",
+      "title": "Rajasthan police reform trials",
+      "area": "Justice and public safety",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Rajasthan"
+        ]
+      },
+      "period": "Baseline survey spring 2007, endline survey autumn 2008",
+      "intervention": "Rajasthan Police tested four reforms recommended by police reform panels in a randomised trial: a freeze on arbitrary transfers, rotation of duties with a weekly day off, a community observer at the station, and on-duty training. A fifth intervention added later was decoy visits, in which field officers posing as crime victims tried to register a case.",
+      "verdict": "mixed",
+      "verdict_basis": "Training raised crime-victim satisfaction with the police by 0.156 to 0.193 on a 0 to 1 scale (significant at 5%) and raised case registration and politeness in decoy visits only in the specification with police station fixed effects (0.233 and 0.196, significant at 5%). The transfer freeze raised victim satisfaction in one specification (0.281) and the lack-of-fear index (0.132 to 0.242). The community observer and the weekly off and duty rotation arms showed no gain, and the observers were present in only 10.29% of designated hours. Public perceptions of corruption did not move with training (0.01 and 0.016).",
+      "design": "rct",
+      "design_detail": "Police stations were randomly assigned, stratified by district, 2005 case load and urban or rural location, to combinations of the reforms. Within stations the share of staff trained was randomised at 0, 25, 50, 75 or 100 percent, and 12 pure control stations were kept outside the study to check for Hawthorne effects. The order of decoy visits was randomised. Outcomes come from a household victimisation survey, a public opinion survey and the decoy visits, analysed with endline-only regressions and with police station fixed effects, standard errors clustered by station.",
+      "sample": "162 police stations in 11 districts, over 20% of the state's stations, serving almost 8 million people. Table 6 uses 269 victim reports in the endline-only specification and 571 with station fixed effects; the decoy regressions use 788 visits.",
+      "effects": [
+        {
+          "outcome": "Crime victim satisfied with police handling of case, per move from no staff trained to all staff trained",
+          "result": "+0.156 (endline only), +0.193 and +0.131 (police station fixed effects)",
+          "interval_or_se": "SE 0.0767, 0.0843 and 0.0763; control mean 0.246 (endline) and 0.299 (station fixed effects)",
+          "quote": "Percentage staff 0.156** 0.193** 0.131*",
+          "page_or_section": "Table 6"
+        },
+        {
+          "outcome": "Decoy's case registered by police, per move from no staff trained to all staff trained",
+          "result": "+0.107 and +0.108 (not significant), +0.233 with police station fixed effects (significant at 5%)",
+          "interval_or_se": "SE 0.0829, 0.0837 and 0.116; control mean at first decoy visit 0.480",
+          "quote": "Percentage staff 0.107 0.108 0.233** 0.105* 0.101* 0.196**",
+          "page_or_section": "Table 5, columns 1 to 3"
+        },
+        {
+          "outcome": "Police very polite to decoy, per move from no staff trained to all staff trained",
+          "result": "+0.105 and +0.101 (10% level), +0.196 with police station fixed effects (5% level)",
+          "interval_or_se": "SE 0.0543, 0.0539 and 0.0869; control mean 0.200",
+          "quote": "Percentage staff 0.107 0.108 0.233** 0.105* 0.101* 0.196**",
+          "page_or_section": "Table 5, columns 4 to 6"
+        },
+        {
+          "outcome": "Decoy's case registered, per previous decoy visit to the station (fifth intervention, run by the research team)",
+          "result": "+0.174, +0.173 and +0.165 per previous decoy visit",
+          "interval_or_se": "SE 0.0577, 0.0579 and 0.0761",
+          "quote": "Number of decoy 0.174*** 0.173*** 0.165** 0.0700* 0.0746** 0.102**",
+          "page_or_section": "Table 5, columns 1 to 3"
+        },
+        {
+          "outcome": "Share of police staff transferred, transfer freeze stations against control",
+          "result": "21.1% of staff transferred in freeze stations against 32.8% in control stations, a gap of 11.7 percentage points",
+          "interval_or_se": "SE 3.59 percentage points, clustered by station",
+          "quote": "All Ranks 21.1% 32.8% 11.7%***",
+          "page_or_section": "Table 3"
+        },
+        {
+          "outcome": "Crime victim satisfied with police handling of case, transfer freeze",
+          "result": "+0.144 (endline only), +0.281 and +0.243 (police station fixed effects)",
+          "interval_or_se": "SE 0.0872, 0.123 and 0.104; the first is not significant, the other two are significant at 5%",
+          "quote": "No transfer 0.144 0.281** 0.243**",
+          "page_or_section": "Table 6"
+        },
+        {
+          "outcome": "Public perception, lack of fear of police index, transfer freeze",
+          "result": "+0.132 (endline) and +0.242 (police station fixed effects), in standardised effect size",
+          "interval_or_se": "SE 0.06 and 0.10",
+          "quote": "No transfer 0.132** (.06) 0.242** (.10)",
+          "page_or_section": "Table 9, panel C"
+        },
+        {
+          "outcome": "Community observer present at station during designated hours",
+          "result": "10.29% of the designated hours",
+          "interval_or_se": null,
+          "quote": "observers were present only 10.29% of the time during designated hours",
+          "page_or_section": "Section 3.4, community observers"
+        },
+        {
+          "outcome": "Crime victim satisfied with police handling of case, community observer added",
+          "result": "+0.225 (endline only), -0.279 and -0.301 (police station fixed effects)",
+          "interval_or_se": "SE 0.116, 0.157 and 0.155; all three significant at the 10% level",
+          "quote": "Community observer 0.225* -0.279* -0.301*",
+          "page_or_section": "Table 6"
+        },
+        {
+          "outcome": "Days since a constable's last day off, weekly off stations against control, by survey round",
+          "result": "Gap of 8 days in round 1, narrowing to -2 days in round 5",
+          "interval_or_se": "Gaps by round: 8, 11, 3, 5 and -2 days; the paper says the difference disappeared by round five",
+          "quote": "Difference: 8 11 3 5 -2",
+          "page_or_section": "Table 4, panel A"
+        },
+        {
+          "outcome": "Crime victim satisfied with police handling of case, duty rotation and weekly off",
+          "result": "-0.0614, -0.0770 and -0.0886 (none significant)",
+          "interval_or_se": "SE 0.0959, 0.171 and 0.164",
+          "quote": "Duty rotation, -0.0614 -0.0770 -0.0886",
+          "page_or_section": "Table 6"
+        },
+        {
+          "outcome": "Public perception, lack of fear of police index, weekly off",
+          "result": "-0.175 (endline) and -0.216 (police station fixed effects), in standardised effect size",
+          "interval_or_se": "SE 0.05 and 0.07",
+          "quote": "Weekly off -0.175*** (.05) -0.216*** (.07)",
+          "page_or_section": "Table 9, panel C"
+        },
+        {
+          "outcome": "Public perception, reducing police corruption index, per move from no staff trained to all staff trained",
+          "result": "+0.01 (endline) and +0.016 (police station fixed effects), neither significant",
+          "interval_or_se": "SE 0.05 and 0.07",
+          "quote": "Percentage staff trained 0.01 (.05) 0.016 (.07)",
+          "page_or_section": "Table 9, panel B"
+        }
+      ],
+      "caveats": [
+        "The text of the paper puts the training effect on victim satisfaction at 15 to 29 percentage points, while the table coefficients above are 13 to 19 points.",
+        "Victim satisfaction rests on a few hundred crimes that victims reported to the police, and the paper says the survey is poorly suited to measuring the decoy programme.",
+        "Several arms were poorly implemented, so their null results describe the reform as carried out and not the reform as designed.",
+        "The decoy visits were run by the research team and are a fifth intervention added after field experience, not one of the four reforms the police proposed.",
+        "The paper also reports a second experiment on drunk-driving checkpoints, which is not covered here.",
+        "The figures and quotes come from the NBER working paper version (No. 17912, revised November 2014); the journal article may differ in detail."
+      ],
+      "sources": [
+        {
+          "citation": "Banerjee, A., Chattopadhyay, R., Duflo, E., Keniston, D. and Singh, N. (2021). Improving Police Performance in Rajasthan, India: Experimental Evidence on Incentives, Managerial Autonomy, and Training. American Economic Journal: Economic Policy 13(1): 36-66.",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20190664",
+          "kind": "journal"
+        },
+        {
+          "citation": "Banerjee, A., Chattopadhyay, R., Duflo, E., Keniston, D. and Singh, N. (2014). Improving Police Performance in Rajasthan, India: Experimental Evidence on Incentives, Managerial Autonomy and Training. NBER Working Paper 17912, revised November 2014 (version used for the figures above).",
+          "url": "https://www.nber.org/system/files/working_papers/w17912/w17912.pdf",
+          "kind": "working-paper"
         }
       ],
       "verified_on": "2026-10-27"
@@ -1006,6 +2100,123 @@
         {
           "citation": "Chattopadhyay and Duflo (2001), Women as Policy Makers: Evidence from a India-Wide Randomized Policy Experiment, NBER Working Paper 8615 (West Bengal only, 165 councils)",
           "url": "https://www.nber.org/papers/w8615",
+          "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "women-police-stations",
+      "title": "Women police stations and reported crimes against women",
+      "area": "Justice and public safety",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "2005 to 2013 (city panel); 1988 to 2013 (state panel)",
+      "intervention": "Several Indian states created women police stations, staffed by female officers who handle crimes against women and usually led by a woman. Stations opened at different dates across cities and states.",
+      "verdict": "mixed",
+      "verdict_basis": "Reported crimes against women rose by 29.3 percent after a women police station opened in a city, mostly domestic violence (33.5 percent). The authors conclude this reflects more reporting and not more violence: murders linked to love affairs (-0.000), survey-reported intimate-partner violence (-0.042) and reports of non-gendered crime did not rise. Arrest rates for crimes against women overall (-0.078) and for rape (-0.051) and the chargesheet rate (-0.019) did not change, though the arrest rate for female kidnapping rose (0.145).",
+      "design": "quasi-experimental",
+      "design_detail": "Difference-in-differences exploiting the staggered opening of women police stations. The city analysis uses city and year fixed effects, controls, and event-study plots to check for pre-trends. The state analysis uses state legislation on the stations, and survey outcomes use a triple-difference by treated state, post period and urban residence. Standard errors are clustered by city or state.",
+      "sample": "City panel of 76 cities, 63 of them treated, for 2005 to 2013 (577 city-years in the main table); state panel of 19 states, 16 of them treated, for 1988 to 2013; Demographic and Health Survey waves of 2005-2006 and 2015-2016 (88,829 women in the violence regression).",
+      "effects": [
+        {
+          "outcome": "Reported crimes against women, city rate per 100,000",
+          "result": "29.3 percent increase after a women police station opened",
+          "interval_or_se": "Log-rate coefficient 0.257, SE 0.093, with city linear trends",
+          "quote": "The specification in column (5) shows an increase of 29.3 percent.",
+          "page_or_section": "Section 5.2 and Table 2, column 5"
+        },
+        {
+          "outcome": "Reported domestic violence, city rate",
+          "result": "33.5 percent increase",
+          "interval_or_se": "Log-rate coefficient 0.289, SE 0.061",
+          "quote": "The overall result is driven by domestic violence, which records a 33.5 percent increase.",
+          "page_or_section": "Section 5.2, Table 3"
+        },
+        {
+          "outcome": "Reported crimes against women, state rate",
+          "result": "23.6 percent increase after state enactment of the policy",
+          "interval_or_se": "Log-rate coefficient 0.212, SE 0.078",
+          "quote": "enactment of WPS policy leads to an increase in reported GBV of 23.6 percent.",
+          "page_or_section": "Section 6, Table 5"
+        },
+        {
+          "outcome": "Reported rape, city rate",
+          "result": "No significant change: log coefficients 0.125 and 0.078",
+          "interval_or_se": "SE 0.115 and 0.140",
+          "quote": "WPS 0.554*** 0.289*** 0.325 -0.000 0.545*** 0.493 0.898 -0.039 0.125 0.078 0.579*** 0.283**",
+          "page_or_section": "Table 3"
+        },
+        {
+          "outcome": "Reported female kidnappings, city rate",
+          "result": "No significant change: log coefficients 0.325 and -0.000",
+          "interval_or_se": "SE 0.199 and 0.202",
+          "quote": "WPS 0.554*** 0.289*** 0.325 -0.000 0.545*** 0.493 0.898 -0.039 0.125 0.078 0.579*** 0.283**",
+          "page_or_section": "Table 3"
+        },
+        {
+          "outcome": "Reported molestation, city rate",
+          "result": "Log coefficient 0.545 without city trends (1% level) and 0.493 with them (not significant)",
+          "interval_or_se": "SE 0.112 and 0.311",
+          "quote": "WPS 0.554*** 0.289*** 0.325 -0.000 0.545*** 0.493 0.898 -0.039 0.125 0.078 0.579*** 0.283**",
+          "page_or_section": "Table 3"
+        },
+        {
+          "outcome": "Reported dowry deaths, city rate",
+          "result": "Log coefficient 0.579 (1% level) and 0.283 with city trends (5% level)",
+          "interval_or_se": "SE 0.152 and 0.139",
+          "quote": "WPS 0.554*** 0.289*** 0.325 -0.000 0.545*** 0.493 0.898 -0.039 0.125 0.078 0.579*** 0.283**",
+          "page_or_section": "Table 3"
+        },
+        {
+          "outcome": "Murders due to love affairs, state rate (proxy for incidence of violence)",
+          "result": "No change: -0.000 and -0.001",
+          "interval_or_se": "SE 0.000 and 0.001",
+          "quote": "WPS 0.159* 0.212** 0.008 0.008 0.049 -0.008 -0.000 -0.001",
+          "page_or_section": "Table 5, columns 7 and 8"
+        },
+        {
+          "outcome": "Survey-reported intimate-partner violence, urban women in treated states after enactment",
+          "result": "No change: -0.041 to -0.043 in three specifications and 0.042 in the fourth",
+          "interval_or_se": "SE 0.121, 0.113, 0.103 and 0.143",
+          "quote": "Treatment× Post × Urban -0.041 -0.043 -0.042 0.042",
+          "page_or_section": "Table 6"
+        },
+        {
+          "outcome": "Willingness of women who suffered domestic violence to seek support, index from 0 to 7",
+          "result": "+0.074, +0.069, +0.069 and +0.112 after enactment in urban areas",
+          "interval_or_se": "SE 0.022, 0.020, 0.020 and 0.023",
+          "quote": "Treatment× Post × Urban 0.074*** 0.069*** 0.069*** 0.112***",
+          "page_or_section": "Table 8"
+        },
+        {
+          "outcome": "Reports of non-gendered violence, city rate",
+          "result": "Log coefficients 0.230, 0.227, 0.308, 0.051 and 0.109, none significant at the 5 percent level",
+          "interval_or_se": "SE 0.179, 0.168, 0.165, 0.071 and 0.078",
+          "quote": "WPS 0.230 0.227 0.308* 0.051 0.109",
+          "page_or_section": "Table 4, panel A"
+        },
+        {
+          "outcome": "Arrest rate, crimes against women overall and female kidnappings, state level",
+          "result": "-0.078 overall (not significant) and +0.145 for female kidnappings (5% level)",
+          "interval_or_se": "SE 0.139 and 0.062; rape arrest rate -0.051 (SE 0.077), chargesheet rate -0.019 (SE 0.038)",
+          "quote": "WPS -0.078 0.145** -0.051 -0.019",
+          "page_or_section": "Table 9, columns 1 and 2"
+        }
+      ],
+      "caveats": [
+        "A rise in recorded crime can reflect more reporting, more police capacity or more crime. The authors conclude the evidence points to more reporting, using murders, a household survey and reports to general police stations as checks on incidence.",
+        "Opening dates were not randomly assigned. The authors argue timing was idiosyncratic and test it with placement regressions and event-study plots; staggered difference-in-differences estimates can be biased, and the authors report that 31.1 percent of the weights in the city sample are negative.",
+        "Survey and arrest outcomes are available only at state level and rest on two Demographic and Health Survey waves a decade apart.",
+        "The station-level check on reports uses Rajasthan only, for January 2006 to December 2007.",
+        "The figures and quotes come from the IZA Discussion Paper 14250 version of April 2021; no journal version was found."
+      ],
+      "sources": [
+        {
+          "citation": "Amaral, S., Bhalotra, S. and Prakash, N. (2021). Gender, Crime and Punishment: Evidence from Women Police Stations in India. IZA Discussion Paper No. 14250 (also CESifo Working Paper 9002).",
+          "url": "https://docs.iza.org/dp14250.pdf",
           "kind": "working-paper"
         }
       ],

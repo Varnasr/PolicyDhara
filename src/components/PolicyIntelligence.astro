@@ -25,7 +25,7 @@ const hasMomentumHistory = totalPrior > 0 && totalPrior >= 0.05 * totalRecent;
 
 <div class="intel-section">
   <div class="intel-header">
-    <h3>Policy Intelligence Brief</h3>
+    <h3>Policy intelligence brief</h3>
     <span class="intel-timestamp">Generated {new Date(brief.generatedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
   </div>
 
@@ -42,7 +42,7 @@ const hasMomentumHistory = totalPrior > 0 && totalPrior >= 0.05 * totalRecent;
   <div class="intel-grid">
     {/* Sector Momentum */}
     <div class="intel-card">
-      <h4>Sector Momentum</h4>
+      <h4>Sector momentum</h4>
       <p class="intel-card-sub">Activity velocity: last 30 days vs prior 30 days</p>
       {hasMomentumHistory ? (
         <div class="momentum-list">
@@ -72,7 +72,7 @@ const hasMomentumHistory = totalPrior > 0 && totalPrior >= 0.05 * totalRecent;
 
     {/* Legislative Pipeline */}
     <div class="intel-card">
-      <h4>Legislative Pipeline (90 days)</h4>
+      <h4>Legislative pipeline (90 days)</h4>
       <p class="intel-card-sub">{brief.pipeline.interpretation}</p>
       <div class="pipeline-stats">
         <div class="pipeline-stat">
@@ -100,7 +100,7 @@ const hasMomentumHistory = totalPrior > 0 && totalPrior >= 0.05 * totalRecent;
 
     {/* Policy Concentration */}
     <div class="intel-card">
-      <h4>Policy Concentration</h4>
+      <h4>Policy concentration</h4>
       <p class="intel-card-sub">{brief.concentration.interpretation}</p>
       <div class="concentration-meter">
         <div class="conc-track">
@@ -119,7 +119,7 @@ const hasMomentumHistory = totalPrior > 0 && totalPrior >= 0.05 * totalRecent;
 
     {/* Source Diversity */}
     <div class="intel-card">
-      <h4>Source Diversity</h4>
+      <h4>Source diversity</h4>
       <p class="intel-card-sub">{brief.sourceDiversity.interpretation}</p>
       <div class="source-stats">
         <div class="source-stat-row">

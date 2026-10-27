@@ -77,7 +77,7 @@ export function renderPolicyHtml(p: PolicyItem): string {
         <a href="${SITE_URL}/rss.xml" style="color:#16a34a;text-decoration:none;font-weight:500;">RSS</a>
       </div>
       <div style="margin-top:10px;font-size:11px;color:#a0a09e;">
-        PolicyDhara by <a href="https://impactmojo.in" style="color:#a0a09e;">ImpactMojo</a> — Tracking 300+ official sources across India.
+        PolicyDhara by <a href="https://impactmojo.in" style="color:#a0a09e;">ImpactMojo</a>. Tracking 300+ official sources across India.
       </div>
     </td></tr>
   </table>

@@ -14,7 +14,7 @@ export function GET(context: APIContext) {
 
   return rss({
     title: 'PolicyDhara',
-    description: 'Auto-updating tracker of Indian development policies across 22 sectors — by ImpactMojo',
+    description: 'Auto-updating tracker of Indian development policies across 22 sectors, by ImpactMojo',
     site: siteRoot,
     items: policies.slice(0, 100).map(p => {
       // pubDate prefers issuance date, falls back to ingestion (first_seen),

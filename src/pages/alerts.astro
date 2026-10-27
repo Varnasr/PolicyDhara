@@ -26,18 +26,18 @@ const policyIndex = policies.slice(0, 50).map(p => ({
   type: p.type,
 }));
 ---
-<Base title="Policy Alerts" description="Subscribe to sector-specific policy alerts and watchlists. Get notified when new policies are published in the sectors you care about.">
+<Base title="Policy Alerts" description="Subscribe to policy alerts for the sectors you choose. You are notified when a new policy is published in them.">
   <div class="alerts-page">
     <header class="alerts-header">
-      <h2 class="page-title">Policy Alerts</h2>
-      <p class="page-subtitle">Watch the sectors you care about. Get filtered policy updates delivered to your inbox.</p>
+      <h2 class="page-title">Policy alerts</h2>
+      <p class="page-subtitle">Choose the sectors to watch and receive filtered policy updates by email.</p>
     </header>
 
     <div class="alerts-grid">
       <!-- Left column: preferences -->
       <section class="alerts-prefs card">
-        <h3 class="alerts-section-title">Select Sectors to Watch</h3>
-        <p class="alerts-hint">Choose sectors you want to track. Your preferences are saved locally.</p>
+        <h3 class="alerts-section-title">Select sectors to watch</h3>
+        <p class="alerts-hint">Choose the sectors you want to track. Your preferences are saved in this browser.</p>
 
         <div class="sector-checkboxes" id="sector-checkboxes">
           {sectors.map(s => (
@@ -52,23 +52,23 @@ const policyIndex = policies.slice(0, 50).map(p => ({
         </div>
 
         <div class="alerts-actions">
-          <button class="btn-select-all" id="btn-select-all" type="button">Select All</button>
-          <button class="btn-clear-all" id="btn-clear-all" type="button">Clear All</button>
+          <button class="btn-select-all" id="btn-select-all" type="button">Select all</button>
+          <button class="btn-clear-all" id="btn-clear-all" type="button">Clear all</button>
         </div>
 
         <div class="keyword-section">
-          <h3 class="alerts-section-title">Keyword Filters</h3>
-          <p class="alerts-hint">Comma-separated keywords to further narrow your alerts.</p>
+          <h3 class="alerts-section-title">Keyword filters</h3>
+          <p class="alerts-hint">Enter keywords separated by commas to narrow your alerts.</p>
           <input type="text" id="keyword-input" class="keyword-input" placeholder="e.g. budget, digital, education, NITI" />
         </div>
 
-        <button class="btn-save-prefs" id="btn-save-prefs" type="button">Save Preferences</button>
+        <button class="btn-save-prefs" id="btn-save-prefs" type="button">Save preferences</button>
         <div class="save-status" id="save-status"></div>
       </section>
 
       <!-- Right column: preview -->
       <section class="alerts-preview card">
-        <h3 class="alerts-section-title">Preview: Your Filtered Feed</h3>
+        <h3 class="alerts-section-title">Preview of your filtered feed</h3>
         <p class="alerts-hint" id="preview-hint">Select sectors above to see matching policies.</p>
 
         <div class="preview-list" id="preview-list">
@@ -76,7 +76,7 @@ const policyIndex = policies.slice(0, 50).map(p => ({
         </div>
 
         <div class="alerts-newsletter">
-          <h3 class="alerts-section-title">Subscribe for Email Alerts</h3>
+          <h3 class="alerts-section-title">Subscribe for email alerts</h3>
           <p class="alerts-hint">Get daily digests with policies from your watched sectors.</p>
           <NewsletterBar />
         </div>
@@ -145,7 +145,7 @@ const policyIndex = policies.slice(0, 50).map(p => ({
           updatedAt: new Date().toISOString(),
         };
         localStorage.setItem(STORAGE_KEY, JSON.stringify(prefs));
-        saveStatus.textContent = 'Preferences saved!';
+        saveStatus.textContent = 'Preferences saved.';
         saveStatus.className = 'save-status visible';
         setTimeout(() => { saveStatus.className = 'save-status'; }, 2000);
       }
