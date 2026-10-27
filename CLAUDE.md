@@ -148,6 +148,10 @@ never caps instruments or process items. Only 34 of 353 sources contribute any
 record; 254 return nothing in CI, so most of the gap is scrapers that need work
 site by site. HT, NDTV, Deccan Chronicle and India Today were removed from
 `feeds.json` on the owner's instruction; LiveLaw and Bar & Bench stay.
+`scrape_irdai` in `scripts/fetch_scrape.py` reads IRDAI's circulars, notifications and
+press-release tables (dates are day-first; the listing's type is put into the
+description so the classifier sees it). The gazette (`egazette.gov.in` fails on its
+certificate chain), CCI, CERC and the other regulators still need a scraper each.
 
 ## Writing check
 

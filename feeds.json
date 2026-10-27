@@ -1676,18 +1676,47 @@
       ],
       "rss_url": "https://www.trai.gov.in/rss.xml"
     },
-    "irdai": {
-      "name": "Insurance Regulatory and Development Authority of India",
-      "short_name": "IRDAI",
-      "type": "scrape",
-      "url": "https://irdai.gov.in/",
-      "frequency": "Weekly",
-      "format": "HTML",
-      "reliability": "high",
-      "description": "Insurance sector regulations, guidelines, and circulars",
-      "covers_sectors": [
-        "Finance & Economy"
-      ]
+    "irdai_circulars": {
+        "name": "IRDAI Circulars",
+        "short_name": "IRDAI Circulars",
+        "type": "scrape",
+        "url": "https://irdai.gov.in/circulars",
+        "frequency": "Weekly",
+        "format": "HTML",
+        "reliability": "high",
+        "description": "Circulars issued to insurers and intermediaries",
+        "covers_sectors": [
+            "Finance & Economy"
+        ],
+        "authority": "regulator"
+    },
+    "irdai_notifications": {
+        "name": "IRDAI Notifications and Gazette Notifications",
+        "short_name": "IRDAI Notifications",
+        "type": "scrape",
+        "url": "https://irdai.gov.in/notifications",
+        "frequency": "Weekly",
+        "format": "HTML",
+        "reliability": "high",
+        "description": "Notifications and gazette notifications of regulations",
+        "covers_sectors": [
+            "Finance & Economy"
+        ],
+        "authority": "regulator"
+    },
+    "irdai_press": {
+        "name": "IRDAI Press Releases",
+        "short_name": "IRDAI Press",
+        "type": "scrape",
+        "url": "https://irdai.gov.in/press-releases",
+        "frequency": "Weekly",
+        "format": "HTML",
+        "reliability": "high",
+        "description": "Press releases and consultation notices",
+        "covers_sectors": [
+            "Finance & Economy"
+        ],
+        "authority": "regulator"
     },
     "cerc": {
       "name": "Central Electricity Regulatory Commission",
