@@ -351,6 +351,55 @@ def scrape_dated_links(config: dict) -> list[dict]:
     return items
 
 
+SEBI_LISTING_URL = "https://www.sebi.gov.in/sebiweb/ajax/home/getnewslistinfo.jsp"
+_SEBI_LABELS = {"3": "Regulations", "6": "Master circular", "7": "Circular"}
+
+
+def scrape_sebi_listing(config: dict) -> list[dict]:
+    """SEBI's circulars, master circulars and regulations.
+
+    The listing pages are rendered by JavaScript from an AJAX endpoint that
+    answers only a request carrying the listing page as its Referer. The reply
+    is a plain Date/Title table, newest first; the first page (25 rows) is
+    read. `sebi_ssid` in the source config picks the section.
+    """
+    ssid = str(config.get("sebi_ssid", "7"))
+    referer = ("https://www.sebi.gov.in/sebiweb/home/HomeAction.do"
+               f"?doListing=yes&sid=1&ssid={ssid}&smid=0")
+    data = {
+        "nextValue": "1", "next": "n", "search": "", "fromDate": "", "toDate": "",
+        "fromYear": "", "toYear": "", "deptId": "-1", "sid": "1", "ssid": ssid,
+        "smid": "0", "ssidhidden": ssid, "intmid": "-1", "sText": "Legal",
+        "ssText": "x", "smText": "",
+    }
+    hdrs = dict(HEADERS, **{"X-Requested-With": "XMLHttpRequest", "Referer": referer})
+    try:
+        resp = requests.post(SEBI_LISTING_URL, data=data, headers=hdrs, timeout=TIMEOUT)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"  SEBI listing {ssid} failed: {e}")
+        return []
+    soup = BeautifulSoup(resp.content, "lxml")
+    label = _SEBI_LABELS.get(ssid, "")
+    items = []
+    for row in soup.select("table tr"):
+        cells = row.select("td")
+        link = row.select_one("a[href]")
+        if len(cells) < 2 or not link:
+            continue
+        date = _parse_listed_date(cells[0].get_text(" ", strip=True))
+        title = " ".join(cells[1].get_text(" ", strip=True).split())
+        if not date or len(title) < 15:
+            continue
+        items.append({
+            "title": title[:200],
+            "description": (f"{label}: {title}" if label else title)[:300],
+            "link": link.get("href", ""),
+            "date": date,
+        })
+    return items
+
+
 def scrape_niti_aayog(config: dict) -> list[dict]:
     """Scrape publications from NITI Aayog."""
     items = []
@@ -966,6 +1015,9 @@ SOURCE_SCRAPERS = {
     "cbdt": scrape_ministry,
     "dpiit": scrape_ministry,
     "ibbi": scrape_dated_table,
+    "sebi_regulations": scrape_sebi_listing,
+    "sebi_master_circulars": scrape_sebi_listing,
+    "sebi_circulars": scrape_sebi_listing,
     "gst_council": scrape_dated_links,
     # Additional ministries
     "mohfw": scrape_ministry,

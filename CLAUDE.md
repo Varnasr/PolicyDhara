@@ -165,6 +165,13 @@ readable date are skipped). Run against the other 183 undated scrape sources it 
 further table it could read, so each of those needs its own scraper. CERC's draft-regulation page carries no dates at all, so it is not scraped. The gazette (`egazette.gov.in` fails on its
 certificate chain), CCI, CERC and the other regulators still need a scraper each.
 
+**SEBI's circulars, master circulars and regulations** come from `scrape_sebi_listing`
+(`sebi_circulars`, `sebi_master_circulars`, `sebi_regulations`; `sebi_ssid` 7, 6, 3 in
+`feeds.json`). The page is built by JavaScript from an AJAX endpoint that answers only a
+request whose Referer is the listing page; without it the reply is "Unauthorized Activity Has
+Been Detected". The first 25 rows of each are read. SEBI's RSS carries almost only enforcement
+orders and the 30 newest items, which is why these were missing.
+
 **Orders about named people and firms are not kept.** SEBI's feed carries every recovery,
 release, prohibitory and adjudication order, some with the person's PAN, and the classifier
 read "order" in a regulator's title as a notification. `is_case_specific` in

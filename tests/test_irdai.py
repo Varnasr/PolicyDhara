@@ -73,3 +73,29 @@ def test_dated_links_keep_only_unambiguous_dated_documents(monkeypatch):
     items = scrape.scrape_dated_links({"url": "https://example.gov.in/"})
     assert [i["date"] for i in items] == ["2026-07-08"]   # tender, shared block, future and undated all skipped
     assert items[0]["link"] == "https://example.gov.in/w/press-1"
+
+
+SEBI = """
+<table><tr><th>Date</th><th>Title</th></tr>
+<tr><td>Jul 21, 2026</td><td>Operationalisation of freezing of holdings of promoters</td>
+<td><a href="https://www.sebi.gov.in/legal/circulars/jul-2026/x.html">x</a></td></tr>
+<tr><td>Jul 17, 2026</td><td>Title with no link at all in this row</td></tr>
+<tr><td>soon</td><td>Row with a date that cannot be read at all</td><td><a href="/y">y</a></td></tr>
+</table>
+"""
+
+
+def test_sebi_listing_posts_with_the_listing_page_as_referer(monkeypatch):
+    scrape = _load("fetch_scrape")
+    seen = {}
+
+    def fake_post(url, data=None, headers=None, timeout=None):
+        seen.update(data=data, headers=headers)
+        return SimpleNamespace(content=SEBI.encode(), raise_for_status=lambda: None)
+
+    monkeypatch.setattr(scrape.requests, "post", fake_post)
+    items = scrape.scrape_sebi_listing({"sebi_ssid": "7"})
+    assert "ssid=7" in seen["headers"]["Referer"]       # without it SEBI answers 'Unauthorized'
+    assert seen["data"]["ssid"] == "7"
+    assert [i["date"] for i in items] == ["2026-07-21"]
+    assert items[0]["description"].startswith("Circular:")
