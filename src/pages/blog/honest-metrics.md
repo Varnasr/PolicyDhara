@@ -7,7 +7,7 @@ pubDate: 2026-07-07
 
 # When your dashboard is lying back at you
 
-*July 2026. A note on how PolicyDhara found and fixed three silent bugs in its own metrics, and what we changed.*
+*July 2026. A note on how PolicyDhara found and fixed three silent bugs in its own metrics, and what we changed. The figures in this post are from July 2026 and are not updated.*
 
 ---
 

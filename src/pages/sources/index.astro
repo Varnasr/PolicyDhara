@@ -28,6 +28,17 @@ try {
   health = JSON.parse(raw);
 } catch {}
 
+// The date of the newest probe, shown so a reader can judge how current the counts are.
+const probeDates = Object.values(health)
+  .map(h => (h as { last_probed?: string }).last_probed)
+  .filter((d): d is string => Boolean(d))
+  .sort();
+const lastProbed = probeDates.length ? probeDates[probeDates.length - 1] : '';
+const probeAgeDays = lastProbed ? Math.floor((Date.now() - new Date(lastProbed + 'T00:00:00Z').getTime()) / 86400000) : 0;
+const lastProbedLabel = lastProbed
+  ? new Date(lastProbed + 'T00:00:00Z').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })
+  : '';
+
 type SourceRow = {
   id: string;
   name: string;
@@ -120,7 +131,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
           </span>
         ))}
         <span style="font-size: 0.75rem; color: var(--color-text-muted); align-self: center;">
-          These counts come from the weekly health probe. "Covered by PIB" means a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
+          These counts come from the weekly health probe.{lastProbed && ` The latest probe in this build ran on ${lastProbedLabel}${probeAgeDays > 14 ? `, ${probeAgeDays} days ago, so the counts may be out of date` : ''}.`} "Covered by PIB" means a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
         </span>
       </div>
     )}

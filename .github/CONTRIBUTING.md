@@ -18,9 +18,9 @@ Thank you for your interest in contributing to PolicyDhara. This project is an a
 
 1. Fork the repository on GitHub.
 2. Clone your fork locally.
-3. Create a new branch from `main` for your work.
+3. Create a new branch from `master` for your work.
 4. Make your changes, commit, and push to your fork.
-5. Open a pull request against the `main` branch of this repository.
+5. Open a pull request against the `master` branch of this repository.
 
 ## Development setup
 
@@ -43,7 +43,7 @@ cd PolicyDhara
 npm install
 
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r scripts/requirements.txt
 
 # Start the Astro development server
 npm run dev
@@ -52,11 +52,14 @@ npm run dev
 ### Running the data pipeline
 
 ```bash
-# Fetch and classify policy data
-python scripts/fetch_policies.py
+# Fetch and classify policy data from every source in feeds.json
+python3 scripts/fetch_all.py
 
-# Verify the output
-python scripts/validate_data.py
+# Run the tests, which also check the data
+pip install -e ".[dev]"
+python3 -m pytest tests -q
+python3 scripts/check_copy.py
+python3 scripts/check_evidence.py
 ```
 
 ## Types of contributions
@@ -72,10 +75,9 @@ python scripts/validate_data.py
 PolicyDhara fetches from every source listed in `feeds.json`. To add a new source:
 
 1. Identify the official URL and confirm it provides structured or scrapable policy data.
-2. Create a new fetcher in `/scripts/sources/` following the existing patterns.
-3. Add the source configuration to the sources manifest file.
+2. Add the source to `feeds.json` with its name, short name, type (`rss`, `api` or `scrape`) and URLs. Most sources need no new code. A source with a new page layout needs a fetcher in `scripts/` that follows `fetch_rss.py` and `fetch_scrape.py`.
 4. Include appropriate error handling, rate limiting, and retry logic.
-5. Write tests to verify the fetcher works correctly.
+5. Write tests for any new fetcher in `tests/`.
 6. Document the source in your pull request description.
 
 ### Sector expansions

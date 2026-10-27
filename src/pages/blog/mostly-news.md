@@ -7,7 +7,7 @@ pubDate: 2026-07-18
 
 # The policy tracker that was mostly news
 
-*July 2026. How a complaint about "too much news" led us to a fetch-architecture bug, and what the dataset looks like now.*
+*July 2026. How a complaint about "too much news" led us to a fetch-architecture bug, and what the dataset looked like then. The figures in this post are from July 2026 and are not updated; the [sources page](/sources/) and the home page show current counts.*
 
 ---
 
