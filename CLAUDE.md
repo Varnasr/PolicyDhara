@@ -155,7 +155,14 @@ sources contribute no record, because the generic scraper returns titles like "D
 "PDF (9.34 MB)" with no date (GST Council, NHRC, Delhi HC, Law Commission and others), and
 undated items sort last and are cut. The probe now reports "No dates" (`UNDATED`) for a
 source with no item that has a date and a 20-character title; the board changes at the next
-probe. CERC's draft-regulation page carries no dates at all, so it is not scraped. The gazette (`egazette.gov.in` fails on its
+probe. `scrape_dated_table` reads any listing table whose header names a date and a title column
+(IBBI, the Law Commission and Ladakh's orders now use it, and `scrape_dated_links` does the
+same for pages that list a link with its date beside it: PFRDA, CIC, the GST Council and the
+Shipping Ministry. It takes a link only when its list item holds exactly one date and one long
+link, skips tenders and recruitment, and drops future dates. Delhi High Court's judgment list
+is deliberately not ingested: it is individual bail and writ cases with party names, not policy; dates are day first and rows with no
+readable date are skipped). Run against the other 183 undated scrape sources it found no
+further table it could read, so each of those needs its own scraper. CERC's draft-regulation page carries no dates at all, so it is not scraped. The gazette (`egazette.gov.in` fails on its
 certificate chain), CCI, CERC and the other regulators still need a scraper each.
 
 ## Writing check
