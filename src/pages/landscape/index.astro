@@ -74,7 +74,7 @@ const maxCell = Math.max(...allCells, 1);
                     const color = TYPE_COLORS[t] || '#888';
                     return (
                       <td class={`matrix-cell ${count === 0 ? 'matrix-empty' : ''}`}
-                        style={count > 0 ? `background: ${color}${Math.round(intensity * 30).toString(16).padStart(2, '0')}; color: ${color};` : ''}>
+                        style={count > 0 ? `background: color-mix(in srgb, ${color} ${Math.round(Math.min(0.55, intensity * 0.5) * 100)}%, var(--color-bg-white)); color: var(--color-text);` : ''}>
                         {count > 0 ? count : '\u2014'}
                       </td>
                     );
@@ -122,7 +122,7 @@ const maxCell = Math.max(...allCells, 1);
                   const color = TYPE_COLORS[t] || '#888';
                   return (
                     <td class={`matrix-cell ${count === 0 ? 'matrix-empty' : ''}`}
-                      style={count > 0 ? `color: ${color};` : ''}>
+                      style={count > 0 ? `border-bottom: 3px solid ${color};` : ''}>
                       {count > 0 ? count : '\u2014'}
                     </td>
                   );

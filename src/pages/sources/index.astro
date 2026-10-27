@@ -48,11 +48,11 @@ type SourceRow = {
 // nothing (fixable selectors); SHELL = JS-rendered/empty (needs RSS/API);
 // DEAD = unreachable / HTTP error.
 const BUCKET_META: Record<string, { label: string; color: string; bg: string }> = {
-  WORKS:           { label: 'Working',       color: '#15803d', bg: '#f0fdf4' },
-  REDUNDANT:       { label: 'Covered by PIB', color: '#0e7490', bg: '#ecfeff' },
-  SELECTOR_BROKEN: { label: 'Selectors broken', color: '#b45309', bg: '#fffbeb' },
-  SHELL:           { label: 'JS shell',      color: '#7c3aed', bg: '#f5f3ff' },
-  DEAD:            { label: 'Dead',          color: '#dc2626', bg: '#fef2f2' },
+  WORKS:           { label: 'Working',       color: 'var(--ink-good)', bg: 'color-mix(in srgb, #16a34a 10%, var(--color-bg-white))' },
+  REDUNDANT:       { label: 'Covered by PIB', color: 'var(--ink-teal)', bg: 'color-mix(in srgb, #0e7490 10%, var(--color-bg-white))' },
+  SELECTOR_BROKEN: { label: 'Selectors broken', color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
+  SHELL:           { label: 'JS shell',      color: 'color-mix(in srgb, #7c3aed 45%, var(--color-text))', bg: 'color-mix(in srgb, #7c3aed 10%, var(--color-bg-white))' },
+  DEAD:            { label: 'Dead',          color: 'var(--ink-bad)', bg: 'color-mix(in srgb, #dc2626 10%, var(--color-bg-white))' },
 };
 
 // Build a row per configured source. source_counts is keyed by source_id
@@ -153,7 +153,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
             )}
 
             {r.coveredBy && (
-              <span style="font-size: 0.75rem; color: #0e7490;">
+              <span style="font-size: 0.75rem; color: var(--ink-teal);">
                 Releases collected via <code>{r.coveredBy}</code> (PIB), so no policy is lost.
               </span>
             )}

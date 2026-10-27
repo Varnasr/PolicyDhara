@@ -43,10 +43,10 @@ const SESSION_COLORS: Record<string, string> = {
 };
 
 const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
-  'Referred to JPC': { bg: 'var(--type-notification-bg)', text: 'var(--type-notification)' },
-  'Referred to Standing Committee': { bg: 'var(--type-notification-bg)', text: 'var(--type-notification)' },
+  'Referred to JPC': { bg: 'var(--type-notification-bg)', text: 'var(--ink-warn)' },
+  'Referred to Standing Committee': { bg: 'var(--type-notification-bg)', text: 'var(--ink-warn)' },
   'Pending in Lok Sabha': { bg: 'var(--color-bg-alt)', text: 'var(--color-text-muted)' },
-  'Passed in Lok Sabha': { bg: 'var(--type-scheme-bg)', text: 'var(--type-scheme)' },
+  'Passed in Lok Sabha': { bg: 'var(--type-scheme-bg)', text: 'var(--ink-good)' },
   'Enacted': { bg: 'var(--type-announcement-bg)', text: 'var(--type-announcement)' },
 };
 ---
@@ -305,7 +305,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
               <span class="hist-bills-count">{h.bills_passed === null ? 'Not given' : `${h.bills_passed} bills`}</span>
             </div>
             <div class="hist-prod">
-              <span class="hist-prod-num" style={`color: ${(h.avg_productivity ?? 0) >= 70 ? '#16a34a' : (h.avg_productivity ?? 0) >= 50 ? '#d97706' : '#dc2626'};`}>{notGiven(h.avg_productivity, '%')}</span>
+              <span class="hist-prod-num" style={`color: ${(h.avg_productivity ?? 0) >= 70 ? 'var(--ink-good)' : (h.avg_productivity ?? 0) >= 50 ? 'var(--ink-warn)' : 'var(--ink-bad)'};`}>{notGiven(h.avg_productivity, '%')}</span>
               <span class="hist-prod-label">time used</span>
             </div>
           </div>
@@ -733,7 +733,8 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     opacity: 0.8;
   }
   .pdf-link-hi {
-    background: #d97706;
+    background: #92400e;
+    color: #fff;
   }
   .committee-meta {
     font-size: 0.625rem;
@@ -779,7 +780,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     color: var(--color-text-muted);
     padding: var(--space-sm) 0;
   }
-  .closing-soon { color: var(--type-legislation); font-weight: 800; }
+  .closing-soon { color: var(--ink-bad); font-weight: 800; }
 
   @media (max-width: 768px) {
     .parl-stats { grid-template-columns: repeat(2, 1fr); }

@@ -22,8 +22,8 @@ function yoyPct(curr: number, prev: number): string {
 }
 
 function yoyColor(curr: number, prev: number): string {
-  if (!prev) return '#737373';
-  return curr >= prev ? '#16a34a' : '#dc2626';
+  if (!prev) return 'var(--color-text-secondary)';
+  return curr >= prev ? 'var(--ink-good)' : 'var(--ink-bad)';
 }
 
 // Fiscal summary — latest two years for comparison
@@ -87,7 +87,7 @@ const years = fiscal.map(f => f.year);
       <div class="fiscal-card">
         <span class="fc-label">Fiscal Deficit ({latestFiscal.year} {latestFiscal.type})</span>
         <span class="fc-value">{latestFiscal.fiscal_deficit_pct_gdp}% of GDP</span>
-        <span class="fc-change" style={`color: ${latestFiscal.fiscal_deficit_pct_gdp <= prevFiscal.fiscal_deficit_pct_gdp ? '#16a34a' : '#dc2626'};`}>
+        <span class="fc-change" style={`color: ${latestFiscal.fiscal_deficit_pct_gdp <= prevFiscal.fiscal_deficit_pct_gdp ? 'var(--ink-good)' : 'var(--ink-bad)'};`}>
           {prevFiscal.fiscal_deficit_pct_gdp}% in {prevFiscal.year} {prevFiscal.type}
         </span>
       </div>
@@ -103,7 +103,7 @@ const years = fiscal.map(f => f.year);
     {/* ── Fiscal Trend Table ──────────────────────────── */}
     <div class="budget-section">
       <h3>Fiscal trajectory</h3>
-      <div class="table-wrap">
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Budget table, scrolls sideways on narrow screens">
         <table class="budget-table">
           <thead>
             <tr>
@@ -161,7 +161,7 @@ const years = fiscal.map(f => f.year);
     <div class="budget-section">
       <h3>Ministry-wise allocations</h3>
       <p class="section-sub">The 13 ministries with the largest allocations in the {latestFiscal.year} Budget Estimate. The change shown is the {latestFiscal.year} BE against the {prevFiscal.year} RE.</p>
-      <div class="table-wrap">
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Budget table, scrolls sideways on narrow screens">
         <table class="budget-table ministry-table">
           <thead>
             <tr>

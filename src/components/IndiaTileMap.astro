@@ -131,7 +131,7 @@ const H = (MAX_ROW + 1) * (TILE + GAP) + GAP;
     </div>
   </div>
   <div class="tilemap-svg-wrap">
-    <svg viewBox={`0 0 ${W} ${H}`} class="tilemap-svg" role="img" aria-label="Tile map of Indian states and union territories">
+    <svg viewBox={`0 0 ${W} ${H}`} class="tilemap-svg" role="group" aria-label="Tile map of Indian states and union territories">
       {GRID.map(cell => {
         const x = GAP + cell.col * (TILE + GAP);
         const y = GAP + cell.row * (TILE + GAP);

@@ -85,15 +85,15 @@ const samplePolicy = policies[0] || {
     <div class="api-section">
       <h3>Filter before export</h3>
       <div class="export-filters">
-        <select id="exp-sector" class="exp-select">
+        <select id="exp-sector" class="exp-select" aria-label="Sector">
           <option value="">All sectors</option>
           {sectorList.map(([s]) => <option value={s}>{s}</option>)}
         </select>
-        <select id="exp-source" class="exp-select">
+        <select id="exp-source" class="exp-select" aria-label="Source">
           <option value="">All sources</option>
           {sourceList.map(([s]) => <option value={s}>{s}</option>)}
         </select>
-        <select id="exp-type" class="exp-select">
+        <select id="exp-type" class="exp-select" aria-label="Type of document">
           <option value="">All types</option>
           <option value="act">Act</option>
           <option value="rules">Rules</option>
@@ -110,8 +110,8 @@ const samplePolicy = policies[0] || {
           <option value="release">Press release</option>
           <option value="news">News</option>
         </select>
-        <input type="date" id="exp-from" class="exp-select" title="From" />
-        <input type="date" id="exp-to" class="exp-select" title="To" />
+        <input type="date" id="exp-from" class="exp-select" title="From" aria-label="From date" />
+        <input type="date" id="exp-to" class="exp-select" title="To" aria-label="To date" />
         <span class="exp-count" id="exp-count">{policies.length} policies selected</span>
       </div>
     </div>
@@ -120,7 +120,7 @@ const samplePolicy = policies[0] || {
     <div class="api-section">
       <h3>Data schema</h3>
       <p class="api-desc">Each policy record has the following fields:</p>
-      <div class="schema-card">
+      <div class="schema-card" tabindex="0" role="region" aria-label="Record fields, scrolls sideways on narrow screens">
         <pre class="schema-pre"><code>{JSON.stringify({
   id: samplePolicy.id,
   title: samplePolicy.title,

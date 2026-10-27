@@ -53,7 +53,7 @@ const hasMomentumHistory = totalPrior > 0 && totalPrior >= 0.05 * totalRecent;
               </span>
               <span class="momentum-sector">{m.sector}</span>
               <span class="momentum-counts">{m.last30} / {m.prev30}</span>
-              <span class="momentum-label" style={`background: ${TREND_COLORS[m.trend]}20; color: ${TREND_COLORS[m.trend]};`}>
+              <span class="momentum-label" style={`background: color-mix(in srgb, ${TREND_COLORS[m.trend]} 14%, var(--color-bg-white)); color: color-mix(in srgb, ${TREND_COLORS[m.trend]} 40%, var(--color-text));`}>
                 {m.trend}
               </span>
             </div>
@@ -410,7 +410,7 @@ const hasMomentumHistory = totalPrior > 0 && totalPrior >= 0.05 * totalRecent;
     letter-spacing: 0.03em;
   }
   .corr-strong { background: var(--type-announcement-bg); color: var(--type-announcement); }
-  .corr-moderate { background: var(--type-notification-bg); color: var(--type-notification); }
+  .corr-moderate { background: var(--type-notification-bg); color: var(--ink-warn); }
   .corr-weak { background: var(--color-bg-alt); color: var(--color-text-muted); }
 
   @media (max-width: 768px) {

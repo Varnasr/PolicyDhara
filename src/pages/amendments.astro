@@ -378,7 +378,7 @@ function fieldLabel(field: string): string {
     border: 1px solid rgba(220, 38, 38, 0.15);
   }
   .diff-old del {
-    color: #b91c1c;
+    color: var(--ink-bad);
     text-decoration: line-through;
     text-decoration-color: rgba(220, 38, 38, 0.4);
   }
@@ -387,23 +387,23 @@ function fieldLabel(field: string): string {
     border: 1px solid rgba(22, 163, 74, 0.15);
   }
   .diff-new ins {
-    color: #15803d;
+    color: var(--ink-good);
     text-decoration: none;
     border-bottom: 1px solid rgba(22, 163, 74, 0.3);
   }
 
-  [data-theme="dark"] .diff-old {
+  :global(:root[data-theme="dark"]) .diff-old {
     background: rgba(220, 38, 38, 0.1);
     border-color: rgba(220, 38, 38, 0.2);
   }
-  [data-theme="dark"] .diff-old del {
+  :global(:root[data-theme="dark"]) .diff-old del {
     color: #fca5a5;
   }
-  [data-theme="dark"] .diff-new {
+  :global(:root[data-theme="dark"]) .diff-new {
     background: rgba(22, 163, 74, 0.1);
     border-color: rgba(22, 163, 74, 0.2);
   }
-  [data-theme="dark"] .diff-new ins {
+  :global(:root[data-theme="dark"]) .diff-new ins {
     color: #86efac;
   }
 

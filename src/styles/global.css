@@ -18,6 +18,12 @@
 
   /* Accent — ImpactMojo Kit deep blue (shared library brand) */
   --color-accent: #235789;
+  --ink-good: #15803d;
+  --ink-bad: #b91c1c;
+  --ink-warn: #92400e;
+  --ink-slate: #475569;
+  --ink-teal: #0e7490;
+  --cell-hi-ink: #fff; /* text on the darkest heat-map cells */
   --color-accent-fill: #235789;
   --color-accent-fill-hover: #16416b; /* a surface carrying white text; does not change in dark mode */
   --color-accent-hover: #16416b;
@@ -82,6 +88,12 @@
   --color-text-muted: #9898a0;
   --color-text-dim: #8a8a94;
 
+  --ink-good: #4ade80;
+  --ink-bad: #f87171;
+  --ink-warn: #fbbf24;
+  --ink-slate: #94a3b8;
+  --ink-teal: #22d3ee;
+  --cell-hi-ink: var(--color-text);
   --color-accent: #6cb2ff;
   --color-accent-hover: #93c6ff;
   --color-accent-bg: #16283c;
@@ -1963,4 +1975,11 @@ h1, h2, h3, h4,
 .page-subtitle a, .coverage-note a, .timeline-caveat a, .cmp-desc a {
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
+}
+
+/* A link inside a sentence must not rely on colour alone. */
+:where(p, li, dd, td, .history-source-note) > a:not([class]),
+:where(p, li, dd) > a[rel~="noopener"]:not([class]) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

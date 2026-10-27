@@ -56,9 +56,9 @@ const leaderTitle = gov.cm ? 'Chief Minister' : gov.lg ? 'Lt. Governor' : 'Admin
 const profile = getStateProfile(gov.name);
 
 const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
-  active: { bg: 'var(--type-scheme-bg)', text: 'var(--type-scheme)' },
-  discontinued: { bg: 'var(--type-legislation-bg)', text: 'var(--type-legislation)' },
-  proposed: { bg: 'var(--type-notification-bg)', text: 'var(--type-notification)' },
+  active: { bg: 'var(--type-scheme-bg)', text: 'var(--ink-good)' },
+  discontinued: { bg: 'var(--type-legislation-bg)', text: 'var(--ink-bad)' },
+  proposed: { bg: 'var(--type-notification-bg)', text: 'var(--ink-warn)' },
 };
 ---
 <Base title={gov.name} description={`State policy tracker for ${gov.name}, governed by ${gov.party}. Part of PolicyDhara by ImpactMojo.`}>

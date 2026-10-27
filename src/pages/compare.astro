@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { heat } from '../lib/heat';
 import { getAllPolicies, getMeta, getEraDistribution, getLegislativeEraDistribution, getSectorSlug } from '../lib/data';
 
 const policies = getAllPolicies();
@@ -65,12 +66,11 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
 function cellColor(val: number, max: number): string {
   if (val === 0) return 'var(--color-bg-alt)';
-  const intensity = Math.max(0.15, val / max);
-  return `rgba(37, 99, 235, ${intensity})`;
+  return heat(Math.max(0.15, val / max)).background;
 }
 
 function cellText(val: number, max: number): string {
-  return val / max > 0.5 ? '#fff' : 'var(--color-text)';
+  return val === 0 ? 'var(--color-text-secondary)' : heat(Math.max(0.15, val / max)).color;
 }
 ---
 <Base title="Compare" description="Compare Indian policy activity across government eras, sectors and sources.">
@@ -128,7 +128,7 @@ function cellText(val: number, max: number): string {
     <div class="cmp-section">
       <h3>Sectors across eras</h3>
       <p class="cmp-desc">Darker cells in this heatmap show more policies tracked in that sector during that government era.</p>
-      <div class="heatmap-wrap">
+      <div class="heatmap-wrap" tabindex="0" role="region" aria-label="Comparison table, scrolls sideways on narrow screens">
         <table class="heatmap">
           <thead>
             <tr>
@@ -163,7 +163,7 @@ function cellText(val: number, max: number): string {
     <div class="cmp-section">
       <h3>Policy types across eras</h3>
       <p class="cmp-desc">Distribution of legislation, schemes, notifications and other policy types across government terms.</p>
-      <div class="heatmap-wrap">
+      <div class="heatmap-wrap" tabindex="0" role="region" aria-label="Comparison table, scrolls sideways on narrow screens">
         <table class="heatmap">
           <thead>
             <tr>
@@ -197,7 +197,7 @@ function cellText(val: number, max: number): string {
     <div class="cmp-section">
       <h3>Sources across eras</h3>
       <p class="cmp-desc">Which official sources contributed data in each government era.</p>
-      <div class="heatmap-wrap">
+      <div class="heatmap-wrap" tabindex="0" role="region" aria-label="Comparison table, scrolls sideways on narrow screens">
         <table class="heatmap">
           <thead>
             <tr>
@@ -291,7 +291,7 @@ function cellText(val: number, max: number): string {
     color: var(--color-accent);
     line-height: 1;
   }
-  .fair-era-unit { font-size: 0.9rem; font-weight: 400; opacity: 0.65; }
+  .fair-era-unit { font-size: 0.9rem; font-weight: 400; color: var(--color-text-secondary); }
   .era-card {
     background: var(--color-bg-white);
     border: 1px solid var(--color-border);

@@ -72,7 +72,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
 
     <article class="detail-main">
       <div class="detail-topbar">
-        <span class="detail-type" style={`background: ${typeColor}15; color: ${typeColor}; border: 1px solid ${typeColor}30;`}>
+        <span class="detail-type" style={`background: color-mix(in srgb, ${typeColor} 9%, var(--color-bg-white)); color: color-mix(in srgb, ${typeColor} 45%, var(--color-text)); border: 1px solid color-mix(in srgb, ${typeColor} 30%, var(--color-bg-white));`}>
           {TYPE_LABELS[policy.type] || policy.type}
         </span>
         <span class="detail-source">{policy.source_short}</span>
@@ -111,7 +111,7 @@ const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 t
           <div class="fact-grid">
             <div class="fact-item">
               <span class="fact-label">Type</span>
-              <span class="fact-value" style={`color: ${typeColor};`}>{TYPE_LABELS[policy.type] || policy.type}</span>
+              <span class="fact-value" style={`color: color-mix(in srgb, ${typeColor} 45%, var(--color-text));`}>{TYPE_LABELS[policy.type] || policy.type}</span>
             </div>
             <div class="fact-item">
               <span class="fact-label">Source</span>
