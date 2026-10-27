@@ -18,7 +18,7 @@
 
   /* Accent — ImpactMojo Kit deep blue (shared library brand) */
   --color-accent: #235789;
-  --ink-good: #15803d;
+  --ink-good: #166534;
   --ink-bad: #b91c1c;
   --ink-warn: #92400e;
   --ink-slate: #475569;
@@ -1978,7 +1978,7 @@ h1, h2, h3, h4,
 }
 
 /* A link inside a sentence must not rely on colour alone. */
-:where(p, li, dd, td, .history-source-note) > a:not([class]),
+:where(p, li, dd, td, span, .history-source-note) > a:not([class]),
 :where(p, li, dd) > a[rel~="noopener"]:not([class]) {
   text-decoration: underline;
   text-underline-offset: 2px;

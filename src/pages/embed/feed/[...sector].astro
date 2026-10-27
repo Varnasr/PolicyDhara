@@ -43,7 +43,7 @@ const sectorColors: Record<string, string> = {
   'Agriculture': '#16a34a',
   'Climate & Environment': '#0d9488',
   'Defence & Security': '#dc2626',
-  'Governance & Reform': '#6366f1',
+  'Governance & Reform': '#4f46e5',
   'Energy': '#ea580c',
   'Social Protection': '#db2777',
   'Labour & Employment': '#9333ea',
@@ -60,6 +60,17 @@ const sectorColors: Record<string, string> = {
   'Disability & Inclusion': '#7e22ce',
   'Civil Liberties': '#b91c1c',
 };
+
+function inkOn(hex: string): string {
+  const lum = (h: string) => {
+    const c = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255)
+      .map(v => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+  };
+  const l = lum(hex);
+  // Whichever of white and near-black gives the higher contrast ratio.
+  return (1.05 / (l + 0.05)) >= ((l + 0.05) / (lum('#111111') + 0.05)) ? '#ffffff' : '#111111';
+}
 
 function getColor(sector: string): string {
   return sectorColors[sector] || '#64748b';
@@ -96,7 +107,7 @@ function getColor(sector: string): string {
     }
     .feed-count {
       font-size: 10px;
-      color: #94a3b8;
+      color: #64748b;
       font-weight: 500;
     }
     .feed-item {
@@ -132,7 +143,7 @@ function getColor(sector: string): string {
     }
     .feed-item-date {
       font-size: 10px;
-      color: #94a3b8;
+      color: #64748b;
       font-weight: 500;
     }
     .feed-sector-badge {
@@ -145,7 +156,7 @@ function getColor(sector: string): string {
     }
     .feed-type {
       font-size: 9px;
-      color: #94a3b8;
+      color: #64748b;
       text-transform: uppercase;
       letter-spacing: 0.04em;
       font-weight: 600;
@@ -172,7 +183,7 @@ function getColor(sector: string): string {
     }
     .feed-powered {
       font-size: 9px;
-      color: #cbd5e1;
+      color: #64748b;
       text-decoration: none;
     }
     .feed-powered:hover {
@@ -182,7 +193,7 @@ function getColor(sector: string): string {
       text-align: center;
       padding: 24px 0;
       font-size: 12px;
-      color: #94a3b8;
+      color: #64748b;
     }
   </style>
 </head>
@@ -206,7 +217,7 @@ function getColor(sector: string): string {
             <div class="feed-item-meta">
               <span class="feed-item-date">{dateStr}</span>
               {p.sectors.slice(0, 2).map(s => (
-                <span class="feed-sector-badge" style={`background:${getColor(s)}`}>{s}</span>
+                <span class="feed-sector-badge" style={`background:${getColor(s)}; color:${inkOn(getColor(s))};`}>{s}</span>
               ))}
               <span class="feed-type">{p.type}</span>
             </div>

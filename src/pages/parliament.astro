@@ -89,7 +89,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
         {sessions.slice().reverse().map(sess => (
           <div class="session-card">
             <div class="session-header">
-              <span class="session-type-badge" style={`background: ${(SESSION_COLORS[sess.type] || '#888')}15; color: ${SESSION_COLORS[sess.type] || '#888'}; border: 1px solid ${(SESSION_COLORS[sess.type] || '#888')}30;`}>
+              <span class="session-type-badge" style={`background: color-mix(in srgb, ${SESSION_COLORS[sess.type] || '#888'} 9%, var(--color-bg-white)); color: color-mix(in srgb, ${SESSION_COLORS[sess.type] || '#888'} 45%, var(--color-text)); border: 1px solid color-mix(in srgb, ${SESSION_COLORS[sess.type] || '#888'} 30%, var(--color-bg-white));`}>
                 {sess.type}
               </span>
               <span class="session-dates">
@@ -610,10 +610,10 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
   }
   .section-attribution a {
     color: var(--color-accent);
-    text-decoration: none;
+    text-decoration: underline;
   }
   .section-attribution a:hover {
-    text-decoration: underline;
+    text-decoration-thickness: 2px;
   }
   .committee-grid {
     display: grid;
