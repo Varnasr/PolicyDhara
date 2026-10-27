@@ -197,6 +197,58 @@ def scrape_egazette(config: dict) -> list[dict]:
     return items
 
 
+def scrape_irdai(config: dict) -> list[dict]:
+    """IRDAI document listings (circulars, notifications, press releases).
+
+    Each listing is a table: archive flag, bilingual short description, a
+    dd-mm-yyyy "Last Updated" date and a document-detail link. The date is
+    read day-first by hand because dateutil reads 05-10-2026 as 10 May.
+    """
+    resp = safe_get(config.get("url", "https://irdai.gov.in/circulars"))
+    if not resp:
+        return []
+    soup = BeautifulSoup(resp.content, "lxml")
+    items = []
+    for row in soup.select("table tr"):
+        cells = [c.get_text(" ", strip=True) for c in row.select("td")]
+        flags = [i for i, c in enumerate(cells) if c.lower() in ("archived", "non-archived")]
+        if len(cells) < 3 or not flags or flags[0] + 1 >= len(cells):
+            continue
+        description = cells[flags[0] + 1]
+        link = ""
+        for a in row.select("a"):
+            href = a.get("href", "")
+            if "document-detail" in href or "/documents/" in href:
+                link = href if href.startswith("http") else f"https://irdai.gov.in{href}"
+                break
+        date = ""
+        for c in cells:
+            m = re.fullmatch(r"(\d{2})-(\d{2})-(\d{4})", c)
+            if m:
+                date = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+                break
+        # Short descriptions are Hindi and English joined by " / " or " _ ".
+        parts = [p.strip() for p in re.split(r"\s+[/_]\s+", description) if p.strip()]
+        english = [p for p in parts if re.search(r"[A-Za-z]{3}", p)]
+        title = (english[-1] if english else description).strip(" -")
+        # Drop a leading Hindi run when no separator split it off.
+        title = re.sub(r"^[\u0900-\u097F\s\-_]+(?=[A-Za-z])", "", title)
+        title = re.sub(r"\.pdf$", "", title, flags=re.I).strip()
+        if not (title and link and date):
+            continue
+        # The listing names the document type; the title often does not, and
+        # the classifier reads the description.
+        label = {"irdai_circulars": "Circular", "irdai_notifications": "Notification"}.get(
+            config.get("_source_id", ""), "")
+        items.append({
+            "title": title[:200],
+            "description": (f"{label}: {title}" if label else title)[:300],
+            "link": link,
+            "date": date,
+        })
+    return items
+
+
 def scrape_niti_aayog(config: dict) -> list[dict]:
     """Scrape publications from NITI Aayog."""
     items = []
@@ -767,6 +819,9 @@ SOURCE_SCRAPERS = {
     "pib_eci": scrape_pib,
     "india_code": scrape_india_code,
     "egazette": scrape_egazette,
+    "irdai_circulars": scrape_irdai,
+    "irdai_notifications": scrape_irdai,
+    "irdai_press": scrape_irdai,
     "niti_aayog": scrape_niti_aayog,
     "parliament_lok_sabha": scrape_parliament,
     "parliament_rajya_sabha": scrape_parliament,
@@ -1096,7 +1151,7 @@ def fetch_scrape_source(source_id: str, config: dict) -> list[dict]:
     # doesn't need a corresponding entry in SOURCE_SCRAPERS.
     default = scrape_pib if source_id.startswith("pib_") else scrape_ministry
     scraper = SOURCE_SCRAPERS.get(source_id, default)
-    results = scraper(config)
+    results = scraper(dict(config, _source_id=source_id))
 
     if results:
         return results
