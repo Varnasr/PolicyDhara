@@ -294,7 +294,7 @@ const H = (MAX_ROW + 1) * (TILE + GAP) + GAP;
         const name = el.dataset.state || '';
         const count = el.dataset.count || '0';
         const party = el.dataset.party || '';
-        tooltip.textContent = `${name} — ${count} ${count === '1' ? 'policy' : 'policies'} · ${party}`;
+        tooltip.textContent = `${name}: ${count} ${count === '1' ? 'policy' : 'policies'} · ${party}`;
         tooltip.classList.add('visible');
       };
       const hide = () => {

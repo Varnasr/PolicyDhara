@@ -35,7 +35,7 @@ function fieldLabel(field: string): string {
   return labels[field] || field.charAt(0).toUpperCase() + field.slice(1);
 }
 ---
-<Base title="Amendments" description="Track policy changes, amendments, and text diffs across Indian government policies.">
+<Base title="Amendments" description="Track policy changes, amendments and text diffs across Indian government policies.">
   <div class="amendments-page">
     <div class="page-header">
       <nav class="breadcrumb">
@@ -43,18 +43,18 @@ function fieldLabel(field: string): string {
         <span class="bc-sep">/</span>
         <span>Amendments</span>
       </nav>
-      <h1 class="page-title">Amendment Tracker</h1>
-      <p class="page-desc">Track when policies are updated, amended, or reclassified. Visual diffs show exactly what changed.</p>
+      <h1 class="page-title">Amendment tracker</h1>
+      <p class="page-desc">See when policies are updated, amended or reclassified. Each diff shows what changed.</p>
     </div>
 
     <div class="stats-row">
       <div class="stat-card">
         <span class="stat-num">{totalAmendedPolicies}</span>
-        <span class="stat-label">Amended Policies</span>
+        <span class="stat-label">Amended policies</span>
       </div>
       <div class="stat-card">
         <span class="stat-num">{totalChanges}</span>
-        <span class="stat-label">Total Changes Tracked</span>
+        <span class="stat-label">Total changes tracked</span>
       </div>
     </div>
 
@@ -62,7 +62,7 @@ function fieldLabel(field: string): string {
       <div class="filter-bar">
         <label class="filter-label" for="sector-filter">Filter by sector</label>
         <select id="sector-filter" class="filter-select">
-          <option value="">All Sectors</option>
+          <option value="">All sectors</option>
           {allSectors.map(s => (
             <option value={s}>{s}</option>
           ))}

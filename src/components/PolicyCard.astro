@@ -71,9 +71,9 @@ function getRelativeTime(dateStr: string): string {
     <span class={`policy-kind kind-${kind}`} title={
       kind === 'instrument' ? 'A policy instrument issued by a government, regulator, or court'
       : kind === 'process' ? 'Policy in the making: bill, draft, question, or committee report'
-      : kind === 'announcement' ? 'An official press release — not itself a policy'
+      : kind === 'announcement' ? 'An official press release, which is not itself a policy'
       : kind === 'analysis' ? 'Research or think-tank analysis of policy'
-      : 'Journalism about policy — not a policy document'
+      : 'Journalism about policy, not a policy document'
     }>{kindLabel}</span>
     <span class={`policy-type type-${type}`}>{typeLabel}</span>
   </div>

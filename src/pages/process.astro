@@ -49,9 +49,9 @@ const item = (p) => ({
 const stages: Stage[] = [
   {
     num: 1,
-    title: 'Consultation — the draft',
+    title: 'Consultation: the draft',
     who: 'Ministries and regulators',
-    explain: 'Most policy begins life as a draft: a ministry publishes draft rules or a regulator floats a consultation paper, and the public gets a window — often 30 days — to object, suggest, and push back. This is the single best moment for citizens and researchers to influence policy, and the least watched.',
+    explain: 'Most policy begins life as a draft: a ministry publishes draft rules or a regulator floats a consultation paper, and the public gets a window, often 30 days, to object, suggest and push back. Citizens and researchers can influence policy most at this stage, and it is the stage fewest people watch.',
     items: drafts.map(item),
     count: byType('draft').length,
     countLabel: 'drafts on the tracker',
@@ -62,7 +62,7 @@ const stages: Stage[] = [
     num: 2,
     title: 'Cabinet approval',
     who: 'Union Cabinet',
-    explain: 'Before a bill reaches Parliament or a scheme gets funded, the Cabinet clears it. Cabinet approvals are announced through PIB releases — they are the earliest reliable signal that a proposal has become government policy.',
+    explain: 'Before a bill reaches Parliament or a scheme gets funded, the Cabinet clears it. Cabinet approvals are announced through PIB releases, which are the earliest reliable signal that a proposal has become government policy.',
     items: cabinet.map(item),
     count: cabinet.length,
     countLabel: 'recent cabinet clearances',
@@ -73,7 +73,7 @@ const stages: Stage[] = [
     num: 3,
     title: 'The bill in Parliament',
     who: 'Lok Sabha & Rajya Sabha',
-    explain: 'Legislation is introduced as a bill, debated, and voted on in both Houses. A bill can be passed in days or languish for years — and what changes between introduction and passage is where the real politics lives.',
+    explain: 'Legislation is introduced as a bill, debated, and voted on in both Houses. A bill can be passed in days or wait for years, and the changes made between introduction and passage often decide what the law does.',
     items: bills.map(item),
     count: byType('bill').length,
     countLabel: 'bills tracked',
@@ -84,7 +84,7 @@ const stages: Stage[] = [
     num: 4,
     title: 'Committee scrutiny',
     who: 'Standing & select committees',
-    explain: 'Bills and departmental performance are examined line-by-line in committees — the least visible, most substantive part of Parliament\'s work. Committee reports often force amendments that floor debate never would.',
+    explain: 'Bills and departmental performance are examined line by line in committees, which is the least visible part of Parliament\'s work. Committee reports often lead to amendments that floor debate would not.',
     items: committeeReports.map(r => ({
       title: r.title,
       meta: `${r.committee_name}${r.presented_in_ls ? ` · ${fmtD(r.presented_in_ls)}` : ''}`,
@@ -97,9 +97,9 @@ const stages: Stage[] = [
   },
   {
     num: 5,
-    title: 'Assent — the Act',
+    title: 'Assent: the Act',
     who: 'President of India',
-    explain: 'Once both Houses pass a bill and the President assents, it becomes an Act — the law of the land. But an Act on paper often does nothing yet: most need rules and notifications to actually operate.',
+    explain: 'Once both Houses pass a bill and the President assents, it becomes an Act, the law of the land. An Act on paper often does nothing yet, because most need rules and notifications before they operate.',
     items: acts.map(item),
     count: byType('act').length,
     countLabel: 'acts on the tracker',
@@ -108,9 +108,9 @@ const stages: Stage[] = [
   },
   {
     num: 6,
-    title: 'Rules & notifications',
+    title: 'Rules and notifications',
     who: 'Ministries, regulators, the Gazette',
-    explain: 'Subordinate legislation is where an Act becomes real: rules fix the how, notifications bring sections into force, circulars instruct the machinery. Most of the policy that touches daily life is made here — without a vote.',
+    explain: 'Subordinate legislation is where an Act becomes real: rules fix the how, notifications bring sections into force, circulars instruct the machinery. Most of the policy that touches daily life is made here, without a vote.',
     items: rules.map(item),
     count: byType('rules').length + byType('notification').length,
     countLabel: 'rules & notifications',
@@ -121,7 +121,7 @@ const stages: Stage[] = [
     num: 7,
     title: 'Schemes & implementation',
     who: 'Ministries, states, districts',
-    explain: 'Policy meets people as schemes — missions, yojanas, transfers. Implementation runs through states and districts, which is why the same scheme can look completely different across the country.',
+    explain: 'Policy reaches people as schemes: missions, yojanas and transfers. Implementation runs through states and districts, so the same scheme can look very different across the country.',
     items: schemes.map(item),
     count: byType('scheme').length,
     countLabel: 'schemes tracked',
@@ -130,9 +130,9 @@ const stages: Stage[] = [
   },
   {
     num: 8,
-    title: 'Oversight — Question Hour & audit',
+    title: 'Oversight: Question Hour and audit',
     who: 'MPs, CAG, committees',
-    explain: 'The loop closes with scrutiny: starred and unstarred questions force ministers to put implementation numbers on the record, and audit reports test claims against reality. Question-hour replies are some of the best public data on how policy is actually going.',
+    explain: 'Scrutiny closes the loop. Starred and unstarred questions require ministers to put implementation numbers on the record, and audit reports test claims against what happened. Question Hour replies are among the best public data on how a policy is going.',
     items: questions.map(item),
     count: byType('question').length,
     countLabel: 'question-hour replies',
@@ -141,13 +141,12 @@ const stages: Stage[] = [
   },
 ];
 ---
-<Base title="How Policy Is Made" description="The Indian policy lifecycle — from consultation draft to act, rules, schemes and parliamentary oversight — with live documents at every stage.">
+<Base title="How Policy Is Made" description="The Indian policy lifecycle, from consultation draft to act, rules, schemes and parliamentary oversight, with live documents at every stage.">
   <div style="padding: var(--space-xl) 0;">
     <h1 class="page-title">How a policy is made</h1>
     <p class="page-subtitle">
-      Policy is not an announcement — it is a process with stages, and each stage
-      leaves documents. This page walks the full lifecycle with the live documents
-      currently sitting at every stage. For where the whole system comes from,
+      A policy goes through stages, and each stage leaves documents. This page walks
+      the full lifecycle with the live documents currently sitting at every stage. For where the whole system comes from,
       start at the <a href={`${base}history/`}>Constituent Assembly debates</a>.
     </p>
 
@@ -189,8 +188,8 @@ const stages: Stage[] = [
 
     <div class="process-foot">
       <p>
-        <strong>{parl.lok_sabha.current}th Lok Sabha</strong> — session dates,
-        productivity, and pending bills live on the
+        Session dates, productivity and pending bills for the
+        {parl.lok_sabha.current}th Lok Sabha are on the
         <a href={`${base}parliament/`}>Parliament tracker</a>. Fiscal choices
         behind every stage are on the <a href={`${base}budget/`}>Budget page</a>.
       </p>

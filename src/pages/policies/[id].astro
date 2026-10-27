@@ -53,7 +53,7 @@ const typeColor = TYPE_COLORS[policy.type] || '#16a34a';
 const spectrumPct = ((enrichment.politicalLean + 2) / 4) * 100; // maps -2..+2 to 0..100
 
 ---
-<Base title={policy.title} description={policy.description || `${TYPE_LABELS[policy.type] || policy.type} from ${policy.source_short} — ${policy.sectors.join(', ')}.`}>
+<Base title={policy.title} description={policy.description || `${TYPE_LABELS[policy.type] || policy.type} from ${policy.source_short}, covering ${policy.sectors.join(', ')}.`}>
   <div class="policy-detail" data-pagefind-body>
     <span data-pagefind-meta={`title:${policy.title}`} class="visually-hidden"></span>
     <span data-pagefind-meta={`type:${policy.type}`} class="visually-hidden"></span>

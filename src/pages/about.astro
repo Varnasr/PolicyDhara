@@ -28,16 +28,16 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 ---
 <Base title="About & Methodology" description="How PolicyDhara collects data, known coverage gaps, and limitations to be aware of when interpreting the data.">
   <div style="padding: var(--space-xl) 0; max-width: 780px;">
-    <h2 class="page-title">About & Methodology</h2>
-    <p class="page-subtitle">How this data is collected, what it covers, and what it doesn't</p>
+    <h2 class="page-title">About and methodology</h2>
+    <p class="page-subtitle">How this data is collected, what it covers and what it leaves out.</p>
 
     {/* Important caveat — data bias */}
     <div class="caveat-box">
-      <h3>Important: Data Coverage Is Not Uniform</h3>
+      <h3>Data coverage is uneven</h3>
       <p>
-        PolicyDhara's dataset is <strong>not a complete or balanced record</strong> of Indian policymaking.
-        The number of policies shown for any government era reflects <strong>what our sources have digitally available</strong>,
-        not the actual volume of policymaking during that period.
+        PolicyDhara's dataset is an incomplete and unbalanced record of Indian policymaking.
+        The number of policies shown for any government era depends on what our sources have available digitally,
+        and it does not measure how much policy was made in that period.
       </p>
       <div class="caveat-stats">
         <div class="caveat-stat">
@@ -50,13 +50,13 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         </div>
       </div>
       <p>
-        This imbalance exists because most government digital portals (PIB, India Code, ministry websites) have significantly
-        better archives for recent years. Older UPA-era and pre-UPA policies are <strong>underrepresented</strong> — not because
-        fewer policies were made, but because fewer are available in machine-readable formats online.
+        This imbalance exists because most government digital portals (PIB, India Code, ministry websites) have much
+        better archives for recent years. Older UPA-era and pre-UPA policies are underrepresented because
+        fewer of them are available in machine-readable formats online.
       </p>
       <p>
-        <strong>Do not interpret higher counts in recent eras as evidence of more policy activity.</strong>
-        India has always been an active legislating democracy. The difference is in digital data availability, not governance output.
+        Higher counts in recent eras should not be read as evidence of more policy activity.
+        India has always legislated actively, and the difference between eras comes from how much data is available digitally.
       </p>
     </div>
 
@@ -64,20 +64,20 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     <div class="about-section">
       <h3>What is PolicyDhara?</h3>
       <p>
-        PolicyDhara is an open-source platform that tracks Indian development policies across sectors, states, and time.
-        It aggregates legislation, government schemes, budget announcements, notifications, and policy research from official
+        PolicyDhara is an open-source platform that tracks Indian development policies across sectors, states and time.
+        It aggregates legislation, government schemes, budget announcements, notifications and policy research from official
         sources into a single searchable database.
       </p>
       <p>
-        The name "Dhara" (meaning "flow" or "stream" in Hindi/Sanskrit) reflects the continuous flow of policy actions
-        that shape India's development trajectory. A project by <a href="https://www.impactmojo.in">ImpactMojo</a>,
-        which provides free and highest quality development sector know-how.
+        The name "Dhara" (meaning "flow" or "stream" in Hindi/Sanskrit) refers to the continuous flow of policy actions
+        that shape India's development. PolicyDhara is a project of <a href="https://www.impactmojo.in">ImpactMojo</a>,
+        which provides free development sector know-how.
       </p>
     </div>
 
     {/* Data sources */}
     <div class="about-section">
-      <h3>Data Sources</h3>
+      <h3>Data sources</h3>
       <p>PolicyDhara collects from the following official and quasi-official sources:</p>
       <div class="source-list">
         <div class="source-item">
@@ -90,15 +90,15 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         </div>
         <div class="source-item">
           <strong>PRS Legislative Research</strong>
-          <span>Bill analyses, legislative briefs, and parliamentary data</span>
+          <span>Bill analyses, legislative briefs and parliamentary data</span>
         </div>
         <div class="source-item">
           <strong>NITI Aayog</strong>
-          <span>Policy papers, reports, and development research</span>
+          <span>Policy papers, reports and development research</span>
         </div>
         <div class="source-item">
           <strong>Reserve Bank of India (RBI)</strong>
-          <span>Monetary policy, financial regulation, and economic data</span>
+          <span>Monetary policy, financial regulation and economic data</span>
         </div>
         <div class="source-item">
           <strong>Ministry of Finance / Budget Division</strong>
@@ -117,8 +117,8 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
     {/* Known biases */}
     <div class="about-section">
-      <h3>Known Biases & Limitations</h3>
-      <p>Users should be aware of the following when interpreting this data:</p>
+      <h3>Known biases and limitations</h3>
+      <p>Keep the following in mind when interpreting this data:</p>
       <div class="bias-list">
         <div class="bias-item">
           <span class="bias-icon">1</span>
@@ -126,8 +126,8 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
             <strong>Recency bias in digital archives</strong>
             <p>Digital archives are far more complete for 2014-present than for earlier periods.
             Government websites frequently restructure, and older content is often lost or inaccessible.
-            The PIB digital archive before ~2012 is particularly sparse. This means UPA-era policy counts
-            are artificially low compared to NDA-era counts.</p>
+            The PIB digital archive before ~2012 is particularly sparse. As a result, UPA-era policy counts
+            are artificially low compared with NDA-era counts.</p>
           </div>
         </div>
         <div class="bias-item">
@@ -142,10 +142,10 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         <div class="bias-item">
           <span class="bias-icon">3</span>
           <div>
-            <strong>Announcement vs. implementation gap</strong>
+            <strong>Gap between announcement and implementation</strong>
             <p>Most entries capture policy announcements and official statements. Whether a policy was
-            actually implemented, funded, or had its intended impact may differ significantly from the announcement.
-            Our impact annotations are best-effort estimates, not rigorous evaluations.</p>
+            actually implemented, funded, or had its intended impact may differ a great deal from the announcement.
+            Our impact annotations are best-effort estimates and are not formal evaluations.</p>
           </div>
         </div>
         <div class="bias-item">
@@ -153,7 +153,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
           <div>
             <strong>Automated sector classification</strong>
             <p>Policies are classified into sectors using keyword matching. Some policies may be
-            miscategorized or missing from relevant sectors. Cross-cutting policies (e.g., Digital India affects
+            miscategorized or missing from relevant sectors. Cross-cutting policies (for example, Digital India affects
             multiple sectors) may not appear in all relevant categories.</p>
           </div>
         </div>
@@ -170,8 +170,8 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
           <div>
             <strong>PIB as primary source</strong>
             <p>The PIB is by far the largest source in the dataset. PIB releases tend to present government
-            actions positively. Policies that were withdrawn, failed, or were controversial may receive
-            less coverage in PIB compared to successful initiatives.</p>
+            actions positively. Policies that were withdrawn, failed or were controversial may receive
+            less coverage in PIB than successful initiatives.</p>
           </div>
         </div>
       </div>
@@ -179,37 +179,35 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
     {/* How data is collected */}
     <div class="about-section">
-      <h3>Collection Methodology</h3>
+      <h3>Collection methodology</h3>
       <p>
         A Python pipeline runs every 6 hours via GitHub Actions. It fetches from ~380 configured sources
-        <strong>concurrently</strong> (RSS, JSON APIs, and HTML scrapers), so the whole set is reached inside
+        concurrently (RSS, JSON APIs and HTML scrapers), so the whole set is reached inside
         the time budget rather than only the first few dozen. Each item is classified by sector and type using
         keyword matching, deduplicated across sources, and stored as JSON. The Astro static site builds pages
         from that data.
       </p>
       <p>
-        A handful of general-news feeds (The Hindu, NDTV, and similar) are included for timely coverage, but
-        they carry crime, sport, and celebrity items alongside policy. Two gates run at ingestion: a
-        <strong>relevance filter</strong> drops spectacle and non-policy noise, and a <strong>news cap</strong>
-        holds media items to at most 40% of the dataset. On top of that, the counts and charts on this site are
-        computed over policy items only — news is shown in the feed as context but excluded from the aggregate
-        numbers, so "policies tracked", sector trends, and the activity timeline reflect actual policy, not
-        news velocity.
+        A handful of general-news feeds (The Hindu, NDTV and similar) are included for timely coverage. They carry
+        crime, sport and celebrity items alongside policy, so two gates run at ingestion. A relevance filter drops
+        non-policy items, and a news cap holds media items to at most 40% of the dataset. The counts and charts on
+        this site are computed over policy items only. News appears in the feed as context and is excluded from the
+        aggregate numbers, so "policies tracked", sector trends and the activity timeline count policy items only.
       </p>
       <p>
-        The pipeline is fully open-source and auditable. Anyone can inspect the fetch logic, the filter rules,
+        The pipeline is open source. Anyone can inspect the fetch logic, the filter rules
         and the raw data on the <a href="https://github.com/Varnasr/PolicyDhara">GitHub repository</a>. Coverage
-        is tracked with an automated source-health check that flags sources which stop returning content — see
-        the <a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a> for what's next.
+        is tracked with an automated source-health check that flags sources that stop returning content. The
+        <a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a> lists what is planned next.
       </p>
     </div>
 
     {/* How to help */}
     <div class="about-section">
-      <h3>Help Improve Coverage</h3>
+      <h3>Help improve coverage</h3>
       <p>
-        If you notice missing policies, incorrect classifications, or have access to historical policy data —
-        especially for UPA-era or pre-2004 policies — contributions are welcome:
+        Contributions are welcome if you notice missing policies or incorrect classifications, or if you have access to historical policy data,
+        especially for UPA-era or pre-2004 policies:
       </p>
       <ul class="help-list">
         <li>Submit issues or pull requests on the GitHub repository</li>
@@ -221,15 +219,15 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 
     {/* Subscribe + Open Source */}
     <div class="about-section">
-      <h3>Subscribe & Contribute</h3>
+      <h3>Subscribe and contribute</h3>
       <p>
         Get updates via the <a href={`${base}rss.xml`}>RSS feed</a>.
         Download data from the <a href={`${base}api/`}>API & Data Export</a> page.
         Contributions and bug reports are welcome on <a href="https://github.com/Varnasr/PolicyDhara">GitHub</a>.
       </p>
       <p>
-        Built with <a href="https://astro.build">Astro</a>, Python, and GitHub Actions.
-        By <a href="https://www.impactmojo.in">ImpactMojo</a> — free, highest quality development sector know-how.
+        Built with <a href="https://astro.build">Astro</a>, Python and GitHub Actions.
+        By <a href="https://www.impactmojo.in">ImpactMojo</a>, which provides free development sector know-how.
         This project is non-partisan and does not receive funding from any political party or government body.
       </p>
     </div>

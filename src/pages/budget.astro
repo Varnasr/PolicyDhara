@@ -63,8 +63,8 @@ const years = fiscal.map(f => f.year);
 <Base title="Budget Tracker">
   <div class="budget-page">
     <div class="budget-header">
-      <h2>Union Budget Tracker</h2>
-      <p>Ministry-wise and scheme-wise allocation tracking across Union Budgets. All figures in Rs crore.</p>
+      <h2>Union Budget tracker</h2>
+      <p>Allocations by ministry and by scheme across Union Budgets. All figures are in Rs crore.</p>
     </div>
 
     {/* ── Fiscal Overview Cards ─────────────────────── */}
@@ -101,7 +101,7 @@ const years = fiscal.map(f => f.year);
 
     {/* ── Fiscal Trend Table ──────────────────────────── */}
     <div class="budget-section">
-      <h3>Fiscal Trajectory</h3>
+      <h3>Fiscal trajectory</h3>
       <div class="table-wrap">
         <table class="budget-table">
           <thead>
@@ -138,7 +138,7 @@ const years = fiscal.map(f => f.year);
 
     {/* ── Sector Allocation Bars ──────────────────────── */}
     <div class="budget-section">
-      <h3>Allocations by Sector</h3>
+      <h3>Allocations by sector</h3>
       <p class="section-sub">Combined ministry allocations mapped to policy sectors ({latestFiscal.year} BE)</p>
       <div class="alloc-bars">
         {sortedSectors.map(([sector, totals]) => (
@@ -158,7 +158,7 @@ const years = fiscal.map(f => f.year);
 
     {/* ── Ministry Breakdown ──────────────────────────── */}
     <div class="budget-section">
-      <h3>Ministry-wise Allocations</h3>
+      <h3>Ministry-wise allocations</h3>
       <p class="section-sub">Top 20 ministries by {latestFiscal.year} Budget Estimate</p>
       <div class="table-wrap">
         <table class="budget-table ministry-table">
@@ -192,8 +192,8 @@ const years = fiscal.map(f => f.year);
 
     {/* ── Major Schemes ──────────────────────────────── */}
     <div class="budget-section">
-      <h3>Flagship Scheme Allocations</h3>
-      <p class="section-sub">Year-over-year tracking of India's largest government schemes</p>
+      <h3>Flagship scheme allocations</h3>
+      <p class="section-sub">Year-on-year allocations for India's largest government schemes</p>
       <div class="scheme-grid">
         {sortedSchemes.map(s => {
           const latest = s.allocations[s.allocations.length - 1];

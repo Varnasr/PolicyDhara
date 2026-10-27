@@ -65,8 +65,8 @@ const graphData = JSON.stringify({ nodes: allNodes, edges: keptEdges });
   <p class="graph-caption">
     <strong>How to read this:</strong> green circles are the tracker's sectors,
     blue circles the sources that publish into them. A line means a source's
-    documents land in that sector — thicker line, more documents; bigger
-    circle, more documents overall. Hover any circle for its name and count;
+    documents land in that sector. A thicker line means more documents, and a
+    bigger circle means more documents overall. Hover any circle for its name and count;
     drag to rearrange. Sources with too few documents to link are not drawn.
   </p>
 </div>
@@ -266,7 +266,7 @@ const graphData = JSON.stringify({ nodes: allNodes, edges: keptEdges });
       // Hover tooltip: node name + document count, in a small pill that
       // stays inside the canvas.
       if (hoverNode && !dragNode) {
-        const text = `${hoverNode.label} — ${hoverNode.count.toLocaleString()} documents`;
+        const text = `${hoverNode.label}: ${hoverNode.count.toLocaleString()} documents`;
         ctx.font = `600 12px 'Libre Franklin', sans-serif`;
         const tw = ctx.measureText(text).width;
         const th = 24;

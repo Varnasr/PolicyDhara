@@ -20,10 +20,9 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
   <div class="page-header">
     <h1 class="page-title">Long reads</h1>
     <p class="page-subtitle">
-      In-depth, long-form writing on Indian policy — essays and analysis from
-      {sources.length ? sources.join(', ') : 'journal and essay sources'} —
-      kept separate from press releases and news so depth doesn't drown in
-      the daily stream.
+      Long-form essays and analysis on Indian policy from
+      {sources.length ? sources.join(', ') : 'journal and essay sources'}.
+      They are listed apart from press releases and news.
     </p>
   </div>
 
@@ -55,7 +54,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
   {reportsAndBriefs.length > 0 && (
     <section class="lr-reports">
       <h2 class="lr-section-title">Reports &amp; policy briefs</h2>
-      <p class="lr-section-sub">Working papers, evaluations, and briefs from research institutions.</p>
+      <p class="lr-section-sub">Working papers, evaluations and briefs from research institutions.</p>
       <ul class="lr-report-list">
         {reportsAndBriefs.map(p => (
           <li class="lr-report-row">

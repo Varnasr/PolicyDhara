@@ -73,25 +73,24 @@ function cellText(val: number, max: number): string {
   return val / max > 0.5 ? '#fff' : 'var(--color-text)';
 }
 ---
-<Base title="Compare" description="Compare Indian policy activity across government eras, sectors, and sources.">
+<Base title="Compare" description="Compare Indian policy activity across government eras, sectors and sources.">
   <div style="padding: var(--space-xl) 0;">
-    <h2 class="page-title">Policy Comparisons</h2>
-    <p class="page-subtitle">Cross-tabulate policy activity across government eras, sectors, types, and sources</p>
+    <h2 class="page-title">Policy comparisons</h2>
+    <p class="page-subtitle">Cross-tabulate policy activity across government eras, sectors, types and sources.</p>
 
     <div class="cmp-caveat">
       <strong>Data coverage caveat:</strong> These comparisons reflect policies available in digital archives, not total policy output.
-      Pre-2014 eras (especially UPA I & II) are significantly underrepresented because government digital portals have limited historical archival.
-      Higher numbers in NDA eras do not necessarily mean more policymaking — they reflect better digital availability.
+      Pre-2014 eras (especially UPA I & II) are heavily underrepresented because government digital portals hold little historical archive.
+      Higher numbers in the NDA eras do not necessarily mean more policymaking. They reflect better digital availability.
       <a href={`${base}about/`}>Read full methodology</a>
     </div>
 
     {/* Fair comparison — the headline number, on a uniform basis */}
     <div class="cmp-section">
-      <h3>Legislative output — a fair comparison</h3>
+      <h3>Legislative output on a uniform basis</h3>
       <p class="cmp-desc">
         Central Acts enacted per year, counted from <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener">India Code</a>
-        by enactment year (through 2024). One consistent source, measured the same way for every era — so this
-        <strong> is</strong> comparable, unlike the archive-coverage counts below.
+        by enactment year (through 2024). One source is used and measured the same way for every era, so these counts can be compared across eras. The archive-coverage counts below cannot.
       </p>
       <div class="fair-era-cards">
         {legisEra.map(e => (
@@ -108,8 +107,8 @@ function cellText(val: number, max: number): string {
     <div class="cmp-section">
       <h3>Archive coverage by era</h3>
       <p class="cmp-desc">
-        How many items we <em>hold</em> per era — <strong>not</strong> policy output. Recent eras dominate because
-        live sources are scraped comprehensively while older years rely on a historical seed. Use the fair
+        How many items we hold per era. This measures our archive and says nothing about how much policy was made. Recent eras dominate because
+        live sources are scraped comprehensively while older years rely on a historical seed. Use the uniform
         comparison above for output.
       </p>
       <div class="era-cards">
@@ -127,8 +126,8 @@ function cellText(val: number, max: number): string {
 
     {/* Sector × Era heatmap */}
     <div class="cmp-section">
-      <h3>Sectors Across Eras</h3>
-      <p class="cmp-desc">Policy activity heatmap — darker cells indicate more policies tracked in that sector during that government era.</p>
+      <h3>Sectors across eras</h3>
+      <p class="cmp-desc">Darker cells in this heatmap show more policies tracked in that sector during that government era.</p>
       <div class="heatmap-wrap">
         <table class="heatmap">
           <thead>
@@ -162,8 +161,8 @@ function cellText(val: number, max: number): string {
 
     {/* Type × Era heatmap */}
     <div class="cmp-section">
-      <h3>Policy Types Across Eras</h3>
-      <p class="cmp-desc">Distribution of legislation, schemes, notifications, and other policy types across government terms.</p>
+      <h3>Policy types across eras</h3>
+      <p class="cmp-desc">Distribution of legislation, schemes, notifications and other policy types across government terms.</p>
       <div class="heatmap-wrap">
         <table class="heatmap">
           <thead>
@@ -196,7 +195,7 @@ function cellText(val: number, max: number): string {
 
     {/* Source × Era heatmap */}
     <div class="cmp-section">
-      <h3>Sources Across Eras</h3>
+      <h3>Sources across eras</h3>
       <p class="cmp-desc">Which official sources contributed data in each government era.</p>
       <div class="heatmap-wrap">
         <table class="heatmap">

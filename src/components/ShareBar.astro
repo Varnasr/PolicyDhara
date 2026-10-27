@@ -88,7 +88,7 @@ const { title, url, description = '', compact = false } = Astro.props;
         const pageUrl = el.dataset.url || window.location.href;
         const desc = el.dataset.desc || '';
 
-        const text = `${title}${desc ? ' — ' + desc.slice(0, 100) : ''}`;
+        const text = `${title}${desc ? ': ' + desc.slice(0, 100) : ''}`;
 
         switch (platform) {
           case 'whatsapp':

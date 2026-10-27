@@ -50,11 +50,11 @@ for (const p of all) allTypes[p.type] = (allTypes[p.type] || 0) + 1;
 
 const TABS: { key: string; label: string; hint: string }[] = [
   { key: 'all', label: 'Everything', hint: 'All documents the tracker follows' },
-  { key: 'instrument', label: 'Policy documents', hint: 'Acts, rules, notifications, schemes, budgets — instruments in force' },
+  { key: 'instrument', label: 'Policy documents', hint: 'Acts, rules, notifications, schemes, budgets and other instruments in force' },
   { key: 'process', label: 'In the making', hint: 'Bills, drafts open for comment, Parliament Q&A, committee reports' },
   { key: 'analysis', label: 'Analysis', hint: 'Research, reports, and long reads from think tanks and institutions' },
   { key: 'announcement', label: 'Announcements', hint: 'Official press releases that are not themselves policy' },
-  { key: 'news', label: 'News', hint: 'Journalism about policy — clearly labeled, never counted as policy' },
+  { key: 'news', label: 'News', hint: 'Journalism about policy, labeled as such and never counted as policy' },
 ];
 
 const sortedSectors = Object.entries(meta.sector_counts).sort((a, b) => b[1] - a[1]);
@@ -64,7 +64,7 @@ const sortedSources = Object.entries(meta.source_counts).sort((a, b) => b[1] - a
   <div class="page-header">
     <h1 class="page-title">Browse the tracker</h1>
     <p class="page-subtitle">
-      {`Every document, honestly labeled: ${kindCounts['instrument'] || 0} policy documents, ${kindCounts['process'] || 0} in the making, ${kindCounts['analysis'] || 0} analysis pieces, ${kindCounts['announcement'] || 0} announcements and ${kindCounts['news'] || 0} news items. Filters are shareable — the URL updates as you refine.`}
+      {`Every document is labeled by kind: ${kindCounts['instrument'] || 0} policy documents, ${kindCounts['process'] || 0} in the making, ${kindCounts['analysis'] || 0} analysis pieces, ${kindCounts['announcement'] || 0} announcements and ${kindCounts['news'] || 0} news items. Filters are shareable, because the URL updates as you refine them.`}
     </p>
   </div>
 

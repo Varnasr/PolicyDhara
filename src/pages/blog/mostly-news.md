@@ -21,7 +21,7 @@ That brought the number down. It also showed us the real problem, which had noth
 
 ## The dataset was tiny because the pipeline never finished
 
-![Before and after: 406 items at 87% news became 1,727 items at 21% news, via three levers — parallel fetch, a spectacle filter, and a 40% news cap.](/blog/policy-filter-before-after.svg)
+![Before and after: 406 items at 87% news became 1,727 items at 21% news, through three changes: parallel fetch, a spectacle filter and a 40% news cap.](/blog/policy-filter-before-after.svg)
 
 We should have checked this first. The tracker aggregates **422 sources**. When we ran each one directly, **196 of them worked** and returned real content. But the live dataset only had data from about **twenty**.
 
@@ -29,7 +29,7 @@ The other ~180 working sources were never fetched. The pipeline fetched sources 
 
 ![Sequential fetch reached only ~40 of 422 sources before the 12-minute timeout, so most government sources were never tried and news dominated by default. Parallel fetch reaches all 422.](/blog/sequential-vs-parallel.svg)
 
-The news RSS feeds happened to sit early in the config, inside the reachable window. They are fast, they always respond, and they were near the front of the list. So every run reliably fetched the news and ran out of time before it reached most of the government portals. **The dataset was mostly news because news was the only thing the pipeline had time to reach, and the weakness of the filter had little to do with it.**
+The news RSS feeds happened to sit early in the config, inside the reachable window. They are fast, they always respond, and they were near the front of the list. So every run reliably fetched the news and ran out of time before it reached most of the government portals. **The dataset was mostly news because news was the only thing the pipeline had time to reach.**
 
 The fix was to fetch sources concurrently. The whole set of 422 now completes comfortably inside the budget, and a single run brings in PRS Bill Track and Legislative Research, RBI press releases and notifications, the PIB feeds for the Cabinet, PMO and both houses of Parliament, the GST Council, TRAI, dozens of ministries and a shelf of research institutes.
 
@@ -37,7 +37,7 @@ While we were in there, we fixed one scraper by hand. The RBI master-notificatio
 
 ## What the numbers look like now
 
-The dataset went from **406 items to 1,727**, and news dropped from **87% to 21%**. That is comfortably under the cap, and the reason is that there is now enough real policy for news to be the minority, whereas the filter is no stricter than before. The homepage leads with RBI directions, cabinet approvals, PRS bill tracking and NITI analysis, with recent journalism interleaved among them.
+The dataset went from **406 items to 1,727**, and news dropped from **87% to 21%**. That is comfortably under the cap, because there is now enough real policy for news to be the minority. The homepage leads with RBI directions, cabinet approvals, PRS bill tracking and NITI analysis, with recent journalism interleaved among them.
 
 ## What we took from it
 

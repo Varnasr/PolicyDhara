@@ -16,7 +16,7 @@ interface Props {
 const props = Astro.props;
 const title = props.title ?? props.frontmatter?.title ?? 'PolicyDhara';
 const description = props.description ?? props.frontmatter?.description
-  ?? "PolicyDhara — open-source tracker of Indian development policies across 22 sectors. By ImpactMojo.";
+  ?? "PolicyDhara is an open-source tracker of Indian development policies across 22 sectors, made by ImpactMojo.";
 const { ogImage } = props;
 const siteTitle = `${title} | PolicyDhara`;
 const rawBase = import.meta.env.BASE_URL;
@@ -56,7 +56,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
   <meta property="og:image" content={ogImageUrl} />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="628" />
-  <meta property="og:image:alt" content="PolicyDhara — Indian development policy tracker" />
+  <meta property="og:image:alt" content="PolicyDhara, a tracker of Indian development policy" />
 
   {/* Twitter / X Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -341,7 +341,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
       <div class="footer-bottom">
         Data sourced from 300+ official sources including PIB, PRS Legislative Research, India Code, eGazette, NITI Aayog, data.gov.in, RBI, and more.
         Auto-updated every 6 hours via <a href="https://github.com/Varnasr/PolicyDhara">open-source pipeline</a>.
-        <span class="build-stamp" title="When this copy of the site was built — if this date looks old, your browser is showing a cached version">Site build: {new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC</span>
+        <span class="build-stamp" title="When this copy of the site was built. If this date looks old, your browser is showing a cached version">Site build: {new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC</span>
       </div>
     </div>
   </footer>
@@ -376,7 +376,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
   <div class="kbd-help-overlay" id="kbd-help">
     <div class="kbd-help-panel">
       <h3>Keyboard Shortcuts</h3>
-      <div class="kbd-row"><span>Navigate between policies</span><span><kbd>J</kbd> / <kbd>K</kbd></span></div>
+      <div class="kbd-row"><span>Move between policies</span><span><kbd>J</kbd> / <kbd>K</kbd></span></div>
       <div class="kbd-row"><span>Open focused policy</span><kbd>Enter</kbd></div>
       <div class="kbd-row"><span>Focus search</span><kbd>/</kbd></div>
       <div class="kbd-row"><span>Toggle light/dark</span><kbd>D</kbd></div>

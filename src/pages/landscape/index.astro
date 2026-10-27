@@ -27,13 +27,13 @@ const sourcesSorted = Object.entries(meta.source_counts).sort(([, a], [, b]) => 
 const allCells = sectors.flatMap(s => types.map(t => matrix[s]?.[t] || 0));
 const maxCell = Math.max(...allCells, 1);
 ---
-<Base title="Policy Landscape" description="A structured taxonomy of Indian policy activity across 22 sectors and 7 policy types — understand the landscape at a glance.">
+<Base title="Policy Landscape" description="A structured taxonomy of Indian policy activity across 22 sectors and 7 policy types, shown on one page.">
   <div class="landscape">
     <div class="section-header" style="margin-top: var(--space-xl);">
       <h2 class="page-title">Policy Landscape</h2>
       <p class="page-subtitle">
         A structured view of {meta.total_policies} policies across {meta.total_sectors} development sectors and {types.length} policy types.
-        Cell intensity shows relative concentration — darker cells indicate higher policy activity.
+        Cell intensity shows relative concentration, and darker cells indicate higher policy activity.
       </p>
     </div>
 
@@ -41,7 +41,7 @@ const maxCell = Math.max(...allCells, 1);
     <div class="ls-tabs">
       <button class="ls-tab active" data-tab="matrix">Sectors &times; Types</button>
       <button class="ls-tab" data-tab="sources">Sources &times; Types</button>
-      <button class="ls-tab" data-tab="coverage">Coverage Analysis</button>
+      <button class="ls-tab" data-tab="coverage">Coverage analysis</button>
     </div>
 
     {/* ── Matrix: Sectors × Types ────────────────────────── */}
@@ -140,7 +140,7 @@ const maxCell = Math.max(...allCells, 1);
       <div class="coverage-grid">
         {/* Sector coverage */}
         <div class="coverage-card">
-          <h4>Sector Coverage Depth</h4>
+          <h4>Sector coverage depth</h4>
           <p class="coverage-desc">How many policy types are active in each sector (out of {types.length})</p>
           <div class="coverage-bars">
             {sectors.map(s => {
@@ -161,7 +161,7 @@ const maxCell = Math.max(...allCells, 1);
 
         {/* Type coverage */}
         <div class="coverage-card">
-          <h4>Type Coverage Across Sectors</h4>
+          <h4>Type coverage across sectors</h4>
           <p class="coverage-desc">How many sectors each policy type reaches (out of {sectors.length})</p>
           <div class="coverage-bars">
             {types.map(t => {
@@ -182,8 +182,8 @@ const maxCell = Math.max(...allCells, 1);
 
         {/* Gaps */}
         <div class="coverage-card" style="grid-column: 1 / -1;">
-          <h4>Policy Gaps</h4>
-          <p class="coverage-desc">Sector-type combinations with zero tracked policies — potential blind spots in the policy landscape</p>
+          <h4>Policy gaps</h4>
+          <p class="coverage-desc">Sector-type combinations with zero tracked policies. These may be gaps in what the tracker covers.</p>
           <div class="gaps-grid">
             {sectors.flatMap(s =>
               types
