@@ -35,26 +35,26 @@ function fieldLabel(field: string): string {
   return labels[field] || field.charAt(0).toUpperCase() + field.slice(1);
 }
 ---
-<Base title="Amendments" description="Track policy changes, amendments and text diffs across Indian government policies.">
+<Base title="Amendments" description="Changes to the tracker's own records of Indian government policy documents, such as a changed title, description, type or sector. These are not amendments to the law.">
   <div class="amendments-page">
     <div class="page-header">
       <nav class="breadcrumb">
         <a href={base}>Home</a>
         <span class="bc-sep">/</span>
-        <span>Amendments</span>
+        <span>Record changes</span>
       </nav>
-      <h1 class="page-title">Amendment tracker</h1>
-      <p class="page-desc">See when policies are updated, amended or reclassified. Each diff shows what changed.</p>
+      <h1 class="page-title">Record changes</h1>
+      <p class="page-desc">This page shows changes to the tracker's own records of each document, such as a changed title, description, type or sector. These are changes in our records, not amendments to the law. A new description is often a different summary taken from the source site, so a change here does not show that the law or the document itself changed. Each entry shows the old and the new value of the field in our record.</p>
     </div>
 
     <div class="stats-row">
       <div class="stat-card">
         <span class="stat-num">{totalAmendedPolicies}</span>
-        <span class="stat-label">Amended policies</span>
+        <span class="stat-label">Records changed</span>
       </div>
       <div class="stat-card">
         <span class="stat-num">{totalChanges}</span>
-        <span class="stat-label">Total changes tracked</span>
+        <span class="stat-label">Changes logged</span>
       </div>
     </div>
 
@@ -72,7 +72,7 @@ function fieldLabel(field: string): string {
 
     {recentAmended.length === 0 ? (
       <div class="empty-state">
-        <p>No amendments have been recorded yet. Amendment tracking begins when a policy reappears with changed text during the fetch pipeline.</p>
+        <p>No record changes have been logged yet. A change is logged when a document reappears in the fetch pipeline with a different title, description, type or sector.</p>
       </div>
     ) : (
       <div class="amendments-list" id="amendments-list">

@@ -8,7 +8,8 @@ const ministries = budget.ministry_allocations;
 const schemes = budget.major_schemes;
 
 // Helper: format crore amounts
-function fmt(n: number): string {
+function fmt(n: number | null): string {
+  if (n === null || n === undefined) return 'Not given';
   if (n >= 100000) return `${(n / 100000).toFixed(2)}L Cr`;
   return `${n.toLocaleString('en-IN')} Cr`;
 }
@@ -64,37 +65,37 @@ const years = fiscal.map(f => f.year);
   <div class="budget-page">
     <div class="budget-header">
       <h2>Union Budget tracker</h2>
-      <p>Allocations by ministry and by scheme across Union Budgets. All figures are in Rs crore.</p>
+      <p>Union Budget 2026-27 aggregates, with the 13 ministries and the major schemes that have the largest allocations. All figures are in Rs crore.</p>
     </div>
 
     {/* ── Fiscal Overview Cards ─────────────────────── */}
     <div class="fiscal-cards">
       <div class="fiscal-card">
-        <span class="fc-label">Total Expenditure</span>
+        <span class="fc-label">Total Expenditure ({latestFiscal.year} {latestFiscal.type})</span>
         <span class="fc-value">{fmt(latestFiscal.total_expenditure)}</span>
         <span class="fc-change" style={`color: ${yoyColor(latestFiscal.total_expenditure, prevFiscal.total_expenditure)};`}>
-          {yoyPct(latestFiscal.total_expenditure, prevFiscal.total_expenditure)} vs {prevFiscal.year}
+          {yoyPct(latestFiscal.total_expenditure, prevFiscal.total_expenditure)} vs {prevFiscal.year} {prevFiscal.type}
         </span>
       </div>
       <div class="fiscal-card">
-        <span class="fc-label">Capital Expenditure</span>
+        <span class="fc-label">Capital Expenditure ({latestFiscal.year} {latestFiscal.type})</span>
         <span class="fc-value">{fmt(latestFiscal.capital_expenditure)}</span>
         <span class="fc-change" style={`color: ${yoyColor(latestFiscal.capital_expenditure, prevFiscal.capital_expenditure)};`}>
-          {yoyPct(latestFiscal.capital_expenditure, prevFiscal.capital_expenditure)} vs {prevFiscal.year}
+          {yoyPct(latestFiscal.capital_expenditure, prevFiscal.capital_expenditure)} vs {prevFiscal.year} {prevFiscal.type}
         </span>
       </div>
       <div class="fiscal-card">
-        <span class="fc-label">Fiscal Deficit</span>
+        <span class="fc-label">Fiscal Deficit ({latestFiscal.year} {latestFiscal.type})</span>
         <span class="fc-value">{latestFiscal.fiscal_deficit_pct_gdp}% of GDP</span>
         <span class="fc-change" style={`color: ${latestFiscal.fiscal_deficit_pct_gdp <= prevFiscal.fiscal_deficit_pct_gdp ? '#16a34a' : '#dc2626'};`}>
-          {prevFiscal.fiscal_deficit_pct_gdp}% in {prevFiscal.year}
+          {prevFiscal.fiscal_deficit_pct_gdp}% in {prevFiscal.year} {prevFiscal.type}
         </span>
       </div>
       <div class="fiscal-card">
         <span class="fc-label">Capex as % of Total</span>
         <span class="fc-value">{(latestFiscal.capital_expenditure / latestFiscal.total_expenditure * 100).toFixed(1)}%</span>
         <span class="fc-change" style="color: var(--color-text-muted);">
-          {(prevFiscal.capital_expenditure / prevFiscal.total_expenditure * 100).toFixed(1)}% in {prevFiscal.year}
+          {(prevFiscal.capital_expenditure / prevFiscal.total_expenditure * 100).toFixed(1)}% in {prevFiscal.year} {prevFiscal.type}
         </span>
       </div>
     </div>
@@ -139,7 +140,7 @@ const years = fiscal.map(f => f.year);
     {/* ── Sector Allocation Bars ──────────────────────── */}
     <div class="budget-section">
       <h3>Allocations by sector</h3>
-      <p class="section-sub">Combined ministry allocations mapped to policy sectors ({latestFiscal.year} BE)</p>
+      <p class="section-sub">Allocations of the 13 ministries listed below, grouped by policy sector ({latestFiscal.year} {latestFiscal.type}). The change is against the {prevFiscal.year} {prevFiscal.type}. Ministries outside the 13 are not included, so these are not sector totals for the whole Budget.</p>
       <div class="alloc-bars">
         {sortedSectors.map(([sector, totals]) => (
           <div class="alloc-row">
@@ -159,15 +160,15 @@ const years = fiscal.map(f => f.year);
     {/* ── Ministry Breakdown ──────────────────────────── */}
     <div class="budget-section">
       <h3>Ministry-wise allocations</h3>
-      <p class="section-sub">Top 20 ministries by {latestFiscal.year} Budget Estimate</p>
+      <p class="section-sub">The 13 ministries with the largest allocations in the {latestFiscal.year} Budget Estimate. The change shown is the {latestFiscal.year} BE against the {prevFiscal.year} RE.</p>
       <div class="table-wrap">
         <table class="budget-table ministry-table">
           <thead>
             <tr>
               <th>Ministry</th>
               <th>Sector</th>
-              {sortedMinistries[0]?.allocations.map(a => <th>{a.year}</th>)}
-              <th>YoY</th>
+              {sortedMinistries[0]?.allocations.map(a => <th>{a.year}<br/><span class="th-type">({a.type})</span></th>)}
+              <th>Change on previous column</th>
             </tr>
           </thead>
           <tbody>
@@ -193,7 +194,7 @@ const years = fiscal.map(f => f.year);
     {/* ── Major Schemes ──────────────────────────────── */}
     <div class="budget-section">
       <h3>Flagship scheme allocations</h3>
-      <p class="section-sub">Year-on-year allocations for India's largest government schemes</p>
+      <p class="section-sub">Allocations for the major schemes that the PRS analysis of the 2026-27 Budget lists. Columns are Actuals 2024-25, Budget Estimate 2025-26, Revised Estimate 2025-26 and Budget Estimate 2026-27.</p>
       <div class="scheme-grid">
         {sortedSchemes.map(s => {
           const latest = s.allocations[s.allocations.length - 1];
@@ -211,11 +212,12 @@ const years = fiscal.map(f => f.year);
                   {yoyPct(latest.amount, prev?.amount || 0)}
                 </span>
               </div>
+              {(s as any).note && <p class="scheme-note">{(s as any).note}</p>}
               <div class="scheme-sparkline">
                 {s.allocations.map(a => (
-                  <div class="scheme-spark-wrap" title={`${a.year}: ${fmt(a.amount)}`}>
+                  <div class="scheme-spark-wrap" title={`${a.year} ${a.type}: ${fmt(a.amount)}`}>
                     <div class="scheme-spark-bar" style={`height: ${Math.max((a.amount / maxInScheme) * 100, 4)}%;`}></div>
-                    <span class="scheme-spark-year">{a.year.split('-')[0]}</span>
+                    <span class="scheme-spark-year">{a.year.split('-')[0]} {a.type}</span>
                   </div>
                 ))}
               </div>
@@ -226,7 +228,7 @@ const years = fiscal.map(f => f.year);
     </div>
 
     <div class="budget-footnote">
-      <p>Source: Union Budget documents, indiabudget.gov.in. BE = Budget Estimate, RE = Revised Estimate, AE = Actual Expenditure.
+      <p>Sources: Budget at a Glance 2026-27 (indiabudget.gov.in) for total expenditure, capital expenditure and the fiscal deficit, except 2023-24, which is from the PRS Legislative Research analysis of Union Budget 2025-26. Ministry and scheme figures are from Tables 4 and 6 of the PRS Legislative Research analysis of Union Budget 2026-27, which reads them from the Expenditure Budget and Expenditure Profile. GDP is the NSO advance estimate for 2025-26 and the estimate used in the 2026-27 Budget. AE = Actuals, BE = Budget Estimate, RE = Revised Estimate.
       All figures in Rs crore (1 crore = 10 million). "L Cr" = lakh crore (1 lakh crore = 1 trillion).</p>
     </div>
   </div>
@@ -434,6 +436,12 @@ const years = fiscal.map(f => f.year);
     font-size: 1.125rem;
     font-weight: 700;
     color: var(--color-accent);
+  }
+  .scheme-note {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 0 0 12px;
+    line-height: 1.4;
   }
   .scheme-meta {
     display: flex;

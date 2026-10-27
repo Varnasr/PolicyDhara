@@ -1,397 +1,730 @@
 {
   "metadata": {
-    "description": "Union Budget allocations by ministry and sector — curated from indiabudget.gov.in",
+    "description": "Union Budget aggregates, ministry allocations and major scheme allocations, Union Budget 2026-27",
     "currency": "INR",
     "unit": "crore",
-    "note": "BE = Budget Estimate, RE = Revised Estimate, AE = Actual Expenditure. All figures in Rs crore.",
-    "last_updated": "2026-03-04",
-    "source": "Union Budget documents, Expenditure Budget Vol. I & II, indiabudget.gov.in"
+    "note": "AE = Actuals, BE = Budget Estimate, RE = Revised Estimate. All figures in Rs crore. For each year the columns shown are the ones the source documents give: Actuals 2024-25, Budget Estimate and Revised Estimate 2025-26, Budget Estimate 2026-27. Fiscal summary figures are from Budget at a Glance 2026-27 (indiabudget.gov.in), except 2023-24 Actuals, which are from the PRS Legislative Research analysis of Union Budget 2025-26. Ministry and scheme figures are from Tables 4 and 6 of the PRS Legislative Research analysis of Union Budget 2026-27, which reads them from the Expenditure Budget and the Expenditure Profile. Figures for PM Awas Yojana - Urban in 2026-27 are the corrected figures PRS issued on 2 February 2026.",
+    "last_updated": "2026-10-27",
+    "source": "Budget at a Glance 2026-27, indiabudget.gov.in; PRS Legislative Research, Union Budget 2026-27 Analysis and Union Budget 2025-26 Analysis"
   },
   "fiscal_summary": [
-    { "year": "2020-21", "total_expenditure": 3442135, "revenue_expenditure": 2630145, "capital_expenditure": 411946, "fiscal_deficit_pct_gdp": 9.2, "gdp_estimate": 19740000, "type": "AE" },
-    { "year": "2021-22", "total_expenditure": 3783589, "revenue_expenditure": 2992253, "capital_expenditure": 554236, "fiscal_deficit_pct_gdp": 6.7, "gdp_estimate": 23504000, "type": "AE" },
-    { "year": "2022-23", "total_expenditure": 4137734, "revenue_expenditure": 3175015, "capital_expenditure": 716642, "fiscal_deficit_pct_gdp": 6.4, "gdp_estimate": 27245000, "type": "AE" },
-    { "year": "2023-24", "total_expenditure": 4496883, "revenue_expenditure": 3361971, "capital_expenditure": 966375, "fiscal_deficit_pct_gdp": 5.6, "gdp_estimate": 29590000, "type": "RE" },
-    { "year": "2024-25", "total_expenditure": 4818420, "revenue_expenditure": 3568137, "capital_expenditure": 1111111, "fiscal_deficit_pct_gdp": 4.9, "gdp_estimate": 32680000, "type": "RE" },
-    { "year": "2025-26", "total_expenditure": 5010449, "revenue_expenditure": 3698849, "capital_expenditure": 1150980, "fiscal_deficit_pct_gdp": 4.4, "gdp_estimate": 35685000, "type": "BE" }
+    {
+      "year": "2023-24",
+      "total_expenditure": 4443447,
+      "revenue_expenditure": 3494252,
+      "capital_expenditure": 949195,
+      "fiscal_deficit_pct_gdp": 5.6,
+      "gdp_estimate": null,
+      "type": "AE"
+    },
+    {
+      "year": "2024-25",
+      "total_expenditure": 4652867,
+      "revenue_expenditure": 3600914,
+      "capital_expenditure": 1051953,
+      "fiscal_deficit_pct_gdp": 4.8,
+      "gdp_estimate": null,
+      "type": "AE"
+    },
+    {
+      "year": "2025-26",
+      "total_expenditure": 5065345,
+      "revenue_expenditure": 3944255,
+      "capital_expenditure": 1121090,
+      "fiscal_deficit_pct_gdp": 4.4,
+      "gdp_estimate": null,
+      "type": "BE"
+    },
+    {
+      "year": "2025-26",
+      "total_expenditure": 4964842,
+      "revenue_expenditure": 3869087,
+      "capital_expenditure": 1095755,
+      "fiscal_deficit_pct_gdp": 4.4,
+      "gdp_estimate": 35713886,
+      "type": "RE"
+    },
+    {
+      "year": "2026-27",
+      "total_expenditure": 5347315,
+      "revenue_expenditure": 4125494,
+      "capital_expenditure": 1221821,
+      "fiscal_deficit_pct_gdp": 4.3,
+      "gdp_estimate": 39300393,
+      "type": "BE",
+      "fiscal_deficit_amount": 1695768
+    }
   ],
   "ministry_allocations": [
     {
       "ministry": "Ministry of Defence",
       "sector": "Defence & Security",
       "allocations": [
-        { "year": "2021-22", "amount": 478196, "type": "AE" },
-        { "year": "2022-23", "amount": 525166, "type": "AE" },
-        { "year": "2023-24", "amount": 593538, "type": "RE" },
-        { "year": "2024-25", "amount": 621541, "type": "RE" },
-        { "year": "2025-26", "amount": 679800, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 636003,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 681210,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 732512,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 784678,
+          "type": "BE"
+        }
       ]
     },
     {
       "ministry": "Ministry of Road Transport & Highways",
       "sector": "Transport & Infrastructure",
       "allocations": [
-        { "year": "2021-22", "amount": 157324, "type": "AE" },
-        { "year": "2022-23", "amount": 203455, "type": "AE" },
-        { "year": "2023-24", "amount": 271401, "type": "RE" },
-        { "year": "2024-25", "amount": 278000, "type": "RE" },
-        { "year": "2025-26", "amount": 296000, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 299460,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 287333,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 287142,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 309875,
+          "type": "BE"
+        }
       ]
     },
     {
       "ministry": "Ministry of Railways",
       "sector": "Transport & Infrastructure",
       "allocations": [
-        { "year": "2021-22", "amount": 110055, "type": "AE" },
-        { "year": "2022-23", "amount": 159296, "type": "AE" },
-        { "year": "2023-24", "amount": 255400, "type": "RE" },
-        { "year": "2024-25", "amount": 275200, "type": "RE" },
-        { "year": "2025-26", "amount": 272000, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Rural Development",
-      "sector": "Rural Development",
-      "allocations": [
-        { "year": "2021-22", "amount": 157405, "type": "AE" },
-        { "year": "2022-23", "amount": 163513, "type": "AE" },
-        { "year": "2023-24", "amount": 168655, "type": "RE" },
-        { "year": "2024-25", "amount": 176480, "type": "RE" },
-        { "year": "2025-26", "amount": 187223, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Education",
-      "sector": "Education",
-      "allocations": [
-        { "year": "2021-22", "amount": 88002, "type": "AE" },
-        { "year": "2022-23", "amount": 104278, "type": "AE" },
-        { "year": "2023-24", "amount": 112899, "type": "RE" },
-        { "year": "2024-25", "amount": 120628, "type": "RE" },
-        { "year": "2025-26", "amount": 125638, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Health & Family Welfare",
-      "sector": "Health",
-      "allocations": [
-        { "year": "2021-22", "amount": 80026, "type": "AE" },
-        { "year": "2022-23", "amount": 82921, "type": "AE" },
-        { "year": "2023-24", "amount": 85025, "type": "RE" },
-        { "year": "2024-25", "amount": 89287, "type": "RE" },
-        { "year": "2025-26", "amount": 99858, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Agriculture & Farmers Welfare",
-      "sector": "Agriculture",
-      "allocations": [
-        { "year": "2021-22", "amount": 112403, "type": "AE" },
-        { "year": "2022-23", "amount": 113793, "type": "AE" },
-        { "year": "2023-24", "amount": 119744, "type": "RE" },
-        { "year": "2024-25", "amount": 128550, "type": "RE" },
-        { "year": "2025-26", "amount": 152370, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 255263,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 255445,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 255466,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 281377,
+          "type": "BE"
+        }
       ]
     },
     {
       "ministry": "Ministry of Home Affairs",
       "sector": "Defence & Security",
       "allocations": [
-        { "year": "2021-22", "amount": 166547, "type": "AE" },
-        { "year": "2022-23", "amount": 185776, "type": "AE" },
-        { "year": "2023-24", "amount": 196035, "type": "RE" },
-        { "year": "2024-25", "amount": 203550, "type": "RE" },
-        { "year": "2025-26", "amount": 219643, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 224585,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 233211,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 241485,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 255234,
+          "type": "BE"
+        }
       ]
     },
     {
-      "ministry": "Ministry of Housing & Urban Affairs",
-      "sector": "Urban Development",
+      "ministry": "Ministry of Consumer Affairs, Food & Public Distribution",
+      "sector": "Food Security",
       "allocations": [
-        { "year": "2021-22", "amount": 54581, "type": "AE" },
-        { "year": "2022-23", "amount": 76432, "type": "AE" },
-        { "year": "2023-24", "amount": 78954, "type": "RE" },
-        { "year": "2024-25", "amount": 82577, "type": "RE" },
-        { "year": "2025-26", "amount": 93872, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 215009,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 215767,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 238409,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 239521,
+          "type": "BE"
+        }
       ]
     },
     {
-      "ministry": "Ministry of Women & Child Development",
-      "sector": "Gender & Women",
+      "ministry": "Ministry of Rural Development",
+      "sector": "Rural Development",
       "allocations": [
-        { "year": "2021-22", "amount": 24435, "type": "AE" },
-        { "year": "2022-23", "amount": 25172, "type": "AE" },
-        { "year": "2023-24", "amount": 25449, "type": "RE" },
-        { "year": "2024-25", "amount": 26092, "type": "RE" },
-        { "year": "2025-26", "amount": 28815, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 179307,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 190406,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 188753,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 197023,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Chemicals & Fertilisers",
+      "sector": "Fertilisers & Chemicals",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 184993,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 161965,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 191186,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 177061,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "sector": "Agriculture",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 139744,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 137757,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 133370,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 140529,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Education",
+      "sector": "Education",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 110736,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 128650,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 121949,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 139289,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Health & Family Welfare",
+      "sector": "Health",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 90684,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 99859,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 96854,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 106530,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Communications",
+      "sector": "Digital & Technology",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 147832,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 108105,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 79768,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 102267,
+          "type": "BE"
+        }
       ]
     },
     {
       "ministry": "Ministry of Jal Shakti",
       "sector": "Water & Sanitation",
       "allocations": [
-        { "year": "2021-22", "amount": 55768, "type": "AE" },
-        { "year": "2022-23", "amount": 61624, "type": "AE" },
-        { "year": "2023-24", "amount": 70000, "type": "RE" },
-        { "year": "2024-25", "amount": 75532, "type": "RE" },
-        { "year": "2025-26", "amount": 81554, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 46720,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 99503,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 41437,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 94808,
+          "type": "BE"
+        }
       ]
     },
     {
-      "ministry": "Ministry of Labour & Employment",
-      "sector": "Labour & Employment",
+      "ministry": "Ministry of Housing & Urban Affairs",
+      "sector": "Urban Development",
       "allocations": [
-        { "year": "2021-22", "amount": 13306, "type": "AE" },
-        { "year": "2022-23", "amount": 13219, "type": "AE" },
-        { "year": "2023-24", "amount": 13475, "type": "RE" },
-        { "year": "2024-25", "amount": 14560, "type": "RE" },
-        { "year": "2025-26", "amount": 17966, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Electronics & IT",
-      "sector": "Digital & Technology",
-      "allocations": [
-        { "year": "2021-22", "amount": 9653, "type": "AE" },
-        { "year": "2022-23", "amount": 14850, "type": "AE" },
-        { "year": "2023-24", "amount": 16549, "type": "RE" },
-        { "year": "2024-25", "amount": 21936, "type": "RE" },
-        { "year": "2025-26", "amount": 26490, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Environment, Forest & Climate Change",
-      "sector": "Climate & Environment",
-      "allocations": [
-        { "year": "2021-22", "amount": 2870, "type": "AE" },
-        { "year": "2022-23", "amount": 3030, "type": "AE" },
-        { "year": "2023-24", "amount": 3079, "type": "RE" },
-        { "year": "2024-25", "amount": 3265, "type": "RE" },
-        { "year": "2025-26", "amount": 3418, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of New & Renewable Energy",
-      "sector": "Energy",
-      "allocations": [
-        { "year": "2021-22", "amount": 6397, "type": "AE" },
-        { "year": "2022-23", "amount": 7325, "type": "AE" },
-        { "year": "2023-24", "amount": 10222, "type": "RE" },
-        { "year": "2024-25", "amount": 12850, "type": "RE" },
-        { "year": "2025-26", "amount": 20952, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Power",
-      "sector": "Energy",
-      "allocations": [
-        { "year": "2021-22", "amount": 15855, "type": "AE" },
-        { "year": "2022-23", "amount": 17471, "type": "AE" },
-        { "year": "2023-24", "amount": 18903, "type": "RE" },
-        { "year": "2024-25", "amount": 20502, "type": "RE" },
-        { "year": "2025-26", "amount": 21737, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Commerce & Industry",
-      "sector": "Trade & Commerce",
-      "allocations": [
-        { "year": "2021-22", "amount": 5765, "type": "AE" },
-        { "year": "2022-23", "amount": 6804, "type": "AE" },
-        { "year": "2023-24", "amount": 7371, "type": "RE" },
-        { "year": "2024-25", "amount": 8068, "type": "RE" },
-        { "year": "2025-26", "amount": 9602, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Science & Technology",
-      "sector": "Science & Innovation",
-      "allocations": [
-        { "year": "2021-22", "amount": 14606, "type": "AE" },
-        { "year": "2022-23", "amount": 16361, "type": "AE" },
-        { "year": "2023-24", "amount": 16928, "type": "RE" },
-        { "year": "2024-25", "amount": 17006, "type": "RE" },
-        { "year": "2025-26", "amount": 18623, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Tribal Affairs",
-      "sector": "Tribal & Indigenous",
-      "allocations": [
-        { "year": "2021-22", "amount": 7331, "type": "AE" },
-        { "year": "2022-23", "amount": 8451, "type": "AE" },
-        { "year": "2023-24", "amount": 11969, "type": "RE" },
-        { "year": "2024-25", "amount": 13000, "type": "RE" },
-        { "year": "2025-26", "amount": 14384, "type": "BE" }
-      ]
-    },
-    {
-      "ministry": "Ministry of Social Justice & Empowerment",
-      "sector": "Social Protection",
-      "allocations": [
-        { "year": "2021-22", "amount": 10518, "type": "AE" },
-        { "year": "2022-23", "amount": 11431, "type": "AE" },
-        { "year": "2023-24", "amount": 12449, "type": "RE" },
-        { "year": "2024-25", "amount": 13200, "type": "RE" },
-        { "year": "2025-26", "amount": 14817, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 53255,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 96777,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 57204,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 85522,
+          "type": "BE"
+        }
       ]
     }
   ],
   "major_schemes": [
     {
-      "scheme": "MGNREGA",
-      "ministry": "Ministry of Rural Development",
+      "scheme": "VB-G RAM G (replaced MGNREGA)",
       "sector": "Rural Development",
       "allocations": [
-        { "year": "2021-22", "amount": 98468, "type": "AE" },
-        { "year": "2022-23", "amount": 89400, "type": "AE" },
-        { "year": "2023-24", "amount": 86000, "type": "RE" },
-        { "year": "2024-25", "amount": 86000, "type": "RE" },
-        { "year": "2025-26", "amount": 86000, "type": "BE" }
+        {
+          "year": "2026-27",
+          "amount": 95692,
+          "type": "BE"
+        }
+      ],
+      "note": "The VB-G RAM G Act, passed by Parliament in December 2025, replaced the Mahatma Gandhi National Rural Employment Guarantee Act. The Ministry of Rural Development notified it in force from 1 July 2026, and MGNREGA stands repealed from that date."
+    },
+    {
+      "scheme": "MGNREGS",
+      "sector": "Rural Development",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 85834,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 86000,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 88000,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 30000,
+          "type": "BE"
+        }
+      ],
+      "note": "Allocation under the earlier scheme. MGNREGA stands repealed from 1 July 2026."
+    },
+    {
+      "scheme": "Jal Jeevan Mission / National Rural Drinking Water Mission",
+      "sector": "Water & Sanitation",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 22612,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 67000,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 17000,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 67670,
+          "type": "BE"
+        }
       ]
     },
     {
       "scheme": "PM-KISAN",
-      "ministry": "Ministry of Agriculture & Farmers Welfare",
       "sector": "Agriculture",
       "allocations": [
-        { "year": "2021-22", "amount": 67032, "type": "AE" },
-        { "year": "2022-23", "amount": 60000, "type": "AE" },
-        { "year": "2023-24", "amount": 60000, "type": "RE" },
-        { "year": "2024-25", "amount": 60000, "type": "RE" },
-        { "year": "2025-26", "amount": 60000, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 66121,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 63500,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 63500,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 63500,
+          "type": "BE"
+        }
       ]
     },
     {
-      "scheme": "Ayushman Bharat PM-JAY",
-      "ministry": "Ministry of Health & Family Welfare",
-      "sector": "Health",
-      "allocations": [
-        { "year": "2021-22", "amount": 3199, "type": "AE" },
-        { "year": "2022-23", "amount": 6412, "type": "AE" },
-        { "year": "2023-24", "amount": 7200, "type": "RE" },
-        { "year": "2024-25", "amount": 7500, "type": "RE" },
-        { "year": "2025-26", "amount": 7500, "type": "BE" }
-      ]
-    },
-    {
-      "scheme": "Jal Jeevan Mission",
-      "ministry": "Ministry of Jal Shakti",
-      "sector": "Water & Sanitation",
-      "allocations": [
-        { "year": "2021-22", "amount": 45011, "type": "AE" },
-        { "year": "2022-23", "amount": 55000, "type": "AE" },
-        { "year": "2023-24", "amount": 60000, "type": "RE" },
-        { "year": "2024-25", "amount": 67000, "type": "RE" },
-        { "year": "2025-26", "amount": 69597, "type": "BE" }
-      ]
-    },
-    {
-      "scheme": "PMAY - Gramin (Rural Housing)",
-      "ministry": "Ministry of Rural Development",
+      "scheme": "Pradhan Mantri Awas Yojana - Rural",
       "sector": "Housing",
       "allocations": [
-        { "year": "2021-22", "amount": 19865, "type": "AE" },
-        { "year": "2022-23", "amount": 48438, "type": "AE" },
-        { "year": "2023-24", "amount": 54500, "type": "RE" },
-        { "year": "2024-25", "amount": 55500, "type": "RE" },
-        { "year": "2025-26", "amount": 60000, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 32327,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 54832,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 32500,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 54917,
+          "type": "BE"
+        }
       ]
     },
     {
-      "scheme": "PMAY - Urban (Urban Housing)",
-      "ministry": "Ministry of Housing & Urban Affairs",
-      "sector": "Housing",
-      "allocations": [
-        { "year": "2021-22", "amount": 8035, "type": "AE" },
-        { "year": "2022-23", "amount": 25103, "type": "AE" },
-        { "year": "2023-24", "amount": 30000, "type": "RE" },
-        { "year": "2024-25", "amount": 30170, "type": "RE" },
-        { "year": "2025-26", "amount": 33780, "type": "BE" }
-      ]
-    },
-    {
-      "scheme": "National Education Mission (Samagra Shiksha + others)",
-      "ministry": "Ministry of Education",
+      "scheme": "Samagra Shiksha",
       "sector": "Education",
       "allocations": [
-        { "year": "2021-22", "amount": 30796, "type": "AE" },
-        { "year": "2022-23", "amount": 35211, "type": "AE" },
-        { "year": "2023-24", "amount": 38500, "type": "RE" },
-        { "year": "2024-25", "amount": 39553, "type": "RE" },
-        { "year": "2025-26", "amount": 42782, "type": "BE" }
-      ]
-    },
-    {
-      "scheme": "PM Ujjwala Yojana",
-      "ministry": "Ministry of Petroleum & Natural Gas",
-      "sector": "Energy",
-      "allocations": [
-        { "year": "2021-22", "amount": 800, "type": "AE" },
-        { "year": "2022-23", "amount": 1650, "type": "AE" },
-        { "year": "2023-24", "amount": 1800, "type": "RE" },
-        { "year": "2024-25", "amount": 1650, "type": "RE" },
-        { "year": "2025-26", "amount": 1800, "type": "BE" }
-      ]
-    },
-    {
-      "scheme": "Swachh Bharat Mission",
-      "ministry": "Ministry of Jal Shakti",
-      "sector": "Water & Sanitation",
-      "allocations": [
-        { "year": "2021-22", "amount": 6025, "type": "AE" },
-        { "year": "2022-23", "amount": 7192, "type": "AE" },
-        { "year": "2023-24", "amount": 7650, "type": "RE" },
-        { "year": "2024-25", "amount": 8100, "type": "RE" },
-        { "year": "2025-26", "amount": 8500, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 36288,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 41250,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 38000,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 42100,
+          "type": "BE"
+        }
       ]
     },
     {
       "scheme": "National Health Mission",
-      "ministry": "Ministry of Health & Family Welfare",
       "sector": "Health",
       "allocations": [
-        { "year": "2021-22", "amount": 30246, "type": "AE" },
-        { "year": "2022-23", "amount": 30682, "type": "AE" },
-        { "year": "2023-24", "amount": 32006, "type": "RE" },
-        { "year": "2024-25", "amount": 33809, "type": "RE" },
-        { "year": "2025-26", "amount": 38242, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 38889,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 37227,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 37100,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 39390,
+          "type": "BE"
+        }
       ]
     },
     {
-      "scheme": "PM Gram Sadak Yojana",
-      "ministry": "Ministry of Rural Development",
-      "sector": "Transport & Infrastructure",
+      "scheme": "Saksham Anganwadi and POSHAN 2.0",
+      "sector": "Nutrition & Child Development",
       "allocations": [
-        { "year": "2021-22", "amount": 14000, "type": "AE" },
-        { "year": "2022-23", "amount": 19000, "type": "AE" },
-        { "year": "2023-24", "amount": 19000, "type": "RE" },
-        { "year": "2024-25", "amount": 19500, "type": "RE" },
-        { "year": "2025-26", "amount": 20500, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 21014,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 21960,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 20949,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 23100,
+          "type": "BE"
+        }
       ]
     },
     {
-      "scheme": "Smart Cities Mission",
-      "ministry": "Ministry of Housing & Urban Affairs",
-      "sector": "Urban Development",
+      "scheme": "Modified Interest Subvention Scheme",
+      "sector": "Agriculture",
       "allocations": [
-        { "year": "2021-22", "amount": 6450, "type": "AE" },
-        { "year": "2022-23", "amount": 8000, "type": "AE" },
-        { "year": "2023-24", "amount": 8000, "type": "RE" },
-        { "year": "2024-25", "amount": 2400, "type": "RE" },
-        { "year": "2025-26", "amount": 1500, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 22600,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 22600,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 22600,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 22600,
+          "type": "BE"
+        }
       ]
     },
     {
-      "scheme": "PLI Schemes (Production Linked Incentive)",
-      "ministry": "Ministry of Commerce & Industry",
-      "sector": "Trade & Commerce",
+      "scheme": "Pradhan Mantri Awas Yojana - Urban",
+      "sector": "Housing",
       "allocations": [
-        { "year": "2021-22", "amount": 941, "type": "AE" },
-        { "year": "2022-23", "amount": 3420, "type": "AE" },
-        { "year": "2023-24", "amount": 8500, "type": "RE" },
-        { "year": "2024-25", "amount": 11500, "type": "RE" },
-        { "year": "2025-26", "amount": 14800, "type": "BE" }
+        {
+          "year": "2024-25",
+          "amount": 5865,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 25794,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 7900,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 22025,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "scheme": "PM Surya Ghar Muft Bijli Yojana",
+      "sector": "Energy",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 7818,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 20000,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 17000,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 22000,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "scheme": "PM Viksit Bharat Rozgar Yojana",
+      "sector": "Labour & Employment",
+      "allocations": [
+        {
+          "year": "2026-27",
+          "amount": 20083,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "scheme": "Bharatnet",
+      "sector": "Digital & Technology",
+      "allocations": [
+        {
+          "year": "2024-25",
+          "amount": 3995,
+          "type": "AE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 22000,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 5500,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 20000,
+          "type": "BE"
+        }
+      ]
+    },
+    {
+      "scheme": "Research, Development and Innovation (RDI) Scheme",
+      "sector": "Science & Innovation",
+      "allocations": [
+        {
+          "year": "2025-26",
+          "amount": 20000,
+          "type": "BE"
+        },
+        {
+          "year": "2025-26",
+          "amount": 3000,
+          "type": "RE"
+        },
+        {
+          "year": "2026-27",
+          "amount": 20000,
+          "type": "BE"
+        }
       ]
     }
   ]

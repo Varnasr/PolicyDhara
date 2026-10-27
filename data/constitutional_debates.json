@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "description": "Curated Constituent Assembly debates (1946-1949) that seeded modern Indian policy, mapped to PolicyDhara sectors. Each entry links a founding debate to the acts, amendments and schemes that trace back to it.",
+    "description": "Curated Constituent Assembly debates (1946 to 1950) that seeded modern Indian policy, mapped to PolicyDhara sectors. Each entry links a founding debate to the acts, amendments and schemes that trace back to it.",
     "source": "Constituent Assembly Debates (12 volumes), via constitutionofindia.net (Centre for Law and Policy Research) and eparlib.nic.in",
     "curated": true,
     "period": "1946-12-09 to 1950-01-24",
-    "last_reviewed": "2026-07-18"
+    "last_reviewed": "2026-10-27",
+    "review_note": "Dates, movers and outcomes of the entries were re-read against the Constituent Assembly Debates on constitutionofindia.net on 27 October 2026."
   },
   "debates": [
     {
@@ -12,11 +13,21 @@
       "topic": "The Objectives Resolution",
       "date": "1946-12-13",
       "volume": "I",
-      "articles": ["Preamble"],
-      "sectors": ["Governance & Reform", "Civil Liberties", "Social Protection"],
+      "articles": [
+        "Preamble"
+      ],
+      "sectors": [
+        "Governance & Reform",
+        "Civil Liberties",
+        "Social Protection"
+      ],
       "summary": "Jawaharlal Nehru moved the Resolution on Aims and Objects, declaring India's resolve to become an independent sovereign republic guaranteeing justice, equality and freedom of thought, expression, belief, faith and worship, with adequate safeguards for minorities, backward and tribal areas. Adopted on 22 January 1947, it became the philosophical charter for the entire Constitution.",
-      "key_voices": ["Jawaharlal Nehru", "Purushottam Das Tandon", "M. R. Jayakar"],
-      "legacy": "The Resolution's language survives almost verbatim in the Preamble, which courts still use to test legislation — from the basic structure doctrine (Kesavananda Bharati, 1973) to modern welfare and rights jurisprudence.",
+      "key_voices": [
+        "Jawaharlal Nehru",
+        "Purushottam Das Tandon",
+        "M. R. Jayakar"
+      ],
+      "legacy": "The Resolution's language survives almost verbatim in the Preamble, which courts still use to test legislation, from the basic structure doctrine (Kesavananda Bharati, 1973) to modern welfare and rights jurisprudence.",
       "link": "https://www.constitutionofindia.net/debates/13-dec-1946/"
     },
     {
@@ -24,11 +35,18 @@
       "topic": "Draft Constitution introduced",
       "date": "1948-11-04",
       "volume": "VII",
-      "articles": ["Draft Constitution (whole text)"],
-      "sectors": ["Governance & Reform"],
+      "articles": [
+        "Draft Constitution (whole text)"
+      ],
+      "sectors": [
+        "Governance & Reform"
+      ],
       "summary": "B. R. Ambedkar formally presented the Draft Constitution to the Assembly, opening a year of clause-by-clause debate. His introductory speech defended parliamentary democracy, a strong Union with federal features, and constitutional methods over village-based or Gandhian alternatives, famously questioning romanticised views of the self-sufficient village.",
-      "key_voices": ["B. R. Ambedkar", "Rajendra Prasad"],
-      "legacy": "The choice of a parliamentary Union with strong central capacity still shapes how Indian policy is made — centrally sponsored schemes, Finance Commission transfers and the Centre-state bargaining visible in every sector today.",
+      "key_voices": [
+        "B. R. Ambedkar",
+        "Rajendra Prasad"
+      ],
+      "legacy": "The choice of a parliamentary Union with strong central capacity still shapes how Indian policy is made: centrally sponsored schemes, Finance Commission transfers and the Centre-state bargaining visible in every sector today.",
       "link": "https://www.constitutionofindia.net/debates/04-nov-1948/"
     },
     {
@@ -36,11 +54,20 @@
       "topic": "Village panchayats as units of self-government",
       "date": "1948-11-22",
       "volume": "VII",
-      "articles": ["Article 40"],
-      "sectors": ["Rural Development", "Governance & Reform"],
-      "summary": "After criticism that the Draft ignored the village, K. Santhanam moved an amendment directing the State to organise village panchayats and endow them with powers of self-government. Ambedkar accepted it, and it entered the Directive Principles as Article 40 — a compromise between Gandhian decentralism and the Drafting Committee's scepticism of the village.",
-      "key_voices": ["K. Santhanam", "B. R. Ambedkar", "H. V. Kamath"],
-      "legacy": "Article 40 is the constitutional seed of the 73rd Amendment (1992), which made three-tier Panchayati Raj mandatory, and of today's rural governance stack — Gram Sabhas, MGNREGA social audits and Finance Commission grants to panchayats.",
+      "articles": [
+        "Article 40"
+      ],
+      "sectors": [
+        "Rural Development",
+        "Governance & Reform"
+      ],
+      "summary": "After criticism that the Draft ignored the village, K. Santhanam moved an amendment, as new Article 31-A of the Draft, directing the State to organise village panchayats and endow them with the powers needed to function as units of self-government. Ambedkar accepted it on 22 November 1948 and the Assembly adopted it. It became Article 40 of the Directive Principles, a compromise between Gandhian decentralism and the Drafting Committee's scepticism of the village.",
+      "key_voices": [
+        "K. Santhanam",
+        "B. R. Ambedkar",
+        "H. V. Kamath"
+      ],
+      "legacy": "Article 40 is the constitutional seed of the 73rd Amendment (1992), which made three-tier Panchayati Raj mandatory, and of today's rural governance stack: Gram Sabhas, social audits of the rural employment guarantee (MGNREGA until 1 July 2026, the VB-G RAM G Act since) and Finance Commission grants to panchayats.",
       "link": "https://www.constitutionofindia.net/debates/22-nov-1948/"
     },
     {
@@ -48,11 +75,23 @@
       "topic": "Uniform civil code",
       "date": "1948-11-23",
       "volume": "VII",
-      "articles": ["Article 44"],
-      "sectors": ["Gender & Women", "Governance & Reform", "Civil Liberties"],
-      "summary": "Draft Article 35 directed the State to endeavour to secure a uniform civil code. Muslim members, including Mohamad Ismail and Naziruddin Ahmad, moved amendments to protect personal law; K. M. Munshi, Alladi Krishnaswami Ayyar and Ambedkar defended the provision as an enabling directive rather than an immediate imposition. It was adopted as a non-justiciable Directive Principle.",
-      "key_voices": ["Mohamad Ismail", "Naziruddin Ahmad", "K. M. Munshi", "Alladi Krishnaswami Ayyar", "B. R. Ambedkar"],
-      "legacy": "The same arguments recur in every UCC debate since — the Hindu Code Acts of the 1950s, the Special Marriage Act 1954, Shah Bano and triple talaq legislation, and Uttarakhand's 2024 state-level UCC.",
+      "articles": [
+        "Article 44"
+      ],
+      "sectors": [
+        "Gender & Women",
+        "Governance & Reform",
+        "Civil Liberties"
+      ],
+      "summary": "Draft Article 35 directed the State to endeavour to secure a uniform civil code. Members including Mohammad Ismail Khan and Naziruddin Ahmad moved provisos to protect personal law, and the Assembly rejected them. K. M. Munshi, Alladi Krishnaswami Ayyar and Ambedkar defended the provision as an enabling directive. Article 35 was adopted on 23 November 1948 as a non-justiciable Directive Principle.",
+      "key_voices": [
+        "Mohammad Ismail Khan",
+        "Naziruddin Ahmad",
+        "K. M. Munshi",
+        "Alladi Krishnaswami Ayyar",
+        "B. R. Ambedkar"
+      ],
+      "legacy": "The same arguments recur in every UCC debate since: the Hindu Code Acts of the 1950s, the Special Marriage Act 1954, Shah Bano and triple talaq legislation, and Uttarakhand's Uniform Civil Code of 2024.",
       "link": "https://www.constitutionofindia.net/debates/23-nov-1948/"
     },
     {
@@ -60,11 +99,21 @@
       "topic": "Free and compulsory education",
       "date": "1948-11-23",
       "volume": "VII",
-      "articles": ["Article 45"],
-      "sectors": ["Education", "Child Rights & Youth"],
-      "summary": "Debating draft Article 36, the Assembly directed the State to provide free and compulsory education for all children up to age fourteen within ten years. Members debated whether to confine the promise to 'primary' education; the broader formulation covering all children up to fourteen prevailed, but as a Directive Principle rather than a fundamental right.",
-      "key_voices": ["B. R. Ambedkar", "Naziruddin Ahmad", "G. Durgabai"],
-      "legacy": "The unmet ten-year deadline eventually produced the 86th Amendment (2002) inserting Article 21A and the Right to Education Act 2009 — with Samagra Shiksha and NEP 2020's foundational-literacy push as its programme descendants.",
+      "articles": [
+        "Article 45"
+      ],
+      "sectors": [
+        "Education",
+        "Child Rights & Youth"
+      ],
+      "summary": "Debating draft Article 36, the Assembly directed the State to provide, within ten years of the Constitution's commencement, free and compulsory education for all children until they complete the age of fourteen. Lakshmi Kanta Maitra moved to delete the words 'every citizen is entitled to free primary education', which Ambedkar accepted. Naziruddin Ahmad's proposal to confine the promise to 'primary education' was rejected. It was adopted on 23 November 1948 as a Directive Principle and not as a fundamental right.",
+      "key_voices": [
+        "B. R. Ambedkar",
+        "Naziruddin Ahmad",
+        "Lakshmi Kanta Maitra",
+        "Biswanath Das"
+      ],
+      "legacy": "The unmet ten-year deadline eventually produced the 86th Amendment (2002) inserting Article 21A and the Right to Education Act 2009. Samagra Shiksha and the foundational-literacy push in NEP 2020 are its programme descendants.",
       "link": "https://www.constitutionofindia.net/debates/23-nov-1948/"
     },
     {
@@ -72,10 +121,20 @@
       "topic": "Abolition of untouchability",
       "date": "1948-11-29",
       "volume": "VII",
-      "articles": ["Article 17"],
-      "sectors": ["Social Protection", "Civil Liberties"],
-      "summary": "The Assembly adopted draft Article 11 abolishing 'untouchability' and making its practice in any form a punishable offence. Members debated whether the undefined term needed precision; speakers like Mono Mohan Das and Dakshayani Velayudhan insisted the clause must stand, with Velayudhan stressing that legal abolition would need active state enforcement to become real.",
-      "key_voices": ["Dakshayani Velayudhan", "Mono Mohan Das", "K. T. Shah", "Naziruddin Ahmad"],
+      "articles": [
+        "Article 17"
+      ],
+      "sectors": [
+        "Social Protection",
+        "Civil Liberties"
+      ],
+      "summary": "The Assembly adopted draft Article 11 on 29 November 1948. It provides that 'untouchability' is abolished and that its practice in any form is forbidden and punishable. Members debated whether the undefined term needed precision. K. T. Shah noted that it was nowhere defined, Naziruddin Ahmad argued about its scope, and Dakshayani Velayudhan stressed that the working of the Constitution would depend on how people conducted themselves.",
+      "key_voices": [
+        "Dakshayani Velayudhan",
+        "Mono Mohan Das",
+        "K. T. Shah",
+        "Naziruddin Ahmad"
+      ],
       "legacy": "Article 17 grounds the Protection of Civil Rights Act 1955 and the SC/ST (Prevention of Atrocities) Act 1989, and remains the constitutional basis for manual-scavenging prohibition laws and caste-discrimination enforcement today.",
       "link": "https://www.constitutionofindia.net/debates/29-nov-1948/"
     },
@@ -84,10 +143,23 @@
       "topic": "Equality of opportunity and reservation in public employment",
       "date": "1948-11-30",
       "volume": "VII",
-      "articles": ["Article 16", "Article 335"],
-      "sectors": ["Social Protection", "Labour & Employment", "Governance & Reform"],
-      "summary": "Debating draft Article 10, the Assembly guaranteed equality of opportunity in state employment while permitting reservation for backward classes. Members contested whether reservations should be time-limited, how 'backward classes' should be defined, and how representation should be balanced against administrative efficiency — tensions Ambedkar acknowledged openly in defending the clause.",
-      "key_voices": ["B. R. Ambedkar", "T. T. Krishnamachari", "Chandrika Ram", "Damodar Swarup Seth"],
+      "articles": [
+        "Article 16",
+        "Article 335"
+      ],
+      "sectors": [
+        "Social Protection",
+        "Labour & Employment",
+        "Governance & Reform"
+      ],
+      "summary": "Debating draft Article 10, the Assembly guaranteed equality of opportunity in state employment while permitting provision for backward classes. Damodar Swarup Seth moved to delete the clause on reservation, arguing that it would harm efficiency, and Chandrika Ram supported the article. The Assembly adopted Article 10, as amended, on 30 November 1948.",
+      "key_voices": [
+        "B. R. Ambedkar",
+        "K. M. Munshi",
+        "T. T. Krishnamachari",
+        "Chandrika Ram",
+        "Damodar Swarup Seth"
+      ],
       "legacy": "This debate is the direct ancestor of India's reservation architecture — the Mandal Commission and OBC reservations (1990), creamy-layer jurisprudence from Indra Sawhney (1992), and the 103rd Amendment's EWS quota (2019).",
       "link": "https://www.constitutionofindia.net/debates/30-nov-1948/"
     },
@@ -96,35 +168,67 @@
       "topic": "Political safeguards for minorities",
       "date": "1949-05-25",
       "volume": "VIII",
-      "articles": ["Article 330", "Article 332", "Article 334"],
-      "sectors": ["Social Protection", "Civil Liberties", "Governance & Reform"],
+      "articles": [
+        "Article 330",
+        "Article 332",
+        "Article 334"
+      ],
+      "sectors": [
+        "Social Protection",
+        "Civil Liberties",
+        "Governance & Reform"
+      ],
       "summary": "Sardar Patel moved the Advisory Committee's revised report recommending that reserved legislative seats for religious minorities be dropped, while retaining them for Scheduled Castes and Scheduled Tribes. Muslim members pressed to keep reserved seats or adopt proportional representation, but the Assembly accepted the report, recasting minority protection around religious and cultural rights rather than separate political representation.",
-      "key_voices": ["Vallabhbhai Patel", "Mohammad Ismail Khan", "Z. H. Lari", "Thakur Das Bhargava"],
+      "key_voices": [
+        "Vallabhbhai Patel",
+        "Mohammad Ismail Khan",
+        "Z. H. Lari",
+        "Thakur Das Bhargava"
+      ],
       "legacy": "The settlement survives today: SC/ST reservations in legislatures, repeatedly extended under Article 334, alongside minority rights protected through Articles 25-30, minority educational institutions and bodies like the National Commission for Minorities.",
       "link": "https://www.constitutionofindia.net/debates/25-may-1949/"
     },
     {
       "id": "universal-adult-franchise",
       "topic": "Universal adult franchise and an independent Election Commission",
-      "date": "1949-06",
+      "date": "1949-06-16",
       "volume": "VIII",
-      "articles": ["Article 324", "Article 326"],
-      "sectors": ["Governance & Reform", "Civil Liberties"],
-      "summary": "In June 1949 the Assembly took up the elections articles, vesting superintendence of all elections in an independent Election Commission and committing to universal adult suffrage without literacy or property qualifications — a radical act for a largely poor, newly enfranchised electorate of roughly 173 million. The franchise itself drew wide support; debate centred on election machinery and its independence from provincial governments.",
-      "key_voices": ["B. R. Ambedkar", "Alladi Krishnaswami Ayyar", "H. V. Kamath"],
-      "legacy": "This produced the Election Commission of India and the Representation of the People Acts (1950-51), the machinery behind the world's largest elections — and the ongoing policy debates over voter rolls, EVMs and simultaneous elections.",
-      "link": "https://www.constitutionofindia.net/constituent-assembly-debate/volume-8/"
+      "articles": [
+        "Article 324",
+        "Article 326"
+      ],
+      "sectors": [
+        "Governance & Reform",
+        "Civil Liberties"
+      ],
+      "summary": "On 15 and 16 June 1949 the Assembly took up the Draft's elections articles. On 15 June Ambedkar moved the new Article 289, which vests the superintendence, direction and control of elections in an Election Commission appointed by the President, and it was adopted as amended on 16 June. On 16 June the Assembly also adopted new Article 289-B, which provides that elections to the House of the People and the State Legislative Assemblies are held on the basis of adult suffrage, with every citizen aged twenty-one or more entitled to be registered as a voter unless disqualified on grounds such as non-residence, unsoundness of mind, crime or corrupt practice. Brajeshwar Prasad opposed adult franchise.",
+      "key_voices": [
+        "B. R. Ambedkar",
+        "Brajeshwar Prasad"
+      ],
+      "legacy": "This produced the Election Commission of India and the Representation of the People Acts (1950 and 1951), the machinery behind the first general election of 1951-52, whose electorate was about 17.3 crore (173 million) voters (PRS Legislative Research, from the Election Commission's Electoral Statistics Pocket Book). The same machinery is behind current debates over voter rolls, EVMs and simultaneous elections.",
+      "link": "https://www.constitutionofindia.net/debates/16-jun-1949/"
     },
     {
       "id": "emergency-powers-article-356",
       "topic": "Emergency powers over the states",
       "date": "1949-08-04",
       "volume": "IX",
-      "articles": ["Article 355", "Article 356"],
-      "sectors": ["Governance & Reform", "Civil Liberties"],
+      "articles": [
+        "Article 355",
+        "Article 356"
+      ],
+      "sectors": [
+        "Governance & Reform",
+        "Civil Liberties"
+      ],
       "summary": "Debating draft Articles 277-A and 278, the Assembly empowered the Union to take over a state government on failure of constitutional machinery. Members warned the power could be abused for political ends; Ambedkar conceded the risk but defended the provision as a necessary safeguard, expressing the hope that such articles would 'remain a dead letter'.",
-      "key_voices": ["B. R. Ambedkar", "H. N. Kunzru", "Naziruddin Ahmad"],
-      "legacy": "President's Rule was invoked over a hundred times before S. R. Bommai (1994) made its use judicially reviewable — the exact abuse-versus-safeguard tension the Assembly debated, still live in every Centre-state confrontation.",
+      "key_voices": [
+        "B. R. Ambedkar",
+        "H. N. Kunzru",
+        "Naziruddin Ahmad"
+      ],
+      "legacy": "Presidential rule under Article 356 was used many times in the decades before S. R. Bommai v. Union of India (1994), in which the Supreme Court held that a proclamation under Article 356 is subject to judicial review. The tension the Assembly debated between abuse and safeguard is still live in Centre-state disputes.",
       "link": "https://www.constitutionofindia.net/debates/04-aug-1949/"
     },
     {
@@ -132,11 +236,24 @@
       "topic": "Scheduled Areas and tribal administration",
       "date": "1949-09-05",
       "volume": "IX",
-      "articles": ["Fifth Schedule", "Sixth Schedule", "Article 244"],
-      "sectors": ["Tribal & Indigenous", "Governance & Reform", "Rural Development"],
-      "summary": "The Assembly debated the Fifth Schedule's framework for Scheduled Areas and Scheduled Tribes — Tribes Advisory Councils, Governors' powers to modify laws, and Union oversight of state administration. Jaipal Singh Munda, the Assembly's leading Adivasi voice, moved amendments to extend the Schedule's protections to all Scheduled Tribes and to strengthen the advisory councils' authority. The Sixth Schedule created autonomous district councils for the tribal areas of the Northeast.",
-      "key_voices": ["Jaipal Singh Munda", "B. R. Ambedkar", "A. V. Thakkar", "J. J. M. Nichols-Roy"],
-      "legacy": "The Fifth and Sixth Schedules underpin today's tribal policy — PESA (1996) extending panchayats to Scheduled Areas, the Forest Rights Act 2006, and the continuing autonomy demands of Sixth Schedule councils in the Northeast and Ladakh.",
+      "articles": [
+        "Fifth Schedule",
+        "Sixth Schedule",
+        "Article 244"
+      ],
+      "sectors": [
+        "Tribal & Indigenous",
+        "Governance & Reform",
+        "Rural Development"
+      ],
+      "summary": "On 5 September 1949 the Assembly took up the Fifth Schedule, on the administration and control of Scheduled Areas and Scheduled Tribes, including the Tribes Advisory Councils and the Governor's powers, and the Sixth Schedule on the tribal areas of Assam. Jaipal Singh, the Assembly's leading Adivasi voice, moved amendments to make the Tribes Advisory Councils more effective, for example by requiring the Governor to be 'advised by' rather than merely to consult them. Ambedkar moved the Schedules on behalf of the Drafting Committee. The Sixth Schedule provided for autonomous district councils.",
+      "key_voices": [
+        "Jaipal Singh",
+        "B. R. Ambedkar",
+        "A. V. Thakkar",
+        "Kuladhar Chaliha"
+      ],
+      "legacy": "The Fifth and Sixth Schedules underpin today's tribal policy. Under Article 244, the Fifth Schedule applies to Scheduled Areas and Scheduled Tribes in states other than Assam, Meghalaya, Tripura and Mizoram, and the Sixth Schedule applies to the tribal areas of those four states. PESA (1996) extended panchayats to Scheduled Areas and the Forest Rights Act 2006 recognised forest rights. Ladakh is not in the Sixth Schedule, and extending Sixth Schedule protection to Ladakh is a continuing demand from groups there.",
       "link": "https://www.constitutionofindia.net/debates/05-sep-1949/"
     },
     {
@@ -144,11 +261,22 @@
       "topic": "Right to property and land reform",
       "date": "1949-09-10",
       "volume": "IX",
-      "articles": ["Article 31"],
-      "sectors": ["Agriculture", "Finance & Economy", "Governance & Reform"],
-      "summary": "Jawaharlal Nehru moved the compromise on draft Article 24: the State could compulsorily acquire property with compensation, but the principles of compensation would be for the legislature, largely beyond judicial review — a formula designed to protect pending zamindari-abolition laws in Bihar, Madras and the United Provinces. Members split between defenders of property rights and advocates of parliamentary supremacy over land reform.",
-      "key_voices": ["Jawaharlal Nehru", "B. R. Ambedkar", "K. M. Munshi", "Shibban Lal Saxena"],
-      "legacy": "This unresolved bargain drove three decades of amendment-versus-court conflict — the First, Fourth and Twenty-fifth Amendments, Kesavananda Bharati — until the 44th Amendment (1978) demoted property to a legal right (Article 300A), with land acquisition still contested under the 2013 LARR Act.",
+      "articles": [
+        "Article 31"
+      ],
+      "sectors": [
+        "Agriculture",
+        "Finance & Economy",
+        "Governance & Reform"
+      ],
+      "summary": "Jawaharlal Nehru moved the compromise on draft Article 24: the State could compulsorily acquire property with compensation, but the principles of compensation would be for the legislature, largely beyond judicial review, a formula designed to protect pending zamindari-abolition laws in Bihar, Madras and the United Provinces. Members split between defenders of property rights and advocates of parliamentary supremacy over land reform.",
+      "key_voices": [
+        "Jawaharlal Nehru",
+        "B. R. Ambedkar",
+        "K. M. Munshi",
+        "Shibban Lal Saxena"
+      ],
+      "legacy": "This unresolved bargain drove three decades of amendment-versus-court conflict: the First, Fourth and Twenty-fifth Amendments and Kesavananda Bharati, until the 44th Amendment (1978) demoted property to a legal right (Article 300A), with land acquisition still contested under the 2013 LARR Act.",
       "link": "https://www.constitutionofindia.net/debates/10-sep-1949/"
     },
     {
@@ -156,10 +284,23 @@
       "topic": "The language question and the Munshi-Ayyangar formula",
       "date": "1949-09-14",
       "volume": "IX",
-      "articles": ["Article 343", "Article 351", "Eighth Schedule"],
-      "sectors": ["Education", "Governance & Reform"],
+      "articles": [
+        "Article 343",
+        "Article 351",
+        "Eighth Schedule"
+      ],
+      "sectors": [
+        "Education",
+        "Governance & Reform"
+      ],
       "summary": "After some of the Assembly's most heated exchanges between Hindi advocates and members from the South and Bengal, the Assembly settled the language question on 14 September 1949 through the Munshi-Ayyangar compromise: Hindi in Devanagari script as the official language of the Union, with English continuing for official purposes for fifteen years, and a schedule of recognised languages.",
-      "key_voices": ["N. Gopalaswami Ayyangar", "K. M. Munshi", "Seth Govind Das", "T. A. Ramalingam Chettiar", "Shankarrao Deo"],
+      "key_voices": [
+        "N. Gopalaswami Ayyangar",
+        "K. M. Munshi",
+        "Seth Govind Das",
+        "T. A. Ramalingam Chettiar",
+        "Shankarrao Deo"
+      ],
       "legacy": "The fifteen-year bridge became permanent through the Official Languages Act 1963 after anti-Hindi agitations; the compromise still frames the three-language formula, NEP 2020's mother-tongue instruction push, and the growth of the Eighth Schedule to 22 languages.",
       "link": "https://www.constitutionofindia.net/debates/14-sep-1949/"
     },
@@ -168,11 +309,19 @@
       "topic": "Temporary provisions for Jammu and Kashmir",
       "date": "1949-10-17",
       "volume": "X",
-      "articles": ["Article 370"],
-      "sectors": ["Governance & Reform", "Defence & Security"],
-      "summary": "N. Gopalaswami Ayyangar moved draft Article 306A giving Jammu and Kashmir a special, expressly temporary position: the Union's power would initially extend only to matters in the Instrument of Accession, with further extension requiring the concurrence of the state's government and Constituent Assembly. The Assembly adopted the article with little recorded opposition, though Maulana Hasrat Mohani questioned the discrimination between states.",
-      "key_voices": ["N. Gopalaswami Ayyangar", "Hasrat Mohani"],
-      "legacy": "Article 370 governed the Union's relationship with J&K for seventy years until its effective abrogation on 5 August 2019 and the Jammu and Kashmir Reorganisation Act — upheld by the Supreme Court in December 2023 partly on the Assembly's own 'temporary' framing.",
+      "articles": [
+        "Article 370"
+      ],
+      "sectors": [
+        "Governance & Reform",
+        "Defence & Security"
+      ],
+      "summary": "On 17 October 1949 N. Gopalaswami Ayyangar moved draft Article 306A, which gave Jammu and Kashmir a special position: Parliament's power to make laws for the State was limited to matters in the Union and Concurrent Lists that corresponded to the Instrument of Accession, and others only with the concurrence of the State's government. The Assembly adopted it the same day. Maulana Hasrat Mohani asked why the State was treated differently, and Ayyangar answered that the special conditions of Kashmir required it.",
+      "key_voices": [
+        "N. Gopalaswami Ayyangar",
+        "Hasrat Mohani"
+      ],
+      "legacy": "Article 370, headed 'Temporary provisions with respect to the State of Jammu and Kashmir', governed the Union's relationship with the State until August 2019, when presidential orders and the Jammu and Kashmir Reorganisation Act, 2019 ended its special status. The Supreme Court upheld that decision on 11 December 2023 (2023 INSC 1058), holding that Article 370 was a temporary provision.",
       "link": "https://www.constitutionofindia.net/debates/17-oct-1949/"
     },
     {
@@ -180,10 +329,18 @@
       "topic": "Ambedkar's closing address: the grammar of anarchy",
       "date": "1949-11-25",
       "volume": "XI",
-      "articles": ["Constitution as adopted"],
-      "sectors": ["Governance & Reform", "Civil Liberties", "Social Protection"],
-      "summary": "Winding up the debate a day before the Constitution's adoption, B. R. Ambedkar warned that political democracy would be at peril without social and economic democracy, that India was entering 'a life of contradictions' — equality in politics, inequality in social and economic life — and that unconstitutional methods of protest were 'the grammar of anarchy'. He cautioned against hero-worship in politics and urged constitutional morality.",
-      "key_voices": ["B. R. Ambedkar"],
+      "articles": [
+        "Constitution as adopted"
+      ],
+      "sectors": [
+        "Governance & Reform",
+        "Civil Liberties",
+        "Social Protection"
+      ],
+      "summary": "Winding up the debate a day before the Constitution's adoption, B. R. Ambedkar warned that political democracy would be at peril without social and economic democracy, that India was entering 'a life of contradictions', with equality in politics and inequality in social and economic life, and that unconstitutional methods of protest were 'the grammar of anarchy'. He cautioned against hero-worship in politics and urged constitutional morality.",
+      "key_voices": [
+        "B. R. Ambedkar"
+      ],
       "legacy": "The speech is modern India's most-cited constitutional text — invoked by courts and policymakers on welfare, reservation and dissent alike, and the standard frame for judging whether policy has closed the social and economic gap Ambedkar named.",
       "link": "https://www.constitutionofindia.net/debates/25-nov-1949/"
     }
