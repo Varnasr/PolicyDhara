@@ -251,6 +251,62 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "asha-women-groups-eastern-india",
+      "title": "Women's groups run by ASHAs in Jharkhand and Odisha",
+      "area": "Health",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Jharkhand",
+          "Odisha"
+        ]
+      },
+      "period": "Women's group meetings September 2010 to March 2013; neonatal deaths assessed January 2011 to December 2012",
+      "intervention": "Accredited Social Health Activists (ASHAs) ran a cycle of participatory learning and action meetings in which women's groups identified maternal and newborn health problems, chose strategies, put them into practice and assessed progress. The 152 ASHAs selected received 11 days of training from the NGO Ekjut on top of their government training, and were paid INR 200 for each meeting.",
+      "verdict": "worked",
+      "verdict_basis": "The trial's primary outcome was neonatal mortality. It was 30 per 1000 livebirths in intervention clusters and 44 per 1000 in control clusters, an odds ratio of 0.69 (95% CI 0.53 to 0.89), a significant reduction. Stillbirths, perinatal deaths and maternal deaths showed no significant difference.",
+      "design": "rct",
+      "design_detail": "Cluster-randomised controlled trial. Thirty clusters of about 5,000 people across five rural districts were randomly assigned 1:1, stratified by district, to women's groups or control. The data collection team was masked to allocation. One intervention cluster was excluded because data quality could not be verified after law and order problems, and the analysis was by intention to treat.",
+      "sample": "30 clusters (estimated population 156,519); 7,219 births in 29 clusters during the 24-month assessment period, 3,700 in the intervention group and 3,519 in the control group.",
+      "effects": [
+        {
+          "outcome": "Neonatal mortality (primary outcome)",
+          "result": "30 per 1000 livebirths in the intervention group against 44 per 1000 in the control group; odds ratio 0.69",
+          "interval_or_se": "95% CI 0.53 to 0.89",
+          "quote": "The neonatal mortality rate during this period was 30 per 1000 livebirths in the intervention group and 44 per 1000 livebirths in the control group (odds ratio [OR] 0.69, 95% CI 0.53 to 0.89).",
+          "page_or_section": "Abstract, Findings"
+        },
+        {
+          "outcome": "Neonatal mortality adjusted for baseline differences",
+          "result": "Odds ratio 0.54",
+          "interval_or_se": "95% CI 0.36 to 0.80",
+          "quote": "The effect was more pronounced when results were adjusted for baseline differences in neonatal mortality (adjusted OR 0.54, 95% CI 0.36 to 0.80).",
+          "page_or_section": "Results"
+        },
+        {
+          "outcome": "Stillbirths",
+          "result": "Odds ratio 1.18",
+          "interval_or_se": "95% CI 0.77 to 1.80",
+          "quote": "Stillbirths1.18 (0.77 to 1.80)",
+          "page_or_section": "Table 3"
+        }
+      ],
+      "caveats": [
+        "The intervention team could not be masked to allocation.",
+        "One of the 15 intervention clusters was excluded from the analysis because data quality could not be checked.",
+        "Mortality at baseline differed between the groups, which is why the authors also report results adjusted for baseline.",
+        "The women's group meetings were run with extra training and supervision from a non-governmental organisation, so results under routine government supervision may differ."
+      ],
+      "sources": [
+        {
+          "citation": "Tripathy P, Nair N, Sinha R, et al. Effect of participatory women's groups facilitated by Accredited Social Health Activists on birth outcomes in rural eastern India: a cluster-randomised controlled trial. Lancet Glob Health 2016;4(2):e119-e128.",
+          "url": "https://doi.org/10.1016/S2214-109X(15)00287-9",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "title": "Teaching at the Right Level and the Balsakhi remedial education trials",
       "area": "Education",
       "geography": {
@@ -459,6 +515,87 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "bihar-team-incentives-frontline-workers",
+      "title": "Team goals and non-cash incentives for front-line health workers in Bihar",
+      "area": "Health",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Bihar"
+        ]
+      },
+      "period": "2012 to 2014",
+      "intervention": "Teams of ASHAs, anganwadi workers and auxiliary nurse midwives at a health subcentre were given seven shared coverage targets for maternal and child health, trained in teamwork and asked to recite a service pledge. Teams that met at least five of the seven targets in a quarter won small household items such as cookware, worth $20 to $30 per worker over a year, and teams that met all targets in every quarter also received a certificate from the District Magistrate.",
+      "verdict": "mixed",
+      "verdict_basis": "Of the seven behaviours the team goals targeted, mothers' receipt of 90 iron and folic acid tablets was the only one with a significant difference in difference (7 percentage points, p=0.02). The others, including immediate breastfeeding, cord care, complementary feeding, family planning and DPT3, did not change significantly. Antenatal home visits rose by 15 percentage points (p=0.03), advice to mothers was reported more often, and health workers reported better coordination, so the scheme moved worker behaviour more than household outcomes.",
+      "design": "rct",
+      "design_detail": "Cluster randomised trial in which 76 health subcentre catchment areas were assigned to the team intervention plus the Ananya programme (38) or to Ananya alone (38), stratified by block and subcentre size. Effects were estimated by difference in difference using two independent cross-sectional surveys, before (May to June 2012) and 2.5 years after (November to December 2014), with survey logistic regression adjusted for maternal age and caste. Interaction terms were judged significant at p<0.10 and other comparisons at p<0.05.",
+      "sample": "Five rural blocks of Begusarai district, population about 530,000. Mothers who had delivered in the previous year were surveyed: 1,680 at baseline and 1,690 after implementation. After implementation, 285 anganwadi workers and 274 ASHAs also answered questions on teamwork.",
+      "effects": [
+        {
+          "outcome": "Antenatal home visits: at least two in the final trimester",
+          "result": "15 percentage points increase attributable to the intervention",
+          "interval_or_se": "p=0.03 for the interaction term; no confidence interval reported",
+          "quote": "There was a 15 absolute percentage point increase in antenatal home visits attributable to the TBGI intervention (p=0.03 for the interaction term).",
+          "page_or_section": "Results, Table 4"
+        },
+        {
+          "outcome": "Mothers receiving 90 iron and folic acid tablets (goal 2)",
+          "result": "7 percentage points higher",
+          "interval_or_se": "p=0.02; no confidence interval reported",
+          "quote": "receipt of iron-folic acid (IFA) tablets (7 PP, p=0.02)",
+          "page_or_section": "Abstract, Table 5"
+        },
+        {
+          "outcome": "Breastfeeding within one hour of delivery (goal 3)",
+          "result": "6.9 percentage points, not significant",
+          "interval_or_se": "p=0.31 for the difference in difference",
+          "quote": "Immediate breast feeding (within 1 hour of delivery) 3 1679 48.2 47.4 0.87 1687 54.2 60.3 0.19 3366 6.9 0.31",
+          "page_or_section": "Table 5"
+        },
+        {
+          "outcome": "Home visit within one week of delivery",
+          "result": "7.6 percentage points, not significant",
+          "interval_or_se": "p=0.42 for the difference in difference",
+          "quote": "At least one home visit within 1 week of delivery 1679 11.2 9.8 0.80 1678 46.5 52.7 0.19 3357 7.6 0.42",
+          "page_or_section": "Table 4"
+        },
+        {
+          "outcome": "Mothers reporting advice from front-line workers on IFA, exclusive breastfeeding, cord care, complementary feeding and family planning",
+          "result": "Differences of 8 to 14 percentage points more mothers in intervention villages",
+          "interval_or_se": "p of 0.03 or lower for each of the five advice items",
+          "quote": "differences between the two groups of women ranged from 8 (cord care) to 14 (family planning) percentage points",
+          "page_or_section": "Results, Table 3"
+        },
+        {
+          "outcome": "ASHAs attending three or more subcentre meetings in three months",
+          "result": "87% in intervention villages against 75% in control",
+          "interval_or_se": "p=0.02",
+          "quote": "this frequency was significantly higher for ASHAs from intervention than control villages (87% vs 75%, p=0.02) but did not differ for AWWs (72% vs 70%)",
+          "page_or_section": "Results, Table 2"
+        }
+      ],
+      "caveats": [
+        "Effects are difference in difference from two independent cross-sectional surveys. With only two time points the parallel trends assumption cannot be tested.",
+        "The authors applied no adjustment for multiple hypothesis tests, so some significant results could be chance findings.",
+        "Receipt of 90 IFA tablets fell in both arms (25.0% to 11.0% in control villages), which the authors attribute to supply problems, so the 7 point gain is a smaller fall in the intervention areas.",
+        "The intervention ran on top of the Ananya programme, which targeted the same behaviours. The effects are the added value of the team scheme and may differ if it were run alone.",
+        "Mothers in intervention villages were older and more likely to be from scheduled castes or tribes than mothers in control villages.",
+        "Coverage targets were far above the levels the surveys recorded, so the authors suggest some were unrealistic. Few workers counted colleagues from other villages as team members.",
+        "Teamwork was measured by workers' attitudes only. No data on team performance were available, and data on nurse midwives were limited.",
+        "DPT3 immunisation was mostly self-reported (95% of cases) in a low-literacy population.",
+        "Only five purposively chosen rural blocks in one district were studied."
+      ],
+      "sources": [
+        {
+          "citation": "Ananya Study Group and others. Effects of team-based goals and non-monetary incentives on front-line health worker performance and maternal health behaviours: a cluster randomised controlled trial in Bihar, India. BMJ Global Health, 2019, 4(4), e001146.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6730593/",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "id": "chennai-property-tax-reassessment",
       "title": "Property tax reassessment in Chennai by government inspectors and private firms",
       "area": "Tax and public finance",
@@ -524,6 +661,75 @@
           "citation": "Duflo, E., Hanna, R., Olken, B.A. and Tandon, S. (2025). The Limits of Government Outsourcing: Property Tax Re-Assessments in India. Working paper, November 2025. Author-hosted version.",
           "url": "https://remahanna.scholars.harvard.edu/sites/g/files/omnuum3176/files/2025-11/TNPT_Paper.pdf",
           "kind": "working-paper"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "chiranjeevi-yojana-gujarat",
+      "title": "Chiranjeevi Yojana, private obstetricians paid to deliver poor women in Gujarat",
+      "area": "Health",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Gujarat"
+        ]
+      },
+      "period": "Programme launched January 2006 in five districts and extended statewide by January 2007; outcomes compared for 2005 to 2008, survey in 2010",
+      "intervention": "Chiranjeevi Yojana is a public-private partnership in Gujarat that pays designated private health facilities to provide delivery care to poor women, intended to cover the costs of delivery for those who choose to give birth in a facility. The programme had paid providers over US$ 32 million as of 2012.",
+      "verdict": "did-not-work",
+      "verdict_basis": "The programme was not associated with a statistically significant change in institutional delivery (2.42 percentage points, 95% CI -5.90 to 10.74) or in birth-related complications (6.16 percentage points, 95% CI -2.63 to 14.95). An independent state survey gave a similar null result for institutional delivery. Household spending on deliveries did not fall.",
+      "design": "quasi-experimental",
+      "design_detail": "Observational difference-in-differences design using the staggered rollout: five early-implementing districts against 21 late-implementing districts, with district and year fixed effects and controls for maternal and household characteristics. Standard errors are clustered by block. Repeated on the third District Level Household and Facility Survey (DLHS-3).",
+      "sample": "5,597 households with a delivery since January 2005, from a state-wide stratified three-stage cluster survey in August to September 2010. 6,484 households from DLHS-3 (2007 to 2008) for the parallel analysis.",
+      "effects": [
+        {
+          "outcome": "Probability of institutional delivery, own survey",
+          "result": "2.42 percentage points, not statistically significant",
+          "interval_or_se": "95% CI −5.90 to 10.74",
+          "quote": "was not associated with a statistically significant change in the probability of institutional delivery (2.42 percentage points; 95% CI: −5.90 to 10.74)",
+          "page_or_section": "Results, Programme impact; Table 2"
+        },
+        {
+          "outcome": "Probability of institutional delivery, DLHS-3 data",
+          "result": "No statistically significant change",
+          "interval_or_se": "estimates more precise than the own survey",
+          "quote": "also confirms our findings that the programme’s implementation was not associated with a statistically significant change in institutional deliveries",
+          "page_or_section": "Results, Programme impact; Table 2"
+        },
+        {
+          "outcome": "Birth-related complications",
+          "result": "6.16 percentage points, not statistically significant",
+          "interval_or_se": "95% CI −2.63 to 14.95",
+          "quote": "or of birth-related complications (6.16 percentage points; 95% CI: −2.63 to 14.95)",
+          "page_or_section": "Abstract; Table 2"
+        },
+        {
+          "outcome": "Any delivery-related household spending",
+          "result": "2.69 percentage points, not statistically significant",
+          "interval_or_se": "95% CI −1.10 to 6.48",
+          "quote": "with the probability that households reported any delivery-related spending (2.69 percentage points; 95% CI: −1.10 to 6.48)",
+          "page_or_section": "Results, Programme impact; Table 2"
+        },
+        {
+          "outcome": "Mean household expenditure for private-sector deliveries",
+          "result": "No fall, or very little fall, in spending",
+          "interval_or_se": "not reported in the abstract",
+          "quote": "mean household expenditure for private-sector deliveries had either not fallen or had fallen very little",
+          "page_or_section": "Abstract"
+        }
+      ],
+      "caveats": [
+        "The study was not a randomised controlled evaluation, so the authors say confounding cannot be ruled out, though they report no pre-existing trend differences in an analysis of DLHS-2 data.",
+        "Outcomes rely on mothers’ recall of births up to five years earlier.",
+        "The authors say the minimum detectable effect on institutional delivery was about 5 percentage points, so smaller effects could not be excluded.",
+        "The authors report no data on neonatal or maternal deaths. Earlier evaluations of the programme reported much larger benefits, which they say did not address self-selection or the background rise in institutional births."
+      ],
+      "sources": [
+        {
+          "citation": "Mohanan M, Bauhoff S, La Forgia G, Babiarz KS, Singh K, Miller G. Effect of Chiranjeevi Yojana on institutional deliveries and neonatal and maternal outcomes in Gujarat, India: a difference-in-differences analysis. Bull World Health Organ 2014;92(3):187-194.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3949592/",
+          "kind": "journal"
         }
       ],
       "verified_on": "2026-10-27"
@@ -874,6 +1080,54 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "igmsy-conditional-maternal-benefit",
+      "title": "Indira Gandhi Matritva Sahyog Yojana and infant mortality",
+      "area": "Health",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "Scheme introduced in 2011 in 52 pilot districts; births in the five years before the 2015-16 survey",
+      "intervention": "The Indira Gandhi Matritva Sahyog Yojana paid pregnant and lactating women a total of Rs.4000 in three instalments, in the last trimester and 3 and 6 months after delivery. Each instalment depended on health conditions such as antenatal care, vaccinations, growth monitoring and counselling sessions.",
+      "verdict": "worked",
+      "verdict_basis": "The programme's aim was to improve infant survival, and the study measured mortality over the first 12 months. The estimate is 1.53 fewer deaths per 1000 live births, an 8.32% fall in the infant mortality rate, with a 95% prediction interval of 1.26 to 1.80. Most of the fall came from the first four weeks of life and from the period after six months.",
+      "design": "quasi-experimental",
+      "design_detail": "Matched-pair difference-in-differences using the pilot phase, in which 52 districts were chosen for the scheme by stratified random selection. The analysis used 35 treatment districts matched to 35 control districts in 24 states, with survival probabilities estimated by random survival forests on births recorded in the National Family Health Survey 2015-16.",
+      "sample": "4,074 live births in treatment districts and 4,018 in control districts after dropping observations with missing data.",
+      "effects": [
+        {
+          "outcome": "Infant mortality, first 12 months",
+          "result": "1.53 fewer deaths per 1000 live births, an 8.32% decrease in the infant mortality rate",
+          "interval_or_se": "95% prediction interval 1.26 to 1.80",
+          "quote": "IGMSY reduced the infant mortality rate by 8.32% in treatment districts, with 1.53 fewer deaths per 1000 live births [95% prediction interval: 1.26-1.80].",
+          "page_or_section": "Abstract"
+        },
+        {
+          "outcome": "Neonatal period, birth to 4 weeks",
+          "result": "1.04 lives saved per 1000 births",
+          "interval_or_se": "95% prediction interval 0.84 to 1.26",
+          "quote": "The largest effects are observed during the first 4weeks with 1.04 lives per 1000 births saved in this neonatal period.",
+          "page_or_section": "Results, treatment effects by age"
+        }
+      ],
+      "caveats": [
+        "Child deaths in survey data are often reported with heaping at 12 months, which can bias the infant mortality rate.",
+        "Intervals are prediction intervals from random survival forests, not conventional confidence intervals.",
+        "The estimate is for being in a pilot district, whether or not a mother received the cash, so it is an intention-to-treat effect.",
+        "The study does not separate how the cash and the health conditions each contributed.",
+        "The pre-treatment check for parallel trends covers only 2010 and 2011.",
+        "The cited version is the published journal article."
+      ],
+      "sources": [
+        {
+          "citation": "Aizawa T. Does the conditional maternal benefit programme reduce infant mortality in India? Health Policy and Planning 2022;37(9):1138-1147.",
+          "url": "https://doi.org/10.1093/heapol/czac067",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "id": "immunisation-incentives-rajasthan",
       "title": "Immunisation camps with small incentives in rural Udaipur",
       "area": "Health",
@@ -938,6 +1192,68 @@
         {
           "citation": "Banerjee, A. V., Duflo, E., Glennerster, R. and Kothari, D. (2010). Improving immunisation coverage in rural India: clustered randomised controlled evaluation of immunisation campaigns with and without incentives. BMJ 340:c2220. Open-access full text via PubMed Central.",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2871989/",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "imnci-haryana",
+      "title": "Integrated Management of Neonatal and Childhood Illness in Faridabad, Haryana",
+      "area": "Health",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Haryana"
+        ]
+      },
+      "period": "Implemented January 2007 to April 2010; births enrolled January 2008 to March 2010",
+      "intervention": "Community health workers (Anganwadi workers, accredited social health activists and auxiliary nurse midwives) were trained under the Government of India's IMNCI modules to make postnatal home visits, and physicians, nurses and community health workers were trained to treat or refer sick newborns and children. Accredited social health activists also ran women's group meetings every three months, and drug supply and supervision were strengthened.",
+      "verdict": "mixed",
+      "verdict_basis": "Infant mortality, one of the three primary outcomes, was 15% lower in the intervention clusters (adjusted hazard ratio 0.85, 95% CI 0.77 to 0.94). Neonatal mortality over the first 28 days, the other main outcome named from the start, was 9% lower but the interval included no effect (0.91, 0.80 to 1.03). The reduction in neonatal mortality was significant only for babies born at home (0.80) and not for babies born in a health facility (1.06).",
+      "design": "rct",
+      "design_detail": "Cluster randomised trial. Nine of the 18 primary health centre areas in Faridabad district were allocated to the intervention and nine to control by a computer generated random number. Outcomes were measured by a surveillance team that was not told the allocation, using monthly household visits and follow-up at day 29 and at 3, 6, 9 and 12 months.",
+      "sample": "18 clusters with a population of 1.1 million; 29,667 births in intervention clusters and 30,813 in control clusters.",
+      "effects": [
+        {
+          "outcome": "Infant mortality (birth to 365 days)",
+          "result": "Adjusted hazard ratio 0.85",
+          "interval_or_se": "95% CI 0.77 to 0.94",
+          "quote": "The infant mortality rate was significantly lower in the intervention clusters than in the control clusters (adjusted hazard ratio 0.85, 95% confidence interval 0.77 to 0.94).",
+          "page_or_section": "Results, effect on primary outcomes"
+        },
+        {
+          "outcome": "Neonatal mortality (birth to day 28)",
+          "result": "Adjusted hazard ratio 0.91",
+          "interval_or_se": "95% CI 0.80 to 1.03",
+          "quote": "The adjusted hazard ratio for neonatal mortality rate was 0.91 (0.80 to 1.03) in the intervention compared with the control clusters.",
+          "page_or_section": "Results, effect on primary outcomes"
+        },
+        {
+          "outcome": "Neonatal mortality beyond the first 24 hours (day 2 to 28)",
+          "result": "Adjusted hazard ratio 0.86",
+          "interval_or_se": "95% CI 0.79 to 0.95",
+          "quote": "neonatal mortality rate beyond the first 24 hours was significantly lower in the intervention clusters (adjusted hazard ratio 0.86, 0.79 to 0.95)",
+          "page_or_section": "Results, effect on primary outcomes"
+        },
+        {
+          "outcome": "Neonatal mortality by place of birth",
+          "result": "Adjusted hazard ratio 0.80 for home births and 1.06 for facility births",
+          "interval_or_se": "Home 0.68 to 0.93; facility 0.91 to 1.23",
+          "quote": "in the subgroup born at home (adjusted hazard ratio 0.80, 0.68 to 0.93) but not in the subgroup born in a health facility (1.06, 0.91 to1.23)",
+          "page_or_section": "Abstract"
+        }
+      ],
+      "caveats": [
+        "Only 18 clusters were available, which limits statistical efficiency.",
+        "Some baseline differences remained after randomisation: the intervention areas were less accessible, had fewer births in health facilities and lower family economic status, and the analysis adjusted for them.",
+        "Mortality beyond the first 24 hours was added as a primary outcome after the first year of the study, because more than 40% of deaths occurred in the first 24 hours.",
+        "Not all newborns and families received the intervention, because it was delivered by the district health system."
+      ],
+      "sources": [
+        {
+          "citation": "Bhandari N, Mazumder S, Taneja S, Sommerfelt H, Strand TA. Effect of implementation of Integrated Management of Neonatal and Childhood Illness (IMNCI) programme on neonatal and infant mortality: cluster randomised controlled trial. BMJ 2012;344:e1634.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3309879/",
           "kind": "journal"
         }
       ],
@@ -1216,6 +1532,100 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "kilkari-mobile-messages",
+      "title": "Kilkari mobile health messages for pregnant women and new mothers",
+      "area": "Health",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Madhya Pradesh"
+        ]
+      },
+      "period": "2018 to 2021",
+      "intervention": "Kilkari sends 72 weekly prerecorded voice calls, averaging 77 seconds, to a family's mobile phone from the second trimester of pregnancy until the child is one year old. The calls cover family planning, immunisation, nutrition, infant feeding, pregnancy care and other reproductive, maternal, newborn and child health topics.",
+      "verdict": "mixed",
+      "verdict_basis": "The pre-specified primary outcome, exclusive breastfeeding, did not change: 10.8% in the intervention arm and 10.4% in the control arm (relative risk 1.04, 95% CI 0.88 to 1.23). The secondary outcome, use of modern reversible contraception, was 3.7 percentage points higher (relative risk 1.12, 95% CI 1.03 to 1.21), and sterilisation was 2.0 points lower. Among the other maternal, newborn and child health practices measured, only immunisation at 10 weeks was significantly higher, and the confidence interval for that result starts at 1.00.",
+      "design": "rct",
+      "design_detail": "Individually randomised, parallel, unblinded trial with block randomisation stratified by gestational age, parity, age and phone ownership. Analysis was modified intention to treat with log-binomial regression clustered by village, plus an instrumental variable analysis for women who listened to at least half of the relevant call content. Outcomes were self-reported except immunisation, which also used the child health card. The endline survey took place 12 months after birth.",
+      "sample": "5,095 women 4 to 7 months pregnant who could speak Hindi and had access to a mobile phone in four districts of Madhya Pradesh (Rewa, Mandsaur, Rajgarh and Hoshangabad); 2,695 were assigned to receive Kilkari and 2,400 to the control arm. The women's endline analysis covers 4,423 women, and 3,842 of their husbands were also surveyed.",
+      "effects": [
+        {
+          "outcome": "Exclusive breastfeeding in the first 6 months (primary outcome)",
+          "result": "Relative risk 1.04 (intention to treat) and 1.10 (instrumental variable); no significant effect",
+          "interval_or_se": "95% CI 0.88 to 1.23 (intention to treat); 95% CI 0.67 to 1.81 (instrumental variable)",
+          "quote": "Kilkari was not observed to have a significant impact on exclusive breast feeding (ITT, RR: 1.04, 95% CI 0.88 to 1.23, p=0.64; IV, RR: 1.10, 95% CI 0.67 to 1.81, p=0.71).",
+          "page_or_section": "Results, Primary outcome: exclusive breast feeding"
+        },
+        {
+          "outcome": "Use of modern reversible contraceptives since the birth (secondary outcome)",
+          "result": "3.7% higher use; relative risk 1.12",
+          "interval_or_se": "95% CI 1.03 to 1.21; p=0.007",
+          "quote": "Kilkari was associated with a 3.7% higher use of modern reversible contraceptives (RR: 1.12, 95% CI 1.03 to 1.21, p=0.007)",
+          "page_or_section": "Abstract, Results"
+        },
+        {
+          "outcome": "Use of modern reversible contraceptives, women who listened to at least half of the relevant content (instrumental variable)",
+          "result": "Relative risk 1.72",
+          "interval_or_se": "95% CI 1.06 to 2.77; p=0.028",
+          "quote": "using both ITT (RR: 1.12, 95% CI 1.03 to 1.21, p=0.007) and IV (RR: 1.72, 95% CI 1.06 to 2.77, p=0.028) analyses",
+          "page_or_section": "Results, Secondary outcome: modern reversible contraceptive methods"
+        },
+        {
+          "outcome": "Men or women sterilised since the birth of the child",
+          "result": "2.0% lower proportion sterilised; relative risk 0.85",
+          "interval_or_se": "95% CI 0.74 to 0.97; p=0.016",
+          "quote": "a 2.0% lower proportion of men or women sterilised since the birth of the child (RR: 0.85, 95% CI 0.74 to 0.97, p=0.016)",
+          "page_or_section": "Abstract, Results"
+        },
+        {
+          "outcome": "Children immunised at 10 weeks",
+          "result": "2.8% higher in the intervention arm; relative risk 1.04",
+          "interval_or_se": "95% CI 1.00 to 1.07; p=0.048",
+          "quote": "the proportion of children immunised at 10 weeks was 2.8% higher in the intervention arm as compared with the control arm (ITT, RR: 1.04, 95% CI 1.00 to 1.07, p=0.048)",
+          "page_or_section": "Results, Effects on other RMNCH practices"
+        },
+        {
+          "outcome": "Child fully immunised at 12 months",
+          "result": "41.7% intervention against 40.5% control; relative risk 1.02; no significant effect",
+          "interval_or_se": "95% CI 0.95 to 1.10; p=0.53",
+          "quote": "Child fully immunised at 12 months 41.7 40.5 1.22 1.02 0.95 to 1.10 0.53",
+          "page_or_section": "Table 3"
+        },
+        {
+          "outcome": "Listening to Kilkari calls (exposure)",
+          "result": "An average of 65% listened to at least half of the cumulative content of calls answered",
+          "interval_or_se": "Not applicable",
+          "quote": "An average of 65% of the 2695 women randomised to receive Kilkari listened to ≥50% of the cumulative content of calls answered.",
+          "page_or_section": "Abstract, Results"
+        },
+        {
+          "outcome": "Share of subscribers who listened to more than 75% of call content",
+          "result": "31% listened to more than 75% of the total content of calls",
+          "interval_or_se": null,
+          "quote": "An average of 65% of subscribers listened to more than 50% of the cumulative total of successful calls while 31% listened to more than 75% of the total content of calls.",
+          "page_or_section": "Results, Exposure to Kilkari calls"
+        }
+      ],
+      "caveats": [
+        "44% of the women changed their SIM card between baseline and endline and stopped receiving calls, which the authors say lowered compliance and statistical power.",
+        "Women who kept the same SIM tended to be more educated, richer and from advantaged castes, so the instrumental variable estimates describe listeners who were easier to keep reaching.",
+        "All outcomes except immunisation are self-reported at a single point 12 months after birth, so they are open to recall and social desirability bias.",
+        "The reversible contraception outcome was added after trial registration, though it appears in the published protocol. The authors treat exclusive breastfeeding as the primary outcome.",
+        "The authors report a 12-month exclusive breastfeeding rate of about 10%, far below the 58% in the National Family Health Survey for the state, because they use a stricter two-question definition.",
+        "The abstract gives the 10-week immunisation result as relative risk 1.03 (95% CI 1.00 to 1.06) while the results text and table give 1.04 (1.00 to 1.07). The paper also reports lower immediate breastfeeding in the intervention arm with p-values that differ between text and table.",
+        "The sample was women with access to a phone during the day, who the authors say are likely more advantaged than pregnant women in general. Many outcomes were tested with no adjustment for multiple comparisons.",
+        "Husbands may have listened to some calls, so the contraception effect may partly reflect men's exposure."
+      ],
+      "sources": [
+        {
+          "citation": "LeFevre AE, Shah N, Scott K and others. The impact of a direct to beneficiary mobile communication program on reproductive and child health outcomes: a randomised controlled trial in India. BMJ Global Health, 2022, e008838.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9288869/",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "id": "mgnrega-rural-wages",
       "title": "MGNREGA and rural labour markets: public works, private work and wages",
       "area": "Poverty and social protection",
@@ -1454,6 +1864,103 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "mission-indradhanush",
+      "title": "Mission Indradhanush and Intensified Mission Indradhanush vaccination drives",
+      "area": "Health",
+      "geography": {
+        "level": "national",
+        "states": []
+      },
+      "period": "2015 to 2018",
+      "intervention": "Mission Indradhanush (from 2015) and Intensified Mission Indradhanush (October 2017 to January 2018) periodically intensified routine immunisation in districts with weak coverage. Health workers first surveyed households door to door to find under-vaccinated children, districts drew up micro-plans for session sites, community workers ran awareness drives, and auxiliary nurse midwives held extra immunisation sessions for seven consecutive days a month.",
+      "verdict": "mixed",
+      "verdict_basis": "In the stronger analysis, the controlled interrupted time-series of Intensified Mission Indradhanush, delivery of 13 infant vaccines rose by a median 10.6% (95% CI 5.1% to 16.5%) during the four months of implementation, and immunisation sessions rose by 11.2%. The authors found no sustained effect in the eight months afterwards, and over the full year the estimated gains in coverage and in unvaccinated children reached were not statistically significant for any vaccine. The earlier survey study of the first two phases of Mission Indradhanush found full immunisation 27% higher and on-time vaccination 8% higher in programme districts, but with a weaker design.",
+      "design": "quasi-experimental",
+      "design_detail": "Main source: controlled interrupted time-series (comparative interrupted time-series) using monthly district counts of vaccine doses from the Health Management Information System, October 2015 to September 2018, with quasi-Poisson models, district and calendar-month fixed effects, and a four-month implementation period plus two four-month follow-up periods. A second source, the Annals paper, uses difference in difference on household survey data from the Integrated Child Health and Immunization Survey (rounds 1 and 3), comparing districts covered by Mission Indradhanush phases 1 and 2 with uncovered districts.",
+      "sample": "Health Policy and Planning study: 179 districts that took part in Intensified Mission Indradhanush and 439 that did not, out of 187 and 549 originally. Annals study: 9,674 children under 2 (3,929 in programme districts and 5,745 in other districts) from 48 districts in the survey.",
+      "effects": [
+        {
+          "outcome": "Doses delivered during the four months of implementation, 13 infant vaccines (median)",
+          "result": "Median increase of 10.6%",
+          "interval_or_se": "95% CI 5.1% to 16.5%",
+          "quote": "during implementation, IMI increased delivery of 13 infant vaccines, with a median effect of 10.6% (95% confidence interval 5.1% to 16.5%)",
+          "page_or_section": "Abstract (Health Policy and Planning)"
+        },
+        {
+          "outcome": "Doses delivered during implementation, first and third doses of DTP-containing vaccine",
+          "result": "12.8% for DTP1 and 10.0% for DTP3",
+          "interval_or_se": "95% CI 5.3% to 21.0% for DTP1; 4.4% to 15.8% for DTP3",
+          "quote": "The point estimates for DTP1 and DTP3 were 12.8% (95% CI 5.3 to 21.0) and 10.0% (95% CI 4.4 to 15.8), respectively.",
+          "page_or_section": "Results (Health Policy and Planning)"
+        },
+        {
+          "outcome": "Immunisation sessions held per treated district during implementation",
+          "result": "11.2% increase",
+          "interval_or_se": "95% CI 3.7% to 19.4%",
+          "quote": "IMI was estimated to have increased the number of immunization sessions held per treated district by 11.2% (95% CI 3.7 to 19.4)",
+          "page_or_section": "Results (Health Policy and Planning)"
+        },
+        {
+          "outcome": "Doses delivered in the eight months after implementation ended (June to September 2018)",
+          "result": "Median change of 2.7%, none statistically significant",
+          "interval_or_se": "No effect was statistically significant",
+          "quote": "Point estimates for all estimated effects were positive from June to September 2018 (median value 2.7%), with the exception of OPVb, for which the estimated effect was negative, but none of the effects was statistically significant.",
+          "page_or_section": "Results (Health Policy and Planning)"
+        },
+        {
+          "outcome": "Additional infants reached with each vaccine over the first 12 months",
+          "result": "148 000 to 491 000 per vaccine, not statistically significant",
+          "interval_or_se": "Confidence intervals include a reduction in children reached",
+          "quote": "None of these estimates were statistically significant. We estimated that IMI reached between 148 000 and 491 000 additional infants with each of the vaccines in the study.",
+          "page_or_section": "Results, Table 2 (Health Policy and Planning)"
+        },
+        {
+          "outcome": "Share of otherwise unvaccinated children reached, first doses of DTP and polio",
+          "result": "Approximately one-third",
+          "interval_or_se": "DTP1: 35.7% reached, 95% CI from -7.5% to 77.4%, not statistically significant",
+          "quote": "IMI reached approximately one-third of children who would otherwise not have received these vaccines.",
+          "page_or_section": "Abstract (Health Policy and Planning)"
+        },
+        {
+          "outcome": "Full immunisation, children under 2 in Mission Indradhanush phase 1 and 2 districts against other districts",
+          "result": "27% higher",
+          "interval_or_se": "Difference-in-difference coefficient 0.27, 95% CI 0.11 to 0.42, from a linear probability model",
+          "quote": "The full immunization rate was 27% higher among children under 2 years old residing in MI phase 1 and 2 districts (intervention group) as compared with those residing elsewhere (control group).",
+          "page_or_section": "Abstract (Annals of the New York Academy of Sciences)"
+        },
+        {
+          "outcome": "Receiving all vaccines at recommended ages (timeliness)",
+          "result": "8% higher",
+          "interval_or_se": "Coefficient 0.08, 95% CI 0.00 to 0.15",
+          "quote": "The rate of receiving all vaccines at recommended ages was 8% higher in the intervention group.",
+          "page_or_section": "Abstract (Annals of the New York Academy of Sciences)"
+        }
+      ],
+      "caveats": [
+        "The two papers study different parts of the programme. The Annals paper covers Mission Indradhanush phases 1 and 2 (April 2015 to January 2016) with survey data. The Health Policy and Planning paper covers the later Intensified Mission Indradhanush (October 2017 to January 2018) with administrative dose counts.",
+        "The two papers disagree in strength. The Annals paper finds large significant gains in full immunisation and timeliness, while the Health Policy and Planning paper finds short gains in doses that fade after the drive and coverage gains that are not statistically significant over a year.",
+        "The Health Policy and Planning paper is the main source because it uses monthly data from about 618 districts with two years before the drive and a follow-up period, controls for trends and for displacement of doses that would have been given anyway, does not need parallel trends, and gave similar results in eight alternative specifications.",
+        "The Annals paper has a weaker design. The survey did not cover the same districts in each round (48 districts in the analysis, 13 programme districts before and 8 after), and programme districts started well behind (full immunisation 55% against 77%). The parallel trends check used a different survey and only DPT3, and 40% and 34% of households in the two rounds showed no vaccination card.",
+        "The Annals paper reports its results as a difference-in-difference coefficient, called a percentage difference in the text. It found no significant differences in districts covered by only one of the two phases.",
+        "The Health Policy and Planning paper counts doses, not children, so coverage and unvaccinated-children figures rest on population estimates. It did not measure full immunisation or timeliness directly, and it suggests only that a dip in doses after the drive may mean some children were vaccinated earlier.",
+        "Health Management Information System data are noisy, which gives wide intervals. The authors found no evidence that the drive changed reporting, and the measles results may be unreliable because of a concurrent change in measles vaccine delivery.",
+        "The Health Policy and Planning paper found no meaningful effect on the two vaccines for pregnant women."
+      ],
+      "sources": [
+        {
+          "citation": "Clarke-Deelder E, Suharlim C and others. Impact of campaign-style delivery of routine vaccines: a quasi-experimental evaluation using routine health services data in India. Health Policy and Planning, 2021, 36(4), 454 to 463.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8128004/",
+          "kind": "journal"
+        },
+        {
+          "citation": "Improving vaccination coverage and timeliness through periodic intensification of routine immunization: evidence from Mission Indradhanush. Annals of the New York Academy of Sciences, 2021, 1502(1), 110 to 120.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9291841/",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
       "id": "odisha-improved-cookstoves",
       "title": "Improved cookstoves in rural Odisha",
       "area": "Environment and climate",
@@ -1640,6 +2147,94 @@
         {
           "citation": "Asher and Novosad (2020), AER 110(3), publisher abstract page (DOI 10.1257/aer.20180268)",
           "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20180268",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "pmjay-hospitalisations-oop",
+      "title": "Ayushman Bharat PM-JAY and hospital use, out-of-pocket spending and catastrophic spending in six states",
+      "area": "Health",
+      "geography": {
+        "level": "state",
+        "states": [
+          "Bihar",
+          "Chhattisgarh",
+          "Gujarat",
+          "Meghalaya",
+          "Tamil Nadu",
+          "Uttar Pradesh"
+        ]
+      },
+      "period": "Household survey in December 2019 to February 2020, about a year after the scheme launched in September 2018",
+      "intervention": "Pradhan Mantri Jan Arogya Yojana (PM-JAY) is a publicly funded national health insurance scheme for economically and socially disadvantaged households. It covers up to Rs 500,000 per family per year for secondary and tertiary hospitalisation in public and empanelled private hospitals.",
+      "verdict": "mixed",
+      "verdict_basis": "Enrolment in PM-JAY was not associated with more hospitalisations. It was associated with a Rs 1,656 (13%) lower out-of-pocket spend per hospitalisation, significant at the 10% level, and an 8 percentage point (21%) lower chance of catastrophic spending, significant at the 1% level. The reductions came entirely from private hospitals, and enrolled people were 4.6 percentage points more likely to be treated in a private rather than a public facility. The authors state that they cannot establish causal impact.",
+      "design": "observational",
+      "design_detail": "Cross-sectional household survey analysed with logistic and ordinary least squares regression, comparing PM-JAY enrolled and non-enrolled eligible individuals while controlling for age, sex, education, caste, wealth quintile, state and other characteristics. Standard errors are clustered at the household level.",
+      "sample": "53,486 PM-JAY eligible individuals in 11,618 households for the hospitalisation analysis. 4,047 individuals in 3,411 households with a hospitalisation in the prior 12 months for the spending analysis. Districts within six purposively selected states.",
+      "effects": [
+        {
+          "outcome": "Probability of hospitalisation in the last 12 months",
+          "result": "No significant change in hospitalisations among enrolled eligible individuals",
+          "interval_or_se": "average marginal effect -0.000764, standard error 0.002 (n = 53,486)",
+          "quote": "PM-JAY was not associated with an increase in hospitalizations",
+          "page_or_section": "Abstract; Table 2"
+        },
+        {
+          "outcome": "Use of a private rather than public facility among those hospitalised",
+          "result": "4.6 percentage points higher probability of a private facility",
+          "interval_or_se": "standard error 0.023, p < 0.05",
+          "quote": "It increases the probability of visiting a private facility by 4.6 percentage points at the 5% significance level",
+          "page_or_section": "Results, Regression Results; Table 2"
+        },
+        {
+          "outcome": "Out-of-pocket expenditure per hospitalisation",
+          "result": "Rs 1,656 lower, a relative decrease of 13%",
+          "interval_or_se": "standard error Rs 948.3, p < 0.1",
+          "quote": "the amount of OOPE is reduced by Rs 1,656 at the 10% significance level, which is a relative decrease of 13%",
+          "page_or_section": "Results, Regression Results; Table 3"
+        },
+        {
+          "outcome": "Out-of-pocket expenditure per hospitalisation in private facilities",
+          "result": "Rs 2,574 lower, a relative decrease of 17%",
+          "interval_or_se": "standard error Rs 1,439, p < 0.1",
+          "quote": "The amount of OOPE is reduced by Rs 2,574 at the 10% significance level, which is a relative decrease of 17%",
+          "page_or_section": "Results, Regression Results; Table 3"
+        },
+        {
+          "outcome": "Out-of-pocket expenditure per hospitalisation in public facilities",
+          "result": "No significant change in public facilities",
+          "interval_or_se": null,
+          "quote": "For public facilities, we find PM-JAY is not associated with any change in OOPE",
+          "page_or_section": "Results, Regression Results; Table 3"
+        },
+        {
+          "outcome": "Catastrophic health expenditure (out-of-pocket above 10% of household consumption)",
+          "result": "8 percentage points lower chance of catastrophic expenditure, a relative decrease of 21%",
+          "interval_or_se": "standard error 0.023, p < 0.01",
+          "quote": "PM-JAY is associated with an 8 percentage points reduction in CHE, translating to a relative decrease of 21%",
+          "page_or_section": "Results, Regression Results; Table 3"
+        },
+        {
+          "outcome": "Catastrophic health expenditure in private facilities",
+          "result": "8.5 percentage points lower, a relative decrease of 19%",
+          "interval_or_se": "standard error 0.031, p < 0.01",
+          "quote": "for private facilities, CHE is reduced by 8.5 percentage points, translating to a relative decrease of 19%",
+          "page_or_section": "Results, Regression Results; Table 3"
+        }
+      ],
+      "caveats": [
+        "The authors write that they are unable to examine the causal impacts of the scheme because of the quick national rollout and the resulting study design, so the results are associations.",
+        "The six states were purposively selected and the authors say the results cannot be claimed as nationally representative.",
+        "Data collection was restricted to rural and semi-urban areas because many households on the eligibility list could not be located.",
+        "The data are self-reported and may suffer from recall bias, and the spending result for all facilities is significant only at the 10% level."
+      ],
+      "sources": [
+        {
+          "citation": "Parmar D, Strupat C, Srivastava S, Brenner S, Parisi D, Ziegler S, Neogi R, Walsh C, De Allegri M. Effects of the Indian National Health Insurance Scheme (PM-JAY) on Hospitalizations, Out-of-pocket Expenditures and Catastrophic Expenditures. Health Systems & Reform 2023;9(1):2227430.",
+          "url": "https://doi.org/10.1080/23288604.2023.2227430",
           "kind": "journal"
         }
       ],
@@ -2016,6 +2611,82 @@
         {
           "citation": "Patil SR, Arnold BF, Salvatore AL, Briceno B, Ganguly S, Colford JM Jr, et al. (2014), The Effect of India's Total Sanitation Campaign on Defecation Behaviors and Child Health in Rural Madhya Pradesh: A Cluster Randomized Controlled Trial, PLoS Medicine 11(8): e1001709",
           "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001709",
+          "kind": "journal"
+        }
+      ],
+      "verified_on": "2026-10-27"
+    },
+    {
+      "id": "vajpayee-arogyashree-karnataka",
+      "title": "Vajpayee Arogyashree insurance for tertiary care in northern Karnataka",
+      "area": "Health",
+      "geography": {
+        "level": "district",
+        "states": [
+          "Karnataka"
+        ]
+      },
+      "period": "Scheme in the northern districts from February 2010, extended statewide in August 2012; household surveys in September 2012",
+      "intervention": "The Vajpayee Arogyashree scheme gave households with a below poverty line card free tertiary care at empanelled public and private hospitals, with no premium or co-payment. It covered more than 400 service packages, mostly cardiac, cancer, neurological, burn and trauma care, and hospitals ran rural health camps to find patients.",
+      "verdict": "worked",
+      "verdict_basis": "Among households below the poverty line, mortality from conditions covered by the scheme was 0.32% in eligible villages against 0.90% in ineligible villages, a difference of 0.58 percentage points (95% CI 0.40 to 0.75). Out-of-pocket spending on covered admissions was 34% lower across all facilities and 64% lower for longer tertiary admissions. The rise in use of covered services was not statistically significant (44.2% for longer stays, 95% CI -5.1% to 90.5%). Households above the poverty line, who were ineligible, showed no mortality difference.",
+      "design": "quasi-experimental",
+      "design_detail": "Geographic regression discontinuity study. Villages just north of the eligibility border (covered from 2010) were compared with propensity score matched villages just south of it (covered only from August 2012), using a one-off household survey in September 2012. Ordinary least squares and logit models with standard errors clustered by village; the author-reported placebo check is households above the poverty line, who were ineligible on both sides.",
+      "sample": "31,476 households (22,796 below poverty line) in 300 eligible villages and 28,633 households (21,767 below poverty line) in 272 ineligible villages, in six districts of Karnataka. A detailed spending survey covered 966 below-poverty-line households with covered conditions.",
+      "effects": [
+        {
+          "outcome": "Mortality from conditions covered by the scheme, households below the poverty line",
+          "result": "Mortality 0.32% in eligible households against 0.90% in ineligible households, a difference of 0.58 percentage points",
+          "interval_or_se": "95% CI 0.40 to 0.75 percentage points, P < 0.001",
+          "quote": "the mortality rate from conditions covered by the scheme was 0.32% in eligible households compared with 0.90% in ineligible households (difference of 0.58 percentage points, 95% confidence interval 0.40 to 0.75",
+          "page_or_section": "Results, Mortality"
+        },
+        {
+          "outcome": "Mortality from covered conditions, households above the poverty line (ineligible, placebo group)",
+          "result": "0.56% in treatment areas against 0.55% in control areas, no difference",
+          "interval_or_se": "difference 0.01 percentage points, CI −0.03 to 0.03",
+          "quote": "0.56% in treatment areas compared with 0.55% in control areas (difference of 0.01 percentage points, −0.03 to 0.03)",
+          "page_or_section": "Results, Mortality"
+        },
+        {
+          "outcome": "Out-of-pocket spending on admissions for covered conditions, all facilities",
+          "result": "34% reduction in out-of-pocket health expenditure",
+          "interval_or_se": "95% CI 18% to 51%",
+          "quote": "the scheme was associated with a 34% reduction in out-of-pocket health expenditures for admission to hospital for covered conditions (95% confidence interval 18% to 51%)",
+          "page_or_section": "Results, Out-of-pocket expenditures"
+        },
+        {
+          "outcome": "Out-of-pocket spending on covered admissions to tertiary facilities, excluding emergency-only admissions and stays of four days or less",
+          "result": "64% reduction in out-of-pocket spending",
+          "interval_or_se": "95% CI 35% to 97%",
+          "quote": "and to 64% after we excluded short admissions and admissions through the emergency room (35% to 97%)",
+          "page_or_section": "Results, Out-of-pocket expenditures; Table 3"
+        },
+        {
+          "outcome": "Admissions to tertiary facilities for covered conditions with stays longer than four days",
+          "result": "44.2% higher use in eligible areas, not statistically significant",
+          "interval_or_se": "95% CI -5.1% to 90.5%, P = 0.06",
+          "quote": "non-emergency admissions for potentially covered conditions to tertiary care facilities that led to inpatient stays longer than four days (44.2% difference, −5.1% to 90.5%; P=0.06)",
+          "page_or_section": "Results, Utilization and foregone medical care; Table 4"
+        },
+        {
+          "outcome": "Households reporting forgone care for a covered condition",
+          "result": "35.5% reduction, not statistically significant",
+          "interval_or_se": "95% CI -73.5% to 2.5%, P = 0.07",
+          "quote": "(35.5% reduction, 95% confidence interval −73.5% to 2.5%; P=0.07)",
+          "page_or_section": "Results, Utilization and foregone medical care; Table 4"
+        }
+      ],
+      "caveats": [
+        "Villages were not randomly assigned; the northern districts were chosen for coverage because the state government judged them to be in greater need of tertiary care.",
+        "Causes of death are reported by family members, so misclassification is possible, although the authors report sensitivity checks that found no sign of measurement error affecting the results.",
+        "The authors could not observe who was actually covered, only whether an admission or death was for a condition the scheme could cover, which they say dilutes the estimates.",
+        "Use of covered services is estimated imprecisely, and the authors note the mortality effect could partly reflect previously unmet demand for tertiary care."
+      ],
+      "sources": [
+        {
+          "citation": "Sood N, Bendavid E, Mukherji A, Wagner Z, Nagpal S, Mullen P. Government health insurance for people below poverty line in India: quasi-experimental evaluation of insurance and health outcomes. BMJ 2014;349:g5114.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4161676/",
           "kind": "journal"
         }
       ],

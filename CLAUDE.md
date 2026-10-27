@@ -2,7 +2,7 @@
 
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
-Indian government scheme tracker. Astro, static output, 2,450 pages (2,424 plus the 25 evidence cases and
+Indian government scheme tracker. Astro, static output, 2,459 pages (2,424 plus the 34 evidence cases and
 their index), with a Pagefind search index built after the pages.
 
 ## Commands
@@ -60,7 +60,7 @@ Pagefind index built both times, and `npm audit` from 5 vulnerabilities to 0.
 ## The Evidence pages
 
 `/evidence/` lists Indian interventions with a published evaluation, from
-`data/evidence.json` (25 cases on 27 October 2026). Each case carries its study
+`data/evidence.json` (34 cases on 27 October 2026). Each case carries its study
 design, sample, effects, a short quotation for every figure, caveats and the
 sources opened. `python3 scripts/check_evidence.py` refuses a case without an
 https source, a quotation that contains the figure beside it, or a
@@ -75,7 +75,7 @@ outcomes and not others, or the effect depends on conditions. Janani Suraksha
 Yojana is mixed because the Lancet matching result and a replication using
 district differences in differences disagree on mortality.
 
-**Add a case only from a source you opened.** All 25 were checked by
+**Add a case only from a source you opened.** All 34 were checked by
 downloading the paper or its abstract and matching each quotation to its text. Several rest on something short of the journal
 text, and each case names its version in the citation: the working paper for
 Balsakhi, Surat, Rajasthan police reform, women's police stations, the Debt
@@ -83,7 +83,12 @@ Recovery Tribunals, Gujarat audits, Bihar e-FMS, Hyderabad microfinance and
 teacher performance pay; the publisher page for the midday meals quotations;
 the Lancet abstract for Janani Suraksha Yojana (the 3ie replication reproduces
 the table with unlabelled units, so those figures are not printed). The Chennai
-property tax paper (November 2025) is unpublished. Balsakhi year-two effect is
+property tax paper (November 2025) is unpublished. The BMJ 2014 paper
+evaluates Karnataka's Vajpayee Arogyashree, not Andhra Pradesh's Aarogyasri,
+and is filed under that scheme. The health cases added the same day (IMNCI,
+ASHA women's groups, IGMSY, PM-JAY, Vajpayee Arogyashree, Chiranjeevi, Kilkari,
+Bihar frontline incentives, Mission Indradhanush) were each matched quote by
+quote to the opened text. Balsakhi year-two effect is
 0.27 SD in the 2005 draft and 0.28 in the published paper. The Surat 20 to 30
 percent range includes imputed estimates; without imputation it is about 18
 percent. The BMJ immunisation abstract swaps the two cost figures; the Results
