@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="94 percent of the dataset was stamped with today's date onto just three dates — the days CI happened to run. Only 6 percent carried a real publication date.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="94 percent of the dataset was stamped with today's date onto just three dates, the days the site had most recently updated. Only 6 percent carried a real publication date.">
   <defs>
     <filter id="roughd" x="-4%" y="-4%" width="108%" height="108%">
       <feTurbulence type="fractalNoise" baseFrequency="0.013" numOctaves="2" seed="3" result="n"/>
@@ -20,9 +20,9 @@
   </g>
 
   <text class="w" x="98"  y="157" font-size="17">94%</text>
-  <text class="m" x="80"  y="208" font-size="14">stamped onto the 3 dates CI happened to run</text>
+  <text class="m" x="80"  y="208" font-size="14">stamped onto the 3 most recent update days</text>
   <text class="m" x="820" y="157" font-size="14" text-anchor="end" fill="#2a2a26">6%</text>
   <text class="m" x="820" y="208" font-size="13" text-anchor="end">carried a real date</text>
 
-  <text class="m" x="80" y="256" font-size="13">The "added this week" stat was really measuring how often the pipeline ran.</text>
+  <text class="m" x="80" y="256" font-size="13">The "added this week" figure was really measuring how often the site updated.</text>
 </svg>

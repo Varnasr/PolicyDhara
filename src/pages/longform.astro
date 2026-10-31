@@ -29,7 +29,7 @@ const fmtDate = (d: string) => d ? new Date(d).toLocaleDateString('en-IN', { day
   {longReads.length === 0 ? (
     <div class="empty-state">
       <h3>No long reads yet</h3>
-      <p>The pipeline ingests essay sources (EPW, The India Forum, Ideas for India, IDR) on its 6-hour cycle. Check back after the next run.</p>
+      <p>Long reads come from EPW, The India Forum, Ideas for India and IDR, and the list is updated every six hours.</p>
     </div>
   ) : (
     <div class="lr-grid">

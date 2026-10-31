@@ -61,11 +61,11 @@ type SourceRow = {
 // DEAD = unreachable / HTTP error.
 const BUCKET_META: Record<string, { label: string; color: string; bg: string }> = {
   WORKS:           { label: 'Working',       color: 'var(--ink-good)', bg: 'color-mix(in srgb, #16a34a 10%, var(--color-bg-white))' },
-  UNDATED:         { label: 'No dates',      color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
+  UNDATED:         { label: 'Undated',      color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
   REDUNDANT:       { label: 'Covered by PIB', color: 'var(--ink-teal)', bg: 'color-mix(in srgb, #0e7490 10%, var(--color-bg-white))' },
-  SELECTOR_BROKEN: { label: 'Selectors broken', color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
-  SHELL:           { label: 'JS shell',      color: 'color-mix(in srgb, #7c3aed 45%, var(--color-text))', bg: 'color-mix(in srgb, #7c3aed 10%, var(--color-bg-white))' },
-  DEAD:            { label: 'Dead',          color: 'var(--ink-bad)', bg: 'color-mix(in srgb, #dc2626 10%, var(--color-bg-white))' },
+  SELECTOR_BROKEN: { label: 'Not updating', color: 'var(--ink-warn)', bg: 'color-mix(in srgb, #d97706 10%, var(--color-bg-white))' },
+  SHELL:           { label: 'Needs a browser to read',      color: 'color-mix(in srgb, #7c3aed 45%, var(--color-text))', bg: 'color-mix(in srgb, #7c3aed 10%, var(--color-bg-white))' },
+  DEAD:            { label: 'Not reachable',          color: 'var(--ink-bad)', bg: 'color-mix(in srgb, #dc2626 10%, var(--color-bg-white))' },
 };
 
 // Build a row per configured source. source_counts is keyed by source_id
@@ -85,7 +85,7 @@ const rows: SourceRow[] = Object.entries(configured).map(([id, cfg]: [string, an
   lastHealthy: health[id]?.last_healthy || '',
   streak: health[id]?.streak || 0,
   bucket: health[id]?.bucket || '',
-  coveredBy: cfg.covered_by || '',
+  coveredBy: cfg.covered_by ? (configured[cfg.covered_by]?.name || 'PIB') : '',
 }));
 
 // Also surface source_ids that appear in policies.json but have no config
@@ -93,8 +93,8 @@ const rows: SourceRow[] = Object.entries(configured).map(([id, cfg]: [string, an
 const configuredIds = new Set(Object.keys(configured));
 const orphanIds = Object.keys(counts).filter(k => !configuredIds.has(k));
 const orphanRows: SourceRow[] = orphanIds.map(id => ({
-  id, name: id, short: id, type: 'legacy', url: '',
-  description: 'Legacy source_id in policies.json without a config entry.',
+  id, name: id, short: id.replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()), type: 'legacy', url: '',
+  description: 'Items collected under an earlier source name. They remain on the site.',
   covers: '', count: counts[id] || 0, lastHealthy: '', streak: 0, bucket: '', coveredBy: '',
 }));
 
@@ -111,17 +111,22 @@ const stale = rows.filter(r => r.streak >= 3).length;
 const bucketCounts: Record<string, number> = {};
 for (const r of rows) if (r.bucket) bucketCounts[r.bucket] = (bucketCounts[r.bucket] || 0) + 1;
 const hasBuckets = Object.keys(bucketCounts).length > 0;
+
+// How each kind of source is named to a reader.
+const TYPE_LABEL: Record<string, string> = {
+  rss: 'Feed', api: 'Data service', scrape: 'Web page', legacy: 'Earlier name',
+};
 ---
 <Base title="Sources" description="Every open data source that feeds PolicyDhara, including PIB (per ministry), PRS, India Code, eGazette, RBI, Parliament, state governments and more.">
   <div style="padding: var(--space-xl) 0;">
     <h2 class="page-title">Data sources</h2>
     <p class="page-subtitle">
-      {totalConfigured} configured sources · {contributing} currently contributing items · {stale} flagged stale · refetched every 6 hours
+      {totalConfigured} sources · {contributing} with items on the site · {stale} not working at the last three weekly checks · checked for new items every 6 hours
     </p>
 
     {orphanRows.length > 0 && (
       <p class="page-subtitle" style="color: var(--color-text-muted); font-size: 0.85rem;">
-        {orphanRows.length} legacy source_id{orphanRows.length === 1 ? '' : 's'} present in the dataset but not in <code>feeds.json</code>. They are shown below with a "LEGACY" tag.
+        Items collected under {orphanRows.length === 1 ? 'one earlier source name appear' : `${orphanRows.length} earlier source names appear`} below, marked "Earlier name". They remain on the site.
       </p>
     )}
 
@@ -133,7 +138,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
           </span>
         ))}
         <span style="font-size: 0.75rem; color: var(--color-text-muted); align-self: center;">
-          These counts come from the weekly health probe.{lastProbed && ` The latest probe in this build ran on ${lastProbedLabel}${probeAgeDays > 14 ? `, ${probeAgeDays} days ago, so the counts may be out of date` : ''}.`} "Covered by PIB" means a direct ministry site that renders via JavaScript, but whose releases we already collect through that ministry's PIB feed, so no policy is lost. "JS shell" and "selectors broken" are the fixable backlog (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
+          We check every source once a week.{lastProbed && ` The latest check ran on ${lastProbedLabel}${probeAgeDays > 14 ? `, ${probeAgeDays} days ago, so these counts may be out of date` : ''}.`} "Undated" means the source gives items without dates, so we cannot place them in time. "Covered by PIB" means a ministry's own site that needs a browser to read, whose releases we already collect through that ministry's PIB page, so no policy is missed. "Needs a browser to read" and "Not updating" are sources we plan to fix (<a href="https://github.com/Varnasr/PolicyDhara/blob/master/ROADMAP.md">roadmap</a>).
         </span>
       </div>
     )}
@@ -149,7 +154,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
             <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%;">
               <span class="sector-card-name" title={r.name}>{r.short}</span>
               <span class={`policy-type type-${typeClass}`} style="font-size: 0.5625rem; flex-shrink: 0;">
-                {r.type.toUpperCase()}
+                {TYPE_LABEL[r.type] || r.type}
               </span>
             </div>
 
@@ -167,7 +172,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
 
             {r.coveredBy && (
               <span style="font-size: 0.75rem; color: var(--ink-teal);">
-                Releases collected via <code>{r.coveredBy}</code> (PIB), so no policy is lost.
+                Releases collected through {r.coveredBy}, so no policy is missed.
               </span>
             )}
 
@@ -189,7 +194,7 @@ const hasBuckets = Object.keys(bucketCounts).length > 0;
               )}
               {r.lastHealthy && (
                 <span style="font-size: 0.7rem; color: var(--color-text-muted);">
-                  · last ok {r.lastHealthy}
+                  · last worked {r.lastHealthy}
                 </span>
               )}
             </div>

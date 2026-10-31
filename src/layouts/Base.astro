@@ -219,10 +219,6 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
                     <span class="nav-menu-icon">B</span>
                     <span class="nav-menu-label">My Tracker</span>
                   </a>
-                  <a href={`${base}sources/`}>
-                    <span class="nav-menu-icon">#</span>
-                    <span class="nav-menu-label">Sources</span>
-                  </a>
 
                   <span class="nav-group-heading">Meta</span>
                   <a href={`${base}blog/`}>
@@ -289,7 +285,6 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
     <a href={`${base}digest/`}>Digest</a>
     <a href={`${base}states/`}>States</a>
     <a href={`${base}bookmarks/`}>My Tracker</a>
-    <a href={`${base}sources/`}>Sources</a>
     <a href={`${base}blog/`}>Blog</a>
     <a href={`${base}api/`}>API</a>
     <a href={`${base}about/`}>About</a>
@@ -310,6 +305,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
         </div>
         <div class="footer-links">
           <a href={`${base}api/`}>API</a>
+          <a href={`${base}sources/`}>Sources</a>
           <a href={`${base}rss.xml`}>RSS</a>
           <a href="https://t.me/policydhara" target="_blank" rel="noopener noreferrer" class="footer-telegram">
             <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true" style="vertical-align: -2px; margin-right: 4px;">
@@ -342,7 +338,7 @@ const ogImageUrl = ogImage || `${siteOrigin}${base}og-image.png`;
       </div>
       <div class="footer-bottom">
         Data sourced from 300+ official sources including PIB, PRS Legislative Research, India Code, eGazette, NITI Aayog, data.gov.in, RBI, and more.
-        Auto-updated every 6 hours via <a href="https://github.com/Varnasr/PolicyDhara">open-source pipeline</a>.
+        Updated every six hours. The code and data are on <a href="https://github.com/Varnasr/PolicyDhara">GitHub</a>.
         <span class="build-stamp" title="When this copy of the site was built. If this date looks old, your browser is showing a cached version">Site build: {new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC</span>
       </div>
     </div>
