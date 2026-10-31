@@ -49,4 +49,4 @@ The tracker is at [policydhara.impactmojo.in](https://policydhara.impactmojo.in)
 
 ---
 
-*PolicyDhara is an [ImpactMojo](https://impactmojo.com) initiative. Built with Astro, Python, and GitHub Actions.*
+*PolicyDhara is an [ImpactMojo](https://impactmojo.com) initiative.*

@@ -160,7 +160,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
     {liveBills.length > 0 && (
       <div class="parl-section">
         <h3>Bills on the Tracker</h3>
-        <p class="section-attribution">Live from PRS Bill Track and Digital Sansad via the 6-hourly pipeline. <a href={`${base}policies/?type=bill`}>see all</a></p>
+        <p class="section-attribution">From PRS Bill Track and Digital Sansad, updated every six hours. <a href={`${base}policies/?type=bill`}>see all</a></p>
         <ul class="live-list">
           {liveBills.map(p => (
             <li class="live-row">
@@ -216,7 +216,7 @@ const STATUS_COLORS: Record<string, { bg: string; text: string }> = {
         </ul>
       )}
       {sansadQuestions.length === 0 && liveQuestions.length === 0 ? (
-        <p class="live-empty">Replies appear here while Parliament is in session. The pipeline flags the phrase "in a written reply to a question in Lok Sabha / Rajya Sabha" in ministry releases, and it fetches the sansad.in question corpus when its API responds.</p>
+        <p class="live-empty">Replies appear here while Parliament is in session. They come from ministry releases that cite a written reply in the Lok Sabha or Rajya Sabha, and from the question records on sansad.in.</p>
       ) : (
         liveQuestions.length > 0 && (
           <ul class="live-list">
