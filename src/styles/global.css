@@ -844,6 +844,20 @@ a:hover { color: var(--color-accent-hover); }
 }
 .footer-links a:hover { color: var(--color-text); }
 
+.footer-contact {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 72ch;
+  margin: 0 0 var(--space-md);
+}
+.footer-contact a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.footer-contact a:hover { color: var(--color-accent); }
+
 .footer-legal {
   border-top: 1px solid var(--color-border);
   padding-top: var(--space-md);
