@@ -1689,13 +1689,6 @@
       "field": "description",
       "old_value": "Comprehensive overhaul replacing the Indian Telegraph Act 1885 and Indian Wireless Telegraphy Act 1933. Introduces spectrum assignment by auction or administratively, biometric verification for SIMs, and regulatory sandbox provisions.",
       "new_value": "Government of India press release: Department of Telecommunications Organises First All India Conference on Official Language 2026 in New Delhi",
-      "source_id": "pib_statistics_programme_implementation"
-    },
-    {
-      "date": "2026-11-13",
-      "field": "description",
-      "old_value": "Comprehensive overhaul replacing the Indian Telegraph Act 1885 and Indian Wireless Telegraphy Act 1933. Introduces spectrum assignment by auction or administratively, biometric verification for SIMs, and regulatory sandbox provisions.",
-      "new_value": "Government of India press release: Department of Telecommunications Organises First All India Conference on Official Language 2026 in New Delhi",
       "source_id": "pib_surface_transport"
     },
     {
@@ -1823,6 +1816,13 @@
       "old_value": "Comprehensive overhaul replacing the Indian Telegraph Act 1885 and Indian Wireless Telegraphy Act 1933. Introduces spectrum assignment by auction or administratively, biometric verification for SIMs, and regulatory sandbox provisions.",
       "new_value": "Government of India press release: Department of Telecommunications Organises First All India Conference on Official Language 2026 in New Delhi",
       "source_id": "pib_lokpal_of_india"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Comprehensive overhaul replacing the Indian Telegraph Act 1885 and Indian Wireless Telegraphy Act 1933. Introduces spectrum assignment by auction or administratively, biometric verification for SIMs, and regulatory sandbox provisions.",
+      "new_value": "Government of India press release: Department of Telecommunications Conducts Digital Life Certificate Camps and Medical camps Across Telangana",
+      "source_id": "state_pib_assam"
     }
   ],
   "930761d43efc": [
@@ -3497,27 +3497,6 @@
       "source_id": "ibbi"
     },
     {
-      "date": "2026-11-15",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Notification: IRDAI (Indian Insurance Companies) (Amendment) Regulations, 2021, Jul 2021",
-      "source_id": "irdai_notifications"
-    },
-    {
-      "date": "2026-11-15",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Notification: Indian Insurance Companies (Foreign Investment) Amendment Rules, 2021",
-      "source_id": "irdai_notifications"
-    },
-    {
-      "date": "2026-11-15",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "The Companies (Incorporation) Third Amendment Rules, 2023 (683.51 KB)",
-      "source_id": "ibbi"
-    },
-    {
       "date": "2026-11-16",
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
@@ -3607,6 +3586,27 @@
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "He made the statement during the inauguration of development projects worth ₹30 crores in Jammu, Samba and Kathua districts",
       "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Notification: IRDAI (Indian Insurance Companies) (Amendment) Regulations, 2021, Jul 2021",
+      "source_id": "irdai_notifications"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Notification: Indian Insurance Companies (Foreign Investment) Amendment Rules, 2021",
+      "source_id": "irdai_notifications"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "The Companies (Incorporation) Third Amendment Rules, 2023 (683.51 KB)",
+      "source_id": "ibbi"
     },
     {
       "date": "2026-11-18",
@@ -4146,13 +4146,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-10-23",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-10-24",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -4283,6 +4276,13 @@
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "The Indian Council of Arbitration (ICA), in association with Royal Institution of Chartered Surveyors (RICS), is organising the a conclave on the theme “Mediation in Transition: Institutional Trust, Professional Standards and the Age of Artificial Intelligence”.The conclave will be held on Saturday, November 21, 2026, from 11am onwards, at Federation House, New Delhi, India.It will bring together distinguished professionals, legal practitioners, policymakers, institutional representatives and ex",
+      "source_id": "barandbench"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "A dispute over whether music label Saga Music holds the rights to release the video of the \"Phantom Ferrari\" song sung by late singer Siddhu Moose Wala posthumously has been referred to mediation by the Delhi High Court. Siddhu Moose Wala’s parents have opposed the song's release, arguing that their permission has not been taken for releasing the song. On the other hand, Saga Music has asserted that the song's copyright was assigned to it by Moose Wala before his demise. Justice Manoj Jain today",
       "source_id": "barandbench"
     }
   ],
@@ -5548,13 +5548,6 @@
       "date": "2026-11-13",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "To serve India's Viksit Bharat goals, the budget would need to strengthen fiscal credibility, build cushions against shocks and make growth job-rich. Here's how the budget can deliver on these priorities.",
-      "source_id": "mint_opinion"
-    },
-    {
-      "date": "2026-11-13",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
       "source_id": "cbga"
     },
@@ -5672,6 +5665,13 @@
     },
     {
       "date": "2026-11-17",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-11-18",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -7741,20 +7741,6 @@
       "source_id": "republic_world"
     },
     {
-      "date": "2026-11-14",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-11-14",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-11-15",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
@@ -7847,6 +7833,20 @@
     },
     {
       "date": "2026-11-17",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-11-18",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
@@ -12005,13 +12005,6 @@
     },
     {
       "date": "2026-11-17",
-      "field": "sectors",
-      "old_value": "Energy, Trade & Commerce, Transport & Infrastructure",
-      "new_value": "Climate & Environment, Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-11-17",
       "field": "description",
       "old_value": "RfS for setting up Solar PV Power Project for NHAI (Phase-I) under Tariff-Based Competitive Bidding",
       "new_value": "Rolling Empanelment of Battery Energy Storage System (BESS) Suppliers, Integrators, and Aggregators across Capacity Tiers for Grid-Interactive BESS Deployments",
@@ -12085,6 +12078,13 @@
       "field": "sectors",
       "old_value": "Energy, Trade & Commerce, Transport & Infrastructure",
       "new_value": "Climate & Environment, Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
       "source_id": "seci"
     },
     {
@@ -14038,20 +14038,6 @@
   ],
   "abd418ff65e9": [
     {
-      "date": "2026-11-14",
-      "field": "description",
-      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-11-15",
-      "field": "description",
-      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "The developments came after the student protest in Ranchi over alleged irregularities in examinations conducted by the Jharkhand Public Service Commission (JPSC) and Jharkhand Staff Selection Commission (JSSC).",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-11-15",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
@@ -14162,6 +14148,20 @@
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "Mr. Khader said he would take up the demand for an increase in the monthly honorarium to ₹15,000 with the Chief Minister at the Cabinet meeting scheduled for November 19.",
       "source_id": "the_hindu_policy"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
+      "new_value": "The developments came after the student protest in Ranchi over alleged irregularities in examinations conducted by the Jharkhand Public Service Commission (JPSC) and Jharkhand Staff Selection Commission (JSSC).",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
+      "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
+      "source_id": "republic_world"
     },
     {
       "date": "2026-11-18",
@@ -15908,6 +15908,13 @@
       "old_value": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
       "new_value": "Master circular: Master circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
       "source_id": "sebi_master_circulars"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
+      "new_value": "Master circular: Master circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
+      "source_id": "sebi_master_circulars"
     }
   ],
   "e8c8fd11b854": [
@@ -16329,15 +16336,6 @@
       "source_id": "unicef_india"
     }
   ],
-  "2562f80dcfb4": [
-    {
-      "date": "2026-10-23",
-      "field": "description",
-      "old_value": "India’s copper demand grew 12% to 2,100 KT in FY26, driven by infrastructure, automotive and construction activity. Infrastructure emerged as the key growth driver, with demand rising 29% year-on-year.",
-      "new_value": "India’s copper demand grew 12% to 2,100 KT in FY26, driven by infrastructure, automotive, and building and construction activity.",
-      "source_id": "ibef"
-    }
-  ],
   "6024a9ef5002": [
     {
       "date": "2026-10-25",
@@ -16693,13 +16691,6 @@
   ],
   "882d5ea02c9b": [
     {
-      "date": "2026-11-10",
-      "field": "description",
-      "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "**Samik Basu IV. The Existing Regime in Gujarat & Maharashtra Having traced the colonial origins of prior restraint and how courts elsewhere in India responded to it, Part 2 turns to the regime as it currently stands in Gujarat and Maharashtra, and argues that even if its procedural defects were cured, prior restraint on theatre […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-11-11",
       "field": "description",
       "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
@@ -16831,6 +16822,13 @@
       "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "**Samik Basu IV. The Existing Regime in Gujarat & Maharashtra Having traced the colonial origins of prior restraint and how courts elsewhere in India responded to it, Part 2 turns to the regime as it currently stands in Gujarat and Maharashtra, and argues that even if its procedural defects were cured, prior restraint on theatre […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
       "source_id": "vidhi"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "**Samik Basu IV. The Existing Regime in Gujarat & Maharashtra Having traced the colonial origins of prior restraint and how courts elsewhere in India responded to it, Part 2 turns to the regime as it currently stands in Gujarat and Maharashtra, and argues that even if its procedural defects were cured, prior restraint on theatre […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
     }
   ],
   "5f9876222801": [
@@ -16868,13 +16866,6 @@
     }
   ],
   "973a946f54b4": [
-    {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "DOC October 2026 niti_admin Mon, 10/26/2026 - 10:55 Upload Supported Document docplan-OCT-2026.pdf (446.55 KB) Choose Document Type Docplan Supported File Link October 2026",
-      "new_value": "Government of India press release: PROVISIONAL WHOLESALE PRICE INDEX, OUTPUT PRODUCER PRICE INDEX, AND TRIAL INPUT PRODUCER PRICE INDEX FOR THE MONTH OF OCTOBER 2026, AND FINAL INDEX FOR THE MONTH OF AUGUST 2026",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
     {
       "date": "2026-11-16",
       "field": "description",
@@ -17007,6 +16998,13 @@
       "old_value": "DOC October 2026 niti_admin Mon, 10/26/2026 - 10:55 Upload Supported Document docplan-OCT-2026.pdf (446.55 KB) Choose Document Type Docplan Supported File Link October 2026",
       "new_value": "Click the following link to download Compilation of Static Quiz (October 2026) Insights October 2026 Static Quiz Questions Insights October 2026 Static Quiz Compilation   Join our Official Telegram Channel HERE for Motivation and Fast Updates Subscribe to our YouTube Channel HERE to watch Motivational and New analysis videos The post [COMPILATION] Static Quiz – October 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
       "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "DOC October 2026 niti_admin Mon, 10/26/2026 - 10:55 Upload Supported Document docplan-OCT-2026.pdf (446.55 KB) Choose Document Type Docplan Supported File Link October 2026",
+      "new_value": "Performance against various QoS Parameters of Access Service (Wireless) for the Month of October 2026 nitinkumar Wed, 11/18/2026 - 17:54 File Download (816.49 KB) QoS Quarter October Qos Report Type PMR Reports Report Type Access (Wireless) Date of Release Wed, 11/18/2026 - 12:00 Months October Year 2026",
+      "source_id": "trai"
     }
   ],
   "a919f374762d": [
@@ -17873,15 +17871,6 @@
       "source_id": "pib_lokpal_of_india"
     }
   ],
-  "ec20a96891a7": [
-    {
-      "date": "2026-10-27",
-      "field": "description",
-      "old_value": "Circular: Extension of timeline for compliance with terms and conditions by Debenture Trustees for carrying out activities outside the purview of SEBI",
-      "new_value": "Extension of timeline for compliance with terms and conditions by Debenture Trustees (DTs) for carrying out activities outside the purview of SEBI",
-      "source_id": "sebi"
-    }
-  ],
   "a7959ae15807": [
     {
       "date": "2026-10-27",
@@ -18244,6 +18233,13 @@
       "old_value": "Please click here TP-MCS-17.08.2026to download the order.",
       "new_value": "Please click here Tranfer and posting Orders MCS Dt. 6th July, 2026 to download the order.",
       "source_id": "manipur_govt"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Please click here TP-MCS-17.08.2026to download the order.",
+      "new_value": "Order No: 706-F of 2026:- Transfer and posting.",
+      "source_id": "ladakh_govt"
     }
   ],
   "ae64349e0057": [
@@ -18280,20 +18276,6 @@
   ],
   "c732d2d8e076": [
     {
-      "date": "2026-11-10",
-      "field": "description",
-      "old_value": "A WHO team supported the district health department in conducing house-to-house monitoring of children’s immunization status in Kaiho village in Wakka block. Caregivers were counselled on availing vaccination services as per the recommended immunization schedule. The activity strengthened monitoring coverage in scattered and hard-to-reach settlements and reinforced caregiver awareness about the benefits of immunization. (© WHO India / Kamhang Sumyan)",
-      "new_value": "A WHO team and the district reproductive and child health officer, Longding, conducted joint house-to-house monitoring in Pamtong village, Niaussa block, to verify vaccination coverage during the Intensified Pulse Polio Immunization (IPPI) end-of-round survey. Following WHO-supported monitoring in March 2026, the state government identified Pamtong as a “missed area” and subsequently incorporated into routine immunization and IPPI micro-plans. The village is now included in all state and distric",
-      "source_id": "who_india_new"
-    },
-    {
-      "date": "2026-11-10",
-      "field": "type",
-      "old_value": "analysis",
-      "new_value": "report",
-      "source_id": "who_india_new"
-    },
-    {
       "date": "2026-11-11",
       "field": "description",
       "old_value": "A WHO team supported the district health department in conducing house-to-house monitoring of children’s immunization status in Kaiho village in Wakka block. Caregivers were counselled on availing vaccination services as per the recommended immunization schedule. The activity strengthened monitoring coverage in scattered and hard-to-reach settlements and reinforced caregiver awareness about the benefits of immunization. (© WHO India / Kamhang Sumyan)",
@@ -18540,6 +18522,20 @@
     },
     {
       "date": "2026-11-17",
+      "field": "type",
+      "old_value": "analysis",
+      "new_value": "report",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "A WHO team supported the district health department in conducing house-to-house monitoring of children’s immunization status in Kaiho village in Wakka block. Caregivers were counselled on availing vaccination services as per the recommended immunization schedule. The activity strengthened monitoring coverage in scattered and hard-to-reach settlements and reinforced caregiver awareness about the benefits of immunization. (© WHO India / Kamhang Sumyan)",
+      "new_value": "A WHO team and the district reproductive and child health officer, Longding, conducted joint house-to-house monitoring in Pamtong village, Niaussa block, to verify vaccination coverage during the Intensified Pulse Polio Immunization (IPPI) end-of-round survey. Following WHO-supported monitoring in March 2026, the state government identified Pamtong as a “missed area” and subsequently incorporated into routine immunization and IPPI micro-plans. The village is now included in all state and distric",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-11-18",
       "field": "type",
       "old_value": "analysis",
       "new_value": "report",
@@ -19972,6 +19968,13 @@
       "old_value": "Draft Telecommunication (Broadcasting & Cable) Services DRM Based Digital Addressable Systems Audit Manual’ for seeking comments of Stakeholders nitinkumar Fri, 10/09/2026 - 11:58 Measure Sector Broadcasting Document Type Consultation Division Broadcasting and Cable Services Group Field Title Draft Consultation Paper File Draft_CP_09102026.pdf.pdf (1.03 MB) Release Date Fri, 10/09/2026 - 12:00 Closing Date Fri, 10/30/2026 - 12:00 Counter Comments Date Fri, 10/30/2026 - 12:00 Status Open",
       "new_value": "Extension of last date for submission of comments from stakeholders on the Draft Telecommunication (Broadcasting & Cable) Services DRM Based Digital Addressable Systems Audit Manual, 2026 nitinkumar Fri, 10/30/2026 - 18:11 File Press Release No. 147 (239.86 KB) Date Fri, 10/30/2026 - 12:00",
       "source_id": "trai"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Draft Telecommunication (Broadcasting & Cable) Services DRM Based Digital Addressable Systems Audit Manual’ for seeking comments of Stakeholders nitinkumar Fri, 10/09/2026 - 11:58 Measure Sector Broadcasting Document Type Consultation Division Broadcasting and Cable Services Group Field Title Draft Consultation Paper File Draft_CP_09102026.pdf.pdf (1.03 MB) Release Date Fri, 10/09/2026 - 12:00 Closing Date Fri, 10/30/2026 - 12:00 Counter Comments Date Fri, 10/30/2026 - 12:00 Status Open",
+      "new_value": "Draft Telecommunication (Broadcasting & Cable) Services DRM Based Digital Addressable Systems Audit Manual’ for seeking comments of Stakeholders nitinkumar Wed, 11/18/2026 - 12:24 date Fri, 12/11/2026 - 12:00 File test 2 (387.22 KB) Measure Sector Telecom Date of Close Wed, 11/18/2026 - 12:00 Division Network, Spectrum and Licensing",
+      "source_id": "trai"
     }
   ],
   "73b48b2cfeae": [
@@ -19981,15 +19984,6 @@
       "old_value": "Pre-Bid Response: Request for Proposal for Appointment of Public Relations (PR) and Social Media Agency 04-10-2026",
       "new_value": "Pre-bid Query Response: REQUEST FOR PROPOSAL FOR APPOINTMENT OF PUBLIC RELATIONS (PR) AND SOCIAL MEDIA AGENCY Dated 16 Oct 2026",
       "source_id": "pfrda"
-    }
-  ],
-  "1f77be252d4f": [
-    {
-      "date": "2026-10-30",
-      "field": "description",
-      "old_value": "Circular: Fast-Track Mechanism for Processing of Placement Memorandum of AIFs filed with SEBI",
-      "new_value": "Circular: ‘Green-Channel: AIF Rollout Upon Document Acknowledgement’ (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs) filed with SEBI",
-      "source_id": "sebi_circulars"
     }
   ],
   "71ce22291718": [
@@ -21070,55 +21064,6 @@
   ],
   "a7daa9ed7626": [
     {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Gazette notification extension of the term of the Twenty-second Law Commission of India upto 31st August, 2024.",
-      "source_id": "law_commission"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Central Information Commission Internship Scheme- 2018",
-      "source_id": "cic"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The National Accreditation Board for Hospitals and Healthcare Providers (NABH) and the Indian Pharmacopoeia Commission (IPC) have established a collaborative initiative aimed at strengthening the reporting mechanisms for Adverse Drug Reactions (ADR) and Medical Device Adverse Events (MDAE) within NABH-accredited hospitals.",
-      "source_id": "nabh"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The Commission of Railway Safety, Ministry of Civil Aviation, invites deputation applications for one Senior Inspector…",
-      "source_id": "ecgov"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Gazette_Notification : Appointment of Hon’ble Chairperson and Members of 23rd Law Commission of India",
-      "source_id": "law_commission"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "THE 23rd LAW COMMISSION | Gazette_Notification",
-      "source_id": "law_commission"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Gazette notification extension of the term of the Twenty-second Law Commission of India upto 31st August, 2024.",
-      "source_id": "law_commission"
-    },
-    {
       "date": "2026-11-17",
       "field": "description",
       "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
@@ -21187,6 +21132,55 @@
       "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "The Commission of Railway Safety, Ministry of Civil Aviation, invites deputation applications for one Senior Inspector…",
       "source_id": "ecgov"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Gazette_Notification : Appointment of Hon’ble Chairperson and Members of 23rd Law Commission of India",
+      "source_id": "law_commission"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "THE 23rd LAW COMMISSION | Gazette_Notification",
+      "source_id": "law_commission"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Gazette notification extension of the term of the Twenty-second Law Commission of India upto 31st August, 2024.",
+      "source_id": "law_commission"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Central Information Commission Internship Scheme- 2018",
+      "source_id": "cic"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The National Accreditation Board for Hospitals and Healthcare Providers (NABH) and the Indian Pharmacopoeia Commission (IPC) have established a collaborative initiative aimed at strengthening the reporting mechanisms for Adverse Drug Reactions (ADR) and Medical Device Adverse Events (MDAE) within NABH-accredited hospitals.",
+      "source_id": "nabh"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The Commission of Railway Safety, Ministry of Civil Aviation, invites deputation applications for one Senior Inspector…",
+      "source_id": "ecgov"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "SC defers INDIA bloc plea on Election Commission questions to December 9 hearing    Telegraph India",
+      "source_id": "policyradar"
     },
     {
       "date": "2026-11-18",
@@ -22786,20 +22780,6 @@
   ],
   "8c899acd431d": [
     {
-      "date": "2026-11-12",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
-      "new_value": "According a media report, Chief Minister Devendra Fadnavis has written to Civil Aviation Ministry on the issue",
-      "source_id": "business_line"
-    },
-    {
-      "date": "2026-11-13",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
-      "new_value": "The State government’s proposal is in contrast with airport operator’s plan",
-      "source_id": "business_line"
-    },
-    {
       "date": "2026-11-13",
       "field": "description",
       "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
@@ -22924,6 +22904,20 @@
       "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
       "new_value": "The corporation’s move to shift flight takeoffs to certain international destinations from the legacy airport in Mumbai to the new airport on the outskirts has ruffled the feathers of foreign carriers, passengers and even the chief minister of Maharashtra. How the group responds will be telling.",
       "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
+      "new_value": "The corporation’s move to shift flight takeoffs to certain international destinations from the legacy airport in Mumbai to the new airport on the outskirts has ruffled the feathers of foreign carriers, passengers and even the chief minister of Maharashtra. How the group responds will be telling.",
+      "source_id": "mint_opinion"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
+      "new_value": "DHL’s new twice weekly service launched earlier this week will provide customers in Hong Kong a dedicated capacity into the Mumbai region with onward connections to Liege in Belgium",
+      "source_id": "business_line"
     }
   ],
   "cf1abda3c754": [
@@ -23276,6 +23270,13 @@
       "field": "description",
       "old_value": "MEMORANDUM :- Inviting comments from stakeholders on the draft amendment to the Ladakh A&SH (Subordinate) Service Recruitment Rules, 2022, notified vide S.O. 08 dated 07.01.2022 – regarding.",
       "new_value": "Inviting comments of the stakeholders on the draft Ladakh Public Works.",
+      "source_id": "ladakh_govt"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "MEMORANDUM :- Inviting comments from stakeholders on the draft amendment to the Ladakh A&SH (Subordinate) Service Recruitment Rules, 2022, notified vide S.O. 08 dated 07.01.2022 – regarding.",
+      "new_value": "Memorandum:-Inviting comments from satekholders on the draft amendment tot he Union Territoy of Ladakh H&ME (Subordinate) Service Recruitment Rules, 2021 notified Vide S.O 38 dated 10.09.2021-reg.",
       "source_id": "ladakh_govt"
     }
   ],
@@ -24777,6 +24778,20 @@
       "old_value": "Education, Finance & Economy, Social Protection",
       "new_value": "Finance & Economy",
       "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Impact Assessment of PLI Schemes niti_admin Thu, 11/12/2026 - 15:19 Choose Report Type Publications Publication Date Thu, 11/12/2026 - 15:19 Report Upload Download (6.43 MB) vertical Industry & Foreign Investment PDF Text 1 Impact Assessment of PLI Schemes November 2026 IMPACT ASSESSMENT OF PLI SCHEMES Disclaimer NITI Aayog collaborated with its knowledge partner IIM Ahmedabad in the preparation of this report. While due care has been exercised to prepare the report using the data from Minis",
+      "new_value": "Impact Assessment of PLI Schemes niti_admin Thu, 11/12/2026 - 15:27 Weight 0 Links https://www.niti.gov.in/sites/default/files/2026-11/Impact-Assessment-of-PLI-Sc…",
+      "source_id": "niti_aayog"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "sectors",
+      "old_value": "Education, Finance & Economy, Social Protection",
+      "new_value": "Finance & Economy",
+      "source_id": "niti_aayog"
     }
   ],
   "20225886d28a": [
@@ -25017,41 +25032,6 @@
   ],
   "126412821f48": [
     {
-      "date": "2026-11-14",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-14",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-15",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-15",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-15",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
-      "source_id": "ibbi"
-    },
-    {
       "date": "2026-11-16",
       "field": "description",
       "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
@@ -25116,6 +25096,41 @@
     },
     {
       "date": "2026-11-17",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Ms. Aparna Sinha as ex-officio member in the Insolvency and Bankruptcy Board of India (319.91 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Shri Ashutosh Mishra as ex-officio member in the Insolvency and Bankruptcy Board of India (325.24 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Dr. Anju Rathi Rana as ex-officio member in the Insolvency and Bankruptcy Board of India (495.57 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Mr. L. V. Prabhakar as Part-Time Member in Insolvency and Bankruptcy Board of India (1.69 MB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-18",
       "field": "description",
       "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
       "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
@@ -25564,68 +25579,6 @@
       "source_id": "policyradar"
     }
   ],
-  "1aee3b4d73b4": [
-    {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "Prime Minister Narendra Modi is visiting Manila on November 16-17 to participate in the 23rd ASEAN-India Summit and the 21st East Asia Summit at the invitation of Philippine President Ferdinand R Marcos Jr.",
-      "new_value": "New Delhi, Nov 16 (PTI) India’s relationship with ASEAN countries is at the heart of its Act East Policy and occupies a central place in its MAHASAGAR vision...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "Prime Minister Narendra Modi is visiting Manila on November 16-17 to participate in the 23rd ASEAN-India Summit and the 21st East Asia Summit at the invitation of Philippine President Ferdinand R Marcos Jr.",
-      "new_value": "Prime Minister Narendra Modi is visiting Manila on November 16-17 to participate in the 23rd ASEAN-India Summit and the 21st East Asia Summit at the invitation of Philippine President Ferdinand R...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Prime Minister Narendra Modi is visiting Manila on November 16-17 to participate in the 23rd ASEAN-India Summit and the 21st East Asia Summit at the invitation of Philippine President Ferdinand R Marcos Jr.",
-      "new_value": "Prime Minister Narendra Modi is visiting Manila on November 16-17 to participate in the 23rd ASEAN-India Summit and the 21st East Asia Summit at the invitation of Philippine President Ferdinand R...",
-      "source_id": "policyradar"
-    }
-  ],
-  "b3286ce6f45b": [
-    {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "The members of this committee include Iqbal Singh Lalpura, Vijay Sampla, Shwet Malik, Maharani Preneet Kaur, Ravneet Singh Bittu, Dinesh Babbu, Sushil Rinku, Geja Ram, Vikramjit Singh Sahney, Ashok Mittal, Sandeep Pathak, S.S. Channi, and Jagmeet Singh Brar",
-      "new_value": "The members of this committee include Iqbal Singh Lalpura, Vijay Sampla, Shwet Malik, Maharani Preneet Kaur, Ravneet Singh Bittu, Dinesh Babbu, Sushil Rinku, Geja Ram, Vikramjit Singh Sahney...",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The members of this committee include Iqbal Singh Lalpura, Vijay Sampla, Shwet Malik, Maharani Preneet Kaur, Ravneet Singh Bittu, Dinesh Babbu, Sushil Rinku, Geja Ram, Vikramjit Singh Sahney, Ashok Mittal, Sandeep Pathak, S.S. Channi, and Jagmeet Singh Brar",
-      "new_value": "The members of this committee include Iqbal Singh Lalpura, Vijay Sampla, Shwet Malik, Maharani Preneet Kaur, Ravneet Singh Bittu, Dinesh Babbu, Sushil Rinku, Geja Ram, Vikramjit Singh Sahney...",
-      "source_id": "policyradar"
-    }
-  ],
-  "b9cecc97e114": [
-    {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "The Election Commission of India (ECI) has told the Supreme Court that no prosecution will be launched against persons who file Form 6 to get themselves added back to the voters list after they have been deleted/ excluded from the draft roll during the ongoing Special Intensive Revision (SIR).The statement was made in a supplementary affidavit filed by the ECI on November 14 in response to a petition concerning the functioning of Chief Election Commissioner Gyanesh Kumar.The petition was filed b",
-      "new_value": "Deleted voters won't be prosecuted for using Form 6 for re-enrolment: ECI to Supreme Court",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "The Election Commission of India (ECI) has told the Supreme Court that no prosecution will be launched against persons who file Form 6 to get themselves added back to the voters list after they have been deleted/ excluded from the draft roll during the ongoing Special Intensive Revision (SIR).The statement was made in a supplementary affidavit filed by the ECI on November 14 in response to a petition concerning the functioning of Chief Election Commissioner Gyanesh Kumar.The petition was filed b",
-      "new_value": "The commission earlier told state poll panels that persons using the application to be reinstated as voters after SIR deletion will not be a false declaration.",
-      "source_id": "scroll"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The Election Commission of India (ECI) has told the Supreme Court that no prosecution will be launched against persons who file Form 6 to get themselves added back to the voters list after they have been deleted/ excluded from the draft roll during the ongoing Special Intensive Revision (SIR).The statement was made in a supplementary affidavit filed by the ECI on November 14 in response to a petition concerning the functioning of Chief Election Commissioner Gyanesh Kumar.The petition was filed b",
-      "new_value": "Deleted voters won't be prosecuted for using Form 6 for re-enrolment: ECI to Supreme Court",
-      "source_id": "policyradar"
-    }
-  ],
   "6213908294f2": [
     {
       "date": "2026-11-16",
@@ -25654,45 +25607,13 @@
       "old_value": "Government of India press release: India’s Export Growth in FY 2026-27: Strong Performance, New Milestones",
       "new_value": "India’s exports grew 16.66% to US$568.84 billion in April-October FY27, driven by strong merchandise, services and electronic goods exports.",
       "source_id": "ibef"
-    }
-  ],
-  "78759dc8e9ea": [
-    {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "Q7. What does the following quotation mean to you in the present context? (10 M) “The measure of a man’s character is what he would do if he knew he never would be found out.” — Thomas Babington Macaulay Difficulty Level: Medium Reference: InsightsIAS Why the question The growing importance of personal integrity and moral self-regulation in … Continue reading \"“The measure of a man’s character is what he would do if he knew he never would be found out.” — Thomas Babington Macau",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
     },
     {
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "field": "description",
-      "old_value": "Q7. What does the following quotation mean to you in the present context? (10 M) “The measure of a man’s character is what he would do if he knew he never would be found out.” — Thomas Babington Macaulay Difficulty Level: Medium Reference: InsightsIAS Why the question The growing importance of personal integrity and moral self-regulation in … Continue reading \"“The measure of a man’s character is what he would do if he knew he never would be found out.” — Thomas Babington Macau",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Q7. What does the following quotation mean to you in the present context? (10 M) “The measure of a man’s character is what he would do if he knew he never would be found out.” — Thomas Babington Macaulay Difficulty Level: Medium Reference: InsightsIAS Why the question The growing importance of personal integrity and moral self-regulation in … Continue reading \"“The measure of a man’s character is what he would do if he knew he never would be found out.” — Thomas Babington Macau",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    }
-  ],
-  "44c15179a064": [
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "While Morgan Stanley expects India’s economy to grow 7.6% in FY27, concerns over inflation, rural demand and possible RBI rate hikes cloud the outlook.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "While Morgan Stanley expects India’s economy to grow 7.6% in FY27, concerns over inflation, rural demand and possible RBI rate hikes cloud the outlook.",
-      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
-      "source_id": "epod_harvard"
+      "old_value": "Government of India press release: India’s Export Growth in FY 2026-27: Strong Performance, New Milestones",
+      "new_value": "India’s exports grew 16.66% to US$568.84 billion in April-October FY27, driven by strong merchandise, services and electronic goods exports.",
+      "source_id": "ibef"
     }
   ],
   "7f9d8cef6754": [
@@ -25763,144 +25684,144 @@
   ],
   "8680c3684a98": [
     {
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "field": "description",
       "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_urban_development"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
       "source_id": "pib_water_resources_river_development_and_ganga_rejuvenation"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_niti_aayog"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_tribal_affairs"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_ports_shipping_and_waterways"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_youth_affairs_and_sports"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_women_and_child_development"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_national_financial_reporting_authority"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_eac_pm"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_upsc"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_pm_speech"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_special_service_and_features"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_national_security_council_secretariat"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_ifsc_authority"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_lokpal_of_india"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_national_human_rights_commission"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "pib_competition_commission_of_india"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "state_pib_karnataka"
     },
     {
       "date": "2026-11-18",
       "field": "description",
       "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
-      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026",
-      "source_id": "state_pib_karnataka"
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_urban_development"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_tourism"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_women_and_child_development"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_pm_speech"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_surface_transport"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_eac_pm"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_national_financial_reporting_authority"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_upsc"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_special_service_and_features"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_office_of_principal_scientific_advisor_to_goi"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_tribal_affairs"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_textiles"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_niti_aayog"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_national_security_council_secretariat"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_youth_affairs_and_sports"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_ifsc_authority"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_national_human_rights_commission"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Ministry of Social Justice & Empowerment’s Participation at 45th IITF 2026 Reinforces...",
+      "new_value": "Government of India press release: Ministry of Social Justice and Empowerment’s Pavilion at 45th IITF 2026 Records Cumulative Sales of ₹ 29.56 Lakh; Growing Consumer Patronage Boosts Economic Opportunities for Artisans",
+      "source_id": "pib_lokpal_of_india"
     }
   ],
   "dac2e2995cdd": [
@@ -25942,38 +25863,6 @@
       "old_value": "In terms of GOI notification F.No.4(22)-B(W&M)/2018 dated October 08, 2018 (SGB 2018-19 Series-III-Issue date November 13, 2018) on Sovereign Gold Bond Scheme, the Gold Bond shall be repayable on the expiration of eight years from the date of issue of the Gold Bonds. Accordingly, the final redemption date of the above tranche shall be November 13, 2026. 2. Further, the redemption price of SGB shall be based on simple average of closing price of gold of 999 purity of previous three business d",
       "new_value": "In terms of GOI notification F.No. 4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series VIII - Issue date November 18, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on November 18, 2026. 2. Further, the redemption price of SGB shall be based on simple average of",
       "source_id": "rbi"
-    }
-  ],
-  "a1696cd76fed": [
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The 30-share BSE Sensex climbed 414.36 points to 82,010.15 in early trade and the 50-share NSE Nifty rallied 102.10 points to 25,252.50",
-      "new_value": "The 30-share BSE Sensex rallied 427.40 points, or 0.52%, to settle at 82,532.19; during the day, it surged 792.7 points, or 0.96%, to 82,897.49.",
-      "source_id": "the_hindu_business"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The 30-share BSE Sensex climbed 414.36 points to 82,010.15 in early trade and the 50-share NSE Nifty rallied 102.10 points to 25,252.50",
-      "new_value": "The 30-share BSE Sensex advanced 108.83 points to 82,184.33 in early trade. The 50-share NSE Nifty rose 31.90 points to 25,325.75",
-      "source_id": "the_hindu_business"
-    }
-  ],
-  "6b7febf86b74": [
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 16 November 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 16 November 2026 | Daily Prelims Quiz appeare",
-      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 17 November 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 17 November 2026 | Daily Prelims Quiz appeare",
-      "source_id": "insights_ias"
-    },
-    {
-      "date": "2026-11-17",
-      "field": "description",
-      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 16 November 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 16 November 2026 | Daily Prelims Quiz appeare",
-      "new_value": "The post UPSC CURRENT AFFAIRS – 17 NOVEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "source_id": "insights_ias"
     }
   ],
   "1410f6948cbc": [
@@ -26024,6 +25913,13 @@
       "old_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal to undertake official visit to Italy from 17–18 November 2026 to strengthen bilateral economic partnership",
       "new_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal to undertake official visit...",
       "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: Union Minister of Commerce and Industry Shri Piyush Goyal to undertake official visit to Italy from 17–18 November 2026 to strengthen bilateral economic partnership",
+      "new_value": "Piyush Goyal’s Italy visit focuses on expanding India-Italy trade, investment and industrial cooperation across key sectors, including technology and startups.",
+      "source_id": "ibef"
     }
   ],
   "77ed3ea3984e": [
@@ -26049,9 +25945,23 @@
       "old_value": "Circular: Clarifications on implementation of Indian Accounting Standards",
       "new_value": "Circular: Clarifications on implementation of Indian Accounting Standards (Ind AS)",
       "source_id": "irdai_circulars"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Circular: Clarifications on implementation of Indian Accounting Standards",
+      "new_value": "Circular: Clarifications on implementation of Indian Accounting Standards (Ind AS)",
+      "source_id": "irdai_circulars"
     }
   ],
   "3732428f0625": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Circular: Extension of Transitional Arrangements for Payment of Annual Fee and Issuance of Certificate of Registration",
+      "new_value": "Circular: Transitional arrangements for payment of Annual Fee and issuance  of  Certificate  of  Registration (Intermediaries)",
+      "source_id": "irdai_circulars"
+    },
     {
       "date": "2026-11-18",
       "field": "description",
@@ -26067,9 +25977,23 @@
       "old_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
       "new_value": "Circular - Timeline of Transparency Audit 2025-26",
       "source_id": "cic"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
+      "new_value": "Circular - Timeline of Transparency Audit 2025-26",
+      "source_id": "cic"
     }
   ],
   "a1787ceb7050": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The Supreme Court has valued a homemaker’s unpaid labour at ₹30,000 a month for calculating compensation after her death. The recognition is significant, but the figure, its underlying assumptions and the families it may leave out deserve closer examination.",
+      "new_value": "A space to explore ideas, inspire and collaborate in an environment of care",
+      "source_id": "azim_premji"
+    },
     {
       "date": "2026-11-18",
       "field": "description",
@@ -26085,6 +26009,13 @@
       "old_value": "State government capital expenditure grew 14% in FY27 so far, ahead of the Centre’s 13%, supported by stronger state tax revenue growth, according to an ICICI Securities report.",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
       "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "State government capital expenditure grew 14% in FY27 so far, ahead of the Centre’s 13%, supported by stronger state tax revenue growth, according to an ICICI Securities report.",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
     }
   ],
   "81f2c99d02f6": [
@@ -26094,6 +26025,20 @@
       "old_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 9:30 AM to 10:00 AM November 19, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
       "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 18, 2026, as under: Sl. No.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 9:30 AM to 10:00 AM November 19, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
+      "new_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, November 19, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 10:30 AM to 11:00 AM November 20, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad  &n",
+      "source_id": "rbi"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 9:30 AM to 10:00 AM November 19, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad",
+      "new_value": "Tenor 1-day Notified Amount (in ₹ crore) 50,000 Total amount of offers received (in ₹ crore) 9,388 Amount accepted (in ₹ crore) 9,388 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-2027/1515",
+      "source_id": "rbi"
     }
   ],
   "ebedc87d5bbf": [
@@ -26121,6 +26066,13 @@
       "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Nagar Sahakari Bank Ltd., Etawah, vide Directive No. LKO.DOS.SED.No.S29/12-03-000/2026-2027 dated May 15, 2026, for a period of six months up to close of business on November 18, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond close of business on November 18, 2026. 2.",
       "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Nagar Sahakari Bank Ltd., Etawah, vide Directive No.",
       "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Nagar Sahakari Bank Ltd., Etawah, vide Directive No. LKO.DOS.SED.No.S29/12-03-000/2026-2027 dated May 15, 2026, for a period of six months up to close of business on November 18, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to further extend the period of operation of the Directive beyond close of business on November 18, 2026. 2.",
+      "new_value": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Nagar Sahakari Bank Ltd., Etawah, vide Directive No.",
+      "source_id": "policyradar"
     }
   ],
   "ab4b64066ed7": [
@@ -26130,6 +26082,133 @@
       "old_value": "Goods exports in October have jumped 45.1% from a year earlier, a remarkable feat considering global headwinds. But to keep the momentum going, policymakers must pay heed to exporters' challenges. Here's what the government should consider.",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "source_id": "unicef_india"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Goods exports in October have jumped 45.1% from a year earlier, a remarkable feat considering global headwinds. But to keep the momentum going, policymakers must pay heed to exporters' challenges. Here's what the government should consider.",
+      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
+      "source_id": "unicef_india"
+    }
+  ],
+  "e701ac4812fb": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 8,000 8,000 7,000 II. Competitive Bids Received       (i) Number 132 91 146 (ii) Amount 27,046.800 20,021.500 21,548.500 III. Cut-off price (₹) / Yield 98.5581 96.8521 93.7900 (YTM: 5.8681%) (YTM: 6.5183%) (YTM: 6.6394%) IV. Competitive Bids Accepted       (i) Number 28 18 48 (ii) Amount 7,600.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 48.1700%",
+      "new_value": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 8,000 8,000 7,000 II. Competitive Bids Received       (i) Number 152 127 163 (ii) Amount 25,216.180 26,523.500 25,170.500 III. Cut-off price (₹) / Yield 98.5600 96.8466 93.7982 (YTM: 5.8602%) (YTM: 6.5300%) (YTM: 6.6300%) IV. Competitive Bids Accepted       (i) Number 71 56 64 (ii) Amount 7,600.000 7,600.000 6,650.000 V. Partial Allotment Percentage of Competitive Bids 56.6516%",
+      "source_id": "rbi"
+    }
+  ],
+  "4c3369af7a7c": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.5581 (YTM: 5.8681%) 96.8521 (YTM: 6.5183%) 93.7900 (YTM: 6.6394%) III. Total Face Value Accepted ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
+      "new_value": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.5600 (YTM: 5.8602%) 96.8466 (YTM: 6.5300%) 93.7982 (YTM: 6.6300%) III. Total Face Value Accepted ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad           Deputy General Manager (Communications)     Press Release: 2026-",
+      "source_id": "rbi"
+    }
+  ],
+  "8c3b8e871a16": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Architecture is an active participant in 'othering' domestic workers, segregating them structurally and spatially. These design choices are separations meant to maintain the structural hierarchy of the served and the server while subjecting the domestic worker to constant surveillance.▶16-Nov-2026",
+      "new_value": "Architecture is an active participant in 'othering' domestic workers, segregating them structurally and spatially. These design choices are separations meant to maintain the structural…▶16-Nov-2026",
+      "source_id": "india_forum"
+    }
+  ],
+  "c700f7f31233": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "In terms of GOI notification F.No. 4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series VIII - Issue date November 18, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on November 18, 2026. 2. Further, the redemption price of SGB shall be based on simple average of",
+      "new_value": "In terms of GOI notification F.No. 4(4)-B(W&M)/2020 dated April 13, 2020 (SGB 2020-21 Series II - Issue date May 19, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on November 19, 2026. 2. Further, the redemption price of SGB shall be based on simple average of closing",
+      "source_id": "rbi"
+    }
+  ],
+  "7a6ba237be1b": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Forex traders said fresh foreign fund inflows and softer crude oil prices are supporting the rupee, while a stronger dollar and rising U.S. yields remain key risks",
+      "new_value": "Forex traders said the appreciation in the rupee was primarily fuelled by a steep overnight drop in Brent crude oil prices, which eases India's import bill and inflation concerns",
+      "source_id": "the_hindu_business"
+    }
+  ],
+  "12176c842c2b": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Cabinet Secretary launches Karmayogi Sankalpa at NITI Aayog’s National Workshop on “Leadership as a Mission” niti_admin Tue, 11/17/2026 - 22:15 Publishing Date Tue, 11/17/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2337664&reg=48&lang=1",
+      "new_value": "The Telegraph, Guwahati, May 16, 2012",
+      "source_id": "cuts_international"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Cabinet Secretary launches Karmayogi Sankalpa at NITI Aayog’s National Workshop on “Leadership as a Mission” niti_admin Tue, 11/17/2026 - 22:15 Publishing Date Tue, 11/17/2026 - 12:00 Release Link https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2337664&reg=48&lang=1",
+      "new_value": "Cabinet Secretary launches Karmayogi Sankalpa at NITI Aayog’s National Workshop on “Leadership as a Mission”",
+      "source_id": "policyradar"
+    }
+  ],
+  "239e597c8aa1": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
+      "new_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline",
+      "source_id": "cic"
+    }
+  ],
+  "d39cbe4a66a2": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Memorandum:-Inviting comments of the stakeholders on the draft Union Territory of Ladakh Technical Education & Skill Development (Subordinate) Service Recruitment (Amendment) Rules 2026.",
+      "new_value": "S.O.38:- The Union Territory of Ladakh Health & Medical (Subordinate) Service Recruitment (Amendment) Rules, 2026.",
+      "source_id": "ladakh_govt"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Memorandum:-Inviting comments of the stakeholders on the draft Union Territory of Ladakh Technical Education & Skill Development (Subordinate) Service Recruitment (Amendment) Rules 2026.",
+      "new_value": "S.O.282(E):- Amendment to the Union Territory of Ladakh Health & Medical (Subordinate) Service Recruitment Rules, 2021.",
+      "source_id": "ladakh_govt"
+    }
+  ],
+  "29981d33f25b": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Please click here to download document",
+      "new_value": "Please click here to download Notification",
+      "source_id": "manipur_govt"
+    }
+  ],
+  "29aea9aa062c": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 17 November 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 17 November 2026 | Daily Prelims Quiz appeare",
+      "new_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 18 November 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 18 November 2026 | Daily Prelims Quiz appeare",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "The Current Affairs Quiz is a daily quiz based on the DAILY CURRENT AFFAIRS AND PIB SUMMARY from the previous day, as posted on our website. It covers all relevant news sources and is designed to test your knowledge of current events. Solving these questions will help you retain both concepts and facts relevant … Continue reading \"UPSC Current Affairs Quiz – 17 November 2026 | Daily Prelims Quiz\" The post UPSC Current Affairs Quiz – 17 November 2026 | Daily Prelims Quiz appeare",
+      "new_value": "The post UPSC CURRENT AFFAIRS – 18 NOVEMBER 2026 appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
+      "source_id": "insights_ias"
+    }
+  ],
+  "2be047688909": [
+    {
+      "date": "2026-11-18",
+      "field": "description",
+      "old_value": "Government of India press release: India’s Electronic Goods Exports Grow 44% to USD 31.97 Billion in April–September FY 2026-27",
+      "new_value": "India’s electronic goods exports rose 44% to US$31.97 billion in April-September FY27, driven by smartphones and strong non-smartphone electronics growth.",
+      "source_id": "ibef"
     }
   ]
 }
