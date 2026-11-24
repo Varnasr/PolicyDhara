@@ -641,13 +641,6 @@
       "source_id": "historical"
     },
     {
-      "date": "2026-09-27",
-      "field": "description",
-      "old_value": "Unified insolvency resolution framework replacing multiple overlapping laws. Established NCLT as adjudicating authority with time-bound resolution (180+90 days) for corporate insolvency, improving India's ease of doing business.",
-      "new_value": "With the IBC completing 10 years of existence this year, it's a good time for policymakers to evaluate how well it serves the economy today. Three structural aspects deserve scrutiny, and Section 29A requires a reset to guard against its dampening effect on the deployment of risk capital.",
-      "source_id": "mint_opinion"
-    },
-    {
       "date": "2026-09-30",
       "field": "description",
       "old_value": "Unified insolvency resolution framework replacing multiple overlapping laws. Established NCLT as adjudicating authority with time-bound resolution (180+90 days) for corporate insolvency, improving India's ease of doing business.",
@@ -775,6 +768,13 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Unified insolvency resolution framework replacing multiple overlapping laws. Established NCLT as adjudicating authority with time-bound resolution (180+90 days) for corporate insolvency, improving India's ease of doing business.",
+      "new_value": "Notification under sub-section (2) of section 1 of the Insolvency and Bankruptcy Code (Amendment) Act, 2026. (537.48 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Unified insolvency resolution framework replacing multiple overlapping laws. Established NCLT as adjudicating authority with time-bound resolution (180+90 days) for corporate insolvency, improving India's ease of doing business.",
       "new_value": "Notification under sub-section (2) of section 1 of the Insolvency and Bankruptcy Code (Amendment) Act, 2026. (537.48 KB)",
@@ -3560,27 +3560,6 @@
       "source_id": "ibbi"
     },
     {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Notification: IRDAI (Indian Insurance Companies) (Amendment) Regulations, 2021, Jul 2021",
-      "source_id": "irdai_notifications"
-    },
-    {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "Notification: Indian Insurance Companies (Foreign Investment) Amendment Rules, 2021",
-      "source_id": "irdai_notifications"
-    },
-    {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
-      "new_value": "The Companies (Incorporation) Third Amendment Rules, 2023 (683.51 KB)",
-      "source_id": "ibbi"
-    },
-    {
       "date": "2026-11-22",
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
@@ -3659,6 +3638,27 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "The Companies (Incorporation) Third Amendment Rules, 2023 (683.51 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Notification: IRDAI (Indian Insurance Companies) (Amendment) Regulations, 2021, Jul 2021",
+      "source_id": "irdai_notifications"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
+      "new_value": "Notification: Indian Insurance Companies (Foreign Investment) Amendment Rules, 2021",
+      "source_id": "irdai_notifications"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Comprehensive overhaul of corporate governance law replacing the Companies Act 1956. Introduced mandatory CSR spending (2% of net profit), class action suits, one-person companies, and enhanced auditor accountability.",
       "new_value": "The Companies (Incorporation) Third Amendment Rules, 2023 (683.51 KB)",
@@ -4188,20 +4188,6 @@
       "source_id": "takshashila"
     },
     {
-      "date": "2026-10-26",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
-      "date": "2026-10-26",
-      "field": "description",
-      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
-      "new_value": "document.addEventListener('DOMContentLoaded', function() { // Get the table of contents and progress bar const toc = document.getElementById('TOC'); const progressBar = document.getElementById('toc-progress'); if (!toc || !progressBar) return; // Track scroll position and update the active section and progress bar updateTocOnScroll(); function updateTocOnScroll() { // Get all section headings with IDs const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id],",
-      "source_id": "takshashila"
-    },
-    {
       "date": "2026-10-27",
       "field": "description",
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
@@ -4319,6 +4305,20 @@
       "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
       "new_value": "The Supreme Court on Monday urged the parties in the long-standing Kalyani family dispute to explore resolution through arbitration after mediation proceedings led by former Supreme Court judge Justice L Nageswara Rao failed to produce a settlement.A Bench of Chief Justice of India (CJI) Surya Kant and Justices Joymalya Bagchi and V Mohana considered the mediator's report and explored whether arbitration could provide a comprehensive resolution of disputes involving different branches of the fam",
       "source_id": "barandbench"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "Supreme Court Suggests Sole Arbitrator To Resolve Family Feud",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "India's first standalone mediation law to promote and facilitate mediation for dispute resolution. Establishes Mediation Council of India, provides for community mediation, and gives statutory recognition to mediated settlement agreements.",
+      "new_value": "The Indian Council of Arbitration (ICA), in association with the Royal Institution of Chartered Surveyors (RICS), hosted the opening ceremony for their conclave titled “Mediation in Transition:...",
+      "source_id": "policyradar"
     }
   ],
   "b8d7ee003bed": [
@@ -5594,13 +5594,6 @@
       "source_id": "cbga"
     },
     {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
-      "new_value": "Content Awaited....",
-      "source_id": "cbga"
-    },
-    {
       "date": "2026-11-17",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
@@ -5721,6 +5714,13 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
+      "new_value": "Content Awaited....",
+      "source_id": "cbga"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Budget with significant income tax relief - no tax up to Rs 12 lakh, new simplified regime with 8 slabs. Rs 11.21 lakh crore for infrastructure, support for MSMEs, and Makhana Board for Bihar. Focus on growth, investment, and consumption.",
       "new_value": "Content Awaited....",
@@ -7783,20 +7783,6 @@
       "source_id": "republic_world"
     },
     {
-      "date": "2026-11-20",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-11-20",
-      "field": "description",
-      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
-      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
-      "source_id": "republic_world"
-    },
-    {
       "date": "2026-11-21",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
@@ -7903,6 +7889,20 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
+      "new_value": "Maharashtra Freedom of Religion Act 2026 comes into force on August 28, bringing penalties of up to 7 years in jail, Rs 5 lakh fine and new rules for voluntary conversions and interfaith marriages.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "TOC August 2026 niti_admin Mon, 09/21/2026 - 15:17 Upload Supported Document TOC-August-2026.pdf (367.46 KB) Choose Document Type Table of Content Supported File Link August 2026",
       "new_value": "J&K local body polls face another delay as the SEC sets August 31 deadline, with elections likely pushed to March–April 2027 if government clearance is not granted. PDP questions NC-BJP over repeated postponements.",
@@ -11944,20 +11944,6 @@
       "source_id": "seci"
     },
     {
-      "date": "2026-11-19",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
-      "date": "2026-11-20",
-      "field": "sectors",
-      "old_value": "Climate & Environment, Energy",
-      "new_value": "Energy",
-      "source_id": "seci"
-    },
-    {
       "date": "2026-11-20",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
@@ -12078,6 +12064,20 @@
     },
     {
       "date": "2026-11-23",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Energy",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "sectors",
+      "old_value": "Climate & Environment, Energy",
+      "new_value": "Climate & Environment, Energy, Social Protection",
+      "source_id": "seci"
+    },
+    {
+      "date": "2026-11-24",
       "field": "sectors",
       "old_value": "Climate & Environment, Energy",
       "new_value": "Energy",
@@ -14038,20 +14038,6 @@
       "date": "2026-11-21",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "Report",
-      "source_id": "newslaundry"
-    },
-    {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
-      "new_value": "The developments came after the student protest in Ranchi over alleged irregularities in examinations conducted by the Jharkhand Public Service Commission (JPSC) and Jharkhand Staff Selection Commission (JSSC).",
-      "source_id": "republic_world"
-    },
-    {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
       "source_id": "republic_world"
     },
@@ -14169,6 +14155,20 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
+      "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
+      "new_value": "The developments came after the student protest in Ranchi over alleged irregularities in examinations conducted by the Jharkhand Public Service Commission (JPSC) and Jharkhand Staff Selection Commission (JSSC).",
+      "source_id": "republic_world"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Why do people protest? Especially in this climate of mass surveillance and lethal crowd control methods, why do thousands of people risk their education, livelihoods, and even lives to stand up to mighty governments? At the end of the day, does it change anything for anyone? Do the activists and their supporters ever win any battles against the all-powerful authorities that govern us? In the past, people of India have seen protests like the anti-CAA–NRC agitations come to an abrupt halt during C",
       "new_value": "Union Parliamentary Affairs Minister Kiren Rijiju defended the handling of recent student protests in Bihar and Delhi over exam irregularities, stating that law enforcement managed large crowds without serious injuries or fatalities. He contrasted this with past administrations, claiming Congress used excessive force during protests.",
@@ -15810,13 +15810,6 @@
       "date": "2026-10-22",
       "field": "description",
       "old_value": "Securities and Exchange Board of India (Alternative Investment Funds) (Third Amendment) Regulations, 2026",
-      "new_value": "Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012 [Last amended on October 15, 2026]",
-      "source_id": "sebi"
-    },
-    {
-      "date": "2026-10-22",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Alternative Investment Funds) (Third Amendment) Regulations, 2026",
       "new_value": "Securities and Exchange Board of India (Alternative Investment Funds) Regulations 2012 [Last amended on October 15, 2026]",
       "source_id": "sebi"
     },
@@ -15945,6 +15938,13 @@
       "old_value": "Securities and Exchange Board of India (Alternative Investment Funds) (Third Amendment) Regulations, 2026",
       "new_value": "Regulations: Securities and Exchange Board of India (Alternative Investment Funds) (Amendment) Regulations, 2026",
       "source_id": "sebi_regulations"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Alternative Investment Funds) (Third Amendment) Regulations, 2026",
+      "new_value": "Regulations: Securities and Exchange Board of India (Alternative Investment Funds) (Amendment) Regulations, 2026",
+      "source_id": "sebi_regulations"
     }
   ],
   "92f8e06416cf": [
@@ -15956,13 +15956,6 @@
       "source_id": "sebi_master_circulars"
     },
     {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
-      "new_value": "Master circular: Master circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
-      "source_id": "sebi_master_circulars"
-    },
-    {
       "date": "2026-11-17",
       "field": "description",
       "old_value": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
@@ -16083,6 +16076,13 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
+      "new_value": "Master circular: Master circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
+      "source_id": "sebi_master_circulars"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026",
       "new_value": "Master circular: Master circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
@@ -16884,13 +16884,6 @@
       "source_id": "vidhi"
     },
     {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "**Samik Basu IV. The Existing Regime in Gujarat & Maharashtra Having traced the colonial origins of prior restraint and how courts elsewhere in India responded to it, Part 2 turns to the regime as it currently stands in Gujarat and Maharashtra, and argues that even if its procedural defects were cured, prior restraint on theatre […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
-      "source_id": "vidhi"
-    },
-    {
       "date": "2026-11-17",
       "field": "description",
       "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
@@ -17011,6 +17004,13 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "**Samik Basu IV. The Existing Regime in Gujarat & Maharashtra Having traced the colonial origins of prior restraint and how courts elsewhere in India responded to it, Part 2 turns to the regime as it currently stands in Gujarat and Maharashtra, and argues that even if its procedural defects were cured, prior restraint on theatre […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
+      "source_id": "vidhi"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "**Samik Basu Introduction In 2017, the Bombay HC admitted a writ petition filed by the famed Marathi actor and director,  Amol Palekar challenging the regime of prior-censorship of theatrical performances and plays in Maharashtra under the Bombay Police Act, 1951 and the rules thereunder. The challenge contends that the mandatory pre-censorship of theatrical scripts is […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "**Samik Basu IV. The Existing Regime in Gujarat & Maharashtra Having traced the colonial origins of prior restraint and how courts elsewhere in India responded to it, Part 2 turns to the regime as it currently stands in Gujarat and Maharashtra, and argues that even if its procedural defects were cured, prior restraint on theatre […] The post The Curtain Must Fall appeared first on Vidhi Centre for Legal Policy.",
@@ -17431,48 +17431,6 @@
       "source_id": "sebi_regulations"
     },
     {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
-      "new_value": "Regulations: Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012 [Last amended on April 18, 2026]",
-      "source_id": "sebi_regulations"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
-      "new_value": "Regulations: Securities and Exchange Board of India (Real Estate Investment Trusts) Regulations, 2014 [Last amended on April 18, 2026]",
-      "source_id": "sebi_regulations"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
-      "new_value": "Regulations: Securities and Exchange Board of India (Real Estate Investment Trusts) (Amendment) Regulations, 2026",
-      "source_id": "sebi_regulations"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
-      "new_value": "Regulations: Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on April 17, 2026]",
-      "source_id": "sebi_regulations"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
-      "new_value": "Regulations: Securities and Exchange Board of India (Infrastructure Investment Trusts) (Amendment) Regulations, 2026",
-      "source_id": "sebi_regulations"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
-      "new_value": "Regulations: Securities and Exchange Board of India (Intermediaries) Regulations, 2008 [Last amended on April 16, 2026]",
-      "source_id": "sebi_regulations"
-    },
-    {
       "date": "2026-11-23",
       "field": "description",
       "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
@@ -17551,6 +17509,48 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
+      "new_value": "Regulations: Securities and Exchange Board of India (Intermediaries) Regulations, 2008 [Last amended on April 16, 2026]",
+      "source_id": "sebi_regulations"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
+      "new_value": "Regulations: Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012 [Last amended on April 18, 2026]",
+      "source_id": "sebi_regulations"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
+      "new_value": "Regulations: Securities and Exchange Board of India (Real Estate Investment Trusts) Regulations, 2014 [Last amended on April 18, 2026]",
+      "source_id": "sebi_regulations"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
+      "new_value": "Regulations: Securities and Exchange Board of India (Real Estate Investment Trusts) (Amendment) Regulations, 2026",
+      "source_id": "sebi_regulations"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
+      "new_value": "Regulations: Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on April 17, 2026]",
+      "source_id": "sebi_regulations"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
+      "new_value": "Regulations: Securities and Exchange Board of India (Infrastructure Investment Trusts) (Amendment) Regulations, 2026",
+      "source_id": "sebi_regulations"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, 2014 [Last amended on October 16, 2026]",
       "new_value": "Regulations: Securities and Exchange Board of India (Intermediaries) Regulations, 2008 [Last amended on April 16, 2026]",
@@ -18429,20 +18429,6 @@
       "source_id": "who_india_new"
     },
     {
-      "date": "2026-11-16",
-      "field": "description",
-      "old_value": "A WHO team supported the district health department in conducing house-to-house monitoring of children’s immunization status in Kaiho village in Wakka block. Caregivers were counselled on availing vaccination services as per the recommended immunization schedule. The activity strengthened monitoring coverage in scattered and hard-to-reach settlements and reinforced caregiver awareness about the benefits of immunization. (© WHO India / Kamhang Sumyan)",
-      "new_value": "A WHO team and the district reproductive and child health officer, Longding, conducted joint house-to-house monitoring in Pamtong village, Niaussa block, to verify vaccination coverage during the Intensified Pulse Polio Immunization (IPPI) end-of-round survey. Following WHO-supported monitoring in March 2026, the state government identified Pamtong as a “missed area” and subsequently incorporated into routine immunization and IPPI micro-plans. The village is now included in all state and distric",
-      "source_id": "who_india_new"
-    },
-    {
-      "date": "2026-11-16",
-      "field": "type",
-      "old_value": "analysis",
-      "new_value": "report",
-      "source_id": "who_india_new"
-    },
-    {
       "date": "2026-11-17",
       "field": "description",
       "old_value": "A WHO team supported the district health department in conducing house-to-house monitoring of children’s immunization status in Kaiho village in Wakka block. Caregivers were counselled on availing vaccination services as per the recommended immunization schedule. The activity strengthened monitoring coverage in scattered and hard-to-reach settlements and reinforced caregiver awareness about the benefits of immunization. (© WHO India / Kamhang Sumyan)",
@@ -18689,6 +18675,20 @@
     },
     {
       "date": "2026-11-23",
+      "field": "type",
+      "old_value": "analysis",
+      "new_value": "report",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "A WHO team supported the district health department in conducing house-to-house monitoring of children’s immunization status in Kaiho village in Wakka block. Caregivers were counselled on availing vaccination services as per the recommended immunization schedule. The activity strengthened monitoring coverage in scattered and hard-to-reach settlements and reinforced caregiver awareness about the benefits of immunization. (© WHO India / Kamhang Sumyan)",
+      "new_value": "A WHO team and the district reproductive and child health officer, Longding, conducted joint house-to-house monitoring in Pamtong village, Niaussa block, to verify vaccination coverage during the Intensified Pulse Polio Immunization (IPPI) end-of-round survey. Following WHO-supported monitoring in March 2026, the state government identified Pamtong as a “missed area” and subsequently incorporated into routine immunization and IPPI micro-plans. The village is now included in all state and distric",
+      "source_id": "who_india_new"
+    },
+    {
+      "date": "2026-11-24",
       "field": "type",
       "old_value": "analysis",
       "new_value": "report",
@@ -20768,62 +20768,6 @@
   ],
   "a7daa9ed7626": [
     {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "THE 23rd LAW COMMISSION | Gazette_Notification",
-      "source_id": "law_commission"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Gazette notification extension of the term of the Twenty-second Law Commission of India upto 31st August, 2024.",
-      "source_id": "law_commission"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Central Information Commission Internship Scheme- 2018",
-      "source_id": "cic"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The National Accreditation Board for Hospitals and Healthcare Providers (NABH) and the Indian Pharmacopoeia Commission (IPC) have established a collaborative initiative aimed at strengthening the reporting mechanisms for Adverse Drug Reactions (ADR) and Medical Device Adverse Events (MDAE) within NABH-accredited hospitals.",
-      "source_id": "nabh"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "The Commission of Railway Safety, Ministry of Civil Aviation, invites deputation applications for one Senior Inspector…",
-      "source_id": "ecgov"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "What Are Interrogatories? Explained Amid INDIA Bloc's Plea To Question Election Commission On SIR",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Through the interrogatories, the petitioners want the decision making process to be made public",
-      "source_id": "policyradar"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
-      "new_value": "Gazette_Notification : Appointment of Hon’ble Chairperson and Members of 23rd Law Commission of India",
-      "source_id": "law_commission"
-    },
-    {
       "date": "2026-11-23",
       "field": "description",
       "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
@@ -20902,6 +20846,62 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Gazette notification extension of the term of the Twenty-second Law Commission of India upto 31st August, 2024.",
+      "source_id": "law_commission"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Central Information Commission Internship Scheme- 2018",
+      "source_id": "cic"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Topic: issues and challenges pertaining to the federal structure Q4. Assess the role of the Finance Commission in maintaining fiscal balance within India’s federal structure. Examine the emerging challenges confronting the Sixteenth Finance Commission in reconciling equity, efficiency and fiscal autonomy. (15 M) Difficulty Level: Medium Reference: InsightsIAS Why the question The 16th Finance Commission’s … Continue reading \"Assess the role of the Finance Commission in maintain",
+      "source_id": "insights_ias"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The National Accreditation Board for Hospitals and Healthcare Providers (NABH) and the Indian Pharmacopoeia Commission (IPC) have established a collaborative initiative aimed at strengthening the reporting mechanisms for Adverse Drug Reactions (ADR) and Medical Device Adverse Events (MDAE) within NABH-accredited hospitals.",
+      "source_id": "nabh"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "The Commission of Railway Safety, Ministry of Civil Aviation, invites deputation applications for one Senior Inspector…",
+      "source_id": "ecgov"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Rajasthan Panchayat State Election Commission Results 2026: Check Zila Parishad, Panchayat Samiti and Sarpanch results online at sec.rajasthan.gov.in    The Indian Express",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "Gazette_Notification : Appointment of Hon’ble Chairperson and Members of 23rd Law Commission of India",
+      "source_id": "law_commission"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
+      "new_value": "THE 23rd LAW COMMISSION | Gazette_Notification",
+      "source_id": "law_commission"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "The post The Commission and Us appeared first on Vidhi Centre for Legal Policy.",
       "new_value": "Gazette notification extension of the term of the Twenty-second Law Commission of India upto 31st August, 2024.",
@@ -22495,13 +22495,6 @@
       "field": "description",
       "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
       "new_value": "Government of India press release: Data Users Conference on the New Series of Gross Domestic Product (GDP), Consumer Price Index (CPI) and Index of Industrial Production (IIP) Held in Mumbai on 23 November 2026",
-      "source_id": "pib_tourism"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
-      "new_value": "Government of India press release: Data Users Conference on the New Series of Gross Domestic Product (GDP), Consumer Price Index (CPI) and Index of Industrial Production (IIP) Held in Mumbai on 23 November 2026",
       "source_id": "pib_youth_affairs_and_sports"
     },
     {
@@ -22629,6 +22622,13 @@
       "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
       "new_value": "Government of India press release: Data Users Conference on the New Series of Gross Domestic Product (GDP), Consumer Price Index (CPI) and Index of Industrial Production (IIP) Held in Mumbai on 23 November 2026",
       "source_id": "pib_competition_commission_of_india"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Mumbai nitinkumar Thu, 11/05/2026 - 16:05 File Download (8.57 MB) QoS Quarter September Qos Report Type IDT Report Date of Release Thu, 11/05/2026 - 12:00 Service area Mumbai Months September Year 2026",
+      "new_value": "RBI Governor meets UCB, NBFC and HFC heads in Mumbai; Stresses governance and cyber resilience    The Tribune",
+      "source_id": "policyradar"
     }
   ],
   "cf1abda3c754": [
@@ -24797,41 +24797,6 @@
       "source_id": "ibbi"
     },
     {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Ms. Aparna Sinha as ex-officio member in the Insolvency and Bankruptcy Board of India (319.91 KB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Shri Ashutosh Mishra as ex-officio member in the Insolvency and Bankruptcy Board of India (325.24 KB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Dr. Anju Rathi Rana as ex-officio member in the Insolvency and Bankruptcy Board of India (495.57 KB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Mr. L. V. Prabhakar as Part-Time Member in Insolvency and Bankruptcy Board of India (1.69 MB)",
-      "source_id": "ibbi"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
-      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
-      "source_id": "ibbi"
-    },
-    {
       "date": "2026-11-23",
       "field": "description",
       "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
@@ -24896,6 +24861,41 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Ms. Aparna Sinha as ex-officio member in the Insolvency and Bankruptcy Board of India (319.91 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Shri Ashutosh Mishra as ex-officio member in the Insolvency and Bankruptcy Board of India (325.24 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Dr. Anju Rathi Rana as ex-officio member in the Insolvency and Bankruptcy Board of India (495.57 KB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
+      "new_value": "Appointment of Mr. L. V. Prabhakar as Part-Time Member in Insolvency and Bankruptcy Board of India (1.69 MB)",
+      "source_id": "ibbi"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India. (560.62 KB)",
       "new_value": "Appointment of Part-Time Members in Insolvency and Bankruptcy Board of India (890.99 KB)",
@@ -25517,6 +25517,13 @@
       "old_value": "Circular: Clarifications on implementation of Indian Accounting Standards",
       "new_value": "Circular: Clarifications on implementation of Indian Accounting Standards (Ind AS)",
       "source_id": "irdai_circulars"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Circular: Clarifications on implementation of Indian Accounting Standards",
+      "new_value": "Circular: Clarifications on implementation of Indian Accounting Standards (Ind AS)",
+      "source_id": "irdai_circulars"
     }
   ],
   "3732428f0625": [
@@ -25613,6 +25620,13 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Circular: Extension of Transitional Arrangements for Payment of Annual Fee and Issuance of Certificate of Registration",
+      "new_value": "Circular: Transitional arrangements for payment of Annual Fee and issuance  of  Certificate  of  Registration (Intermediaries)",
+      "source_id": "irdai_circulars"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Circular: Extension of Transitional Arrangements for Payment of Annual Fee and Issuance of Certificate of Registration",
       "new_value": "Circular: Transitional arrangements for payment of Annual Fee and issuance  of  Certificate  of  Registration (Intermediaries)",
@@ -25761,41 +25775,6 @@
       "source_id": "cic"
     },
     {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
-      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
-      "source_id": "cic"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
-      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
-      "source_id": "cic"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
-      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
-      "source_id": "cic"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
-      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
-      "source_id": "cic"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
-      "new_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline",
-      "source_id": "cic"
-    },
-    {
       "date": "2026-11-23",
       "field": "description",
       "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
@@ -25860,6 +25839,41 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
+      "new_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline",
+      "source_id": "cic"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
+      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
+      "source_id": "cic"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
+      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
+      "source_id": "cic"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
+      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
+      "source_id": "cic"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
+      "new_value": "Circular - Submission of Transparency Audit for the Year 2025-26 - Timeline revised",
+      "source_id": "cic"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline revised",
       "new_value": "Circular - Submission of Quarterly Returns for the Year 2025-26 - Timeline",
@@ -26668,36 +26682,6 @@
       "source_id": "ibef"
     }
   ],
-  "649bcbe3ea07": [
-    {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "Q8. What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. (10 M) The post What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "Q8. What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. (10 M) The post What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Q8. What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. (10 M) The post What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "Q8. What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. (10 M) The post What is meant by a just transition in the context of climate change? Explain the challenges involved in ensuring an equitable transition in India’s coal-dependent regions. appeared first on INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation.",
-      "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
-      "source_id": "unicef_india"
-    }
-  ],
   "df2f01d170c4": [
     {
       "date": "2026-11-22",
@@ -26838,50 +26822,6 @@
       "old_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah to participate in Cooperative Function and launch various development projects of Arunachal Pradesh at Itanagar on November 22, 2026",
       "new_value": "Government of India press release: Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates 12th Batta...",
       "source_id": "state_pib_punjab"
-    }
-  ],
-  "8f5cdee9d85d": [
-    {
-      "date": "2026-11-21",
-      "field": "description",
-      "old_value": "As many as 120 students from two schools each in Kozhikode and Wayanad districts completed the workshop. Over eight sessions, the students used creative and reflective activities to deepen their understanding of climate risks, disaster preparedness and community resilience",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "As many as 120 students from two schools each in Kozhikode and Wayanad districts completed the workshop. Over eight sessions, the students used creative and reflective activities to deepen their understanding of climate risks, disaster preparedness and community resilience",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "As many as 120 students from two schools each in Kozhikode and Wayanad districts completed the workshop. Over eight sessions, the students used creative and reflective activities to deepen their understanding of climate risks, disaster preparedness and community resilience",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-11-22",
-      "field": "description",
-      "old_value": "As many as 120 students from two schools each in Kozhikode and Wayanad districts completed the workshop. Over eight sessions, the students used creative and reflective activities to deepen their understanding of climate risks, disaster preparedness and community resilience",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "As many as 120 students from two schools each in Kozhikode and Wayanad districts completed the workshop. Over eight sessions, the students used creative and reflective activities to deepen their understanding of climate risks, disaster preparedness and community resilience",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
-    },
-    {
-      "date": "2026-11-23",
-      "field": "description",
-      "old_value": "As many as 120 students from two schools each in Kozhikode and Wayanad districts completed the workshop. Over eight sessions, the students used creative and reflective activities to deepen their understanding of climate risks, disaster preparedness and community resilience",
-      "new_value": "The Telegraph, Guwahati, May 16, 2012",
-      "source_id": "cuts_international"
     }
   ],
   "e6c084029048": [
@@ -27063,6 +27003,13 @@
       "old_value": "‘Our teams have drawn up a detailed roadmap of cooperation, so we will be approving that today, and I think that will give a very clear pathway to our activities ahead,’ said S. Jaishankar",
       "new_value": "External Affairs Minister S Jaishankar holds talks with his Bulgarian counterpart Velislava Petrova at the Hyderabad House in Delhi",
       "source_id": "business_line"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "‘Our teams have drawn up a detailed roadmap of cooperation, so we will be approving that today, and I think that will give a very clear pathway to our activities ahead,’ said S. Jaishankar",
+      "new_value": "External Affairs Minister S Jaishankar holds talks with his Bulgarian counterpart Velislava Petrova at the Hyderabad House in Delhi",
+      "source_id": "business_line"
     }
   ],
   "babd41cd32a2": [
@@ -27100,6 +27047,13 @@
     },
     {
       "date": "2026-11-23",
+      "field": "description",
+      "old_value": "Comprising nine districts spread across 44,817 sq. km and a GSDP valued at ₹6.23 lakh crore, the CRDA and its partners, LASA (Lea Associates South Asia) and PwC India, are advancing the AER Plan with a target to give it the final shape by July 2027",
+      "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
+      "source_id": "epod_harvard"
+    },
+    {
+      "date": "2026-11-24",
       "field": "description",
       "old_value": "Comprising nine districts spread across 44,817 sq. km and a GSDP valued at ₹6.23 lakh crore, the CRDA and its partners, LASA (Lea Associates South Asia) and PwC India, are advancing the AER Plan with a target to give it the final shape by July 2027",
       "new_value": "Conducting innovative research on economic growth and development policies to foster inclusive prosperity.",
@@ -27188,15 +27142,13 @@
       "old_value": "India has witnessed a fundamental shift from temporary relief to removing the barriers that perpetuate poverty.",
       "new_value": "The next step is to expand access to finance, markets and digital opportunities on the path to Viksit Bharat by 2047.",
       "source_id": "mint_opinion"
-    }
-  ],
-  "2ef7f5ded15e": [
+    },
     {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "field": "description",
-      "old_value": "The Insights IAS Secure Initiative for UPSC Mains Answer Writing practice enables you to practice daily answer writing, enhancing your skills and boosting your scores with regular feedback, expert tips, and strategies. Let consistency be the hallmark of your preparation and utilize UPSC Mains Answer Writing practice initiative wisely   Click on EACH question to … Continue reading \"UPSC Mains Answer Writing Practice – Insights Mini SECURE: 21 November 2026\" The post UPSC Mains Answer W",
-      "new_value": "The Insights IAS Secure Initiative for UPSC Mains Answer Writing practice enables you to practice daily answer writing, enhancing your skills and boosting your scores with regular feedback, expert tips, and strategies. Let consistency be the hallmark of your preparation and utilize UPSC Mains Answer Writing practice initiative wisely   Click on EACH question to … Continue reading \"UPSC Mains Answer Writing Practice – Insights SECURE: 23 November 2026\" The post UPSC Mains Answer Writin",
-      "source_id": "insights_ias"
+      "old_value": "India has witnessed a fundamental shift from temporary relief to removing the barriers that perpetuate poverty.",
+      "new_value": "The next step is to expand access to finance, markets and digital opportunities on the path to Viksit Bharat by 2047.",
+      "source_id": "mint_opinion"
     }
   ],
   "6f05c74c7c4b": [
@@ -27288,6 +27240,13 @@
       "old_value": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a second Variable Rate Repo (VRR) auction on Monday, November 23, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 2 10:30 AM to 11:00 AM November 25, 2026 (Wednesday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad",
       "new_value": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Wednesday, November 25, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM November 26, 2026(Thursday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022. Ajit Prasad",
       "source_id": "rbi"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a second Variable Rate Repo (VRR) auction on Monday, November 23, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 2 10:30 AM to 11:00 AM November 25, 2026 (Wednesday) 2. The operational guidelines for the auction will be same as given in Reserve Bank’s Press Release 2021-2022/1572 dated January 20, 2022.Ajit Prasad",
+      "new_value": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Wednesday, November 25, 2026, as under: Sl. No.",
+      "source_id": "policyradar"
     }
   ],
   "cd0d4c9edfdb": [
@@ -27306,6 +27265,77 @@
       "old_value": "Why has Parliament not been prorogued after adjournment sine die? Can the Houses reconvene without it?",
       "new_value": "We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged!",
       "source_id": "unicef_india"
+    }
+  ],
+  "0478f35b1513": [
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Government of India press release: MoSJE Pavilion at 45th IITF 2026 Records Cumulative Sales of Approximately ₹1.16 Crore As on Nov 22, 2026",
+      "new_value": "Government of India press release: MoSJE Pavilion at 45th IITF 2026 Records Cumulative Sales of Approximately ₹1.16 Cror...",
+      "source_id": "state_pib_karnataka"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "Government of India press release: MoSJE Pavilion at 45th IITF 2026 Records Cumulative Sales of Approximately ₹1.16 Crore As on Nov 22, 2026",
+      "new_value": "Government of India press release: MoSJE Pavilion at 45th IITF 2026 Records Cumulative Sales of Approximately ₹1.16 Cror...",
+      "source_id": "state_pib_punjab"
+    }
+  ],
+  "782fee719d6b": [
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The Insights IAS Secure Initiative for UPSC Mains Answer Writing practice enables you to practice daily answer writing, enhancing your skills and boosting your scores with regular feedback, expert tips, and strategies. Let consistency be the hallmark of your preparation and utilize UPSC Mains Answer Writing practice initiative wisely   Click on EACH question to … Continue reading \"UPSC Mains Answer Writing Practice – Insights SECURE: 23 November 2026\" The post UPSC Mains Answer Writin",
+      "new_value": "The Insights IAS Secure Initiative for UPSC Mains Answer Writing practice enables you to practice daily answer writing, enhancing your skills and boosting your scores with regular feedback, expert tips, and strategies. Let consistency be the hallmark of your preparation and utilize UPSC Mains Answer Writing practice initiative wisely   Click on EACH question to … Continue reading \"UPSC Mains Answer Writing Practice – Insights SECURE: 24 November 2026\" The post UPSC Mains Answer Writin",
+      "source_id": "insights_ias"
+    }
+  ],
+  "e58d34d15e29": [
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "As part of the Reserve Bank’s ongoing engagement with regulated entities, the Governor, Reserve Bank of India, today met in Mumbai with the Managing Directors and Chief Executive Officers (MDs & CEOs) of select Non-Banking Financial Companies (NBFCs), including Government NBFCs, Housing Finance Companies (HFCs) and Microfinance Institutions. Representatives of Sa-Dhan, the Micro Finance Institutions Network (MFIN) and the Finance Industry Development Council (FIDC) also participated. D",
+      "new_value": "As part of the Reserve Bank s ongoing engagement with regulated entities, the Governor, Reserve Bank of India, today met in Mumbai with the Managing Directors and Chief Executive Officers (MDs...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "As part of the Reserve Bank’s ongoing engagement with regulated entities, the Governor, Reserve Bank of India, today met in Mumbai with the Managing Directors and Chief Executive Officers (MDs & CEOs) of select Non-Banking Financial Companies (NBFCs), including Government NBFCs, Housing Finance Companies (HFCs) and Microfinance Institutions. Representatives of Sa-Dhan, the Micro Finance Institutions Network (MFIN) and the Finance Industry Development Council (FIDC) also participated. D",
+      "new_value": "As part of the Reserve Bank of India's continued engagement with regulated entities, the Governor today met in Mumbai with the Chairpersons and Managing Directors   Chief Executive Officers (MDs...",
+      "source_id": "policyradar"
+    }
+  ],
+  "c81b1fc0b35c": [
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had, on July 27, 2026, issued the Draft (Securitisation Transactions) Amendment Directions for stakeholder feedback. 2. Feedback received on the draft Directions has been examined and consequent modifications, as deemed appropriate, have been suitably incorporated in the final Directions. A statement on the feedback received on the draft Directions is provided in the Annex. 3. Accordingly, the Reserve Bank has today issued the final Amendment Directions as given below:",
+      "new_value": "RBI/2026-27/304 DOR.STR.REC.256/21-04-177/2026-27 November 23, 2026 Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had, on July 27, 2026, issued the Draft (Securitisation Transactions) Amendment Directions for stakeholder feedback. 2. Feedback received on the draft Directions has been examined and consequent modifications, as deemed appropriate, have been suitably incorporated in the final Directions. A statement on the feedback received on the draft Directions is provided in the Annex. 3. Accordingly, the Reserve Bank has today issued the final Amendment Directions as given below:",
+      "new_value": "RBI/2026-27/305 DOR.STR.REC.257/21-04-177/2026-27 November 23, 2026 Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had, on July 27, 2026, issued the Draft (Securitisation Transactions) Amendment Directions for stakeholder feedback. 2. Feedback received on the draft Directions has been examined and consequent modifications, as deemed appropriate, have been suitably incorporated in the final Directions. A statement on the feedback received on the draft Directions is provided in the Annex. 3. Accordingly, the Reserve Bank has today issued the final Amendment Directions as given below:",
+      "new_value": "RBI/2026-27/306 DOR.STR.REC.258/21-04-177/2026-27 November 23, 2026 Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions...",
+      "source_id": "policyradar"
+    },
+    {
+      "date": "2026-11-24",
+      "field": "description",
+      "old_value": "The Reserve Bank of India had, on July 27, 2026, issued the Draft (Securitisation Transactions) Amendment Directions for stakeholder feedback. 2. Feedback received on the draft Directions has been examined and consequent modifications, as deemed appropriate, have been suitably incorporated in the final Directions. A statement on the feedback received on the draft Directions is provided in the Annex. 3. Accordingly, the Reserve Bank has today issued the final Amendment Directions as given below:",
+      "new_value": "RBI/2026-27/307 DOR.STR.REC.259/21-04-177/2026-27 November 23, 2026 Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions...",
+      "source_id": "policyradar"
     }
   ]
 }
